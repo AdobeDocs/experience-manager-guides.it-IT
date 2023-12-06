@@ -1,0 +1,25 @@
+---
+title: Configurare il salvataggio automatico dei file nell’editor web
+description: Scopri come configurare il salvataggio automatico dei file nell’editor web
+exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
+source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
+
+---
+
+# Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
+
+Una delle funzioni più comuni nell’editor basato su browser è la possibilità di salvare i dati dopo un periodo di tempo specifico. L&#39;editor Web delle guide AEM supporta inoltre il salvataggio automatico dei file argomento e mappa nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
+
+La funzione di salvataggio automatico non è abilitata per impostazione predefinita ed è necessario abilitarla utilizzando il file di configurazione.
+
+Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare l’intervallo di tempo per il salvataggio automatico e il salvataggio automatico del file:
+
+| PID | Chiave proprietà | Valore proprietà |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booleano \(true/false\).<br> **Valore predefinito**: false |
+| `xmleditor.autosaveinterval` | Specifica l’intervallo di tempo in secondi per attivare la funzione di salvataggio automatico. |
+
+**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)

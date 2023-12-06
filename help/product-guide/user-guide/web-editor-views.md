@@ -1,0 +1,152 @@
+---
+title: Visualizzazioni dell’editor web
+description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare i markup di rilevamento delle modifiche ed esportare un argomento come PDF nelle guide AEM.
+exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
+source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 0%
+
+---
+
+# Visualizzazioni dell’editor web {#id204GK0D0V5Z}
+
+L’editor web delle guide AEM supporta la visualizzazione di documenti in tre diverse modalità o visualizzazioni:
+
+## Autore
+
+Si tratta di una visualizzazione tipica di What You See is What You Get \(WYSISYG\) dell&#39;editor Web. È possibile modificare l&#39;argomento come in qualsiasi normale editor Rich Text. Nella visualizzazione Autore sono disponibili le opzioni per salvare una revisione del documento, trovare e sostituire il contenuto, inserire un elemento, inserire un collegamento ipertestuale, inserire un riferimento al contenuto e altro ancora.
+
+>[!NOTE]
+>
+> Quando utilizzi il riferimento al contenuto, il contenuto a cui si fa riferimento viene visualizzato anche nella vista Autore in blu. Il contenuto a cui si fa riferimento non è modificabile.
+
+## Sorgente
+
+Nella visualizzazione Origine viene visualizzato il codice XML sottostante che costituisce l&#39;argomento. Se si ha familiarità con l&#39;utilizzo diretto di XML, utilizzare la visualizzazione Origine. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, è possibile aggiungere elementi e attributi utilizzando lo Smart Catalog oppure trovare e sostituire testo, elementi o attributi.
+
+- Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi tag elemento nel punto in cui si desidera inserire il nuovo elemento e immettere &quot;&lt;&quot;. Nell&#39;editor viene visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione. Utilizzare i tasti di direzione per selezionare l&#39;elemento che si desidera inserire e premere Invio. Quando si immette la parentesi quadra di chiusura &quot;\>, il tag di chiusura dell&#39;elemento viene aggiunto automaticamente.
+
+  ![](images/smart-catalog-elements.png){width="400" align="left"}
+
+- Puoi anche modificare facilmente un elemento dalla vista Origine. Ad esempio, se modifichi il tag di apertura di una `p` elemento a `note`, quindi la chiusura `p` viene modificato automaticamente in `/note`. Se sostituisci un elemento con un elemento non corretto, viene immediatamente visualizzato l’Errore di convalida.
+
+- Per aggiungere un attributo a un elemento, posizionare il cursore all&#39;interno del tag elemento e premere la barra spaziatrice. Un elenco di attributi validi per tale elemento viene visualizzato nello Smart Catalog. Utilizza i tasti freccia per selezionare l’elemento desiderato e premi Invio per inserirlo. Per specificare un valore per l&#39;attributo, immettere il segno di uguale \(=\) e l&#39;editor immette automaticamente le virgolette di apertura e chiusura &quot;&quot; in cui è possibile specificare il valore dell&#39;attributo.
+
+  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+
+- Nella vista Origine è disponibile un&#39;opzione Rientro automatico che consente di riorganizzare il codice XML in un formato presentabile e facilmente leggibile. Inoltre, se si seleziona un testo e si passa dalla visualizzazione Autore alla visualizzazione Origine o dalla visualizzazione Origine alla visualizzazione Autore, il testo selezionato viene evidenziato anche nell&#39;altra visualizzazione.
+- Un&#39;altra caratteristica avanzata della visualizzazione Origine è la convalida XML nel documento. Se si apre un documento contenente XML non valido, questo verrà aperto nella visualizzazione Origine con le informazioni relative a XML non valido. Ad esempio, nella schermata seguente vengono fornite informazioni esatte sull&#39;XML errato nel pop-up Errore di analisi.
+
+  ![](images/invalid-topic-xml.png){width="650" align="left"}
+
+  Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
+
+- La funzione Trova e sostituisci consente di cercare qualsiasi testo, elemento o attributo nella vista origine.
+Per ulteriori dettagli, vedi **Trova e sostituisci** descrizione della funzione in [Barra degli strumenti principale](web-editor-features.md#id#id2051EA0G05Z) sezione.
+
+- La visualizzazione Origine offre numerose scelte rapide per spostarsi rapidamente all&#39;interno di un documento e lavorarvi. Nella tabella seguente sono elencate le azioni supportate e i relativi tasti di scelta rapida:
+
+  | Per eseguire questa operazione | Usa questa scelta rapida |
+  |----------|-----------------|
+  | Aggiungere più cursori | **Ctrl**+Clic sinistro |
+  | Più selezioni di testo non consecutive | **Ctrl**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
+  | Seleziona testo su e tra le righe | **Alt**+Fare clic con il pulsante sinistro del mouse per trascinare e selezionare il testo |
+  | Annulla la selezione multipla o esci dalla modalità a schermo intero | **Esc** |
+  | Mostra completamento automatico | **Ctrl**+**Spazio** |
+  | Passa al tag di apertura o chiusura del tag corrente | **Ctrl**+**J** |
+  | Espandere o comprimere il tag corrente e il relativo contenuto | **Ctrl**+**Q** |
+  | Seleziona l’elemento corrente e il relativo contenuto | **Ctrl**+**L** |
+  | Applicare un rientro negativo all&#39;elemento corrente | **Maiusc**+**Linguetta** |
+  | Elimina l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**K** |
+  | Sposta il cursore di una parola a sinistra | **Alt**+**Freccia sinistra** |
+  | Sposta il cursore di una parola verso destra | **Alt**+**Freccia destra** |
+  | Scorri di una riga verso l&#39;alto senza modificare la posizione del cursore | **Ctrl**+**Freccia Su** |
+  | Scorri di una riga verso il basso senza modificare la posizione del cursore | **Ctrl**+**Freccia giù** |
+  | Attiva/disattiva schermo intero | **F11** |
+  | Inserisci una nuova riga dopo l&#39;elemento corrente | **Ctrl**+**Invio** |
+  | Inserisci una nuova riga prima dell&#39;elemento corrente | **Maiusc**+**Ctrl**+**Invio** |
+  | Trova e seleziona l&#39;occorrenza successiva della parola corrente | **Ctrl**+**D** |
+  | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento in alto | **Maiusc**+**Ctrl**+**Freccia Su** |
+  | Sposta l&#39;elemento corrente e il relativo contenuto di un elemento verso il basso | **Maiusc**+**Ctrl**+**Freccia giù** |
+  | Racchiudi l’elemento corrente nel tag commento | **Ctrl**+**/** |
+  | Duplica l’elemento corrente e il relativo contenuto | **Maiusc**+**Ctrl**+**D** |
+  | Elimina il testo dopo il cursore. Se il cursore si trova prima di un elemento di apertura, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**K** |
+  | Elimina il testo a sinistra del cursore nella riga corrente. Se il cursore si trova dopo il tag di chiusura di un elemento, l&#39;intero elemento viene eliminato. | **Ctrl**+**K**+**Backspace** |
+  | Converti il testo corrente in maiuscolo | **Ctrl**+**K**+**U** |
+  | Converti il testo corrente in minuscolo | **Ctrl**+**K**+**L** |
+  | Scorri l’elemento corrente fino al centro dell’editor | **Ctrl**+**K**+**C** |
+  | Aggiungi un cursore sopra la posizione corrente | **Ctrl**+**Alt**+**Freccia Su** |
+  | Aggiungi un cursore sotto la posizione corrente | **Ctrl**+**Alt**+**Freccia giù** |
+  | Trova in modo ricorsivo la parola corrente \(in avanti\) | **Ctrl**+**F3** |
+  | Trova in modo ricorsivo la parola corrente \(in direzione indietro\) | **Maiusc**+**Ctrl**+**F3** |
+
+
+## Anteprima
+
+Quando si apre un argomento in modalità Anteprima, viene illustrato come verrà visualizzato un argomento quando viene visualizzato da un utente nel browser. Nel caso di una mappa DITA, viene visualizzata un&#39;anteprima della mappa in cui viene visualizzato un singolo documento composito di tutti gli argomenti all&#39;interno della mappa.
+
+La modalità Anteprima offre le seguenti funzionalità:
+
+- [Visualizzare il contenuto in base ai filtri condizionali](#id2114BI00VXA)
+- [Visualizzare le revisioni delle revisioni](#id2114BJ00CE8)
+- [Esportare un argomento come PDF](#id2114BL00B5U)
+
+### Visualizzare il contenuto in base ai filtri condizionali {#id2114BI00VXA}
+
+Se nell&#39;argomento o nella mappa sono state utilizzate condizioni, queste vengono visualizzate nel pannello Filtri. Per impostazione predefinita, vengono selezionate tutte le condizioni e viene visualizzato l’intero contenuto. Se deselezioni una condizione, il contenuto con tale condizione viene rimosso dalla visualizzazione. Puoi anche scegliere di evidenziare il contenuto condizionale.
+
+Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Product`. Il contenuto condizionale viene evidenziato con sfondo giallo.
+
+![](images/preview-filters.png){width="800" align="left"}
+
+### Visualizzare le revisioni delle revisioni {#id2114BJ00CE8}
+
+Se un documento contiene marcature di revisione \(o indicazioni visive\), è possibile anche visualizzare l&#39;anteprima del documento con o senza tali marcature. Durante l’anteprima di un documento, il pannello di destra contiene le opzioni Filtri e Tracciamento.
+
+![](images/preview-tracking_cs.png){width="400" align="left"}
+
+Sono tre **Tracciamento** opzioni disponibili:
+
+- **Nessun markup**: in questa visualizzazione, tutte le operazioni di inserimento ed eliminazione vengono accettate e viene visualizzata una visualizzazione semplice del documento. In questa visualizzazione non vengono visualizzati i markup di rilevamento delle modifiche.
+- **Originale**: in questa vista, tutti gli inserimenti vengono rifiutati e tutte le eliminazioni vengono ripristinate; viene quindi visualizzata un’anteprima. È sufficiente ottenere il modulo originale del documento prima di attivare la modalità di rilevamento delle modifiche.
+- **Mostra markup**: in questa visualizzazione, si ottengono tutte le marcature per il contenuto inserito ed eliminato.
+
+  L&#39;immagine seguente mostra l&#39;anteprima di un file di mappa con le marcature:
+
+  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+
+
+### Esportare un argomento come PDF {#id2114BL00B5U}
+
+PDF è uno dei formati di output più comuni utilizzati in tutte le fasi possibili del ciclo di sviluppo dei documenti. Le guide AEM offrono la flessibilità di generare le PDF di un singolo argomento o di un intero file di mappa. La funzione Esporta come PDF consente all&#39;autore, al publisher o all&#39;amministratore di generare facilmente l&#39;output PDF per un singolo argomento. Utilizza le configurazioni DITA-OT salvate nel profilo a livello di cartella per generare il PDF.
+
+Questa funzione supporta le seguenti funzionalità:
+
+- Genera il PDF della copia di lavoro attiva di un argomento.
+- Accettare il nome della trasformazione DITA-OT e gli argomenti della riga di comando per generare il PDF.
+- Salva l&#39;output generato nel sistema locale.
+- Risolvi i riferimenti a chiave e contenuto utilizzati nell’argomento prima di generare l’output.
+
+Per esportare un argomento come PDF, effettuare le seguenti operazioni:
+
+1. Aprire l&#39;argomento in modalità Anteprima.
+
+1. Fai clic su **Esporta come PDF** \(![](images/export-as-pdf-icon.svg)\).
+
+   Viene visualizzata la finestra di dialogo Esporta come PDF.
+
+   ![](images/export-as-pdf-dialog.png){width="350" align="left"}
+
+1. *\(Facoltativo\)* Specificare il nome della trasformazione DITA-OT ed eventuali argomenti della riga di comando che si desidera utilizzare.
+
+1. Fai clic su **Scarica**.
+
+   >[!NOTE]
+   >
+   > Assicurati di aver attivato la finestra pop-up nella configurazione del browser, altrimenti il PDF non verrà scaricato.
+
+   Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF sul sistema locale.
+
+
+**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

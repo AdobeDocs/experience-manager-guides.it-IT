@@ -1,0 +1,58 @@
+---
+source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 1%
+
+---
+# Installare e configurare Adobe Experience Manager Guides as a Cloud Service
+
+- [Liberatoria](rebranding-disclaimer.md)
+- [Informazioni su questa guida](introduction.md)
+- [Scarica e installa](download-install.md)
+   - [Distribuire il modulo AEM Guides](download-install-dxml-first-time.md)
+   - [Configurare Dispatcher](download-install-configure-dispatcher.md)
+   - [Verificare l&#39;installazione delle guide AEM](download-install-verify-dxml-installation.md)
+   - [Aggiornamento delle guide AEM](download-install-upgrade-dxml.md)
+   - [Sostituzioni configurazione](download-install-additional-config-override.md)
+   - [Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)
+- [Amministrazione degli utenti e sicurezza](user-admin-sec.md)
+- [Usa specializzazione DITA-OT e DITA personalizzata](dita-ot-specialization.md)
+- [Configurare gli stati dei documenti](customize-doc-state.md)
+- [Migrare i contenuti esistenti](migrate-content.md)
+   - [Carica contenuto DITA esistente](migrate-content-upload-existing-dita-content.md)
+   - [Migrare contenuti non DITA](migrate-content-non-dita.md)
+- [Configura nomi file](conf-file-names.md)
+   - [Configurare nomi di file automatici basati su UUID](conf-auto-uuid-filenames.md)
+   - [Configura Regx per caratteri validi per i nomi di file](conf-file-names-valid-regx.md)
+   - [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md)
+- [Configurare modelli di argomenti e mappe](conf-template-tags.md)
+   - [Configura modello di argomento DITA personalizzato](conf-template-tags-custom-dita-topic-template.md)
+   - [Configurare un modello di mappa DITA personalizzato](conf-template-tags-custom-dita-map-templates.md)
+- [Personalizza editor web](conf-web-editor.md)
+   - [Personalizza barra degli strumenti](conf-web-editor-customize-toolbar.md)
+   - [Configura il valore predefinito per la vista Tag](configure-default-value-tags-view.md)
+   - [Configurare la visualizzazione dei collegamenti basati su UUID](conf-uuid-based-links.md)
+   - [Aprire un argomento DITA o mappare i file nella stessa scheda](open-dita-files-same-tab.md)
+   - [Configurare un pannello personalizzato nel pannello a sinistra](configure-custom-panel.md)
+   - [Configurare il salvataggio automatico dei file nell’editor web](auto-save-in-editor.md)
+   - [Configura richiesta di salvataggio come nuova versione alla chiusura](conf-save-as-new-version-close.md)
+   - [Configurare la richiesta di archiviazione di un file alla chiusura](conf-checkin-file-close.md)
+   - [Configurare i caratteri speciali consentiti](conf-special-chars.md)
+   - [Genera automaticamente ID elemento](auto-generate-ids.md)
+   - [Personalizza dizionario predefinito AEM](customize-aem-custom-dictionary.md)
+   - [Configurare i filtri di testo](config-text-filters.md)
+   - [Configurare i filtri per la finestra di dialogo Sfoglia file](conf-custom-file-filters.md)
+   - [Installare pacchetti per la pubblicazione basata su articoli](configure-article-based-publishing.md)
+   - [Configurare la generazione di PDF con argomento singolo](conf-pdf-generation-dita-ot.md)
+   - [Configurare la funzione di traduzione nell’editor web](conf-translation-web-editor.md)
+   - [Imposta l&#39;Editor mappe avanzato come predefinito](conf-map-editor.md)
+   - [Includi attributo @navtitle per impostazione predefinita](auto-add-navtitle.md)
+- [Configurare profili globali o a livello di cartella](conf-folder-level.md)
+- [Gestione delle versioni](version-management.md)
+- [Configurare le impostazioni di generazione dell’output](conf-output-generation.md)
+- [Configurare e personalizzare i flussi di lavoro](customize-workflows.md)
+- [Tradurre il contenuto](translation.md)
+- [Configurare la ricerca per l’interfaccia utente di AEM Assets](conf-dita-search.md)
+- [Appendice](appendix.md)
+
