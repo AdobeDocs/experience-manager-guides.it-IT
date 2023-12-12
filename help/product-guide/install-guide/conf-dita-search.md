@@ -2,9 +2,9 @@
 title: Configurare la ricerca per l’interfaccia utente di AEM Assets
 description: Scopri come configurare la ricerca per l’interfaccia utente di AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ Per aggiungere un componente di ricerca basato su UUID nell’interfaccia utente
 
    - **Etichetta campo**: UUID
    - **Nome proprietà**: jcr:content/fmUuid
+
 1. Clic **Fine** per salvare le modifiche.
 
    Quando accedi all’opzione Filtri nell’interfaccia utente Assets, ottieni l’opzione Filtro ricerca basato su UUIS.
@@ -118,7 +119,7 @@ La configurazione di ricerca predefinita consente di cercare tutti gli elementi 
 >
 > Se desideri utilizzare la configurazione di ricerca predefinita all’interno del `prolog` , è possibile saltare questo processo.
 
-Questo file contiene due sezioni principali: set di attributi e set di regole. Di seguito è riportato uno snippet della sezione relativa al set di regole:
+Questo file contiene due set di attributi e set di regole per le sezioni principali. Di seguito è riportato uno snippet della sezione relativa al set di regole:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ Questo file contiene due sezioni principali: set di attributi e set di regole. D
 Nella sezione del set di regole puoi specificare:
 
 - Regole per estrarre gli elementi
-
 - Regole per estrarre gli attributi
 
 
