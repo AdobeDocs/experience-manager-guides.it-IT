@@ -1,9 +1,9 @@
 ---
 title: Convertire contenuti non UUID con versioni in contenuti UUID
 description: Scopri come migrare contenuti non UUID con versioni a contenuti UUID.
-source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
+source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ Esegui questi passaggi per migrare il contenuto con versione non UUID al contenu
 
 >[!NOTE]
 >
->Segui le istruzioni di aggiornamento in base alla tua versione prima di eseguire la migrazione alla versione UUID richiesta.
+>Segui le [istruzioni di aggiornamento](./upgrade-xml-documentation.md) specifico per la versione con licenza del prodotto.
 
 ## Matrice di compatibilità
 
@@ -26,10 +26,9 @@ Esegui questi passaggi per migrare il contenuto con versione non UUID al contenu
 
 ## Installazione del pacchetto
 
-Scarica i pacchetti richiesti da Adobe Software Distribution Portal, in base alla versione in uso, e installali:
+Scarica i pacchetti richiesti da Adobe Software Distribution Portal, in base alla versione:
 <details>
-<summary>  Pacchetti per la versione 4.1 </summary>
-Se utilizzi una versione 4.1 non UUID, devi installare la versione 4.1 UUID prima di installare i seguenti pacchetti:
+<summary>  Pacchetti per il percorso di aggiornamento versione 4.1</summary>
 
 1. **Pre-migrazione**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
 1. **Migrazione**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
@@ -37,8 +36,7 @@ Se utilizzi una versione 4.1 non UUID, devi installare la versione 4.1 UUID prim
 
 
 <details>
-<summary> Pacchetti per la versione 4.3.1</summary>
-Se utilizzi una versione 4.3 non UUID, devi installare la versione 4.3.1 UUID prima di installare i seguenti pacchetti:
+<summary> Pacchetti per il percorso di aggiornamento versione 4.3.1</summary>
 
 1. **Pre-migrazione**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
 1. **Migrazione**: [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
@@ -47,17 +45,18 @@ Se utilizzi una versione 4.3 non UUID, devi installare la versione 4.3.1 UUID pr
 
 ## Pre-migrazione
 
-1. (Facoltativo) Esegui la rimozione della versione del contenuto per rimuovere le versioni non necessarie e velocizzare il processo di migrazione. Per eseguire la rimozione delle versioni, selezionare l&#39;opzione **Pulizia versione** dalla schermata di migrazione e passa all’interfaccia utente utilizzando l’URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+Esegui i seguenti controlli sulla versione non UUID (4.1 non UUID o 4.3.0 non UUID):
 
-   >[!NOTE]
-   >
-   >Questa utility non rimuove le versioni utilizzate nelle linee di base o nelle revisioni né dispone di etichette.
 1. Installa il pacchetto di pre-migrazione in base alla versione.
 
    >[!NOTE]
    >
    >* Per eseguire la migrazione è necessaria l’autorizzazione di amministratore.
    >* Si consiglia di correggere i file con errori prima di procedere con la migrazione.
+1. (Facoltativo) Esegui la rimozione della versione del contenuto per rimuovere le versioni non necessarie e velocizzare il processo di migrazione. Per eseguire la rimozione delle versioni, selezionare l&#39;opzione **Pulizia versione** dalla schermata di migrazione e passa all’interfaccia utente utilizzando l’URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+   >[!NOTE]
+   >
+   >Questa utility non rimuove le versioni utilizzate nelle linee di base o nelle revisioni né dispone di etichette.
 1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Seleziona **Valutazione della compatibilità**  dal pannello a sinistra e sfoglia il percorso di una cartella.
 1. Controlla la compatibilità per elencare le seguenti informazioni:
@@ -100,7 +99,7 @@ Se utilizzi una versione 4.3 non UUID, devi installare la versione 4.3.1 UUID pr
 1. Disabilita la proprietà Abilita convalida (`validation.enabled`) nel servizio di assegnazione tag Day CQ.
 
 1. Assicurati che `uuid.regex` la cartella delle proprietà è impostata correttamente in `com.adobe.fmdita.config.ConfigManager`. Se è vuoto, impostalo sul valore predefinito - `^GUID-(?<id>.*)`.
-1. Aggiungi un logger separato per `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` La risposta del browser è disponibile anche all’indirizzo `/content/uuid-upgrade/logs`.
+1. Aggiungi un logger separato per `com.adobe.fmdita.uuid` La risposta del browser è disponibile anche all’indirizzo `/content/uuid-upgrade/logs`.
 
 ### Passaggio 2: eseguire la migrazione e convalidare
 
