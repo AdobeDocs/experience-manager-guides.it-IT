@@ -1,7 +1,7 @@
 ---
 title: Convertire contenuti non UUID con versioni in contenuti UUID
 description: Scopri come migrare contenuti non UUID con versioni a contenuti UUID.
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -53,19 +53,19 @@ Esegui i seguenti controlli sulla versione non UUID (4.1 non UUID o 4.3.0 non UU
    >
    >* Per eseguire la migrazione è necessaria l’autorizzazione di amministratore.
    >* Si consiglia di correggere i file con errori prima di procedere con la migrazione.
-1. (Facoltativo) Esegui la rimozione della versione del contenuto per rimuovere le versioni non necessarie e velocizzare il processo di migrazione. Per eseguire la rimozione delle versioni, selezionare l&#39;opzione **Pulizia versione** dalla schermata di migrazione e passa all’interfaccia utente utilizzando l’URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. (Facoltativo) Esegui la rimozione della versione del contenuto per rimuovere le versioni non necessarie e velocizzare il processo di migrazione. Per eseguire la rimozione delle versioni, selezionare l&#39;opzione
+   **Pulizia versione** dalla schermata di migrazione e passa all’interfaccia utente utilizzando l’URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Questa utility non rimuove le versioni utilizzate nelle linee di base o nelle revisioni né dispone di etichette.
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Seleziona **Valutazione della compatibilità**  dal pannello a sinistra e sfoglia il percorso di una cartella.
 1. Controlla la compatibilità per elencare le seguenti informazioni:
    * File totali
    * Versioni totali
    * Tempo stimato per la migrazione
    * Numero di file con errori
-
-
 
    ![scheda valutazione della compatibilità in migrazione](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
