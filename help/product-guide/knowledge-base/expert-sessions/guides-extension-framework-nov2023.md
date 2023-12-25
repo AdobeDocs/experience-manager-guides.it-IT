@@ -2,9 +2,9 @@
 title: Framework di estensione delle guide AEM - Personalizzare l’editor web e l’interfaccia di revisione
 description: Con il framework di estensione delle Guide è possibile personalizzare le sezioni desiderate dell’interfaccia utente di revisione o di Webeditor utilizzando JSON, CSS e JavaScript facili da aggiornare.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ In questa sessione hai appreso quanto segue:
 
 - **Casi d’uso comuni documentati** - [su Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **Archivio pubblico con esempi** - [su GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Ramo di riferimento fare riferimento a sc-expert-session
+- **Archivio pubblico con esempi** - [su GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Consulta la filiale sc-expert-session
 
 
 >[!NOTE]
