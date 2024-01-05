@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
 breadcrumb-title: Guida di AEM Guides
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 3%
+source-wordcount: '1644'
+ht-degree: 4%
 
 ---
 
@@ -391,6 +391,9 @@ ht-degree: 3%
                + [Aggiungere stili personalizzati all’editor web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Convalida schema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + Framework di estensione Guide {#extention-framework}
+         + [Introduzione](./guides-ui-extensions/getting-started/Introduction.md)
+         + [Guida all’installazione](./guides-ui-extensions/getting-started/integrating-customisations.md)
       + Pubblicazione {#publishing}
          + [Configurazione dell’ambiente AEM per la pubblicazione nativa di PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS e guide](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

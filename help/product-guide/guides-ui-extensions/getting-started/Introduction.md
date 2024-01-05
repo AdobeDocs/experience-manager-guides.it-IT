@@ -1,9 +1,10 @@
 ---
-sidebar_position: 1
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Introduzione
+description: Introduzione al pacchetto di estensione per le guide AEM
+source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 0%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -11,6 +12,6 @@ ht-degree: 0%
 
 Il pacchetto dell’estensione AEM Guides ti consente di personalizzare l’app in base alle tue esigenze. Aggiungere un altro pulsante su una barra degli strumenti? Un nuovo campo di input nella casella commenti? Un&#39;altra opzione nel menu di scelta rapida? Ora puoi fare tutto.
 
-Passa al [Guida all’installazione](./integrating_customisations.md) per capire come utilizzare questo pacchetto
+Passa al [Guida all’installazione](./integrating-customisations.md) per capire come utilizzare questo pacchetto
 
 > **_NOTA:_** Questo pacchetto di estensione delle guide AEM è supportato con le guide AEM versione >= 4.3 (on-prem) e >= 2310 (cloud)
