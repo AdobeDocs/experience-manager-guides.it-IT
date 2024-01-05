@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Framework Jui
+description: Informazioni su Jui Framework
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ La libreria JUI-React-Spectrum dispone di widget wrapper di componenti Adobe Rea
 
 ### Progettazione interfaccia utente MVC
 
-![Testo alternativo](./imgs/jui-mvc-flow.png)
+![Flusso MVC JUI](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ La libreria JUI-React-Spectrum dispone di widget wrapper di componenti Adobe Rea
 - Può avere altri widget
 - L&#39;app è un widget
 
-![Testo alternativo](./imgs/jui-widget.png)
+![Widget JUI](./imgs/jui-widget.png)
 
 ### Elemento
 
@@ -76,4 +77,4 @@ La libreria JUI-React-Spectrum dispone di widget wrapper di componenti Adobe Rea
 
 ### Progettazione app di esempio
 
-![Testo alternativo](./imgs/jui-sample-app.png)
+![App di esempio](./imgs/jui-sample-app.png)

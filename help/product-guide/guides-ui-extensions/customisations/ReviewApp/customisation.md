@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Personalizzazione
+description: Personalizzazione dell’app di revisione
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # Personalizzazione dell’app di revisione
 
 Per facilitare la personalizzazione dell’app di revisione abbiamo fornito alcuni hook elencati e spiegati di seguito:
@@ -14,7 +18,7 @@ Per facilitare la personalizzazione dell’app di revisione abbiamo fornito alcu
 - id: `review_comment`
 - gancio: `this.updateExtraProps`:
 
-Come discusso [qui](../../aem_guides_framework/basic_customisation.md), qualsiasi nuovo attributo aggiunto durante la personalizzazione va sotto `this.model.extraProps`. Il metodo `updateExtraProps` consente di aggiungere attributi a un commento di revisione, gestendo l’aggiornamento e l’archiviazione dell’attributo aggiunto anche sul server.
+Come discusso [qui](../../aem_guides_framework/basic-customisation.md), qualsiasi nuovo attributo aggiunto durante la personalizzazione va sotto `this.model.extraProps`. Il metodo `updateExtraProps` consente di aggiungere attributi a un commento di revisione, gestendo l’aggiornamento e l’archiviazione dell’attributo aggiunto anche sul server.
 
 ### Esempio di utilizzo
 
