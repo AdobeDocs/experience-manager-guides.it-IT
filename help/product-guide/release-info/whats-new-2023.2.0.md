@@ -2,9 +2,9 @@
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di febbraio 2023
 description: Versione di febbraio di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,9 +121,9 @@ Il nuovo microservizio di pubblicazione consente di eseguire contemporaneamente 
 
 Per ogni richiesta di pubblicazione, le guide AEM as a Cloud Service eseguono un contenitore separato che viene ridimensionato orizzontalmente in base alle richieste dell’utente. In questo modo è possibile eseguire più richieste di pubblicazione e ottenere prestazioni migliori.
 
-Per ulteriori dettagli, consulta [Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Per ulteriori dettagli, consulta [Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## Native PDF | Aggiungi un segnalibro personalizzato nell’output di PDF
+## Native PDF | Aggiungere un segnalibro personalizzato nell’output di PDF
 
 Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output PDF finale per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
 
@@ -132,7 +132,7 @@ Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell
 Le guide AEM consentono di applicare uno stile personalizzato alle voci del sommario o a un particolare argomento nell’output di PDF. È ad esempio possibile modificare il colore del testo nel sommario e nel titolo dell&#39;argomento. È inoltre possibile applicare stili all&#39;intero contenuto dell&#39;argomento.
 
 
-## Native PDF | Personalizza lo stile del marcatore pagina nel componente Nota a piè di pagina
+## Native PDF | Personalizzare lo stile del marcatore pagina nel componente Nota a piè di pagina
 
 Ora è possibile applicare uno stile al marcatore di pagina nelle note a piè di pagina. Ad esempio, è possibile aggiungere parentesi quadre o modificarne il colore. Questi stili consentono agli utenti di identificare facilmente gli indicatori di pagina nel documento.
 

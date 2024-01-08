@@ -2,9 +2,9 @@
 title: Gestire i contenuti tramite le linee di base
 description: Scopri come utilizzare le linee di base per gestire in modo efficace i contenuti.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ In questa sessione imparerai a utilizzare le linee di base per gestire in modo e
 ## Elementi principali da ricordare
 
 In questa sessione imparerai quanto segue:
-
 - Diverse operazioni di base nelle guide AEM
 - Scaricare, pubblicare e tradurre utilizzando una linea di base
 - Best practice per l’utilizzo di una baseline
@@ -41,14 +40,13 @@ In questa sessione imparerai quanto segue:
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guida utente** - [Utilizzare la previsione](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **Guida utente** - [Utilizzare la previsione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
->
 > - On-prem 4.1 e versioni successive
 > - Cloud Service 2211 e successivi
 

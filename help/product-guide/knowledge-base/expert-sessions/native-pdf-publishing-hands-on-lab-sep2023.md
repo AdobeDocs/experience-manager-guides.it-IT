@@ -2,9 +2,9 @@
 title: Pubblicazione PDF nativa "Hands on lab - BYOS" - Apprendimento interattivo
 description: Questa sessione "Hands-on Lab - BYOS" offre un’esplorazione approfondita dell’editoria Native PDF. Esplora diversi casi d’uso, sfrutta le funzioni chiave e interagisci direttamente con esperti Adobi per risolvere problemi e requisiti specifici.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,17 @@ In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di
 
 ## Risorse correlate
 
-- **Passaggi di configurazione di PDF nativa** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **Passaggi di configurazione di PDF nativa** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casi d’uso comuni documentati** - [su Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Casi d’uso comuni documentati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
->
 > - On-prem 4.2 o versione successiva
 > - Cloud Service 2309 e successivi
 

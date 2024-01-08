@@ -2,9 +2,9 @@
 title: Personale
 description: Scopri come creare un predefinito personalizzato dall’editor web e dal dashboard delle mappe. Configura un predefinito di output personalizzato nelle guide AEM.
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '934'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,6 @@ Per il predefinito di output Personalizzato sono disponibili le seguenti opzioni
 | Pulisci file temporanei DITA-OT | Selezionare questa opzione per pulire i file temporanei generati da DITA-OT. Il percorso in cui DITA-OT memorizza i file temporanei si trova nel registro di generazione dell&#39;output.<br><br>Se si verificano errori durante la generazione dell&#39;output tramite DITA-OT, è possibile deselezionare questa opzione per mantenere i file temporanei. Puoi quindi utilizzare questi file per risolvere eventuali errori di generazione dell’output. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br><br>**Nota**: per ulteriori informazioni sulla creazione di un flusso di lavoro personalizzato per la generazione post-output, consulta _Personalizzare il flusso di lavoro di generazione post-output_ in Installare e configurare Adobe Experience Manager Guides as a Cloud Service. |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Consulta [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per maggiori dettagli. |
-| Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà e vengono rimosse dall&#39;elenco a discesa. Una volta impostate, queste proprietà vengono copiate anche negli argomenti della mappa.<br><br>**Nota**: puoi anche trasmettere i metadati all’output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate sotto **Proprietà** campo. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: puoi anche trasmettere i metadati all’output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

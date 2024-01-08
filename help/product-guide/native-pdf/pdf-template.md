@@ -2,9 +2,9 @@
 title: Creazione e personalizzazione di modelli di PDF nativi
 description: Scopri come creare e personalizzare modelli di PDF nativi.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Selezionare questa opzione per visualizzare e modificare le proprietà del model
 Seleziona questa opzione per visualizzare il modello nell’interfaccia utente Assets. Quando si apre la posizione principale del modello, è possibile visualizzare tutte le risorse del modello.
 
 Dopo aver creato il modello personalizzato, puoi sceglierlo tra Layout di pagina nel predefinito di output di PDF.
-Scopri come [pubblicare un output di PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Scopri come [pubblicare un output di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Per informazioni dettagliate sulla configurazione dei profili globali e a livell
 È possibile personalizzare i modelli modificando i componenti del modello e applicando formati di stile utilizzando i fogli di stile.
 
 Per personalizzare un modello di PDF, effettuare le seguenti operazioni:
-
 1. Nell’editor web, vai al **Output** scheda.
 1. Espandi la barra laterale a sinistra e seleziona **Modelli**.
 

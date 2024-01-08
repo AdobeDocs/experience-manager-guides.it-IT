@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di dicembre 2023
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ Questo articolo tratta le funzioni nuove e migliorate nella versione di dicembre
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, vedi [Note sulla versione](release-notes-2023.12.0.md).
 
 
-## Utilizzare le variabili nell’output di PDF nativo
+## Utilizzare le variabili nell’output di PDF
 
-È possibile utilizzare i set di variabili per inserire e gestire in modo dinamico le informazioni che possono cambiare in base a condizioni specifiche, ad esempio nomi e versioni dei prodotti. Questa funzione consente di utilizzare lo stesso layout PDF e generare output con valori diversi. Non è necessario creare layout separati per ogni insieme di valori.
+È possibile utilizzare le variabili per inserire e gestire in modo dinamico le informazioni riutilizzabili. Experience Manager Guides consente di creare, modificare e visualizzare in anteprima le variabili durante la generazione dell’output PDF. È possibile modificare rapidamente i valori delle variabili e rendere i documenti facilmente trasferibili e aggiornabili.
 
-Ad esempio, puoi creare un set di variabili per ciascun prodotto. Questo set di variabili può essere costituito da variabili per diversi dettagli del prodotto come ProductName, VersionNumber e ReleaseDate. Quindi puoi aggiungere valori diversi per queste variabili.
+![variabili pdf native](assets/add-variable-default.png){width="800" align="left"}
+
+*Crea e gestisci le variabili nell’editor web.*
+
+Puoi anche creare set di variabili che sostituiscono i valori predefiniti e assegnare valori alternativi alle variabili. Inserire queste variabili all&#39;interno del layout di pagina e utilizzare lo stesso layout di PDF. Non è necessario creare layout separati per ogni insieme di valori. Ad esempio, puoi creare un set di variabili per ogni versione del prodotto. Questo set di variabili può essere costituito da variabili per diversi dettagli del prodotto come nome del prodotto, numero di versione e data di rilascio. Quindi puoi aggiungere valori diversi per queste variabili.
 
 **Set di variabili 1: set di Adobi 1**
 
@@ -27,30 +31,25 @@ Ad esempio, puoi creare un set di variabili per ciascun prodotto. Questo set di 
 * Numero di versione: 2311
 * Data di rilascio: 11/02/2023
 
-**Set di variabili 1: set di Adobi 2**
+**Set di variabili 2: set di Adobi 2**
 
 * ProductName: guide Experience Manager
 * Numero di versione: 2310
 * Data di rilascio: 09/27/2023
 
 
-![variabili pdf native](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Crea variabili dalla scheda Output nell’editor Web.*
-
-Puoi anche creare variabili con valori con tag HTML. Ad esempio, aggiungi immagini dal contenuto DAM utilizzando `<img>` tag.
-
-Dopo aver creato le variabili, è possibile aggiungerle alle posizioni appropriate nel documento utilizzando i layout di pagina nei modelli di output. I valori vengono selezionati automaticamente nell&#39;output PDF in base all&#39;insieme di variabili selezionato nel predefinito di output.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Piè di pagina nell’output di PDF" width="500" border="2px">
 
-*Genera l’output di Native PDF utilizzando le variabili nel layout di PDF.*
+*Genera l’output PDF utilizzando le variabili nel layout PDF.*
 
-Questa funzione consente di generare un output personalizzato con contenuti dinamici all’interno della documentazione e di gestire le modifiche in modo efficiente. Puoi anche applicare stili e utilizzare il markup HTML per formattare le variabili.
+Per formattare le variabili è possibile applicare gli stili e utilizzare il markup HTML.  Puoi anche aggiornare rapidamente i valori per qualsiasi variabile ogni volta che sia necessario e rigenerare l’output. Ad esempio, se è necessario aggiornare i dettagli di una versione, è possibile modificare il valore della versione nella variabile VersionNumber e rigenerare l&#39;output.
 
-Potete anche aggiornare rapidamente i valori di qualsiasi insieme di variabili ogni volta che è necessario e rigenerare l&#39;output. Ad esempio, se è necessario aggiornare i dettagli di una versione, è possibile aggiornare il valore della versione in VersionNumber e rigenerare l&#39;output.
+
+Scopri come utilizzare [variabili nell’output di PDF](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Esperienza rinnovata per modificare gli attributi
@@ -89,6 +88,7 @@ Questa funzione consente di pubblicare contenuti come testo, video e immagini su
 
 *Creare un predefinito di output per la Knowledge Base ServiceNow.*
 
+Ulteriori informazioni su [Knowledge Base](../user-guide/generate-output-knowledge-base.md) predefiniti di output.
 
 ## Dashboard di raccolta mappe migliorato
 
@@ -124,6 +124,8 @@ Consente inoltre di duplicare una baseline basata sull&#39;etichetta. La version
 ![duplicare una baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicare una linea di base basata su un&#39;etichetta o creare una copia esatta.*
+
+Ulteriori informazioni su come [creare e gestire le linee di base dall&#39;editor Web](../user-guide/web-editor-baseline.md).
 
 ## È stato migliorato il processo per la creazione della raccolta di mappe di attivazione in blocco
 

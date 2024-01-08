@@ -2,9 +2,9 @@
 title: Aggiungere stili personalizzati all’editor web delle guide
 description: Scopri come aggiungere stili personalizzati per modificare l’aspetto dell’editor web Guide.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Utilizza i profili cartella per controllare *css_layout.css* nella scheda &quot;
 [usa questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione del layout del modello CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Utilizza quanto segue per impostare lo stile precedente nell’editor web:
-
 - Utilizzare [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) e caricarlo nel profilo di cartella desiderato
 - Installare il pacchetto allegato [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) utilizzo di Gestione pacchetti AEM per installare le risorse utilizzate nel file CSS sopra riportato
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Riferimenti
 
-Potresti anche essere interessato alla sessione di esperti sulle configurazioni e la personalizzazione dell’editor web descritta in [Sessione di esperti sull’editor web](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+Potresti anche essere interessato alla sessione di esperti sulle configurazioni e la personalizzazione dell’editor web descritta in [Sessione di esperti sull’editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

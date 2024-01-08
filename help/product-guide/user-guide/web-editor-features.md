@@ -2,9 +2,9 @@
 title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,17 +147,19 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Pubblica profilo**: contiene i profili di pubblicazione che possono essere utilizzati per pubblicare l’output della knowledge base. È possibile creare un nuovo profilo per un tipo di consumatore selezionato. Ad esempio, Salesforce.
+- **Pubblica profilo**: contiene i profili di pubblicazione che possono essere utilizzati per pubblicare **Knowledge Base** output. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
 
-   - **Requisiti per creare un profilo di pubblicazione Salesforce**
+   - **Creare un profilo di pubblicazione Salesforce**
 
-      - Crea un&#39;app connessa per Salesforce. Per ulteriori dettagli vedi [Abilitare le impostazioni OAuth per l’integrazione API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+     **Prerequisiti**
+
+      - Crea un&#39;app connessa per Salesforce. Per ulteriori informazioni, consulta [Abilitare le impostazioni OAuth per l’integrazione API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
       - Durante la configurazione dell’app connessa, verifica quanto segue:
 
          - Specifica il callback.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Selezionate i seguenti ambiti OAuth:
             - Accesso completo (completo)
@@ -166,18 +168,38 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
   Una volta configurata l’app, Salesforce fornisce una **Chiave consumer** e **Segreto consumer**.
 
   Questi possono essere utilizzati per creare il profilo di pubblicazione Salesforce.
-  ![profili nelle impostazioni dell’editor](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Per creare un profilo di pubblicazione Salesforce, seleziona la **Salesforce** Knowledge Base da **Tipo di server** a discesa. Immettere un nome di profilo. In **URL sito**, immetti il sito consumer da utilizzare per pubblicare l&#39;output e quindi aggiungi **Chiave consumer** e **Segreto consumer** fornite dal sito consumer Salesforce. Allora, **Convalida** e **Salva** il nuovo profilo creato.
+     ![profilo di pubblicazione salesforce nelle impostazioni dell’editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Per creare un profilo di pubblicazione puoi selezionare una knowledge base come Salesforce dall’ **Tipo di server** a discesa. Immettere un nome di profilo. In **URL sito** immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Chiave consumer** e **Segreto consumer** fornite dal sito di consumo come Salesforce. Quindi accedi al nuovo profilo creato.
-
-  >[!NOTE]
-  >
-  >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache nell’AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache nell’AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Dopo aver effettuato l&#39;accesso, è possibile selezionare il profilo di pubblicazione nei predefiniti di output di una mappa DITA e utilizzare per generare l&#39;output per gli articoli selezionati. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](../install-guide/configure-article-based-publishing.md) nella Guida all&#39;installazione e alla configurazione.
+   - **Creare un profilo di pubblicazione ServiceNow**
+
+     **Prerequisiti**
+
+     Configura il server ServiceNow per caricare le risorse.
+      - Connetti a **ServiceNow** server.
+      - Accedi a **Proprietà di sistema** > **Sicurezza**.
+      - Deseleziona la seguente opzione:
+
+        **Questa proprietà deve essere impostata per attivare il controllo del tipo MIME per i caricamenti (tutte le versioni Eureka e successive). Abilita (true) o disabilita (false) la convalida del tipo MIME per i file allegati. Le estensioni file configurate tramite glide.attachment.extensions verranno controllate per verificare la presenza di eventuali tipi MIME durante il caricamento.**
+
+      - Fai clic su **Salva**.
+
+     Dopo aver configurato l’app, crea il **ServiceNow** Pubblica profilo.
+   - Per creare un profilo di pubblicazione, selezionare la Knowledge Base ServiceNow dal **Tipo di server** a discesa. Inserisci un profilo **Nome**. In **URL ServiceNow**, immetti il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungi **Nome utente** e **Password** fornite dal sito consumer ServiceNow. Allora, **Convalida** e **Salva** il nuovo profilo creato.
+
+     ![Profilo di pubblicazione ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Dopo la convalida, è possibile selezionare il profilo di pubblicazione nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output in  **Salesforce** o **ServiceNow** server scelto.
+
+  Ulteriori informazioni su [Knowledge Base](../user-guide/generate-output-knowledge-base.md) predefinito di output.
+
 
 - **Convalida**: questa scheda contiene le opzioni per configurare le Convalide Schematron nell’editor web. È possibile attivare le seguenti funzionalità:
 
@@ -186,7 +208,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
      >[!NOTE]
      >I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
 
-     ![Convalida nelle impostazioni dell’editor](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Convalida nelle impostazioni dell’editor](./images/editor-setting-validation.png){width="550" align="left"}
 In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
    - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello Convalida dell&#39;editor Web. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se non è selezionato, **Aggiungi file di schema** non è disponibile per gli utenti in **Pannello di convalida** dell’editor web.
@@ -232,9 +254,8 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Seleziona mappa principale**: selezionare un file di mapping DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, consulta [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Se non desideri utilizzare alcuna mappa principale, assicurati che il **Seleziona mappa principale** il campo è vuoto.
 
 **Modalità Author, Source e Preview**
@@ -666,7 +687,7 @@ Le guide AEM consentono di specificare etichette in formato testo libero o di ut
 
 Queste etichette vengono visualizzate sotto forma di elenco a discesa agli autori ogni volta che devono specificare un’etichetta. In questo modo nel sistema verranno utilizzate solo etichette coerenti e predefinite.
 
-Esistono diversi metodi per applicare le etichette agli argomenti: [Cronologia versioni](web-editor-use-label.md#) pannello nell’interfaccia di Assets, [Linee di base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) e Web Editor. La funzione Etichetta versione nell’editor web consente agli autori di assegnare etichette ai propri argomenti in modo rapido e semplice.
+Esistono diversi metodi per applicare le etichette agli argomenti: [Cronologia versioni](web-editor-use-label.md) pannello nell’interfaccia di Assets, [Linee di base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) e Web Editor. La funzione Etichetta versione nell’editor web consente agli autori di assegnare etichette ai propri argomenti in modo rapido e semplice.
 
 Per aggiungere etichette all&#39;argomento dall&#39;editor Web, effettuare le seguenti operazioni:
 

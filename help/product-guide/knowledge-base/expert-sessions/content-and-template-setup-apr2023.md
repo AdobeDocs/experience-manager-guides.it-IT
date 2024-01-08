@@ -2,9 +2,9 @@
 title: Configurazione di contenuti e modelli
 description: Scopri tutte le considerazioni da fare per impostare contenuti e modelli nelle Guide AEM.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ La quantità di contenuti che gestisci all’interno di un sistema, per supporta
 ## Panoramica della sessione
 
 In questa sessione abbiamo trattato in generale i seguenti argomenti:
-
 - diversi aspetti della configurazione dei contenuti (classificazione, classificazione, metadati)
 - configurazione del modello di contenuto (modelli di argomento, modelli di mappa, snippet)
+
 
 
 ## Registrazione sessione
@@ -38,7 +38,6 @@ In questa sessione abbiamo trattato in generale i seguenti argomenti:
 ## Elementi principali da ricordare
 
 In questa sessione hai appreso quanto segue:
-
 - Spendere tempo per analizzare e riflettere prima di importare/creare contenuti
 - Classificazione e categorizzazione del contenuto per soddisfare diversi segmenti di utenti (utenti finali o autori)
 - Utilizzo delle funzionalità dei metadati per migliorare la produttività degli utenti
@@ -52,14 +51,13 @@ In questa sessione hai appreso quanto segue:
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guida utente** - [Contenuto autore](/help/product-guide/user-guide/reports-intro.md)
+- **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
->
 > - On-prem: 4.2 o versione successiva
 > - Cloud Service: 2303 o versione successiva
 

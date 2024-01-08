@@ -2,9 +2,9 @@
 title: Sito AEM
 description: Crea e configura un predefinito per sito AEM nelle guide AEM. Utilizza il supporto del sito AEM per generare output basati su articoli, argomenti di collegamento dell’output, conferenze di pubblicazione e ricerche in una stringa all’interno del contenuto.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Per l’output del sito AEM sono disponibili le seguenti opzioni:
 
 Puoi creare il predefinito per sito AEM in due modi:
 
-**Dall’editor web:** Nel pannello Repository, apri il file mappa DITA in Vista mappa, quindi nella scheda Output seleziona l&#39;icona + per creare un predefinito di output e seleziona Sito AEM dal menu a discesa Tipo nella finestra di dialogo Aggiungi predefinito.Nell&#39;editor Web le configurazioni sono state organizzate nelle schede Generale e Avanzate:
+**Dall’editor web:** Nel pannello Repository, apri il file mappa DITA in Vista mappa, quindi nella scheda Output seleziona l’icona + per creare un predefinito di output e seleziona Sito AEM dal menu a discesa Tipo nella finestra di dialogo Aggiungi predefinito. Nell’editor web le configurazioni sono organizzate nelle schede Generali e Avanzate:
 
 **Generale**
 
@@ -65,7 +65,7 @@ Per l’output del sito AEM sono disponibili le seguenti opzioni:
 | Genera PDF separati per ciascun argomento | Se questa opzione è selezionata, viene creato anche un PDF per ogni argomento della mappa DITA. Quando selezionate questa opzione, viene visualizzata una nuova opzione Dividi percorso PDF.<br><br>Nel campo Dividi percorso PDF specificare il percorso in cui memorizzare i PDF generati per ciascun argomento.<br><br>**Nota**: le guide AEM utilizzano il plug-in DITA-OT denominato pdfx per generare PDF per ciascun argomento. Questo plug-in è fornito in dotazione con il pacchetto DITA-OT fornito con il prodotto. Puoi personalizzare questo plug-in per generare PDF in base alle tue esigenze. Se si utilizza un plug-in DITA-OT personalizzato, assicurarsi di integrare il plug-in pdfx per disporre della funzionalità di generazione PDF a livello di argomento. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output. |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>**Importante**: quando generi un output incrementale per il sito AEM, l’output viene creato utilizzando la versione corrente dei file e non la baseline allegata.<br><br>Consulta [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per maggiori dettagli. |
-| Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà e vengono rimosse dall&#39;elenco a discesa.<br><br>**Nota**: le proprietà dei metadati fanno distinzione tra maiuscole e minuscole.<br><br>*Se è stata selezionata una baseline, i valori delle proprietà si basano sulla versione della baseline selezionata.<br>* Se non è stata selezionata una baseline, i valori delle proprietà si basano sulla versione più recente.<br><br>È inoltre possibile trasmettere i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: se non hai definito i `cq:tags` nell’opzione Proprietà, i valori per `cq:tags` vengono prelevati dalla copia di lavoro corrente anche se è stata selezionata una baseline per la pubblicazione. |
+| Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate sotto **Proprietà** campo. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: le proprietà dei metadati fanno distinzione tra maiuscole e minuscole.<br><br>*Se è stata selezionata una baseline, i valori delle proprietà si basano sulla versione della baseline selezionata.<br>* Se non è stata selezionata una baseline, i valori delle proprietà si basano sulla versione più recente.<br><br>È inoltre possibile trasmettere i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: se non hai definito i `cq:tags` nell’opzione Proprietà, i valori per `cq:tags` vengono prelevati dalla copia di lavoro corrente anche se è stata selezionata una baseline per la pubblicazione. |
 | Usa Le Proprietà Della Mappa Se Mancano Nell’Argomento | Se questa opzione è selezionata, le proprietà definite per il file mappa vengono copiate anche negli argomenti in cui tali proprietà non sono definite. Quando utilizzate questa opzione, tenete presente quanto segue:<br><br>*Solo le proprietà String, Date o Long (singole e multivalore) possono essere trasmesse alle pagine del sito AEM.<br>* I valori dei metadati per una proprietà di tipo String non supportano caratteri speciali, ad esempio `@, #, " "`).<br>* Questa opzione deve essere utilizzata insieme al `Properties` opzione. |
 
 ## Nota aggiuntiva sul sito AEM
@@ -78,7 +78,7 @@ Per l’output del sito AEM sono disponibili le seguenti opzioni:
 
 È uno scenario molto comune disporre di un set elevato di documenti distribuiti in più cartelle e mappe DITA. Diventa estremamente complesso pubblicare contenuti collegati da varie posizioni. Per impostazione predefinita, tutti i collegamenti `<xref>` vengono creati con `local` `@scope`. La pubblicazione di tali argomenti non comporta alcuna sfida, in quanto utilizza un collegamento diretto all’argomento. Se l&#39;argomento non è incluso nella mappa DITA corrente, il collegamento non visualizza il contenuto collegato.
 
-Un altro modo di collegare il contenuto consiste nel creare un collegamento utilizzando `peer` `@scope`. Per tali contenuti, il collegamento viene risolto in fase di esecuzione scegliendo il contesto configurato per l&#39;argomento collegato dal contesto di pubblicazione della mappa DITA. La schermata seguente mostra il pannello Proprietà per un collegamento che presenta `peer` `@scope`:
+Un altro modo di collegare il contenuto consiste nel creare un collegamento utilizzando `peer` `@scope`. Per tali contenuti, il collegamento viene risolto in fase di esecuzione scegliendo il titolo del file e il contesto configurato per l&#39;argomento collegato dal contesto di pubblicazione della mappa DITA. La schermata seguente mostra il pannello Proprietà per un collegamento che presenta `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

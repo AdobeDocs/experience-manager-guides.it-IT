@@ -1,7 +1,7 @@
 ---
 title: Gestore eventi di completamento attivazione in blocco
 description: Scopri il gestore di eventi di attivazione in blocco e completamento
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # Gestore eventi di completamento attivazione in blocco
 
 Experience Manager Guide espone `com/adobe/fmdita/replication/complete` evento utilizzato per eseguire operazioni dopo il completamento di un processo di attivazione in blocco. Questo evento viene attivato ogni volta che viene completato un processo di attivazione in blocco. Ad esempio, se esegui l’attivazione in blocco di un predefinito per sito AEM di una mappa, questo evento viene chiamato al termine del processo di attivazione.
-
 
 È necessario creare un gestore eventi AEM per leggere le proprietà disponibili in questo evento ed eseguire ulteriori elaborazioni.
 

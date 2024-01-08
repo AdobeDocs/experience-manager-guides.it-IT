@@ -2,9 +2,9 @@
 title: Pubblicazione PDF nativa - Apprendimento per esempi (parte 1)
 description: Con il motore di pubblicazione di Native PDF, è possibile controllare il layout del contenuto del documento manipolando al contempo le sezioni desiderate in base alle esigenze, utilizzando CSS, HTML e JavaScript facili da aggiornare.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ In questa sessione, con l’aiuto di alcuni esempi scoprirai come utilizzare le 
 ## Elementi principali da ricordare
 
 In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di PDF nativi:
-
 - Abilitazione di funzioni di base come MathML, filigrana e revisioni
 - Utilizzo di font personalizzati
 - Utilizzo dei metadati da XML DITA nell&#39;output PDF
@@ -41,18 +40,17 @@ In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di
 
 ## Risorse correlate
 
-- **Passaggi di configurazione di PDF nativa** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **Passaggi di configurazione di PDF nativa** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casi d’uso comuni documentati** - [su Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Casi d’uso comuni documentati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
->
 > - On-prem 4.2 o versione successiva
 > - Cloud Service 2303 e successivi
 

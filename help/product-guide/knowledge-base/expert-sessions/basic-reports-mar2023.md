@@ -2,9 +2,9 @@
 title: Rapporti nelle guide AEM
 description: Scopri quali sono tutti i rapporti disponibili nell’AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ In una configurazione organizzativa, è necessario verificare la completezza com
 ## Panoramica della sessione
 
 In questa sessione abbiamo mostrato i rapporti predefiniti disponibili per gli utenti di. Abbiamo trattato in generale i seguenti argomenti:
-
 - Documento (mappa) e rapporti sugli argomenti
 - Rapporti sui metadati e opzioni per la gestione in blocco dei metadati
 - Rapporti sul riutilizzo dei contenuti
@@ -41,7 +40,6 @@ In questa sessione abbiamo mostrato i rapporti predefiniti disponibili per gli u
 ## Elementi principali da ricordare
 
 In questa sessione hai appreso quanto segue:
-
 - Importanza delle relazioni nel CCMS
 - rapporti predefiniti disponibili
 - esempi di reporting sui contenuti
@@ -53,14 +51,13 @@ In questa sessione hai appreso quanto segue:
 
 - **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Guida utente** - [Contenuto autore](/help/product-guide/user-guide/reports-intro.md)
+- **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
->
 > - On-prem: 4.2 o versione successiva
 > - Cloud Service: 2302 o versione successiva
 

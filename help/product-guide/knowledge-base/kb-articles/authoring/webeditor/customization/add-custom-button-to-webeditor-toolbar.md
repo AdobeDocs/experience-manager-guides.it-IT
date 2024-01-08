@@ -2,9 +2,9 @@
 title: Aggiungi un nuovo pulsante actionable personalizzato nella barra degli strumenti dell’editor web
 description: Scopri come aggiungere un nuovo pulsante personalizzato nella barra degli strumenti dell’editor web e chiamare JavaScript per utilizzarlo.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;
 
 ### Gestire l’evento al clic per il nuovo pulsante
 
->[!NOTE]
->
->I passaggi indicati di seguito sono disponibili come pacchetto allegato a questo post
-
+    NOTA: i passaggi indicati di seguito sono disponibili come pacchetto allegato a questo post
 
 
 - Dopo aver salvato il profilo della cartella, crea una &quot;cq:ClientLibraryFolder&quot; sotto una directory di progetto (potrebbe essere in */apps*) e aggiungi le proprietà come mostrato nella schermata seguente:

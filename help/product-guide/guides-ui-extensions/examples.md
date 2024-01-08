@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In questo file, calcoliamo e assegniamo l’ID commento univoco, indicato in `Re
 5. [Pannello Revisioni argomenti](../../src/review_app_examples/topic_reviews.ts): questo file estende [Pannello Revisione in linea](../../src/review_app_examples/inline_review_panel.ts) in modo che le personalizzazioni aggiunte funzionino anche sul lato app di revisione.
 
 6. [Finestra di dialogo Accetta con modifica](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Questo è un esempio di come aggiungere un nuovo widget all’app. Qui abbiamo creato una nuova finestra di dialogo, che ha due campi di testo di input: `Revised Text` e `Adjudicator Comment Rationale`
+Questo è un esempio di aggiunta di nuovi widget all’app. Qui abbiamo creato una nuova finestra di dialogo, che ha due campi di testo di input: `Revised Text` e `Adjudicator Comment Rationale`
 
 ![Finestra di dialogo Accetta con modifica](./imgs/accept_with_modification_dialogue.png)
 

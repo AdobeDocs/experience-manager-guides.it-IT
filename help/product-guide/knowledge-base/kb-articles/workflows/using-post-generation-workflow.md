@@ -2,9 +2,9 @@
 title: Flusso di lavoro di post-generazione
 description: Panoramica del flusso di lavoro di post-generazione con un esempio
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,13 @@ Ad esempio, potrebbe essere utile impostare alcune proprietà nell’output di P
 ### Creare un processo di workflow
 
 Creare un processo di flusso di lavoro basato su Java o ECMA che esegue l&#39;operazione sull&#39;output generato. Ad esempio, copiando alcuni metadati dall’origine al contenuto generato o manipolando i metadati dell’output generato.
-
 - Prendiamo ad esempio la creazione di tale processo utilizzando lo script ECMA (puoi fare riferimento al pacchetto allegato)
-- Per il processo del flusso di lavoro basato su Java, consulta la sezione &quot;*Personalizzare il flusso di lavoro di generazione post-output*&quot; di [Guida all’installazione e alla configurazione](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)
+- Per il processo del flusso di lavoro basato su Java, consulta la sezione &quot;*Personalizzare il flusso di lavoro di generazione post-output*&quot; di [Guida all’installazione e alla configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Creare un modello di flusso di lavoro
 
 Con il processo di flusso di lavoro personalizzato creato nel passaggio precedente, crea un modello di flusso di lavoro e aggiungi a esso il passaggio del processo.
-
 - È inoltre necessario aggiungere un passaggio di processo obbligatorio &quot;*Finalizza post-generazione*&quot; come ultimo passaggio del flusso di lavoro.
 
 Fai riferimento al modello di flusso di lavoro di esempio mostrato di seguito:
