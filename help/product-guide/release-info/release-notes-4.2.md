@@ -2,7 +2,9 @@
 title: Note sulla versione | Adobe Experience Manager Guides versione 4.2
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2 delle guide di Adobe Experience Manager
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 1%
@@ -104,7 +106,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Copiare una risorsa mappa DITA (dall’interfaccia utente di Asset ) causa l’esistenza di linee di base errate nella risorsa copiata. (11218)
 * Non viene visualizzato alcun messaggio di avvertenza al caricamento di un file che supera il limite consentito dall’AEM (2 GB per impostazione predefinita). (10817)
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
-* Traduzione | Il processo di traduzione non viene avviato perché /libs/fmdita/i18n/ja.json non è valido. (10543)
+* Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
 * Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Traduzione| I metadati e i tag non vengono propagati alle copie tradotte. (4696)
@@ -120,17 +122,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Publishlistener non visualizza i dati richiesti nei registri di informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
 * Native PDF | La generazione di PDF non riesce con un’eccezione Null Pointer. (10950)
 * Native PDF | conkeyref non viene risolto nell&#39;output generato. (10564)
-* Native PDF | Si verificano problemi con i metadati di una mappa a cui è necessario fare riferimento nell’output PDF.( 10556)
-* Native PDF | Si verificano problemi durante la rotazione dell’intestazione della tabella. (10555)
+* Native PDF | Si verificano dei problemi con i metadati di una mappa a cui è necessario fare riferimento nell’output di PDF.( 10556)
+* Native PDF | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
 * Native PDF | Si verificano problemi durante la rimozione di argomenti con ruolo di elaborazione=&#39;solo risorsa&#39;. (10554)
-* Native PDF | I tasti vuoti vengono visualizzati nell’output PDF. (10553)
+* Native PDF | I tasti vuoti vengono visualizzati nell&#39;output di PDF. (10553)
 * Native PDF | Nidificato `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10521)
-* Native PDF | Native PDF utilizza lo stile in linea anziché il nome della classe per i tag generati. (10498)
-* Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nella HTML temporanea.( 10454)
-* Native PDF | Impossibile nascondere gli argomenti relativi al frontespizio dal sommario. (10355)
+* Native PDF | Native PDF utilizza lo stile in linea invece del nome della classe per i tag generati. (10498)
+* Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo.( 10454)
+* Native PDF | Impossibile nascondere gli argomenti del frontmatter dal sommario. (10355)
 * Native PDF | Attributo frame tabella non propagato al HTML temporaneo (come classe). (10353)
-* Native PDF | File HTML temporanei aggiungere le classi colsep e rowsep a <td> e <th> anche se il loro valore è 0 nel DITA di origine. (10352)
-* Native PDF | Se si riavviano i numeri di pagina nel layout del capitolo, la numerazione inizia in modo casuale dalla fine del capitolo precedente. (10154)
+* Native PDF | I file temporanei di HTML aggiungono le classi colsep e rowsep a <td> e <th> anche se il loro valore è 0 nel DITA di origine. (10352)
+* Native PDF | Riavviando i numeri di pagina nel layout del capitolo, la numerazione viene avviata in modo casuale dalla fine del capitolo precedente. (10154)
 * Native PDF | I riferimenti chiave per i keydefs con immagine o collegamenti esterni non vengono risolti. (10063)
 * Native PDF | L&#39;appendice viene visualizzata come un capitolo in PDF generato. (9829)
 * La scheda Modello nell’editor XML non viene visualizzata dagli amministratori dei profili delle cartelle. (10266)

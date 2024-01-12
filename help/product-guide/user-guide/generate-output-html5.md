@@ -2,7 +2,9 @@
 title: Usa HTML5
 description: Scopri come creare un predefinito di HTML5 dall’editor web e dal dashboard delle mappe. Configura il predefinito di output HTML5 nelle guide AEM.
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%

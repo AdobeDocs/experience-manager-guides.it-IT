@@ -2,7 +2,9 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di ottobre 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di ottobre 2023 di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -88,7 +90,7 @@ Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
@@ -138,8 +140,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 - Native PDF | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
-- PDF nativo| Nessun tag di stile predefinito disponibile per `<p>`elemento. (12559)
-- Native PDF | Gli stili in linea applicati all&#39;area contenuto non vengono applicati agli argomenti in primo piano e dietro. (13510)
+- PDF nativa| Nessun tag di stile predefinito disponibile per `<p>`elemento. (12559)
+- Native PDF | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
 - Il `DeliveryTarget` L&#39;attributo non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
 - Il **Pubblica** Il flusso di lavoro si blocca durante la generazione dell’output del sito AEM per il contenuto con determinati errori. (12000)
 

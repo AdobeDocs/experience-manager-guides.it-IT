@@ -2,7 +2,9 @@
 title: Avviare l’editor web
 description: Scopri come avviare l’editor web dalla pagina di navigazione AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe DITA nelle guide dell’AEM.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%

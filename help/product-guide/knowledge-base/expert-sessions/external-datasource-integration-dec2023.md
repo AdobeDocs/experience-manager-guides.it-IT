@@ -1,7 +1,8 @@
 ---
 title: Integrazione di origini dati esterne per guide AEM
 description: Integrazione delle origini di dati sui contenuti con le guide AEM .
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%

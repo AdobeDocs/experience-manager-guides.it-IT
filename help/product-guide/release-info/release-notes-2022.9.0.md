@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di settembre 2022
+title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di settembre 2022
 description: Versione di settembre di Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -93,34 +95,34 @@ Questi metadati sostituiscono i metadati definiti a livello di libro. Potete def
 Di seguito sono elencati i bug risolti in varie aree:
 
 * Editor web | Quando si spostano elementi all’interno di un argomento, gli ID assegnati sugli elementi vengono sovrascritti dagli ID assegnati automaticamente. (7895)
-* Rileva modifiche | Il contenuto viene perso quando si inserisce un nuovo elemento utilizzando il tasto Invio. (10246)
+* Rileva modifiche | Il contenuto viene perso quando viene inserito un nuovo elemento utilizzando il tasto Invio. (10246)
 * La mappa secondaria a cui fa riferimento la mappa principale nei modelli dita non viene creata. (10231)
-* Editor XML | La funzione di copia e incolla non funziona in modalità di authoring. (10309)
+* Editor XML | La funzione di copia e incolla non funziona in modalità di creazione. (10309)
 * Se sono selezionate più etichette di versione, queste non vengono deselezionate. (9561)
 * La navigazione automatica al percorso nella finestra di dialogo Sfoglia sito non funziona come la navigazione dei file. (9920)
 * Il pannello Struttura non visualizza il contenuto quando si passa da **Autore** a **Sorgente** modalità. (10319)
 * Non è possibile confermare in un nuovo argomento creato utilizzando un contenuto nel modello di argomento. L’ID hash copiato non viene aggiornato nella copia del contenuto. (9890)
 * Web-Editor | Non esiste alcun caricatore durante la creazione di una mappa dal modello di mappa. (9891)
 * Nuovo editor mappa | Il testo in grassetto o corsivo aggiunto nel titolo della mappa non viene mantenuto se si passa da **Autore** al **Layout** visualizzazione. (10218)
-* Nuovo editor mappa | Le condizioni applicate su qualsiasi riferimento non possono essere rimosse dalla vista Layout. (10213)
+* Nuovo editor mappa | Le condizioni applicate a qualsiasi riferimento non possono essere rimosse dalla vista Layout. (10213)
 * Nuovo editor mappa | L’applicazione di riferimenti a condizioni non funziona nella vista Layout, come nella vista Author. (10198)
 * Nuovo editor mappa | Sposta a sinistra dal menu di scelta rapida rimuove il riferimento se non può essere spostato a sinistra. (10219)
 * Nuovo editor mappa |L’icona non viene visualizzata correttamente per i riferimenti in una mappa creata con la vista Layout. (10197)
-* Pannello archivio | Fare clic con il pulsante destro del mouse nel pannello dell’archivio per visualizzare un errore dell’applicazione. (10123)
+* Pannello archivio | Se si fa clic con il pulsante destro del mouse nel pannello dell’archivio, viene generato un errore dell’applicazione. (10123)
 * Trova e sostituisci | La modalità scura non è leggibile per i risultati di ricerca nell’editor web. (9978)
 * Traduzione | I metadati e i tag non vengono propagati alle copie tradotte. (4696)
 * Quando si copia e incolla un contenuto (ctrl+c/ctrl+v) viene generato un errore in modalità di creazione. (10304)
-* Modello PDF | L&#39;aggiunta di immagini di sfondo a qualsiasi layout di pagina mostra il Percorso immagine assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
-* Native PDF | Il titolo del capitolo e il titolo del capitolo non funzionano nelle pubblicazioni PDF. (9947)
+* Modello PDF | Se si aggiungono immagini di sfondo a qualsiasi layout di pagina, il percorso immagine viene visualizzato come assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
+* Native PDF | Il titolo del capitolo e l’intestazione del capitolo non funzionano nella pubblicazione PDF. (9947)
 * Native PDF | `xref` per un concetto non viene risolto correttamente per un argomento DITA specifico. (10229)
-* Native PDF | Impossibile visualizzare il testo della didascalia per una tabella nell&#39;output PDF generato. (9827)
+* Native PDF | Impossibile visualizzare il testo della didascalia per una tabella nell’output PDF generato. (9827)
 * Native PDF | I riferimenti nelle appendici non vengono visualizzati come appendici nell’output di PDF. (10182)
-* Native PDF | L&#39;attributo frame di una tabella non viene propagato al HTML temp (come classe). (10353)
+* Native PDF | L&#39;attributo di frame per una tabella non viene propagato al HTML temp (come classe). (10353)
 * Native PDF | i file HTML temporanei aggiungono le classi colsep e rowsep a td e th anche se il loro valore è 0 nel DITA di origine. (10352)
-* Native PDF | I metadati per i criteri aggiunti nel layout di pagina non vengono rispettati. (10377)
+* Native PDF | I metadati per il dato aggiunto nel layout di pagina non vengono rispettati. (10377)
 * Native PDF | La generazione di PDF non riesce per contenuti specifici. (9927)
 * Native PDF | Il contenuto tramite conkeyref non viene visualizzato nell’output PDF. (9836)
-* Native PDF | I riferimenti chiave per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
+* Native PDF | I riferimenti a tasti per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
 * Nella vista Creazione di una mappa non viene visualizzato il testo segnaposto per l&#39;elenco tabelle e l&#39;elenco figure. (10330)
 * Quando si crea una nuova baseline, il filtro già selezionato non viene applicato. (9954)
 * File video mancante dalla linea di base se il nome della cartella principale contiene uno spazio. 10031)

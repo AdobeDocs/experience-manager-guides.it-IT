@@ -2,7 +2,9 @@
 title: Visualizzazioni dell’editor web
 description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare i markup di rilevamento delle modifiche ed esportare un argomento come PDF nelle guide AEM.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

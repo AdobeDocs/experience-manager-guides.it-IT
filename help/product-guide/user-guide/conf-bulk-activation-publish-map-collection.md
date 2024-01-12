@@ -2,7 +2,9 @@
 title: Attiva output
 description: Attiva l'output delle mappe DITA nelle guide AEM. Scopri come attivare i contenuti nell’istanza di pubblicazione.
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

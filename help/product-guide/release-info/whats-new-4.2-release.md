@@ -2,7 +2,9 @@
 title: Note sulla versione | Novità della versione 4.2 delle Guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate delle versioni 4.2 delle Guide di Adobe Experience Manager
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -213,7 +215,7 @@ Ora puoi anche utilizzare le seguenti variabili predefinite per definire il perc
 
 È inoltre possibile generare il sommario nelle mappe DITA utilizzando un&#39;impostazione PDF avanzata del modello. Puoi scegliere di abilitare o disabilitare la visualizzazione dei vari layout di pagina e anche riordinarne la posizione.
 
-## Native PDF | Aggiungi un segnalibro personalizzato nell’output di PDF
+## Native PDF | Aggiungere un segnalibro personalizzato nell’output di PDF
 
 Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output PDF finale per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
 

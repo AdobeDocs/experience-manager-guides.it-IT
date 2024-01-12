@@ -2,7 +2,9 @@
 title: Generazione di output
 description: Genera output in AEM site, PDF, HTML5, EPUB, custom e JSON tramite plug-in DITA-OT, Native PDF publishing e FMPS in AEM Guides.
 exl-id: fd5e4c17-13c1-4679-8d88-af9de92aec9a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Utilizzare l’Editor mappa di base
 description: Scopri come utilizzare l’Editor mappe di base nelle guide AEM. Conoscere le funzioni dell’editor di mappe di base a livello di mappa e di argomento. Creare e modificare tabelle di relazioni in una mappa DITA.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%

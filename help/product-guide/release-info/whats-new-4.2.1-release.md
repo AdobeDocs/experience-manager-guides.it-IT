@@ -2,7 +2,9 @@
 title: Note sulla versione | Novità della versione 4.2.1 delle Guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate delle versioni 4.2.1 delle guide di Adobe Experience Manager
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -71,7 +73,7 @@ Per ulteriori dettagli, consulta [Utilizzare gli stili delle barre di modifica p
 
 
 
-## Native PDF | Personalizza lo stile del marcatore pagina nel componente Nota a piè di pagina
+## Native PDF | Personalizzare lo stile del marcatore pagina nel componente Nota a piè di pagina
 
 Ora è possibile applicare uno stile al marcatore di pagina nelle note a piè di pagina. Ad esempio, è possibile aggiungere parentesi quadre o modificarne il colore. Questi stili consentono agli utenti di identificare facilmente gli indicatori di pagina nel documento.
 

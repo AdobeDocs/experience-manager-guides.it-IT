@@ -2,7 +2,9 @@
 title: Report mappa DITA dall'editor Web
 description: Generare rapporti di mappe DITA dall'editor Web nelle guide AEM. Scopri come generare un file CSV per un elenco di argomenti, contenuti multimediali, metadati e rapporti sui collegamenti interrotti.
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Pubblicazione PDF nativa - Apprendimento per esempi (parte 1)
 description: Con il motore di pubblicazione di Native PDF, è possibile controllare il layout del contenuto del documento manipolando al contempo le sezioni desiderate in base alle esigenze, utilizzando CSS, HTML e JavaScript facili da aggiornare.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%

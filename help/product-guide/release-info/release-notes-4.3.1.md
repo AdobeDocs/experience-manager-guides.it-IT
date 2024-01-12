@@ -2,7 +2,9 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.3.1
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.1 delle guide di Adobe Experience Manager
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 1%
@@ -105,21 +107,21 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 - Native PDF | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
-- PDF nativo| Nessun tag di stile predefinito disponibile per `<p>`elemento. (12559)
-- Native PDF | Gli stili in linea applicati all&#39;area contenuto non vengono applicati agli argomenti in primo piano e dietro. (13510)
+- PDF nativa| Nessun tag di stile predefinito disponibile per `<p>`elemento. (12559)
+- Native PDF | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
 - Il `DeliveryTarget` L&#39;attributo non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
 - Il **Pubblica** Il flusso di lavoro si blocca durante la generazione dell’output del sito AEM per il contenuto con determinati errori. (12000)
 
-- Native PDF | L’inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
+- Native PDF | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
 - Native PDF | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
 - Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e applicando uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione. (12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
 - Se vengono utilizzate risorse del DAM dell’AEM in un output diverso dal sito AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell’editore o dell’utente che ha modificato per ultimo la mappa o l’argomento DITA. (12090)
-- AEM Sites La mappa DITA con intestazione di argomento nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
-- Native PDF | Si verificano problemi a sostegno di topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
+- AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
+- Native PDF | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
 - Native PDF | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
-- Native PDF | Se si rinomina un predefinito, viene generata un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
+- Native PDF | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
 - Il `<conref>` il contenuto non viene visualizzato nell’output di PDF. (11131)
 - Viene aggiunto uno spazio all’interno del `<div>` elementi per l’alternanza tra la vista Author e Source nell’editor di layout di pagina. (10750)
 - Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)

@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti nella versione 4.2.1 delle Guide di Adobe Experience Manager
+title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.2.1
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2.1 delle guide di Adobe Experience Manager
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -82,7 +84,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Native PDF | Il tag immagine aggiunge l’attributo display-inline a tutte le immagini. (10653)
 * L’inserimento di file multimediali audio e video non riesce nel formato YouTube in **Inserisci file multimediali** icona. (11320)
 * Si verifica un errore di convalida quando si crea una mappa utilizzando il modello che ha un elemento titolo specializzato. (11212)
-* Editor web | Spazio unificatore aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
+* Editor web | Lo spazio unificatore viene aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
 
 ### Gestione
 
@@ -94,15 +96,15 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 * Native PDF | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11936)
-* Output JSON | Mappa metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
+* Output JSON | Mappa i metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
 * Il problema si verifica nella ricerca del sito AEM (non funziona oltre i nodi di 2-3 livelli). (11352)
-* Editor web | Il percorso di output e il modello non possono essere selezionati nel predefinito AEM. (11530)
+* Editor web | Il percorso e il modello di output non possono essere selezionati nel predefinito AEM. (11530)
 * Quando si esegue l’aggiornamento dalla versione 4.1.x alla versione 4.2, il motore Native PDF non funziona e viene generata l’eccezione NullPointerException anche per il sistema operativo supportato.(11526)
 * Il processo di download di PDF non funziona in modo appropriato nell’editor web. (11496)
 * Native PDF | I commenti bozza sono nascosti per impostazione predefinita nell&#39;output generato. (10560)
 * Native PDF | navtitle non è onorato per topichead. (10509)
 * Native PDF | Aggiunta `xref` a un’immagine non esegue il rendering dell’immagine sul PDF generato. (11346)
-* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
+* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta a un testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
 
 ### Traduzione
 

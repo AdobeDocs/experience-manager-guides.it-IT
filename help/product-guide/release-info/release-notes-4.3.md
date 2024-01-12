@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti nella versione 4.3.0 delle Guide di Adobe Experience Manager
+title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.3.0
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.3.0 delle guide di Adobe Experience Manager
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -104,18 +106,18 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Recensione
 
-- Nuova interfaccia di revisione | Le condizioni evidenziano e mostrano il funzionamento di Nascondi in modo diverso rispetto a come funzionano nell’Editor web. (11628)
+- Nuova interfaccia di revisione | Le condizioni vengono evidenziate e visualizzate in modo diverso rispetto al funzionamento nell&#39;Editor Web. (11628)
 
 ### Pubblicazione
 
 - La pubblicazione non riesce quando si rinomina un predefinito di PDF nativo. (12564)
 - La duplicazione di un modello di PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
-- Native PDF | Non è possibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12407)
+- Native PDF | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12407)
 - La pubblicazione sul sito AEM non riesce quando si leggono file temporanei dal pod che potrebbero essere stati aggiornati o riavviati. (12113)
 - Native PDF | Gli attributi personalizzati non vengono propagati al motore temporaneo HTML o PDF. (DXML-12005)
 - Native PDF | Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
-- Native PDF | Xref sta stampando il contenuto del titolo dell&#39;argomento href invece dell&#39;etichetta Xref. (11322)
-- Native PDF | Impossibile salvare le impostazioni del modello PDF. (10751)
+- Native PDF | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
+- Native PDF | Impossibile salvare le impostazioni del modello di PDF. (10751)
 - Native PDF | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
 - Native PDF | `<note>``</note>` L&#39;elemento non genera un titolo di estensione aggiuntivo del relativo tipo. (10549)
 - Output JSON | Il `fmUuid` proprietà nel nodo jcr:content di JSON diversa dall’&quot;id&quot; all’interno del JSON. (11564)

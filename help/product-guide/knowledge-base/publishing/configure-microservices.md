@@ -2,7 +2,9 @@
 title: Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service
 description: Scopri come configurare una nuova pubblicazione basata su microservizi per le guide AEM.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Microservice in AEM Guides
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%

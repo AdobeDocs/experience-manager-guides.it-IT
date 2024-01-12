@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di agosto 2022
+title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di agosto 2022
 description: Versione di agosto di Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -96,8 +98,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate al **Proprietà** pagina. (8745)
 * L&#39;elemento Frontmatter aggiunto a una bookmap DITA non funziona correttamente. (9507)
 * Native PDF | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
-* Native PDF | L’appendice è pubblicata come capitolo nell’output PDF. (9829)
-* Native PDF | Quando si modifica un’immagine SVG, questa non viene visualizzata come aggiornata nel layout della pagina. 9069
+* Native PDF | L’appendice viene pubblicata come capitolo nell’output PDF. (9829)
+* Native PDF | Quando si modifica un’immagine di un SVG, questa non viene visualizzata come aggiornata nel layout della pagina. 9069
 * Un carattere trattino regolare viene inserito quando `Nonbreaking Hyphen` viene inserito utilizzando il **Inserisci carattere speciale** . (8919)
 * XML Editor non mostra le immagini aggiornate negli argomenti se sono state modificate. (9500)
 * Durante la pubblicazione dell’output tramite l’Editor, i predefiniti non possono essere eliminati dal **Output** scheda. (9100)

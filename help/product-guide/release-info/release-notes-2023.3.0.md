@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di marzo 2023
+title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di marzo 2023
 description: Versione di marzo di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,10 +60,10 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 Di seguito sono elencati i bug risolti in varie aree:
 
 * Il processo di download di PDF non funziona in modo appropriato nell’editor web. (11496)
-* Output JSON | Mappa metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11438)
+* Output JSON | Mappa i metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11438)
 * L’inserimento di file multimediali audio e video non riesce nel formato YouTube in **Inserisci file multimediali** icona. (11320)
 * Si verifica un errore di convalida quando si crea una mappa utilizzando il modello che ha un elemento titolo specializzato. (11212)
-* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
+* Native PDF | la nota a piè di pagina presente nell’intestazione della tabella porta a un testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output PDF. (10610)
 >[!NOTE]
 >
 >Per riflettere la modifica apportata a Native PDF, elimina la cartella PDF in /content/dam/dita-templates e quindi effettua l’aggiornamento alla build più recente. (10610)

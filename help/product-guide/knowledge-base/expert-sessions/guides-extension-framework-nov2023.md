@@ -2,7 +2,9 @@
 title: Framework di estensione delle guide AEM - Personalizzare l’editor web e l’interfaccia di revisione
 description: Con il framework di estensione delle Guide è possibile personalizzare le sezioni desiderate dell’interfaccia utente di revisione o di Webeditor utilizzando JSON, CSS e JavaScript facili da aggiornare.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
+feature: Web Editor, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

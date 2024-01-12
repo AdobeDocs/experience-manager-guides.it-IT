@@ -2,7 +2,9 @@
 title: Gestire i contenuti
 description: Gestisci i contenuti e identifica i tuoi ruoli e le tue autorizzazioni in Guide AEM. Scopri i concetti chiave della gestione dei contenuti e dell’utilizzo dei profili a livello globale o di cartella.
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%

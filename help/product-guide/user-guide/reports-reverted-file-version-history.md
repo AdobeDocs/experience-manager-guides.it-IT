@@ -2,7 +2,9 @@
 title: Rapporto cronologia versioni file ripristinati
 description: Visualizzare i rapporti sulla cronologia delle versioni dei file ripristinati nelle guide AEM. Scopri come accedere ai registri di ripristino della versione dall’interfaccia utente di Assets, dall’anteprima dell’argomento e dalla selezione degli strumenti AEM.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

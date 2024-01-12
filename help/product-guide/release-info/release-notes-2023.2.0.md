@@ -2,7 +2,9 @@
 title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di febbraio 2023
 description: Versione di febbraio di Adobe Experience Manager Guides as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -79,7 +81,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Copiare una risorsa mappa DITA (dall’interfaccia utente di Asset ) causa l’esistenza di linee di base errate nella risorsa copiata. (11218)
 * Non viene visualizzato alcun messaggio di avvertenza al caricamento di un file che supera il limite consentito dall’AEM (2 GB per impostazione predefinita). (10817)
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
-* Traduzione | Il processo di traduzione non viene avviato perché /libs/fmdita/i18n/ja.json non è valido. (10543)
+* Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
 * Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Se la versione viene modificata e salvata nell’editor della linea di base, per qualsiasi risorsa vengono visualizzati più pop-up. (10399)
@@ -90,9 +92,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La rigenerazione dell&#39;argomento non funziona per alcuni scenari. (10635)
 * Publishlistener non visualizza i dati richiesti nei registri di informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
 * Native PDF | Quando si crea un predefinito di output con l’opzione &quot;Aggiungi al profilo cartella&quot;, la generazione di PDF non riesce e viene generata un’eccezione Null Pointer. (10950)
-* Native PDF | Si verificano problemi durante la rotazione dell’intestazione della tabella. (10555)
+* Native PDF | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
 * Native PDF | Nidificato `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10521)
-* Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nella HTML temporanea. (10454)
+* Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo. (10454)
 * La pubblicazione della linea di base non riesce per PDF generato con FrameMaker Publishing Server 2020. (10551)
 * Native PDF | Aggiunta `xref` a un’immagine non esegue il rendering dell’immagine sul PDF generato. (11346)
 * Native PDF | Il tag immagine aggiunge l’attributo display-inline a tutte le immagini. (10653)

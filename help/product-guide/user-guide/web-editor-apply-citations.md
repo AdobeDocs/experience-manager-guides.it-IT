@@ -2,7 +2,9 @@
 title: Aggiungere e gestire le citazioni nel contenuto
 description: Aggiungi e gestisci le citazioni nelle guide AEM. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ Nel menu a discesa sono disponibili le seguenti opzioni:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Stile associazione lingua moderna <br> | Stile associazione psicologica americana | Manuale di stile di Chicago | Stile dell&#39;Institute for Electrical and Electronics Engineers | Stile American Heart Association |
-| Esempio:<br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*.Edited by Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010) *Contenuto emotivo di ricordi scuri* (505-16 ed.) 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. |
+| Esempio:<br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*.Edited by Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di ricordi scuri* (505-16 ed.) 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. |
 
 
 ## Modificare una citazione

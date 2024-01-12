@@ -2,7 +2,9 @@
 title: Sito AEM
 description: Crea e configura un predefinito per sito AEM nelle guide AEM. Utilizza il supporto del sito AEM per generare output basati su articoli, argomenti di collegamento dell’output, conferenze di pubblicazione e ricerche in una stringa all’interno del contenuto.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

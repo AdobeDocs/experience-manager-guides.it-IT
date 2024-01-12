@@ -2,7 +2,9 @@
 title: Best practice per la traduzione dei contenuti
 description: Scopri le best practice per la traduzione dei contenuti nelle Guide AEM. Scopri come configurare il servizio di traduzione, creare un nuovo progetto di traduzione e avviare il processo di traduzione.
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%

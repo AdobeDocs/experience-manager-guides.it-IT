@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di novembre 2022
+title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di novembre 2022
 description: Versione di novembre di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -130,7 +132,7 @@ Ora puoi anche utilizzare le seguenti variabili predefinite per definire il perc
 Di seguito sono elencati i bug risolti in varie aree:
 
 * Native PDF | `conkeyref` non viene risolto nell’output PDF generato. (10564)
-* Native PDF | Si verificano problemi durante l’accesso ai metadati di una mappa nell’output di PDF. (10556)
+* Native PDF | Si verificano dei problemi durante l’accesso ai metadati di una mappa nell’output di PDF. (10556)
 * Native PDF | Lo stile in linea viene utilizzato per generare i tag anziché il nome della classe.  (10498)
 * L’editor web carica una pagina vuota in modo intermittente. (10678)
 * La pubblicazione PDF non riesce se viene creato un predefinito tramite la duplicazione di un predefinito esistente. (10584)

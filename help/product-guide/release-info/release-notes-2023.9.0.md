@@ -2,7 +2,9 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di settembre 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di settembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
@@ -159,16 +161,16 @@ Di seguito sono elencati i bug risolti in varie aree:
 - La pubblicazione non riesce quando si rinomina un predefinito di PDF nativo. (12564)
 - La duplicazione di un modello di PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
 
-- Native PDF | L’inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
+- Native PDF | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
 - Native PDF | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
 - Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e applicando uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione.(12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
 - Se vengono utilizzate risorse del DAM dell’AEM in un output diverso dal sito AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell’editore o dell’utente che ha modificato per ultimo la mappa o l’argomento DITA. (12090)
-- AEM Sites La mappa DITA con intestazione di argomento nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
-- Native PDF | Si verificano problemi a sostegno di topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
+- AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
+- Native PDF | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
 - Native PDF | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
-- Native PDF | Se si rinomina un predefinito, viene generata un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
+- Native PDF | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
 - Il `<conref>` il contenuto non viene visualizzato nell’output di PDF. (11131)
 - Viene aggiunto uno spazio all’interno del `<div>` elementi per l’alternanza tra la vista Author e Source nell’editor di layout di pagina. (10750)
 - Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)

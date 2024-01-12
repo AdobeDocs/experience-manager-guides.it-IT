@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di ottobre 2022
+title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di ottobre 2022
 description: Versione di ottobre di Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -62,11 +64,11 @@ Seleziona uno o più predefiniti e genera rapidamente l’output. Potete anche v
 Di seguito sono elencati i bug risolti in varie aree:
 
 * Native PDF | Errore durante la rimozione degli argomenti relativi alle sole risorse dall&#39;output di PDF. (10554)
-* Native PDF | I tasti vuoti vengono visualizzati nell&#39;output PDF. (10553)
+* Native PDF | Nell&#39;output PDF vengono visualizzati i tasti vuoti. (10553)
 * Native PDF | `navtitle` per `topichead` non è onorato. (10509)
-* Native PDF | Supporto necessario per le versioni JDK amd64. (10465)
-* Native PDF | Non è possibile nascondere gli argomenti relativi al frontespizio dal sommario. (10355)
-* Native PDF | Riavviando il numero di pagina nel layout del capitolo, la numerazione inizia in modo casuale dalla fine del capitolo precedente. (10154)
-* Browser Chrome | Lo schermo si oscura quando si trascina un elemento dall’interfaccia utente. Ad esempio, quando si trascina una condizione dal pannello Condizioni. (10524)
+* Native PDF | Supporto necessario per le versioni JDK di amd64. (10465)
+* Native PDF | Impossibile nascondere gli argomenti di frontmatter dal sommario. (10355)
+* Native PDF | Se si riavvia il numero di pagina nel layout del capitolo, la numerazione inizia in modo casuale dalla fine del capitolo precedente. (10154)
+* Browser Chrome | Lo schermo si sta spegnendo quando si trascina un elemento dall’interfaccia utente. Ad esempio, quando si trascina una condizione dal pannello Condizioni. (10524)
 * Le proprietà del nodo vengono rimosse dopo l’operazione di copia e incolla di una risorsa. (10053)
 * Al clic  **Chiudi** Gli utenti venivano reindirizzati alle risorse; l’esperienza è stata corretta per portare gli utenti alla homepage dell’AEM. (9654)

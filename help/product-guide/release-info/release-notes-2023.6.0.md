@@ -2,7 +2,9 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione di giugno 2023
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione di giugno 2023 di Adobe Experience Manager Guides as a Cloud Service
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
@@ -123,7 +125,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 - Navtitle viene rimosso dal contenuto33 quando si passa dalla vista Layout a quella Author o Source. (12174)
 - A volte si verificano errori di applicazione quando si fa clic su una mappa DITA. (11842)
-- Editor web | Spazio unificatore aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
+- Editor web | Lo spazio unificatore viene aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
 - Interfaccia utente risorse | Nella vista a elenco, le colonne disponibili sovrapposte non sono unificabili. (11528)
 - Keyref non è risolto nella vista mappa. (11490)
 - Il menu superiore non viene visualizzato quando si passa da un editor XML all&#39;altro. (10868)
@@ -142,17 +144,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 - La pubblicazione sul sito AEM non riesce quando si leggono file temporanei dal pod che potrebbero essere stati aggiornati o riavviati. (12113)
 - Native PDF | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11936)
-- Output JSON | Mappa metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
-- Editor web | Il percorso di output e il modello non possono essere selezionati nel predefinito AEM. (11530)
+- Output JSON | Mappa i metadati con valore proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
+- Editor web | Il percorso e il modello di output non possono essere selezionati nel predefinito AEM. (11530)
 - Native PDF | Gli attributi personalizzati non vengono propagati al motore temporaneo HTML o PDF. (DXML-12005)
 - Native PDF | Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
 - Output JSON | Il `fmUuid` proprietà nel nodo jcr:content di JSON diversa dall’&quot;id&quot; all’interno del JSON. (11564)
 - Output JSON | Se sono presenti la mappa e l’argomento con lo stesso nome file, viene rimosso il codice JSON della mappa. (11524)
-- Native PDF | Xref sta stampando il contenuto del titolo dell&#39;argomento href invece dell&#39;etichetta Xref. (11322)
-- Native PDF | Impossibile salvare le impostazioni del modello PDF. (10751)
+- Native PDF | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
+- Native PDF | Impossibile salvare le impostazioni del modello di PDF. (10751)
 - Native PDF | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
 - Native PDF | `<note>``</note>` L&#39;elemento non genera un titolo di estensione aggiuntivo del relativo tipo. (10549)
-- Native PDF | Non è possibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12296)
+- Native PDF | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12296)
 
 
 
@@ -162,4 +164,4 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Recensione
 
-- Nuova interfaccia di revisione | Le condizioni evidenziano e mostrano il funzionamento di Nascondi in modo diverso rispetto a come funzionano nell’Editor web. (11628)
+- Nuova interfaccia di revisione | Le condizioni vengono evidenziate e visualizzate in modo diverso rispetto al funzionamento nell&#39;Editor Web. (11628)
