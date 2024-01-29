@@ -4,9 +4,9 @@ description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadati**: puoi controllare i metadati della versione dell’argomento e i relativi valori da visualizzare nella **Cronologia versioni** .  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
+
+  I metadati possono essere prelevati da qualsiasi proprietà sotto `/jcr:content` della risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
+
+
+  Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se si lascia vuota l&#39;etichetta, l&#39;ultimo elemento viene scelto come etichetta.
+
+
+
+
+  ![scheda metadati nelle impostazioni dell’editor](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Configurare i metadati per **Cronologia versioni**.*
+
+
+
+
+  Puoi anche definire l’ordine in cui vengono visualizzati questi tag di metadati. Per modificare l’ordine predefinito di questi tag, seleziona le barre punteggiate per trascinare i tag nella posizione desiderata.
+Le etichette dei metadati vengono visualizzate nella stessa sequenza in **Cronologia versioni** dell’editor web.
+
+
 
 **Preferenze utente** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ La barra degli strumenti secondaria viene visualizzata quando si apre un argomen
 
 **Inserisci elemento** - ![](images/Add_icon.svg)
 
-Inserisce un elemento valido nella posizione valida corrente o successiva. Se lavori all’interno di un elemento blocco come un `note`, quindi utilizza l’icona Inserisci elemento per inserire un nuovo elemento dopo il `note` elemento. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
+Inserisce un elemento valido nella posizione valida corrente o successiva. È inoltre possibile utilizzare la scelta rapida da tastiera ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Ad esempio, stai modificando un paragrafo, quindi in **Inserisci elemento** a comparsa, viene visualizzato un elenco di elementi che possono essere inseriti nel paragrafo. Seleziona l’elemento da inserire. È possibile utilizzare la tastiera per scorrere l&#39;elenco degli elementi e premere ***Invio*** per inserire l’elemento richiesto. È inoltre possibile digitare un carattere o una stringa nella casella di ricerca e cercare gli elementi che iniziano con essa.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![inserisci elemento](images/insert-element.png){width="300" align="left"}
+
+*Immetti ‘t’ per cercare tutti gli elementi validi che iniziano con ‘t’.*
+
+Se lavori all’interno di un elemento blocco come un `note`, quindi utilizza l’icona Inserisci elemento per inserire un nuovo elemento dopo il `note` elemento. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
+
+![Inserisci elemento in un elemento blocco](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#39;interno dell&#39;elemento nota stesso. Per inserire un nuovo elemento all’esterno della nota, fai clic sull’elemento p \(evidenziato nella schermata\) nella breadcrumb degli elementi e fai clic sull’icona Inserisci elemento o premi ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Quindi, selezionate l&#39;elemento desiderato e premete Invio per inserire l&#39;elemento selezionato dopo l&#39;elemento nota.
 
@@ -282,7 +310,7 @@ Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#3
 
 Ad esempio, se si sta lavorando su un argomento DITA e il cursore di blocco lampeggia tra la breve descrizione e il corpo, è possibile aggiungere `prolog` e quindi aggiungere il copyright, l&#39;autore e altri dettagli.
 
-Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegliere Inserisci elemento per visualizzare la finestra di dialogo Inserisci elemento e scegliere l&#39;elemento che si desidera inserire.
+Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegli **Inserisci elemento** per visualizzare **Inserisci elemento** e scegliere l&#39;elemento da inserire.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Crea un elenco numerato nel percorso valido corrente o successivo. Se fai clic s
 **Inserisci/Rimuovi elenco puntato** - ![](images/BulletList_icon.svg)
 
 Crea un elenco puntato nel percorso valido corrente o successivo. Se ti trovi in un elenco puntato e fai clic su questa icona, l’elemento viene convertito in un paragrafo normale.
+
+>[!NOTE]
+>
+>È inoltre possibile selezionare **Elenco suddiviso** dal menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente e iniziare un nuovo elenco allo stesso livello.
 
 **Inserisci tabella** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
 **Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
 
-Le guide AEM consentono di visualizzare le versioni create per i file di argomento e di ripristinare una versione specifica. Tuttavia, la maggior parte di queste funzioni sono disponibili al di fuori dell’editor web.
 
-La funzione Cronologia versioni nell’editor web consente non solo di controllare le versioni e le etichette disponibili nell’argomento attivo, ma anche di ripristinare qualsiasi versione dall’editor stesso.
+Il **Cronologia versioni** nell&#39;editor Web consente di controllare le versioni disponibili dei file DITA, confrontarli e ripristinare qualsiasi versione dall&#39;editor stesso.
+
+Nella cronologia delle versioni è possibile confrontare il contenuto e i metadati della versione corrente (che può anche essere una copia di lavoro) con qualsiasi versione precedente dello stesso file. Puoi anche visualizzare le etichette e i commenti per le versioni confrontate.
 
 Per accedere alla cronologia delle versioni e ripristinare una versione specifica dell&#39;argomento, effettuare le seguenti operazioni:
 
@@ -650,19 +683,39 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
 1. Clic **Cronologia versioni**.
 
-   Viene visualizzata la finestra di dialogo Cronologia versioni.
+   Il **Cronologia versioni** viene visualizzata.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Finestra di dialogo Cronologia versioni](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Visualizzare in anteprima le modifiche apportate alle diverse versioni di un argomento.*
 
-1. Scegliere una versione dell&#39;argomento che si desidera ripristinare in **Seleziona versione** elenco a discesa.
+1. Scegliere una versione dell&#39;argomento che si desidera confrontare o ripristinare in **Confronta con** elenco a discesa.
 
    >[!NOTE]
    >
    > Se a una versione sono applicate etichette, queste vengono visualizzate anche \(tra parentesi\) insieme al numero di versione.
 
-   Dopo aver selezionato una versione dall’elenco a discesa, viene resa disponibile l’opzione Ripristina versione selezionata. Nella finestra di anteprima vengono visualizzate le differenze tra la versione corrente e la versione selezionata dell&#39;argomento.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Abilita **Visualizza etichette e commenti** per visualizzare le etichette e i commenti applicati alle versioni corrente e confrontata.
+
+1. È inoltre possibile visualizzare le seguenti informazioni in **Cronologia versioni** finestra di dialogo:
+
+   **Anteprima** scheda: il contenuto appena aggiunto è in verde e il contenuto eliminato è in rosso.
+
+   **Metadati** scheda: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
+   *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
+
+   >[!NOTE]
+   >
+   > L’amministratore di sistema può modificare i metadati da visualizzare dalla scheda Metadati in Impostazioni editor.
+
+   Puoi anche visualizzare i dettagli dell’utente e dell’ora della versione corrente e della versione confrontata.
+
+
+
+1. Dopo aver scelto una versione dall’elenco a discesa, la **Opzione Ripristina versione selezionata** è reso disponibile. Nella finestra di anteprima vengono visualizzate le differenze tra la versione corrente e la versione selezionata dell&#39;argomento.
+
 
 1. Clic **Ripristina versione selezionata** per ripristinare la copia di lavoro con la versione selezionata dell&#39;argomento.
 
@@ -670,14 +723,14 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Facoltativo*\) Fornire un motivo per ripristinare una versione precedente. È inoltre possibile creare una nuova versione della copia di lavoro attiva dell&#39;argomento.
+1. \(*Facoltativo*\) Fornisci un motivo per ripristinare una versione precedente. È inoltre possibile creare una nuova versione della copia di lavoro attiva dell&#39;argomento.
 
 1. Clic **Conferma.**
 
    La copia di lavoro del file viene ripristinata alla versione selezionata. Se si sceglie di creare una nuova versione della copia di lavoro attiva, viene creata anche una nuova versione del file con tutte le modifiche di lavoro.
 
 
-Quando si ripristina una versione precedente, viene visualizzato un segnale visivo che indica che la versione su cui si sta lavorando non è la versione più recente.
+Quando si ripristina una versione precedente, viene visualizzato un segnale visivo che indica che la versione su cui si sta lavorando non è quella più recente.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
@@ -875,7 +928,7 @@ Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azi
 
 Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni un file multimediale o un file DITA. Alcune opzioni comuni disponibili sia per i file multimediali che per i file DITA sono:
 
-- Duplica
+- Duplicato
 - Check-Out/Check-In
 - Anteprima
 - Sposta in
@@ -1108,13 +1161,16 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
 
 - **Visualizza nell’interfaccia utente Assets**: utilizza questa opzione per visualizzare un’anteprima del file di mappa nell’interfaccia utente Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 - **Scarica mappa**: seleziona questa opzione per aprire **Scarica mappa** .
-In **Scarica mappa** nella finestra di dialogo, puoi scegliere le seguenti opzioni:
+In **Scarica mappa** , è possibile scegliere le opzioni seguenti:
    - **Usa linea di base**: selezionare questa opzione per ottenere un elenco di baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [utilizzare la previsione](./generate-output-use-baseline-for-publishing.md).
    - **Flatten File Hierarchy**: seleziona questa opzione per salvare tutti gli argomenti e i file multimediali a cui si fa riferimento in un’unica cartella.
 
   È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, vengono scaricate le ultime versioni persistenti degli argomenti e dei file multimediali a cui si fa riferimento.
 
-  Dopo aver fatto clic su **Scarica** , la richiesta di download della mappa è in coda. Se la mappa è pronta per il download, riceverai una notifica di pronto per il download. Se il download non riesce, si riceve la notifica che il download della mappa non è riuscito
+
+  Dopo aver fatto clic su **Scarica** , la richiesta del pacchetto di esportazione della mappa è in coda. Il **Completato** viene visualizzata se il pacchetto è stato creato correttamente.  Puoi fare clic su **Scarica** dal pulsante **Completato** .
+
+  Se la mappa è pronta per il download, riceverai una notifica di pronto per il download. Se il download non riesce, viene inviata la notifica che indica che il download della mappa non è riuscito.
 
   Puoi accedere al collegamento per il download dalla casella in entrata delle notifiche AEM. Seleziona la notifica della mappa generata nella casella in entrata per scaricare la mappa in formato .zip.
 
@@ -1801,7 +1857,9 @@ Se l’amministratore ha creato un profilo per gli attributi, questi vengono ott
 
 **Proprietà file** -  ![](images/topic-properties-icon.svg)
 
-Visualizzare le proprietà del file selezionato facendo clic sull&#39;icona Proprietà file nel pannello di destra. Le proprietà del file sono suddivise nelle due sezioni seguenti:
+Visualizzare le proprietà del file selezionato facendo clic su Proprietà file ![](images/topic-properties-icon.svg) nel pannello di destra. La funzione Proprietà file è disponibile in tutte e quattro le modalità o visualizzazioni: Layout, Autore, Origine e Anteprima.
+
+Le proprietà del file sono suddivise nelle due sezioni seguenti:
 
 **Generale**
 

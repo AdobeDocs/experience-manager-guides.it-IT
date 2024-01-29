@@ -4,9 +4,9 @@ description: Scopri come utilizzare la pubblicazione PDF nativa, creare e genera
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ I metadati sono la descrizione o la definizione del contenuto. I metadati sono u
 
 Utilizzare la scheda Metadati per impostare i campi metadati, ad esempio il nome dell&#39;autore, il titolo del documento, le parole chiave, le informazioni sul copyright e altri campi dati per l&#39;output PDF. Puoi anche aggiungere metadati personalizzati per l’output PDF.
 
-Questi metadati vengono mappati ai metadati della scheda Descrizione in Proprietà documento del PDF di output.
+Questi metadati vengono mappati sui metadati in **Descrizione** all&#39;interno del **Proprietà documento** del PDF di output.
 
-**Nota**: questi metadati sostituiscono quelli definiti a livello di libro.
+
 
 <img src="assets/pdf-metadata.png" alt="scheda metadati" width="600">
 
-Dai predefiniti di output, **seleziona PDF** > **Metadati** per aggiungere e personalizzare le opzioni dei metadati.
+Dai predefiniti di output, seleziona  **PDF** > **Native-PDF** > **Metadati** per aggiungere e personalizzare le opzioni dei metadati.
+* **Usa metadati aggiunti in topicmeta**
+
+  Questa opzione è selezionata per impostazione predefinita. È possibile utilizzare i metadati aggiunti nell&#39;elemento topicmeta della mappa DITA per popolare i campi metadati dell&#39;output PDF.
+
 * **Fornisci file XMP**
 
-  I campi di metadati possono essere compilati direttamente importando [XMP](https://www.adobe.com/products/xmp.html) (piattaforma di metadati estensibile). Puoi scaricare un esempio di file XMP da qui.
+  Puoi anche compilare direttamente i campi di metadati importando [XMP](https://www.adobe.com/products/xmp.html) (piattaforma di metadati estensibile). Puoi scaricare un esempio di file XMP da qui.
 
 [Scarica](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per unire i P
 | **Abilita equazioni MathML** | Seleziona questa opzione per eseguire il rendering delle equazioni MathML presenti nel contenuto. In caso contrario, per impostazione predefinita, le equazioni verranno ignorate. |
 | **Scarica file temporanei** | Selezionare questa opzione se si desidera scaricare i file di HTML provvisori creati durante la generazione dell&#39;output di PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. |
 | **Conformità PDF** | È lo standard al quale intendi salvare il PDF per assicurarti che sia conforme. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati consulta [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Proprietà file** | Seleziona i metadati da passare alla pubblicazione di PDF nativi. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio: `dc:description`, `dc:language`, `dc:title`, e `docstate` sono le proprietà predefinite, mentre è possibile `author` come proprietà personalizzata. Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando Native PDF. <br> Queste proprietà vengono selezionate da `metadataList` file disponibile in:`/libs/fmdita/config/metadataList`. <br>Questo file può essere sovrapposto in: `/apps/fmdita/config/metadataList`. |
 
 
 ## Generare un output PDF {#generate-pdf-output}

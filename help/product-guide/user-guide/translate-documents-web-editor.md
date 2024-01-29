@@ -4,9 +4,9 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 ## Crea un progetto di traduzione
 
 1. Nel pannello Repository, aprire il file mappa DITA in visualizzazione mappa.
-1. Fai clic su **Gestisci** scheda. Il pannello Traduzione visualizza il titolo del collegamento ipertestuale della mappa DITA insieme al **Lingue** elenco.
-1. Dalla sezione **Lingue** , seleziona la lingua in cui desideri tradurre il progetto. Puoi selezionare **Tutti** per tradurre il progetto in tutte le lingue disponibili.
+1. Fai clic su **Gestisci** scheda. Il pannello Traduzione visualizza **Lingue disponibili** elenco.
+1. Dalla sezione **Lingue disponibili** , seleziona la lingua in cui desideri tradurre il progetto. Puoi scegliere **Seleziona tutto** per tradurre il progetto in tutte le lingue disponibili.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
    >[!IMPORTANT]
    >
-   > Lingua mostra solo le lingue per le quali viene creata una cartella della lingua parallela alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
+   > L&#39;elenco mostra solo le lingue per le quali viene creata una cartella della lingua parallela alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. È inoltre possibile utilizzare le seguenti opzioni:
+1. Per tradurre il progetto, puoi anche selezionare una delle seguenti opzioni:
+
+   **Nessuno** Selezionate questa opzione per tradurre le versioni predefinite dei file. Questa opzione è selezionata per impostazione predefinita.
 
    **Usa baseline:** Puoi selezionare una previsione per tradurre il progetto. Fate clic su Usa baseline (Use Baseline) e scegliete una baseline creata sulla mappa. Tutti i file che fanno parte della baseline selezionata vengono visualizzati nella pagina Traduzione. Una volta tradotti i contenuti, puoi esportare la linea di base tradotta. Per ulteriori dettagli sull&#39;esportazione della linea di base tradotta, vedi [Esporta previsione tradotta](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Ad esempio, se disponi di alcuni file di origine con l’etichetta della version
 
 Le guide AEM consentono di verificare le differenze tra la versione selezionata e l&#39;ultima versione di origine tradotta degli argomenti. Puoi scegliere di tradurre la **Non sincronizzato** file in base alle modifiche apportate.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Seleziona la **Mostra differenza** icona \(![](images/show-difference-icon.svg)\) affinché un argomento visualizzi le differenze tra l&#39;ultima versione tradotta e la versione corrente del file selezionato.
 

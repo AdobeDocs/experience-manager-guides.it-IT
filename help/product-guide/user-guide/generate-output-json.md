@@ -4,9 +4,9 @@ description: Scopri come creare un predefinito JSON dall’editor web e dal dash
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ Nell’editor web, le seguenti configurazioni sono state organizzate in **Genera
 
 Per ulteriori informazioni, consulta [Configurazione JSON](#id231KJA00REJ).
 
-**Dal dashboard delle mappe**
-
-Per aprire i predefiniti di output per PDF, fai clic su un file di mappa DITA dall’interfaccia utente Assets, quindi fai clic su Predefiniti di output e infine sull’opzione HTML5. Nel dashboard Mappa, fai clic su **Modifica** nella parte superiore per aggiornare le varie configurazioni, quindi fai clic su **Salva**.
 
 **Configurazione JSON**
 

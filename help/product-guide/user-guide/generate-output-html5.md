@@ -4,9 +4,9 @@ description: Scopri come creare un predefinito di HTML5 dall’editor web e dal 
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ La scheda Avanzate contiene le seguenti configurazioni:
 
 - Nome trasformazione
 - Pulisci file temporanei DITA-OT
-- Proprietà
+- Proprietà file
 
 Per ulteriori informazioni, consulta [Configurazione HTML5](#id231KJA00REJ).
 
@@ -67,6 +67,6 @@ Per l’output di HTML5 sono disponibili le seguenti opzioni:
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di HTML5. |
 | Pulisci file temporanei DITA-OT | Selezionare questa opzione per pulire i file temporanei generati da DITA-OT. Il percorso in cui DITA-OT memorizza i file temporanei si trova nel registro di generazione dell&#39;output.<br><br>Se si verificano errori durante la generazione dell&#39;output tramite DITA-OT, è possibile deselezionare questa opzione per mantenere i file temporanei. Puoi quindi utilizzare questi file per risolvere eventuali errori di generazione dell’output. |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Consulta [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per maggiori dettagli. |
-| Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate sotto **Proprietà** campo. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: puoi anche trasmettere i metadati all’output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate sotto **Proprietà file** campo. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: puoi anche trasmettere i metadati all’output utilizzando la pubblicazione DITA-OT. Per maggiori dettagli vedi, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

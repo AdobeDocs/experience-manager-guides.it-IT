@@ -3,9 +3,9 @@ title: Note sulla versione | Novità delle guide di Adobe Experience Manager, ve
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Consente inoltre di duplicare una baseline basata sull&#39;etichetta. La version
 *Duplicare una linea di base basata su un&#39;etichetta o creare una copia esatta.*
 
 Ulteriori informazioni su come [creare e gestire le linee di base dall&#39;editor Web](../user-guide/web-editor-baseline.md).
-
-## È stato migliorato il processo per la creazione della raccolta di mappe di attivazione in blocco
-
-Il processo di creazione di una raccolta di mappe di attivazione in blocco è ora più armonioso. Ora, quando viene visualizzata la pagina Risultati attivazione, è possibile visualizzare i risultati dell&#39;attivazione e i registri.
-Per ulteriori informazioni, consulta [Creare una raccolta di mappe di attivazione in blocco](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## Risoluzione dei collegamenti incrociati nell’output del sito AEM
 

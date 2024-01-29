@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '5744'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Segui le istruzioni di aggiornamento specifiche per la versione con licenza del tuo prodotto.
 
-È possibile aggiornare la versione corrente di Experience Manager Guides alla versione 4.3.1
+È possibile aggiornare la versione corrente di Experience Manager Guides alla versione 4.4.0:
 
-- Se utilizzi le versioni 4.3.0, 4.2 o 4.2.1, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.
-- Se utilizzi la versione 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.3.0, 4.2 o 4.2.x prima di eseguire l’aggiornamento alla versione 4.3.1.
-- Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.1.
+- Se utilizzi le versioni 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.4.0.
+- Se utilizzi le versioni 4.2, 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3) prima di eseguire l’aggiornamento alla versione 4.4.0.
+- Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
 - Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Guide per l’aggiornamento degli Experienci Manager nella guida all’installazione specifica per il prodotto.
 
@@ -38,6 +38,7 @@ Per ulteriori informazioni, consulta le procedure seguenti:
 - [Aggiornamento alla versione 4.2.1](#upgrade-version-4-2-1)
 - [Aggiornamento alla versione 4.3.0](#upgrade-version-4-3)
 - [Aggiornamento alla versione 4.3.1](#upgrade-version-4-3-1)
+- [Aggiornamento alla versione 4.4.0](#upgrade-version-4-4-0)
 
 
 >[!IMPORTANT]
@@ -61,7 +62,7 @@ Prima di avviare il processo di aggiornamento di Experience Manager Guides, veri
 1. Importazione dei commenti di revisione negli argomenti aperti per la revisione.
 1. Chiuse tutte le recensioni attive.
 1. Ha chiuso tutte le attività di traduzione.
-1. Disinstalla gli eventuali hotfix di Experience Manager Guides installati nella parte superiore della versione precedente \(principale o patch release\) di Experience Manager Guides.
+1. Disinstalla eventuali aggiornamenti rapidi di Guide Experience Manager installati nella parte superiore della versione precedente \(versione principale o patch\) di Guide Experienci Manager.
 
 **Prima di installare la versione 4.0**
 
@@ -206,7 +207,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
    >
    > Aggiorna e verifica che le modifiche personalizzate e il passaggio di post-elaborazione Experience Manager Guides siano presenti nel modello di flusso di lavoro finale.
 
-1. Una volta **Flusso di lavoro Aggiorna risorsa DAM**&#x200B;è convalidato, controlla le configurazioni di avvio corrispondenti. Per farlo, vai all’interfaccia del flusso di lavoro AEM e apri i moduli di avvio.
+1. Una volta **Flusso di lavoro Aggiorna risorsa DAM** è convalidato, controlla le configurazioni di avvio corrispondenti. Per farlo, vai all’interfaccia del flusso di lavoro AEM e apri i moduli di avvio.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -292,9 +293,11 @@ e imposta le seguenti proprietà nel nodo:
 
 ## Aggiornamento alla versione 4.2.1 {#upgrade-version-4-2-1}
 
-L’aggiornamento alla versione 4.2.1 dipende dalla versione corrente di Experience Manager Guides.
+>[!TIP]
+>
+>Si consiglia di installare Hotfix 4.2.1.3 oltre alla versione 4.2.1.
 
-Se utilizzi le versioni 4.1 o 4.1.x o 4.2, puoi eseguire direttamente l’aggiornamento alla versione 4.2.1.
+L’aggiornamento alla versione 4.2.1 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.1 o 4.1.x o 4.2, puoi eseguire direttamente l’aggiornamento alla versione 4.2.1.
 
 >[!NOTE]
 >
@@ -419,7 +422,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
    >
    > Aggiorna e verifica che le modifiche personalizzate e il passaggio di post-elaborazione Experience Manager Guides siano presenti nel modello di flusso di lavoro finale.
 
-1. Una volta **Flusso di lavoro Aggiorna risorsa DAM**&#x200B;è convalidato, controlla le configurazioni di avvio corrispondenti. Per farlo, vai all’interfaccia del flusso di lavoro AEM e apri i moduli di avvio.
+1. Una volta **Flusso di lavoro Aggiorna risorsa DAM** è convalidato, controlla le configurazioni di avvio corrispondenti. Per farlo, vai all’interfaccia del flusso di lavoro AEM e apri i moduli di avvio.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
@@ -525,7 +528,6 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 
-4.3.1.
 
 ## Aggiornamento alla versione 4.3.1 {#upgrade-version-4-3-1}
 
@@ -540,7 +542,7 @@ L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experie
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.1, assicurati di disporre di:
 
 1. Aggiornato alle versioni 4.3.0, 4.2 o 4.2.1 delle guide Experience Manager, ha completato i rispettivi passaggi di installazione.
-1. Ha chiuso tutte le attività di traduzione.
+1. (Facoltativo) Ha chiuso tutte le attività di traduzione.
 1. Il livello di registro è stato modificato in **INFO** per `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` e aggiungi questi registri in un nuovo file di registro, ad esempio, `logs/translation_upgrade.log`.
 
 
@@ -725,6 +727,205 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
+## Aggiornamento alla versione 4.4.0 {#upgrade-version-4-4-0}
+
+L&#39;aggiornamento alla versione 4.4.0 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.3.1, 4.3.0, 4.2 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.4.0
+
+>[!NOTE]
+>
+>La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
+
+****Prerequisiti****
+
+Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.4.0, accertati di disporre di:
+
+1. Aggiornato alle versioni 4.3.1, 4.3.0 o 4.2.1 delle guide Experience Manager (Hotfix 4.2.1.3), ha completato il rispettivo passaggio di installazione.
+1. (Facoltativo) Ha chiuso tutte le attività di traduzione.
+1. Il livello di registro è stato modificato in **INFO** per `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` e aggiungi questi registri in un nuovo file di registro, ad esempio, `logs/translation_upgrade.log`.
+
+
+## Installare la versione 4.4.0
+
+1. Scarica il pacchetto della versione 4.4.0 da [Portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Installa la versione 4.4.0 del pacchetto.
+1. Puoi scegliere di premere il trigger per avviare il processo di aggiornamento della mappa di traduzione. Per ulteriori informazioni, consulta [Abilitare l’attivazione dello script tramite un servlet](#enable-trigger-serverlet-4-4-0).
+
+1. Dopo aver completato l’installazione del pacchetto, attendi i seguenti messaggi\(s\) nei registri:
+
+   `Completed the post deployment setup script`
+
+   Il messaggio sopra riportato indica che tutti i passaggi dell&#39;installazione sono stati completati.
+
+   Se riscontri uno dei seguenti prefissi ERROR, segnalali al team di successo del cliente:
+
+   - Errore nello script di installazione post-distribuzione
+   - Eccezione durante il porting del MAP di traduzione
+   - Impossibile trasferire la mappa di traduzione dalla versione 1 alla versione 2 per la proprietà
+1. Aggiornamento del plug-in del connettore ossigeno rilasciato con la versione 4.4.0 \(se necessario\).
+1. Cancella la cache del browser dopo l’installazione del pacchetto.
+1. Continua ad aggiornare le personalizzazioni come descritto nella sezione successiva.
+
+
+## Dopo aver installato la versione 4.4.0
+
+Dopo aver installato Experience Manager Guides, è possibile unire le varie configurazioni applicabili dalla versione appena installata alla configurazione.
+
+>[!NOTE]
+>
+> Il modello dam-update-asset può essere personalizzato. Pertanto, se sono state apportate personalizzazioni, è necessario sincronizzare le personalizzazioni e le guide Experienci Manager nella copia di lavoro del modello.
+
+1. **Flusso di lavoro Aggiorna risorsa DAM \(Modifiche post-elaborazione\):**
+
+1. Apri URL:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Seleziona **Flusso di lavoro Aggiorna risorsa DAM**.
+1. Fai clic su **Modifica**.
+1. Se il **Iniziatore post-elaborazione DXML** è presente, assicurati che le personalizzazioni siano sincronizzate.
+1. Se il **Iniziatore post-elaborazione DXML** il componente è assente, esegui i seguenti passaggi per inserirlo:
+
+1. Clic **Inserisci componente** \(Responsabile per l&#39;Experience Manager Guida alla post-elaborazione come fase finale del processo\).
+1. Configurare **Passaggio del processo** con i dettagli seguenti:
+
+   **Scheda Comune**
+
+   **Titolo:** Iniziatore post-elaborazione DXML
+
+   **Descrizione**: passaggio dell’iniziatore di post-elaborazione DXML che attiverà un processo sling per la post-elaborazione DXML della risorsa modificata/creata
+
+   **Scheda Processo**
+
+   - Seleziona **Iniziatore post-elaborazione DXML** dal **Processo** elenco a discesa
+
+   - Seleziona **Avanzamento gestore**
+
+   - Seleziona **Fine**
+
+1. Clic **Sincronizza** in alto a destra dopo aver completato le modifiche. Riceverai una notifica di esito positivo.
+
+   >[!NOTE]
+   >
+   > Aggiorna e verifica che le modifiche personalizzate e il passaggio di post-elaborazione Experience Manager Guides siano presenti nel modello di flusso di lavoro finale.
+
+1. Una volta **Flusso di lavoro Aggiorna risorsa DAM** è convalidato, controlla le configurazioni di avvio corrispondenti. Per farlo, vai all’interfaccia del flusso di lavoro AEM e apri i moduli di avvio.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Trova e apporta le modifiche \(se necessario\) ai seguenti due moduli di avvio \(che dovrebbe essere attivo\) corrispondenti a **Flusso di lavoro Aggiorna risorsa DAM**:
+
+1. Modulo di avvio per &quot;*Nodo creato*&quot; per **Flusso di lavoro Aggiorna risorsa DAM**- per condizione `"jcr:content/jcr:mimeType!=video"`, il valore &quot;Globbing&quot; deve essere:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; deve avere `"event-user-data:changedByWorkflowProcess"`.
+   - Modulo di avvio per &quot;*Nodo modificato*&quot; per **Flusso di lavoro Aggiorna risorsa DAM -** per la condizione &quot;`jcr:content/jcr:mimeType!=video`&quot;, il valore &#39;Globbing&#39; deve essere:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` dovrebbe avere `"event-user-data:changedByWorkflowProcess"`.
+
+1. Al termine dell’aggiornamento, accertati che le personalizzazioni/sovrapposizioni siano convalidate e aggiornate in modo che corrispondano al nuovo codice dell’applicazione. Di seguito sono riportati alcuni esempi:
+   - Tutti i componenti sovrapposti da/libs/fmditaor/libssdevono essere confrontati con il nuovo codice del prodotto e gli aggiornamenti devono essere eseguiti in file sovrapposti in/apps.
+   - Tutte le categorie clientlib utilizzate dal prodotto, devono essere riviste per eventuali modifiche. Eventuali configurazioni sostituite \(esempi di seguito\) devono essere confrontate con quelle più recenti in modo da ottenere le funzioni più recenti:
+   - elementmapping.xml
+   - ui\_config.json\(potrebbe essere stato impostato in profili cartella\)
+   - modificato `com.adobe.fmdita.config.ConfigManager`
+
+1. Se hai aggiunto delle personalizzazioni in damAssetLucene, potresti dover applicarle nuovamente. Dopo aver apportato tali modifiche, imposta la reindicizzazione su true. In questo modo tutti i nodi esistenti verranno reindicizzati con le personalizzazioni. Al termine, il flag di reindicizzazione verrà impostato di nuovo su false. Questa operazione può richiedere alcune ore a seconda del numero di risorse nel sistema.
+
+## Passaggi per indicizzare il contenuto esistente
+
+>[!NOTE]
+>
+> Non è necessario eseguire questi passaggi se si esegue l’aggiornamento da 4.3.0 o 4.3.1.
+
+Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizzare il nuovo testo Trova e sostituisci a livello di mappa:
+
+- Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+- Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+
+## Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
+
+>[!NOTE]
+>
+> Non è necessario eseguire questi passaggi se si esegue l’aggiornamento da 4.3.0 o 4.3.1.
+
+Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
+
+1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file dita, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
+
+   | PID | Chiave proprietà | Valore proprietà |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valore: 200000 <br> Valore predefinito: 100000 |
+
+1. Esegui le seguenti API per eseguire la post-elaborazione su tutti i file:
+
+   | Punto finale | /bin/guides/reports/upgrade |
+   |---|---|
+   | Tipo di richiesta | **POST**  Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso punto finale.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+
+   | Punto finale | /bin/guides/reports/upgrade |
+   |---|---|
+   | Tipo di richiesta | **GET** |
+   | Parametro | jobId: passa il jobId ricevuto dalla richiesta post precedente. |
+   | Risposta prevista | - Una volta completato il processo, la richiesta di GET risponde con successo. <br> - In caso di errori, condividi i registri degli errori con il team di successo del cliente insieme all’output API.  <br>URL di esempio: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+
+### Abilitare l’attivazione dello script tramite un servlet{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> Non è necessario eseguire questi passaggi se si esegue l’aggiornamento da 4.3.0 o 4.3.1.
+
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Risposta:
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell’archivio che punta al processo inviato. Verrà eliminato automaticamente una volta completato il processo; fino ad allora, puoi fare riferimento a questo nodo per lo stato corrente del processo.
+
+Cerca `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` e `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` prima di procedere ai passaggi successivi.
+
+>[!NOTE]
+>
+> Verifica se il nodo è ancora presente e lo stato del processo.
+
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+
+## Passaggi per gestire `'fmdita rewriter'` conflitto
+
+Experience Manager Guide ha un [**rewriter sling personalizzato**](../cs-install-guide/conf-output-generation.md#custom-rewriter) modulo per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse).
+
+Se nel codebase è presente un altro rewriter di sling personalizzato, utilizza un `'order'` valore maggiore di 50, utilizzato dal rewriter sling di Experience Manager Guides `'order'` 50  Per evitare questo problema, è necessario un valore > 50. Per ulteriori dettagli, vedi [Pipeline di riscrittura di output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Durante questo aggiornamento, dal momento che `'order'` viene modificato da 1000 a 50, è necessario unire l’eventuale rewriter personalizzato esistente con `'fmdita-rewriter'`.
 
 
 **Argomento padre:**[ Scarica e installa](download-install.md)

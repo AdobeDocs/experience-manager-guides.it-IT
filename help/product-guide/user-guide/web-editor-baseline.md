@@ -4,9 +4,9 @@ description: Crea e gestisci le linee di base dall’editor web nelle guide AEM.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > Si consiglia di utilizzare questa funzione della linea di base dell’editor web se è stato effettuato l’aggiornamento alla versione di marzo as a Cloud Service delle guide AEM o successiva.
 
-Le guide AEM forniscono la funzione Baseline integrata nell’editor web che consente agli utenti di creare linee di base e utilizzarle per pubblicare o tradurre argomenti di versioni diverse.
+Le guide AEM forniscono la funzione Baseline integrata nell’editor web che consente agli utenti di creare linee di base e utilizzarle per pubblicare o tradurre argomenti di versioni diverse. Possono inoltre pubblicare in parallelo più predefiniti di output della stessa mappa DITA.
 
 ## Creare una baseline
 
@@ -56,11 +56,12 @@ Le guide AEM forniscono la funzione Baseline integrata nell’editor web che con
 
    **Aggiornamento automatico**: selezionare questa opzione per la creazione della linea di base per scegliere automaticamente gli argomenti in base all&#39;etichetta ad essi applicata.
 
-   Le baseline create utilizzando la configurazione di aggiornamento automatico vengono aggiornate in modo dinamico. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se è stata utilizzata la versione 1.2 di un argomento con Label Release 1.0 per la baseline e successivamente è stata aggiornata la versione 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
+   Le baseline create mediante la configurazione di aggiornamento automatico vengono aggiornate in modo dinamico. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se è stata utilizzata la versione 1.2 di un argomento con Label Release 1.0 per la baseline e successivamente è stata aggiornata la versione 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
 
-   ![Creare una baseline](images/dynamic-baseline.png){width="550" align="left"}
+   ![Creare una baseline](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Seleziona etichette**: se per gli argomenti sono specificate etichette, queste sono elencate nella **Seleziona etichette** a discesa. Puoi scegliere l&#39;etichetta\(s\) dall&#39;elenco. Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
+   - **Seleziona etichette**: se per gli argomenti sono state specificate etichette, utilizzare **Seleziona etichette** menu a discesa per scegliere [etichette elencate](#labels-list).
+Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
 
      Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se hai creato le etichette   `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell’Argomento A ed etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell’argomento B . È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, puoi visualizzare  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, e `Label Release B.1.1` nel menu a discesa delle etichette della baseline dinamica.
 
@@ -93,18 +94,23 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
 
   È inoltre possibile eseguire le operazioni riportate di seguito sulla baseline dal menu Opzioni.
-- **Duplicare una baseline**: è possibile duplicare una baseline e modificarla in base alle proprie esigenze.
-  ![duplicare una baseline](images/baseline-duplicate.png){width="300" align="left"}
-  *Duplicare una linea di base basata su un&#39;etichetta o creare una copia esatta.*
 
-   1. Seleziona **Duplica** dal menu Opzioni di una baseline. Il **Linea di base duplicata** viene visualizzata.
-      >[!NOTE]
-      > 
-      >Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
-   1. In entrata **Seleziona la versione in base a**, è possibile scegliere **Copia esatta** o **Etichetta** opzione:
-      - **Copia esatta**: Experience Manager Guides seleziona la stessa versione di tutti gli argomenti e crea una copia esatta della baseline duplicata.
-      - **Etichetta**: puoi scegliere un’etichetta dal menu a discesa. Experience Manager Guide seleziona le versioni degli argomenti per le quali è stata definita l&#39;etichetta selezionata, mentre per gli argomenti rimanenti seleziona la versione dalla baseline duplicata. Ad esempio, puoi selezionare l’etichetta `Release 1.0` dal menu a discesa, seleziona le versioni degli argomenti per i quali hai definito questa etichetta. Per tutti gli altri argomenti, seleziona la versione dalla baseline duplicata.
-   1. Clic **Duplica**.
+### Duplicare una baseline
+
+È possibile duplicare una baseline e modificarla in base alle proprie esigenze.
+![duplicare una baseline](images/baseline-duplicate.png){width="300" align="left"}
+*Duplicare una linea di base basata su un&#39;etichetta o creare una copia esatta.*
+
+1. Seleziona **Duplica** dal menu Opzioni di una baseline. Il **Linea di base duplicata** viene visualizzata.
+>[!NOTE]
+> >Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
+
+   In entrata **Seleziona la versione in base a**, è possibile scegliere **Copia esatta** o **Etichetta** opzione:
+
+   - **Copia esatta**: Experience Manager Guides seleziona la stessa versione di tutti gli argomenti e crea una copia esatta della baseline duplicata.
+   - **Etichetta**: dal menu a discesa, puoi scegliere uno dei [etichette elencate](#labels-list). Experience Manager Guide seleziona le versioni degli argomenti per le quali è stata definita l&#39;etichetta selezionata, mentre per gli argomenti rimanenti seleziona la versione dalla baseline duplicata. Ad esempio, puoi selezionare l’etichetta `Release 1.0` dal menu a discesa, seleziona le versioni degli argomenti per i quali hai definito questa etichetta. Per tutti gli altri argomenti, seleziona la versione dalla baseline duplicata.
+1. Clic **Duplica**.
+
 - **Rinomina**, o **Elimina** una baseline esistente.
 - Aggiungi, rimuovi o modifica le etichette esistenti dal **Gestisci etichette** per le baseline statiche. Se l’amministratore ha configurato delle etichette predefinite, queste vengono visualizzate nell’elenco a discesa Aggiungi etichetta. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Usa etichette](web-editor-use-label.md#).
 
@@ -115,7 +121,16 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 - **Modifica proprietà** di una baseline statica esistente impostata durante la creazione della baseline.
 - Esportare lo snapshot di una baseline in un file di Microsoft Excel con **Esporta previsione** opzione.
 
-**Filtri della linea di base**
+
+### Elenco delle etichette {#labels-list}
+
+Le etichette elencate nel menu a discesa si basano sui seguenti criteri:
+- Le etichette devono essere aggiunte a una delle versioni degli argomenti nella mappa DITA (in cui viene creata la linea di base).
+- Per la selezione delle etichette vengono considerati solo i riferimenti di primo livello (argomenti o mappe secondarie) della mappa DITA.
+
+
+
+## Filtri della linea di base
 
 Utilizzo dell’icona Filtri in **Filtri linea di base** pannello puoi applicare filtri alla linea di base aperta nella finestra di modifica della linea di base:
 

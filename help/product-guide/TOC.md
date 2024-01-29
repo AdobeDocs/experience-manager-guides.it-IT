@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 4%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 4%
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 + [Panoramica di [!DNL AEM Guides]](overview.md)
-+ [Liberatoria](./user-guide/rebranding-disclaimer.md)
++ [Dichiarazione di non responsabilità](./user-guide/rebranding-disclaimer.md)
 + Informazioni sulla versione {#release-info}
    + [[!DNL AEM Guides] versioni](./release-info/latest-release-info.md)
    + Note sulla versione {#release-notes}
@@ -58,23 +58,28 @@ ht-degree: 4%
             + [Note sulla versione di febbraio](./release-info/release-notes-2022.2.0.md)
             + [Note sulla versione di gennaio](./release-info/release-notes-2022.1.0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
-         + Versione 4.3.0 {#43-release}
-            + Novità {#43-whats-new}
-               + [4.3.1 Novità](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0 Novità](./release-info/whats-new-4.3-release.md)
-            + Note sulla versione {#43-release-notes}
-               + [4.3.1 Note sulla versione](./release-info/release-notes-4.3.1.md)
-               + [Note sulla versione 4.3.0](./release-info/release-notes-4.3.md)
-         + 4.2 Versione {#42-release}
-            + Novità {#42-whats-new}
-               + [4.2.1 Novità](./release-info/whats-new-4.2.1-release.md)
-               + [4.2 Novità](./release-info/whats-new-4.2-release.md)
-            + Note sulla versione {#42-release-notes}
-               + [4.2.1 Note sulla versione](./release-info/release-notes-4.2.1.md)
-               + [4.2 Note sulla versione](./release-info/release-notes-4.2.md)
-         + [Note sulla versione 4.1.x](./release-info/release-notes-4.1.md)
-         + [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + Versione 4.4.0 {#44-release}
+         + Novità {#44-whats-new}
+            + [4.4 Novità](./release-info/whats-new-4.4.md)
+         + Note sulla versione {#43-release-notes}
+            + [4.4 Note sulla versione](./release-info/release-notes-4.4.md)
+      + Versione 4.3.0 {#43-release}
+         + Novità {#43-whats-new}
+            + [4.3.1 Novità](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0 Novità](./release-info/whats-new-4.3-release.md)
+         + Note sulla versione {#43-release-notes}
+            + [4.3.1 Note sulla versione](./release-info/release-notes-4.3.1.md)
+            + [Note sulla versione 4.3.0](./release-info/release-notes-4.3.md)
+      + 4.2 Versione {#42-release}
+         + Novità {#42-whats-new}
+            + [4.2.1 Novità](./release-info/whats-new-4.2.1-release.md)
+            + [4.2 Novità](./release-info/whats-new-4.2-release.md)
+         + Note sulla versione {#42-release-notes}
+            + [4.2.1 Note sulla versione](./release-info/release-notes-4.2.1.md)
+            + [4.2 Note sulla versione](./release-info/release-notes-4.2.md)
+      + [Note sulla versione 4.1.x](./release-info/release-notes-4.1.md)
+      + [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Guida utente {#user-guide}
    + Introduzione {#about-aem-guide}
       + [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -158,7 +163,7 @@ ht-degree: 4%
          + [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
-         + [Personale](./user-guide/generate-output-custom.md)
+         + [Personalizzato](./user-guide/generate-output-custom.md)
          + [JSON](./user-guide/generate-output-json.md)
       + [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./user-guide/generate-output-use-variables.md)
       + [Creare, modificare, duplicare o rimuovere un predefinito di output](./user-guide/generate-output-create-edit-preset.md)
