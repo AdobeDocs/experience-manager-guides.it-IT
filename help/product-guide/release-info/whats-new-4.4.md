@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Novità della versione 4.4.0 delle Guide di Adobe Experience Manager
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides nella versione 4.4.0
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Experience Manager Guides consente di configurare l&#39;URL dell&#39;output del 
 
 L&#39;Experience Manager fornisce la funzione per la creazione delle linee di base selezionando automaticamente gli argomenti in base all&#39;etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
 
+Ulteriori informazioni su come [creare e gestire le linee di base dall&#39;editor Web](../user-guide/web-editor-baseline.md).
 
 ## Miglioramenti di Native PDF
 
@@ -216,10 +217,10 @@ Per formattare le variabili è possibile applicare gli stili e utilizzare il mar
 Scopri come utilizzare [variabili nell’output di PDF](../native-pdf/native-pdf-variables.md).
 
 
-### Proporre i metadati delle risorse all’output PDF
+### Propagazione dei metadati delle risorse nell’output PDF
 
 Experience Manager ora offre la possibilità di trasferire le proprietà dei metadati delle risorse dalla mappa DITA all’output PDF.
-Dal predefinito di output di PDF nativo è possibile scegliere i metadati che si desidera proporre al processo di pubblicazione di PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono trasferite al file PDF generato utilizzando Native PDF.
+Dal predefinito di output di PDF nativo è possibile scegliere i metadati che si desidera propagare al processo di pubblicazione di PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono trasferite al file PDF generato utilizzando Native PDF.
 
 Questa funzione è utile in quanto consente di mantenere coerenti le proprietà della risorsa, ad esempio l’autore, la data di creazione o il titolo del documento. Ciò semplifica l&#39;organizzazione, la ricerca e la classificazione dei documenti.
 
