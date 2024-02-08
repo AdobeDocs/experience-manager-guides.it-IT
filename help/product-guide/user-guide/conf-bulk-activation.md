@@ -4,7 +4,7 @@ description: Scopri l’attivazione in blocco dei contenuti pubblicati. Scopri i
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Attivazione in blocco di contenuti pubblicati {#id214GG080LE8}
 
-In uno scenario reale, gli autori avrebbero accesso all’istanza di authoring dell’AEM mentre il contenuto effettivo viene pubblicato nell’istanza di pubblicazione dell’AEM. Le istanze di pubblicazione potrebbero quindi essere ulteriormente distribuite tra diverse geolocalizzazioni. L’output pubblicato deve essere spostato su questo server di pubblicazione tramite processi diversi. Il processo di spostamento dei contenuti dall’istanza di authoring all’istanza di pubblicazione viene definito attivazione o replica dei contenuti.
+In uno scenario reale, gli autori avrebbero accesso all’istanza di authoring dell’AEM mentre il contenuto effettivo viene pubblicato sull’istanza di pubblicazione dell’AEM. Le istanze di pubblicazione potrebbero quindi essere ulteriormente distribuite tra diverse geolocalizzazioni. L’output pubblicato deve essere spostato su questo server di pubblicazione tramite processi diversi. Il processo di spostamento dei contenuti dall’istanza di authoring all’istanza di pubblicazione viene definito attivazione o replica dei contenuti.
 
 >[!NOTE]
 >
