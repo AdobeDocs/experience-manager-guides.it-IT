@@ -4,9 +4,9 @@ description: Configurazione dell’ambiente AEM per la pubblicazione di PDF nati
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -181,6 +181,12 @@ Se il problema persiste anche dopo aver corretto le impostazioni dell’ambiente
 
 Convalida il valore della proprietà timeout per il nodo nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs nell’archivio CRX. Il valore predefinito è 300.
 
+### Errore durante l’estrazione dell’eccezione di dipendenza (stringa troppo lunga)
+![Eccezione stringa troppo lunga](..//assets/publishing/string-too-long-error.png)
+
+Per ovviare a questa eccezione:
+1. Elimina alcuni stili che non sono necessari per rimpicciolirli.
+2. Creare più fogli di stile invece di un singolo css di grandi dimensioni.
 
 
 In caso di problemi durante l’esecuzione di uno dei passaggi precedenti, invia una domanda alla community delle guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per assistenza.
