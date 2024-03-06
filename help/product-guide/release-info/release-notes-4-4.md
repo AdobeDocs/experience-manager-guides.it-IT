@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides versione 4.4.0
 description: Scopri le correzioni di bug e come effettuare l’aggiornamento alla versione 4.4.0 delle guide di Adobe Experience Manager
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [N
 ## Aggiornamento alla versione 4.4.0 delle guide di Experience Manager
 
 
-È possibile aggiornare facilmente la versione corrente delle Guide alla versione 4.4.0. Prima di procedere con l&#39;aggiornamento alla versione 4.4.0 di Experience Manager Guides, è necessario considerare i seguenti punti:
+Puoi aggiornare facilmente la versione corrente di Experience Manager Guides alla versione 4.4.0. Prima di procedere con l&#39;aggiornamento alla versione 4.4.0 di Experience Manager Guides, è necessario considerare i seguenti punti:
 
 
 - Se utilizzi le versioni 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.4.0.
 - Se utilizzi le versioni 4.2, 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3) prima di eseguire l’aggiornamento alla versione 4.4.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Guide per l’aggiornamento degli Experienci Manager nella guida all’installazione specifica per il prodotto.
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Guide per l’aggiornamento degli Experienci Manager nella guida all’installazione specifica per il prodotto disponibile su [Guida di Adobe Experience Manager Guides - Archivio PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

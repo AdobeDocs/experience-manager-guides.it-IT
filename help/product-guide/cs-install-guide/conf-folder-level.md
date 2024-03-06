@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - EPUB
 
-   - Personale
+   - Personalizzato
 
   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare predefiniti di pubblicazione alle mappe DITA esistenti. Vedere [Applicare le modifiche ai predefiniti](#id18AGD0K0OHS) per ulteriori dettagli.
 
@@ -405,6 +405,43 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 1. Clic **OK** per applicare le modifiche dai predefiniti di output selezionati a tutte le mappe DITA esistenti.
 
+
+
+## Configurare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web {#conf-ai-smart-suggestions}
+
+Per ![Nuvola AEM ](assets/aem-cloud-icon.svg) Guide di Experience Manager as a Cloud Service .
+
+Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. Il **Configurazione IA** Questa scheda consente di controllare le impostazioni del pannello Suggerimenti avanzati nell&#39;Editor Web.
+
+Per configurare la configurazione di IA standard a livello globale o di cartella, effettua le seguenti operazioni:
+1. Accedi a Adobe Experience Manager come amministratore o utente con diritti di amministratore su un profilo a livello di cartella.
+1. Seleziona la **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
+1. Seleziona **Guide** dall&#39;elenco degli strumenti e selezionare **Profili cartella** affiancare.
+1. Seleziona il riquadro del profilo da configurare.
+
+   >[!NOTE]
+   >
+   >Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale per il profilo globale o a livello di cartella.
+
+1. Nella pagina del profilo, seleziona la **Configurazione IA** scheda.
+   ![Scheda di configurazione IA nel profilo globale](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Clic **Modifica**.
+1. In qualità di amministratore, puoi configurare le seguenti impostazioni:
+
+   **Numero minimo di caratteri**: immetti il numero minimo di caratteri che gli autori devono digitare per ottenere i suggerimenti. Ad esempio, se questo numero è 7, l’autore deve aggiungere almeno 7 caratteri per visualizzare un suggerimento avanzato.
+
+   **Numero massimo di suggerimenti**: immetti il numero massimo di suggerimenti che gli autori possono ottenere durante l’authoring del contenuto. Ad esempio, se questo numero è 5, l’autore può visualizzare fino a cinque suggerimenti avanzati.
+
+   **File e cartelle**: seleziona i file o le cartelle da cui devono essere visualizzati i suggerimenti avanzati. *Per coerenza del contenuto, si consiglia di non inserire due voci nell’elenco con file comuni*. Dopo aver selezionato i file e le cartelle, vengono elencati.
+
+1. Fai clic su **Salva**.
+
+   >[!NOTE]
+   >
+   > I dettagli degli ultimi stati indicizzati vengono visualizzati nella parte superiore dopo il salvataggio del file.
+
+Ulteriori informazioni su come visualizzare e aggiungere [Suggerimenti avanzati basati sull’intelligenza artificiale](../user-guide/authoring-ai-based-smart-suggestions.md) per aggiungere riferimenti ai contenuti durante l’authoring nell’editor web.
 
 ## Configurazione e personalizzazione dell&#39;editor Web XML {#id2065G300O5Z}
 

@@ -1,34 +1,41 @@
 ---
-title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione di febbraio 2024
-description: Scopri le funzioni nuove e migliorate nella versione di febbraio 2024 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione 2024.2.0
+description: Scopri le funzioni nuove e migliorate della versione 2024.2.0 di Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# Novità della versione di febbraio 2024 di Adobe Experience Manager Guides as a Cloud Service
+# Novità della versione 2024.2.0
 
-Questo articolo descrive le funzioni nuove e migliorate della versione di febbraio 2024 delle Guide di Adobe Experience Manager (in seguito denominate *Guide di Experience Manager as a Cloud Service*).
+Questo articolo descrive le funzioni nuove e migliorate della versione 2024.2.0 delle guide di Adobe Experience Manager.
 
-Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, vedi [Note sulla versione](release-notes-2023-12-0.md).
+Per l’elenco dei problemi risolti in questa versione, visualizza [Sono stati risolti i problemi nella versione 2024.2.0 di](fixed-issues-2024-2-0.md).
 
-## Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
+
+Informazioni su [istruzioni di aggiornamento per la versione 2024.2.0](upgrade-instructions-2024-2-0.md).
+
+
+
+## Suggerimenti avanzati basati sull’intelligenza artificiale per aggiungere riferimenti ai contenuti durante la creazione dei contenuti
 
 Ora è possibile migliorare il percorso di authoring con Smart Suggestions, una nuova funzione basata sull’intelligenza artificiale nell’editor web. Mentre si creano i contenuti, questa funzione intelligente offre suggerimenti in tempo reale per i riferimenti ai contenuti, migliorando il flusso di lavoro, aggiungendo precisione e garantendo un&#39;efficienza senza precedenti.
 
 
 Per mantenere corretti e coerenti i contenuti, la ricerca e i suggerimenti sono limitati al contenuto di proprietà dell’organizzazione e strettamente correlati alle parole chiave cercate.
 
-![Pannello Suggerimenti avanzati nell’Editor web ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Pannello Suggerimenti avanzati nell’Editor web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Visualizza suggerimenti avanzati per trovare e aggiungere riferimenti ai contenuti corrispondenti dall’archivio dei contenuti.*
 
-Puoi anche confrontare il contenuto corrente con contenuti simili negli altri argomenti. Puoi quindi scegliere facilmente le parti di contenuto da vari argomenti e aggiungerle come riferimenti al contenuto nell’argomento corrente. L’aggiunta dei riferimenti ai contenuti rende gli aggiornamenti più gestibili, soprattutto nei progetti di documentazione più grandi. Ad esempio, supponiamo che tu stia creando una brochure sulle funzioni più recenti del prodotto. In tal caso, è possibile aggiungere rapidamente le specifiche aggiornate come riferimenti al contenuto dai documenti delle funzioni correlate.
+Puoi anche confrontare il contenuto corrente con contenuti simili negli altri argomenti. Puoi quindi scegliere facilmente le parti di contenuto da vari argomenti e aggiungerle come riferimenti al contenuto nell’argomento corrente. L’aggiunta dei riferimenti ai contenuti rende gli aggiornamenti più gestibili, soprattutto nei progetti di documentazione più grandi. Ad esempio, stai creando una brochure sulle funzioni più recenti del prodotto. In tal caso, è possibile aggiungere rapidamente le specifiche aggiornate come riferimenti al contenuto dai documenti delle funzioni correlate.
 
 Questa funzione intelligente consente di semplificare la ricerca manuale dei contenuti correlati e di concentrarsi sulla creazione di nuovi contenuti.  Consente inoltre di mantenere la coerenza e di migliorare la collaborazione tra i team.
+
+Ulteriori informazioni su [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Funzione di cronologia delle versioni rinnovata nell’editor web
 
@@ -40,7 +47,7 @@ Experience Manager Guide fornisce ora una funzione avanzata di cronologia delle 
 
 Ulteriori informazioni su **Cronologia versioni** descrizione della funzione in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
 
-## Pannello Traduzione avanzata
+## Miglioramento dell’esperienza utente nel pannello Traduzione
 
 Il **Traduzione** è stato migliorato.  È possibile visualizzare **Lingue disponibili** e seleziona rapidamente le impostazioni internazionali in cui desideri tradurre il progetto. Con una singola selezione, puoi anche scegliere **Seleziona tutto** per tradurre il progetto in tutte le lingue disponibili.
 
@@ -66,7 +73,7 @@ Ad esempio, quando modifichi un paragrafo in cui desideri inserire un elemento, 
 Per ulteriori dettagli, vedi **Inserisci elemento** descrizione della funzione in [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS) sezione.
 
 
-## Possibilità di dividere un elenco allo stesso livello
+## Possibilità di dividere l&#39;elenco corrente e iniziare con una nuova voce di elenco allo stesso livello
 
 Ora è possibile suddividere facilmente l&#39;elenco nell&#39;Editor Web. Seleziona la **Elenco suddiviso** nel menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente. Viene creato un nuovo elenco allo stesso livello, a partire dalla voce di elenco selezionata per la suddivisione.
 
@@ -82,14 +89,14 @@ Ora puoi accedere ai pannelli a destra **Proprietà file** in tutte e quattro le
 
 Per ulteriori dettagli, vedi **Proprietà file** descrizione della funzione in [Pannello a destra](../user-guide/web-editor-features.md#id2051EB003YK) sezione.
 
-## Pubblicare più predefiniti di output in parallelo
+## Possibilità di pubblicare più predefiniti di output con linee di base dinamiche in parallelo
 
 L&#39;Experience Manager fornisce la funzione per la creazione delle linee di base selezionando automaticamente gli argomenti in base all&#39;etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
 
 
 ## Miglioramenti di Native PDF
 
-Nella versione di febbraio 2024 sono stati apportati i seguenti miglioramenti a Native PDF:
+I seguenti miglioramenti di Native PDF sono stati apportati nella versione 2024.2.0:
 
 ### Trasmettere i metadati delle risorse all’output PDF
 

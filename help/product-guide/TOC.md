@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 5%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 5%
 - [Panoramica di [!DNL AEM Guides]](overview.md)
 - [Dichiarazione di non responsabilità](./user-guide/rebranding-disclaimer.md)
 - Informazioni sulla versione {#release-info}
+
    - [[!DNL AEM Guides] versioni](./release-info/latest-release-info.md)
    - Note sulla versione {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
+         - Versioni del 2024 {#2024-releases}
+            - Versione 2024.2.0 {#2402-release}
+               - [Novità](./release-info/whats-new-2024-2-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2024-2-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2024-2-0.md)
          - Versioni del 2023 {#2023-releases}
             - Versione di dicembre {#2312-release}
                - [Novità](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 5%
                - [Altre funzioni dell’editor web](./user-guide/web-editor-other-features.md)
                - [Visualizzazioni dell’editor web](./user-guide/web-editor-views.md)
                - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
+               - [Suggerimenti avanzati basati sull’intelligenza artificiale (beta) per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Creare documenti Markdown dall’editor web](./user-guide/web-editor-markdown-topic.md)
                - [Aggiungere citazioni al contenuto](./user-guide/web-editor-apply-citations.md)
                - [Utilizzare i dati provenienti dalle origini dati](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 5%
       - Migrazione dei contenuti {#content-migration}
          - [Migrazione di contenuti da non-UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processo di migrazione {#migration-process}
-            - [Migra contenuti con versione](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [Migrazione di contenuti senza versione](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [Migrare contenuti non UUID con versioni](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Migrazione di contenuti non UUID senza versioni](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [Migrare i contenuti esistenti](./install-guide/migrate-content.md)
          - [Carica contenuto DITA esistente](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrare contenuti non DITA](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 5%
       - Utilizzare le configurazioni dell’editor web {#web-editor-configs-cs}
          - [Personalizza editor web](./cs-install-guide/conf-web-editor.md)
          - [Personalizza barra degli strumenti](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [Configurare i suggerimenti avanzati basati sull’intelligenza artificiale per la creazione](./cs-install-guide/conf-smart-suggestions.md)
          - [Configura il valore predefinito per la vista Tag](./cs-install-guide/configure-default-value-tags-view.md)
          - [Configurare la visualizzazione dei collegamenti basati su UUID](./cs-install-guide/conf-uuid-based-links.md)
          - [Aprire un argomento DITA o mappare i file nella stessa scheda](./cs-install-guide/open-dita-files-same-tab.md)

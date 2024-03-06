@@ -1,19 +1,18 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
 # Installare e configurare Adobe Experience Manager Guides as a Cloud Service
 
-- [Liberatoria](rebranding-disclaimer.md)
+- [Dichiarazione di non responsabilità](rebranding-disclaimer.md)
 - [Informazioni su questa guida](introduction.md)
 - [Scarica e installa](download-install.md)
    - [Distribuire il modulo AEM Guides](download-install-dxml-first-time.md)
    - [Configurare Dispatcher](download-install-configure-dispatcher.md)
    - [Verificare l&#39;installazione delle guide AEM](download-install-verify-dxml-installation.md)
-   - [Aggiornamento delle guide AEM](download-install-upgrade-dxml.md)
    - [Sostituzioni configurazione](download-install-additional-config-override.md)
    - [Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)
 - [Amministrazione degli utenti e sicurezza](user-admin-sec.md)

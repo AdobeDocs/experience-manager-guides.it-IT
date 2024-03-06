@@ -5,15 +5,17 @@ exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-# Distribuire il modulo AEM Guides {#id213BCL00KEV}
+# Distribuire il modulo Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Per iniziare, distribuisci le guide AEM tramite Cloud Manager. Per distribuire il modulo, segui le istruzioni riportate in [Distribuzione as a Cloud Service delle guide AEM](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html).
+Per iniziare, distribuisci le Guide di Experience Manager tramite Cloud Manager. Per distribuire il modulo, segui le istruzioni riportate in [Distribuzione as a Cloud Service delle guide AEM](../release-info/deploy-xml-on-aemaacs.md)
+
+
 
 **Argomento padre:**[ Scarica e installa](download-install.md)
