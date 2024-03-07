@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile aggiornare la versione corrente di Experience Manager Guides alla versione 4.4.0:
 
-- Se utilizzi le versioni 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.4.0.
+- Se utilizzi le versioni 4.3.1.5, 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.4.0.
 - Se utilizzi le versioni 4.2, 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.3.1, 4.3.0 o 4.2.1 (Hotfix 4.2.1.3) prima di eseguire l’aggiornamento alla versione 4.4.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
@@ -38,6 +38,7 @@ Per ulteriori informazioni, consulta le procedure seguenti:
 - [Aggiornamento alla versione 4.2.1](#upgrade-version-4-2-1)
 - [Aggiornamento alla versione 4.3.0](#upgrade-version-4-3)
 - [Aggiornamento alla versione 4.3.1](#upgrade-version-4-3-1)
+- [Aggiornamento alla versione 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Aggiornamento alla versione 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Prima di eseguire il processo è necessario completare alcune attività. Le segu
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento al *Aggiorna guide Experienci Manager* nella guida all&#39;installazione specifica del prodotto disponibile nella [Pagina Archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento al *Aggiorna guide Experienci Manager* nella guida all’installazione specifica per il prodotto, disponibile su [Guida di Adobe Experience Manager Guides: archiviazione PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Prerequisiti****
 
@@ -726,6 +729,48 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 
 1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+
+
+
+## Aggiornamento alla versione 4.3.1.5 {#upgrade-version-4-3-1-5}
+
+L’aggiornamento alla versione 4.3.1.5 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi la versione 4.3.1 di puoi effettuare direttamente l’aggiornamento alla versione 4.3.1.5 di.
+
+
+
+## Installare la versione 4.3.1.5
+
+1. Scarica il pacchetto di versione 4.3.1.5 da [Portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Installa il pacchetto versione 4.3.1.5.
+
+1. Attendere il completamento del processo di installazione.
+1. Continua ad aggiornare le personalizzazioni come descritto nella sezione successiva.
+
+
+## Dopo aver installato la versione 4.3.1.5
+
+
+>[!NOTE]
+>
+>Se desideri utilizzare il bundle org.apache.velocity, esegui i seguenti passaggi prima di caricare il bundle:
+> 1. Passa a `<server>:<port>/system/console/bundles`.
+> 1. Cerca org.apache.velocity.
+> 1. Disinstalla il bundle cercato.
+> 1. Installa il bundle Velocity richiesto.
+
+
+1. Al termine dell’aggiornamento, accertati che le personalizzazioni/sovrapposizioni siano convalidate e aggiornate in modo che corrispondano al nuovo codice dell’applicazione. Di seguito sono riportati alcuni esempi:
+   - Qualsiasi componente sovrapposto da `/libs/fmdita` o` /libs` deve essere confrontato con il nuovo codice del prodotto e gli aggiornamenti devono essere eseguiti in file sovrapposti in `/apps` .
+   - Tutte le categorie clientlib utilizzate dal prodotto, devono essere riviste per eventuali modifiche. Eventuali configurazioni sostituite \(esempi di seguito\) devono essere confrontate con quelle più recenti in modo da ottenere le funzioni più recenti:
+   - `elementmapping.xml`
+   - `ui\_config.json\` (potrebbe essere stato impostato in profili cartella\)
+   - modificato `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Aggiornamento alla versione 4.4.0 {#upgrade-version-4-4-0}
 
