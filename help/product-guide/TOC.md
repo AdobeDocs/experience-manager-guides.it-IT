@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -435,6 +435,9 @@ ht-degree: 6%
                - [Personalizzazione](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Pubblicazione {#publishing}
          - [Configurazione dell’ambiente AEM per la pubblicazione nativa di PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [Generare il sommario di Bookmap nella pubblicazione nativa di PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS e guide](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Architettura e prestazioni dei microservizi](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configurare la pubblicazione basata su microservizi](./knowledge-base/publishing/configure-microservices.md)
