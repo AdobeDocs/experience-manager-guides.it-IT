@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
+source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Sono disponibili alcuni modelli di fabbrica di esempio forniti come predefiniti,
 Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
 
 1. Nell’editor web, vai al **Output** scheda.
-1. Seleziona **Modelli** ![icona modelli](./assets/template.svg) nel pannello a sinistra.
+1. Seleziona **Modelli** <img src="./assets/template.png" alt= "icona modelli" width="25"> nel pannello a sinistra.
 
    <img src="assets/create-pdf-template.png" alt="Crea modello PDF" width="400">
 
