@@ -2,10 +2,12 @@
 title: Pubblicazione del sommario tramite NativePDF
 description: Pubblicazione del sommario e di altri elenchi di libri per la mappa di libri dita tramite NativePDF
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ La specifica DITA consente di inserire il sommario e gli elenchi di libri all&#3
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+Struttura di esempio di bookmap con sommario, elenco di figure e elenco di tabelle in primo piano e elenco di indici in secondo piano.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 Il sommario e gli elenchi dei libri vengono generati automaticamente in base alla struttura definita nella mappa dei libri.
@@ -71,6 +98,7 @@ Se si pubblica Ditamap, Native PDF offre la funzionalità per generare automatic
 <br>
 <br>
 
-Pubblica le tue domande nella community delle guide AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per qualsiasi query.
+Post sulla community dei guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per qualsiasi query.
+
 
 
