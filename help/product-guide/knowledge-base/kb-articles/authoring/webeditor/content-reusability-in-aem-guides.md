@@ -2,9 +2,9 @@
 title: Riutilizzo di contenuti DITA nelle guide AEM
 description: Questo breve articolo spiega come le guide AEM e DITA consentono di risparmiare tempo e fatica quando si utilizza la riutilizzabilità dei contenuti
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # Riutilizzabilità dei contenuti nelle guide AEM
 
 Adobe Le guide all’AEM sfruttano i punti di forza di DITA per fornire un’interfaccia intuitiva per il riutilizzo dei contenuti.
+
+In questo articolo parleremo di:
+
+1. Riutilizzabilità tramite riferimento argomento (`topicrefs`)
+2. Riutilizzabilità tramite riferimento contenuto (`conref` e `conkeyref`)
+3. Suggerimento bonus per riutilizzare i contenuti con il trascinamento nelle guide AEM
 
 ## Riutilizzabilità tramite riferimenti argomento (topicref)
 
@@ -129,7 +135,7 @@ Passaggio 2: seleziona la mappa principale (opzionale), la chiave e il frammento
 La mappa principale qui è stata selezionata automaticamente perché era già aperta nella vista mappa
 
 
-### Riutilizzare i contenuti con un solo clic nelle guide AEM
+## Riutilizzare i contenuti con un solo clic nelle guide AEM
 
 Le guide AEM offrono la funzionalità &quot;Contenuti riutilizzabili&quot; per aggiungere riferimenti ai contenuti con un solo clic.
 
