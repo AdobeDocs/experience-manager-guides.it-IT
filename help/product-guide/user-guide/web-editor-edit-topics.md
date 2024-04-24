@@ -4,9 +4,9 @@ description: Scopri come modificare gli argomenti nell’editor web. Scopri le v
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ L&#39;editor Web include una serie di funzioni di modifica che consentono di cre
    >
    > Se non desideri confermare le modifiche nell’archivio AEM, fai clic su **Chiudi** e quindi fare clic su **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
 
-   **Aggiorna il browser durante la modifica dei file**
+## Aggiorna il browser durante la modifica dei file
+
 Experience Manager Guides consente di aggiornare il browser mentre si modifica il contenuto nell&#39;editor Web. Questa funzione consente di continuare a modificare il contenuto in caso di errore dell’applicazione durante il lavoro. Se si preme il pulsante di aggiornamento del browser mentre uno o più file con modifiche non salvate vengono aperti per la modifica, viene visualizzato un avviso che segnala che le modifiche non salvate potrebbero andare perse. È possibile annullare l&#39;operazione di aggiornamento e salvare i file per mantenere le modifiche.
 
-   Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Experience Manager Guide ripristina l&#39;ultimo stato salvato dei file aperti nell&#39;editor Web quando si aggiorna il browser. Ad esempio, i file aperti nel pannello Repository vengono aperti nuovamente. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
+Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Experience Manager Guide ripristina l&#39;ultimo stato salvato dei file aperti nell&#39;editor Web quando si aggiorna il browser. Ad esempio, i file aperti nel pannello Repository vengono aperti nuovamente. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
 
-   L&#39;argomento attivo o la mappa DITA viene riaperto nell&#39;area di modifica del contenuto.
+L&#39;argomento attivo o la mappa DITA viene riaperto nell&#39;area di modifica del contenuto.
 
-   Anche il pannello di destra viene riaperto e visualizza la stessa vista di prima dell’aggiornamento.
+Anche il pannello di destra viene riaperto e visualizza la stessa vista di prima dell’aggiornamento.
 
-   **Indicatore copia di lavoro**
+## Indicatore copia di lavoro
+
 Le guide AEM forniscono l&#39;indicatore della copia di lavoro che indica se la \(copia di lavoro\) corrente del file è sincronizzata con la versione salvata. Se sono state apportate modifiche alla copia corrente e il file non è stato salvato, nella scheda File dell&#39;argomento verrà visualizzato il simbolo \* insieme al titolo. Questo indicatore funge da promemoria per il salvataggio delle modifiche e scompare quando si salva il file.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicatore copia di lavoro](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   Le guide AEM indicano anche se l’ultima copia salvata del file \(working\) è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
+Le guide AEM indicano anche se l’ultima copia salvata del file \(working\) è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Individuare un file aperto nella vista Archivio
+
+Quando si apre un file nell&#39;editor Web, Experience Manager Guides fornisce la funzionalità per individuare il file nella vista Archivio. Ad esempio, individua l&#39;argomento corrente durante la modifica.
+
+È possibile disattivare la funzione per individuare il file con **Individua sempre i file nel repository** opzione dalla **Aspetto** scheda di **Preferenze utente**.
 
 
 **Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

@@ -4,9 +4,9 @@ description: Utilizza i dati della tua origine dati nelle guide AEM. Scopri come
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **origine dati** è un sistema in cui vengono memorizzati e gestiti i dati per la tua organizzazione. Si tratta di sistemi di record come JIRA, SQL Databases, PIM o PLM. Le guide AEM consentono di connettersi all’origine dati e di utilizzare i dati che ne derivano.
 
+Puoi anche connetterti a file di dati JSON utilizzando un connettore per file. Carica il file JSON dal computer o sfoglia le risorse Adobe Experience Manager. Quindi, crea snippet di contenuto o argomenti utilizzando i generatori.
+
 ## Pannello Origini dati
 
-Seleziona **Origini dati** ![](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati collegate. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate.
+Seleziona **Origini dati** ![origine dati](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati collegate. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate.
 
 In base alla configurazione, l’amministratore può configurare un connettore dell’origine dati:
 
@@ -80,11 +82,23 @@ Per creare uno snippet di contenuto utilizzando il generatore di snippet di cont
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto disponibili per l&#39;origine dati selezionata.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *Nel pannello Origini dati sono elencati i generatori di frammenti di contenuto disponibili.*
 
 1. Seleziona **Aggiungi** per aggiungere un nuovo generatore di frammenti di contenuto. Il **Aggiungi generatore frammenti di contenuto** viene visualizzato il pannello.
 
-1. Immettere la query nella casella di testo Query dati.
+1. Immetti la query nel **Query dati** casella di testo.  Seleziona **Copia query di esempio** per copiare rapidamente una query di dati. Invece di creare manualmente la query, puoi copiare e incollare la query di esempio nel **Query dati** casella di testo. Quindi, è sufficiente modificare la query in base ai requisiti di dati.
+
+   >[!NOTE]
+   >
+   >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+
+1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
+
+   >[!NOTE]
+   >
+   > Se utilizzi un connettore file, verranno visualizzate le opzioni per caricare o sfogliare i file al posto di una query di dati.
+
 1. Seleziona il modello da mappare con l&#39;origine dati dall&#39; **Modello di mappatura dati** a discesa.
 I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel menu a discesa. Ad esempio, è possibile visualizzare il modello &quot;sql-table&quot; per l&#39;origine dati denominata &quot;PostgreSQL&quot;.
 
@@ -93,6 +107,12 @@ I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel 
    > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore).
    >   
    >Puoi anche utilizzare gli strumenti Velocity nei modelli. Ulteriori informazioni su come [utilizzare gli strumenti Velocity](#use-velocity-tools).
+
+1. Il **Risorsa** viene visualizzato un elenco a discesa per alcuni connettori come REST Client, Salsify, Akeneo e Microsoft ADO.  Seleziona una risorsa dal menu a discesa e connettiti ad essa per creare uno snippet di contenuto o un argomento utilizzando il relativo generatore.
+
+   >[!NOTE]
+   >
+   > L’amministratore può configurare le risorse predefinite o aggiungere risorse per più URL durante la configurazione dei connettori dell’origine dati.
 
 1. Clic **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
 
@@ -144,6 +164,8 @@ Il generatore di argomenti può creare gli argomenti contenenti i dati e una map
 
 
 
+
+
 ### Creare un argomento
 
 Per creare un argomento utilizzando il generatore di argomenti, effettuare le seguenti operazioni:
@@ -166,7 +188,18 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    *Aggiungi i dettagli di Query dati, Modello di mappatura dati e Nodo principale per il generatore di argomenti e assegnagli un nome univoco nel pannello Recupera configurazione.*
 
-   1. Immetti la query nel **Query dati** casella di testo.
+   1. Immetti la query nel **Query dati** casella di testo. Seleziona **Copia query di esempio** per copiare rapidamente una query di dati. Invece di creare manualmente la query, puoi copiare e incollare la query di esempio nel **Query dati** casella di testo. Quindi, è sufficiente modificare la query in base ai requisiti di dati.
+
+      >[!NOTE]
+      >
+      >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+
+   1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
+
+      >[!NOTE]
+      >
+      > Se utilizzi un connettore file, verranno visualizzate le opzioni per caricare o sfogliare i file al posto di una query di dati.
+
    1. Seleziona il modello da mappare con l&#39;origine dati dall&#39; **Modello di mappatura dati** a discesa.
 
       >[!NOTE]

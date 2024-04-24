@@ -4,9 +4,9 @@ description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Traduzione**: questa scheda contiene l’opzione per propagare le etichette di origine alla versione di destinazione.
+- **Traduzione**: questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etichette di origine alla versione di destinazione e ripulire il progetto di traduzione.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.\
+     Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
+      1. Seleziona la Aggiungi ![icona aggiungi](images/Add_icon.svg) icona.
+      1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
+      1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
+
+     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Ad esempio, digita &quot;en&quot; per filtrare tutte le lingue che contengono &quot;en&quot; all’inizio del nome o del codice.
+      1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, **Mostra altro** visualizzazioni. Puoi selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+         >[!TIP]
+         >
+         > Attiva/Disattiva **Mostra altro** a **Mostra meno** e visualizzare solo alcune lingue.
+
+      1. Passa il puntatore del mouse sulle lingue di un gruppo da modificare ![icona modifica](images/edit_pencil_icon.svg) o eliminare ![eliminare](images/Delete_icon.svg) i gruppi linguistici.
+      1. Salva il **Impostazioni editor**.
+
+         >[!NOTE]
+         >
+         >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
 
    - **Propaga le etichette della versione di origine alla versione di destinazione**: seleziona questa opzione per passare l’etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
+   - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione affinché vengano disabilitati o eliminati automaticamente dopo la traduzione. Per impostazione predefinita, **Nessuno** è selezionato, quindi il progetto esiste dopo la traduzione.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     Puoi disattivare i progetti di traduzione se desideri utilizzarli in un secondo momento. L’eliminazione di un progetto comporta l’eliminazione definitiva di tutti i file e le cartelle presenti nel progetto.
+
 
 - **Metadati**: puoi controllare i metadati della versione dell’argomento e i relativi valori da visualizzare nella **Cronologia versioni** .  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
 
@@ -250,36 +272,48 @@ Le etichette dei metadati vengono visualizzate nella stessa sequenza in **Cronol
 
 
 
-**Preferenze utente** - ![](images/user_preference_editor_icon.svg)
+**Preferenze utente** - ![icona preferenze utente](images/user_preference_editor_icon.svg)
 
 Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le preferenze, un autore può configurare le seguenti impostazioni:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Usa tema dispositivo**: seleziona questa casella di controllo per consentire alle guide AEM di passare automaticamente dai temi chiari a quelli scuri in base al tema del dispositivo.
 
-- **Visualizza file per**: seleziona il modo predefinito per visualizzare i file nell’editor web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli della **Autore** visualizzazione.
-  >[!NOTE]
-  >
-  > Per impostazione predefinita, i file vengono visualizzati per titolo nell&#39;editor Web.
+- **Generale**: la scheda Generale consente di configurare le seguenti impostazioni:
 
-- **Tema**: puoi scegliere tra i temi Chiaro, Più chiaro, Scuro o Più scuro per l’editor. Nel caso del tema Più chiaro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore grigio più chiaro. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano lo sfondo grigio chiaro. Nel caso del tema Più scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo nero più scuro. In caso di tema scuro, le barre degli strumenti e i pannelli utilizzano lo sfondo nero. In tutti i temi, l&#39;area di modifica dei contenuti è visualizzata in bianco.
+  ![Scheda Generale delle preferenze utente](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
+   - **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
 
-  Le configurazioni dell’editor web che un amministratore può definire nel profilo della cartella includono: personalizzazione dell’interfaccia utente, incluse le icone della barra degli strumenti, il layout dell’editor web, snippet e mappa principale. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+     Le configurazioni dell’editor web che un amministratore può definire nel profilo della cartella includono: personalizzazione dell’interfaccia utente, incluse le icone della barra degli strumenti, il layout dell’editor web, snippet e mappa principale. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-  >[!NOTE]
-  >
-  > Il nome del profilo cartella corrente viene visualizzato come etichetta per l&#39;icona Preferenze utente nella barra degli strumenti principale.
+     >[!NOTE]
+     >
+     > Il nome del profilo cartella corrente viene visualizzato come etichetta per l’icona Preferenze utente nella barra degli strumenti principale.
 
-- **Percorso base**: per impostazione predefinita, quando accedi all’archivio AEM dall’editor web, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. Ogni volta, occorrono alcuni clic per raggiungere la cartella di lavoro. È possibile impostare il Percorso base per la cartella di lavoro e la Vista archivio visualizza quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel Percorso base.
+   - **Percorso base**: per impostazione predefinita, quando accedi all’archivio AEM dall’editor web, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. Ogni volta, occorrono alcuni clic per raggiungere la cartella di lavoro. È possibile impostare il Percorso base per la cartella di lavoro e la Vista archivio visualizza quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel Percorso base.
 
-- **Seleziona mappa principale**: selezionare un file di mapping DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, consulta [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
+   - **Seleziona mappa principale**: selezionare un file di mapping DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, consulta [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Se non desideri utilizzare alcuna mappa principale, assicurati che il **Seleziona mappa principale** il campo è vuoto.
+     >[!NOTE]
+     >    
+     > Se non desideri utilizzare alcuna mappa principale, assicurati che il **Seleziona mappa principale** il campo è vuoto.
+
+- **Aspetto**: seleziona i temi per l’applicazione Editor web e la visualizzazione sorgente dell’area di modifica dei contenuti.
+
+  ![scheda aspetto delle preferenze utente](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Visualizza file per**: seleziona il modo predefinito per visualizzare i file nell’editor web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli della **Autore** visualizzazione.
+     >[!NOTE]
+     >
+     > Per impostazione predefinita, i file vengono visualizzati per titolo nell&#39;editor Web.
+
+   - **Tema applicazione**: puoi scegliere tra **Chiaro** o **Scuro** i temi dell’applicazione. Nel caso di **Chiaro** tema, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso di **Scuro** tema, le barre degli strumenti e i pannelli utilizzano uno sfondo nero. Seleziona **Usa tema dispositivo** per consentire a Guide Experienci Manager di selezionare i temi chiaro e scuro in base al tema del dispositivo.  In tutti i temi, l&#39;area di modifica dei contenuti viene visualizzata con sfondo bianco nel **Autore** visualizzazione.
+
+   - **Tema della vista Origine**: - È possibile scegliere tra **Chiaro** o **Scuro** temi per l&#39;area di modifica dei contenuti nella visualizzazione origine. Nel caso di **Chiaro** tema, l&#39;area di modifica dei contenuti utilizza uno sfondo grigio chiaro per la visualizzazione sorgente, mentre nel caso di **Scuro** tema, utilizza uno sfondo di colore nero. Seleziona **Usa tema dispositivo** per consentire a Guide Experienci Manager di selezionare i temi chiaro e scuro in base al tema del dispositivo.
+
+   - **Individua sempre i file nel repository**: selezionare questa opzione per visualizzare la posizione di un file nel repository durante la modifica nell&#39;editor Web.
+
+   - **Mostra indicatore di spazio unificatore in modalità di creazione**: seleziona questa opzione per visualizzare un indicatore per gli spazi unificatori durante la modifica nell’editor web. È attivata per impostazione predefinita.
 
 **Modalità Author, Source e Preview**
 
@@ -291,7 +325,19 @@ La barra degli strumenti secondaria viene visualizzata quando si apre un argomen
 
 **Inserisci elemento** - ![](images/Add_icon.svg)
 
-Inserisce un elemento valido nella posizione valida corrente o successiva. È inoltre possibile utilizzare la scelta rapida da tastiera ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Ad esempio, stai modificando un paragrafo, quindi in **Inserisci elemento** a comparsa, viene visualizzato un elenco di elementi che possono essere inseriti nel paragrafo. Seleziona l’elemento da inserire. È possibile utilizzare la tastiera per scorrere l&#39;elenco degli elementi e premere ***Invio*** per inserire l’elemento richiesto. È inoltre possibile digitare un carattere o una stringa nella casella di ricerca e cercare gli elementi che iniziano con essa.
+Inserisce un elemento valido nella posizione valida corrente o successiva. È inoltre possibile utilizzare la scelta rapida da tastiera ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Ad esempio, stai modificando un paragrafo, quindi in **Inserisci elemento** a comparsa, viene visualizzato un elenco di elementi che possono essere inseriti nel paragrafo. Seleziona l’elemento da inserire. È possibile utilizzare la tastiera per scorrere l&#39;elenco degli elementi e premere ***Invio*** per inserire l’elemento richiesto.
+
+Puoi visualizzare due tipi di elementi validi:
+
+- **Elementi validi nella posizione corrente**: l’elenco mostra gli elementi che è possibile inserire nella posizione corrente del cursore.
+
+- **Elementi validi esterni alla posizione corrente**: nell’elenco vengono visualizzati gli elementi che è possibile inserire dopo uno qualsiasi dei padri per l’elemento corrente all’interno della gerarchia degli elementi.
+
+
+
+Ad esempio, se ti trovi all’interno del `<b>` , puoi inserire elementi come `<u>`, `<xref>`, `<i>` nella posizione corrente. Al contrario, puoi inserire elementi come `<table>` e `<topic>` all&#39;esterno della posizione corrente.
+
+È inoltre possibile digitare un carattere o una stringa nella casella di ricerca e cercare gli elementi che iniziano con essa.
 
 
 ![inserisci elemento](images/insert-element.png){width="300" align="left"}
@@ -863,22 +909,70 @@ Seleziona una mappa e premi Invio o fai doppio clic per aprirla nella **Vista ma
 
 **Ricerca filtro**
 
-L’editor web fornisce filtri migliorati per la ricerca di testo. Fare clic su Ricerca filtro \(![](images/filter-search-icon.svg)\)per aprire il pannello filtri. Puoi cercare un testo nei file presenti nel percorso selezionato dell’archivio AEM. Ad esempio, &quot;scopo generale&quot; viene cercato nella schermata sottostante.
+L’editor web fornisce filtri migliorati per la ricerca di testo. È possibile cercare e filtrare un testo nei file presenti nel percorso selezionato dell&#39;archivio Adobe Experience Manager. La ricerca viene eseguita nel titolo, nel nome del file e nel contenuto dei file.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-Per filtrare i file e restringere la ricerca nell’archivio AEM, puoi anche utilizzare le seguenti opzioni:
+![cerca i file nella vista archivio](images/repository-filter-search.png){width="300" align="left"}
 
-- **File DITA**: puoi cercare tutti **Argomenti DITA** e **Mappe DITA** presente nel percorso selezionato.
-- **File non DITA**: puoi cercare **File immagine**, **Multimedia**, e **Documenti** nel percorso selezionato.
-- **Elementi DITA**: è inoltre possibile cercare valori specifici negli attributi degli elementi DITA specificati.
+*Applicare i filtri per cercare i file contenenti il testo`general purpose.`*
+
+Seleziona la **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire la finestra a comparsa Filtra per.
+
+>[!NOTE]
+>
+> Quando si esegue una ricerca in un testo o si filtra un file, sulla **Ricerca filtro**  \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per indicare che ci si trova nel pannello di ricerca e che sono stati applicati alcuni filtri.
+
+
+Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manager, sono disponibili le seguenti opzioni:
+
+- **File DITA**: puoi cercare tutti **Argomenti DITA** e **Mappe DITA** presente nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
+- **File non DITA**: puoi cercare **File Ditaval**,  **File immagine**, **Multimedia**, **Documenti**, e **Json** nel percorso selezionato.
+
+![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Utilizzare i filtri rapidi per cercare file DITA e non DITA.*
+
+**Filtro avanzato**
+
+Seleziona la **Filtro avanzato** ![icona filtro avanzato](images/advanced-filter-gear-icon.svg)per visualizzare **Filtro avanzato** .
+
+È possibile visualizzare le seguenti opzioni sotto **Generale** e **Avanzate** schede.
+
+![finestra di dialogo filtro avanzato](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Generale**
+
+- **I risultati della ricerca saranno i seguenti**: cerca del testo nei file presenti nel percorso selezionato dell’archivio Adobe Experience Manager. La ricerca viene eseguita nel titolo, nel nome del file e nel contenuto dei file.
+
+È sincronizzato con la casella di ricerca nella finestra del repository. Ad esempio, se si digita `general purpose` nella casella di ricerca del pannello repository, viene visualizzato anche nel **Filtro avanzato** e viceversa.
+
+- **Cerca in**: seleziona il percorso in cui desideri eseguire la ricerca nei file presenti nell’archivio Adobe Experience Manager.
+
 - **Ritirato da**: è possibile cercare i file estratti dall&#39;utente specificato.
-- **Ultima modifica**: puoi cercare i file che sono stati modificati l’ultima volta dopo una data selezionata, ma prima di una data selezionata. Puoi anche cercare i file che sono stati modificati l’ultima volta nelle ultime 2 ore, l’ultima settimana, l’ultimo mese o l’ultimo anno.
-- **Tag**: puoi cercare i file a cui sono applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
+- **Ultima modifica**: puoi cercare i file che sono stati modificati l’ultima volta dopo una data selezionata, ma prima di una data selezionata.
+- **Modificato prima del**: puoi cercare i file che sono stati modificati l’ultima volta prima di una data selezionata.
+- **Intervallo temporale**: puoi anche cercare i file che sono stati modificati l’ultima volta nelle ultime due ore, l’ultima settimana, l’ultimo mese o l’ultimo anno.
+- **Tag**: puoi cercare file a cui sono applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
 
-**Nota:** L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli vedi *Configurare i filtri di testo* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+**Avanzate**
 
-Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, nella schermata precedente sono elencati i file contenenti il testo &quot;scopo generale&quot;. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli e rilasciarli in una mappa aperta per la modifica.
+- **Elementi DITA**: è inoltre possibile cercare valori specifici negli attributi degli elementi DITA specificati.
+   - Seleziona **Aggiungi elemento** ![icona aggiungi](images/Add_icon.svg) per aggiungere elementi, attributi e valori.
+   - Applica i filtri selezionati.
+
+- Seleziona **Cancella tutto** per cancellare tutti i filtri applicati.
+
+
+- Seleziona la **Chiudi filtro** ![icona chiudi](images/close-icon.svg) per chiudere il filtro e tornare alla visualizzazione struttura dell&#39;archivio.
+  >[!NOTE]
+  >
+  >L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli vedi *Configurare i filtri di testo* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+
+  Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, i file contenenti il testo `general purpose` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
+
+
+
 
 **Menu Opzioni**
 
@@ -895,7 +989,7 @@ Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azi
 
 
 
-- **Carica risorse**: carica un file dal sistema locale alla cartella selezionata nell’archivio AEM. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
+- **Carica risorse**: carica un file dal sistema locale alla cartella selezionata nell’archivio di Adobe Experience Manager. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -928,7 +1022,7 @@ Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azi
 
 Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni un file multimediale o un file DITA. Alcune opzioni comuni disponibili sia per i file multimediali che per i file DITA sono:
 
-- Duplicato
+- Duplica
 - Check-Out/Check-In
 - Anteprima
 - Sposta in
@@ -1576,7 +1670,7 @@ Ad esempio, utilizza l’enumerazione seguente per limitare `@platform` attribui
 </details>
 
 
-**Elenco a discesa Attributi**
+**Attributi** elenco a discesa
 
 È inoltre possibile modificare il valore dello schema soggetto utilizzando **Attributi** a discesa dal menu **Proprietà contenuto** pannello in **Autore** visualizzazione.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ Il pannello di destra è un pannello persistente che contiene informazioni sul d
 
 Il pannello a destra consente di accedere alle seguenti funzioni:
 
-**Proprietà contenuto** -  ![](images/content-properties-icon.svg)
+**Proprietà contenuto** -  ![proprietà di contenuto](images/content-properties-icon.svg)
 
-Puoi accedere alla funzione Proprietà contenuto facendo clic sull’icona Proprietà contenuto nel pannello di destra. Il pannello Proprietà contenuto contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi.
-Puoi aggiungere, modificare o eliminare facilmente gli attributi.
+È possibile accedere a **Proprietà contenuto** selezionando la funzionalità **Proprietà contenuto** nel pannello di destra. Il **Proprietà contenuto** Il pannello contiene informazioni sul tipo di elemento attualmente selezionato nel documento e i relativi attributi.
+
+**Tipo**: puoi visualizzare e selezionare i tag della gerarchia completa per il tag corrente dal menu a discesa.
+
+**Attributi**: Il **Attributi** Il pannello a discesa è disponibile nelle visualizzazioni Layout, Autore e Origine. Puoi aggiungere, modificare o eliminare facilmente gli attributi.
 
 1. Clic **+ Aggiungi**.
 

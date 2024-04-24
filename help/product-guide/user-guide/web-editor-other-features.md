@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor web nelle guide dell’AEM. Sc
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche sa
 
 **Inserisci equazioni MathML**
 
-- Le guide AEM forniscono un supporto predefinito per l&#39;inserimento di equazioni MathML tramite l&#39;integrazione con [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) applicazione. Per inserire un&#39;equazione MathML, fare clic su **Inserisci elemento** e digitare mathml. Quando si seleziona l&#39;elemento matml dall&#39;elenco, viene visualizzata la finestra di dialogo Inserisci matematico (Insert MathML):
+- Experience Manager Guides offre un supporto predefinito per l&#39;inserimento di equazioni MathML tramite l&#39;integrazione con [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) applicazione. Per inserire un&#39;equazione MathML, selezionare **Inserisci elemento** e digitare mathml. Quando si seleziona l&#39;elemento matml dall&#39;elenco, **Inserisci MathML** viene visualizzata una finestra di dialogo:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![inserisci equazione mathml nell&#39;editor mathml](images/insert-mathml-equation.png){width="550" align="left"}
 
-Utilizzando gli strumenti di equazione MathML, creare l&#39;equazione e fare clic su Inserisci per aggiungerla al documento. L&#39;equazione viene inserita con uno sfondo grigio chiaro, come illustrato di seguito:
+Utilizzando gli strumenti di equazione MathML, creare l&#39;equazione e fare clic su **Inserisci** per aggiungerlo al documento. L&#39;equazione viene inserita con uno sfondo grigio chiaro, come illustrato di seguito:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![equazione matematica di esempio](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con il pulsante destro del mouse su un&#39;equazione esistente e selezionando **Modifica MathML** dal menu di scelta rapida.
+
+- **Convalida delle equazioni nell’editor MathML**
+
+  Experience Manager Guide convalida le equazioni MathML quando si salva un argomento che le contiene.
+Quando si inserisce un&#39;equazione utilizzando l&#39;editor MathML, l&#39;equazione viene evidenziata in rosso in caso di problemi di sintassi in Experience Manager Guides. È possibile correggerla prima di inserirla. Se non apporti modifiche, seleziona **Inserisci**, visualizza un avviso.
+
+  ![convalida equazione mathml](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Se si inserisce l&#39;equazione MathML che contiene un errore di sintassi, quando si tenta di salvare l&#39;argomento si verifica un errore di convalida.
+
 
 **Inserisci note a piè di pagina**
 
@@ -203,11 +213,30 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 - L’apertura di un elemento consente di rimuovere il tag elemento dal testo selezionato e di unirlo al relativo elemento padre. Ad esempio, se hai un `p` elemento in un `note` , è possibile rimuovere il wrapping dell&#39; `p` per unire il testo direttamente all&#39;interno del `note` elemento. Il **Annulla wrapping elemento** L&#39;opzione è disponibile nel menu di scelta rapida della breadcrumb dell&#39;argomento. Per rimuovere il wrapping di un elemento, fai clic con il pulsante destro del mouse sull’elemento per aprire il menu di scelta rapida, quindi seleziona **Annulla wrapping elemento** per rimuovere l&#39;elemento e unire il testo dell&#39;elemento con il relativo elemento padre.
 
+**Gestione degli spazi vuoti per gli elementi DITA**
+
+- In XML, gli spazi vuoti includono spazi, tabulazioni, ritorni a capo e righe vuote. Guide Experience Manager converte più spazi vuoti conseguenti in un unico spazio. In questo modo è possibile mantenere la visualizzazione WYSIWYG dell&#39;editor Web.
+
+  >[!NOTE]
+  >
+  >In alcuni elementi in cui gli spazi bianchi devono essere conservati secondo le regole DITA, vengono mantenuti i molteplici spazi bianchi conseguenti. Ad esempio: `<pre>` e `<codeblock>` elementi.
+
+
 **Mantenimento delle interruzioni di riga e del rientro**
 
 - Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e renderizzati in base alla loro definizione nelle modalità Creazione, Origine o Anteprima e anche nell’output finale pubblicato. La schermata seguente mostra il contenuto all’interno di `msgblock` elemento in cui le interruzioni di riga e gli spazi \(rientro\) sono stati mantenuti:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Gestione degli spazi unificatori nell’editor web**
+
+- È possibile inserire spazi unificatori nel documento utilizzando **Inserisci caratteri speciali**  ![icona inserisci caratteri speciali](images/insert-special-chars-icon.svg) o **Alt** + **Spazio** tasti di scelta rapida.  Questi spazi unificatori vengono visualizzati come indicatori durante la modifica di un argomento nell&#39;Editor Web. È possibile disattivare la visualizzazione degli spazi unificatori con **Mostra indicatore di spazio unificatore in modalità di creazione** opzione dalla **Aspetto** scheda di **Preferenze utente** ![Icona Preferenze utente](images/user_preference_editor_icon.svg)..
+
+- Se copi e incolla contenuto con uno spazio unificatore da qualsiasi origine esterna in **Autore** vista, lo spazio unificatore viene convertito in uno spazio.
+Tuttavia, se copi e incolla contenuto con uno spazio unificatore dal **Autore** è conservato.
+
 
 **Genera automaticamente ID elemento**
 

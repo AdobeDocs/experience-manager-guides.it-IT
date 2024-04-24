@@ -1,9 +1,10 @@
 ---
 title: Configurare i suggerimenti avanzati per la creazione
 description: Scopri come configurare i suggerimenti avanzati per l’authoring
-source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
+source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '745'
 ht-degree: 1%
 
 ---
@@ -15,6 +16,11 @@ In qualità di amministratore, puoi configurare la funzione Suggerimenti avanzat
 ## Creare configurazioni IMS nella console di Adobe Developer
 
 Per creare configurazioni IMS nella console Adobe Developer, effettua le seguenti operazioni:
+
+>[!NOTE]
+>
+>Se hai già creato un progetto OAuth per configurare la pubblicazione basata su microservizi, puoi saltare i seguenti passaggi per creare il progetto.
+
 1. Launch [Console Adobe Developer](https://developer.adobe.com/console).
 1. Dopo aver effettuato correttamente l’accesso a Console sviluppatori, visualizzerai **Home** schermo. Il **Home** è la schermata in cui puoi trovare facilmente informazioni e collegamenti rapidi, inclusi i collegamenti di navigazione superiore per Progetti e Download.
 1. Per creare un nuovo progetto vuoto, seleziona  **Crea nuovo progetto** dal  **Guida rapida** collegamenti.
@@ -38,9 +44,20 @@ Per creare configurazioni IMS nella console Adobe Developer, effettua le seguent
    ![credenziali connesse](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connettiti al progetto per visualizzare i dettagli delle credenziali.*
-1. Copiare le chiavi CLIENT_ID e CLIENT_SECRET.
 
-Ora hai configurato i dettagli di autenticazione OAuth. Tenere a portata di mano questi due tasti, in quanto sono richiesti nella sezione successiva.
+1. Torna a **Progetti** e seleziona **Panoramica del progetto** a sinistra.
+
+   <img src="assets/project-overview.png" alt="panoramica del progetto" width="500">
+
+   *Introduzione al nuovo progetto.*
+
+1. Fai clic su **Scarica** per scaricare il servizio JSON.
+
+   <img src="assets/download-json.png" alt="scarica json" width="500">
+
+   *Scarica i dettagli del servizio JSON.*
+
+Hai configurato i dettagli di autenticazione OAuth e scaricato i dettagli del servizio JSON. Mantieni il file a portata di mano in quanto richiesto nella sezione successiva.
 
 ### Aggiungere la configurazione IMS all’ambiente
 
@@ -48,11 +65,14 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 
 1. Apri Experience Manager e quindi seleziona il programma contenente l’ambiente da configurare.
 1. Passa a **Ambienti** scheda.
-1. Seleziona il nome dell’ambiente da configurare. Dovresti passare alla pagina Informazioni ambiente.
+1. Seleziona il nome dell’ambiente da configurare. Dovresti passare alla sezione **Informazioni sull&#39;ambiente** pagina.
 1. Passa a **Configurazione** scheda.
-1. Aggiungi le chiavi CLIENT_ID e CLIENT_SECRET come mostrato nella schermata seguente. Assicurati di utilizzare gli stessi nomi e la stessa configurazione evidenziati di seguito.
-   ![Configurazione dell’ambiente](assets/conf-ss-environment.png) {width="800" align="left"}
-   *Aggiungi i dettagli di configurazione dell’ambiente.*
+1. Aggiornare il campo JSON SERVICE_ACCOUNT_DETAILS. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
+
+![configurazione dell’account del servizio ims](assets/ims-service-account-config.png){width="800" align="left"}
+
+
+*Aggiungi i dettagli di configurazione dell’ambiente.*
 
 
 
@@ -61,7 +81,7 @@ Dopo aver aggiunto la configurazione IMS all’ambiente, effettua le seguenti op
 
 1. Nel codice del progetto Git di Cloud Manager, aggiungi i due file seguenti (per il contenuto dei file, visualizza [Appendice](#appendix)).
 
-   * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+   * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. Assicurati che i file appena aggiunti siano coperti dal tuo `filter.xml`.
 1. Esegui il commit e invia le modifiche Git.
@@ -74,15 +94,13 @@ Al termine dell’operazione, dovresti essere in grado di utilizzare la funzione
 ## Appendice {#appendix}
 
 **File**:
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Contenuto**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 

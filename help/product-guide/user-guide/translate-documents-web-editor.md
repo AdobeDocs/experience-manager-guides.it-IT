@@ -4,9 +4,9 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,37 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
 ## Crea un progetto di traduzione
 
-1. Nel pannello Repository, aprire il file mappa DITA in visualizzazione mappa.
-1. Fai clic su **Gestisci** scheda. Il pannello Traduzione visualizza **Lingue disponibili** elenco.
-1. Dalla sezione **Lingue disponibili** , seleziona la lingua in cui desideri tradurre il progetto. Puoi scegliere **Seleziona tutto** per tradurre il progetto in tutte le lingue disponibili.
+1. In **Archivio** aprire il file mappa DITA in visualizzazione mappa.
+1. Fai clic su **Gestisci** scheda. Il **Pannello Traduzione** visualizza i gruppi di lingue disponibili.
 
-   >[!NOTE]
-   >
-   > L&#39;elenco contiene le cartelle della lingua insieme ai relativi codici di lingua. Ad esempio, francese \(fr\) e tedesco \(de\).
+1. In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella. I gruppi di lingue visualizzano le cartelle della lingua insieme ai relativi codici di lingua. Ad esempio, il gruppo di lingue denominato G1 contiene le cartelle di lingua italiana \(it\), tedesca \(de\), francese \(fr\) e inglese \(en\).
+
+   ![pannello di traduzione](images/translation-languages.png){width="300" align="left"}
+
+   *Selezionare i gruppi di lingue o le lingue in cui si desidera tradurre i documenti.*
+
 
    >[!IMPORTANT]
    >
-   > L&#39;elenco mostra solo le lingue per le quali viene creata una cartella della lingua parallela alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
+   > Puoi selezionare e tradurre solo nelle lingue per le quali hai creato la cartella di destinazione parallelamente alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Puoi selezionare qualsiasi gruppo di lingue come destinazione per la traduzione. Se **Seleziona tutto**, i file selezionati vengono tradotti in tutte le lingue disponibili all&#39;interno dei gruppi di lingue esistenti.
+
+   L’opzione della cartella della lingua è disattivata e mostra un segnale di avviso:
+
+   - Se manca la cartella di destinazione per una lingua.
+   - Se la lingua di destinazione è la stessa della sorgente.
+
+
+   >[!NOTE]
+   >
+   > Se crei la cartella di destinazione per una lingua dopo aver creato il gruppo di lingue, aggiorna il browser per abilitare la lingua nei gruppi di lingue.
+
+1. Se si sceglie una determinata lingua, questa verrà visualizzata come selezionata in tutti i gruppi di lingue selezionati. Quindi, quando traducete in qualsiasi lingua, viene tradotto in una sola volta per tutti i gruppi linguistici. Ad esempio, se il tedesco è presente in entrambi i gruppi linguistici G1 e G2, viene selezionato per entrambi.
+
+1. Dalla sezione **Altre lingue**, è possibile scegliere qualsiasi lingua per la quale è stata creata la cartella di destinazione, ma che non fa parte di alcun gruppo di lingue.
 
 1. Per tradurre il progetto, puoi anche selezionare una delle seguenti opzioni:
 
@@ -113,7 +131,7 @@ Le guide AEM consentono agli amministratori di configurare le regole di traduzio
 
 I file SRX devono essere denominati come `<language-code>.srx`. Ad esempio, en-US o ar-AE.
 
->[Nota]
+>[!NOTE]
 >Il titolo non distingue tra maiuscole e minuscole, quindi puoi avere &quot;en-US&quot; o &quot;en-us&quot; o &quot;EN-us&quot;. Inoltre, le guide AEM possono risolvere il segno &quot;-&quot; (trattino) o &quot;_&quot; (trattino basso). Quindi, puoi avere &quot;en-US&quot; o &quot;en_US&quot;.
 
 Inoltre, puoi inserire questi file in qualsiasi cartella sotto la directory principale delle risorse AEM che sia `./content/dam`.
@@ -188,5 +206,19 @@ Alcuni dei riferimenti nel dashboard di traduzione potrebbero essere in stato di
 Fate clic sul nome del riferimento nella finestra di dialogo per aprirlo in modalità anteprima. Puoi anche fare clic sul progetto di traduzione per avviare la traduzione.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Eliminare o disattivare automaticamente un progetto di traduzione completato
+
+>[!NOTE]
+> 
+>Questa funzione è disponibile per i nuovi progetti di traduzione creati con Experience Manager Guides 2404 o versione successiva.  Non avrà alcun impatto sui progetti esistenti.
+
+L&#39;amministratore può configurare **Pulizia del progetto di traduzione dopo il completamento** opzione sotto **Traduzione** scheda in **Impostazioni editor** per disattivare o eliminare automaticamente i progetti di traduzione.
+
+Per la gestione dei documenti, Experience Manager Guides consente di eliminare i progetti di traduzione una volta completata la traduzione.
+
+Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
+
 
 **Argomento padre:**[ Utilizzare l’editor web](web-editor.md)

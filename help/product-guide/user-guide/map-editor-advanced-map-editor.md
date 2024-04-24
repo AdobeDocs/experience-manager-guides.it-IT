@@ -4,9 +4,9 @@ description: Scopri come utilizzare l’editor di mappe avanzato nelle guide AEM
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
      È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
 
-   - È possibile archiviare l&#39;argomento utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una revisione dell&#39;argomento, viene creata una nuova revisione e viene rilasciato anche il blocco.
+   - È possibile archiviare l&#39;argomento utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una versione dell&#39;argomento, viene creata una nuova versione e viene rilasciato anche il blocco.
+
+     Si consiglia di salvare le modifiche prima di archiviare i file.  Quando si salvano le modifiche, il file XML viene convalidato.
+
+   - È inoltre possibile selezionare e archiviare più argomenti utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una versione degli argomenti, viene creata una nuova versione per ciascun argomento e viene rilasciato anche il blocco. È inoltre possibile visualizzare l&#39;avanzamento del check-in degli argomenti dalla **Salva come nuova versione e sblocca** . Al momento del check-in dei file viene visualizzato un messaggio di operazione riuscita.
+
    - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. Se questa opzione è attivata, quando si chiude l&#39;editor con i file modificati, viene visualizzato l&#39;elenco dei file estratti che devono essere salvati. I file estratti vengono visualizzati con un&#39;icona di blocco:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

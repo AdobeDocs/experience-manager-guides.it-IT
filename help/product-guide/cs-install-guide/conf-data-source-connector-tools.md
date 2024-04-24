@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Configurare un connettore origine dati dall’interfaccia utente
 
 Experience Manager Guides viene fornito con **Origini dati** strumento che consente di configurare connettori predefiniti per le origini dati. È possibile impostare i connettori client JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch e REST generico.
+
+Oltre a questi connettori predefiniti, Experience Manager Guides fornisce i connettori per le origini dati Salsify, Akeneo e ADO (Microsoft Azure DevOps Boards). Puoi scaricarli e installarli. Gli utenti possono quindi configurare questi connettori.
+
+Puoi anche connetterti a file di dati JSON utilizzando un connettore per file. Carica il file JSON dal computer o sfoglia le risorse Adobe Experience Manager. Quindi, crea snippet di contenuto o argomenti utilizzando i generatori.
 
 Per configurare un connettore, effettuare le seguenti operazioni:
 
@@ -37,14 +41,19 @@ Per configurare un connettore, effettuare le seguenti operazioni:
 1. Immettere la configurazione e i dettagli di connessione in base al database.
 
    >[!TIP]
+   >
    >* Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino al campo per visualizzare ulteriori dettagli.
    > * I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore di Elasticsearch.
 
    * **Nome**: immetti il nome dell’origine dati.
-   * Tipo di autenticazione: seleziona il tipo di autenticazione dall’elenco a discesa. Ad esempio, autenticazione nome utente-password di base
+   * **Tipo di autenticazione**: seleziona il tipo di autenticazione dal menu a discesa. Ad esempio, autenticazione nome utente-password di base
    * **Nome utente**: immetti il nome utente.
    * **Password**: inserisci nome utente e password.
    * **URL**: aggiungi l’URL API.
+
+
+1. Seleziona la **Escludi modelli di fabbrica** opzione per escludere i modelli di fabbrica dall&#39;utilizzo per la generazione di argomenti e snippet. Non verranno visualizzati sotto **Modello di mappatura dati** menu a discesa nella  **Aggiungi generatore frammenti di contenuto** o **Aggiungi generatore di argomenti** .
+
 
 1. Seleziona **Verifica connessione**. È possibile visualizzare **Verifica connessione** attivato solo dopo l&#39;aggiunta dei dettagli richiesti. Visualizza un messaggio di operazione riuscita se i dettagli della connessione sono corretti. In caso contrario, è possibile visualizzare un messaggio di errore.
 
@@ -54,6 +63,21 @@ Per configurare un connettore, effettuare le seguenti operazioni:
 
 
    Se il connettore viene salvato correttamente, è possibile visualizzare l&#39;origine dati collegata nella pagina.
+
+**Connessione a più risorse**
+
+È possibile aggiungere o utilizzare più risorse in base a URL diversi per alcuni connettori, come ad esempio Generic REST Client, Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO). Quindi, connettiti con loro per creare snippet di contenuto o argomenti utilizzando i generatori per loro.
+
+Per creare una risorsa, effettua le seguenti operazioni:
+
+1. Seleziona ![icona aggiungi](assets/Add_icon.svg) nel **Sezione risorse URL** per aggiungere una risorsa per ogni URL.
+1. Configura tutti i dettagli in **Aggiungi risorsa** .
+1. Clic **Aggiungi**.
+1. È possibile modificare ![icona modifica](assets/edit_pencil_icon.svg) o eliminare ![eliminare](assets/Delete_icon.svg) la risorsa dall’elenco delle risorse URL.
+
+1. È inoltre possibile utilizzare le risorse predefinite disponibili per origini dati quali Salsify, Akeneo e Microsoft ADO. Disattiva le opzioni per la risorsa da non configurare per un’origine dati.
+
+Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo frammento di contenuto o argomento.
 
 ## Funzioni disponibili per un connettore
 

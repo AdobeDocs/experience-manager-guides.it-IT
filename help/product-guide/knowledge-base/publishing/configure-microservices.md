@@ -4,24 +4,28 @@ description: Scopri come configurare una nuova pubblicazione basata su microserv
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Configurare una nuova pubblicazione basata su microservizi per le guide AEM as a Cloud Service
+# Configurare la pubblicazione basata su microservizi con l’autenticazione JWT
 
-Il nuovo microservizio di pubblicazione consente agli utenti di eseguire contemporaneamente carichi di lavoro di pubblicazione di grandi dimensioni su guide AEM as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
-
-Per ogni richiesta di pubblicazione, le guide AEM as a Cloud Service eseguono un contenitore separato che viene ridimensionato orizzontalmente in base alle richieste dell’utente. In questo modo gli utenti possono eseguire più richieste di pubblicazione e ottenere prestazioni migliori rispetto ai server AEM locali di grandi dimensioni.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> La pubblicazione basata su microservizi nelle guide AEM supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
+> Le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete e sostituite dalle credenziali server-to-server OAuth. Le applicazioni che utilizzano le credenziali dell’account di servizio (JWT) cesseranno di funzionare dopo il 1° gennaio 2025. È necessario eseguire la migrazione alla nuova credenziale entro il 1° gennaio 2025, per garantire che l’applicazione continui a funzionare. Ulteriori informazioni su [migrazione dalle credenziali dell’account di servizio (JWT) alle credenziali server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Poiché il nuovo servizio di pubblicazione cloud è protetto dall’autenticazione basata su JWT di Adobe IMS, i clienti devono seguire i passaggi riportati di seguito per integrare i propri ambienti con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e iniziare a utilizzare la nuova soluzione di pubblicazione scalabile basata su cloud.
+
+
+La pubblicazione basata su microservizi in per Adobe Experience Manager Guides as a Cloud Service supporta i predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
+
+Poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete, si consiglia di utilizzare l’autenticazione basata su Adobe IMS OAuth. Scopri come [configurare la pubblicazione basata su microservizi con l’autenticazione OAuth](configure-microservices-imt-config.md).
+
+Per il servizio di pubblicazione cloud protetto dall’autenticazione basata su JWT di Adobe IMS, i clienti devono seguire i passaggi indicati di seguito per integrare i propri ambienti con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e iniziare a utilizzare la nuova soluzione di pubblicazione scalabile basata su cloud.
 
 
 ## Creare configurazioni IMS nella console di Adobe Developer
@@ -80,7 +84,7 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 >
 > Apri, copia e incolla il contenuto del file JSON della chiave privata e dei dettagli del servizio nella colonna del valore del pannello Configurazione, come illustrato nella schermata precedente.
 
-Dopo aver aggiunto la configurazione IMS all’ambiente, effettua le seguenti operazioni per collegare queste proprietà alle guide dell’AEM utilizzando OSGi:
+Dopo aver aggiunto la configurazione IMS all’ambiente, esegui i seguenti passaggi per collegare queste proprietà con Experience Manager Guides utilizzando OSGi:
 
 1. Nel codice del progetto Git di Cloud Manager, aggiungi i due file seguenti (per il contenuto dei file, vedi [Appendice](#appendix)).
 

@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Novità delle guide di Adobe Experience Manager, versione 2024.2.0
 description: Scopri le funzioni nuove e migliorate della versione 2024.2.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 Questo articolo descrive le funzioni nuove e migliorate della versione 2024.2.0 delle guide di Adobe Experience Manager.
 
-Per l’elenco dei problemi risolti in questa versione, visualizza [Sono stati risolti i problemi nella versione 2024.2.0 di](fixed-issues-2024-2-0.md).
+Per un elenco dei problemi risolti in questa versione, vedi [Sono stati risolti i problemi nella versione 2024.2.0 di](fixed-issues-2024-2-0.md).
 
 
 Informazioni su [istruzioni di aggiornamento per la versione 2024.2.0](upgrade-instructions-2024-2-0.md).
