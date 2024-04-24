@@ -4,7 +4,7 @@ description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 
      Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
       1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, **Mostra altro** visualizzazioni. Puoi selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+
          >[!TIP]
          >
          > Attiva/Disattiva **Mostra altro** a **Mostra meno** e visualizzare solo alcune lingue.
@@ -303,6 +304,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
   ![scheda aspetto delle preferenze utente](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Visualizza file per**: seleziona il modo predefinito per visualizzare i file nell’editor web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli della **Autore** visualizzazione.
+
      >[!NOTE]
      >
      > Per impostazione predefinita, i file vengono visualizzati per titolo nell&#39;editor Web.
@@ -846,7 +848,9 @@ Il pannello sinistro consente di accedere alle seguenti funzioni:
 **Preferiti** -  ![](images/favorite-collections.svg)
 
 Se si lavora su un insieme di file o cartelle, è possibile aggiungerli all&#39;elenco dei preferiti per accedervi rapidamente. L&#39;elenco Preferiti mostra l&#39;elenco dei documenti aggiunti e altri elenchi accessibili al pubblico dei documenti preferiti degli altri utenti.
+
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
 È inoltre possibile eseguire molte azioni utilizzando il menu Opzioni disponibile per un insieme Preferiti:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Rinomina**: rinomina la raccolta selezionata.
 - **Elimina**: elimina la raccolta selezionata.
 - **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
@@ -965,11 +970,12 @@ Seleziona la **Filtro avanzato** ![icona filtro avanzato](images/advanced-filter
 
 
 - Seleziona la **Chiudi filtro** ![icona chiudi](images/close-icon.svg) per chiudere il filtro e tornare alla visualizzazione struttura dell&#39;archivio.
+
   >[!NOTE]
   >
   >L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli vedi *Configurare i filtri di testo* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
-
-  Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, i file contenenti il testo `general purpose` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
+  >
+  >Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, i file contenenti il testo `general purpose` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
 
 
 
@@ -1067,6 +1073,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > Puoi anche trascinare un file in un’altra cartella di destinazione.
 
   **Scenari di esclusione**
@@ -1078,6 +1085,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
    - Se un altro utente estrae il file, non è possibile rinominarlo o spostarlo, non verrà visualizzata l&#39;opzione Rinomina o Sposta in per il file.
 
   >[!NOTE]
+  >
   > Se l’amministratore ti ha assegnato le autorizzazioni per una cartella, solo allora **Rinomina** o **Sposta in** vengono visualizzate le opzioni.
 
   <details>
@@ -1206,6 +1214,7 @@ Immetti un **Titolo** per la cartella, che viene automaticamente convertita nel 
 Quando si fa clic sull&#39;icona Vista mappa, viene visualizzato un elenco di argomenti all&#39;interno del file mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. È possibile fare doppio clic su qualsiasi file all&#39;interno della mappa per aprirlo nell&#39;editor Web.
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 >In qualità di amministratore, puoi anche scegliere di visualizzare il nome del file della mappa principale che è attualmente aperto nella vista mappa. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
 
 - **Visualizza nell’interfaccia utente Assets**: utilizza questa opzione per visualizzare un’anteprima del file di mappa nell’interfaccia utente Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 - **Scarica mappa**: seleziona questa opzione per aprire **Scarica mappa** .
+
 In **Scarica mappa** , è possibile scegliere le opzioni seguenti:
-   - **Usa linea di base**: selezionare questa opzione per ottenere un elenco di baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [utilizzare la previsione](./generate-output-use-baseline-for-publishing.md).
-   - **Flatten File Hierarchy**: seleziona questa opzione per salvare tutti gli argomenti e i file multimediali a cui si fa riferimento in un’unica cartella.
+
+- **Usa linea di base**: selezionare questa opzione per ottenere un elenco di baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [utilizzare la previsione](./generate-output-use-baseline-for-publishing.md).
+- **Flatten File Hierarchy**: seleziona questa opzione per salvare tutti gli argomenti e i file multimediali a cui si fa riferimento in un’unica cartella.
 
   È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, vengono scaricate le ultime versioni persistenti degli argomenti e dei file multimediali a cui si fa riferimento.
-
 
   Dopo aver fatto clic su **Scarica** , la richiesta del pacchetto di esportazione della mappa è in coda. Il **Completato** viene visualizzata se il pacchetto è stato creato correttamente.  Puoi fare clic su **Scarica** dal pulsante **Completato** .
 
@@ -1387,6 +1397,7 @@ Una delle caratteristiche principali di DITA è la possibilità di riutilizzare 
 Puoi semplicemente trascinare e rilasciare i contenuti riutilizzabili dal pannello sull’argomento corrente, per inserirli in modo semplice e rapido. È inoltre possibile ottenere un&#39;anteprima del contenuto prima di inserirlo nel documento.
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Utilizzando il menu Opzioni di un modello esistente, è possibile scegliere di *
 **Revisione** -  ![](images/active-review-tasklist-icon.svg)
 
 Le guide AEM consentono di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive all’interno dei progetti di revisione di cui fai parte dal **Revisione** pannello.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
+
 Nel pannello Revisione vengono visualizzate le attività di revisione. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
    >[!NOTE]
    > 
    > Il **Revisione** e **Commenti** sono sempre sincronizzati. Nel pannello Commenti, i commenti vengono caricati in base all&#39;attività di revisione caricata nel pannello Revisione.
+   >
    > Per ulteriori informazioni su come gestire i commenti, vedere [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
 
 **Trova e sostituisci** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ L’icona Trova e sostituisci si trova nella parte inferiore del pannello a sini
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei nomi di file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
 1. Apri il pannello globale **Trova e sostituisci** pannello.
 1. Fai clic su **Cerca in** a discesa, seleziona una delle seguenti opzioni per eseguire la ricerca.
+
    - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
 1. Premi Invio o seleziona **Ricerca** icona \( ![](images/search-icon.svg)\) per eseguire la ricerca.
 1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
-
 1. Clic **Sostituisci occorrenza singola** \( ![](images/replace-icon.svg)\) per sostituire il termine di ricerca attualmente evidenziato nell&#39;argomento o fare clic su Corrispondenza successiva ![](images/next-match-in-search.png) o ![](images/previous-match-in-search.png) Corrispondenza precedente per passare all&#39;occorrenza successiva o precedente del testo.
-
 1. Clic **Sostituisci tutto nel file** \( ![](images/replace-all-in-file-icon.svg)\)per sostituire tutte le occorrenze del termine ricercato in un singolo file con il termine sostitutivo in un singolo clic. Dopo la sostituzione di tutte le occorrenze nel file selezionato, viene visualizzata una notifica.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 Nell&#39;area di modifica del contenuto viene visualizzato il contenuto dell&#39;argomento o della mappa. In quest’area vengono apportate tutte le modifiche al contenuto. Offre una visualizzazione WYSIWYG del contenuto che si sta modificando. È possibile aprire più argomenti contemporaneamente, che vengono visualizzati nelle rispettive schede.
 
 Per impostazione predefinita, è possibile visualizzare i titoli dei file nelle schede. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 - **Collegamenti in uscita:** Collegamenti in uscita elenca i documenti a cui si fa riferimento nel documento corrente.
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
+
 >[!NOTE]
 >
 > In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Utilizzando la funzione Tracked Changes (Modifiche tracciate) del pannello di de
 > La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, consulta [Attiva/Disattiva rilevamento modifiche](#id205DF0203Y4).
 
 **Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
-
