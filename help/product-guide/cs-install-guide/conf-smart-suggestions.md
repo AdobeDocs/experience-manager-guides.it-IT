@@ -2,7 +2,7 @@
 title: Configurare i suggerimenti avanzati per la creazione
 description: Scopri come configurare i suggerimenti avanzati per l’authoring
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ Per creare configurazioni IMS nella console Adobe Developer, effettua le seguent
    *Aggiungi l’API di gestione I/O al progetto.*
 
 1. Crea un nuovo **Credenziali OAuth** e salvalo.
-   ![Riquadro delle credenziali OAuth nell’API di configurazione](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![Riquadro delle credenziali OAuth nell’API di configurazione](assets/conf-ss-OAuth-credential.png)
+
    *Configura le credenziali OAuth nell’API.*
 
 1. In  **Progetti** , scegli **OAuth Server to Server** e quindi selezionare le credenziali appena create.
