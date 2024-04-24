@@ -4,7 +4,7 @@ description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -231,7 +231,7 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
       1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
       1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
-     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Ad esempio, digita &quot;en&quot; per filtrare tutte le lingue che contengono &quot;en&quot; all’inizio del nome o del codice.
+     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
       1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, **Mostra altro** visualizzazioni. Puoi selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
          >[!TIP]
          >
@@ -342,7 +342,7 @@ Ad esempio, se ti trovi all’interno del `<b>` , puoi inserire elementi come `<
 
 ![inserisci elemento](images/insert-element.png){width="300" align="left"}
 
-*Immetti ‘t’ per cercare tutti gli elementi validi che iniziano con ‘t’.*
+*Inserisci &#39;t&#39; per cercare tutti gli elementi validi che iniziano con &#39;t&#39;.*
 
 Se lavori all’interno di un elemento blocco come un `note`, quindi utilizza l’icona Inserisci elemento per inserire un nuovo elemento dopo il `note` elemento. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
 
@@ -2014,3 +2014,4 @@ Utilizzando la funzione Tracked Changes (Modifiche tracciate) del pannello di de
 > La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, consulta [Attiva/Disattiva rilevamento modifiche](#id205DF0203Y4).
 
 **Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
+

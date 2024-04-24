@@ -3,7 +3,7 @@ title: Configurazione della pubblicazione basata su Microsoft con autenticazione
 description: Scopri come configurare la pubblicazione basata su microservizi con l’autenticazione OAuth per le guide AEM.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ Per ogni richiesta di pubblicazione, Experience Manager Guides as a Cloud Servic
 > La pubblicazione basata su microservizi in Experience Manager Guides supporta i tipi di predefiniti di output PDF (sia nativi che DITA-OT), HTML5, JSON e CUSTOM.
 
 Poiché il servizio di pubblicazione cloud è protetto dall’autenticazione basata su Adobe IMS OAuth, effettua le seguenti operazioni per integrare i propri ambienti con i flussi di lavoro di autenticazione basata su token sicuri di Adobe e inizia a utilizzare la soluzione di pubblicazione scalabile basata su cloud.
-
-
-
 
 
 ## Creare configurazioni IMS nella console di Adobe Developer

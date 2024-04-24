@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 11%
@@ -85,3 +85,4 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disattiva* \( false\) il **Copie per lingua post-elaborazione** opzione.<br> - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) il **Copie per lingua post-elaborazione** opzione.<br> **Valore predefinito**: false |
+

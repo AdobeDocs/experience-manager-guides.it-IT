@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2024.4.0
 description: Scopri le correzioni di bug nella versione 2024.04.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ Informazioni su [istruzioni di aggiornamento per la versione 2024.04.0](upgrade-
 ## Traduzione
 
 - **Accetta traduzione** non completa la traduzione dei file temporanei. (14665)
+
 
