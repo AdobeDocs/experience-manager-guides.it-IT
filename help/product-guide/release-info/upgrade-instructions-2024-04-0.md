@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2024.04.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2024.04.0 delle guide as a Cloud Service di Adobe Experience Manager.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 ## Aggiornamento alla versione 2024.04.0
 
 Experience Manager Guides viene aggiornato automaticamente dopo l’aggiornamento della versione corrente (più recente) di Experience Manager as a Cloud Service.
+
+>[!NOTE]
+>
+> Dopo aver iniziato a utilizzare la versione corrente (più recente), confronta tutte le configurazioni sostituite con quelle più recenti per ottenere le funzioni più recenti:
+>- ui_config.json (potrebbe essere stato impostato nei profili cartella)
+
 
 
 Se non lo hai già fatto in precedenza per la versione esistente, effettua le seguenti operazioni, ad Experience Manager Guide as a Cloud Service:
@@ -117,7 +124,7 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita tutte le mappe sono indicizzate|| Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
 1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`Ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -130,4 +137,3 @@ Experience Manager Guide ha un [**rewriter sling personalizzato**](../cs-install
 Se nel codebase è presente un altro rewriter di sling personalizzato, utilizza un `'order'` valore maggiore di 50, utilizzato dal rewriter sling di Experience Manager Guides `'order'` 50 Per evitare questo problema, è necessario un valore > 50. Per ulteriori dettagli, vedi [Pipeline di riscrittura di output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Durante questo aggiornamento, dal momento che `'order'` viene modificato da 1000 a 50, è necessario unire l’eventuale rewriter personalizzato esistente con `fmdita-rewriter`.
-
