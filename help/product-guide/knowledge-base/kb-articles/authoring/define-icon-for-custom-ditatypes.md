@@ -1,24 +1,24 @@
 ---
 title: Icona di configurazione per i tipi dita personalizzati
 description: Scopri come definire l’icona per i tipi dita personalizzati per visualizzarne l’icona in diverse interfacce in AEM
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Configurazione dell’icona per i tipi dita personalizzati (topic o map)
+# Configurazione dell’icona per i tipi dita (topic o map) personalizzati/specializzati
 
 
 ## Dichiarazione di problema
 
-Con lo schema personalizzato utilizzato nelle guide dell’AEM, puoi creare tipi di argomenti o mappe personalizzati e con questo puoi notare che gli argomenti o le mappe personalizzati non mostrano l’icona nell’editor web o nell’interfaccia utente di Assets. Vedi la schermata seguente come riferimento
+Con lo schema personalizzato utilizzato nelle guide dell’AEM, puoi creare tipi di argomenti o mappe personalizzati e con questo puoi notare che i tipi di argomenti/mappe personalizzati non mostrano l’icona nell’editor web o nell’interfaccia utente di Assets. Vedi la schermata seguente come riferimento
 
 ![schermata di riferimento](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
-Pertanto, per assegnare un’icona ai tipi di argomento/mappa personalizzati, è necessario effettuare le seguenti operazioni:
+Pertanto, per assegnare un’icona ai tipi di argomento/mappa personalizzati, devi effettuare le seguenti operazioni:
 - Trovare il tipo di argomento/mappa personalizzato
 - Scrivi gli stili per aggiungere l’icona desiderata per il tipo personalizzato
 
