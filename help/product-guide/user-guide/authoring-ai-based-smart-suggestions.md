@@ -1,14 +1,13 @@
 ---
 title: Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
 description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
 
@@ -76,6 +75,8 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 1. Puoi anche selezionare **Accetta** o **Rifiuta** nel **Riutilizzo dei contenuti** riquadro dei suggerimenti per i consigli appropriati.
 
 
-
 Questa funzione intelligente è utile e riduce al minimo lo sforzo della ricerca manuale dei contenuti, consentendoti di concentrarsi di più sulla generazione di nuovi contenuti. Inoltre, facilita una migliore collaborazione in team e aiuta a mantenere la coerenza nei contenuti creati da vari autori.
 
+>[!NOTE]
+>
+>I suggerimenti avanzati non mantengono i dati oltre la sessione corrente. Per le risposte, i suggerimenti avanzati si basano esclusivamente sull’indice creato sul contenuto presente nel database interno. Gli strumenti di intelligenza artificiale esterni non vengono utilizzati per garantire che i dati rimangano all’interno del sistema.
