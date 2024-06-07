@@ -2,10 +2,11 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 4.4.0
 description: Scopri come effettuare l’aggiornamento alla versione 4.4.0 delle guide di Adobe Experience Manager
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 4.4.0 delle guide di Adobe Experience Manager.
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, vedi [Novità della versione 4.4.0](../release-info/whats-new-4-4.md).
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 4.4.0](../release-info/whats-new-4-4.md).
 
 Per l’elenco dei problemi risolti in questa versione, visualizza [Sono stati risolti dei problemi nella versione 4.4.0 di](../release-info/fixed-issues-4-4.md).
 
@@ -27,10 +28,10 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 ### Adobe Experience Manager
 
 **4.4.0 Non UUID**
-Versione 6.5 Service Pack 19, 18, 17
+Versione 6.5 Service Pack 20, 19, 18 o 17
 
 **4.4.0 UUID**
-Versione 6.5 Service Pack 19, 18, 17
+Versione 6.5 Service Pack 20, 19, 18 o 17
 
 
 Per ulteriori dettagli, vedi [Requisiti tecnici](../install-guide/download-install-technical-requirements.md) nella Guida all&#39;installazione e alla configurazione on-premise.
@@ -82,4 +83,3 @@ Per ulteriori dettagli, vedi [Requisiti tecnici](../install-guide/download-insta
 >È necessario installare il service pack per l’AEM prima di aggiornare la versione delle guide Experienci Manager.
 
 Per i dettagli, visualizzare [Istruzioni per l’aggiornamento per le versioni on-premise](../install-guide/upgrade-xml-documentation.md) di guide Experienci Manager.
-

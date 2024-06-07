@@ -4,9 +4,9 @@ description: Scopri come modificare gli argomenti nell’editor web. Scopri le v
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ L&#39;editor Web include una serie di funzioni di modifica che consentono di cre
    >[!NOTE]
    >
    > Se non desideri confermare le modifiche nell’archivio AEM, fai clic su **Chiudi** e quindi fare clic su **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
+
+
+## Selezione parziale del contenuto tra gli elementi
+
+Experience Manager Guides consente inoltre di selezionare il contenuto tra gli elementi. Dopo aver selezionato il contenuto, puoi eseguire le operazioni seguenti:
+- Formattazione ed eliminazione: applica al contenuto selezionato il grassetto, il corsivo, la sottolineatura o persino l’eliminazione. Il contenuto dei tag aperti validi viene quindi unito e visualizzato sotto un singolo elemento. È ad esempio possibile selezionare il contenuto di un paragrafo ed estendere la selezione a un altro paragrafo. Quindi, se rendi in grassetto il contenuto selezionato, tutto il contenuto in grassetto dei tag aperti viene unito e visualizzato sotto un singolo elemento di paragrafo.
+
+Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente dopo l’eliminazione nei tag aperti viene unito.
+
+- Racchiudi il contenuto in un elemento valido: per racchiuderlo in un elemento valido, effettua le seguenti operazioni:
+   - Seleziona il contenuto all’interno di un elemento.
+   - Seleziona la ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare **Circonda con elemento** . Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
+     >[!NOTE]
+     >
+     > È inoltre possibile visualizzare la finestra di dialogo Surround con elemento selezionando il menu di scelta rapida del contenuto selezionato.
+
+   - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Ad esempio, se selezioni il contenuto di un paragrafo e quindi scegli il `<note>` elemento da **Circonda con elemento** , il contenuto selezionato viene visualizzato sotto una nota.\
+     ![finestra di dialogo elemento surround](./images/surround-element.png) {width="300" align="left"}
 
 ## Aggiorna il browser durante la modifica dei file
 

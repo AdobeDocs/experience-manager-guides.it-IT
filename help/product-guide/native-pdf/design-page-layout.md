@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ I campi sono molto utili quando si desidera inserire informazioni predefinite. A
 
 Sono disponibili le seguenti categorie di campi che è possibile inserire nel layout di pagina:
 
+* Metadati
+* Titolo argomento
+* Titolo capitolo
+* Titolo mappa
+* Numero di pagina
+* Numero del capitolo
+* Pagine totali
 * Data
 * stimato
-* Titolo argomento
-* Titolo progetto
-* Numero di pagina
-* Pagina totale
-* Titolo capitolo
-* Numero del capitolo
-* Metadati
+
 
 Ciascuna di queste categorie di campi contiene diverse varianti in cui è possibile inserire le informazioni sui campi. Ad esempio, un campo Data può avere diverse varianti, come `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e così via. Allo stesso modo, il numero di pagina può avere varianti sotto forma di formati romani, decimali o anche specifici delle impostazioni internazionali, ad esempio _Arabo_, _Devanagari_, _Ebraico_, e altro ancora.
 
-Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine e possono essere facilmente inseriti nel layout di pagina.
 
-Puoi anche selezionare le proprietà dei metadati dalle risorse e aggiungerle al layout di pagina. I metadati della risorsa vengono quindi pubblicati per l’output PDF. Queste proprietà di metadati delle risorse sono impostate da **Proprietà** della mappa DITA o del file di mappa di un libro.
+Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati vengono memorizzati nel DITA di origine **Mappa contenuto** oppure può essere prelevato da DITA **Proprietà file mappa** o **Proprietà file argomento** e facilmente inseribili nel layout di pagina.
+
+Puoi selezionare i metadati dalle seguenti opzioni:
+
+* **Mappa contenuto** include i metadati definiti nell&#39; `<topicmeta>` elemento della mappa DITA.
+* **Proprietà file mappa** include i metadati, a cui è possibile accedere da **Proprietà** pagina di una mappa DITA.
+* **Proprietà file argomento** include i metadati, a cui è possibile accedere da **Proprietà** di un argomento.
+
+
+È possibile combinare i metadati da **Proprietà file mappa** e **Proprietà file argomento** in un unico documento. Ad esempio, puoi pubblicare un PDF con il titolo della mappa sulla copertina e il titolo dell’argomento nell’intestazione di altre pagine. A questo scopo, puoi aggiungere i metadati del titolo della mappa dalla sezione **Proprietà file mappa** al layout della pagina di copertina. Quindi, aggiungi i metadati del titolo dell’argomento dalla sezione **Proprietà file argomento**  nell&#39;intestazione del layout di pagina Capitoli e argomenti.
+
+Se un argomento termina su una pagina mentre l&#39;altro inizia sulla stessa pagina, vengono selezionati i metadati del primo argomento. Puoi anche aggiungere proprietà personalizzate e inserirle come campi nel layout di pagina.
+
 
 >[!NOTE]
 >
 > I campi di metadati vengono visualizzati in base alla selezione della risorsa o della mappa nella **Da** a discesa.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina v
 
 1. Seleziona la **Numero di pagina** categoria dall&#39;elenco Campo, la **default(1)** formato numero di pagina dall&#39;elenco Formato e fare clic su **Inserisci**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

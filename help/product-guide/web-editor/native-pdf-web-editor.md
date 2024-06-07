@@ -4,9 +4,9 @@ description: Scopri come utilizzare la pubblicazione PDF nativa, creare e genera
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Per utilizzare una variabile, è necessario definirla nel `${<variable>}` format
 Ad esempio, una delle proprietà di metadati definite in /`jcr:content/metadata` il nodo è
 `dc:title`. È possibile specificare `${dc:title}`e il valore del titolo viene utilizzato nell’output finale.
 
-Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Ad esempio: `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
+Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Ad esempio, `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
 
 Utilizza le variabili di linguaggio per definire il valore localizzato delle proprietà dei metadati. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, puoi stampare &quot;Autore&quot; come valore dei metadati in inglese e &quot;Autorin&quot; in tedesco.
 
@@ -212,3 +212,10 @@ Se si seleziona la **Scarica file temporanei** nelle impostazioni avanzate, è i
 
 Le guide AEM forniscono anche il supporto per le variabili di lingua. Seleziona **Variabili di lingua** <img src="./assets/language-variables.svg" width="25">  nel pannello a sinistra per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Attenzione e Avvertenza, oppure testo statico nell’output di PDF. Per ulteriori dettagli, consulta [Supporto per le variabili di lingua](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Supporto per i documenti Markdown
+
+Experience Manager Guides fornisce inoltre il supporto per i documenti Markdown.  I file Markdown sono facili da creare e forniscono anche una varietà di opzioni di formattazione. Scopri come [creare documenti Markdown dall’editor web](../user-guide/web-editor-markdown-topic.md).
+
+È possibile aggiungere gli argomenti Markdown alla mappa DITA e generare l&#39;output PDF utilizzando i predefiniti di output di PDF nativi.  Scopri come configurare o [creare un predefinito di output PDF](#create-a-pdf-output-preset-create-output-preset).

@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Manager Guides viene fornito con **Origini dati** strumento che consente di configurare connettori predefiniti per le origini dati. È possibile impostare i connettori client JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch e REST generico.
 
-Oltre a questi connettori predefiniti, Experience Manager Guides fornisce i connettori per le origini dati Salsify, Akeneo e ADO (Microsoft Azure DevOps Boards). Puoi scaricarli e installarli. Gli utenti possono quindi configurare questi connettori.
+
+Oltre a questi connettori predefiniti, Experience Manager Guides fornisce i connettori per le origini dati Salsify, Akeneo e ADO (Microsoft Azure DevOps Boards). Puoi scaricare e installare questi connettori open-source dall&#39; [Archivio centrale Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Gli utenti possono quindi configurare questi connettori.
+Scopri come [installare un connettore open source](#install-open-source-connector).
+
+
 
 Puoi anche connetterti a file di dati JSON utilizzando un connettore per file. Carica il file JSON dal computer o sfoglia le risorse Adobe Experience Manager. Quindi, crea snippet di contenuto o argomenti utilizzando i generatori.
 
@@ -78,6 +82,39 @@ Per creare una risorsa, effettua le seguenti operazioni:
 1. È inoltre possibile utilizzare le risorse predefinite disponibili per origini dati quali Salsify, Akeneo e Microsoft ADO. Disattiva le opzioni per la risorsa da non configurare per un’origine dati.
 
 Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo frammento di contenuto o argomento.
+
+
+
+## Installare un connettore open source{#install-open-source-connector}
+
+Per pubblicare una dipendenza presente sul [Archivio centrale Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) ai Cloud Service, devi includere e incorporare la dipendenza per un connettore open-source.
+
+1. Aggiungere la dipendenza in `all/pom.xml`  nel codice del progetto Git di cloud manager. Ad esempio, puoi aggiungere la seguente dipendenza per il connettore dell’origine dati delle bacheche DevOps di Microsoft Azure.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. Incorpora la dipendenza aggiunta.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>barattolo&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. Esegui la pipeline per applicare le modifiche nei Cloud Service.
+Il connettore è installato nell’ambiente.
+
 
 ## Funzioni disponibili per un connettore
 

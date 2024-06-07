@@ -4,7 +4,7 @@ description: Esplora altre funzioni dell’editor web nelle guide dell’AEM. Sc
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ Quando si inserisce un&#39;equazione utilizzando l&#39;editor MathML, l&#39;equa
 **Inserisci note a piè di pagina**
 
 - Inserire una nota a piè di pagina nel contenuto utilizzando `fn` elemento. Nella modalità di creazione, il valore della nota a piè di pagina viene visualizzato in linea con il contenuto. Tuttavia, quando si passa alla modalità Anteprima o si pubblica il documento, la nota a piè di pagina viene visualizzata alla fine dell&#39;argomento.
+
 
 **Rinominare o sostituire un elemento**
 

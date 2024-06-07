@@ -4,9 +4,9 @@ description: Crea e gestisci le linee di base dall’editor web nelle guide AEM.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Le guide AEM forniscono la funzione Baseline integrata nell’editor web che con
 
    ![Creare una baseline](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Seleziona etichette**: se per gli argomenti sono state specificate etichette, utilizzare **Seleziona etichette** menu a discesa per scegliere [etichette elencate](#labels-list).
+   - **Etichette**: se per gli argomenti sono state specificate etichette, utilizzare **Etichette** menu a discesa per scegliere [etichette elencate](#labels-list).
 Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
+
+     >[!NOTE]
+     >
+     >Quando le etichette vengono estratte, viene visualizzato un caricatore e il menu a discesa è disattivato.
 
      Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se hai creato le etichette   `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell’Argomento A ed etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell’argomento B . È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, puoi visualizzare  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, e `Label Release B.1.1` nel menu a discesa delle etichette della baseline dinamica.
 

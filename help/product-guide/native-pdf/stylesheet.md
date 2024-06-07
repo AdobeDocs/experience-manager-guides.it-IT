@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -131,16 +131,16 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
    | h1 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
    |  | Formato | `Capter <x>:` |  |
    |  | Larghezza prefisso | 160 px |  |
-   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   |  | Font > Allineamento testo | Sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
    | h2 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
    |  | Formato | `Section <x>:` |  |
    |  | Larghezza prefisso | 125 px |  |
-   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   |  | Font > Allineamento testo | Sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
    | h3 | Stile | Decimale | Queste proprietà si trovano nella categoria Numerazione automatica |
    |  | Inserisci livello | 2 |  |
    |  | Formato | `Section <2>.<x>:` |  |
    |  | Larghezza prefisso | 125 px |  |
-   |  | Font > Allineamento testo | A sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
+   |  | Font > Allineamento testo | Sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
    |  |
 
    <img src="./assets/auto-number-output.png" width="500">
@@ -374,3 +374,63 @@ Nell’esempio seguente verrà creato il titolo di una nuova finestra (`wintitle
 La schermata seguente mostra lo stile wintitle applicato al testo &quot;Controllo primario&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Definire uno stile univoco per il layout di una singola pagina
+
+Durante la pubblicazione dell’output di PDF nativo, tutti gli stili vengono uniti nel PDF finale ed è fondamentale assegnare uno stile univoco a ciascun modello all’interno del CSS.
+Utilizza nomi di stile CSS distinti per applicare font e stili specifici a sezioni diverse di un PDF. Ad esempio, puoi definire il font desiderato per il frontespizio utilizzando il seguente CSS.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+Il resto del documento utilizzerà il font predefinito specificato per il tag body in `content.css` o `layout.css`. In questo modo gli stili non verranno uniti e ogni sezione manterrà il design previsto. Se si desidera utilizzare tipi di carattere di dimensioni diverse, creare stili specifici per tali caratteri.
+
+Ad esempio, è possibile definire i seguenti stili per definire la dimensione del carattere 18 nei paragrafi del frontespizio e la dimensione del carattere 11 pt per il frontespizio posteriore:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+Nell&#39;esempio precedente, &quot;Front&quot; e &quot;Back&quot; sono i nomi di esempio dei file di layout che è possibile utilizzare nei modelli.
+
+
+## Definire uno stile CSS personalizzato per il contenuto di prefissi e suffissi
+
+Se definisci gli stili CSS personalizzati, viene data loro la prima precedenza durante la generazione dell’output di PDF nativo.
+Il seguente stile CSS predefinito nasconde sia il contenuto del prefisso che quello del suffisso.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Per consentire questi prefissi all&#39;interno di `<note>` , includi il seguente CSS nel file `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+Il `<note>` genera un&#39;ulteriore `<span>` con il prefisso-contenuto della classe corrispondente al relativo attributo type. Questa regola CSS esegue il targeting del `.prefix-content` classe entro `<note>` elementi con un attributo type, che consente di formattare o modificare il contenuto del prefisso in base alle esigenze.
+

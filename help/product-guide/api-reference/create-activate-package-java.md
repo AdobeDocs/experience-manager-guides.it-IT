@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ Il `activate` Il metodo crea un pacchetto CRX nell’istanza di authoring e lo r
 >
 > Gli errori riscontrati durante il processo di creazione o attivazione vengono scritti nel `outputstream`.
 
+### Esempio con due parametri
+
 **Sintassi**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`json`Stringa|Stringa JSON che determina il pacchetto CRX da generare. Utilizza il seguente formato per creare la stringa JSON: <br>- `activate`: è di tipo booleano \(`true`/`false`\). Determina se il pacchetto CRX creato nell’istanza di authoring viene replicato nell’istanza di pubblicazione. <br> - `rules`: è di tipo array JSON. Un array di regole JSON che vengono elaborate in sequenza per generare il pacchetto CRX. <br> - `rootPath`: è di tipo String. Percorso di base su cui vengono eseguite le query nodo/proprietà. Se non sono presenti query nodo/proprietà, il percorso radice e tutti i nodi presenti nel percorso radice vengono inclusi nel pacchetto CRX. <br> - `nodeQueries`: è di tipo Regex Array. Array di espressioni regolari utilizzate per includere file specifici nel percorso principale. <br> - `propertyQueries`: è di tipo array JSON. Array di oggetti JSON con ogni oggetto JSON costituito da una query XPath da eseguire sul percorso principale e dal nome di una proprietà presente in ogni nodo JCR dopo l’esecuzione della query. Il valore della proprietà in ciascun nodo JCR deve essere un percorso o un array di percorsi. I percorsi presenti in questa proprietà vengono aggiunti al pacchetto CRX.| |`outputstream`|java.io.OutputStream|Viene utilizzato per scrivere il risultato di varie fasi, come l’esecuzione di query, l’inclusione di file, la creazione di pacchetti CRX o l’attivazione. Eventuali errori riscontrati durante il processo di creazione o attivazione vengono scritti nel `outputstream`. Questa opzione è utile per il debug.| |`session`|Stringa|Sessione JCR valida con autorizzazione di attivazione.|
+### Esempio con terzo parametro opzionale
 
-**Eccezione**: proiezioni ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`json`Stringa|Stringa JSON che determina il pacchetto CRX da generare. Utilizza il seguente formato per creare la stringa JSON: <br>- `activate`: è di tipo booleano \(`true`/`false`\). Determina se il pacchetto CRX creato nell’istanza di authoring viene replicato nell’istanza di pubblicazione. <br> - `rules`: è di tipo array JSON. Un array di regole JSON, elaborate in sequenza per generare il pacchetto CRX. <br> - `rootPath`: è di tipo String. Percorso di base su cui vengono eseguite le query nodo/proprietà. Se non sono presenti query nodo/proprietà, il percorso radice e tutti i nodi presenti nel percorso radice vengono inclusi nel pacchetto CRX. <br> - `nodeQueries`: è di tipo Regex Array. Array di espressioni regolari utilizzate per includere file specifici nel percorso principale. <br> - `propertyQueries`: è di tipo array JSON. Array di oggetti JSON con ogni oggetto JSON costituito da una query XPath da eseguire sul percorso principale e dal nome di una proprietà presente in ogni nodo JCR dopo l’esecuzione della query. Il valore della proprietà in ciascun nodo JCR deve essere un percorso o un array di percorsi. I percorsi presenti in questa proprietà vengono aggiunti al pacchetto CRX.| |`outputstream`|java.io.OutputStream|Viene utilizzato per scrivere il risultato di varie fasi, come l’esecuzione di query, l’inclusione di file, la creazione di pacchetti CRX o l’attivazione. Eventuali errori riscontrati durante il processo di creazione o attivazione vengono scritti nel `outputstream`. Questa opzione è utile per il debug.| |`session`|Stringa|Sessione JCR valida con autorizzazione di attivazione.| |`activationTarget`|Stringa|(*Facoltativo*) `preview` o `publish` per il Cloud Service e `publish` per il software on-premise <br> - Ad Cloud Service, se il parametro contiene un valore non valido, l’attivazione del pacchetto non riesce. <br> - Per il software on-premise, se il parametro contiene un valore non valido, l&#39;errore viene registrato e la pubblicazione viene eseguita utilizzando il valore predefinito, `publish`. |
+
+**Eccezione**:
+
+Getti `java.io.IOException` e `java.io.IllegalArgumentException`
+
+
+Se non definite il parametro opzionale, `activationTarget`, si attiva utilizzando l’agente di pubblicazione predefinito sia per il software di Cloud Service che per quello on-premise.
+
 
 **Esempio**: l’esempio seguente mostra come creare una query JSON:
 

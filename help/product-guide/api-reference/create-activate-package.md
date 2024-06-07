@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **Valori validi**
 
-`preview` oppure `publish` per Cloud Service e `publish` per On-Premise Software
+`preview` oppure `publish` per Cloud Service e `publish` per software on-premise
 
-Se il parametro contiene un valore non valido, l&#39;attivazione del pacchetto non riesce. L&#39;esempio seguente mostra la chiamata API utilizzando il comando curl con parametro opzionale:
+- Ad Cloud Service, se il parametro contiene un valore non valido, l&#39;attivazione del pacchetto non riesce.
+
+- Per il software locale, se il parametro contiene un valore non valido, l&#39;errore viene registrato e la pubblicazione viene eseguita utilizzando il valore predefinito, `publish`.
+
+Se non si definisce il parametro facoltativo, `activationTarget`, viene attivato utilizzando l&#39;agente pubblicare predefinito sia per il software Cloud Service che per il software locale.
+
+
+
+L&#39;esempio seguente mostra la chiamata API utilizzando il comando curl con parametro opzionale:
 
 
     &#39;&#39;&#39;XML

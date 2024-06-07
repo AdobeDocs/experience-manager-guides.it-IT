@@ -1,26 +1,97 @@
 ---
 title: Funzione di pubblicazione nativa di PDF | Aggiungi codice a barre
 description: Scopri come aggiungere codici a barre.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
+
 # Aggiungere un codice a barre all&#39;output PDF
 
-I codici a barre sono utili per includere informazioni che possono essere facilmente elaborate dalle macchine. Allo stesso modo, i codici QR vengono utilizzati per i collegamenti che i lettori possono aprire con i propri dispositivi mobili.
+Un codice a barre è un pattern di dati che le macchine possono leggere. I clienti possono scansionare i codici a barre con uno scanner o una fotocamera per smartphone. Può essere utile codificare informazioni quali dettagli di prodotto, numeri di inventario o URL di siti web. L’aggiunta di codici a barre consente di acquisire facilmente i dati, migliora l’esperienza del cliente e facilita una migliore gestione e sicurezza dei dati.
 
-Questo tutorial ti aiuta ad aggiungere codici a barre sopra ogni pagina nell’output di PDF.
+È possibile creare uno stile per il codice a barre. e utilizzarlo per inserire un codice a barre in un layout di pagina. Puoi applicare lo stile a un codice a barre di esempio nel layout di pagina desiderato.
+
+
+Questa esercitazione consente di aggiungere codici a barre nell&#39;output di PDF.
 
 ## Passaggi per generare un codice a barre
 
 Per generare un codice a barre, effettuare le seguenti operazioni:
 
-### Aggiungere un ID risorsa alla mappa DITA
+### Aggiornare il CSS del modello per eseguire il rendering di un valore di codice a barre
 
-Aggiungere un elemento ID risorsa alla mappa DITA. L’ID risorsa funge da input principale per generare il codice a barre.
+Modifica il `layout.css` per eseguire il rendering di un codice a barre durante la generazione di PDF. Sono supportati vari tipi di codice a barre come &quot;qrcode&quot; e &quot;pdf417&quot;.  Per ulteriori dettagli, vedi [Tipi di codice a barre](#barcode-types).
+
+
+
+```css
+...
+.barcode { 
+-ro-replacedelement: barcode;   
+-ro-barcode-type: code128;   
+-ro-barcode-size: 100%;   
+-ro-barcode-content: content();   
+object-fit: contain;   
+margin-top: 2mm;
+ 
+}
+...
+```
+
+### Usa lo stile CSS per generare il codice a barre
+
+Puoi generare il codice a barre in diversi modi. Alcuni esempi sono i seguenti:
+
+**Esempio 1**
+
+Aggiungi un segnaposto per codice a barre nell’intestazione del modello e applica lo stile:
+
+1. Modifica **Modelli** > **Layout di pagina**
+1. Seleziona un layout di pagina. Ad esempio, è possibile selezionare il layout di pagina BackCover contenente l&#39;intestazione o il piè di pagina.
+1. Aggiungere l&#39;estensione seguente alla posizione in cui si desidera inserire il codice a barre.
+
+   `<span class="barcode">Sample barcode</span></p>`.
+
+   >[!NOTE]
+   >
+   > Utilizza lo stesso nome di classe definito in `layout.css`.
+
+1. Sostituisci `<Sample barcode>` con il valore che si desidera venga letto dallo scanner del codice a barre.
+
+Puoi visualizzare il codice a barre durante la generazione del PDF di output utilizzando il modello, che include il layout della pagina. Dopo aver eseguito i passaggi precedenti, puoi generare l’output PDF con un codice a barre.
+
+La schermata seguente mostra un codice a barre di esempio in un output PDF.
+
+<img src="./assets/barcode-output-sample.png" alt="Output di esempio con codice a barre" width="700" border="2px">
+
+**Esempio 2**
+
+Modifica il `Common.plt` file in **Base** modello per aggiungere un codice a barre dopo il titolo del progetto.
+
+Per creare un codice a barre per un numero ISBN, aggiungere un numero ISBN. Quindi utilizza il numero ISBN per generare il codice a barre.
+
+```html
+...
+
+  <div data-region="header">
+    <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
+    <p><span class="barcode">978-1-56619-909-4</span></p>
+  </div>
+} 
+...
+```
+
+**Esempio 3**
+
+Per creare un codice a barre utilizzando i metadati della mappa:
+
+Utilizza eventuali metadati presenti in `<topicmeta>` elemento di una mappa DITA da visualizzare come codice a barre. Assicurarsi di utilizzare l&#39;XPath corretto. Ad esempio, puoi aggiungere una `<resourceid>` nel `<topicmeta>` di una mappa DITA.
+
+Nell’esempio seguente, l’ID risorsa funge da input principale per generare il codice a barre.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,76 +107,55 @@ Aggiungere un elemento ID risorsa alla mappa DITA. L’ID risorsa funge da input
 </map>  
 ```
 
-Puoi anche modificare l’ID risorsa nella modalità Authoring.
-
-<img src="./assets/barcode-map.png" alt="Output di esempio con codice a barre" width="700" border="2px solid blue">
 
 
-### Aggiungi un segnaposto per codice a barre nell’intestazione del modello
+Puoi utilizzare l’ID risorsa in un layout di pagina come segue:
 
-Modifica il `Common.plt` file in **Base** modello per aggiungere un codice a barre dopo il titolo del progetto.
 
 ```html
-...
   <div data-region="header">
     <p class="chapter-header"><span data-field="project-title" data-format="default">Project Title</span> </p>
     <p><span class="barcode" data-field="metadata" data-format="default" data-subtype="//resourceid/@id">Resource ID (barcode)</span></p>
   </div>
 } 
-...
 ```
-
-
-### Aggiornare il CSS del modello per eseguire il rendering di un valore di codice a barre
-
-Modifica il `content.css` per eseguire il rendering di un codice a barre durante la generazione di PDF. Sono supportati vari tipi di codice a barre come &quot;qrcode&quot; e &quot;pdf417&quot;.  Per ulteriori dettagli, consulta [Tipi di codice a barre](#barcode-types).
-
-
-
-```css
-...
-.barcode {
-  -ro-replacedelement: barcode;
-  -ro-barcode-type: code128;
-}
-...
-```
-
-Dopo aver eseguito i passaggi precedenti, puoi generare l’output PDF con un codice a barre.
-
-La schermata seguente mostra un codice a barre di esempio in un output PDF.
-
-<img src="./assets/barcode-output-sample.png" alt="Output di esempio con codice a barre" width="700">
-
 
 ## Tipi di codice a barre {#barcode-types}
 
-| Tipo | Attributo CSS | Attributi aggiuntivi |
-| ------------------------------- | ----------------------- | -------------------------- |
-| Codice QR | qrcode |                            |
-| PDF 417 | pdf417 |                            |
-| DataMatrix | data-matrix |                            |
-| Codice Aztec | codice azteco |                            |
-| Matrice griglia | griglia a matrice |                            |
-| Maxicode | modalità maxicode 4 |                            |
-| Micro QR | microqr |                            |
-| Codice uno | code-one |                            |
-| Blocco codice F | codablockf |                            |
-| GS1 Databar Limited | databar-limited |                            |
-| Databar GS1 omnidirezionale | databar omnidirezionale |                            |
-| EAN-13 | ean-13 |                            |
-| GS1-128 (EAN-128) | code128 | -codifica ro-barcode-encoding: gs1; |
-| ITF-14 | itf14 |                            |
-| UPC-A | upc-a |                            |
-| Codice 128 | code128 |                            |
-| Interfoliazione 2 di 5 | code2of5 interleaved |                            |
-| POSTNET | postnet |                            |
-| Codice postale olandese | kixcode |                            |
-| Post Corea | korea-post |                            |
-| Codice postale Deutsche Post | dp-leitcode |                            |
-| Post Australia | auspost |                            |
-| Logmars | logmars |                            |
+Alcuni dei codici a barre comunemente utilizzati sono i seguenti:
+
+| Tipo | -ro-tipo-codice a barre | Dettagli aggiuntivi |
+| ---| --- | --- |
+| Codice QR | qrcode | La simbologia del codice a barre del QR secondo ISO/IEC 18004:2015. |
+| Codice 128 | code128 | La simbologia del codice a barre del codice 128 come definita nella norma ISO/IEC 15417:2007. |
+| Codice 32 | code32 | Codice 32, noto anche come codice harmacode italiano. |
+| Codice 49 | code49 | Codice 49 in conformità con ANSI/AIM-BC6-2000. |
+| Codice 11 | code11 |                            |
+| Codice 93 | code93 |                            |
+| Codice16k | code16k |                            |
+| PDF 417 | pdf417 | Le simbologie dei codici a barre PDF417/MicroPDF417 sono conformi alle norme ISO/IEC 15438:2006 e ISO/IEC 24728:2006. |
+| Codice 3 di 9 | code39 | Il codice 3 di 9 simboli di codici a barre conformemente alla norma ISO/IEC 16388:2007. |
+| MSI Plessey | sciocco |                            |
+| Codice canale | channelcode | Codice di canale secondo ANSI/AIM BC12-1998. |
+| Codabar | codabar | Simbologia del codice a barre di Codabar secondo BS EN 798:1996. |
+| EAN-8 | ean-8 | Simbologia del codice a barre EAN secondo BS EN 797:1996. |
+| EAN-13 | ean-13 | Simbologia del codice a barre EAN secondo BS EN 797:1996. |
+| UPC-A | upc-a | Simbologia del codice a barre UPC secondo BS EN 797:1996. |
+| UPC-E | upc-e | Simbologia del codice a barre UPC secondo BS EN 797:1996. |
+| Componente aggiuntivo Ean/UPC | addon | Simbologia del codice a barre del componente aggiuntivo EAN/UPC in base alla norma BS EN 797:1996. |
+| Telepen | telepene | Noto anche come Alpha Telepen. |
+| Databar GS1/Databar 14 | databar | GS1 DataBar in conformità alla norma ISO/IEC 24724:2011. |
+| GS1 Databar Expanded/Databar 14 Expanded | database espanso | Barra dei dati GS1 espansa in conformità alla norma ISO/IEC 24724:2011. |
+| GS1 Databar Limited | databar-limited | GS1 DataBar Limited in conformità alla norma ISO/IEC 24724:2011. |
+| POSTNET (tecnica di codifica numerica postale) | postnet | La simbologia del codice a barre POSTNET (Postal Numeric Encoding Technique) utilizzata dal servizio postale degli Stati Uniti. |
+| Farmazentralnummer (PZN-8) | pzn8 | Simbologia basata sul Codice 39 utilizzata dall&#39;industria farmaceutica in Germania. |
 | Codice Farmacologico | codice farmacologico |                            |
-| USPS OneCode (posta intelligente) | usps-onecode |                            |
+| Blocco codice F | codablockf | Simbologia secondo AIM Europe &quot;Uniform Symbology Specification Codablock F&quot;, 1995. |
+| Logmars | logmars | Lo standard LOGMARS (Logistics Applications of Automated Marking and Reading Symbols) utilizzato dal Dipartimento della Difesa degli Stati Uniti. |
+| Aztec Runes | rune azteche | Simbologia del codice a barre Aztec Runes in conformità alla norma ISO/IEC 24778:2008, allegato A. |
+| Codice Aztec | codice azteco | Codice azteco: simbologia dei codici a barre in base alla norma ISO/IEC 24778:2008. |                            |
+| DataMatrix | data-matrix | Simbologia del codice a barre ECC 200 Data Matrix secondo ISO/IEC 16022:2006. |
+| Codice uno | code-one |                            |
+
 
 
