@@ -1,9 +1,10 @@
 ---
-title: Configurazione della pubblicazione basata su Microsoft con autenticazione OAuth per guide AEM as a Cloud Service
-description: Scopri come configurare la pubblicazione basata su microservizi con l’autenticazione OAuth per le guide AEM.
+title: Configurare la pubblicazione basata su Microsoft con l’autenticazione OAuth per AEM Guides as a Cloud Service
+description: Scopri come configurare la pubblicazione basata su microservizi con l’autenticazione OAuth per AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,34 +13,34 @@ ht-degree: 0%
 
 # Configurare la pubblicazione basata su microservizi con autenticazione OAuth
 
-Il microservizio di pubblicazione consente di eseguire contemporaneamente carichi di lavoro di pubblicazione di grandi dimensioni su Experience Manager Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
+Il microservizio di pubblicazione consente di eseguire carichi di lavoro di pubblicazione di grandi dimensioni contemporaneamente su Experience Manager Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
 
 Per ogni richiesta di pubblicazione, Experience Manager Guides as a Cloud Service esegue un contenitore separato che viene ridimensionato orizzontalmente in base alle richieste dell’utente. In questo modo è possibile eseguire più richieste di pubblicazione e ottenere prestazioni migliori rispetto ai server Adobe Experience Manager on-premise di grandi dimensioni.
 
 >[!NOTE]
 >
-> La pubblicazione basata su microservizi in Experience Manager Guides supporta i tipi di predefiniti di output PDF (sia nativi che DITA-OT), HTML5, JSON e CUSTOM.
+> La pubblicazione basata su microservizi in Experience Manager Guides supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
 
 Poiché il servizio di pubblicazione cloud è protetto dall’autenticazione basata su Adobe IMS OAuth, effettua le seguenti operazioni per integrare i propri ambienti con i flussi di lavoro di autenticazione basata su token sicuri di Adobe e inizia a utilizzare la soluzione di pubblicazione scalabile basata su cloud.
 
 
-## Creare configurazioni IMS nella console di Adobe Developer
+## Creare configurazioni IMS in Adobe Developer Console
 
 **Ruolo richiesto per creare le configurazioni**: Amministratore di sistema
 
-Per creare configurazioni IMS in, effettua le seguenti operazioni **Console Adobe Developer**:
+Per creare configurazioni IMS in, effettua le seguenti operazioni **Adobe Developer Console**:
 
 >[!NOTE]
 >
 >Se hai già creato un progetto OAuth per configurare i suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring, puoi saltare i seguenti passaggi per creare il progetto.
 
-1. Apri **Console per sviluppatori**: `https://developer.adobe.com/console`.
+1. Apri **Developer Console**: `https://developer.adobe.com/console`.
 
 1. Passa a **Progetti** dall’alto.
 
    <img src="assets/projects-tab.png" alt="scheda progetti" width="500">
 
-   *Seleziona la **Progetti**scheda della **Console Adobe Developer***
+   *Seleziona la **Progetti**scheda della **Adobe Developer Console***
 
 1. Per creare un nuovo progetto vuoto, seleziona **Progetto vuoto** dal **Crea nuovo progetto** a discesa.
 
@@ -127,7 +128,7 @@ Per utilizzare un microservizio di pubblicazione per la prima volta, aggiorna le
 >
 > Se utilizzi già la pubblicazione basata su microservizi, ignora i passaggi seguenti:
 
-Dopo aver aggiunto la configurazione IMS all’ambiente, esegui i seguenti passaggi per collegare queste proprietà con Experience Manager Guides utilizzando OSGi:
+Dopo aver aggiunto la configurazione IMS all’ambiente, esegui i seguenti passaggi per collegare queste proprietà a Experience Manager Guides utilizzando OSGi:
 
 1. Nel codice del progetto Git di Cloud Manager, aggiungi i due file seguenti (per il contenuto dei file, visualizza [Appendice](#appendix)).
 
