@@ -2,11 +2,11 @@
 title: Configurare la pubblicazione basata su Microsoft con l’autenticazione OAuth per AEM Guides as a Cloud Service
 description: Scopri come configurare la pubblicazione basata su microservizi con l’autenticazione OAuth per AEM Guides.
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Hai configurato i dettagli di autenticazione OAuth e scaricato i dettagli del se
 >
 >Se hai già creato un progetto OAuth per suggerimenti avanzati, puoi riutilizzare lo stesso progetto per i microservizi e saltare i passaggi seguenti per aggiungere la configurazione IMS all’ambiente.
 
-### Aggiorna configurazione esistente
+### Aggiorna configurazione esistente (JWT in spostamento OAuth )
 
 Se utilizzi già un microservizio per la pubblicazione tramite JWT (obsoleto), effettua le seguenti operazioni per aggiornare le configurazioni:
 
@@ -114,7 +114,7 @@ Per utilizzare un microservizio di pubblicazione per la prima volta, aggiorna le
 1. Seleziona il nome dell’ambiente da configurare. Dovresti passare alla sezione **Informazioni sull&#39;ambiente** pagina.
 1. Passa a **Configurazione** scheda.
 
-1. Aggiornare il campo JSON SERVICE_ACCOUNT_DETAILS. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
+1. Creare una nuova configurazione denominata SERVICE_ACCOUNT_DETAILS. In valore, aggiungi il contenuto del file JSON OAuth scaricato dalla console per sviluppatori.
 
 
 <img src="assets/jws-service-account-config.png" alt="configurazione dell’account del servizio ims" width="500">
@@ -122,7 +122,7 @@ Per utilizzare un microservizio di pubblicazione per la prima volta, aggiorna le
 *Configura l’ambiente per la prima volta.*
 
 
-### Utilizzare la pubblicazione basata su microservizi per la prima volta
+### Modifiche al primo codice temporale per l’abilitazione della pubblicazione basata su microservizi
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Per utilizzare un microservizio di pubblicazione per la prima volta, aggiorna le
 
 Dopo aver aggiunto la configurazione IMS all’ambiente, esegui i seguenti passaggi per collegare queste proprietà a Experience Manager Guides utilizzando OSGi:
 
-1. Nel codice del progetto Git di Cloud Manager, aggiungi i due file seguenti (per il contenuto dei file, visualizza [Appendice](#appendix)).
+1. Nel codice del progetto Git di Cloud Manager, aggiungi i due file seguenti in `/apps/fmditaCustom/config` (per i contenuti dei file, visualizzare [Appendice](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
