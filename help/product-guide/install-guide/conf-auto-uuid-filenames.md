@@ -26,9 +26,9 @@ Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi f
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* pacchetto.
+1. Cerca e fai clic sul bundle *com.adobe.fmdita.xmleditor.config.XmlEditorConfig*.
 
-1. Seleziona la **Usa nomi file di sistema basati su UUID** opzione.
+1. Selezionare l&#39;opzione **Usa nomi file di sistema basati su UUID**.
 
 1. Fai clic su **Salva**.
 

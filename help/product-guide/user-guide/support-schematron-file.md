@@ -1,6 +1,6 @@
 ---
 title: Supporto per i file Schematron
-description: Scopri come importare e convalidare un argomento DITA, utilizzare le istruzioni di asserzione dei rapporti per verificare la presenza di regole, utilizzare espressioni regex e definire pattern astratti nei file Schematron delle guide AEM.
+description: Scopri come importare e convalidare un argomento DITA, utilizzare le istruzioni di asserzione dei rapporti per verificare la presenza di regole, utilizzare espressioni regex e definire pattern astratti nei file Schematron di AEM Guides.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ Per importare i file Schematron, effettuate le seguenti operazioni:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Passa alla cartella desiderata (dove desideri caricare i file) in *Vista archivio*.
-1. Fai clic su **Opzioni** per aprire il menu di scelta rapida e scegliere **Carica risorse**.
-1. In **Carica risorse** , è possibile modificare la cartella di destinazione in **Seleziona cartella risorse** campo.
-1. Clic **Scegli file** e sfogliate per selezionare i file Schematron. È possibile selezionare uno o più file Schematron, quindi fare clic su **Carica**.
+1. Passare alla cartella desiderata (in cui si desidera caricare i file) in *Visualizzazione archivio*.
+1. Fai clic sull&#39;icona **Opzioni** per aprire il menu di scelta rapida e scegli **Carica Assets**.
+1. Nella finestra di dialogo **Carica Assets**, puoi modificare la cartella di destinazione nel campo **Seleziona cartella risorse**.
+1. Fare clic su **Scegli file** e selezionare i file Schematron. È possibile selezionare uno o più file Schematron e quindi fare clic su **Carica**.
 
 ## Convalidare un argomento o una mappa DITA con Schematron
 
@@ -59,7 +59,7 @@ Il supporto Schematron nell&#39;Editor Web consente di convalidare i file in bas
 
 ## Utilizzare le istruzioni di asserzione e di report per verificare la presenza di regole{#schematron-assert-report}
 
-Le guide dell’AEM supportano anche le dichiarazioni di asserzione e di relazione in Schematron. Queste istruzioni consentono di convalidare gli argomenti DITA.
+AEM Guides supporta anche le istruzioni di asserzione e di rapporto in Schematron. Queste istruzioni consentono di convalidare gli argomenti DITA.
 
 ### Dichiarazione asserzione
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## Definire pattern astratti{#schematron-abstract-patterns}
 
-Le guide AEM supportano anche i modelli astratti in Schematron. È possibile definire pattern astratti generici riutilizzandoli.  Potete creare parametri segnaposto che specificano il pattern effettivo.
+AEM Guides supporta anche i modelli astratti in Schematron. È possibile definire pattern astratti generici riutilizzandoli.  Potete creare parametri segnaposto che specificano il pattern effettivo.
 
 
 L’utilizzo di modelli astratti può semplificare lo schema Schematron riducendo la duplicazione delle regole e semplificando la gestione e l’aggiornamento della logica di convalida. Può inoltre semplificare la comprensione dello schema, in quanto consente di definire logiche di convalida complesse in un unico modello astratto che può essere riutilizzato in tutto lo schema.

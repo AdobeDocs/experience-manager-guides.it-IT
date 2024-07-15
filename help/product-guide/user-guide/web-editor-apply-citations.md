@@ -1,6 +1,6 @@
 ---
 title: Aggiungere e gestire le citazioni nel contenuto
-description: Aggiungi e gestisci le citazioni nelle guide AEM. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
+description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
@@ -15,56 +15,56 @@ ht-degree: 0%
 
 Le citazioni sono riferimenti all’origine delle informazioni aggiunte al contenuto. Utilizzando le citazioni, è possibile accreditare gli autori delle informazioni di origine e aiutare i lettori a completare le informazioni di origine. L’aggiunta di citazioni rende il contenuto più affidabile e impedisce il plagio. Consentono inoltre di visualizzare contenuti di alta qualità.
 
-Nelle guide AEM, puoi aggiungere e importare citazioni e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
+In AEM Guides, puoi aggiungere e importare citazioni e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
 
 
-Le guide AEM consentono di modificare, visualizzare in anteprima e ordinare le citazioni. Dopo aver aggiunto le citazioni nel contenuto, puoi generare l’output utilizzando Native PDF. Puoi anche aggiungere la bibliografia o la pagina dei riferimenti nell’output di Native PDF.
+AEM Guides consente di modificare, visualizzare in anteprima e ordinare le citazioni. Dopo aver aggiunto le citazioni nel contenuto, puoi generare l’output utilizzando Native PDF. Puoi anche aggiungere la bibliografia o la pagina dei riferimenti nell’output di Native PDF.
 
-Le guide AEM supportano diversi stili di citazioni, come Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). La raccomandazione è di utilizzarli in modo chiaro e coerente.
+AEM Guides supporta più stili di citazioni, come Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). La raccomandazione è di utilizzarli in modo chiaro e coerente.
 
 
 >[!NOTE]
 >
->Attualmente le guide AEM supportano solo il PDF nativo per le citazioni.
+>Attualmente AEM Guides supporta solo il PDF nativo per le citazioni.
 
 
 ## Aggiungi citazioni
 
 Per aggiungere le citazioni, effettua le seguenti operazioni:
 
-1. Seleziona la **Citazioni** ![icona citazioni](images/citations-icon.svg) nel pannello a sinistra.
-Il **Citazioni** viene visualizzato il pannello.
+1. Seleziona l&#39;icona **Citazioni** ![icona citazioni](images/citations-icon.svg) nel pannello a sinistra.
+Viene aperto il pannello **Citazioni**.
 
    ![](images/citation-panel.png){width="300" align="left"}
 
-1. In **Citazioni** pannello, seleziona ![Icona Aggiungi](images/Add_icon.svg). Dal menu a discesa puoi scegliere di aggiungere una nuova citazione o di importarne una.
+1. Nel pannello **Citazioni**, seleziona ![Aggiungi icona](images/Add_icon.svg). Dal menu a discesa puoi scegliere di aggiungere una nuova citazione o di importarne una.
 
-1. Seleziona **Nuova citazione** per aggiungere una nuova citazione.
-Il **Aggiungi citazione** viene visualizzata.
+1. Selezionare **Nuova citazione** per aggiungere una nuova citazione.
+Viene visualizzata la finestra di dialogo **Aggiungi citazione**.
 
-   ![pannello citazioni nell’editor web](images/citation-add.png) {width="300" align="left"}
+   ![pannello citazioni nell&#39;editor Web](images/citation-add.png) {width="300" align="left"}
 
 
-1. Compila i campi nel **Aggiungi citazione** .
+1. Compila i campi nella finestra di dialogo **Aggiungi citazione**.
 
    >[!NOTE]
    >
-   >Puoi anche aggiungere l’ID ISBN, DOI o PubMed. Le guide AEM compilano automaticamente gli altri campi.
+   >Puoi anche aggiungere l’ID ISBN, DOI o PubMed. AEM Guides compila automaticamente gli altri campi.
 
    | Libro | Sito Web | Diario |
    | --- | ---|---|
-   | **Sorgente** <br> Dall’elenco a discesa, seleziona l’origine della citazione come Libro. | **Sorgente**<br> Dall’elenco a discesa, seleziona l’origine della citazione come sito web. | **Sorgente** <br> Dall&#39;elenco a discesa, selezionare l&#39;origine della citazione come diario. |
-   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dall’elenco a discesa, per cercare l’ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore numerico univoco del registro | **Cerca per** <br> Seleziona **DOI** dall’elenco a discesa, per cercare l’ID digitale collegato alla citazione. | **Cerca per** <br> Seleziona **DOI** o PubMed ID dal menu a discesa per cercare l’ID digitale collegato alla citazione. <br>  <br> |
-   | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Seleziona ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Seleziona ![](images/Add_icon.svg)  per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Seleziona ![](images/Add_icon.svg)per aggiungere altri nomi. |
-   | **Titolo** <br> Aggiungi il titolo del libro. | **Titolo** <br> Aggiungi il titolo della pagina web. | **Titolo** <br> Aggiungi il titolo dell’articolo. |
-   | **Editor** <br> Aggiungi l&#39;editore del libro. | **Nome sito Web** <br> Aggiungi il nome del sito web. | **Titolo diario** <br> Aggiungi il titolo dell’opera in cui si trova l’articolo. |
-   | **Edizione** <br> Aggiungi l&#39;edizione del libro. | **URL** <br> Aggiungi il collegamento web del sito web per sfogliare il contenuto. | **Anno** <br> Aggiungi l’anno in cui viene pubblicato l’articolo. |
-   | **Città** <br> Aggiungi la città della pubblicazione. | **Data di accesso**<br> Aggiungi la data in cui è possibile accedere al contenuto del sito web. | **Volume** <br> Aggiungere il volume del lavoro della serie. |
-   | **Editore** <br> Aggiungi il nome dell’editore del libro. | **Data pubblicazione** <br> Aggiungi la data di pubblicazione del contenuto del sito web. | **Numero** <br> Aggiungere il numero del volume all&#39;interno della serie. |
-   | **Anno** <br> Aggiungi l’anno in cui viene pubblicato il libro. | **Data aggiornamento** <br> Aggiungi la data in cui il contenuto del sito web viene aggiornato. | **Pagine** <br> Aggiungi il numero di pagina o l’intervallo di pagine in cui si trova l’articolo. |
-   | **Versione** <br> Aggiungi la versione del libro. | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. | **URL** <br>Aggiungi il collegamento web al giornale di registrazione. |
+   | **Source** <br> Dall&#39;elenco a discesa, selezionare l&#39;origine della citazione come registro. | **Source**<br> Selezionare l&#39;origine della citazione come sito Web dall&#39;elenco a discesa. | **Source** <br> Selezionare l&#39;origine della citazione come diario dal menu a discesa. |
+   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore univoco libro numerico | **Cerca per** <br> Seleziona **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione. | **Cerca per** <br> Seleziona **DOI** o ID PubMed dall&#39;elenco a discesa per cercare l&#39;ID digitale collegato alla citazione. <br>  <br> |
+   | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. |
+   | **Titolo** <br> Aggiungi il titolo del libro. | **Titolo** <br> Aggiungi il titolo della pagina Web. | **Titolo** <br> Aggiungi il titolo dell&#39;articolo. |
+   | **Editor** <br> Aggiungi l&#39;editor del libro. | **Nome sito Web** <br> Aggiungere il nome del sito Web. | **Titolo diario** <br> Aggiungi il titolo del lavoro in cui è stato trovato l&#39;articolo. |
+   | **Edizione** <br> Aggiungi l&#39;edizione del libro. | **URL** <br> Aggiungi il collegamento Web del sito Web per sfogliare il contenuto. | **Anno** <br> Aggiungi l&#39;anno di pubblicazione dell&#39;articolo. |
+   | **Città** <br> Aggiungi la città della pubblicazione. | **Data di accesso**<br> Aggiungere la data di accesso al contenuto del sito Web. | **Volume** <br> Aggiungere il volume del lavoro nella serie. |
+   | **Editore** <br> Aggiungere il nome dell&#39;editore del libro. | **Data pubblicazione** <br> Aggiungere la data di pubblicazione del contenuto del sito Web. | **Numero** <br> Aggiungere il numero del volume all&#39;interno della serie. |
+   | **Anno** <br> Aggiungere l&#39;anno di pubblicazione del libro. | **Data aggiornamento** <br> Aggiungere la data di aggiornamento del contenuto del sito Web. | **Pagine** <br> Aggiungi il numero di pagina o l&#39;intervallo di pagine in cui è stato trovato l&#39;articolo. |
+   | **Versione** <br> Aggiungi la versione del libro. | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. | **URL** <br>Aggiungi il collegamento Web al giornale di registrazione. |
    | **Serie** <br>Aggiungi la serie del libro. |  | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco per la citazione. |
-   | **URL**  <br>  Aggiungi il collegamento web al libro. |
+   | **URL** <br> Aggiungi il collegamento Web al registro. |
    | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. |
 
 
@@ -85,9 +85,9 @@ Per importare le citazioni, eseguire la procedura seguente:
 
 1. Nel pannello a sinistra, seleziona **Citazioni** ![icona citazioni](images/citations-icon.svg).
 
-   Il **Citazioni** viene visualizzato il pannello.
+   Viene aperto il pannello **Citazioni**.
 
-1. In **Citazioni** pannello, seleziona ![Icona Aggiungi](images/Add_icon.svg)e quindi selezionare **Importa** dal menu a discesa.
+1. Nel pannello **Citazioni**, seleziona ![Aggiungi icona](images/Add_icon.svg), quindi seleziona **Importa** dal menu a discesa.
 1. Sfoglia un file .bib dal tuo sistema e importalo.
 
    >[!TIP]
@@ -97,8 +97,8 @@ Per importare le citazioni, eseguire la procedura seguente:
    Una volta importato correttamente il file, potete visualizzare i riferimenti nel pannello delle citazioni.
 
    >[!NOTE]
-   > <ol><li> Le guide AEM importano solo le citazioni che sono univoche e non sono già presenti.
-    &gt; <li> Le guide AEM possono importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+   > <ol><li> AEM Guides importa solo le citazioni univoche e non già presenti.
+    &gt; <li> AEM Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
 
 ## Gestire le citazioni
 
@@ -106,28 +106,28 @@ Le citazioni sono ordinate alfabeticamente nel pannello a sinistra. Cercare le c
 
 ### Filtro
 
-Seleziona la **Filtro** ![](images/filter-search-icon.svg) accanto alla barra di ricerca e seleziona le opzioni di origine dal menu a discesa per filtrare l’elenco delle citazioni. Consente selezioni sia singole che multiple.
+Seleziona l&#39;icona **Filtro** ![](images/filter-search-icon.svg) accanto alla barra di ricerca e seleziona le opzioni di origine dal menu a discesa per filtrare l&#39;elenco delle citazioni. Consente selezioni sia singole che multiple.
 
-* **Tutte le origini**: mostra un elenco completo delle citazioni, comprese tutte le sorgenti.
+* **Tutte le origini**: viene visualizzato un elenco completo delle citazioni, incluse tutte le origini.
 
-* **Libro**: mostra l’elenco delle citazioni estratte dai libri.
+* **Libro**: mostra l&#39;elenco delle citazioni provenienti dai libri.
 
-* **Sito Web**: mostra l’elenco delle citazioni provenienti dai siti web.
+* **Sito Web**: mostra l&#39;elenco delle citazioni provenienti dai siti Web.
 
-* **Diario**: mostra l’elenco delle citazioni provenienti dai giornali di registrazione.
+* **Diario**: mostra l&#39;elenco delle citazioni originate dai diari.
 
 ### Ricerca
 
 Cerca il contenuto nella citazione.
 
 1. Nel pannello a sinistra, seleziona Citazioni.
-Il **Citazioni** viene visualizzato il pannello.
+Viene aperto il pannello **Citazioni**.
 
 1. Utilizzare la barra di ricerca per cercare la citazione appropriata da un elenco lungo.
 
 ### Cambia stile citazione {#change-citation-style}
 
-L&#39;amministratore di sistema può modificare lo stile delle citazioni dal **Citazioni**  menu a discesa nella **Impostazioni generali** scheda in **Impostazioni editor**.
+L&#39;amministratore di sistema può modificare lo stile delle citazioni dal menu a discesa **Citazioni** nella scheda **Impostazioni generali** delle **Impostazioni editor**.
 Questi stili determinano il modo in cui le citazioni vengono visualizzate nel riquadro di anteprima o nell&#39;output di Native PDF.
 
 Nel menu a discesa sono disponibili le seguenti opzioni:
@@ -135,18 +135,18 @@ Nel menu a discesa sono disponibili le seguenti opzioni:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Stile associazione lingua moderna <br> | Stile associazione psicologica americana | Manuale di stile di Chicago | Stile dell&#39;Institute for Electrical and Electronics Engineers | Stile American Heart Association |
-| Esempio:<br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*.Edited by Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di ricordi scuri* (505-16 ed.) 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, ecc. *Contenuto emotivo di ricordi scuri*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di ricordi scuri*. Amsterdam, 2010. |
+| Esempio:<br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*.Modificato da Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di memorie oscure* (505-16 ed.). 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*. 505-16, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. |
 
 
 ## Modificare una citazione
 
 Per modificare la citazione, effettuare le seguenti operazioni:
 
-1. Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona  ![](images/options.svg) il **Opzioni** icona.
+1. Passa il puntatore del mouse sul nome della citazione dall’elenco. Selezionare ![](images/options.svg) l&#39;icona **Opzioni**.
 
-1. Seleziona  **Modifica**.
+1. Seleziona **Modifica**.
 
-Il **Modifica citazione** viene visualizzata.
+Viene visualizzata la finestra di dialogo **Modifica citazione**.
 
 1. Apporta le modifiche necessarie. Seleziona **Fine**.
 La citazione selezionata viene modificata.
@@ -159,14 +159,14 @@ La citazione selezionata viene modificata.
 
 Per visualizzare l&#39;anteprima di una citazione, effettuare le seguenti operazioni:
 
-Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona     ![](images/options.svg) **Opzioni** icona.
+Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona     Icona ![](images/options.svg) **Opzioni**.
 
-1. Seleziona **Anteprima**.
+1. Selezionare **Anteprima**.
 È possibile visualizzare in anteprima il contenuto e il formato della citazione nel riquadro di anteprima.
 
    >[!NOTE]
    >
-   >L&#39;anteprima si basa sullo stile di citazione selezionato dall&#39;amministratore nel **Impostazioni editor**.
+   >L&#39;anteprima si basa sullo stile di citazione selezionato dall&#39;amministratore nelle **Impostazioni editor**.
 
 1. Fai clic in un punto qualsiasi dello schermo per chiudere la casella di anteprima.
 
@@ -188,12 +188,12 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Seleziona la **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
-1. In **Citazioni** scegliere la citazione. È inoltre possibile selezionare più citazioni.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
-1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca del **Citazione** .
+1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;argomento.
 
 
@@ -201,17 +201,17 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 
 >[!NOTE]
 > 
->Per visualizzare **Citazioni** dal pannello a sinistra, l’amministratore di sistema deve selezionare l’opzione **Citazioni** opzione in **Pannelli** scheda in **Impostazioni editor**.
+>Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni editor**.
 
 1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
-1. Trascina la citazione da **Citazioni** e rilasciarlo nella posizione appropriata nell’argomento.
+1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
-   Puoi anche selezionare **Inserisci** da  ![](images/options.svg) **Opzioni** per inserire una citazione.
+   È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.
 
    ![inserisci citazioni](images/citation-panel-insert.png)
 1. Per selezionare più citazioni, fare clic con il pulsante destro del mouse su una citazione nell&#39;argomento e selezionare **Modifica citazione** dal menu di scelta rapida.
-1. Selezionare le citazioni che si desidera inserire dalla **Citazione** .
-1. Seleziona **Fine** per aggiungerle all&#39;argomento.
+1. Selezionare le citazioni che si desidera inserire dalla finestra di dialogo **citazione**.
+1. Seleziona **Fine** per aggiungerli all&#39;argomento.
 
 Dopo aver inserito le citazioni nell&#39;argomento, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare i contenuti con le citazioni utilizzando Native PDF.
 
@@ -226,10 +226,10 @@ Dopo aver inserito le citazioni nell&#39;argomento, è possibile visualizzarne l
 Per eliminare una citazione dal pannello Citazioni, effettuate le seguenti operazioni:
 
 1. Passa il puntatore del mouse sul nome della citazione dall’elenco.
-1. Seleziona la ![](images/options.svg) **Opzioni** icona.
+1. Selezionare l&#39;icona ![](images/options.svg) **Opzioni**.
 1. Seleziona la   **Elimina** ![](images/Delete_icon.svg).
 Viene visualizzata la finestra di dialogo di conferma.
-1. Seleziona **Sì**.
+1. Selezionare **Sì**.
 La citazione selezionata viene eliminata dal pannello citazioni.
 
 
@@ -258,10 +258,10 @@ Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto c
 
 Nell’output di PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
 
-Creare un **Citazioni** layout di pagina nei modelli di PDF e includerlo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, vedere [Creare un layout di pagina](../native-pdf/components-pdf-template.md#create-page-layout).
+Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Per modificare la visualizzazione e l&#39;aspetto della pagina della citazione, visualizzare [Personalizzare i modelli di PDF](../native-pdf/pdf-template.md).
+Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](../native-pdf/pdf-template.md).
 
 
 
@@ -269,8 +269,8 @@ Per modificare la visualizzazione e l&#39;aspetto della pagina della citazione, 
 
 Applica la formattazione alla citazione quando viene aggiunta all&#39;argomento.
 
-1. Seleziona **Fogli di stile** nel **Modelli** di un predefinito di output di Native PDF.   Apre il **STILI** che contiene tutte le opzioni di stile.
+1. Selezionare **Fogli di stile** nel pannello **Modelli** di un predefinito di output di Native PDF.   Viene aperto il pannello **STILI** che contiene tutte le opzioni di stile.
 
 1. Nel pannello Ricerca, cerca `<cite>`.
 
-Per ulteriori informazioni sugli stili, vedere [Utilizzare gli stili di contenuto comuni](../native-pdf/stylesheet.md).
+Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](../native-pdf/stylesheet.md).

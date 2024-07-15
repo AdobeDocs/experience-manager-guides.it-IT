@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Configurare la mappa dei libri
 
-Includi `<toc>`  elemento: all’interno della mappa `<frontmatter>`, individuare il `<booklists>` elemento.  Nidifica a `<toc>` elemento all&#39;interno di `<booklists>` così:
+Includi l&#39;elemento `<toc>`:
+All&#39;interno dell&#39;elemento `<frontmatter>` della tua mappa segnalibro, individua l&#39;elemento `<booklists>`.  Nidificare un elemento `<toc>` all&#39;interno di `<booklists>` in questo modo:
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Includi `<toc>`  elemento: all’interno della mappa `<frontmatter>`, individuar
 </frontmatter>
 ```
 
-La specifica DITA consente di inserire il sommario e gli elenchi di libri all&#39;interno del `<backmatter>` sezione.
+La specifica DITA consente di inserire il sommario e gli elenchi di libri anche nella sezione `<backmatter>`.
 
 
 ```
@@ -93,12 +94,12 @@ Se si pubblica Ditamap, Native PDF offre la funzionalità per generare automatic
 ## Risorse aggiuntive :
 
 - [Documentazione del layout della pagina di progettazione nativa di PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sessione Expert preregistrata sulle funzionalità di base di PDF native](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Sessione Expert preregistrata su Native PDF Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Post sulla community dei guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per qualsiasi query.
+Post nella community AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per eventuali query.
 
 
 

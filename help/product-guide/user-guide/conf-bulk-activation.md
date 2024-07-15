@@ -17,13 +17,14 @@ In uno scenario reale, gli autori avrebbero accesso all’istanza di authoring d
 
 >[!NOTE]
 >
-> Per ulteriori dettagli su come impostare l’istanza di authoring e pubblicazione in AEM, vedi [Panoramica dell’architettura di authoring e pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Per ulteriori dettagli su come impostare l&#39;istanza di authoring e pubblicazione in AEM, vedi [Panoramica sull&#39;architettura di Author e Publish](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Con la funzione di attivazione in blocco delle guide AEM, puoi attivare in modo rapido e semplice i contenuti dall’istanza di authoring a quella di pubblicazione. La funzione di attivazione in blocco offre la flessibilità di:
+Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. La funzione di attivazione in blocco offre la flessibilità di:
 
 - Aggiungi una o più mappe \(a una raccolta di mappe\) a una singola attività di attivazione
 
-- Seleziona uno o più predefiniti di output da pubblicare. Puoi aggiungere predefiniti di output AEM Site, PDF, Native PDF, HTML5, Custom e JSON.
+- Seleziona uno o più predefiniti di output da pubblicare. Puoi aggiungere Sito AEM, PDF, Native PDF, HTML5, Personalizzato e
+Predefiniti di output JSON.
 
 
 - Definire le impostazioni internazionali in cui attivare l&#39;output
@@ -40,4 +41,4 @@ Con la funzione di attivazione in blocco delle guide AEM, puoi attivare in modo 
 - **[Eliminare una raccolta di mappe di attivazione in blocco](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Argomento padre:**[ Generazione di output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

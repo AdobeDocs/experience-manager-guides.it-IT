@@ -28,9 +28,9 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accedi a e apri il `ui_config.json` file in `apps` per la modifica.
+1. Passare al file `ui_config.json` nel nodo `apps` e aprirlo per la modifica.
 
-1. In `ui_config.json` aggiungere la definizione dei filtri che si desidera aggiungere.
+1. Nel file `ui_config.json` aggiungere la definizione dei filtri che si desidera aggiungere.
 
    Il seguente frammento di codice mostra come aggiungere due opzioni di filtro: File DITA e File di immagine.
 
@@ -57,13 +57,13 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
 
    - **titolo:**   Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
-   - **proprietà:**   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file che hanno `dita_class` nella loro proprietà, il filtro proprietà accetta &quot;`jcr:content/metadata/dita_class`&quot; come valore.
+   - **proprietà:**   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot;`jcr:content/metadata/dita_class`&quot; come valore.
 
-   - **operazione:**   Specifica &quot;`exists`&quot; per rilevare l’esistenza del valore specificato nel parametro della proprietà.
+   - **operazione:**   Specificare &quot;`exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
 
-   Il secondo filtro è per File di immagine. I parametri sono simili a quelli del primo filtro, ad eccezione del `value` parametro. Il `value` Il parametro accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
+   Il secondo filtro è per File di immagine. I parametri sono simili al primo filtro, ad eccezione del parametro `value`. Il parametro `value` accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
 
-1. Salva il *ui\_config.json* e ricaricare l&#39;editor Web.
+1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
    Quando avvii la finestra di dialogo Sfoglia file, vengono visualizzate le opzioni di filtro configurate nel file ui\_config.json.
 

@@ -22,9 +22,9 @@ Dettagli bundle:
 
 - ID artefatto: **api**
 
-- Versione: **3,4**
+- Versione: **3.4**
 
-- Pacchetto ****com.adobe.fmdita.api.maps****
+- Pacchetto: ****com.adobe.fmdita.api.map****
 
 - Dettagli classe:
 
@@ -32,12 +32,12 @@ Dettagli bundle:
   public class **PublishUtils** extends Object
   ```
 
-  Il **`PublishUtils`** La classe contiene un metodo per generare l&#39;output per uno o più predefiniti di output.
+  La classe **`PublishUtils`** contiene un metodo per generare l&#39;output per uno o più predefiniti di output.
 
 
 ## Genera output
 
-Il ``generateOutput`` Il metodo genera l&#39;output per un file di mappa DITA utilizzando i predefiniti di output specificati.
+Il metodo ``generateOutput`` genera l&#39;output per un file di mappa DITA utilizzando i predefiniti di output specificati.
 
 **Sintassi**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |``sourcePath``|String|Percorso \(nel repository AEM\) del file di mapping DITA per il quale deve essere generato l&#39;output.| |``outputName``|String|Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
+|``sourcePath``|Stringa|Percorso \(nell&#39;archivio AEM\) del file di mappa DITA per il quale deve essere generato l&#39;output.|
+|``outputName``|Stringa|Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`.|
 
-**Eccezione**: proiezioni ``javax.jcr.RepositoryException``, `java.io.IOException`, e `java.lang.Exception`.
+**Eccezione**:
+Genera ``javax.jcr.RepositoryException``, `java.io.IOException` e `java.lang.Exception`.

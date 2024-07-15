@@ -1,6 +1,6 @@
 ---
 title: Avviare l’editor web
-description: Scopri come avviare l’editor web dalla pagina di navigazione AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe DITA nelle guide dell’AEM.
+description: Scopri come avviare l’editor web dalla pagina di navigazione AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe DITA in AEM Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -27,15 +27,15 @@ Quando accedi a AEM, viene visualizzata la pagina Navigazione:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Facendo clic su **Guide** consente di accedere direttamente all&#39;editor Web.
+Facendo clic sul collegamento **Guide** si accede direttamente all&#39;editor Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizzata una schermata dell&#39;editor Web vuota. È possibile aprire un file per la modifica dal repository AEM o dalla raccolta Preferiti.
 
-- Fai clic su **Guide** icona (![](images/aem-guides-icon.png) ), per tornare alla pagina di navigazione AEM.
+- Fai clic sull&#39;icona **Guide** (![](images/aem-guides-icon.png) ) per tornare alla pagina di navigazione AEM.
 
-- Il **Chiudi** porta a una destinazione in base alla configurazione:
+- Il pulsante **Chiudi** ti porta a una destinazione basata sulla configurazione:
 
 
 
@@ -43,14 +43,14 @@ Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizz
 
   <summary> Servizi cloud </summary>
 
-  Se si utilizzano Cloud Service, fare clic su **Chiudi** per tornare alla pagina di navigazione AEM.
+  Se utilizzi Cloud Service, fai clic sul pulsante **Chiudi** per tornare alla pagina di navigazione AEM.
   </details>
 
   <details>
 
   <summary> Software on-premise</summary>
 
-  Se utilizzi il software on-premise delle guide dell’AEM (4.2.1 e versioni successive), fai clic su **Chiudi** a destra per tornare al percorso del file corrente nell’interfaccia utente Assets.
+  Se utilizzi AEM Guides On-Premise Software (versione 4.2.1 e successive), fai clic sul pulsante **Chiudi** a destra per tornare al percorso del file corrente nell&#39;interfaccia utente di Assets.
 
   </details>
 
@@ -58,7 +58,7 @@ Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizz
 
 Un’altra posizione da cui è possibile avviare l’editor web è quella dell’interfaccia utente di AEM Assets. È possibile selezionare uno o più argomenti e aprirli direttamente nell&#39;editor Web. Per aprire un argomento nell&#39;editor Web, eseguire la procedura seguente:
 
-1. Nell’interfaccia utente Assets, individua l’argomento da modificare.
+1. Nell’interfaccia utente di Assets, individua l’argomento da modificare.
 
    >[!NOTE]
    >
@@ -72,11 +72,11 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
    >
    > Verificare di disporre delle autorizzazioni di lettura e scrittura per la cartella contenente l&#39;argomento che si desidera modificare.
 
-1. Per impostare un blocco esclusivo per l&#39;argomento, selezionarlo e fare clic su **Estrai**.
+1. Per ottenere un blocco esclusivo sull&#39;argomento, selezionare l&#39;argomento e fare clic su **Estrai**.
 
    >[!IMPORTANT]
    >
-   > Se l&#39;amministratore ha configurato **Disattiva modifica senza estrazione** , è necessario estrarre il file prima di modificarlo. Se non si estrae il file, non sarà possibile visualizzare l&#39;opzione di modifica.
+   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, non sarà possibile visualizzare l&#39;opzione di modifica.
 
 1. Chiudi la modalità di selezione delle risorse e fai clic sull’argomento da modificare.
 
@@ -94,7 +94,7 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Clic **Modifica** per aprire l&#39;argomento nell&#39;editor Web.
+1. Fai clic su **Modifica** per aprire l&#39;argomento nell&#39;editor Web.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -103,17 +103,17 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
 
 Per aprire l&#39;Editor Web dalla console delle mappe DITA, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua e fai clic sul file di mappa DITA contenente l’argomento che desideri modificare.
+1. Nell&#39;interfaccia utente di Assets, passare al file di mapping DITA contenente l&#39;argomento che si desidera modificare e fare clic su di esso.
 
    Viene visualizzata la console delle mappe DITA.
 
-1. Clic **Argomenti**.
+1. Fai clic su **Argomenti**.
 
    Viene visualizzato un elenco di argomenti nel file mappa. L’UUID degli argomenti viene visualizzato sotto il titolo dell’argomento.
 
 1. Selezionare il file dell&#39;argomento che si desidera modificare.
 
-1. Clic **Modifica argomento**.
+1. Fare clic su **Modifica argomento**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ Per aprire l&#39;Editor Web dalla console delle mappe DITA, effettuare le seguen
 
    >[!IMPORTANT]
    >
-   > Se l&#39;amministratore ha configurato **Disattiva modifica senza estrazione** , è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento viene aperto nell&#39;editor in modalità di sola lettura.
+   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento viene aperto nell&#39;editor in modalità di sola lettura.
 
 
-**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

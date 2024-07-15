@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Per aggiungere un pannello personalizzato nel pannello sinistro dell’editor web, effettua le seguenti operazioni:
 
-1. Creare un *clientlib* e aggiungi il file JavaScript e CSS in questa cartella.
-1. Aggiornare la proprietà Categories del *clientlib* assegnandogli il valore di *apps.fmdita.xml\_editor.page\_overrides*.
+1. Crea una cartella *clientlib* e aggiungi il file JavaScript e CSS in questa cartella.
+1. Aggiorna la proprietà Categories della cartella *clientlib* assegnandole il valore di *apps.fmdita.xml\_editor.page\_overrides*.
 
 Codice di esempio per configurare un pannello personalizzato:
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

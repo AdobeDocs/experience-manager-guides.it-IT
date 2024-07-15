@@ -2,24 +2,24 @@
 title: Componenti
 description: Revisione dei componenti dell’app
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-
 # Componenti dell’app di revisione
 
 Di seguito sono riportati i componenti principali dell’app di revisione:
 
-- Pannello Revisione in linea: `id: inline_review_panel`
+- Pannello Revisione In Linea: `id: inline_review_panel`
    - Il pannello destro in cui vengono visualizzati i commenti di revisione sul lato Editor XML.
 
-![Schermata del pannello Revisione in linea](./imgs/inline_review.png)
+![Schermata del pannello di revisione in linea](./imgs/inline_review.png)
 
-- Revisioni argomenti: `id: topic_reviews`
+- Recensioni argomento: `id: topic_reviews`
    - Il pannello a destra in cui vengono riprodotti i commenti nell’app di revisione.
 
 ![Schermata del pannello Revisione argomento](./imgs/topic_reviews.png)
@@ -35,12 +35,12 @@ Commento di revisione lato editor XML:
 
 - Risposta commento revisione: `id: comment_reply`
    - Il widget per ogni risposta di commento di revisione.
-     ![Schermata Revisione risposta](./imgs/reply.png)
+     ![Schermata Risposta Commento Recensione](./imgs/reply.png)
 
 - Nuova risposta commento revisione: `id: comment_new_reply`
    - Il widget per la nuova risposta del commento di revisione.
-     ![Nuova schermata di risposta al commento di revisione](./imgs/new_reply.png)
+     ![Schermata Nuova Risposta Commento Recensione](./imgs/new_reply.png)
 
 - Casella degli strumenti di annotazione: `id: annotation_toolbox`
    - Barra degli strumenti in alto a destra nell’app di revisione.
-     ![Schermata della Casella degli strumenti di annotazione](./imgs/annotation_toolbox.png)
+     ![Schermata Casella degli strumenti Annotazione](./imgs/annotation_toolbox.png)

@@ -1,6 +1,6 @@
 ---
 title: Creare mappe in base a modelli personalizzati
-description: Scopri come creare un modello di personalizzazione, utilizzarlo per creare nuovi file di mappa e passare il titolo definito a una mappa DITA nelle guide AEM.
+description: Scopri come creare un modello personalizzato, utilizzarlo per creare nuovi file di mappa e passare il titolo definito a una mappa DITA in AEM Guides.
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
@@ -23,7 +23,7 @@ Puoi fare riferimento ad altri modelli di mappa e modelli di argomento dal model
 
 ## Creare modelli personalizzati
 
-Le guide AEM consentono di creare mappe e argomenti personalizzati dalla cartella modelli dita. Puoi utilizzare questi modelli personalizzati per creare la mappa e l’argomento. Puoi anche condividere questi modelli con gli autori, che possono utilizzarli per creare i loro file. Utilizzando questi modelli, puoi consentire agli autori di conservare copie separate di determinate risorse all’interno della cartella dei modelli.
+AEM Guides consente di creare mappe e argomenti personalizzati dalla cartella modelli dita. Puoi utilizzare questi modelli personalizzati per creare la mappa e l’argomento. Puoi anche condividere questi modelli con gli autori, che possono utilizzarli per creare i loro file. Utilizzando questi modelli, puoi consentire agli autori di conservare copie separate di determinate risorse all’interno della cartella dei modelli.
 
 >[!NOTE]
 >
@@ -31,24 +31,24 @@ Le guide AEM consentono di creare mappe e argomenti personalizzati dalla cartell
 
 
 È possibile creare modelli di mappe e argomenti nei modi seguenti:
-1. Riquadro Modelli di [Pannello sinistro](./web-editor-features.md#left-panel-id2051ea0m0hs)
-1. [Modelli nell’interfaccia utente Assets](#templates-assets-ui)
+1. Riquadro Modelli del [pannello sinistro](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. [Modelli nell’interfaccia utente di Assets](#templates-assets-ui)
 1. [Menu Opzioni](#templates-in-assets-ui)
 
-### Modelli nell’interfaccia utente Assets {#templates-assets-ui}
+### Modelli nell’interfaccia utente di Assets {#templates-assets-ui}
 
 **Modello argomento**
 
 Per creare un modello di argomento, effettuare le seguenti operazioni:
 
-1. In **Interfaccia utente Assets**, passare alla cartella dita-templates.
+1. Nell&#39;**interfaccia utente di Assets**, passare alla cartella dei modelli dita.
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Clic **argomenti** cartella per aprirla.Fare clic su **Crea \> modello DITA**.
-1. Nella pagina Blueprint, seleziona **Argomento** e quindi fare clic su **Avanti.**
-1. Nella pagina Proprietà specificare il modello di argomento **Titolo**.
-1. Specifica il file **Nome**
+1. Fare clic sulla cartella **topic** per aprirla.Fare clic su **Crea \> Modello DITA**.
+1. Nella pagina Blueprint, seleziona **Argomento**, quindi fai clic su **Avanti.**
+1. Nella pagina Proprietà, specifica il modello di argomento **Titolo**.
+1. Specifica il file **Name**
 
    >[!NOTE]
    >
@@ -61,32 +61,32 @@ Per creare un modello di argomento, effettuare le seguenti operazioni:
 
 Per creare un modello di mappa, effettua le seguenti operazioni:
 
-1. In **Interfaccia utente Assets**, passare alla cartella dita-templates.
-1. Clic **mappe** cartella per aprirla.
-1. Clic **Crea \> Modello DITA.**
+1. Nell&#39;**interfaccia utente di Assets**, passare alla cartella dei modelli dita.
+1. Fai clic sulla cartella **map** per aprirla.
+1. Fare clic su **Crea \> Modello DITA.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
 1. Nella pagina Blueprint, seleziona **Mappa** e fai clic su **Successivo**.
 1. Nella pagina Proprietà, specifica il modello di mappa **Titolo**.
-1. Specifica il file **Nome**.
+1. Specificare il file **Name**.
 
    >[!NOTE]
    >
    > Il nome del file deve avere l&#39;estensione .ditamap.
 
-1. (Facoltativo\) Aggiungi una descrizione.Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
+1. (Facoltativo\) Aggiungi una descrizione. Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
 
 ### Menu Opzioni {#options-menu}
 
 Per creare una mappa o un modello di argomento, effettuare le seguenti operazioni:
 
-1. Seleziona la **Mappa** o **Argomento** nella cartella dei modelli corrente. Ad esempio, la cartella `dita-templates`.
-1. Dalla sezione **Opzioni** menu, seleziona **Crea modello mappa** o **Crea modello di argomento**.
+1. Selezionare la cartella **Mappa** o **Argomento** nella cartella dei modelli corrente. Ad esempio, la cartella `dita-templates`.
+1. Dal menu **Opzioni**, selezionare **Crea modello mappa** o **Crea modello argomento**.
 
-   Il **Crea nuovo modello mappa** o **Crea nuovo modello di argomento** viene visualizzata una finestra di dialogo.
+   Viene visualizzata la finestra di dialogo **Crea nuovo modello mappa** o **Crea nuovo modello argomento**.
 1. Immetti il titolo e il nome del nuovo modello.
-1. Scegli il tipo di modello da creare dal **Modello** elenco a discesa.
+1. Scegliere il tipo di modello da creare dall&#39;elenco a discesa **Modello**.
 
 Viene visualizzato il messaggio di creazione del modello di mappa. Puoi aggiungere il modello al tuo profilo globale o a livello di cartella. Il nuovo modello viene quindi visualizzato nel processo di creazione di argomenti o mappe e può essere utilizzato per creare mappe o argomenti.
 
@@ -97,13 +97,13 @@ In base alla configurazione, scopri come configurare il percorso della cartella 
 <details>
     <summary> Servizi cloud </summary>
 
-Scopri come [configura percorso cartella modello DITA personalizzato](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+Scopri come [configurare il percorso della cartella del modello DITA personalizzato](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 </details>
 
 <details>
     <summary> Software on-premise</summary>
 
-Scopri come [configura percorso cartella modello DITA personalizzato](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all’installazione e alla configurazione on-premise.
+Scopri come [configurare il percorso della cartella del modello DITA personalizzato](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione on-premise.
 </details>
 
 ## Trasmettere il titolo definito nei modelli
@@ -157,15 +157,15 @@ Esempio
 
 >[!NOTE]
 >
-> Il modello di mappa deve essere configurato dall’amministratore e reso disponibile per l’authoring. Per ulteriori dettagli, consulta *Configurare i modelli di authoring* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> Il modello di mappa deve essere configurato dall’amministratore e reso disponibile per l’authoring. Per ulteriori dettagli, vedi *Configurare i modelli di authoring* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 Per creare una mappa utilizzando il modello di mappa personalizzato, effettua le seguenti operazioni:
 
-1. In **Interfaccia utente Assets,** passa alla cartella in cui desideri creare la mappa.
-1. Clic **Crea \> mappa DITA**.
-1. Nella pagina Blueprint, seleziona il modello di mappa da utilizzare e fai clic su **Successivo**. Ad esempio, se hai creato un modello di mappa &quot;test-template&quot;, selezionalo.
+1. Nell&#39;interfaccia utente di **Assets,** passa alla cartella in cui desideri creare la mappa.
+1. Fare clic su **Crea \> Mappa DITA**.
+1. Nella pagina Blueprint, seleziona il modello di mappa che desideri utilizzare e fai clic su **Avanti**. Ad esempio, se hai creato un modello di mappa &quot;test-template&quot;, selezionalo.
 1. Nella pagina Proprietà, specifica la mappa **Titolo**.
-1. Specifica il file **Nome**.
+1. Specificare il file **Name**.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Per creare una mappa utilizzando il modello di mappa personalizzato, effettua le
 
 La mappa genera tutte le risorse a cui si fa riferimento all’interno della cartella dei modelli. Alcuni tipi di risorse a cui si fa riferimento in una mappa possono essere i seguenti:
 
-- Se la mappa contiene il riferimento a un modello di argomento, ne viene creata una copia all&#39;interno della cartella, nella stessa gerarchia della cartella topic nel `dita-templates` cartella.
-- Se la mappa contiene il riferimento a un modello di mappa, ne viene creata una copia all&#39;interno della cartella, nella stessa gerarchia della cartella mappe nella cartella `dita-templates` cartella.
-- Se la mappa contiene il riferimento generico a un argomento o a una mappa esterna al `dita-templates/topics` o `dita-templates/maps` cartella, viene fatto riferimento solo allo stesso e non viene creata alcuna copia.
+- Se la mappa contiene il riferimento a un modello di argomento, ne viene creata una copia all&#39;interno della cartella, nella stessa gerarchia della cartella topic nella cartella `dita-templates`.
+- Se la mappa contiene il riferimento a un modello di mappa, ne viene creata una copia all&#39;interno della cartella, nella stessa gerarchia della cartella delle mappe nella cartella `dita-templates`.
+- Se la mappa contiene il riferimento generico a un argomento o a una mappa all&#39;esterno della cartella `dita-templates/topics` o `dita-templates/maps`, viene fatto riferimento allo stesso solo e non viene creata alcuna copia.
 
   >[!NOTE]
   >
@@ -189,4 +189,4 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 
 - Se nella cartella viene creato un altro argomento o mappa allo stesso livello, i nomi delle nuove risorse vengono aggiunti 0, 1, 2 e così via. È possibile scegliere di aprire la mappa per la modifica o salvare il file di mappa nel repository.
 
-**Argomento padre:**[ Utilizzare l’Editor mappa](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

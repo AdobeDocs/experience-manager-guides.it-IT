@@ -1,6 +1,6 @@
 ---
 title: Riassegna attività di revisione tramite notifica
-description: Riassegna un’attività di revisione utilizzando le notifiche nelle guide AEM. Scopri come riassegnare un’attività revisore dalla notifica nella casella in entrata.
+description: Riassegna un’attività di revisione utilizzando le notifiche in AEM Guides. Scopri come riassegnare un’attività revisore dalla notifica nella casella in entrata.
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
@@ -23,7 +23,7 @@ Si noti che la riassegnazione può essere eseguita solo per le attività revisor
 Per riassegnare un&#39;attività di revisione dalla notifica Posta in arrivo, effettuare le operazioni riportate di seguito.
 
 1. Selezionare la notifica dell&#39;attività Revisione nella casella Posta in arrivo.
-1. Seleziona **Riassegna** nella parte superiore.
+1. Seleziona l&#39;icona **Riassegna** in alto.
 1. Selezionare il nome utente a cui si desidera riassegnare l&#39;attività.
 
    >[!IMPORTANT]

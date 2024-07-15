@@ -11,7 +11,9 @@ ht-degree: 2%
 
 # Panoramica della sessione
 
-Un layout ben definito di un’esperienza web offre un branding e un design dell’applicazione coerenti, oltre a uniformità e coerenza in tutte le pagine/esperienze digitali della piattaforma.
+Un layout ben definito di un’esperienza web offre un branding coerente delle applicazioni
+e la progettazione, insieme all&#39;uniformità e alla coerenza in tutto il digitale
+pagine della piattaforma.
 Tutto questo può essere ottenuto attraverso diverse varianti di output AEM sul sito offerte da Adobe Experience Manager Guides.
 In questa sessione imparerai a generare diverse varianti dell’output dei siti AEM.
 
@@ -31,7 +33,7 @@ In questa sessione scoprirai quanto segue:
 ## In evidenza
 
 - **Data** - 27 giugno 2024
-- **Numero di partecipanti** - 120
+- **Numero partecipanti** - 120
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -40,11 +42,11 @@ In questa sessione scoprirai quanto segue:
 
 - [Pubblicazione output sito AEM](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [Pubblicazione output KB](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [Pubblicazione output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [Modelli AEM](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ In questa sessione scoprirai quanto segue:
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

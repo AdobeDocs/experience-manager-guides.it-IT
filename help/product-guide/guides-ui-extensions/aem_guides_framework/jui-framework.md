@@ -2,7 +2,8 @@
 title: Framework Jui
 description: Informazioni su Jui Framework
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -19,7 +20,7 @@ In modo da poterla estendere efficacemente.
 JUI è un framework MVC che si sovrappone ai componenti React e Adobe React Spectrum. JUI è l’interfaccia utente JSON. È costituito da più archivi Git.
 
 JUI-Core è la libreria di base con tutta la logica necessaria per convertire la configurazione JSON in componenti react funzionanti e collegarla a un’istanza della classe di controller rilevante.
-La libreria JUI-React-Spectrum dispone di widget wrapper di componenti Adobe React Spectrum
+JUI-React-Spectrum  La libreria include widget wrapper di componenti Adobe React Spectrum
 
 ## Progettazione Core JUI
 

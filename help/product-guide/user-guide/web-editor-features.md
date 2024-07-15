@@ -1,6 +1,6 @@
 ---
 title: Conoscere le funzioni dell’editor web
-description: Scopri le funzioni dell’editor web nelle guide dell’AEM. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
+description: Scopri le funzioni dell’editor web in AEM Guides. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
@@ -29,7 +29,7 @@ La barra degli strumenti principale si trova nella parte superiore dell’interf
 
 **Salva tutto** - ![](images/SaveFloppy_icon.svg)
 
-Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor Web sono aperti più argomenti, fare clic su **Salva tutto** o utilizzando **Crtl**+**S** i tasti di scelta rapida consentono di salvare tutti i documenti con un solo clic. Non è necessario salvare ogni documento singolarmente.
+Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor Web sono aperti più argomenti, facendo clic su **Salva tutto** o utilizzando i tasti di scelta rapida **Crtl**+**S** tutti i documenti vengono salvati con un solo clic. Non è necessario salvare ogni documento singolarmente.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor W
 
 **Salva come nuova versione** - ![](images/save-revision-icon.png)
 
-Salva le modifiche apportate all&#39;argomento e crea una nuova versione dell&#39;argomento. Se stai lavorando su un argomento appena creato, le informazioni sulla versione vengono visualizzate come **nessuno**.
+Salva le modifiche apportate all&#39;argomento e crea una nuova versione dell&#39;argomento. Se stai lavorando su un argomento appena creato, le informazioni sulla versione vengono visualizzate come **none**.
 
 ![](images/save-all-first-version-none_cs.png){width="800" align="left"}
 
@@ -47,9 +47,9 @@ Quando scegli di salvare un argomento o una mappa utilizzando **Salva come nuova
 
 ![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
 
-Inserisci commenti ed etichette di versione per identificare le modifiche e fai clic su **Salva** per creare una nuova versione del file.
+Immettere commenti ed etichette di versione per identificare le modifiche e fare clic su **Salva** per creare una nuova versione del file.
 
-Quando scegli il *Salva come nuova versione*, la prima versione dell&#39;argomento viene creata in DAM, che diventa anche la versione attualmente attiva dell&#39;argomento. In seguito, se si ripristina una versione precedente dell&#39;argomento, quella diventerà la versione attiva corrente dell&#39;argomento.
+Quando si sceglie *Salva come nuova versione*, la prima versione dell&#39;argomento viene creata in DAM, che diventa anche la versione attualmente attiva dell&#39;argomento. In seguito, se si ripristina una versione precedente dell&#39;argomento, quella diventerà la versione attiva corrente dell&#39;argomento.
 
 Se l’amministratore dispone di etichette di versione preconfigurate, le visualizzerai in un elenco a discesa. È possibile scegliere un&#39;etichetta dall&#39;elenco delle etichette disponibili e salvare il documento.
 
@@ -65,7 +65,7 @@ Quando si passa il puntatore sul titolo di un argomento, viene visualizzato il p
 
 >[!NOTE]
 >
-> Quando è disponibile una versione dell&#39;argomento, è anche possibile aggiungere etichette all&#39;argomento. Queste etichette possono quindi essere utilizzate per creare una baseline per la pubblicazione di una versione specifica del documento. Per ulteriori informazioni sull&#39;utilizzo delle etichette negli argomenti, vedere [Usa etichette](web-editor-use-label.md#).
+> Quando è disponibile una versione dell&#39;argomento, è anche possibile aggiungere etichette all&#39;argomento. Queste etichette possono quindi essere utilizzate per creare una baseline per la pubblicazione di una versione specifica del documento. Per ulteriori informazioni sull&#39;utilizzo delle etichette negli argomenti, vedere [Utilizzare le etichette](web-editor-use-label.md#).
 
 **Annulla e Ripristina** - ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 
@@ -77,15 +77,15 @@ Elimina l&#39;elemento attualmente selezionato o l&#39;elemento in cui è posizi
 
 **Trova e sostituisci** - ![](images/FindAndReplace_icon.svg)
 
-La funzione Trova e sostituisci è disponibile nelle modalità di visualizzazione Creazione e Origine. La barra di testo Trova e sostituisci viene visualizzata nella parte inferiore dell&#39;area di modifica dell&#39;argomento. È possibile utilizzare i tasti di scelta rapida **CTRL**+**F** per richiamare la barra Trova e sostituisci.
+La funzione Trova e sostituisci è disponibile nelle modalità di visualizzazione Creazione e Source. La barra di testo Trova e sostituisci viene visualizzata nella parte inferiore dell&#39;area di modifica dell&#39;argomento. È possibile utilizzare i tasti di scelta rapida **CTRL**+**F** per richiamare la barra Trova e sostituisci.
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Utilizzo dell&#39;icona delle impostazioni \(![](images/settings-find-replace-icon.svg)\), è possibile attivare/disattivare **Ignora maiuscole/minuscole** e **Solo parola intera** opzioni di ricerca. Per eseguire la ricerca senza distinzione tra maiuscole e minuscole, attiva \(o seleziona\) il **Ignora maiuscole/minuscole** opzione. Se invece si desidera eseguire la ricerca con distinzione tra maiuscole e minuscole, disattivare \(o deselezionare\) il **Ignora maiuscole/minuscole** opzione. È inoltre possibile scegliere di cercare una parola intera.
+Utilizzando l&#39;icona delle impostazioni \(![](images/settings-find-replace-icon.svg)\), è possibile attivare/disattivare le opzioni di ricerca **Ignora maiuscole/minuscole** e **Solo parole intere**. Per eseguire la ricerca senza distinzione tra maiuscole e minuscole, attivare \(o selezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. Se invece si desidera eseguire la ricerca con distinzione tra maiuscole e minuscole, disattivare \(o deselezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. È inoltre possibile scegliere di cercare una parola intera.
 
-La ricerca è istantanea, il che significa che quando si digita la frase o la parola di ricerca nel **Trova** , il termine viene immediatamente cercato e selezionato nell&#39;argomento. Allo stesso modo, per sostituire un testo nell’argomento, inserisci il termine di ricerca e la sua sostituzione nei rispettivi campi e fai clic su **Sostituisci** o **Sostituisci tutto** pulsante.
+La ricerca è istantanea, il che significa che quando si digita la frase o la parola di ricerca nel campo **Trova**, il termine viene immediatamente cercato e selezionato nell&#39;argomento. Analogamente, per sostituire un testo nell&#39;argomento, immettere il termine di ricerca e la sua sostituzione nei rispettivi campi e fare clic sul pulsante **Sostituisci** o **Sostituisci tutto**.
 
-Nella visualizzazione Origine, Trova e sostituisci è estremamente utile per la ricerca di un elemento o attributo specifico. Ad esempio, se desideri sostituire il valore di `@product` può essere eseguita facilmente dalla vista Origine. La visualizzazione Autore non consente di eseguire ricerche sulla base di un attributo o di un elemento. Tuttavia, è necessario prestare cautela durante l’utilizzo di **Sostituisci tutto** poiché potrebbe sovrascrivere il codice XML.
+Nella vista Source, Trova e sostituisci è estremamente utile per la ricerca di un elemento o attributo specifico. Ad esempio, se desideri sostituire il valore dell&#39;attributo `@product`, puoi eseguirlo facilmente dalla vista Source. La visualizzazione Autore non consente di eseguire ricerche sulla base di un attributo o di un elemento. Tuttavia, è necessario prestare attenzione quando si utilizza la funzionalità **Sostituisci tutto**, in quanto potrebbe sovrascrivere il codice XML.
 
 **Impostazioni editor** - ![](images/editor_settings_icon.svg)
 
@@ -95,53 +95,53 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
 >
 > Se si stanno aggiornando le impostazioni predefinite, è necessario riaprire i documenti per rendere effettive le modifiche.
 
-- **Generale**: le impostazioni Generali consentono di configurare il dizionario da utilizzare con l’editor web. Questa scheda contiene tre sezioni: **Controllo ortografia**, **Condizione**, e **Authoring**.
+- **Generale**: le impostazioni generali consentono di configurare il dizionario da utilizzare con l&#39;editor Web. Questa scheda contiene tre sezioni: **Controllo ortografico**, **Condizione** e **Authoring**.
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Controllo ortografia**: sono disponibili due opzioni: **Controllo ortografia AEM** e **Controllo ortografia browser**. Per impostazione predefinita, l’editor utilizza la funzione Controllo ortografia del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. È possibile passare a Controllo ortografia AEM per utilizzare il dizionario AEM, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedi *Personalizza dizionario predefinito AEM* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+   - **Controllo ortografia**: sono disponibili due opzioni: **Controllo ortografia AEM** e **Controllo ortografia browser**. Per impostazione predefinita, l’editor utilizza la funzione Controllo ortografia del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. È possibile passare a Controllo ortografia AEM per utilizzare il dizionario AEM, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione *Personalizzare il dizionario predefinito dell&#39;AEM* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
 
 
    - **Condizione**
 
-      - **Evidenzia testo condizionale nella vista Creazione**: seleziona questa opzione per evidenziare il testo condizionale nella vista dell’autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+      - **Evidenzia testo condizionale nella visualizzazione Autore**: selezionare questa opzione per evidenziare il testo condizionale nella visualizzazione Autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
-      - **Convalida con attributi condizione**: selezionalo per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
+      - **Convalida con attributi condizione**: selezionarla per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
 
-      - **Mostra la chiave con il titolo nel pannello Schema soggetto**: seleziona questa opzione per mostrare i tasti e i titoli nello schema dell’oggetto. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
+      - **Mostra la chiave con il titolo nel pannello Schema soggetto**: selezionare questa opzione per visualizzare le chiavi insieme ai titoli nello schema dell&#39;oggetto. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
 
         ![](images/subject-scheme-title.png){width="550" align="left"}
 
-      - **Mostra schema soggetto nel pannello Condizioni**: selezionalo per visualizzare uno schema di soggetti nel pannello condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
+      - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
 
    - **Authoring**
 
-      - **Abilita Sostituisci Tutto**: seleziona questa opzione per visualizzare l’icona Sostituisci tutto nel pannello Trova e sostituisci.
+      - **Abilita Sostituisci tutto**: selezionare questa opzione per visualizzare l&#39;icona Sostituisci tutto nel pannello Trova e sostituisci.
 
 
    - **Citazioni**
-Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a discesa che desideri utilizzare nel progetto. Per ulteriori dettagli vedi [Modificare gli stili delle citazioni](./web-editor-apply-citations.md#change-citation-style).
+Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a discesa che desideri utilizzare nel progetto. Per ulteriori dettagli, vedere [Modificare gli stili delle citazioni](./web-editor-apply-citations.md#change-citation-style).
 
 
-**Pannelli**: questa impostazione controlla i pannelli visualizzati nel pannello sinistro dell’editor. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello desiderato.
+**Panels**: questa impostazione controlla i pannelli visualizzati nel pannello sinistro dell&#39;editor. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello desiderato.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato. Per ulteriori dettagli sulla configurazione, vedi *Configurare un pannello personalizzato nel pannello a sinistra* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato. Per ulteriori dettagli sulla configurazione, vedi la sezione *Configurare un pannello personalizzato nel pannello sinistro* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
 
-- **Elenco elementi**: in qualità di amministratore, puoi controllare l’elenco degli elementi che un autore può inserire utilizzando [Inserisci elemento](#id204SG30105Z) e definiscono anche il nome visualizzato dell&#39;elemento. L&#39;impostazione Elenco elementi consente di specificare il nome dell&#39;elemento in base alle specifiche DITA e un&#39;etichetta che si desidera utilizzare al posto del nome dell&#39;elemento definito DITA:
+- **Elenco elementi**: in qualità di amministratore, puoi controllare l&#39;elenco di elementi che un autore può inserire utilizzando il pop-up [Inserisci elemento](#id204SG30105Z) e definire anche il nome visualizzato per l&#39;elemento. L&#39;impostazione Elenco elementi consente di specificare il nome dell&#39;elemento in base alle specifiche DITA e un&#39;etichetta che si desidera utilizzare al posto del nome dell&#39;elemento definito DITA:
 
   ![](images/editor-setting-element-list.png){width="650" align="left"}
 
-Nella schermata precedente, l’ `b` all&#39;elemento è stata assegnata un&#39;etichetta di grassetto, `codeblock` riceve un’etichetta di Blocco di codice insieme ad alcuni altri elementi. Se si seleziona la **Usa solo elementi sopra** , verranno visualizzati solo gli elementi validi \(al punto di inserimento corrente\) di questo elenco nella finestra a comparsa Inserisci elemento.
+Nella schermata precedente, all&#39;elemento `b` è stata assegnata un&#39;etichetta di grassetto, a `codeblock` è assegnata un&#39;etichetta di blocco di codice insieme ad alcuni altri elementi. Se si seleziona l&#39;opzione **Usa solo elementi sopra**, nel pop-up Inserisci elemento verranno visualizzati solo gli elementi validi \(al punto di inserimento corrente\) di questo elenco.
 
 Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata precedente sono visualizzati nel contesto corrente:
 
 ![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
-- **Lista Attributi**: simile all’Elenco elementi, puoi controllare l’elenco degli attributi e i relativi nomi visualizzati da visualizzare nell’elenco degli attributi di un elemento. Nella schermata seguente, solo 3 attributi sono stati configurati per essere visualizzati nell’elenco degli attributi di un elemento:
+- **Elenco attributi**: simile all&#39;elenco degli elementi, è possibile controllare l&#39;elenco degli attributi e i relativi nomi visualizzati da visualizzare nell&#39;elenco degli attributi di un elemento. Nella schermata seguente, solo 3 attributi sono stati configurati per essere visualizzati nell’elenco degli attributi di un elemento:
 
   ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
@@ -149,13 +149,13 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Pubblica profilo**: contiene i profili di pubblicazione che possono essere utilizzati per pubblicare **Knowledge Base** output. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
+- **Profilo Publish**: contiene i profili Publish che possono essere utilizzati per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
 
-   - **Creare un profilo di pubblicazione Salesforce**
+   - **Crea un profilo Publish Salesforce**
 
      **Prerequisiti**
 
-      - Crea un&#39;app connessa per Salesforce. Per ulteriori informazioni, consulta [Abilitare le impostazioni OAuth per l’integrazione API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Crea un&#39;app connessa per Salesforce. Per ulteriori dettagli, consulta [Abilitare le impostazioni OAuth per l&#39;integrazione API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
       - Durante la configurazione dell’app connessa, verifica quanto segue:
 
@@ -167,56 +167,56 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
             - Accesso completo (completo)
             - Seleziona Gestisci dati utente tramite API (api)
 
-  Una volta configurata l’app, Salesforce fornisce una **Chiave consumer** e **Segreto consumer**.
+  Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**.
 
-  Questi possono essere utilizzati per creare il profilo di pubblicazione Salesforce.
+  Questi possono essere utilizzati per creare il profilo Publish Salesforce.
 
 
-   - Per creare un profilo di pubblicazione Salesforce, seleziona la **Salesforce** Knowledge Base da **Tipo di server** a discesa. Immettere un nome di profilo. In **URL sito**, immetti il sito consumer da utilizzare per pubblicare l&#39;output e quindi aggiungi **Chiave consumer** e **Segreto consumer** fornite dal sito consumer Salesforce. Allora, **Convalida** e **Salva** il nuovo profilo creato.
-     ![profilo di pubblicazione salesforce nelle impostazioni dell’editor](./images/salesforce-publish-profile.png){width="550" align="left"}
+   - Per creare un profilo Publish Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere **Chiave consumer** e **Segreto consumer** forniti dal sito consumer Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+     ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache nell’AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache nell’AEM. Scopri come [configurare il proxy per Verifica collegamenti AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Creare un profilo di pubblicazione ServiceNow**
+   - **Crea un profilo Publish ServiceNow**
 
      **Prerequisiti**
 
      Configura il server ServiceNow per caricare le risorse.
-      - Connetti a **ServiceNow** server.
-      - Accedi a **Proprietà di sistema** > **Sicurezza**.
+      - Connetti al server **ServiceNow**.
+      - Passa a **Proprietà di sistema** > **Sicurezza**.
       - Deseleziona la seguente opzione:
 
-        **Questa proprietà deve essere impostata per attivare il controllo del tipo MIME per i caricamenti (tutte le versioni Eureka e successive). Abilita (true) o disabilita (false) la convalida del tipo MIME per i file allegati. Le estensioni file configurate tramite glide.attachment.extensions verranno controllate per verificare la presenza di eventuali tipi MIME durante il caricamento.**
+        **Questa proprietà deve essere impostata per attivare la verifica del tipo MIME per i caricamenti (tutte le versioni Eureka e successive). Abilita (true) o disabilita (false) la convalida del tipo MIME per i file allegati. Le estensioni file configurate tramite glide.attachment.extensions verranno controllate per verificare la presenza di tipi MIME durante il caricamento.**
 
       - Fai clic su **Salva**.
 
-     Dopo aver configurato l’app, crea il **ServiceNow** Pubblica profilo.
-   - Per creare un profilo di pubblicazione, selezionare la Knowledge Base ServiceNow dal **Tipo di server** a discesa. Inserisci un profilo **Nome**. In **URL ServiceNow**, immetti il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungi **Nome utente** e **Password** fornite dal sito consumer ServiceNow. Allora, **Convalida** e **Salva** il nuovo profilo creato.
+     Dopo aver configurato l&#39;app, creare il profilo Publish **ServiceNow**.
+   - Per creare un profilo di Publish, selezionare la Knowledge Base ServiceNow dal menu a discesa **Server Type**. Immetti un profilo **Nome**. Nell&#39;**URL ServiceNow**, immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Nome utente** e **Password** forniti dal sito consumer ServiceNow. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
      ![Profilo di pubblicazione ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Dopo la convalida, è possibile selezionare il profilo di pubblicazione nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output in  **Salesforce** o **ServiceNow** server scelto.
+  Dopo la convalida, è possibile selezionare il profilo Publish nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output nel server **Salesforce** o **ServiceNow** scelto.
 
-  Ulteriori informazioni su [Knowledge Base](../user-guide/generate-output-knowledge-base.md) predefinito di output.
+  Ulteriori informazioni sul predefinito di output [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
 
-- **Convalida**: questa scheda contiene le opzioni per configurare le Convalide Schematron nell’editor web. È possibile attivare le seguenti funzionalità:
+- **Convalida**: questa scheda contiene le opzioni per configurare le Convalide Schematron nell&#39;editor Web. È possibile attivare le seguenti funzionalità:
 
-   - **Esegui il controllo di convalida prima di salvare il file**: seleziona questa opzione per eseguire le convalide Schematron utilizzando i file Schematron selezionati prima di qualsiasi operazione di salvataggio. Per aggiungere un file Schematron, fate clic sull&#39;icona +. Vengono elencati i file Schematron selezionati.
+   - **Eseguire il controllo di convalida prima di salvare il file**: selezionare questa opzione per eseguire le convalide Schematron utilizzando i file Schematron selezionati prima di eseguire qualsiasi operazione di salvataggio. Per aggiungere un file Schematron, fate clic sull&#39;icona +. Vengono elencati i file Schematron selezionati.
 
      >[!NOTE]
      >I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
 
-     ![Convalida nelle impostazioni dell’editor](./images/editor-setting-validation.png){width="550" align="left"}
+     ![Convalida nelle impostazioni dell&#39;editor](./images/editor-setting-validation.png){width="550" align="left"}
 In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
-   - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello Convalida dell&#39;editor Web. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se non è selezionato, **Aggiungi file di schema** non è disponibile per gli utenti in **Pannello di convalida** dell’editor web.
+   - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor Web. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, il pulsante **Aggiungi file di schema** non è disponibile per gli utenti nel **pannello di convalida** dell&#39;editor Web.
 
 
-- **Visualizza attributi**: come l’elenco Attributi, puoi controllare l’elenco degli attributi da visualizzare nell’elenco degli attributi di un elemento. Per impostazione predefinita, quattro **Visualizza attributi** : pubblico, piattaforma, prodotto e proprietà sono stati configurati per essere visualizzati nell&#39;elenco degli attributi di un elemento. È inoltre possibile aggiungere un attributo di visualizzazione utilizzando **Aggiungi** nella parte superiore. È inoltre possibile eliminare qualsiasi attributo di visualizzazione utilizzando **Elimina** icona.
+- **Visualizza attributi**: come l&#39;Elenco attributi, è possibile controllare l&#39;elenco degli attributi da visualizzare nell&#39;elenco attributi di un elemento. Per impostazione predefinita, sono stati configurati quattro **Attributi di visualizzazione**: pubblico, piattaforma, prodotto e proprietà da visualizzare nell&#39;elenco degli attributi di un elemento. Puoi anche aggiungere un attributo di visualizzazione utilizzando l&#39;icona **Aggiungi** nella parte superiore. Puoi anche eliminare gli attributi di visualizzazione utilizzando l&#39;icona **Elimina**.
 
   Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
 
@@ -227,33 +227,33 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 
    - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.\
      Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
-      1. Seleziona la Aggiungi ![icona aggiungi](images/Add_icon.svg) icona.
+      1. Seleziona l&#39;icona Aggiungi ![icona di aggiunta](images/Add_icon.svg).
       1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
       1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
      Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
-      1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, **Mostra altro** visualizzazioni. Puoi selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+      1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzato **Mostra più**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
 
          >[!TIP]
          >
-         > Attiva/Disattiva **Mostra altro** a **Mostra meno** e visualizzare solo alcune lingue.
+         > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
 
-      1. Passa il puntatore del mouse sulle lingue di un gruppo da modificare ![icona modifica](images/edit_pencil_icon.svg) o eliminare ![eliminare](images/Delete_icon.svg) i gruppi linguistici.
-      1. Salva il **Impostazioni editor**.
+      1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](images/edit_pencil_icon.svg) o eliminare ![elimina](images/Delete_icon.svg) i gruppi di lingue.
+      1. Salva le **impostazioni editor**.
 
          >[!NOTE]
          >
          >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
 
-   - **Propaga le etichette della versione di origine alla versione di destinazione**: seleziona questa opzione per passare l’etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
-   - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione affinché vengano disabilitati o eliminati automaticamente dopo la traduzione. Per impostazione predefinita, **Nessuno** è selezionato, quindi il progetto esiste dopo la traduzione.
+   - **Propagare le etichette della versione di origine alla versione di destinazione**: selezionare questa opzione per passare l&#39;etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
+   - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione da disabilitare o eliminare automaticamente dopo la traduzione. Per impostazione predefinita, **Nessuno** è selezionato, quindi il progetto esiste dopo la traduzione.
 
      Puoi disattivare i progetti di traduzione se desideri utilizzarli in un secondo momento. L’eliminazione di un progetto comporta l’eliminazione definitiva di tutti i file e le cartelle presenti nel progetto.
 
 
-- **Metadati**: puoi controllare i metadati della versione dell’argomento e i relativi valori da visualizzare nella **Cronologia versioni** .  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
+- **Metadati**: è possibile controllare i metadati della versione dell&#39;argomento e i relativi valori da visualizzare nella finestra di dialogo **Cronologia versioni**.  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
 
-  I metadati possono essere prelevati da qualsiasi proprietà sotto `/jcr:content` della risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
+  I metadati possono essere scelti da qualsiasi proprietà sotto il nodo `/jcr:content` della risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
 
 
   Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se si lascia vuota l&#39;etichetta, l&#39;ultimo elemento viene scelto come etichetta.
@@ -261,15 +261,15 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 
 
 
-  ![scheda metadati nelle impostazioni dell’editor](images/editor-setting-metadata.png){width="550" align="left"}
+  ![scheda metadati nelle impostazioni dell&#39;editor](images/editor-setting-metadata.png){width="550" align="left"}
 
-  *Configurare i metadati per **Cronologia versioni**.*
+  *Configurare i metadati per la finestra di dialogo **Cronologia versioni**.*
 
 
 
 
   Puoi anche definire l’ordine in cui vengono visualizzati questi tag di metadati. Per modificare l’ordine predefinito di questi tag, seleziona le barre punteggiate per trascinare i tag nella posizione desiderata.
-Le etichette dei metadati vengono visualizzate nella stessa sequenza in **Cronologia versioni** dell’editor web.
+Le etichette dei metadati vengono visualizzate nella stessa sequenza nella **Cronologia versioni** dell&#39;editor Web.
 
 
 
@@ -279,11 +279,11 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 
 
-- **Generale**: la scheda Generale consente di configurare le seguenti impostazioni:
+- **Generale**: la scheda Generale consente di configurare le impostazioni seguenti:
 
   ![Scheda Generale delle preferenze utente](images/user_preference_editor.PNG){width="550" align="left"}
 
-   - **Profili cartella**: il profilo cartella controlla diverse configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell’editor web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
+   - **Profili cartella**: il profilo cartella controlla varie configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell&#39;editor Web. Il Profilo globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
 
      Le configurazioni dell’editor web che un amministratore può definire nel profilo della cartella includono: personalizzazione dell’interfaccia utente, incluse le icone della barra degli strumenti, il layout dell’editor web, snippet e mappa principale. Per ulteriori dettagli, consulta *Configurare profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
@@ -291,35 +291,35 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
      >
      > Il nome del profilo cartella corrente viene visualizzato come etichetta per l’icona Preferenze utente nella barra degli strumenti principale.
 
-   - **Percorso base**: per impostazione predefinita, quando accedi all’archivio AEM dall’editor web, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. Ogni volta, occorrono alcuni clic per raggiungere la cartella di lavoro. È possibile impostare il Percorso base per la cartella di lavoro e la Vista archivio visualizza quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel Percorso base.
+   - **Percorso base**: per impostazione predefinita, quando si accede all&#39;archivio AEM dall&#39;editor Web, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. Ogni volta, occorrono alcuni clic per raggiungere la cartella di lavoro. È possibile impostare il Percorso base per la cartella di lavoro e la Vista archivio visualizza quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel Percorso base.
 
-   - **Seleziona mappa principale**: selezionare un file di mapping DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, consulta [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
+   - **Seleziona mappa radice**: selezionare un file di mappa DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, vedere [Risolvere i riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
 
      >[!NOTE]
      >    
-     > Se non desideri utilizzare alcuna mappa principale, assicurati che il **Seleziona mappa principale** il campo è vuoto.
+     > Se non desideri utilizzare alcuna mappa radice, assicurati che il campo **Seleziona mappa radice** sia vuoto.
 
-- **Aspetto**: seleziona i temi per l’applicazione Editor web e la visualizzazione sorgente dell’area di modifica dei contenuti.
+- **Aspetto**: selezionare i temi per l&#39;applicazione Web Editor e la visualizzazione origine dell&#39;area di modifica dei contenuti.
 
   ![scheda aspetto delle preferenze utente](images/user_preference_editor_appearance.png){width="550" align="left"}
 
-   - **Visualizza file per**: seleziona il modo predefinito per visualizzare i file nell’editor web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli della **Autore** visualizzazione.
+   - **Visualizza file per**: selezionare la modalità predefinita di visualizzazione dei file nell&#39;editor Web. È possibile visualizzare l&#39;elenco dei file in base ai titoli o ai nomi dei file dei vari pannelli nella visualizzazione **Autore**.
 
      >[!NOTE]
      >
      > Per impostazione predefinita, i file vengono visualizzati per titolo nell&#39;editor Web.
 
-   - **Tema applicazione**: puoi scegliere tra **Chiaro** o **Scuro** i temi dell’applicazione. Nel caso di **Chiaro** tema, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso di **Scuro** tema, le barre degli strumenti e i pannelli utilizzano uno sfondo nero. Seleziona **Usa tema dispositivo** per consentire a Guide Experienci Manager di selezionare i temi chiaro e scuro in base al tema del dispositivo.  In tutti i temi, l&#39;area di modifica dei contenuti viene visualizzata con sfondo bianco nel **Autore** visualizzazione.
+   - **Tema applicazione**: puoi scegliere tra i temi **Chiaro** o **Scuro** per l&#39;applicazione. Nel caso del tema **Light**, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso del tema **Scuro**, le barre degli strumenti e i pannelli utilizzano uno sfondo nero. Seleziona **Usa tema dispositivo** per consentire a Experience Manager Guides di selezionare i temi chiari e scuri in base al tema del dispositivo.  In tutti i temi, l&#39;area di modifica del contenuto viene visualizzata con sfondo bianco nella visualizzazione **Autore**.
 
-   - **Tema della vista Origine**: - È possibile scegliere tra **Chiaro** o **Scuro** temi per l&#39;area di modifica dei contenuti nella visualizzazione origine. Nel caso di **Chiaro** tema, l&#39;area di modifica dei contenuti utilizza uno sfondo grigio chiaro per la visualizzazione sorgente, mentre nel caso di **Scuro** tema, utilizza uno sfondo di colore nero. Seleziona **Usa tema dispositivo** per consentire a Guide Experienci Manager di selezionare i temi chiaro e scuro in base al tema del dispositivo.
+   - **Tema visualizzazione Source**: - È possibile scegliere tra i temi **Chiaro** o **Scuro** per l&#39;area di modifica contenuto nella visualizzazione origine. Nel caso del tema **Light**, l&#39;area di modifica del contenuto utilizza uno sfondo grigio chiaro per la visualizzazione sorgente, mentre nel caso del tema **Dark** utilizza uno sfondo nero. Seleziona **Usa tema dispositivo** per consentire a Experience Manager Guides di selezionare i temi chiari e scuri in base al tema del dispositivo.
 
-   - **Individua sempre i file nel repository**: selezionare questa opzione per visualizzare la posizione di un file nel repository durante la modifica nell&#39;editor Web.
+   - **Individua sempre i file nel repository**: selezionare questa opzione per visualizzare il percorso di un file nel repository durante la modifica nell&#39;editor Web.
 
-   - **Mostra indicatore di spazio unificatore in modalità di creazione**: seleziona questa opzione per visualizzare un indicatore per gli spazi unificatori durante la modifica nell’editor web. È attivata per impostazione predefinita.
+   - **Mostra indicatore di spazio unificatore in modalità di creazione**: selezionare questa opzione per visualizzare un indicatore per gli spazi unificatori durante la modifica nell&#39;editor Web. È attivata per impostazione predefinita.
 
 **Modalità Author, Source e Preview**
 
-Per informazioni dettagliate sulle varie modalità di authoring e visualizzazione dei documenti, consulta [Visualizzazioni dell’editor web](web-editor-views.md#).
+Per informazioni dettagliate sulle varie modalità di creazione e visualizzazione dei documenti, vedere [Visualizzazioni editor Web](web-editor-views.md#).
 
 ## Barra degli strumenti secondaria {#id2051EA0J0Y4}
 
@@ -327,38 +327,38 @@ La barra degli strumenti secondaria viene visualizzata quando si apre un argomen
 
 **Inserisci elemento** - ![](images/Add_icon.svg)
 
-Inserisce un elemento valido nella posizione valida corrente o successiva. È inoltre possibile utilizzare la scelta rapida da tastiera ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Ad esempio, stai modificando un paragrafo, quindi in **Inserisci elemento** a comparsa, viene visualizzato un elenco di elementi che possono essere inseriti nel paragrafo. Seleziona l’elemento da inserire. È possibile utilizzare la tastiera per scorrere l&#39;elenco degli elementi e premere ***Invio*** per inserire l’elemento richiesto.
+Inserisce un elemento valido nella posizione valida corrente o successiva. È inoltre possibile utilizzare la scelta rapida da tastiera ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Ad esempio, si sta modificando un paragrafo, quindi nel pop-up **Inserisci elemento** viene visualizzato un elenco di elementi che possono essere inseriti nel paragrafo. Seleziona l’elemento da inserire. Puoi usare la tastiera per scorrere l&#39;elenco degli elementi e premere ***Invio*** per inserire l&#39;elemento richiesto.
 
 Puoi visualizzare due tipi di elementi validi:
 
-- **Elementi validi nella posizione corrente**: l’elenco mostra gli elementi che è possibile inserire nella posizione corrente del cursore.
+- **Elementi validi nella posizione corrente**: nell&#39;elenco vengono visualizzati gli elementi che è possibile inserire nella posizione corrente del cursore.
 
-- **Elementi validi esterni alla posizione corrente**: nell’elenco vengono visualizzati gli elementi che è possibile inserire dopo uno qualsiasi dei padri per l’elemento corrente all’interno della gerarchia degli elementi.
+- **Elementi validi al di fuori del percorso corrente**: nell&#39;elenco vengono visualizzati gli elementi che è possibile inserire dopo qualsiasi elemento padre per l&#39;elemento corrente all&#39;interno della gerarchia degli elementi.
 
 
 
-Ad esempio, se ti trovi all’interno del `<b>` , puoi inserire elementi come `<u>`, `<xref>`, `<i>` nella posizione corrente. Al contrario, puoi inserire elementi come `<table>` e `<topic>` all&#39;esterno della posizione corrente.
+Ad esempio, se ti trovi all&#39;interno dell&#39;elemento in linea `<b>`, puoi inserire elementi come `<u>`, `<xref>`, `<i>` nella posizione corrente. È invece possibile inserire elementi come `<table>` e `<topic>` al di fuori del percorso corrente.
 
 È inoltre possibile digitare un carattere o una stringa nella casella di ricerca e cercare gli elementi che iniziano con essa.
 
 
 ![inserisci elemento](images/insert-element.png){width="300" align="left"}
 
-*Inserisci &#39;t&#39; per cercare tutti gli elementi validi che iniziano con &#39;t&#39;.*
+*Immettere &#39;t&#39; per cercare tutti gli elementi validi che iniziano con &#39;t&#39;.*
 
-Se lavori all’interno di un elemento blocco come un `note`, quindi utilizza l’icona Inserisci elemento per inserire un nuovo elemento dopo il `note` elemento. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
+Se si lavora all&#39;interno di un elemento blocco come `note`, utilizzare l&#39;icona Inserisci elemento per inserire un nuovo elemento dopo l&#39;elemento `note`. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
 
-![Inserisci elemento in un elemento blocco](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Inserisci elemento in un elemento di blocco](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
-Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#39;interno dell&#39;elemento nota stesso. Per inserire un nuovo elemento all’esterno della nota, fai clic sull’elemento p \(evidenziato nella schermata\) nella breadcrumb degli elementi e fai clic sull’icona Inserisci elemento o premi ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Quindi, selezionate l&#39;elemento desiderato e premete Invio per inserire l&#39;elemento selezionato dopo l&#39;elemento nota.
+Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#39;interno dell&#39;elemento nota stesso. Per inserire un nuovo elemento all&#39;esterno della nota, fai clic sull&#39;elemento p \(evidenziato nella schermata\) nella breadcrumb degli elementi e fai clic sull&#39;icona Inserisci elemento oppure premi ***Alt***+***Invio*** per aprire la finestra a comparsa Inserisci elemento. Quindi, selezionate l&#39;elemento desiderato e premete Invio per inserire l&#39;elemento selezionato dopo l&#39;elemento nota.
 
 È inoltre possibile aggiungere un elemento tra due elementi quando viene visualizzato un cursore a blocchi lampeggiante.
 
 ![](images/Block-cursor.png){width="300" align="left"}
 
-Ad esempio, se si sta lavorando su un argomento DITA e il cursore di blocco lampeggia tra la breve descrizione e il corpo, è possibile aggiungere `prolog` e quindi aggiungere il copyright, l&#39;autore e altri dettagli.
+Ad esempio, se si sta lavorando su un argomento DITA e il cursore di blocco lampeggia tra la breve descrizione e il corpo, è possibile aggiungere l&#39;elemento `prolog` e quindi aggiungere il copyright, l&#39;autore e altri dettagli.
 
-Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegli **Inserisci elemento** per visualizzare **Inserisci elemento** e scegliere l&#39;elemento da inserire.
+Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegliere **Inserisci elemento** per visualizzare la finestra di dialogo **Inserisci elemento** e scegliere l&#39;elemento che si desidera inserire.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -376,7 +376,7 @@ Crea un elenco puntato nel percorso valido corrente o successivo. Se ti trovi in
 
 >[!NOTE]
 >
->È inoltre possibile selezionare **Elenco suddiviso** dal menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente e iniziare un nuovo elenco allo stesso livello.
+>È inoltre possibile selezionare l&#39;opzione **Dividi elenco** dal menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente e iniziare un nuovo elenco allo stesso livello.
 
 **Inserisci tabella** - ![](images/Table_icon.svg)
 
@@ -405,12 +405,12 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 - Genera ID
 
 
-È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Tipo** modifiche apportate a **Voce multipla**.
+È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Type** diventa **Multiple Entry**.
 
-1. In **Attributi** , fare clic su **+Aggiungi**.
-1. Seleziona la `@valign` attributo da **Attributo** elenco a discesa.
+1. Nella sezione **Attributi** fare clic su **+Aggiungi**.
+1. Selezionare l&#39;attributo `@valign` dall&#39;elenco a discesa **Attributo**.
 1. Dall&#39;elenco a discesa valore, selezionare l&#39;allineamento del testo che si desidera applicare alle celle di tabella selezionate.
-1. Clic **Aggiungi.**
+1. Fare clic su **Aggiungi.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -420,30 +420,30 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Fai clic su
 
 >[!NOTE]
 >
-> Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando **Carica risorse** flusso di lavoro.  Per ulteriori dettagli, vedi **Carica risorse** flusso di lavoro in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+> Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando il flusso di lavoro **Carica Assets**.  Per ulteriori dettagli, vedi il flusso di lavoro **Carica Assets** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
 
 ![](images/insert-image.png){width="650" align="left"}
 
 Nella finestra di dialogo Inserisci immagine è possibile aggiungere titolo immagine/figura e testo alternativo per l’immagine.
 
-È possibile cercare il file di immagine richiesto immettendo il nome del file nella barra Digitare per cercare nella parte superiore e filtrare i risultati della ricerca in base a Percorso \(per cercare in\), Raccolte, Tipo file e Tag. Dopo aver individuato il file di immagine richiesto, selezionarlo e fare clic su Seleziona per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file di immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, e altro ancora.
+È possibile cercare il file di immagine richiesto immettendo il nome del file nella barra Digitare per cercare nella parte superiore e filtrare i risultati della ricerca in base a Percorso \(per cercare in\), Raccolte, Tipo file e Tag. Dopo aver individuato il file di immagine richiesto, selezionarlo e fare clic su Seleziona per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e altri.
 
 Dopo aver inserito un&#39;immagine, potete modificarne l&#39;altezza, la larghezza, il posizionamento e gli attributi dal pannello Proprietà contenuto. Fai clic su un file di immagine, quindi apporta le modifiche desiderate nel pannello Proprietà contenuto nella barra a destra.
 
 ![](images/image-properties.png){width="800" align="left"}
 
-Nel campo Sorgente viene visualizzato l’UUID del file immagine inserito. Per trovare il percorso completo del file di immagine inserito, posizionare il puntatore del mouse sul campo Sorgente. Il percorso viene visualizzato nella descrizione comando.
+Nel campo Source viene visualizzato l’UUID del file immagine inserito. Per trovare il percorso completo del file immagine inserito, posizionare il puntatore del mouse sul campo Source. Il percorso viene visualizzato nella descrizione comando.
 
 Per ridimensionare un&#39;immagine, specificate Altezza (Height) o Larghezza (Width) per il file di immagine. Le proporzioni dell&#39;immagine vengono mantenute automaticamente. Se lo desideri, puoi anche scegliere di non mantenere le proporzioni del file immagine facendo clic sull’icona del lucchetto \(di Mantieni proporzioni\) e fornendo i valori di Altezza e Larghezza.
 
 Potete inoltre specificare l&#39;impostazione Posizionamento (Placement) per l&#39;immagine come In linea (Inline) o Interruzione (Break). Se si sceglie di utilizzare l&#39;opzione di posizionamento Interrompi, è possibile scegliere dove allineare l&#39;immagine (a sinistra, al centro o a destra).
 
-È inoltre possibile aggiungere altre proprietà per un file di immagine selezionando le proprietà richieste nel **Attributi** campo.
+Puoi anche aggiungere altre proprietà per un file di immagine selezionando le proprietà richieste nel campo **Attributi**.
 
 >[!NOTE]
 >
->Puoi anche definire le aree cliccabili \(mappa immagine\) nell’immagine. Per ulteriori dettagli, vedi **Inserisci/Modifica mappa immagine** descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+>Puoi anche definire le aree cliccabili \(mappa immagine\) nell’immagine. Per ulteriori dettagli, vedere la descrizione della funzionalità **Inserisci/Modifica mappa immagine** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
 **Menu di scelta rapida per file immagine o multimediali**
 
@@ -466,7 +466,7 @@ Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la vist
 
 >[!NOTE]
 >
-> Quando aggiungi un collegamento video YouTube, devi sostituire la stringa `watch?v=` con `embed` nell’URL. Ad esempio, per aggiungere un collegamento video YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, è necessario aggiungerlo come: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Questa modifica garantisce che il video venga incorporato nel sito AEM e nell’output PDF.
+> Durante l&#39;aggiunta di un collegamento video YouTube, è necessario sostituire la stringa `watch?v=` con `embed` nell&#39;URL. Per aggiungere ad esempio un collegamento video YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, è necessario aggiungerlo come: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Questa modifica garantisce che il video venga incorporato nel sito AEM e nell’output PDF.
 
 È inoltre possibile aggiungere il file audio o video dalla finestra di dialogo Inserisci file multimediale. Selezionare l&#39;opzione File audio/video e fare clic sull&#39;icona Sfoglia per avviare la visualizzazione del repository. Selezionare il file audio o video dal repository e fare clic su Seleziona per aggiungere il collegamento del file nel campo File audio/video. Se scegliete un file video, nell&#39;area di anteprima viene visualizzata anche un&#39;anteprima del file. È possibile riprodurre il file video per visualizzarne l&#39;anteprima.
 
@@ -476,14 +476,14 @@ Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la vist
 
 Inserisci riferimenti di tipo: riferimento contenuto, riferimento chiave contenuto, riferimento chiave, riferimento file, collegamento web o collegamento e-mail.
 
-Fai clic su **Seleziona file** icona \(per riferimento a contenuto e riferimento a file\) oppure **Seleziona mappa** icona \(per Riferimento chiave contenuto e Riferimento chiave\) e selezionare il file o il contenuto desiderato a cui collegarsi.
+Fare clic sull&#39;icona **Seleziona file** \(per riferimento contenuto e riferimento file\) o **Seleziona mappa** \(per riferimento chiave contenuto e riferimento chiave\) e selezionare il file o il contenuto desiderato da collegare.
 
 ![](images/insert-references.png){width="650" align="left"}
 
 Nel documento viene aggiunto un collegamento del riferimento selezionato. Il menu di scelta rapida sul collegamento consente di:
 
 - **Inserisci elemento**: mostra un elenco di elementi validi che è possibile inserire nel contesto specificato.
-- **Copia UUID**: copia l’UUID del riferimento inserito.
+- **Copia UUID**: copia l&#39;UUID del riferimento inserito.
 - **Copia percorso**: copia il percorso completo del riferimento inserito.
 - **Crea snippet**: crea uno snippet riutilizzabile dal riferimento inserito.
 - **Genera ID**: genera un ID univoco per il riferimento inserito.
@@ -492,17 +492,17 @@ Puoi anche eseguire ricerche utilizzando l’UUID del file a cui desideri fare r
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Se l’amministratore ha abilitato l’opzione UUIDs in *XMLEditorConfig*, quindi visualizzerai l’UUID del contenuto di riferimento nella **Collegamento** proprietà.
+Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, nella proprietà **Link** verrà visualizzato l&#39;UUID del contenuto di riferimento.
 
 ![](images/ref-link-uuid_cs.png){width="800" align="left"}
 
 >[!NOTE]
 >
-> Se il **Abilita UUID** non è abilitata, viene visualizzato il percorso relativo del contenuto a cui si fa riferimento.
+> Se l&#39;opzione **Abilita UUID** non è abilitata, viene visualizzato il percorso relativo del contenuto a cui si fa riferimento.
 
 >[!IMPORTANT]
 >
-> Anche se il percorso relativo del contenuto a cui si fa riferimento è mostrato in **Collegamento** internamente, il collegamento viene creato utilizzando l’UUID del contenuto di riferimento.
+> Anche se il percorso relativo del contenuto a cui si fa riferimento è visualizzato nella proprietà **Link**, internamente il collegamento viene creato utilizzando l&#39;UUID del contenuto a cui si fa riferimento.
 
 >[!TIP]
 >
@@ -518,13 +518,13 @@ Puoi cercare del testo nei file presenti nel percorso selezionato dell’archivi
 
 >[!NOTE]
 >
-> L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli, consulta la sezione Configurare i filtri di testo in Installare e configurare le guide di Adobe Experience Manager as a Cloud Service.
+> L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli, consulta la sezione Configurare i filtri di testo in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, nella schermata precedente sono elencati i file contenenti il testo &quot;generale&quot;. Puoi anche visualizzare in anteprima il contenuto del file.
 
 **Inserisci contenuto riutilizzabile** - ![](images/content-reuse-icon.svg)
 
-Riutilizzare il contenuto esistente in qualsiasi altro documento del progetto. È possibile inserire contenuto collegandolo direttamente al contenuto di un file o utilizzando un riferimento chiave, vedere [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z). Quando fai clic sull’icona Inserisci contenuto riutilizzabile, viene visualizzata la finestra di dialogo Riutilizza contenuto:
+Riutilizzare il contenuto esistente in qualsiasi altro documento del progetto. È possibile inserire contenuto collegando direttamente al contenuto di un file o utilizzando un riferimento chiave. Vedere [Risolvere i riferimenti chiave](map-editor-other-features.md#id176GD01H05Z). Quando fai clic sull’icona Inserisci contenuto riutilizzabile, viene visualizzata la finestra di dialogo Riutilizza contenuto:
 
 ![](images/reuse-content-dialog.png){width="650" align="left"}
 
@@ -532,21 +532,21 @@ Nella finestra di dialogo Riutilizza contenuto selezionare File DITA per i rifer
 
 Per inserire un riferimento contenuto, puoi anche immettere l’UUID del file e il contenuto riutilizzabile da quel file è elencato nella sezione Anteprima.
 
-In base all’impostazione per l’inserimento dei collegamenti, nel pannello Proprietà o nella vista Codice sorgente è possibile visualizzare l’UUID del contenuto inserito o il percorso relativo. Il collegamento viene sempre creato utilizzando l’UUID del contenuto di riferimento. Consulta Configurare collegamenti basati su UUID nell’as a Cloud Service Installare e configurare le guide di Adobe Experience Manager.
+In base all&#39;impostazione per l&#39;inserimento dei collegamenti, è possibile visualizzare l&#39;UUID del contenuto inserito o il percorso relativo nel pannello Proprietà o nella vista codice di Source. Il collegamento viene sempre creato utilizzando l’UUID del contenuto di riferimento. Consulta Configurare collegamenti basati su UUID in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 >[!NOTE]
 >
-> Per aggiungere contenuto prima o dopo il contenuto a cui si fa riferimento, utilizza *Alt*+*Sinistra* Freccia o Alt+*Destra* Tasti di direzione per spostare il cursore nella posizione desiderata.
+> Per aggiungere contenuto prima o dopo il contenuto a cui si fa riferimento, utilizzare i tasti freccia *Alt*+*Left* o Alt+*Right* per spostare il cursore nella posizione desiderata.
 
-Puoi anche incorporare il contenuto a cui si fa riferimento all’interno dell’argomento facendo clic con il pulsante destro del mouse sul contenuto a cui si fa riferimento e scegliendo **Sostituisci riferimento con contenuto** dal menu di scelta rapida.
+È inoltre possibile incorporare il contenuto di riferimento all&#39;interno dell&#39;argomento facendo clic con il pulsante destro del mouse sul contenuto di riferimento e scegliendo **Sostituisci riferimento con contenuto** dal menu di scelta rapida.
 
-**Inserisci caratteri speciali** -  ![](images/insert-special-chars-icon.svg)
+**Inserisci caratteri speciali** - ![](images/insert-special-chars-icon.svg)
 
 Inserisce caratteri speciali nell&#39;argomento. Fare clic sull&#39;icona Inserisci carattere speciale per aprire la finestra di dialogo Inserisci carattere speciale.
 
 >[!NOTE]
 >
-> Le guide AEM forniscono finestre di dialogo mobili e ridimensionabili. Le finestre di dialogo con due linee trasversali nell&#39;angolo inferiore destro possono essere ridimensionate. Le linee trasversali nella finestra di dialogo Carattere speciale sono mostrate di seguito.
+> AEM Guides fornisce finestre di dialogo mobili e ridimensionabili. Le finestre di dialogo con due linee trasversali nell&#39;angolo inferiore destro possono essere ridimensionate. Le linee trasversali nella finestra di dialogo Carattere speciale sono mostrate di seguito.
 
 ![](images/insert-special-char.png){width="550" align="left"}
 
@@ -568,7 +568,7 @@ Le parole chiave sono elencate in ordine alfabetico ed è inoltre possibile cerc
 
 **Inserisci snippet** - ![](images/insert-snippet-icon.svg)
 
-Inserire uno snippet nella posizione valida corrente o successiva. Affinché questa funzione funzioni, è necessario che nel sistema siano definiti snippet. Per ulteriori informazioni sull&#39;aggiunta di uno snippet, vedere **Frammento** descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+Inserire uno snippet nella posizione valida corrente o successiva. Affinché questa funzione funzioni, è necessario che nel sistema siano definiti snippet. Per ulteriori informazioni sull&#39;aggiunta di uno snippet, vedere la descrizione della funzionalità **Snippet** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
 Facendo clic sull&#39;icona Inserisci frammento, viene visualizzato il catalogo Inserisci frammento. Il catalogo è sensibile al contesto, il che indica che i frammenti verranno visualizzati solo se sono consentiti nella posizione corrente.
 
@@ -588,25 +588,25 @@ Selezionare un&#39;immagine nell&#39;argomento corrente e fare clic sull&#39;ico
 
 ![](images/insert-image-map.png){width="650" align="left"}
 
-Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.png), Cerchio ![](images/imagemap-circle-toolbar.png), o poligono ![](images/imagemap-polygon-toolbr.png) per definire un&#39;area sopra un&#39;immagine da utilizzare come collegamento. Dopo aver definito un’area, viene visualizzata la finestra di dialogo Riferimento in cui è necessario specificare il collegamento al contenuto interno o esterno:
+Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.png), Cerchio ![](images/imagemap-circle-toolbar.png) o Poligono ![](images/imagemap-polygon-toolbr.png) per definire un&#39;area su un&#39;immagine che si desidera utilizzare come collegamento. Dopo aver definito un’area, viene visualizzata la finestra di dialogo Riferimento in cui è necessario specificare il collegamento al contenuto interno o esterno:
 
 ![](images/reference-dialog.png){width="650" align="left"}
 
 Se le aree si sovrappongono, è possibile portare la forma avanti o indietro facendo clic sulla relativa icona nella barra degli strumenti. È inoltre possibile rimuovere un&#39;area selezionandola e facendo clic sull&#39;icona Elimina. Facendo doppio clic su un’area si apre la finestra di dialogo Riferimento, in cui è possibile modificare il collegamento di destinazione. Dopo aver contrassegnato le aree richieste sull&#39;immagine, salvare le modifiche facendo clic su Fine.
 
-**Check-out/Check-in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Estrai/Archivia** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
 Estrae o archivia il file corrente. Il Check-Out di un file consente all&#39;utente di accedere in scrittura in modo esclusivo al file. Quando il file viene archiviato, le modifiche vengono salvate nella versione corrente del file.
 
-Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tutti i file della mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Estrai**  ![](images/LockClosed_icon.svg) per bloccare tutti i file della mappa.
+Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tutti i file della mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Estrai** ![](images/LockClosed_icon.svg) per ottenere il blocco su tutti i file all&#39;interno della mappa.
 
 >[!NOTE]
 >
 > Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
-La descrizione comando per il Check-In/Check-Out è determinata dalla proprietà title nella `ui_config.json` file.
+La descrizione comando per l&#39;archiviazione/estrazione è determinata dalla proprietà title nel file `ui_config.json`.
 
-Per ulteriori dettagli, vedi [Configurare il titolo per le icone Archivia ed Estrai](../install-guide/conf-checkin-checkout-title.md) nella Guida all’installazione e alla configurazione on-premise.
+Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](../install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
 
 **Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
@@ -619,20 +619,20 @@ La schermata seguente mostra un documento con Visualizzazione tag su:
 
 Le seguenti operazioni possono essere eseguite in un documento con Vista tag su:
 
-- **Seleziona un elemento**: fai clic sul tag di apertura o chiusura di un elemento per selezionarne il contenuto.
+- **Selezionare un elemento**: fare clic sul tag di apertura o chiusura di un elemento per selezionarne il contenuto.
 
-- **Espandi o comprimi tag**: fai clic sul segno + o - per accedere a un tag e espanderlo o comprimerlo.
+- **Espandere o comprimere i tag**: fare clic sul segno + o - per espandere o comprimere un tag.
 
-- **Utilizzare il menu di scelta rapida**: il menu di scelta rapida fornisce opzioni per tagliare, copiare o incollare l’elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
+- **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
 
-- **Trascinare gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
+- **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
 
 
 >[!NOTE]
 >
-> Se un utente abilita la Visualizzazione tag dall’editor web, questa rimane abilitata anche in tutte le sessioni. Ciò significa che non è necessario abilitare nuovamente la visualizzazione Tag per accedervi in un secondo momento. Il valore predefinito per la visualizzazione Tag per la sessione di un nuovo utente è determinato dalla proprietà tagsView nel file ui\_config.json. Per ulteriori dettagli, vedi *Configura il valore predefinito per la vista Tag* sezione in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> Se un utente abilita la Visualizzazione tag dall’editor web, questa rimane abilitata anche in tutte le sessioni. Ciò significa che non è necessario abilitare nuovamente la visualizzazione Tag per accedervi in un secondo momento. Il valore predefinito per la visualizzazione Tag per la sessione di un nuovo utente è determinato dalla proprietà tagsView nel file ui\_config.json. Per ulteriori dettagli, consulta la sezione *Configurare il valore predefinito per la visualizzazione Tag* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-**Attiva/Disattiva rilevamento modifiche** ![](images/track-change-icon.svg)
+**Attiva/Disattiva revisioni** ![](images/track-change-icon.svg)
 
 Per tenere traccia di tutti gli aggiornamenti apportati a un documento, attivare la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Anche in questo caso, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia aggiunta ed eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
 
@@ -642,7 +642,7 @@ La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle b
 
 Un caso d’uso tipico per il tracciamento delle modifiche in un documento può essere la revisione tra pari. È possibile abilitare la funzione di rilevamento delle modifiche e condividere il documento per la revisione; il revisore apporta quindi le modifiche con la funzione di rilevamento delle modifiche ATTIVA. Quando ricevi il documento, dovresti disporre di un meccanismo per visualizzare gli aggiornamenti suggeriti e di un modo pratico per accettare o rifiutare le modifiche.
 
-Le guide AEM forniscono la funzione Tracked Changes (Modifiche tracciate) che contiene informazioni sugli aggiornamenti effettuati nel documento. La funzione Tracked Changes (Modifiche tracciate) fornisce informazioni su quali aggiornamenti sono stati apportati, chi li ha apportati e in che momento. Utilizzando la funzione Revisioni, è inoltre possibile accettare o rifiutare facilmente gli aggiornamenti suggeriti nel documento.
+AEM Guides fornisce la funzione Tracked Changes (Modifiche tracciate) che contiene informazioni sugli aggiornamenti effettuati nel documento. La funzione Tracked Changes (Modifiche tracciate) fornisce informazioni su quali aggiornamenti sono stati apportati, chi li ha apportati e in che momento. Utilizzando la funzione Revisioni, è inoltre possibile accettare o rifiutare facilmente gli aggiornamenti suggeriti nel documento.
 
 Per accedere alla funzione, fate clic sull&#39;icona Revisioni tracciate nel pannello di destra.
 
@@ -654,37 +654,37 @@ Per accettare o rifiutare tutte le modifiche con un solo clic, selezionare **Acc
 
 >[!NOTE]
 >
-> La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, vedi [Anteprima](web-editor-views.md#preview-mode-id19AAGL00163) modalità.
+> La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, vedere la modalità [Anteprima](web-editor-views.md#preview-mode-id19AAGL00163).
 
 **Unisci** - ![](images/merge-icon.svg)
 
 Quando si lavora in un ambiente con più autori, diventa difficile tenere traccia delle modifiche apportate da altri autori in un argomento o in una mappa. La funzione di unione consente di controllare non solo le modifiche, ma anche le modifiche mantenute nell&#39;ultima versione del documento.
 
-**Unisci file di argomenti**
+**Unisci file argomenti**
 
 Per unire le modifiche in un argomento, effettuare le seguenti operazioni:
 
 1. Aprire un argomento nell&#39;Editor Web.
 
-1. Clic **Unisci**.
+1. Fare clic su **Unisci**.
 
    Viene visualizzata la finestra di dialogo Unisci.
 
    ![](images/merge-changes-in-topic.png){width="550" align="left"}
 
-1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nel repository.
+1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
 
 1. Selezionare una versione del file con cui si desidera confrontare la versione corrente del file.
 
 1. In Opzioni, scegliere:
 
-   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
+   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti del contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
 
-   - **Ripristina versione selezionata**: questa opzione ripristina la versione corrente del documento alla versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
+   - **Ripristina versione selezionata**: questa opzione consente di ripristinare la versione corrente del documento nella versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
-1. Se hai selezionato **Traccia modificata dalla versione selezionata** , quindi tutte le modifiche dalla versione selezionata vengono visualizzate nella funzione Tracked Changes (Modifiche tracciate) del pannello di destra.
+1. Se hai selezionato l&#39;opzione **Rileva modificato da versione selezionata**, tutte le modifiche apportate alla versione selezionata vengono visualizzate nella funzione Revisioni del pannello di destra.
 
    Potete scegliere di accettare o rifiutare tutti i commenti dal pannello Revisioni tracciate o accettare o rifiutare un singolo commento.
 
@@ -695,25 +695,25 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
 1. Aprire una mappa nell&#39;Editor Web.
 
-1. Clic **Unisci**.
+1. Fare clic su **Unisci**.
 
    Viene visualizzata la finestra di dialogo Unisci.
 
    ![](images/merge-changes-in-map.png){width="550" align="left"}
 
-1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nel repository.
+1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
 
 1. Selezionare una versione del file con cui si desidera confrontare la versione corrente del file.
 
 1. In Opzioni, scegliere:
 
-   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti di contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
+   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti del contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
 
-   - **Ripristina versione selezionata**: questa opzione ripristina la versione corrente del documento alla versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
+   - **Ripristina versione selezionata**: questa opzione consente di ripristinare la versione corrente del documento nella versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
 
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
-   1. Se hai selezionato **Traccia modificata dalla versione selezionata** , quindi tutte le modifiche dalla versione selezionata vengono visualizzate nel pannello Modifiche tracciate \(a destra\).
+   1. Se hai selezionato l&#39;opzione **Rileva modificato da versione selezionata**, tutte le modifiche apportate alla versione selezionata vengono visualizzate nel pannello Revisioni \(a destra\).
 
       Potete scegliere di accettare o rifiutare tutte le modifiche dal pannello Revisioni tracciate oppure accettare o rifiutare singole modifiche nel file di mappa.
 
@@ -721,7 +721,7 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 **Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
 
 
-Il **Cronologia versioni** nell&#39;editor Web consente di controllare le versioni disponibili dei file DITA, confrontarli e ripristinare qualsiasi versione dall&#39;editor stesso.
+La funzionalità **Cronologia versioni** nell&#39;editor Web consente di controllare le versioni disponibili dei file DITA, confrontarli e ripristinare qualsiasi versione dall&#39;editor stesso.
 
 Nella cronologia delle versioni è possibile confrontare il contenuto e i metadati della versione corrente (che può anche essere una copia di lavoro) con qualsiasi versione precedente dello stesso file. Puoi anche visualizzare le etichette e i commenti per le versioni confrontate.
 
@@ -729,14 +729,14 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
 1. Aprire un argomento nell&#39;Editor Web.
 
-1. Clic **Cronologia versioni**.
+1. Fare clic su **Cronologia versioni**.
 
-   Il **Cronologia versioni** viene visualizzata.
+   Viene visualizzata la finestra di dialogo **Cronologia versioni**.
 
    ![Finestra di dialogo Cronologia versioni](images/version-history-dialog-web-editor.png){width="550" align="left"}
-   *Visualizzare in anteprima le modifiche apportate alle diverse versioni di un argomento.*
+   *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
-1. Scegliere una versione dell&#39;argomento che si desidera confrontare o ripristinare in **Confronta con** elenco a discesa.
+1. Scegliere una versione dell&#39;argomento da confrontare o ripristinare nell&#39;elenco a discesa **Confronta con**.
 
    >[!NOTE]
    >
@@ -744,13 +744,13 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
 
 
-1. Abilita **Visualizza etichette e commenti** per visualizzare le etichette e i commenti applicati alle versioni corrente e confrontata.
+1. Abilita l&#39;opzione **Visualizza etichette e commenti** per visualizzare le etichette e i commenti applicati alle versioni correnti e confrontate.
 
-1. È inoltre possibile visualizzare le seguenti informazioni in **Cronologia versioni** finestra di dialogo:
+1. È inoltre possibile visualizzare le informazioni seguenti nella finestra di dialogo **Cronologia versioni**:
 
-   **Anteprima** scheda: il contenuto appena aggiunto è in verde e il contenuto eliminato è in rosso.
+   Scheda **Anteprima**: il contenuto appena aggiunto è in verde e il contenuto eliminato in rosso.
 
-   **Metadati** scheda: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
+   Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
    ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -762,18 +762,18 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
 
 
-1. Dopo aver scelto una versione dall’elenco a discesa, la **Opzione Ripristina versione selezionata** è reso disponibile. Nella finestra di anteprima vengono visualizzate le differenze tra la versione corrente e la versione selezionata dell&#39;argomento.
+1. Dopo aver scelto una versione dall&#39;elenco a discesa, è disponibile l&#39;opzione **Ripristina versione selezionata**. Nella finestra di anteprima vengono visualizzate le differenze tra la versione corrente e la versione selezionata dell&#39;argomento.
 
 
-1. Clic **Ripristina versione selezionata** per ripristinare la copia di lavoro con la versione selezionata dell&#39;argomento.
+1. Fai clic su **Ripristina la versione selezionata** per ripristinare la copia di lavoro con la versione selezionata dell&#39;argomento.
 
    Viene visualizzata la finestra di dialogo Ripristina versione.
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Facoltativo*\) Fornisci un motivo per ripristinare una versione precedente. È inoltre possibile creare una nuova versione della copia di lavoro attiva dell&#39;argomento.
+1. \(*Facoltativo*\) Fornire un motivo per ripristinare una versione precedente. È inoltre possibile creare una nuova versione della copia di lavoro attiva dell&#39;argomento.
 
-1. Clic **Conferma.**
+1. Fai clic su **Conferma.**
 
    La copia di lavoro del file viene ripristinata alla versione selezionata. Se si sceglie di creare una nuova versione della copia di lavoro attiva, viene creata anche una nuova versione del file con tutte le modifiche di lavoro.
 
@@ -782,21 +782,21 @@ Quando si ripristina una versione precedente, viene visualizzato un segnale visi
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
-**Gestione etichette versione** -  ![](images/version-label-icon.svg)
+**Gestione etichette versione** - ![](images/version-label-icon.svg)
 
 Le etichette consentono di identificare la fase in cui un particolare argomento si trova nel DDLC \(Document Development Life Cycle\). Ad esempio, quando si lavora su un argomento, è possibile impostare l&#39;etichetta come &quot;Approvato&quot;. Quando un argomento viene pubblicato e reso disponibile ai clienti, puoi assegnare l’etichetta &quot;Rilasciato&quot; a tale argomento.
 
-Le guide AEM consentono di specificare etichette in formato testo libero o di utilizzare un insieme di etichette predefinite. L’etichetta personalizzata consente a qualsiasi autore nel sistema di specificare un’etichetta in base alla propria scelta. Questo offre flessibilità, ma introduce etichette non coerenti nel sistema. Per risolvere questo problema, gli amministratori possono configurare un set di etichette predefinite. Per ulteriori informazioni sulla configurazione di etichette predefinite, consulta *Configurazione e personalizzazione dell&#39;editor Web XML* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+AEM Guides consente di specificare etichette in formato testo libero o di utilizzare un set di etichette predefinite. L’etichetta personalizzata consente a qualsiasi autore nel sistema di specificare un’etichetta in base alla propria scelta. Questo offre flessibilità, ma introduce etichette non coerenti nel sistema. Per risolvere questo problema, gli amministratori possono configurare un set di etichette predefinite. Per ulteriori informazioni sulla configurazione delle etichette predefinite, vedere *Configurare e personalizzare l&#39;editor Web XML* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 Queste etichette vengono visualizzate sotto forma di elenco a discesa agli autori ogni volta che devono specificare un’etichetta. In questo modo nel sistema verranno utilizzate solo etichette coerenti e predefinite.
 
-Esistono diversi metodi per applicare le etichette agli argomenti: [Cronologia versioni](web-editor-use-label.md) pannello nell’interfaccia di Assets, [Linee di base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) e Web Editor. La funzione Etichetta versione nell’editor web consente agli autori di assegnare etichette ai propri argomenti in modo rapido e semplice.
+Esistono diversi metodi tramite i quali è possibile applicare etichette agli argomenti: [Pannello Cronologia versioni](web-editor-use-label.md) nell&#39;interfaccia utente di Assets, [Interfaccia base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) e Editor Web. La funzione Etichetta versione nell’editor web consente agli autori di assegnare etichette ai propri argomenti in modo rapido e semplice.
 
 Per aggiungere etichette all&#39;argomento dall&#39;editor Web, effettuare le seguenti operazioni:
 
 1. Aprire un argomento nell&#39;Editor Web.
 
-1. Clic **Etichetta versione**.
+1. Fare clic su **Etichetta versione**.
 
    Viene visualizzata la finestra di dialogo Gestione etichette versione.
 
@@ -810,7 +810,7 @@ Per aggiungere etichette all&#39;argomento dall&#39;editor Web, effettuare le se
 
    >[!NOTE]
    >
-   > Se un&#39;etichetta è già applicata a una versione, viene visualizzata accanto al numero di versione nell&#39;elenco a discesa e sotto l&#39;elenco Seleziona versione. È possibile rimuovere un&#39;etichetta esistente facendo clic sul pulsante \(**x**\) accanto all&#39;etichetta.
+   > Se un&#39;etichetta è già applicata a una versione, viene visualizzata accanto al numero di versione nell&#39;elenco a discesa e sotto l&#39;elenco Seleziona versione. Per rimuovere un&#39;etichetta esistente, fare clic sull&#39;icona \(**x**\) accanto all&#39;etichetta.
 
 1. Se l&#39;amministratore ha definito un elenco di etichette, viene visualizzato un elenco a discesa delle etichette da cui è possibile scegliere le etichette da applicare. Puoi selezionare più etichette dall’elenco a discesa.
 
@@ -820,12 +820,12 @@ Per aggiungere etichette all&#39;argomento dall&#39;editor Web, effettuare le se
    >
    > Non è possibile applicare la stessa etichetta a più versioni di un argomento. Se si tenta di associare un&#39;etichetta esistente, è possibile rimuoverla dalla versione esistente e applicarla alla versione selezionata dell&#39;argomento.
 
-1. Clic **Aggiungi etichetta**.
+1. Fare clic su **Aggiungi etichetta**.
 
-1. Nel messaggio di conferma Applica etichetta, seleziona la **Sposta etichetta** per spostare le etichette da una versione esistente alla versione selezionata. Se non si seleziona questa opzione e sono presenti etichette assegnate a una versione diversa dell&#39;argomento, tali etichette non verranno spostate nella versione dell&#39;argomento selezionato. Tali etichette vengono ignorate nel processo di applicazione delle etichette.
+1. Nel messaggio di conferma Applica etichetta, selezionare l&#39;opzione **Sposta etichetta** per spostare le etichette da una versione esistente alla versione selezionata. Se non si seleziona questa opzione e sono presenti etichette assegnate a una versione diversa dell&#39;argomento, tali etichette non verranno spostate nella versione dell&#39;argomento selezionato. Tali etichette vengono ignorate nel processo di applicazione delle etichette.
 
 
-**Crea attività di revisione** -  ![](images/create-review-task-icon.svg)
+**Crea attività di revisione** - ![](images/create-review-task-icon.svg)
 
 È possibile creare un&#39;attività di revisione dell&#39;argomento corrente o un file di mapping direttamente dall&#39;editor Web. Aprire il file per il quale si desidera creare l&#39;attività di revisione e fare clic su Crea attività di revisione per avviare il processo di creazione della revisione.
 
@@ -833,11 +833,11 @@ Per aggiungere etichette all&#39;argomento dall&#39;editor Web, effettuare le se
 >
 > Puoi anche creare un’attività di revisione dal pannello Revisione \(a destra\).
 
-Seguire le istruzioni fornite nella [Rivedi argomenti o mappe](review.md#) per ulteriori dettagli.
+Segui le istruzioni fornite in [Rivedi argomenti o mappe](review.md#) per ulteriori dettagli.
 
 ## Pannello sinistro {#id2051EA0M0HS}
 
-Il pannello sinistro è persistente. Per espanderla o comprimerla, fai clic sull’icona Espandi barra laterale \(![](images/sidebar-expand-icon.svg)\). Nella visualizzazione espansa vengono visualizzati i nomi delle icone visualizzate come descrizioni comandi nella visualizzazione compressa.
+Il pannello sinistro è persistente. È possibile espanderla o comprimerla facendo clic sull&#39;icona Espandi barra laterale \(![](images/sidebar-expand-icon.svg)\). Nella visualizzazione espansa vengono visualizzati i nomi delle icone visualizzate come descrizioni comandi nella visualizzazione compressa.
 
 >[!NOTE]
 >
@@ -845,7 +845,7 @@ Il pannello sinistro è persistente. Per espanderla o comprimerla, fai clic sull
 
 Il pannello sinistro consente di accedere alle seguenti funzioni:
 
-**Preferiti** -  ![](images/favorite-collections.svg)
+**Preferiti** - ![](images/favorite-collections.svg)
 
 Se si lavora su un insieme di file o cartelle, è possibile aggiungerli all&#39;elenco dei preferiti per accedervi rapidamente. L&#39;elenco Preferiti mostra l&#39;elenco dei documenti aggiunti e altri elenchi accessibili al pubblico dei documenti preferiti degli altri utenti.
 
@@ -853,28 +853,28 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per creare un elenco o una raccolta preferita, fai clic sull’icona + accanto al pannello Preferiti per visualizzare il registro dei dati della nuova raccolta:
 
 ![](images/favorite-new-collection.PNG){width="300" align="left"}
 
-Immetti un titolo e una descrizione per la raccolta preferita da creare. Se si seleziona **Pubblico**, quindi il preferito viene mostrato anche ad altri utenti.
+Immetti un titolo e una descrizione per la raccolta preferita da creare. Se selezioni **Pubblico**, questo preferito verrà mostrato anche ad altri utenti.
 
 Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguenti:
 
-- Nella vista Archivio, individua il file o la cartella desiderata e fai clic sul pulsante *Opzioni* per aprire il menu di scelta rapida e scegliere **Aggiungi ai preferiti**. Nella finestra di dialogo Aggiungi ai preferiti, puoi scegliere di aggiungere il file o la cartella a un preferito esistente o crearne uno nuovo.
+- Passare al file o alla cartella richiesta nella visualizzazione repository, fare clic sull&#39;icona *Opzioni* per aprire il menu di scelta rapida e scegliere **Aggiungi a Preferiti**. Nella finestra di dialogo Aggiungi ai preferiti, puoi scegliere di aggiungere il file o la cartella a un preferito esistente o crearne uno nuovo.
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida. Scegli **Aggiungi a** > **Preferiti** per aggiungere il file all&#39;elenco dei preferiti.
+- Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida. Scegliere **Aggiungi a** > **Preferiti** per aggiungere il file all&#39;elenco dei preferiti.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 >[!NOTE]
 >
-> - Per rimuovere un elemento dall&#39;elenco Preferiti, selezionare l&#39;icona Opzioni accanto all&#39;elemento in un insieme Preferiti e scegliere **Rimuovi dai preferiti**.
-> - Per visualizzare l&#39;anteprima del file senza aprirlo, selezionare un file, quindi selezionare **Anteprima** dal menu Opzioni.
+> - Per rimuovere un elemento dall&#39;elenco Preferiti, selezionare l&#39;icona Opzioni accanto all&#39;elemento in una raccolta Preferiti e scegliere **Rimuovi dai Preferiti**.
+> - Per visualizzare l&#39;anteprima del file senza aprirlo, selezionare un file e quindi **Anteprima** dal menu Opzioni.
 
 
 
@@ -886,31 +886,33 @@ Per aggiungere un file alla raccolta preferita, utilizzare uno dei metodi seguen
 - **Rinomina**: rinomina la raccolta selezionata.
 - **Elimina**: elimina la raccolta selezionata.
 - **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
-- **Visualizza nell’interfaccia utente Assets**: mostra il contenuto del file o della cartella nell’interfaccia utente di Assets.
+- **Visualizza nell&#39;interfaccia utente di Assets**: visualizza il contenuto del file o della cartella nell&#39;interfaccia utente di Assets.
 
 >[!NOTE]
 >
 > Puoi anche aggiornare l’elenco utilizzando l’icona Aggiorna nella parte superiore.
 
 
-**Vista archivio** - ![](images/Repository_icon.svg)
+**Visualizzazione archivio** - ![](images/Repository_icon.svg)
 
 Facendo clic sull’icona Vista archivio, si ottiene un elenco di file e cartelle disponibili in DAM. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il cursore del mouse su un file, potete visualizzare il titolo e il nome del file come descrizione comando.
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 
-Vengono caricati 75 file alla volta. Ogni volta che fai clic su **Carica di più**... vengono caricati 75 file e il pulsante smette di essere visualizzato quando tutti i file sono stati elencati. Questo caricamento batch è efficiente e consente di accedere ai file più rapidamente rispetto al caricamento di tutti i file esistenti in una cartella.
+Vengono caricati 75 file alla volta. Ogni volta che fai clic su **Carica altri**... vengono caricati 75 file e il pulsante non viene più visualizzato quando tutti i file sono stati elencati. Questo caricamento batch è efficiente e consente di accedere ai file più rapidamente rispetto al caricamento di tutti i file esistenti in una cartella.
 
 Puoi passare facilmente al file richiesto all’interno di DAM e aprirlo nell’editor web. Se si dispone dell&#39;accesso necessario per modificare il file, è possibile eseguire questa operazione.
 
-È inoltre possibile fare clic su un file audio o video e riprodurlo nell&#39;editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della velocità di riproduzione o la visualizzazione delle immagini nell&#39;immagine.
+È inoltre possibile fare clic su un file audio o video e riprodurlo nell&#39;editor Web. È possibile modificare il volume o
+la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della riproduzione
+o di visualizzare immagini nell&#39;immagine.
 
 
 
-Seleziona una mappa e premi Invio o fai doppio clic per aprirla nella **Vista mappa**. Per ulteriori dettagli, vedi **Vista mappa** descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione. Selezionare un argomento e premere Invio o fare doppio clic per aprirlo nel [Area di modifica dei contenuti](#id2051EB000UI). La possibilità di navigare e aprire un file direttamente dall’editor web consente di risparmiare tempo e di aumentare la produttività.
+Selezionare una mappa e premere Invio o fare doppio clic per aprirla nella **Vista mappa**. Per ulteriori dettagli, vedere la descrizione della funzionalità **Vista mappa** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS). Selezionare un argomento e premere Invio o fare doppio clic per aprirlo nell&#39;[area di modifica dei contenuti](#id2051EB000UI). La possibilità di navigare e aprire un file direttamente dall’editor web consente di risparmiare tempo e di aumentare la produttività.
 
 **Ricerca filtro**
 
@@ -921,61 +923,61 @@ L’editor web fornisce filtri migliorati per la ricerca di testo. È possibile 
 
 *Applicare i filtri per cercare i file contenenti il testo`general purpose.`*
 
-Seleziona la **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire la finestra a comparsa Filtra per.
+Seleziona l&#39;icona **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire il popup Filtra per.
 
 >[!NOTE]
 >
-> Quando si esegue una ricerca in un testo o si filtra un file, sulla **Ricerca filtro**  \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per indicare che ci si trova nel pannello di ricerca e che sono stati applicati alcuni filtri.
+> Quando si esegue una ricerca in un testo o si filtra un file, sull&#39;icona \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) di **Ricerca filtro** viene visualizzato un punto blu per indicare che si trova nel pannello di ricerca e che sono stati applicati alcuni filtri.
 
 
 Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manager, sono disponibili le seguenti opzioni:
 
-- **File DITA**: puoi cercare tutti **Argomenti DITA** e **Mappe DITA** presente nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
-- **File non DITA**: puoi cercare **File Ditaval**,  **File immagine**, **Multimedia**, **Documenti**, e **Json** nel percorso selezionato.
+- **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
+- **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **Json** nel percorso selezionato.
 
 ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
-*Utilizzare i filtri rapidi per cercare file DITA e non DITA.*
+*Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
 **Filtro avanzato**
 
-Seleziona la **Filtro avanzato** ![icona filtro avanzato](images/advanced-filter-gear-icon.svg)per visualizzare **Filtro avanzato** .
+Seleziona l&#39;icona **Filtro avanzato** ![icona filtro avanzato](images/advanced-filter-gear-icon.svg)per visualizzare la finestra di dialogo **Filtro avanzato**.
 
-È possibile visualizzare le seguenti opzioni sotto **Generale** e **Avanzate** schede.
+Puoi visualizzare le seguenti opzioni nelle schede **Generale** e **Avanzate**.
 
 ![finestra di dialogo filtro avanzato](images/repository-filter-search-advanced.png) {width="800" align="left"}
 
 
 **Generale**
 
-- **I risultati della ricerca saranno i seguenti**: cerca del testo nei file presenti nel percorso selezionato dell’archivio Adobe Experience Manager. La ricerca viene eseguita nel titolo, nel nome del file e nel contenuto dei file.
+- **I risultati della ricerca saranno i seguenti**: cercare del testo nei file presenti nel percorso selezionato dell&#39;archivio Adobe Experience Manager. La ricerca viene eseguita nel titolo, nel nome del file e nel contenuto dei file.
 
-È sincronizzato con la casella di ricerca nella finestra del repository. Ad esempio, se si digita `general purpose` nella casella di ricerca del pannello repository, viene visualizzato anche nel **Filtro avanzato** e viceversa.
+È sincronizzato con la casella di ricerca nella finestra del repository. Se ad esempio si digita `general purpose` nella casella di ricerca nel pannello del repository, verrà visualizzato anche nella finestra di dialogo **Filtro avanzato** e viceversa.
 
-- **Cerca in**: seleziona il percorso in cui desideri eseguire la ricerca nei file presenti nell’archivio Adobe Experience Manager.
+- **Cerca in**: selezionare il percorso in cui si desidera eseguire la ricerca nei file presenti nell&#39;archivio di Adobe Experience Manager.
 
-- **Ritirato da**: è possibile cercare i file estratti dall&#39;utente specificato.
-- **Ultima modifica**: puoi cercare i file che sono stati modificati l’ultima volta dopo una data selezionata, ma prima di una data selezionata.
-- **Modificato prima del**: puoi cercare i file che sono stati modificati l’ultima volta prima di una data selezionata.
-- **Intervallo temporale**: puoi anche cercare i file che sono stati modificati l’ultima volta nelle ultime due ore, l’ultima settimana, l’ultimo mese o l’ultimo anno.
-- **Tag**: puoi cercare file a cui sono applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
+- **Estratto da**: è possibile cercare i file estratti dall&#39;utente specificato.
+- **Ultima modifica**: puoi cercare i file che sono stati modificati l&#39;ultima volta dopo una data selezionata, ma prima di una data selezionata.
+- **Modificato prima di**: puoi cercare i file che sono stati modificati l&#39;ultima volta prima di una data selezionata.
+- **Intervallo di tempo**: è inoltre possibile cercare i file che sono stati modificati l&#39;ultima volta nelle ultime due ore, l&#39;ultima settimana, l&#39;ultimo mese o l&#39;ultimo anno.
+- **Tag**: puoi cercare i file a cui sono applicati tag specifici. Puoi digitare il tag o selezionarlo dall’elenco a discesa.
 
 **Avanzate**
 
 - **Elementi DITA**: è inoltre possibile cercare valori specifici negli attributi degli elementi DITA specificati.
-   - Seleziona **Aggiungi elemento** ![icona aggiungi](images/Add_icon.svg) per aggiungere elementi, attributi e valori.
+   - Seleziona **Aggiungi elemento** ![aggiungi icona](images/Add_icon.svg) per aggiungere elementi, attributi e valori.
    - Applica i filtri selezionati.
 
-- Seleziona **Cancella tutto** per cancellare tutti i filtri applicati.
+- Selezionare **Cancella tutto** per cancellare tutti i filtri applicati.
 
 
-- Seleziona la **Chiudi filtro** ![icona chiudi](images/close-icon.svg) per chiudere il filtro e tornare alla visualizzazione struttura dell&#39;archivio.
+- Seleziona l&#39;icona **Chiudi filtro** ![Chiudi icona](images/close-icon.svg) per chiudere il filtro e tornare alla visualizzazione struttura dell&#39;archivio.
 
   >[!NOTE]
   >
-  >L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli vedi *Configurare i filtri di testo* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+  >L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli, consulta la sezione *Configurare i filtri di testo* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
   >
-  >Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, i file contenenti il testo `general purpose` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
+  >Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. I file contenenti il testo `general purpose` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
 
 
 
@@ -986,26 +988,26 @@ Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azi
 
 **Opzioni per una cartella**
 
-È possibile eseguire le azioni seguenti utilizzando il menu Opzioni disponibile per un *cartella* nella vista Archivio:
+Puoi eseguire le seguenti azioni utilizzando il menu Opzioni disponibile per una *cartella* nella Vista archivio:
 
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
 
-- **Crea**: consente di creare un nuovo argomento DITA, una mappa DITA o una cartella. Per ulteriori dettagli, vedi  **Creare argomenti dalla vista Archivio** procedura in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+- **Crea**: crea un nuovo argomento DITA, una mappa DITA o una cartella. Per ulteriori dettagli, vedere la procedura **Crea argomenti dalla vista archivio** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
 
 
-- **Carica risorse**: carica un file dal sistema locale alla cartella selezionata nell’archivio di Adobe Experience Manager. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
+- **Carica Assets**: carica un file dal sistema locale alla cartella selezionata nell&#39;archivio Adobe Experience Manager. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
   Puoi selezionare una cartella in cui desideri caricare il file e visualizzare anche un’anteprima dell’immagine. Se si desidera rinominare il file, è possibile farlo nella casella di testo Nome file. Fai clic su carica per completare il processo di caricamento dei file. Se hai trascinato e rilasciato un file di immagine su un argomento, il file di immagine viene aggiunto all’articolo e caricato.
 
-  Se l’amministratore ha abilitato l’opzione UUIDs in *XMLEditorConfig*, quindi visualizzerai l’UUID dell’immagine caricata in **Sorgente** proprietà.
+  Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l&#39;UUID dell&#39;immagine caricata verrà visualizzato nella proprietà **Source**.
 
   ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
 
-- **Trova file nella cartella**: sposta lo stato attivo sulla ricerca nel repository in cui è possibile immettere il termine di ricerca. La ricerca viene eseguita nella cartella selezionata nell’archivio. È inoltre possibile applicare un filtro per restituire file DITA, file di immagine o entrambi.
+- **Trova file nella cartella**: sposta lo stato attivo sulla ricerca del repository in cui è possibile immettere il termine di ricerca. La ricerca viene eseguita nella cartella selezionata nell’archivio. È inoltre possibile applicare un filtro per restituire file DITA, file di immagine o entrambi.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
 
@@ -1013,16 +1015,16 @@ Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azi
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Comprimi tutto**: comprime tutte le cartelle aperte nel repository e mostra solo le cartelle a livello principale.
+- **Comprimi tutto**: comprimi tutte le cartelle aperte nel repository e mostra solo le cartelle a livello di radice.
 
   >[!NOTE]
   >
-  > Utilizza il **\>** accanto a una cartella per espanderla.
+  > Utilizza l&#39;icona **\>** accanto a una cartella per espanderla.
 
 - **Aggiungi ai preferiti**: aggiunge la cartella selezionata ai preferiti. È possibile scegliere di aggiungerlo a una raccolta Preferiti esistente o nuova.
 
 - **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
-- **Visualizza nell’interfaccia utente Assets**: mostra il contenuto della cartella nell’interfaccia utente Assets.
+- **Visualizza nell&#39;interfaccia utente di Assets**: visualizza il contenuto della cartella nell&#39;interfaccia utente di Assets.
 
 **Opzioni per un file**
 
@@ -1033,38 +1035,38 @@ Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni
 - Anteprima
 - Sposta in
 - Rinomina
-- Eliminare
+- Elimina
 - Copiare
 - Comprimi tutto
 - Aggiungi ai preferiti
 - Proprietà
-- Visualizza nell’interfaccia utente Assets
+- Visualizza nell’interfaccia di Assets
 
 ![menu opzioni di un file nella vista archivio](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
-- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nel [Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
+- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nell&#39;[Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
 
-- **Duplica**: utilizza questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
-- **Estrai**: blocca il file selezionato per la modifica. Per un file bloccato, questa opzione diventa **Check-In**.
+- **Duplicato**: utilizzare questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
+- **Estrai**: ottieni un blocco per il file selezionato per la modifica. Per un file bloccato, questa opzione diventa **Archivia**.
 
   >[!NOTE]
   >
   > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
   > - Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
-- **Anteprima**: ottieni un’anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, puoi selezionarlo per aprirlo in una nuova scheda. Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere **Anteprima** , è possibile selezionare l&#39;icona di chiusura o fare clic in un punto qualsiasi all&#39;esterno del riquadro.
+- **Anteprima**: consente di ottenere un&#39;anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, è possibile selezionarlo per aprirlo in una nuova scheda. Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere il riquadro **Anteprima**, è possibile selezionare l&#39;icona di chiusura oppure fare clic in un punto qualsiasi all&#39;esterno del riquadro.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
-- **Rinomina**: utilizza questa opzione per rinominare il file selezionato. Immetti il nome del nuovo file in **Rinomina risorsa** .
+- **Rinomina**: utilizzare questa opzione per rinominare il file selezionato. Immettere il nome del nuovo file nella finestra di dialogo **Rinomina risorsa**.
    - È possibile rinominare un file di qualsiasi tipo.
    - Impossibile modificare l&#39;estensione di un file.
    - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
 
-- **Sposta in**: utilizza questa opzione per spostare il file selezionato in un’altra cartella.
-   - È possibile digitare il nome della cartella di destinazione o scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
+- **Sposta in**: utilizzare questa opzione per spostare il file selezionato in un&#39;altra cartella.
+   - È possibile digitare il nome della cartella di destinazione oppure scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
    - È possibile spostare un file di qualsiasi tipo in qualsiasi destinazione all&#39;interno della cartella Contenuto.
    - Due file non possono avere lo stesso nome. Pertanto, non è possibile spostare un file in una cartella in cui esiste già un file con lo stesso nome.
 
@@ -1078,7 +1080,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   **Scenari di esclusione**
 
-  Le guide AEM non consentono di rinominare o spostare un file nei seguenti scenari:
+  AEM Guides non consente di rinominare o spostare un file nei seguenti scenari:
 
    - Non è possibile spostare o rinominare un file se fa parte di un flusso di lavoro di revisione o di traduzione.
 
@@ -1086,7 +1088,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   >[!NOTE]
   >
-  > Se l’amministratore ti ha assegnato le autorizzazioni per una cartella, solo allora **Rinomina** o **Sposta in** vengono visualizzate le opzioni.
+  > Se l&#39;amministratore ti ha concesso le autorizzazioni per una cartella, verranno visualizzate solo le opzioni **Rinomina** o **Sposta in**.
 
   <details>
     <summary> Servizi cloud </summary>
@@ -1096,7 +1098,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 
 
-- **Elimina**: utilizza questa opzione per eliminare il file selezionato. Viene visualizzata una richiesta di conferma prima di eliminare il file.
+- **Elimina**: utilizzare questa opzione per eliminare il file selezionato. Viene visualizzata una richiesta di conferma prima di eliminare il file.
 
    - Viene visualizzata una richiesta di conferma prima di eliminare il file.
    - Se non viene fatto riferimento al file da alcun altro file, questo viene eliminato e viene visualizzato un messaggio di operazione riuscita.
@@ -1104,16 +1106,16 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
      >[!NOTE]
      >
-     > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file estratti, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+     > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file estratti, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, vedere *Impedire l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se il file viene aggiunto a un insieme Preferiti, **Forza eliminazione** viene visualizzata una finestra di dialogo che puoi eliminare con forza.
-   - Se si fa riferimento al file da un altro file, **Forza eliminazione** viene visualizzata una finestra di dialogo con il messaggio di conferma e puoi eliminare forzatamente il file:
+   - Se il file viene aggiunto a una raccolta di preferiti, viene visualizzata la finestra di dialogo **Forza eliminazione**, che è possibile eliminare forzatamente.
+   - Se il file è referenziato da un altro file, viene visualizzata la finestra di dialogo **Forza eliminazione** con il messaggio di conferma ed è possibile eliminare forzatamente il file:
 
      ![](images/options-menu-force-delete.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. Altrimenti, **Forza eliminazione** è disattivato e viene visualizzato un messaggio che informa che non disponi dell’autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, consulta *Impedisci l&#39;eliminazione dei file di riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+     > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. In caso contrario, **Forza eliminazione** è disabilitato e viene visualizzato un messaggio che informa che non si dispone dell&#39;autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, vedere *Impedire l&#39;eliminazione dei file di riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
    - Se si elimina un argomento di riferimento e si è aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
 
@@ -1123,47 +1125,47 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 - **Copia**: puoi scegliere tra le seguenti opzioni:
 
-   - **Copia UUID**: copia negli Appunti l’UUID del file selezionato.
+   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
 
-   - **Copia percorso**: copia negli Appunti il percorso completo del file selezionato.
+   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
-- **Comprimi tutto**: comprime tutti i file nel repository. Vengono visualizzate solo le cartelle di livello superiore nell’archivio.
-- **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
+- **Comprimi tutto**: comprimi tutti i file nel repository. Vengono visualizzate solo le cartelle di livello superiore nell’archivio.
+- **Aggiungi a**: è possibile scegliere tra le opzioni seguenti:
    - **Preferiti**: aggiunge il file selezionato ai preferiti. È possibile scegliere di aggiungerlo a una raccolta Preferiti esistente o nuova.
 
-   - **Contenuti riutilizzabili**: aggiunge il file selezionato all’elenco Contenuti riutilizzabili nel pannello a sinistra.
+   - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
-- **Proprietà**: consente di aprire la pagina delle proprietà del file selezionato. Per accedere a questa pagina delle proprietà dall’interfaccia utente Assets, seleziona un file e fai clic sull’icona Proprietà nella barra degli strumenti.
+- **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file selezionato. Puoi accedere a questa pagina delle proprietà anche dall’interfaccia utente di Assets selezionando un file e facendo clic sull’icona Proprietà nella barra degli strumenti.
 
-- **Apri dashboard mappa**: nel caso in cui il file selezionato sia una mappa DITA, questa opzione apre il dashboard della mappa.
+- **Apri dashboard mappe**: se il file selezionato è una mappa DITA, questa opzione apre il dashboard delle mappe.
 
-- **Modifica in ossigeno**: seleziona questa opzione per modificare il file selezionato nel plug-in del connettore ossigeno. Il file viene aperto per la modifica.
+- **Modifica in ossigeno**: selezionare questa opzione per modificare il file selezionato nel plug-in del connettore di ossigeno. Il file viene aperto per la modifica.
 
   >[!NOTE]
   >
-  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedi [Configurare l’opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
+  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
 
 
-- **Visualizza nell’interfaccia utente Assets**: da utilizzare per visualizzare un’anteprima di un file .dita/.xml nell’interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima di un file .dita/.xml nell&#39;interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 
-- **Scarica come PDF**: utilizza l’opzione per generare l’output PDF e scaricarlo.
+- **Scarica come PDF**: utilizza l&#39;opzione per generare l&#39;output di PDF e scaricarlo.
 
-- **Pubblica come**: utilizza l’opzione per pubblicare un argomento o gli elementi all’interno di un argomento in un frammento di contenuto.
+- **Publish As**: utilizzare l&#39;opzione per pubblicare un argomento o gli elementi di un argomento in un frammento di contenuto.
 
-- **Generazione rapida**: genera l’output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
+- **Generazione rapida**: genera l&#39;output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
 
-**Creare argomenti dalla vista Archivio**
+**Crea argomenti dalla visualizzazione archivio**
 
 È possibile scegliere di creare un nuovo argomento, una nuova mappa o una nuova cartella dall&#39;icona + accanto al pannello Repository o dal menu di scelta rapida di una cartella nella Vista repository.
 
-***Creare un argomento***
+***Crea un argomento***
 
-Quando scegli di *crea un nuovo argomento* dal menu viene visualizzata la seguente finestra di dialogo:
+Quando scegli di *creare un nuovo argomento* dal menu, viene visualizzata la seguente finestra di dialogo:
 
 ![](images/create-topic-dialog.png){width="300" align="left"}
 
-In **Crea nuovo argomento** , fornisci i seguenti dettagli:
+Nella finestra di dialogo **Crea nuovo argomento**, fornisci i dettagli seguenti:
 
 - Modello su cui verrà basato l&#39;argomento. Ad esempio, per una configurazione predefinita, puoi scegliere tra i modelli Vuoto, Concetto, DITAVAL, Riferimento, Task, Argomento e Risoluzione dei problemi.
 
@@ -1172,44 +1174,44 @@ In **Crea nuovo argomento** , fornisci i seguenti dettagli:
 - Percorso in cui salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
 - Titolo per l&#39;argomento.
 
-- *\(Facoltativo\)* Nome di file dell&#39;argomento. Il nome del file viene suggerito automaticamente in base al Titolo dell’argomento.
+- *\(Facoltativo\)* Il nome file dell&#39;argomento. Il nome del file viene suggerito automaticamente in base al Titolo dell’argomento.
 
   Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non verrà visualizzato come mostrato nella schermata seguente:
 
   ![](images/new-topic-without-filename.PNG){width="300" align="left"}
 
 
-Quando fai clic su **Crea**, l&#39;argomento viene creato nel percorso specificato. Inoltre, l&#39;argomento viene aperto nell&#39;Editor Web per la modifica.
+Quando si fa clic su **Crea**, l&#39;argomento viene creato nel percorso specificato. Inoltre, l&#39;argomento viene aperto nell&#39;Editor Web per la modifica.
 
 ***Creare una mappa DITA***
 
-Quando scegli di *creare una nuova mappa DITA*, viene visualizzata la seguente finestra di dialogo:
+Quando si sceglie di *creare una nuova mappa DITA*, viene visualizzata la seguente finestra di dialogo:
 
 ![](images/create-map-dialog.png){width="300" align="left"}
 
-In **Crea nuova mappa** , fornisci i seguenti dettagli:
+Nella finestra di dialogo **Crea nuova mappa**, fornisci i seguenti dettagli:
 
 - Modello su cui verrà basata la mappa. Ad esempio, per un&#39;impostazione predefinita, è possibile scegliere tra i modelli di mappe di Bookmap o di mappe DITA.
 
 - Percorso in cui si desidera salvare il file mappa. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
-- A **Titolo** per la mappa.
+- Un **Titolo** per la mappa.
 
-- *\(Facoltativo\)* Il nome file della mappa. Il nome del file viene suggerito automaticamente in base al Titolo della mappa.
+- *\(Facoltativo\)* Il nome file per la mappa. Il nome del file viene suggerito automaticamente in base al Titolo della mappa.
 
   Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non viene visualizzato.
 
 
-Quando fai clic su **Crea**, la mappa viene creata e aggiunta all’interno della cartella specificata nel campo Percorso. Inoltre, la mappa viene aperta nella vista Mappa. Potete aprire il file mappa nell&#39;Editor mappa e aggiungervi un argomento. Per ulteriori informazioni sull&#39;aggiunta di argomenti a un file di mapping, vedere [Creare una mappa](map-editor-create-map.md#).
+Quando fai clic su **Crea**, la mappa viene creata e aggiunta all&#39;interno della cartella specificata nel campo Percorso. Inoltre, la mappa viene aperta nella vista Mappa. Potete aprire il file mappa nell&#39;Editor mappa e aggiungervi un argomento. Per ulteriori informazioni sull&#39;aggiunta di argomenti a un file di mapping, vedere [Creare un mapping](map-editor-create-map.md#).
 
-***Creare una cartella***
+***Crea una cartella***
 
-Quando scegli di *crea una nuova cartella*, si ottiene il **Crea nuova cartella** finestra di dialogo:
+Quando scegli di *creare una nuova cartella*, viene visualizzata la finestra di dialogo **Crea nuova cartella**:
 
 ![](images/new-folder-dialog_cs.png){width="300" align="left"}
 
-Immetti un **Titolo** per la cartella, che viene automaticamente convertita nel nome della cartella. Percorso è il percorso in cui si desidera salvare il file di mappa. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso. Quando fai clic su **Crea**, la cartella viene creata e aggiunta all’interno della cartella da cui è stata eseguita l’opzione Crea cartella.
+Immetti un **Titolo** per la cartella, che viene automaticamente convertito nel nome della cartella. Percorso è il percorso in cui si desidera salvare il file di mappa. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso. Quando fai clic su **Crea**, la cartella viene creata e aggiunta all&#39;interno della cartella da cui è stata eseguita l&#39;opzione Crea cartella.
 
-**Vista mappa** -  ![](images/map-view-icon.svg)
+**Visualizzazione mappa** - ![](images/map-view-icon.svg)
 
 Quando si fa clic sull&#39;icona Vista mappa, viene visualizzato un elenco di argomenti all&#39;interno del file mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. È possibile fare doppio clic su qualsiasi file all&#39;interno della mappa per aprirlo nell&#39;editor Web.
 
@@ -1217,62 +1219,62 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
->In qualità di amministratore, puoi anche scegliere di visualizzare il nome del file della mappa principale che è attualmente aperto nella vista mappa. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+>In qualità di amministratore, puoi anche scegliere di visualizzare il nome del file della mappa principale che è attualmente aperto nella vista mappa. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 
 Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene visualizzato al centro della barra degli strumenti principale. Se il titolo è troppo lungo, vengono visualizzati dei puntini di sospensione e puoi anche passare il puntatore del mouse sul titolo per vedere il titolo completo nella descrizione comando.
 
 Quando definite gli attributi chiave per i riferimenti argomento o mappa, potete visualizzare il titolo, l&#39;icona corrispondente e il tasto nel pannello sinistro. La chiave viene visualizzata come `keys=<key-name>`.
 
-![tasti nella vista mappa](images/view-key-title-map-view.png){width="300" align="left"}
+![chiavi nella vista mappa](images/view-key-title-map-view.png){width="300" align="left"}
 
-Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, vedere [Modificare gli argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 
 Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del file di mappa:
 
 ![](images/options-menu-map-view_cs.png){width="550" align="left"}
 
-- **Modifica**: apri il file mappa per la modifica nell’Editor mappa avanzato.
+- **Modifica**: apri il file mappa per la modifica nell&#39;Editor mappe avanzato.
 
 - **Seleziona tutto**: seleziona tutti i file nella mappa.
 
 - **Cancella selezione**: deseleziona i file selezionati nella mappa.
 
-- **Pagamento e blocco**: estrai e blocca i file selezionati nella mappa.
+- **Estrai e blocca**: estrai e blocca i file selezionati nella mappa.
 
 - **Annulla estrazione e sblocco**: sblocca il file mappa e lo rende disponibile per la modifica. Le modifiche non vengono ripristinate alla versione precedente.
 
 - **Salva come nuova versione e sblocca**: crea una versione più recente e rilascia il blocco sui file selezionati nella mappa.
 
-- **Anteprima**: consente di aprire un&#39;anteprima del file mappa. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Anteprima**: consente di aprire un&#39;anteprima del file di mapping. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 
 - **Copia**: puoi scegliere tra le seguenti opzioni:
-   - **Copia UUID**: copia l’UUID del file di mappa negli Appunti.
+   - **Copia UUID**: copia l&#39;UUID del file di mappa negli Appunti.
    - **Copia percorso**: copia il percorso completo del file di mappa negli Appunti.
 
-- **Individua nell’archivio**: mostra la posizione del file di mappa nel repository \(o DAM\).
+- **Individua nel repository**: mostra la posizione del file di mapping nel repository \(o DAM\).
 
-- **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
+- **Aggiungi a**: è possibile scegliere tra le opzioni seguenti:
    - **Preferiti**: aggiunge il file mappa ai preferiti. È possibile scegliere di aggiungerlo a una raccolta Preferiti esistente o nuova.
 
-   - **Contenuti riutilizzabili**: aggiunge il file mappa all’elenco Contenuti riutilizzabili nel pannello a sinistra.
+   - **Contenuti riutilizzabili**: aggiunge il file di mapping all&#39;elenco Contenuti riutilizzabili nel pannello sinistro.
 
-- **Proprietà**: utilizza questa opzione per aprire la pagina delle proprietà del file di mappa. Per accedere a questa pagina delle proprietà dall’interfaccia utente Assets, seleziona un file e fai clic sull’icona Proprietà nella barra degli strumenti.
+- **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file di mappa. Puoi accedere a questa pagina delle proprietà anche dall’interfaccia utente di Assets selezionando un file e facendo clic sull’icona Proprietà nella barra degli strumenti.
 
-- **Apri dashboard mappa**: apri il dashboard delle mappe.
+- **Apri dashboard mappe**: apri il dashboard delle mappe.
 
-- **Visualizza nell’interfaccia utente Assets**: utilizza questa opzione per visualizzare un’anteprima del file di mappa nell’interfaccia utente Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
-- **Scarica mappa**: seleziona questa opzione per aprire **Scarica mappa** .
+- **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima del file mappa nell&#39;interfaccia utente di Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Scarica mappa**: selezionare questa opzione per aprire la finestra di dialogo **Scarica mappa**.
 
-In **Scarica mappa** , è possibile scegliere le opzioni seguenti:
+Nella finestra di dialogo **Scarica mappa** puoi scegliere le seguenti opzioni:
 
-- **Usa linea di base**: selezionare questa opzione per ottenere un elenco di baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [utilizzare la previsione](./generate-output-use-baseline-for-publishing.md).
-- **Flatten File Hierarchy**: seleziona questa opzione per salvare tutti gli argomenti e i file multimediali a cui si fa riferimento in un’unica cartella.
+- **Usa baseline**: selezionare questa opzione per ottenere un elenco delle baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [Utilizzo delle baseline](./generate-output-use-baseline-for-publishing.md).
+- **Flatten File Hierarchy**: selezionare questa opzione per salvare tutti gli argomenti e i file multimediali di riferimento in un&#39;unica cartella.
 
   È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, vengono scaricate le ultime versioni persistenti degli argomenti e dei file multimediali a cui si fa riferimento.
 
-  Dopo aver fatto clic su **Scarica** , la richiesta del pacchetto di esportazione della mappa è in coda. Il **Completato** viene visualizzata se il pacchetto è stato creato correttamente.  Puoi fare clic su **Scarica** dal pulsante **Completato** .
+  Dopo aver fatto clic sul pulsante **Scarica**, la richiesta del pacchetto di esportazione della mappa è in coda. Se il pacchetto viene creato correttamente, viene visualizzata la finestra di dialogo **Operazione riuscita**.  Puoi fare clic sul pulsante **Scarica** nella finestra di dialogo **Operazione riuscita**.
 
   Se la mappa è pronta per il download, riceverai una notifica di pronto per il download. Se il download non riesce, viene inviata la notifica che indica che il download della mappa non è riuscito.
 
@@ -1282,8 +1284,8 @@ In **Scarica mappa** , è possibile scegliere le opzioni seguenti:
   >
   >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche AEM.
 
-- **Genera output**: genera l’output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
-- **Chiudi**: chiude il file mappa.
+- **Genera output**: genera l&#39;output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
+- **Chiudi**: chiude il file di mapping.
 
 
 
@@ -1293,9 +1295,9 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
 
 È possibile eseguire le azioni seguenti utilizzando il menu Opzioni:
 
-- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nel [Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
+- **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nell&#39;[Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
 
-- **Estrai**: estrae il file selezionato. Per un file estratto, questa opzione diventa **Check-In**.
+- **Estrai**: estrai il file selezionato. Per un file estratto, questa opzione diventa **Archivia**.
 
 
 
@@ -1304,33 +1306,33 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
   > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
   > - Quando si archivia un file, viene richiesto di salvare le modifiche. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
-- **Anteprima**: ottieni un’anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, puoi selezionarlo per aprirlo in una nuova scheda.  Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere **Anteprima** , è possibile selezionare l&#39;icona di chiusura o fare clic in un punto qualsiasi all&#39;esterno del riquadro.
+- **Anteprima**: consente di ottenere un&#39;anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, è possibile selezionarlo per aprirlo in una nuova scheda.  Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere il riquadro **Anteprima**, è possibile selezionare l&#39;icona di chiusura oppure fare clic in un punto qualsiasi all&#39;esterno del riquadro.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
-   - **Copia UUID**: copia negli Appunti l’UUID del file selezionato.
-   - **Copia percorso**: copia negli Appunti il percorso completo del file selezionato.
+   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
+   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
 
-- **Individua nell’archivio**: mostra la posizione del file selezionato nel repository \(o DAM\).
-- **Espandi tutto**: consente di espandere tutti gli argomenti nei file di mappa.
+- **Individua nel repository**: mostra la posizione del file selezionato nel repository \(o DAM\).
+- **Espandi tutto**: consente di espandere tutti gli argomenti nei file di mapping.
 
-- **Comprimi tutto**: comprime tutti gli argomenti che fanno parte del file di mappa corrente.
+- **Comprimi tutto**: comprimi tutti gli argomenti che fanno parte del file di mapping corrente.
 
-- **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
+- **Aggiungi a**: è possibile scegliere tra le opzioni seguenti:
    - **Preferiti**: aggiunge il file selezionato ai preferiti. È possibile scegliere di aggiungerlo a una raccolta Preferiti esistente o nuova.
 
-   - **Contenuti riutilizzabili**: aggiunge il file selezionato all’elenco Contenuti riutilizzabili nel pannello a sinistra.
+   - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
-- **Proprietà**: consente di aprire la pagina delle proprietà del file selezionato. Per accedere a questa pagina delle proprietà dall’interfaccia utente Assets, seleziona un file e fai clic sull’icona Proprietà nella barra degli strumenti.
+- **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file selezionato. Puoi accedere a questa pagina delle proprietà anche dall’interfaccia utente di Assets selezionando un file e facendo clic sull’icona Proprietà nella barra degli strumenti.
 
-- **Visualizza nell’interfaccia utente Assets**: da utilizzare per visualizzare un’anteprima di un file .dita/.xml nell’interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima di un file .dita/.xml nell&#39;interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 
-- **Generazione rapida**: genera l’output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, consulta [Pubblicazione basata su articolo dall’editor web](web-editor-article-publishing.md#id218CK0U019I).
+- **Generazione rapida**: genera l&#39;output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
-> È inoltre possibile aprire e modificare le proprietà degli argomenti selezionati in una mappa DITA dal **Altre opzioni** nella parte inferiore della Vista mappa.
+> È inoltre possibile aprire e modificare le proprietà degli argomenti selezionati in una mappa DITA dal menu **Altre opzioni** nella parte inferiore della visualizzazione Mappa.
 
-**Visualizzazione Struttura** -  ![](images/outline-icon.svg)
+**Visualizzazione Struttura** - ![](images/outline-icon.svg)
 
 Quando si fa clic sull&#39;icona Visualizzazione struttura, viene visualizzata la visualizzazione gerarchica degli elementi utilizzati nel documento.
 
@@ -1342,11 +1344,11 @@ La vista Struttura offre le seguenti caratteristiche:
 
 - Se un elemento ha un ID, un attributo e un testo, puoi visualizzarli insieme all’elemento.
 
-- Accedere alla visualizzazione Struttura sia nella visualizzazione Creazione che nella visualizzazione Origine.
+- Accedi alla visualizzazione Struttura sia nella visualizzazione Creazione che in quella Source.
 
 - Utilizza l’elenco a discesa dei filtri per mostrare tutti gli elementi o solo i riferimenti interrotti:
 
-- Quando si fa clic su un elemento nella visualizzazione Struttura, il contenuto dell&#39;elemento viene selezionato nella visualizzazione Creazione o Origine. La visualizzazione Struttura rimane sincronizzata con la visualizzazione Creazione e la visualizzazione Origine. Se si apportano modifiche in qualsiasi visualizzazione, è possibile visualizzarle nella visualizzazione Struttura. Ad esempio, se aggiungete un paragrafo o aggiornate un elemento nella vista Creazione, questo verrà visualizzato nella vista Struttura.
+- Facendo clic su un elemento nella visualizzazione Struttura, viene selezionato il contenuto dell&#39;elemento nella visualizzazione Autore o Source. La visualizzazione Struttura rimane sincronizzata con la visualizzazione Autore e Source. Se si apportano modifiche in qualsiasi visualizzazione, è possibile visualizzarle nella visualizzazione Struttura. Ad esempio, se aggiungete un paragrafo o aggiornate un elemento nella vista Creazione, questo verrà visualizzato nella vista Struttura.
 
   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1358,39 +1360,39 @@ La vista Struttura offre le seguenti caratteristiche:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- Il **Opzioni** menu in *Visualizzazione Struttura* consente di eseguire operazioni generiche come Taglia, Copia, Elimina, Genera ID, Inserisci elemento prima o dopo l’elemento corrente, Rinomina o sostituisci un elemento, Racchiudi un elemento, Annulla il wrapping di un elemento e crea uno snippet dall’elemento selezionato.
+- Il menu **Opzioni** nella *Visualizzazione Struttura* consente di eseguire operazioni generiche quali Taglia, Copia, Elimina, Genera ID, Inserisci elemento prima o dopo l&#39;elemento corrente, Rinomina o sostituisci un elemento, Racchiudi un elemento, Annulla il wrapping di un elemento e crea uno snippet dall&#39;elemento selezionato.
 
 >[!NOTE]
 >
->Per ulteriori dettagli su Genera ID, Inserisci elemento prima o dopo l’elemento corrente e Rimuovi wrapping da un elemento, vedi [Altre funzioni dell’editor web](web-editor-other-features.md#).
+>Per ulteriori dettagli su Genera ID, Inserisci elemento prima o dopo l&#39;elemento corrente e Annulla wrapping di un elemento, vedi [Altre funzionalità nell&#39;editor Web](web-editor-other-features.md#).
 
 **Opzioni di visualizzazione per il pannello Visualizzazione struttura**
 
 Utilizzando il menu a discesa Opzioni vista, puoi scegliere di visualizzare quanto segue, se l’elemento ne dispone:
 
-- **Mostra ID**: mostra l’ID dell’elemento.
-- **Mostra attributo**: mostra l’attributo e il relativo valore.
-- **Mostra testo**: mostra il testo. Se il testo supera i 20 caratteri, viene visualizzato un puntino di sospensione.
+- **Mostra ID**: mostra l&#39;ID dell&#39;elemento.
+- **Mostra attributo**: visualizza l&#39;attributo insieme al relativo valore.
+- **Mostra testo**: visualizza il testo. Se il testo supera i 20 caratteri, viene visualizzato un puntino di sospensione.
 
 Se un elemento blocco dispone di un proprio testo, viene visualizzato insieme a tale elemento blocco. Se non dispone di testo proprio, il testo del primo elemento figlio viene visualizzato insieme a tale elemento blocco.
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. È inoltre possibile assegnare attributi di visualizzazione configurati dall&#39;amministratore in **Visualizza attributi** nelle impostazioni dell’editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
+Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Puoi anche assegnare gli attributi di visualizzazione configurati dall&#39;amministratore nella scheda **Attributi di visualizzazione** nelle impostazioni dell&#39;editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
 
 
-Per ulteriori dettagli, vedi *Visualizza attributi* all&#39;interno del *Impostazioni editor* descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+Per ulteriori dettagli, vedere *Attributi di visualizzazione* nella descrizione della funzionalità *Impostazioni editor* nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
 **Funzione di ricerca**
 Utilizzando la funzione di ricerca, puoi cercare un elemento in base al suo nome, ID, testo o valore dell’attributo.
 
 La ricerca non distingue tra maiuscole e minuscole e corrisponde esattamente alla stringa. I risultati della ricerca vengono ordinati in base alla posizione dell&#39;elemento nel documento.
 
-È possibile cercare una stringa nell&#39;elemento se è visualizzata nel pannello Visualizzazione struttura. Ad esempio, se la stringa &quot;Adobe&quot; è presente nel testo dell’elemento ed è visualizzata nel pannello Visualizzazione Struttura (come hai selezionato **Mostra testo** dal menu a discesa Opzioni vista), l’elemento che lo contiene viene filtrato. Ma se il testo non viene visualizzato nel pannello Visualizzazione Struttura (come non è stato selezionato) **Mostra testo** dall’elenco a discesa Opzioni visualizzazione), l’elemento che lo contiene non viene filtrato. Allo stesso modo, se li hai selezionati, troverai la stringa nell’ID o negli attributi.
+È possibile cercare una stringa nell&#39;elemento se è visualizzata nel pannello Visualizzazione struttura. Se, ad esempio, la stringa &quot;Adobe&quot; è presente nel testo dell&#39;elemento ed è visualizzata nel pannello Visualizzazione Struttura (come hai selezionato **Mostra testo** dal menu a discesa Opzioni visualizzazione), l&#39;elemento che la contiene viene filtrato. Tuttavia, se il testo non viene visualizzato nel pannello Visualizzazione struttura (poiché non è stato selezionato **Mostra testo** dal menu a discesa Opzioni di visualizzazione), l&#39;elemento che lo contiene non viene filtrato. Allo stesso modo, se li hai selezionati, troverai la stringa nell’ID o negli attributi.
 
 
 
-**Contenuti riutilizzabili** -  ![](images/content-reuse-icon.png)
+**Contenuti riutilizzabili** - ![](images/content-reuse-icon.png)
 
 Una delle caratteristiche principali di DITA è la possibilità di riutilizzare i contenuti. Il pannello Contenuti riutilizzabili consente di memorizzare i file DITA da cui vengono generalmente inseriti i contenuti riutilizzabili. Una volta aggiunti, i file DITA rimangono nel pannello Contenuti riutilizzabili per tutte le sessioni. Ciò significa che non è necessario aggiungere di nuovo i file DITA per accedervi in un secondo momento.
 
@@ -1400,17 +1402,17 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per aggiungere un file DITA al pannello Contenuti riutilizzabili, utilizzate uno dei metodi seguenti:
 
-- Fai clic sull’icona + accanto a Contenuto riutilizzabile per aprire la finestra di dialogo Sfoglia file. Seleziona il file da aggiungere e fai clic su **Aggiungi** per completare il processo.
+- Fai clic sull’icona + accanto a Contenuto riutilizzabile per aprire la finestra di dialogo Sfoglia file. Selezionare il file da aggiungere e fare clic su **Aggiungi** per completare il processo.
 
   ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
 
-- Nella Vista archivio, fai clic sull’icona Opzioni del file desiderato e scegli **Aggiungi a contenuto riutilizzabile** dal menu di scelta rapida.
+- Nella Vista archivio, fare clic sull&#39;icona Opzioni del file desiderato e scegliere **Aggiungi a contenuto riutilizzabile** dal menu di scelta rapida.
 
-- Fai clic con il pulsante destro del mouse sulla scheda di un file nell’editor per aprire il menu di scelta rapida e scegli **Aggiungi a contenuto riutilizzabile**.
+- Fare clic con il pulsante destro del mouse sulla scheda di un file nell&#39;editor per aprire il menu di scelta rapida e scegliere **Aggiungi a contenuto riutilizzabile**.
 
 
 Una volta aggiunto il file, nel pannello Contenuto riutilizzabile potete visualizzare tutti gli elementi di contenuto riutilizzabile del file. Il contenuto riutilizzabile viene visualizzato con i relativi ID e nomi di elementi.
@@ -1423,7 +1425,7 @@ Quando aggiungi un file all’elenco Contenuti riutilizzabili, viene visualizzat
 >
 > È possibile aggiungere più file all&#39;elenco dei contenuti riutilizzabili. È quindi possibile inserire nel documento il contenuto desiderato dal pannello Contenuto riutilizzabile.
 
-**Aggiorna**: ricontrolla tutti i contenuti riutilizzabili e visualizza un nuovo elenco di contenuti riutilizzabili.
+**Aggiorna**: verifica nuovamente tutti i contenuti riutilizzabili e visualizza un nuovo elenco di contenuti riutilizzabili.
 
 Per inserire contenuto dal pannello Contenuto riutilizzabile, utilizzate uno dei metodi seguenti:
 
@@ -1433,27 +1435,27 @@ Per inserire contenuto dal pannello Contenuto riutilizzabile, utilizzate uno dei
 
   >[!NOTE]
   >
-  > Seleziona un file, quindi fai clic su **Anteprima** dal **Opzioni** per visualizzare in anteprima il file senza aprirlo. È inoltre possibile visualizzare in anteprima i riferimenti presenti in un argomento. L&#39;ID di riferimento viene visualizzato nella finestra.
+  > Selezionare un file, quindi selezionare **Anteprima** dal menu **Opzioni** per visualizzare l&#39;anteprima del file senza aprirlo. È inoltre possibile visualizzare in anteprima i riferimenti presenti in un argomento. L&#39;ID di riferimento viene visualizzato nella finestra.
   >
-  > Il **Anteprima** è disponibile anche nel **Opzioni** di un elemento, che offre un’anteprima rapida dell’elemento prima di inserirlo.
+  > L&#39;opzione **Anteprima** è disponibile anche nel menu **Opzioni** di un elemento, che offre un&#39;anteprima rapida dell&#39;elemento prima di inserirlo.
 
 - Trascinare l&#39;elemento di contenuto riutilizzabile dal pannello nella posizione desiderata nel documento.
 
 
 
-**Glossario** -  ![](images/glossary.svg)
+**Glossario** - ![](images/glossary.svg)
 
-Le guide AEM consentono di creare e utilizzare in modo semplice documenti di tipo glossario. È possibile creare file di argomenti del glossario e quindi includerli in una mappa del glossario comune. Una volta aggiunta questa mappa come mappa principale, le voci del glossario vengono quindi visualizzate nel pannello Glossario.
+AEM Guides consente di creare e utilizzare facilmente i documenti di tipo glossario. È possibile creare file di argomenti del glossario e quindi includerli in una mappa del glossario comune. Una volta aggiunta questa mappa come mappa principale, le voci del glossario vengono quindi visualizzate nel pannello Glossario.
 
 ![](images/glossary-panel.png){width="650" align="left"}
 
-Per inserire un termine dal glossario, è sufficiente trascinare la voce dal pannello nella posizione desiderata nell’argomento. Il menu Opzioni di un termine del glossario consente di ottenere un **Anteprima** del termine di entrata, **Copia percorso** del file dei termini di voce, oppure individuare il file dei termini di voce nell&#39;archivio.
+Per inserire un termine dal glossario, è sufficiente trascinare la voce dal pannello nella posizione desiderata nell’argomento. Il menu Opzioni di un termine del glossario ti consente di ottenere una **Anteprima** rapida del termine di ingresso, **Copia percorso** del file del termine di ingresso, oppure di individuare il file del termine di ingresso nell&#39;archivio.
 
 Per cercare termini di testo e sostituirli con abbreviazioni del glossario, effettuare le seguenti operazioni:
 
 1. Aprire l&#39;argomento o la mappa DITA in cui si desidera cercare e convertire il testo o i termini.
 1. Selezionare il pannello glossario per visualizzare i termini del glossario presenti nella mappa principale. È possibile trascinare questi termini per aggiungerli all&#39;argomento aperto.
-1. Seleziona la **Punto attivo** tool \( ![](images/hotspot-icon.svg)\) nel pannello Glossario per cercare e convertire termini di testo specifici in abbreviazioni di glossario collegate. Inoltre, viceversa, è possibile utilizzarlo per cercare abbreviazioni del glossario e convertirle in termini di testo.
+1. Selezionare lo strumento **Punto attivo** \( ![](images/hotspot-icon.svg)\) nel pannello Glossario per cercare e convertire termini di testo specifici in abbreviazioni di glossario collegate. Inoltre, viceversa, è possibile utilizzarlo per cercare abbreviazioni del glossario e convertirle in termini di testo.
 
 ![](images/glossary-hotspot-tool.png){width="300" align="left"}
 
@@ -1461,24 +1463,24 @@ Per cercare termini di testo e sostituirli con abbreviazioni del glossario, effe
 
 ![](images/Glossary-search-keys.png){width="300" align="left"}
 
-- **Tasti Glossario**: selezionare i tasti del glossario dalla mappa DITA da utilizzare per la ricerca nell&#39;argomento selezionato. I tasti selezionati verranno visualizzati di seguito. È possibile rimuovere una chiave selezionata facendo clic sul pulsante **Rimuovi** icona.
+- **Tasti glossario**: Selezionare i tasti del glossario dalla mappa DITA che si desidera utilizzare per la ricerca nell&#39;argomento selezionato. I tasti selezionati verranno visualizzati di seguito. È possibile rimuovere una chiave selezionata facendo clic sull&#39;icona **Rimuovi**.
 
-- **Argomenti**: scegli una delle seguenti opzioni: **Argomento corrente** aperto nell&#39;editor Web, tutte **Argomenti aperti** nella mappa corrente o **Mappa corrente** in corso di modifica nell’Editor mappa per cercare i termini.
+- **Argomenti**: scegliere l&#39;**Argomento corrente** aperto nell&#39;editor Web, tutti i **Argomenti aperti** nella mappa corrente oppure **Mappa corrente** modificato nell&#39;editor mappa per cercare i termini.
 - **Filtra argomenti per stato**: è possibile limitare la ricerca agli argomenti con lo stato del documento selezionato. Gli argomenti possono essere in stato Bozza, Modifica, In revisione, Approvato, Rivisto, Fine o in uno qualsiasi degli stati configurati dall’organizzazione.
-- **Azione**: puoi scegliere di cercare nei tasti del glossario **Manualmente per ogni argomento** o **Automaticamente per tutti gli argomenti**. Se si sceglie **Manualmente per ogni argomento**, richiede di confermare prima di convertire ogni termine in ogni argomento. Se si sceglie **Automaticamente per tutti gli argomenti**, converte automaticamente tutti i termini in tutti gli argomenti.
-- **Converti**: è possibile convertire una ricerca **Testo del termine del glossario** o **Glossario di testo.**
-- **Opzioni**: puoi scegliere tra le seguenti opzioni:
-   - **Corrispondenza con distinzione tra maiuscole e minuscole**: cerca un termine per trovare la corrispondenza con lo stesso involucro. Ad esempio, &#39;USB&#39; non corrisponderà a &#39;usb&#39;.
+- **Azione**: è possibile scegliere di cercare manualmente i tasti del glossario **Per ogni argomento** o **Automaticamente per tutti gli argomenti**. Se si sceglie **Manualmente per ogni argomento**, verrà richiesto di confermare prima di convertire ogni termine in ogni argomento. Se si sceglie **Automaticamente per tutti gli argomenti**, tutti i termini in tutti gli argomenti verranno convertiti automaticamente.
+- **Converti**: è possibile convertire un **testo cercato in termine glossario** o un **termine glossario in testo.**
+- **Opzioni**: è possibile selezionare una delle opzioni seguenti:
+   - **Corrispondenza con distinzione tra maiuscole e minuscole**: cerca un termine per trovare la corrispondenza con lo stesso carattere. Ad esempio, &#39;USB&#39; non corrisponderà a &#39;usb&#39;.
    - **Converti solo la prima istanza**: se in un argomento sono presenti più istanze del termine cercato, viene convertita solo la prima istanza.
    - **Estrai il file prima della conversione**: il file ricercato viene estratto prima della conversione dei termini.
-   - **Crea una nuova versione dopo la conversione**: al termine della conversione dei termini viene creata una nuova versione dell’argomento.
-- **Successivo** viene visualizzato se si seleziona **Manualmente per ogni argomento** opzione. Clic **Successivo** per convertire i termini di ogni argomento in base alle impostazioni selezionate. Richiede la conversione dei termini in ciascun argomento e passa al file successivo. Puoi scegliere di convertire un termine o saltarlo e passare al termine successivo.
+   - **Crea una nuova versione dopo la conversione**: viene creata una nuova versione dell&#39;argomento al termine della conversione dei termini.
+- Il pulsante **Avanti** viene visualizzato se si seleziona **Manualmente per ogni argomento**. Fai clic su **Avanti** per convertire i termini di ogni argomento in base alle impostazioni selezionate. Richiede la conversione dei termini in ciascun argomento e passa al file successivo. Puoi scegliere di convertire un termine o saltarlo e passare al termine successivo.
 
   ![](images/manual-convert-skip.png){width="300" align="left"}
 
-- **Converti** viene visualizzato se si seleziona **Automaticamente per tutti gli argomenti** opzione. Seleziona **Converti** per convertire tutti i termini presenti nel documento in abbreviazioni di glossario collegate.
+- Il pulsante **Converti** viene visualizzato se si seleziona **Automaticamente per tutti gli argomenti**. Selezionare **Converti** per convertire tutti i termini presenti nel documento in abbreviazioni di glossario collegate.
 
-Un elenco dei **Argomenti aggiornati** con i termini convertiti e **Argomenti con errore** viene visualizzato. Passa il puntatore del mouse su \( ![](images/info-icon.svg)\) accanto ad Argomenti con errore per visualizzare i dettagli dell&#39;errore.
+Viene visualizzato un elenco di **argomenti aggiornati** con i termini convertiti e **argomenti con errore**. Passa il puntatore del mouse sull&#39;icona \( ![](images/info-icon.svg)\) accanto ad Argomenti con errore per visualizzare i dettagli dell&#39;errore.
 
 ![](images/glossary-converted-terms-error.png){width="300" align="left"}
 
@@ -1486,7 +1488,7 @@ Un elenco dei **Argomenti aggiornati** con i termini convertiti e **Argomenti co
 >
 > Aggiornare l&#39;argomento per visualizzare i termini convertiti.
 
-**Condizioni** -  ![](images/conditions-icon.svg)
+**Condizioni** - ![](images/conditions-icon.svg)
 
 Il pannello Condizioni visualizza gli attributi condizionali definiti dall&#39;amministratore nel profilo globale o a livello di cartella. Puoi aggiungere condizioni al contenuto semplicemente trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione per una facile identificazione.
 
@@ -1508,23 +1510,23 @@ Per aggiungere o definire una condizione, fai clic sull’icona + accanto al pan
 
 Dall&#39;elenco Attributo (Attribute), selezionate l&#39;attributo condizionale da definire, immettete un valore per la condizione, quindi specificate l&#39;etichetta visualizzata nel pannello Condizioni (Conditions). Puoi anche definire un colore per la condizione. Questo colore viene impostato come colore di sfondo del contenuto a cui viene applicata la condizione
 
-Per modificare una condizione, scegli **Modifica** dal menu Opzioni. Viene visualizzata la finestra di dialogo Modifica condizione:
+Per modificare una condizione, scegliere **Modifica** dal menu Opzioni. Viene visualizzata la finestra di dialogo Modifica condizione:
 
 ![](images/conditional-panel-edit-cond.png){width="400" align="left"}
 
 Specifica i dettagli nello stesso modo in cui sono configurati durante la definizione di una nuova condizione.
 
-**Schema soggetto** -  ![](images/subject_scheme_panel-icon.svg)
+**Schema soggetto** - ![](images/subject_scheme_panel-icon.svg)
 
-Le mappe di schema argomento sono una forma specializzata di mappe DITA utilizzate per definire soggetti tassonomici e valori controllati. A seconda delle esigenze, puoi creare una mappa dello schema di soggetti e farvi riferimento all’interno del file della mappa principale. Le guide AEM consentono di definire la gerarchia a livello nidificato delle definizioni dei soggetti nello schema dei soggetti.
+Le mappe di schema argomento sono una forma specializzata di mappe DITA utilizzate per definire soggetti tassonomici e valori controllati. A seconda delle esigenze, puoi creare una mappa dello schema di soggetti e farvi riferimento all’interno del file della mappa principale. AEM Guides consente di definire la gerarchia a livello nidificato delle definizioni dei soggetti nello schema dei soggetti.
 
 È possibile creare e quindi utilizzare facilmente lo schema dell&#39;oggetto in una mappa dello schema dell&#39;oggetto. Una volta aggiunta questa mappa come mappa principale, lo schema soggetto viene visualizzato nel pannello Schema soggetto. Il pannello Schema soggetto visualizza lo schema soggetto disponibile in modo nidificato o gerarchico.
 
-Le guide AEM supportano inoltre le mappe di schema soggetto a livello nidificato. Nella mappa di schema soggetto principale è possibile definire più schemi soggetto.
+AEM Guides supporta anche mappe di schemi di soggetti a livello nidificato. Nella mappa di schemi di soggetti radice è possibile definire più schemi di soggetti.
 
-L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell’AEM.
+Nell&#39;esempio seguente viene illustrato come utilizzare lo schema soggetto in AEM Guides.
 
-1. Creare un file dello schema soggetto in uno strumento desiderato. Il codice XML seguente crea uno schema soggetto che associa i valori per `platform` attributo.
+1. Creare un file dello schema soggetto in uno strumento desiderato. Il codice XML seguente crea uno schema soggetto che associa i valori per l&#39;attributo `platform`.
 
    ```XML
    <?xml version="1.0" encoding="UTF-8"?>
@@ -1565,7 +1567,7 @@ L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell�
 
    ![](images/subject-scheme-root-map.png){width="550" align="left"}
 
-1. Imposta la mappa principale come mappa principale in **Preferenze utente**. Una volta aggiunta questa mappa come mappa principale, lo schema soggetto viene visualizzato nel pannello Schema soggetto.
+1. Imposta la mappa padre come mappa radice nelle **Preferenze utente**. Una volta aggiunta questa mappa come mappa principale, lo schema soggetto viene visualizzato nel pannello Schema soggetto.
 
    ![](images/subject-scheme-user-preferences.png){width="400" align="left"}
 
@@ -1574,11 +1576,11 @@ L’esempio seguente mostra come utilizzare lo schema soggetto nelle guide dell�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**Gestione delle definizioni gerarchiche delle definizioni e delle enumerazioni dei soggetti**
+**Gestione delle definizioni gerarchiche delle enumerazioni e delle definizioni dei soggetti**
 
-Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, le guide AEM forniscono anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. È possibile definire una o più definizioni di oggetto in una mappa e le definizioni di enumerazione in un&#39;altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
+Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, AEM Guides fornisce anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. È possibile definire una o più definizioni di oggetto in una mappa e le definizioni di enumerazione in un&#39;altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
 
-Le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`
+Le definizioni dell&#39;oggetto sono definite in `subject_scheme_map_1.ditamap`
 
 
 ```XML
@@ -1623,7 +1625,7 @@ Le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-La definizione di enumerazione è presente in subject_scheme_map_2.ditamap.
+La definizione di enumerazione è presente in    subject_scheme_map_2.ditamap.
 
 ```XML
     ?xml version="1.0" encoding="UTF-8"?> 
@@ -1643,11 +1645,11 @@ La definizione di enumerazione è presente in subject_scheme_map_2.ditamap.
         </subjectScheme>
 ```
 
-Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap`  mentre la definizione di enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` viene aggiunto anche in `subject_scheme_map_2.ditamap`.
+Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap` mentre la definizione dell&#39;enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` è stato aggiunto anche in `subject_scheme_map_2.ditamap`.
 
 >[!NOTE]
 >
-> Come `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, quindi i modelli dei soggetti vengono risolti.
+> Poiché `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, gli schemi soggetto vengono risolti.
 
 I riferimenti di enumerazione dei soggetti vengono risolti nel seguente ordine di priorità:
 
@@ -1662,8 +1664,8 @@ I riferimenti non vengono risolti se l’enumerazione non viene trovata nella st
 
 **Limita i valori a un elemento specifico**
 
-È inoltre possibile limitare le condizioni ad alcuni elementi all&#39;interno di un argomento. Utilizza il `<elementdef>` per definire l’elemento e il tag `<attributedef>` per definire la condizione che può essere applicata all&#39;elemento.  Se non aggiungi il `<elementdef>` , puoi applicare le condizioni a tutti gli elementi.
-Ad esempio, utilizza l’enumerazione seguente per limitare `@platform` attribuire a `<shortdesc>` elemento.  Le altre condizioni sono visibili per tutti gli elementi.
+È inoltre possibile limitare le condizioni ad alcuni elementi all&#39;interno di un argomento. Utilizzare il tag `<elementdef>` per definire l&#39;elemento e il tag `<attributedef>` per definire la condizione che può essere applicata all&#39;elemento.  Se non aggiungi il tag `<elementdef>`, puoi applicare le condizioni a tutti gli elementi.
+Utilizzare ad esempio l&#39;enumerazione seguente per limitare l&#39;attributo `@platform` all&#39;elemento `<shortdesc>`.  Le altre condizioni sono visibili per tutti gli elementi.
 
 ```XML
 <enumerationdef>
@@ -1681,32 +1683,32 @@ Ad esempio, utilizza l’enumerazione seguente per limitare `@platform` attribui
 </details>
 
 
-**Attributi** elenco a discesa
+Elenco a discesa **Attributi**
 
-È inoltre possibile modificare il valore dello schema soggetto utilizzando **Attributi** a discesa dal menu **Proprietà contenuto** pannello in **Autore** visualizzazione.
+Puoi anche modificare il valore dello schema soggetto utilizzando il menu a discesa **Attributi** dal pannello **Proprietà contenuto** nella visualizzazione **Autore**.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
 Per modificare il valore, effettua le seguenti operazioni:
 
-1. Seleziona un attributo da **Attributo** a discesa.
-1. Seleziona **Modifica** ![edit-icon](images/edit_pencil_icon.svg).
-1. Seleziona il valore richiesto da **Valore** a discesa.
+1. Selezionare un attributo dal menu a discesa **Attributo**.
+1. Seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
+1. Seleziona il valore richiesto dal menu a discesa **Valore**.
 1. Fai clic su **Aggiorna**.
 
 
 
 Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
 
-**Vista origine**
+**Visualizzazione Source**
 
-È inoltre possibile modificare i valori dall&#39;elenco a discesa dell&#39;attributo nella Vista origine. La Vista origine impedisce inoltre di aggiungere valori errati.
+È inoltre possibile modificare i valori dall’elenco a discesa dell’attributo nella visualizzazione Source. La Vista Source impedisce inoltre di aggiungere valori errati.
 
 ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-**Visualizzare e applicare lo schema soggetto dal pannello Condizioni**
+**Visualizza e applica lo schema soggetto dal pannello Condizioni**
 
 Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
 
-Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per maggiori dettagli vedi, [Scheda Condizione](#id21BMNE0602V).
+Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per ulteriori dettagli, vedere [Scheda Condizione](#id21BMNE0602V).
 
 Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
 
@@ -1714,7 +1716,7 @@ Il pannello Condizioni visualizza la struttura verticale piatta delle definizion
 
 Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
-**Snippet** -  ![](images/insert-snippet-icon.svg)
+**Snippet** - ![](images/insert-snippet-icon.svg)
 
 I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati in vari argomenti nel progetto di documentazione. Il pannello Snippet mostra una raccolta di snippet di contenuto creati dall&#39;utente. Per inserire uno snippet, trascinarlo dal pannello nella posizione desiderata nell&#39;argomento. Il pannello Snippet consente di aggiungere, modificare, eliminare, visualizzare in anteprima e inserire uno snippet.
 
@@ -1730,11 +1732,11 @@ Per aggiungere uno snippet, utilizzare uno dei metodi seguenti:
 
   ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-  Nella finestra di dialogo Nuovo frammento, fornisci un titolo che viene visualizzato nel pannello Snippet, una descrizione e il codice XML del contenuto del frammento che desideri creare. Clic **Crea** per salvare e creare lo snippet.
+  Nella finestra di dialogo Nuovo frammento, fornisci un titolo che viene visualizzato nel pannello Snippet, una descrizione e il codice XML del contenuto del frammento che desideri creare. Fai clic su **Crea** per salvare e creare lo snippet.
 
-- Nell’area di modifica del contenuto, fai clic con il pulsante destro del mouse sulla breadcrumb dell’elemento che desideri utilizzare come frammento e scegli **Crea snippet** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo snippet con il codice XML dell’elemento selezionato popolato nel **Contenuto** campo. Inserisci il **Titolo** e **Descrizione** per lo snippet e fare clic su **Crea** per salvare il frammento.
+- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse sulla breadcrumb dell&#39;elemento che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e fai clic su **Crea** per salvare lo snippet.
 
-- Nell&#39;area di modifica del contenuto, fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea snippet** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo snippet con il codice XML dell’elemento selezionato popolato nel **Contenuto** campo. Inserisci il **Titolo** e **Descrizione** per lo snippet e fare clic su **Crea** per salvare il frammento.
+- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e fai clic su **Crea** per salvare lo snippet.
 
   La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
 
@@ -1752,9 +1754,9 @@ Per inserire uno snippet, utilizzare uno dei metodi seguenti:
 >
 > Dal menu di scelta rapida di una voce di frammento, è inoltre possibile scegliere di modificare, eliminare, ottenere un&#39;anteprima o inserire uno snippet.
 
-**Modelli** -  ![](images/templates-icon.svg)
+**Modelli** - ![](images/templates-icon.svg)
 
-Il pannello Modelli è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati in *Mappa* e *Argomento* modelli di testo.
+Il pannello Modelli è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati nei modelli di tipo *Mappa* e *Argomento*.
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
@@ -1762,13 +1764,13 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
-Per creare un modello, fai clic sull’icona + accanto a Modelli e scegli il modello da creare. Se si seleziona **Modello argomento**, viene visualizzata la finestra di dialogo Crea nuovo modello di argomento:
+Per creare un modello, fai clic sull’icona + accanto a Modelli e scegli il modello da creare. Se si seleziona **Modello argomento**, viene visualizzata la finestra di dialogo Crea nuovo modello argomento:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
 
-Scegli il tipo di modello da creare dal **Modello** elenco a discesa. Fornisci **Titolo**, visualizzato nel pannello Modelli. Il **Nome** del modello viene suggerito automaticamente in base al titolo, tuttavia è possibile fornire un nome file diverso.
+Scegliere il tipo di modello da creare dall&#39;elenco a discesa **Modello**. Fornisci il **Titolo**, che viene visualizzato nel pannello Modelli. Il **Nome** del modello viene suggerito automaticamente in base al titolo, tuttavia è possibile specificare un nome file diverso.
 
 >[!NOTE]
 >
@@ -1776,24 +1778,24 @@ Scegli il tipo di modello da creare dal **Modello** elenco a discesa. Fornisci *
 
 Una volta creato il modello, è necessario aggiungerlo al profilo globale o a livello di cartella. Dopo l’aggiunta del modello, gli autori inizieranno a visualizzare il nuovo modello nel processo di creazione dell’argomento o della mappa.
 
-Utilizzando il menu Opzioni di un modello esistente, è possibile scegliere di **Modifica** o **Duplica** ... In caso di duplicazione, la struttura e il tipo \(di documento\) del modello vengono mantenuti ed è possibile riutilizzarli per creare un altro modello da esso.
+Utilizzando il menu Opzioni su un modello esistente, puoi scegliere di **Modifica** o **Duplica**. In caso di duplicazione, la struttura e il tipo \(di documento\) del modello vengono mantenuti ed è possibile riutilizzarli per creare un altro modello da esso.
 
-**Revisione** -  ![](images/active-review-tasklist-icon.svg)
+**Revisione** - ![](images/active-review-tasklist-icon.svg)
 
-Le guide AEM consentono di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive all’interno dei progetti di revisione di cui fai parte dal **Revisione** pannello.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
+AEM Guides offre la funzione di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive nei progetti di revisione di cui fai parte dal pannello **Revisione**.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
 
 Nel pannello Revisione vengono visualizzate le attività di revisione. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web.
 
 
 Per visualizzare i commenti di revisione nelle attività di revisione attive presenti nei progetti, effettuare le seguenti operazioni:
 
-1. Seleziona revisione ![](images/active-review-tasklist-icon.svg)   nel pannello sinistro. Il **Revisione** viene visualizzato il pannello.  Vengono visualizzati tutti i progetti di revisione e le attività di revisione attive all&#39;interno dei progetti di revisione di cui fai parte.
+1. Seleziona revisione ![](images/active-review-tasklist-icon.svg)   nel pannello sinistro. Viene aperto il pannello **Rivedi**.  Vengono visualizzati tutti i progetti di revisione e le attività di revisione attive all&#39;interno dei progetti di revisione di cui fai parte.
 
    ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Selezionare un progetto di revisione e quindi selezionare un&#39;attività di revisione dall&#39;elenco per aprirla.
@@ -1801,27 +1803,27 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
    - Immetti il termine o il testo da cercare nel titolo del progetto. Quindi premere Invio per eseguire la ricerca. Ad esempio, puoi cercare tutti i progetti il cui titolo contiene il termine &quot;spazio&quot;.
 
-   - Seleziona ![](images/filter-search-icon.svg)  per aprire **Filtro** . Puoi selezionare tutti o solo progetti specifici. I progetti selezionati sono elencati in **Revisione** pannello.
+   - Seleziona ![](images/filter-search-icon.svg) per aprire la finestra di dialogo **Filtro**. Puoi selezionare tutti o solo progetti specifici. I progetti selezionati sono elencati nel pannello **Rivedi**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Il **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate.
+     L&#39;opzione **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate.
 
 1. Per impostazione predefinita, nel progetto di revisione viene visualizzato un elenco semplice di argomenti a cui sono associati commenti. Applica i filtri richiesti dalla barra a sinistra per filtrare gli argomenti in base ai commenti di revisione presenti in essi:
 
    - **Visualizza tutti gli argomenti**: elenca tutti gli argomenti presenti nei progetti.
    - **Visualizza argomenti con commenti**: elenca solo gli argomenti contenenti commenti di revisione.
 1. È inoltre possibile immettere il termine di ricerca o il testo che si desidera trovare nel titolo o nel percorso del file dell&#39;argomento. Vengono elencati gli argomenti che contengono il termine nel titolo o nel percorso del file.
-1. Fare doppio clic su un argomento per aprirlo nella visualizzazione Autore. È possibile visualizzare i commenti in **Commenti** pannello.
+1. Fare doppio clic su un argomento per aprirlo nella visualizzazione Autore. Puoi visualizzare i commenti nel pannello **Commenti**.
    ![](images/active-review-task-comments.png){width="800" align="left"}
 
 
    >[!NOTE]
    > 
-   > Il **Revisione** e **Commenti** sono sempre sincronizzati. Nel pannello Commenti, i commenti vengono caricati in base all&#39;attività di revisione caricata nel pannello Revisione.
+   > Il pannello **Rivedi** e il pannello **Commenti** sono sempre sincronizzati. Nel pannello Commenti, i commenti vengono caricati in base all&#39;attività di revisione caricata nel pannello Revisione.
    >
-   > Per ulteriori informazioni su come gestire i commenti, vedere [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
+   > Per ulteriori informazioni su come gestire i commenti, visualizzare [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
 
-**Trova e sostituisci** -  ![](images/FindAndReplace_icon.svg)
+**Trova e sostituisci** - ![](images/FindAndReplace_icon.svg)
 
 L’icona Trova e sostituisci si trova nella parte inferiore del pannello a sinistra. Il pannello Trova e sostituisci consente di cercare e sostituire il testo tra i file di una mappa o di una cartella all’interno dell’archivio. Puoi trovare e sostituire in tutti gli argomenti di una mappa così come gli argomenti presenti nelle mappe secondarie all&#39;interno della mappa.
 
@@ -1831,85 +1833,85 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei nomi di file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei nomi di file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operazioni:
 
-1. Apri il pannello globale **Trova e sostituisci** pannello.
-1. Fai clic su **Cerca in** a discesa, seleziona una delle seguenti opzioni per eseguire la ricerca.
+1. Apri il pannello **Trova e sostituisci** globale.
+1. Fai clic sul menu a discesa **Cerca in** e seleziona una delle seguenti opzioni per eseguire la ricerca.
 
-   - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
-
-     >[!NOTE]
-     >
-     > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
-
-   - **Percorso**: per eseguire una ricerca nel percorso selezionato
-   - **Seleziona mappa**: per eseguire ricerche nella mappa selezionata
-
-1. Puoi fare clic su **Opzioni** e scegli tra le seguenti opzioni:
-
-   - **Estrai file prima della sostituzione**: seleziona questa opzione se desideri estrarre automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l&#39;amministratore abbia abilitato la configurazione per l&#39;estrazione di un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo per l&#39;estrazione dei file non richiederà di estrarre ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
-   - **Solo parola intera**: seleziona questa opzione se desideri cercare l’intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
-   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
-
-     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
-
-   - **Includi riferimento indiretto**: seleziona questa opzione se desideri cercare la stringa nei riferimenti indiretti anche all’interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
-
-1. Immettere il termine di ricerca o il testo che si desidera trovare.
-1. Immettere il testo con cui si desidera sostituire il termine di ricerca.
-1. Premi Invio o seleziona **Ricerca** icona \( ![](images/search-icon.svg)\) per eseguire la ricerca.
-1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
-1. Apri il pannello globale **Trova e sostituisci** pannello.
-1. Fai clic su **Cerca in** a discesa, seleziona una delle seguenti opzioni per eseguire la ricerca.
-
-   - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
+   - **Mappa corrente**: per eseguire ricerche nella mappa aperta
 
      >[!NOTE]
      >
      > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
 
    - **Percorso**: per eseguire una ricerca nel percorso selezionato
-   - **Seleziona mappa**: per eseguire ricerche nella mappa selezionata
+   - **Seleziona mappa**: per eseguire una ricerca nella mappa selezionata
 
-1. Puoi fare clic su **Opzioni** e scegli tra le seguenti opzioni:
+1. Puoi fare clic sul menu a discesa **Opzioni** e scegliere tra le seguenti opzioni:
 
-   - **Estrai file prima della sostituzione**: seleziona questa opzione se desideri estrarre automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l&#39;amministratore abbia abilitato la configurazione per l&#39;estrazione di un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo per l&#39;estrazione dei file non richiederà di estrarre ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
+   - **Estrai il file prima di sostituirlo**: selezionare questa opzione se si desidera estrarre automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l&#39;amministratore abbia abilitato la configurazione per l&#39;estrazione di un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo per l&#39;estrazione dei file non richiederà di estrarre ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
+   - **Solo parole intere**: selezionare questa opzione se si desidera cercare l&#39;intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
+   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
 
-   - **Solo parola intera**: seleziona questa opzione se desideri cercare l’intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
+     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+
+   - **Includi riferimento indiretto**: selezionare questa opzione se si desidera cercare la stringa nei riferimenti indiretti anche all&#39;interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
+
+1. Immettere il termine di ricerca o il testo che si desidera trovare.
+1. Immettere il testo con cui si desidera sostituire il termine di ricerca.
+1. Premi Invio o seleziona l&#39;icona **Cerca** \( ![](images/search-icon.svg)\) per eseguire la ricerca.
+1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
+1. Apri il pannello **Trova e sostituisci** globale.
+1. Fai clic sul menu a discesa **Cerca in** e seleziona una delle seguenti opzioni per eseguire la ricerca.
+
+   - **Mappa corrente**: per eseguire ricerche nella mappa aperta
+
+     >[!NOTE]
+     >
+     > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
+
+   - **Percorso**: per eseguire una ricerca nel percorso selezionato
+   - **Seleziona mappa**: per eseguire una ricerca nella mappa selezionata
+
+1. Puoi fare clic sul menu a discesa **Opzioni** e scegliere tra le seguenti opzioni:
+
+   - **Estrai il file prima di sostituirlo**: selezionare questa opzione se si desidera estrarre automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l&#39;amministratore abbia abilitato la configurazione per l&#39;estrazione di un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo per l&#39;estrazione dei file non richiederà di estrarre ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
+
+   - **Solo parole intere**: selezionare questa opzione se si desidera cercare l&#39;intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
 
    - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
 
      Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
 
-   - **Includi riferimento indiretto**: seleziona questa opzione se desideri cercare la stringa nei riferimenti indiretti anche all’interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
+   - **Includi riferimento indiretto**: selezionare questa opzione se si desidera cercare la stringa nei riferimenti indiretti anche all&#39;interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
 
 1. Immettere il termine di ricerca o il testo che si desidera trovare.
 
 1. Immettere il testo con cui si desidera sostituire il termine di ricerca.
 
-1. Premi Invio o seleziona **Ricerca** icona \( ![](images/search-icon.svg)\) per eseguire la ricerca.
+1. Premi Invio o seleziona l&#39;icona **Cerca** \( ![](images/search-icon.svg)\) per eseguire la ricerca.
 1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
-1. Clic **Sostituisci occorrenza singola** \( ![](images/replace-icon.svg)\) per sostituire il termine di ricerca attualmente evidenziato nell&#39;argomento o fare clic su Corrispondenza successiva ![](images/next-match-in-search.png) o ![](images/previous-match-in-search.png) Corrispondenza precedente per passare all&#39;occorrenza successiva o precedente del testo.
-1. Clic **Sostituisci tutto nel file** \( ![](images/replace-all-in-file-icon.svg)\)per sostituire tutte le occorrenze del termine ricercato in un singolo file con il termine sostitutivo in un singolo clic. Dopo la sostituzione di tutte le occorrenze nel file selezionato, viene visualizzata una notifica.
+1. Fare clic su **Sostituisci occorrenza singola** \( ![](images/replace-icon.svg)\) per sostituire il termine di ricerca attualmente evidenziato nell&#39;argomento oppure fare clic su Corrispondenza successiva ![](images/next-match-in-search.png) o Corrispondenza precedente ![](images/previous-match-in-search.png) per passare all&#39;occorrenza successiva o precedente del testo.
+1. Fare clic su **Sostituisci tutto nel file** \( ![](images/replace-all-in-file-icon.svg)\) per sostituire tutte le occorrenze del termine cercato in un unico file con il termine sostitutivo in un solo clic. Dopo la sostituzione di tutte le occorrenze nel file selezionato, viene visualizzata una notifica.
 
    >[!NOTE]
    >
    > Passa il puntatore del mouse su un file dall&#39;elenco dei risultati di ricerca per visualizzare l&#39;icona Sostituisci tutto nel file sulla destra. Viene inoltre visualizzata l&#39;icona Ignora file per rimuovere il file dal risultato della ricerca. I file ignorati vengono rimossi dall&#39;elenco e il termine ricercato non viene sostituito.
 
-1. Clic **Sostituisci tutto** \( ![](images/replace-all-in-file-icon.svg)\) a destra nella parte superiore dell&#39;elenco per sostituire tutte le occorrenze del termine cercato in tutti i file con il termine sostitutivo in un solo clic.
+1. Fai clic su **Sostituisci tutto** \( ![](images/replace-all-in-file-icon.svg)\) a destra nella parte superiore dell&#39;elenco per sostituire tutte le occorrenze del termine cercato in tutti i file con il termine sostitutivo in un singolo clic.
 
    >[!NOTE]
    >
-   > Per attivare **Sostituisci tutto** , l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci Tutto** sotto **Generale** scheda in **Impostazioni editor**.
+   > Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni editor**.
 
 
 È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e finché l&#39;operazione non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 
-È inoltre possibile utilizzare **Trova nella mappa** opzione dalla **Opzioni** menu di una mappa per trovare e sostituire il testo in una mappa. Questa opzione viene visualizzata per una mappa aperta nel pannello del repository o nella vista mappa.
+È inoltre possibile utilizzare l&#39;opzione **Trova nella mappa** dal menu **Opzioni** di una mappa per trovare e sostituire il testo in una mappa. Questa opzione viene visualizzata per una mappa aperta nel pannello del repository o nella vista mappa.
 
 ![](images/map-options-menu.png){width="550" align="left"}
 
@@ -1921,7 +1923,7 @@ Per impostazione predefinita, è possibile visualizzare i titoli dei file nelle 
 
 >[!NOTE]
 >
-> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
 Sotto la scheda del file, la breadcrumb dell’elemento si trova nella posizione corrente del cursore. Nell&#39;angolo superiore destro dell&#39;area di modifica dei contenuti viene visualizzato il numero di versione dell&#39;argomento corrente.
 
@@ -1937,39 +1939,39 @@ Il pannello di destra è un pannello persistente che contiene informazioni sul d
 
 Il pannello a destra consente di accedere alle seguenti funzioni:
 
-**Proprietà contenuto** -  ![proprietà di contenuto](images/content-properties-icon.svg)
+**Proprietà contenuto** - ![proprietà contenuto](images/content-properties-icon.svg)
 
-È possibile accedere a **Proprietà contenuto** selezionando la funzionalità **Proprietà contenuto** nel pannello di destra. Il **Proprietà contenuto** Il pannello contiene informazioni sul tipo di elemento attualmente selezionato nel documento e i relativi attributi.
+Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **Proprietà contenuto** nel pannello di destra. Il pannello **Proprietà contenuto** contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi.
 
-**Tipo**: puoi visualizzare e selezionare i tag della gerarchia completa per il tag corrente dal menu a discesa.
+**Tipo**: è possibile visualizzare e selezionare i tag della gerarchia completa per il tag corrente dal menu a discesa.
 
-**Attributi**: Il **Attributi** Il pannello a discesa è disponibile nelle visualizzazioni Layout, Autore e Origine. Puoi aggiungere, modificare o eliminare facilmente gli attributi.
+**Attributi**: il pannello a discesa **Attributi** è disponibile nelle visualizzazioni Layout, Autore e Source. Puoi aggiungere, modificare o eliminare facilmente gli attributi.
 
-1. Clic **+ Aggiungi**.
+1. Fare clic su **+ Aggiungi**.
 
    ![attributi nelle proprietà del contenuto](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
-1. In **Attributo** nel pannello a discesa, seleziona l’attributo dall’elenco a discesa e specifica il valore di un attributo.  Quindi fai clic su **Aggiungi**.
+1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi fare clic su **Aggiungi**.
 
    ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
 
-1. Per modificare l’attributo, passa il puntatore del mouse su di esso e seleziona **Modifica** ![edit-icon](images/edit_pencil_icon.svg).
+1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
    ![modifica attributi](images/edit-attributes-content-properties.png){width="300" align="left"}
 
-1. Per eliminare l’attributo, passa il puntatore del mouse su di esso e seleziona **Elimina** ![delete-icon](images/Delete_icon.svg).
+1. Per eliminare l&#39;attributo, posizionare il puntatore del mouse su di esso e selezionare **Elimina** ![elimina-icona](images/Delete_icon.svg).
 
 
 >[!NOTE]
 >
 > Anche se l&#39;argomento contiene contenuto di riferimento, è possibile aggiungervi attributi utilizzando il pannello delle proprietà.
 
-Se l’amministratore ha creato un profilo per gli attributi, questi vengono ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. In questo modo puoi anche creare contenuto condizionale, che può quindi essere utilizzato per creare l’output condizionale. Per ulteriori informazioni sulla generazione dell&#39;output tramite i predefiniti condizionali, consultate [Utilizzare i predefiniti per le condizioni](generate-output-use-condition-presets.md#).
+Se l’amministratore ha creato un profilo per gli attributi, questi vengono ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. In questo modo puoi anche creare contenuto condizionale, che può quindi essere utilizzato per creare l’output condizionale. Per ulteriori informazioni sulla generazione dell&#39;output tramite i predefiniti condizionali, vedere [Utilizzare i predefiniti di condizione](generate-output-use-condition-presets.md#).
 
 
 
-**Proprietà file** -  ![](images/topic-properties-icon.svg)
+**Proprietà file** - ![](images/topic-properties-icon.svg)
 
-Visualizzare le proprietà del file selezionato facendo clic su Proprietà file ![](images/topic-properties-icon.svg) nel pannello di destra. La funzione Proprietà file è disponibile in tutte e quattro le modalità o visualizzazioni: Layout, Autore, Origine e Anteprima.
+Visualizzare le proprietà del file selezionato facendo clic sull&#39;icona Proprietà file ![](images/topic-properties-icon.svg) nel pannello di destra. La funzione Proprietà file è disponibile in tutte e quattro le modalità o visualizzazioni: Layout, Autore, Source e Anteprima.
 
 Le proprietà del file sono suddivise nelle due sezioni seguenti:
 
@@ -1977,18 +1979,18 @@ Le proprietà del file sono suddivise nelle due sezioni seguenti:
 
 La sezione Generale consente di accedere alle seguenti funzioni:
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![proprietà-file](images/file-properties-general.png){width="300" align="left"}
 
 - **Nome**: visualizza il nome del file dell&#39;argomento selezionato. Il nome del file viene collegato alla pagina delle proprietà del file selezionato.
-- **ID**: visualizza l’ID dell’argomento selezionato.
-- **Tag**: questi sono i tag di metadati dell’argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
-- **Modifica altre proprietà**: puoi modificare altre proprietà dalla pagina delle proprietà del file.
-- **Lingua**: mostra la lingua dell’argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
-- **Creato il**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
-- **Ritirato da**: mostra l&#39;utente che ha estratto l&#39;argomento.
-- **Stato documento**: puoi selezionare e aggiornare lo stato del documento dell’argomento attualmente aperto. Per ulteriori dettagli, consulta [Stato documento ](web-editor-document-states.md#)*.*
+- **ID**: visualizza l&#39;ID dell&#39;argomento selezionato.
+- **Tag**: questi sono i tag di metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
+- **Modifica altre proprietà**: è possibile modificare altre proprietà dalla pagina delle proprietà del file.
+- **Lingua**: mostra la lingua dell&#39;argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
+- **Data creazione**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
+- **Estratto da**: mostra l&#39;utente che ha estratto l&#39;argomento.
+- **Stato documento**: è possibile selezionare e aggiornare lo stato del documento dell&#39;argomento attualmente aperto. Per ulteriori dettagli, vedere [Stato documento ](web-editor-document-states.md#)*.*
 
-**Nota:** È possibile copiare negli Appunti i valori degli attributi dei vari campi delle proprietà File.
+**Nota:** è possibile copiare negli Appunti i valori degli attributi dei vari campi delle proprietà File.
 
 **Riferimenti**
 
@@ -1996,20 +1998,20 @@ La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 
 ![](images/file-properties-references.png){width="300" align="left"}
 
-- **Utilizzato in**: i riferimenti Utilizzati in elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente.
-- **Collegamenti in uscita:** Collegamenti in uscita elenca i documenti a cui si fa riferimento nel documento corrente.
+- **Usato in**: i riferimenti Usato in elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente.
+- **Collegamenti in uscita:** Nei collegamenti in uscita sono elencati i documenti a cui si fa riferimento nel documento corrente.
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
 
 >[!NOTE]
 >
-> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Seleziona la **Nome file** opzione del **Visualizza file per** sezione in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
+> In qualità di amministratore, è inoltre possibile scegliere di visualizzare l&#39;elenco dei file in base ai nomi dei file nell&#39;Editor Web. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
-**Nota:** Tutti i riferimenti utilizzati in e in uscita sono collegati ai documenti. È possibile aprire e modificare facilmente i documenti collegati.
+**Nota:** tutti i riferimenti utilizzati in e in uscita sono collegati ai documenti. È possibile aprire e modificare facilmente i documenti collegati.
 
-Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a preferiti, Proprietà e Apri dashboard mappa.
+Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a preferiti, Proprietà e Apri dashboard mappa.
 
-**Revisione** -  ![](images/review-icon.svg)
+**Revisione** - ![](images/review-icon.svg)
 
 Facendo clic sull&#39;icona Revisione viene aperto il pannello Revisione in cui è possibile creare un&#39;attività di revisione per il documento aperto.
 
@@ -2019,14 +2021,14 @@ Se hai creato più progetti di revisione, puoi selezionarne uno dal menu a disce
 
 Il pannello Revisione consente di visualizzare e pubblicare le risposte ai commenti sull&#39;argomento. È possibile accettare o rifiutare i commenti singolarmente.
 
-Per ulteriori informazioni, consulta [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
+Per ulteriori informazioni, vedere [Commenti sulla revisione degli indirizzi](review-address-review-comments.md#).
 
-**Modifiche tracciate** -  ![](images/track-change-icon.svg)
+**Modifiche Tracciate** - ![](images/track-change-icon.svg)
 
 Utilizzando la funzione Tracked Changes (Modifiche tracciate) del pannello di destra, potete visualizzare le informazioni di tutti gli aggiornamenti effettuati in un documento. È inoltre possibile cercare qualsiasi aggiornamento specifico apportato al documento.
 
 >[!NOTE]
 >
-> La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, consulta [Attiva/Disattiva rilevamento modifiche](#id205DF0203Y4).
+> La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, vedere [Attiva/Disattiva revisioni](#id205DF0203Y4).
 
-**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

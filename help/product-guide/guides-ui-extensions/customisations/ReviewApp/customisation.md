@@ -17,14 +17,14 @@ Per facilitare la personalizzazione dell’app di revisione abbiamo fornito alcu
 ## Revisione-Commento
 
 - id: `review_comment`
-- gancio: `this.updateExtraProps`:
+- hook: `this.updateExtraProps`:
 
-Come discusso [qui](../../aem_guides_framework/basic-customisation.md), qualsiasi nuovo attributo aggiunto durante la personalizzazione va sotto `this.model.extraProps`. Il metodo `updateExtraProps` consente di aggiungere attributi a un commento di revisione, gestendo l’aggiornamento e l’archiviazione dell’attributo aggiunto anche sul server.
+Come discusso [qui](../../aem_guides_framework/basic-customisation.md), qualsiasi nuovo attributo aggiunto durante la personalizzazione va sotto `this.model.extraProps`. Il metodo `updateExtraProps` consente di aggiungere attributi a un commento di revisione, gestendo l&#39;aggiornamento e l&#39;archiviazione dell&#39;attributo aggiunto anche sul server.
 
 ### Esempio di utilizzo
 
-Ad esempio, se desideri aggiungere dei campi `commentRationale` e `severity` ai tuoi commenti.
-Aggiorniamo il `commentRationale` to &quot;Questa è una frase importante&quot;. e `severity` &quot;CRITICAL&quot;.
+Si supponga, ad esempio, di voler aggiungere i campi `commentRationale` e `severity` ai commenti.
+Aggiorniamo `commentRationale` a &quot;Questa è una frase importante&quot;. e `severity` a &quot;CRITICAL&quot;.
 Questa operazione può essere eseguita utilizzando la sintassi:
 
 ```typescript
@@ -47,20 +47,22 @@ Il frammento di codice sopra riportato gestirà l’aggiornamento e il salvatagg
 
 - id: `inline_review_panel`
 
-1. gancio: `onNewCommentEvent`
-Il gancio `onNewCommentEvent` consente di generare un evento o chiamare un metodo su un nuovo evento di commento o risposta.
-Gli argomenti ricevuti nel `onNewCommentEvent` include:
+1. hook: `onNewCommentEvent`
+L&#39;hook `onNewCommentEvent` consente di generare un evento o di chiamare un metodo su un nuovo commento o su un nuovo evento di risposta.
+Gli argomenti ricevuti in `onNewCommentEvent` includono:
    - eventi: l’evento di commento/risposta inviato.
-   - newComment: booleano Se l’evento inviato era un nuovo evento di commento, ovvero `highlight`, `insertion`, `deletion`, `sticky note comment`
-   - newReply: booleano Se l’evento inviato era un nuovo evento di risposta.
+   - newComment: booleano
+Se l&#39;evento inviato è un nuovo evento di commento, ad esempio `highlight`, `insertion`, `deletion`, `sticky note comment`
+   - newReply: booleano
+Se l’evento inviato era un nuovo evento di risposta.
 
-2. gancio: `sendExtraProps`
+2. hook: `sendExtraProps`
 
-Questo gancio è utile se desideri estendere un `event` e invia `extraProps` dal pannello di revisione in linea. Di seguito viene illustrato l&#39;utilizzo di questi due hook.
+Questo hook è utile se desideri estendere un `event` e inviare `extraProps` dal pannello di revisione in linea. Di seguito viene illustrato l&#39;utilizzo di questi due hook.
 
 ### Esempio di pannello Revisione in linea
 
-Di&#39; che vogliamo inviare un extraProp, `userInfo`, ogni volta che viene inviato un nuovo commento o una nuova risposta. Ora questo verrà fatto tramite il pannello di revisione in linea, tuttavia non abbiamo il riferimento al commentId del commento appena generato, quindi per ottenere questo possiamo scrivere il seguente codice.
+Si supponga di voler inviare un oggetto extraProp, `userInfo`, ogni volta che viene inviato un nuovo commento o una nuova risposta. Ora questo verrà fatto tramite il pannello di revisione in linea, tuttavia non abbiamo il riferimento al commentId del commento appena generato, quindi per ottenere questo possiamo scrivere il seguente codice.
 
 ```typescript
     onNewCommentEvent(args){
@@ -75,7 +77,7 @@ Di&#39; che vogliamo inviare un extraProp, `userInfo`, ogni volta che viene invi
     },
 ```
 
-Nel frammento di codice precedente, stiamo verificando se l’evento inviato è un nuovo commento o una nuova risposta. In caso di un nuovo commento o risposta, chiamiamo il metodo `setUserInfo`
+Nel frammento di codice precedente, stiamo verificando se l’evento inviato è un nuovo commento o una nuova risposta. In caso di un nuovo commento o risposta, verrà chiamato il metodo `setUserInfo`
 
 ```typescript
     setUserInfo(event) {
@@ -98,8 +100,8 @@ Nel frammento di codice precedente, stiamo verificando se l’evento inviato è 
 
 Con il metodo precedente, estendiamo l’evento per inviare extraProp che includono nome dell’utente, e-mail, titolo, ecc. Estendendo l’evento in questo modo, gli extraProp vengono inviati con il commentId corretto, garantendo che siano allegati al commento corretto.
 
-Il gancio `updateExtraProps` richiama intrinsecamente l’hook `sendExtraProps`quindi quando utilizzare cosa?
+L&#39;hook `updateExtraProps` chiama intrinsecamente l&#39;hook `sendExtraProps`, quindi quando utilizzare cosa?
 
-Utilizziamo `updateExtraProps` nel `review_comment` controller, che ha già la proprietà `id` e quindi è sufficiente menzionare il `extraProps.`
+`updateExtraProps` viene utilizzato nel controller `review_comment`, che ha già il `id` del commento e pertanto è sufficiente menzionare `extraProps.`
 
-Il `inline_review_panel` tuttavia, non ha accesso all’id del commento; pertanto, ogni volta che devi inviare un evento dal pannello di revisione in linea, il `sendExtraProps` sarà utile.
+`inline_review_panel` non ha tuttavia accesso all&#39;ID del commento, pertanto in qualsiasi momento sia necessario inviare un evento dal pannello di revisione in linea, `sendExtraProps` sarà utile.

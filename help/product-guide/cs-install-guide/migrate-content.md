@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Migrare i contenuti esistenti {#id181AGB000Y4}
 
-Le guide AEM consentono di convertire in formato DITA diversi documenti strutturati e non strutturati. In questo argomento vengono fornite informazioni sul caricamento del contenuto DITA nell&#39;archivio AEM e sulla conversione del contenuto non DITA in formato DITA.
+AEM Guides consente di convertire in formato DITA diversi documenti strutturati e non strutturati. In questo argomento vengono fornite informazioni sul caricamento del contenuto DITA nell&#39;archivio AEM e sulla conversione del contenuto non DITA in formato DITA.
 
 >[!TIP]
 >
-> Consulta la *Migrazione e caricamento dei contenuti* sezione nella guida alle best practice per le best practice sull’utilizzo della migrazione e il caricamento di contenuti esistenti.
+> Consulta la sezione *Migrazione e caricamento dei contenuti* nella guida alle best practice per le best practice sull&#39;utilizzo della migrazione e del caricamento di contenuti esistenti.
 
 - **[Carica contenuto DITA esistente](migrate-content-upload-existing-dita-content.md)**
 
-- **[Migrare contenuti non DITA](migrate-content-non-dita.md)**
+- **[Migrare contenuto non DITA](migrate-content-non-dita.md)**

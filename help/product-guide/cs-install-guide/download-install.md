@@ -14,17 +14,17 @@ ht-degree: 8%
 
 # Scarica e installa {#id1645E0O04MK}
 
-A partire dalla versione 2024.2.0, Experience Manager Guides è disponibile solo come componente aggiuntivo automatico, ad Experience Manager as a Cloud Service.
+A partire dalla versione 2024.2.0, Experience Manager Guides è disponibile solo come componente aggiuntivo automatico, ad Experience Manager in as a Cloud Service.
 
-Se utilizzi le versioni di dicembre 2023 o precedenti, puoi scaricare le Guide di Adobe Experience Manager dall’archivio GitHub e installarle.
+Se utilizzi le versioni di dicembre 2023 o precedenti, puoi scaricare Adobe Experience Manager Guides dall’archivio GitHub e installarlo.
 
 
-- **[Distribuire il modulo AEM Guides](download-install-dxml-first-time.md)**
+- **[Distribuisci modulo AEM Guides](download-install-dxml-first-time.md)**
 
-- **[Configurare Dispatcher](download-install-configure-dispatcher.md)**
+- **[Configura Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[Verificare l&#39;installazione delle guide AEM](download-install-verify-dxml-installation.md)**
+- **[Verifica installazione di AEM Guides](download-install-verify-dxml-installation.md)**
 
-- **[Sostituzioni configurazione](download-install-additional-config-override.md)**
+- **[Override configurazione](download-install-additional-config-override.md)**
 
 - **[Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)**

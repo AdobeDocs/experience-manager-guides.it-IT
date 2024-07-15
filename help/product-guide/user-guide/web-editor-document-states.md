@@ -1,6 +1,6 @@
 ---
 title: Stato documento
-description: Scopri i tipi di stati dei documenti nelle Guide AEM. Scopri come modificare o visualizzare lo stato del documento e come utilizzarlo in DDLC.
+description: Scopri i tipi di stati dei documenti in AEM Guides. Scopri come modificare o visualizzare lo stato del documento e come utilizzarlo in DDLC.
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Stato documento {#id1821HC00URO}
 
-Per gestire la disponibilità dei documenti, le guide AEM forniscono la proprietà Stato documento per indicare lo stato corrente del documento. Gli stati dei documenti consentono di verificare rapidamente se un documento è nuovo, in revisione o completato.
+Per gestire la preparazione dei documenti, AEM Guides fornisce la proprietà Stato documento per indicare lo stato corrente del documento. Gli stati dei documenti consentono di verificare rapidamente se un documento è nuovo, in revisione o completato.
 
 ## Tipi di stati dei documenti
 
@@ -23,9 +23,9 @@ Un documento può avere uno qualsiasi degli stati definiti nel profilo Stato doc
 - In revisione: indica che è stato avviato un flusso di lavoro di revisione per il documento.
 - Rivisto: indica che il documento è stato rivisto dagli utenti a cui è destinato.
 
-Questi stati vengono impostati manualmente o automaticamente in base alle impostazioni del profilo Stati documento. Ad esempio, se il profilo Stato documento è configurato con lo stato iniziale come Bozza e lo stato In revisione è definito per i documenti in revisione. Quando si crea un documento, lo stato del documento viene impostato su *Bozza*. Se si avvia un&#39;attività di revisione, lo stato del documento viene modificato in In revisione.
+Questi stati vengono impostati manualmente o automaticamente in base alle impostazioni del profilo Stati documento. Ad esempio, se il profilo Stato documento è configurato con lo stato iniziale come Bozza e lo stato In revisione è definito per i documenti in revisione. Quindi, quando si crea un documento, lo stato del documento è impostato su *Bozza*. Se si avvia un&#39;attività di revisione, lo stato del documento viene modificato in In revisione.
 
-È inoltre possibile modificare manualmente lo stato del documento per uno o più documenti. Tuttavia, se si sceglie di modificare lo stato del documento per più documenti, lo stato consentito è determinato dagli stati comuni consentiti per i documenti selezionati. Si supponga ad esempio di aver definito gli stati del documento come Bozza, In revisione, Rivisto e Pronto per la pubblicazione nello stesso ordine. Nel documento one.dita lo stato è impostato su *Bozza* e nel documento two.dita, lo stato è impostato su Rivisto. Quando si selezionano entrambi, one.dita e two.dita, lo stato del documento consentito sarà *Pronto per la pubblicazione*. Come two.dita è in *Esaminato* stato, il successivo stato possibile per two.dita è solo *Pronto per la pubblicazione*, visualizzato quando si selezionano entrambi i documenti.
+È inoltre possibile modificare manualmente lo stato del documento per uno o più documenti. Tuttavia, se si sceglie di modificare lo stato del documento per più documenti, lo stato consentito è determinato dagli stati comuni consentiti per i documenti selezionati. Si supponga ad esempio di aver definito gli stati del documento come Bozza, In revisione, Rivisto e Pronto per Publish nello stesso ordine. Nel documento one.dita lo stato è impostato su *Bozza* e nel documento two.dita lo stato è impostato su Rivisto. Quando si selezionano entrambi, one.dita e two.dita, lo stato del documento consentito sarà *Pronto per Publish*. Poiché two.dita è nello stato *Reviewed*, il successivo stato possibile per two.dita è solo *Ready to Publish*, che viene visualizzato quando entrambi i documenti sono selezionati.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Questi stati vengono impostati manualmente o automaticamente in base alle impost
 
 Per modificare lo stato di un documento, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, seleziona uno o più documenti per i quali desideri modificare lo stato del documento.
-1. Nella barra degli strumenti principale, fai clic su **Proprietà**.
-1. Selezionare il nuovo stato dal **Stato documento** a discesa. È possibile selezionare solo gli stati del documento consentiti nella sezione Transizione stato del profilo Stato documento.
+1. Nell’interfaccia utente di Assets, seleziona uno o più documenti per i quali desideri modificare lo stato del documento.
+1. Nella barra degli strumenti principale fare clic su **Proprietà**.
+1. Selezionare il nuovo stato dal menu a discesa **Stato documento**. È possibile selezionare solo gli stati del documento consentiti nella sezione Transizione stato del profilo Stato documento.
 
    >[!NOTE]
    >
@@ -47,27 +47,27 @@ Per modificare lo stato di un documento, effettuare le seguenti operazioni:
 
 ## Visualizza stato documento
 
-La vista a schede dell’interfaccia utente Assets mostra lo stato corrente insieme alla data e alle dimensioni di creazione del rispettivo argomento DITA o mappa DITA.
+La vista a schede dell&#39;interfaccia utente di Assets mostra lo stato corrente insieme alla data e alle dimensioni di creazione del rispettivo argomento o mappa DITA.
 
 ![](images/document_state.png){width="800" align="left"}
 
 ## Utilizzare gli stati del documento in DDLC
 
-Gli stati dei documenti svolgono un ruolo importante nella gestione del ciclo di vita dei documenti in DDLC. Se la tua organizzazione segue rigorosamente il DDLC, diventa essenziale disporre di un meccanismo per controllare la modifica dei documenti in base al loro stato. Ad esempio, è possibile consentire la modifica di documenti quando si trovano in *Bozza* o *In-review* stati. Tuttavia, una volta che un documento è rivisto ed è pronto per la pubblicazione, dovrebbe esserci un modo per impedire ulteriori modifiche ai documenti.
+Gli stati dei documenti svolgono un ruolo importante nella gestione del ciclo di vita dei documenti in DDLC. Se la tua organizzazione segue rigorosamente il DDLC, diventa essenziale disporre di un meccanismo per controllare la modifica dei documenti in base al loro stato. Ad esempio, puoi consentire la modifica di documenti in stato *Bozza* o *In revisione*. Tuttavia, una volta che un documento è rivisto ed è pronto per la pubblicazione, dovrebbe esserci un modo per impedire ulteriori modifiche ai documenti.
 
-Le guide AEM forniscono un flusso di lavoro di approvazione dei documenti che consente di controllare il ciclo di vita del processo di sviluppo dei documenti. Quando un documento è pronto per la pubblicazione o ha raggiunto il penultimo stato, è possibile contrassegnarlo come approvato. Dopo l&#39;approvazione di un documento, le guide AEM creano una nuova versione del documento e lo rendono di sola lettura. È quindi possibile spostare il documento per la pubblicazione o creare una baseline per l&#39;ulteriore elaborazione.
+AEM Guides fornisce un flusso di lavoro di approvazione dei documenti che consente di controllare il ciclo di vita del processo di sviluppo dei documenti. Quando un documento è pronto per la pubblicazione o ha raggiunto il penultimo stato, è possibile contrassegnarlo come approvato. Dopo l’approvazione di un documento, AEM Guides ne crea una nuova versione di sola lettura. È quindi possibile spostare il documento per la pubblicazione o creare una baseline per l&#39;ulteriore elaborazione.
 
-Per avviare una nuova versione dai documenti contrassegnati come approvati, un autore deve avviare una nuova versione. L’avvio di una nuova versione modifica lo stato del documento in *Bozza* di nuovo. Modificando lo stato del documento in *Bozza*, il documento sarà nuovamente modificabile e potrai continuare a lavorare sulla versione successiva.
+Per avviare una nuova versione dai documenti contrassegnati come approvati, un autore deve avviare una nuova versione. Quando si avvia una nuova versione, lo stato del documento viene nuovamente modificato in *Bozza*. Modificando lo stato del documento in *Bozza*, il documento sarà nuovamente modificabile e sarà possibile continuare a lavorare alla versione successiva.
 
 Per utilizzare la funzione di approvazione del documento, effettuare le seguenti operazioni:
 
 >[!NOTE]
 >
-> La funzione di approvazione del flusso di lavoro deve essere abilitata dall’amministratore. Per ulteriori dettagli, consulta *Abilita flusso di lavoro di approvazione* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> La funzione di approvazione del flusso di lavoro deve essere abilitata dall’amministratore. Per ulteriori dettagli, consulta la sezione *Abilitare il flusso di lavoro di approvazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 1. Nell&#39;editor Web aprire il documento da contrassegnare per l&#39;approvazione.
 
-1. Fai clic su **Contrassegna come approvato**![](images/mark_approve_icon.svg) icona.
+1. Fai clic sull&#39;icona **Contrassegna come approvato**![](images/mark_approve_icon.svg).
 
 1. Se il documento è in stato di approvazione, viene visualizzata la seguente finestra di dialogo:
 
@@ -83,24 +83,24 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
    >
    > Se l&#39;amministratore non ha configurato un elenco predefinito di etichette, viene visualizzato un campo di testo in formato libero per immettere un&#39;etichetta.
 
-1. Una volta che il documento è stato contrassegnato come approvato, **Anteprima** del documento viene visualizzato in modalità di sola lettura.
+1. Una volta che il documento è stato contrassegnato come approvato, viene visualizzata una **Anteprima** del documento in modalità di sola lettura.
 
    ![](images/approved-doc-read-only.png){width="650" align="left"}
 
    >[!NOTE]
    >
-   > In modalità Anteprima tutte le opzioni di modifica vengono rimosse dalla barra degli strumenti. Inoltre, anche le visualizzazioni Autore e Origine del documento sono state rimosse dalla navigazione superiore.
+   > In modalità Anteprima tutte le opzioni di modifica vengono rimosse dalla barra degli strumenti. Inoltre, anche le visualizzazioni Autore e Source del documento sono state rimosse dalla navigazione superiore.
 
 
-Una volta contrassegnato come approvato, il documento non è più disponibile per la modifica. Se desideri utilizzare il documento per la versione successiva, devi riportarlo nella *Bozza* stato. Per modificare lo stato di un documento approvato in *Bozza* in modalità, effettuare le seguenti operazioni:
+Una volta contrassegnato come approvato, il documento non è più disponibile per la modifica. Se desideri utilizzare il documento per la prossima versione, devi riportarlo allo stato *Bozza*. Per ripristinare la modalità *Bozza* dello stato di un documento approvato, effettuare le seguenti operazioni:
 
-1. In un documento approvato, fai clic su **Avvia una nuova versione** Icona ![](images/approved-restart-draft-mode-icon.svg).
+1. In un documento approvato, fare clic sull&#39;icona ![](images/approved-restart-draft-mode-icon.svg) **Avvia una nuova versione**.
 
    Viene visualizzato il messaggio Avvia nuova versione.
 
-1. Clic **Conferma**.
+1. Fai clic su **Conferma**.
 
    Lo stato del documento viene modificato in Bozza e il documento viene aperto nell&#39;Editor Web in modalità di modifica.
 
 
-**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

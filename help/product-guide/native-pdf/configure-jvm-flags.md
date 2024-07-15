@@ -16,7 +16,7 @@ ht-degree: 1%
 
 La pubblicazione nativa di PDF avvia un processo JVM separato per generare un PDF. Potrebbe essere necessario modificare le configurazioni di questa JVM per supportare scenari diversi. Ad esempio, per eseguire carichi di lavoro più grandi, è necessario aumentare la dimensione heap massima disponibile per il processo JVM generato.
 
-Per configurare i flag JVM di pubblicazione nativa di PDF AEM, effettua le seguenti operazioni:
+Per configurare i flag JVM di pubblicazione nativa di AEM Guides PDF, effettua le seguenti operazioni:
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
@@ -26,9 +26,9 @@ Per configurare i flag JVM di pubblicazione nativa di PDF AEM, effettua le segue
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e seleziona la *com.adobe.fmdita.config.ConfigManager* pacchetto.
+1. Cerca e seleziona il bundle *com.adobe.fmdita.config.ConfigManager*.
 
-1. Aggiornare la proprietà **Opzioni della riga di comando Java per pdf nativo** (*native.pdf.java.opts*) per superare eventuali flag JVM standard.
+1. Aggiorna la proprietà **Java Command Line options for native pdf** (*native.pdf.java.opts*) per passare eventuali flag JVM standard.
 
 
 

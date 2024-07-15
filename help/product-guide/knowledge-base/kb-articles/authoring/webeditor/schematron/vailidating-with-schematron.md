@@ -13,10 +13,10 @@ ht-degree: 0%
 
 # Controllo della qualità dei contenuti nell’editor web
 
-Questo articolo offre una panoramica delle possibilità di convalida nell’editor web delle guide dell’AEM.
+Questo articolo offre una panoramica delle possibilità di convalida nell’editor web di AEM Guides.
 Per progettazione, l&#39;editor Web sfrutta l&#39;impostazione dello schema DITA nel sistema per imporre agli utenti di creare contenuto compatibile con DITA. In questo modo, tutto il contenuto memorizzato nel sistema è strutturato, riutilizzabile e valido.
 
-Oltre al supporto per le regole DITA, l’editor web supporta anche la convalida dei contenuti basati su &quot;*Schematron*&quot;.
+Oltre al supporto per le regole DITA, Web-editor supporta anche la convalida del contenuto in base alle regole &quot;*Schematron*&quot;.
 
 &quot;*Schematron*&quot; fa riferimento a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. Potete importare i file Schematron e modificarli nell&#39;Editor Web. Utilizzando un file &quot;Schematron&quot; è possibile definire determinate regole e quindi convalidarle per un argomento DITA o una mappa. Le regole di schema possono garantire la coerenza della struttura XML imponendo restrizioni definite come regole. Tali restrizioni sono dettate dalle PMI proprietarie della qualità e della coerenza dei contenuti.
 
@@ -27,29 +27,30 @@ Oltre al supporto per le regole DITA, l’editor web supporta anche la convalida
 
 ### Configurazione delle regole di Schematron
 
-Consulta la sezione &quot;Supporto per i file Schematron&quot; in [Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Consulta la sezione &quot;Supporto per i file Schematron&quot; nella [Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Applica regole di convalida al salvataggio dei file
 
-Le impostazioni dell’editor web consentono agli utenti avanzati di impostare regole/file Schematron che verranno eseguiti ogni volta che un utente aggiorna il contenuto. Per ulteriori informazioni, consulta la sezione &quot;Convalida&quot; in [Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Le impostazioni dell’editor web consentono agli utenti avanzati di impostare regole/file Schematron che verranno eseguiti ogni volta che un utente aggiorna il contenuto. Per ulteriori dettagli fare riferimento alla sezione &quot;Convalida&quot; nella [Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![Impostare le regole dalle impostazioni dell’editor web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![Imposta regole da impostazioni editor Web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### È possibile eseguire la convalida manualmente?
 
 Sì, come autore/utente durante la creazione di contenuti puoi utilizzare il pannello Schematron nell’editor web per caricare un file schematron ed eseguire convalide sul file aperto nell’editor.
 
-    Affinché ciò funzioni, l&#39;amministratore del profilo di cartella deve consentire a tutti gli utenti di aggiungere file Schemtron nel pannello Convalida. Vedi le impostazioni dell’editor (schermata data sopra)
+    Affinché ciò funzioni, l&#39;amministratore del profilo di cartella deve consentire a tutti gli utenti di aggiungere file Schemtron nel pannello Convalida. Vedi le impostazioni dell&#39;editor (schermata data sopra)
 
-![Scegliete il file di schema](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![Scegli il file Schematron](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Esegui convalida](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Regole supportate
 
-La versione corrente delle guide AEM supporta la convalida utilizzando solo le regole basate su &quot;Asserzioni&quot;. (vedere [rapporto vs. risorse](https://schematron.com/document/205.html)) Eventuali regole basate su &quot;Rapporti&quot; non sono ancora supportate.
+La versione corrente di AEM Guides supporta la convalida utilizzando solo le regole basate su &quot;Asserzioni&quot;. (vedi [risorsa vs report](https://schematron.com/document/205.html))
+Eventuali regole basate su &quot;Rapporti&quot; non sono ancora supportate.
 
 
 ### Esempi e ulteriori informazioni sulle regole di Schematron
@@ -100,6 +101,6 @@ La versione corrente delle guide AEM supporta la convalida utilizzando solo le r
 
 #### Riferimenti
 
-- Informazioni  [Nozioni di base sugli schemi](https://da2022.xatapult.com/#what-is-schematron)
-- Ulteriori informazioni su [Regole di asserzione in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Nozioni di base su [Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Ulteriori informazioni sulle [regole di asserzione in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [File di schema di esempio](../../../assets/authoring/sample_schematron.sch)

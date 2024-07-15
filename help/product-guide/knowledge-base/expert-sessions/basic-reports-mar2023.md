@@ -1,5 +1,5 @@
 ---
-title: Rapporti nelle guide AEM
+title: Rapporti in AEM Guides
 description: Scopri quali sono tutti i rapporti disponibili nell’AEM per aiutare gli utenti a migliorare la qualità dei contenuti.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 feature: Report Generation
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Rapporti nelle guide AEM
+# Rapporti in AEM Guides
 
 In una configurazione organizzativa, è necessario verificare la completezza complessiva del contenuto prima di inviare i documenti per l’utilizzo da parte degli utenti finali. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala in cui il contenuto può essere riutilizzato in contesti diversi, per cui la convalida del contenuto o del documento è una necessità. Nel contesto dei contenuti strutturati, sono comunemente necessari alcuni tipi specifici di rapporti.
 
@@ -34,7 +34,7 @@ In questa sessione abbiamo mostrato i rapporti predefiniti disponibili per gli u
 ## In evidenza
 
 - **Data** - 30 marzo 2023
-- **Numero di partecipanti** - 102
+- **Numero partecipanti** - 102
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -49,27 +49,27 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **[Scarica il manuale dei rapporti delle guide AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli dei rapporti dimostrati nella sessione.
+- **[Scarica il manuale dei report di AEM Guides](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli dei report mostrati nella sessione.
 
-- **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - On-prem: 4.2 o versione successiva
 > - Cloud Service: 2302 o versione successiva
 
 
 ## Prossima sessione di esperti
 
-- **Argomento** - Configurazione di contenuti e modelli
-- **Pianificato per** - 27 aprile 2023
+- **Argomento** - Configurazione del contenuto e del modello
+- **Pianificato per il** - 27 aprile 2023
 
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

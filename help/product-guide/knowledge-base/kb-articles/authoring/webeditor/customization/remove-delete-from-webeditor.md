@@ -1,21 +1,21 @@
 ---
 title: Rimuovi l’opzione Elimina dal menu di scelta rapida dei file nell’editor web per utenti specifici
 description: Scopri come personalizzare l’editor web rimuovendo l’opzione Elimina dal menu di scelta rapida dei file per utenti/gruppi specifici
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Rimuovi l’opzione Elimina dal menu di scelta rapida dei file nell’editor web
 
-Questo articolo illustra come nascondere l’opzione Elimina dal menu di scelta rapida dei file nell’editor web delle guide AEM per utenti o gruppi specifici. Per altre personalizzazioni sulle opzioni del menu di scelta rapida dei file, controlla il framework dell’estensione delle guide. Ulteriori dettagli sono disponibili [qui](https://github.com/adobe/guides-extension/tree/main).
+Questo articolo illustra come nascondere l’opzione Elimina dal menu di scelta rapida dei file in AEM Guides Web Editor per utenti o gruppi specifici. Per altre personalizzazioni sulle opzioni del menu di scelta rapida dei file, controlla il framework dell’estensione delle guide. Ulteriori dettagli sono disponibili [qui](https://github.com/adobe/guides-extension/tree/main).
 
 Come puoi vedere dallo snippet qui sotto, il menu di scelta rapida del file presenta l’opzione Elimina disponibile per questo utente specifico.
 
-![Menu di scelta rapida File con Elimina](../../../assets/authoring/file-contextmenu-Delete.png)
+![Menu di scelta rapida file con eliminazione](../../../assets/authoring/file-contextmenu-Delete.png)
 
 Ora vediamo come nascondere l’opzione &quot;Elimina&quot; per questo utente.
 

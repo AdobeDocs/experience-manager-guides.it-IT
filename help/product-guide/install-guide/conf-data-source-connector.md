@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurare un connettore di origine dati
 
-Le guide AEM forniscono connettori predefiniti per database JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite). È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, è possibile visualizzare le origini dati nell’Editor web.
+AEM Guides fornisce connettori predefiniti per database JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite). È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, è possibile visualizzare le origini dati nell’Editor web.
 
 Per configurare un connettore di origine dati e utilizzarlo dall&#39;editor Web, eseguire la procedura seguente:
 
@@ -40,7 +40,7 @@ Esempio di file di configurazione per l’autenticazione di base di Jira con nom
 }
 ```
 
-Ad esempio, salva con nome `jira.json`.
+Ad esempio, salvare come `jira.json`.
 
 Esempio di file di configurazione per l’autenticazione di base di Jira con token:
 
@@ -59,7 +59,7 @@ Esempio di file di configurazione per l’autenticazione di base di Jira con tok
 }
 ```
 
-Ad esempio, salva con nome `jira.json`.
+Ad esempio, salvare come `jira.json`.
 
 Un esempio di file di configurazione per l’autenticazione di base di Jira con il token contenente la parola chiave &quot;Basic&quot;:
 
@@ -78,7 +78,7 @@ Un esempio di file di configurazione per l’autenticazione di base di Jira con 
 }
 ```
 
-Ad esempio, salva con nome `jira.json`.
+Ad esempio, salvare come `jira.json`.
 
 Esempio di file di installazione per l&#39;autenticazione di base di MySql:
 
@@ -99,7 +99,7 @@ Esempio di file di installazione per l&#39;autenticazione di base di MySql:
 }
 ```
 
-Ad esempio, salva con nome `mysql.json`.
+Ad esempio, salvare come `mysql.json`.
 
 Esempio di file di installazione per l&#39;autenticazione di base di PostgreSQL:
 
@@ -120,7 +120,7 @@ Esempio di file di installazione per l&#39;autenticazione di base di PostgreSQL:
 }
 ```
 
-Ad esempio, salva con nome `postgres.json`.
+Ad esempio, salvare come `postgres.json`.
 
 Esempio di file di installazione per l&#39;autenticazione di base di MS SQL Server:
 
@@ -141,7 +141,7 @@ Esempio di file di installazione per l&#39;autenticazione di base di MS SQL Serv
 }
 ```
 
-Ad esempio, salva con nome `mssqlserver.json`.
+Ad esempio, salvare come `mssqlserver.json`.
 
 Esempio di file di installazione per l&#39;autenticazione di base di SQLite:
 
@@ -162,11 +162,11 @@ Esempio di file di installazione per l&#39;autenticazione di base di SQLite:
 }
 ```
 
-Ad esempio, salva con nome `sqqlite.json`.
+Ad esempio, salvare come `sqqlite.json`.
 
 ### Personalizzare una configurazione di connettore
 
-Le guide AEM consentono di personalizzare alcuni valori nel file di configurazione in base alle esigenze dell&#39;utente.
+AEM Guides consente di personalizzare alcuni valori nel file di configurazione in base alle esigenze dell’utente.
 
 | Nome proprietà | Descrizione |
 |---|---|
@@ -179,10 +179,10 @@ Altri campi vengono personalizzati in base alla classe di configurazione selezio
 
 Carica il file in una posizione specifica in AEM Assets.
 
-Ad esempio:  `/content/dam/jira.json`
+Ad esempio, `/content/dam/jira.json`
 
 ## Creare una configurazione tramite API REST
 
-Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, vedi *API REST per registrare un connettore di origine dati* nella sezione Riferimento API per le guide di Adobe Experience Manager.
+Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, visualizzare la sezione *API REST per registrare un connettore origine dati* nella documentazione di riferimento API per Adobe Experience Manager Guides.
 
-Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati dell’Editor web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, vedi [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
+Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati dell’Editor web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).

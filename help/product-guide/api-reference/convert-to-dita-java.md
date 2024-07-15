@@ -22,9 +22,9 @@ Le seguenti API basate su Java consentono di convertire i documenti HTML e Word 
 
 - ID artefatto: **api**
 
-- Versione: **3,2**
+- Versione: **3.2**
 
-- Pacchetto **com.adobe.fmdita.api.conversion**
+- Pacchetto: **com.adobe.fmdita.api.conversion**
 
 - Dettagli classe:
 
@@ -32,12 +32,12 @@ Le seguenti API basate su Java consentono di convertire i documenti HTML e Word 
   public class ConversionUtils extends Object
   ```
 
-  Il **ConversionUtils** La classe contiene metodi per la conversione di documenti HTML e Word in formato DITA.
+  La classe **ConversionUtils** contiene metodi per la conversione di documenti HTML e Word in formato DITA.
 
 
 ## Conversione di documenti HTML
 
-Il `convertHtmlToDita` metodo converte i documenti HTML in formato DITA.
+Il metodo `convertHtmlToDita` converte i documenti HTML in formato DITA.
 
 **Sintassi**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |`inputFile`|String|Percorso assoluto dei file HTML di origine nell’archivio AEM.| |`destPath`|Stringa|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.| |`createRev`|Booleano|Specificare se viene creata una revisione dei file \( `true`\) alla destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
+|`inputFile`|Stringa|Percorso assoluto dei file HTML di origine nell&#39;archivio AEM.|
+|`destPath`|Stringa|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.|
+|`createRev`|Booleano|Specificare se viene creata una revisione dei file \( `true`\) nella destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
 
-**Eccezione**: proiezioni `RepositoryException`.
+**Eccezione**:
+Genera `RepositoryException`.
 
 ## Convertire documenti di Word
 
-Il ``convertWordToDita`` converte i documenti di Word in formato DITA.
+Il metodo ``convertWordToDita`` converte i documenti di Word in formato DITA.
 
 **Sintassi**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |`inputFile`|String|Percorso assoluto dei file Word di origine nell&#39;archivio AEM.| |`destPath`|Stringa|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.| |`style2tagMap`|String|Percorso assoluto del file di mapping degli stili che verrà utilizzato per la conversione.| |`createRev`|Booleano|Specificare se viene creata una revisione dei file \( `true`\) alla destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
+|`inputFile`|Stringa|Percorso assoluto dei file Word di origine nell&#39;archivio AEM.|
+|`destPath`|Stringa|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.|
+|`style2tagMap`|Stringa|Percorso assoluto del file di mapping degli stili che verrà utilizzato per la conversione.|
+|`createRev`|Booleano|Specificare se viene creata una revisione dei file \( `true`\) nella destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
 
-**Eccezione**: proiezioni `RepositoryException`.
+**Eccezione**:
+Genera `RepositoryException`.

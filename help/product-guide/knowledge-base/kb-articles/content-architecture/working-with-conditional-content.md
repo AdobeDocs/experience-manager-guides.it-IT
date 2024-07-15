@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Utilizzo di contenuti condizionali
 
-**Caso d’uso**
+**Caso d&#39;uso**
 
 * Gli autori possono impostare condizioni su un contenuto in modo da controllare se viene visualizzato nell’output.
 
@@ -23,21 +23,25 @@ ht-degree: 0%
 
 **Passaggio 1**
 
-Definire le condizioni relative alla documentazione in [!UICONTROL Profili cartella]: fai riferimento alla sezione **Configurare gli attributi condizionali per i profili globali o a livello di cartella** in [Pagina 69 della Guida di installazione e configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Definisci le condizioni relative alla documentazione in [!UICONTROL Profili cartella]:
+Consulta la sezione **Configurare gli attributi condizionali per i profili globali o a livello di cartella** in [Pagina 69 della Guida all&#39;installazione e alla configurazione](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
-![Configurare le condizioni nei profili cartella](assets/conditions-in-profiles.png)
+![Configura condizioni nei profili cartella](assets/conditions-in-profiles.png)
 
 **Passaggio 2**
 
-Seleziona la **[!UICONTROL Profilo cartella]** definito nel passaggio 1 di **Preferenze utente** nell&#39;editor XML: fare riferimento alla sezione **Preferenze utente** in [Pagina 41 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Selezionare il **[!UICONTROL Profilo cartella]** definito nel passaggio 1 in **Preferenze utente** nell&#39;editor XML:
+Consulta la sezione **Preferenze utente** in [Pagina 41 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Passaggio 3**
 
-Utilizza le condizioni per condizionalizzare le sezioni del contenuto: fai riferimento alla sezione **Condizioni** in [Pagina 90 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Utilizza le condizioni per condizionare le sezioni del contenuto:
+Consulta la sezione **Condizioni** in [Pagina 90 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
-![Condizioni d’uso nell’editor web](assets/conditions-in-web-editor.png)
+![Condizioni d&#39;uso nell&#39;editor Web](assets/conditions-in-web-editor.png)
 
 **Passaggio 4**
 
-Definisci i predefiniti per le condizioni a livello di mappa per scegliere quali condizioni abilitare nell’output: fai riferimento alla sezione **Utilizzare i predefiniti per le condizioni** in [Pagina 249 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Definisci i predefiniti per le condizioni a livello di mappa per scegliere quali condizioni abilitare nell’output:
+Consulta la sezione **Utilizzare i predefiniti per le condizioni** in [Pagina 249 della Guida utente](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

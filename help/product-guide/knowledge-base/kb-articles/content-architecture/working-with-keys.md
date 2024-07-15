@@ -17,7 +17,7 @@ Le organizzazioni devono utilizzare i tasti nei casi in cui dispongono di testo 
 
 ## Passaggio 1: creare una mappa globale per la memorizzazione delle chiavi
 
-Crea una mappa e aggiungi [!UICONTROL keyref] a esso.
+Crea una mappa e aggiungi l&#39;elemento [!UICONTROL keyref].
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ Crea una mappa e aggiungi [!UICONTROL keyref] a esso.
 </map>
 ```
 
-Qui hai definito due definizioni, come mostrato sopra, a condizione che [!UICONTROL keyref] as _AEM_ per _Adobe Experience Manager_ testo.
+Qui hai definito due definizioni, come mostrato sopra, hai fornito un [!UICONTROL keyref] come _AEM_ per il testo _Adobe Experience Manager_.
 
 ## Passaggio 2: aggiungi questa mappa alla mappa della pubblicazione
 
@@ -55,10 +55,10 @@ Qui hai definito due definizioni, come mostrato sopra, a condizione che [!UICONT
 
 ## Passaggio 3: utilizzare le chiavi per fare riferimento alle variabili definite nella mappa chiave globale
 
-+ Modifica l’argomento e aggiungi il valore chiave utilizzando [!UICONTROL keyref].
++ Modifica l&#39;argomento e aggiungi il valore chiave utilizzando [!UICONTROL keyref].
 + Come mostrato nella schermata, viene visualizzata una piccola finestra da cui è possibile scegliere le parole chiave. Questo verrà visualizzato quando aggiungi l’elemento &quot;keyword&quot;.
   ![Inserisci elemento](assets/insert_element.png)
-  ![Rif. chiave](assets/key_ref.png)
+  ![Rif chiave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

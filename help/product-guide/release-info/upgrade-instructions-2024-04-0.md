@@ -1,11 +1,11 @@
 ---
-title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2024.04.0
-description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2024.04.0 delle guide as a Cloud Service di Adobe Experience Manager.
+title: Note sulla versione | Istruzioni di aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2024.04.0
+description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2024.04.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
 source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 2024.04.0 di Adobe Experience Manager Guides as a Cloud Service.
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, vedi [Novità della versione 2024.04.0](whats-new-2024-04-0.md).
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 2024.04.0](whats-new-2024-04-0.md).
 
-Per un elenco dei problemi risolti in questa versione, vedi [Sono stati risolti i problemi nella versione 2024.04.0 di](fixed-issues-2024-04-0.md).
+Per un elenco dei problemi risolti in questa versione, consulta [Problemi risolti nella versione 2024.04.0](fixed-issues-2024-04-0.md).
 
 ## Matrice di compatibilità
 
@@ -23,7 +23,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
-| Rilascio di Experience Manager Guides as a Cloud | FMPS | FrameMaker |
+| Versione di Experience Manager Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2024.04.0 | Non compatibile | 2022 o versione successiva |
 | | | |
@@ -31,7 +31,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 ### Connettore ossigeno
 
-| Rilascio di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
+| Versione di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2024.04.0 | 3,5-uuid 1 | 3,5-uuid 1 | 2,3 | 2,3 |
 |  |  |  |  |
@@ -41,7 +41,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti dei componenti Experience Manager Guides per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti per componenti Experience Manager Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Aggiornamento alla versione 2024.04.0
 
@@ -54,11 +54,11 @@ Experience Manager Guides viene aggiornato automaticamente dopo l’aggiornament
 
 
 
-Se non lo hai già fatto in precedenza per la versione esistente, effettua le seguenti operazioni, ad Experience Manager Guide as a Cloud Service:
+Se non lo hai già fatto in precedenza per la versione esistente, effettua le seguenti operazioni per Experience Manager Guides as a Cloud Service:
 
 ### Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
-(Solo se ti trovi in una versione precedente a quella di giugno 2023 di Experience Manager Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di Experience Manager Guides as a Cloud Service)
 
 Dopo aver completato l’installazione, puoi scegliere di premere il trigger per avviare il processo di traduzione:
 
@@ -78,7 +78,7 @@ Risposta:
 }
 ```
 
-Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell’archivio che punta al processo inviato. Viene eliminato automaticamente una volta completato il processo, quindi puoi fare riferimento a questo nodo per lo stato del processo.
+Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell&#39;archivio che punta al processo inviato. Viene eliminato automaticamente una volta completato il processo, quindi puoi fare riferimento a questo nodo per lo stato del processo.
 
 Attendere il completamento del processo prima di procedere ai passaggi successivi.
 
@@ -93,47 +93,47 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
 
-(Solo se ti trovi in una versione precedente a quella di giugno 2023 di Experience Manager Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di Experience Manager Guides as a Cloud Service)
 
 Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
 
-1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file DITA, aggiornare `queryLimitReads` e `queryLimitInMemory` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
+1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file DITA, aggiornare `queryLimitReads` e `queryLimitInMemory` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` a un valore maggiore (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuire.
 
-   - Utilizzare le istruzioni fornite nella *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service, per creare il file di configurazione.
-   - Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare `queryLimitReads` e `queryLimitInMemory` opzione:
+   - Per creare il file di configurazione, segui le istruzioni fornite nella sezione *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+   - Nel file di configurazione, fornire i seguenti dettagli (proprietà) per configurare l&#39;opzione `queryLimitReads` e `queryLimitInMemory`:
 
      | PID | Chiave proprietà | Valore proprietà |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valore: 200000 Valore predefinito: 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Valore: 200000 Valore predefinito: 100000 |
 
-1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server>//bin/guides/reports/upgrade`.
+1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
-Ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+(ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
-1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 ### Passaggi per indicizzare il contenuto esistente per utilizzare il nuovo elenco Trova e sostituisci e Argomento nella scheda Rapporti:
 
-(Solo se ti trovi in una versione precedente a quella di giugno 2023 di Experience Manager Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di Experience Manager Guides as a Cloud Service)
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita tutte le mappe sono indicizzate|| Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita tutte le mappe sono indicizzate|| Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`Ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
-### Passaggi per gestire `'fmdita rewriter'` conflitto
+### Passaggi per gestire il conflitto `'fmdita rewriter'`
 
-Experience Manager Guide ha un [**rewriter sling personalizzato**](../cs-install-guide/conf-output-generation.md#custom-rewriter) modulo per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse).
+Experience Manager Guides dispone di un modulo [**sling rewriter personalizzato**](../cs-install-guide/conf-output-generation.md#custom-rewriter) per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse).
 
-Se nel codebase è presente un altro rewriter di sling personalizzato, utilizza un `'order'` valore maggiore di 50, utilizzato dal rewriter sling di Experience Manager Guides `'order'` 50 Per evitare questo problema, è necessario un valore > 50. Per ulteriori dettagli, vedi [Pipeline di riscrittura di output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un valore `'order'` maggiore di 50, in quanto il rewriter sling di Experience Manager Guides utilizza `'order'` 50. Per evitare questo problema, è necessario un valore > 50. Per ulteriori dettagli, visualizza [Pipeline di riscrittura output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-Durante questo aggiornamento, dal momento che `'order'` viene modificato da 1000 a 50, è necessario unire l’eventuale rewriter personalizzato esistente con `fmdita-rewriter`.
+Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 1000 a 50, è necessario unire l&#39;eventuale rewriter personalizzato esistente con `fmdita-rewriter`.

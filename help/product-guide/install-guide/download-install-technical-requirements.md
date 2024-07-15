@@ -1,6 +1,6 @@
 ---
 title: Requisiti tecnici
-description: Scopri i requisiti tecnici per utilizzare le guide di Adobe Experience Manager
+description: Scopri i requisiti tecnici per lavorare con Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Requisiti tecnici {#id213BCG003XA}
 
-Prima di installare le guide AEM 4.4, accertarsi che il sistema soddisfi i seguenti requisiti tecnici:
+Prima di installare AEM Guides 4.4, accertati che il sistema soddisfi i seguenti requisiti tecnici:
 
 **Adobe Experience Manager**
 
@@ -38,7 +38,7 @@ Prima di installare le guide AEM 4.4, accertarsi che il sistema soddisfi i segue
 - Oracle SE 8 JRE 1.8.x
 
 
-**Browser web**
+**Browser**
 
 - Google Chrome
 

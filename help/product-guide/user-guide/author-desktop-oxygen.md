@@ -1,6 +1,6 @@
 ---
 title: Lavorare con l'ossigeno
-description: Scopri il supporto dell’editor XML di ossigeno per l’authoring e la pubblicazione di contenuti nelle guide AEM.
+description: Scopri il supporto dell’editor XML di ossigeno per la creazione e la pubblicazione di contenuti in AEM Guides.
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
@@ -17,6 +17,6 @@ Oxygen XML Author offre funzioni di authoring intuitive e un&#39;interfaccia di 
 
 È possibile produrre output in PDF, ePub, HTML e in molti altri formati, utilizzando la stessa origine.
 
-*Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito.*
+*Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento padre:**[ Creare contenuti con strumenti desktop](author-desktop-tools.md)
+**Argomento principale:**[ Creare contenuti tramite strumenti desktop](author-desktop-tools.md)

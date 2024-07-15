@@ -25,65 +25,65 @@ Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
 ## Aggiungere una feature nella barra degli strumenti
 
-L’aggiunta di una funzionalità all’editor web comporta due attività principali: l’aggiunta di un’icona per la funzione nel *ui\_config.json* e aggiungendo la funzionalità di background in JavaScript.
+L&#39;aggiunta di una funzionalità all&#39;editor Web comporta due attività principali: l&#39;aggiunta di un&#39;icona per la funzionalità nel file *ui\_config.json* e l&#39;aggiunta della funzionalità in background in JavaScript.
 
 Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web, effettuare le operazioni riportate di seguito.
 
 1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
-1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
-1. Fai clic sul pulsante **Profilo globale** affiancare.
-1. Seleziona la **Configurazione editor XML** e fai clic su **Modifica** icona in alto
-1. Fai clic su **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
-1. In `ui_config.json` aggiungere la definizione della nuova feature nella sezione barre degli strumenti. Salva il file e caricalo.
+1. Seleziona **Guide** dall&#39;elenco degli strumenti e fai clic su **Profili cartella**.
+1. Fai clic sul riquadro **Profilo globale**.
+1. Seleziona la scheda **Configurazione editor XML** e fai clic sull&#39;icona **Modifica** in alto
+1. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
+1. Nel file `ui_config.json`, aggiungere la definizione della nuova funzionalità nella sezione delle barre degli strumenti. Salva il file e caricalo.
 
    In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
 
-   **tipo**: specifica `blockGroup` come `type` valore. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
+   **tipo**:   Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
 
-   **extraclass**: nome della classe o delle classi separate da spazio.
+   **extraclass**:   Nome della classe o delle classi separate da spazio.
 
-   **elementi**: specifica la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente `type` all&#39;interno del `items`e impostarne il valore su `buttonGroup`. Specifica uno o più nomi di classe in `extraclass` proprietà. Specificate il nome della feature nella `label` proprietà. Lo snippet seguente proveniente da `ui_config.json` file mostra la definizione del blocco della barra degli strumenti principale, seguito da `buttonGroup` definizione:
+   **elementi**:   Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
        &quot;
        &quot;toolbar&quot;: {
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extraclass&quot;:
-       &quot;operazioni sulla barra degli strumenti&quot;,
-       &quot;items&quot;: [
+       &quot;operazioni barra degli strumenti&quot;,
+       &quot;elementi&quot;: [
        {
        &quot;type&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;label&quot;: &quot;Left Controls&quot;,
-       &quot;items&quot;: [
+       &quot;elementi&quot;: [
        &quot;
    
-   All&#39;interno del `items` raccolta, è necessario specificare la definizione per una o più icone della barra degli strumenti.
+   Nell&#39;insieme `items` è necessario specificare la definizione di una o più icone della barra degli strumenti.
 
    Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario definire le seguenti proprietà:
 
-   **tipo**: specifica `button` come `type` valore. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
+   **tipo**:   Specificare `button` come valore `type`. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
 
-   **icona**: specifica il nome dell’icona Coral da utilizzare nella barra degli strumenti.
+   **icona**:   Specificate il nome dell&#39;icona Coral da utilizzare nella barra degli strumenti.
 
-   **variante**: specifica `quiet` come `variant` valore.
+   **variante**:   Specificare `quiet` come valore `variant`.
 
-   **titolo**: specifica la descrizione comando per l’icona.
+   **titolo**:   Specifica la descrizione comando per l’icona.
 
-   **on-click**: specifica il nome del comando definito per la funzione nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
+   **al clic**:   Specificate il nome del comando definito per la feature nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
 
        &quot;Javascript
        &quot;al clic&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
        &quot;
    
-   **mostrare o nascondere**: se definisci il `show` , quindi specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\), oppure `false` \(nascondi in tutte le modalità\).
+   **mostra o nascondi**:   Se si sta definendo la proprietà `show`, specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\) o `false` \(nascondi in tutte le modalità\).
 
-   In sostituzione di `show`, puoi anche definire `hide` proprietà. I valori possibili sono gli stessi di `show` con l’unica differenza che l’icona non viene visualizzata per la modalità specificata.
+   Al posto di `show`, puoi anche definire la proprietà `hide`. I valori possibili sono gli stessi della proprietà `show` con l&#39;unica differenza che l&#39;icona non viene visualizzata per la modalità specificata.
 
-   L’esempio seguente mostra il numero di versione delle guide AEM quando l’utente fa clic sull’icona Mostra versione nella barra degli strumenti.
+   L’esempio seguente mostra il numero di versione di AEM Guides quando l’utente fa clic sull’icona Mostra versione nella barra degli strumenti.
 
-   Aggiungi il seguente codice a un file JavaScript:
+   Aggiungi il codice seguente a un file JavaScript:
 
    ```Javascript
    $(document).ready(setTimeout(function() {
@@ -96,18 +96,18 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
                            }, 1000))
    ```
 
-   Aggiungi la funzione nella sezione *ui\_config.json* file come:
+   Aggiungi la funzionalità nel file *ui\_config.json* come:
 
    ```Javascript
    "type": "button",
    "icon": "alert","variant": "quiet","title": "About AEM Guides","show": "true","on-click": "user.alert"
    ```
 
-1. Creare un *clientlib* e aggiungi il tuo JavaScript a questa cartella.
+1. Crea una cartella *clientlib* e aggiungi il tuo JavaScript in questa cartella.
 
-1. Aggiornare la proprietà Categories del *clientlib* assegnandogli il valore di *apps.fmdita.xml\_editor.page\_overrides*.
+1. Aggiorna la proprietà Categories della cartella *clientlib* assegnandole il valore di *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Salva il *ui\_config.json* e ricaricare l&#39;editor Web.
+1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
 ## Rimuovere una feature dalla barra degli strumenti
@@ -119,18 +119,18 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
-1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
-1. Fai clic sul pulsante **Profilo globale** affiancare.
-1. Seleziona la **Configurazione editor XML** e fai clic su **Modifica** icona in alto
-1. Fai clic su **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
+1. Fai clic sul riquadro **Profilo globale**.
+1. Seleziona la scheda **Configurazione editor XML** e fai clic sull&#39;icona **Modifica** in alto
+1. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
 
-   Il `ui_config.json` Il file è suddiviso in tre sezioni:
+   Il file `ui_config.json` è suddiviso in tre sezioni:
 
-   1. **barre degli strumenti**: questa sezione contiene la definizione di tutte le funzioni disponibili nella barra degli strumenti dell’editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
+   1. **barre degli strumenti**:   Questa sezione contiene la definizione di tutte le funzioni disponibili nella barra degli strumenti dell’editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
 
-   1. **scelte rapide**: questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
+   1. **collegamenti**:   Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
 
-   1. **modelli**: questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo elemento `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
+   1. **modelli**:   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
 
    ```css
    "li": "<li><p></p></li>"
@@ -138,7 +138,7 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 
 1. Dalla sezione delle barre degli strumenti, rimuovere la voce della caratteristica che non si desidera esporre agli utenti.
 
-1. Salva il *ui\_config.json* e ricaricare l&#39;editor Web.
+1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

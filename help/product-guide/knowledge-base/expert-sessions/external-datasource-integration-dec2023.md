@@ -1,18 +1,19 @@
 ---
-title: Integrazione di origini dati esterne per guide AEM
-description: Integrazione delle origini di dati sui contenuti con le guide AEM .
+title: Integrazione di origini dati esterne per AEM Guides
+description: Integrazione delle origini di dati dei contenuti con AEM Guides.
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
 
 ---
 
-# Integrazione di origini dati esterne per guide AEM: come funziona?
+# Integrazione di origini dati esterne per AEM Guides: come funziona?
 
 Molti clienti aziendali dispongono di dati distribuiti su più database, ma spesso è necessario che i dati siano integrati nelle guide dell’AEM come un’unica origine da cui possano essere elaborati.
-Le guide di Adobe Experience Manager ora includono connettori predefiniti per origini dati esterne, tra cui JIRA, PIM, SQL Data Bases e PLM, rendendolo un vero e proprio Content Hub.
+Adobe Experience Manager Guides ora include connettori predefiniti per origini dati esterne, tra cui JIRA, PIM, SQL Data Bases e PLM, che lo rendono un vero e proprio Content Hub.
 
 
 ## Registrazione sessione
@@ -29,7 +30,7 @@ Le guide di Adobe Experience Manager ora includono connettori predefiniti per or
 ## Elementi principali da ricordare
 
 In questa sessione hai appreso quanto segue:
-- Panoramica delle origini di dati e del loro utilizzo con le guide AEM
+- Panoramica delle origini dati e del loro utilizzo con AEM Guides
 - Come impostare la connessione per varie origini dati
    - Utilizzo degli strumenti Velocity nei modelli di origini dati
    - Utilizzare i modelli di mappatura
@@ -43,17 +44,17 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **Configurare il connettore dell’origine dati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Configura connettore origine dati** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
-- **Documentazione** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **Documentazione** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
-- **Utilizzo degli strumenti Velocity per i modelli** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **Utilizzo degli strumenti Velocity per i modelli** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
 
 
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - Dicembre 2023 (per il cloud)
 > - 4.3.1 (per non cloud)
 
@@ -61,4 +62,4 @@ In questa sessione hai appreso quanto segue:
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

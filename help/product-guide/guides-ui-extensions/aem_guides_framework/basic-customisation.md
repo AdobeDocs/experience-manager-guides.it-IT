@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## Visualizzazione
 
 La vista definisce l’interfaccia utente dell’app. Utilizziamo i file JSON per definire la visualizzazione dei nostri file. In questo caso, definiamo i componenti, il css (come indicato nell’extraclass dei componenti) ed eseguiamo il rendering dei valori memorizzati nel modello.
-Nell’app, ogni visualizzazione è definita utilizzando un JSON. I JSON sono referenziati utilizzando i loro ID univoci chiamati `id`.
+Nell’app, ogni visualizzazione è definita utilizzando un JSON. Viene fatto riferimento ai JSON utilizzando i loro ID univoci denominati `id`.
 
 ## Controller
 
 Il controller viene utilizzato per gestire gli eventi ed elaborare i dati. Il controller viene utilizzato per recuperare e inviare dati dal server, è l’interfaccia tra ciò che viene visualizzato nell’interfaccia utente e memorizzato nel backend.
 
-- Per impostare i valori al momento dell’inizializzazione, utilizziamo `init` funzione.
+- Per impostare i valori all&#39;inizializzazione, si utilizza la funzione `init`.
 - Per aggiungere un metodo al controller si utilizza la seguente sintassi:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-Il `methodName` qui funge da `key` per fare riferimento al metodo nel JSON (vista) o in altre funzioni
+`methodName` funge da `key` per fare riferimento al metodo nel JSON (visualizzazione) o in altre funzioni
 
 - Per chiamare un metodo nel controller viene utilizzata la sintassi
 
@@ -69,7 +69,7 @@ Aggiungeremo un pulsante per cambiare il valore dell’etichetta quando si fa cl
 
 ### Esempio di visualizzazione
 
-Di seguito è definito il JSON per un pulsante che mostra un testo dinamico memorizzato nel modello sotto il nome della variabile `buttonLabel`.
+Di seguito viene definito il JSON per un pulsante che mostra un testo dinamico memorizzato nel modello con il nome della variabile `buttonLabel`.
 In questo esempio, facendo clic sul pulsante ne cambia l’etichetta.
 
 ```JSON
@@ -83,7 +83,7 @@ In questo esempio, facendo clic sul pulsante ne cambia l’etichetta.
 
 ### Esempio di modello
 
-in questo caso, `extraProps.buttonLabel` contiene l’etichetta del pulsante
+in questo caso, `extraProps.buttonLabel` contiene l&#39;etichetta del pulsante
 
 ### Esempio di controller
 
@@ -101,4 +101,4 @@ in questo caso, `extraProps.buttonLabel` contiene l’etichetta del pulsante
 ```
 
 Sotto GIF mostra il codice di cui sopra in azione
-![basic_customization](imgs/basic_customisation.gif "Pulsante Personalizzazione di base")
+![personalizzazione di base](imgs/basic_customisation.gif "Pulsante Personalizzazione di base")

@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione | Adobe Experience Manager Guides versione 4.2
-description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2 delle guide di Adobe Experience Manager
+description: Scopri le correzioni di bug e come effettuare l’aggiornamento alle versioni 4.2 di Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
@@ -11,28 +11,28 @@ ht-degree: 1%
 
 ---
 
-# Versione 4.2 delle guide di Adobe Experience Manager (febbraio 2023)
+# Versione 4.2 di Adobe Experience Manager Guides (febbraio 2023)
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione 4.2 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM*).
+Questa nota sulla versione descrive le istruzioni per l&#39;aggiornamento, la matrice di compatibilità e i problemi risolti nella versione 4.2 di Adobe Experience Manager Guides (in seguito denominata *AEM Guides*).
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 4.2 delle guide di Adobe Experience Manager](whats-new-4-2-release.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, vedere [Novità della versione 4.2 di Adobe Experience Manager Guides](whats-new-4-2-release.md).
 
-## Aggiornamento alla versione 4.2 delle guide AEM
+## Aggiornamento alla versione 4.2 di AEM Guides
 
-Puoi aggiornare facilmente la versione corrente delle guide AEM alla versione 4.2. Prima di procedere con l’aggiornamento alla versione 4.2 delle Guide AEM, è necessario considerare i seguenti punti:
+Puoi aggiornare facilmente la versione corrente di AEM Guides alla versione 4.2. Prima di procedere con l’aggiornamento alla versione 4.2 di AEM Guides, è necessario considerare i seguenti punti:
 * Se utilizzi le versioni 4.0, 4.1 o 4.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.2.
 * Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-* Se utilizzi una versione precedente alla 3.8.5, consulta *Aggiornamento delle guide AEM* nella guida all’installazione specifica per il prodotto.
+* Se utilizzi una versione precedente alla 3.8.5, consulta la sezione *Aggiornare AEM Guides* nella guida all&#39;installazione specifica per il prodotto.
 
 >[!NOTE]
 >
->È necessario installare il service pack per l’AEM prima di aggiornare la versione delle guide AEM.
+>Prima di aggiornare la versione di AEM Guides è necessario installare il service pack per AEM.
 
-Per ulteriori informazioni, consulta [Istruzioni per l’aggiornamento](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Per ulteriori dettagli, vedere [Istruzioni per l&#39;aggiornamento](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate dalla versione 4.2 delle guide AEM.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da AEM Guides versione 4.2.
 
 ### Adobe Experience Manager
 
@@ -42,7 +42,7 @@ Versione 6.5 Service Pack 15, 14, 13 o 12
 **UUID**
 Versione 6.5 Service Pack 15, 14, 13 o 12
 
-Per ulteriori dettagli, vedi *Requisiti tecnici* nella guida Installare e configurare Adobe Experience Manager Guides.
+Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Installare e configurare Adobe Experience Manager Guides.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -69,20 +69,20 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Authoring
 
 * Il pannello sinistro si interrompe quando si aggiunge una scheda. (11126)
-* Le modifiche nell’HTML dell’editor web causano problemi con `<dl>` e `<dlentry>`. (11024)
+* Le modifiche nell&#39;html dell&#39;editor Web causano problemi con `<dl>` e `<dlentry>`. (11024)
 * Alcuni attributi non vengono trattati come condizionali e causano problemi. (10895)
-* Tre o più livelli nidificati `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10799)
-* Il contenuto scompare nel corpo di un’attività quando si passa dalla vista Creazione alla vista Origine. (10735)
+* Tre o più livelli nidificati `<indexterm>` non sono nidificati nell&#39;esportazione nativa di PDF. (10799)
+* Il contenuto scompare nel corpo di un’attività quando si passa dalla visualizzazione Autore a quella Source. (10735)
 * I commenti di revisione non vengono inseriti correttamente in un&#39;attività di revisione. (10625)
-* `<conref>` la nota all’interno di un tag para non viene visualizzata nella modalità di anteprima. (10559)
+* La nota `<conref>` all&#39;interno di un tag para non viene visualizzata nella modalità di anteprima. (10559)
 * Se si preme backspace alla fine di una voce di elenco, l’intero elenco viene rimosso. (10540)
-* Lo schermo viene visualizzato come vuoto in Chrome v106 sul trascinamento della selezione su qualsiasi elemento dall’interfaccia utente (ad esempio, dal pannello Condizioni). (10524)
-* Il pulsante Rientro automatico non è presente nella barra degli strumenti di **Sorgente** visualizzazione. (10448)
+* In Chrome v106, lo schermo viene visualizzato come vuoto trascinando la selezione su un elemento qualsiasi dell’interfaccia utente (ad esempio, dal pannello Condizioni). (10524)
+* Pulsante Rientro automatico mancante nella barra degli strumenti nella visualizzazione **Source**. (10448)
 * Il primo carattere di una voce di elenco viene perso a volte quando l’elenco viene creato nell’editor.( 10447)
-* **Annulla** o **Ripeti** non funziona correttamente su alcuni file. (10373)
+* **Annulla** o **Ripristina** non funziona correttamente su alcuni file. (10373)
 * I metadati personalizzati non vengono mantenuti durante l’azione di copia e incolla. (10367)
 * Si verifica un errore quando si esegue una copia (Ctrl+C) e si incolla (Ctrl+V) del contenuto. (10304)
-* Il pannello Struttura non visualizza il contenuto quando si passa dalla modalità Autore alla modalità Sorgente. (10296)
+* Il pannello Struttura non visualizza il contenuto quando si passa dalla modalità Autore alla modalità Source. (10296)
 * La mappa secondaria non viene creata quando si riferisce a una mappa principale in Modelli DITA. (10231)
 * Si verificano problemi di navigazione nell’editor web dopo l’aggiornamento 4.0. (10159)
 * L&#39;opzione Annulla nell&#39;editor XML consente di portare l&#39;utente nella parte superiore della pagina. (10091)
@@ -95,10 +95,10 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Nessuna opzione per creare un nuovo modello nelle sottocartelle di argomenti o mappe. (9888)
 * XML Editor non aggiorna le immagini degli argomenti. (9500)
 * mimeType è codificato per la creazione e l’aggiornamento di risorse DITA. (8979)
-* Quando si seleziona Trattino unificatore in, viene inserito un trattino normale **Inserisci carattere speciale** . (8919)
+* Quando si seleziona Trattino unificatore nella finestra di dialogo **Inserisci carattere speciale**, viene inserito un trattino normale. (8919)
 * Il nome dell’autore della versione nella Cronologia versioni è &quot;fmdita-serviceuser&quot; per i file caricati tramite l’interfaccia utente di Assets. (8910)
-* L’opzione Modifica non funziona per le immagini utilizzate nella vista a colonne dell’interfaccia utente Assets. (8758)
-* L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate il **Proprietà** pagina. (8745)
+* L’opzione Modifica non funziona per le immagini che si trovano nella vista a colonne dell’interfaccia utente di Assets. (8758)
+* L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate alla pagina **Proprietà**. (8745)
 * Durante lo spostamento di elementi all’interno dell’argomento nell’Editor web, gli ID assegnati sugli elementi vengono sovrascritti dagli ID assegnati automaticamente. (7895)
 
 ### Gestione
@@ -108,7 +108,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
 * Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
-* Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
+* Traduzione | L’elaborazione Post è bloccata per l’intera cartella lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Traduzione| I metadati e i tag non vengono propagati alle copie tradotte. (4696)
 * Se la versione viene modificata e salvata nell’editor della linea di base, per qualsiasi risorsa vengono visualizzati più pop-up. (10399)
 * La perdita di sessione si verifica in com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -126,7 +126,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Native PDF | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
 * Native PDF | Si verificano problemi durante la rimozione di argomenti con ruolo di elaborazione=&#39;solo risorsa&#39;. (10554)
 * Native PDF | I tasti vuoti vengono visualizzati nell&#39;output di PDF. (10553)
-* Native PDF | Nidificato `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10521)
+* Native PDF | `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
 * Native PDF | Native PDF utilizza lo stile in linea invece del nome della classe per i tag generati. (10498)
 * Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo.( 10454)
 * Native PDF | Impossibile nascondere gli argomenti del frontmatter dal sommario. (10355)
@@ -144,6 +144,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione 4.2 delle Guide AEM:
+L’Adobe ha identificato il seguente problema noto per la versione 4.2 di AEM Guides:
 
 * Gli utenti possono eseguire le operazioni di revisione anche dopo il completamento dell&#39;attività di revisione.

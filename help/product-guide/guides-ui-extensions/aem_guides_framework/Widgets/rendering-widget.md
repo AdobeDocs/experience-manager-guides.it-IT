@@ -2,7 +2,8 @@
 title: Widget di rendering
 description: Funzionamento del rendering nei widget JUI
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Widget di rendering
 
-È possibile eseguire il rendering di un widget facendo riferimento a esso utilizzando il relativo `id`
+È possibile eseguire il rendering di un widget facendo riferimento ad esso utilizzando il relativo `id`
 
-Per eseguire il rendering del widget `widget_languages` ovunque nell’app puoi utilizzare la sintassi semplice:
+Per eseguire il rendering del widget `widget_languages` in qualsiasi punto dell&#39;app, è possibile utilizzare la sintassi semplice:
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Qui `@files` è un elenco di oggetti file contenenti campi
+`@files` è un elenco di oggetti file contenenti campi
 
 ```typescript
 - fileName: string

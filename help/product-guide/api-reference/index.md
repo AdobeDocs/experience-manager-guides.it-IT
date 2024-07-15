@@ -1,6 +1,6 @@
 ---
-title: Riferimento API per le guide di Adobe Experience Manager
-description: Riferimento API per le guide di Adobe Experience Manager
+title: Riferimento API per Adobe Experience Manager Guides
+description: Riferimento API per Adobe Experience Manager Guides
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '110'
@@ -9,9 +9,9 @@ ht-degree: 1%
 ---
 
 
-# Riferimento API per le guide di Adobe Experience Manager
+# Riferimento API per Adobe Experience Manager Guides
 
-- [Liberatoria](rebranding-disclaimer.md)
+- [Dichiarazione di non responsabilità](rebranding-disclaimer.md)
 - [Introduzione](introduction.md)
 - [API REST per la gestione dell’output](output-management.md)
 - [API REST per lavorare con le mappe DITA](dita-map-management.md)
@@ -25,6 +25,6 @@ ht-degree: 1%
 - [API basate su Java per lavorare con le linee di base e le etichette](create-baseline-label-java.md)
 - [API basata su Java per lavorare con i profili di cartelle](folder-profile-java.md)
 - [API basata su Java per la creazione e l’attivazione di pacchetti](create-activate-package-java.md)
-- [Gestore di eventi di post-elaborazione](post-process-event.md)
+- [Gestore eventi di elaborazione Post](post-process-event.md)
 - [Gestore di eventi del processo di conversione](conversion-complete-event.md)
 

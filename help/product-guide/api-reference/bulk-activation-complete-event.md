@@ -4,7 +4,8 @@ description: Scopri il gestore di eventi di attivazione in blocco e completament
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Gestore eventi di completamento attivazione in blocco
 
-Experience Manager Guide espone `com/adobe/fmdita/replication/complete` evento utilizzato per eseguire operazioni dopo il completamento di un processo di attivazione in blocco. Questo evento viene attivato ogni volta che viene completato un processo di attivazione in blocco. Ad esempio, se esegui l’attivazione in blocco di un predefinito per sito AEM di una mappa, questo evento viene chiamato al termine del processo di attivazione.
+Experience Manager Guides espone l&#39;evento `com/adobe/fmdita/replication/complete` utilizzato per eseguire operazioni dopo il completamento di un processo di attivazione in blocco. Questo evento viene attivato ogni volta che viene completato un processo di attivazione in blocco. Ad esempio, se esegui l’attivazione in blocco di un predefinito per sito AEM di una mappa, questo evento viene chiamato al termine del processo di attivazione.
 
 È necessario creare un gestore eventi AEM per leggere le proprietà disponibili in questo evento ed eseguire ulteriori elaborazioni.
 
@@ -25,7 +26,16 @@ I dettagli dell’evento sono spiegati di seguito:
 com/adobe/fmdita/replication/complete 
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`path`|String|Percorso del file che ha attivato l&#39;evento. <br> Ad esempio: `/content/output/sites/ditamap1-ditamap`. <br> Si tratta di un elenco di percorsi serializzati come array JSON.| |`messageType`|Stringa|Tipo di messaggio. <br>Possibile opzione: `REPLICATION`| |`action`|Stringa|Questa è l&#39;azione eseguita. <br>Possibile opzione: `BulkReplicate`| |`user`|String|Utente che ha avviato l&#39;operazione.| |`result`|Stringa|Risultato dell&#39;attivazione in blocco. È un oggetto JSON serializzato: <br>`{"success":boolean,"code":integer,"message":"" }`| |`agentId`|String|L&#39;agentId utilizzato nella replica. Esempio: `"publish"`.| |`importMode`|Stringa|Modalità di importazione utilizzata in Activation. Le opzioni possibili sono: <br>`REPLACE, MERGE, UPDATE`.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`path`|Stringa|Percorso del file che ha attivato l&#39;evento. <br> Ad esempio, `/content/output/sites/ditamap1-ditamap`. <br> È un elenco di percorsi serializzati come array JSON.|
+|`messageType`|Stringa|Tipo di messaggio. <br>Opzione possibile: `REPLICATION`|
+|`action`|Stringa|Questa è l&#39;azione eseguita. <br>Opzione possibile: `BulkReplicate`|
+|`user`|Stringa|Utente che ha avviato l&#39;operazione.|
+|`result`|Stringa|Risultato dell&#39;attivazione in blocco. È un oggetto JSON serializzato: <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|Stringa|L&#39;agentId utilizzato nella replica. Esempio: `"publish"`.|
+|`importMode`|Stringa|Modalità di importazione utilizzata in Activation. Le opzioni possibili sono: <br>`REPLACE, MERGE, UPDATE`.|
 
 
 **Listener di eventi di esempio**:

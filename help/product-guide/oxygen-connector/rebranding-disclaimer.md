@@ -5,7 +5,7 @@ source-wordcount: '36'
 ht-degree: 2%
 
 ---
-# Liberatoria {#id2263D0P0TYU}
+# Dichiarazione di non responsabilità {#id2263D0P0TYU}
 
-*Guide di Adobe Experience Manager* in precedenza era contrassegnato come *XML Documentation per Adobe Experience Manager*. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.
+*Adobe Experience Manager Guides* era precedentemente contrassegnato come *XML Documentation per Adobe Experience Manager*. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.
 

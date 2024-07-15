@@ -1,5 +1,5 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Usa stili personalizzati nelle note a piè di pagina
+title: Funzionalità nativa di PDF Publish | Usa stili personalizzati nelle note a piè di pagina
 description: Scopri come applicare lo stile ai numeri nelle note a piè di pagina.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ Potete modificare gli stili delle chiamate e dei marcatori delle note a piè di 
 
 Utilizza l’esempio dato per aggiungere una parentesi prima e dopo la chiamata e il marcatore della nota a piè di pagina:
 
-* Aggiungi il prefisso &quot;(&quot; e il suffisso &quot;)&quot; utilizzando l’attributo content nel `footnote-call` stile, che aggiunge le parentesi quadre attorno al numero della nota a piè di pagina nel contenuto dell&#39;argomento.
-* Aggiungi il prefisso &quot;(&quot; e il suffisso &quot;)&quot; utilizzando l’attributo content nel `footnote-marker` che aggiungerà le parentesi quadre attorno al numero della nota a piè di pagina nella parte inferiore della pagina.
+* Aggiungere il prefisso &quot;(&quot; e il suffisso &quot;)&quot; utilizzando l&#39;attributo content nello stile `footnote-call`, che aggiungerà le parentesi intorno al numero della nota a piè di pagina nel contenuto dell&#39;argomento.
+* Aggiungere il prefisso &quot;(&quot; e il suffisso &quot;)&quot; utilizzando l&#39;attributo di contenuto nello stile `footnote-marker`, che aggiungerà le parentesi intorno al numero della nota a piè di pagina nella parte inferiore della pagina.
 
 ```css
 ...
@@ -51,7 +51,7 @@ content: "(" counter(footnote, decimal) ")";
 
 <img src="./assets/pdf-output-footer-numbers.png" alt="Piè di pagina nell’output di PDF" width="500" border="2px">
 
-*Aggiungete parentesi quadre attorno alla chiamata della nota a piè di pagina e al contrassegno della nota.*
+*Aggiungere parentesi attorno alla chiamata della nota a piè di pagina e al relativo indicatore.*
 
 **Esempio 2**:
 
@@ -71,11 +71,12 @@ Nell’output, puoi visualizzare un elemento simile a:
 
 <img src="./assets/footnote-number-2.png" alt="Piè di pagina nell’output di PDF" width="500" border="2px">
 
-*Aggiungere un asterisco a una chiamata e a un indicatore di nota a piè di pagina.*
+*Aggiungere un asterisco a una chiamata e a un indicatore di una nota a piè di pagina.*
 
 ## Nascondere una chiamata nota a piè di pagina
 
-È inoltre possibile applicare uno stile alle chiamate delle note a piè di pagina con attributi specifici. Ad esempio, utilizzare lo stile seguente per nascondere una nota a piè di pagina con gli ID: La chiamata della nota a piè di pagina è nascosta nel contenuto principale, ma il contrassegno della nota a piè di pagina viene visualizzato nella parte inferiore della pagina.
+È inoltre possibile applicare uno stile alle chiamate delle note a piè di pagina con attributi specifici. Ad esempio, utilizzare lo stile seguente per nascondere una nota a piè di pagina con gli ID:
+La chiamata della nota a piè di pagina è nascosta nel contenuto principale, ma il contrassegno della nota a piè di pagina viene visualizzato nella parte inferiore della pagina.
 
 ```css
 .fn[id]::footnote-call {
@@ -115,7 +116,7 @@ Per impostazione predefinita, le note a piè di pagina vengono numerate continua
 
 ### Layout di pagina
 
-È possibile specificare un numero nei layout di pagina per riavviare la numerazione delle note a piè di pagina nelle diverse sezioni di un documento PDF. Ad esempio, seleziona un numero dal campo **Riavvia numerazione da** nel pannello Proprietà pagina per riavviare la numerazione delle note a piè di pagina per ciascun capitolo.
+È possibile specificare un numero nei layout di pagina per riavviare la numerazione delle note a piè di pagina nelle diverse sezioni di un documento PDF. Ad esempio, selezionare un numero dal campo **Riavvia numerazione da** nel pannello Proprietà pagina per riavviare la numerazione delle note a piè di pagina per ciascun capitolo.
 
 ### Stili CSS
 
@@ -147,7 +148,7 @@ Potete anche fare riferimento incrociato a una nota a piè di pagina e fare rife
 La schermata seguente mostra ad esempio come la stessa nota a piè di pagina viene usata come riferimento incrociato per tutte le città nell’output di PDF.
 <img width="550" alt="riferimenti alle note a piè di pagina in un pdf" src="./assets/link-footnotes.png" border="2px">
 
-*Inserite il rimando a una nota a piè di pagina.*
+*Inserire il rimando a una nota a piè di pagina.*
 
 
 

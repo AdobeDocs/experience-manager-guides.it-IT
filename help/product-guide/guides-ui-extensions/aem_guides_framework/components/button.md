@@ -2,18 +2,18 @@
 title: Pulsante
 description: Pulsante
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
 
 ---
 
-
 # Pulsante
 
 Per visualizzare un pulsante utilizziamo il componente, pulsante.
-Il componente pulsante in JUI rappresenta un html `<button/>`.
+Il componente Pulsante in JUI rappresenta un html `<button/>`.
 
 ```js title="buttonJSON.js"
 const buttonJSON = {
@@ -24,8 +24,8 @@ const buttonJSON = {
 };
 ```
 
-Verrà prodotto un pulsante con l&#39;etichetta `Yes, login`. Le altre proprietà includono, ma non sono limitate a, variante, etichetta, clic con il mouse.
-> **_NOTA:_**  Il `on-<events>` è la sintassi per richiamare i comandi nei controller.
+Verrà generato un pulsante con l&#39;etichetta `Yes, login`. Le altre proprietà includono, ma non sono limitate a, variante, etichetta, clic con il mouse.
+> **_NOTA:_** `on-<events>` è la sintassi per richiamare i comandi nei controller.
 
 Il pulsante con rendering sarà simile al seguente:
 

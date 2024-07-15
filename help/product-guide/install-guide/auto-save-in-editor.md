@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
 
-Una delle funzioni più comuni nell’editor basato su browser è la possibilità di salvare i dati dopo un periodo di tempo specifico. L&#39;editor Web delle guide AEM supporta inoltre il salvataggio automatico dei file argomento e mappa nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
+Una delle funzioni più comuni nell’editor basato su browser è la possibilità di salvare i dati dopo un periodo di tempo specifico. L&#39;editor Web di AEM Guides supporta anche il salvataggio automatico di file di argomenti e mappe nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
 
 La funzione di salvataggio automatico non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare la funzione di salvataggio automatico nell’editor Web, effettua le seguenti operazioni:
 
@@ -26,13 +26,13 @@ La funzione di salvataggio automatico non è attivata per impostazione predefini
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. In *XmlEditorConfig* , selezionare la **Salvataggio automatico** opzione.
+1. Nelle impostazioni *XmlEditorConfig*, seleziona l&#39;opzione **Salvataggio automatico**.
 
-1. In **Intervallo salvataggio automatico** , specificare l&#39;intervallo di tempo in secondi per attivare la funzione di salvataggio automatico.
+1. Nel campo **Intervallo salvataggio automatico**, specificare l&#39;intervallo di tempo in secondi per attivare la funzione di salvataggio automatico.
 
 1. Fai clic su **Salva**.
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

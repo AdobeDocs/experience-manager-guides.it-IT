@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Genera output di documenti di FrameMaker {#id1645H8040HD}
 
-A partire da Guide AEM 1.1, puoi anche pubblicare documenti di FrameMaker \(`.book` e `.fm`\) disponibili nel proprio archivio AEM. Se un file libro contiene una combinazione di documenti DITA e di FrameMaker, AEM Guides consente di pubblicare anche tali documenti. I documenti di FrameMaker possono essere pubblicati nei seguenti formati:
+A partire da AEM Guides 1.1, è inoltre possibile pubblicare i documenti di FrameMaker \(`.book` e `.fm`\) disponibili nell&#39;archivio AEM. Se un file libro contiene una combinazione di documenti DITA e di FrameMaker, AEM Guides consente di pubblicare anche tali documenti. I documenti di FrameMaker possono essere pubblicati nei seguenti formati:
 
 - PDF
 
@@ -22,7 +22,7 @@ A partire da Guide AEM 1.1, puoi anche pubblicare documenti di FrameMaker \(`.bo
 - EPUB
 
 
-In qualità di autore, fai clic su alcuni collegamenti e l’output viene generato. È possibile generare l&#39;output per un intero file di registro oppure pubblicare in modo selettivo singoli file di FrameMaker. Prima di generare l’output, puoi anche apportare modifiche ai file di FrameMaker. Quando si seleziona un file con estensione fm o book nell&#39;archivio AEM, viene visualizzato **Apri nel FrameMaker** sulla barra degli strumenti. Facendo clic su questo pulsante, il file selezionato viene aperto nel FrameMaker.
+In qualità di autore, fai clic su alcuni collegamenti e l’output viene generato. È possibile generare l&#39;output per un intero file di registro oppure pubblicare in modo selettivo singoli file di FrameMaker. Prima di generare l’output, puoi anche apportare modifiche ai file di FrameMaker. Quando si seleziona un file con estensione fm o book nell&#39;archivio AEM, viene visualizzato il pulsante **Apri nel FrameMaker** sulla barra degli strumenti. Facendo clic su questo pulsante, il file selezionato viene aperto nel FrameMaker.
 
 Le informazioni contenute nelle sezioni seguenti sono destinate agli editori che utilizzeranno i flussi di lavoro di generazione dell’output per pubblicare i documenti del FrameMaker:
 

@@ -1,6 +1,6 @@
 ---
 title: Distribuire il modulo AEM Guides
-description: Scopri come distribuire il modulo Guide AEM
+description: Scopri come distribuire il modulo AEM Guides
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Distribuire il modulo Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Per iniziare, distribuisci le Guide di Experience Manager tramite Cloud Manager. Per distribuire il modulo, segui le istruzioni riportate in [Distribuzione as a Cloud Service delle guide AEM](../release-info/deploy-xml-on-aemaacs.md)
+Per iniziare, distribuisci Experience Manager Guides tramite Cloud Manager. Per distribuire il modulo è possibile seguire le istruzioni indicate in [AEM Guides as a Cloud Servicedeployment](../release-info/deploy-xml-on-aemaacs.md)
 
 
 

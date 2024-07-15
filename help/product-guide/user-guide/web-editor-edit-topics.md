@@ -1,6 +1,6 @@
 ---
 title: Modificare gli argomenti nell'editor Web
-description: Scopri come modificare gli argomenti nell’editor web. Scopri le varie funzioni di modifica per modificare i file degli argomenti nelle guide AEM.
+description: Scopri come modificare gli argomenti nell’editor web. Scopri le varie funzioni di modifica per modificare i file degli argomenti in AEM Guides.
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
@@ -21,19 +21,19 @@ L&#39;editor Web include una serie di funzioni di modifica che consentono di cre
 
 1. Per apportare modifiche all&#39;argomento, fare clic all&#39;interno del bordo del testo dell&#39;elemento richiesto e iniziare ad apportare modifiche.
 
-1. Per inserire un elemento specifico, fai clic su alla fine dell’elemento dopo il quale desideri inserire il nuovo elemento, quindi fai clic sull’icona dell’elemento richiesto nella barra degli strumenti. È inoltre possibile utilizzare la scelta rapida da tastiera `Alt+Enter` per richiamare **Inserisci elemento** popup.
+1. Per inserire un elemento specifico, fai clic su alla fine dell’elemento dopo il quale desideri inserire il nuovo elemento, quindi fai clic sull’icona dell’elemento richiesto nella barra degli strumenti. È inoltre possibile utilizzare la scelta rapida da tastiera `Alt+Enter` per richiamare il popup **Inserisci elemento**.
 
-   Viene visualizzato un elenco di elementi che è possibile utilizzare nell&#39;argomento. Le guide AEM consentono di posizionare in modo intelligente gli elementi in base alla loro posizione valida nell&#39;argomento.
+   Viene visualizzato un elenco di elementi che è possibile utilizzare nell&#39;argomento. AEM Guides esegue un posizionamento intelligente degli elementi in base alla loro posizione valida nell’argomento.
 
    >[!NOTE]
    >
-   > Puoi anche scegliere quale icona visualizzare nella barra degli strumenti configurando il `ui_config.json` file che si trova in - `/etc/designs/fmdita/clientlibs/xmleditor/`. Per ulteriori informazioni sulla personalizzazione delle funzionalità, contattare l&#39;amministratore di sistema.
+   > È inoltre possibile scegliere quale icona visualizzare nella barra degli strumenti configurando il file `ui_config.json` che si trova in - `/etc/designs/fmdita/clientlibs/xmleditor/`. Per ulteriori informazioni sulla personalizzazione delle funzionalità, contattare l&#39;amministratore di sistema.
 
 1. Dopo aver modificato il documento, fare clic su **Salva**.
 
    >[!NOTE]
    >
-   > Se non desideri confermare le modifiche nell’archivio AEM, fai clic su **Chiudi** e quindi fare clic su **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
+   > Se non si desidera eseguire il commit delle modifiche nel repository AEM, fare clic su **Chiudi** e quindi su **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
 
 
 ## Selezione parziale del contenuto tra gli elementi
@@ -45,19 +45,19 @@ Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente do
 
 - Racchiudi il contenuto in un elemento valido: per racchiuderlo in un elemento valido, effettua le seguenti operazioni:
    - Seleziona il contenuto all’interno di un elemento.
-   - Seleziona la ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare **Circonda con elemento** . Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
+   - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare la finestra di dialogo **Racchiudi con elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
      >[!NOTE]
      >
      > È inoltre possibile visualizzare la finestra di dialogo Surround con elemento selezionando il menu di scelta rapida del contenuto selezionato.
 
-   - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Ad esempio, se selezioni il contenuto di un paragrafo e quindi scegli il `<note>` elemento da **Circonda con elemento** , il contenuto selezionato viene visualizzato sotto una nota.\
+   - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Se ad esempio si seleziona il contenuto in un paragrafo e quindi si sceglie l&#39;elemento `<note>` dalla finestra di dialogo **Racchiudi con elemento**, il contenuto selezionato verrà visualizzato in una nota.\
      ![finestra di dialogo elemento surround](./images/surround-element.png) {width="300" align="left"}
 
 ## Aggiorna il browser durante la modifica dei file
 
-Experience Manager Guides consente di aggiornare il browser mentre si modifica il contenuto nell&#39;editor Web. Questa funzione consente di continuare a modificare il contenuto in caso di errore dell’applicazione durante il lavoro. Se si preme il pulsante di aggiornamento del browser mentre uno o più file con modifiche non salvate vengono aperti per la modifica, viene visualizzato un avviso che segnala che le modifiche non salvate potrebbero andare perse. È possibile annullare l&#39;operazione di aggiornamento e salvare i file per mantenere le modifiche.
+Experience Manager Guides supporta l’aggiornamento del browser quando si modifica il contenuto nell’editor web. Questa funzione consente di continuare a modificare il contenuto in caso di errore dell’applicazione durante il lavoro. Se si preme il pulsante di aggiornamento del browser mentre uno o più file con modifiche non salvate vengono aperti per la modifica, viene visualizzato un avviso che segnala che le modifiche non salvate potrebbero andare perse. È possibile annullare l&#39;operazione di aggiornamento e salvare i file per mantenere le modifiche.
 
-Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Experience Manager Guide ripristina l&#39;ultimo stato salvato dei file aperti nell&#39;editor Web quando si aggiorna il browser. Ad esempio, i file aperti nel pannello Repository vengono aperti nuovamente. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
+Anche durante l&#39;aggiornamento del browser, le visualizzazioni dei pannelli sinistro e destro vengono mantenute nell&#39;editor Web. Experience Manager Guides ripristina l&#39;ultimo stato salvato dei file aperti nell&#39;editor Web quando si aggiorna il browser. Ad esempio, i file aperti nel pannello Repository vengono aperti nuovamente. Il pannello mappa viene mantenuto insieme alla mappa aperta in precedenza.
 
 L&#39;argomento attivo o la mappa DITA viene riaperto nell&#39;area di modifica del contenuto.
 
@@ -65,11 +65,11 @@ Anche il pannello di destra viene riaperto e visualizza la stessa vista di prima
 
 ## Indicatore copia di lavoro
 
-Le guide AEM forniscono l&#39;indicatore della copia di lavoro che indica se la \(copia di lavoro\) corrente del file è sincronizzata con la versione salvata. Se sono state apportate modifiche alla copia corrente e il file non è stato salvato, nella scheda File dell&#39;argomento verrà visualizzato il simbolo \* insieme al titolo. Questo indicatore funge da promemoria per il salvataggio delle modifiche e scompare quando si salva il file.
+AEM Guides fornisce l’indicatore della copia di lavoro che indica se la \(copia di lavoro\) corrente del file è sincronizzata o meno con la versione salvata. Se sono state apportate modifiche alla copia corrente e il file non è stato salvato, nella scheda File dell&#39;argomento verrà visualizzato il simbolo \* insieme al titolo. Questo indicatore funge da promemoria per il salvataggio delle modifiche e scompare quando si salva il file.
 
 ![indicatore copia di lavoro](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-Le guide AEM indicano anche se l’ultima copia salvata del file \(working\) è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
+AEM Guides indica anche se l’ultima copia salvata \(working\) del file è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
 
 ![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
 
@@ -78,9 +78,9 @@ Le guide AEM indicano anche se l’ultima copia salvata del file \(working\) è 
 
 ## Individuare un file aperto nella vista Archivio
 
-Quando si apre un file nell&#39;editor Web, Experience Manager Guides fornisce la funzionalità per individuare il file nella vista Archivio. Ad esempio, individua l&#39;argomento corrente durante la modifica.
+Quando si apre un file nell&#39;editor Web, in Experience Manager Guides è disponibile la funzionalità che consente di individuare il file nella vista Archivio. Ad esempio, individua l&#39;argomento corrente durante la modifica.
 
-È possibile disattivare la funzione per individuare il file con **Individua sempre i file nel repository** opzione dalla **Aspetto** scheda di **Preferenze utente**.
+È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file nel repository** dalla scheda **Aspetto** delle **Preferenze utente**.
 
 
-**Argomento padre:**[ Utilizzare l’editor web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

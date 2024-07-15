@@ -1,6 +1,6 @@
 ---
-title: Riutilizzo di contenuti DITA nelle guide AEM
-description: Questo breve articolo spiega come le guide AEM e DITA consentono di risparmiare tempo e fatica quando si utilizza la riutilizzabilità dei contenuti
+title: Riutilizzo di contenuti DITA in AEM Guides
+description: Questo breve articolo spiega in che modo AEM Guides e DITA consentono di risparmiare tempo e fatica quando si utilizza la riutilizzabilità dei contenuti
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Riutilizzabilità dei contenuti nelle guide AEM
+# Riutilizzabilità dei contenuti in AEM Guides
 
-Adobe Le guide all’AEM sfruttano i punti di forza di DITA per fornire un’interfaccia intuitiva per il riutilizzo dei contenuti.
+Adobe AEM Guides sfrutta i punti di forza di DITA per fornire un’interfaccia intuitiva per il riutilizzo dei contenuti.
 
 In questo articolo parleremo di:
 
 1. [Riutilizzabilità tramite riferimento argomento (](#reusability-using-topic-referencestopicref)
 2. [Riutilizzabilità tramite riferimento contenuto (](#reusability-using-content-reference-conref--conkeyref)
-3. [Suggerimento bonus per riutilizzare i contenuti con il trascinamento nelle guide AEM](#reuse-content-with-a-single-click-in-aem-guides)
+3. [Suggerimento bonus per riutilizzare i contenuti con il trascinamento in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Riutilizzabilità tramite riferimenti argomento (topicref)
 
@@ -77,14 +77,14 @@ Desideri riutilizzare i singoli frammenti KYC per gli argomenti &quot;Salvataggi
 </section>
 ```
 
-Qui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita è l’identificatore del file e #individual_kyc è l’identificatore del frammento.
+Qui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita è l&#39;identificatore di file e #individual_kyc è l&#39;identificatore di frammento.
 
 Kyc_procedure.dita continua a essere l&#39;unica fonte singola di informazioni. Se sono presenti modifiche al processo KYC come richiesto dalle normative, è sufficiente aggiornare un argomento e tali modifiche vengono automaticamente riportate in tutti gli argomenti che vi fanno riferimento.
 
-Utilizzando le guide dell’AEM, i suoi due clic
+Utilizzando AEM Guides, i suoi due clic
 
 Passaggio 1: fare clic su Inserisci contenuto riutilizzabile
-![barra strumenti](../../assets/publishing/content-reusability_image1.png)
+![barra degli strumenti](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
@@ -125,10 +125,10 @@ Chiave - &quot;Kyc_procedure&quot; continuerà ad essere l&#39;unica fonte di in
 
 In questo caso il percorso dell&#39;argomento viene modificato da &quot;kyc_procedure_2020.dita&quot; a &quot;kyc_procedure_2024.dita&quot; a causa di recenti modifiche alle normative.
 
-Utilizzando le guide dell’AEM, i suoi due clic
+Utilizzando AEM Guides, i suoi due clic
 
 Passaggio 1: fare clic su Inserisci contenuto riutilizzabile
-![barra strumenti](../../assets/publishing/content-reusability_image1.png)
+![barra degli strumenti](../../assets/publishing/content-reusability_image1.png)
 
 Passaggio 2: seleziona la mappa principale (opzionale), la chiave e il frammento da riutilizzare.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
@@ -136,9 +136,9 @@ Passaggio 2: seleziona la mappa principale (opzionale), la chiave e il frammento
 La mappa principale qui è stata selezionata automaticamente perché era già aperta nella vista mappa
 
 
-## Riutilizzare i contenuti con un solo clic nelle guide AEM
+## Riutilizzare i contenuti con un solo clic in AEM Guides
 
-Le guide AEM offrono la funzionalità &quot;Contenuti riutilizzabili&quot; per aggiungere riferimenti ai contenuti con un solo clic.
+AEM Guides offre la funzionalità &quot;Contenuti riutilizzabili&quot; per aggiungere riferimenti ai contenuti con un solo clic.
 
 Passaggio 1: aggiungere un argomento generico al contenuto riutilizzabile
 
@@ -146,7 +146,7 @@ Passaggio 1: aggiungere un argomento generico al contenuto riutilizzabile
 
 Passaggio 2: una volta aggiunto, trascina e rilascia il frammento che desideri riutilizzare negli argomenti di destinazione.
 
-![Aggiungi GIF di contenuto riutilizzabile](../../assets/publishing/content-reusability_image5.gif)
+![Aggiungi GIF contenuto riutilizzabile](../../assets/publishing/content-reusability_image5.gif)
 
 
 
@@ -164,4 +164,4 @@ Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa
 <br>
 
 
-Post sulla community dei guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per qualsiasi query.
+Post nella community AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per eventuali query.

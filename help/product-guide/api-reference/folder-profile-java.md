@@ -22,9 +22,9 @@ Dettagli bundle:
 
 - ID artefatto: **api**
 
-- Versione: **3,2**
+- Versione: **3.2**
 
-- Pacchetto **com.adobe.fmdita.api.profiles**
+- Pacchetto: **com.adobe.fmdita.api.profiles**
 
 - Dettagli classe:
 
@@ -32,12 +32,12 @@ Dettagli bundle:
   public class FolderProfileUtils extends Object
   ```
 
-  Il **`FolderProfileUtils`** La classe contiene un metodo per aggiungere attributi condizionali in un profilo di cartella.
+  La classe **`FolderProfileUtils`** contiene un metodo per aggiungere attributi condizionali in un profilo di cartella.
 
 
 ## Aggiungere attributi condizionali a un profilo di cartella
 
-Il ``addAttributeProfiles`` Il metodo aggiunge attributi condizionali a un profilo a livello di cartella.
+Il metodo ``addAttributeProfiles`` aggiunge attributi condizionali a un profilo a livello di cartella.
 
 **Sintassi**:
 
@@ -53,15 +53,23 @@ String profileName,
 Session session) throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |``attributeNames``|Stringa|Elenco di nomi di attributi.| |``values``|Stringa|Elenco di valori per gli attributi specificati.| |`labels`|Stringa|Elenco di etichette per `attribute`- `value` coppie. [1](#fntarg_1)| |`profileName`|Stringa|Il nome del profilo a livello di cartella a cui devono essere applicati gli attributi, i valori e le etichette. **Importante:** Tutti gli attributi-valori-etichette esistenti definiti nel profilo vengono sovrascritti.| |`session`|javax.jcr.Session|Sessione JCR valida.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|``attributeNames``|Stringa|Elenco di nomi di attributi.|
+|``values``|Stringa|Elenco di valori per gli attributi specificati.|
+|`labels`|Stringa|Elenco di etichette per le coppie `attribute`- `value`. [1](#fntarg_1)|
+|`profileName`|Stringa|Il nome del profilo a livello di cartella a cui devono essere applicati gli attributi, i valori e le etichette. **Importante:** tutti gli attributi-valori-etichette esistenti definiti nel profilo vengono sovrascritti.|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
 
 **Restituisce**:
 `true` per il successo. In caso di errore, genera un’eccezione.
 
-**Eccezione**: proiezioni ``java.lang.Exception`` nei seguenti scenari:
+**Eccezione**:
+Genera ``java.lang.Exception`` nei seguenti scenari:
 
-- Se l’API non è riuscita a ottenere `resourceResolverFactory` oggetto. In tal caso, è necessario riavviare il bundle.
+- Se l&#39;API non è riuscita a ottenere l&#39;oggetto `resourceResolverFactory`. In tal caso, è necessario riavviare il bundle.
 - Se i parametri passati all’API non sono validi.
 - Se l’API viene chiamata tramite una sessione utente non autorizzata, ad esempio un utente che non è un amministratore per il profilo di cartella specificato.
 
-[1](#fnsrc_1) Il `attributeNames`, `values`, e `labels` allo stesso indice in un elenco di array deve corrispondere alla stessa voce.
+[1](#fnsrc_1) `attributeNames`, `values` e `labels` nello stesso indice in un elenco array devono corrispondere alla stessa voce.

@@ -1,6 +1,6 @@
 ---
 title: Visualizzare l'anteprima di un argomento
-description: Scopri come visualizzare in anteprima un argomento nelle guide AEM. Scopri le funzioni disponibili in modalità anteprima. Creazione di diramazioni, ripristino e successivo controllo delle versioni nelle guide AEM.
+description: Scopri come visualizzare in anteprima un argomento in AEM Guides. Scopri le funzioni disponibili in modalità anteprima. Creazione di diramazioni, ripristino e successivo controllo delle versioni nelle guide AEM.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Visualizzare l&#39;anteprima di un argomento {#id1696II000QR}
 
-Una volta creato un argomento, le guide AEM generano un&#39;anteprima dell&#39;argomento. La modalità Anteprima offre diverse funzionalità che è possibile utilizzare per l&#39;utilizzo del documento.
+Una volta creato un argomento, AEM Guides genera un’anteprima dell’argomento. La modalità Anteprima offre diverse funzionalità che è possibile utilizzare per l&#39;utilizzo del documento.
 
 Per visualizzare in anteprima un argomento, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua l’argomento da visualizzare.
+1. Nell’interfaccia utente di Assets, individua l’argomento da visualizzare.
 1. Fare clic sull&#39;argomento da visualizzare.
 
-   Nell’interfaccia utente Assets viene visualizzata un’anteprima dell’argomento.
+   Nell’interfaccia utente di Assets viene visualizzata un’anteprima dell’argomento.
 
    >[!NOTE]
    >
@@ -42,17 +42,17 @@ Visualizza le proprietà dell&#39;argomento selezionato. In base alla versione d
 
 >[!NOTE]
 >
-> La proprietà del titolo di un argomento viene compilata automaticamente dal `title` dell&#39;argomento o della mappa DITA. Se si apportano modifiche al titolo utilizzando la finestra delle proprietà, tali modifiche andranno perse. Se desideri aggiornare la proprietà title, utilizza l’editor web.
+> La proprietà del titolo di un argomento viene compilata automaticamente dal tag `title` dell&#39;argomento o della mappa DITA. Se si apportano modifiche al titolo utilizzando la finestra delle proprietà, tali modifiche andranno perse. Se desideri aggiornare la proprietà title, utilizza l’editor web.
 
-La pagina Proprietà contiene informazioni utili sui riferimenti, ad esempio dove viene utilizzata una mappa o un argomento oppure quali riferimenti sono contenuti in un documento. Nella pagina Proprietà sono elencati due tipi di riferimenti per un documento: **Utilizzato in** e **Riferimenti in uscita**.
+La pagina Proprietà contiene informazioni utili sui riferimenti, ad esempio dove viene utilizzata una mappa o un argomento oppure quali riferimenti sono contenuti in un documento. Nella pagina Proprietà sono elencati due tipi di riferimenti per un documento: **Usato in** e **Riferimenti in uscita**.
 
-Il **Utilizzato in** i riferimenti elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente. Il **Riferimenti in uscita** elenca i documenti a cui si fa riferimento nel documento corrente.
+I riferimenti **Usati in** elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente. **Riferimenti in uscita** elenca i documenti a cui si fa riferimento nel documento corrente.
 
-L&#39;icona \(+\) in **Utilizzato in** sezione dei riferimenti consente di spostarsi ulteriormente verso l’alto per trovare dove l’argomento viene utilizzato o a cui si fa riferimento.
+L&#39;icona \(+\) nella sezione Riferimenti di **Usati in** consente di spostarsi verso l&#39;alto per individuare l&#39;argomento utilizzato o a cui si fa riferimento.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Facendo clic su ![](images/right-arrow-used-in-dialog.svg)accanto a un documento vengono visualizzati i file mappa o argomento in cui il documento viene ulteriormente inviato.
+Facendo clic sull&#39;icona ![](images/right-arrow-used-in-dialog.svg) accanto a un documento, vengono visualizzati i file mappa o argomento a cui il documento viene ulteriormente associato.
 
 **Filtro condizionale \(A/B\)**
 
@@ -66,7 +66,7 @@ Se il tuo argomento ha contenuto condizionale, sulla barra degli strumenti verr�
 
 **Modifica**
 
-- Aprire l&#39;argomento per la modifica nell&#39;Editor Web. Il **Modifica** non sarà disponibile se l&#39;amministratore ha abilitato l&#39;opzione **Disattiva modifica senza estrazione** opzione. Con l’opzione abilitata, visualizzerai **Modifica** solo dopo aver estratto un file argomento.
+- Aprire l&#39;argomento per la modifica nell&#39;Editor Web. L&#39;opzione **Modifica** non sarà disponibile se l&#39;amministratore ha abilitato l&#39;opzione **Disattiva modifica senza estrazione**. Se l&#39;opzione è attivata, l&#39;opzione **Modifica** verrà visualizzata solo dopo aver estratto un file di argomenti.
 
 **Risoluzione chiave**
 
@@ -74,23 +74,23 @@ Se il tuo argomento ha contenuto condizionale, sulla barra degli strumenti verr�
 
 **Origine**
 
-- Aprire il codice sorgente XML di un file. Per visualizzare il codice XML sottostante di un file mappa, argomento o DITAVAL, aprire il file in modalità Anteprima e fare clic sull&#39;icona Origine. Nel pop-up Origine XML viene visualizzato il codice sorgente XML. È possibile selezionare un codice specifico dal file o premere `Ctrl`+`a` per selezionare l&#39;intero contenuto.
+- Aprire il codice sorgente XML di un file. Per visualizzare il codice XML sottostante di una mappa, di un argomento o di un file DITAVAL, aprire il file in modalità Anteprima e fare clic sull&#39;icona Source. Nel pop-up Source XML viene visualizzato il codice sorgente XML. È possibile selezionare un codice specifico dal file oppure premere `Ctrl`+`a` per selezionare l&#39;intero contenuto.
 
   >[!NOTE]
   >
-  > Per visualizzare il codice sorgente di un file di mappa DITA, selezionalo nell’interfaccia utente di Assets e fai clic su Origine.
+  > Per visualizzare il codice sorgente di un file di mappa DITA, selezionare il file nell&#39;interfaccia utente di Assets e fare clic su Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **Condividi collegamento UUID**
 
-- Le guide AEM consentono di condividere i collegamenti basati su UUID per mappe DITA, argomenti e file di immagini dalle seguenti posizioni:
+- AEM Guides consente di condividere i collegamenti basati su UUID per mappe DITA, argomenti e file di immagini dalle seguenti posizioni:
 
-   - Interfaccia utente Assets
+   - Interfaccia utente di Assets
    - Console della mappa DITA
    - Anteprima argomento o immagine
 
-Una nuova opzione **Condividi collegamento UUID** è visualizzato nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
+Una nuova opzione **Condividi collegamento UUID** è visualizzata nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra l&#39;opzione **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
@@ -98,13 +98,13 @@ Nell’interfaccia utente Assets, questa opzione è visibile quando selezioni un
 
 Una volta copiato l’URL, lo stesso può essere condiviso con altri utenti per consentire loro di accedere direttamente al file. Questo collegamento rimane valido anche quando il file viene spostato in un’altra posizione nell’archivio. L’unica volta che il collegamento non riesce è quando il file viene eliminato dal repository.
 
-Se condividi il collegamento dalla console delle mappe DITA o dalla modalità di anteprima di un file, l’utente passa alla stessa visualizzazione del file. Tuttavia, quando condividi il collegamento di un file mappa dall’interfaccia utente Assets, l’utente viene indirizzato alla console della mappa. Analogamente, per un file di argomento o immagine viene visualizzata l&#39;anteprima del file.
+Se condividi il collegamento dalla console delle mappe DITA o dalla modalità di anteprima di un file, l’utente passa alla stessa visualizzazione del file. Tuttavia, quando condividi il collegamento di un file mappa dall’interfaccia utente di Assets, l’utente viene indirizzato alla console della mappa. Analogamente, per un file di argomento o immagine viene visualizzata l&#39;anteprima del file.
 
 >[!IMPORTANT]
 >
 > Il collegamento non può essere utilizzato come collegamento di riferimento in un altro argomento, ma fornisce solo accesso diretto al file nell’archivio. Inoltre, il collegamento rimane valido finché il file è disponibile nell’archivio. Anche se il file viene spostato in un’altra posizione nell’archivio, il collegamento rimane valido. Il collegamento avrà esito negativo solo quando il file viene eliminato dal repository.
 
-**Check-Out/Check-In**
+**Estrai/Archivia**
 
 - Attiva/disattiva le funzioni Check-Out e Check-In. Quando un file viene estratto, l&#39;utente corrente ottiene un&#39;autorizzazione di scrittura esclusiva sul file. Un file estratto può essere aperto nell&#39;editor Web per la modifica. Dopo aver apportato le modifiche necessarie, fai clic sull’icona Archivia per salvare il file in DAM.
 
@@ -118,7 +118,7 @@ File estratto nella visualizzazione elenco:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **Vista a elenco** e seleziona la **Ritirato** stato in **Configura colonne** .
+Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** in **Visualizzazione elenco** e selezionare lo stato **Estratto** nella finestra di dialogo **Configura colonne**.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -140,9 +140,9 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Dalle versioni elencate, seleziona quella che desideri utilizzare come versione di base e fai clic su **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
+   1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e fare clic su **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
-   1. Dalla sezione **Mostra differenze** selezionare la versione con cui si desidera confrontare la versione di base.
+   1. Nell&#39;elenco **Mostra differenze** selezionare la versione con cui si desidera confrontare la versione di base.
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
@@ -153,7 +153,7 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
 ### Branch, ripristino e versioni successive {#id193PG0Y051X}
 
-- In un ambiente di authoring tipico, è necessario creare un nuovo ramo di un argomento per soddisfare una versione specifica. Come qualsiasi altro sistema di gestione delle versioni, le guide AEM consentono di creare un ramo da una versione esistente di un argomento o di ripristinare una versione precedente di un argomento. Utilizzando le funzioni di gestione delle versioni offerte dalle guide AEM, puoi eseguire le seguenti attività:
+- In un ambiente di authoring tipico, è necessario creare un nuovo ramo di un argomento per soddisfare una versione specifica. Come qualsiasi altro sistema di gestione delle versioni, AEM Guides consente di creare un ramo da una versione esistente di un argomento o di ripristinare una versione precedente di un argomento. Utilizzando le funzioni di gestione delle versioni offerte da AEM Guides, puoi eseguire le seguenti attività:
 
    - Creare un ramo da una versione esistente di un argomento
    - Creare versioni successive in un nuovo ramo
@@ -165,7 +165,7 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
   Per qualsiasi nuovo argomento, la prima versione viene numerata come 1.0. In seguito, ogni nuova versione dell&#39;argomento viene salvata con un numero incrementale come 1.1, 1.2 e così via. Dopo aver creato un ramo di un argomento, viene creato un nuovo ramo che prende il numero di versione dal punto in cui è stato creato il ramo e aggiunge 0 alla fine della versione. Come mostrato nell’illustrazione, viene creato un nuovo ramo dalla versione 1.1 di un argomento. Il nuovo ramo dispone di una versione 1.1.0. Successivamente, ogni volta che si salva una nuova versione dell&#39;argomento in questo ramo, viene assegnato un numero di versione incrementale, ad esempio 1.1.1, 1.1.2 e così via.
 
-  Analogamente alla diramazione, è inoltre possibile ripristinare la versione in uso o corrente a qualsiasi versione esistente nell&#39;archivio. Per ripristinare una versione, seleziona semplicemente la versione desiderata dell’argomento e fai clic su **Ripristina questa versione** nel **Cronologia versioni** pannello.
+  Analogamente alla diramazione, è inoltre possibile ripristinare la versione in uso o corrente a qualsiasi versione esistente nell&#39;archivio. Per ripristinare una versione, è sufficiente selezionare la versione desiderata dell&#39;argomento e fare clic su **Ripristina questa versione** nel pannello **Cronologia versione**.
 
   Per creare un ramo, ripristinare una versione e gestire le versioni successive di un argomento, effettua le seguenti operazioni:
 
@@ -185,7 +185,7 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
       >[!NOTE]
       >
-      > Viene visualizzato un elenco delle versioni disponibili per l&#39;argomento selezionato. Ogni versione contiene la marca temporale, il nome utente, il commento sulla versione e [etichetta](web-editor-use-label.md#) informazioni.
+      > Viene visualizzato un elenco delle versioni disponibili per l&#39;argomento selezionato. Ogni versione contiene timestamp, nome utente, commento sulla versione e informazioni sull&#39;[etichetta](web-editor-use-label.md#).
 
    1. Seleziona una versione da cui desideri creare un ramo. Nella schermata seguente, è selezionata la versione 1.2 per la creazione di un ramo.
 
@@ -193,13 +193,13 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
 
       >[!NOTE]
       >
-      > La versione corrente di un argomento contiene *\(Corrente\)* indicato accanto al numero di versione.
+      > La versione corrente di un argomento contiene *\(Current\)* indicato accanto al numero di versione.
 
-   1. Clic **Ripristina questa versione**.
+   1. Fare clic su **Ripristina questa versione**.
 
       Viene visualizzato un messaggio che richiede di confermare la creazione di un nuovo ramo.
 
-   1. *\(Facoltativo\)* Nel prompt dei messaggi, viene visualizzata un&#39;opzione per selezionare **Salva La Copia Di Lavoro Corrente Come Nuova Versione**. In base alla selezione di questa opzione sono possibili le due azioni seguenti:
+   1. *\(Facoltativo\)* Nel prompt dei messaggi, si ottiene un&#39;opzione per selezionare **Salva la copia di lavoro corrente come nuova versione**. In base alla selezione di questa opzione sono possibili le due azioni seguenti:
 
       - Se selezioni questa opzione, viene creato un ramo dalla versione 1.1. Viene inoltre creata una nuova versione dell&#39;argomento dalla copia di lavoro corrente dell&#39;argomento e salvata come versione successiva, ovvero 1.4.
 
@@ -216,6 +216,6 @@ Se la colonna Estratto non è visibile, selezionare **Impostazioni vista** in **
    1. Fai clic su **OK**.
 
 
-  Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo rapporto, vedi [Rapporto cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
+  Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo report, vedere [Report cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
-**Argomento padre:**[ Creazione e anteprima di argomenti](create-preview-topics.md)
+**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

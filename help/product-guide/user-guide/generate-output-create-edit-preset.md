@@ -1,6 +1,6 @@
 ---
 title: Creare, modificare, duplicare o rimuovere un predefinito di output
-description: Scopri come creare, modificare, duplicare ed eliminare un predefinito di output personalizzato nelle guide AEM.
+description: Scopri come creare, modificare, duplicare ed eliminare un predefinito di output personalizzato in AEM Guides.
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Per creare un predefinito di output personalizzato, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, accedi a e fai clic su una mappa DITA per aprire la console delle mappe DITA.
+1. Nell&#39;interfaccia utente di Assets, passare a e fare clic su una mappa DITA per aprire la console Mappa DITA.
 
 1. Accertatevi che la scheda Predefiniti di output sia selezionata. Fai clic su Crea nella barra degli strumenti.
 
@@ -32,7 +32,7 @@ Per creare un predefinito di output personalizzato, effettua le seguenti operazi
 
 Per modificare un predefinito di output esistente, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, accedi a e fai clic su una mappa DITA per aprire la console delle mappe DITA.
+1. Nell&#39;interfaccia utente di Assets, passare a e fare clic su una mappa DITA per aprire la console Mappa DITA.
 
 1. Accertatevi che la scheda Predefiniti di output sia selezionata.
 
@@ -49,7 +49,7 @@ Per modificare un predefinito di output esistente, effettua le seguenti operazio
 
 Per duplicare un predefinito di output esistente, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, accedi a e fai clic su una mappa DITA per aprire la console delle mappe DITA.
+1. Nell&#39;interfaccia utente di Assets, passare a e fare clic su una mappa DITA per aprire la console Mappa DITA.
 
 1. Accertatevi che la scheda Predefiniti di output sia selezionata.
 
@@ -66,7 +66,7 @@ Per duplicare un predefinito di output esistente, effettua le seguenti operazion
 
 Per eliminare un predefinito di output esistente, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, accedi a e fai clic su una mappa DITA per aprire la console delle mappe DITA.
+1. Nell&#39;interfaccia utente di Assets, passare a e fare clic su una mappa DITA per aprire la console Mappa DITA.
 
 1. Selezionate il predefinito di output da eliminare.
 
@@ -77,4 +77,4 @@ Per eliminare un predefinito di output esistente, effettua le seguenti operazion
    Il predefinito viene rimosso dall&#39;elenco Predefiniti di output.
 
 
-**Argomento padre:**[ Generazione di output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

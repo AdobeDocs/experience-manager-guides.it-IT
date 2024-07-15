@@ -1,6 +1,6 @@
 ---
-title: Creare contenuti con guide AEM
-description: Creare contenuti in modo efficiente utilizzando le Guide AEM. Scopri come creare, modificare e pubblicare i tuoi documenti in Guide AEM.
+title: Creare contenuti con AEM Guides
+description: Creare contenuti in modo efficiente con AEM Guides. Scopri come creare, modificare e pubblicare i tuoi documenti in AEM Guides.
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Creare contenuti con guide AEM {#id221EB0P0E20}
+# Creare contenuti con AEM Guides {#id221EB0P0E20}
 
-Le guide dell’AEM sono fornite con i tre editor preconfigurati. è possibile utilizzarli per creare, modificare e pubblicare i documenti.
+AEM Guides viene fornito con tre editor preconfigurati. è possibile utilizzarli per creare, modificare e pubblicare i documenti.
 
-1. **Editor web**: consente di creare e modificare documenti strutturati.
-1. **Editor mappa**: consente di creare e modificare i file mappa DITA e mappa segnalibro.
-1. **Editor Ditaval**: utilizzalo per generare l’output condizionale.
+1. **Editor Web**: consente di creare e modificare documenti strutturati.
+1. **Editor mappe**: utilizzalo per creare e modificare i file mappa DITA e i file mappa segnalibro.
+1. **Editor Ditaval**: utilizzalo per generare l&#39;output condizionale.
 
-- **[Utilizzare l’editor web](web-editor.md)**
+- **[Utilizzo dell&#39;editor Web](web-editor.md)**
 
-- **[Utilizzare l’Editor mappa](map-editor.md)**
+- **[Utilizzare l&#39;editor mappe](map-editor.md)**
 
-- **[editor DITAVAL](ditaval-editor.md)**
+- **[Editor DITAVAL](ditaval-editor.md)**
 
 
 **Argomento padre:**[ Contenuto autore](authoring-content.md)

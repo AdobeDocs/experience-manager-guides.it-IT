@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In alcuni flussi di lavoro, quando fai clic su un collegamento di un argomento o di un file di mappa, questo si apre in una nuova scheda. Questo potrebbe comportare l’apertura di molte schede nel browser, con un conseguente impatto sulla produttività. È possibile modificare questo comportamento di apertura di un file argomento o mappa in una nuova scheda e forzarne l&#39;apertura nella scheda corrente.
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per aprire un file argomento o mappa in una nuova scheda:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per aprire un file argomento o mappa in una nuova scheda:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
@@ -24,9 +24,9 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 
 Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere ai file argomento o mappa:
 
-- Crea argomento DITA \(alla fine del flusso di lavoro, quando si fa clic su **Apri argomento** button\)
+- Crea argomento DITA \(alla fine del flusso di lavoro, quando si fa clic sul pulsante **Apri argomento**\)
 
-- Crea mappa DITA \(alla fine del flusso di lavoro, quando si fa clic su **Apri mappa** button\)
+- Crea mappa DITA \(alla fine del flusso di lavoro, quando si fa clic sul pulsante **Apri mappa**\)
 
 - Scheda Argomenti nella console Mappa DITA
 
@@ -35,4 +35,4 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 - Scheda Rapporti nella console delle mappe DITA
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Partecipa alle nostre sessioni mensili con gli esperti e scopri tutto il potenziale delle guide AEM.
+# Partecipa alle nostre sessioni mensili con gli esperti e scopri tutto il potenziale di AEM Guides.
 
-Le nostre sessioni mensili di esperti sono progettate per aiutare i nostri clienti e partner a ottenere informazioni preziose sulle guide AEM. Ogni sessione è incentrata su importanti funzioni o aggiornamenti nelle Guide AEM in cui il nostro team di esperti vi guiderà attraverso i dentro e fuori.
+Le nostre sessioni mensili di esperti sono progettate per aiutare i nostri clienti e partner a ottenere informazioni preziose su AEM Guides. Ogni sessione è incentrata su funzioni importanti o aggiornamenti in AEM Guides, dove il nostro team di esperti ti guiderà attraverso i processi di in e out.
 
-Durante queste sessioni, i nostri esperti discuteranno in modo approfondito le funzionalità e i vantaggi del nostro prodotto, e condivideranno suggerimenti pratici e best practice che ti aiuteranno a ottenere il massimo da esso. Che tu sia un nuovo utente o un professionista esperto, queste sessioni ti forniranno le informazioni necessarie per massimizzare l’utilizzo delle Guide dell’AEM.
+Durante queste sessioni, i nostri esperti discuteranno in modo approfondito le funzionalità e i vantaggi del nostro prodotto, e condivideranno suggerimenti pratici e best practice che ti aiuteranno a ottenere il massimo da esso. Che tu sia un nuovo utente o un professionista esperto, queste sessioni ti forniranno le informazioni necessarie per massimizzare l’utilizzo di AEM Guides.
 
-Sappiamo che il tuo tempo è prezioso e per questo motivo abbiamo semplificato e reso accessibili queste sessioni di esperti. Per registrarti alla prossima sessione, visita il [forum della community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) o tramite l’e-mail che ti è stata inviata.
+Sappiamo che il tuo tempo è prezioso e per questo motivo abbiamo semplificato e reso accessibili queste sessioni di esperti. Puoi registrarti alla prossima sessione visitando il nostro [forum della community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) o tramite l&#39;e-mail che ti è stata inviata.
 
 Se hai saltato una delle sessioni precedenti, puoi accedere alle registrazioni in questa sezione.
 
-Non perdete questa opportunità di approfondire la conoscenza delle Guide dell’AEM.
+Non perdere questa opportunità per acquisire una comprensione più approfondita di AEM Guides.
 
-**Registrati oggi stesso per la nostra prossima sessione di esperti e ottieni le informazioni necessarie per avere successo.**
+**Registrati alla nostra prossima sessione di esperti oggi stesso e ottieni le informazioni necessarie per avere successo!**

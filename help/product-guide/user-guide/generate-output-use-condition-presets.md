@@ -1,6 +1,6 @@
 ---
 title: Utilizzare i predefiniti per le condizioni
-description: Conoscere l’uso delle condizioni preimpostate nelle guide AEM. Scopri come creare, modificare, copiare ed eliminare i predefiniti per le condizioni in AEM.
+description: Conoscere l’utilizzo dei predefiniti per le condizioni in AEM Guides. Scopri come creare, modificare, copiare ed eliminare i predefiniti per le condizioni in AEM.
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
@@ -23,8 +23,8 @@ Puoi creare i predefiniti per le condizioni in due modi:
 
 ## Predefiniti di condizione dall’editor web
 
-Guide di Experience Manager consente di gestire i predefiniti di condizione dall’editor Web e di utilizzarli all’interno dei predefiniti di output per generare l’output finale.
-Puoi creare e visualizzare i predefiniti per le condizioni, visualizzare gli attributi e gestire le azioni per la mappa corrente dalla **Predefiniti condizione** nell&#39;editor Web.
+Experience Manager Guides consente di gestire i predefiniti per le condizioni dall’editor web e di utilizzarli all’interno dei predefiniti di output per generare l’output finale.
+È possibile creare e visualizzare i predefiniti per le condizioni, visualizzare gli attributi e gestire le azioni per la mappa corrente dalla visualizzazione **Predefiniti per le condizioni** nell&#39;editor Web.
 
 <img src="images//manage-condtions-presets.png" alt= "Predefiniti condizione nell’editor web" width="800" border="1px">
 
@@ -32,13 +32,13 @@ Puoi creare e visualizzare i predefiniti per le condizioni, visualizzare gli att
 
 ### Creare un predefinito di condizione
 
-Il **Predefiniti condizione** visualizza informazioni dettagliate sui predefiniti per le condizioni, ad esempio gli attributi, i valori e le azioni.
+La visualizzazione **Predefiniti condizione** fornisce informazioni dettagliate sui predefiniti condizione, ad esempio gli attributi, i valori e le azioni.
 Per creare un predefinito per le condizioni degli argomenti, effettua le seguenti operazioni:
 
-1. In **Archivio** aprire il file mappa DITA in Vista mappa.
-1. Seleziona la **Gestisci** scheda.
-1. Seleziona **Predefiniti condizione** a sinistra. Viene visualizzato l&#39;elenco dei predefiniti di condizioni definiti per la mappa DITA.
-1. Seleziona l’icona + accanto a **Predefiniti condizione** per aprire **Nuovo predefinito condizione** .
+1. Nel pannello **Archivio**, apri il file mappa DITA in Vista mappa.
+1. Selezionare la scheda **Gestisci**.
+1. Selezionare **Predefiniti condizione** a sinistra. Viene visualizzato l&#39;elenco dei predefiniti di condizioni definiti per la mappa DITA.
+1. Seleziona l&#39;icona + accanto a **Predefiniti condizione** per aprire la finestra di dialogo **Nuovo predefinito condizione**.
 1. Immettete un nome univoco per il predefinito.
 
    >[!NOTE]
@@ -48,11 +48,11 @@ Per creare un predefinito per le condizioni degli argomenti, effettua le seguent
 1. Seleziona **Crea**.
 Il nuovo predefinito di condizione viene aggiunto all’elenco.
 1. Fai doppio clic su un predefinito di condizione per visualizzare gli attributi e le azioni.
-Il **Attributi** Il pannello mostra tutti gli attributi aggiunti a qualsiasi riferimento presente nella mappa. Il pannello a destra mostra solo le condizioni aggiunte ai predefiniti condizione.
+Il pannello **Attributi** mostra tutti gli attributi aggiunti a qualsiasi riferimento presente nella mappa. Il pannello a destra mostra solo le condizioni aggiunte ai predefiniti condizione.
 1. Per aggiungere gli attributi, effettuate una delle seguenti operazioni:
-   * Seleziona uno o più attributi per aggiungere tutti i valori al relativo predefinito di condizione. Ad esempio, puoi selezionare `platform` per aggiungere tutti i relativi valori.
-   * Seleziona uno o più valori di attributo per aggiungerli al predefinito di condizione. Ad esempio, puoi selezionare `Unix` e `Win` valori dell’attributo platform
-   * Selezionate una coppia di attributi e valori e trascinatela nel pannello centrale. Ad esempio, puoi selezionare `Unix` valore dell’attributo platform e trascinarlo.
+   * Seleziona uno o più attributi per aggiungere tutti i valori al relativo predefinito di condizione. Ad esempio, è possibile selezionare l&#39;attributo `platform` per aggiungerne tutti i valori.
+   * Seleziona uno o più valori di attributo per aggiungerli al predefinito di condizione. Ad esempio, puoi selezionare i valori `Unix` e `Win` dell&#39;attributo platform
+   * Selezionate una coppia di attributi e valori e trascinatela nel pannello centrale. Ad esempio, è possibile selezionare il valore `Unix` dell&#39;attributo platform e trascinarlo.
    * **Seleziona tutto** per aggiungere tutti gli attributi e i relativi valori al predefinito di condizione.
 Per impostazione predefinita, l&#39;azione per un attributo è `Include`.
 
@@ -72,35 +72,35 @@ Effettua una delle operazioni seguenti:
    >
    > Se selezionate un altro predefinito o chiudete il predefinito senza salvarlo, viene visualizzato un avviso.
 
-Una volta creato un predefinito di condizione, questo viene visualizzato nella sezione **Predefiniti condizione** menu a discesa dei predefiniti di output. Ulteriori informazioni su come [Pubblica output PDF](../web-editor/native-pdf-web-editor.md).
+Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [output di Publish PDF](../web-editor/native-pdf-web-editor.md).
 
 ### Rinominare un predefinito di condizione
 
 Per rinominare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dalla **Predefiniti condizione** pannello.
-1. Seleziona **Rinomina** dal menu Opzioni per aprire **Rinomina predefinito condizione** .
+1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
+1. Selezionare **Rinomina** dal menu Opzioni per aprire la finestra di dialogo **Rinomina predefinito di condizione**.
 1. Modifica il nome del predefinito di condizione.
-1. Clic **Rinomina**.
+1. Fare clic su **Rinomina**.
 
 ### Duplicare un predefinito di condizione
 
 Per duplicare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dalla **Predefiniti condizione** pannello.
-1. Seleziona **Duplica** dal menu Opzioni per aprire **Predefinito condizione duplicato** .
+1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
+1. Seleziona **Duplica** dal menu Opzioni per aprire la finestra di dialogo **Predefinito condizione duplicato**.
    >[!NOTE]
    >
    > Il nome predefinito è `<selected condition preset name>_1`. Puoi modificare il nome in base alle tue esigenze.
 
-1. Clic **Duplica**.
+1. Fai clic su **Duplica**.
 
 ### Elimina predefinito condizione
 
 Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dalla **Predefiniti condizione** pannello.
-1. Seleziona **Elimina** dal menu Opzioni per aprire **Elimina predefinito condizione** .
+1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
+1. Selezionare **Elimina** dal menu Opzioni per aprire la finestra di dialogo **Elimina predefinito di condizione**.
 1. Fai clic su **Elimina**.
 
 
@@ -112,32 +112,33 @@ Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
 
 Per creare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Seleziona **Predefiniti condizione** nella console delle mappe DITA.
-1. Clic **Crea** pulsante.
-1. Immettete un nome per il predefinito in **Condizione nome**.
-1. Seleziona una delle seguenti azioni predefinite da **Imposta azione predefinita su** elenco a discesa:
+1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
+1. Fare clic sul pulsante **Crea**.
+1. Immettere un nome per il predefinito in **Condizione nome**.
+1. Selezionare una delle azioni predefinite seguenti dall&#39;elenco a discesa **Imposta azione predefinita su**:
 
    * Includi
    * Escludi
    * Passthrough
-   * Flag L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere che vengano aggiunti o meno al predefinito della condizione.
+   * Contrassegno
+L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere dal fatto che vengano aggiunti o meno al predefinito della condizione.
 
-   Ad esempio, nel documento sono presenti 15 attributi di condizione, quattro dei quali sono stati inclusi nel predefinito di condizione. Se si seleziona **escludi** come azione predefinita, viene applicata a tutti e 15 gli attributi.
+   Ad esempio, nel documento sono presenti 15 attributi di condizione, quattro dei quali sono stati inclusi nel predefinito di condizione. Se selezioni **escludi** come azione predefinita, viene applicato a tutti e 15 gli attributi.
 
 1. Per aggiungere gli attributi, effettuate una delle seguenti operazioni:
-   * Clic **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
-   * Clic **Aggiungi tutto** per aggiungere tutti gli attributi al predefinito di condizione.
+   * Fai clic su **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
+   * Fai clic su **Aggiungi tutti** per aggiungere tutti gli attributi al predefinito di condizione.
 1. \(Facoltativo\) Se necessario, è possibile sostituire l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle operazioni seguenti:
-   * Seleziona più attributi, scegli un’azione da **Imposta l&#39;azione per le condizioni selezionate su** e fai clic su **Applica**.
-   * Selezionare un&#39;azione per un attributo da **Azione** a discesa.
+   * Seleziona più attributi, scegli un&#39;azione tra **Imposta l&#39;azione per le condizioni selezionate su**, quindi fai clic su **Applica**.
+   * Selezionare un&#39;azione per un attributo dal menu a discesa **Azione**.
 1. Fai clic su **Salva**.
 
 ### Modificare un predefinito di condizione
 
 È possibile apportare modifiche a un predefinito di condizione esistente per modificare le azioni applicate agli attributi nel predefinito di condizione. Per modificare un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Seleziona **Predefiniti condizione** nella console delle mappe DITA.
-1. Clic **Modifica** pulsante.
+1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
+1. Fare clic sul pulsante **Modifica**.
 1. Apporta le modifiche necessarie per tutti gli attributi nel predefinito di condizione.
 1. Fai clic su **Salva**.
 
@@ -145,8 +146,8 @@ Per creare un predefinito di condizione, effettua le seguenti operazioni:
 
 È possibile creare una copia di un predefinito di condizione e quindi modificarlo in base alle proprie esigenze. Per creare una copia di un predefinito di condizione, effettua le seguenti operazioni:
 
-1. Seleziona **Predefiniti condizione** nella console delle mappe DITA.
-1. Clic **Duplica** pulsante.
+1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
+1. Fare clic sul pulsante **Duplica**.
 
    >[!NOTE]
    >
@@ -159,11 +160,11 @@ Per creare un predefinito di condizione, effettua le seguenti operazioni:
 
 ### Elimina predefinito condizione
 
-È possibile eliminare uno o più predefiniti di condizione dal **Predefinito condizione** della console delle mappe DITA. Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
+È possibile eliminare uno o più predefiniti di condizione dalla scheda **Predefinito condizione** della console delle mappe DITA. Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
 
-1. Seleziona **Predefiniti condizione** nella console delle mappe DITA.
+1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
 1. Seleziona il predefinito di condizione\(s\) da eliminare.
-1. Clic **Rimuovi** pulsante.
-1. Clic **Rimuovi** per confermare l’azione.
+1. Fare clic sul pulsante **Rimuovi**.
+1. Fai clic su **Rimuovi** per confermare l&#39;azione.
 
-**Argomento padre:**[ Generazione di output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

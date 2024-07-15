@@ -11,23 +11,23 @@ ht-degree: 8%
 
 ---
 
-# Guide AEM per la pubblicazione di benchmark su AEMaaCS
+# Benchmark per la pubblicazione di AEM Guides su AEMaaCS
 
-Attualmente il servizio cloud Guide AEM ha alcuni limiti sulla pubblicazione delle dimensioni delle mappe che il team Guide sta attivamente lavorando per risolvere.
+Al momento AEM Guides Cloud Service ha alcuni limiti sulla pubblicazione delle dimensioni delle mappe che il team Guide sta attivamente lavorando per risolvere.
 
-Il team Guide ha introdotto un microservizio di pubblicazione scalabile per supportare mappe di grandi dimensioni e più pubblicazioni simultanee. Per ulteriori informazioni sul nuovo microservizio di pubblicazione, consulta [pubblicazione dell&#39;architettura dei microservizi](publish-microservice-architecture-and-performance.md)
+Il team Guide ha introdotto un microservizio di pubblicazione scalabile per supportare mappe di grandi dimensioni e più pubblicazioni simultanee. Per ulteriori informazioni sul nuovo microservizio di pubblicazione, fare riferimento a [architettura del microservizio di pubblicazione](publish-microservice-architecture-and-performance.md)
 
-Per configurare il nuovo servizio di pubblicazione per qualsiasi ambiente cloud AEM consulta [configurare una nuova pubblicazione basata su microservizi](configure-microservices.md)
+Per configurare il nuovo servizio di pubblicazione per qualsiasi ambiente cloud AEM, fare riferimento a [configurare una nuova pubblicazione basata su microservizi](configure-microservices.md)
 
 
 ## Ambiente di esecuzione
 
     Versione AEM: 2023.5.11983.20230511T173830Z
-    Versione Del Componente Aggiuntivo Della Guida: 2023.6.0
-    Modello per sito AEM: modello OOTB delle guide AEM
+    Versione per aggiunta alla guida: 2023.6.0
+    Modello di sito AEM: modello OOTB AEM Guides
     Versione DITA-OT: 3.5.4
-    Tipo di flusso di lavoro di pubblicazione: Dividi flusso di lavoro di pubblicazione
-    Output supportato dal microservizio: Native PDF, PDF (Dita-OT)
+    Tipo di flusso di lavoro Publish: Dividi flusso di lavoro Publish
+    Output supportato da microservizio: PDF nativo, PDF (Dita-OT)
 
 ## Numeri di generazione output
 
@@ -37,7 +37,7 @@ Per configurare il nuovo servizio di pubblicazione per qualsiasi ambiente cloud 
 | Native PDF | 3500 | 780 | Sì |
 | PDF (DITA-OT) | 11000 | 960 | Sì |
 | HTML5 | 3500 | 240 | No |
-| Personale | 300 | 300 | No |
+| Personalizzato | 300 | 300 | No |
 
 ## Punti chiave da ricordare
 

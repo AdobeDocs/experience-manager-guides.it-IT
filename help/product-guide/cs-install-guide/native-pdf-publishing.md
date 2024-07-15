@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Pubblicazione PDF nativa
 
-Con le guide AEM, potete generare PDF di singoli argomenti o un file di mappa utilizzando la funzione di generazione dell&#39;output di Native PDF. Puoi personalizzare e utilizzare i modelli di PDF durante la generazione dell’output di PDF. Puoi creare e progettare layout di pagina per presentare le varie sezioni nell’output di PDF in base alle tue esigenze.
+Con AEM Guides, puoi generare PDF di singoli argomenti o un file di mappa utilizzando la funzione di generazione dell’output di Native PDF. Puoi personalizzare e utilizzare i modelli di PDF durante la generazione dell’output di PDF. Puoi creare e progettare layout di pagina per presentare le varie sezioni nell’output di PDF in base alle tue esigenze.
 
-Inoltre, le guide AEM supportano anche le variabili di linguaggio per aiutarti a definire stringhe localizzate. Consente inoltre di definire stili per vari elementi presenti nell’output PDF. Se sei un utente avanzato, puoi anche lavorare direttamente con i CSS per creare layout di pagina avanzati.
+Inoltre, AEM Guides supporta anche le variabili di lingua per aiutarti a definire le stringhe localizzate. Consente inoltre di definire stili per vari elementi presenti nell’output PDF. Se sei un utente avanzato, puoi anche lavorare direttamente con i CSS per creare layout di pagina avanzati.
 
 
 Per ulteriori informazioni, vedere:
@@ -31,5 +31,5 @@ Per ulteriori informazioni, vedere:
    * [Utilizzare gli stili delle barre di modifica personalizzati](../native-pdf/change-bar-style.md)
    * [Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento](../native-pdf/custom-style-toc.md)
    * [Aggiungere un segnalibro personalizzato nell’output di PDF](../native-pdf/add-custom-bookmark.md)
-   * [Utilizzare JavaScript per lavorare con contenuti o stili](../native-pdf/use-javascript-content-style.md)
+   * [Utilizzare JavaScript per lavorare con contenuto o stile](../native-pdf/use-javascript-content-style.md)
    * [Usa stili personalizzati nelle note a piè di pagina](../native-pdf/footnote-number-style.md)

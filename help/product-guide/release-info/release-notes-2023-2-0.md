@@ -13,32 +13,32 @@ ht-degree: 0%
 
 # Versione di febbraio 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di febbraio 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di febbraio 2023 di Adobe Experience Manager Guides (in seguito denominata *AEM Guides as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di febbraio 2023 delle Guide dell’AEM as a Cloud Service](whats-new-2023-2-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consulta [Novità della versione di febbraio 2023 di AEM Guides as a Cloud Service](whats-new-2023-2-0.md).
 
 ## Aggiornamento alla versione di febbraio 2023
 
-Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
+Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2023.2.235.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di febbraio 2023 delle guide AEM as a Cloud Service.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service in 2023.2.235.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di febbraio 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
 Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizzare il nuovo testo Trova e sostituisci a livello di mappa:
 
-* Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
+* Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Ad esempio: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di febbraio 2023 delle guide AEM as a Cloud Service.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di febbraio 2023 di AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -62,18 +62,18 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Authoring
 
-* Le modifiche nell’HTML dell’editor web causano problemi con `<dl>` e `<dlentry>`. (11024)
+* Le modifiche nell&#39;html dell&#39;editor Web causano problemi con `<dl>` e `<dlentry>`. (11024)
 * Alcuni attributi non vengono trattati come condizionali e causano problemi. (10895)
-* Tre o più livelli nidificati `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10799)
-* Il contenuto scompare nel corpo di un’attività quando si passa dalla vista Creazione alla vista Origine. (10735)
+* Tre o più livelli nidificati `<indexterm>` non sono nidificati nell&#39;esportazione nativa di PDF. (10799)
+* Il contenuto scompare nel corpo di un’attività quando si passa dalla visualizzazione Autore a quella Source. (10735)
 * I commenti di revisione non vengono inseriti correttamente in un&#39;attività di revisione. (10625)
-* **Annulla** o **Ripeti** non funziona correttamente su alcuni file. (10373)
+* **Annulla** o **Ripristina** non funziona correttamente su alcuni file. (10373)
 * I metadati personalizzati non vengono mantenuti durante l’azione di copia e incolla. (10367)
 * L&#39;opzione Annulla nell&#39;editor XML consente di portare l&#39;utente nella parte superiore della pagina. (10091)
 * Le proprietà del nodo vengono rimosse dopo l’operazione di copia e incolla di una risorsa. (10053)
 * mimeType è codificato per la creazione e l’aggiornamento di risorse DITA. (8979)
 * Il nome dell’autore della versione nella Cronologia versioni è &quot;fmdita-serviceuser&quot; per i file caricati tramite l’interfaccia utente di Assets. (8910)
-* I frammenti di contenuto non possono essere copiati e incollati quando AEM Guides è installato in Cloud. (11315)
+* I frammenti di contenuto non possono essere copiati e incollati quando AEM Guides è installato su Cloud. (11315)
 * Il browser (Editor Web) non è in grado di caricare contenuti con uno schema personalizzato. (11211)
 
 ### Gestione
@@ -83,9 +83,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
 * Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
-* Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
+* Traduzione | L’elaborazione Post è bloccata per l’intera cartella lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Se la versione viene modificata e salvata nell’editor della linea di base, per qualsiasi risorsa vengono visualizzati più pop-up. (10399)
-* La perdita di sessione si verifica alle `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
+* La perdita della sessione si verifica alle `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
 ### Pubblicazione
 
@@ -93,10 +93,10 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Publishlistener non visualizza i dati richiesti nei registri di informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
 * Native PDF | Quando si crea un predefinito di output con l’opzione &quot;Aggiungi al profilo cartella&quot;, la generazione di PDF non riesce e viene generata un’eccezione Null Pointer. (10950)
 * Native PDF | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
-* Native PDF | Nidificato `<indexterm>` non sono nidificati nell’esportazione nativa di PDF. (10521)
+* Native PDF | `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
 * Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo. (10454)
 * La pubblicazione della linea di base non riesce per PDF generato con FrameMaker Publishing Server 2020. (10551)
-* Native PDF | Aggiunta `xref` a un’immagine non esegue il rendering dell’immagine sul PDF generato. (11346)
+* Native PDF | L&#39;aggiunta di `xref` a un&#39;immagine non esegue il rendering dell&#39;immagine sul PDF generato. (11346)
 * Native PDF | Il tag immagine aggiunge l’attributo display-inline a tutte le immagini. (10653)
 * Native PDF | I commenti bozza sono nascosti per impostazione predefinita nell&#39;output generato. (10560)
 * Native PDF | navtitle non è onorato per topichead. (10509)

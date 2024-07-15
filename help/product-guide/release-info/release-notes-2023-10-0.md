@@ -13,17 +13,17 @@ ht-degree: 1%
 
 # Versione di ottobre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di ottobre 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di ottobre 2023 di Adobe Experience Manager Guides (in seguito denominata *AEM Guides as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di ottobre 2023 delle guide AEM as a Cloud Service](whats-new-2023-10-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consulta [Novità della versione di ottobre 2023 di AEM Guides as a Cloud Service](whats-new-2023-10-0.md).
 
 ## Aggiornamento alla versione di ottobre 2023
 
-Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
+Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2023.10.0.373.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione as a Cloud Service di ottobre 2023 delle guide AEM.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei tuoi Cloud Service a 2023.10.0.373.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di ottobre 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
@@ -47,7 +47,7 @@ Risposta:
 }
 ```
 
-Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell’archivio che punta al processo inviato. Verrà eliminato automaticamente una volta completato il processo; fino ad allora, puoi fare riferimento a questo nodo per lo stato corrente del processo.
+Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell&#39;archivio che punta al processo inviato. Verrà eliminato automaticamente una volta completato il processo; fino ad allora, puoi fare riferimento a questo nodo per lo stato corrente del processo.
 
 Attendere il completamento del processo prima di procedere ai passaggi successivi.
 
@@ -66,23 +66,23 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
 
-1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file DITA, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
+1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file DITA, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` a un valore maggiore (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuire.
 
-   - Utilizzare le istruzioni fornite nella *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service, per creare il file di configurazione.
+   - Per creare il file di configurazione, segui le istruzioni fornite nella sezione *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
    - Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare l’opzione queryLimitReads:
 
      | PID | Chiave proprietà | Valore proprietà |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valore: 200000 Valore predefinito: 100000 |
 
-1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
-1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 ## Passaggi per indicizzare il contenuto esistente per utilizzare il nuovo elenco Trova e sostituisci e Argomento nella scheda Rapporti:
 
@@ -92,16 +92,16 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Una volta completato il processo, la richiesta di GET precedente risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di ottobre 2023 delle guide AEM as a Cloud Service.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di ottobre 2023 di AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -123,7 +123,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti dei componenti delle guide AEM per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti per componenti AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemi risolti
 
@@ -131,8 +131,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Authoring
 
-- Le ore pomeridiane non sono impostate nel **Data** per la creazione di baseline. (12712)
-- Impossibile incollare il codice JSON in `<codeblock>` dell&#39;editor Web. (12326)
+- Le ore pomeridiane non sono impostate nella **Data** per la creazione delle linee di base. (12712)
+- Impossibile incollare il codice JSON nell&#39;elemento `<codeblock>` dell&#39;editor Web. (12326)
 - Le modifiche delle versioni non salvate e i relativi indicatori non vengono visualizzati per i file di grandi dimensioni. (11784)
 - Durante la modifica in coreano, il primo carattere diventa il carattere predefinito. (10049)
 
@@ -140,14 +140,14 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 - Native PDF | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
-- PDF nativa| Nessun tag di stile predefinito disponibile per `<p>`elemento. (12559)
+- PDF nativa| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
 - Native PDF | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
-- Il `DeliveryTarget` L&#39;attributo non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
-- Il **Pubblica** Il flusso di lavoro si blocca durante la generazione dell’output del sito AEM per il contenuto con determinati errori. (12000)
+- L&#39;attributo `DeliveryTarget` non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
+- Il flusso di lavoro **Publish** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
 
 ### Gestione
 
-- La cronologia delle versioni non viene visualizzata anche se `dc:format` proprietà non presente per una risorsa. (10463)
+- La cronologia delle versioni non viene visualizzata anche se la proprietà `dc:format` non è presente per una risorsa. (10463)
 
 
 ### Rivedi
@@ -158,7 +158,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Traduzione
 
-- La linea di base esportata da **Traduzione** il dashboard ha esito negativo e non si apre nella lingua di destinazione. (13466)
+- La linea di base esportata dal dashboard **Traduzione** non riesce e non si apre nella lingua di destinazione. (13466)
 
 - Vengono creati nuovi progetti di traduzione invece di aggiungere nuovi processi ai progetti di traduzione esistenti selezionati.  (10214)
 

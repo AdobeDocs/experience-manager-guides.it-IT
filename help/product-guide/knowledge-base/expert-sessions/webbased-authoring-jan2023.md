@@ -40,18 +40,18 @@ In questa sessione imparerai quanto segue:
 
 ## Risorse correlate
 
-- **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - On-prem 4.1.3 o versione successiva
 > - Cloud Service 2211 e successivi
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

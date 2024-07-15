@@ -4,31 +4,31 @@ description: Scopri come disabilitare la postelaborazione per una cartella caric
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: fedd04f4a261ec199f86cb38ecd57e76b9393ae5
+exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
 
 ---
 
-
 # Disattiva la postelaborazione per una cartella
 
-Per impostazione predefinita, tutte le risorse caricate vengono elaborate utilizzando il flusso di lavoro Risorsa di aggiornamento DAM. Experience Manager Guide esegue un’elaborazione aggiuntiva, denominata postelaborazione, come parte di questo flusso di lavoro. Questo aiuta anche a generare gli UUID
+Per impostazione predefinita, tutte le risorse caricate vengono elaborate utilizzando il flusso di lavoro Risorsa di aggiornamento DAM. Nell’ambito di questo flusso di lavoro, Experience Manager Guides esegue un’ulteriore elaborazione, denominata postelaborazione. Questo aiuta anche a generare gli UUID
 
-Durante il caricamento di file e cartelle in *Adobe Experience Manager Assets* server, puoi anche disabilitare la post-elaborazione e la generazione di UUID.
+Durante il caricamento dei file e delle cartelle nel server *Adobe Experience Manager Assets*, puoi anche disabilitare la postelaborazione e la generazione di UUID.
 
 
-Utilizzare le istruzioni in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per disabilitare la post-elaborazione in un determinato percorso o ignorare la post-elaborazione per una cartella:
-
-| PID | Chiave proprietà | Valore proprietà |
-|---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (multivalore, stringhe con percorso omesso `/` alla fine) <br> **Valore predefinito**: `/content/dam/projects/translation_output` |
-
+Utilizza le istruzioni in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per disabilitare la post-elaborazione in un determinato percorso o ignorare la post-elaborazione per una cartella:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (multivalore, stringhe con percorso omesso `/` alla fine) <br> **Valore predefinito**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (proprietà multivalore, stringhe con percorso che omette `/` alla fine) <br> **Valore predefinito**: `/content/dam/projects/translation_output` |
+
+
+| PID | Chiave proprietà | Valore proprietà |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (proprietà multivalore, stringhe con percorso che omette `/` alla fine) <br> **Valore predefinito**: `/content/dam` |
 
 
 ## Regole per abilitare o disabilitare la post-elaborazione

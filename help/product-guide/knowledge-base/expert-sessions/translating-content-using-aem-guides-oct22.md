@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Tradurre il contenuto
 
-Le guide AEM rappresentano la soluzione ottimale per la creazione di contenuti multilingue con solide funzionalità di traduzione.
+AEM Guides offre la soluzione ottimale per la creazione di contenuti multilingue con solide funzionalità di traduzione.
 
 ## Panoramica della sessione
 
@@ -26,7 +26,7 @@ In questa sessione imparerai a conoscere il processo di traduzione, il meccanism
 ## In evidenza
 
 - **Data** - 27 ottobre 2022
-- **Numero di partecipanti** - 94
+- **Numero partecipanti** - 94
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -40,18 +40,18 @@ In questa sessione imparerai quanto segue:
 
 ## Risorse correlate
 
-- **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guida utente** - [Traduci contenuto](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - On-prem 4.1 o versione successiva
 > - Cloud Service 2207 o successivi
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

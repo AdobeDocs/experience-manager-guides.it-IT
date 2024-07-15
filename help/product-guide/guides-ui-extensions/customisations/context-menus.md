@@ -16,7 +16,7 @@ ht-degree: 0%
 
 - `file_options`
 controller:
-   - Vista mappa: `ditamap_viewer_controller`
+   - Visualizzazione mappa: `ditamap_viewer_controller`
    - Pannello archivio: `repository_panel_controller`
    - Pannello Preferiti: `collection_tree_controller`
    - Collegamenti di riferimento proprietà file: `file_references_links_controller`
@@ -34,7 +34,7 @@ controller:
 
 - `map_view_options`
 controller:
-   - Vista mappa: `ditamap_viewer_controller`
+   - Visualizzazione mappa: `ditamap_viewer_controller`
 
 - `baseline_panel_menu`
 controller:
@@ -46,7 +46,7 @@ controller:
 
 Puoi anche creare un menu di scelta rapida personalizzato definendo un nuovo ID univoco.
 
-Ora ogni menu di scelta rapida ha un `controller id` ad esso associato. Questo controller gestisce `on-event` funzionalità per le varie opzioni del menu di scelta rapida
+Ora a ogni menu di scelta rapida è associato un `controller id`. Questo controller gestisce la funzionalità `on-event` per le varie opzioni del menu di scelta rapida
 
 Prendiamo un esempio per capire
 
@@ -118,7 +118,7 @@ const fileOptions = {
 
 Ora cerchiamo di capire cosa sta facendo questo codice.
 
-1. `id` viene utilizzato per identificare il menu di scelta rapida da personalizzare.
-2. `contextMenuWidget` viene utilizzato per definire `widget id` o `component` che chiama il menu di scelta rapida e gestisce `events`.
+1. `id` viene utilizzato per identificare il menu di scelta rapida che si desidera personalizzare.
+2. `contextMenuWidget` viene utilizzato per definire `widget id` o `component`, che chiama il menu di scelta rapida e gestisce `events`.
 
-Il resto rimane lo stesso, per cui `view` viene utilizzato per definire gli elementi, `target` identifica dove sostituire, aggiungere o anteporre l&#39;opzione e `contextMenuWidget` il controller gestisce `on-click` eventi.
+Il resto rimane invariato, dove `view` viene utilizzato per definire gli elementi, `target` identifica dove sostituire, aggiungere o anteporre l&#39;opzione e il controller `contextMenuWidget` gestisce gli eventi `on-click`.

@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi di base
-description: Risolvere i problemi relativi alla risoluzione dei problemi di base nelle guide AEM. Scopri come visualizzare, copiare e controllare il file di registro in un editor di testo e risolvere gli errori di compilazione JSP.
+description: Risolvi i problemi relativi alla risoluzione dei problemi di base in AEM Guides. Scopri come visualizzare, copiare e controllare il file di registro in un editor di testo e risolvere gli errori di compilazione JSP.
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Risoluzione dei problemi di base {#id1821I0Y0G0A}
 
-Quando si utilizzano le guide AEM, è possibile che si verifichino errori durante la pubblicazione o l&#39;apertura del documento. Tali errori possono essere presenti nella mappa DITA, nell&#39;argomento o nel processo delle guide AEM stesso. Questa sezione fornisce informazioni su come accedere e analizzare le informazioni nel file di registro di generazione dell&#39;output. Inoltre, se l&#39;argomento DITA è troppo grande, potrebbe essere visualizzato l&#39;errore di compilazione JSP. Questa sezione fornisce anche informazioni su come risolvere l’errore di compilazione JSP.
+Quando si lavora con AEM Guides, è possibile che si verifichino degli errori durante la pubblicazione o l’apertura del documento. Tali errori possono essere presenti nella mappa DITA, nell&#39;argomento o nel processo AEM Guides stesso. Questa sezione fornisce informazioni su come accedere e analizzare le informazioni nel file di registro di generazione dell&#39;output. Inoltre, se l&#39;argomento DITA è troppo grande, potrebbe essere visualizzato l&#39;errore di compilazione JSP. Questa sezione fornisce anche informazioni su come risolvere l’errore di compilazione JSP.
 
 ## Visualizza e controlla il file di registro {#id1822G0P0CHS}
 
 Per visualizzare e controllare il file di registro di generazione dell’output, effettua le seguenti operazioni:
 
-1. Dopo aver avviato il processo di generazione dell’output, fai clic su **Uscite** nella console delle mappe DITA.
+1. Dopo aver avviato il processo di generazione dell&#39;output, fare clic su **Output** nella console delle mappe DITA.
 
-   Il **Generale** colonna del **Uscite generate** mostra le icone per dare un segnale visivo sul successo o sull’errore della generazione dell’output.
+   La colonna **General** degli **Output generati** mostra le icone per dare un segnale visivo sull&#39;esito positivo o negativo della generazione dell&#39;output.
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
    Nella schermata precedente, la prima e la terza icona mostrano la generazione di output non riuscita. La seconda icona mostra una generazione di output corretta, ma con messaggi. L’ultima è una generazione di output di successo senza alcun messaggio.
 
-1. Fai clic sul collegamento nella sezione **Generato a** dopo il completamento del processo.
+1. Fai clic sul collegamento nella colonna **Generated At** al termine del processo.
 
    Il file di registro viene aperto in una nuova scheda.
 
@@ -48,35 +48,35 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
 Per copiare e controllare il file di registro di generazione dell’output in un editor di testo, effettua le seguenti operazioni:
 
-1. Dopo aver avviato il processo di generazione dell’output, fai clic su **Uscite** nella console delle mappe DITA.
+1. Dopo aver avviato il processo di generazione dell&#39;output, fare clic su **Output** nella console delle mappe DITA.
 
-1. Fai clic sul collegamento nella sezione **Generato a** dopo il completamento del processo.
+1. Fai clic sul collegamento nella colonna **Generated At** al termine del processo.
 
    Il file di registro viene aperto in una nuova scheda.
 
-1. Clic **Copia registro** pulsante. Il file di registro viene copiato negli Appunti.
+1. Fare clic sul pulsante **Copia registro**. Il file di registro viene copiato negli Appunti.
 1. Apri un editor di testo e incolla il file di registro nell’editor.
 
 1. Scorrere il file di registro e verificare la presenza di messaggi.
 
-   Le seguenti informazioni sono utili per determinare se si è verificato un errore nel file DITA o nel processo Guide AEM:
+   Le seguenti informazioni consentono di determinare se si è verificato un errore nel file DITA o nel processo AEM Guides:
 
-   - *Errore correlato al file di mappa DITA*: nel caso in cui venga rilevato un errore nel file di mappa DITA o in qualsiasi altro file contenuto nella mappa DITA, il file di registro conterrà una stringa, &quot;BUILD FAILED&quot;. È possibile controllare le informazioni fornite nel file di registro per individuare il file errato e risolvere il problema.
+   - *Errore relativo al file di mappa DITA*: se viene rilevato un errore nel file di mappa DITA o in qualsiasi altro file contenuto nella mappa DITA, il file di registro conterrà una stringa &quot;BUILD FAILED&quot;. È possibile controllare le informazioni fornite nel file di registro per individuare il file errato e risolvere il problema.
 
-   Nel seguente frammento del file di registro di esempio, puoi vedere `BUILD FAILED` insieme al motivo dell’errore.
+   Nel seguente frammento del file di log di esempio è possibile visualizzare il messaggio `BUILD FAILED` insieme al motivo dell&#39;errore.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *Errore relativo alle guide AEM*: l’altro tipo di errore che è possibile identificare nel file di registro è relativo al processo stesso delle guide AEM. In questo caso, il file mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di un errore interno nelle guide AEM. Per questo tipo di errori è necessario rivolgersi al team di supporto tecnico.
+   - *Errore relativo ad AEM Guides*: l&#39;altro tipo di errore che è possibile identificare nel file di registro è relativo al processo AEM Guides stesso. In questo caso, il file mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di un errore interno in AEM Guides. Per questo tipo di errori è necessario rivolgersi al team di supporto tecnico.
 
-   Nel seguente frammento del file di registro di esempio, puoi vedere `BUILD SUCCESSFUL` seguito da un altro errore tecnico.
+   Nel seguente frammento del file di registro di esempio è possibile visualizzare il messaggio `BUILD SUCCESSFUL`, seguito da un altro errore tecnico.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Risolvi errore di compilazione JSP
 
-Se l&#39;argomento DITA è troppo grande, è possibile che venga visualizzato l&#39;errore di compilazione JSP \(`org.apache.sling.api.request.TooManyCallsException`\) nel browser. Questo errore può essere visualizzato quando si apre un argomento per la modifica, la revisione o la pubblicazione.
+Se l&#39;argomento DITA è troppo grande, è possibile che nel browser venga visualizzato l&#39;errore di compilazione JSP \(`org.apache.sling.api.request.TooManyCallsException`\). Questo errore può essere visualizzato quando si apre un argomento per la modifica, la revisione o la pubblicazione.
 
 Per risolvere il problema, effettua le seguenti operazioni:
 
@@ -84,11 +84,11 @@ Per risolvere il problema, effettua le seguenti operazioni:
 
    Viene visualizzata la pagina Configurazione console Web Adobe Experience Manager.
 
-1. Cerca e fai clic su *Servlet principale Apache Sling* componente.
+1. Cerca e fai clic sul componente *Apache Sling Main Servlet*.
 
    Vengono visualizzate le opzioni configurabili per Apache Sling Main Servlet.
 
-1. Aumenta il valore per *Numero di chiamate per richiesta* in base alle tue esigenze.
+1. Aumenta il valore per il parametro *Numero di chiamate per richiesta* in base alle tue esigenze.
 
 
-**Argomento padre:**[ Generazione di output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

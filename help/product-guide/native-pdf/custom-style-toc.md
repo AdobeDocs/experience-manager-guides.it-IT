@@ -1,5 +1,5 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
+title: Funzionalità nativa di PDF Publish | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 
-Talvolta, potrebbe essere utile applicare uno stile personalizzato alle voci del sommario o a un particolare argomento. Ciò può essere ottenuto associando un `outputclass` attributo con `<topicref>` nella mappa DITA. Inoltre, nel caso in cui desideri applicare un formato personalizzato a un intero argomento, ciò può essere ottenuto anche estendendo la definizione di stile dell’attributo nel CSS.
+Talvolta, potrebbe essere utile applicare uno stile personalizzato alle voci del sommario o a un particolare argomento. A tale scopo è possibile associare un attributo `outputclass` all&#39;elemento `<topicref>` nella mappa DITA. Inoltre, nel caso in cui desideri applicare un formato personalizzato a un intero argomento, ciò può essere ottenuto anche estendendo la definizione di stile dell’attributo nel CSS.
 
-Prendiamo ad esempio un nuovo argomento che si desidera inviare per la revisione. Per identificare facilmente l&#39;argomento aggiornato, è necessario aggiungere una `outputclass` attribuire a `<topicref>` nella mappa DITA e quindi definire uno stile personalizzato per lo stesso elemento nel CSS.
+Prendiamo ad esempio un nuovo argomento che si desidera inviare per la revisione. Per identificare facilmente l&#39;argomento aggiornato, è necessario aggiungere un attributo `outputclass` all&#39;elemento `<topicref>` nella mappa DITA e quindi definire uno stile personalizzato per lo stesso elemento nel CSS.
 
-Nell&#39;esempio seguente, il *Cronologia dei voli* all&#39;argomento è stato assegnato un `outputclass` attributo con il valore di `new-topic`.
+Nell&#39;esempio seguente, all&#39;argomento *Cronologia dei voli* è stato assegnato un attributo `outputclass` con il valore di `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-La definizione di classe del `new-topic` in un CSS può consentire di definire lo stile per i seguenti elementi:
+La definizione di classe di `new-topic` in un CSS può consentire di definire lo stile per i seguenti elementi:
 * Voce principale nel sommario o mini-sommario
 * Titolo dell’argomento nel contenuto principale
 * L&#39;intero contenuto dell&#39;argomento, incluso il titolo
 
-Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella seguente definizione CSS di `new-topic` è stato modificato il colore del testo.
+Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella seguente definizione CSS della classe `new-topic`, il colore del testo è stato modificato.
 
 ```css
 …
@@ -72,6 +72,6 @@ Infine, puoi anche applicare stili all’intero contenuto all’interno dell’a
 ...
 ```
 
-Utilizzando gli attributi di stile di cui sopra, viene aggiunta una barra di modifica a sinistra del *Cronologia del volo* come mostrato di seguito:
+Utilizzando gli attributi di stile di cui sopra, viene aggiunta una barra di modifica a sinistra dell&#39;argomento *Cronologia del volo*, come illustrato di seguito:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">

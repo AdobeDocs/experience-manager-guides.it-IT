@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Genera automaticamente ID elemento {#id20CIL40016I}
 
-Le guide AEM generano un ID documento per ogni nuovo documento creato. Ad esempio, quando si crea una mappa DITA, un ID come `map.ditamap_random_digits` viene assegnato all’ID della mappa. Puoi anche definire gli elementi ai quali viene generato e assegnato automaticamente un ID.
+AEM Guides genera un ID documento per ogni nuovo documento creato. Ad esempio, quando si crea una mappa DITA, all&#39;ID della mappa viene assegnato un ID come `map.ditamap_random_digits`. Puoi anche definire gli elementi ai quali viene generato e assegnato automaticamente un ID.
 
-Le guide AEM forniscono semplici impostazioni di configurazione in cui è necessario definire gli elementi sui quali viene generato automaticamente un ID e un pattern per l’ID. Per impostazione predefinita, alcuni elementi come `section`, `table`, `ul`, `ol`, sono configurate per la generazione automatica dell&#39;ID. È possibile aggiungere altri elementi all&#39;elenco in modo che, ogni volta che questi elementi vengono inseriti in un documento, le guide AEM generino e assegnino un ID in base al modello specificato
+AEM Guides fornisce semplici impostazioni di configurazione, in cui devi definire gli elementi sui quali viene generato automaticamente un ID e un pattern per l’ID. Per impostazione predefinita, alcuni elementi come `section`, `table`, `ul`, `ol` sono configurati per la generazione automatica dell&#39;ID. È possibile aggiungere altri elementi a questo elenco in modo che, ogni volta che questi elementi vengono inseriti in un documento, AEM Guides generi e assegni un ID in base al modello specificato
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare gli ID degli elementi generati automaticamente:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare gli ID degli elementi generati automaticamente:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
@@ -28,6 +28,6 @@ Per configurare un pattern per l’ID generato automaticamente, crea un file di 
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | Il valore predefinito per questo campo è impostato su `${elementName}_${id}`. Il `${elementName}` viene sostituito con il nome dell’elemento. Il `${id}` variabile genera un numero sequenziale per l’elemento. Ad esempio, se assegni all&#39;elemento paragrafo gli ID generati automaticamente, il primo paragrafo dell&#39;argomento o del documento otterrà un ID come p\_1, il paragrafo successivo otterrà p\_2 e così via. Tuttavia, in un documento diverso, il processo di generazione ID viene riavviato. Ciò significa che in un documento diverso, gli ID come p\_1 e p\_2 possono essere assegnati agli elementi di paragrafo. **Valore predefinito**: ``${elementName}_${id}`` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | Il valore predefinito per questo campo è `${elementName}_${id}`. Il valore `${elementName}` viene sostituito con il nome dell&#39;elemento. La variabile `${id}` genera un numero sequenziale per l&#39;elemento. Ad esempio, se assegni all&#39;elemento paragrafo gli ID generati automaticamente, il primo paragrafo dell&#39;argomento o del documento otterrà un ID come p\_1, il paragrafo successivo otterrà p\_2 e così via. Tuttavia, in un documento diverso, il processo di generazione ID viene riavviato. Ciò significa che in un documento diverso, gli ID come p\_1 e p\_2 possono essere assegnati agli elementi di paragrafo. **Valore predefinito**: ``${elementName}_${id}`` |
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

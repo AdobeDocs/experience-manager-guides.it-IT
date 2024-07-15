@@ -21,10 +21,14 @@ La seguente API REST consente di aggiungere attributi condizionali in un profilo
 Metodo POST che aggiunge attributi condizionali a un determinato profilo a livello di cartella.
 
 **URL richiesta**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/folderprofiles
 
 **Parametri**:\
-|Nome|Tipo|Obbligatorio|Descrizione| ----|----|--------|-----------| |`:operation`|String|Yes|Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``ADDATTRIBUTEPROFILES``. <br> **Nota:** Il valore non distingue tra maiuscole e minuscole.| |`profilename`|Stringa|Sì|Nome visualizzato del profilo a livello di cartella in cui devono essere aggiunti gli attributi condizionali.| |`conditionalprofiles`Matrice JSON|Sì|Matrice JSON costituita dal nome e dai valori dell&#39;attributo condizionale. Il seguente snippet di codice di esempio mostra l’array JSON con due attributi: `platform` e `product` con più valori assegnati.|
+|Nome|Tipo|Obbligatorio|Descrizione|
+----|----|--------|-----------|
+|`:operation`|Stringa|Sì|Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``ADDATTRIBUTEPROFILES``. <br> **Nota:** il valore non distingue tra maiuscole e minuscole.|
+|`profilename`|Stringa|Sì|Nome visualizzato del profilo a livello di cartella in cui devono essere aggiunti gli attributi condizionali.|
+|`conditionalprofiles`|Array JSON|Sì|Array JSON costituito dal nome e dai valori dell&#39;attributo condizionale. Il seguente snippet di codice di esempio mostra l’array JSON con due attributi - `platform` e `product` a cui sono assegnati più valori.|
 
 ```JSON
 [  {    name: "platform",    
@@ -41,5 +45,5 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
                 }]
 ```
 
-**Valori di risposta**:\
+**Valori risposta**:\
 Restituisce una risposta HTTP 200 \(Riuscito\).

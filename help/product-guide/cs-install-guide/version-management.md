@@ -18,7 +18,7 @@ Il controllo delle versioni è un aspetto importante di qualsiasi sistema di ges
 
 In qualità di amministratore, è possibile applicare regole che impediscono agli utenti di modificare un file senza estrarlo. Analogamente, è possibile assicurarsi che tutti i file estratti vengano archiviati per evitare perdite di dati.
 
-In un ambiente multiuso, è inoltre importante assicurarsi che gli utenti non eliminino i file dal sistema. Questo requisito è più critico per i file estratti da altri utenti. Per evitare che gli utenti eliminino accidentalmente i file estratti dal sistema, in Guide AEM è disponibile una configurazione che è possibile utilizzare. Oltre ai file estratti, è possibile controllare l&#39;eliminazione dei file che contengono riferimenti o a cui si fa riferimento da altri file.
+In un ambiente multiuso, è inoltre importante assicurarsi che gli utenti non eliminino i file dal sistema. Questo requisito è più critico per i file estratti da altri utenti. Per evitare che gli utenti eliminino accidentalmente i file estratti dal sistema, AEM Guides fornisce una configurazione che è possibile utilizzare. Oltre ai file estratti, è possibile controllare l&#39;eliminazione dei file che contengono riferimenti o a cui si fa riferimento da altri file.
 
 ## Crea una nuova versione per il file caricato
 
@@ -26,10 +26,10 @@ In un ambiente multiuso, è inoltre importante assicurarsi che gli utenti non el
 >
 > Questa configurazione è applicabile solo durante il caricamento dei file.
 
-Per attivare **Crea una nuova versione per il file caricato** , effettuare le seguenti operazioni:
+Per abilitare l&#39;opzione **Crea nuova versione per il file caricato**, effettuare le seguenti operazioni:
 
-1. Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
-1. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare **Crea una nuova versione per il file caricato** opzione:
+1. Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
+1. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare l&#39;opzione **Crea nuova versione per il file caricato**:
 
 
    | PID | Chiave proprietà | Valore proprietà |
@@ -38,15 +38,15 @@ Per attivare **Crea una nuova versione per il file caricato** , effettuare le se
 
 >[!NOTE]
 >
-> Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione delle versioni e ignora il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo di gestione delle versioni predefinito dell’AEM.
+> Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione delle versioni e ignora il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni dell’AEM.
 
 ## Configura le impostazioni per consentire la modifica dei file estratti
 
-L&#39;editor Web delle guide AEM consente di creare e aggiornare argomenti DITA. È possibile configurare l&#39;Editor Web in modo da consentire la modifica solo dei documenti estratti dal repository. In questo modo nessun altro autore sovrascrive accidentalmente un argomento aperto per la modifica da un altro autore. Una volta aperto un argomento per la modifica, un autore può archiviare il file al momento della chiusura.
+AEM Guides Web Editor consente di creare e aggiornare argomenti DITA. È possibile configurare l&#39;Editor Web in modo da consentire la modifica solo dei documenti estratti dal repository. In questo modo nessun altro autore sovrascrive accidentalmente un argomento aperto per la modifica da un altro autore. Una volta aperto un argomento per la modifica, un autore può archiviare il file al momento della chiusura.
 
 Un&#39;altra regola importante consiste nel garantire che i file estratti vengano nuovamente archiviati nel sistema. In questo modo gli utenti non potranno chiudere accidentalmente i file senza archiviarli di nuovo.
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornire i dettagli \(property\) seguenti per configurare la modifica dei file estratti:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornire i dettagli \(property\) seguenti per configurare la modifica dei file estratti:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
@@ -66,12 +66,12 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 
 >[!NOTE]
 >
-> *Questa configurazione è applicabile solo quando si creano file dall’interfaccia utente di Assets e non quando si caricano file tramite lo strumento WebDAV.*
+> *Questa configurazione è applicabile solo quando si creano file dall&#39;interfaccia utente di Assets e non quando si caricano file tramite lo strumento WebDAV.*
 
 Per consentire agli utenti di sovrascrivere il file durante il caricamento che è stato estratto da loro o da un altro utente, effettuare le seguenti operazioni:
 
-1. Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
-1. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare **Sovrascrivi file estratto al caricamento** opzione:
+1. Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
+1. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare l&#39;opzione **Sovrascrivi file estratto al caricamento**:
 
 
 | PID | Chiave proprietà | Valore proprietà |
@@ -84,7 +84,7 @@ Per consentire agli utenti di sovrascrivere il file durante il caricamento che �
 
 ## Impedisci l&#39;eliminazione dei file estratti
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornire i seguenti dettagli \(property\) per impedire agli utenti di eliminare accidentalmente i file estratti:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornire i seguenti dettagli \(property\) per impedire agli utenti di eliminare accidentalmente i file estratti:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
@@ -101,11 +101,11 @@ Utilizzando questa configurazione, puoi consentire o vietare a tutti gli utenti 
 - Se si sta eliminando una cartella e a qualsiasi file all&#39;interno della cartella viene fatto riferimento da un file all&#39;esterno della cartella, verrà richiesto di rimuovere il riferimento prima di eliminare il file.
 
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i dettagli \(property\) seguenti per definire chi può eliminare un file che contiene riferimenti o a cui fanno riferimento altri file:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i dettagli \(property\) seguenti per definire chi può eliminare un file che contiene riferimenti o a cui fanno riferimento altri file:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
 
 A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;eliminazione, specificare una delle seguenti costanti:
 
@@ -113,7 +113,7 @@ A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;elimi
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: un amministratore o un utente appartenente al *delete-assets* gruppo è autorizzato a eliminare i file. Se un altro utente tenta di eliminare file con qualsiasi riferimento, non potrà eliminare tali file finché non saranno stati rimossi tutti i riferimenti. La schermata seguente viene visualizzata quando un utente che non dispone delle autorizzazioni necessarie tenta di eliminare dei file.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: un amministratore o un utente appartenente al gruppo *delete-assets* può eliminare dei file. Se un altro utente tenta di eliminare file con qualsiasi riferimento, non potrà eliminare tali file finché non saranno stati rimossi tutti i riferimenti. La schermata seguente viene visualizzata quando un utente che non dispone delle autorizzazioni necessarie tenta di eliminare dei file.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -122,7 +122,7 @@ A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;elimi
 
 ## Rimuovi versioni precedenti di file DITA
 
-Quando si aggiorna il contenuto e si creano nuove versioni, le versioni precedenti dei file DITA vengono mantenute nell&#39;archivio. Molte versioni potrebbero essere create per i file DITA in un periodo di tempo e, collettivamente, occupano una grande quantità di spazio nell&#39;archivio. Le guide AEM consentono di configurare le versioni precedenti da eliminare dall’archivio.
+Quando si aggiorna il contenuto e si creano nuove versioni, le versioni precedenti dei file DITA vengono mantenute nell&#39;archivio. Molte versioni potrebbero essere create per i file DITA in un periodo di tempo e, collettivamente, occupano una grande quantità di spazio nell&#39;archivio. AEM Guides consente di configurare le versioni precedenti da eliminare dall’archivio.
 
 Puoi accedere a questa utility utilizzando l’URL specificato se disponi di diritti di amministratore:
 
@@ -143,15 +143,15 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Numero di versioni da mantenere dalla versione più recente**: immetti il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
-- **Mantieni versioni create nell&#39;intervallo di tempo \(in giorni\)**: inserisci l’età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
-- **Percorso**: seleziona il percorso del file o della cartella di cui desideri eliminare i file.
+   - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
+- **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
+- **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.
 
   >[!NOTE]
   >
   > È possibile eliminare solo i file DITA.
 
-1. Clic **Anteprima report di rimozione**.
+1. Fare clic su **Anteprima report di rimozione**.
 
    >[!NOTE]
    >
@@ -160,15 +160,15 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
    Viene generato il rapporto di eliminazione della versione.
 
 1. Scarica il rapporto di eliminazione della versione e controlla i file e le versioni che verranno eliminati.
-1. Puoi scegliere di **Annulla rimozione** o **Avvia eliminazione**.
+1. Puoi scegliere di **Annullare la rimozione** o **Avviare la rimozione**.
 
    ![](assets/download-purge-report.png)
 
    Viene visualizzato lo stato di rimozione.
 
-   Clic **Download del rapporto di eliminazione della versione** per visualizzare le versioni eliminate. Questo rapporto fornisce lo stato di rimozione su tutte le versioni insieme ai motivi per cui una particolare versione è stata mantenuta o eliminata.
+   Fare clic su **Scarica rapporto di eliminazione versione** per visualizzare le versioni eliminate. Questo rapporto fornisce lo stato di rimozione su tutte le versioni insieme ai motivi per cui una particolare versione è stata mantenuta o eliminata.
 
 
 >[!NOTE]
 >
-> Il rapporto viene scaricato nella posizione seguente: `/var/dxml/versionpurge`
+> Il report è stato scaricato nel seguente percorso: `/var/dxml/versionpurge`

@@ -32,7 +32,7 @@ L’elemento &quot;change-request-id&quot; che contiene l’ID JIRA deve essere 
 
 Quando l’utente fa clic sul pulsante, dovrebbe mostrare una finestra di dialogo che dovrebbe richiamare le opzioni possibili e consentire all’utente di selezionare l’ID JIRA desiderato, ad esempio:
 
-![Finestra di dialogo Aggiungi ID JIRA nella sezione Prologo](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+![Finestra di dialogo Aggiungi ID JIRA sezione prologo](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
 che deve quindi aggiungere &quot;change-request-id&quot; al prologo:
 
@@ -43,9 +43,9 @@ che deve quindi aggiungere &quot;change-request-id&quot; al prologo:
 ## Implementazione di
 
 
-### Aggiungi il pulsante nell’editor web configurandolo in *ui_config.json*
+### Aggiungi il pulsante in webeditor configurandolo in *ui_config.json*
 
-Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;Configurazione editor XML&quot; e aggiungi il JSON di configurazione del pulsante nella sezione desiderata del gruppo &quot;toolbar&quot;
+Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;Configurazione editor XML&quot; e aggiungere il JSON di configurazione del pulsante nella sezione desiderata del gruppo &quot;toolbar&quot;
 
 ```
 {
@@ -57,7 +57,7 @@ Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;
 }
 ```
 
-[usa questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione di ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[utilizza questo collegamento per ulteriori informazioni sul profilo della cartella e sulla configurazione di ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Gestire l’evento al clic per il nuovo pulsante
@@ -65,8 +65,8 @@ Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;
     NOTA: i passaggi indicati di seguito sono disponibili come pacchetto allegato a questo post
 
 
-- Dopo aver salvato il profilo della cartella, crea una &quot;cq:ClientLibraryFolder&quot; sotto una directory di progetto (potrebbe essere in */apps*) e aggiungi le proprietà come mostrato nella schermata seguente:
-  ![Impostazioni della libreria client per l’editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+- Dopo aver salvato il profilo della cartella, crea una &quot;cq:ClientLibraryFolder&quot; in una directory di progetto (potrebbe trovarsi in */apps*) e aggiungi le proprietà come mostrato nella schermata seguente:
+  ![Impostazioni libreria client per webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -74,7 +74,7 @@ You may use different library of your choice.
 ```
 
 - In questa cartella della libreria client, crea due file come indicato di seguito:
-   - *overrides.js*: che avrà il codice javascript per gestire l’evento al clic per &quot;insertJIRARef&quot; (utilizza il pacchetto allegato per ottenere il contenuto di questo javascript)
+   - *overrides.js*: che avrà il codice javascript per gestire l&#39;evento al clic per &quot;insertJIRARef&quot; (usa il pacchetto allegato per ottenere il contenuto di questo javascript)
    - *js.txt*: che includerà &quot;overrides.js&quot; per abilitare questo javascript
 
 - Salva le modifiche ed è necessario essere pronti per il test.
@@ -83,7 +83,7 @@ You may use different library of your choice.
 ### Test
 
 - Apri editor web
-- In Preferenze utente, scegli il profilo cartella in cui hai aggiunto il profilo personalizzato. *ui_config.json*. Se l’hai aggiunto al profilo Globale probabilmente lo stai già utilizzando.
+- In Preferenze utente, scegli il profilo cartella in cui hai aggiunto il *ui_config.json* personalizzato. Se l’hai aggiunto al profilo Globale probabilmente lo stai già utilizzando.
 - Quando apri un argomento, la barra degli strumenti presenta un nuovo pulsante &quot;Inserisci riferimento Jira&quot;
 - Puoi quindi aggiungere all’argomento la sezione prologo come dato di seguito e provare a fare clic sul pulsante &quot;Inserisci riferimento Jira&quot; all’interno dell’elemento prologo &quot;change-request-reference&quot;
 
@@ -102,13 +102,13 @@ You may use different library of your choice.
 
 Fai riferimento alla schermata seguente per sapere come apparirà:
 
-![Pulsante Prova nuovo](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![Prova nuovo pulsante](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### Allegati
 
-- Esempio di pacchetto clientlibs che installerà la libreria client dell’editor web con codice JavaScript per l’azione del pulsante della barra degli strumenti: [scarica con questo collegamento](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- Esempio *ui_config.json* che puoi caricare in un profilo di cartella: [scarica un esempio di ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
+- Esempio di pacchetto clientlibs che installerà la libreria client webeditor con codice JavaScript per l&#39;azione del pulsante della barra degli strumenti: [scarica utilizzando questo collegamento](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- *ui_config.json* di esempio che puoi caricare in un profilo di cartella: [scarica ui_config.json di esempio](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.

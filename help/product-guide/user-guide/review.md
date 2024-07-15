@@ -1,6 +1,6 @@
 ---
 title: Rivedi argomenti o mappe
-description: Rivedi in modo efficiente argomenti o mappe nelle guide AEM per una valutazione fluida dei contenuti. Conoscere le funzioni per autori e revisori nelle guide AEM.
+description: Rivedi in modo efficiente gli argomenti o le mappe in AEM Guides per una valutazione fluida dei contenuti. Conoscere le funzioni per autori e revisori in AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Quasi tutti i documenti tecnici devono essere sottoposti a più cicli di revisione. Nella maggior parte dei casi, un ciclo di revisione coinvolge più revisori. Per gli autori è sempre difficile rispondere ai commenti di più revisori. Inoltre, in uno scenario con più revisori, è utile che un revisore possa visualizzare anche i commenti degli altri revisori.
 
-Alcune delle caratteristiche principali offerte dalle guide AEM alla *iniziatori \(o autori\)* sono:
+Alcune delle funzionalità principali offerte da AEM Guides agli *iniziatori \(o autori\)* sono:
 
 - Creare un progetto DITA per il flusso di lavoro di revisione.
 - Invia uno o più argomenti per la revisione in un&#39;unica attività di revisione.
@@ -51,9 +51,9 @@ Funzioni disponibili per *revisori*:
 
 >[!NOTE]
 >
-> Consulta la *Revisione* sezione nella guida alle best practice per le best practice sulla creazione di attività di revisione.
+> Consulta la sezione *Revisione* nella guida alle best practice per le best practice sulla creazione dell&#39;attività di revisione.
 
-- **[Creare un progetto DITA](authoring-create-dita-project.md)**
+- **[Crea un progetto DITA](authoring-create-dita-project.md)**
 
 - **[Invia argomenti per la revisione](review-send-topics-for-review.md)**
 
@@ -61,6 +61,6 @@ Funzioni disponibili per *revisori*:
 
 - **[Rivedi argomenti](review-topics.md)**
 
-- **[Commenti sulla revisione degli indirizzi](review-address-review-comments.md)**
+- **[Commenti sulla revisione dell&#39;indirizzo](review-address-review-comments.md)**
 
-- **[Gestire le attività di revisione mediante il dashboard Revisione](review-manage-tasks-review-dashboard.md)**
+- **[Gestire le attività di revisione mediante il dashboard di revisione](review-manage-tasks-review-dashboard.md)**

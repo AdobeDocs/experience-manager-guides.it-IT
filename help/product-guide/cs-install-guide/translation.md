@@ -23,7 +23,7 @@ Automatizza la traduzione di contenuti di pagina, risorse e contenuti generati d
 
 La traduzione del contenuto prevede i seguenti passaggi:
 
-1. Connettere l’AEM con il [fornitore di servizi di traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) e creare configurazioni del Translation Integration Framework.
+1. Connetti AEM con il tuo [fornitore di servizi di traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) e crea configurazioni del Translation Integration Framework.
 
 1. Associa le pagine della lingua master con il servizio di traduzione e le configurazioni del framework.
 
@@ -33,20 +33,20 @@ La traduzione del contenuto prevede i seguenti passaggi:
 
 1. Crea [progetti di traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) per raccogliere il contenuto da tradurre e preparare il processo di traduzione.
 
-1. Utilizza i progetti di traduzione per [gestire la traduzione dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) processo.
+1. Utilizza i progetti di traduzione per [gestire il processo di traduzione del contenuto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
 
 
 Se il fornitore di servizi di traduzione non fornisce un connettore per l’integrazione con l’AEM, l’AEM supporta l’esportazione e l’importazione manuale dei contenuti tradotti in formato XML.
 
 >[!TIP]
 >
-> Consulta la *Traduzione* sezione nella guida alle best practice per le best practice sulla traduzione dei contenuti.
+> Consulta la sezione *Traduzione* nella guida alle best practice per le best practice sulla traduzione dei contenuti.
 
 ## Configurare la scheda Traduzione nel dashboard delle mappe DITA
 
 Per nascondere la scheda Traduzione nel dashboard delle mappe DITA, effettuare le seguenti operazioni:
 
-1. Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
+1. Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
 1. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare la scheda di traduzione nel dashboard delle mappe:
 
    | PID | Chiave proprietà | Valore proprietà |
@@ -62,11 +62,11 @@ Per nascondere la scheda Traduzione nel dashboard delle mappe DITA, effettuare l
 
 Se il connettore per il fornitore di traduzione non supporta il contenuto DITA, è necessario abilitare il flusso di lavoro di traduzione basato su componenti. Una volta abilitato, il contenuto traducibile viene inviato come metadati della risorsa. Tuttavia, affinché questo flusso di lavoro funzioni, il connettore deve supportare la traduzione dei metadati delle risorse.
 
-In base al flusso di lavoro di traduzione utilizzato nella configurazione, deve essere configurata l’opzione del flusso di lavoro di traduzione basato su componenti. Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare il flusso di lavoro di traduzione basato su componenti:
+In base al flusso di lavoro di traduzione utilizzato nella configurazione, deve essere configurata l’opzione del flusso di lavoro di traduzione basato su componenti. Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare il flusso di lavoro di traduzione basato su componenti:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Se utilizzi la traduzione umana, allora *Disattiva* \( `false`\) il **Flusso di lavoro di traduzione basato su componenti** opzione. <br> - Se utilizzi la traduzione automatica, allora *Abilita \( `true`\)* il **Flusso di lavoro di traduzione basato su componenti** opzione. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> -   Se utilizzi una traduzione umana, *Disabilita* \( `false`\) l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. <br> -   Se utilizzi la traduzione automatica, *Abilita \( `true`\)* l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. |
 
 
 
@@ -74,20 +74,20 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, deve 
 
 Si consiglia di utilizzare il flusso di lavoro di traduzione più recente, che offre prestazioni migliori. Tuttavia, se desideri utilizzare il flusso di lavoro di traduzione legacy, puoi configurarlo.
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare il flusso di lavoro di traduzione legacy:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare il flusso di lavoro di traduzione legacy:
 
 
 
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi l’ultimo flusso di lavoro di traduzione, *Disattiva* \( `false`\) il **Esegui flusso di lavoro di traduzione legacy** opzione. Per impostazione predefinita, è abilitato l’ultimo flusso di lavoro di traduzione. <br> - Se utilizzi la traduzione precedente, allora *Abilita \( `true`\)* il **Esegui flusso di lavoro di traduzione legacy** opzione. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi il flusso di lavoro di traduzione più recente, *Disabilita* \( `false`\) l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. Per impostazione predefinita, è abilitato l’ultimo flusso di lavoro di traduzione. <br> -   Se utilizzi la traduzione legacy, *Abilita \( `true`\)* l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. |
 
 
 
 >[!NOTE]
 >
-> Se utilizzi un connettore di traduzione, accertati di averlo configurato come descritto in *[Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* nella documentazione di Adobe Experience Manager.
+> Se utilizzi il connettore di traduzione, accertati di averlo configurato come descritto nell&#39;argomento *[Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* nella documentazione di Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
@@ -97,9 +97,9 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 
 Quando avvii il flusso di lavoro di traduzione, il sistema crea copie temporanee in lingua del contenuto sorgente. Puoi scegliere di abilitare o disabilitare l’operazione di post-elaborazione su questi file temporanei. Nell’operazione di post-elaborazione, i riferimenti in entrata e in uscita dai file vengono risolti, lo stato del documento viene impostato, insieme ad altre operazioni. Se abiliti la post-elaborazione in questi file temporanei, il completamento del processo di traduzione potrebbe richiedere più tempo. Pertanto, si consiglia di mantenere disabilitata l’opzione di post-elaborazione.
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare la post-elaborazione delle copie per lingua temporanee:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli \(property\) per configurare la post-elaborazione delle copie per lingua temporanee:
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disattiva* \( false\) il **Copie per lingua post-elaborazione** opzione.<br> - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) il **Copie per lingua post-elaborazione** opzione.<br> **Valore predefinito**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> -   Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* \( false\) l&#39;opzione **Copie per lingua di elaborazione Post**.<br> -   Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) l&#39;opzione **Copie per lingua del processo Post**.<br> **Valore predefinito**: false |
 

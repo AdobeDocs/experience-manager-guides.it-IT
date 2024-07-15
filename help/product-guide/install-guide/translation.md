@@ -1,5 +1,5 @@
 ---
-title: Tradurre i contenuti nelle guide AEM
+title: Tradurre il contenuto in AEM Guides
 description: Scopri come tradurre i contenuti
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,9 +23,9 @@ Automatizza la traduzione di contenuti di pagina, risorse e contenuti generati d
 
 La traduzione del contenuto prevede i seguenti passaggi:
 
-1. Connettere l’AEM con il [fornitore di servizi di traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) e creare [configurazioni framework integrazione traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Connetti AEM al tuo [fornitore di servizi di traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) e crea [configurazioni del framework di integrazione della traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associa le pagine della lingua master con [servizi di traduzione e configurazioni framework](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associa le pagine della lingua master con il [servizio di traduzione e le configurazioni del framework](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identificare il tipo di [contenuto da tradurre](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
@@ -33,14 +33,14 @@ La traduzione del contenuto prevede i seguenti passaggi:
 
 1. Crea [progetti di traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) per raccogliere il contenuto da tradurre e preparare il processo di traduzione.
 
-1. Utilizza i progetti di traduzione per [gestire la traduzione dei contenuti](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) processo.
+1. Utilizza i progetti di traduzione per [gestire il processo di traduzione del contenuto](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 Se il fornitore di servizi di traduzione non fornisce un connettore per l’integrazione con l’AEM, l’AEM supporta l’esportazione e l’importazione manuale dei contenuti tradotti in formato XML.
 
 >[!TIP]
 >
-> Consulta la *Traduzione* s sezione nella guida alle best practice per le best practice sulla traduzione dei contenuti.
+> Consulta la sezione *Traduzione* s nella guida alle best practice per le best practice sulla traduzione dei contenuti.
 
 ## Configurare la scheda Traduzione nel dashboard delle mappe DITA
 
@@ -54,9 +54,9 @@ L&#39;opzione Nascondi scheda di traduzione non è attivata per impostazione pre
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.config.ConfigManager** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Seleziona la **Nascondi scheda traduzione** per nascondere la scheda traslazione nel dashboard mappa.
+1. Selezionare l&#39;opzione **Nascondi scheda di traduzione** per nascondere la scheda di traduzione nel dashboard delle mappe.
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, l’o
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.config.ConfigManager** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configurare **Flusso di lavoro di traduzione DITA basato su componenti** in base alla configurazione:
+1. Configura l&#39;opzione **Flusso di lavoro di traduzione DITA basato su componenti** in base alla configurazione:
 
-   - Se utilizzi la traduzione umana, allora *Disattiva* il **Flusso di lavoro di traduzione basato su componenti** opzione.
+   - Se utilizzi una traduzione umana, *Disattiva* l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**.
 
-   - Se utilizzi la traduzione automatica, allora *Abilita* il **Flusso di lavoro di traduzione basato su componenti** opzione.
+   - Se utilizzi la traduzione automatica, *Abilita* l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**.
 
    >[!NOTE]
    >
-   > Se utilizzi un connettore di traduzione, accertati di averlo configurato come descritto in *[Configurazione del framework di integrazione della traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* argomento nella documentazione AEM.
+   > Se utilizzi il connettore di traduzione, accertati di averlo configurato come descritto nell&#39;argomento *[Configurazione del framework di integrazione della traduzione](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* nella documentazione AEM.
 
 1. Fai clic su **Salva**.
 
@@ -143,12 +143,12 @@ Per impostazione predefinita, l’opzione di post-elaborazione dei file temporan
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.config.ConfigManager** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configurare **Copie per lingua post-elaborazione** in base alla configurazione:
+1. Configura l&#39;opzione **Copie per lingua del processo Post** in base alla configurazione:
 
-   - \(*Predefinito*\) Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disattiva* il **Copie per lingua post-elaborazione** opzione.
+   - \(*Predefinito*\) Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* l&#39;opzione **Copie per lingua del processo Post**.
 
-   - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* il **Copie per lingua post-elaborazione** opzione.
+   - Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* l&#39;opzione **Copie per lingua di elaborazione Post**.
 
 1. Fai clic su **Salva**.

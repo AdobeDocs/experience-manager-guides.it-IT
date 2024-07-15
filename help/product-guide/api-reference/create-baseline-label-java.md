@@ -22,9 +22,9 @@ Dettagli bundle:
 
 - ID artefatto: **api**
 
-- Versione: **3,5**
+- Versione: **3.5**
 
-- Pacchetto **com.adobe.fmdita.api.baselines**
+- Pacchetto: **com.adobe.fmdita.api.baselines**
 
 - Dettagli classe:
 
@@ -32,7 +32,7 @@ Dettagli bundle:
   public class BaselineUtils extends Object
   ```
 
-  Il **UtilitàPrevisione** La classe contiene metodi per la creazione di baseline e l&#39;applicazione di etichette ai file in una baseline.
+  La classe **BaselineUtils** contiene i metodi per la creazione di baseline e l&#39;applicazione di etichette ai file in una baseline.
 
 
 ## Creare una baseline
@@ -41,7 +41,7 @@ Il metodo di base per la creazione dispone di due versioni: una per la soluzione
 
 L’altra versione dell’API utilizza la data e l’ora per creare una linea di base. Questa API viene mantenuta per compatibilità con le versioni precedenti dei sistemi che utilizzano la soluzione XML Documentation 3.4, 3.3 o 3.2.
 
-**Sintassi \(per versione 3.5\)**:
+**Sintassi \(per la versione 3.5\)**:
 
 ```JAVA
 public static String createBaseline(Session session, 
@@ -53,11 +53,21 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida. La sessione utente deve disporre delle autorizzazioni di lettura e scrittura per la mappa DITA e delle autorizzazioni di lettura per tutti i file di riferimento inclusi nella baseline.| |`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.| |`baselineTitle`|Stringa|Titolo univoco per la linea di base.| |`label`|Stringa|Selezionare la versione di un argomento a cui è applicata l&#39;etichetta specificata.| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Le configurazioni in base alle quali viene selezionato l’argomento \(contenuto\) direttamente referenziato, per risolvere una versione viene seguito l’ordine indicato nella mappa. <br> Se dopo l&#39;iterazione su tutte le chiavi della mappa non viene trovata alcuna versione, il processo di creazione della linea di base ha esito negativo. <br> Se l&#39;HashMap è vuoto \(invia una mappa vuota e non null per default\), per impostazione predefinita viene popolato come: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Se si desidera che la creazione della baseline selezioni solo la versione di una determinata etichetta e non riesca in assenza di tale versione, inserire `label` e l’etichetta su cui desideri creare la linea di base.| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|Le configurazioni in base alle quali è selezionato l’argomento indirettamente referenziato \(contenuto referenziato\), viene seguito l’ordine indicato nella mappa per risolvere una versione. <br> Se dopo l&#39;iterazione su tutte le chiavi della mappa non viene trovata alcuna versione, il processo di creazione della linea di base ha esito negativo. <br> Se l&#39;HashMap è vuoto \(invia una mappa vuota e non null per default\), per impostazione predefinita viene popolato come: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Se desideri che sia la versione più recente invece di prelevare automaticamente una versione, sostituisci: <br>`indirectContext.put("pickAutomatically", null);` <br> _con:_ <br>`indirectContext.put("latest", true)`|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida. La sessione utente deve disporre delle autorizzazioni di lettura e scrittura per la mappa DITA e delle autorizzazioni di lettura per tutti i file di riferimento inclusi nella baseline.|
+|`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.|
+|`baselineTitle`|Stringa|Titolo univoco per la linea di base.|
+|`label`|Stringa|Selezionare la versione di un argomento a cui è applicata l&#39;etichetta specificata.|
+|`directContext`|LinkedHashMap&lt;Stringa, Oggetto\>|Le configurazioni in base alle quali è selezionato l&#39;argomento con riferimento diretto \(contenuto\), viene seguito l&#39;ordine indicato nella mappa per risolvere una versione. <br> Se dopo l&#39;iterazione su tutte le chiavi della mappa non viene trovata alcuna versione, il processo di creazione della linea di base non riesce. <br> Se l&#39;HashMap è vuoto \(invia una mappa vuota e non null per default\), per impostazione predefinita viene popolato come: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Se si desidera che la creazione della baseline selezioni solo la versione di una determinata etichetta e non riesca in assenza di tale versione, inserire la chiave `label` e l&#39;etichetta su cui si desidera creare la baseline.|
+|`indirectContext`|LinkedHashMap&lt;Stringa, Oggetto\>|Le configurazioni in base alle quali è selezionato l&#39;argomento indirettamente referenziato \(contenuto di riferimento\), viene seguito l&#39;ordine indicato nella mappa per risolvere una versione. <br> Se dopo l&#39;iterazione su tutte le chiavi della mappa non viene trovata alcuna versione, il processo di creazione della linea di base non riesce. <br> Se l&#39;HashMap è vuoto \(invia una mappa vuota e non nulla per default\), per impostazione predefinita viene popolato come: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Se si desidera che sia la versione più recente invece di prelevare automaticamente una versione, sostituire: <br>`indirectContext.put("pickAutomatically", null);` <br> _con:_ <br>`indirectContext.put("latest", true)`|
 
-**Restituisce**: nome della linea di base, che è il nome del nodo della linea di base nell’archivio JCR. Il titolo della baseline appena creata verrà visualizzato all&#39;utente nella pagina Baseline della mappa DITA.
+**Restituisce**:
+Il nome della linea di base, che è il nome del nodo della linea di base nell’archivio JCR. Il titolo della baseline appena creata verrà visualizzato all&#39;utente nella pagina Baseline della mappa DITA.
 
-**Eccezione**: proiezioni ``ItemExistExceptiom`` se esiste già una baseline con lo stesso titolo.
+**Eccezione**:
+Genera ``ItemExistExceptiom`` se esiste già una baseline con lo stesso titolo.
 
 **Sintassi \(per le versioni 3.4, 3.3 e 3.2\)**
 
@@ -69,15 +79,23 @@ String baselineTitle,
 Date versionDate) throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida. La sessione utente deve disporre delle autorizzazioni di lettura e scrittura per la mappa DITA e delle autorizzazioni di lettura per tutti i file di riferimento inclusi nella baseline.| |``sourcePath``|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.| |`baselineTitle`|Stringa|Titolo univoco per la linea di base.| |`versionDate`|Data|La previsione viene creata utilizzando le versioni degli argomenti\(a cui si fa riferimento direttamente dalla mappa DITA\) come in questa data. Specifica la data in `d-MM-yyyy H:mm` formato.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida. La sessione utente deve disporre delle autorizzazioni di lettura e scrittura per la mappa DITA e delle autorizzazioni di lettura per tutti i file di riferimento inclusi nella baseline.|
+|``sourcePath``|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.|
+|`baselineTitle`|Stringa|Titolo univoco per la linea di base.|
+|`versionDate`|Data|La previsione viene creata utilizzando le versioni degli argomenti\(a cui si fa riferimento direttamente dalla mappa DITA\) come in questa data. Specificare la data nel formato `d-MM-yyyy H:mm`.|
 
-**Restituisce**: nome della linea di base, che è il nome del nodo della linea di base nell’archivio JCR. Il titolo della baseline appena creata verrà visualizzato all&#39;utente nella pagina Baseline della mappa DITA.
+**Restituisce**:
+Il nome della linea di base, che è il nome del nodo della linea di base nell’archivio JCR. Il titolo della baseline appena creata verrà visualizzato all&#39;utente nella pagina Baseline della mappa DITA.
 
-**Eccezione**: proiezioni ``RepositoryException.``
+**Eccezione**:
+Genera ``RepositoryException.``
 
 ## Applica etichette
 
-Il ``applyLabel`` Il metodo applica una o più etichette ai file di una baseline.
+Il metodo ``applyLabel`` applica una o più etichette ai file di una baseline.
 
 **Sintassi**:
 
@@ -89,13 +107,20 @@ public static void applyLabel(Session session,
                   throws RepositoryException, WorkflowException, Exception
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.| |``baselineName``|String|Nome del nodo della linea di base a cui deve essere applicata l&#39;etichetta. Per ottenere il nome del nodo della baseline, è possibile utilizzare [\#id185NFF0085Z](#id185NFF0085Z) o controllare il nodo delle baseline della mappa DITA in CRXDE.<br> **Nota:** L&#39;etichetta viene applicata alla versione dei file a cui viene fatto riferimento direttamente dal file mappa nella linea di base.| |`label`|Stringa|Etichetta applicata ai file nella baseline. Assicurati che l’etichetta non contenga i seguenti caratteri: &amp;sol; &amp;virgola; &amp;colon; &amp;virgola; &amp;lbrack; &amp;virgola; &amp;rbrack; &amp;virgola; &amp;vert; &amp;virgola; &amp;ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
+|`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.|
+|``baselineName``|Stringa|Nome del nodo della linea di base a cui applicare l&#39;etichetta. Per ottenere il nome del nodo della linea di base, è possibile utilizzare il metodo [\#id185NFF0085Z](#id185NFF0085Z) o controllare il nodo delle linee di base della mappa DITA in CRXDE.<br> **Nota:** l&#39;etichetta viene applicata alla versione dei file a cui viene fatto riferimento direttamente dal file di mapping nella baseline.|
+|`label`|Stringa|Etichetta applicata ai file nella baseline. Verificare che l&#39;etichetta non contenga i seguenti caratteri: &amp;sol; &amp;virgola; &amp;due punti; &amp;virgola; &amp;lbrack; &amp;virgola; &amp;rbrack; &amp;virgola; &amp;vert; &amp;virgola; &amp;ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2.|
 
-**Eccezione**: proiezioni `RepositoryException`.
+**Eccezione**:
+Genera `RepositoryException`.
 
 ## Elimina etichette
 
-Il ``deleteLabel`` metodo elimina una o più etichette dai file di una baseline.
+Il metodo ``deleteLabel`` elimina una o più etichette dai file di una baseline.
 
 **Sintassi**:
 
@@ -107,8 +132,16 @@ String baselineName,
 String label) throws GuidesApiException
 ```
 
-**Parametri**: |Nome|Tipo|Descrizione| ----|----|-----------| |`session`|javax.jcr.Session|Sessione JCR valida.| |`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.| |`baselineName`|String|Nome della linea di base da cui eliminare l&#39;etichetta. <br> **Nota:** L&#39;etichetta viene eliminata dalla versione dei file a cui viene fatto riferimento direttamente dal file di mappa nella linea di base.| |`label`|Stringa|Etichetta da eliminare dai file nella linea di base. <br> Se si desidera eliminare più etichette, separarle con una virgola, ad esempio Label1, Label2.|
+**Parametri**:
+|Nome|Tipo|Descrizione|
+----|----|-----------|
+|`session`|javax.jcr.Session|Sessione JCR valida.|
+|`sourcePath`|Stringa|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.|
+|`baselineName`|Stringa|Nome della baseline da cui deve essere eliminata l&#39;etichetta. <br> **Nota:** l&#39;etichetta viene eliminata dalla versione dei file a cui si fa riferimento direttamente dal file di mapping nella baseline.|
+|`label`|Stringa|Etichetta da eliminare dai file nella baseline. <br> Per eliminare più etichette, separare le etichette con una virgola, ad esempio Label1, Label2.|
 
-**Restituisce**: mappa con *chiave:valore* coppia di `path:deletedlabels` per tutti i file nella baseline.
+**Restituisce**:
+Mappa con coppia *chiave:valore* di `path:deletedlabels` per tutti i file nella linea di base.
 
-**Eccezione**: proiezioni ``RepositoryException`, `VersionException`, `Exception``.
+**Eccezione**:
+Genera ``RepositoryException`, `VersionException`, `Exception``.

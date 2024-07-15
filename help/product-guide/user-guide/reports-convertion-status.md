@@ -1,6 +1,6 @@
 ---
 title: Rapporto sullo stato della conversione
-description: Convertire documenti di formati diversi in DITA nelle guide AEM. Scopri come aggiungere filtri e visualizzare un rapporto sullo stato della conversione.
+description: Converte documenti di formati diversi in DITA in AEM Guides. Scopri come aggiungere filtri e visualizzare un rapporto sullo stato della conversione.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Rapporto sullo stato della conversione {#id205BBA00WZZ}
 
-Le guide AEM forniscono una solida funzione di conversione per convertire documenti di vari formati in DITA. Il Rapporto sullo stato della conversione fornisce una visualizzazione consolidata di tutte le attività di conversione eseguite dalle guide AEM.
+AEM Guides fornisce una solida funzione di conversione per convertire documenti di vari formati in DITA. Il rapporto sullo stato della conversione fornisce una visualizzazione consolidata di tutte le attività di conversione eseguite da AEM Guides.
 
 Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazioni:
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
-1. Seleziona **Guide** dall&#39;elenco degli strumenti.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti.
 
-1. Fai clic sul pulsante **Rapporto sullo stato della conversione** affiancare.
+1. Fai clic sulla sezione **Rapporto sullo stato di conversione**.
 
    Viene visualizzato il Rapporto sullo stato della conversione per tutti i task di conversione eseguiti sul sistema.
 
@@ -37,23 +37,23 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
-   - **Dati rapporto:**
+   - **Dati report:**
 
      I dati del rapporto contengono le colonne seguenti:
 
-      - **Nome file**: nome del file di origine su cui è stato eseguito il processo di conversione. Se si fa clic sul collegamento Nome file, viene visualizzata la posizione del documento di origine.
+      - **Nome file**: nome del file di origine in cui è stato eseguito il processo di conversione. Se si fa clic sul collegamento Nome file, viene visualizzata la posizione del documento di origine.
 
-      - **Tipo di file**: tipo del documento di origine, che può essere Word, HTML strutturato, XML e DocBook.
+      - **Tipo file**: tipo del documento di origine, che può essere Word, HTML strutturato, XML e DocBook.
 
-      - **Aggiunto da**: nome dell’utente che ha eseguito l’attività di conversione.
+      - **Aggiunto da**: nome dell&#39;utente che ha eseguito l&#39;attività di conversione.
 
-      - **Data di aggiunta**: data in cui è stata eseguita l’attività. Facendo clic sul collegamento Data aggiunta, viene scaricato il file di registro.
+      - **Data aggiunta**: data in cui è stata eseguita l&#39;attività. Facendo clic sul collegamento Data aggiunta, viene scaricato il file di registro.
 
       - **Percorso**: percorso completo del documento di origine.
 
       - **Stato**: stato delle attività di conversione - Completate, Non riuscite, Attive o In coda.
 
-      - **Output**: percorso del documento convertito correttamente. Facendo clic sul collegamento Output si raggiunge la posizione in cui viene salvato l&#39;output.
+      - **Output**: percorso del documento convertito. Facendo clic sul collegamento Output si raggiunge la posizione in cui viene salvato l&#39;output.
 
 
-**Argomento padre:**[ Rapporti](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)

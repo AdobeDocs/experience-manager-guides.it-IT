@@ -4,7 +4,8 @@ description: Scopri come configurare la mappatura basata su JSON tra un argoment
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f252537d15d7e8f8651dddb0ae635905705e4adf
+exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -13,14 +14,14 @@ ht-degree: 0%
 
 # Creare una mappatura tra un argomento e un frammento di esperienza
 
-Guide di Adobe Experience Manager fornisce la funzione per creare una mappatura basata su JSON tra un argomento e un modello di Frammento di esperienza. Puoi utilizzare questa mappatura per pubblicare su un frammento di esperienza il contenuto presente in alcuni o tutti gli elementi di un argomento.
+Adobe Experience Manager Guides fornisce la funzione di creare una mappatura basata su JSON tra un argomento e un modello di Frammento di esperienza. Puoi utilizzare questa mappatura per pubblicare su un frammento di esperienza il contenuto presente in alcuni o tutti gli elementi di un argomento.
 
 1. Per scaricare *experienceFragmentMapping.json*, accedi a Adobe Experience Manager come amministratore.
 1. Seleziona il collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 1. Selezionare Guide dall&#39;elenco degli strumenti e selezionare **Profili cartella**.
-1. Seleziona il riquadro del profilo da configurare. Puoi configurare la mappatura per il profilo globale o per un profilo a livello di cartella. Ad esempio, seleziona la **Profilo globale** affiancare.
-1. Seleziona la **Configurazione editor XML** e seleziona la scheda **Modifica** nella parte superiore.
-1. Seleziona la **Scarica** per scaricare *experienceFragmentMapping.json*  sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
+1. Seleziona il riquadro del profilo da configurare. Puoi configurare la mappatura per il profilo globale o per un profilo a livello di cartella. Ad esempio, seleziona la sezione **Profilo globale**.
+1. Seleziona la scheda **Configurazione editor XML** e fai clic sull&#39;icona **Modifica** in alto.
+1. Seleziona l&#39;icona **Scarica** per scaricare il file *experienceFragmentMapping.json* nel sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
 
 1. Devi seguire le seguenti convalide:
 
@@ -45,11 +46,11 @@ Guide di Adobe Experience Manager fornisce la funzione per creare una mappatura 
 
 1. Salva il file e caricalo.
 
-Experience Manager Guides converte l’argomento completo in HTML che può quindi essere mappato ai componenti core utilizzati nel frammento di esperienza. Ad esempio, il contenuto in una `<p>` può essere mappato per creare un componente testo nel frammento di esperienza.
-* `name`: specifica l’elemento HTML. Ad esempio: `<div>`, `<img>`
-* `class`: specifica il tag dell’elemento DITA corrispondente all’elemento HTML. Ad esempio: `<p>` `<image>`
-* `resourceType`: specifica il tipo di risorsa applicabile al componente utilizzato nel frammento di esperienza. Ad esempio: `wcm/foundation/components/text` è il resourceType per wcm `text` componente.
-* `attributeMap`: fornisci ulteriori informazioni al componente, ad esempio se un componente testo deve essere renderizzato come `RichText` o contiene `fileReference` di un componente immagine.
+Experience Manager Guides converte l’argomento completo in HTML che può quindi essere mappato ai componenti core utilizzati nel frammento di esperienza. Ad esempio, è possibile mappare il contenuto di un tag `<p>` per creare un componente di testo nel frammento di esperienza.
+* `name`: specificare l&#39;elemento HTML. Ad esempio, `<div>`, `<img>`
+* `class`: specificare il tag elemento DITA corrispondente all&#39;elemento HTML. Ad esempio, `<p>` `<image>`
+* `resourceType`: specificare il tipo di risorsa applicabile per il componente utilizzato nel frammento di esperienza. Ad esempio, `wcm/foundation/components/text` è il resourceType per il componente wcm `text`.
+* `attributeMap`: fornire ulteriori informazioni al componente, ad esempio se un componente testo deve essere renderizzato come `RichText` o contiene `fileReference` di un componente immagine.
 
 
 
@@ -156,7 +157,6 @@ File di esempio:
 
 
 
-Durante la pubblicazione dei frammenti di esperienza dall’editor web, seleziona la `Template` dal menu a discesa nel **Genera frammento esperienza** per visualizzare il mapping disponibile per il modello in **Mappatura** campo. Se non è presente alcuna mappatura personalizzata per un modello, viene elencata la mappatura predefinita. Puoi utilizzare la mappatura predefinita per pubblicare l’intero argomento come frammento di esperienza.
+Durante la pubblicazione dei frammenti esperienza dall&#39;editor Web, selezionare `Template` dal menu a discesa nella finestra di dialogo **Genera frammento esperienza** per visualizzare il mapping disponibile per il modello nel campo **Mapping**. Se non è presente alcuna mappatura personalizzata per un modello, viene elencata la mappatura predefinita. Puoi utilizzare la mappatura predefinita per pubblicare l’intero argomento come frammento di esperienza.
 
-Per ulteriori dettagli, vedi [Pubblicare Frammenti Esperienza](../user-guide/publish-experience-fragment.md).
-
+Per ulteriori dettagli, visualizza [Frammenti esperienza Publish](../user-guide/publish-experience-fragment.md).

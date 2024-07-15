@@ -1,13 +1,13 @@
 ---
 title: Definire, gestire e utilizzare - Metadati
 description: Definire, gestire e utilizzare i metadati
-source-git-commit: 876e512febc9a4529d70b96303af21917e41961f
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
+source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
 
 ---
-
 
 # Definire, gestire e utilizzare i metadati
 
@@ -23,7 +23,7 @@ Adobe Experience Manager Guides consente di definire, applicare e utilizzare in 
 ## In evidenza
 
 - **Data** - 9 maggio 2024
-- **Numero di partecipanti** - OLTRE 100
+- **Numero di partecipanti** - oltre 100
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -44,18 +44,18 @@ In questa sessione hai appreso quanto segue:
 - [Profili metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
 - [Gestione dei metadati nelle risorse DITA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [Estrai metadati DITA come metadati](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [Utilizzare i metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [Utilizzare i metadati in Native PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [Usa metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [Usa metadati in PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Forum della community
 
-- Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - Marzo 2024 (per il cloud)
 > - 4.4 (per non cloud)
 
@@ -63,4 +63,4 @@ In questa sessione hai appreso quanto segue:
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

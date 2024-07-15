@@ -26,7 +26,7 @@ In questa sessione, otterrai informazioni preziose sulla pubblicazione di Native
 ## In evidenza
 
 - **Data** - 7 settembre 2023
-- **Numero di partecipanti** - 65
+- **Numero partecipanti** - 65
 - **Durata** - 75 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -48,25 +48,25 @@ In questa sessione, hai appreso le seguenti informazioni per la pubblicazione di
 
 ## Risorse correlate
 
-- **Passaggi di configurazione di PDF nativa** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Passaggi di installazione nativa di PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Panoramica funzionale della pubblicazione di PDF nativi** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Panoramica funzionale della pubblicazione nativa di PDF** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casi d’uso comuni documentati** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Casi d&#39;uso comuni documentati** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita  [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - On-prem 4.2 o versione successiva
 > - Cloud Service 2309 e successivi
 
 ## Prossima sessione di esperti
 
 - **Argomento** - Framework di estensione delle guide
-- **Pianificato per** - 2 novembre 2023
+- **Pianificato il** - 02 novembre 2023
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

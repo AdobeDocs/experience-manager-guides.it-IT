@@ -1,5 +1,5 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Utilizzare gli stili delle barre di modifica personalizzati
+title: Funzionalità nativa di PDF Publish | Utilizzare gli stili delle barre di modifica personalizzati
 description: Scopri come applicare gli stili sulle barre di modifica.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Utilizzare gli stili delle barre di modifica personalizzati
 
-Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. Le guide AEM consentono di visualizzare una barra delle modifiche a sinistra del contenuto modificato all&#39;interno di argomenti e anche gli argomenti modificati nel sommario dell&#39;output PDF.
+Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. AEM Guides consente di visualizzare una barra di modifica a sinistra del contenuto modificato all’interno di argomenti e anche gli argomenti modificati nel sommario dell’output PDF.
 
-Per ulteriori dettagli sulla visualizzazione della barra delle modifiche, vedere *Crea PDF con barra di modifica tra le versioni pubblicate* impostazione in [Pubblica output PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori dettagli sulla visualizzazione della barra delle modifiche, vedere l&#39;impostazione *Crea PDF con barra di modifica tra versioni pubblicate* in [Output di Publish PDF](../web-editor/native-pdf-web-editor.md).
 
 ## Contenuto modificato negli argomenti
 
@@ -27,9 +27,9 @@ La barra delle modifiche viene visualizzata a sinistra del contenuto negli argom
 
 >[!NOTE]
 >
->Questi stili fanno parte di `layout.css` e modificarli in base alle esigenze.
+>Questi stili fanno parte del file `layout.css` e possono essere modificati in base alle esigenze.
 
-Ad esempio, puoi utilizzare l’attributo color nel `.inserted-block` stile per definire la modalità di visualizzazione del contenuto inserito nell’output PDF pubblicato.
+È ad esempio possibile utilizzare l&#39;attributo color nello stile `.inserted-block` per definire la modalità di visualizzazione del contenuto inserito nell&#39;output PDF pubblicato.
 
 
 ```css
@@ -46,7 +46,7 @@ Ad esempio, puoi utilizzare l’attributo color nel `.inserted-block` stile per 
 ...
 ```
 
-Allo stesso modo, è possibile utilizzare `.deleted-block` stile per definire la modalità di visualizzazione del contenuto eliminato nell’output PDF pubblicato.
+Analogamente, è possibile utilizzare lo stile `.deleted-block` per definire la modalità di visualizzazione del contenuto eliminato nell&#39;output PDF pubblicato.
 
 ```css
 ...
@@ -63,9 +63,9 @@ Allo stesso modo, è possibile utilizzare `.deleted-block` stile per definire la
 ...
 ```
 
-È possibile utilizzare `.inserted-change-bar` e `.deleted-change-bar` stile per modificare l&#39;aspetto delle barre di modifica visualizzate a sinistra del contenuto aggiornato.
+È possibile utilizzare lo stile `.inserted-change-bar` e `.deleted-change-bar` per modificare l&#39;aspetto delle barre di modifica visualizzate a sinistra del contenuto aggiornato.
 
-Ad esempio, puoi utilizzare `-ro-change-bar-color` attributo in `.inserted-change-bar` stile per visualizzare la barra delle modifiche inserita in verde. Puoi anche utilizzare `-ro-change-bar-color` attributo in `.deleted-change-bar` stile per visualizzare la barra delle modifiche eliminata in rosso.
+Ad esempio, è possibile utilizzare l&#39;attributo `-ro-change-bar-color` nello stile `.inserted-change-bar` per visualizzare la barra delle modifiche inserita in verde. È inoltre possibile utilizzare l&#39;attributo `-ro-change-bar-color` nello stile `.deleted-change-bar` per visualizzare la barra delle modifiche eliminata in rosso.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Ad esempio, puoi utilizzare `-ro-change-bar-color` attributo in `.inserted-chang
 
 ## Argomento modificato nel sommario
 
-È inoltre possibile aggiungere una barra di modifica a sinistra degli argomenti modificati nel sommario dell&#39;output di PDF. È possibile utilizzare `-ro-change-bar-color` attributo in `.changed-topic` stile per aggiungere una barra di modifica con il colore desiderato per gli argomenti aggiornati nell&#39;elenco sommario.
+È inoltre possibile aggiungere una barra di modifica a sinistra degli argomenti modificati nel sommario dell&#39;output di PDF. È possibile utilizzare l&#39;attributo `-ro-change-bar-color` nello stile `.changed-topic` per aggiungere una barra di modifica con il colore desiderato per gli argomenti aggiornati nell&#39;elenco sommario.
 
 Ad esempio, è possibile aggiungere una barra di modifica di colore verde.
 

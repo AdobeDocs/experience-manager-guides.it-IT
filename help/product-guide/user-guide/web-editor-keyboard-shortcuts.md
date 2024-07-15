@@ -1,6 +1,6 @@
 ---
 title: Scelte rapide da tastiera nell’editor web
-description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web delle guide AEM.
+description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web di AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,29 +26,29 @@ Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile esegui
 | Applica il formato grassetto al testo selezionato | ***Ctrl***+***B*** | ***Comando***+***B*** |
 | Applica formattazione corsivo al testo selezionato | ***Ctrl***+***I*** | ***Comando***+***I*** |
 | Applica formattazione sottolineatura al testo selezionato | ***Ctrl***+***U*** | ***Comando***+***U*** |
-| Attiva nel pannello sinistro | **Ctrl***+**Maiusc**+***1*** | ***Comando***+**Maiusc**+***1*** |
-| Metti a fuoco il pannello a destra | **Ctrl***+**Maiusc**+***2*** | ***Comando***+**Maiusc**+***2*** |
-| Attiva l&#39;editor corrente | **Ctrl***+**Maiusc**+***0*** | ***Comando***+**Maiusc**+***0*** |
-| Salva documento in visualizzazione Creazione o Origine | ***Ctrl***+**Maiusc**+***S*** | ***Comando***+**Maiusc**+***S*** |
-| Salvare tutti i documenti aperti nella visualizzazione Creazione o Origine | ***Ctrl***+***S*** | ***Comando***+***S*** |
+| Attiva nel pannello sinistro | **Ctrl***+**Maiusc**+***1*** | ***Comando***+**Spostamento**+***1*** |
+| Metti a fuoco il pannello a destra | **Ctrl***+**Maiusc**+***2*** | ***Comando***+**Spostamento**+***2*** |
+| Attiva l&#39;editor corrente | **Ctrl***+**Maiusc**+***0*** | ***Comando***+**Spostamento**+***0*** |
+| Salva documento nella visualizzazione Autore o Source | ***Ctrl***+**Maiusc**+***S*** | ***Comando***+**Spostamento**+***S*** |
+| Salvare tutti i documenti aperti nella visualizzazione Autore o Source | ***Ctrl***+***S*** | ***Comando***+***S*** |
 | Mostra finestra di dialogo Inserisci elemento | ***Alt***+***Invio*** | ***Opzione***+***Invio*** |
-| Mostra la finestra di dialogo Inserisci elemento per inserire l’elemento prima dell’elemento selezionato | ***Alt***+***Maiusc***+***Invio*** | ***Opzione***+***Maiusc***+***Invio*** |
+| Mostra la finestra di dialogo Inserisci elemento per inserire l’elemento prima dell’elemento selezionato | ***Alt***+***Maiusc***+***Invio*** | ***Opzione***+***Spostamento***+***Invio*** |
 | Spostare il cursore di una parola verso sinistra. | ***Ctrl***+***Freccia sinistra*** | ***Opzione***+***Freccia sinistra*** |
-| Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia destra*** |
+| Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia Destra*** |
 | Sposta il cursore all&#39;inizio della riga corrente. | ***Home*** | ***Comando***+***Freccia sinistra*** |
-| Sposta il cursore alla fine della riga corrente. | **Fine** | ***Comando***+***Freccia destra*** |
-| Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Linguetta*** | ***Linguetta*** |
-| Rientra la voce di elenco al livello successivo. | ***Linguetta*** | ***Linguetta*** |
-| Sposta il cursore alla fine dell&#39;elemento precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
-| Rientro negativo della voce di elenco al livello precedente. | ***Maiusc***+***Linguetta*** | ***Maiusc***+***Linguetta*** |
-| Rientro automatico XML in visualizzazione Origine | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opzione***+***L*** |
+| Sposta il cursore alla fine della riga corrente. | **Fine** | ***Comando***+***Freccia Destra*** |
+| Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Scheda*** | ***Scheda*** |
+| Rientra la voce di elenco al livello successivo. | ***Scheda*** | ***Scheda*** |
+| Sposta il cursore alla fine dell&#39;elemento precedente. | ***Maiusc***+***Scheda*** | ***Maiusc***+***Scheda*** |
+| Rientro negativo della voce di elenco al livello precedente. | ***Maiusc***+***Scheda*** | ***Maiusc***+***Scheda*** |
+| Rientro automatico XML in visualizzazione Source | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opzione***+***L*** |
 | Dividi l&#39;elemento corrente | ***Invio*** | ***Ritorno*** |
 | Copia testo selezionato | ***Ctrl***+**C** | ***Comando***+**C** |
 | Incolla | ***Ctrl***+**V** | ***Comando***+**V** |
-| Incolla e applica formattazione | ***Ctrl***+***Maiusc***+**V** | ***Comando***+***Maiusc***+**V** |
+| Incolla e applica formattazione | ***Ctrl***+***Maiusc***+**V** | ***Comando***+***Spostamento***+**V** |
 | Apri finestra di dialogo Stampa | ***Ctrl***+**P** | ***Comando***+**P** |
 | Annulla l’ultima azione | ***Ctrl***+**Z** | ***Comando***+**Z** |
 | Ripeti ultima azione | ***Ctrl***+**Y** | ***Comando***+**Y** |
 | Inserisci spazio unificatore `(&nbsp;)` | ***Alt***+**Spazio** | ***Opzione***+**Spazio** |
 
-**Argomento padre:** [Utilizzare l’editor web](web-editor.md)
+**Argomento padre:** [Utilizzare l&#39;editor Web](web-editor.md)

@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Plug-in ossigeno per Adobe Experience Manager Guides
+# Plug-in di ossigeno per Adobe Experience Manager Guides
 
-- [Liberatoria](rebranding-disclaimer.md)
-- [Plug-in ossigeno per Adobe Experience Manager Guides](use-aem-connector.md)
+- [Dichiarazione di non responsabilità](rebranding-disclaimer.md)
+- [Plug-in di ossigeno per Adobe Experience Manager Guides](use-aem-connector.md)
 

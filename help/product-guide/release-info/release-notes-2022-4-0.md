@@ -1,5 +1,5 @@
 ---
-title: Note sulla versione | Guide di Adobe Experience Manager as a Cloud Service, versione di aprile 2022
+title: Note sulla versione | Adobe Experience Manager Guides as a Cloud Service, versione di aprile 2022
 description: Versione di aprile di Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Effettua l’aggiornamento alla versione di aprile
 
-Aggiorna il tuo attuale [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominato *[!DNL AEM Guides]as a Cloud Service*) eseguendo i seguenti passaggi:
+As a Cloud Service Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] (in seguito denominato *[!DNL AEM Guides]as a Cloud Service*) eseguendo i seguenti passaggi:
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2022.4.133.
-1. Esegui il commit delle modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service in 2022.4.133.
+1. Eseguire il commit delle modifiche ed eseguire la pipeline dei Cloud Service per eseguire l&#39;aggiornamento alla versione di aprile dell&#39;as a Cloud Service [!DNL AEM Guides].
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] Versione as a Cloud Service di aprile 2022.
+As a Cloud Service In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di [!DNL AEM Guides] di aprile 2022.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -34,7 +34,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 ### Connettore ossigeno
 
-| Versione cloud delle guide AEM | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
+| Versione di AEM Guides Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
 | 2022.4.0 | 2.5.6. | 2.5.6. |
 |  |  |  |
@@ -57,15 +57,15 @@ Ora i riferimenti chiave vengono risolti in base alla mappa principale impostata
 1. Pannello Vista mappa
 1. Profilo cartella
 
-Per ulteriori dettagli, consulta *Risolvi riferimenti chiave* nella Guida utente.
+Per ulteriori dettagli, vedere la sezione *Risolvere i riferimenti chiave* nella guida utente.
 
 ### Aggiungi un pannello personalizzato nel pannello a sinistra
 
-Ora è possibile aggiungere un pannello personalizzato nel pannello sinistro dell’Editor web. Puoi utilizzare un pannello personalizzato per vari scopi, ad esempio per fornire assistenza o eseguire il test di un progetto. Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli all’interno di **Impostazioni editor**. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato.
+Ora è possibile aggiungere un pannello personalizzato nel pannello sinistro dell’Editor web. Puoi utilizzare un pannello personalizzato per vari scopi, ad esempio per fornire assistenza o eseguire il test di un progetto. Se è stato configurato un pannello personalizzato, questo verrà visualizzato anche nell&#39;elenco dei pannelli all&#39;interno delle **Impostazioni editor**. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato.
 
 ### Possibilità di modificare lo stato del documento degli argomenti in una mappa DITA
 
-Ora è possibile modificare facilmente lo stato del documento degli argomenti selezionati all&#39;interno di una mappa DITA. È inoltre possibile aprire e modificare le proprietà degli argomenti selezionati in una mappa DITA dal **Altre opzioni** nella parte inferiore del pannello Vista mappa.
+Ora è possibile modificare facilmente lo stato del documento degli argomenti selezionati all&#39;interno di una mappa DITA. Puoi anche aprire e modificare le proprietà degli argomenti selezionati in una mappa DITA dal menu **Altre opzioni** nella parte inferiore del pannello Vista mappa.
 
 ![proprietà argomento selezionate](assets/map-view-properties.png)
 
@@ -87,7 +87,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Si verificano dei problemi quando nel titolo della scheda viene utilizzata una parola chiave. (9318)
 * La linea di base non riesce quando si aggiunge un’etichetta con spazi. (9362)
 * L&#39;output del sito AEM non visualizza correttamente l&#39;elemento glossusage. (8936)
-* Si verifica un errore della console all’apertura di **Output** nell&#39;editor Web. (8715)
+* Si è verificato un errore di console all&#39;apertura della scheda **Output** nell&#39;editor Web. (8715)
 * Il messaggio di errore visualizzato quando si pubblica un tipo di record manuale tramite Salesforce non è intuitivo. (8952)
 * L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. 9300
 * I metadati non possono essere rimossi dopo la pubblicazione di una mappa DITA con i metadati.  (9178)
@@ -100,7 +100,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problemi noti
 
-L’Adobe ha identificato il seguente problema noto in [!DNL AEM Guides] Versione as a Cloud Service di aprile.
+L&#39;Adobe ha identificato il seguente problema noto nella versione di aprile as a Cloud Service di [!DNL AEM Guides].
 
 * L&#39;editor Web non segnala un errore quando due o più baseline vengono create con lo stesso nome ma presentano differenze di spazio o maiuscole/minuscole. Ad esempio, &quot;adobe&quot; e &quot;Adobe&quot; o &quot;Adobe&quot;.
 * Il connettore dell’ossigeno si blocca in modo intermittente durante l’esecuzione di frequenti accessi, disconnessione o commutazione tra diversi tipi di autenticazione.

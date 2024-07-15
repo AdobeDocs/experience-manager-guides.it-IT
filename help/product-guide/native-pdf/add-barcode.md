@@ -1,13 +1,13 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Aggiungi codice a barre
+title: Funzionalità nativa di PDF Publish | Aggiungi codice a barre
 description: Scopri come aggiungere codici a barre.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere un codice a barre all&#39;output PDF
 
@@ -24,7 +24,7 @@ Per generare un codice a barre, effettuare le seguenti operazioni:
 
 ### Aggiornare il CSS del modello per eseguire il rendering di un valore di codice a barre
 
-Modifica il `layout.css` per eseguire il rendering di un codice a barre durante la generazione di PDF. Sono supportati vari tipi di codice a barre come &quot;qrcode&quot; e &quot;pdf417&quot;.  Per ulteriori dettagli, vedi [Tipi di codice a barre](#barcode-types).
+Modificare il file `layout.css` per eseguire il rendering di un codice a barre durante la generazione di PDF. Sono supportati vari tipi di codice a barre come &quot;qrcode&quot; e &quot;pdf417&quot;.  Per ulteriori dettagli, visualizzare [Tipi di codice a barre](#barcode-types).
 
 
 
@@ -58,9 +58,9 @@ Aggiungi un segnaposto per codice a barre nell’intestazione del modello e appl
 
    >[!NOTE]
    >
-   > Utilizza lo stesso nome di classe definito in `layout.css`.
+   > Utilizzare lo stesso nome di classe definito in `layout.css`.
 
-1. Sostituisci `<Sample barcode>` con il valore che si desidera venga letto dallo scanner del codice a barre.
+1. Sostituire `<Sample barcode>` con il valore che si desidera venga letto dallo scanner del codice a barre.
 
 Puoi visualizzare il codice a barre durante la generazione del PDF di output utilizzando il modello, che include il layout della pagina. Dopo aver eseguito i passaggi precedenti, puoi generare l’output PDF con un codice a barre.
 
@@ -70,7 +70,7 @@ La schermata seguente mostra un codice a barre di esempio in un output PDF.
 
 **Esempio 2**
 
-Modifica il `Common.plt` file in **Base** modello per aggiungere un codice a barre dopo il titolo del progetto.
+Modificare il file `Common.plt` nel modello **Basic** per aggiungere un codice a barre dopo il titolo del progetto.
 
 Per creare un codice a barre per un numero ISBN, aggiungere un numero ISBN. Quindi utilizza il numero ISBN per generare il codice a barre.
 
@@ -89,7 +89,7 @@ Per creare un codice a barre per un numero ISBN, aggiungere un numero ISBN. Quin
 
 Per creare un codice a barre utilizzando i metadati della mappa:
 
-Utilizza eventuali metadati presenti in `<topicmeta>` elemento di una mappa DITA da visualizzare come codice a barre. Assicurarsi di utilizzare l&#39;XPath corretto. Ad esempio, puoi aggiungere una `<resourceid>` nel `<topicmeta>` di una mappa DITA.
+Utilizzare i metadati presenti nell&#39;elemento `<topicmeta>` di una mappa DITA per visualizzarli come codice a barre. Assicurarsi di utilizzare l&#39;XPath corretto. Ad esempio, è possibile aggiungere `<resourceid>` in `<topicmeta>` di una mappa DITA.
 
 Nell’esempio seguente, l’ID risorsa funge da input principale per generare il codice a barre.
 
@@ -156,6 +156,3 @@ Alcuni dei codici a barre comunemente utilizzati sono i seguenti:
 | Codice Aztec | codice azteco | Codice azteco: simbologia dei codici a barre in base alla norma ISO/IEC 24778:2008. |                            |
 | DataMatrix | data-matrix | Simbologia del codice a barre ECC 200 Data Matrix secondo ISO/IEC 16022:2006. |
 | Codice uno | code-one |                            |
-
-
-

@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Versione di settembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di settembre 2023 delle Guide di Adobe Experience Manager (in seguito denominate *Guide AEM as a Cloud Service*).
+Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di settembre 2023 di Adobe Experience Manager Guides (in seguito denominata *AEM Guides as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione di settembre 2023 delle guide AEM as a Cloud Service](whats-new-2023-9-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consulta [Novità della versione di settembre 2023 di AEM Guides as a Cloud Service](whats-new-2023-9-0.md).
 
 ## Aggiornamento alla versione di settembre 2023
 
-Aggiorna l’attuale configurazione as a Cloud Service delle Guide AEM eseguendo i seguenti passaggi:
+Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service su 2023.9.0.359.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di settembre 2023 delle guide AEM as a Cloud Service.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei tuoi Cloud Service a 2023.9.0.359.
+3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di settembre 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
-(Solo se utilizzi una versione precedente al rilascio di Guide AEM as a Cloud Service di giugno 2023)
+(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
 
 Dopo aver completato l’installazione, puoi scegliere di premere il trigger per avviare il processo di traduzione:
 
@@ -47,7 +47,7 @@ Risposta:
 }
 ```
 
-Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell’archivio che punta al processo inviato. Verrà eliminato automaticamente una volta completato il processo; fino ad allora, puoi fare riferimento a questo nodo per lo stato corrente del processo.
+Nella risposta precedente JSON, la chiave `lockNodePath` contiene il percorso del nodo creato nell&#39;archivio che punta al processo inviato. Verrà eliminato automaticamente una volta completato il processo; fino ad allora, puoi fare riferimento a questo nodo per lo stato corrente del processo.
 
 Attendere il completamento del processo prima di procedere ai passaggi successivi.
 
@@ -62,46 +62,47 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
 
-(Solo se utilizzi una versione precedente al rilascio di Guide AEM as a Cloud Service di giugno 2023)
+(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
 
 Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
 
-1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file dita, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` su un valore più grande (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuiscilo.
+1. (Facoltativo) Se nel sistema sono presenti più di 100.000 file dita, aggiornare `queryLimitReads` in `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` a un valore maggiore (qualsiasi valore maggiore del numero di risorse presenti, ad esempio 200.000) e quindi ridistribuire.
 
-   - Utilizzare le istruzioni fornite in *Sostituzioni configurazione* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service, per creare il file di configurazione.
+   - Utilizza le istruzioni fornite nella sezione *Override della configurazione* in Installare e configurare Adobe Experience Manager Guides
+as a Cloud Service, per creare il file di configurazione.
    - Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare l’opzione queryLimitReads:
 
      | PID | Chiave proprietà | Valore proprietà |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valore: 200000 Valore predefinito: 100000 |
 
-1. Eseguire una richiesta POST al server (con l’autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la richiesta di GET precedente risponderà con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
-1. Ripristina il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
+1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 ## Passaggi per indicizzare il contenuto esistente per utilizzare il nuovo elenco Trova e sostituisci e Argomento nella scheda Rapporti:
 
-(Solo se utilizzi una versione precedente al rilascio di Guide AEM as a Cloud Service di giugno 2023)
+(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
 1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
+1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Una volta completato il processo, la richiesta di GET precedente risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di settembre 2023 delle guide AEM as a Cloud Service.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di settembre 2023 di AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -123,7 +124,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti dei componenti delle guide AEM per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti per componenti AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemi risolti
 
@@ -138,21 +139,21 @@ Di seguito sono elencati i bug risolti in varie aree:
 - Impossibile selezionare le risorse PDF nei collegamenti &quot;topicref&quot; esistenti. (12477).
 - Nella Vista archivio, gli argomenti o le immagini non possono essere trascinati dopo aver utilizzato la funzionalità Ricerca/Filtro. (12396)
 - I risultati della ricerca vengono disattivati nel pannello Trova e sostituisci dopo l’apertura di un file cercato. (12142)
-- Il tasto numerico &quot;8&quot; sulla tastiera laterale non funziona nell’editor delle guide AEM. (12106)
+- Il tasto numerico &quot;8&quot; sulla tastiera laterale non funziona nell’editor di AEM Guides. (12106)
 
 - Il prefisso viene duplicato nella modalità di anteprima dell’editor web. (13133)
-- `Choicetable` le righe non vengono visualizzate o non possono essere selezionate. (12616)
+- `Choicetable` righe non visualizzate o non selezionabili. (12616)
 - L’editor web genera errori di convalida in scenari specifici durante la creazione di un argomento utilizzando uno schema personalizzato. (12576)
 - I riferimenti al modello di argomento ditaval non creano una copia nella cartella dei contenuti durante la creazione di una mappa dal modello di mappa. (12150)
 - La casella di ricerca nelle mappe DITA non dispone di un pulsante di chiusura. (11867)
-- Quando si salvano file lunghi nell&#39;editor Web, `DirtyChecker` genera un&#39;eccezione con una traccia lunga dello stack e riempie i file di registro. (11860)
+- Quando si salvano file lunghi nell&#39;editor Web, `DirtyChecker` genera un&#39;eccezione con una traccia dello stack lunga e riempie i file di log. (11860)
 - La creazione di argomenti DITA richiede l&#39;autorizzazione Elimina sul nodo di cartella corrispondente, anche se la mappa può essere creata con l&#39;autorizzazione di scrittura. (11706)
 - L’editor web mostra un titolo errato quando è presente una barra. (10949)
 
 
 ### Gestione
 
-- Il campo &quot;title&quot; nelle proprietà dei metadati della mappa DITA viene sovrascritto da `<title>` per la mappa. (10702)
+- Il campo &quot;title&quot; nelle proprietà dei metadati della mappa DITA viene sovrascritto dall&#39;elemento `<title>` per la mappa. (10702)
 - Il riferimento al contenuto è interrotto per copiare e incollare file DITA quando l&#39;ID argomento non corrisponde a GUID. (12614)
 - Nelle baseline dinamiche, l&#39;elenco delle etichette non viene estratto dai riferimenti diretti della copia di lavoro di una mappa DITA. (11917)
 
@@ -163,17 +164,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 - Native PDF | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
 - Native PDF | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
-- Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e applicando uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione.(12166)
+- Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione.(12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
-- Se in un output diverso dal sito AEM vengono utilizzate risorse provenienti da DAM AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
+- Se vengono utilizzate risorse di DAM dell&#39;AEM in un output diverso dal sito AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
 - AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
 - Native PDF | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
 - Native PDF | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
 - Native PDF | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
-- Il `<conref>` il contenuto non viene visualizzato nell’output di PDF. (11131)
-- Viene aggiunto uno spazio all’interno del `<div>` elementi per l’alternanza tra la vista Author e Source nell’editor di layout di pagina. (10750)
-- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)
+- Il contenuto di `<conref>` non è visualizzato nell&#39;output di PDF. (11131)
+- All&#39;interno degli elementi `<div>` viene aggiunto uno spazio aggiuntivo quando si passa dalla visualizzazione Autore a quella Source nell&#39;editor di layout di pagina. (10750)
+- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza di Publish. (9564)
 
 ### Traduzione
 

@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurare la richiesta di archiviazione di un file alla chiusura {#id222HC040PE8}
 
-Quando l&#39;utente tenta di chiudere un file aperto nell&#39;editor Web utilizzando **Chiudi** nella scheda del file o nella **Chiudi** nel menu Opzioni, viene visualizzata una finestra di dialogo se il file contiene dati non salvati o una versione non salvata. All&#39;utente viene richiesto di sbloccare il file se è bloccato.
+Quando l&#39;utente cerca di chiudere un file aperto nell&#39;editor Web utilizzando il pulsante **Chiudi** nella scheda del file o l&#39;opzione **Chiudi** nel menu Opzioni, viene visualizzata una finestra di dialogo se il file contiene dati non salvati o una versione non salvata. All&#39;utente viene richiesto di sbloccare il file se è bloccato.
 
-Il **Sblocca il file** La casella di controllo non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
+La casella di controllo **Sblocca file** non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
@@ -26,15 +26,15 @@ Il **Sblocca il file** La casella di controllo non è attivata per impostazione 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleziona la **Richiedi il check-in alla chiusura** opzione.
+1. Selezionare l&#39;opzione **Richiedi archiviazione alla chiusura**.
 
 1. Fai clic su **Salva**.
 
 
-Quando questa configurazione è abilitata, il **Sblocca il file** è selezionata per impostazione predefinita nella finestra di dialogo.
+Quando questa configurazione è abilitata, la casella di controllo **Sblocca file** è selezionata per impostazione predefinita nella finestra di dialogo.
 
-Per ulteriori dettagli, consulta *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo delle guide di Adobe Experience Manager as a Cloud Service.
+Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nella guida Using Adobe Experience Manager Guides as a Cloud Service.
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

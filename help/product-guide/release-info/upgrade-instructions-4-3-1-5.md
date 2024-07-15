@@ -1,28 +1,28 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 4.3.1.5
-description: Scopri come effettuare l’aggiornamento alla versione 4.3.1.5 delle guide di Adobe Experience Manager
+description: Scopri come effettuare l’aggiornamento alla versione 4.3.1.5 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 296bbea301df8828c00436db2b3c8b46dd235e64
+exl-id: 856970ef-9f50-4452-b589-ba1f5ee73322
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
 
 ---
 
-
 # Istruzioni per l’aggiornamento alla versione 4.3.1.5
 
-Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 4.3.1.5 delle guide di Adobe Experience Manager.
+Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 4.3.1.5 di Adobe Experience Manager Guides.
 
 
-Per l’elenco dei problemi risolti in questa versione, visualizza [Sono stati risolti i problemi nella versione 4.3.1.5 di](../release-info/fixed-issues-4-3-1-5.md).
+Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 4.3.1.5](../release-info/fixed-issues-4-3-1-5.md).
 
 
 
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate dalla versione 4.3.1.5 delle Guide di Experience Manager.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da Experience Manager Guides versione 4.3.1.5.
 
 ### Adobe Experience Manager
 
@@ -32,7 +32,7 @@ Versione 6.5 Service Pack 18, 17, 16, 15, 14
 **4.3.1.5 UUID**
 Versione 6.5 Service Pack 18, 17, 16, 15, 14
 
-Per ulteriori dettagli, vedi *Requisiti tecnici* nella Guida all&#39;installazione e alla configurazione on-premise.
+Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella Guida all&#39;installazione e alla configurazione on-premise.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -58,14 +58,14 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella Guida all&#39;installazio
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti dei componenti Experience Manager Guides per il Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti per componenti Experience Manager Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## Aggiornamento alla versione 4.3.1.5 delle guide di Experience Manager
+## Aggiornamento alla versione 4.3.1.5 di Experience Manager Guides
 
 
-È possibile aggiornare facilmente la versione corrente delle Guide alla versione 4.3.1.5. Prima di procedere con l&#39;aggiornamento alla versione 4.3.1.5 di Experience Manager Guides, è necessario considerare i seguenti punti:
+È possibile aggiornare facilmente la versione corrente delle Guide alla versione 4.3.1.5. Prima di procedere con l’aggiornamento alla versione 4.3.1.5 di Experience Manager Guides, è necessario considerare i seguenti punti:
 
 
 - Se utilizzi la versione 4.3.1 o 4.3.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.3.1.5.
@@ -76,13 +76,12 @@ Per ulteriori dettagli, vedi *Requisiti tecnici* nella Guida all&#39;installazio
 
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Guide per l’aggiornamento degli Experienci Manager nella guida all’installazione specifica per il prodotto disponibile su [Guida di Adobe Experience Manager Guides: archiviazione PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto disponibile nell&#39;[archivio di Adobe Experience Manager Guides help PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
 >[!NOTE]
 >
->È necessario installare il service pack per l’AEM prima di aggiornare la versione delle guide Experienci Manager.
+>Prima di aggiornare la versione di Experience Manager Guides è necessario installare il service pack per AEM.
 
-Per i dettagli, visualizzare [Istruzioni per l’aggiornamento per le versioni on-premise](../install-guide/upgrade-xml-documentation.md) di guide Experienci Manager.
-
+Per informazioni dettagliate, visualizzare [Istruzioni per l&#39;aggiornamento per le versioni locali](../install-guide/upgrade-xml-documentation.md) di Experience Manager Guides.

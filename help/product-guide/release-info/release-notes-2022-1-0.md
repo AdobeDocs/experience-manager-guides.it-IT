@@ -1,6 +1,6 @@
 ---
-title: Note sulla versione per [!DNL AEM Guides], versione di gennaio 2022
-description: Versione di gennaio di [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Note sulla versione per  [!DNL AEM Guides], versione di gennaio 2022
+description: Versione di gennaio di  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Versione di gennaio di [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Versione di gennaio dell&#39;as a Cloud Service [!DNL Adobe Experience Manager Guides]
 
 ## Aggiornamento alla versione di gennaio
 
-Aggiorna il tuo attuale [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominato [!DNL AEM Guides] as a Cloud Service) eseguendo le seguenti operazioni:
+As a Cloud Service Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] (in seguito denominata [!DNL AEM Guides] as a Cloud Service) eseguendo i seguenti passaggi:
 1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna `<dox.version>` proprietà in `/dox/dox.installer/pom.xml` file del codice Git dei tuoi Cloud Service in 2022.1.78.
-1. Esegui il commit delle modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di gennaio di [!DNL AEM Guides] as a Cloud Service.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.1.78.
+1. Eseguire il commit delle modifiche ed eseguire la pipeline dei Cloud Service per eseguire l&#39;aggiornamento alla versione di gennaio dell&#39;as a Cloud Service [!DNL AEM Guides].
 
 ## Matrice di compatibilità
 
-In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] Versione as a Cloud Service di gennaio 2022.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione [!DNL AEM Guides] di gennaio 2022 as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -34,7 +34,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 ### Connettore ossigeno
 
-| [!DNL AEM Guides] Versione cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
+| Versione cloud [!DNL AEM Guides] | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
 |  |  |  |  |  |
@@ -55,7 +55,7 @@ Oltre all&#39;AEM, puoi utilizzare questa funzione esclusiva per pubblicare i tu
 
 Questo articolo on-the-go basato sulle esigenze di pubblicazione non solo offre un controllo completo sulla pubblicazione dei contenuti, ma riduce anche il tempo complessivo di pubblicazione dei contenuti aggiornati.
 Quando pubblichi gli articoli utilizzando questo modello, può anche trasmettere i metadati alle pagine pubblicate.
-Per ulteriori dettagli, consulta *Pubblicazione basata su articolo dall’editor web* nella Guida utente.
+Per ulteriori dettagli, vedere *Pubblicazione basata su articolo dall&#39;editor Web* nella Guida utente.
 
 ### Editor Web migliorato
 
@@ -76,7 +76,7 @@ Nell’editor web sono stati introdotti numerosi miglioramenti e nuove funzioni:
 
 * Il filtro di ricerca nel pannello Archivio e la finestra di dialogo di navigazione dei file sono stati migliorati per fornire ulteriori opzioni di filtro, che possono essere ulteriormente personalizzate.
 
-![Filtri di ricerca nell’archivio](assets/repository-filter-search.png)
+![Filtri di ricerca nel repository](assets/repository-filter-search.png)
 
 * È ora possibile caricare i file con estensione docx dall&#39;editor Web.
 
@@ -85,7 +85,7 @@ Nell’editor web sono stati introdotti numerosi miglioramenti e nuove funzioni:
 Ora è possibile creare e pubblicare i documenti in FrameMaker. Il FrameMaker viene fornito con un connettore predefinito per Adobe Experience Manager. In FrameMaker è disponibile un&#39;interfaccia di facile utilizzo che consente di gestire le versioni dei documenti in un ambiente distribuito e collaborativo.
 
 Dopo aver creato il contenuto, FrameMaker consente di pubblicare i documenti in diversi formati: PDF, HTML5, EPUB e DITA. È inoltre possibile eseguire varie operazioni di gestione dei file, ad esempio l&#39;estrazione, l&#39;estrazione con gli elementi dipendenti, l&#39;archiviazione, l&#39;aggiornamento e così via.
-Per eseguire l’authoring con FrameMaker in [!DNL AEM Guides] FrameMaker di utilizzo as a Cloud Service versione 2020.4 e successive.
+Per eseguire l&#39;authoring con FrameMaker as a Cloud Service in [!DNL AEM Guides], utilizzare FrameMaker versione 2020.4 e successive.
 
 ### Nuovo dashboard di traduzione
 
@@ -105,7 +105,7 @@ Nell’editor web è stata introdotta una nuova dashboard di traduzione con le s
 
 ![Metadati DITA-OT](assets/custom-meta-data-output-preset.png)
 
-* È stata aggiunta una nuova configurazione per consentire agli utenti di mantenere o eliminare le versioni degli argomenti che vengono eliminati quando **Elimina e crea** viene utilizzata nella generazione dell’output del sito AEM.
+* È stata aggiunta una nuova configurazione per consentire agli utenti di mantenere o eliminare le versioni degli argomenti da eliminare quando viene utilizzata l&#39;opzione **Elimina e crea** nella generazione dell&#39;output del sito AEM.
 
 ### Gestione file migliorata
 
@@ -123,7 +123,7 @@ Durante l’utilizzo dei file in AEM Assets è ora possibile visualizzare i segu
 
 ### Nuova funzione di esportazione dei rapporti
 
-I rapporti sono molto utili per identificare lo stato del contenuto. [!DNL AEM Guides] as a Cloud Service fornisce vari rapporti per assumere il controllo del contenuto. Ora non solo puoi visualizzare i rapporti, ma puoi anche esportare i dati del rapporto in un file CSV per visualizzarli e condividerli con il tuo team più ampio. I dati dei rapporti possono fornire un rapido sguardo a eventuali collegamenti interrotti o immagini mancanti.
+I rapporti sono molto utili per identificare lo stato del contenuto. as a Cloud Service [!DNL AEM Guides] fornisce vari report per assumere il controllo del contenuto. Ora non solo puoi visualizzare i rapporti, ma puoi anche esportare i dati del rapporto in un file CSV per visualizzarli e condividerli con il tuo team più ampio. I dati dei rapporti possono fornire un rapido sguardo a eventuali collegamenti interrotti o immagini mancanti.
 
 ![Esportazione report](assets/export-report.png)
 
@@ -134,8 +134,8 @@ Quando si aggiornano i file dal server AEM in Oxygen, viene visualizzato un mess
 
 ### Altri miglioramenti funzionali
 
-* Ora puoi creare un nuovo **Progetto Dita** modello sotto **/apps/projects/templates** percorso.
-* Ora scarica il predefinito **ui_config.json** dai profili delle cartelle. Questa può essere utilizzata per unire le modifiche personalizzate dalla **ui_config.json** durante l&#39;aggiornamento.
+* È ora possibile creare un nuovo modello di **progetto Dita** nel percorso **/apps/projects/templates**.
+* Ora scarica il file predefinito **ui_config.json** dai profili delle cartelle. Può essere utilizzato per unire le modifiche personalizzate dal file **ui_config.json** esistente durante l&#39;aggiornamento.
 * Non è necessario cancellare la cache del browser anche quando sono presenti nuove versioni dei file JS.
 
 ## Problemi risolti
@@ -163,13 +163,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 * l&#39;attributo conrefend non viene aggiornato quando il file di origine viene spostato. (7698)
 * L’utilizzo di documenti di riferimento di tipo argomento causa diversi problemi all’interfaccia utente. (7656)
 * I file DITAVAL non vengono visualizzati quando l&#39;autore aggiunge ditavalref in una mappa. (7594)
-* Spazio imprevisto in ogni spazio vuoto `<entry>` quando l&#39;attributo outputclass viene aggiunto a `<tgroup>` elemento. (7532)
-* Il pulsante Origine non funziona per gli argomenti aperti tramite la dashboard delle mappe. (7465)
+* Spazio imprevisto in ogni elemento `<entry>` vuoto quando l&#39;attributo outputclass viene aggiunto all&#39;elemento `<tgroup>`. (7532)
+* Il pulsante Source non funziona per gli argomenti aperti tramite la dashboard delle mappe. (7465)
 * Con la funzione di stampa gradevole vengono inserite righe e spazi vuoti che possono essere visualizzati quando il file viene aperto in FrameMaker o ossigeno. (7408)
 * Le mappe con href=&quot;/&quot; in uno qualsiasi degli argomenti non vengono pubblicate sui siti AEM. (7405)
 * Sono stati riscontrati problemi di prestazioni nell’editor quando la mappa principale presenta un numero elevato di chiavi. (7400)
 * Lo stato del documento per una mappa con modello personalizzato non viene ereditato dal profilo degli stati corrispondente. (7359)
-* `<tm>` elemento renderizzato in modo errato come elemento blocco. (7286)
+* Rendering errato dell&#39;elemento `<tm>` come elemento di blocco. (7286)
 * I modelli duplicati vengono visualizzati nel pannello dei modelli dell’editor quando viene creato un nuovo modello. (5814)
 * I modelli definiti in ui_config per le immagini per l’impostazione di un attributo aggiuntivo non sono applicabili nei casi di trascinamento della selezione. (5713)
 * L’aspetto predefinito di uicontrol nella menucascata non è corretto. (5483)
@@ -178,7 +178,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Una raccolta di mappe appena creata non viene elencata, anche dopo l’aggiornamento della pagina.(8603)
 * Impossibile chiudere l&#39;argomento sbloccato. (8545)
 * Il passaggio tra la modalità di origine e la modalità di modifica contrassegna l’argomento come sporco e richiede che il contenuto venga salvato nuovamente.(8524)
-* Il pannello Riutilizza contenuto si blocca durante la ricerca di caratteri speciali `[` o `*` .(8279)
+* Il riutilizzo del pannello del contenuto si blocca durante la ricerca di caratteri speciali `[` o `*`.(8279)
 * Il cursore non viene visualizzato nella barra di ricerca quando si apre la finestra di dialogo Inserisci elemento utilizzando la scelta rapida da tastiera Alt+Invio.(7912)
 * L’opzione di ricerca cerca solo nei nomi dei file e non nel contenuto. (7784)
 
@@ -209,14 +209,14 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Lo spazio vuoto viene aggiunto automaticamente dopo un tag &quot;tm;&quot; nell’output del sito AEM. (7964)
 * Impossibile visualizzare i video di YouTube nell’output del sito AEM. (7401)
 * Il filtro per etichetta non riesce per il contenuto di riferimento dopo che l’utente fa clic su Sfoglia tutti gli argomenti nella scheda della linea di base del dashboard delle mappe. (7388)
-* Pubblicazione argomento con elemento `<tm>` il valore della proprietà SM o reg non viene visualizzato correttamente nell&#39;output generato. (7239)
+* L&#39;argomento di pubblicazione con l&#39;elemento `<tm>` con valore di proprietà SM o reg non viene visualizzato correttamente nell&#39;output generato. (7239)
 * Per la pubblicazione della linea di base con l’immagine non viene selezionata la versione più recente dell’immagine nell’output pubblicato. (7231)
 * Gli argomenti di riferimento relativi vengono visualizzati nella scheda della linea di base. (5424)
 * La pubblicazione incrementale per un argomento il cui titolo contiene conkeyref non funziona come previsto. 4474
 * Il titolo della pagina non viene utilizzato per la generazione dell’URL di output anche se questa impostazione è selezionata. (8257)
 * Pubblicazione della linea di base con selezione della versione corrente delle immagini anziché del nodo bloccato. Questo viene visualizzato anche se il nome di un file contiene spazio o caratteri speciali. (8274, 8322)
 * La pubblicazione incrementale non riesce per la mappa DITA con lo schema del tipo soggetto con mapref. (8218)
-* Viene aggiunto un valore Null ogni volta che viene aggiunta una mappa al dashboard di pubblicazione in blocco. (8695)
+* Se si aggiunge un valore Null a una mappa nel dashboard Publish in blocco, (8695)
 * Quando si utilizza la pubblicazione della linea di base con l’immagine come riferimento nell’argomento, l’immagine non viene pubblicata nell’output. (8564)
 * La pubblicazione non riesce con un’eccezione se la linea di base utilizzata nella pubblicazione dei siti AEM viene eliminata. (8572)
 * La rigenerazione dell&#39;argomento non funziona. (8091)
@@ -224,11 +224,11 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### AEM Assets
 
-* Sono stati riscontrati problemi di prestazioni durante l’esecuzione della selezione/eliminazione su un enorme set di contenuti nell’interfaccia utente di Assets. (8238)
+* Sono stati riscontrati problemi di prestazioni durante l’esecuzione della selezione/eliminazione su un set di contenuti enorme nell’interfaccia utente di Assets. (8238)
 * La funzione di ricerca salvata (raccolta avanzata) si interrompe se si aggiunge il predicato DITA ai filtri di ricerca. (8048)
 * Il ripristino dell’immagine alla versione precedente non funziona. (DXML-7903)
 * L’opzione Elimina è visibile anche per gli autori che non dispongono dell’autorizzazione per l’eliminazione. (7322)
-* La sovrapposizione CCMS per l’editor risorse interrompe il rendering dell’opzione Elimina. (8093)
+* La sovrapposizione CCMS per Assets Editor interrompe il rendering dell’opzione Elimina. (8093)
 * Impossibile eliminare il profilo del documento. (8604)
 * I riferimenti si interrompono quando si esegue &quot;Seleziona tutto&quot; e si sposta il contenuto multimediale/Dita_Content in un&#39;altra cartella. (8621)
 * Nello spostamento delle risorse si verificano riferimenti errati nell’origine. (8627)
@@ -243,7 +243,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problemi noti
 
-L’Adobe ha identificato i seguenti problemi noti per [!DNL AEM Guides] Versione as a Cloud Service di gennaio 2022.
+L&#39;Adobe ha identificato i seguenti problemi noti per la versione di gennaio 2022 dell&#39;as a Cloud Service [!DNL AEM Guides].
 
 
 ### Problemi noti relativi alla soluzione alternativa
@@ -251,19 +251,19 @@ L’Adobe ha identificato i seguenti problemi noti per [!DNL AEM Guides] Version
 Utilizza la soluzione alternativa specificata per i seguenti problemi noti:
 
 * L’autenticazione web non funziona per il connettore ossigeno su Mac.
-  **Soluzione alternativa**: per il momento, usa il connettore ossigeno su Windows.
+  **Soluzione**: utilizzare il connettore ossigeno su Windows per il momento.
 
 * Nel browser Firefox, i commenti di revisione non possono essere importati senza aprire la visualizzazione affiancata.
-  **Soluzione alternativa**: utilizza il browser Chrome per il momento.
+  **Soluzione**: utilizzare il browser Chrome per il momento.
 
 * I riferimenti si interrompono quando si spostano immagini o file multimediali che contengono spazio nei nomi dei file.
-  **Soluzione alternativa**: rinominare il file e rimuovere gli spazi dal nome del file prima di spostarli.
+  **Soluzione**: rinominare il file e rimuovere gli spazi dal nome del file prima di spostarli.
 
 * Il dashboard delle mappe non viene caricato in modo intermittente nell’ultima versione del browser Chrome.
-  **Soluzione alternativa**: aggiorna la pagina del dashboard delle mappe.
+  **Soluzione**: aggiorna la pagina del dashboard delle mappe.
 
 ### Altri problemi noti
 
-* Se l&#39;ossigeno è collegato a [!DNL AEM Guides] utilizzando l’autenticazione web, la disconnessione non riesce.
+* Se l&#39;ossigeno è connesso alla soluzione [!DNL AEM Guides] tramite l&#39;autenticazione Web, la disconnessione non riesce.
 * Impossibile riassegnare le attività di revisione agli utenti.
-* Nell’interfaccia utente di Map Collection sono presenti problemi, come se il testo fosse distorto e **Seleziona tutto** funzionalità non funziona correttamente.
+* Nell&#39;interfaccia utente di Map Collection sono presenti problemi, come se il testo fosse distorto e la funzionalità **Seleziona tutto** non funzionasse correttamente.

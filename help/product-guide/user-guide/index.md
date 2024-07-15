@@ -5,12 +5,12 @@ source-wordcount: '409'
 ht-degree: 2%
 
 ---
-# Utilizzo delle guide di Adobe Experience Manager as a Cloud Service
+# Utilizzo di Adobe Experience Manager Guides as a Cloud Service
 
-- [Liberatoria](rebranding-disclaimer.md)
+- [Dichiarazione di non responsabilità](rebranding-disclaimer.md)
 - [Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)
    - [Come funziona AEM Guides](intro-how-dxml-works.md)
-   - [Caratteristiche principali delle guide AEM](intro-dxml-features.md)
+   - [Funzioni chiave di AEM Guides](intro-dxml-features.md)
 - [Gestire i contenuti](authoring.md)
    - [Carica file](authoring-upload-existing-files.md)
    - [Gestione di file e cartelle](authoring-file-management.md)
@@ -19,7 +19,7 @@ ht-degree: 2%
    - [Creazione e anteprima di argomenti](create-preview-topics.md)
       - [Crea argomenti](web-editor-create-topics.md)
       - [Visualizzare l&#39;anteprima di un argomento](web-editor-preview-topics.md)
-   - [Creare contenuti con guide AEM](authoring-content-xml-doc.md)
+   - [Creare contenuti con AEM Guides](authoring-content-xml-doc.md)
       - [Utilizzare l’editor web](web-editor.md)
          - [Avviare l’editor web](web-editor-launch-editor.md)
          - [Modificare gli argomenti nell&#39;editor Web](web-editor-edit-topics.md)
@@ -68,7 +68,7 @@ ht-degree: 2%
       - [PDF](generate-output-pdf.md)
       - [HTML5](generate-output-html5.md)
       - [EPUB](generate-output-epub.md)
-      - [Personale](generate-output-custom.md)
+      - [Personalizzato](generate-output-custom.md)
       - [JSON](generate-output-json.md)
    - [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](generate-output-use-variables.md)
    - [Creare, modificare, duplicare o rimuovere un predefinito di output](generate-output-create-edit-preset.md)
@@ -78,7 +78,7 @@ ht-degree: 2%
    - [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md)
    - [Genera output per una mappa DITA dalla console delle mappe](generate-output-for-a-dita-map.md)
    - [Usa raccolta mappe per la generazione dell&#39;output](generate-output-use-map-collection-output-generation.md)
-   - [Gestire le attività di pubblicazione tramite il dashboard di pubblicazione](generate-output-publish-dashboard.md)
+   - [Gestire le attività di pubblicazione tramite la dashboard di Publish](generate-output-publish-dashboard.md)
    - [Risoluzione dei problemi di base](generate-output-basic-troubleshooting.md)
    - [Attivazione in blocco di contenuti pubblicati](conf-bulk-activation.md)
       - [Creare una raccolta di mappe di attivazione in blocco](conf-bulk-activation-create-map-collection.md)

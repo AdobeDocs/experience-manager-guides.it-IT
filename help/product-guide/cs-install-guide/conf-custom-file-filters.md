@@ -21,11 +21,11 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
 1. Per scaricare il file di configurazione dell’interfaccia utente, accedi a Adobe Experience Manager come amministratore.
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
-1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
-1. Fai clic sul pulsante **Profilo globale** affiancare.
-1. Seleziona la **Configurazione editor XML** e fai clic su **Modifica** icona in alto
-1. Fai clic su **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
-1. In `ui_config.json` aggiungere la definizione dei filtri che si desidera aggiungere.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
+1. Fai clic sul riquadro **Profilo globale**.
+1. Seleziona la scheda **Configurazione editor XML** e fai clic sull&#39;icona **Modifica** in alto
+1. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e caricarlo allo stesso modo.
+1. Nel file `ui_config.json` aggiungere la definizione dei filtri che si desidera aggiungere.
 
    Il seguente frammento di codice mostra come aggiungere due opzioni di filtro: File DITA e File di immagine.
 
@@ -50,19 +50,22 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
 
    Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
-   title : Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+   titolo
+:   Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
-   property : Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file che hanno `dita_class` nella loro proprietà, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
+   proprietà
+:   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
 
-   operation : specificare &quot; `exists`&quot; per rilevare l’esistenza del valore specificato nel parametro della proprietà.
+   operazione
+:   Specificare &quot; `exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
 
-   Il secondo filtro è per File di immagine. I parametri sono simili a quelli del primo filtro, ad eccezione del `value` parametro. Il `value` Il parametro accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
+   Il secondo filtro è per File di immagine. I parametri sono simili al primo filtro, ad eccezione del parametro `value`. Il parametro `value` accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
 
-1. Salva il *ui\_config.json* e carica lo stesso. Ricaricare quindi l&#39;editor Web.
+1. Salva il file *ui\_config.json* e carica lo stesso. Ricaricare quindi l&#39;editor Web.
 
    Quando avvii la finestra di dialogo Sfoglia file, vengono visualizzate le opzioni di filtro configurate nel file ui\_config.json.
 
    ![](assets/file-browse-custom-filters.png)
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

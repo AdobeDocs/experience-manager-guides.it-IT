@@ -38,7 +38,7 @@ Per apportare qualsiasi aggiornamento alla configurazione, si deve utilizzare il
    }
    ```
 
-1. Apporta le modifiche ed esegui la pipeline di Cloud Manager per distribuire la configurazione aggiornata.
+1. Apporta le modifiche ed esegui la pipeline Cloud Manager per distribuire la configurazione aggiornata.
 
 
 **Argomento padre:**[ Scarica e installa](download-install.md)

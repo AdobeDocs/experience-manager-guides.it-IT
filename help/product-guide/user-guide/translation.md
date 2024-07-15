@@ -1,6 +1,6 @@
 ---
 title: Scopri come tradurre i contenuti
-description: Traduci i contenuti in più lingue nelle guide AEM. Scopri i flussi di lavoro di traduzione umana e automatica.
+description: Traduci i contenuti in più lingue in AEM Guides. Scopri i flussi di lavoro di traduzione umana e automatica.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # Tradurre il contenuto {#id1645H700L67}
 
-Le guide AEM sono dotate di potenti funzionalità che consentono di tradurre i contenuti in più lingue. I flussi di lavoro di traduzione umana e automatica sono supportati dalle guide dell’AEM.
+AEM Guides viene fornito con funzionalità potenti che consentono di tradurre i contenuti in più lingue. I flussi di lavoro di traduzione umana e automatica sono supportati da AEM Guides.
 
-- **Traduzione umana** - Le risorse vengono inviate al provider di traduzione e tradotte da traduttori professionisti. Una volta completate, le risorse tradotte vengono restituite e quindi importate nuovamente in AEM.
+- **Traduzione umana** - Assets viene inviato al tuo provider di traduzioni e tradotto da traduttori professionisti. Una volta completate, le risorse tradotte vengono restituite e quindi importate nuovamente in AEM.
 
 - **Traduzione automatica** - Questo è il servizio predefinito in AEM in cui il contenuto viene tradotto immediatamente utilizzando la traduzione automatica in tempo reale. L’AEM preconfigurato consente di connettersi a Microsoft Translator.
 

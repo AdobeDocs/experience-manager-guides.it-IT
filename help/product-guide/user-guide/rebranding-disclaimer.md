@@ -1,6 +1,6 @@
 ---
-title: Liberatoria
-description: Questa è una liberatoria per risolvere il cambiamento del nome del prodotto di XML Documentation per Adobe Experience Manager a guide AEM
+title: Dichiarazione di non responsabilità
+description: Questa è una liberatoria per risolvere il cambiamento del nome del prodotto di XML Documentation per Adobe Experience Manager in AEM Guides
 exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
@@ -11,6 +11,6 @@ ht-degree: 3%
 
 ---
 
-# Liberatoria {#id2263D0P0TYU}
+# Dichiarazione di non responsabilità {#id2263D0P0TYU}
 
-*Guide di Adobe Experience Manager* in precedenza era contrassegnato come *XML Documentation per Adobe Experience Manager*. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.
+*Adobe Experience Manager Guides* era precedentemente contrassegnato come *XML Documentation per Adobe Experience Manager*. Tieni presente che alcuni riferimenti all’interno della documentazione possono ancora fare riferimento al branding precedente, ma sono ancora applicabili all’offerta corrente.

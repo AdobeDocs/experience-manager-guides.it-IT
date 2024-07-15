@@ -17,13 +17,13 @@ In questo articolo vengono condivisi approfondimenti sull’architettura e sui n
 
 >[!NOTE]
 >
-> La pubblicazione basata su microservizi nelle guide AEM supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
+> La pubblicazione basata su microservizi in AEM Guides supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
 
 ## Problemi relativi ai flussi di lavoro di pubblicazione esistenti sul cloud
 
 La pubblicazione DITA è un processo che richiede molte risorse e dipende principalmente dalla memoria di sistema e dalla CPU disponibili. La necessità di queste risorse aumenta ulteriormente se gli editori pubblicano mappe di grandi dimensioni con molti argomenti o se vengono attivate più richieste di pubblicazione parallela.
 
-Se non utilizzi il nuovo servizio, tutta la pubblicazione avviene sullo stesso pod di Kubernetes(k8) che esegue anche il server cloud AEM. Un pod k8 tipico ha un limite sulla quantità di memoria e CPU che può utilizzare. Se gli utenti delle guide AEM pubblicano carichi di lavoro paralleli o di grandi dimensioni, questo limite può essere superato rapidamente. K8 riavvia i pod che stanno tentando di utilizzare più risorse del limite configurato, il che può avere un grave impatto sull’istanza cloud AEM stessa.
+Se non utilizzi il nuovo servizio, tutta la pubblicazione avviene sullo stesso pod di Kubernetes(k8) che esegue anche il server cloud AEM. Un pod k8 tipico ha un limite sulla quantità di memoria e CPU che può utilizzare. Se gli utenti di AEM Guides pubblicano carichi di lavoro paralleli o di grandi dimensioni, questo limite può superare rapidamente. K8 riavvia i pod che stanno tentando di utilizzare più risorse del limite configurato, il che può avere un grave impatto sull’istanza cloud AEM stessa.
 
 Questo vincolo di risorse è stato il motivo principale per cui è stato ideato un servizio dedicato che può consentirci di eseguire più carichi di lavoro di pubblicazione simultanei e di grandi dimensioni sul cloud.
 
@@ -44,7 +44,7 @@ Tutte queste comunicazioni sono protette da Adobe IMS utilizzando l’autenticaz
 
 ## Analisi delle prestazioni
 
-Questa sezione mostra i numeri delle prestazioni del microservizio. Confronta le prestazioni del microservizio con l’offerta on-premise delle Guide dell’AEM, poiché la vecchia architettura cloud aveva problemi di pubblicazione simultanea o di pubblicazione di mappe molto grandi.
+Questa sezione mostra i numeri delle prestazioni del microservizio. Confronta le prestazioni del microservizio con l’offerta on-premise di AEM Guides, in quanto la vecchia architettura cloud aveva problemi di pubblicazione simultanea o di pubblicazione di mappe molto grandi.
 
 Se pubblichi una mappa di grandi dimensioni in locale, potrebbe essere necessario modificare i parametri dell’heap Java, altrimenti si potrebbero verificare errori di memoria insufficiente. Sul cloud, il microservizio è già profilato e dispone di un heap Java ottimale e altre configurazioni pronte all’uso.
 
@@ -78,6 +78,6 @@ Se pubblichi una mappa di grandi dimensioni in locale, potrebbe essere necessari
 
 ## Vantaggi aggiuntivi
 
-Parte di ogni richiesta di pubblicazione deve essere eseguita sull’istanza AEM per recuperare il contenuto di pubblicazione corretto da inviare al microservizio. La nuova architettura cloud utilizza i processi AEM invece dei flussi di lavoro AEM, come avveniva nella vecchia architettura. Questa modifica consente agli amministratori di AEM Guide di configurare singolarmente le impostazioni della coda di pubblicazione cloud senza influire su altri processi o configurazioni del flusso di lavoro AEM.
+Parte di ogni richiesta di pubblicazione deve essere eseguita sull’istanza AEM per recuperare il contenuto di pubblicazione corretto da inviare al microservizio. La nuova architettura cloud utilizza i processi AEM invece dei flussi di lavoro AEM, come avveniva nella vecchia architettura. Questa modifica consente agli amministratori di AEM Guides di configurare singolarmente le impostazioni della coda di pubblicazione cloud senza influire su altri processi o configurazioni del flusso di lavoro AEM.
 
 I dettagli sulla configurazione del nuovo microservizio di pubblicazione sono disponibili qui: [Configura microservizio](configure-microservices.md)

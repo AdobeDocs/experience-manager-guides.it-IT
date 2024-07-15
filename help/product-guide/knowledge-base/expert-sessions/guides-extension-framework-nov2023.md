@@ -1,5 +1,5 @@
 ---
-title: Framework di estensione delle guide AEM - Personalizzare l’editor web e l’interfaccia di revisione
+title: 'Framework di estensione di AEM Guides: personalizzazione dell’editor web e interfaccia di revisione'
 description: Con il framework di estensione delle Guide è possibile personalizzare le sezioni desiderate dell’interfaccia utente di revisione o di Webeditor utilizzando JSON, CSS e JavaScript facili da aggiornare.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Framework di estensione delle guide AEM: personalizzare l’editor web e l’interfaccia utente di revisione
+# Framework di estensione di AEM Guides: personalizzazione dell’editor web e interfaccia di revisione
 
-Quando si lavora in un sistema, è abbastanza comune che le aziende e gli utenti desiderino pulsanti, azioni o mostrare informazioni personalizzate per soddisfare le proprie operazioni e migliorare la propria produttività. Il framework di estensione consente di creare pacchetti personalizzati sopra le guide AEM per estendere l’interfaccia utente e il suo comportamento. Questi pacchetti personalizzati sono utili per sviluppatori e consulenti per offrire loro l’estensibilità ai componenti nell’interfaccia utente Editor/Review. Possono eseguire il targeting di pulsanti, finestre di dialogo e menu a discesa e aggiungere JavaScript personalizzati che possono interagire facilmente con l’interfaccia utente delle guide dell’AEM.
+Quando si lavora in un sistema, è abbastanza comune che le aziende e gli utenti desiderino pulsanti, azioni o mostrare informazioni personalizzate per soddisfare le proprie operazioni e migliorare la propria produttività. Il framework di estensione consente di creare pacchetti personalizzati sopra AEM Guides per estendere l’interfaccia utente e il suo comportamento. Questi pacchetti personalizzati sono utili per sviluppatori e consulenti per offrire loro l’estensibilità ai componenti nell’interfaccia utente Editor/Review. Possono essere indirizzati a pulsanti, finestre di dialogo e elenchi a discesa e aggiungere JavaScript personalizzati che possono interagire facilmente con l’interfaccia utente di AEM Guides.
 
-In questa sessione, con l’aiuto di scenari pratici, imparerai a personalizzare o estendere l’interfaccia utente per la revisione e l’editor web delle guide AEM.
+In questa sessione, con l’aiuto di scenari pratici, imparerai a personalizzare o estendere l’interfaccia utente di revisione ed editor web di AEM Guides.
 
 ## Registrazione sessione
 
@@ -24,7 +24,7 @@ In questa sessione, con l’aiuto di scenari pratici, imparerai a personalizzare
 ## In evidenza
 
 - **Data** - 2 novembre 2023
-- **Numero di partecipanti** - 119
+- **Numero partecipanti** - 119
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
@@ -45,18 +45,18 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **Archivio base framework estensione** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Archivio base framework estensioni** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentazione** - [su Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentazione** - [sull&#39;Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casi d’uso comuni documentati** - [su Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Casi d&#39;uso comuni documentati** - [sull&#39;Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Archivio pubblico con esempi** - [su GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Consulta la filiale sc-expert-session
 
 
 >[!NOTE]
 >
-> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+> Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - Ottobre 2023 (per il cloud)
 > - 4.3.x (per non cloud)
 
@@ -64,4 +64,4 @@ In questa sessione hai appreso quanto segue:
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

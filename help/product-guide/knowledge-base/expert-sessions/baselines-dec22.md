@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Gestire i contenuti tramite le linee di base
 
-La gestione del rilascio nelle guide AEM viene eseguita utilizzando una linea di base che consente di scegliere una versione degli argomenti e delle risorse da utilizzare per la pubblicazione o la traduzione.
+La gestione del rilascio in AEM Guides viene eseguita utilizzando una linea di base che consente di scegliere una versione degli argomenti e delle risorse da utilizzare per la pubblicazione o la traduzione.
 
 ## Panoramica della sessione
 
@@ -26,32 +26,32 @@ In questa sessione imparerai a utilizzare le linee di base per gestire in modo e
 ## In evidenza
 
 - **Data** - 8 dicembre 2022
-- **Numero di partecipanti** - 64
+- **Numero partecipanti** - 64
 - **Durata** - 60 minuti
 - **Pubblico** - Clienti, partner e dipendenti Adobi
 
 ## Elementi principali da ricordare
 
 In questa sessione imparerai quanto segue:
-- Diverse operazioni di base nelle guide AEM
+- Diverse operazioni di base in AEM Guides
 - Scaricare, pubblicare e tradurre utilizzando una linea di base
 - Best practice per l’utilizzo di una baseline
-- Presentazione rapida di una nuova funzionalità in arrivo, **Creare linee di base dinamiche**
+- Visualizza di nascosto una nuova funzionalità in arrivo, **Crea linee di base dinamiche**
 
 ## Risorse correlate
 
-- **Video sulle funzioni** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guida utente** - [Utilizzare la previsione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Forum della community** - Per le interazioni della community specifiche per sessione su Experience League, visita [Forum sulle guide dell’AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni delle Guide AEM:
+>Le funzioni mostrate in questa sessione sono disponibili nelle seguenti versioni di AEM Guides:
 > - On-prem 4.1 e versioni successive
 > - Cloud Service 2211 e successivi
 
 ## Contattaci
 
-Per qualsiasi domanda, inviaci un&#39;email all&#39;indirizzo <techcomm@adobe.com>
+Per qualsiasi domanda, inviaci un&#39;e-mail all&#39;indirizzo <techcomm@adobe.com>

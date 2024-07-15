@@ -24,18 +24,18 @@ In alcuni flussi di lavoro, quando fai clic su un collegamento di un argomento o
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Cerca e fai clic su **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** pacchetto.
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Seleziona la **Apri argomento/mappa DITA nella stessa scheda** opzione.
+1. Selezionare l&#39;opzione **Apri argomento/mappa DITA nella stessa scheda**.
 
 1. Fai clic su **Salva**.
 
 
 Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere ai file argomento o mappa:
 
-- Crea argomento DITA \(alla fine del flusso di lavoro, quando si fa clic su **Apri argomento** button\)
+- Crea argomento DITA \(alla fine del flusso di lavoro, quando si fa clic sul pulsante **Apri argomento**\)
 
-- Crea mappa DITA \(alla fine del flusso di lavoro, quando si fa clic su **Apri mappa** button\)
+- Crea mappa DITA \(alla fine del flusso di lavoro, quando si fa clic sul pulsante **Apri mappa**\)
 
 - Scheda Argomenti nella console Mappa DITA
 
@@ -44,4 +44,4 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 - Scheda Rapporti nella console delle mappe DITA
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

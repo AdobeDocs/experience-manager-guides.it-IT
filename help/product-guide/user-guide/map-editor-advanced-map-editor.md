@@ -1,6 +1,6 @@
 ---
 title: Utilizzare l’Editor di mappe avanzato
-description: Scopri come utilizzare l’editor di mappe avanzato nelle guide AEM. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
+description: Scopri come utilizzare l’editor di mappe avanzato in AEM Guides. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
@@ -21,7 +21,7 @@ Oltre a modificare i file di mapping direttamente dall&#39;editor Web, è possib
 
 Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, individua il file di mappa da modificare.
+1. Nell’interfaccia utente di Assets, individua il file di mappa da modificare.
 
    >[!NOTE]
    >
@@ -33,17 +33,17 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
    >
    > Una volta impostato un blocco esclusivo su un file di mappa, gli altri utenti non potranno modificare la mappa. Tuttavia, sarebbero in grado di lavorare sugli argomenti all&#39;interno del file di mappa. Se l&#39;amministratore ha configurato l&#39;editor Web per estrarre i file prima di modificarli, non sarà possibile modificare un file finché non lo si estrae. Analogamente, se configurata, verrà richiesto di archiviare qualsiasi file estratto prima di chiuderlo
 
-1. Con il file di mappa selezionato, fai clic su **Modifica argomenti**.
+1. Con il file mappa selezionato, fare clic su **Modifica argomenti**.
 
    ![](images/edit-map-main-menu.png){width="800" align="left"}
 
-   Oppure, puoi anche selezionare **Modifica argomenti** opzione dal menu azione sul file mappa:
+   Oppure, puoi anche selezionare l&#39;opzione **Modifica argomenti** dal menu Azioni del file di mappa:
 
    ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    Il file di mappa viene aperto per la modifica in nell’Editor web.
 
-1. Fai clic su **Modifica** icona.
+1. Fai clic sull&#39;icona **Modifica**.
 
    ![](images/edit-map-icon.png){width="550" align="left"}
 
@@ -51,23 +51,23 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \(*Barra degli strumenti principale*\): simile alla barra degli strumenti principale dell’editor web. Consulta [Barra degli strumenti principale](web-editor-features.md#id2051EA0G05Z) nell’editor web per ulteriori dettagli.
+   - **A** - \(*Barra degli strumenti principale*\): simile alla barra degli strumenti principale dell&#39;editor Web. Per ulteriori dettagli, vedi [Barra degli strumenti principale](web-editor-features.md#id2051EA0G05Z) nell&#39;editor Web.
 
-   - **B** - \(*Barra degli strumenti secondaria*\) Questa è la barra degli strumenti Secondaria che consente di lavorare con i file di mappa. Per ulteriori informazioni sulle funzionalità disponibili nella barra degli strumenti Secondaria, vedi [Funzioni disponibili nella barra degli strumenti dell’Editor mappe avanzate](#id205DEC0005Z).
+   - **B** - \(*Barra degli strumenti secondaria*\) Questa è la barra degli strumenti secondaria che consente di utilizzare i file di mapping. Per ulteriori informazioni sulle funzionalità disponibili tramite la barra degli strumenti Secondaria, vedere [Funzionalità disponibili nella barra degli strumenti dell&#39;Editor mappe avanzate](#id205DEC0005Z).
 
-   - **C** - \(*Visualizzazioni mappa*\): consente di passare dall’Editor mappa a Layout, Author, Source e Preview e viceversa. Il **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. Il **Autore** consente di modificare gli argomenti nell’Editor mappa. Questo offre anche la visualizzazione WYSIWYG del file di mappa. Il **Sorgente** visualizzazione consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa. Il **Chiudi** link chiude il file di mappa.
+   - **C** - \(*Visualizzazioni mappa*\): consente di passare dall&#39;Editor mappa a Layout, Autore, Source e Anteprima. La visualizzazione **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. La visualizzazione **Autore** consente di modificare gli argomenti nell&#39;Editor mappa. Questo offre anche la visualizzazione WYSIWYG del file di mappa. La visualizzazione **Source** consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa. Il collegamento **Chiudi** chiude il file di mapping.
 
-   - **D** - \(*Pannello sinistro*\): consente di accedere al pannello a sinistra, che consente di accedere a Preferiti, Archivio, Mappa, Struttura e altre funzioni. Per espanderla o comprimerla, fai clic sull’icona Espandi barra laterale \(![](images/sidebar-expand-icon.svg)\). Per ulteriori dettagli sulle funzioni disponibili nel pannello a sinistra, vedi [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) nell&#39;editor Web.
+   - **D** - \(*Pannello sinistro*\): consente di accedere al pannello sinistro che consente di accedere ai Preferiti, all&#39;archivio, alla mappa, alla struttura e ad altre funzionalità. È possibile espanderla o comprimerla facendo clic sull&#39;icona Espandi barra laterale \(![](images/sidebar-expand-icon.svg)\). Per ulteriori dettagli sulle funzionalità disponibili nel pannello sinistro, vedere [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) nell&#39;editor Web.
 
    - **E** - \(*Area centrale*\): area di modifica contenuto mappa.
 
-   - **F** - \(*Pannello a destra*\): consente di accedere al pannello Proprietà. Puoi visualizzare le proprietà del contenuto e le proprietà della mappa dell’argomento o della mappa selezionata. Per ulteriori dettagli sulle funzionalità disponibili in questo pannello, vedi [Pannello a destra](web-editor-features.md#id2051EB003YK) nell&#39;editor Web.
+   - **F** - \(*Pannello destro*\): consente di accedere al pannello Proprietà. Puoi visualizzare le proprietà del contenuto e le proprietà della mappa dell’argomento o della mappa selezionata. Per ulteriori dettagli sulle funzionalità disponibili in questo pannello, vedi [Pannello destro](web-editor-features.md#id2051EB003YK) nell&#39;editor Web.
 
-1. Nel pannello a sinistra, passa a **Vista archivio**.
+1. Nel pannello sinistro passare alla **vista archivio**.
 
 1. Nel repository AEM passare alla cartella contenente gli argomenti o le mappe secondarie che si desidera aggiungere.
 
-1. Selezionare l&#39;argomento o il file di mappa in **Vista archivio** e trascinarlo nell’area di modifica del contenuto delle mappe \(middle\).
+1. Selezionare l&#39;argomento o il file di mapping nella **Vista repository** e trascinarlo nell&#39;area di modifica del contenuto di mapping \(middle\).
 
    L&#39;argomento viene aggiunto nella mappa.
 
@@ -77,7 +77,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    Durante la creazione del file di mappa, considera i punti seguenti:
 
-   - Il file viene aggiunto in un punto in cui la barra orizzontale viene visualizzata nell&#39;area di modifica delle mappe. Nella schermata seguente, *Panoramica* L&#39;argomento verrà aggiunto tra *Descrizione generale* e *Launch e sito di destinazione* argomenti.
+   - Il file viene aggiunto in un punto in cui la barra orizzontale viene visualizzata nell&#39;area di modifica delle mappe. Nella schermata seguente, l&#39;argomento *Panoramica* verrà aggiunto tra gli argomenti *Descrizione generale* e *Launch and Landing Site*.
 
      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
@@ -93,18 +93,18 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - È possibile utilizzare i tasti di scelta rapida CTRL+Z e CTRL+Y o le rispettive icone nella barra degli strumenti per annullare o ripristinare eventuali modifiche apportate alla mappa.
 
-   - Per modificare la posizione di un argomento, selezionare l&#39;argomento \(facendo clic sull&#39;icona dell&#39;argomento\), quindi trascinarlo nella posizione desiderata nel file di mappa. Verificare che la barra orizzontale sia visibile nel punto in cui si desidera inserire l&#39;argomento. Nella schermata seguente, l’argomento *Launch e sito di destinazione* viene spostato dopo il *Panoramica* argomento.
+   - Per modificare la posizione di un argomento, selezionare l&#39;argomento \(facendo clic sull&#39;icona dell&#39;argomento\), quindi trascinarlo nella posizione desiderata nel file di mappa. Verificare che la barra orizzontale sia visibile nel punto in cui si desidera inserire l&#39;argomento. Nella schermata seguente, l&#39;argomento *Launch and Landing Site* viene spostato dopo l&#39;argomento *Overview*.
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica della mappa e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione dell’AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
+   - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica delle mappe e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione dell’AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
 1. Fai clic su **Salva**.
 
 
 ## Funzioni disponibili nella barra degli strumenti dell’Editor mappe avanzate {#id205DEC0005Z}
 
-La barra degli strumenti nell&#39;Editor mapping avanzato è simile all&#39;argomento Editor Web. Le operazioni di base, come l’attivazione del pannello sinistro, il salvataggio della mappa, la creazione di una nuova versione della mappa, l’annullamento/ripristino dell’ultima operazione e l’eliminazione degli elementi selezionati, sono comuni in entrambi gli editor. Per informazioni dettagliate sul funzionamento di queste operazioni, consulta [Conoscere le funzioni dell’editor web](web-editor-features.md#) sezione.
+La barra degli strumenti nell&#39;Editor mapping avanzato è simile all&#39;argomento Editor Web. Le operazioni di base, come l’attivazione del pannello sinistro, il salvataggio della mappa, la creazione di una nuova versione della mappa, l’annullamento/ripristino dell’ultima operazione e l’eliminazione degli elementi selezionati, sono comuni in entrambi gli editor. Per informazioni dettagliate sul funzionamento di queste operazioni, vedere la sezione [Informazioni sulle caratteristiche dell&#39;editor Web](web-editor-features.md#).
 
 Nella barra degli strumenti delle viste Layout e Autore sono disponibili anche le seguenti operazioni specifiche per le mappe:
 
@@ -126,7 +126,7 @@ Visualizza la finestra di dialogo di ricerca dell&#39;argomento. Passare al file
 
 **Inserisci gruppo di argomenti** - ![](images/insert-topic-group.png)
 
-Inserisci il `topicgroup` elemento. Per ulteriori informazioni sul raggruppamento degli argomenti, vedere [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentazione in Specifiche della lingua OASIS DITA.
+Inserire l&#39;elemento `topicgroup`. Per ulteriori informazioni sul raggruppamento degli argomenti, vedere la documentazione [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) in Specifiche del linguaggio OASIS DITA.
 
 **Inserisci definizione chiave** - ![](images/Key_icon.svg)
 
@@ -138,15 +138,15 @@ Visualizza la finestra di dialogo Inserisci keydef. Utilizzare questa finestra d
 
 Visualizza la finestra di dialogo Inserisci elemento. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
-**Inserisci argomento anteriore** - ![](images/frontmatter.svg)
+**Inserisci argomento principale** - ![](images/frontmatter.svg)
 
 Questa icona viene visualizzata quando apri una mappa segnalibro per la modifica. È possibile inserire componenti all&#39;inizio del libro come un sommario, un indice e un elenco di tabelle.
 
-**Inserisci argomento posteriore** - ![](images/backmatter.svg)
+**Inserisci argomento precedente** - ![](images/backmatter.svg)
 
 Questa icona viene visualizzata quando apri una mappa segnalibro per la modifica. È possibile inserire componenti per una fine del libro, ad esempio un indice, un glossario e un elenco di figure.
 
-**Sposta l&#39;elemento selezionato a sinistra/destra** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
+**Sposta l&#39;elemento selezionato a sinistra/a destra** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
 
 Fare clic sulla freccia sinistra per spostare l&#39;argomento verso il lato sinistro nella gerarchia. Questo essenzialmente promuove il rispettivo argomento di un livello superiore nella gerarchia. Ad esempio, se si fa clic sulla freccia sinistra mentre è selezionato un argomento figlio, l&#39;argomento diventa di pari livello rispetto all&#39;argomento precedente. Analogamente, se si fa clic sulla freccia destra, l&#39;argomento viene spinto verso destra, rendendolo l&#39;elemento figlio dell&#39;argomento al di sopra di esso.
 
@@ -164,7 +164,7 @@ Ottiene un blocco sul file mappa e lo rilascia. Se nel file di mappa sono presen
 
 **Unisci** - ![](images/merge-icon.svg)
 
-Per ulteriori dettagli sull’unione di contenuto di una versione diversa dello stesso file o di un file diverso, consulta [Unisci](web-editor-features.md#id205DF04E0HS) nell&#39;editor Web.
+Per ulteriori dettagli sull&#39;unione del contenuto di una versione diversa dello stesso file o di un file diverso, vedere [Unisci](web-editor-features.md#id205DF04E0HS) nell&#39;editor Web.
 
 **Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
 
@@ -172,7 +172,7 @@ Controlla le versioni e le etichette disponibili nell’argomento attivo e ripri
 
 **Etichetta versione** - ![](images/version-label-icon.svg)
 
-Visualizza la finestra di dialogo Gestione etichette versione. Seleziona una versione dall’elenco a discesa. Scegli l’etichetta da applicare alla versione selezionata e fai clic su **Aggiungi etichetta** per aggiungerlo.
+Visualizza la finestra di dialogo Gestione etichette versione. Seleziona una versione dall’elenco a discesa. Scegliere l&#39;etichetta da applicare alla versione selezionata e fare clic su **Aggiungi etichetta** per aggiungerla.
 
 **Opzioni di visualizzazione** - ![](images/view-options.svg)
 
@@ -184,7 +184,7 @@ Mostra o nasconde il numero di riga per ciascun argomento. I numeri di riga veng
 
 - **Mostra casella di controllo**
 
-Mostra o nasconde una casella di controllo per ciascun argomento. È possibile utilizzare la casella di controllo per selezionare l&#39;argomento\(s\) ed eseguire varie attività utilizzando il menu Opzioni. Per ulteriori dettagli, vedi [Opzioni](#id228ID8006H8) menu.
+Mostra o nasconde una casella di controllo per ciascun argomento. È possibile utilizzare la casella di controllo per selezionare l&#39;argomento\(s\) ed eseguire varie attività utilizzando il menu Opzioni. Per ulteriori dettagli, vedere il menu [Opzioni](#id228ID8006H8).
 
 - **Mostra nome file**
 
@@ -195,28 +195,28 @@ Mostra il nome del file dei titoli degli argomenti.
 > Quando si posiziona il puntatore del mouse sul titolo di un argomento, viene visualizzato il percorso del file.
 
 
-**Visualizza argomenti basati su filtri condizionali** Se hai applicato una condizione a un argomento, a destra dell’argomento viene visualizzata un’icona di filtro. Quando passi il puntatore del mouse su un’icona di filtro, viene visualizzata la condizione applicata e il relativo valore di attributo.
+**Visualizza gli argomenti in base ai filtri condizionali** Se sono state applicate condizioni a un argomento, a destra dell&#39;argomento viene visualizzata un&#39;icona di filtro. Quando passi il puntatore del mouse su un’icona di filtro, viene visualizzata la condizione applicata e il relativo valore di attributo.
 
-**Menu Opzioni nella vista Layout**
+**Menu Opzioni nella visualizzazione Layout**
 
 Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azioni seguenti utilizzando il menu Opzioni disponibile per un elemento nella vista Layout:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
-- **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall’Editor mappa:
-   - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento. Per ulteriori dettagli, vedi [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
-   - **Nuovo argomento**: quando scegli di creare un nuovo argomento dal menu, viene visualizzata la finestra di dialogo Crea nuovo argomento. Nella finestra di dialogo Crea nuovo argomento, fornisci i dettagli richiesti e fai clic su Crea. Per ulteriori dettagli, vedi [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
-- **Sposta**: puoi scegliere di spostare un argomento verso l’alto/il basso/a destra/a sinistra nella gerarchia.Puoi anche trascinare e rilasciare un argomento o una mappa dal pannello dell’archivio alla mappa aperta nell’Editor mappe.
-- **Annulla**: annulla l’ultima operazione nella vista Layout.
-- **Ripeti**: ripete l’ultima operazione nella vista Layout.
+- **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall&#39;Editor mappe:
+   - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento. Per ulteriori dettagli, vedere [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
+   - **Nuovo argomento**: quando si sceglie di creare un nuovo argomento dal menu, viene visualizzata la finestra di dialogo Crea nuovo argomento. Nella finestra di dialogo Crea nuovo argomento, fornisci i dettagli richiesti e fai clic su Crea. Per ulteriori dettagli, vedere [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
+- **Sposta**: è possibile scegliere di spostare un argomento verso l&#39;alto/il basso/a destra/a sinistra nella gerarchia.È inoltre possibile trascinare un argomento o una mappa dal pannello dell&#39;archivio alla mappa aperta nell&#39;Editor mappe.
+- **Annulla**: annulla l&#39;ultima operazione nella visualizzazione Layout.
+- **Ripeti**: ripeti l&#39;ultima operazione nella visualizzazione Layout.
 - **Copia**: copia il riferimento selezionato dal file mappa.
 
   >[!NOTE]
   >
   > Potete visualizzare e quindi selezionare le caselle di controllo per copiare più riferimenti.
 
-- **Incolla**: incolla i riferimenti copiati nella posizione corrente nella gerarchia.
-- **Elimina**: elimina i riferimenti selezionati dal file di mappa.
+- **Incolla**: incolla i riferimenti copiati nella posizione corrente della gerarchia.
+- **Elimina**: elimina i riferimenti selezionati dal file di mapping.
 
   >[!NOTE]
   >
@@ -229,18 +229,18 @@ Nel pannello di destra vengono visualizzate le Proprietà contenuto e le Proprie
 
 **Proprietà contenuto**
 
-Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento attualmente selezionato nella mappa, il relativo URL di collegamento e i relativi attributi. Per ulteriori dettagli, consulta [Proprietà contenuto](web-editor-features.md#id228IDB00HMM) nell&#39;editor Web.
+Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento attualmente selezionato nella mappa, il relativo URL di collegamento e i relativi attributi. Per ulteriori dettagli, vedere [Proprietà contenuto](web-editor-features.md#id228IDB00HMM) nell&#39;editor Web.
 
-- **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall’amministratore nella sezione **Visualizza attributi** nelle impostazioni dell’editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti per i quali l’attributo platform è definito come &quot;Android&quot;.
+- **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore nella scheda **Visualizza attributi** delle impostazioni dell&#39;editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti per i quali l’attributo platform è definito come &quot;Android&quot;.
 
-  ![vista layout](images/layout-inline-attributes.png){width="650" align="left"}
+  ![visualizzazione layout](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Per ulteriori dettagli, vedi *Visualizza attributi* all&#39;interno del *Impostazioni editor* descrizione della funzione in [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) sezione.
+  Per ulteriori dettagli, vedere *Attributi di visualizzazione* nella descrizione della funzionalità *Impostazioni editor* nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
 
-- **Metadati** Utilizzando i metadati , puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
+- **Metadati** Utilizzando i metadati, puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
 
-Per ulteriori informazioni sugli attributi e i metadati standard dell&#39;argomento, vedere [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentazione in Specifiche della lingua OASIS DITA.
+Per ulteriori informazioni sugli attributi e i metadati standard dell&#39;argomento, vedere la documentazione [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in Specifiche del linguaggio OASIS DITA.
 
 **Proprietà mappa**
 
@@ -248,7 +248,7 @@ Visualizza la finestra di dialogo Proprietà mappa, in cui è possibile impostar
 
 ## Visualizzazione Autore {#id205DEC0005Z_author_view}
 
-Il **Autore** visualizzazione consente di modificare la mappa DITA nell&#39;Editor Web. Questa mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout. Per ulteriori dettagli, consulta [Vista Layout](#id205DEC0005Z_layout_view). Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
+La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor Web. Questa mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout. Per ulteriori dettagli, vedere [Visualizzazione Layout](#id205DEC0005Z_layout_view). Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -258,9 +258,9 @@ Visualizza la finestra di dialogo Inserisci elemento. Selezionare l&#39;elemento
 
 Visualizza la finestra di dialogo Inserisci elemento. Seleziona l’elemento da inserire. È possibile utilizzare la tastiera per scorrere l&#39;elenco degli elementi e premere Invio per inserire l&#39;elemento richiesto. In alternativa, puoi fare clic direttamente sull’elemento per inserirlo nella mappa.
 
-**Inserisci tabella di relazione** - ![](images/relationship_table_icon.svg)
+**Inserisci tabella relazioni** - ![](images/relationship_table_icon.svg)
 
-Inserisce una tabella di relazioni nella mappa. Poiché il concetto di utilizzo della tabella delle relazioni è identico a quello descritto nella sezione Editor mappe di base, vedere [Utilizzare le tabelle di relazione nell&#39;Editor mapping di base](map-editor-basic-map-editor.md#id1944B0I0COB) per ulteriori dettagli.
+Inserisce una tabella di relazioni nella mappa. Poiché il concetto di utilizzo della tabella delle relazioni è uguale a quello descritto nella sezione Editor mappe di base, vedere [Utilizzo delle tabelle delle relazioni nell&#39;Editor mappe di base](map-editor-basic-map-editor.md#id1944B0I0COB) per ulteriori dettagli.
 
 **Inserisci contenuto riutilizzabile** - ![](images/content-reuse-icon.png)
 
@@ -268,57 +268,57 @@ Visualizza la finestra di dialogo Riutilizza contenuto. Utilizzare questa finest
 
 **Aggiorna attributo titolo navigazione** - ![](images/navtitle-refresh-icon.svg)
 
-sincronizza il `title` elemento di un file di riferimento in una mappa con il valore specificato nel relativo `@navtitle` attributo. È possibile aggiungere diversi tipi di file di riferimento in una mappa, ad esempio mappe di argomenti, riferimenti, attività, sottomappe e così via. La maggior parte di questi file supporta `@navtitle` attributo. Se un file contiene `@navtitle` , quindi il `@navtitle` viene aggiornato l’attributo per lo stesso file nella mappa. Se il valore `@navtitle` l&#39;attributo non è presente, quindi il `@navtitle` l&#39;attributo viene aggiunto al file di riferimento e ai relativi `title` viene aggiornato anche per visualizzare `@navtitle`.
+Sincronizza l&#39;elemento `title` di un file di riferimento in una mappa con il valore specificato nel relativo attributo `@navtitle`. È possibile aggiungere diversi tipi di file di riferimento in una mappa, ad esempio mappe di argomenti, riferimenti, attività, sottomappe e così via. La maggior parte di questi file supporta l&#39;attributo `@navtitle`. Se un file contiene l&#39;attributo `@navtitle`, viene aggiornato l&#39;attributo `@navtitle` per lo stesso file nella mappa. Se l&#39;attributo `@navtitle` non è presente, l&#39;attributo `@navtitle` viene aggiunto a tale file di riferimento e anche il relativo `title` viene aggiornato per visualizzare l&#39;attributo `@navtitle`.
 
 >[!NOTE]
 >
-> L’amministratore può configurare l’aggiunta automatica `@navtitle` a ogni file di riferimento aggiunto a una mappa. Per ulteriori dettagli sulla configurazione dell’aggiunta automatica `@navtitle` , vedere *Includi attributo @navtitle per impostazione predefinita* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> L&#39;amministratore può configurare l&#39;aggiunta automatica dell&#39;attributo `@navtitle` a ogni file di riferimento aggiunto a una mappa. Per ulteriori dettagli sulla configurazione dell&#39;aggiunta automatica dell&#39;attributo `@navtitle`, vedere *Includere l&#39;attributo @navtitle per impostazione predefinita* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-Fai clic sull’icona Aggiorna attributo titolo navigazione per sincronizzare la `title` e dell&#39;elemento `@navtitle` valori dell&#39;attributo.
+Fare clic sull&#39;icona Aggiorna attributo titolo navigazione per sincronizzare i valori dell&#39;elemento `title` e dell&#39;attributo `@navtitle`.
 
 **Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
 
 Mostra o nasconde i tag XML. I tag fungono da segnali visivi che indicano il limite di un elemento. In questa modalità, se desideri inserire un riferimento ad argomento/mappa, trascina il file desiderato prima o dopo il tag. La barra orizzontale non viene visualizzata nella modalità Visualizzazione tag.
 
-**Attiva/Disattiva rilevamento modifiche** - ![](images/track-change-icon.svg)
+**Attiva/Disattiva revisioni** - ![](images/track-change-icon.svg)
 
-È possibile tenere traccia di tutti gli aggiornamenti effettuati nel file di mappa attivando la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Per ulteriori dettagli, consulta [Attiva/Disattiva rilevamento modifiche](web-editor-features.md#id205DF0203Y4) nell&#39;editor Web.
+È possibile tenere traccia di tutti gli aggiornamenti effettuati nel file di mappa attivando la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Per ulteriori dettagli, vedere [Abilitare/disabilitare le revisioni](web-editor-features.md#id205DF0203Y4) nell&#39;editor Web.
 
 **Crea attività di revisione** - ![](images/create-review-task-icon.svg)
 
-È possibile creare un&#39;attività di revisione dell&#39;argomento corrente o un file di mapping direttamente dall&#39;editor Web. Aprire il file per il quale si desidera creare l&#39;attività di revisione e fare clic su Crea attività di revisione per avviare il processo di creazione della revisione. Seguire le istruzioni fornite nella [Rivedi argomenti o mappe](review.md#) per ulteriori dettagli.
+È possibile creare un&#39;attività di revisione dell&#39;argomento corrente o un file di mapping direttamente dall&#39;editor Web. Aprire il file per il quale si desidera creare l&#39;attività di revisione e fare clic su Crea attività di revisione per avviare il processo di creazione della revisione. Segui le istruzioni fornite in [Rivedi argomenti o mappe](review.md#) per ulteriori dettagli.
 
 ## Modifica argomenti tramite mappa DITA {#id17ACJ0F0FHS}
 
 La modifica di un singolo argomento non fornisce all&#39;autore il contesto completo. L&#39;autore non dispone di informazioni sulla posizione di un argomento in una mappa DITA. Senza queste informazioni contestuali, per gli autori diventa un po’ difficile creare contenuti.
 
-Le guide AEM consentono agli autori di aprire una mappa DITA nell&#39;editor Web e di visualizzare il posizionamento degli argomenti nella mappa. In questo modo gli autori possono sapere esattamente dove si trova l’argomento all’interno della mappa e creare contenuti più rilevanti. Inoltre, se più autori lavorano a un progetto, possono sapere quali argomenti sono disponibili nella mappa e riutilizzare il contenuto, se necessario.
+AEM Guides consente agli autori di aprire una mappa DITA nell&#39;Editor Web e di visualizzare il posizionamento degli argomenti nella mappa. In questo modo gli autori possono sapere esattamente dove si trova l’argomento all’interno della mappa e creare contenuti più rilevanti. Inoltre, se più autori lavorano a un progetto, possono sapere quali argomenti sono disponibili nella mappa e riutilizzare il contenuto, se necessario.
 
 Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti operazioni:
 
-1. Nell&#39;interfaccia utente Assets passare alla mappa DITA contenente gli argomenti che si desidera modificare.
+1. Nell&#39;interfaccia utente di Assets, passare alla mappa DITA contenente gli argomenti che si desidera modificare.
 1. Fare clic sulla mappa DITA per aprirla nella console delle mappe DITA.
-1. Seleziona la **Argomenti** per visualizzare un elenco di argomenti disponibili nella mappa DITA.
+1. Selezionare la scheda **Argomenti** per visualizzare l&#39;elenco degli argomenti disponibili nella mappa DITA.
 
    >[!TIP]
    >
-   > La scheda Argomenti consente di scaricare il file mappa con i relativi dipendenti. Per ulteriori dettagli, consulta [Esportare un file di mapping DITA](authoring-download-assets.md#id218UBA00IXA).
+   > La scheda Argomenti consente di scaricare il file mappa con i relativi dipendenti. Per ulteriori dettagli, vedere [Esportare un file di mapping DITA](authoring-download-assets.md#id218UBA00IXA).
 
-1. Nella barra degli strumenti principale, fai clic su **Modifica argomenti**.
+1. Nella barra degli strumenti principale, fare clic su **Modifica argomenti**.
 
    La mappa DITA viene visualizzata nell&#39;Editor Web.
 
    >[!NOTE]
    >
-   > Puoi anche selezionare il file di mappa DITA nell’interfaccia utente Assets e fare clic su **Modifica argomenti** nella barra degli strumenti principale per avviare l’editor web.
+   > È inoltre possibile selezionare il file di mapping DITA nell&#39;interfaccia utente di Assets e fare clic su **Modifica argomenti** nella barra degli strumenti principale per avviare l&#39;editor Web.
 
    ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
-1. \(*Facoltativo*\) È inoltre possibile selezionare un argomento dalla mappa ed estrarre il file prima di modificarlo. Per estrarre il file\(s\), selezionare uno o più file dal riquadro di sinistra e fare clic su **Pagamento**. È inoltre possibile rilasciare il blocco su qualsiasi file selezionando il file estratto e facendo clic sul pulsante **Annulla estrazione e sblocco** nella vista Mappa.
+1. \(*Facoltativo*\) È inoltre possibile selezionare un argomento dalla mappa ed estrarre il file prima di modificarlo. Per estrarre il file\(s\), selezionare uno o più file dal riquadro di sinistra e fare clic su **Estrai**. Puoi anche rilasciare il blocco su qualsiasi file selezionando il file estratto e facendo clic sull&#39;icona **Annulla estrazione e sblocca** nella vista Mappa.
 
    >[!IMPORTANT]
    >
-   > Se l&#39;amministratore ha configurato **Disattiva modifica senza estrazione** , è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento verrà aperto nell&#39;editor in modalità di sola lettura.
+   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento verrà aperto nell&#39;editor in modalità di sola lettura.
 
    Nella schermata seguente vengono evidenziate le icone per Check-Out e Blocco \(A\), Annulla Check-Out e Sblocca \(B\), Salva come nuova versione e Sblocca \(C\), Modifica \(D\), Anteprima \(E\), icone diverse che mostrano i diversi tipi di file DITA \(F\) e i file estratti \(G\).
 
@@ -334,27 +334,27 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
 1. Dopo aver modificato gli argomenti, puoi effettuare le seguenti operazioni:
 
-   - Puoi salvarli singolarmente. Se si fa clic su **Chiudi senza salvare** negli argomenti verrà visualizzata una finestra di dialogo in cui viene richiesto di salvare gli argomenti non salvati:
+   - Puoi salvarli singolarmente. Se fai clic su **Chiudi senza salvare** i tuoi argomenti, verrà visualizzata una finestra di dialogo in cui ti viene richiesto di salvare gli argomenti non salvati:
 
      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
      È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
 
-   - È possibile archiviare l&#39;argomento utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una versione dell&#39;argomento, viene creata una nuova versione e viene rilasciato anche il blocco.
+   - È possibile archiviare l&#39;argomento utilizzando il pulsante **Salva come nuova versione e sblocca**. Quando si salva una versione dell&#39;argomento, viene creata una nuova versione e viene rilasciato anche il blocco.
 
      Si consiglia di salvare le modifiche prima di archiviare i file.  Quando si salvano le modifiche, il file XML viene convalidato.
 
-   - È inoltre possibile selezionare e archiviare più argomenti utilizzando **Salva come nuova versione e sblocca** pulsante. Quando si salva una versione degli argomenti, viene creata una nuova versione per ciascun argomento e viene rilasciato anche il blocco. È inoltre possibile visualizzare l&#39;avanzamento del check-in degli argomenti dalla **Salva come nuova versione e sblocca** . Al momento del check-in dei file viene visualizzato un messaggio di operazione riuscita.
+   - È inoltre possibile selezionare e archiviare più argomenti utilizzando il pulsante **Salva come nuova versione e sblocca**. Quando si salva una versione degli argomenti, viene creata una nuova versione per ciascun argomento e viene rilasciato anche il blocco. È inoltre possibile visualizzare l&#39;avanzamento dell&#39;archiviazione degli argomenti nella finestra di dialogo **Salva come nuova versione e sblocca**. Al momento del check-in dei file viene visualizzato un messaggio di operazione riuscita.
 
    - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. Se questa opzione è attivata, quando si chiude l&#39;editor con i file modificati, viene visualizzato l&#39;elenco dei file estratti che devono essere salvati. I file estratti vengono visualizzati con un&#39;icona di blocco:
 
      ![](images/save-on-close.PNG){width="550" align="left"}
 
-      - Clic su **Chiudi senza salvare** chiude i file senza salvare le modifiche.
+      - Facendo clic sul pulsante **Chiudi senza salvare**, i file vengono chiusi senza salvare le modifiche.
 
-      - Facendo clic su **Salva** salva le modifiche, ma non archivia i file.
+      - Facendo clic sul pulsante **Salva** le modifiche vengono salvate, ma non vengono archiviati i file.
 
-      - Selezione del **Controllo dei file** e quindi facendo clic sul pulsante **Salva** button archivia i file \(crea un&#39;altra versione\) e salva anche i file.
+      - Se si seleziona l&#39;opzione **Verifica file** e si fa clic sul pulsante **Salva**, i file vengono archiviati \(viene creata un&#39;altra versione\) e i file vengono salvati.
 
 
 ## Visualizzare l’anteprima di una mappa
@@ -363,13 +363,13 @@ Oltre a poter visualizzare la posizione di ciascun file argomento all&#39;intern
 
 Puoi accedere all’anteprima di una mappa da:
 
-- **Interfaccia utente Assets**: nell’interfaccia utente Assets, passa alla posizione della mappa, seleziona il file della mappa e scegli **Anteprima mappa** sulla barra degli strumenti. L’anteprima della mappa viene visualizzata in una nuova scheda. È possibile visualizzare il contenuto di tutti gli argomenti nella modalità anteprima. In questa visualizzazione non è possibile modificare alcun argomento.
+- **Interfaccia utente di Assets**: nell&#39;interfaccia utente di Assets, passare alla posizione della mappa, selezionare il file della mappa e scegliere **Anteprima mappa** nella barra degli strumenti. L’anteprima della mappa viene visualizzata in una nuova scheda. È possibile visualizzare il contenuto di tutti gli argomenti nella modalità anteprima. In questa visualizzazione non è possibile modificare alcun argomento.
 
   >[!NOTE]
   >
-  > Se il *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata **Altro** barra degli strumenti.
+  > Se l&#39;opzione *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata nel menu della barra degli strumenti **Altro**.
 
-- **Editor mappe avanzato**: nell’Editor mappe avanzato, fai clic sull’icona Anteprima per visualizzare l’anteprima della mappa corrente.
+- **Editor mappe avanzato**: nell&#39;Editor mappe avanzato, fare clic sull&#39;icona Anteprima per visualizzare l&#39;anteprima della mappa corrente.
 
   ![](images/map-preview-icon.png){width="350" align="left"}
 
@@ -386,4 +386,4 @@ Puoi accedere all’anteprima di una mappa da:
    - L&#39;argomento corrente nell&#39;anteprima della mappa viene evidenziato anche nella struttura della mappa.
 
 
-**Argomento padre:**[ Utilizzare l’Editor mappa](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

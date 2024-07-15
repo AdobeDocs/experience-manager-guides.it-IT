@@ -24,13 +24,13 @@ Per aumentare il numero di nodi che una query può leggere alla volta, eseguire 
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. Cerca e fai clic su **ImpostazioniMotoreQuery**.
+1. Cerca e fai clic su **QueryEngineSettings**.
 
-1. Modifica il valore dell’attributo per **LimitReads** attributo.
+1. Modifica il valore dell&#39;attributo **LimitReads**.
 
 1. Fai clic su **Salva**.
 
 
 Quando si aumenta il valore di questo attributo, è possibile generare il report per mappe DITA più grandi.
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

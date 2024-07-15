@@ -1,6 +1,6 @@
 ---
 title: Usa raccolta mappe per la generazione dell'output
-description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere o eliminare una mappa DITA. Configurare, generare e annullare un'attività di generazione output da una raccolta di mappe nelle guide AEM.
+description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere o eliminare una mappa DITA. Configurare, generare e annullare un’attività di generazione dell’output da una raccolta di mappe in AEM Guides.
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 In qualsiasi organizzazione, un prodotto può avere più tipi di documentazione. In qualità di specialista della pubblicazione, desideri controllare l’output che desideri generare per ciascun documento. Inoltre, dovrebbe essere possibile pubblicare in batch più documenti con un solo clic.
 
-Le guide AEM consentono di organizzare i contenuti per la pubblicazione utilizzando una dashboard denominata Raccolta mappe. Una raccolta di mappe consente di assemblare tutti i diversi tipi di documenti in un&#39;unica unità. È possibile scegliere il tipo di output che si desidera generare per ciascun documento nella raccolta di mappe. Inoltre, puoi anche generare l’output e vedere l’avanzamento della generazione dell’output dal dashboard di pubblicazione.
+AEM Guides consente di organizzare i contenuti da pubblicare tramite un dashboard denominato Raccolta mappe. Una raccolta di mappe consente di assemblare tutti i diversi tipi di documenti in un&#39;unica unità. È possibile scegliere il tipo di output che si desidera generare per ciascun documento nella raccolta di mappe. Inoltre, puoi anche generare l’output e vedere l’avanzamento della generazione dell’output dal dashboard di pubblicazione.
 
 Raccolta mappe consente di visualizzare eventuali modifiche apportate a una mappa rispetto all’ultimo output pubblicato. Puoi visualizzare i dettagli nella scheda Mappe e predefiniti della raccolta mappe e quindi ripubblicare l’output se necessario. Per ulteriori informazioni, vedere Aggiunta di una mappa a una raccolta di mappe.
 
@@ -23,9 +23,9 @@ Raccolta mappe consente di visualizzare eventuali modifiche apportate a una mapp
 
 Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente Assets, fai clic su **Mappare le raccolte**.
+1. Nell&#39;interfaccia utente di Assets, fai clic su **Mappa raccolte**.
 
-   Se il collegamento Mappa raccolte non è disponibile, seleziona la **Navigazione** nella barra a sinistra, quindi fai clic su **Mappare le raccolte**.
+   Se il collegamento Mappa raccolte non è disponibile, seleziona l&#39;opzione **Navigazione** nella barra a sinistra, quindi fai clic su **Mappa raccolte**.
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
@@ -34,18 +34,18 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
    Al momento della creazione della raccolta di mappe viene visualizzato un messaggio di operazione riuscita.
 
-1. Clic **Chiudi** sul messaggio di successo.
+1. Fai clic su **Chiudi** nel messaggio di successo.
 
    Il file di mappa appena creato viene visualizzato nella pagina Mappa raccolte.
 
 1. Fai clic sulla casella grigia nel riquadro della raccolta che desideri modificare.
-1. Clic **Modifica** e quindi fare clic su **Aggiungi mappe**.
+1. Fare clic su **Modifica** e quindi su **Aggiungi mappe**.
 1. Individuare e aggiungere le mappe DITA che si desidera aggiungere all&#39;insieme Map.
 
    Per impostazione predefinita, tutti i predefiniti e le impostazioni internazionali associati alla mappa vengono aggiunti automaticamente.
 
 1. Selezionare l&#39;output desiderato attivando o disattivando il pulsante scorrevole.
-1. Clic **Fine**.
+1. Fai clic su **Fine**.
 
    I file di mappa DITA vengono aggiunti alla raccolta di mappe.
 
@@ -53,18 +53,18 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
 Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i seguenti dettagli della mappa:
 
-- **Filtro:** La barra degli strumenti più recente mostra i seguenti filtri:
-   - **Modificato**: puoi selezionare Sì o No. Se si seleziona sì, nella tabella Mappe e predefiniti verranno visualizzate solo le mappe DITA modificate.
-   - **Predefinito**: seleziona un predefinito per il quale vuoi filtrare i file di mappa. Ad esempio, se scegli *Sito AEM* predefinito, vengono visualizzate solo le mappe che presentano *Sito AEM* predefinito di output configurato su di essi.
-   - **Lingua**: puoi selezionare uno qualsiasi dei codici lingua disponibili e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
-- **Mappe e predefiniti** tabella: la tabella Mappe e predefiniti presenta le informazioni riportate nelle colonne riportate di seguito.
+- **Filtro:** La barra più recente mostra i filtri seguenti:
+   - **Modificato**: è possibile selezionare Sì o No. Se si seleziona sì, nella tabella Mappe e predefiniti verranno visualizzate solo le mappe DITA modificate.
+   - **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Ad esempio, se scegli il predefinito per *Sito AEM*, vengono visualizzate solo le mappe con il predefinito per output *Sito AEM* configurato.
+   - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
+- Tabella **Mappe e predefiniti**: la tabella Mappe e predefiniti presenta le informazioni nelle colonne seguenti:
    - **Mappa**: mostra il titolo del file di mappa DITA.
    - **Nome file**: mostra il nome del file della mappa DITA.
    - **Lingua**: mostra la lingua della mappa DITA.
    - **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
    - **Linea di base**: mostra la linea di base utilizzata dal predefinito di output.  Se non viene utilizzata alcuna linea di base, viene visualizzato un trattino &quot;-&quot;
-   - **Modificato**: indica se la mappa DITA viene aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
-   - **Ultima generazione**: mostra la data e l’ora dell’ultimo output generato.
+   - **Modificato**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
+   - **Ultima generazione**: mostra la data e l&#39;ora dell&#39;ultimo output generato.
 
 ## Configurare e generare l’output utilizzando una raccolta di mappe
 
@@ -72,10 +72,10 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 
 1. Apri la raccolta Mappa.Puoi visualizzare i vari predefiniti di output come Sito AEM, PDF (incluso Native PDF), HTML5, EPUB e Predefiniti personalizzati. Puoi anche visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore.
 
-   Il ![](images/global-preset-icon.svg) icona indica un predefinito a livello di profilo della cartella.
+   L&#39;icona ![](images/global-preset-icon.svg) indica un predefinito a livello di profilo della cartella.
 1. \(Facoltativo\) Effettuare una delle seguenti operazioni in base alle proprie esigenze:
    - Applica i filtri dalla barra a sinistra per filtrare le mappe modificate, il predefinito di output o la lingua.
-   - Se necessario, fai clic su **Modifica** e modificare l&#39;output desiderato attivando o disattivando il pulsante scorrevole.
+   - Se necessario, fare clic su **Modifica** e modificare l&#39;output desiderato attivando o disattivando il pulsante scorrevole.
 
 
 
@@ -86,15 +86,15 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 1. È possibile abilitare i predefiniti per una mappa DITA nei modi seguenti:
 
    - Abilita qualsiasi singolo predefinito.
-   - Abilita **Tutti i predefiniti** per fare in modo che una mappa DITA selezioni tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
-   - Abilita **Predefiniti profilo cartella** per fare in modo che una mappa DITA selezioni tutti i predefiniti di profilo della cartella per essa. Questa opzione è disabilitata per impostazione predefinita.
-     ![modificare una raccolta mappe in cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+   - Abilitare **Tutti i predefiniti** per una mappa DITA per selezionare tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
+   - Abilitare **Predefiniti profilo cartella** per una mappa DITA per selezionare tutti i relativi predefiniti profilo cartella. Questa opzione è disabilitata per impostazione predefinita.
+     ![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
 
 1. Effettua una delle operazioni seguenti:
 
-   - Per generare l&#39;output delle mappe selezionate, selezionate i file di mappa e fate clic su **Genera selezionati**.
+   - Per generare l&#39;output delle mappe selezionate, selezionare i file di mappa e fare clic su **Genera selezionati**.
    - Per generare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, fare clic su **Genera tutto**.
 
    >[!IMPORTANT]
@@ -103,7 +103,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 
 ## Configurare le proprietà dei metadati
 
-Nell&#39;insieme map è possibile configurare le proprietà dei metadati in blocco per le mappe DITA. Seleziona **Configurare i metadati**  per aprire **Metadati risorsa** pagina. Il giorno **Metadati risorsa** , tutte le mappe presenti nella raccolta sono elencate a sinistra.
+Nell&#39;insieme map è possibile configurare le proprietà dei metadati in blocco per le mappe DITA. Selezionare **Configura metadati** per aprire la pagina **Metadati risorsa**. Nella pagina **Metadati risorsa**, tutte le mappe presenti nella raccolta sono elencate a sinistra.
 
 ![configurare i metadati](images/map-collection-asset-metadata.png){width="800" align="left"}
 
@@ -115,31 +115,31 @@ Per configurare le proprietà dei metadati, effettua le seguenti operazioni:
 
 1. Aggiorna le proprietà dei metadati.
 
-1. Clic **Salva e chiudi** per salvare gli aggiornamenti.
-1. (Facoltativo) Quando aggiorni i tag, puoi anche selezionare Aggiungi in **Salva e chiudi** per aggiungere i nuovi tag all’elenco esistente.
-1. Clic **Invia** dal **Salva e chiudi** a discesa.
+1. Fai clic su **Salva e chiudi** in alto per salvare gli aggiornamenti.
+1. (Facoltativo) Quando aggiorni i tag, puoi anche selezionare Aggiungi nel menu a discesa **Salva e chiudi** per aggiungere i nuovi tag all&#39;elenco esistente.
+1. Fai clic su **Invia** dal menu a discesa **Salva e chiudi**.
 Le proprietà dei metadati vengono aggiornate per le mappe DITA selezionate in blocco dalla raccolta di mappe.
 
 >[!NOTE]
 > 
->Per **Stato documento** a discesa, è possibile selezionare solo gli stati del documento che sono consentiti in comune per tutte le mappe DITA selezionate. Per ulteriori informazioni, vedi [**Stato documento**](./web-editor-document-states.md).
+>Per il menu a discesa **Stato documento**, è possibile selezionare solo gli stati del documento che sono consentiti in comune per tutte le mappe DITA selezionate. Per ulteriori informazioni, visualizzare [**Stato documento**](./web-editor-document-states.md).
 
-Le proprietà dei metadati sono sincronizzate con le proprietà del file. Dopo averli aggiornati, puoi visualizzarli dalla sezione **Proprietà file** nell&#39;editor Web.
+Le proprietà dei metadati sono sincronizzate con le proprietà del file. Dopo averli aggiornati, è possibile visualizzarli dal pannello **Proprietà file** nell&#39;editor Web.
 
 
 
 ## Eliminare una raccolta Mappa o una mappa DITA dalla raccolta Mappa
 
-- Per eliminare una raccolta mappa, selezionala nella pagina Mappa raccolta e fai clic su **Elimina**.
-- Per eliminare una mappa DITA da una raccolta di mappe, aprire Raccolta mappe in modalità Modifica, selezionare il file di mappa DITA e fare clic su **Rimuovi da raccolta**.
+- Per eliminare una raccolta mappe, selezionare una raccolta nella pagina Raccolta mappe e fare clic su **Elimina**.
+- Per eliminare una mappa DITA da una raccolta mappe, aprire la raccolta mappe in modalità Modifica, selezionare il file di mappa DITA e fare clic su **Rimuovi da raccolta**.
 
 Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali associati alla mappa DITA dall&#39;insieme Map.
 
 
 ## Annullare un&#39;attività di generazione output da una raccolta di mappe
 
-Simile alla modalità di annullamento di un&#39;attività di generazione output dal [Console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o [Pubblica dashboard](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione dell&#39;output da una raccolta di mappe. Accedi alla scheda Output di una raccolta mappe, vai all’attività di pubblicazione che desideri annullare e fai clic su **Annulla questo processo** per annullare l’attività di pubblicazione.
+Analogamente all&#39;annullamento di un&#39;attività di generazione output dalla [console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o dal [dashboard di Publish](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione output da una raccolta mappe. Accedere alla scheda Output di una raccolta di mappe e passare all&#39;attività di pubblicazione che si desidera annullare, quindi fare clic sull&#39;icona **Annulla questo processo** per annullare l&#39;attività di pubblicazione.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Argomento padre:**[ Generazione di output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

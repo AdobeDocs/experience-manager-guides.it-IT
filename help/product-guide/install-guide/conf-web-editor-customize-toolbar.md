@@ -25,9 +25,9 @@ Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
 ## Aggiungere una feature nella barra degli strumenti
 
-L’aggiunta di una funzionalità all’editor web comporta due attività principali: l’aggiunta di un’icona per la funzione nel *ui\_config.json* e aggiungendo la funzionalità di background in JavaScript.
+L&#39;aggiunta di una funzionalità all&#39;editor Web comporta due attività principali: l&#39;aggiunta di un&#39;icona per la funzionalità nel file *ui\_config.json* e l&#39;aggiunta della funzionalità in background in JavaScript.
 
-**Aggiungi un’icona nella barra degli strumenti**
+**Aggiungere un&#39;icona nella barra degli strumenti**
 
 Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web, effettuare le operazioni riportate di seguito.
 
@@ -41,15 +41,15 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accedi a e apri il `ui_config.json` file in `apps` per la modifica.
+1. Passare al file `ui_config.json` nel nodo `apps` e aprirlo per la modifica.
 
-1. In `ui_config.json` aggiungere la definizione della nuova feature nella sezione barre degli strumenti. In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
+1. Nel file `ui_config.json`, aggiungere la definizione della nuova funzionalità nella sezione delle barre degli strumenti. In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
 
-   - **type:**Specify `blockGroup` come `type` valore. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
+   - **type:**Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
 
    - **extraclass:** Nome della classe o delle classi separate da spazio.
 
-   - **elementi:** Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente `type` all&#39;interno del `items`e impostarne il valore su `buttonGroup`. Specifica uno o più nomi di classe in `extraclass` proprietà. Specificate il nome della feature nella `label` proprietà. Lo snippet seguente proveniente da `ui_config.json` file mostra la definizione del blocco della barra degli strumenti principale, seguito da `buttonGroup` definizione:
+   - **elementi:** Specificare la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
      ```json
      "toolbar": {    
@@ -64,39 +64,39 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
              "items": [
      ```
 
-     All&#39;interno del `items` raccolta, è necessario specificare la definizione per una o più icone della barra degli strumenti.
+     Nell&#39;insieme `items` è necessario specificare la definizione di una o più icone della barra degli strumenti.
 Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario definire le seguenti proprietà:
 
-   - **tipo:** Specifica `button` come `type` valore. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
+   - **tipo:** Specificare `button` come valore `type`. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
 
-   - **icona:** Specificate il nome dell&#39;icona Coral da utilizzare nella barra degli strumenti.
+   - **icona:** Specificare il nome dell&#39;icona Coral che si desidera utilizzare nella barra degli strumenti.
 
-   - **variante:** Specifica `quiet` come `variant` valore.
+   - **variante:** Specificare `quiet` come valore `variant`.
 
-   - **titolo:** Specifica la descrizione comando per l’icona.
+   - **titolo:** Specificare la descrizione comando per l&#39;icona.
 
-   - **clic:** Specifica il nome del comando definito per la funzione nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
+   - **al clic del mouse:** Specificare il nome del comando definito per la funzionalità nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
 
      ```JavaScript
      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
      ```
 
-   - **mostra o nascondi:** Se si sta definendo `show` , quindi specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\), oppure `false` \(nascondi in tutte le modalità\).
+   - **mostra o nascondi:** Se stai definendo la proprietà `show`, specifica le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\) o `false` \(nascondi in tutte le modalità\).
 
-   In sostituzione di `show`, puoi anche definire `hide` proprietà. I valori possibili sono gli stessi di `show` con l’unica differenza che l’icona non viene visualizzata per la modalità specificata.
+   Al posto di `show`, puoi anche definire la proprietà `hide`. I valori possibili sono gli stessi della proprietà `show` con l&#39;unica differenza che l&#39;icona non viene visualizzata per la modalità specificata.
 
-1. Creare un *clientlib* e aggiungi il tuo JavaScript a questa cartella.
+1. Crea una cartella *clientlib* e aggiungi il tuo JavaScript in questa cartella.
 
-1. Aggiornare la proprietà Categories del *clientlib* assegnandogli il valore di *apps.fmdita.xml\_editor.page\_overrides*.
+1. Aggiorna la proprietà Categories della cartella *clientlib* assegnandole il valore di *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Salva il *ui\_config.json* e ricaricare l&#39;editor Web.
+1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
 **Esempi di codice JavaScript**
 
-Questa sezione fornisce due esempi di codice JavaScript utili per iniziare ad aggiungere funzionalità personalizzate. L’esempio seguente mostra il numero di versione delle guide AEM quando un utente fa clic sull’icona Mostra versione nella barra degli strumenti.
+Questa sezione fornisce due esempi di codice JavaScript utili per iniziare ad aggiungere funzionalità personalizzate. L’esempio seguente mostra il numero di versione di AEM Guides quando un utente fa clic sull’icona Mostra versione nella barra degli strumenti.
 
-Aggiungi il seguente codice a un file JavaScript:
+Aggiungi il codice seguente a un file JavaScript:
 
 ```JavaScript
 /**
@@ -218,14 +218,14 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accedi a e apri il `ui_config.json` file in `apps` per la modifica.
-Il `ui_config.json` Il file è suddiviso in tre sezioni:
+1. Passare al file `ui_config.json` nel nodo `apps` e aprirlo per la modifica.
+Il file `ui_config.json` è suddiviso in tre sezioni:
 
 - **barre degli strumenti:**   Questa sezione contiene la definizione di tutte le funzioni disponibili nella barra degli strumenti dell’editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
 
 - **collegamenti:**   Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
 
-- **modelli:**   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se desideri aggiungere una `p` con ogni nuovo elemento `li` in un elenco, puoi aggiungere il seguente codice alla fine della sezione modelli per ottenere questo risultato:
+- **modelli:**   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -233,7 +233,7 @@ Il `ui_config.json` Il file è suddiviso in tre sezioni:
 
 1. Dalla sezione delle barre degli strumenti, rimuovere la voce della caratteristica che non si desidera esporre agli utenti.
 
-1. Salva il *ui\_config.json* e ricaricare l&#39;editor Web.
+1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

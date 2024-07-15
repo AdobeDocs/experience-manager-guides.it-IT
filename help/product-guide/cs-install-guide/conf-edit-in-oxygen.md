@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Configurare l’opzione da modificare in Ossigeno
 
-Le guide AEM consentono inoltre agli utenti di modificare gli argomenti e le mappe DITA nel plugin del connettore ossigeno.
+AEM Guides consente inoltre agli utenti di modificare gli argomenti e le mappe DITA nel plug-in del connettore ossigeno.
 
-Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare **Modifica in ossigeno** opzione:
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare l&#39;opzione **Modifica in ossigeno**:
 
 
 
@@ -28,4 +28,4 @@ Utilizzare le istruzioni fornite in [Sostituzioni configurazione](download-insta
 >
 > Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor web.
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

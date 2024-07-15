@@ -16,17 +16,17 @@ ht-degree: 0%
 
 L’editor web fornisce una potente funzione di traduzione per tradurre il contenuto in più lingue.
 
-È possibile utilizzare **Gestisci** nell’Editor web per tradurre i contenuti. Questa scheda è disponibile per impostazione predefinita.
+Puoi utilizzare la scheda **Gestisci** nell&#39;editor Web per tradurre i contenuti. Questa scheda è disponibile per impostazione predefinita.
 
-Per nascondere **Gestisci** nell&#39;Editor Web, effettuare le seguenti operazioni:
+Per nascondere la scheda **Gestisci** nell&#39;editor Web, effettuare le seguenti operazioni:
 
 1. Accedi a **Adobe Experience Manager** come amministratore.
-1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
-1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
-1. Fai clic sul pulsante **Profilo globale** affiancare.
-1. Fai clic su **Configurazione editor XML**.
-1. Fai clic su **Modifica** nella parte superiore.
-1. Scarica il file `ui\_config.json` file.Rimuovere il seguente frammento di codice dal file scaricato:
+1. Fai clic sul collegamento **Adobe Experience Manager** in alto e scegli **Strumenti**.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
+1. Fai clic sul riquadro **Profilo globale**.
+1. Fare clic su **Configurazione editor XML**.
+1. Fai clic sull&#39;icona **Modifica** in alto.
+1. Scarica il file `ui\_config.json`.Rimuovi il seguente frammento di codice dal file scaricato:
 
    ```json
    {
@@ -46,6 +46,6 @@ Per nascondere **Gestisci** nell&#39;Editor Web, effettuare le seguenti operazio
 
 1. Carica il file ui\_config.json aggiornato.
 
-Tieni presente che **Gestisci** Il filtro non è più disponibile.
+Il filtro **Gestisci** non è più disponibile.
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

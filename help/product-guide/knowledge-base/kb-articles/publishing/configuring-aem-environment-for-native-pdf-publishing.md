@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Configurazione dell’ambiente AEM per la pubblicazione di PDF nativi
 
-Le guide AEM includono un motore di pubblicazione PDF nativo che consente agli utenti di progettare, sviluppare e pubblicare i contenuti in formato PDF.
+AEM Guides include un motore di pubblicazione nativo di PDF che consente agli utenti di progettare, sviluppare e pubblicare il contenuto in formato PDF.
 
 Consente di creare layout di pagina e modelli CSS diversi e di progettare i modelli di PDF insieme ai layout di pagina e agli stili CSS.
 
-I passaggi per la configurazione di questo PDF nativo nelle guide AEM variano a seconda del sistema operativo. Utilizza i passaggi di configurazione seguenti in base al sistema operativo in cui è installato AEM.
+I passaggi per la configurazione di Native PDF in AEM Guides variano a seconda del sistema operativo. Utilizza i passaggi di configurazione seguenti in base al sistema operativo in cui è installato AEM.
 
 ## Prerequisiti
 
@@ -93,7 +93,7 @@ Il motore di pubblicazione nativo di PDF richiede il JDK Oracle per generare i m
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
 5. Riavviare il server AEM e passare al passaggio 12, se si utilizza la versione 4.2 o successiva delle Guide.
-6. Copia il &quot;_node_modules.zip_&quot; collegato in fondo a questo articolo alla directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+6. Copia il &quot;_node_modules.zip_&quot; allegato in fondo a questo articolo nella directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Apri terminale nella posizione crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Elimina directory node_modules tramite il comando sottostante
 
@@ -105,13 +105,13 @@ Il motore di pubblicazione nativo di PDF richiede il JDK Oracle per generare i m
 
 10. Se il comando unzip non viene installato o riconosciuto, è possibile installarlo utilizzando il comando seguente
 
-   **decompressione installazione yum**
+   **yum installazione dezip**
 
 11. Installare il pacchetto fontconfig.
 Comando: yum install fontconfig
 12. Genera PDF nativi dai predefiniti nell’editor web.
 
-**NOTA** : il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**NOTA**: il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativo Linux è una soluzione alternativa per gli utenti che utilizzano le Guide 4.1 o versioni precedenti (Passaggi 6-12)
 
@@ -142,11 +142,13 @@ L&#39;importazione manuale dei moduli dei nodi scaricati per il sistema operativ
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) trovare . -type d -exec chmod 0755 {} \; ii) trovare . -tipo f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
+   i) trovare . -type d -exec chmod 0755 {} \;
+ii) trovare . -type f -exec chmod 0755 {} \;
+iii)./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefisso . install —unsafe-perm —scripts-prepend-node-path
 
 8. Verifica se Java è installato con il comando seguente
 
-   i) Esecuzione **./node-darwin/bin/node** comando dalla cartella /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Eseguire **.comando /node-darwin/bin/node** da /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
    ![mac](../assets/publishing/mac.png)
 
@@ -163,7 +165,7 @@ Di seguito sono riportati gli errori comuni che possono verificarsi durante la g
 
 ### Eccezione Null Pointer in Windows/Mac OS
 
-![eccezione Null Pointer](../assets/publishing/null-pointer-exception.png)
+![eccezione puntatore null](../assets/publishing/null-pointer-exception.png)
 
 Se il problema persiste anche dopo aver corretto le impostazioni dell’ambiente Java, riconvalida quanto segue:
 
@@ -175,7 +177,7 @@ Se il problema persiste anche dopo aver corretto le impostazioni dell’ambiente
 
 ![librerie mancanti](../assets/publishing/missing-libraries.png)
 
-### Timeout del processo di pubblicazione. Il processo non è stato completato nel tempo specificato (0 ms)
+### Timeout del processo Publish. Il processo non è stato completato nel tempo specificato (0 ms)
 
 ![timeout del processo di pubblicazione](../assets/publishing/publish-process-timeout.png)
 
@@ -183,4 +185,4 @@ Convalida il valore della proprietà timeout per il nodo nodejs in /var/dxml/pro
 
 
 
-In caso di problemi durante l’esecuzione di uno dei passaggi precedenti, invia una domanda alla community delle guide dell’AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per assistenza.
+In caso di problemi durante l&#39;esecuzione di uno dei passaggi precedenti, invia una domanda al [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per assistenza.

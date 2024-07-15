@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurare i filtri di testo {#id21BPD0FK0XA}
 
-Le guide AEM consentono di cercare testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento chiave.
+AEM Guides offre la funzione di cercare testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento chiave.
 
 Per impostazione predefinita, è possibile utilizzare alcuni filtri migliorati per eseguire ricerche nei file nell’archivio AEM. È possibile filtrare tutti i file DITA o i file non DITA presenti nel percorso selezionato. È inoltre possibile cercare valori specifici negli attributi degli elementi DITA. È inoltre possibile cercare i file estratti dall&#39;utente specificato.
 
@@ -25,11 +25,11 @@ Per impostazione predefinita, è possibile utilizzare alcuni filtri migliorati p
 Per configurare i filtri di testo, effettua le seguenti operazioni:
 
 1. Accedi a Adobe Experience Manager come amministratore.
-1. Fai clic sul pulsante **Adobe Experience Manager** collegamento in alto e scelta **Strumenti**.
-1. Seleziona **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
-1. Fai clic sul pulsante **Profilo globale** affiancare.
-1. Fai clic su **Configurazione editor XML**.
-1. Fai clic su **Modifica** nella parte superiore.
+1. Fai clic sul collegamento **Adobe Experience Manager** in alto e scegli **Strumenti**.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
+1. Fai clic sul riquadro **Profilo globale**.
+1. Fare clic su **Configurazione editor XML**.
+1. Fai clic sull&#39;icona **Modifica** in alto.
 1. Scarica il file ui\_config.json.
 1. Configura i filtri nel file. Puoi anche aggiungere filtri personalizzati, come illustrato nell’esempio seguente:
 
@@ -92,14 +92,14 @@ Per configurare i filtri di testo, effettua le seguenti operazioni:
 
    Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
-   - **Titolo:** Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+   - **Titolo:** il nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
-   - **Proprietà:** Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati dita\_class, il filtro proprietà accetta &quot;jcr:content/metadata/dita\_class&quot; come valore.
+   - **Proprietà:** proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati dita\_class, il filtro proprietà accetta &quot;jcr:content/metadata/dita\_class&quot; come valore.
 
-   - **Operazione** Specifica &quot;exists&quot; (esiste) per rilevare l’esistenza del valore specificato nel parametro della proprietà
+   - **Operazione** Specificare &quot;exists&quot; da associare per l&#39;esistenza del valore specificato nel parametro della proprietà
 
 1. Carica il file ui\_config.json aggiornato contenente i filtri aggiunti.
 
 I filtri configurati sono disponibili nel pannello dei filtri.
 
-**Argomento padre:**[ Personalizza editor web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

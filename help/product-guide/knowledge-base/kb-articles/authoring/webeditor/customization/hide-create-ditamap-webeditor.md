@@ -1,13 +1,13 @@
 ---
 title: Nascondi l'opzione Crea DitaMap dal menu di scelta rapida Cartella per utenti o gruppi specifici.
 description: Scopri come personalizzare l’editor web nascondendo l’opzione "DitaMap" dal menu di scelta rapida delle cartelle per utenti/gruppi specifici
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # Mostra/Nascondi &#39;Crea DitaMAP&#39; dal menu di scelta rapida delle cartelle nell&#39;editor Web
 
@@ -17,7 +17,7 @@ In questo caso d’uso questa opzione verrà nascosta per tutti gli utenti non a
 ## Prerequisiti
 
 Sfrutteremo il pacchetto dell’estensione AEM Guides che consente di personalizzare l’interfaccia utente dell’app in base alle tue esigenze.
-Passare attraverso questo [documentazione](https://github.com/adobe/guides-extension/tree/main) per ottenere ulteriori informazioni sul funzionamento di Guides Extension Framework.
+Consulta questa [documentazione](https://github.com/adobe/guides-extension/tree/main) per ulteriori informazioni sul funzionamento di Guides Extension Framework.
 
 Ora iniziamo e scopri come personalizzare il menu di scelta rapida delle cartelle per nascondere questa opzione per tutti gli utenti non autori.
 
@@ -126,11 +126,11 @@ Questo caso d’uso è stato aggiunto a GIT. Di seguito trovi le relative risors
 
 ### Risorse correlate
 
-- **Archivio base framework estensione** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Archivio base framework estensioni** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentazione** - [su Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentazione** - [sull&#39;Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casi d’uso comuni documentati** - [su Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Casi d&#39;uso comuni documentati** - [sull&#39;Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Archivio pubblico con esempi** - [su GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Consulta la filiale sc-expert-session
 
