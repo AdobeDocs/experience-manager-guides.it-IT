@@ -5,10 +5,10 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,12 @@ throws GuidesApiException
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|``sourcePath``|Stringa|Percorso \(nell&#39;archivio AEM\) del file di mappa DITA per il quale deve essere generato l&#39;output.|
-|``outputName``|Stringa|Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| ``sourcePath`` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA per il quale deve essere generato l&#39;output. |
+| ``outputName`` | Stringa | Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`. |
 
 **Eccezione**:
 Genera ``javax.jcr.RepositoryException``, `java.io.IOException` e `java.lang.Exception`.
