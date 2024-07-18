@@ -3,14 +3,44 @@ title: Personalizzazione dell’app
 description: Personalizzazione dell’app
 role: User, Admin
 exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 3615928117ce1be527dc3c6d2ec8ddd115b78b0a
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # Personalizzazione dell’app
+
+## Funzionalità esposte nel framework dell’estensione
+
+È stato esposto un set di funzioni e getter in un `proxy` che possono essere utilizzati per accedere ai dati, configurare ed attivare gli eventi. Di seguito è riportato un elenco e le modalità di accesso.
+
+```typescript
+interface EventData {
+  key?: string,
+  keys?: string[]
+  view?: any,
+  next?: any,
+  error?: any,
+  completed?: any,
+  id?: any
+}
+
+* getValue(key)
+* setValue(key, value)
+* subject // getter
+* subscribe(opts: EventData)
+* subscribeAppEvent(opts: EventData)
+* subscribeAppModel(key, next)
+* subscribeParentEvent(opts: EventData)
+* parentEventHandlerNext(eventName: string, opts: any)
+* appModelNext(eventName:string, opts) 
+* appEventHandlerNext(eventName:string, opts)
+* next(eventName:string, opts, eventHandler?)
+* viewConfig //getter
+* args //getter
+```
 
 La nostra app segue una struttura MVC (Model, View, Controller)
 
@@ -89,8 +119,8 @@ in questo caso, `extraProps.buttonLabel` contiene l&#39;etichetta del pulsante
 
 ```typescript
   controller: {
-    init: function (context) {
-      context.setValue("buttonLabel", "Submit")
+    init: function () {
+      this.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
@@ -102,3 +132,111 @@ in questo caso, `extraProps.buttonLabel` contiene l&#39;etichetta del pulsante
 
 Sotto GIF mostra il codice di cui sopra in azione
 ![personalizzazione di base](imgs/basic_customisation.gif "Pulsante Personalizzazione di base")
+
+
+### Esempio di configurazione della visualizzazione
+
+In questo caso, l&#39;evento della modalità di ricerca verrà aperto utilizzando `viewConfig` e verrà attivato un evento per aggiornarlo
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        console.log('Logging view config ', this.viewConfig)
+        this.next(this.viewConfig.items[1].searchModeChangedEvent, { searchMode: true })
+      }
+    }
+  }
+```
+
+### Esempio di abbonamento
+
+In questo caso, quando si fa clic sull’opzione Rinomina file, viene aggiunta la sottoscrizione al registro della console al momento della ridenominazione
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribe({
+          key: 'rename',
+          next: () => { console.log('rename using extension') }
+        })
+      }
+    }
+  }
+```
+
+### Esempio di evento &quot;Subscribe app&quot;
+
+In questo caso, l’accesso al documento attivo viene console modificato (modifica delle schede nell’interfaccia utente dell’editor)
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppEvent({
+          key: 'app.active_document_changed',
+          next: () => { console.log('Extension: active document changed') }
+        })
+      }
+    }
+  }
+```
+
+### Esempio di eventi del modello di app Subscribe
+
+Esempio per la sottoscrizione di eventi del modello di app come `app.mode`
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeAppModel('app.mode',
+          () => { console.log('app mode subs') }
+        )
+      }
+    }
+  }
+```
+
+### Esempio di eventi del controller padre
+
+In questo viene aggiunta la sottoscrizione all&#39;evento `tabChange` che è un evento del controller `left_panel_container` che agisce
+come controller padre per `repository_panel`
+
+```typescript
+  { 
+    id: 'repository_panel', 
+    controller: {
+      init: function () {
+        this.subscribeParentEvent({
+          key: 'tabChange',
+          next: () => { console.log('tab change subs') }
+        })
+        this.parentEventHandlerNext('tabChange', {
+          data: 'map_panel'
+        )
+      }
+    }
+  }
+```
+
+### Modello app e controller app successivo
+
+Possono essere attivati direttamente conoscendo l’evento corretto da attivare e i relativi dati
+
+```typescript
+  { 
+    id: 'file_options', 
+    controller: {
+      init: function () {
+        this.appModelNext('app.mode', 'author')
+        this.appEventHandlerNext('app.active_document_changed', 'active doc changed')   
+      }
+    }
+  } 
+```
