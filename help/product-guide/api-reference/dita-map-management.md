@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,10 +24,11 @@ Metodo di GET che scarica una mappa DITA con tutti i relativi dipendenti, ad ese
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/exportditamap
 
 **Parametri**:
-|Nome|Tipo|Obbligatorio|Descrizione|
-----|----|--------|-----------|
-|`ditamap`|Stringa|Sì|Percorso assoluto del file mappa DITA nell&#39;archivio AEM.|
-|`baseline`|Stringa|No|Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole. |
+
+| Nome | Tipo | Obbligatorio | Descrizione |
+|----|----|--------|-----------|
+| `ditamap` | Stringa | Sì | Percorso assoluto del file mappa DITA nell&#39;archivio AEM. |
+| `baseline` | Stringa | No | Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole. |
 
 **Valori risposta**:
 Un file .zip il cui contenuto viene scritto nel flusso di output della risposta.

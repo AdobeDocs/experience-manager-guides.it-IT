@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,16 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`path`|Stringa|Percorso del file che ha attivato l&#39;evento. <br> Ad esempio, `/content/output/sites/ditamap1-ditamap`. <br> È un elenco di percorsi serializzati come array JSON.|
-|`messageType`|Stringa|Tipo di messaggio. <br>Opzione possibile: `REPLICATION`|
-|`action`|Stringa|Questa è l&#39;azione eseguita. <br>Opzione possibile: `BulkReplicate`|
-|`user`|Stringa|Utente che ha avviato l&#39;operazione.|
-|`result`|Stringa|Risultato dell&#39;attivazione in blocco. È un oggetto JSON serializzato: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|Stringa|L&#39;agentId utilizzato nella replica. Esempio: `"publish"`.|
-|`importMode`|Stringa|Modalità di importazione utilizzata in Activation. Le opzioni possibili sono: <br>`REPLACE, MERGE, UPDATE`.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `path` | Stringa | Percorso del file che ha attivato l&#39;evento. <br> Ad esempio, `/content/output/sites/ditamap1-ditamap`. <br> È un elenco di percorsi serializzati come array JSON. |
+| `messageType` | Stringa | Tipo di messaggio. <br>Opzione possibile: `REPLICATION` |
+| `action` | Stringa | Questa è l’azione eseguita. <br>Opzione possibile: `BulkReplicate` |
+| `user` | Stringa | Utente che ha avviato l&#39;operazione. |
+| `result` | Stringa | Risultato dell&#39;attivazione in blocco. È un oggetto JSON serializzato: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | Stringa | L’agentId utilizzato nella replica. Esempio: `"publish"`. |
+| `importMode` | Stringa | Modalità di importazione utilizzata in Activation. Opzioni possibili: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Listener di eventi di esempio**:

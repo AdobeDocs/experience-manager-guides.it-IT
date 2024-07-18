@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ Metodo POST che aggiunge attributi condizionali a un determinato profilo a livel
 **URL richiesta**:\
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/folderprofiles
 
-**Parametri**:\
-|Nome|Tipo|Obbligatorio|Descrizione|
-----|----|--------|-----------|
-|`:operation`|Stringa|Sì|Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``ADDATTRIBUTEPROFILES``. <br> **Nota:** il valore non distingue tra maiuscole e minuscole.|
-|`profilename`|Stringa|Sì|Nome visualizzato del profilo a livello di cartella in cui devono essere aggiunti gli attributi condizionali.|
-|`conditionalprofiles`|Array JSON|Sì|Array JSON costituito dal nome e dai valori dell&#39;attributo condizionale. Il seguente snippet di codice di esempio mostra l’array JSON con due attributi - `platform` e `product` a cui sono assegnati più valori.|
+**Parametri**:
+
+| Nome | Tipo | Obbligatorio | Descrizione |
+|----|----|--------|-----------|
+| `:operation` | Stringa | Sì | Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``ADDATTRIBUTEPROFILES``. <br> **Nota:** il valore non distingue tra maiuscole e minuscole. |
+| `profilename` | Stringa | Sì | Nome visualizzato del profilo a livello di cartella in cui devono essere aggiunti gli attributi condizionali. |
+| `conditionalprofiles` | Array JSON | Sì | Array JSON costituito dal nome e dai valori dell’attributo condizionale. Il seguente snippet di codice di esempio mostra l’array JSON con due attributi - `platform` e `product` a cui sono assegnati più valori. |
 
 ```JSON
 [  {    name: "platform",    
