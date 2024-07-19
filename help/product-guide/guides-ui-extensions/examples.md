@@ -1,9 +1,9 @@
 ---
 title: Esempi
 description: Elenco di esempi di personalizzazione
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ In questo file, viene calcolato e assegnato l&#39;ID commento univoco, indicato 
 
 6. [Accetta con finestra di dialogo per modifica](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Questo è un esempio di aggiunta di nuovi widget all’app. È stata creata una nuova finestra di dialogo con due campi di testo di input: `Revised Text` e `Adjudicator Comment Rationale`
+
+7. [Salva revisione](./examples/save_revision.ts)
+Questo è un esempio di come aggiornare una finestra di dialogo esistente. Aggiungiamo un pulsante per la pubblicazione in questo. È consentita la modifica del contenuto della finestra di dialogo. Fai riferimento al relativo json qui: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Accetta con finestra di dialogo per modifica](./imgs/accept_with_modification_dialogue.png)
 
