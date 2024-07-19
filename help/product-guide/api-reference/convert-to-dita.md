@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
+source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -44,12 +44,13 @@ Metodo GET che converte i documenti HTML in formato DITA.
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/conversion
 
 **Parametri**:
-|Nome|Tipo|Obbligatorio|Descrizione|
-----|----|--------|-----------|
-|`operation`|Stringa|Sì|Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``html2dita``. <br> **Nota:** il valore non distingue tra maiuscole e minuscole.|
-|`inputFile`|Stringa|Sì|Percorso assoluto dei file HTML di origine nell&#39;archivio AEM.|
-|`destPath`|Stringa|Sì|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.|
-|`createRev`|Booleano|Sì|Specificare se viene creata una revisione dei file \( `true`\) nella destinazione specificata o meno \( `false`\). Questa opzione viene considerata solo se il percorso di destinazione contiene una versione esistente dei file convertiti.|
+
+| Nome | Tipo | Obbligatorio | Descrizione |
+|----|----|--------|-----------|
+| `operation` | Stringa | Sì | Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``html2dita``. <br> **Nota:** il valore non distingue tra maiuscole e minuscole. |
+| `inputFile` | Stringa | Sì | Percorso assoluto dei file HTML di origine nell’archivio AEM. |
+| `destPath` | Stringa | Sì | Percorso assoluto della posizione di destinazione in cui verranno salvati i file DITA convertiti. |
+| `createRev` | Booleano | Sì | Specificare se creare una revisione dei file \( `true`\) nella destinazione specificata o meno \( `false`\). Questo viene considerato solo quando il percorso di destinazione contiene una versione esistente dei file convertiti. |
 
 **Valori risposta**:
 Restituisce una risposta HTTP 200 \(Riuscito\).
