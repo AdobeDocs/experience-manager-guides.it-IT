@@ -4,7 +4,7 @@ description: Ultima versione di Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ Queste note sulla versione descrivono le istruzioni per l&#39;aggiornamento, le 
 ## Effettua l’aggiornamento alla versione più recente
 
 Puoi aggiornare facilmente la versione corrente di AEM Guides alla versione 4.1.3. Prima di procedere con l’aggiornamento alla versione 4.1.3 di AEM Guides, è necessario considerare i seguenti punti:
+
 * Se utilizzi la versione 4.1 o 4.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.1.3.
 * Se utilizzi la versione 4.0.x, devi effettuare l’aggiornamento alla versione 4.1 o 4.1.x prima di passare alla versione 4.1.3.
 * Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0.x prima di passare alla versione 4.1.
@@ -343,7 +344,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L&#39;elenco degli elementi (ALT+INVIO) appare in grigio nel tema scuro/più scuro. (7913)
 * La versione non viene aggiornata quando si salva la revisione di un argomento dalla barra degli strumenti del pannello Mappa. (8228)
 * impossibile inserire xref anche in posizioni valide. (8354)
-* L’operazione &quot;getversionlabels&quot; presenta limitazioni e non fornisce le prestazioni previste. (8513)
+* L&#39;operazione &#39;getversionlabels&#39; presenta limitazioni e non fornisce le prestazioni previste. (8513)
 * Si verificano dei problemi con la finestra di dialogo di conferma alla chiusura di un file bloccato o modificato che non è attualmente aperto nell’editor. (8692)
 * Si verifica un errore quando si aggiunge un utente come amministratore nel profilo della cartella quando l’ID utente è numerico. (8908)
 * Il pannello Traduzione è visibile anche all&#39;apertura della mappa DITA nell&#39;Editor mappa. (9053)
@@ -360,7 +361,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La descrizione dell’attività di revisione non viene visualizzata nella notifica e-mail inviata quando viene assegnata una nuova attività di revisione. (8507)
 * Scarica API mappa | Le cartelle temporanee non vengono pulite in caso di errori del processo di download. (8523)
 * `columnpreview.jsp` dipende dall&#39;SP.  (8543)
-* I processi di output con stato come &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di Publish.  (8569)
+* I processi di output con lo stato &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di Publish.  (8569)
 * Icona predefinita selezionata al momento della generazione di un rapporto utilizzando il pulsante Genera, anche quando la proprietà dell’icona è definita. (8573)
 * Si verificano dei problemi durante il processo di revisione durante l’aggiornamento da 3.8.X a 4.0. (8788)
 * Nel pannello Revisione dell&#39;Editor Web, se un nome utente è lungo, le icone da accettare/rifiutare non vengono visualizzate chiaramente. (8793)
@@ -391,7 +392,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L’icona Blocca viene visualizzata nella vista archivio anche quando il file viene archiviato dall’editor.  (5756)
 * Impossibile aggiungere elementi di frontmatter o di backmatter in una mappa segnalibro utilizzando la visualizzazione Autore dell&#39;editor Web. (7652)
 * La modalità Anteprima non supporta l&#39;attributo di elaborazione condizionale `deliveryTarget` in DITA. (7685)
-* All’apertura di un argomento del glossario nell’editor XML, AEM forza il salvataggio anche se non è stato modificato. (8105)
+* All&#39;apertura di un argomento del glossario nell&#39;editor XML, AEM forza il salvataggio anche se non è stato modificato. (8105)
 * Viene visualizzata la finestra di dialogo Inserisci riferimenti quando si aggiunge un riferimento soggetto a una mappa mediante l&#39;interfaccia utente. (8212)
 * Il riutilizzo del pannello del contenuto si blocca durante la ricerca di caratteri speciali `[` o `*`.(8279)
 * Durante l&#39;authoring di Glossentry, l&#39;editor Web mostra il contenuto come una nota. (8384)
@@ -400,7 +401,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Impossibile chiudere un argomento sbloccato. (8545)
 * Non esiste alcuna opzione per scegliere il percorso della Knowledge Base nei predefiniti di pubblicazione basati su articoli. (8636)
 * Attributi mancanti quando si aggiunge un capitolo a una mappa segnalibro mediante trascinamento dalla vista Preferiti. (8746)
-* La finestra di dialogo Inserisci parola chiave non è disponibile e le parole chiave non sono elencate in ordine ordinato. 9094
+* La finestra di dialogo Inserisci parola chiave non dispone della funzionalità di ricerca e le parole chiave non sono elencate in ordine. 9094
 * L&#39;esecuzione di una ricerca nell&#39;editor XML determina il blocco della pagina. (9452)
 * Siti mancanti nei predefiniti AEM nella scheda Output. (9567)
 * Immagini SVG che non vengono riprodotte correttamente nelle modalità di creazione di XML Editor. (9426)

@@ -3,9 +3,9 @@ title: Note sulla versione | Novità di Adobe Experience Manager Guides versione
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 4.4.0
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Ora Experience Manager Guides offre una funzione avanzata di cronologia delle ve
 ![Finestra di dialogo Cronologia versioni](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
-
-Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versioni** nella sezione [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versioni** nella sezione [Pannello sinistro (legacy)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Gestire i predefiniti per le condizioni
 
@@ -264,7 +263,7 @@ Oltre a pubblicare le pagine in base al documento di origine, è possibile modif
 
 ### Ordinare i termini del glossario in base ai tasti di ordinamento
 
-Ora è anche possibile ordinare i termini del glossario in base ai tasti di ordinamento. È possibile utilizzare il tag ‘sort-as’ per definire una chiave di ordinamento per i termini del glossario. Quindi, puoi ordinarli in base ai tasti di ordinamento al posto dei termini. Questo consente di ordinare i termini del glossario in base ai termini utilizzati in lingue diverse. È inoltre possibile definire una singola chiave di ordinamento per un termine del glossario con una frase o un gruppo di parole.
+Ora è anche possibile ordinare i termini del glossario in base ai tasti di ordinamento. È possibile utilizzare il tag &#39;sort-as&#39; per definire una chiave di ordinamento per i termini del glossario. Quindi, puoi ordinarli in base ai tasti di ordinamento al posto dei termini. Questo consente di ordinare i termini del glossario in base ai termini utilizzati in lingue diverse. È inoltre possibile definire una singola chiave di ordinamento per un termine del glossario con una frase o un gruppo di parole.
 Per ulteriori dettagli, visualizzare le [Impostazioni avanzate di PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
