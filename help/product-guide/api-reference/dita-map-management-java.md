@@ -5,10 +5,10 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|`sourcePath`|Stringa|Percorso \(nell&#39;archivio AEM\) del file mappa DITA da scaricare.|
-|`outputStream`|java.io.OutputStream|Flusso in cui scrivere il file ZIP.|
-|`baseline`|Stringa|Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole.|
-|flatFS|Boolean|\(Facoltativo\) Se impostato su true, nel file ZIP viene restituita una struttura di file flat. Ad esempio, se la mappa DITA fa riferimento a contenuto in più cartelle, tutti i file di riferimento vengono estratti in un&#39;unica cartella. Nel caso vi siano file con lo stesso nome, tali file vengono rinominati aggiungendo un suffisso numerico. Tutti i riferimenti \(in mappa DITA e argomenti\) vengono gestiti automaticamente, in quanto vengono aggiornati in base alla nuova posizione dei file nella struttura di cartelle flat. Se impostato su false, la struttura delle cartelle viene mantenuta invariata nel file ZIP. Se la mappa DITA fa riferimento a file provenienti da più posizioni, anche tutte queste posizioni vengono create nel file ZIP. Quando si ripristina il file ZIP, viene creata la struttura di cartelle esatta nel percorso di destinazione. <br> Il valore predefinito per questo parametro è false.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| `sourcePath` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA da scaricare. |
+| `outputStream` | java.io.OutputStream | Flusso in cui scrivere il file ZIP. |
+| `baseline` | Stringa | Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole. |
+| flatFS | Booleano | \(Facoltativo\) Se impostato su true, nel file ZIP viene restituita una struttura semplice di file. Ad esempio, se la mappa DITA fa riferimento a contenuto in più cartelle, tutti i file di riferimento vengono estratti in un&#39;unica cartella. Nel caso vi siano file con lo stesso nome, tali file vengono rinominati aggiungendo un suffisso numerico. Tutti i riferimenti \(in mappa DITA e argomenti\) vengono gestiti automaticamente, in quanto vengono aggiornati in base alla nuova posizione dei file nella struttura di cartelle flat. Se impostato su false, la struttura delle cartelle viene mantenuta invariata nel file ZIP. Se la mappa DITA fa riferimento a file provenienti da più posizioni, anche tutte queste posizioni vengono create nel file ZIP. Quando si ripristina il file ZIP, viene creata la struttura di cartelle esatta nel percorso di destinazione. <br> Il valore predefinito per questo parametro è false. |
 
 **Restituisce**:
 Il contenuto del file ZIP è scritto in `outputStream`.
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|`sourcePath`|Stringa|Percorso \(nell&#39;archivio AEM\) del file mappa DITA da scaricare.|
-|`baseline`|Stringa|Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole.|
-|flatFS|Boolean|\(Facoltativo\) Se impostato su true, nel file ZIP viene restituita una struttura di file flat. Ad esempio, se la mappa DITA fa riferimento a contenuto in più cartelle, tutti i file di riferimento vengono estratti in un&#39;unica cartella. Nel caso vi siano file con lo stesso nome, tali file vengono rinominati aggiungendo un suffisso numerico. Tutti i riferimenti \(in mappa DITA e argomenti\) vengono gestiti automaticamente, in quanto vengono aggiornati in base alla nuova posizione dei file nella struttura di cartelle flat. Se impostato su false, la struttura delle cartelle viene mantenuta invariata nel file ZIP. Se la mappa DITA fa riferimento a file provenienti da più posizioni, anche tutte queste posizioni vengono create nel file ZIP. Quando si ripristina il file ZIP, viene creata la struttura di cartelle esatta nel percorso di destinazione.<br> Il valore predefinito per questo parametro è false.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| `sourcePath` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA da scaricare. |
+| `baseline` | Stringa | Titolo della linea di base utilizzata per recuperare il contenuto con versione. <br> **Nota:** il valore fa distinzione tra maiuscole e minuscole. |
+| flatFS | Booleano | \(Facoltativo\) Se impostato su true, nel file ZIP viene restituita una struttura semplice di file. Ad esempio, se la mappa DITA fa riferimento a contenuto in più cartelle, tutti i file di riferimento vengono estratti in un&#39;unica cartella. Nel caso vi siano file con lo stesso nome, tali file vengono rinominati aggiungendo un suffisso numerico. Tutti i riferimenti \(in mappa DITA e argomenti\) vengono gestiti automaticamente, in quanto vengono aggiornati in base alla nuova posizione dei file nella struttura di cartelle flat. Se impostato su false, la struttura delle cartelle viene mantenuta invariata nel file ZIP. Se la mappa DITA fa riferimento a file provenienti da più posizioni, anche tutte queste posizioni vengono create nel file ZIP. Quando si ripristina il file ZIP, viene creata la struttura di cartelle esatta nel percorso di destinazione.<br> Il valore predefinito per questo parametro è false. |
 
 **Restituisce**:
 Il nodo del file zip è racchiuso nella classe `CompletableFuture`. L&#39;utente può continuare a gestirlo in modo asincrono e può utilizzare il metodo `.get()` del futuro per bloccare il thread quando il nodo è necessario. Il valore restituito può inoltre terminare con un errore e può essere gestito con il metodo `.exceptionally()`.
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|`sourcePath`|Stringa|Percorso \(nell&#39;archivio AEM\) del file mappa DITA per il quale devono essere recuperate le informazioni della baseline.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| `sourcePath` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA per il quale devono essere recuperate le informazioni di base. |
 
 **Restituisce**:
 Elenco di `HashMap` oggetti. Ogni oggetto `HashMap` rappresenta una baseline e contiene il nome e il titolo della baseline.
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|`sourcePath`|Stringa|Percorso \(nell&#39;archivio AEM\) del file mappa DITA per il quale devono essere recuperate le informazioni sul predefinito condizionale.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| `sourcePath` | Stringa | Percorso \(nel repository AEM\) del file mappa DITA per il quale devono essere recuperate le informazioni sul predefinito condizionale. |
 
 **Restituisce**:
 Elenco di `HashMap` oggetti. Ogni oggetto `HashMap` rappresenta un predefinito condizionale e contiene il nome e il titolo del predefinito condizionale.
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`session`|javax.jcr.Session|Sessione JCR valida.|
-|`sourcePath`|Stringa|Percorso \(nell&#39;archivio AEM\) del file mappa DITA per il quale deve essere recuperato il file DITAVAL.|
-|`cpName`|Stringa|Nome del predefinito condizionale nella mappa DITA per il quale deve essere recuperato il file DITAVAL.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Una sessione JCR valida. |
+| `sourcePath` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA per il quale deve essere recuperato il file DITAVAL. |
+| `cpName` | Stringa | Nome del predefinito condizionale nella mappa DITA per il quale deve essere recuperato il file DITAVAL. |
 
 **Restituisce**:
 Percorso del file DITAVAL corrispondente al predefinito condizionale definito nel file di mappa DITA.
@@ -189,9 +194,10 @@ public static List
 ```
 
 **Parametri**:
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`rootNode`|javax.jcr.Node|Il nodo principale per il quale devono essere recuperate tutte le dipendenze.|
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `rootNode` | javax.jcr.Node | Il nodo principale per il quale devono essere recuperate tutte le dipendenze. |
 
 **Restituisce**:
 Elenco di nodi contenente tutte le dipendenze del nodo principale.

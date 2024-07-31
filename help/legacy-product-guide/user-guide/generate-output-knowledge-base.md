@@ -3,7 +3,8 @@ title: Knowledge Base
 description: Scopri come creare un predefinito della Knowledge Base dall’editor web e dal dashboard delle mappe. Configura il predefinito di output della Knowledge Base in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ Nell&#39;editor Web, le seguenti configurazioni sono state organizzate nelle sch
 | Categorie | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito Salesforce. |
 
 È inoltre possibile visualizzare le seguenti opzioni nei predefiniti Salesforce e ServiceNow:
+
 | Opzioni | Descrizione |
-| — | — |
-|Rimuovere l&#39;intestazione dell&#39;argomento dal corpo dell&#39;articolo.|Selezionare questa opzione per rimuovere l&#39;intestazione dell&#39;argomento dall&#39;articolo nell&#39;output pubblicato. |
-|Carica come bozza | Seleziona questa opzione per caricare l’argomento e condividerlo come bozza prima di renderlo disponibile agli utenti.|
-|Carica immagini| Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti.|
-|Carica documenti collegati| Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti.|
+| --- | --- |
+| Rimuovi l&#39;intestazione dell&#39;argomento dal corpo dell&#39;articolo. | Selezionare questa opzione per rimuovere l&#39;intestazione dell&#39;argomento dall&#39;articolo nell&#39;output pubblicato. |
+| Carica come bozza | Seleziona questa opzione per caricare l’argomento e condividerlo come bozza prima di renderlo disponibile agli utenti. |
+| Carica immagini | Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti. |
+| Carica documenti collegati | Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ Nell&#39;editor Web, le seguenti configurazioni sono state organizzate nelle sch
 | Categoria | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito di Adobe Experience Manager. |
 | Modello sezione e modello articolo | Si tratta dei componenti strutturali utilizzati per organizzare il contenuto dell’output. Sono predefiniti nel modello Sito Adobe Experience Manager. |
 | Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in Adobe Experience Manager. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br>Ulteriori informazioni su come [personalizzare il flusso di lavoro di generazione post-output](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) nella Guida all&#39;installazione e alla configurazione. |
+
 >[!TIP]
 > 
 >Selezionare **Aggiorna** ![icona di aggiornamento](images/navtitle-refresh-icon.svg) per compilare i rispettivi modelli nei campi in base al modello della Knowledge Base selezionato.

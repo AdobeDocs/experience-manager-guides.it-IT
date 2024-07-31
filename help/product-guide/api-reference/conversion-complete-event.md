@@ -5,10 +5,10 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,10 +26,11 @@ I dettagli dell’evento sono spiegati di seguito:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parametri**:\
-|Nome|Tipo|Descrizione|
-----|----|-----------|
-|`status`|Stringa|Lo stato restituito per l&#39;operazione eseguita. Le opzioni possibili sono: -   OPERAZIONE RIUSCITA: il processo di conversione è stato completato. <br> -   COMPLETATO CON ERRORI: il processo di conversione è stato completato, ma con alcuni errori. <br>-   FAILED: processo di conversione non riuscito a causa di un errore irreversibile.|
-|`filePath`|Stringa|Percorso assoluto del file di origine \(da convertire\) nell&#39;archivio AEM.|
-|`outputPath`|Stringa|Percorso assoluto del percorso di destinazione in cui verranno salvati i file DITA convertiti.|
-|`logPath`|Stringa|Percorso assoluto del nodo in cui verrà salvato il registro di conversione.|
+**Parametri**:
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| `status` | Stringa | Stato di ritorno per l&#39;operazione eseguita. Le opzioni possibili sono: -   OPERAZIONE RIUSCITA: il processo di conversione è stato completato. <br> -   COMPLETATO CON ERRORI: il processo di conversione è stato completato, ma con alcuni errori. <br>-   FAILED: processo di conversione non riuscito a causa di un errore irreversibile. |
+| `filePath` | Stringa | Percorso assoluto del file di origine \(da convertire\) nell’archivio AEM. |
+| `outputPath` | Stringa | Percorso assoluto della posizione di destinazione in cui verranno salvati i file DITA convertiti. |
+| `logPath` | Stringa | Percorso assoluto del nodo in cui verrà salvato il registro di conversione. |
