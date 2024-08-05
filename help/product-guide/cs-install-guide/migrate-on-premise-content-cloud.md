@@ -4,7 +4,7 @@ description: Scopri come migrare il contenuto dal software on-premise ai Cloud S
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -74,8 +74,7 @@ Per migrare i contenuti Experience Manager Guides a Experience Manager as a Clou
 1. Dopo la creazione, seleziona i tre punti e seleziona **Copia chiave di estrazione**.
 
 
-1. Fai clic su **Copia negli Appunti**.
-Crea il primo progetto.
+1. Fai clic su **Copia negli Appunti**. Crea il primo progetto.
    ![chiave di estrazione](./assets/migration-copy-to-clipboard.png)
 
 1. Seleziona **Adobe Experience Manager** nella parte superiore, quindi seleziona il riquadro **Distribuzione software**.
@@ -125,17 +124,14 @@ o
 1. Seleziona il **set di migrazione**, quindi seleziona **Estrai** nella parte superiore.
    ![estrazione set di migrazione ](./assets/migration-extract.png)
 
-1. Verifica i dettagli nella finestra a comparsa **Estrazione set di migrazione** per i percorsi e le configurazioni selezionati e fai clic su **Estrai**.
-L’estrazione richiederà alcuni minuti e lo stato verrà visualizzato come aggiornato.
+1. Verifica i dettagli nella finestra a comparsa **Estrazione set di migrazione** per i percorsi e le configurazioni selezionati e fai clic su **Estrai**. L’estrazione richiederà alcuni minuti e lo stato verrà visualizzato come aggiornato.
    ![estrazione set di migrazione](./assets/migration-set-extraction.png)
 
 1. Una volta completata l&#39;estrazione e indicata dallo stato `finished`, vai a Cloud Acceleration Manager e seleziona il progetto creato al punto 18.
 Per ulteriori informazioni, selezionare i tre punti, quindi selezionare **Visualizza dettagli**.
 
 
-1. Nella finestra a comparsa Dettagli set di migrazione, verifica la configurazione del set di migrazione e chiudi la finestra a comparsa.
-
-   Puoi visualizzare i percorsi e altre impostazioni come mostrato nella schermata seguente:
+1. Nella finestra a comparsa Dettagli set di migrazione, verifica la configurazione del set di migrazione e chiudi la finestra a comparsa. Puoi visualizzare i percorsi e altre impostazioni come mostrato nella schermata seguente:
    ![dettagli-migrazione](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Per ulteriori informazioni, selezionare i tre punti, quindi selezionare **Visual
 1. Scegli il set di migrazione, seleziona il server richiesto dell&#39;ambiente, quindi fai clic su **Acquisisci**.
 
    ![nuova acquisizione](./assets/migration-new-ingestion.png)
-
-
 
 ## Eseguire lo strumento Content Transfer (Trasferimento contenuti) su un’istanza di Publish
 
