@@ -4,7 +4,7 @@ description: Scopri come migrare il contenuto dal software on-premise ai Cloud S
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Questo articolo fornisce una procedura dettagliata per la migrazione dei contenu
 ## Prerequisiti
 
 * Adobe Experience Manager 6.4 o versioni successive
-* La versione di Experience Manager Guides deve essere UUID. Se utilizzi una versione non UUID di Adobe Experience Manager Guides, esegui prima la migrazione a UUID seguendo i passaggi descritti in [Migrare contenuto non DITA](./migrate-content-non-dita.md).
+* La versione di Experience Manager Guides deve essere UUID. Se utilizzi una versione non UUID di Adobe Experience Manager Guides, esegui prima la migrazione a UUID seguendo i passaggi descritti in [Migrare contenuto non DITA](../install-guide/migrate-uuid-non-uuid.md).
 * Accedi a **Cloud Acceleration Manager** per l&#39;istanza cloud in cui desideri eseguire la migrazione del contenuto
 * È supportata una dimensione archivio fino a 20 TB
 * Dimensioni totali indice Lucene di 25 GB
