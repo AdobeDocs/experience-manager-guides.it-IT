@@ -1,7 +1,7 @@
 ---
 title: Propagare i metadati di AEM Assets all’output generato dal plug-in DITA-OT
 description: Configurazione del plug-in DITA-OT e del contenuto in AEM per inviare i metadati all’output generato
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Ad alto livello, di seguito sono riportati i passaggi che imparerai in questo ar
 ## Informazioni di base
 
 Con AEM Guides, puoi utilizzare i plug-in DITA-OT per pubblicare nei formati di output scelti utilizzando i plug-in configurati e
-è inoltre possibile passare metadati delle risorse gestite in AEM DAM al processo DITA-OT per utilizzarli nell&#39;output generato. Vedere la documentazione su [come impostare ditamap/topic per passare metadati attraverso i predefiniti di output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+è inoltre possibile passare i metadati delle risorse gestite in AEM DAM al processo DITA-OT per utilizzarli nell&#39;output generato. Vedere la documentazione in [configurazione di ditamap/topic per la trasmissione dei metadati tramite il predefinito di output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Presupposti
@@ -59,7 +59,7 @@ Fai riferimento alla schermata seguente per comprendere i passaggi riportati sop
 
 #### Accesso a metadata.xml nella directory temporanea
 
-Nel pacchetto dei file temporanei scaricati noterai un file metadata.xml in cui puoi visualizzare la struttura delle proprietà e dei valori (vedi la schermata seguente).
+Nel pacchetto dei file temporanei scaricati, noterai un file metadata.xml in cui puoi visualizzare la struttura delle proprietà e dei valori (vedi la schermata seguente).
 ![struttura e costrutti metadata.xml](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Comprendere metadata.xml
