@@ -1,15 +1,15 @@
 ---
 title: Propagare i metadati di AEM Assets all’output generato dal plug-in DITA-OT
 description: Configurazione del plug-in DITA-OT e del contenuto in AEM per inviare i metadati all’output generato
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# Informazioni su questo articolo
+# Propagare i metadati di AEM Assets all’output generato dal plug-in DITA-OT
 
 In questo articolo verrà illustrato come implementare le modifiche al plug-in DITA-OT per leggere il file metadata.xml _(disponibile nei file temporanei)_ e utilizzare le proprietà passate dal flusso di lavoro di pubblicazione di AEM Guides nei plug-in DITA-OT e impostarle nell&#39;output generato.
 
