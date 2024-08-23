@@ -3,10 +3,10 @@ title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 25615614851005496631c35671f2e652e1e60799
+source-git-commit: cefa1e87ba70308a9da9e2a8c6c352c00e38db1a
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 25%
+source-wordcount: '257'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ Le versioni di Experience Manager Guides as a Cloud Service sono pianificate com
 | Adobe Experience Manager Guides 2024.2.0 | Aggiornamento automatico | giovedì 6 marzo 2024 | [Qui](whats-new-2024-2-0.md) | [Qui](upgrade-instructions-2024-2-0.md) | [Qui](fixed-issues-2024-2-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.4.0 | Aggiornamento automatico | sabato 26 aprile 2024 | [Qui](whats-new-2024-04-0.md) | [Qui](upgrade-instructions-2024-04-0.md) | [Qui](fixed-issues-2024-04-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.6.0 | Aggiornamento automatico | 10-12 giugno 2024 | [Qui](whats-new-2024-06-0.md) | [Qui](upgrade-instructions-2024-06-0.md) | [Qui](fixed-issues-2024-06-0.md) | Aggiornata |
-| Adobe Experience Manager Guides 2024.9.0 | Aggiornamento automatico | 02-04 settembre 2024 |  |  |  | Per garantire la migliore esperienza possibile, questa versione viene spostata al ciclo successivo dopo aver identificato un’importante opportunità di miglioramento. La data di rilascio aggiornata verrà condivisa con te a breve. |
+| Adobe Experience Manager Guides 2024.9.0 | Aggiornamento automatico | 02-04 settembre 2024 |  |  |  | Per garantire un’esperienza ottimale, questa versione viene spostata al ciclo successivo, poiché è stato identificato un showstopper. La data di rilascio aggiornata verrà condivisa a breve. |
 
 ## [!DNL Experience Manager Guides] On-Premise e Managed Services (calendario 2024) {#aem-guides-roadmap-on-prem}
 
