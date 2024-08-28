@@ -3,7 +3,7 @@ title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 7db46c6ea8ef0859f2365a21c027e5d6cfee9a4f
+source-git-commit: 9abc8527f0ef9b1a373bbb10ac9ce7d4f9fa0980
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 26%
@@ -27,7 +27,7 @@ Le versioni di Experience Manager Guides as a Cloud Service sono pianificate com
 | Adobe Experience Manager Guides 2024.2.0 | Aggiornamento automatico | giovedì 6 marzo 2024 | [Qui](whats-new-2024-2-0.md) | [Qui](upgrade-instructions-2024-2-0.md) | [Qui](fixed-issues-2024-2-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.4.0 | Aggiornamento automatico | sabato 26 aprile 2024 | [Qui](whats-new-2024-04-0.md) | [Qui](upgrade-instructions-2024-04-0.md) | [Qui](fixed-issues-2024-04-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.6.0 | Aggiornamento automatico | 10-12 giugno 2024 | [Qui](whats-new-2024-06-0.md) | [Qui](upgrade-instructions-2024-06-0.md) | [Qui](fixed-issues-2024-06-0.md) | Aggiornata |
-| Adobe Experience Manager Guides 2024.9.0 | Aggiornamento automatico | 02-04 settembre 2024 |  |  | <td colspan="2">Per garantire un’esperienza ottimale, questa versione viene spostata al ciclo successivo, poiché è stato identificato un showstopper. La data di rilascio aggiornata verrà condivisa a breve.</td> |
+| Adobe Experience Manager Guides 2024.9.0 | Aggiornamento automatico | 02-04 settembre 2024 |  |  |  | Per garantire un’esperienza ottimale, questa versione viene spostata al ciclo successivo, poiché è stato identificato un showstopper. La data di rilascio aggiornata verrà condivisa a breve. |
 
 {style="table-layout:auto"}
 
