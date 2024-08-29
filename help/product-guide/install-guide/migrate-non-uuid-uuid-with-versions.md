@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Migra contenuti con versione
+
+>[!NOTE]
+>
+> Puoi migrare il contenuto non UUID al contenuto UID in Experience Manager Guides. Questo articolo verrà archiviato a novembre 2024.
+>Visualizza [**Migrazione contenuti da non-UUID a UUID**](./migrate-non-uuid-uuid-new.md) per la documentazione più recente e dettagliata.
 
 Esegui questi passaggi per migrare il contenuto con versione non UUID al contenuto UID.
 
@@ -87,7 +92,7 @@ Esegui i seguenti controlli sulla versione non UUID (4.1 non UUID o 4.3.0 non UU
 
 1. Assicurati che lo spazio disponibile sia almeno dieci volte superiore a quello occupato da AEM (directory crx-quickstart) durante la migrazione. Dopo aver completato la migrazione, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a [Pulizia revisioni](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Abilita *Abilita moduli di avvio flusso di lavoro elaborazione Post* in `com.adobe.fmdita.config.ConfigManager` e *Abilita post-elaborazione versione* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Abilita *Abilita moduli di avvio del flusso di lavoro di post-elaborazione* in `com.adobe.fmdita.config.ConfigManager` e *Abilita versione post-elaborazione* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installa la versione UUID della versione supportata su quella non UUID. Ad esempio, se utilizzi la build 4.1 non UUID, devi installare UUID versione 4.1 ed eseguire la migrazione.
 
@@ -98,7 +103,7 @@ Esegui i seguenti controlli sulla versione non UUID (4.1 non UUID o 4.3.0 non UU
    * Flusso di lavoro Aggiorna risorsa DAM
    * Flusso di lavoro Writeback di metadati DAM
 
-1. Disabilita *Abilita moduli di avvio flusso di lavoro elaborazione Post* in `com.adobe.fmdita.config.ConfigManager` e disabilita *Abilita post-elaborazione versione* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Disabilita *Abilita moduli di avvio flusso di lavoro post-elaborazione* in `com.adobe.fmdita.config.ConfigManager` e disabilita *Abilita post-elaborazione versione* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Disabilitare la proprietà Abilita la convalida (`validation.enabled`) nel servizio di assegnazione tag Day CQ.
 
