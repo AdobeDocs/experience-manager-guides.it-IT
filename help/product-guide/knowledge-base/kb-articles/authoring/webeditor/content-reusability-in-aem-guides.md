@@ -3,9 +3,9 @@ title: Riutilizzo di contenuti DITA in AEM Guides
 description: Questo breve articolo spiega in che modo AEM Guides e DITA consentono di risparmiare tempo e fatica quando si utilizza la riutilizzabilità dei contenuti
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides sfrutta i punti di forza di DITA per fornire un’interfaccia intuitiva per il riutilizzo dei contenuti.
 
-In questo articolo parleremo di:
+Questo articolo illustra:
 
 1. [Riutilizzabilità tramite riferimento argomento (](#reusability-using-topic-referencestopicref)
 2. [Riutilizzabilità tramite riferimento contenuto (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Desideri riutilizzare i singoli frammenti KYC per gli argomenti &quot;Salvataggi
 
 Qui `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita è l&#39;identificatore di file e #individual_kyc è l&#39;identificatore di frammento.
 
-Kyc_procedure.dita continua a essere l&#39;unica fonte singola di informazioni. Se sono presenti modifiche al processo KYC come richiesto dalle normative, è sufficiente aggiornare un argomento e tali modifiche vengono automaticamente riportate in tutti gli argomenti che vi fanno riferimento.
+Kyc_procedure.dita continua a essere l&#39;unica fonte singola di informazioni. Se le modifiche normative richiedono aggiornamenti al processo KYC, aggiorna il percorso dell’argomento con quello nuovo. Le modifiche verranno applicate automaticamente a tutti gli argomenti che vi fanno riferimento.
 
 Utilizzando AEM Guides, i suoi due clic
 
@@ -91,7 +91,7 @@ Passaggio 1: fare clic su Inserisci contenuto riutilizzabile
 Passaggio 2: seleziona il file e il frammento che devono essere riutilizzati.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Simile a &quot;conref&quot;, puoi utilizzare anche &quot;conkeyref&quot; dove invece di fornire un percorso di contenuto, puoi fare riferimento al contenuto tramite i tasti.
+Simile a &quot;conref&quot;, puoi utilizzare anche &quot;conkeyref&quot; dove, invece di fornire un percorso di contenuto, si fa riferimento al contenuto tramite chiave
 
 Esempio di codice:
 
@@ -111,7 +111,7 @@ La definizione della chiave è simile alla seguente:
 </map>
 ```
 
-Chiave - &quot;Kyc_procedure&quot; continuerà ad essere l&#39;unica fonte di informazioni. Se vengono apportate modifiche al processo KYC come richiesto dalle normative, è sufficiente aggiornare un percorso argomento con un nuovo percorso argomento, che verrà automaticamente riportato in tutti gli argomenti che vi fanno riferimento.
+Chiave - &#39;Kyc_procedure&#39; continua a essere l&#39;unica fonte di informazioni. Se il processo KYC viene modificato in base alle normative, è sufficiente aggiornare un percorso argomento con un nuovo percorso argomento e tali modifiche vengono applicate automaticamente a tutti gli argomenti che vi fanno riferimento.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Passaggio 1: fare clic su Inserisci contenuto riutilizzabile
 Passaggio 2: seleziona la mappa principale (opzionale), la chiave e il frammento da riutilizzare.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-La mappa principale qui è stata selezionata automaticamente perché era già aperta nella vista mappa
+Qui la mappa principale è stata selezionata automaticamente perché era già aperta nella vista mappa.
 
 
 ## Riutilizzare i contenuti con un solo clic in AEM Guides
@@ -154,14 +154,16 @@ Passaggio 2: una volta aggiunto, trascina e rilascia il frammento che desideri r
 
 - ### Non viene visualizzato tutto il contenuto dopo la selezione del file o della chiave nella finestra di dialogo Riutilizza contenuto
 
-Devi assegnare gli ID ai frammenti (elementi Dita ) che desideri riutilizzare in altri argomenti
+Assegna ID ai frammenti (elementi Dita) che desideri riutilizzare in altri argomenti
 
 - ## Le chiavi non vengono visualizzate nella finestra di dialogo Riutilizza contenuto
 
-Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa che ha una definizione di chiave oppure aggiungi manualmente il percorso della mappa principale nella stessa finestra di dialogo.
+  Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa, che ha una definizione di chiave, oppure aggiungi manualmente il percorso della mappa principale nella stessa finestra di dialogo.
 
 
 <br>
+<br>
+<br>
 
 
-Post nella community AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) per eventuali query.
+Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per qualsiasi domanda.
