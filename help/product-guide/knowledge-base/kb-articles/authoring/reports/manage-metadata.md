@@ -3,8 +3,9 @@ title: Gestire i tag per i file DITA in AEM Guides
 description: Breve articolo da raccontare sulla gestione di cq:tags in AEM Guides
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
 feature: Metadata Management
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
