@@ -4,9 +4,9 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ce7619538b229625277a552071bed8800e67f677
+source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -112,11 +112,15 @@ In un progetto XLIFF, il contenuto viene esportato nel formato XLIFF standard, c
    - È possibile selezionare **Crea un nuovo progetto di traduzione multilingue** che includerà i processi di traduzione per tutte le lingue selezionate per la traduzione. Ad esempio, se hai selezionato francese, tedesco e spagnolo, verrà creato un progetto che contiene processi di traduzione per tutte e tre le lingue.
    - Se disponi già di un progetto di traduzione, puoi aggiungere argomenti a tale progetto. Selezionare Aggiungi a **Progetto di traduzione esistente** dall&#39;elenco Progetto e scegliere un progetto dall&#39;elenco Progetto di traduzione esistente. Puoi ordinare questi progetti in base all’ordine più recente, crescente o decrescente.
 
-     >[!NOTE]
-     >
-     > Se il progetto esistente è un progetto con ambito, al suo nome viene aggiunto &quot;\(Ambito\)&quot;.
+- Se si seleziona **Progetto di traduzione esistente**, questa operazione aggiorna la voce della risorsa esistente nel progetto se la risorsa è già stata aggiunta e lo stato del processo di traduzione correlato è *Bozza*.
+   - Se la lingua di destinazione non è presente nel progetto, viene creato un nuovo progetto per il progetto di traduzione in una sola lingua e un nuovo processo per il progetto di traduzione in più lingue.
+   - Se il processo è già presente per la lingua di destinazione e lo stato del processo non è *Bozza*, viene creato un nuovo processo nello stesso progetto per aggiungere le risorse da tradurre.
 
-   - Se devi creare l&#39;ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione dell&#39;ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto. Non vi è alcun impatto sulla copia nella lingua di destinazione degli argomenti trattati che vengono inviati per l’ambito.
+  >[!NOTE]
+  >
+  > Se il progetto esistente è un progetto con ambito, al suo nome viene aggiunto &quot;\(Ambito\)&quot;.
+
+- Se devi creare l&#39;ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione dell&#39;ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto. Non vi è alcun impatto sulla copia nella lingua di destinazione degli argomenti trattati che vengono inviati per l’ambito.
 1. Nel campo **Titolo progetto**, inserisci un titolo.
 1. Fai clic su **Crea** per creare un nuovo progetto di traduzione.
 

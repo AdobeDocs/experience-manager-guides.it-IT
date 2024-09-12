@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ Per convertire i documenti InDesign esistenti in documenti di tipo argomento DIT
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Creare un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
+1. Per creare una configurazione personalizzata in base alle tue esigenze, crea un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
+
+1. Copiare i file o le cartelle seguenti dalla cartella `libs` nella cartella delle app:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Passare al file di configurazione disponibile nel nodo `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Configura i seguenti parametri nel file `idml2dita_io.xml`:
+1. Aggiungere la mappatura delle configurazioni presenti nella cartella `idml12dita` all&#39;interno del file `idml2dita_io.xml`.
+1. Aggiungi le seguenti proprietà nel file `idml2dita_io.xml`:
 
-   - Nell&#39;elemento `inputDir` specificare il percorso della cartella di input in cui sono disponibili i documenti InDesign di origine. Se ad esempio i documenti InDesign sono archiviati in una cartella denominata `indesigntodita` nella cartella `projects`, specificare il percorso come: `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - Nell&#39;elemento `outputDir` specificare il percorso della cartella di output oppure mantenere il percorso di output predefinito per salvare il documento DITA convertito. Se la cartella di output specificata non esiste in DAM, il flusso di lavoro di conversione crea la cartella di output.
+Configura i seguenti parametri nel file `idml2dita_io.xml`:
 
-   - Nell&#39;elemento `mapStyle` specificare la posizione del file di mapping che contiene i mapping degli stili di documento InDesign agli elementi DITA. La mappatura predefinita viene memorizzata nel file che si trova in:
+- Nell&#39;elemento `inputDir` specificare il percorso della cartella di input in cui sono disponibili i documenti InDesign di origine. Se ad esempio i documenti InDesign sono archiviati in una cartella denominata `indesigntodita` nella cartella `projects`, specificare il percorso come: `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- Nell&#39;elemento `outputDir` specificare il percorso della cartella di output oppure mantenere il percorso di output predefinito per salvare il documento DITA convertito. Se la cartella di output specificata non esiste in DAM, il flusso di lavoro di conversione crea la cartella di output.
 
-     >[!NOTE]
-     >
-     > Per ulteriori informazioni sulla struttura del file `stmap.adobeidml.xml` e su come personalizzarlo, vedere la sezione [Preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT) in *Appendice*.
+- Nell&#39;elemento `mapStyle` specificare la posizione del file di mapping che contiene i mapping degli stili di documento InDesign agli elementi DITA. La mappatura predefinita viene memorizzata nel file che si trova in:
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> Per ulteriori informazioni sulla struttura del file `stmap.adobeidml.xml` e su come personalizzarlo, vedere la sezione [Preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT) in *Appendice*.
 
 1. Salva il file `idml2dita_io.xml`.
 

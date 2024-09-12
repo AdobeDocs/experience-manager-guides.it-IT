@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Creare una mappatura tra un argomento e un frammento di contenuto
 
-AEM Guides fornisce la funzione per creare una mappatura basata su JSON tra un argomento e un modello per frammenti di contenuto. Puoi utilizzare questa mappatura per pubblicare su un frammento di contenuto il contenuto presente in alcuni o tutti gli elementi di un argomento.
+
+
+Adobe Experience Manager Guides consente di creare una mappatura basata su JSON tra un argomento e un modello per frammenti di contenuto. Puoi utilizzare la mappatura basata su JSON per pubblicare su un frammento di contenuto il contenuto presente in alcuni o tutti gli elementi di un argomento.
+
+>[!NOTE]
+> 
+> Se utilizzi le versioni 4.6 o successive, non è necessario creare questa mappatura, puoi trascinare gli elementi dell’argomento nei campi presenti nel modello per frammenti di contenuto.
+> Scopri come [pubblicare frammenti di contenuto](../user-guide/publish-content-fragment.md).
+
 
 1. Per scaricare *contentFragmentMapping.json*, accedi a Adobe Experience Manager come amministratore.
 1. Seleziona il collegamento Adobe Experience Manager in alto e scegli **Strumenti**.

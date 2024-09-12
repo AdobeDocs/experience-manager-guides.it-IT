@@ -5,7 +5,7 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 65ad1dcd69e120ff96aabdeb3e31baa9669299a8
+source-git-commit: 1843cae11aac38053abc3c50fa2d00c050520470
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 4%
@@ -64,7 +64,7 @@ Un metodo GET che recupera lo stato di esportazione di una mappa DITA con tutti 
 **URL richiesta**:
 http:*//&lt;server-guide-aem\>: &lt;numero-porta\>/bin/dxml/async-export*
 
-**Parametri**
+**Parametri**:
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |----|----|--------|-----------|

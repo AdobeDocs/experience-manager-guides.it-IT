@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Esistono due modi per utilizzare il plug-in DITA-OT personalizzato per la pubbli
 
 Per impostazione predefinita, AEM Guides viene fornito con un profilo preconfigurato che contiene le configurazioni dei modelli predefiniti da utilizzare per la modifica e la pubblicazione dei contenuti. È possibile creare profili personalizzati con modelli personalizzati da utilizzare durante la modifica di documenti e plug-in DITA-OT personalizzati per la pubblicazione di contenuti.
 
-Il pacchetto DITA-OT predefinito disponibile con AEM Guides è dotato di processore Apache FOP XSL-FO, che non supporta il rendering delle equazioni MathML. Se utilizzi equazioni MathML nel contenuto, assicurati di aver integrato un plug-in del motore di rendering MathML per Apache FOP o di utilizzare un processore XSL-FO diverso.
+Il pacchetto DITA-OT predefinito disponibile con AEM Guides è dotato di processore Apache FOP XSL-FO, che non supporta il rendering delle equazioni MathML. Se utilizzi le equazioni di MathML nel contenuto, accertati di aver integrato un plug-in del motore di rendering MathML per Apache FOP o di utilizzare un processore XSL-FO diverso.
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ Per creare un nuovo profilo e configurarlo per l&#39;utilizzo di DTD e XSD AEM G
    >
    > Le informazioni di profilo predefinite vengono visualizzate nella pagina Profili. Se hai aggiornato AEM Guides dalla versione 2.2 alla versione 2.5.1 o 2.6, tutte le modifiche effettuate tramite la gestione della configurazione vengono selezionate e memorizzate automaticamente nel profilo predefinito.
 
+
+
 1. Per creare un nuovo profilo, potete scegliere di modificare il profilo predefinito, crearne uno nuovo o duplicare le impostazioni del profilo predefinito.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Per creare un nuovo profilo e configurarlo per l&#39;utilizzo di DTD e XSD AEM G
    > Non è possibile eliminare il profilo predefinito. Tuttavia, tutti i nuovi profili creati possono essere modificati ed eliminati.
 
 1. Nelle impostazioni **Schema** \> **Catalogo**, specifica il percorso dei file `catalog.xml` DTD e XSD personalizzati nel tuo archivio AEM.
+
+   >[!NOTE]
+   >
+   > Se si utilizza lo schema personalizzato, è necessario definire il percorso dei file DTD e XSD catalog.xml personalizzati nell&#39;archivio AEM nell&#39;opzione **Integrate Catalog**.
+
+
 
 1. Selezionare l&#39;opzione **Aggiungi catalogo ID sistema**.
 

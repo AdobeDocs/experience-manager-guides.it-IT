@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ Infine, puoi anche applicare stili all’intero contenuto all’interno dell’a
 Utilizzando gli attributi di stile di cui sopra, viene aggiunta una barra di modifica a sinistra dell&#39;argomento *Cronologia del volo*, come illustrato di seguito:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Rimuovi righe vuote dal sommario
+
+Se non hai definito il titolo per alcun argomento, nel sommario vengono visualizzate righe vuote per tali argomenti.
+
+Per rimuovere le righe vuote dal sommario e dal sommario mini, aggiungere il seguente stile in `layout.css`:
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

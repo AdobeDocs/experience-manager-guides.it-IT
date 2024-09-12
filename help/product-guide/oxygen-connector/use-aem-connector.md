@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 ### Requisiti tecnici
 
-- Autore Oxygen XML versione 25.1
+- Autore Oxygen XML versione 26.1
 
-- Adobe Experience Manager Guides versione 4.3 o successiva
+- Adobe Experience Manager Guides versione 4.6 o successiva
 
-- Adobe Experience Manager versione 6.5 con Service Pack 14, 15, 16 e 17
+- Adobe Experience Manager versione 6.5 con Service Pack 21, 20 e 19
 
-- Sistema operativo supportato da Oxygen XML Author versione 25.1
+- Sistema operativo supportato da Oxygen XML Author versione 26.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Aggiorna i file forniti per configurare le impostazioni di autenticazione web ne
 >
 >Crea una copia di backup del file prima di aggiornarlo.
 
-**Per Mac e ossigeno 25.1**
+**Per Mac e ossigeno 26.1**
 
 Aggiungi le seguenti righe in env.sh
 
@@ -185,7 +185,7 @@ Aggiungi le seguenti righe in ossigenoAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Per Windows e ossigeno 25.1**
+**Per Windows e ossigeno 26.1**
 
 Aggiungi le seguenti righe in env.bat
 
@@ -746,7 +746,7 @@ Soluzione: per configurare i logger per ossigeno e JxBrowser, effettua le seguen
    </configuration>   
    ```
 
-1. Salvare il file nella directory `Oxygen Author 25`. Ad esempio, il percorso sarebbe: `C:\Program Files\Oxygen XML Author 25\logback.xml`
+1. Salvare il file nella directory `Oxygen Author 26`. Ad esempio, il percorso sarebbe: `C:\Program Files\Oxygen XML Author 26\logback.xml`
 
 1. Chiudete il file. Verranno abilitati i registri di ossigeno, che saranno disponibili nel percorso: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Aprire il file `oxygenAuthor.bat` in un editor di testo.
