@@ -2,9 +2,9 @@
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides versione 4.6.0
 description: Scopri le correzioni di bug nella versione 4.6.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ L’Adobe ha identificato i seguenti problemi noti per la versione 4.6.0:
 - Il riferimento dell&#39;argomento risulta interrotto nell&#39;interfaccia utente quando viene inserito dalla barra degli strumenti superiore della mappa DITA.
 - La generazione di PDF nativi ha esito negativo per una mappa DITA se sono presenti riferimenti mancanti.
 - Una volta aggiornato lo stato del documento di un argomento a **Fine**, l&#39;icona **Avvia una nuova versione** è disponibile solo nella modalità **Anteprima** dell&#39;argomento.
+- Quando si seleziona un file DITA nell&#39;interfaccia utente di Asset, viene visualizzata l&#39;opzione **Apri nel FrameMaker**, anche se è disabilitata nelle impostazioni di configurazione.
+
 
 
 
