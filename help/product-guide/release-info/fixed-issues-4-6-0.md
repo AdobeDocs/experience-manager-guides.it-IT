@@ -2,9 +2,9 @@
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides versione 4.6.0
 description: Scopri le correzioni di bug nella versione 4.6.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - Il comportamento del pulsante Chiudi non è coerente quando si utilizza la funzionalità Salvataggio automatico. (10996)
 - Si verificano problemi di convalida negli elementi di MathML quando si inseriscono nuovi elementi o si modificano le equazioni. (10624)
 - La funzionalità Revisioni non funziona con il testo che inizia con i caratteri coreani. (14538)
-
-
+- Le immagini collegate degli argomenti non vengono visualizzate nella linea di base dopo la creazione della versione. (16931)
 
 ## Pubblicazione
 
