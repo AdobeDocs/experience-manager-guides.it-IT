@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -407,11 +407,11 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 
 
-## Configurare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web {#conf-ai-smart-suggestions}
+## Configurare suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web {#conf-ai-smart-suggestions}
 
 Per il ![cloud AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. La scheda **Configurazione IA** consente di controllare le impostazioni del pannello Suggerimenti avanzati nell&#39;editor Web.
+Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. La scheda **Configurazione IA** consente di controllare le impostazioni di **Suggerisci contenuto riutilizzabile** dal pannello Assistente IA nell&#39;editor Web.
 
 Per configurare la configurazione di IA standard a livello globale o di cartella, effettua le seguenti operazioni:
 1. Accedi a Adobe Experience Manager come amministratore o utente con diritti di amministratore su un profilo a livello di cartella.
@@ -421,7 +421,7 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
 
    >[!NOTE]
    >
-   >Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale per il profilo globale o a livello di cartella.
+   >Puoi configurare suggerimenti avanzati basati sull’intelligenza artificiale per il profilo globale o a livello di cartella.
 
 1. Nella pagina del profilo, seleziona la scheda **Configurazione IA**.
    ![Scheda di configurazione IA nel profilo globale](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -446,52 +446,52 @@ Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati 
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Configurare la Guida avanzata basata sull’intelligenza artificiale nell’editor web {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Per il cloud ![AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida avanzata** basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+La scheda **Configurazione editor XML** consente di configurare le domande predefinite del **pannello Guida avanzata** nell&#39;editor Web.
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>Puoi configurare fino a 10 domande predefinite.
 
-Perform the following steps to configure the default questions:
+Per configurare le domande predefinite, effettua le seguenti operazioni:
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. Accedi a Adobe Experience Manager come amministratore o utente con diritti di amministratore su un profilo a livello di cartella.
+1. Seleziona il collegamento **Adobe Experience Manager** in alto e scegli **Strumenti**.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e selezionare il riquadro **Profili cartella**.
+1. Seleziona il riquadro del profilo da configurare.
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >È possibile configurare le domande predefinite per il **pannello Smart Help** nel profilo globale o a livello di cartella.
 
-1.  Select the **XML Editor Configuration** tab. 
+1. Selezionare la scheda **Configurazione editor XML**.
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. Fai clic sull&#39;icona **Modifica** in alto.
+1. Nella sezione **Configurazione dell&#39;interfaccia utente dell&#39;editor XML**, selezionare l&#39;icona **Scarica** per scaricare il file `ui_config.json` nel sistema locale.
+1. Nel file `ui_config.json`, aggiungi le domande di esempio.
 
-    **Example of sample questions**:
+   **Esempio di domande**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. Salva il file e caricalo.
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > Le domande predefinite vengono visualizzate nel pannello **Guida avanzata** dopo il salvataggio del file.
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+Ulteriori informazioni sull&#39;utilizzo della [Guida avanzata basata sull&#39;intelligenza artificiale](../user-guide/ai-based-smart-help.md) per trovare il contenuto richiesto nella documentazione di Experience Manager Guides.
 
 
 ## Configurazione e personalizzazione dell&#39;editor Web XML {#id2065G300O5Z}

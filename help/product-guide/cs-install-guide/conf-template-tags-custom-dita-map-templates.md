@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ La prossima volta che crei una nuova mappa, il modello viene visualizzato nella 
 >
 > Consulta la sezione *Modelli personalizzati* nella guida alle best practice per le best practice sull&#39;utilizzo dei modelli di mappa personalizzati.
 
-**Argomento padre:**[ Configura modelli di argomento e mappa](conf-template-tags.md)
+
+## Personalizzare il numero di riferimenti in una mappa DITA
+
+È possibile configurare la soglia per l&#39;elaborazione asincrona in base al numero di riferimenti nella mappa DITA. Per impostazione predefinita, le mappe con più di 5 riferimenti vengono create tramite operazioni asincrone, mentre le mappe con meno riferimenti continuano a utilizzare operazioni sincrone.
+
+
+Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, specificare i dettagli (proprietà) riportati di seguito per specificare il numero di riferimenti nel modello di mappa DITA per mantenere il processo sincrono.
+
+| PID | Chiave proprietà | Valore proprietà |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valore predefinito**: 5 |
+
+Quando si crea una mappa DITA con riferimenti ad argomenti di grandi dimensioni utilizzando un modello personalizzato, la creazione della mappa sul server cloud non riesce se il tempo totale di elaborazione supera i 60 secondi.
+
+Per evitare questo problema, configurare **creazione mappa dita asincrona** in XmlEditorConfig che consente l&#39;esecuzione delle attività in parallelo e riduce i tempi di elaborazione per mappe DITA di dimensioni maggiori.
+
+**Argomento padre:** [Configura modelli di argomento e mappa](conf-template-tags.md)

@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Per convertire i documenti InDesign esistenti in documenti di tipo argomento DIT
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Per creare una configurazione personalizzata in base alle tue esigenze, crea un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
 
-1. Creare un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
+1. Copiare i file o le cartelle seguenti dalla cartella `libs` nella cartella delle app:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Passare al file di configurazione disponibile nel nodo `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Aggiungere la mappatura delle configurazioni presenti nella cartella `idml12dita` all&#39;interno del file `idml2dita_io.xml`.
+1. Aggiungi le seguenti proprietà nel file `idml2dita_io.xml`:
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Creare un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
+
 
    Configura i seguenti parametri nel file `idml2dita_io.xml`:
 

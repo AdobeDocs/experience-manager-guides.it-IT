@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Una volta connessi all’archivio AEM, puoi aprire i file per la modifica nell�
 
 1. Fate clic con il pulsante destro del mouse su un file nel pannello AEM Guides che desiderate aprire per la modifica.
 
-1. Seleziona **Apri** dal menu di scelta rapida.
+1. Seleziona **Apri** dal menu di scelta rapida. Oppure puoi fare doppio clic sul file per aprirlo.
 
    Il file viene aperto nell&#39;editor di Oxygen XML Author.
 
@@ -354,12 +354,14 @@ Una volta connessi all’archivio AEM, puoi aprire i file per la modifica nell�
 
    Quando passi il puntatore del mouse sulla scheda di un file, viene visualizzato il percorso del server e il relativo UUID. Nella schermata precedente, viene evidenziato l’UUID del documento.
 
+>[!NOTE]
+>
+>Passando il puntatore del mouse sulle immagini o sui video di un argomento nell’editor dell’autore XML di ossigeno viene visualizzato solo l’UUID dell’elemento selezionato. Per individuarlo nel repository, fare clic con il pulsante destro del mouse sull&#39;immagine visualizzata o sul tag oggetto (solo in caso di video, audio e altri file multimediali) e selezionare **Mostra nel repository**.
+
+
 
 Se è stata selezionata l&#39;opzione **File di estrazione automatica all&#39;apertura** \(nella finestra di dialogo Preferenze\), all&#39;apertura di un file il file viene estratto automaticamente ed è disponibile per la modifica. Per aprire un file, è possibile fare doppio clic sul nome di un file oppure fare clic con il pulsante destro del mouse sul nome del file e scegliere **Apri** dal menu di scelta rapida. Se questa opzione non è selezionata, il file viene aperto in modalità di sola lettura.
 
->[!NOTE]
->
->È inoltre possibile fare doppio clic su un file per aprirlo.
 
 ### Apri il file nell’editor di AEM Guides {#id195GH0V30KX}
 
