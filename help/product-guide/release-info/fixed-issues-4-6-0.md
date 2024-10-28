@@ -2,9 +2,9 @@
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides versione 4.6.0
 description: Scopri le correzioni di bug nella versione 4.6.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - La rigenerazione dell&#39;argomento non riesce a causa di un errore OOTB Regenerate Topic (Rigenera argomento OOTB) o incrementale dell&#39;API di pubblicazione. (18452)
 - Il predefinito di condizione non recupera gli attributi aggiornati dopo l’aggiornamento di Experience Manager Guides. (18174)
 - I riferimenti al contenuto non vengono risolti correttamente per l&#39;output di PDF nativo se il file contenente le definizioni chiave non si trova nella stessa cartella della mappa DITA. (15062)
+- L’attivazione in blocco dei contenuti pubblicati non funziona per le mappe localizzate. (17638)
 
 
 ## Gestione
