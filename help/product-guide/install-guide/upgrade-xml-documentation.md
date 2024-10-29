@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '6943'
+source-wordcount: '6995'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 >
 > Segui le istruzioni di aggiornamento specifiche per la versione con licenza del tuo prodotto.
 
-Puoi aggiornare la versione corrente di Experience Manager Guides alla versione 4.6.0:
+Puoi aggiornare la versione corrente di Experience Manager Guides alla versione 4.6.1:
 
 
-- Se utilizzi le versioni 4.4, 4.3.1 o 4.3.0 , puoi eseguire direttamente l’aggiornamento alla versione 4.6.0.
+- Se utilizzi la versione 4.6.0, puoi effettuare direttamente l’aggiornamento alla versione 4.6.1.
+- Se utilizzi le versioni 4.4, 4.3.1 o 4.3.0 , devi effettuare l’aggiornamento alla versione 4.6.0 prima di passare alla versione 4.6.1.
 - Se utilizzi le versioni 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 4.6.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
@@ -111,7 +112,7 @@ Questa API è progettata per migrare i dati di sistema come indicato nella sezio
 ## Installa versione 4.0 {#id23598G006XA}
 
 1. Installa la versione 4.0 solo se i passaggi di aggiornamento hanno avuto esito positivo.
-1. Scarica il pacchetto di versione 4.0 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html):
+1. Scarica il pacchetto di versione 4.0 da [Portale di distribuzione software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html):
 
    - Se utilizzi una versione UUID del software, cerca &quot;4.0 UUID Release for XML Documentation solution for AEM 6.5&quot;.
    - Se si utilizza una versione del software non UUID, cercare &quot;4.0 Non-UUID Release for XML Documentation solution for AEM 6.5&quot;.
@@ -498,7 +499,7 @@ Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.0
 
 ## Installare la versione 4.3.0
 
-1. Scarica il pacchetto di versione 4.3.0 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Scarica il pacchetto di versione 4.3.0 da [portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
 1. Installa la versione 4.3.0 del pacchetto.
 1. Cancella la cache del browser dopo l’installazione del pacchetto.
 1. Aggiornare il file `ui_config.json` dalla scheda **Configurazione editor XML** nel Profilo cartella.
@@ -556,7 +557,7 @@ Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.1
 
 ## Installare la versione 4.3.1
 
-1. Scarica il pacchetto di versione 4.3.1 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Scarica il pacchetto di versione 4.3.1 da [Portale di distribuzione software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
 1. Installa la versione 4.3.1 del pacchetto.
 1. Puoi scegliere di premere il trigger per avviare il processo di aggiornamento della mappa di traduzione. Per ulteriori dettagli, vedere [Abilitare il trigger dello script tramite un servlet](#enable-trigger-serverlet-4-3-1).
 
@@ -746,7 +747,7 @@ L’aggiornamento alla versione 4.3.1.5 dipende dalla versione corrente di Exper
 
 ## Installare la versione 4.3.1.5
 
-1. Scarica il pacchetto di versione 4.3.1.5 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Scarica il pacchetto di versione 4.3.1.5 da [portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
 1. Installa il pacchetto versione 4.3.1.5.
 
 1. Attendere il completamento del processo di installazione.
@@ -797,7 +798,7 @@ Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.4.0
 
 ## Installare la versione 4.4.0
 
-1. Scarica il pacchetto di versione 4.4.0 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Scarica il pacchetto di versione 4.4.0 da [portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
 1. Installa la versione 4.4.0 del pacchetto.
 1. Puoi scegliere di premere il trigger per avviare il processo di aggiornamento della mappa di traduzione. Per ulteriori dettagli, vedere [Abilitare il trigger dello script tramite un servlet](#enable-trigger-serverlet-4-4-0).
 
@@ -984,11 +985,15 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Aggiornamento alla versione 4.6.0 {#upgrade-version-4-6-0}
 
-L’aggiornamento alla versione 4.6.0 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.6.0
+>[!TIP]
+>
+> Si consiglia di installare Hotfix 4.6.1 sopra alla versione 4.6.0. Il processo di aggiornamento per la versione 4.6.1 segue gli stessi passaggi della versione 4.6.0.
+
+L’aggiornamento alla versione 4.6.0 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.4.0, 4.3.1, 4.3.0, 4.2 o 4.2.1 (Hotfix 4.2.1.3), puoi eseguire direttamente l’aggiornamento alla versione 4.6.0.
 
 >[!NOTE]
 >
->La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
+> La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
 ****Prerequisiti****
 
@@ -1001,7 +1006,7 @@ Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.6.0
 
 ## Installare la versione 4.6.0
 
-1. Scarica il pacchetto di versione 4.6.0 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Scarica il pacchetto di versione 4.6.0 da [portale di distribuzione software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
 1. Installa la versione 4.6.0 del pacchetto.
 1. Puoi scegliere di premere il trigger per avviare il processo di aggiornamento della mappa di traduzione. Per ulteriori dettagli, vedere [Abilitare il trigger dello script tramite un servlet](#enable-trigger-serverlet-4-6-0).
 
