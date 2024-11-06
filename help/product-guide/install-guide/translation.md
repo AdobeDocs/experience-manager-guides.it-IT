@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 9%
+source-wordcount: '836'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,40 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, l’o
 
 1. Fai clic su **Salva**.
 
+>[!IMPORTANT]
+>
+> Dopo aver impostato le configurazioni di traduzione, accertati di impostare la configurazione cloud appropriata nelle cartelle delle lingue.
+
+## Configurare il flusso di lavoro di traduzione legacy
+
+>[!IMPORTANT]
+> 
+> Si consiglia di utilizzare il flusso di lavoro di traduzione più recente, che offre prestazioni migliori. Tuttavia, se nel processo di traduzione corrente sono abilitate delle personalizzazioni, puoi utilizzare il flusso di lavoro di traduzione legacy.
+
+Per impostazione predefinita, l’opzione del flusso di lavoro di traduzione legacy è disabilitata. Puoi configurare questa opzione eseguendo i seguenti passaggi:
+
+1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
+
+   L&#39;URL predefinito per accedere alla pagina di configurazione è:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
+
+1. Configura l’opzione del flusso di lavoro di traduzione legacy in base alla configurazione:
+
+   - (*Predefinito*) Se desideri utilizzare il flusso di lavoro di traduzione più recente, disabilita l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**.
+   - Se desideri utilizzare il flusso di lavoro di traduzione legacy, abilita l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**.
+
+1. Fai clic su **Salva**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> Dopo aver impostato le configurazioni di traduzione, accertati di impostare la configurazione cloud appropriata nelle cartelle delle lingue.
+
 
 ## Configurare la post-elaborazione di copie per lingua temporanee
 
@@ -145,10 +177,10 @@ Per impostazione predefinita, l’opzione di post-elaborazione dei file temporan
 
 1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configura l&#39;opzione **Copie per lingua del processo Post** in base alla configurazione:
+1. Configura l&#39;opzione **Copie per lingua post-elaborazione** in base alla configurazione:
 
-   - \(*Predefinito*\) Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* l&#39;opzione **Copie per lingua del processo Post**.
+   - \(*Predefinito*\) Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* l&#39;opzione **Copie per lingua post-elaborazione**.
 
-   - Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* l&#39;opzione **Copie per lingua di elaborazione Post**.
+   - Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* l&#39;opzione **Copie per lingua post-elaborazione**.
 
 1. Fai clic su **Salva**.
