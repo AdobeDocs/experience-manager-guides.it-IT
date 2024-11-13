@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
+source-git-commit: 59929235b3d93267b9b82fd2827c8d3ac6607e61
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -139,7 +139,7 @@ ht-degree: 6%
                - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
                - [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Guida intelligente basata sull’intelligenza artificiale per cercare contenuti](./user-guide/ai-based-smart-help.md)
-               - [Assistente AI per l’authoring di documenti con efficienza intelligente](./user-guide/AI-assistant-right-panel.md)
+               - [Assistente AI per l’authoring di documenti con efficienza intelligente](./user-guide/ai-assistant-right-panel.md)
                - [Creare documenti Markdown dall’editor web](./user-guide/web-editor-markdown-topic.md)
                - [Aggiungere citazioni al contenuto](./user-guide/web-editor-apply-citations.md)
                - [Utilizzare i dati provenienti dalle origini dati](./user-guide/web-editor-content-snippet.md)
