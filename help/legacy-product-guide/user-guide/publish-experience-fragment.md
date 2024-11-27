@@ -3,7 +3,7 @@ title: Publish di un argomento in un frammento di esperienza
 description: Publish Applicare un argomento o gli elementi di un argomento a un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,12 +60,12 @@ Ad esempio:
 
 
 
-     L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
+     L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](../cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
 
    * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
 
 
-      * **Nessuno**: seleziona questa opzione se non desideri applicare alcuna condizione all&#39;output pubblicato.
+      * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
       * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per generare contenuto personalizzato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
       * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
 

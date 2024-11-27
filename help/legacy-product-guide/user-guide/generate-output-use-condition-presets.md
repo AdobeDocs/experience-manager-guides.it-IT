@@ -3,10 +3,10 @@ title: Utilizzare i predefiniti per le condizioni
 description: Conoscere l’utilizzo dei predefiniti per le condizioni in AEM Guides. Scopri come creare, modificare, copiare ed eliminare i predefiniti per le condizioni in AEM.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Per impostazione predefinita, l&#39;azione per un attributo è `Include`.
 1. Seleziona **Aggiungi**. Puoi ripetere questo passaggio per aggiungere altri attributi. Gli attributi aggiunti vengono spostati dal pannello centrale a quello di destra.
 1. Seleziona Rimuovi nella barra delle azioni in alto per rimuovere gli attributi selezionati nel pannello di destra.
 1. (Facoltativo) Se necessario, puoi sovrascrivere l’azione applicata agli attributi.
-Effettua una delle operazioni seguenti:
+Effettua una delle seguenti operazioni:
    * Per qualsiasi attributo, seleziona una delle azioni seguenti dal menu a discesa Azione.
       * Includi
       * Escludi
@@ -71,7 +71,7 @@ Effettua una delle operazioni seguenti:
    >
    > Se selezionate un altro predefinito o chiudete il predefinito senza salvarlo, viene visualizzato un avviso.
 
-Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [output di Publish PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [output di Publish PDF](../web-editor/native-pdf-web-editor.md).
 
 ### Rinominare un predefinito di condizione
 
@@ -80,7 +80,7 @@ Per rinominare un predefinito di condizione, effettua le seguenti operazioni:
 1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
 1. Selezionare **Rinomina** dal menu Opzioni per aprire la finestra di dialogo **Rinomina predefinito di condizione**.
 1. Modifica il nome del predefinito di condizione.
-1. Fare clic su **Rinomina**.
+1. Fai clic su **Rinomina**.
 
 ### Duplicare un predefinito di condizione
 
@@ -127,7 +127,7 @@ L’azione è impostata come azione predefinita per tutti gli attributi, a presc
 1. Per aggiungere gli attributi, effettuate una delle seguenti operazioni:
    * Fai clic su **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
    * Fai clic su **Aggiungi tutti** per aggiungere tutti gli attributi al predefinito di condizione.
-1. \(Facoltativo\) Se necessario, è possibile sostituire l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle operazioni seguenti:
+1. \(Facoltativo\) Se necessario, è possibile sostituire l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle seguenti operazioni:
    * Seleziona più attributi, scegli un&#39;azione tra **Imposta l&#39;azione per le condizioni selezionate su**, quindi fai clic su **Applica**.
    * Selezionare un&#39;azione per un attributo dal menu a discesa **Azione**.
 1. Fai clic su **Salva**.

@@ -3,7 +3,7 @@ title: Gestire i predefiniti di output per Profilo globale e Cartella
 description: Scopri come creare, modificare, rinominare, duplicare ed eliminare predefiniti di output per profili globali e di cartelle come utenti amministratori in AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

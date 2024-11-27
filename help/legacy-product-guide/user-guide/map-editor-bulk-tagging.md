@@ -3,7 +3,7 @@ title: Applicazione di tag in blocco a contenuto DITA
 description: Utilizza l’assegnazione tag in blocco dei contenuti in AEM Guides per migliorare la reperibilità dei contenuti DITA. Scopri come applicare, rimuovere, mostrare o nascondere tag in blocco su uno o più argomenti.
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

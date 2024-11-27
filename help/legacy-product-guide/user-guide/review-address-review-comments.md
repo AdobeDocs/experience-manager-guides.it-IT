@@ -3,7 +3,7 @@ title: Commenti sulla revisione degli indirizzi
 description: Scopri come indirizzare i commenti di revisione come autori in AEM Guides. Scopri come un autore può modificare, filtrare, accettare o rifiutare commenti in un documento.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
 
 
-In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità ![](images/active-review-tasklist-icon.svg) del pannello **Review** nella sezione [Left Panel](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
+In qualità di autore, è possibile indirizzare i commenti in un argomento utilizzando l&#39;Editor Web. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità ![](images/active-review-tasklist-icon.svg) del pannello **Review** nella sezione [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 Nelle sezioni seguenti vengono descritte le modalità di modifica dei commenti nell&#39;Editor Web.
 

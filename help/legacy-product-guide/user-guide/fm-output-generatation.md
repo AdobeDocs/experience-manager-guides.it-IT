@@ -3,7 +3,7 @@ title: Genera output di documenti di FrameMaker
 description: Scopri come generare l’output di documenti di FrameMaker nelle guide AEM per pubblicarli in formato PDF, HTML5 e EPUB.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

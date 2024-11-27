@@ -3,7 +3,7 @@ title: Attiva output
 description: Attiva l'output delle mappe DITA in AEM Guides. Scopri come attivare i contenuti nell’istanza di pubblicazione.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Una volta attivato l’output per i file di mappa selezionati, viene aggiornata 
 <summary>  Software on-premise </summary>
 
 
-Effettua una delle operazioni seguenti:
+Effettua una delle seguenti operazioni:
 
 * Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish rapido**.
 * Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Publish rapido.**

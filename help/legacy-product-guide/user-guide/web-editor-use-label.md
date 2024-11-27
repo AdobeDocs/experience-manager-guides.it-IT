@@ -3,7 +3,7 @@ title: Usa etichette
 description: Scopri come utilizzare le etichette per diverse versioni di un file in AEM Guides. Scopri come aggiungere o eliminare un’etichetta in una versione di un argomento.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

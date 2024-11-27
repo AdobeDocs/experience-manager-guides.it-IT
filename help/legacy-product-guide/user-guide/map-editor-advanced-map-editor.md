@@ -3,7 +3,7 @@ title: Utilizzare l’Editor di mappe avanzato
 description: Scopri come utilizzare l’editor di mappe avanzato in AEM Guides. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - **B** - \(*Barra degli strumenti secondaria*\) Questa è la barra degli strumenti secondaria che consente di utilizzare i file di mapping. Per ulteriori informazioni sulle funzionalità disponibili tramite la barra degli strumenti Secondaria, vedere [Funzionalità disponibili nella barra degli strumenti dell&#39;Editor mappe avanzate](#id205DEC0005Z).
 
-   - **C** - \(*Visualizzazioni mappa*\): consente di passare dall&#39;Editor mappa a Layout, Autore, Source e Anteprima. La visualizzazione **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. La visualizzazione **Autore** consente di modificare gli argomenti nell&#39;Editor mappa. Questo offre anche la visualizzazione WYSIWYG del file di mappa. La visualizzazione **Source** consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa. Il collegamento **Chiudi** chiude il file di mapping.
+   - **C** - \(*Visualizzazioni mappa*\): consente di passare dall&#39;Editor mappa a Layout, Autore, Source e Anteprima. La visualizzazione **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. La visualizzazione **Autore** consente di modificare gli argomenti nell&#39;Editor mappa. Questo offre anche la vista WYSIWYG del file di mappa. La visualizzazione **Source** consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa. Il collegamento **Chiudi** chiude il file di mapping.
 
    - **D** - \(*Pannello sinistro*\): consente di accedere al pannello sinistro che consente di accedere ai Preferiti, all&#39;archivio, alla mappa, alla struttura e ad altre funzionalità. È possibile espanderla o comprimerla facendo clic sull&#39;icona Espandi barra laterale \(![](images/sidebar-expand-icon.svg)\). Per ulteriori dettagli sulle funzionalità disponibili nel pannello sinistro, vedere [Pannello sinistro](web-editor-features.md#id2051EA0M0HS) nell&#39;editor Web.
 
@@ -247,7 +247,7 @@ Visualizza la finestra di dialogo Proprietà mappa, in cui è possibile impostar
 
 ## Visualizzazione Autore {#id205DEC0005Z_author_view}
 
-La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor Web. Questa mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout. Per ulteriori dettagli, vedere [Visualizzazione Layout](#id205DEC0005Z_layout_view). Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
+La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor Web. Mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout. Per ulteriori dettagli, vedere [Visualizzazione Layout](#id205DEC0005Z_layout_view). Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 

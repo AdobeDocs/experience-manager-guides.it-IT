@@ -3,9 +3,9 @@ title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web in AEM Guides. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
 - **Profilo Publish**: contiene i profili Publish che possono essere utilizzati per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
 
-   - **Crea un profilo Publish Salesforce**
+   - **Crea un profilo Publish di Salesforce**
 
      **Prerequisiti**
 
@@ -168,15 +168,15 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**.
 
-  Questi possono essere utilizzati per creare il profilo Publish Salesforce.
+  che possono essere utilizzati per creare il profilo Publish di Salesforce.
 
 
-   - Per creare un profilo Publish Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere **Chiave consumer** e **Segreto consumer** forniti dal sito consumer Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+   - Per creare un profilo Publish di Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
      ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache nell’AEM. Scopri come [configurare il proxy per Verifica collegamenti AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per Verifica collegamenti AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
    - **Crea un profilo Publish ServiceNow**
@@ -199,7 +199,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   Dopo la convalida, è possibile selezionare il profilo Publish nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output nel server **Salesforce** o **ServiceNow** scelto.
 
-  Ulteriori informazioni sul predefinito di output [Knowledge Base](/help/product-guide/user-guide/generate-output-knowledge-base.md).
+  Ulteriori informazioni sul predefinito di output [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
 
 - **Convalida**: questa scheda contiene le opzioni per configurare le Convalide Schematron nell&#39;editor Web. È possibile attivare le seguenti funzionalità:
@@ -605,7 +605,7 @@ Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tut
 
 La descrizione comando per l&#39;archiviazione/estrazione è determinata dalla proprietà title nel file `ui_config.json`.
 
-Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](/help/product-guide/install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](../install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
 
 **Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   >[!NOTE]
   >
-  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
+  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
 
 
 - **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima di un file .dita/.xml nell&#39;interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
@@ -1507,7 +1507,22 @@ Per aggiungere o definire una condizione, fai clic sull’icona + accanto al pan
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-Dall&#39;elenco Attributo (Attribute), selezionate l&#39;attributo condizionale da definire, immettete un valore per la condizione, quindi specificate l&#39;etichetta visualizzata nel pannello Condizioni (Conditions). Puoi anche definire un colore per la condizione. Questo colore viene impostato come colore di sfondo del contenuto a cui viene applicata la condizione
+Dall&#39;elenco Attributo (Attribute), selezionate l&#39;attributo condizionale da definire, immettete un valore per la condizione, quindi specificate l&#39;etichetta visualizzata nel pannello Condizioni (Conditions). Definisci un gruppo per la condizione. È possibile aggiungere più condizioni a un gruppo. Puoi anche definire un colore per la condizione. Questo colore viene impostato come colore di sfondo del contenuto a cui viene applicata la condizione.
+
+Puoi raggruppare le condizioni e strutturarle in cartelle nidificate. I gruppi consentono di creare condizioni a più livelli e di organizzarle meglio per l’utilizzo nel contenuto.
+
+Ad esempio, puoi creare gruppi di condizioni di prodotti come *Acrobat* e *AEM Guides*. È possibile selezionare gli attributi condizionali per entrambi i gruppi. In ogni gruppo, puoi avere valori specifici come *Utente*, *Amministratore*, *Revisore* e *Autore*.
+
+>[!NOTE]
+>
+> Digitare per creare un nuovo gruppo o selezionare un gruppo esistente per un determinato attributo.
+
+È possibile utilizzare `/` e definire sottogruppi che definiscono sottogruppi come `AEM Guides/Cloud Service`.
+
+
+
+![condizioni organizzate in una gerarchia nidificata](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Per modificare una condizione, scegliere **Modifica** dal menu Opzioni. Viene visualizzata la finestra di dialogo Modifica condizione:
 
@@ -1805,7 +1820,7 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
    - Seleziona ![](images/filter-search-icon.svg) per aprire la finestra di dialogo **Filtro**. Puoi selezionare tutti o solo progetti specifici. I progetti selezionati sono elencati nel pannello **Rivedi**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     L&#39;opzione **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate.
+     L&#39;opzione **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate. Lo stato di attivazione o disattivazione di questa opzione viene mantenuto anche dopo l’aggiornamento della pagina.
 
 1. Per impostazione predefinita, nel progetto di revisione viene visualizzato un elenco semplice di argomenti a cui sono associati commenti. Applica i filtri richiesti dalla barra a sinistra per filtrare gli argomenti in base ai commenti di revisione presenti in essi:
 

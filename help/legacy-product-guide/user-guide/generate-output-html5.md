@@ -3,9 +3,9 @@ title: Usa HTML5
 description: Scopri come creare un predefinito di HTML5 dall’editor web e dal dashboard delle mappe. Configura il predefinito di output di HTML5 in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1226'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ La scheda **Generale** contiene le seguenti configurazioni:
 La scheda Avanzate contiene le seguenti configurazioni:
 
 - Nome trasformazione
-- Scarica file temporanei
+- Mantieni file temporanei
 - Proprietà file
 
 Per ulteriori informazioni, vedere [Configurazione HTML5](#id231KJA00REJ).
@@ -64,7 +64,8 @@ Per l’output di HTML5 sono disponibili le seguenti opzioni:
 | Nome file | Specificare il nome del file con cui si desidera salvare l&#39;output di HTML5.<br><br>**Nota**: se non si specifica un nome di file, verrà utilizzato il titolo della mappa DITA per generare il nome finale del file di output HTML5. Se la mappa non ha un titolo, viene utilizzato il nome del file della mappa DITA per denominare l&#39;output finale di HTML5. Il nome del file viene bonificato utilizzando le regole configurate nel sistema per gestire qualsiasi carattere non valido. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br><br>**Nota**:per ulteriori informazioni sulla creazione di un flusso di lavoro personalizzato per la generazione post-output, vedere _Personalizzare il flusso di lavoro per la generazione post-output_ in Installare e configurare Adobe Experience Manager Guides as a Cloud Service. |
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di HTML5. |
-| Scarica file temporanei | Selezionare questa opzione per scaricare i file temporanei generati da DITA-OT. Il percorso in cui DITA-OT memorizza i file temporanei si trova nel registro di generazione dell&#39;output. Se si verificano errori durante la generazione dell&#39;output tramite DITA-OT, selezionare questa opzione per mantenere i file temporanei. È quindi possibile utilizzare tali file per risolvere eventuali errori di generazione dell&#39;output.<br> <br> Dopo aver generato l&#39;output, selezionare l&#39;icona **Scarica file temporanei** ![Scarica file temporanei](images/download-temp-files-icon.png) per scaricare la cartella ZIP contenente i file temporanei. <br><br> **Nota**: se si selezionano alcune proprietà di file e quindi si scaricano i file temporanei, nella cartella ZIP verrà ottenuto anche il file *metadata.xml*. |
+| Mantieni file temporanei | Selezionare questa opzione per mantenere i file temporanei generati da DITA-OT. Se si verificano errori durante la generazione dell&#39;output tramite DITA-OT, selezionare questa opzione per mantenere i file temporanei. È quindi possibile utilizzare tali file per risolvere eventuali errori di generazione dell&#39;output.<br> <br> Dopo aver generato l&#39;output, selezionare l&#39;icona **Scarica file temporanei** ![Scarica file temporanei](images/download-temp-files-icon.png) per scaricare la cartella ZIP contenente i file temporanei. <br><br> **Nota**: se le proprietà del file vengono aggiunte durante la generazione, i file temporanei di output includono anche un file *metadata.xml* contenente tali proprietà. |
+| Appiattisci gerarchia file | Selezionate l&#39;opzione per generare l&#39;output di HTML5 in una gerarchia di cartelle piatta. L’intero contenuto viene pubblicato in formato di output HTML5 in una gerarchia di file flat e salvato in un’unica cartella. <br> Se si deseleziona questa opzione, l&#39;output viene generato in una gerarchia di cartelle nidificate e l&#39;intera struttura di cartelle viene replicata. |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Per ulteriori dettagli, vedere [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF). |
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: è inoltre possibile passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, vedere [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

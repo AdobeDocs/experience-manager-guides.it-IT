@@ -3,7 +3,7 @@ title: Carica file
 description: Scopri come caricare i file nell’archivio AEM e gestire gli errori. Conoscere l’interfaccia utente della console delle risorse, l’app desktop AEM, l’acquisizione in blocco delle risorse e utilizzare il FrameMaker per il caricamento in blocco.
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

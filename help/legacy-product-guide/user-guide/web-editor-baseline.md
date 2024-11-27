@@ -3,7 +3,7 @@ title: Creare e gestire le baseline dall'editor Web
 description: Crea e gestisci le linee di base dall’editor web in AEM Guides. Scopri come creare linee di base sulla base di etichette e applicare filtri alle linee di base.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%

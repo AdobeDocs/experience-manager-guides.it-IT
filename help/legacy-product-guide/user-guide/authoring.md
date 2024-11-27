@@ -3,7 +3,7 @@ title: Gestire i contenuti
 description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AEM Guides. Scopri i concetti chiave della gestione dei contenuti e dell’utilizzo dei profili a livello globale o di cartella.
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Prima di iniziare a creare effettivamente i contenuti, è necessario acquisire familiarità con alcuni concetti di base del content management in AEM Guides. Quindi, inizia con la creazione di diversi gruppi di utenti e l’organizzazione delle risorse.
 
-## Concetti chiave
+## Concetti fondamentali
 
 Alcuni concetti chiave della gestione dei contenuti dell’AEM sono i seguenti:
 

@@ -3,7 +3,7 @@ title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati dell’origine dati in AEM Guides. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <summary> Servizi cloud </summary>
 
 
-- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
-- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Software on-premise </summary>
 
-- Se utilizzi la versione 4.3.1 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+- Se utilizzi la versione 4.3.1 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
-- Se utilizzi la versione 4.3, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+- Se utilizzi la versione 4.3, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 </details>
 
 
@@ -205,7 +205,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
       >
       > Se l’amministratore ha configurato dei modelli personalizzati, questi vengono visualizzati anche nell’elenco a discesa (in base alle configurazioni del percorso del modello eseguite dall’amministratore). È ad esempio possibile creare un modello di argomento contenente un elenco ordinato, tabelle, paragrafi o altri elementi DITA.
 
-   1. Immettere il **nodo principale**. Questo è il nodo in cui desideri accedere ai tuoi dati. Il generatore di argomenti crea quindi ogni argomento al livello definito nel nodo principale. Ad esempio, puoi aggiungere &quot;problemi&quot; come nodo principale in Jira. Pertanto, se una query restituisce 13 problemi, riceverai 13 argomenti, uno per ogni problema.
+   1. Immettere il **nodo principale**. Questo è il nodo in cui desideri accedere ai tuoi dati. Il generatore di argomenti crea quindi ogni argomento al livello definito nel nodo principale. Ad esempio, puoi aggiungere &quot;issues&quot; come nodo principale in Jira. Pertanto, se una query restituisce 13 problemi, riceverai 13 argomenti, uno per ogni problema.
 
    1. Fare clic su **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL. L&#39;anteprima mostra una piccola frazione di come l&#39;argomento viene visualizzato nel formato del modello selezionato. Ad esempio, puoi visualizzare un singolo problema Jira con tutti i campi risultanti dalla query.
    1. Immettere il nome del generatore di argomenti.
@@ -239,7 +239,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    *Aggiungi le proprietà dei metadati nel pannello Metadati per passare agli argomenti.*
 
-1. Immetti il nome del generatore e fai clic su **Salva** per salvare i risultati della query. Un nuovo generatore di argomenti viene aggiunto all&#39;elenco.
+1. Immettere il nome del generatore e fare clic su **Salva** per salvare i risultati della query. Un nuovo generatore di argomenti viene aggiunto all&#39;elenco.
 
 1. Fare clic su **Salva e genera** per salvare il generatore di argomenti e generare nuovi argomenti dal generatore di argomenti.
 

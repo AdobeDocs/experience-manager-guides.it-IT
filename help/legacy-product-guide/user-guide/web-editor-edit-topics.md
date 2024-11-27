@@ -3,9 +3,9 @@ title: Modificare gli argomenti nell'editor Web
 description: Scopri come modificare gli argomenti nell’editor web. Scopri le varie funzioni di modifica per modificare i file degli argomenti in AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,13 @@ L&#39;editor Web include una serie di funzioni di modifica che consentono di cre
 ## Selezione parziale del contenuto tra gli elementi
 
 Experience Manager Guides consente inoltre di selezionare il contenuto tra gli elementi. Dopo aver selezionato il contenuto, puoi eseguire le operazioni seguenti:
+
 - Formattazione ed eliminazione: applica al contenuto selezionato il grassetto, il corsivo, la sottolineatura o persino l’eliminazione. Il contenuto dei tag aperti validi viene quindi unito e visualizzato sotto un singolo elemento. È ad esempio possibile selezionare il contenuto di un paragrafo ed estendere la selezione a un altro paragrafo. Quindi, se rendi in grassetto il contenuto selezionato, tutto il contenuto in grassetto dei tag aperti viene unito e visualizzato sotto un singolo elemento di paragrafo.
 
 Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente dopo l’eliminazione nei tag aperti viene unito.
 
 - Racchiudi il contenuto in un elemento valido: per racchiuderlo in un elemento valido, effettua le seguenti operazioni:
+
    - Seleziona il contenuto all’interno di un elemento.
    - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare la finestra di dialogo **Racchiudi con elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
      >[!NOTE]
@@ -73,7 +75,27 @@ AEM Guides indica anche se l’ultima copia salvata \(working\) del file è sinc
 ![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Aprire i file bloccati in modalità Autore e Source
 
+Quando un file DITA o Markdown viene bloccato o estratto da un altro utente, non è possibile modificare o modificare il contenuto. Tuttavia, è ancora possibile visualizzare il file in formato di sola lettura sia nella modalità **Autore** che nella modalità **Source**, oltre alla modalità **Anteprima**.
+
+Nella modalità di sola lettura è possibile visualizzare il contenuto, i tag e gli attributi nelle modalità **Autore** o **Source**. È inoltre possibile modificare le proprietà del file.
+
+Nella barra degli strumenti vengono visualizzate le icone seguenti per l&#39;accesso in sola lettura:
+
+- Attiva/disattiva visualizzazione tag
+- Cronologia delle versioni
+- Etichetta versione
+
+In Experience Manager Guides viene inoltre visualizzato un indicatore **Accesso in sola lettura** accanto al numero di versione.
+
+![visualizza il file di sola lettura in modalità di modifica](images/locked-file-editor.png)
+
+È possibile accedere alla visualizzazione **Layout** per le mappe DITA di sola lettura. Questa visualizzazione consente di visualizzare la mappa DITA e le relative proprietà, ma impedisce le modifiche.
+
+>[!NOTE]
+>
+> Gli utenti amministratori a livello di cartella devono aggiornare *ui_config.json* in modo da poter accedere in modo armonioso ai file di sola lettura nelle modalità Autore, Source e Layout.
 
 ## Individuare un file aperto nella vista Archivio
 

@@ -3,7 +3,7 @@ title: Aggiungere e gestire le citazioni nel contenuto
 description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Viene visualizzata la finestra di dialogo **Aggiungi citazione**.
    | Libro | Sito Web | Diario |
    | --- | ---|---|
    | **Source** <br> Dall&#39;elenco a discesa, selezionare l&#39;origine della citazione come registro. | **Source**<br> Selezionare l&#39;origine della citazione come sito Web dall&#39;elenco a discesa. | **Source** <br> Selezionare l&#39;origine della citazione come diario dal menu a discesa. |
-   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore univoco libro numerico | **Cerca per** <br> Seleziona **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione. | **Cerca per** <br> Seleziona **DOI** o ID PubMed dall&#39;elenco a discesa per cercare l&#39;ID digitale collegato alla citazione. <br>  <br> |
+   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore univoco registro numerico | **Cerca per** <br> Seleziona **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione. | **Cerca per** <br> Seleziona **DOI** o ID PubMed dall&#39;elenco a discesa per cercare l&#39;ID digitale collegato alla citazione. <br>  <br> |
    | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. |
    | **Titolo** <br> Aggiungi il titolo del libro. | **Titolo** <br> Aggiungi il titolo della pagina Web. | **Titolo** <br> Aggiungi il titolo dell&#39;articolo. |
    | **Editor** <br> Aggiungi l&#39;editor del libro. | **Nome sito Web** <br> Aggiungere il nome del sito Web. | **Titolo diario** <br> Aggiungi il titolo del lavoro in cui è stato trovato l&#39;articolo. |
@@ -257,10 +257,10 @@ Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto c
 
 Nell’output di PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
 
-Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](/help/product-guide/native-pdf/pdf-template.md).
+Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](../native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +272,4 @@ Applica la formattazione alla citazione quando viene aggiunta all&#39;argomento.
 
 1. Nel pannello Ricerca, cerca `<cite>`.
 
-Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](/help/product-guide/native-pdf/stylesheet.md).
+Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](../native-pdf/stylesheet.md).

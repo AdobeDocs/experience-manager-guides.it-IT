@@ -3,7 +3,7 @@ title: Invia argomenti per la revisione
 description: Scopri come creare un’attività di revisione e inviare argomenti per la revisione in AEM Guides. Inviare uno o più argomenti in una mappa DITA per la revisione.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%
