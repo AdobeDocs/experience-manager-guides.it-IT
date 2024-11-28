@@ -3,7 +3,7 @@ title: Publish di un argomento in un frammento di esperienza
 description: Publish Applicare un argomento o gli elementi di un argomento a un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Ad esempio:
 
 
 
-     L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](../cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
+     L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
 
    * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
 

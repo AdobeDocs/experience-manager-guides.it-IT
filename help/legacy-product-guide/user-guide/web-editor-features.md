@@ -3,7 +3,7 @@ title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web in AEM Guides. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tut
 
 La descrizione comando per l&#39;archiviazione/estrazione è determinata dalla proprietà title nel file `ui_config.json`.
 
-Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](../install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](/help/product-guide/install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
 
 **Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   >[!NOTE]
   >
-  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
+  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
 
 
 - **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima di un file .dita/.xml nell&#39;interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.

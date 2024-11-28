@@ -3,7 +3,7 @@ title: Creare mappe in base a modelli personalizzati
 description: Scopri come creare un modello personalizzato, utilizzarlo per creare nuovi file di mappa e passare il titolo definito a una mappa DITA in AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ In base alla configurazione, scopri come configurare il percorso della cartella 
 <details>
     <summary> Servizi cloud </summary>
 
-Scopri come [configurare il percorso della cartella del modello DITA personalizzato](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+Scopri come [configurare il percorso della cartella del modello DITA personalizzato](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 </details>
 
 <details>
     <summary> Software on-premise</summary>
 
-Scopri come [configurare il percorso della cartella del modello DITA personalizzato](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione on-premise.
+Scopri come [configurare il percorso della cartella del modello DITA personalizzato](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) nella Guida all&#39;installazione e alla configurazione on-premise.
 </details>
 
 ## Trasmettere il titolo definito nei modelli

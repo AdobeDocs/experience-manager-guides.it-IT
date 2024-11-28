@@ -1,7 +1,7 @@
 ---
 title: Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
 description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Durante l&#39;authoring dei contenuti, la funzione **Suggerisci contenuto riutil
 Questo consente di riutilizzare il contenuto esistente dall’archivio della documentazione e creare contenuti coerenti. Stai creando un documento contenente informazioni su **Adobe Firefly**, incluso un paragrafo su **Adobe**. In tal caso, puoi visualizzare e aggiungere rapidamente il riferimento al contenuto da un altro argomento, come **Adobe Photoshop**, che include lo stesso paragrafo.
 >[!NOTE]
 >
-> Nei [profili globali o a livello di cartella](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), l&#39;amministratore deve definire i file o le cartelle da indicizzare per i suggerimenti avanzati, il numero minimo di caratteri da immettere per visualizzare i suggerimenti e il numero massimo di suggerimenti visualizzabili nell&#39;elenco.
+> Nei [profili globali o a livello di cartella](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), l&#39;amministratore deve definire i file o le cartelle da indicizzare per i suggerimenti avanzati, il numero minimo di caratteri da immettere per visualizzare i suggerimenti e il numero massimo di suggerimenti visualizzabili nell&#39;elenco.
 
 Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di contenuto appropriati all’argomento, effettua le seguenti operazioni:
 

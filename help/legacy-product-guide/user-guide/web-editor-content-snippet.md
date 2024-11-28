@@ -3,7 +3,7 @@ title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati dell’origine dati in AEM Guides. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <summary> Servizi cloud </summary>
 
 
-- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
-- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Software on-premise </summary>
 
-- Se utilizzi la versione 4.3.1 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+- Se utilizzi la versione 4.3.1 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
-- Se utilizzi la versione 4.3, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+- Se utilizzi la versione 4.3, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 </details>
 
 
