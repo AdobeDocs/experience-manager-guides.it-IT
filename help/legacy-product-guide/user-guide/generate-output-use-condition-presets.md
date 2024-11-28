@@ -3,7 +3,7 @@ title: Utilizzare i predefiniti per le condizioni
 description: Conoscere l’utilizzo dei predefiniti per le condizioni in AEM Guides. Scopri come creare, modificare, copiare ed eliminare i predefiniti per le condizioni in AEM.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Effettua una delle seguenti operazioni:
    >
    > Se selezionate un altro predefinito o chiudete il predefinito senza salvarlo, viene visualizzato un avviso.
 
-Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [output di Publish PDF](../web-editor/native-pdf-web-editor.md).
+Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [output di Publish PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Rinominare un predefinito di condizione
 

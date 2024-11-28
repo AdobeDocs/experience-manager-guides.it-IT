@@ -3,7 +3,7 @@ title: Aggiungere e gestire le citazioni nel contenuto
 description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto c
 
 Nell’output di PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
 
-Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](../native-pdf/components-pdf-template.md#create-page-layout).
+Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](../native-pdf/pdf-template.md).
+Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +272,4 @@ Applica la formattazione alla citazione quando viene aggiunta all&#39;argomento.
 
 1. Nel pannello Ricerca, cerca `<cite>`.
 
-Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](../native-pdf/stylesheet.md).
+Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](/help/product-guide/native-pdf/stylesheet.md).
