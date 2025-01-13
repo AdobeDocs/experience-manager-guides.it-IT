@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 8%
 
 ---
@@ -100,7 +100,9 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, l’o
 
 >[!IMPORTANT]
 > 
-> Si consiglia di utilizzare il flusso di lavoro di traduzione più recente, che offre prestazioni migliori. Tuttavia, se nel processo di traduzione corrente sono abilitate delle personalizzazioni, puoi utilizzare il flusso di lavoro di traduzione legacy.
+> Per prestazioni avanzate, si consiglia di utilizzare il flusso di lavoro di traduzione più recente, disponibile in AEM Guides 4.6.0 e versioni successive. Tuttavia, se hai abilitato una personalizzazione nel processo di traduzione e questo è influenzato dal nuovo flusso di lavoro, puoi considerare il ripristino del flusso di lavoro di traduzione legacy come soluzione alternativa.
+
+
 
 Per impostazione predefinita, l’opzione del flusso di lavoro di traduzione legacy è disabilitata. Puoi configurare questa opzione eseguendo i seguenti passaggi:
 

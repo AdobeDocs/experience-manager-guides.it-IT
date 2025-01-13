@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Questa modifica impedisce al nodo /var/dxml di essere indicizzato e memorizzato 
 ## Ottimizzazione della memoria Java \(Obbligatorio\)
 
 **Qual è la modifica?**
-I parametri di avvio della JVM devono essere accuratamente regolati in base all&#39;infrastruttura e alle dimensioni del disco. È consigliabile consultare il Supporto Adobe per ottenere assistenza per accedere alla configurazione ideale. Tuttavia, puoi provare autonomamente le seguenti configurazioni:
+I parametri di avvio della JVM devono essere accuratamente regolati in base all&#39;infrastruttura e alle dimensioni del disco. È consigliabile consultare il supporto Adobe per ottenere assistenza per accedere alla configurazione ideale. Tuttavia, puoi provare autonomamente le seguenti configurazioni:
 
 : imposta la dimensione heap JVM su un minimo di 1/4 della memoria totale disponibile. Utilizzare il parametro `-Xmx<size>` per impostare la dimensione della memoria heap. Impostare il valore per -`Xms` uguale a `-Xmx`.
 
@@ -114,17 +114,5 @@ Questa operazione può essere eseguita in fase di esecuzione tramite la console 
 **Risultato di questa modifica**
 Un numero maggiore di **Limita pagine del sito AEM nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
 
-## Ottimizza il numero di thread di post-elaborazione \(Obbligatorio, a seconda del caso d’uso\)
-
-**Qual è la modifica?**
-Questa modifica è necessaria se si esegue il caricamento in blocco di contenuto DITA.
-
-Impostare la proprietà **Post Process Threads** in `com.adobe.fmdita.config.ConfigManager` su `1`.
-
-**Quando configurare?**
-Questa operazione può essere eseguita in fase di esecuzione.
-
-**Risultato di questa modifica**
-Questa modifica riduce il tempo di post-elaborazione durante il caricamento in blocco di file DITA.
 
 **Argomento padre:**[ Scarica e installa](download-install.md)

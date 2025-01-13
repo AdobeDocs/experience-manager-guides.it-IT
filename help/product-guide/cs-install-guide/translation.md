@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 9%
 
 ---
@@ -72,16 +72,17 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, deve 
 
 ## Configurare il flusso di lavoro di traduzione legacy
 
-Si consiglia di utilizzare il flusso di lavoro di traduzione più recente, che offre prestazioni migliori. Tuttavia, se desideri utilizzare il flusso di lavoro di traduzione legacy, puoi configurarlo.
+>[!IMPORTANT]
+>
+> È consigliabile utilizzare l’ultimo flusso di lavoro di traduzione, disponibile in AEM Guides 2024.06.0 e versioni successive, per migliorare le prestazioni. Tuttavia, se hai abilitato una personalizzazione nel processo di traduzione e questo è influenzato dal nuovo flusso di lavoro, puoi considerare il ripristino del flusso di lavoro di traduzione legacy come soluzione alternativa.
 
 Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà) per configurare il flusso di lavoro di traduzione legacy:
 
 
-
-
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi il flusso di lavoro di traduzione più recente, *Disabilita* \( `false`\) l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. Per impostazione predefinita, è abilitato l’ultimo flusso di lavoro di traduzione. <br> -   Se utilizzi la traduzione legacy, *Abilita \( `true`\)* l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi il flusso di lavoro di traduzione più recente, *Disabilita* \( `false`\) l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**.  <br> -   Se utilizzi la traduzione legacy, *Abilita \( `true`\)* l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. <br> **Valore predefinito**: false |
+
 
 
 
@@ -101,5 +102,5 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> -   Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* \( false\) l&#39;opzione **Copie per lingua di elaborazione Post**.<br> -   Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) l&#39;opzione **Copie per lingua del processo Post**.<br> **Valore predefinito**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> -   Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* \( false\) l&#39;opzione **Copie per lingua post-elaborazione**.<br> -   Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) l&#39;opzione **Copie lingua post-elaborazione**.<br> **Valore predefinito**: false |
 
