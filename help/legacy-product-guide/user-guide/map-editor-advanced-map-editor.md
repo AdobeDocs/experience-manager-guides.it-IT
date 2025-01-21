@@ -3,7 +3,8 @@ title: Utilizzare l’Editor di mappe avanzato
 description: Scopri come utilizzare l’editor di mappe avanzato in AEM Guides. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -385,4 +386,4 @@ Puoi accedere all’anteprima di una mappa da:
    - L&#39;argomento corrente nell&#39;anteprima della mappa viene evidenziato anche nella struttura della mappa.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:** [Utilizzare l&#39;editor mappe](map-editor.md)

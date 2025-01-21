@@ -1,7 +1,7 @@
 ---
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente nell’editor web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ Ad esempio, puoi elencare i requisiti di sistema e generare una breve descrizion
 
 
 1. Seleziona il contenuto.
-1. Selezionare **Crea collegamento ![ai crea icona breve descrizione](./images/ai-create-shortdesc-icon.svg)** per creare una breve descrizione per l&#39;argomento corrente.
+1. Selezionare **Crea collegamento** ![ai icona Crea descrizione breve](./images/ai-create-shortdesc-icon.svg) per creare una breve descrizione per l&#39;argomento corrente.
 1. Selezionare **Accetta** per creare una nuova breve descrizione se questa non è già presente. Se è presente una breve descrizione, è necessario confermarla prima di sostituirla con la nuova breve descrizione.
 
 È inoltre possibile eseguire le azioni seguenti:
-- Seleziona **Rigenera** per generare un&#39;altra breve descrizione per il tuo argomento, come gli strumenti di intelligenza artificiale.
 
+- Seleziona **Rigenera** per generare un&#39;altra breve descrizione per il tuo argomento, come gli strumenti di intelligenza artificiale.
 - Seleziona **Espandi** per aprire l&#39;editor **Crea collegamento**.
 
 ![assistente ai crea editor di descrizioni brevi](./images/ai-assistant-create-short-desc.png)
