@@ -1,16 +1,17 @@
 ---
-title: Abilitazione delle variabili di contenuto contestuale (CCVAR) in AEM Sites tramite AEM Guides
-description: Utilizzo delle variabili di contenuto contestuale (CCVAR) in AEM Sites tramite AEM Guides
+title: Abilitazione delle variabili di contenuto contestuale (CCVAR) nelle pagine AEM Sites generate da AEM Guides
+description: Utilizzo delle variabili di contenuto contestuale (CCVAR) nelle pagine AEM Sites generate da AEM Guides
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
 
-# Abilitazione delle variabili di contenuto contestuale (CCVAR) in AEM Sites tramite AEM Guides
+# Abilitazione delle variabili di contenuto contestuale (CCVAR) nelle pagine AEM Sites generate da AEM Guides
 
 Le variabili di contenuto contestuali (CCVAR) sono una funzionalità ACS Commons che consente agli autori di utilizzare variabili di contenuto dinamiche direttamente nel testo creato. Anche se CCVAR è comunemente utilizzato in AEM Sites, questo articolo spiega come ottenere funzionalità simili tramite pagine generate da contenuto creato in **AEM Guides** *principalmente utilizzando parole chiave definite nella mappa DITA*.
 
@@ -20,7 +21,7 @@ Le variabili di contenuto contestuali (CCVAR) sono una funzionalità ACS Commons
 CCVAR consente agli autori di inserire nel contenuto variabili dinamiche che vengono risolte in fase di esecuzione in base al contesto. Ad esempio, variabili come `((page_properties.pageTitle))` possono richiamare dinamicamente il titolo della pagina durante il rendering del contenuto.
 
 
-## Come abilitare il CCVAR in AEM Sites generato da AEM Guides?
+## Come abilitare il CCVAR nelle pagine AEM Sites generate da AEM Guides?
 
 Considerando che AEM Guides viene utilizzato come origine di tutti i contenuti (inclusi AEM Sites, PDF o HTML5), per abilitare i CCVAR sulle pagine generate da AEM Guides, è necessario utilizzare parole chiave per definire il nome del CCVAR. Per eseguire questa operazione nelle Guide, definire **parole chiave** nella mappa DITA utilizzando `<keydef>` elementi. Queste parole chiave possono corrispondere a valori dinamici (o nomi CCVAR), consentendo di farvi riferimento negli argomenti DITA.
 
