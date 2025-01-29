@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi nella versione 2024.12.0 di Adobe Experience Manager Guides
 description: Scopri le correzioni di bug nella versione 2024.12.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ Scopri le [istruzioni di aggiornamento per la versione 2024.12.0](./upgrade-inst
 ## Traduzione
 
 - La traduzione delle mappe utilizzando la linea di base diventa lenta e alla fine non riesce a caricare l’elenco di tutti gli argomenti e i file di mappe associati. (19733)
+
+## Problemi noti relativi alla soluzione alternativa
+
+Adobe ha identificato i seguenti problemi noti nella versione 2024.12.0 di Adobe Experience Manager Guides as a Cloud Service.
+
+**Creazione del progetto non riuscita durante l&#39;elaborazione della traduzione del contenuto**
+
+Durante l’invio del contenuto per la traduzione, la creazione del progetto non riesce e vengono visualizzati i seguenti errori di registro:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Errore durante l&#39;elaborazione del progetto di traduzione
+
+`com.adobe.cq.projects.api.ProjectException`: impossibile creare il progetto
+
+Causato da: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: accesso negato
+
+
+**Soluzione**: per risolvere il problema, effettuare le seguenti operazioni:
+
+1. Aggiungi un file repoinit. Nel caso in cui il file non esista, crealo eseguendo i [passaggi di creazione della configurazione di repoinit di esempio](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+2. Aggiungi la seguente riga nel file e distribuisci il codice:
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Verifica la traduzione dopo la distribuzione.
+
