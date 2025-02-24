@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides Old UI
-user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
+user-guide-description: Leggi la documentazione del prodotto per Adobe Experience Manager Guides utilizzando la vecchia interfaccia utente.
 breadcrumb-title: Documentazione di AEM Guides
 hide: true
 badgeAll: label="Guida alla vecchia interfaccia utente - Ulteriori informazioni" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guida alla vecchia interfaccia utente"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 3%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 4%
       - [Rapporto sul riutilizzo dei contenuti](./user-guide/reports-content-reuse.md)
       - [Rapporto sullo stato della conversione](./user-guide/reports-convertion-status.md)
       - [Rapporto cronologia versioni file ripristinati](./user-guide/reports-reverted-file-version-history.md)
-- [Guida utente (nuova interfaccia utente)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [GUIDA UTENTE (NUOVA INTERFACCIA UTENTE)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+

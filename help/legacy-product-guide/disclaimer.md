@@ -2,9 +2,9 @@
 title: Esclusione di responsabilità per la documentazione di AEM Guides
 description: Scopri la documentazione legacy di AEM Guides.
 exl-id: 25cd90ed-ae73-4185-90f5-6ace9d76a796
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
@@ -14,4 +14,5 @@ ht-degree: 1%
 
 A partire dalla versione 2502, Experience Manager Guides offre una nuova interfaccia utente e una guida utente aggiornata per migliorare l’usabilità e semplificare i flussi di lavoro. Se utilizzi la versione più recente, consulta la [Nuova guida utente](../product-guide/overview.md) per informazioni aggiornate.
 
-Se utilizzi una versione precedente di Experience Manager Guides, la documentazione legacy rimane disponibile per supportare le tue esigenze continuative. Puoi continuare ad accedere alla [vecchia guida utente](overview.md) per informazioni dettagliate sui flussi di lavoro e sulle funzionalità dell&#39;interfaccia utente precedenti.
+<!-- If you are using a previous version of Experience Manager Guides, the legacy documentation remains available to support your ongoing needs. You can continue to access the [Old User Guide](overview.md) for detailed information on previous UI workflows and features.
+-->
