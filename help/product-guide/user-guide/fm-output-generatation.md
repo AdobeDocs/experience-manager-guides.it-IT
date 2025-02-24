@@ -1,19 +1,19 @@
 ---
-title: Genera output di documenti di FrameMaker
-description: Scopri come generare l’output di documenti di FrameMaker nelle guide AEM per pubblicarli in formato PDF, HTML5 e EPUB.
+title: Genera output di documenti FrameMaker
+description: Scopri come generare l’output di documenti FrameMaker nelle guide di AEM per pubblicarli in formato PDF, HTML5 e EPUB.
 exl-id: c19564c2-90f7-411d-835e-b2d1b0ada9c5
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 68229515bb3379df5eebd9adebb7b09e25b44e0f
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# Genera output di documenti di FrameMaker {#id1645H8040HD}
+# Genera output di documenti FrameMaker {#id1645H8040HD}
 
-A partire da AEM Guides 1.1, è inoltre possibile pubblicare i documenti di FrameMaker \(`.book` e `.fm`\) disponibili nell&#39;archivio AEM. Se un file libro contiene una combinazione di documenti DITA e di FrameMaker, AEM Guides consente di pubblicare anche tali documenti. I documenti di FrameMaker possono essere pubblicati nei seguenti formati:
+A partire da Adobe Experience Manager Guides 1.1, è inoltre possibile pubblicare i documenti FrameMaker \(`.book` e `.fm`\) disponibili nell&#39;archivio Adobe Experience Manager. Se un file libro contiene una combinazione di documenti DITA e FrameMaker, Experience Manager Guides consente di pubblicare anche tali documenti. I documenti di FrameMaker possono essere pubblicati nei seguenti formati:
 
 - PDF
 
@@ -22,9 +22,9 @@ A partire da AEM Guides 1.1, è inoltre possibile pubblicare i documenti di Fram
 - EPUB
 
 
-In qualità di autore, fai clic su alcuni collegamenti e l’output viene generato. È possibile generare l&#39;output per un intero file di registro oppure pubblicare in modo selettivo singoli file di FrameMaker. Prima di generare l’output, puoi anche apportare modifiche ai file di FrameMaker. Quando si seleziona un file con estensione fm o book nell&#39;archivio AEM, viene visualizzato il pulsante **Apri nel FrameMaker** sulla barra degli strumenti. Facendo clic su questo pulsante, il file selezionato viene aperto nel FrameMaker.
+In qualità di autore, seleziona solo alcuni collegamenti e l’output viene generato. È possibile generare l&#39;output per un intero file libro oppure pubblicare in modo selettivo singoli file FrameMaker. Prima di generare l’output, puoi anche apportare modifiche ai file FrameMaker. Quando si seleziona un file fm o book nell&#39;archivio di Adobe Experience Manager, viene visualizzato il pulsante **Apri in FrameMaker** sulla barra degli strumenti. Selezionando questo pulsante si apre il file selezionato in FrameMaker.
 
-Le informazioni contenute nelle sezioni seguenti sono destinate agli editori che utilizzeranno i flussi di lavoro di generazione dell’output per pubblicare i documenti del FrameMaker:
+Le informazioni contenute nelle sezioni seguenti sono destinate agli editori che utilizzeranno i flussi di lavoro di generazione dell’output per pubblicare documenti FrameMaker:
 
 - [Informazioni sui predefiniti di output](fm-output-understand-presets.md#)
 

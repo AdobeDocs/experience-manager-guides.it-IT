@@ -4,22 +4,22 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
 
 # Invia argomenti per la revisione {#id199RD0S035Z}
 
-Il flusso di lavoro di revisione crea un ambiente con più revisori in cui l&#39;iniziatore specifica un elenco di argomenti per la revisione, aggiunge più revisori e assegna una sequenza temporale all&#39;attività di revisione. AEM Guides consente agli utenti appartenenti ai gruppi Author e Publishers di avviare una revisione.
+Il flusso di lavoro di revisione crea un ambiente con più revisori in cui l&#39;iniziatore specifica un elenco di argomenti per la revisione, aggiunge più revisori e assegna una sequenza temporale all&#39;attività di revisione. Adobe Experience Manager Guides consente agli utenti appartenenti ai gruppi Author e Publishers di avviare una revisione.
 
-Poiché il flusso di lavoro di revisione è specifico per il progetto, l&#39;iniziatore della revisione deve far parte del team del progetto o disporre dei diritti per creare un progetto. Al momento della creazione di un progetto, puoi definire i membri del team per il progetto e assegnare loro vari ruoli o gruppi. Per ulteriori informazioni sui progetti, vedere [Creare un progetto DITA](authoring-create-dita-project.md#).
+Poiché il flusso di lavoro di revisione è specifico per il progetto, l&#39;iniziatore della revisione deve far parte del team del progetto o disporre dei diritti per creare un progetto. Al momento della creazione di un progetto, puoi definire i membri del team per il progetto e assegnare loro vari ruoli o gruppi. Per ulteriori informazioni sui progetti, visualizzare [Creare un progetto DITA](authoring-create-dita-project.md#).
 
 Puoi creare un’attività di revisione da:
 
-- **Editor Web**: consente di inviare un singolo argomento o una mappa DITA per la revisione. Il flusso di lavoro per la creazione di un’attività di revisione è comune nell’editor web e nell’interfaccia utente di Assets. Solo il metodo di avvio del flusso di lavoro di revisione è diverso. Per informazioni sull&#39;avvio del flusso di lavoro di revisione dall&#39;editor Web, vedere la funzionalità [Crea attività di revisione](web-editor-features.md#id215OCJ00JXA) nell&#39;editor Web.
+- **Editor**: consente di inviare un singolo argomento o una mappa DITA per la revisione. Il flusso di lavoro per la creazione di un’attività di revisione è comune nell’interfaccia utente di Editor e Assets. Solo il metodo di avvio del flusso di lavoro di revisione è diverso. Per informazioni sull&#39;avvio del flusso di lavoro di revisione dall&#39;editor, visualizzare la funzionalità [Crea attività di revisione](web-editor-features.md#id215OCJ00JXA) nell&#39;editor.
 
 - **Interfaccia utente di Assets**: consente di inviare uno o più argomenti e mappa DITA per la revisione. La condivisione di documenti da rivedere dal flusso di lavoro dell’interfaccia utente di Assets è trattata in questo argomento.
 
@@ -43,11 +43,11 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
 1. Passa alla cartella desiderata nell’interfaccia utente di Assets.
 
-1. Fai clic sull’icona Seleziona nell’azione rapida e seleziona gli argomenti da inviare per la revisione.
+1. Scegli l&#39;icona **Seleziona** nell&#39;azione rapida e seleziona gli argomenti che desideri inviare per la revisione.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Nella barra degli strumenti, fai clic su **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
+1. Nella barra degli strumenti, seleziona **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
 
    >[!NOTE]
    >
@@ -55,7 +55,9 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Immetti un **Titolo** per l&#39;attività e seleziona un **Progetto** DITA dall&#39;elenco a discesa.
+1. Immetti un **Titolo** per l&#39;attività e seleziona un progetto DITA.
+
+1. Nel campo a discesa **Progetto**, selezionare un progetto DITA per questa attività di revisione. Puoi anche digitare il nome del progetto per individuarlo rapidamente nell’elenco a discesa.
 
 1. Nel campo a discesa **Assegna a**, selezionare i revisori a cui si desidera inviare gli argomenti per la revisione.
 
@@ -63,7 +65,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    >[!NOTE]
    >
-   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, vedere [Creare un progetto DITA](authoring-create-dita-project.md#).
+   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, visualizzare [Creare un progetto DITA](authoring-create-dita-project.md#).
 
 1. Immetti una **Descrizione** per l&#39;attività.
 
@@ -81,7 +83,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    >[!NOTE]
    >
-   > La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, vedere [Risolvere i riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
+   > La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, visualizzare [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
 
 1. Poiché è possibile assegnare revisori diversi ad argomenti diversi, l&#39;opzione **Consenti agli assegnatari di esaminare qualsiasi argomento** controlla se i revisori possono esaminare tutti gli argomenti di un&#39;attività di revisione o solo quelli che sono stati assegnati a esaminare.
 
@@ -89,7 +91,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    Se non si seleziona questa opzione, i revisori aggiunti nel campo **Assegna a** potranno esaminare solo gli argomenti ad essi assegnati.
 
-1. Fai clic su **Avanti**.
+1. Seleziona **Avanti**.
 
    Viene visualizzata la pagina Contenuto.
 
@@ -102,7 +104,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    - *\(Predefinito\)* Scegli l&#39;opzione **Versione più recente** per selezionare l&#39;ultima revisione salvata degli argomenti.
    - Scegli l&#39;opzione **Versione il** e specifica la data e l&#39;ora per selezionare una versione in base alla data e all&#39;ora specificate. Se non è disponibile alcuna versione dell&#39;argomento alla data specificata, viene selezionata una versione disponibile immediatamente dopo la data e l&#39;ora specificate.
    - Scegliere l&#39;opzione **Seleziona etichetta** e selezionare un&#39;etichetta dall&#39;elenco a discesa.
-1. Dopo aver selezionato una versione, fare clic su **Applica**.
+1. Dopo aver selezionato una versione, seleziona **Applica**.
 
    Per gli argomenti viene scelta la versione basata sull&#39;opzione selezionata.
 
@@ -110,7 +112,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    >
    > Puoi anche selezionare manualmente la versione desiderata dall&#39;elenco a discesa **Versione** di ciascun argomento.
 
-1. Fai clic su **Avanti**.
+1. Seleziona **Avanti**.
 
    Viene visualizzata la pagina Revisori in cui è possibile aggiungere o rimuovere revisori. Per impostazione predefinita, i revisori aggiunti nel campo Assegna a vengono aggiunti automaticamente a ogni argomento selezionato per la revisione.
 
@@ -123,28 +125,28 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
      >[!NOTE]
      >
-     > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
+     > È inoltre possibile selezionare o deselezionare singolarmente un argomento selezionando la casella di controllo accanto all&#39;argomento.
 
    - **Aggiungi**: visualizza la finestra Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
    - **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
 
      >[!NOTE]
      >
-     > È inoltre possibile rimuovere una revisione da un argomento facendo clic sul segno incrociato nella casella del revisore.
+     > È inoltre possibile rimuovere una revisione da un argomento selezionando il simbolo di cancelletto nella casella del revisore.
 
    - **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
    - **Esporta**: consente di esportare i dettagli dell&#39;attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
-   - **Modifica revisori**: facendo clic sull&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
-1. Fai clic su **Crea** per creare l&#39;attività di revisione.
+   - **Modifica revisori**: se si seleziona l&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti, viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
+1. Seleziona **Crea** per creare l&#39;attività di revisione.
 
    Quando l&#39;attività di revisione viene creata correttamente, viene visualizzato un messaggio di conferma. Il [stato documento](web-editor-document-states.md#) per gli argomenti inviati per la revisione è impostato su In revisione.
 
    >[!NOTE]
    >
-   > Puoi anche fare clic sul campanello Notifiche in alto a destra dello schermo e verificare che l’attività di revisione sia stata creata correttamente. Nel pannello Notifiche troverai una notifica per ogni revisore che faceva parte dell’attività di revisione e una per l’iniziatore della revisione.
+   > Puoi anche selezionare il campanello Notifiche in alto a destra dello schermo e verificare che l’attività di revisione sia stata creata correttamente. Nel pannello Notifiche troverai una notifica per ogni revisore che faceva parte dell’attività di revisione e una per l’iniziatore della revisione.
 
 
-A tutti i revisori viene inviata un&#39;e-mail con la notifica dell&#39;assegnazione di uno o più argomenti da rivedere. L’e-mail contiene un collegamento diretto su cui è possibile fare clic per accedere all’argomento in una finestra del browser.
+A tutti i revisori viene inviata un&#39;e-mail con la notifica dell&#39;assegnazione di uno o più argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser.
 
 Se vengono assegnati più argomenti, i revisori possono visualizzarli e selezionarli in un elenco a discesa di argomenti nel browser Web.
 
@@ -152,7 +154,7 @@ Se vengono assegnati più argomenti, i revisori possono visualizzarli e selezion
 
 Una mappa DITA è un&#39;organizzazione logica di argomenti all&#39;interno di un libro. Quando si invia un singolo argomento per la revisione, il revisore non riceve alcuna informazione sulla posizione dell&#39;argomento nel libro. Se un revisore dispone di informazioni sulla posizione esatta dell&#39;argomento in fase di revisione, il revisore ottiene un contesto migliore dell&#39;argomento in fase di revisione.
 
-AEM Guides consente di inviare contemporaneamente uno o più argomenti in una mappa DITA per la revisione. Il revisore può visualizzare il file di mappa completo insieme agli argomenti condivisi per la revisione. In questo modo, il revisore può ottenere più facilmente un contesto dell&#39;argomento nel file di mappa o libro.
+Experience Manager Guides consente di inviare contemporaneamente uno o più argomenti in una mappa DITA per la revisione. Il revisore può visualizzare l&#39;intero file di mappa insieme agli argomenti condivisi per la revisione. In questo modo, il revisore può ottenere più facilmente un contesto dell&#39;argomento nel file di mappa o libro.
 
 È possibile condividere la stessa mappa DITA in per la revisione in più attività di revisione. Ad esempio, se in una mappa DITA sono presenti gli argomenti A, B, C, D ed E. In un&#39;attività di revisione è possibile condividere A, B e C per la revisione e in un&#39;altra attività di revisione è possibile inviare gli argomenti C, D ed E per la revisione. Il processo di revisione consente di condividere lo stesso argomento e mappare il file in più attività di revisione. Per l&#39;argomento comune in più attività di revisione, i commenti forniti in un&#39;attività di revisione non vengono sovrascritti o uniti ai commenti delle altre attività di revisione.
 
@@ -174,9 +176,11 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
 1. Selezionare la mappa da cui si desidera inviare gli argomenti per la revisione.
 
-1. Nella barra degli strumenti, fai clic su **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
+1. Nella barra degli strumenti, seleziona **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
 
-1. Immetti un **Titolo** per l&#39;attività e seleziona un **Progetto** DITA dall&#39;elenco a discesa.
+1. Immetti un **Titolo** per l&#39;attività.
+
+1. Nel campo a discesa **Progetto**, selezionare un progetto DITA per questa attività di revisione. Puoi anche digitare il nome del progetto per individuarlo rapidamente nell’elenco a discesa.
 
    >[!NOTE]
    >
@@ -188,7 +192,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
    >[!NOTE]
    >
-   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, vedere [Creare un progetto DITA](authoring-create-dita-project.md#).
+   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, visualizzare [Creare un progetto DITA](authoring-create-dita-project.md#).
 
 1. Immetti una **Descrizione** per l&#39;attività.
 
@@ -206,7 +210,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
    Se non si seleziona questa opzione, i revisori aggiunti nel campo **Assegna a** potranno esaminare solo gli argomenti ad essi assegnati.
 
-1. Fai clic su **Avanti**.
+1. Seleziona **Avanti**.
 
    Viene visualizzata la pagina Contenuto con tutti gli argomenti a cui si fa riferimento dal file di mappa. Se la mappa DITA contiene mappe nidificate, vengono elencati anche gli argomenti delle mappe nidificate.
 
@@ -220,7 +224,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
    - Scegli l&#39;opzione **Versione il** e specifica la data e l&#39;ora per selezionare una versione in base alla data e all&#39;ora. Se non è disponibile alcuna versione dell&#39;argomento alla data specificata, viene selezionata una versione disponibile immediatamente dopo la data e l&#39;ora specificate.
    - Scegliere l&#39;opzione **Seleziona etichetta** e selezionare un&#39;etichetta dall&#39;elenco a discesa. Tutti gli argomenti contenenti l&#39;etichetta selezionata sono selezionati nell&#39;elenco a discesa **Versione**.
    - Scegliere l&#39;opzione **Seleziona una previsione** e selezionare una previsione dall&#39;elenco a discesa. Tutte le versioni dell&#39;argomento che fanno parte della baseline selezionata sono selezionate nell&#39;elenco a discesa **Versione**.
-1. Dopo aver selezionato una versione, fare clic su **Applica**.
+1. Dopo aver selezionato una versione, seleziona **Applica**.
 
    Per gli argomenti viene scelta la versione basata sull&#39;opzione selezionata.
 
@@ -228,7 +232,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
    >
    > Puoi anche selezionare manualmente la versione desiderata dall&#39;elenco a discesa **Versione** di ciascun argomento.
 
-1. Fai clic su **Avanti**.
+1. Seleziona **Avanti**.
 
    Viene visualizzata la pagina Revisori in cui è possibile aggiungere o rimuovere revisori. Per impostazione predefinita, i revisori aggiunti nel campo Assegna a vengono aggiunti automaticamente a ogni argomento selezionato per la revisione.
 
@@ -239,30 +243,30 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
      >[!NOTE]
      >
-     > È inoltre possibile selezionare o deselezionare singolarmente un argomento facendo clic sulla casella di spunta accanto all&#39;argomento.
+     > È inoltre possibile selezionare o deselezionare singolarmente un argomento selezionando la casella di controllo accanto all&#39;argomento.
 
    - **Aggiungi**: visualizza la finestra Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
    - **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
    - **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
    - **Esporta**: consente di esportare i dettagli dell&#39;attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
-   - **Modifica revisori**: facendo clic sull&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
+   - **Modifica revisori**: se si seleziona l&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti, viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
    >[!IMPORTANT]
    >
    > È necessario assegnare almeno un revisore per creare l&#39;attività di revisione.
 
-1. Fai clic su **Crea** per creare l&#39;attività di revisione.
+1. Seleziona **Crea** per creare l&#39;attività di revisione.
 
    Quando l&#39;attività di revisione viene creata correttamente, viene visualizzato un messaggio di conferma. Il [stato documento](web-editor-document-states.md#) per gli argomenti inviati per la revisione è impostato su In revisione.
 
    >[!NOTE]
    >
-   > Puoi anche fare clic sul pannello Notifiche in alto a destra nell’interfaccia e verificare che l’attività sia stata creata correttamente. Nel pannello Notifiche troverai una notifica per ciascuna revisione che faceva parte dell’attività di revisione e una notifica per l’iniziatore della revisione.
+   > Puoi anche selezionare il pannello Notifiche in alto a destra nell’interfaccia e verificare che l’attività sia stata creata correttamente. Nel pannello Notifiche troverai una notifica per ciascuna revisione che faceva parte dell’attività di revisione e una notifica per l’iniziatore della revisione.
 
    >[!IMPORTANT]
    >
    > Dopo aver avviato una revisione, non è necessario spostare o eliminare la mappa DITA o gli argomenti in una posizione diversa. In questo modo il processo di revisione si interromperà.
 
 
-A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto su cui è possibile fare clic per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
+A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
 
-**Argomento padre:**[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

@@ -1,62 +1,55 @@
 ---
-title: Avviare l’editor web
-description: Scopri come avviare l’editor web dalla pagina di navigazione AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe DITA in AEM Guides.
+title: Avviare l’editor
+description: Scopri come avviare l’editor dalla pagina di navigazione di AEM, dall’interfaccia utente di AEM Assets e dalla console delle mappe in Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Avviare l’editor web {#id2056B0140HS}
+# Avviare l’editor {#id2056B0140HS}
 
-È possibile avviare l&#39;Editor Web dalle posizioni seguenti:
+Puoi avviare l’Editor dalle seguenti posizioni:
 
-- [Pagina di navigazione AEM](#id2056BG00RZJ)
-- [Interfaccia utente di AEM Assets](#id2056BG0307U)
-- [Console mappe DITA](#id2056BG090BF)
+- [Pagina di navigazione Adobe Experience Manager](#adobe-experience-manager-navigation-page)
+- [Interfaccia utente di Adobe Experience Manager Assets](#adobe-experience-manager-assets-ui)
+- [Console mappe](#map-console)
 
-Nelle sezioni seguenti viene descritto come accedere e avviare l&#39;editor Web da varie posizioni.
+Le sezioni seguenti descrivono come accedere e avviare l’Editor da varie posizioni.
 
-## Pagina di navigazione AEM {#id2056BG00RZJ}
+## Pagina di navigazione Adobe Experience Manager
 
-Quando accedi a AEM, viene visualizzata la pagina Navigazione:
+Quando accedi ad Experience Manager, viene visualizzata la pagina Navigazione:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Facendo clic sul collegamento **Guide** si accede direttamente all&#39;editor Web.
+Se si seleziona il collegamento **Guide**, verrà visualizzata la [home page di Adobe Experience Manager Guides](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Per avviare l&#39;editor, passare alla barra di navigazione e selezionare **Editor** dal menu a discesa. La home page è selezionata per impostazione predefinita.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Dopo aver avviato l&#39;editor senza selezionare alcun file, viene visualizzata una schermata dell&#39;editor vuota. Puoi aprire un file per la modifica da Experience Manager **Archivio** o dalle tue **Raccolte**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizzata una schermata dell&#39;editor Web vuota. È possibile aprire un file per la modifica dal repository AEM o dalla raccolta Preferiti.
-
-- Fai clic sull&#39;icona **Guide** (![](images/aem-guides-icon.png) ) per tornare alla pagina di navigazione AEM.
-
-- Il pulsante **Chiudi** ti porta a una destinazione basata sulla configurazione:
+In alternativa, è possibile avviare l&#39;editor aprendo i file esistenti presenti nel widget **File recenti** e nel widget **Raccolte** della [esperienza pagina iniziale di Adobe Experience Manager Guides](./intro-home-page.md).
 
 
+Per tornare alla pagina di navigazione di Experience Manager, seleziona il logo Adobe Experience Manager che si trova nell’angolo in alto a sinistra dell’intestazione superiore.
 
-  <details>
 
-  <summary> Servizi cloud </summary>
+## Interfaccia utente di Adobe Experience Manager Assets
 
-  Se utilizzi Cloud Service, fai clic sul pulsante **Chiudi** per tornare alla pagina di navigazione AEM.
-  </details>
+Un’altra posizione da cui è possibile avviare l’editor è quella dell’interfaccia utente di Experience Manager Assets. Puoi selezionare uno o più argomenti e aprirli direttamente nell’editor.
 
-  <details>
-
-  <summary> Software on-premise</summary>
-
-  Se utilizzi AEM Guides On-Premise Software (versione 4.2.1 e successive), fai clic sul pulsante **Chiudi** a destra per tornare al percorso del file corrente nell&#39;interfaccia utente di Assets.
-
-  </details>
-
-## Interfaccia utente di AEM Assets {#id2056BG0307U}
-
-Un’altra posizione da cui è possibile avviare l’editor web è quella dell’interfaccia utente di AEM Assets. È possibile selezionare uno o più argomenti e aprirli direttamente nell&#39;editor Web. Per aprire un argomento nell&#39;editor Web, eseguire la procedura seguente:
+Per aprire un argomento nell&#39;editor, eseguire la procedura seguente:
 
 1. Nell’interfaccia utente di Assets, individua l’argomento da modificare.
 
@@ -64,64 +57,80 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
    >
    > Puoi anche visualizzare l’UUID dell’argomento.
 
-   .
-
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
    > Verificare di disporre delle autorizzazioni di lettura e scrittura per la cartella contenente l&#39;argomento che si desidera modificare.
 
-1. Per ottenere un blocco esclusivo sull&#39;argomento, selezionare l&#39;argomento e fare clic su **Estrai**.
+1. Per ottenere un blocco esclusivo sull&#39;argomento, selezionare l&#39;argomento e selezionare **Estrai**.
 
    >[!IMPORTANT]
    >
-   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, non sarà possibile visualizzare l&#39;opzione di modifica.
+   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza bloccare il file**, è necessario estrarre il file prima di modificarlo. Se il file non viene estratto, non sarà possibile visualizzare l&#39;opzione di modifica.
 
-1. Chiudi la modalità di selezione delle risorse e fai clic sull’argomento da modificare.
+1. Chiudi la modalità di selezione delle risorse e seleziona l’argomento da modificare.
 
    Viene visualizzata l&#39;anteprima dell&#39;argomento.
 
-   È possibile aprire l&#39;Editor Web dalla visualizzazione Elenco, dalla visualizzazione Scheda e dalla modalità Anteprima.
+   È possibile aprire l&#39;editor dalla vista Elenco, dalla vista Scheda e dalla modalità Anteprima.
 
    >[!IMPORTANT]
    >
-   > Se desideri aprire più argomenti per la modifica, seleziona gli argomenti desiderati dall’interfaccia utente di Assets e fai clic su Modifica. Assicurati che nel browser non sia abilitato il blocco dei popup, altrimenti verrà aperto per la modifica solo il primo argomento dell’elenco selezionato.
+   > Se desideri aprire più argomenti per la modifica, seleziona gli argomenti desiderati dall&#39;interfaccia utente di Asset e seleziona **Modifica**. Assicurati che nel browser non sia abilitato il blocco dei popup, altrimenti verrà aperto per la modifica solo il primo argomento dell’elenco selezionato.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Se non si desidera visualizzare l&#39;anteprima di un argomento e aprirlo direttamente nell&#39;editor Web, fare clic sull&#39;icona Modifica nel menu Azioni rapide nella vista a schede:
+   Se non vuoi visualizzare l&#39;anteprima di un argomento e vuoi aprirlo direttamente nell&#39;editor, seleziona l&#39;icona **Modifica** nel menu Azioni rapide dalla vista a schede:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Fai clic su **Modifica** per aprire l&#39;argomento nell&#39;editor Web.
+   L’argomento viene aperto nell’editor.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+Puoi anche aprire un file di mappa nell’interfaccia utente di Assets e avviare l’Editor per modificare gli argomenti nel file di mappa.
 
-## Console mappe DITA {#id2056BG090BF}
+Per aprire una mappa nell’editor, effettua le seguenti operazioni:
 
-Per aprire l&#39;Editor Web dalla console delle mappe DITA, effettuare le seguenti operazioni:
-
-1. Nell&#39;interfaccia utente di Assets, passare al file di mapping DITA contenente l&#39;argomento che si desidera modificare e fare clic su di esso.
-
-   Viene visualizzata la console delle mappe DITA.
-
-1. Fai clic su **Argomenti**.
-
-   Viene visualizzato un elenco di argomenti nel file mappa. L’UUID degli argomenti viene visualizzato sotto il titolo dell’argomento.
-
+1. Nell’interfaccia utente di Assets, individua e seleziona il file di mappa contenente l’argomento da modificare.
+1. Nella console Mappa DITA, passa alla scheda **Argomenti**. Viene visualizzato un elenco di argomenti nel file mappa.
 1. Selezionare il file dell&#39;argomento che si desidera modificare.
-
-1. Fare clic su **Modifica argomento**.
+1. Selezionare **Modifica argomento**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. L&#39;argomento viene aperto nell&#39;editor Web.
+1. L’argomento viene aperto nell’editor.
 
    >[!IMPORTANT]
    >
-   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento viene aperto nell&#39;editor in modalità di sola lettura.
+   > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza bloccare il file**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento viene aperto nell&#39;editor in modalità di sola lettura.
+
+## Console mappe
+
+Per aprire l’editor dalla console Mappa, effettua le seguenti operazioni:
+
+1. Apri la pagina Home e avvia la console Mappa.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Quando hai avviato la console Mappa senza selezionare alcun file di mappa, viene visualizzata una schermata vuota della console Mappa. Puoi anche aprire un file mappa da Experience Manager **Repository** o dalle tue **Raccolte**.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Scegliere **Seleziona mappa** per aprire un file di mappa contenente gli argomenti che si desidera modificare nell&#39;editor.
+1. Selezionare il percorso in cui si trova il file mappa. Il file di mappa selezionato viene aggiunto alla console Mappa.
+1. Passa al file di mappa e seleziona **Apri nell&#39;editor** dal menu a discesa.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   Il file di mappa contenente gli argomenti è aperto per la modifica nell&#39;editor.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+
+
+
+
+**Argomento padre**: [Introduzione all&#39;editor](web-editor.md)

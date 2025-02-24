@@ -1,25 +1,23 @@
 ---
-user-guide-title: Experience Manager Guides (legacy)
+user-guide-title: Experience Manager Guides Old UI
 user-guide-description: Leggi la documentazione sul prodotto di Adobe Experience Manager Guides.
 breadcrumb-title: Documentazione di AEM Guides
 hide: true
-badgeAll: label="Guida legacy - Ulteriori informazioni" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guida precedente"
-source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
+badgeAll: label="Guida alla vecchia interfaccia utente - Ulteriori informazioni" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guida alla vecchia interfaccia utente"
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 4%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides (Legacy)] {#using-legacy}
+# [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
+- [Dichiarazione di non responsabilità](disclaimer.md)
 - [Panoramica di [!DNL AEM Guides]](overview.md)
-- [Informazioni sulle versioni](legacy.md)
-- [Note sulla versione (guida principale)](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-
-- Guida utente {#user-guide}
-
+- [Informazioni sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- Guida utente (precedente interfaccia utente) {#user-guide}
    - Introduzione {#about-aem-guide}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funzionanti e funzionalità chiave {#aemg-works-features}
@@ -31,18 +29,14 @@ ht-degree: 4%
       - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
       - [Scarica file](./user-guide/authoring-download-assets.md)
    - Contenuto autore {#author-content}
-
       - [Panoramica sull’authoring](./user-guide/authoring-content.md)
       - Creazione argomento e anteprima {#create-preview-topics}
-
          - [Creazione e anteprima di argomenti](./user-guide/create-preview-topics.md)
          - [Crea argomenti](./user-guide/web-editor-create-topics.md)
          - [Visualizzare l&#39;anteprima di un argomento](./user-guide/web-editor-preview-topics.md)
          - Contenuto autore {#author-content-aem-guides}
-
             - [Modo di creare contenuti con AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Editor Web {#work-with-web-editor}
-
                - [Utilizzare l’editor web](./user-guide/web-editor.md)
                - [Avviare l’editor web](./user-guide/web-editor-launch-editor.md)
                - [Modificare gli argomenti nell&#39;editor Web](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +46,6 @@ ht-degree: 4%
                - [Visualizzazioni dell’editor web](./user-guide/web-editor-views.md)
                - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
                - [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
-
                - [Creare documenti Markdown dall’editor web](./user-guide/web-editor-markdown-topic.md)
                - [Aggiungere citazioni al contenuto](./user-guide/web-editor-apply-citations.md)
                - [Utilizzare i dati provenienti dalle origini dati](./user-guide/web-editor-content-snippet.md)
@@ -66,7 +59,6 @@ ht-degree: 4%
                - [Creare e gestire le baseline dall&#39;editor Web](./user-guide/web-editor-baseline.md)
                - [Stato documento](./user-guide/web-editor-document-states.md)
                - [Usa etichette](./user-guide/web-editor-use-label.md)
-
             - Editor mappa {#work-with-map-editor}
                - [Utilizzare l’Editor mappa](./user-guide/map-editor.md)
                - [Creare una mappa](./user-guide/map-editor-create-map.md)
@@ -76,12 +68,10 @@ ht-degree: 4%
                - [Altre funzioni negli editor di mappe](./user-guide/map-editor-other-features.md)
             - Editor DITAVAL {#ditaval-editor}
                - [Utilizzare l&#39;editor DITAVAL](./user-guide/ditaval-editor.md)
-
          - Strumenti desktop per la creazione del contenuto {#author-using-desktop-tools}
             - [Creare contenuti con strumenti desktop](./user-guide/author-desktop-tools.md)
-            - [Utilizzare il FrameMaker](./user-guide/author-desktop-framemaker.md)
+            - [Utilizzare FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Lavorare con l&#39;ossigeno](./user-guide/author-desktop-oxygen.md)
-
    - Rivedi contenuto {#review-topic-maps}
       - [Rivedi argomenti o mappe](./user-guide/review.md)
       - [Creare un progetto DITA](./user-guide/authoring-create-dita-project.md)
@@ -94,7 +84,7 @@ ht-degree: 4%
       - [Visualizzare un&#39;attività di revisione completata](./user-guide/review-view-completed-task.md)
    - Metadati in AEM Guides {#manaege-metadata}
       - [Gestire i metadati](./user-guide/manage-metadata.md)
-      - [Utilizzo dei metadati nell’AEM](./user-guide/metadata-dita.md)
+      - [Utilizzare i metadati in AEM](./user-guide/metadata-dita.md)
       - [Applicazione di tag avanzati](./user-guide/web-editor-smart-tagging.md)
       - [Applicazione di tag in blocco a contenuto DITA](./user-guide/map-editor-bulk-tagging.md)
    - Traduzione del contenuto {#translate-content}
@@ -123,20 +113,20 @@ ht-degree: 4%
       - [Utilizzare la previsione](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [Genera output per una mappa DITA dalla console delle mappe](./user-guide/generate-output-for-a-dita-map.md)
       - [Usa raccolta mappe per la generazione dell&#39;output](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - [Gestire le attività di pubblicazione tramite la dashboard di Publish](./user-guide/generate-output-publish-dashboard.md)
+      - [Gestire le attività di pubblicazione tramite il dashboard di pubblicazione](./user-guide/generate-output-publish-dashboard.md)
       - [Risoluzione dei problemi di base](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Frammenti di contenuto Publish](./user-guide/publish-content-fragment.md)
-      - [Frammenti esperienza Publish](./user-guide/publish-experience-fragment.md)
+      - [Pubblicare frammenti di contenuto](./user-guide/publish-content-fragment.md)
+      - [Pubblicare Frammenti Esperienza](./user-guide/publish-experience-fragment.md)
       - Attivazione in blocco del contenuto {#bulk-activation}
          - [Attivazione in blocco di contenuti pubblicati](./user-guide/conf-bulk-activation.md)
          - [Creare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Attiva output](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Modificare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Eliminare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - Generazione di output dei documenti di FrameMaker {#generate-fm-output}
-      - [Genera output di documenti di FrameMaker](./user-guide/fm-output-generatation.md)
+   - Generazione output di documenti FrameMaker {#generate-fm-output}
+      - [Genera output di documenti FrameMaker](./user-guide/fm-output-generatation.md)
       - Predefiniti supportati {#fm-docs-generating-presets}
-         - [Predefiniti per la generazione di documenti di FrameMaker](./user-guide/fm-output-understand-presets.md)
+         - [Predefiniti per la generazione di documenti FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
@@ -149,76 +139,4 @@ ht-degree: 4%
       - [Rapporto sul riutilizzo dei contenuti](./user-guide/reports-content-reuse.md)
       - [Rapporto sullo stato della conversione](./user-guide/reports-convertion-status.md)
       - [Rapporto cronologia versioni file ripristinati](./user-guide/reports-reverted-file-version-history.md)
-
-<!--
-  - Articles {#kb-articles}
-
-    - Use native PDF publishing feature {#web-editor}
-      - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
-      - [Configure additional special characters](./web-editor/configure-additional-special-characters.md)
-
-    - Authoring {#authoring}
-      - Web Editor {#webeditor}
-        - [Content re-usability in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-        - Customizing {#customizing}
-          - [Add custom button to toolbar](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-          - [Add custom styles to Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-          - [Customize Folder ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-          - [Customize File ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-        - Schematron {#schematron}
-          - [Schematron Validation](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-      - Reports {#reports}
-        - [Manage metadata for your DITA content](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-      - [Define icon for custom dita types](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-    - Guides Extention Framework {#extention-framework}
-      - Aem Guides Framework {#aem-guides-framework}
-        - [Basic Customisations](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-        - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-        - Components {#framework-components}
-          - [Button](./guides-ui-extensions/aem_guides_framework/components/button.md)
-          - [Icon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-          - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
-          - [List](./guides-ui-extensions/aem_guides_framework/components/list.md)
-          - [Textarea](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-        - Widgets {#framework-widgets}
-          - [Rendering Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-          - [Basic Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-      - Getting Started {#getting-started}
-        - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
-        - [Installation guide](./guides-ui-extensions/getting-started/integrating-customisations.md)
-        - [Extension Repositry intro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-      - Customisations {#customisations}
-        - [Simple customisation](./guides-ui-extensions/customisations/add-button.md)
-        - [Customising Context Menus](./guides-ui-extensions/customisations/context-menus.md)
-        - [Customising Toolbar & Topbar](./guides-ui-extensions/customisations/toolbar-topbar.md)
-        - [Examples](./guides-ui-extensions/examples.md)
-        - [Customisable Jsons](./guides-ui-extensions/JSONs.md)
-        - Review{#review-app-customisations}
-          - [Components](./guides-ui-extensions/customisations/ReviewApp/components.md)
-          - [Customising](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-          - [Custom Dialog](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-    - Publishing {#publishing}
-
-      - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
-      - [Generate Bookmap's TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
-      - [FMPS and Guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-      - [Microservice architecture and performance](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-      - [Configure microservice-based publishing with JWT authentication](./knowledge-base/publishing/configure-microservices.md)
-      - [Configure microservice-based publishing with OAuth authentication](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
-      - [Publishing benchmarks on AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-      - [Set up a custom DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-
-    - Workflows {#workflows}
-      - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-    - Translation {#translation}
-      - [Exclude paragraphs from translation](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-    - Use Cases {#use-cases}
-      - [Working with conditional content](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-      - [Working with keys](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
-  - [Use Oxygen Connector](./oxygen-connector/use-aem-connector.md)
-
--->
+- [Guida utente (nuova interfaccia utente)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)

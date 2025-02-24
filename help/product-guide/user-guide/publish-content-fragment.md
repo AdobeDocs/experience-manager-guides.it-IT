@@ -1,17 +1,17 @@
 ---
-title: Publish di un argomento in un frammento di contenuto
-description: Publish di un argomento o degli elementi all’interno di un argomento in un frammento di contenuto in AEM Guides.  Scopri come visualizzare i Frammenti di contenuto presenti in un argomento e ripubblicarli.
+title: Pubblicare un argomento in un frammento di contenuto
+description: Pubblica un argomento o gli elementi di un argomento in un frammento di contenuto in AEM Guides.  Scopri come visualizzare i Frammenti di contenuto presenti in un argomento e ripubblicarli.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# Frammenti di contenuto Publish
+# Pubblicare frammenti di contenuto
 
 I frammenti di contenuto sono parti discrete di contenuto in Adobe Experience Manager. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati da Adobe Experience Manager. I frammenti di contenuto sono modulari, dove il contenuto viene suddiviso in componenti più piccoli.
 
@@ -33,14 +33,14 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 
 1. Per generare un frammento di contenuto, selezionare **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.
 1. Seleziona **Frammento di contenuto**.\
-   ![scheda opzioni proprietà file](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![scheda opzioni proprietà file](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *Aggiungere un nuovo frammento di contenuto dalle proprietà del file di un argomento*.
 
 1. Nella finestra di dialogo **Genera frammento di contenuto**, compila i seguenti dettagli nelle schede **Generale** e **Mappatura**.
 
    Scheda **Generale**
-   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento di contenuto](images/generate-content-fragment.png)
+   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento di contenuto](images/generate-content-fragment.png)
    *Aggiungi il percorso, il nome, il titolo e il filtro delle condizioni per pubblicare un argomento o i relativi elementi come frammento di contenuto.*
 
 
@@ -53,7 +53,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
      > 
      > Le condizioni sono abilitate solo se gli attributi della condizione sono definiti nell&#39;argomento.
 
-      * **Nessuno**: seleziona questa opzione se non desideri applicare alcuna condizione all&#39;output pubblicato.
+      * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
       * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per includere o escludere contenuto specifico nell&#39;output generato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
       * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
 
@@ -64,7 +64,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 
    Scheda **Mappatura**
 
-   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento di contenuto](images/content-fragment-mapping.png)
+   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento di contenuto](images/content-fragment-mapping.png)
 
    *Selezionare il modello per frammenti di contenuto e aggiungere i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di contenuto.*
 
@@ -77,11 +77,11 @@ Se è presente un frammento di contenuto, a destra vengono inseriti i contenuti 
      >
      > Se utilizzi la versione 4.4 o precedenti, seleziona una mappatura dal menu a discesa. Seleziona le mappature dal file *contentFragmentMapping.json*.  L&#39;amministratore può aggiungere le mappature nel file *contentFragmentMapping.json*. Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di contenuto](../cs-install-guide/conf-content-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
 
-1. Fai clic su **Genera** per pubblicare il frammento di contenuto.
+1. Seleziona **Genera** per pubblicare il frammento di contenuto.
 
 1. Puoi visualizzare i Frammenti di contenuto per un argomento nella sezione **Output** delle **Proprietà file**.
 
-   ![Visualizza i frammenti di contenuto per un argomento](images/outputs-options-menu.png){width="300" align="left"}
+   ![Visualizza i frammenti di contenuto per un argomento](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *Visualizza i frammenti di contenuto presenti in un argomento e ripubblicali.*
 
@@ -106,9 +106,3 @@ Per un frammento di contenuto è inoltre possibile eseguire le azioni seguenti d
   > Con questa azione nessun contenuto viene eliminato dal frammento di contenuto.
 
 * **Visualizza**: visualizza l&#39;editor frammenti di contenuto. Puoi anche apportare modifiche e salvarle.
-
-## Miglioramento della migrazione da non-UUID a contenuti UUID
-
-Il nuovo script di migrazione dei contenuti UUID è stato ottimizzato in modo significativo, rendendo la migrazione dei contenuti da Non-UUID a UUID 30 volte più veloce dello script precedente. Include funzioni quali la ripresa dai punti di controllo, informazioni live, tempo di completamento stimato e reporting dettagliato, garantendo un processo di migrazione armonioso. In particolare, il processo di migrazione mantiene i metadati delle risorse senza alcuna modifica. Lo script è stato testato e verificato su un ampio set di dati di 3 milioni di risorse, a conferma della sua efficienza e affidabilità per le migrazioni su larga scala.
-
-Ulteriori informazioni sulla [migrazione di contenuti da non-UUID a UUID](../install-guide/migrate-non-uuid-uuid.md).

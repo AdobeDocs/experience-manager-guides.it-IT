@@ -1,35 +1,49 @@
 ---
-title: Pubblicazione basata su articolo dall’editor web
-description: Scopri come pubblicare uno o più articoli dall’editor web. Genera output per uno o più argomenti in una mappa DITA in AEM Guides.
+title: Genera output Knowledge Base
+description: Scopri come pubblicare uno o più articoli dalla console Mappa. Genera output per uno o più argomenti in una mappa DITA in AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
-feature: Authoring, Features of Web Editor, Publishing
+feature: Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# Pubblicazione basata su articolo dall’editor web {#id218CL05J0M1}
+# Genera output Knowledge Base {#id218CL05J0M1}
 
-AEM Guides include una funzione di pubblicazione basata su articoli integrata nell’editor web che consente agli utenti di pubblicare uno o più argomenti contemporaneamente.
+Adobe Experience Manager Guides viene fornito con una funzione di pubblicazione basata su articoli che consente agli utenti di pubblicare uno o più articoli della Knowledge Base simultaneamente.
 
-Questo motore viene fornito anche con un modello di contenuto OOTB, basato sui componenti core AEM, che consente agli utenti di creare un archivio dei contenuti tecnici basato sulle conoscenze. Questo modello può essere personalizzato in base alle esigenze dei clienti.Questo motore consente agli utenti di creare la mappa DITA in modo additivo e pubblicare argomenti quando e come sono pronti. Potete creare facilmente i predefiniti di output per la mappa aperta nel pannello Vista mappa e generare rapidamente l&#39;output per uno o più argomenti della stessa mappa.
+Questo motore viene fornito anche con un modello di contenuto OOTB, basato sui componenti core di Adobe Experience Manager, che consente agli utenti di creare un archivio dei contenuti tecnici basato sulle conoscenze. Questo modello può essere personalizzato in base alle esigenze dei clienti.Questo motore consente agli utenti di creare la mappa DITA in modo additivo e pubblicare argomenti quando e come sono pronti.
 
-Se il contenuto è stato aggiornato solo per alcuni argomenti della mappa DITA, non è sempre necessario pubblicare l&#39;intera mappa. Dall&#39;editor Web è possibile selezionare e pubblicare solo gli argomenti aggiornati.
+Se il contenuto è stato aggiornato solo per alcuni argomenti della mappa DITA, non è sempre necessario pubblicare l&#39;intera mappa. Puoi selezionare e pubblicare solo gli argomenti aggiornati.
 
->[!NOTE]
->
-> La pubblicazione basata su articoli è applicabile solo all’output del sito AEM.
+Per la pubblicazione basata su articoli, è necessario creare il predefinito di output per la mappa DITA della Knowledge Base. La mappa deve includere gli argomenti che desideri pubblicare. Puoi anche applicare le condizioni e specificare i dettagli di AEM Sites per il predefinito di output. Quindi, puoi generare l&#39;output utilizzando la funzionalità **Genera output**.
 
-Per la pubblicazione basata su articoli, è necessario creare il predefinito di output per la mappa DITA dall&#39;editor Web. La mappa deve includere gli argomenti che desideri pubblicare. Potete anche applicare le condizioni e specificare i dettagli del sito AEM per il predefinito di output. Quindi, potete generare l&#39;output utilizzando la funzione Genera predefinito (Generate Preset).
+Per generare un output basato su articoli, effettua le seguenti operazioni:
 
-È inoltre possibile utilizzare i predefiniti di output creati per la mappa DITA per generare l&#39;output dal pannello Repository o dal pannello Mappa. È possibile generare l&#39;output per uno o più argomenti o per l&#39;intera mappa DITA.
+1. [Creare il predefinito della Knowledge Base](./generate-output-knowledge-base.md) per l&#39;output basato su articoli.
+1. Passa alla scheda **Articoli** e seleziona gli argomenti per i quali desideri generare l&#39;output.
+1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 
-- **[Crea predefiniti di output dall&#39;editor Web](web-editor-article-publishing-presets.md)**
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-- **[Genera output dal pannello Archivio o dal pannello Visualizzazione mappa](web-editor-article-publishing-output.md)**
+1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
+
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+
+   Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+   Per visualizzare l&#39;output, chiudere la finestra di dialogo **Output generato** e selezionare **Visualizza output** nella pagina predefinita.
+
+
+   >[!NOTE]
+   >
+   > È inoltre possibile rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
+
+
+**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)

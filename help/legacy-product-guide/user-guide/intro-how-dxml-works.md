@@ -1,9 +1,10 @@
 ---
 title: Come funziona AEM Guides
-description: Scopri come AEM Guides funziona con l’AEM e altri editor DITA per abilitare la gestione dei contenuti, il riutilizzo, la traduzione e la revisione in uno scenario aziendale.
+description: Scopri come AEM Guides funziona con AEM e altri editor DITA per abilitare la gestione dei contenuti, il riutilizzo, la traduzione e la revisione in uno scenario aziendale.
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -12,9 +13,9 @@ ht-degree: 0%
 
 # Come funziona AEM Guides {#id167G9A00DO4}
 
-Il diagramma seguente illustra il funzionamento di AEM Guides con l’AEM e qualsiasi editor DITA per abilitare la gestione dei contenuti, il riutilizzo, la traduzione e la revisione in uno scenario aziendale.
+Il diagramma seguente illustra il funzionamento di AEM Guides con AEM e qualsiasi editor DITA per abilitare la gestione dei contenuti, il riutilizzo, la traduzione e la revisione in uno scenario aziendale.
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Argomento padre:**[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Argomento padre:**[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

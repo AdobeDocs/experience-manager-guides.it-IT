@@ -4,9 +4,9 @@ description: Scopri come aggiungere tag avanzati in AEM Guides. Utilizzare lo st
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > La funzione di assegnazione tag avanzati non è disponibile e richiede un’implementazione personalizzata per la quale è necessario consultare l’amministratore di sistema.
 
-AEM Guides viene fornito con la funzione di aggiungere tag avanzati. È possibile utilizzare lo strumento Estrazione parole chiave XML per estrarre tag avanzati. Questo strumento utilizza l’intelligenza artificiale per comprendere il contenuto e fornire parole chiave rilevanti. Puoi utilizzare i tag avanzati per migliorare l’ottimizzazione SEO (Search Engine Optimization) e aiutare gli utenti a trovare i contenuti correlati.
+Adobe Experience Manager Guides viene fornito con la funzione di aggiungere tag avanzati. È possibile utilizzare lo strumento Estrazione parole chiave XML per estrarre tag avanzati. Questo strumento utilizza l’intelligenza artificiale per comprendere il contenuto e fornire parole chiave rilevanti. Puoi utilizzare i tag avanzati per migliorare l’ottimizzazione SEO (Search Engine Optimization) e aiutare gli utenti a trovare i contenuti correlati.
 
 Per creare tag avanzati, effettua le seguenti operazioni:
 
@@ -27,7 +27,7 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. Selezionare l&#39;opzione Esegui processo Post. Viene visualizzato un messaggio quando lo strumento viene avviato correttamente.
+1. Selezionare l&#39;opzione Esegui post-elaborazione. Viene visualizzato un messaggio quando lo strumento viene avviato correttamente.
 1. I tag vengono estratti automaticamente e possono essere visualizzati nella pagina Proprietà dell&#39;argomento selezionato.
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

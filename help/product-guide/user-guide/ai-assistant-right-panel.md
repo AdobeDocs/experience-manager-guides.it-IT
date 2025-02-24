@@ -1,29 +1,25 @@
 ---
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
-description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente nell’editor web.
+description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
-# Assistente AI per l’authoring di documenti con efficienza intelligente
+# Creare i documenti in modo intelligente con l&#39;Assistente IA (Beta)
 
-Experience Manager Guides fornisce uno strumento di assistenza per l’intelligenza artificiale che consente di rendere l’authoring più intelligente e veloce. La gestione dei documenti è semplificata grazie a suggerimenti intelligenti e all’ottimizzazione. Utilizzando questo strumento, puoi visualizzare i suggerimenti avanzati per riutilizzare il contenuto dell’archivio dei contenuti esistente. Utilizza la funzione di prompt di testo per inviare un prompt e modificare il contenuto o generare un output in base alle tue esigenze. Utilizza l’Assistente AI per convertire in modo intelligente un paragrafo in un elenco. È possibile creare una breve descrizione dell&#39;argomento corrente. Questa funzione consente inoltre di migliorare e tradurre facilmente il contenuto selezionato.
-
+Adobe Experience Manager Guides fornisce uno strumento di assistenza AI che consente di rendere l’authoring più intelligente e veloce. Utilizzando questo strumento, puoi visualizzare i suggerimenti avanzati per riutilizzare il contenuto dell’archivio dei contenuti esistente. Utilizza la funzione di prompt di testo per inviare un prompt e modificare il contenuto in base alle tue esigenze. Utilizza l’Assistente AI per convertire in modo intelligente un paragrafo in un elenco. È possibile creare una breve descrizione per l&#39;argomento corrente in base al contenuto selezionato. Questa funzione consente inoltre di migliorare e tradurre facilmente il contenuto selezionato.
 
 >[!NOTE]
 >
-> Per aggiungere la funzionalità Assistente AI nel pannello di destra, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Assistente AI** nella scheda **Panels** nelle **Impostazioni editor** ![Icona Impostazioni editor](./images/editor_settings_icon.svg).
-> È inoltre necessario estrarre il documento per visualizzare l&#39;icona Assistente AI.
+> Questa funzione di authoring è disponibile solo per gli argomenti DITA ed è accessibile solo dall&#39;interfaccia dell&#39;editor. Nella home page e nella console Mappa viene visualizzato solo il pannello **Guida**.
 
-Questa funzione è disponibile solo per gli argomenti DITA. Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
+Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
 
-![assistente ai](./images/ai-assistant-panel.png)
-
-
+![assistente ai](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Suggerisci contenuti riutilizzabili
 
@@ -32,19 +28,14 @@ Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisc
 Ulteriori informazioni sull&#39;utilizzo di [suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring dei contenuti](authoring-ai-based-smart-suggestions.md).
 
 
-
-
-
 ## Usa prompt di testo
 
+Un prompt di testo è un’istruzione, una domanda o un’istruzione che guida l’Assistente AI nella generazione di una risposta specifica.
 
-Un prompt di testo è un’istruzione, una domanda o un’istruzione che guida l’Assistente AI nella generazione di una risposta o di un output specifico.
-
-Puoi utilizzare un prompt di testo per modificare il contenuto e generare un output.  Ad esempio, puoi generare un riepilogo delle funzioni di un prodotto e utilizzarlo nel rapporto per mostrare il prodotto. Puoi utilizzare questa funzione anche per confrontare due prodotti. Ad esempio, puoi anche creare una tabella di confronto per le funzioni di due prodotti.
-
+È possibile utilizzare un prompt di testo per modificare il contenuto. Ad esempio, puoi selezionare il contenuto dell&#39;argomento corrente e utilizzare il prompt *Rendere il testo più conciso*. Allo stesso modo, puoi utilizzare un prompt di testo per aggiungere un attributo al tag utilizzato nel contenuto selezionato.
 
 1. Selezionare il testo per il quale si desidera utilizzare il prompt di testo.
-1. Selezionare **Usa prompt di testo** ![ai icona Usa prompt di testo](./images/ai-use-text-prompt.svg)dal pannello **Assistente AI**.
+1. Selezionare **Usa prompt di testo** ![ai icona del prompt di testo](./images/ai-use-text-prompt.svg)dal pannello **Authoring**.
 1. Chiedi conferma in uno dei modi seguenti:
 
    - Scegliete un prompt dai prompt suggeriti.
@@ -57,9 +48,11 @@ Puoi utilizzare un prompt di testo per modificare il contenuto e generare un out
    - Immettere il prompt nella casella di testo.
 
 
-1. Seleziona **Rigenera** ![Icona Rigenera](./images/refresh-icon.svg) per un&#39;altra risposta o output in base al prompt, come gli strumenti di intelligenza artificiale.
+1. Seleziona **Rigenera** ![Icona Rigenera](./images/refresh-icon.svg) per un&#39;altra risposta o output in base alla richiesta.
 
 1. (Facoltativo) Seleziona **Espandi** ![espandi](./images/expand-icon.svg) per aprire l&#39;editor **Utilizza prompt di testo**. Vengono visualizzati il contenuto corrente e quello generato. Puoi modificare il contenuto del layout sorgente e controllare l’anteprima.
+
+   ![editor prompt di testo assistente ai](./images/text-prompt.png)
 
 
    >[!NOTE]
@@ -70,21 +63,18 @@ Puoi utilizzare un prompt di testo per modificare il contenuto e generare un out
 
 1. Puoi anche modificare il prompt nell’editor e rigenerare la risposta. Ad esempio, è possibile modificare il prompt per rendere il testo più conciso, impostandolo su circa 40 parole.
 
-   ![editor prompt di testo assistente ai](./images/ai-assisstant-text-prompt.png)
-
 1. Puoi verificare l’origine del contenuto generato e modificarla, se necessario.
 
 1. Seleziona **Accetta** per sostituire il contenuto selezionato nell&#39;argomento con il contenuto generato.
-1. **Annulla**: annulla l&#39;azione del prompt di testo. Torna allo stato iniziale del pannello.
+1. **Annulla**: annulla l&#39;azione del prompt di testo. Torna al pannello Authoring.
 
    >[!NOTE]
    >
-   > Se si seleziona l&#39;icona **Annulla** nel pannello delle funzioni, viene ripristinato anche lo stato iniziale.
+   > Selezionando l&#39;icona **Ignora** nel pannello Authoring si ritorna allo stato iniziale dell&#39;Assistente AI.
 
 ## Migliorare i contenuti
 
-
-Migliora il contenuto selezionato. Controlla l’ortografia, la lingua e la struttura grammaticale e suggerisci una versione migliore del contenuto. Migliora anche la qualità delle frasi.
+Utilizza la funzione **Migliora contenuto** per migliorare la qualità del contenuto selezionato dell&#39;argomento corrente. Puoi selezionare il contenuto per il controllo ortografico, linguistico e grammaticale e suggerirne una versione migliore. Migliora anche la qualità delle frasi.
 
 1. Seleziona il contenuto.
 1. Seleziona **Migliora contenuto** ![icona di miglioramento contenuto](./images/ai-improve-icon.svg) per trovare i suggerimenti per il contenuto migliorato.
@@ -94,9 +84,9 @@ Migliora il contenuto selezionato. Controlla l’ortografia, la lingua e la stru
 
 
 
-![assistente ai migliora editor contenuti](./images/ai-assisstant-improve-content.png)
+   ![assistente ai migliora editor contenuti](./images/ai-assisstant-improve-content.png)
 
-Accetta il suggerimento o rigenera per una risposta diversa, oppure annulla l’azione per tornare allo stato precedente.
+Accettate il suggerimento, modificate la risposta nella vista sorgente prima di accettarla, rigenerate il modello per un&#39;altra risposta o annullate l&#39;azione per tornare allo stato precedente.
 
 
 
@@ -115,10 +105,10 @@ Ad esempio, puoi elencare i requisiti di sistema e generare una breve descrizion
 
 È inoltre possibile eseguire le azioni seguenti:
 
-- Seleziona **Rigenera** per generare un&#39;altra breve descrizione per il tuo argomento, come gli strumenti di intelligenza artificiale.
+- Seleziona **Rigenera** per generare un&#39;altra breve descrizione per il tuo argomento.
 - Seleziona **Espandi** per aprire l&#39;editor **Crea collegamento**.
 
-![assistente ai crea editor di descrizioni brevi](./images/ai-assistant-create-short-desc.png)
+  ![assistente ai crea editor di descrizioni brevi](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -133,7 +123,7 @@ Questa funzione converte in modo intelligente un paragrafo selezionato in un ele
 
 1. Seleziona il contenuto.
 1. Selezionare **Icona Dettaglio contenuto** ![icona Dettaglio contenuto](./images/ai-itemize-icon.svg) per convertire il contenuto selezionato in un elenco.
-Lo strumento AI Assistant converte il contenuto in modo intelligente in un elenco di elementi.
+Lo strumento di authoring nel pannello Assistente AI converte il contenuto in modo intelligente in un elenco di elementi.
 1. (Facoltativo) Seleziona **Espandi** per aprire l&#39;editor di **Dettagli contenuto**.
 1. Quando l’elenco è pronto, accetta le modifiche nel contenuto generato. Il contenuto generato sostituisce quindi il contenuto selezionato.
 
@@ -141,11 +131,12 @@ Lo strumento AI Assistant converte il contenuto in modo intelligente in un elenc
 
 ## Tradurre il contenuto
 
-Utilizza questa funzione intelligente per tradurre il contenuto selezionato nella lingua di destinazione. Ad esempio, puoi aggiungere contenuti in inglese e tradurli rapidamente in tedesco.
+Utilizza questa funzione intelligente per tradurre il contenuto selezionato nella lingua di destinazione, rendendolo molto utile quando si aggiungono note in lingue diverse. Ad esempio, puoi aggiungere contenuti in inglese e tradurli rapidamente in arabo.
+
 Per tradurre il contenuto, effettua le seguenti operazioni:
 
 1. Seleziona il contenuto da tradurre.
-1. Selezionare **Traduci contenuto** ![ai icona Traduci contenuto](./images/ai-translate-content-icon.svg) dal pannello dell&#39;Assistente AI.
+1. Seleziona **Traduci contenuto** ![ai icona Traduci contenuto](./images/ai-translate-content-icon.svg) dal pannello **Authoring**.
 1. Seleziona la lingua di destinazione dal menu a discesa. Il contenuto tradotto viene visualizzato nel pannello Assistente AI.
 
 1. (Facoltativo) Seleziona **Espandi** per aprire l&#39;editor **Traduci contenuto**.

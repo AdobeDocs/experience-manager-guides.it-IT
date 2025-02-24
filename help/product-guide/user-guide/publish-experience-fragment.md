@@ -1,21 +1,21 @@
 ---
-title: Publish di un argomento in un frammento di esperienza
-description: Publish Applicare un argomento o gli elementi di un argomento a un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
+title: Pubblicare un argomento in un frammento di esperienza
+description: Pubblica un argomento o gli elementi di un argomento in un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Frammenti esperienza Publish
+# Pubblicare Frammenti Esperienza
 
 I frammenti di esperienza sono parti di contenuto modulare in Adobe Experience Manager. Questi blocchi di contenuto sono basati su modelli e incapsulano sia il contenuto che il relativo layout. Questi contenuti riutilizzabili consentono ai creatori di contenuti di assemblare e fornire esperienze coerenti e scalabili su più canali supportati da Experience Manager. Questa funzione consente di creare facilmente esperienze di marketing coerenti in modo efficiente, come newsletter, banner promozionali e testimonianze di clienti.
 
-Experience Manager Guides consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento e i relativi elementi in un frammento di esperienza. Quindi, utilizza la mappatura per pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi quindi utilizzare i frammenti di esperienza in qualsiasi sito di Experienci Manager o estrarre i dettagli tramite API supportate da Frammenti di esperienza.
+Experience Manager Guides consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento e i relativi elementi in un frammento di esperienza. Quindi, utilizza la mappatura per pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi quindi utilizzare i frammenti di esperienza in qualsiasi sito Experience Manager o estrarre i dettagli tramite API supportate da Frammenti di esperienza.
 
 
 
@@ -40,16 +40,16 @@ Ad esempio:
      *Aggiungi la configurazione cloud nelle proprietà della cartella per collegarla ai modelli di frammento.*
 1. Per generare un frammento di esperienza, seleziona **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.
 1. Seleziona **Frammento esperienza**.\
-   ![scheda opzioni proprietà file](./images/file-properties-outputs.png){width="300" align="left"}
+   ![scheda opzioni proprietà file](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *Aggiungi un nuovo frammento di esperienza dalle proprietà file di un argomento*.
 
    >[!NOTE]
    >
-   > È inoltre possibile pubblicare un frammento di esperienza dalla **vista archivio**. Seleziona l’argomento da pubblicare come frammento di esperienza. Quindi, dal menu **Opzioni**, seleziona **Publish As** > **Frammento esperienza**.
+   > È inoltre possibile pubblicare un frammento di esperienza dalla **vista archivio**. Seleziona l’argomento da pubblicare come frammento di esperienza. Dal menu **Opzioni**, seleziona **Pubblica come** > **Frammento esperienza**.
 
 1. Nella finestra di dialogo **Genera frammento esperienza**, compila i seguenti dettagli:
-   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento esperienza](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento esperienza](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Aggiungi il percorso, il modello e i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di esperienza. È possibile sovrascrivere un frammento di esperienza esistente.*
 
@@ -66,7 +66,7 @@ Ad esempio:
    * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
 
 
-      * **Nessuno**: seleziona questa opzione se non desideri applicare alcuna condizione all&#39;output pubblicato.
+      * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
       * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per generare contenuto personalizzato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
       * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
 
@@ -76,10 +76,10 @@ Ad esempio:
 
 
    * Selezionare la casella di controllo **Sovrascrivi contenuto esistente** se il frammento di esperienza esiste già e si desidera sovrascriverlo. Se non selezioni la casella di controllo e il frammento di esperienza esiste già, in Experience Manager Guides viene visualizzato un errore.
-1. Fai clic su **Genera** per pubblicare il frammento di esperienza.
+1. Seleziona **Genera** per pubblicare il frammento di esperienza.
 1. Puoi visualizzare i frammenti di esperienza per un argomento nella sezione **Output** delle **Proprietà file**. I Frammenti esperienza vengono visualizzati in base alla data e all’ora di pubblicazione, il più recente dei quali è il primo.
 
-   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *Visualizza i frammenti di esperienza presenti in un argomento e ripubblicali.*
 

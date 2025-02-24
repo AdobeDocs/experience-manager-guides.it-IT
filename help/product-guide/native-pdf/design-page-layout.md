@@ -1,13 +1,13 @@
 ---
-title: Funzionalità nativa di PDF Publish | Progettare un layout di pagina
+title: Funzione di pubblicazione nativa di PDF | Progettare un layout di pagina
 description: Scopri come progettare il layout di pagina per presentare le informazioni in diverse sezioni dell’output PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
+source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
 workflow-type: tm+mt
-source-wordcount: '4972'
+source-wordcount: '5017'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Progettare un layout di pagina {#design-page-layout}
 
-Durante la creazione di un documento PDF, sono disponibili sezioni diverse per la presentazione di diversi tipi di informazioni. Un documento PDF, ad esempio, inizia da una pagina iniziale o di copertina contenente il logo, il titolo o le informazioni sulla versione dell&#39;azienda. Ci sarebbero poi capitoli, appendici o pagine del glossario. Ogni sezione di un documento PDF ha un aspetto diverso e ciò si ottiene creando e personalizzando il layout di pagina.
+Durante la creazione di un documento di PDF, sono disponibili sezioni diverse per la presentazione di diversi tipi di informazioni. Un documento PDF, ad esempio, inizia da una pagina iniziale o di copertina contenente il logo, il titolo o le informazioni sulla versione dell&#39;azienda. Ci sarebbero poi capitoli, appendici o pagine del glossario. Ogni sezione di un documento PDF ha un aspetto diverso e ciò si ottiene creando e personalizzando il layout di pagina.
 
-Quando si progetta il layout di pagina, è possibile definire i vari elementi che compongono la pagina. Ad esempio, è possibile definire le dimensioni della pagina, i margini, l&#39;intestazione e il piè di pagina, l&#39;orientamento e altre specifiche di pagina in una pagina. La funzionalità di pubblicazione di PDF nativi consente di progettare la pagina in base agli [standard per contenuti multimediali](https://www.w3.org/TR/css-page-3/). La maggior parte delle impostazioni coperte dagli standard per file multimediali di paging possono essere facilmente personalizzate utilizzando l’interfaccia utente della funzione di pubblicazione di PDF nativi. Per altre formattazioni avanzate, puoi utilizzare la vista Source per scrivere il codice CSS desiderato.
+Quando si progetta il layout di pagina, è possibile definire i vari elementi che compongono la pagina. Ad esempio, è possibile definire le dimensioni della pagina, i margini, l&#39;intestazione e il piè di pagina, l&#39;orientamento e altre specifiche di pagina in una pagina. La funzionalità di pubblicazione nativa di PDF consente di progettare la pagina in base agli [standard per contenuti multimediali](https://www.w3.org/TR/css-page-3/). La maggior parte delle impostazioni incluse negli standard per file multimediali di paging possono essere facilmente personalizzate utilizzando l’interfaccia utente della funzione di pubblicazione nativa di PDF. Per altre formattazioni avanzate, puoi utilizzare la vista Source per scrivere il codice CSS desiderato.
 
-Dopo aver progettato i layout di pagina, è necessario associarli alle rispettive sezioni nelle impostazioni Layout pagina PDF. Consulta la sezione [Creare e personalizzare layout di pagina](components-pdf-template.md#create-customize-page-layout) per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
+Dopo aver progettato i layout di pagina, è necessario associarli alle rispettive sezioni nelle impostazioni Layout di pagina di PDF. Consulta la sezione [Creare e personalizzare layout di pagina](components-pdf-template.md#create-customize-page-layout) per informazioni dettagliate su come creare e aprire un layout di pagina per la personalizzazione.
 
 ## Tipi di layout di pagina {#types-of-page-layout}
 
-Un documento PDF contiene in genere le sezioni seguenti:
+Un documento di PDF contiene in genere le sezioni seguenti:
 
 * Copertina
 * Sommario
@@ -88,7 +88,7 @@ Il layout di pagina selezionato viene creato utilizzando una copia del layout Ca
 
 ## Utilizzare le proprietà di pagina di un layout di pagina {#page-props-page-layout}
 
-Durante la progettazione di un layout di pagina, è essenziale avere il controllo su varie proprietà di pagina. La funzione Pubblicazione nativa di PDF racchiude tutte le proprietà principali della pagina nel pannello Proprietà pagina. Il pannello Proprietà pagina consente di accedere a varie proprietà nelle sezioni seguenti:
+Durante la progettazione di un layout di pagina, è essenziale avere il controllo su varie proprietà di pagina. La funzione di pubblicazione nativa di PDF racchiude tutte le proprietà principali della pagina nel pannello Proprietà pagina. Il pannello Proprietà pagina consente di accedere a varie proprietà nelle sezioni seguenti:
 
 >[!NOTE]
 >
@@ -214,9 +214,9 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
 1. Fai clic su **Salva tutto** per salvare il file aggiornato.
-1. Genera l’output di PDF.
+1. Genera l’output PDF.
 
-Il PDF finale eseguirà il rendering del contenuto della tabella in modalità orizzontale, come illustrato all’inizio dell’esempio.
+Il PDF finale presenterà il contenuto della tabella in modalità orizzontale, come illustrato all’inizio dell’esempio.
 
 ### Aggiungi un&#39;immagine di sfondo {#add-bg-image}
 
@@ -366,12 +366,13 @@ Sono disponibili le seguenti categorie di campi che è possibile inserire nel la
 Ciascuna di queste categorie di campi contiene diverse varianti in cui è possibile inserire le informazioni sui campi. Ad esempio, un campo Data può avere diverse varianti come `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e così via. Analogamente, il numero di pagina può avere varianti in formato romano, decimale o anche specifico delle impostazioni internazionali, ad esempio _Arabo_, _Devanagari_, _Ebraico_ e altro ancora.
 
 
-Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati sono archiviati nel **Contenuto mappa** DITA di origine oppure possono essere selezionati dalle **Proprietà file mappa** o dalle **Proprietà file argomento** DITA e facilmente inseriti nel layout della pagina.
+Oltre ai campi predefiniti, è possibile aggiungere informazioni sui metadati come variabili o campi nel layout di pagina. Questi metadati possono essere archiviati nel DITA di origine **Contenuto mappa**, **Contenuto argomento** oppure possono essere selezionati dalle **Proprietà file mappa**, **Proprietà file argomento**.
 
 Puoi selezionare i metadati dalle seguenti opzioni:
 
 * **Il contenuto della mappa** include i metadati definiti nell&#39;elemento `<topicmeta>` della mappa DITA.
 * **Proprietà file mappa** include i metadati, a cui è possibile accedere dalla pagina **Proprietà** di una mappa DITA.
+* **Il contenuto dell&#39;argomento** include i metadati definiti nell&#39;elemento `<prolog>` di un argomento DITA, ad esempio copyright, autore e altri dettagli. Per recuperare singoli elementi `<prolog>`, è possibile utilizzare semplici espressioni XPath (ad esempio, //author per il nome dell&#39;autore). Per i metadati dell&#39;attributo, includere il simbolo `@` nell&#39;XPath (ad esempio, //critdates/viewed/@modified for the modified date).
 * **Proprietà file argomento** include i metadati, a cui è possibile accedere dalla pagina **Proprietà** di un argomento.
 
 
@@ -445,7 +446,7 @@ Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina v
 | _Angolo sviluppatori_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Se desideri lavorare direttamente con il codice CSS e HTML, puoi ottenere questo risultato anche dalla vista Source del layout di pagina e apportando modifiche al codice. Il seguente frammento di codice mostra la stessa impostazione del piè di pagina eseguita attraverso il codice:
+Se desideri lavorare direttamente con il codice CSS e HTML, puoi ottenere questo risultato anche andando nella visualizzazione Source del layout di pagina e apportando modifiche al codice. Il seguente frammento di codice mostra la stessa impostazione del piè di pagina eseguita attraverso il codice:
 
 ```css
 …
@@ -517,7 +518,7 @@ L’aspetto del sommario predefinito può essere personalizzato utilizzando i fo
 
 ### Utilizzare il layout di pagina a più colonne {#multi-column-layout}
 
-I layout di pagina a più colonne sono molto comuni nella pubblicazione di riviste o indici in un libro. La funzione di pubblicazione di PDF nativi consente di suddividere facilmente il documento in più colonne. Utilizzando layout di pagina diversi, è possibile scegliere di mantenere solo una sezione specifica divisa in più colonne mantenendo le altre sezioni in un layout a colonna singola (o normale).
+I layout di pagina a più colonne sono molto comuni nella pubblicazione di riviste o indici in un libro. La funzione di pubblicazione nativa di PDF consente di suddividere facilmente il documento in più colonne. Utilizzando layout di pagina diversi, è possibile scegliere di mantenere solo una sezione specifica divisa in più colonne mantenendo le altre sezioni in un layout a colonna singola (o normale).
 
 Per creare un layout di pagina con più colonne, effettuare le seguenti operazioni:
 

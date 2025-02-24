@@ -4,62 +4,63 @@ description: Scopri come importare e convalidare un argomento DITA, utilizzare l
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # Supporto per i file Schematron
 
-&quot;Schematron&quot; si riferisce a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. L’editor web supporta i file Schematron. Potete importare i file Schematron e modificarli nell&#39;Editor Web. Utilizzando un file Schematron è possibile definire determinate regole e quindi convalidarle per un argomento o una mappa DITA.
+&quot;Schematron&quot; si riferisce a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. L&#39;editor supporta i file Schematron. Potete importare i file Schematron e modificarli nell&#39;Editor. Utilizzando un file Schematron è possibile definire determinate regole e quindi convalidarle per un argomento o una mappa DITA.
 
 >[!NOTE]
 >
-> L’editor web supporta ISO Schematron.
+> Editor supporta ISO Schematron.
 
 
 ## Importa file Schematron
 
 Per importare i file Schematron, effettuate le seguenti operazioni:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. Passare alla cartella desiderata (in cui si desidera caricare i file) in *Visualizzazione archivio*.
-1. Fai clic sull&#39;icona **Opzioni** per aprire il menu di scelta rapida e scegli **Carica Assets**.
-1. Nella finestra di dialogo **Carica Assets**, puoi modificare la cartella di destinazione nel campo **Seleziona cartella risorse**.
-1. Fare clic su **Scegli file** e selezionare i file Schematron. È possibile selezionare uno o più file Schematron e quindi fare clic su **Carica**.
+1. Passare alla cartella desiderata (in cui si desidera caricare i file) nel *repository*.
+1. Seleziona l&#39;icona **Opzioni** per aprire il menu di scelta rapida e scegli **Carica risorse**.
+1. Nella finestra di dialogo **Carica risorse**, puoi modificare la cartella di destinazione nel campo **Seleziona cartella risorse**.
+1. Selezionare **Scegli file** e selezionare i file Schematron. Puoi selezionare uno o più file Schematron, quindi selezionare **Carica**.
 
 ## Convalidare un argomento o una mappa DITA con Schematron
 
-Dopo aver importato i file di Schematron, è possibile modificarli nell&#39;Editor Web. È possibile utilizzare i file Schematron per convalidare gli argomenti o una mappa DITA. Ad esempio, è possibile creare le regole seguenti per una mappa o un argomento DITA:
+Dopo aver importato i file Schematron, potete modificarli nell&#39;Editor. È possibile utilizzare i file Schematron per convalidare gli argomenti o una mappa DITA. Ad esempio, è possibile creare le regole seguenti per una mappa o un argomento DITA:
 
 * Per una mappa DITA viene definito un titolo.
 * È stata aggiunta una breve descrizione di una certa lunghezza.
 * Deve essere presente almeno un topicref nella mappa.
 
-Quando si apre un argomento nell&#39;Editor Web, a destra viene visualizzato il pannello Convalida schema. Per aggiungere e convalidare un argomento o una mappa con un file Schematron, effettuare le seguenti operazioni:
-![](images/schematron-validate.png){width="300" align="left"}
+Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il pannello Convalida schema. Per aggiungere e convalidare un argomento o una mappa con un file Schematron, effettuare le seguenti operazioni:
 
-1. Fate clic sull&#39;icona Schematron () per aprire il pannello Schematron.
-1. Utilizzate Aggiungi file di schema (Add Schematron File) per aggiungere file di schema.
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. Selezionate l&#39;icona Schematron () per aprire il pannello Schematron.
+1. Utilizzare **Aggiungi file di schema** per aggiungere file di schema.
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
    >[!NOTE]
    >
    >Per rimuoverla, potete utilizzare l&#39;icona croce accanto al nome del file Schematron.
-1. Fare clic su Convalida con schema per convalidare l&#39;argomento.
+1. Selezionare **Convalida con schema** per convalidare l&#39;argomento.
 
    * Se l’argomento non rispetta alcuna regola, viene visualizzato il messaggio di convalida riuscita per il file.
    * Se l&#39;argomento non rispetta una regola, ad esempio se non contiene un titolo ed è convalidato per lo Schematron specificato in precedenza, viene visualizzato un errore di convalida.
 
-1. Fai clic sul messaggio di errore per evidenziare l’elemento contenente l’errore nell’argomento/mappa aperto.
+1. Seleziona il messaggio di errore per evidenziare l’elemento contenente l’errore nell’argomento/mappa aperto.
 
-Il supporto Schematron nell&#39;Editor Web consente di convalidare i file in base a un insieme di regole e di mantenere coerenza e correttezza negli argomenti.
+Il supporto Schematron nell’Editor consente di convalidare i file in base a un set di regole e di mantenere coerenza e correttezza tra gli argomenti.
 
 ## Utilizzare le istruzioni di asserzione e di report per verificare la presenza di regole{#schematron-assert-report}
 
-AEM Guides supporta anche le istruzioni di asserzione e di rapporto in Schematron. Queste istruzioni consentono di convalidare gli argomenti DITA.
+Experience Manager Guides supporta anche le istruzioni di asserzione e di rapporto in Schematron. Queste istruzioni consentono di convalidare gli argomenti DITA.
 
 ### Dichiarazione asserzione
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## Definire pattern astratti{#schematron-abstract-patterns}
 
-AEM Guides supporta anche i modelli astratti in Schematron. È possibile definire pattern astratti generici riutilizzandoli.  Potete creare parametri segnaposto che specificano il pattern effettivo.
+Experience Manager Guides supporta anche i modelli astratti in Schematron. È possibile definire pattern astratti generici riutilizzandoli.  Potete creare parametri segnaposto che specificano il pattern effettivo.
 
 
 L’utilizzo di modelli astratti può semplificare lo schema Schematron riducendo la duplicazione delle regole e semplificando la gestione e l’aggiornamento della logica di convalida. Può inoltre semplificare la comprensione dello schema, in quanto consente di definire logiche di convalida complesse in un unico modello astratto che può essere riutilizzato in tutto lo schema.

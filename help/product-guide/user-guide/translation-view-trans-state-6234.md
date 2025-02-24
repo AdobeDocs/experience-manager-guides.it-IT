@@ -4,9 +4,9 @@ description: Scopri come visualizzare lo stato della traduzione e le copie per l
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,15 @@ ht-degree: 0%
 
 Per visualizzare lo stato di traduzione di una mappa DITA, effettuare le seguenti operazioni:
 
-1. Passare al file di mapping DITA della copia per lingua di origine.
-1. Fai clic sulla scheda **Traduzione**.
-1. Nel pannello **Filtro** a sinistra, seleziona **Traduci lingue** di cui vuoi controllare lo stato e fai clic su **Fine**.
+1. Passare al file di mapping DITA richiesto tramite la **Console mappe** nell&#39;editor.
+1. Seleziona la scheda **Traduzione**.
+1. Nel pannello **Traduzione** a sinistra, archivia la lingua dall&#39;elenco **Lingue disponibili** di cui vuoi verificare lo stato e seleziona **Applica**.
+1. Tutti gli argomenti con la lingua di destinazione selezionata vengono visualizzati insieme al   stato della traduzione.
 
    >[!NOTE]
    >
-   > È possibile filtrare ulteriormente il contenuto in base al relativo stato di traduzione \(come Copia mancante non sincronizzata, In corso o In sincronia\), Tipo di Source \(come Tutto, DITA, Mappa DITA o Risorsa\), data di modifica. È inoltre possibile immettere parole chiave per cercare argomenti specifici.
+   > È possibile filtrare ulteriormente il contenuto in base al relativo stato di traduzione \(come Copia mancante non sincronizzata, In corso o In sincronia\), Tipo di Source \(come Tutto, DITA, Mappa DITA o Risorsa\) e data di modifica. È inoltre possibile immettere parole chiave per cercare argomenti specifici. È possibile utilizzare **Aggiorna** per aggiornare lo stato se sono state apportate modifiche.
 
-**Argomento padre:**[ Traduci contenuto](translation.md)
+   ![](images/translation-status-new.png){width="800" align="left"}
+
+**Argomento padre:**[ Panoramica sulla traduzione dei contenuti](translation.md)

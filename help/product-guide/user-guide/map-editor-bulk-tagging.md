@@ -4,9 +4,9 @@ description: Utilizza l’assegnazione tag in blocco dei contenuti in AEM Guides
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 I tag ti consentono di raggruppare o classificare il contenuto all’interno dell’archivio dei contenuti e anche nell’output pubblicato. Se sono stati applicati tag al contenuto, è possibile trovare facilmente argomenti correlati all&#39;interno di una mappa DITA che possono essere utili per l&#39;authoring dei contenuti. Con l’output pubblicato, gli utenti finali saranno in grado di individuare più rapidamente il contenuto corretto con i tag corretti.
 
-AEM Guides consente di assegnare tag al contenuto DITA in pochi clic. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di AEM. Per ulteriori informazioni sulla creazione e la gestione dei tag, vedere la sezione [Amministrazione tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione AEM.
+Adobe Experience Manager Guides consente di assegnare tag al contenuto DITA in pochi passaggi. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di Adobe Experience Manager. Per ulteriori informazioni sulla creazione e la gestione dei tag, vedere la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di Adobe Experience Manager.
 
-Per impostazione predefinita, AEM Guides non concede l’accesso in lettura a nessun utente della cartella in cui sono memorizzati tutti i tag nell’archivio AEM. Per utilizzare i tag definiti nell’archivio AEM, è necessario chiedere all’amministratore di sistema di concedere l’accesso alla cartella in cui sono memorizzati i tag.
+Per impostazione predefinita, Experience Manager Guides non concede l’accesso in lettura ad alcun utente della cartella in cui sono memorizzati tutti i tag nell’archivio di Adobe Experience Manager. Per utilizzare i tag definiti nel repository di Adobe Experience Manager, è necessario chiedere all&#39;amministratore di sistema di concedere l&#39;accesso alla cartella in cui sono memorizzati i tag.
 
 ## Applicare tag collettivi
 
 Utilizza la funzione di assegnazione tag in blocco per applicare più tag contemporaneamente. Per applicare tag agli argomenti di una mappa DITA, effettuare le seguenti operazioni:
 
-1. Nell’interfaccia utente di Assets, accedi al file di mappa DITA e fai clic su di esso.
+1. Nell&#39;interfaccia utente di Assets, spostarsi e selezionare il file di mapping DITA.
 
    Viene visualizzata la console Mappa DITA con l&#39;elenco dei predefiniti di output disponibili per generare l&#39;output.
 
-1. Fai clic su **Argomenti**.
+1. Seleziona **Argomenti**.
 
    Viene visualizzato un elenco di argomenti disponibili nella mappa DITA. Gli UUID degli argomenti sono mostrati sotto il titolo dell’argomento.
 
@@ -40,7 +40,7 @@ Utilizza la funzione di assegnazione tag in blocco per applicare più tag contem
    >
    > La schermata precedente mostra una mappa secondaria selezionata ed espansa. Quando selezioni la mappa secondaria, vengono selezionati anche tutti gli argomenti sotto la mappa secondaria.
 
-1. Fare clic su **Applica tag**.
+1. Selezionare **Applica tag**.
 
    Viene visualizzata la finestra di dialogo Seleziona tag.
 
@@ -61,21 +61,21 @@ Per applicare i tag a un singolo argomento, effettuare le operazioni riportate d
 
 1. Nell’interfaccia utente di Assets, individua e seleziona il file di argomenti a cui desideri applicare i tag.
 
-1. Nella barra degli strumenti fare clic su **Proprietà**.
+1. Nella barra degli strumenti, seleziona **Proprietà**.
 
    Viene visualizzata la pagina delle proprietà dell&#39;argomento.
 
-1. Nella scheda Base, fai clic sull&#39;icona Sfoglia accanto al campo **Tag**.
+1. Nella scheda Base, seleziona l&#39;icona Sfoglia accanto al campo **Tag**.
 
 1. Selezionare uno o più tag da applicare all&#39;argomento selezionato.
 
 1. Conferma la selezione.
 
-1. Fare clic su **Applica tag**.
+1. Selezionare **Applica tag**.
 
    I tag selezionati vengono applicati all&#39;argomento e visualizzati nel campo Tag.
 
-1. Fai clic su **Salva e chiudi**.
+1. Seleziona **Salva e chiudi**.
 
 
 ## Rimuovi tag
@@ -84,27 +84,27 @@ In base alle esigenze aziendali, è possibile modificare le informazioni sui tag
 
 Per rimuovere tutti i tag da uno o più argomenti, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente di Assets, accedi al file di mappa DITA e fai clic su di esso.
+1. Nell&#39;interfaccia utente di Assets, passare al file di mapping DITA e selezionarlo.
 
    Viene visualizzata la console Mappa DITA con l&#39;elenco dei predefiniti di output disponibili per generare l&#39;output.
 
-1. Fai clic su **Argomenti**.
+1. Seleziona **Argomenti**.
 
    Viene visualizzato un elenco di argomenti disponibili nella mappa DITA.
 
 1. Selezionare gli argomenti da cui si desidera rimuovere i tag.
 
-1. Fare clic su **Rimuovi tag**.
+1. Selezionare **Rimuovi tag**.
 
    >[!NOTE]
    >
    > Se l’icona Elimina tag non è visibile, accertati di non aver attivato la funzione Nascondi tag.
 
-1. Nella finestra di dialogo Conferma eliminazione fare clic su **OK** per rimuovere i tag dagli argomenti selezionati.
+1. Nella finestra di dialogo Conferma eliminazione selezionare **OK** per rimuovere i tag dagli argomenti selezionati.
 
 
 ## Mostra o nascondi tag
 
-Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag nella vista della console delle mappe DITA facendo clic sull&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, facendo clic su Mostra tag vengono visualizzati tutti i tag.
+Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag nella vista della console delle mappe DITA selezionando l&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, selezionando Mostra tag vengono visualizzati tutti i tag.
 
 **Argomento padre:**[ Gestisci metadati](manage-metadata.md)

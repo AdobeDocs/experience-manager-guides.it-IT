@@ -4,14 +4,18 @@ description: Genera l’output dal pannello dell’archivio o dal pannello Vista
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Genera output dal pannello Repository o dal pannello Vista mappa {#id218CL6010AE}
+
+>[!NOTE]
+>
+> Il pannello Generazione rapida, precedentemente disponibile in Adobe Experience Manager Guides, è diventato obsoleto a partire dalle versioni 4.0 e 2502. Non è possibile accedere al pannello Generazione rapida per generare l&#39;output dal pannello Archivio o dal pannello Vista mappa.
 
 È inoltre possibile utilizzare i predefiniti di output creati per la mappa DITA per generare l&#39;output dal pannello Repository o dal pannello Vista mappa.
 
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 - Utilizzare la funzionalità **Genera output** nel pannello Vista mappa per generare l&#39;output per i diversi argomenti selezionati.
 
-## Publish argomento utilizzato in una o più mappe DITA
+## Pubblicare un argomento utilizzato in una o più mappe DITA
 
 Per generare l&#39;output per uno o più argomenti nella mappa DITA, effettuare le seguenti operazioni:
 

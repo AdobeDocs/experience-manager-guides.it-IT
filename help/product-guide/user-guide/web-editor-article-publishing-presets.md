@@ -4,60 +4,66 @@ description: Crea predefiniti di output dall’editor web. Scopri come modificar
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Creare predefiniti di output dall’editor web {#id218CL400JW3}
+# Creare predefiniti di output per la Knowledge Base dall&#39;editor {#id218CL400JW3}
 
 Per creare predefiniti di output per la mappa DITA, effettuate le seguenti operazioni:
 
 1. Nell’interfaccia utente di Assets, individua il file di mappa da modificare.
 
-1. Per ottenere un blocco esclusivo sul file mappa, selezionare il file mappa e fare clic su **Estrai**.
+1. Per ottenere un blocco esclusivo sul file mappa, selezionare il file mappa e selezionare **Estrai**.
 
 1. Selezionare l&#39;opzione **Modifica argomenti** dal menu Azioni del file di mapping.
 
-   Il file mappa viene aperto per la modifica nell&#39;editor Web.
+   Il file di mappa viene aperto per la modifica nell&#39;editor.
 
    >[!NOTE]
    >
-   > Potete aggiungere o eliminare qualsiasi argomento dalla mappa utilizzando l&#39;Editor mappe avanzato. Per ulteriori dettagli, vedere [Utilizzare l&#39;Editor mappe avanzato](map-editor-advanced-map-editor.md#).
+   > Potete aggiungere o eliminare qualsiasi argomento dalla mappa utilizzando l&#39;Editor mappe avanzato. Per ulteriori dettagli, visualizzare [Utilizzare l&#39;Editor mappe avanzato](map-editor-advanced-map-editor.md#).
 
-1. Nella scheda **Output**, selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
+1. Seleziona l&#39;icona **Apri nella console delle mappe**. La mappa si apre nella console delle mappe.
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+1. Passare alla scheda **Predefiniti di output** e selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
 
-1. Immettere il nome del predefinito nella finestra di dialogo Aggiungi predefinito, quindi fare clic su **Aggiungi**.
+1. Selezionare **Knowledge Base** dal menu a discesa **Tipo**, immettere il nome e selezionare **Adobe Experience Manager** nella finestra di dialogo **Nuovo predefinito di output**.
+1. Selezionare l&#39;opzione **Aggiungi al profilo cartella corrente** per creare un predefinito di output per il profilo cartella corrente. L&#39;icona ![icona profilo cartella](images/global-preset-icon.svg) indica un predefinito a livello di profilo della cartella.
 
-1. Immetti i seguenti dettagli di configurazione.
+   Ulteriori informazioni su [Gestire i predefiniti di output globali e del profilo cartella](./web-editor-manage-output-presets.md).
 
-   1. Selezionare le opzioni richieste nella scheda **Generale**. Potete scegliere di creare un predefinito di output con o senza condizioni. È inoltre possibile utilizzare un file DITVAL. AEM Guides consente inoltre di selezionare una baseline per la pubblicazione di una versione specifica della mappa DITA.
-   1. Immettere i dettagli del sito AEM nella scheda **AEM**. **Sito** visualizza l&#39;elenco di AEM Sites disponibili nell&#39;archivio AEM. **Categoria**, **Modello sezione** e **Modello articolo** sono i componenti strutturali utilizzati per organizzare l&#39;aspetto dell&#39;output. Sono predefiniti nel modello del sito AEM.
+1. Seleziona **Aggiungi**.
 
-      >[!NOTE]
-      >
-      > Aggiorna ciascun menu a discesa per ottenere l’ulteriore classificazione nel menu a discesa successivo.
+   Viene creato il predefinito per la Knowledge Base.
 
-   1. Dalla scheda **Articoli**, seleziona gli argomenti per i quali desideri generare l&#39;output.
-1. Seleziona l&#39;icona **Genera predefinito** nella parte superiore per generare l&#39;output.
+
+   ![Nuovo ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+
+Una volta creato il predefinito, è possibile generare l&#39;output per articoli specifici della knowledge base. A tale scopo, passare alla scheda **Articoli** e selezionare gli argomenti per i quali si desidera generare l&#39;output.
+1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Viene visualizzato lo stato del processo di generazione dell’output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
+1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
+
+
+![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+Per visualizzare l&#39;output, chiudere la finestra di dialogo Output generato e selezionare **Visualizza output** nella pagina predefinita.
 
 
 >[!NOTE]
 >
-> Potete anche modificare, rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni (Options).
+> È inoltre possibile rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
 
-![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Argomento padre:**[ Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)
+
+**Argomento padre:**[ Pubblicazione basata su articolo dall&#39;editor](web-editor-article-publishing.md)

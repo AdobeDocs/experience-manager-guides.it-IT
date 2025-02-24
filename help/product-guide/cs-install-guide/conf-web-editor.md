@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ AEM Guides è dotato di un potente editor Web che consente agli autori di creare
 
 - [Personalizza barra degli strumenti](conf-web-editor-customize-toolbar.md#)
 - [Configurare il salvataggio automatico dei file nell’editor web](auto-save-in-editor.md#)
-- [Personalizzare il dizionario predefinito dell’AEM](customize-aem-custom-dictionary.md#)
+- [Personalizzare il dizionario predefinito di AEM](customize-aem-custom-dictionary.md#)
 - [Genera automaticamente ID elemento](auto-generate-ids.md#)
 - [Configurare i caratteri speciali consentiti](conf-special-chars.md#)
 - [Configurare i filtri per la finestra di dialogo Sfoglia file](conf-custom-file-filters.md#)
@@ -29,6 +29,8 @@ AEM Guides è dotato di un potente editor Web che consente agli autori di creare
 - **[Configura il valore predefinito per la visualizzazione Tag](configure-default-value-tags-view.md)**
 
 - **[Configura la visualizzazione dei collegamenti basati su UUID](conf-uuid-based-links.md)**
+
+- **[Configura visualizzazione tabelle incollate](conf-pasted-tables.md)**
 
 - **[Aprire un argomento DITA o mappare i file nella stessa scheda](open-dita-files-same-tab.md)**
 
@@ -44,7 +46,7 @@ AEM Guides è dotato di un potente editor Web che consente agli autori di creare
 
 - **[Genera automaticamente ID elemento](auto-generate-ids.md)**
 
-- **[Personalizzare il dizionario predefinito dell&#39;AEM](customize-aem-custom-dictionary.md)**
+- **[Personalizzare il dizionario predefinito di AEM](customize-aem-custom-dictionary.md)**
 
 - **[Configurare i filtri di testo](config-text-filters.md)**
 
@@ -52,10 +54,12 @@ AEM Guides è dotato di un potente editor Web che consente agli autori di creare
 
 - **[Installa pacchetti per la pubblicazione basata su articolo](configure-article-based-publishing.md)**
 
-- **[Configura generazione PDF con argomento singolo](conf-pdf-generation-dita-ot.md)**
+- **[Configurare la generazione di PDF con argomento singolo](conf-pdf-generation-dita-ot.md)**
 
 - **[Configurare la funzionalità di traduzione nell&#39;editor Web](conf-translation-web-editor.md)**
 
 - **[Impostare l&#39;Editor mappe avanzato come predefinito](conf-map-editor.md)**
 
 - **[Includi attributo @navtitle per impostazione predefinita](auto-add-navtitle.md)**
+
+

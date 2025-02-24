@@ -4,9 +4,9 @@ description: Scopri come creare attributi condizionali in AEM Guides. Utilizza g
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 A livello aziendale, è estremamente importante assicurarsi di disporre di un sistema di assegnazione tag standard. I tag o gli attributi condizionali possono essere associati alle risorse digitali nell’archivio, il che consente di pubblicare l’output in base alle condizioni scelte. È ad esempio possibile creare un attributo condizionale per il contenuto di Mac e Windows. Quindi, aggiungi questi attributi al contenuto pertinente nei tuoi argomenti. Al momento della pubblicazione del contenuto, è possibile scegliere se si desidera pubblicare solo il contenuto di Windows o di Mac.
 
-AEM Guides consente di creare e associare facilmente attributi condizionali utilizzando gli attributi DITA pertinenti. Puoi definire gli attributi condizionali a livello globale o a livello di cartella. Le condizioni definite a livello globale sono visibili in tutti i progetti e le condizioni specifiche della cartella sono visibili solo nei progetti creati all’interno della cartella specificata. Gli autori dei contenuti possono utilizzare questi attributi condizionali per condizionare il contenuto nei propri argomenti o mappe DITA che creano o utilizzano. Queste condizioni possono quindi essere utilizzate dall’editore per creare predefiniti condizionali. Utilizzando i predefiniti condizionali, l’editore può decidere quale condizione includere ed escludere dall’output pubblicato.
+Adobe Experience Manager Guides consente di creare e associare facilmente attributi condizionali utilizzando gli attributi DITA pertinenti. Puoi definire gli attributi condizionali a livello globale o a livello di cartella. Le condizioni definite a livello globale sono visibili in tutti i progetti e le condizioni specifiche della cartella sono visibili solo nei progetti creati all’interno della cartella specificata. Gli autori dei contenuti possono utilizzare questi attributi condizionali per condizionare il contenuto nei propri argomenti o mappe DITA che creano o utilizzano. Queste condizioni possono quindi essere utilizzate dall’editore per creare predefiniti condizionali. Utilizzando i predefiniti condizionali, l’editore può decidere quale condizione includere ed escludere dall’output pubblicato.
 
 >[!NOTE]
 >
@@ -23,21 +23,21 @@ AEM Guides consente di creare e associare facilmente attributi condizionali util
 
 Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
-1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
+1. Seleziona il logo Adobe Experience Manager nella parte superiore e scegli **Strumenti**.
 
-1. Selezionare **Guide** dall&#39;elenco degli strumenti.
+1. Nel pannello Strumenti, seleziona **Guide**.
 
-1. Fare clic sul riquadro **Profili cartella** e selezionare un profilo cartella.
+1. Selezionare il riquadro **Profili cartella** e selezionare un profilo cartella.
 
    >[!NOTE]
    >
    > Non è possibile modificare il profilo globale.
 
-1. Fai clic sulla scheda **Attributi condizionali** e fai clic su **Modifica**.
+1. Selezionare la scheda **Attributi condizionali**, quindi selezionare **Modifica**.
 
    Viene visualizzata la tabella Attributi condizionali.
 
-1. Fare clic su **Aggiungi**.
+1. Seleziona **Aggiungi**.
 
 1. Immetti **Nome**, **Valore** e **Etichetta** per l&#39;attributo.
 
@@ -45,16 +45,16 @@ Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
    La schermata seguente mostra la definizione per l&#39;attributo `platform` con valore di `unix` e etichetta di `Red Hat Linux`.
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile-new.png){width="800" align="left"}
 
-1. Se si desidera aggiungere altri valori per lo stesso attributo, fare clic sull&#39;icona **+** e immettere un valore e un&#39;etichetta aggiuntivi.
+1. Se si desidera aggiungere altri valori per lo stesso attributo, selezionare l&#39;icona **+** e immettere un valore e un&#39;etichetta aggiuntivi.
 
-1. Per aggiungere altri attributi, fare clic su **Aggiungi**.
+1. Per aggiungere altri attributi, selezionare **Aggiungi**.
 
-1. Fai clic su **Salva** per salvare le modifiche.
+1. Seleziona **Salva** per salvare le modifiche.
 
 
-L&#39;attributo `platform` è archiviato nel sistema. Ogni volta che un autore decide di utilizzare l&#39;attributo `platform` in un argomento DITA in una cartella, i valori verranno visualizzati nella scheda Proprietà dell&#39;Editor Web.
+L&#39;attributo `platform` è archiviato nel sistema. Ogni volta che un autore decide di utilizzare l&#39;attributo `platform` in un argomento DITA in una cartella, può visualizzare i valori nella scheda Proprietà dell&#39;editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

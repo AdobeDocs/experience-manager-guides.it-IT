@@ -4,16 +4,16 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Gestione di file e cartelle {#id2116G0L08XA}
 
-Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, come copiare, incollare, trascinare e rilasciare ed eliminare i file. Sono possibili i seguenti scenari:
+Questa sezione spiega come Adobe Experience Manager Guides gestisce le operazioni di base sui file, come copiare, incollare, trascinare e rilasciare ed eliminare i file. Sono possibili i seguenti scenari:
 
 ## Copiare e incollare file
 
@@ -61,13 +61,13 @@ Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, c
 
   >[!NOTE]
   >
-  > La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+  > La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, visualizzare la sezione *Crea nuova versione per il file caricato* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
   Se un file è già stato estratto per essere modificato da un altro utente e si tenta di caricare e sovrascrivere il file esistente, il file non riesce e viene visualizzato un errore.
 
   >[!NOTE]
   >
-  >La funzionalità **Sovrascrivi file estratto al caricamento** deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, vedere la sezione *Sovrascrivi file estratto al caricamento* nell&#39;as a Cloud Service Installa e configura Adobe Experience Manager Guides.
+  >La funzionalità **Sovrascrivi file estratto al caricamento** deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, visualizzare la sezione *Sovrascrivi file estratto al caricamento* nell&#39;installazione e configurazione di Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Trascina i file in un percorso diverso*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale al nome del file originale.
@@ -83,7 +83,7 @@ Quando il file viene sovrascritto, il nome o l’UUID del file non vengono modif
 
 Se si seleziona l&#39;opzione **Crea versione per la copia di lavoro esistente**, viene creata una nuova versione della copia di lavoro del documento; il nuovo file viene caricato, viene creata anche una nuova versione del file e viene creata come copia di lavoro del documento.
 
-La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, visualizzare la sezione *Crea nuova versione per il file caricato* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Trascina e rilascia il file in una posizione diversa*: sono disponibili le opzioni **Sovrascrivi file esistenti\(s\)**, **Sposta file\(s\) in una nuova posizione** e un&#39;opzione per creare una versione della copia di lavoro esistente.
@@ -99,11 +99,11 @@ Con la sostituzione o lo spostamento dei file, se si sceglie di creare una versi
 
 ## Spostare i file in blocco {#move-files-bulk}
 
-AEM Guides viene fornito con lo strumento Bulk Move che consente all’amministratore di spostare una cartella con un numero elevato di file da una posizione all’altra. Questo strumento consente di spostare facilmente i file all&#39;interno di una o più cartelle in una cartella diversa nell&#39;archivio AEM. Una delle caratteristiche principali di questo strumento è che non solo sposta un numero elevato di file, ma mantiene anche i riferimenti a e dai file che vengono spostati. È possibile modificare il numero di file che è possibile spostare in batch senza ostacolare le attività di creazione e pubblicazione.
+Experience Manager Guides viene fornito con Bulk Move Tool che consente all’amministratore di spostare una cartella con un numero elevato di file da una posizione all’altra. Questo strumento consente di spostare facilmente i file all&#39;interno di una o più cartelle in una cartella diversa nell&#39;archivio di Adobe Experience Manager. Una delle caratteristiche principali di questo strumento è che non solo sposta un numero elevato di file, ma mantiene anche i riferimenti a e dai file che vengono spostati. È possibile modificare il numero di file che è possibile spostare in batch senza ostacolare le attività di creazione e pubblicazione.
 
 >[!NOTE]
 >
-> Lo strumento Sposta in blocco funziona solo a livello di cartella. Se desideri spostare singoli file argomento o mappa, utilizza lo strumento di spostamento normale dell’interfaccia utente Assets dell’AEM.
+> Lo strumento Sposta in blocco funziona solo a livello di cartella. Se desideri spostare singoli file argomento o mappa, utilizza lo strumento di spostamento normale dall’interfaccia utente Assets di Adobe Experience Manager.
 
 Di seguito sono riportate alcune delle funzioni fornite dallo strumento Spostamento in blocco:
 
@@ -124,14 +124,14 @@ Prima di eseguire il processo batch, è necessario considerare i punti seguenti:
 
 Per spostare i file in blocco, effettuare le seguenti operazioni:
 
-1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
+1. Seleziona il logo Adobe Experience Manager nella parte superiore e scegli **Strumenti**.
 1. Selezionare **Guide** dall&#39;elenco degli strumenti.
-1. Fare clic sul riquadro dello strumento **Spostamento in blocco**.
+1. Selezionare il riquadro dello strumento **Spostamento in blocco**.
 1. La pagina Bulk Move Tool (Strumento Spostamento di massa) viene visualizzata in base alla configurazione. Fornisci i seguenti dettagli nella pagina dello strumento **Sposta in blocco**:
 
    <details>
 
-   <summary> Cloud Service e file system locale basato su UUID </summary>
+   <summary> Cloud Services e file system basato su UUID on-premise </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
         Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+      - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
       - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
      La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
 
-   - Fare clic su **Spostamento in blocco**.
+   - Seleziona **Spostamento in blocco**.
 
      Il sistema inizia lo spostamento dei file dal percorso di origine a quello di destinazione. Al termine del processo, a destra della pagina viene visualizzato un riepilogo del processo di spostamento.
 
@@ -195,22 +195,22 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
         Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+      - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
       - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
         La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
-   - Fare clic su **Spostamento in blocco**.
+   - Seleziona **Spostamento in blocco**.
 
      Il sistema inizia lo spostamento dei file dal percorso di origine a quello di destinazione. Al termine del processo, a destra della pagina viene visualizzato un riepilogo del processo di spostamento.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
 ## Cerca contenuto DITA
 
-Per impostazione predefinita, l&#39;AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. AEM Guides aggiunge un livello sopra l&#39;AEM, che consente all&#39;AEM di comprendere ed elaborare i contenuti DITA. La funzione Ricerca contenuto DITA in AEM Guides consente di cercare contenuto DITA all’interno dell’archivio AEM.
+Per impostazione predefinita, Adobe Experience Manager non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. Experience Manager Guides aggiunge un livello sopra Adobe Experience Manager, che consente a Adobe Experience Manager di comprendere ed elaborare il contenuto DITA. La funzione Cerca contenuto DITA in Experience Manager Guides consente di cercare contenuto DITA all&#39;interno dell&#39;archivio Adobe Experience Manager.
 
 >[!NOTE]
 >
->L&#39;amministratore di sistema può configurare il componente di ricerca **Elemento DITA** e quindi utilizzare la funzionalità dall&#39;interfaccia utente di AEM Assets. Per ulteriori dettagli, vedi la sezione *Aggiungere il componente di ricerca degli elementi DITA nell&#39;interfaccia utente di Assets* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+>L&#39;amministratore di sistema può configurare il componente di ricerca **Elemento DITA** e quindi utilizzare la funzionalità dall&#39;interfaccia utente di Adobe Experience Manager Assets. Per ulteriori dettagli, vedere la sezione *Aggiungere il componente di ricerca degli elementi DITA nell&#39;interfaccia utente di Assets* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 Utilizzando la funzione di ricerca, potete effettuare le seguenti operazioni:
 
@@ -230,7 +230,7 @@ Utilizzando la funzione di ricerca, potete effettuare le seguenti operazioni:
 - Cerca contenuto DITA in base a un valore di attributo, ad esempio `@platform`= windows
 - Utilizzare una combinazione di elemento DITA e valore di attributo, ad esempio `author`= xml `AND` `@platform`= windows
 
-Per cercare contenuto DITA nell&#39;archivio AEM, effettuare le seguenti operazioni:
+Per cercare contenuto DITA nell&#39;archivio Adobe Experience Manager, effettuare le seguenti operazioni:
 
 1. Apri l’interfaccia utente di Assets.
 
@@ -259,13 +259,13 @@ Per cercare contenuto DITA nell&#39;archivio AEM, effettuare le seguenti operazi
 
 **Filtro stato estrazione nella ricerca**
 
-Oltre al filtro Elemento DITA, AEM Guides consente di cercare contenuto in base al relativo stato di estrazione. Questa opzione è utile quando si desidera filtrare rapidamente i file attualmente estratti dall&#39;utente e archiviarli nuovamente.
+Oltre al filtro Elemento DITA, Experience Manager Guides consente di cercare contenuto in base al relativo stato di estrazione. Questa opzione è utile quando si desidera filtrare rapidamente i file attualmente estratti dall&#39;utente e archiviarli nuovamente.
 
 Per cercare i file in base al loro stato di estrazione, effettuare le seguenti operazioni:
 
 1. Apri l’interfaccia utente di Assets.
 
-1. Fai clic su **Filtro** nella barra a sinistra.
+1. Seleziona **Filtro** nella barra a sinistra.
 1. Immetti la parola chiave da cercare nella barra di ricerca.
 1. Applica i filtri richiesti dalla barra a sinistra.
 
@@ -276,7 +276,7 @@ Per cercare i file in base al loro stato di estrazione, effettuare le seguenti o
 
 ## Elimina file
 
-L’eliminazione dei file dal repository dell’AEM è una funzione soggetta a restrizioni, controllata dall’amministratore di sistema. In base alle configurazioni, l’eliminazione dei file potrebbe essere soggetta a restrizioni se:
+L&#39;eliminazione dei file dal repository di Adobe Experience Manager è una funzionalità limitata controllata dall&#39;amministratore di sistema. In base alle configurazioni, l’eliminazione dei file potrebbe essere soggetta a restrizioni se:
 
 - Ritirato
 - Hanno riferimenti in entrata o in uscita
@@ -285,7 +285,7 @@ L’eliminazione dei file dal repository dell’AEM è una funzione soggetta a r
 
 >[!NOTE]
 >
-> Per ulteriori dettagli sulle configurazioni di gestione dei file, vedere *Impedire l&#39;eliminazione dei file estratti* e *Impedire l&#39;eliminazione dei file di riferimento* nelle sezioni Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> Per ulteriori dettagli sulle configurazioni di gestione dei file, visualizzare *Impedisci l&#39;eliminazione dei file estratti* e *Impedisci l&#39;eliminazione dei file di riferimento* nelle sezioni Installa e configura Adobe Experience Manager Guides as a Cloud Service.
 
 Se l&#39;amministratore ha concesso l&#39;autorizzazione di eliminazione file a tutti gli utenti, quando si eliminano file contenenti riferimenti viene visualizzato il seguente messaggio:
 
@@ -307,12 +307,12 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
 
 1. Accedi al file nell&#39;**interfaccia utente di Assets**.
 1. Selezionare il file per il quale si desidera visualizzare la cronologia delle versioni.
-1. Nella barra a sinistra, fai clic su **Cronologia versioni** e seleziona una versione.
-1. Puoi anche vedere le miniature delle diverse versioni in Cronologia versioni.
+1. Nella barra a sinistra, seleziona **Cronologia versioni** e quindi una versione.
+1. In Cronologia versioni è inoltre possibile visualizzare le miniature delle diverse versioni.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e fare clic su **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
+1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e selezionare **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

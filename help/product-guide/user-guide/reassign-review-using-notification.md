@@ -4,9 +4,9 @@ description: Riassegna un’attività di revisione utilizzando le notifiche in A
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Una volta riassegnata l&#39;attività di revisione, nella colonna Assegnatario v
 
 Il revisore assegnato riceve una notifica nella casella in entrata relativa all&#39;attività di revisione riassegnata.
 
-**Argomento padre:**[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

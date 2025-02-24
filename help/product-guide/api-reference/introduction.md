@@ -5,7 +5,7 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Introduzione {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(in seguito denominato *AEM Guides*\) è una soluzione aziendale end-to-end che consente a Adobe Experience Manager \(AEM\) di disporre delle funzionalità della soluzione di gestione dei contenuti dei componenti \(CCMS\) per la creazione e la distribuzione di contenuti basati su DITA. I clienti possono accedere ai flussi di lavoro di AEM Guides a livello di programmazione utilizzando le API di AEM Guides per integrarlo con altre applicazioni aziendali. Queste API possono essere utilizzate anche dai partner Adobe per migliorare la proposta di valore di AEM Guides estendendone le funzionalità o integrandola con altre applicazioni o servizi.
+Adobe Experience Manager Guides \(in seguito denominato *AEM Guides*\) è una soluzione aziendale end-to-end che consente a Adobe Experience Manager \(AEM\) di disporre delle funzionalità della soluzione di gestione dei contenuti dei componenti \(CCMS\) per la creazione e la distribuzione di contenuti basati su DITA. I clienti possono accedere ai flussi di lavoro di AEM Guides a livello di programmazione utilizzando le API di AEM Guides per integrarlo con altre applicazioni aziendali. Queste API possono essere utilizzate anche dai partner Adobe per migliorare la value proposition di AEM Guides estendendone le funzionalità o integrandola con altre applicazioni o servizi.
 
 ## API di AEM Guides
 
@@ -203,7 +203,7 @@ Una volta aggiunto il file JAR dell’API di servizio come dipendenza dal proget
 
 ## Utilizzo di API JAR dall’archivio centrale Maven per AEM Guides as a Cloud Service
 
-Per AEM Guides as a Cloud Service, il file JAR dell’API è stato distribuito a Maven Central. Puoi utilizzare il file JAR dell’API senza alcuna configurazione.
+Per AEM Guides as a Cloud Service il file JAR dell’API è stato distribuito a Maven Central. Puoi utilizzare il file JAR dell’API senza alcuna configurazione.
 
 >[!NOTE]
 >
@@ -214,8 +214,8 @@ Per utilizzare il file JAR API, devi aggiungere la dipendenza al pom.xml del pro
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

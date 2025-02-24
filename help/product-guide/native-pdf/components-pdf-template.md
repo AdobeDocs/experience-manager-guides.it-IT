@@ -1,26 +1,26 @@
 ---
-title: Funzionalità nativa di PDF Publish | Componenti di un modello di PDF
-description: Scopri i vari componenti di un modello di PDF e come personalizzarli e configurarli.
+title: Funzione di pubblicazione nativa di PDF | Componenti di un modello PDF
+description: Scopri i vari componenti di un modello PDF e come personalizzarli e configurarli.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
 workflow-type: tm+mt
-source-wordcount: '4975'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
 
-# Componenti di un modello di PDF {#components-pdf-template}
+# Componenti di un modello PDF {#components-pdf-template}
 
-Un modello di PDF include quattro componenti: Layout di pagina, Fogli di stile, Risorse e Impostazioni. Potete creare un modello personalizzando questi singoli componenti e associando il modello a un predefinito di output durante la generazione di un output PDF. Le sezioni seguenti descrivono in dettaglio questi componenti e il loro processo di personalizzazione.
+Un modello PDF include quattro componenti: Layout di pagina, Fogli di stile, Risorse e Impostazioni. Puoi creare un modello personalizzando questi singoli componenti e associando il modello a un predefinito di output durante la generazione di un output di PDF. Le sezioni seguenti descrivono in dettaglio questi componenti e il loro processo di personalizzazione.
 
 
 ## Creare e personalizzare layout di pagina {#create-customize-page-layout}
 
-Le impostazioni del componente Layout di pagina consentono di progettare la struttura di una pagina definendo l’intestazione, il piè di pagina e l’area del contenuto di una pagina. Utilizzando l&#39;editor di layout di pagina WYSIWYG, è possibile creare un layout di pagina per diverse sezioni di un PDF, ad esempio frontespizio e retro, capitolo, tabella
-Sommario (sommario), indice, pagina vuota, pagine di primo piano, pagine di secondo piano, elenco di figure (LOF), elenco di tabelle (LOT), glossario o creazione di un layout per una pagina personalizzata. In Impostazioni modello PDF, puoi assegnare un layout di pagina con diverse sezioni all’interno di un PDF, che vengono quindi utilizzate per generare l’output del PDF.
+Le impostazioni del componente Layout di pagina consentono di progettare la struttura di una pagina definendo l’intestazione, il piè di pagina e l’area del contenuto di una pagina. Utilizzando l’editor di layout di pagina di WYSIWYG, puoi creare un layout di pagina per diverse sezioni in un PDF, come le pagine di copertina anteriori e posteriori, il capitolo, l’indice
+Sommario (sommario), indice, pagina vuota, pagine di primo piano, pagine di secondo piano, elenco di figure (LOF), elenco di tabelle (LOT), glossario o creazione di un layout per una pagina personalizzata. In Impostazioni modello PDF, puoi assegnare un layout di pagina con diverse sezioni all’interno di un PDF, che vengono quindi utilizzate per generare l’output di PDF.
 
 ### Crea un nuovo layout di pagina {#create-page-layout}
 
@@ -87,14 +87,13 @@ Una copia del layout di pagina selezionato viene creata e aggiunta in Layout di 
 
 ## Utilizzare i fogli di stile per personalizzare PDF {#stylesheet-customization}
 
-Le impostazioni nel componente Stylesheets consentono di applicare uno stile ai componenti di layout di pagina e al contenuto DITA utilizzando l’editor WYSIWYG o di lavorare direttamente con il file CSS. È possibile creare stili personalizzati o personalizzare le proprietà di stile predefinite. L&#39;editor WYSIWYG consente di accedere alla maggior parte delle proprietà necessarie per applicare lo stile al layout di pagina o al contenuto DITA. Per le personalizzazioni avanzate, puoi lavorare direttamente nella vista Source.
+Le impostazioni nel componente Fogli di stile consentono di applicare uno stile ai componenti di layout di pagina e al contenuto DITA utilizzando l’editor di WYSIWYG o di lavorare direttamente con il file CSS. È possibile creare stili personalizzati o personalizzare le proprietà di stile predefinite. L’editor di WYSIWYG consente di accedere alla maggior parte delle proprietà necessarie per applicare lo stile al layout di pagina o al contenuto DITA. Per le personalizzazioni avanzate, puoi lavorare direttamente nella vista Source.
 
 ### Crea un nuovo foglio di stile {#create-stylesheet}
 
 Anche se i file CSS sono forniti per contenuto e layout, è possibile creare un nuovo foglio di stile per applicare più personalizzazioni a un tipo di stile specifico che possono quindi essere applicate a un componente di destinazione. Per impostazione predefinita, i file CSS di esempio sono raggruppati all’interno del prodotto. Questi file CSS hanno lo scopo di aiutare a organizzare le informazioni sullo stile tra il contenuto e i layout. Puoi scegliere di unire questi stili in un singolo file CSS o in più file.
 
 Per impostazione predefinita, ogni volta che si crea un nuovo layout di pagina, il file `layout.css` viene incluso nel nuovo layout di pagina. Se desideri che il layout di pagina contenga stili di un file CSS diverso, puoi semplicemente trascinare il file CSS desiderato nell’area di modifica del contenuto del nuovo layout di pagina. Per verificare se il file CSS è stato incorporato nel layout di pagina, passare alla visualizzazione Source e si troverà un collegamento al file CSS nell&#39;elemento `<head>`.
-
 
 Per creare un foglio di stile, effettuare le seguenti operazioni:
 1. Nel pannello **Modelli** eseguire una delle operazioni seguenti:
@@ -194,10 +193,14 @@ Per aggiungere un file di risorse alla cartella Risorse, effettua le seguenti op
 1. Fai clic su **Carica**.
 Il file selezionato viene importato ed elencato nella cartella Risorse.
 
-## Impostazioni avanzate di PDF {#advanced-pdf-settings}
+## Impostazioni PDF avanzate {#advanced-pdf-settings}
 
-Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina del PDF, avviando PDF da una pagina pari o dispari, i formati per i riferimenti incrociati e abilitando gli indicatori di stampa nel PDF finale generato
+Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina di PDF, avviando PDF da una pagina pari o dispari, i formati per i riferimenti incrociati e abilitando i segni di stampa nel PDF finale generato
 utilizzando il modello.
+
+>
+>
+> A partire dalla versione 5.0/2025.02.0 di Experience Manager Guides, la sezione **Stampa** nelle impostazioni PDF avanzate è stata spostata nel pannello **Predefiniti di output**. Per configurare le impostazioni di stampa, visualizzare [Output di pubblicazione PDF](../web-editor/native-pdf-web-editor.md#print).
 
 Per configurare, fai clic su **Impostazioni** nel pannello **Modelli** per visualizzare le seguenti opzioni:
 
@@ -211,7 +214,7 @@ Impostate le impostazioni di configurazione di base per l&#39;avvio di un capito
 
 * **Struttura sommario**: consente di personalizzare la gerarchia del sommario. Vengono utilizzate le seguenti impostazioni aggiuntive:
 
-   * **Utilizza intestazioni fino al livello**: ti consente di regolare il numero di livelli di intestazione da visualizzare nella struttura sommario del PDF.
+   * **Utilizza titoli fino al livello**: ti consente di regolare il numero di livelli di intestazione da visualizzare nella struttura del sommario del PDF.
    * **Non mostrare il numero di pagina per il primo livello nel sommario**: selezionare questa opzione per nascondere i numeri di pagina corrispondenti per tutti i capitoli che contengono argomenti nidificati o secondari. Considera l’esempio seguente in cui viene creato un output senza selezionare questa opzione.
 
   <img src="assets/page-number-in-toc.png" alt="Caricare le risorse" width="250">
@@ -224,7 +227,7 @@ Impostate le impostazioni di configurazione di base per l&#39;avvio di un capito
 
   In questa sezione è possibile notare che al primo capitolo Impostazioni avanzate di PDF non viene assegnato alcun numero di pagina, in quanto contiene argomenti nidificati o secondari. mentre un numero di pagina viene assegnato ad Appendice e Legale perché si tratta di argomenti autonomi senza argomenti secondari.
 
-* **Non mostrare il numero del capitolo nel sommario**: selezionare questa opzione per visualizzare i nomi dei capitoli senza i numeri dei capitoli nel sommario.   Per impostazione predefinita, i numeri dei capitoli vengono visualizzati nel sommario dell’output PDF.
+* **Non mostrare il numero del capitolo nel sommario**: selezionare questa opzione per visualizzare i nomi dei capitoli senza i numeri dei capitoli nel sommario.   Per impostazione predefinita, i numeri dei capitoli vengono visualizzati nel sommario dell’output di PDF.
 * **Formato linea guida**: utilizzare il menu a discesa per selezionare linee guida con punti, solide o spaziate per collegare i livelli di intestazione ai numeri di pagina corrispondenti.
 Per applicare la struttura del sommario e i livelli di intestazione degli stili, vedere [Aggiungere un sommario capitolo](design-page-layout.md#add-chapter-toc).
 
@@ -244,7 +247,7 @@ Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad ese
    * Abilitare **Glossario** nella scheda **Ordine di layout pagina** per una mappa DITA.
    * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
 
-  Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output PDF.
+  Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output di PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layout di pagina {#page-layouts}
@@ -258,7 +261,7 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 <img src="assets/template-page-layout.png" alt="Layout di pagina" width="550">
 
 
-**Layout di pagina predefinito**: seleziona un layout di pagina che funga da layout predefinito per tutte le pagine del tuo PDF. Questo è il layout di pagina di base applicato alle sezioni o agli argomenti in cui non è stato creato un layout di pagina dedicato.
+**Layout di pagina predefinito**: seleziona un layout di pagina che funga da layout predefinito per tutte le pagine del PDF. Questo è il layout di pagina di base applicato alle sezioni o agli argomenti in cui non è stato creato un layout di pagina dedicato.
 
 **Layout di pagina per diverse sezioni**: è possibile mappare un layout di pagina con le seguenti sezioni dell&#39;output di PDF. Se è stato progettato un layout di pagina per la sezione correlata, selezionarlo dall&#39;elenco a discesa. Se non è stato creato alcun layout di pagina per una sezione specifica, viene applicato il layout di pagina predefinito.
 
@@ -272,9 +275,9 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
 * **Glossario**: se si dispone di un layout di pagina Glossario, mapparlo all&#39;opzione Glossario.
 
-  I termini nel glossario dell’output di PDF sono sempre ordinati in ordine alfabetico.
+  I termini nel glossario dell’output di PDF vengono sempre ordinati in ordine alfabetico.
 
-  È inoltre possibile aggiungere il tag `sort-as` per definire una chiave di ordinamento per i termini del glossario. Experience Manager Guides utilizza quindi il tasto di ordinamento per ordinare i termini del glossario al posto dei termini del glossario. Se la chiave di ordinamento non è stata definita, verranno utilizzati i termini del glossario per l&#39;ordinamento. Ad esempio, è possibile aggiungere il tag `sort-as` a `glossterm` e impostarne il valore su `A` per il termine &quot;USB&quot; (ad esempio, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Analogamente, è possibile aggiungere il tag `sort-as` e impostarne il valore su `B` per il termine &quot;Pen Drive&quot;. Quando si ordinano questi termini del glossario, la chiave di ordinamento `A` per il termine del glossario &quot;USB&quot; viene visualizzata prima della chiave di ordinamento `B` per il termine del glossario &quot;Pen Drive&quot;. Quindi, nell&#39;output PDF, &quot;USB&quot; viene prima di &quot;Pen Drive&quot; nella pagina del glossario.
+  È inoltre possibile aggiungere il tag `sort-as` per definire una chiave di ordinamento per i termini del glossario. Experience Manager Guides utilizza quindi il tasto di ordinamento per ordinare i termini del glossario al posto dei termini del glossario. Se la chiave di ordinamento non è stata definita, verranno utilizzati i termini del glossario per l&#39;ordinamento. Ad esempio, è possibile aggiungere il tag `sort-as` a `glossterm` e impostarne il valore su `A` per il termine &quot;USB&quot; (ad esempio, `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Analogamente, è possibile aggiungere il tag `sort-as` e impostarne il valore su `B` per il termine &quot;Pen Drive&quot;. Quando si ordinano questi termini del glossario, la chiave di ordinamento `A` per il termine del glossario &quot;USB&quot; viene visualizzata prima della chiave di ordinamento `B` per il termine del glossario &quot;Pen Drive&quot;. Quindi, nell&#39;output del PDF, &quot;USB&quot; viene prima di &quot;Pen Drive&quot; nella pagina del glossario.
 
   Utilizzando i fogli di stile, è possibile applicare uno stile a diversi elementi del glossario nell&#39;output di PDF. Utilizzare gli stili del glossario `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` e `.glo-term` per personalizzare gli stili degli elementi del glossario.
 
@@ -296,7 +299,7 @@ Per ulteriori informazioni sui layout di pagina, vedere [Progettare un layout di
 
 ### Ordine di layout pagina {#page-order}
 
-Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
+Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche organizzare l’ordine in cui devono essere visualizzate nell’output finale di PDF:
 
 
 
@@ -310,7 +313,7 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordi
 
   <img src="assets/page-order-advance-settings.png" alt="Ordine di layout pagina" width="550">
 
-  Se non desideri visualizzare una particolare sezione nell’output PDF, puoi nasconderla disattivando l’interruttore.
+  Se non si desidera visualizzare una sezione specifica nell&#39;output di PDF, è possibile nasconderla disattivando l&#39;interruttore di attivazione.
 
   Puoi anche definire l’ordine in cui queste diverse sezioni vengono generate nel PDF. Per modificare l&#39;ordine predefinito di queste sezioni, selezionare le barre punteggiate per trascinare le sezioni nella posizione desiderata.
 
@@ -324,7 +327,7 @@ Il layout **Capitolo e argomenti** è sempre abilitato per impostazione predefin
 
 **Unisci pagine**
 
-Per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. Seleziona l&#39;opzione **Pagina precedente** o **Pagina successiva** dal menu a discesa **Unisci con** per unire una sezione a una pagina precedente o successiva. La sezione viene pubblicata con la pagina selezionata nell’output di PDF. In questo modo, non ci sarà alcuna interruzione di pagina tra le due.
+Per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. Seleziona l&#39;opzione **Pagina precedente** o **Pagina successiva** dal menu a discesa **Unisci con** per unire una sezione a una pagina precedente o successiva. La sezione viene pubblicata insieme alla pagina selezionata nell’output di PDF. In questo modo, non ci sarà alcuna interruzione di pagina tra le due.
 
 >[!NOTE]
 >
@@ -358,7 +361,7 @@ Per aggiungere un layout di pagina personalizzato, effettua le seguenti operazio
 
 * Puoi anche aggiungere più volte un layout personalizzato e ordinarlo. Questo consente di pubblicare il contenuto statico di conseguenza.
 
-  È ad esempio possibile utilizzare un layout personalizzato per pubblicare più volte un avviso statico all&#39;interno dell&#39;output di PDF.
+  Ad esempio, puoi utilizzare un layout personalizzato per pubblicare più volte un avviso statico all’interno dell’output di PDF.
 
 
 
@@ -389,7 +392,7 @@ Selezionare un ordine di pagina che determini la sequenza delle pagine nel docum
    * &quot;X&quot; — Tutte le pagine del documento. Come &quot;1..-1&quot;.
 
 Ad esempio, puoi assegnare un ordine personalizzato come &quot;2,3,5*2,7..10,-1,-2.
-L&#39;ordine di pagina specificato determina un PDF con i seguenti numeri di pagina del documento originale, supponendo che contenga un totale di 25 pagine: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
+L&#39;ordine di pagina specificato determina un PDF con i seguenti numeri di pagina dal documento originale, supponendo che contenga 25 pagine in totale: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
 
 #### Configura più di una pagina per foglio
 
@@ -397,37 +400,13 @@ Scegliere questa opzione per pubblicare più pagine su un singolo foglio.  Quind
 
 Definite le dimensioni del foglio di destinazione e l&#39;orientamento con cui desiderate pubblicare il foglio. È inoltre possibile specificare le proprietà del margine e della spaziatura interna del foglio.
 
-
-
-
-### Stampa
-
-Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, selezionare i modelli di colore e specificare le proprietà relative alla stampa dell&#39;output PDF.
-
-* **Indicatori di stampa**: quando si prepara un documento per la produzione di stampa, gli indicatori di stampa vengono aggiunti ai bordi della pagina per facilitare l&#39;allineamento, il ritaglio e la selezione dei colori durante la stampa. Selezionando un contrassegno della stampante, il limite della pagina viene esteso per contenere il contrassegno, che viene tagliato durante la stampa. È possibile scegliere di visualizzare i seguenti indicatori di stampa nell&#39;output di PDF:
-   * **Indicatori di ritaglio**: selezionare l&#39;opzione per inserire un segno in ogni angolo dell&#39;area di ritaglio per indicare dove è necessario ritagliare la carta dopo la stampa.
-   * **Indicatori di pagina al vivo**: selezionare questa opzione per inserire un segno in ogni angolo del riquadro di pagina al vivo per indicare l&#39;area di ritaglio per l&#39;immagine estesa.
-   * **Indicatori di registrazione**: selezionare questa opzione per posizionare un segno all&#39;esterno dell&#39;area di ritaglio per allineare le diverse selezioni in un documento a colori.
-   * **Barre colore**: selezionare questa opzione per aggiungere una striscia di colori al di fuori dell&#39;area di ritaglio per mantenere la coerenza dei colori e regolare la densità dell&#39;inchiostro durante la stampa.
-
-  Impostare le dimensioni per gli indicatori di stampa selezionati utilizzando le opzioni **Larghezza linea**, **Colore linea** e **Larghezza scatola al vivo**.
-
-* **Dimensioni Media Box**: dimensioni di pagina complessive, inclusa l&#39;area estesa occupata dagli indicatori di stampa. Utilizza l’opzione a discesa per selezionare le dimensioni della pagina per l’output PDF o per creare dimensioni personalizzate.
-
-* **Spazio colore**: è possibile scegliere uno spazio colore RGB o CMYK per stampare il documento PDF. Scegliete RGB per visualizzare le PDF generate in digitale e CMYK per la stampa fisica. I colori definiti nel documento vengono convertiti nello spazio colore scelto.
-  >[!NOTE]
-  >
-  >Se si utilizza lo spazio colore CMYK, è necessario un profilo colore ICC per la creazione di PDF/A.
-
-  <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Rimandi {#cross-references}
 
-Utilizza la scheda **Riferimenti incrociati** per definire la modalità di pubblicazione dei riferimenti incrociati nel PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
+Utilizza la scheda **Riferimento incrociato** per definire la modalità di pubblicazione dei riferimenti incrociati in PDF. È possibile formattare i riferimenti incrociati per il titolo dell&#39;argomento, tabelle, figure e altro ancora.
 
 >[!NOTE]
 >
-> Se avete definito il testo di collegamento durante l&#39;inserimento del riferimento incrociato, questo avrà la precedenza sul formato del riferimento incrociato definito nel modello di PDF nativo.
+> Se avete definito il testo di collegamento durante l&#39;inserimento del riferimento incrociato, questo avrà la precedenza sul formato del riferimento incrociato definito nel modello PDF nativo.
 
 È inoltre possibile utilizzare le variabili per definire un riferimento incrociato.  Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà. È possibile utilizzare una singola variabile o una combinazione di variabili per definire un riferimento incrociato. Puoi anche utilizzare una combinazione di una stringa e una variabile.
 
@@ -463,7 +442,7 @@ Se si lascia vuoto il campo di testo e non è stato definito il testo di collega
 
 L&#39;ordine di precedenza per i riferimenti incrociati è il seguente:
 * Testo di collegamento aggiunto nei rimandi
-* Formato del riferimento incrociato definito nel modello di PDF nativo
+* Formato riferimento incrociato definito nel modello PDF nativo
 * Formato riferimento incrociato predefinito
 
 

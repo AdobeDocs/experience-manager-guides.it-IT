@@ -4,9 +4,9 @@ description: Scopri come visualizzare un’attività di revisione completata com
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,19 @@ In qualità di revisore, puoi visualizzare un indicatore nel pannello commenti p
 
 Tuttavia, puoi cercare o filtrare qualsiasi commento. Puoi anche scegliere di mostrare o nascondere le condizioni e visualizzare di conseguenza il contenuto condizionale. È possibile scaricare qualsiasi allegato, ma non caricare o eliminare allegati per i commenti.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer-new.png){width="800" align="left"}
 
 
 ## Come autore
 
-In qualità di autore, nel pannello Revisione potete vedere lo stato chiuso. È possibile leggere un commento ma non accettarlo o rifiutarlo. Non è possibile modificare o eliminare commenti. Non è inoltre possibile aggiungere la risposta al commento. L&#39;icona Commenti obsoleti e l&#39;icona Importa commenti nella vista Autore non vengono visualizzate in un&#39;attività di revisione completata.
+Puoi visualizzare le attività di revisione completate nel pannello **Revisione** a livello di progetto dalla sezione **Attività chiuse** come mostrato nella schermata. È possibile cercare o filtrare le attività di revisione in base ai progetti. Ad esempio, puoi selezionare progetti specifici nella finestra di dialogo **Filtro** e visualizzarli nel pannello Revisione attiva. Puoi filtrare ulteriormente i risultati utilizzando le opzioni **Attività avviate da me** e **Mostra solo attività attive**.
 
-Tuttavia, puoi cercare o filtrare qualsiasi commento. È possibile scaricare qualsiasi allegato, ma non caricare o eliminare allegati per i commenti.
+![](images/review-filters-new.png){width="800" align="left"}
 
-![](images/completed-task-author.png){width="800" align="left"}
+Per le attività di revisione chiuse, è possibile leggere un commento ma non accettarlo o rifiutarlo. Non è possibile modificare o eliminare commenti. Non è inoltre possibile aggiungere alcuna risposta per il commento. Le icone Commenti obsoleti e Importa commenti nella vista Autore non vengono visualizzate per un&#39;attività di revisione completata. L’icona Ripristina argomento e l’icona di importazione vengono disattivate al termine dell’attività di revisione, come illustrato nella schermata.
+
+Potete anche cercare o filtrare i commenti presenti nel pannello Revisione. È possibile scaricare qualsiasi allegato, ma non caricare o eliminare allegati per i commenti.
+
+![](images/completed-task-author-new.png){width="800" align="left"}
 
 Pertanto, sia come revisore che come autore, è possibile visualizzare il contenuto rivisto insieme ai commenti, ma non è possibile apportare modifiche in un&#39;attività di revisione completata.

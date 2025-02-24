@@ -4,10 +4,10 @@ description: Utilizza la dashboard di pubblicazione in blocco in AEM Guides. Sco
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 1%
 
 È possibile modificare una raccolta di mappe di attivazione in blocco aggiungendo o rimuovendo file di mappa o predefiniti da una raccolta. Per modificare una raccolta di mappe di attivazione in blocco, effettuare le seguenti operazioni:
 
-1. Selezionare **Guide** dall&#39;elenco degli strumenti.
+1. Seleziona il logo Adobe Experience Manager nella parte superiore e scegli **Strumenti**.
 
-1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
+1. Nel pannello **Strumenti**, seleziona **Guide**.
 
-1. Fai clic sul riquadro **Bulk Publish Dashboard**.
+1. Seleziona il riquadro **Dashboard di pubblicazione in blocco**.
 
-   Viene visualizzato un elenco delle raccolte di mappe di attivazione in blocco.
+   Viene visualizzato il dashboard Pubblicazione in blocco con un elenco di raccolte di mappe di attivazione in blocco. Puoi accedere a questa dashboard anche dal pannello a sinistra della [home page di Adobe Experience Manager Guides](intro-home-page.md).
 
-1. Selezionare la raccolta da modificare e fare clic su **Apri**.
+1. Selezionare la raccolta da modificare e selezionare **Apri**.
 
-1. Fai clic su **Modifica**.
+1. Seleziona **Modifica**.
 
    Viene visualizzata la pagina di raccolta delle mappe di attivazione in blocco, in cui vengono mostrate le mappe insieme ai relativi predefiniti preconfigurati per ogni lingua disponibile.
 Puoi visualizzare i vari tipi di predefiniti di output insieme alle relative icone, ad esempio Sito AEM, PDF, PDF nativo, HTML5, Personalizzato e Output JSON
@@ -40,13 +40,13 @@ Puoi visualizzare i vari tipi di predefiniti di output insieme alle relative ico
 
 1. Se si desidera rimuovere una mappa dalla raccolta, espanderla e scegliere l&#39;opzione **Seleziona per rimozione**.
 
-1. Fai clic su **Elimina**.
+1. Seleziona **Elimina**.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    La mappa selezionata viene rimossa dalla raccolta mappe di attivazione in blocco.
 
-1. Fai clic su **Fine**.
+1. Seleziona **Fine**.
 
 
 **Argomento padre:**[ Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

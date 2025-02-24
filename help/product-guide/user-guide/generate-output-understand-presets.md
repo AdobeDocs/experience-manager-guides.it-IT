@@ -4,27 +4,29 @@ description: Comprendere i predefiniti di output in AEM Guides. Crea predefiniti
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Informazioni sui predefiniti di output {#understanding_output_settings}
 
-AEM Guides supporta la creazione di output nei formati più diffusi, ad esempio AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. Un predefinito di output rappresenta un formato di output personalizzato in cui si desidera pubblicare il contenuto.
+Experience Manager Guides supporta la creazione di output nei formati più popolari come AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. In questo caso, un predefinito di output rappresenta un formato di output personalizzato in cui desideri pubblicare il contenuto.
 
-Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
+Potete creare e gestire i predefiniti di output in due modi:
 
-Potete creare i predefiniti in due modi:
+- **Dalla console Mappa**: puoi creare i predefiniti di output AEM Sites, PDF, Knowledge Base, HTML5, Custom e JSON e generare i rispettivi output.
+- **Dal dashboard Mappa**: puoi creare AEM Sites, PDF, HTML5, EPUB e un predefinito di output personalizzato e generare i rispettivi output.
 
-- **Dall&#39;editor Web**: è possibile creare il predefinito di output Sito AEM, PDF, Knowledge Base, HTML5, Personalizzato e JSON e generare i rispettivi output.
-- **Dal dashboard delle mappe**: è possibile creare un predefinito di output personalizzato per sito AEM, PDF, HTML5, EPUB e e generare i rispettivi output.
+Per ulteriori dettagli, visualizzare [creare, modificare, duplicare o rimuovere un predefinito di output](./generate-output-create-edit-preset.md).
 
-Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
+## Tipi di predefiniti di output supportati in Experience Manager Guides
 
-- **[Sito AEM](generate-output-aem-site.md)**
+Per i formati di output supportati sono disponibili le seguenti opzioni predefinite.
+
+- **[AEM Sites](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 

@@ -4,9 +4,9 @@ description: Attiva l'output delle mappe DITA in AEM Guides. Scopri come attivar
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 Dopo aver creato una raccolta di mappe per l’attivazione in blocco, il passaggio successivo consiste nell’attivare il contenuto nell’istanza di pubblicazione. Per attivare il contenuto, effettua le seguenti operazioni:
 
-1. Selezionare **Guide** dall&#39;elenco degli strumenti.
+1. Seleziona il logo Adobe Experience Manager nella parte superiore e scegli **Strumenti**.
 
-1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
+1. Nel pannello **Strumenti**, seleziona **Guide**.
 
-1. Fai clic sul riquadro **Bulk Publish Dashboard**.
+1. Seleziona il riquadro **Dashboard di pubblicazione in blocco**.
 
-   Viene visualizzato un elenco delle raccolte di mappe di attivazione in blocco.
+   Viene visualizzato il dashboard Pubblicazione in blocco con un elenco di raccolte di mappe di attivazione in blocco. Puoi accedere a questa dashboard anche dal pannello a sinistra della [home page di Adobe Experience Manager Guides](intro-home-page.md).
 
-1. Selezionare la raccolta da pubblicare e fare clic su **Apri**.
+1. Selezionare la raccolta che si desidera pubblicare e selezionare **Apri**.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
@@ -41,19 +41,19 @@ Visualizza i diversi modi per attivare la raccolta in base alla configurazione.
 
 ![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-È possibile attivare l&#39;output nelle istanze **Anteprima** o **Publish**.
+Puoi attivare l&#39;output nelle istanze **Anteprima** o **Pubblica**.
 
 **Anteprima**
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish in** > **Anteprima**.
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla colonna **Mappa**, quindi selezionare **Publish a** > **Publish**.
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblica in** > **Anteprima**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla colonna **Mappa**, quindi selezionare **Pubblica in** > **Pubblica**.
 
 
-**Publish**
+**Pubblica**
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish in** > **Publish**.
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblica in** > **Pubblica**.
 
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Publish to** > **Publish**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblica su** > **Pubblica**.
 
 
 >[!NOTE]
@@ -70,10 +70,10 @@ Una volta attivato l’output per i file di mappa selezionati, viene aggiornata 
 <summary>  Software on-premise </summary>
 
 
-Effettua una delle operazioni seguenti:
+Effettua una delle seguenti operazioni:
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish rapido**.
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Publish rapido.**
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblicazione rapida**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblicazione rapida.**
   ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

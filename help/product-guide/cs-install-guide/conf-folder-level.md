@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,8 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 - **Configurazioni editor XML**: utilizzare questa scheda per personalizzare l&#39;aspetto e le varie caratteristiche dell&#39;editor Web. Per l&#39;editor Web sono disponibili le seguenti impostazioni configurabili:
 
    - Configurazione interfaccia utente editor XML
+   - Layout pagina editor XML
+   - Configurazione editor XML
    - Layout modello CSS
    - Snippet editor XML
    - Etichette di versione del contenuto XML
@@ -106,7 +108,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
 1. Per configurare **Predefiniti di output**, vedere [Configurare i predefiniti di output](#id18AGD0IH0Y4).
 
-1. Per configurare la configurazione dell&#39;editor XML, vedere [Configurare e personalizzare l&#39;editor Web XML](#id2065G300O5Z).
+1. Per configurare la configurazione dell&#39;editor XML, vedere [Configurare e personalizzare l&#39;editor XML](#id2065G300O5Z).
 
 1. Dopo aver apportato tutti gli aggiornamenti necessari, salva e chiudi il **profilo globale**.
 
@@ -230,9 +232,9 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 
 ## Configurare i modelli {#id1889D0IL0Y4}
 
-AEM Guides viene fornito con 7 modelli di argomenti predefiniti, 2 modelli di mappe DITA e 3 modelli PDF. Puoi scegliere di avere solo pochi modelli disponibili per gli autori e gli editori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring e la pubblicazione. Utilizzare la scheda **Modelli** nella configurazione di Profili cartella per aggiungere o rimuovere modelli di argomento, mappa o PDF da profili globali o a livello di cartella.
+AEM Guides viene fornito con 7 modelli di argomenti predefiniti, 2 modelli di mappe DITA e 3 modelli PDF. Puoi scegliere di avere solo pochi modelli disponibili per gli autori e gli editori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring e la pubblicazione. La scheda **Modelli** della configurazione Profili cartelle consente di aggiungere o rimuovere modelli di argomento, mappa o PDF da profili globali o a livello di cartella.
 
-Anche prima di configurare i modelli di argomento, mappa o PDF a livello globale o di cartella, puoi definire un percorso in cui memorizzare i modelli personalizzati. Per configurare un percorso personalizzato per l&#39;archiviazione dei modelli, vedere [Configurare il percorso della cartella dei modelli DITA personalizzati](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Anche prima di configurare l’argomento, la mappa o i modelli PDF a livello globale o di cartella, puoi definire una posizione in cui memorizzare i modelli personalizzati. Per configurare un percorso personalizzato per l&#39;archiviazione dei modelli, vedere [Configurare il percorso della cartella dei modelli DITA personalizzati](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, effettua le seguenti operazioni:
 
@@ -251,15 +253,15 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
 1. Nella pagina del profilo, fare clic sulla scheda **Modelli**.
 1. Fai clic su **Modifica**.
 
-   Per aggiungere modelli di Argomento, Mappa e PDF, puoi effettuare una ricerca dalla posizione predefinita o cercarla.
+   Per aggiungere modelli di Argomento, Mappa e PDF, è possibile effettuare una ricerca dalla posizione predefinita o cercarla.
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics`, `maps` e `PDF` sottocartelle per memorizzare i modelli di argomento, mappa e PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
+   > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics`, `maps` e `PDF` sottocartelle per memorizzare l&#39;argomento, la mappa e i modelli di PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Aggiungi al tuo profilo i modelli di argomento, mappa e PDF richiesti.
+1. Aggiungi al tuo profilo i modelli richiesti per argomento, mappa e PDF.
 
    Per aggiungere un modello, effettuare una delle seguenti operazioni:
 
@@ -407,9 +409,15 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 
 
-## Configurare suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web {#conf-ai-smart-suggestions}
+## Configurare l’Assistente AI per la guida e l’authoring avanzati
 
-Per il ![cloud AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Per ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+
+L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
+
+Per informazioni dettagliate sulla configurazione, visualizzare [Configurazione Assistente IA](./conf-smart-suggestions.md).
+
+**Configurare suggerimenti avanzati basati sull&#39;intelligenza artificiale**
 
 Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. La scheda **Configurazione IA** consente di controllare le impostazioni di **Suggerisci contenuto riutilizzabile** dal pannello Assistente IA nell&#39;editor Web.
 
@@ -424,9 +432,10 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
    >Puoi configurare suggerimenti avanzati basati sull’intelligenza artificiale per il profilo globale o a livello di cartella.
 
 1. Nella pagina del profilo, seleziona la scheda **Configurazione IA**.
+
    ![Scheda di configurazione IA nel profilo globale](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Fai clic su **Modifica**.
+1. Seleziona **Modifica**.
 1. In qualità di amministratore, puoi configurare le seguenti impostazioni:
 
    **Caratteri minimi**: immettere il numero minimo di caratteri che gli autori devono digitare per ottenere i suggerimenti. Ad esempio, se questo numero è 7, l’autore deve aggiungere almeno 7 caratteri per visualizzare un suggerimento avanzato.
@@ -443,16 +452,13 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
 
 Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati basati sull&#39;intelligenza artificiale](../user-guide/authoring-ai-based-smart-suggestions.md) per aggiungere riferimenti ai contenuti durante l&#39;authoring nell&#39;editor Web.
 
+**Personalizzare le domande predefinite per la Guida rapida**
 
+Per ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-## Configurare la Guida avanzata basata sull’intelligenza artificiale nell’editor web {#conf-ai-guides-assistant}
-
-Per il cloud ![AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
-
-Puoi configurare la **Guida avanzata** basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-
-La scheda **Configurazione editor XML** consente di configurare le domande predefinite del **pannello Guida avanzata** nell&#39;editor Web.
+La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Per configurare le domande predefinite, effettua le seguenti operazioni:
 Ulteriori informazioni sull&#39;utilizzo della [Guida avanzata basata sull&#39;intelligenza artificiale](../user-guide/ai-based-smart-help.md) per trovare il contenuto richiesto nella documentazione di Experience Manager Guides.
 
 
-## Configurazione e personalizzazione dell&#39;editor Web XML {#id2065G300O5Z}
+## Configurare e personalizzare l&#39;editor XML {#id2065G300O5Z}
 
-Per impostazione predefinita, l&#39;editor Web XML è dotato di numerose funzioni che consentono agli autori di creare documenti DITA. Se lavorate in un ambiente restrittivo, potete scegliere quali funzioni sono esposte agli autori. La scheda Configurazione dell&#39;editor XML consente di controllare facilmente le funzioni e di modificare l&#39;aspetto dell&#39;editor Web. In qualità di amministratore, puoi personalizzare i seguenti componenti dell’editor web:
+Per impostazione predefinita, l&#39;editor XML è dotato di numerose funzioni che consentono agli autori di creare documenti DITA. Se lavorate in un ambiente restrittivo, potete scegliere quali funzioni sono esposte agli autori. La scheda Configurazione dell&#39;editor XML consente di controllare facilmente le funzioni e di modificare l&#39;aspetto dell&#39;editor. In qualità di amministratore, puoi personalizzare i seguenti componenti dell’Editor:
 
 **Configurazione interfaccia utente editor XML**
 
-Questa impostazione consente di controllare la barra degli strumenti e gli altri elementi dell&#39;interfaccia utente dell&#39;editor Web. Fai clic sull&#39;icona Scarica per scaricare il file ui\_config.json sul sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. A seconda della posizione in cui stai caricando il file, a livello globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando il file ui\_config.json, vedere [Personalizzare la barra degli strumenti](conf-web-editor-customize-toolbar.md#).
+Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
+
+Ulteriori informazioni su **personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor**.
+
+**Layout pagina editor XML**
+
+Questa funzione ti consente di caricare file CSS con lo stile delle nuove estensioni caricate nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML**. Il CSS caricato viene applicato in modo coerente in tutte le applicazioni rilevanti, garantendo un aspetto unificato e curato per le personalizzazioni dell’interfaccia utente.
+
+**Configurazione editor XML**
+
+Questa impostazione controlla la barra degli strumenti e gli altri elementi dell’interfaccia utente dell’editor. Seleziona l&#39;icona **Scarica** per scaricare il file `ui\_config.json` nel sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. A seconda della posizione in cui stai caricando il file, a livello globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando `ui\_config.json file`, visualizzare [Personalizza barra degli strumenti](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> Per AEM Guides versione 2502 e versioni più recenti, si consiglia di utilizzare l&#39;estensione JSON invece di `ui_config.json` per la personalizzazione. Per ulteriori informazioni, vedere la sezione precedente **Configurazione interfaccia utente dell&#39;editor XML**.
 
 **Layout modello CSS**
 

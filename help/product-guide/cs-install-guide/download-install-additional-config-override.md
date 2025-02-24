@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,30 @@ Per apportare qualsiasi aggiornamento alla configurazione, si deve utilizzare il
    ```
 
 1. Apporta le modifiche ed esegui la pipeline Cloud Manager per distribuire la configurazione aggiornata.
+
+## Configurare l’interfaccia utente di Experience Manager Guides
+
+La versione 2025.02.0 di Adobe Experience Manager Guides offre un’interfaccia utente rinnovata e funzioni migliorate per consentirti di lavorare in modo più rapido ed efficiente che mai. Tra questi, una pagina Home completamente nuova, una barra degli strumenti dell’editor più pulita e organizzata, una console di mappe dedicata e funzioni avanzate.
+
+Per garantire una transizione fluida e ridurre al minimo le interruzioni, Experience Manager Guides fornisce un’opzione di configurazione che consente di tornare alla vecchia interfaccia utente ( e viceversa) in base alle esigenze.
+
+>[!IMPORTANT]
+>
+> Questa opzione di configurazione per passare dalla nuova alla vecchia interfaccia utente sarà disponibile fino alla versione 2025.4.0. In seguito, la nuova interfaccia utente diventerà quella predefinita e l’opzione per tornare alla precedente non sarà più supportata.
+
+Per configurare l’interfaccia utente di Experience Manager Guides, effettua le seguenti operazioni:
+
+1. Apri Adobe Experience Manager, quindi seleziona il programma contenente l’ambiente da configurare.
+2. Passa alla scheda **Ambienti**.
+3. Seleziona il nome dell’ambiente da configurare. Dovresti passare alla pagina **Informazioni sull&#39;ambiente**.
+4. Passa alla scheda **Configurazione**.
+5. Seleziona **Aggiungi/Aggiorna**.
+6. Aggiungi i dettagli di configurazione dell’interfaccia utente. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
+
+   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+
+   Impostando il valore su **true** si mantiene la vecchia interfaccia utente, mentre **false** attiva la nuova interfaccia utente.
+
 
 
 **Argomento padre:**[ Scarica e installa](download-install.md)

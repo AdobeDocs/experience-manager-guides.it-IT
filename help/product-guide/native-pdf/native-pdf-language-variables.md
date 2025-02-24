@@ -1,24 +1,24 @@
 ---
-title: Native PDF | Supporto per le variabili di lingua
+title: PDF nativo | Supporto per le variabili di lingua
 description: Utilizzare le variabili di lingua nei modelli di output e di output di PDF
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
 
 # Supporto per le variabili di lingua
 
-AEM Guides fornisce la funzione per utilizzare le variabili di lingua. È possibile utilizzare le variabili di lingua per definire stringhe localizzate nell&#39;output di PDF o per localizzare qualsiasi testo statico nei modelli di output. È possibile utilizzare gli stili CSS per localizzare le stringhe provenienti da un CSS.
+Adobe Experience Manager Guides fornisce la funzione per utilizzare le variabili di lingua. È possibile utilizzare le variabili di lingua per definire stringhe localizzate nell’output di PDF o per localizzare qualsiasi testo statico nei modelli di output. È possibile utilizzare gli stili CSS per localizzare le stringhe provenienti da un CSS.
 
 ## Utilizzare le variabili di lingua nell’output di PDF
 
-È possibile utilizzare le variabili di lingua per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Avvertenza e Avvertenza, o del testo statico nell’output di PDF. Il nome della variabile è lo stesso per tutte le lingue, ma può avere valori diversi per le varie lingue. Puoi aggiornare il valore di queste variabili in una o più lingue, quindi il valore localizzato viene selezionato automaticamente nell’output di PDF.
+È possibile utilizzare le variabili di lingua per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Avvertenza e Avvertenza o testo statico nell’output di PDF. Il nome della variabile è lo stesso per tutte le lingue, ma può avere valori diversi per le varie lingue. Puoi aggiornare il valore di queste variabili in una o più lingue, quindi il valore localizzato viene scelto automaticamente nell’output di PDF.
 
 Per presentare l&#39;etichetta `Note` nell&#39;output di PDF, ad esempio, è possibile procedere come segue:
 
@@ -36,7 +36,7 @@ Per presentare l&#39;etichetta `Note` nell&#39;output di PDF, ad esempio, è pos
 >
 > Se il valore di una variabile non è definito in una lingua particolare, AEM Guides seleziona la stringa dalla lingua dell’interfaccia utente (Interfaccia utente dell’applicazione) come meccanismo di fallback.
 >
-> Se non è stato definito il valore nella lingua dell&#39;interfaccia utente, verrà cercata l&#39;inglese (`en_us`), altrimenti verrà scelto il valore inglese (`en`) e verrà visualizzato lo stesso nell&#39;output PDF.
+> Se non è stato definito il valore nella lingua dell&#39;interfaccia utente, verrà cercata l&#39;inglese (`en_us`), altrimenti verrà scelto il valore inglese (`en`) e verrà visualizzato lo stesso nell&#39;output di PDF.
 
 ## Tipi di variabili di linguaggio
 
@@ -65,20 +65,19 @@ Puoi anche creare nuove variabili di lingua. È ad esempio possibile creare una 
 
 ## Aggiungi una nuova variabile di lingua
 
-1. Nell’editor web, passa alla scheda Output.
-1. Seleziona **Variabili di lingua** <img src="./assets/language-variables.svg" width="25"> nel pannello a sinistra.
+1. Nell&#39;editor passare al pannello sinistro e selezionare **Variabili di lingua**. Questa opzione è disponibile nella sezione Altro.
 1. Seleziona **Modifica** per aprire la finestra **Variabili di lingua**. L&#39;applicazione e le variabili utente presenti nella lingua selezionata sono elencate in ordine alfabetico. I valori vengono visualizzati in base alla lingua selezionata. Ad esempio, se si seleziona la lingua francese, &quot;Tip&quot; viene visualizzato come &quot;Conseil&quot;.
 1. Dal menu a discesa **Lingua**, seleziona la lingua desiderata in cui desideri modificare una variabile.
 
    >[!NOTE]
    >
-   > Se non si visualizzano le lingue desiderate, abilitare la lingua desiderata dalle **Impostazioni variabile di lingua**. Seleziona impostazioni <img src="./assets/settings-icon.svg" width="25"> per aprire la finestra di dialogo **Impostazioni variabili di lingua**.
+   > Se non visualizzi le lingue desiderate, abilita la lingua desiderata dalle impostazioni **Configura lingue**. Seleziona impostazioni <img src="./assets/settings-icon.svg" width="25"> per aprire la finestra di dialogo **Configura lingue**.
 
 1. Immettere il nome della variabile nella colonna **Nome** e il relativo valore nella colonna **Valore**.
 
    >[!NOTE]
    >
-   >Puoi utilizzare qualsiasi contenuto HTML come valore variabile per visualizzare il valore della variabile in una formattazione specifica. È ad esempio possibile aggiungere il tag `<b>` al valore della variabile per visualizzare il server di pubblicazione in grassetto.
+   >Puoi utilizzare qualsiasi contenuto HTML come valore di variabile per visualizzare il valore della variabile in una formattazione specifica. È ad esempio possibile aggiungere il tag `<b>` al valore della variabile per visualizzare il server di pubblicazione in grassetto.
 
 1. Seleziona **Aggiungi variabile di lingua** <img src="./assets/add-language-variable.svg" width="25"> per aggiungere una nuova variabile di lingua alla lingua selezionata. L’aggiunta di una variabile a una lingua la aggiunge automaticamente a tutte le lingue. Non è possibile creare una variabile con lo stesso nome di una variabile esistente. Viene visualizzato un errore.
 
@@ -138,7 +137,7 @@ Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si
 
 ### Modificare o ripristinare le variabili dell’applicazione
 
-È inoltre possibile modificare i valori di una variabile di applicazione. In seguito, sarà possibile ripristinare il valore originale di una variabile di applicazione. **Ripristina variabile** <img src="./assets/application-variable-revert.svg" width="25"> viene visualizzato per una variabile di applicazione con un valore modificato.
+È inoltre possibile modificare i valori di una variabile di applicazione. In seguito, sarà possibile ripristinare il valore originale di una variabile di applicazione. **Reimposta** <img src="./assets/application-variable-revert.svg" width="25"> viene visualizzato per una variabile di applicazione con un valore modificato.
 
 ## Utilizzare le variabili di lingua nei modelli di output
 
@@ -176,7 +175,7 @@ Per inserire una variabile di lingua come `copyright-label` nell&#39;area dell&#
 
 ### Applicare lo stile del contenuto alle variabili di lingua
 
-Oltre al valore assegnato a una variabile di lingua, puoi anche utilizzare i tag HTML per visualizzare il valore della variabile in una formattazione specifica. È ad esempio possibile visualizzare il valore di `publisher-label` in grassetto.
+Oltre al valore assegnato a una variabile di lingua, puoi anche utilizzare i tag di HTML per visualizzare il valore della variabile in una formattazione specifica. È ad esempio possibile visualizzare il valore di `publisher-label` in grassetto.
 
 - È inoltre possibile formattare gli stili dei valori utilizzando il tag <span>. Ad esempio, utilizzando la variabile di lingua del numero di pagina, è possibile visualizzare il numero di pagina in formato numero romano in inglese e specificare il formato per altre lingue.
 
@@ -228,7 +227,7 @@ Le schermate seguenti mostrano le stringhe localizzate nell’output PDF in tede
 
 ### Formattare i prefissi
 
-Utilizzando gli stili CSS, puoi anche formattare i prefissi. È possibile, ad esempio, formattare l&#39;etichetta `Note` in modo che venga visualizzata in rosso nell&#39;output PDF di varie lingue.
+Utilizzando gli stili CSS, puoi anche formattare i prefissi. È possibile, ad esempio, formattare l&#39;etichetta `Note` in modo che venga visualizzata in rosso nell&#39;output di PDF in varie lingue.
 
 ```
 .note .prefix-content 

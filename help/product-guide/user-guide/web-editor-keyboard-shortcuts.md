@@ -1,19 +1,19 @@
 ---
-title: Scelte rapide da tastiera nell’editor web
+title: Scelte rapide da tastiera nell’editor
 description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web di AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Scelte rapide da tastiera nell’editor web {#id2056B0A0WHT}
+# Scelte rapide da tastiera nell’editor {#id2056B0A0WHT}
 
-Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile eseguire utilizzando le scelte rapide da tastiera. Nella tabella seguente sono elencate le scelte rapide da tastiera seguenti:
+Nell&#39;editor sono disponibili numerose operazioni che è possibile eseguire utilizzando le scelte rapide da tastiera. Nella tabella seguente sono elencate le scelte rapide da tastiera seguenti:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile esegui
 | Attiva l&#39;editor corrente | **Ctrl***+**Maiusc**+***0*** | ***Comando***+**Spostamento**+***0*** |
 | Salva documento nella visualizzazione Autore o Source | ***Ctrl***+**Maiusc**+***S*** | ***Comando***+**Spostamento**+***S*** |
 | Salvare tutti i documenti aperti nella visualizzazione Autore o Source | ***Ctrl***+***S*** | ***Comando***+***S*** |
-| Mostra finestra di dialogo Inserisci elemento | ***Alt***+***Invio*** | ***Opzione***+***Invio*** |
+| Mostra finestra di dialogo Inserisci elemento | ***Alt***+***1*** | ***Opzione***+***Invio*** |
 | Mostra la finestra di dialogo Inserisci elemento per inserire l’elemento prima dell’elemento selezionato | ***Alt***+***Maiusc***+***Invio*** | ***Opzione***+***Spostamento***+***Invio*** |
 | Spostare il cursore di una parola verso sinistra. | ***Ctrl***+***Freccia sinistra*** | ***Opzione***+***Freccia sinistra*** |
 | Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia Destra*** |

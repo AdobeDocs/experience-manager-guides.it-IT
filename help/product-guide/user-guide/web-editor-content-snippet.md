@@ -4,9 +4,9 @@ description: Utilizza i dati dell’origine dati in AEM Guides. Scopri come inse
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puoi anche connetterti a file di dati JSON utilizzando un connettore per file. C
 
 ## Pannello Origini dati
 
-Seleziona **Origini dati** ![origine dati](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati connesse. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate.
+Seleziona **Origini dati** ![origine dati](images/data-sources-new-icon.svg) nel pannello a sinistra per visualizzare le origini dati connesse. Viene visualizzato il pannello Origini dati (Data Sources), in cui sono visualizzate tutte le origini dati collegate.
 
 In base alla configurazione, l’amministratore può configurare un connettore dell’origine dati:
 
@@ -27,9 +27,9 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <summary> Servizi cloud </summary>
 
 
-- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione di Cloud Services.
 
-- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](../cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione di Cloud Services.
 
 </details>
 
@@ -47,19 +47,19 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 > Verranno visualizzate le origini dati per le quali l’amministratore ha configurato il connettore.
 
 
-## Mostra vista elenco o vista affiancata
+## Mostra vista a elenco o a sezioni
 
-È possibile passare dalla Vista a elenco alla Vista a riquadri e viceversa per visualizzare le varie origini dati sotto forma di elenco o come riquadri.
+È possibile passare dalla visualizzazione Elenco alla visualizzazione affiancata e viceversa per visualizzare le varie origini dati sotto forma di elenco o come riquadri.
 
 Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto e i generatori di argomenti disponibili per l&#39;origine dati selezionata.
 
-### Visualizzazione elenco ![](images/data-sources-list-view-icon.svg)
+### Vista a elenco
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *Elenco delle origini dati connesse.*
 
-### Vista affiancata   ![](images/data-sources-tile-view-icon.svg)
+### Vista affiancata
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -70,14 +70,13 @@ Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di co
 - Creare un argomento
 
 
-
 ## Inserire uno snippet di contenuto dall&#39;origine dati
 
-AEM Guides offre la funzione di connessione all’origine dati. Puoi recuperare i dati, inserirli negli argomenti e modificarli. Puoi creare facilmente un frammento di contenuto utilizzando il generatore di frammenti di contenuto e riutilizzarlo all’interno degli argomenti.
+Adobe Experience Manager Guides offre la funzione di connessione all’origine dati. Puoi recuperare i dati, inserirli negli argomenti e modificarli. Puoi creare facilmente un frammento di contenuto utilizzando il generatore di frammenti di contenuto e riutilizzarlo all’interno degli argomenti.
 
 Per creare uno snippet di contenuto utilizzando il generatore di snippet di contenuto e inserirlo nell’argomento, effettua le seguenti operazioni:
 
-1. Seleziona **Origini dati** ![](images/data-source-icon.svg)   nel pannello a sinistra per visualizzare le origini dati collegate.
+1. Seleziona **Origini dati** ![](images/data-sources-new-icon.svg) nel pannello a sinistra per visualizzare le origini dati connesse.
 
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto disponibili per l&#39;origine dati selezionata.
 
@@ -87,11 +86,13 @@ Per creare uno snippet di contenuto utilizzando il generatore di snippet di cont
 
 1. Seleziona **Aggiungi** per aggiungere un nuovo generatore di frammenti di contenuto. Viene aperto il pannello **Aggiungi generatore frammento di contenuto**.
 
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. Immettere la query nella casella di testo **Query dati**.  Seleziona **Copia query di esempio** per copiare rapidamente una query di dati. Anziché creare manualmente la query, è possibile copiare e incollare la query di esempio nella casella di testo **Query dati**. Quindi, è sufficiente modificare la query in base ai requisiti di dati.
 
    >[!NOTE]
    >
-   >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+   > Experience Manager fornisce diverse query di esempio per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
 
 1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
 
@@ -114,7 +115,7 @@ I modelli predefiniti per l’origine dati selezionata vengono visualizzati nel 
    >
    > L’amministratore può configurare le risorse predefinite o aggiungere risorse per più URL durante la configurazione dei connettori dell’origine dati.
 
-1. Fare clic su **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
+1. Selezionare **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL.
 
 1. È possibile visualizzare i dati nell&#39;anteprima o nella vista origine DITA.
 
@@ -124,10 +125,11 @@ Ad esempio:
       - Se hai selezionato il modello di elenco jira ordinato, puoi visualizzare un elenco ordinato per i problemi Jira.
 
    1. La vista origine mostra i dati nella vista origine DITA.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *Aggiungi un generatore di frammenti di contenuto. Visualizza i dati in modalità di origine o anteprima.*
 
-1. Per salvare i risultati della query, immettere il nome del generatore, quindi fare clic su **AGGIUNGI**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
+1. Per salvare i risultati della query, immettere il nome del generatore, quindi selezionare **Aggiungi**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
 
    >[!NOTE]
    >
@@ -138,7 +140,7 @@ Ad esempio:
 Fai clic con il pulsante destro del mouse su un generatore di frammenti di contenuto per aprire Opzioni. Utilizzando le opzioni, potete effettuare le seguenti operazioni:
 
 - **Anteprima**: utilizzare questa opzione per aprire un riquadro e visualizzare una piccola frazione dei dati visualizzati nell&#39;output.
-- **Inserisci**: utilizzare questa opzione per inserire lo snippet di contenuto selezionato nell&#39;argomento aperto per la modifica nell&#39;editor Web. Poiché i dati vengono inseriti come frammento, è anche possibile modificare i dati all&#39;interno dell&#39;argomento nell&#39;Editor Web.
+- **Inserisci**: utilizza questa opzione per inserire lo snippet di contenuto selezionato nell&#39;argomento aperto per la modifica nell&#39;editor. Poiché i dati vengono inseriti come frammento, è anche possibile modificare i dati all’interno dell’argomento nell’Editor.
 
   >[!NOTE]
   > 
@@ -148,11 +150,11 @@ Fai clic con il pulsante destro del mouse su un generatore di frammenti di conte
 - **Elimina**: utilizzare questa opzione per eliminare il generatore di frammenti di contenuto selezionato.
 - **Duplica**: utilizza questa opzione per creare un duplicato o una copia del generatore di frammenti di contenuto selezionato. Per impostazione predefinita, il duplicato viene creato con un suffisso (come generator_1).
 
-### Inserire uno snippet di query
+### Inserire dati di query
 
-È inoltre possibile utilizzare **Inserisci frammento di query** ![](images/data-source-icon.svg)   dalla barra degli strumenti principale per inserire lo snippet di dati negli argomenti.  Puoi selezionare un generatore dal menu a discesa, modificare la query o modificare il modello e inserire i dati nell’argomento.
+È inoltre possibile utilizzare **Query dati** ![](images/data-sources-new-icon.svg) dalla barra degli strumenti per inserire lo snippet di dati negli argomenti.  Puoi selezionare un generatore dal menu a discesa, modificare la query o modificare il modello e inserire i dati nell’argomento.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
 *Modificare e inserire uno snippet di dati.*
 
@@ -184,7 +186,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    **Recupera configurazione**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300" align="left"}
 
    *Aggiungere i dettagli della query dati, del modello di mappatura dati e del nodo radice per il generatore di argomenti e assegnare un nome univoco nel pannello Recupera configurazione.*
 
@@ -192,7 +194,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
       >[!NOTE]
       >
-      >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+      >Experience Manager fornisce diverse query di esempio per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
 
    1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
 
@@ -208,7 +210,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    1. Immettere il **nodo principale**. Questo è il nodo in cui desideri accedere ai tuoi dati. Il generatore di argomenti crea quindi ogni argomento al livello definito nel nodo principale. Ad esempio, puoi aggiungere &quot;problemi&quot; come nodo principale in Jira. Pertanto, se una query restituisce 13 problemi, riceverai 13 argomenti, uno per ogni problema.
 
-   1. Fare clic su **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL. L&#39;anteprima mostra una piccola frazione di come l&#39;argomento viene visualizzato nel formato del modello selezionato. Ad esempio, puoi visualizzare un singolo problema Jira con tutti i campi risultanti dalla query.
+   1. Selezionare **Recupera** per recuperare i dati dall&#39;origine dati e applicare il modello ai dati risultanti dalla query SQL. L&#39;anteprima mostra una piccola frazione di come l&#39;argomento viene visualizzato nel formato del modello selezionato. Ad esempio, puoi visualizzare un singolo problema Jira con tutti i campi risultanti dalla query.
    1. Immettere il nome del generatore di argomenti.
 
       >[!NOTE]
@@ -240,13 +242,13 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    *Aggiungi le proprietà dei metadati nel pannello Metadati per passare agli argomenti.*
 
-1. Immetti il nome del generatore e fai clic su **Salva** per salvare i risultati della query. Un nuovo generatore di argomenti viene aggiunto all&#39;elenco.
+1. Inserisci il nome del generatore e seleziona **Salva** per salvare i risultati della query. Un nuovo generatore di argomenti viene aggiunto all&#39;elenco.
 
-1. Fare clic su **Salva e genera** per salvare il generatore di argomenti e generare nuovi argomenti dal generatore di argomenti.
+1. Selezionare **Salva e genera** per salvare il generatore di argomenti e generare nuovi argomenti dal generatore di argomenti.
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
 
    *Genera nuovi argomenti da un generatore di argomenti esistente.*
 
@@ -280,10 +282,10 @@ Fai clic con il pulsante destro del mouse su un generatore di argomenti per apri
 
 ## Utilizzare gli strumenti Velocity nei modelli di origini dati {#use-velocity-tools}
 
-I modelli di Experience Manager supportano anche gli strumenti Velocity (versione 2.0). Questi strumenti consentono di applicare varie funzioni ai dati recuperati dalle origini dati. Ulteriori informazioni sull&#39;utilizzo degli [strumenti Velocity](https://velocity.apache.org/tools/2.0/generic.html) e delle funzioni che è possibile applicare.
+I modelli Experience Manager supportano anche gli strumenti Velocity (versione 2.0). Questi strumenti consentono di applicare varie funzioni ai dati recuperati dalle origini dati. Ulteriori informazioni sull&#39;utilizzo degli [strumenti Velocity](https://velocity.apache.org/tools/2.0/generic.html) e delle funzioni che è possibile applicare.
 
 Per utilizzare uno strumento Velocity in un modello, effettuate le seguenti operazioni:
-1. Modifica un modello Velocity nell’editor web.
+1. Modifica un modello Velocity nell’editor.
 1. Aggiungere uno strumento e la relativa funzione nel formato `<tool.function>`. Ad esempio:
    - Per generare un numero casuale utilizzando lo strumento di matematica, utilizzare `$mathTool.random`.
    - Per generare la somma dei numeri utilizzando lo strumento matematico, utilizzare `$mathTool.add(num1, num2)`.

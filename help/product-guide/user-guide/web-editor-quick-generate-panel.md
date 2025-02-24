@@ -4,14 +4,19 @@ description: Utilizza il pannello di generazione rapida in AEM Guides. Scopri co
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Utilizza il pannello Generazione rapida per generare e visualizzare l’output {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> Il pannello Generazione rapida, precedentemente disponibile in Adobe Experience Manager Guides, è diventato obsoleto a partire dalle versioni 4.0 e 2502. Impossibile accedere al pannello Generazione rapida per generare e visualizzare l’output
+
 
 AEM Guides fornisce un pannello **Generazione rapida** integrato nell&#39;editor Web. Questo pannello consente di generare simultaneamente l&#39;output per i predefiniti di output creati per una mappa DITA. È possibile generare l&#39;output per uno o più predefiniti o per tutti i predefiniti creati per una mappa DITA. È inoltre possibile utilizzare il pannello **Generazione rapida** per visualizzare successivamente l&#39;output generato per i predefiniti.
 

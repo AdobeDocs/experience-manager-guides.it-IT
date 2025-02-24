@@ -4,24 +4,24 @@ description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AE
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 10%
 
 ---
 
 # Gestire i contenuti {#id164JBG0M0T1}
 
-Prima di iniziare a creare effettivamente i contenuti, è necessario acquisire familiarità con alcuni concetti di base del content management in AEM Guides. Quindi, inizia con la creazione di diversi gruppi di utenti e l’organizzazione delle risorse.
+Prima di iniziare a creare effettivamente i contenuti, è necessario acquisire familiarità con alcuni concetti di base del content management in Adobe Experience Manager Guides. Quindi, inizia con la creazione di diversi gruppi di utenti e l’organizzazione delle risorse.
 
-## Concetti chiave
+## Concetti fondamentali
 
-Alcuni concetti chiave della gestione dei contenuti dell’AEM sono i seguenti:
+Di seguito sono riportati alcuni concetti chiave della gestione dei contenuti in Adobe Experience Manager:
 
 **Gestione risorse**
 
-AEM Guides utilizza il servizio di gestione delle risorse digitali (DAM\) dell’AEM per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in AEM Assets. Per ulteriori informazioni sulla gestione delle risorse, consulta [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+Experience Manager Guides utilizza la gestione delle risorse digitali (DAM\) di Adobe Experience Manager per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in Adobe Experience Manager Assets. Per ulteriori informazioni sulla gestione delle risorse, visualizzare [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Gestione dei collegamenti**
 
@@ -29,21 +29,21 @@ Spostare o rinominare file o modificare la struttura delle cartelle nell&#39;arc
 
 **Gestione delle versioni**
 
-AEM Guides fornisce la gestione della versione per le risorse digitali. Questa funzionalità può essere facilmente attivata da un&#39;applicazione di authoring DITA. Consente agli autori di eseguire le funzioni standard di controllo della versione, ad esempio il check-in e il check-out.
+Experience Manager Guides fornisce la gestione della versione per le risorse digitali. Questa funzionalità può essere facilmente attivata da un&#39;applicazione di authoring DITA. Consente agli autori di eseguire le funzioni standard di controllo della versione, ad esempio il check-in e il check-out.
 
-Per ulteriori informazioni sulla creazione di versioni o sul ripristino di una versione specifica, vedere [Branch, Revert e versioni successive](web-editor-preview-topics.md#id193PG0Y051X).
+Per ulteriori informazioni sulla creazione di versioni o sul ripristino di una versione specifica, visualizzare [Branch, Revert e versioni successive](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Gestione DITA nativa**
 
-AEM Guides mantiene la struttura dei file DITA, ma consente anche all&#39;AEM di gestire in modo nativo la DITA utilizzando la mappatura degli elementi per mappare gli elementi DITA ai componenti AEM. La gestione DITA nativa viene utilizzata in funzioni quali l&#39;anteprima degli argomenti, la pubblicazione AEM Sites e i flussi di lavoro di revisione.
+Experience Manager Guides mantiene la struttura dei file DITA, ma consente anche a Adobe Experience Manager di gestire in modo nativo la DITA utilizzando la mappatura degli elementi per mappare gli elementi DITA ai componenti Adobe Experience Manager. La gestione DITA nativa viene utilizzata in funzioni quali l&#39;anteprima degli argomenti, la pubblicazione Adobe Experience Manager Sites e i flussi di lavoro di revisione.
 
 ## Identificare il ruolo e le autorizzazioni {#id181TF0K0MHT}
 
-AEM Guides fornisce tre gruppi preconfigurati. Questi gruppi sono: *Autori*, *Revisori* e *Editori*. A seconda del gruppo a cui sei associato, disponi delle autorizzazioni per eseguire attività specifiche come indicato nella tabella riportata di seguito. Ad esempio, un’attività di pubblicazione può essere eseguita solo da un editore, ma non da un autore o un revisore. Analogamente, un autore può creare un nuovo argomento e un revisore può solo esaminare un argomento.
+Experience Manager Guides fornisce tre gruppi preconfigurati. Questi gruppi sono: *Autori*, *Revisori* e *Editori*. A seconda del gruppo a cui sei associato, disponi delle autorizzazioni per eseguire attività specifiche come indicato nella tabella riportata di seguito. Ad esempio, un’attività di pubblicazione può essere eseguita solo da un editore, ma non da un autore o un revisore. Analogamente, un autore può creare un nuovo argomento e un revisore può solo esaminare un argomento.
 
 >[!TIP]
 >
-> Consulta la sezione *Autorizzazioni* nella guida alle best practice per le best practice sull&#39;impostazione delle autorizzazioni utente.
+> Visualizza la sezione *Autorizzazioni* nella guida alle best practice per le best practice sull&#39;impostazione delle autorizzazioni utente.
 
 Nella tabella seguente sono elencate le varie attività e i gruppi che possono eseguirle:
 
@@ -93,10 +93,10 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 
 **Utilizzare profili globali o a livello di cartella**
 
-In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
+In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, che visualizzeranno modelli o profili che non sono rilevanti per loro.
 
-AEM Guides consente di configurare modelli di authoring (argomento o mappa\), modelli di output, attributi condizionali e configurazioni dell’editor web a livello aziendale (globale\) e a livello di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
+Experience Manager Guides consente di configurare le configurazioni di authoring \(topic o map\) dei modelli, dei modelli di output, degli attributi condizionali e dell’editor web a livello aziendale (global\) e di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
 
 Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto o agli amministratori di prodotto per decentralizzare l’amministrazione.
 
-Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, consulta *Configurare i profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, visualizzare *Configurare i profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.

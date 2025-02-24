@@ -3,9 +3,9 @@ title: Installazione e configurazione
 description: Installazione e utilizzo del pacchetto di estensione di AEM Guides
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ npx @adobe/create-guides-extension
 
 ![Output di compilazione](./../imgs/build_output.png)
 
-## Aggiunta della personalizzazione all’AEM
+## Aggiunta della personalizzazione ad AEM
 
 - Vai a `CRXDE` `crx/de/index.jsp#/`
 - Nella cartella `apps` creare un nuovo nodo di tipo `cq:ClientLibraryFolder`
@@ -55,6 +55,11 @@ npx @adobe/create-guides-extension
 Nome: `categories`
 Tipo: `String []`
 Valore: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
+
+>[!NOTE]
+>
+> Per la penultima interfaccia utente, i valori sarebbero: `apps.fmdita.penultimate.xml_editor.page_overrides` e `apps.fmdita.review_overrides`
+
 
 ![Proprietà cartella](./../imgs/crxde_folder_properties.png)
 

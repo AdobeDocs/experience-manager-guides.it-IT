@@ -4,26 +4,26 @@ description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revi
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
 
 # Rivedi argomenti {#id2056B0W0FBI}
 
-Se sei un revisore, riceverai un’e-mail di richiesta di revisione con il collegamento agli argomenti di revisione. Facendo clic sul collegamento si accede alla pagina di revisione in cui è possibile aggiungere il proprio feedback sugli argomenti condivisi.
+Se sei un revisore, riceverai un’e-mail di richiesta di revisione con il collegamento agli argomenti di revisione. Utilizzando questo collegamento è possibile accedere alla pagina di revisione in cui è possibile aggiungere il proprio feedback sugli argomenti condivisi.
 
 Per rivedere un argomento, effettua le seguenti operazioni:
 
-1. Fai clic sul collegamento diretto fornito nell’e-mail della richiesta di revisione.
+1. Seleziona il collegamento diretto fornito nell’e-mail della richiesta di revisione.
 
    Il collegamento argomento o mappa viene aperto in un browser.
 
    >[!NOTE]
    >
-   > Puoi anche accedere al collegamento di revisione dell’argomento dalla tua casella in entrata nell’interfaccia utente dell’AEM.
+   > Puoi anche accedere al collegamento di revisione dell’argomento dalla tua area di notifica della casella in entrata nell’interfaccia utente di Adobe Experience Manager.
 
 1. A seconda del modo in cui viene avviata la revisione dell’argomento, è possibile visualizzare una delle due schermate seguenti:
 
@@ -31,8 +31,8 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    >
    > L’interfaccia utente potrebbe essere diversa se hai creato la revisione in:
    >
-   > - AEM Guides as a Cloud Service versione di novembre 2022 o precedente
-   > - AEM Guides versione 4.1 o precedente
+   > - Adobe Experience Manager Guides as a Cloud Service versione di novembre 2022 o precedente
+   > - Adobe Experience Manager Guides versione 4.1 o precedente
 
 
 
@@ -43,20 +43,20 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    In questa schermata sono disponibili le seguenti opzioni:
 
    - **A**: nome dell&#39;attività di revisione.
-   - **B**: fare clic sull&#39;icona Visualizzazione argomenti per visualizzare o nascondere il pannello degli argomenti.
+   - **B**: selezionare l&#39;icona Visualizzazione argomenti per visualizzare o nascondere il pannello degli argomenti.
 
    - **C**: è possibile cercare l&#39;argomento richiesto immettendo parte del testo del titolo o del percorso file nella barra di ricerca.
 
      Selezionare ![](images/view-options.svg) vicino alla barra di ricerca per scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione.
 
 
-   - **D**: i numeri evidenziati da ***F*** possono essere filtrati scegliendo l&#39;opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascuno degli argomenti della sezione Revisione, fare clic sull&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
+   - **D**: i numeri evidenziati da ***F*** possono essere filtrati scegliendo l&#39;opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascuno degli argomenti della sezione Revisione, selezionare l&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
 
      >[!NOTE]
      >
-     > Quando applicate i filtri, nel pannello dei commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
+     > Quando si applicano i filtri, nel pannello dei commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
 
-   - **E**: un argomento assegnato per la revisione al revisore corrente è visualizzato in nero ed è cliccabile. Quando il revisore fa clic su un collegamento di argomento, l’argomento viene riportato in alto sullo schermo.
+   - **E**: un argomento assegnato per la revisione al revisore corrente è visualizzato in nero e può essere selezionato. Quando il revisore seleziona un collegamento ad argomento, l’argomento viene portato in alto sullo schermo.
    - **F**: un argomento non disponibile per la revisione è disattivato. L&#39;argomento viene visualizzato in modalità di sola lettura e non è consentito aggiungere commenti di revisione su tali argomenti.
 
    - **G**: numero di commenti ricevuti su un argomento. Questo numero cambia in base al filtro applicato.
@@ -65,7 +65,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 
    ![](images/review-read-only.png){width="800" align="left"}
 
-   Nella schermata precedente, l’argomento Descrizione generale è condiviso per la revisione del revisore corrente, che viene visualizzato normalmente. Tuttavia, l’argomento successivo, Cronologia del contenuto del volo, non viene condiviso per la revisione e viene visualizzato in modalità di sola lettura. L’argomento attualmente in discussione è evidenziato anche nel sommario.
+   Nella schermata precedente, l’argomento Descrizione generale è condiviso per la revisione con il revisore corrente, che viene visualizzato normalmente. Tuttavia, l’argomento successivo, Cronologia del contenuto del volo, non viene condiviso per la revisione e viene visualizzato in modalità di sola lettura. L’argomento attualmente in discussione è evidenziato anche nel sommario.
 
    Quando si selezionano e si condividono uno o più argomenti per la revisione, viene visualizzata la seguente schermata:
 
@@ -75,19 +75,20 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    >
    > In caso di più argomenti, questi vengono visualizzati come un unico documento composito nella visualizzazione documento. La schermata precedente evidenzia due diversi argomenti presentati uno dopo l’altro in un’unica vista.
 
-1. Apri il pannello Commenti facendo clic sull&#39;icona **Commenti** nell&#39;angolo superiore destro della barra degli strumenti.
+1. Apri il pannello Commenti selezionando l&#39;icona **Commenti** nell&#39;angolo superiore destro della barra degli strumenti.
 
    Fornisci i commenti di revisione selezionando un tipo di commento appropriato dalla barra degli strumenti e premendo Invio per inviare il commento.
+La casella dei commenti supporta le voci su più righe e consente agli utenti di espanderla in base alle esigenze, per fornire un feedback dettagliato. È possibile utilizzare **Maiusc** + **Invio** per passare alla riga successiva durante la scrittura del commento.
 
    >[!NOTE]
    >
    > Il pannello Commenti mostra i commenti forniti solo sugli argomenti correnti. Quando si sposta lo stato attivo su un altro argomento, vengono visualizzati i commenti relativi all&#39;altro argomento.
 
-1. Dopo aver completato la revisione dell&#39;argomento, fare clic sul pulsante **Chiudi**. Facendo clic sul pulsante **Chiudi**, verrai reindirizzato alla pagina da cui hai effettuato l&#39;accesso all&#39;argomento della revisione.
+1. Seleziona il pulsante **Chiudi** una volta completata la revisione dell&#39;argomento. Quando selezioni il pulsante **Chiudi**, verrai reindirizzato alla pagina da cui hai effettuato l&#39;accesso all&#39;argomento della revisione.
 
-## Funzionalità aggiuntive disponibili nella schermata di revisione
+## Ulteriori funzioni disponibili nella schermata di revisione
 
-**Visualizzazione documento e visualizzazione argomento** - Per impostazione predefinita, se più argomenti sono condivisi per la revisione, viene mostrata ai revisori una visualizzazione documento composita degli argomenti. In caso di revisione di mappe DITA, tutti gli argomenti della mappa vengono presentati sotto forma di un singolo documento, simile a una visualizzazione libro. Se lo desideri, puoi anche fare clic su un particolare argomento e solo tale argomento viene quindi visualizzato nella schermata di revisione.
+**Visualizzazione documento e visualizzazione argomento** - Per impostazione predefinita, se più argomenti sono condivisi per la revisione, viene mostrata ai revisori una visualizzazione documento composita degli argomenti. In caso di revisione di mappe DITA, tutti gli argomenti della mappa vengono presentati sotto forma di un singolo documento, simile a una visualizzazione libro. Se lo si desidera, è inoltre possibile selezionare un argomento particolare e solo tale argomento verrà visualizzato nella schermata di revisione.
 
 Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione aggiuntiva per tornare alla visualizzazione del documento. Nella schermata seguente, viene aperto per la revisione un particolare argomento di un file di mappa. L&#39;opzione evidenziata - **Mostra visualizzazione documento** consente all&#39;utente di tornare alla visualizzazione documento del file di mappa.
 
@@ -97,19 +98,19 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 
 ![](images/comments-toolbar.png){width="350" align="left"}
 
-- **Evidenzia** \(![](images/review-highlight-icon.svg)\): per aggiungere un commento di evidenziazione, selezionare il testo e fare clic sull&#39;icona Evidenzia. Oppure, fai clic sull’icona Evidenzia e seleziona il testo desiderato:
+- **Evidenzia** \(![](images/review-highlight-icon.svg)\): per aggiungere un commento di evidenziazione, selezionare il testo e scegliere l&#39;icona Evidenzia. In alternativa, è possibile innanzitutto scegliere l&#39;icona Evidenzia e quindi selezionare il testo desiderato.
 
   ![](images/highlight-comment.png){width="650" align="left"}
 
   Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto evidenziato.
 
-- **Barrato** \(![](images/review-text-strike-through-icon.svg)\): per suggerire la rimozione del contenuto, selezionarlo e fare clic sull&#39;icona Barrato. Oppure, seleziona il testo desiderato e fai clic sul tasto Canc:
+- **Barrato** \(![](images/review-text-strike-through-icon.svg)\): se si desidera suggerire la rimozione del contenuto, è possibile selezionarlo e quindi scegliere l&#39;icona Barrato. In alternativa, è possibile selezionare prima il testo desiderato e quindi scegliere il tasto Elimina.
 
   Nel pannello Commenti viene visualizzato un pop-up in cui è possibile aggiungere il commento per il contenuto eliminato.
 
-- **Inserisci testo** \(![](images/review-insert-text-icon.svg)\): se si desidera inserire del testo, fare clic sull&#39;icona Inserisci testo e posizionare il cursore nel punto in cui si desidera inserire il testo e digitare le informazioni. In alternativa, posizionare il cursore nel punto in cui si desidera inserire il testo e iniziare a digitare. Le informazioni aggiunte vengono visualizzate in verde:
+- **Inserisci testo** \(![](images/review-insert-text-icon.svg)\): se si desidera inserire del testo, selezionare l&#39;icona Inserisci testo e posizionare il cursore nel punto in cui si desidera inserire il testo e digitare le informazioni. In alternativa, posizionare il cursore nel punto in cui si desidera inserire il testo e iniziare a digitare. Le informazioni aggiunte vengono visualizzate con un carattere verde.
 
-- **Aggiungi commento**\(![](images/review-comment-icon.svg)\): se desideri aggiungere un commento di tipo nota, fai clic sull&#39;icona Aggiungi commento e immetti il commento nel pop-up.
+- **Aggiungi commento**\(![](images/review-comment-icon.svg)\): se desideri aggiungere un commento di tipo nota, seleziona l&#39;icona Aggiungi commento e immetti il commento nel pop-up.
 
 
 **Barra degli strumenti contestuale**
@@ -120,7 +121,7 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 
    ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
-1. Fai clic sull&#39;icona **Evidenzia** o **Barrato**.
+1. Selezionare l&#39;icona **Evidenzia** o **Barrato**.
 1. È possibile aggiungere commenti nel pannello dei commenti per l&#39;azione di evidenziazione o barratura.
 
 **Revisione tramite il pannello Commenti** - Il pannello Commenti visualizza un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Ogni commento visualizza il nome del revisore che lo ha aggiunto insieme alla marca temporale.
@@ -129,10 +130,10 @@ I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documen
 
 Di seguito sono descritte le attività che è possibile eseguire utilizzando il pannello Commenti:
 
-- Facendo clic su un commento viene evidenziata e visualizzata la posizione del commento corrispondente nel documento.
+- Selezionando un commento viene evidenziata e visualizzata la posizione del commento corrispondente nel documento.
 - È possibile aggiungere risposte ai commenti.
-- Puoi modificare il tuo commento facendo clic sul testo del commento nel pannello Commenti e selezionando **Modifica** dal menu Opzioni.
-- È possibile eliminare i commenti facendo clic sul commento nel pannello Commenti e selezionando l&#39;opzione **Elimina** dal menu Opzioni.
+- Puoi modificare il tuo commento selezionando il testo del commento nel pannello Commenti e scegliendo **Modifica** dal menu Opzioni.
+- È possibile eliminare commenti personali selezionando il commento nel pannello Commenti e scegliendo l&#39;opzione **Elimina** dal menu Opzioni.
 
   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
@@ -140,7 +141,7 @@ Di seguito sono descritte le attività che è possibile eseguire utilizzando il 
   >
   > Il menu Opzioni viene visualizzato solo quando si passa il puntatore del mouse sui commenti. Non viene visualizzato per i commenti degli altri revisori.
 
-- Tutti gli utenti partecipanti possono rispondere ai commenti inviati da altri utenti. In un commento, fai clic su **Rispondi** e premi Invio per inviare una risposta.
+- Tutti gli utenti partecipanti possono rispondere ai commenti inviati da altri utenti. In un commento, seleziona **Rispondi** e premi Invio per inviare una risposta. La casella di risposta è multiriga ed espandibile, in modo che gli utenti possano fornire risposte dettagliate ai commenti. È possibile utilizzare **Maiusc** + **Invio** per passare alla riga successiva durante la scrittura della risposta.
 
 **Modalità anteprima**
 
@@ -164,7 +165,7 @@ Nella schermata precedente, il documento contiene la finestra a comparsa del com
 
 Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
-1. Fare clic sull&#39;icona ![](images/file-attach-review.svg) *Aggiungi allegato* nel commento con cui si desidera aggiungere un allegato.
+1. Selezionare l&#39;icona ![](images/file-attach-review.svg) *Aggiungi allegato* nel commento con cui si desidera aggiungere un allegato.
 
    Viene visualizzata la finestra di dialogo Apri file.
 
@@ -172,16 +173,16 @@ Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
    I file selezionati vengono visualizzati insieme al commento nel pannello Commenti.
 
-   Nel pannello Commenti potete visualizzare il nome del file e le relative dimensioni. È inoltre possibile rimuovere un file facendo clic sull&#39;icona di eliminazione ![](images/Delete_icon.svg) associata al nome del file.
+   Nel pannello Commenti potete visualizzare il nome e le dimensioni del file. È inoltre possibile rimuovere un file selezionando l&#39;icona di eliminazione ![](images/Delete_icon.svg) associata al nome del file.
 
-1. Fai clic su **Invia**.
+1. Seleziona **Invia**.
 
    Gli allegati vengono caricati e aggiunti al commento.
 
 
 **Note aggiuntive sull&#39;utilizzo degli allegati:**
 
-- Per impostazione predefinita, vengono visualizzati solo due file allegati con un commento. Se ci sono altri file, il pulsante **Visualizza allegato** a destra mostra il numero di tutti gli allegati \(che sono più di due\) associati al commento. Fare clic sul numero per visualizzare tutti gli allegati. Se ad esempio sono presenti quattro allegati con un commento, sul pulsante verrà visualizzato +2.
+- Per impostazione predefinita, vengono visualizzati solo due file allegati con un commento. Se ci sono altri file, il pulsante **Visualizza allegato** a destra mostra il numero di tutti gli allegati \(che sono più di due\) associati al commento. È possibile selezionare il numero per visualizzare tutti gli allegati. Ad esempio, se disponi di quattro allegati con un commento, visualizzerai +2 sul pulsante.
 
 ![](images/review-view-attachment.png){width="550" align="left"}
 
@@ -193,14 +194,14 @@ Gli altri revisori o autori ottengono solo l’opzione Scarica allegato.
 
 ![](images/other-reviewer-download.png){width="550" align="left"}
 
-- È possibile scaricare tutti gli allegati associati a un commento dalla finestra di dialogo **Visualizza allegati**. Seleziona gli allegati e fai clic sull&#39;icona **Scarica** a livello di commento.
+- È possibile scaricare tutti gli allegati associati a un commento dalla finestra di dialogo **Visualizza allegati**. Seleziona gli allegati e l&#39;icona **Scarica** a livello di commento.
 
-- È inoltre possibile eliminare gli allegati associati a un commento dalla finestra di dialogo **Visualizza allegati**. Selezionare gli allegati e fare clic sull&#39;icona **Elimina**.
+- È inoltre possibile eliminare gli allegati associati a un commento dalla finestra di dialogo **Visualizza allegati**. Selezionare gli allegati e l&#39;icona **Elimina**.
 
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
-**Pannello Condizioni** -   Se l&#39;argomento include contenuto condizionale, a destra verrà visualizzata l&#39;icona **Condizioni** \(![](images/conditions-icon.svg)\). Facendo clic sull&#39;icona **Condizioni** viene aperto il pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell&#39;argomento.
+**Pannello Condizioni** -   Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;icona **Condizioni** \(![](images/conditions-icon.svg)\) a destra. Selezionando l&#39;icona **Condizioni** si apre il pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell&#39;argomento.
 
 :   Per impostazione predefinita, l&#39;opzione **Evidenzia tutte le condizioni** è attivata, tutte le condizioni sono selezionate, l&#39;intero contenuto viene visualizzato e il contenuto condizionale viene visualizzato come evidenziato sia in modalità di revisione che di anteprima.
 
@@ -224,7 +225,7 @@ In modalità anteprima vengono visualizzati il contenuto non condizionale e il c
 
 - Se un argomento fa parte di più attività di revisione, i commenti aggiunti in un&#39;attività non vengono visualizzati nell&#39;altra attività.
 
-- Facendo clic sull&#39;icona Commento obsoleto \(![](images/outdated-comment-icon.svg)\) vengono visualizzate le differenze tra l&#39;ultima e la versione commentata del documento. I numeri di versione \(delle versioni confrontate\) vengono visualizzati nella parte superiore dei documenti.
+- Selezionando l&#39;icona Commento obsoleto \(![](images/outdated-comment-icon.svg)\) vengono visualizzate le differenze tra la versione più recente e la versione con commenti del documento. I numeri di versione \(delle versioni confrontate\) vengono visualizzati nella parte superiore dei documenti.
 
   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
@@ -232,11 +233,11 @@ In modalità anteprima vengono visualizzati il contenuto non condizionale e il c
   >
   > Quando passi il cursore sull’icona Commento obsoleto, viene visualizzato il numero di versione dell’argomento su cui è stato aggiunto il commento. Ad esempio, se un commento è stato dato alla versione 1.0, viene visualizzato lo stesso.
 
-- Se si fa clic su un commento non aggiornato, nel pannello a sinistra viene visualizzata la relativa versione. La versione precedente viene visualizzata nel pannello a sinistra, mentre la versione corrente nel pannello a destra. Tutti i commenti sulla versione obsoleta vengono importati sul lato sinistro. Puoi confrontare la versione precedente con la versione corrente.
+- Selezionando un commento obsoleto si apre la versione del commento nel pannello a sinistra. La versione precedente viene visualizzata nel pannello a sinistra, mentre la versione corrente nel pannello a destra. Tutti i commenti sulla versione obsoleta vengono importati sul lato sinistro. Puoi confrontare la versione precedente con la versione corrente.
 
-**Filtra commenti** -   È possibile filtrare i commenti in un documento per visualizzare commenti specifici in base alle esigenze. Per filtrare i commenti, fare clic sull&#39;icona **Filtro** \(![](images/filter-search-icon.svg)\) visualizzata nel menu a destra della casella di testo Cerca commenti nel pannello Commenti.
+**Filtra commenti** -   È possibile filtrare i commenti in un documento per visualizzare commenti specifici in base alle esigenze. Per filtrare i commenti, selezionare l&#39;icona **Filtro** \(![](images/filter-search-icon.svg)\) visualizzata nel menu a destra della casella di testo Cerca commenti nel pannello Commenti.
 
-Seleziona una o più delle seguenti opzioni di filtro dalla finestra di dialogo **Tipo filtro** e fai clic su **Applica**.
+Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
 - **Tipo di revisione** - Filtra in base al tipo di commenti: Evidenzia, Elimina, Inserimento o Commento.
 - **Stato revisione** - Filtra in base allo stato del commento come Accettato, Rifiutato o Nessuno.
@@ -247,6 +248,6 @@ Seleziona una o più delle seguenti opzioni di filtro dalla finestra di dialogo 
   Quando si utilizzano i filtri, i commenti nel pannello di destra vengono filtrati in base alla selezione e il numero di commenti nel pannello di sinistra viene aggiornato di conseguenza.
 
 
-Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e fare clic su **Applica**.
+Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
-**Argomento padre:**[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)
