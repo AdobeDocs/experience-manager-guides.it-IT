@@ -3,7 +3,9 @@ title: Conoscere le funzioni dell’editor web
 description: Scopri le funzioni dell’editor web in AEM Guides. Scopri l’interfaccia dell’editor web, compresi la barra degli strumenti principale, la barra degli strumenti secondaria, il pannello sinistro, l’area di modifica del contenuto e il pannello destro.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ Le impostazioni dell&#39;editor sono disponibili solo per gli utenti amministrat
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Controllo ortografia**: sono disponibili due opzioni: **Controllo ortografia AEM** e **Controllo ortografia browser**. Per impostazione predefinita, l’editor utilizza la funzione Controllo ortografia del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. È possibile passare a Controllo ortografia AEM per utilizzare il dizionario AEM, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione *Personalizzare il dizionario predefinito dell&#39;AEM* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+   - **Controllo ortografia**: sono disponibili due opzioni: **Controllo ortografia AEM** e **Controllo ortografia browser**. Per impostazione predefinita, l’editor utilizza la funzione Controllo ortografia del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. Puoi passare al controllo ortografico di AEM per utilizzare il dizionario AEM, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione *Personalizzare il dizionario predefinito di AEM* nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
    - **Condizione**
@@ -128,7 +130,7 @@ Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a dis
 
 >[!NOTE]
 >
-> Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato. Per ulteriori dettagli sulla configurazione, vedi la sezione *Configurare un pannello personalizzato nel pannello sinistro* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+> Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato. Per ulteriori dettagli sulla configurazione, consulta la sezione *Configurare un pannello personalizzato nel pannello sinistro* nell&#39;Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 - **Elenco elementi**: in qualità di amministratore, puoi controllare l&#39;elenco di elementi che un autore può inserire utilizzando il pop-up [Inserisci elemento](#id204SG30105Z) e definire anche il nome visualizzato per l&#39;elemento. L&#39;impostazione Elenco elementi consente di specificare il nome dell&#39;elemento in base alle specifiche DITA e un&#39;etichetta che si desidera utilizzare al posto del nome dell&#39;elemento definito DITA:
 
@@ -148,9 +150,9 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Profilo Publish**: contiene i profili Publish che possono essere utilizzati per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
+- **Profilo di pubblicazione**: contiene i profili di pubblicazione che possono essere utilizzati per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
 
-   - **Crea un profilo Publish di Salesforce**
+   - **Crea un profilo di pubblicazione Salesforce**
 
      **Prerequisiti**
 
@@ -168,18 +170,18 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**.
 
-  che possono essere utilizzati per creare il profilo Publish di Salesforce.
+  Possono essere utilizzati per creare il profilo di pubblicazione Salesforce.
 
 
-   - Per creare un profilo Publish di Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+   - Per creare un profilo di pubblicazione Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
      ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per Verifica collegamenti AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Crea un profilo Publish ServiceNow**
+   - **Crea un profilo di pubblicazione ServiceNow**
 
      **Prerequisiti**
 
@@ -192,12 +194,12 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
       - Fai clic su **Salva**.
 
-     Dopo aver configurato l&#39;app, creare il profilo Publish **ServiceNow**.
-   - Per creare un profilo di Publish, selezionare la Knowledge Base ServiceNow dal menu a discesa **Server Type**. Immetti un profilo **Nome**. Nell&#39;**URL ServiceNow**, immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Nome utente** e **Password** forniti dal sito consumer ServiceNow. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+     Dopo aver configurato l&#39;app, crea il profilo di pubblicazione **ServiceNow**.
+   - Per creare un profilo di pubblicazione, selezionare la Knowledge Base ServiceNow dal menu a discesa **Server Type**. Immetti un profilo **Nome**. Nell&#39;**URL ServiceNow**, immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Nome utente** e **Password** forniti dal sito consumer ServiceNow. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
      ![Profilo di pubblicazione ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Dopo la convalida, è possibile selezionare il profilo Publish nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output nel server **Salesforce** o **ServiceNow** scelto.
+  Dopo la convalida, è possibile selezionare il profilo di pubblicazione nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output nel server **Salesforce** o **ServiceNow** scelto.
 
   Ulteriori informazioni sul predefinito di output [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
@@ -465,7 +467,7 @@ Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la vist
 
 >[!NOTE]
 >
-> Durante l&#39;aggiunta di un collegamento video YouTube, è necessario sostituire la stringa `watch?v=` con `embed` nell&#39;URL. Per aggiungere ad esempio un collegamento video YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, è necessario aggiungerlo come: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Questa modifica garantisce che il video venga incorporato nel sito AEM e nell’output PDF.
+> Durante l&#39;aggiunta di un collegamento video YouTube, è necessario sostituire la stringa `watch?v=` con `embed` nell&#39;URL. Per aggiungere ad esempio un collegamento video YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, è necessario aggiungerlo come: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Questa modifica garantisce che il video venga incorporato nell’output del sito AEM e di PDF.
 
 È inoltre possibile aggiungere il file audio o video dalla finestra di dialogo Inserisci file multimediale. Selezionare l&#39;opzione File audio/video e fare clic sull&#39;icona Sfoglia per avviare la visualizzazione del repository. Selezionare il file audio o video dal repository e fare clic su Seleziona per aggiungere il collegamento del file nel campo File audio/video. Se scegliete un file video, nell&#39;area di anteprima viene visualizzata anche un&#39;anteprima del file. È possibile riprodurre il file video per visualizzarne l&#39;anteprima.
 
@@ -1149,7 +1151,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 - **Scarica come PDF**: utilizza l&#39;opzione per generare l&#39;output di PDF e scaricarlo.
 
-- **Publish As**: utilizzare l&#39;opzione per pubblicare un argomento o gli elementi di un argomento in un frammento di contenuto.
+- **Pubblica come**: utilizzare l&#39;opzione per pubblicare un argomento o gli elementi di un argomento in un frammento di contenuto.
 
 - **Generazione rapida**: genera l&#39;output per il file selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -1281,7 +1283,7 @@ Nella finestra di dialogo **Scarica mappa** puoi scegliere le seguenti opzioni:
 
   >[!NOTE]
   >
-  >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche AEM.
+  >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche di AEM.
 
 - **Genera output**: genera l&#39;output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 - **Chiudi**: chiude il file di mapping.

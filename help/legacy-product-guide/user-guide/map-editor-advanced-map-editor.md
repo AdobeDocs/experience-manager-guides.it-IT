@@ -3,8 +3,9 @@ title: Utilizzare l’Editor di mappe avanzato
 description: Scopri come utilizzare l’editor di mappe avanzato in AEM Guides. Conoscere le funzioni dell’Editor mappe avanzato. Modificare gli argomenti tramite una mappa DITA e utilizzare le visualizzazioni Layout, Autore e Anteprima.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
 1. Nel pannello sinistro passare alla **vista archivio**.
 
-1. Nel repository AEM passare alla cartella contenente gli argomenti o le mappe secondarie che si desidera aggiungere.
+1. Nell’archivio di AEM, passa alla cartella contenente gli argomenti o le mappe secondarie che desideri aggiungere.
 
 1. Selezionare l&#39;argomento o il file di mapping nella **Vista repository** e trascinarlo nell&#39;area di modifica del contenuto di mapping \(middle\).
 
@@ -97,7 +98,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica delle mappe e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione dell’AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
+   - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica delle mappe e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione di AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
 1. Fai clic su **Salva**.
 

@@ -3,7 +3,9 @@ title: Risoluzione dei problemi di base
 description: Risolvi i problemi relativi alla risoluzione dei problemi di base in AEM Guides. Scopri come visualizzare, copiare e controllare il file di registro in un editor di testo e risolvere gli errori di compilazione JSP.
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

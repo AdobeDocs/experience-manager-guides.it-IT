@@ -3,7 +3,9 @@ title: Genera output per una mappa DITA dalla console delle mappe
 description: Genera output per una mappa DITA dalla console delle mappe in AEM Guides. Scopri la generazione di output incrementale e come visualizzare lo stato, annullare ed eliminare un’attività di output.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -35,15 +37,15 @@ Puoi visualizzare lo stato corrente della richiesta di generazione dell’output
 >
 > Se un processo di generazione dell&#39;output per un predefinito è in coda o in corso, non è possibile avviare un&#39;altra operazione di generazione dell&#39;output per lo stesso predefinito.
 
-È possibile generare l&#39;output PDF per uno o più predefiniti di output creati per una mappa DITA dall&#39;Editor Web. Per ulteriori dettagli, vedere [Utilizzare il pannello Generazione rapida per generare e visualizzare l&#39;output per i predefiniti](web-editor-quick-generate-panel.md#).
+È possibile generare l&#39;output di PDF per uno o più predefiniti di output creati per una mappa DITA dall&#39;Editor Web. Per ulteriori dettagli, vedere [Utilizzare il pannello Generazione rapida per generare e visualizzare l&#39;output per i predefiniti](web-editor-quick-generate-panel.md#).
 
-È inoltre possibile generare l&#39;output del sito AEM per uno o più argomenti o per l&#39;intera mappa DITA dall&#39;editor Web. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
+È inoltre possibile generare l&#39;output del sito AEM per uno o più argomenti o per l&#39;intera mappa DITA dall&#39;Editor Web. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Generazione output incrementale {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> La generazione di output incrementale è applicabile solo all&#39;output del sito AEM. Inoltre, è possibile rigenerare solo gli argomenti DITA \(.dita/.xml\) da una mappa DITA o da mappe secondarie. Se si seleziona una mappa DITA, una mappa secondaria, un gruppo di argomenti o un argomento con `@processing-role="resource-only"`, l&#39;opzione di rigenerazione non è disponibile.
+> La generazione dell’output incrementale è applicabile solo all’output del sito AEM. Inoltre, è possibile rigenerare solo gli argomenti DITA \(.dita/.xml\) da una mappa DITA o da mappe secondarie. Se si seleziona una mappa DITA, una mappa secondaria, un gruppo di argomenti o un argomento con `@processing-role="resource-only"`, l&#39;opzione di rigenerazione non è disponibile.
 
 In alcuni casi è possibile aggiornare solo alcuni argomenti della mappa DITA e inviare in diretta solo gli argomenti aggiornati. Per gestire tali scenari, AEM Guides consente di creare output incrementali. Se sono stati aggiornati alcuni argomenti, non è necessario rigenerare l&#39;intera mappa DITA. È possibile selezionare solo gli argomenti aggiornati e rigenerarli.
 
@@ -104,7 +106,7 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
      Elenca gli output in attesa di generazione o in fase di generazione. Le attività in coda o in corso vengono visualizzate con un&#39;icona blu prima del nome del predefinito. È inoltre possibile trovare l&#39;impostazione di generazione dell&#39;output o il predefinito utilizzato per l&#39;attività in coda, il tipo, l&#39;utente che ha avviato l&#39;attività, il tempo trascorso dalla data di accodamento dell&#39;attività e lo stato corrente.
 
-     Fai clic sul collegamento per accedere a **Publish Dashboard** e visualizzare lo stato di esecuzione corrente. Nel dashboard di Publish è disponibile un elenco di tutte le attività di pubblicazione attive. I **Output in coda** e il collegamento **Dashboard di Publish** vengono visualizzati solo quando sono presenti output in attesa di generazione o in fase di generazione. Non vengono visualizzate al completamento delle attività di output.Per ulteriori dettagli su Publish Dashboard, vedere [Gestire le attività di pubblicazione tramite Publish Dashboard](generate-output-publish-dashboard.md#).
+     Fai clic sul collegamento per accedere al **Dashboard di pubblicazione** e visualizzare lo stato di esecuzione corrente. Nel dashboard di pubblicazione è disponibile un elenco di tutte le attività di pubblicazione attive. I **Output in coda** e il collegamento **Dashboard di pubblicazione** vengono visualizzati solo quando sono presenti output in attesa di generazione o in fase di generazione. Non vengono visualizzate al completamento delle attività di output.Per ulteriori dettagli su Dashboard di pubblicazione, vedere [Gestire le attività di pubblicazione tramite Dashboard di pubblicazione](generate-output-publish-dashboard.md#).
 
    - **Output generati**
 
@@ -116,12 +118,12 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
      >[!NOTE]
      >
-     > Quando fai clic su un collegamento dell’output PDF generato, ti viene chiesto di scaricare il PDF. Questo è il comportamento predefinito in AEM 6.5 e 6.4.
+     > Quando fai clic su un collegamento dell’output PDF generato, ti viene richiesto di scaricare il PDF. Questo è il comportamento predefinito in AEM 6.5 e 6.4.
 
 
 ## Annullare un&#39;attività di generazione output {#id2061H100T5Z}
 
-AEM Guides offre agli editori un modo semplice per annullare qualsiasi attività di pubblicazione in corso. In qualità di editore, puoi annullare un&#39;attività di pubblicazione in corso dalla console delle mappe DITA o dal [dashboard di Publish](generate-output-publish-dashboard.md#).
+AEM Guides offre agli editori un modo semplice per annullare qualsiasi attività di pubblicazione in corso. In qualità di editore, puoi annullare un&#39;attività di pubblicazione in corso dalla console delle mappe DITA o dal [Dashboard di pubblicazione](generate-output-publish-dashboard.md#).
 
 Per annullare un&#39;attività di generazione output dalla console delle mappe DITA, effettuare le seguenti operazioni:
 

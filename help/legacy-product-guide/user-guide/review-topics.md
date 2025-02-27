@@ -3,7 +3,9 @@ title: Rivedi argomenti
 description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revisore, visualizzazione documento, visualizzazione argomento, barra degli strumenti contestuale, modalità anteprima, aggiunta di allegati ai commenti e pannello condizioni in AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Puoi anche accedere al collegamento di revisione dell’argomento dalla tua casella in entrata nell’interfaccia utente dell’AEM.
+   > Puoi anche accedere al collegamento di revisione dell’argomento dalla tua area di notifica della casella in entrata nell’interfaccia utente di AEM.
 
 1. A seconda del modo in cui viene avviata la revisione dell’argomento, è possibile visualizzare una delle due schermate seguenti:
 

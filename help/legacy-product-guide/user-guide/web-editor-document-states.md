@@ -3,7 +3,9 @@ title: Stato documento
 description: Scopri i tipi di stati dei documenti in AEM Guides. Scopri come modificare o visualizzare lo stato del documento e come utilizzarlo in DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Un documento può avere uno qualsiasi degli stati definiti nel profilo Stato doc
 
 Questi stati vengono impostati manualmente o automaticamente in base alle impostazioni del profilo Stati documento. Ad esempio, se il profilo Stato documento è configurato con lo stato iniziale come Bozza e lo stato In revisione è definito per i documenti in revisione. Quindi, quando si crea un documento, lo stato del documento è impostato su *Bozza*. Se si avvia un&#39;attività di revisione, lo stato del documento viene modificato in In revisione.
 
-È inoltre possibile modificare manualmente lo stato del documento per uno o più documenti. Tuttavia, se si sceglie di modificare lo stato del documento per più documenti, lo stato consentito è determinato dagli stati comuni consentiti per i documenti selezionati. Si supponga ad esempio di aver definito gli stati del documento come Bozza, In revisione, Rivisto e Pronto per Publish nello stesso ordine. Nel documento one.dita lo stato è impostato su *Bozza* e nel documento two.dita lo stato è impostato su Rivisto. Quando si selezionano entrambi, one.dita e two.dita, lo stato del documento consentito sarà *Pronto per Publish*. Poiché two.dita è nello stato *Reviewed*, il successivo stato possibile per two.dita è solo *Ready to Publish*, che viene visualizzato quando entrambi i documenti sono selezionati.
+È inoltre possibile modificare manualmente lo stato del documento per uno o più documenti. Tuttavia, se si sceglie di modificare lo stato del documento per più documenti, lo stato consentito è determinato dagli stati comuni consentiti per i documenti selezionati. Si supponga ad esempio di aver definito gli stati del documento come Bozza, In revisione, Rivisto e Pronto per la pubblicazione nello stesso ordine. Nel documento one.dita lo stato è impostato su *Bozza* e nel documento two.dita lo stato è impostato su Rivisto. Quando si selezionano entrambi, one.dita e two.dita, lo stato del documento consentito sarà *Pronto per la pubblicazione*. Poiché two.dita è nello stato *Reviewed*, il successivo stato possibile per two.dita è solo *Ready to Publish*, che viene visualizzato quando entrambi i documenti sono selezionati.
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ user-guide-description: Leggi la documentazione del prodotto per Adobe Experienc
 breadcrumb-title: Documentazione di AEM Guides
 hide: true
 badgeAll: label="Guida alla vecchia interfaccia utente - Ulteriori informazioni" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guida alla vecchia interfaccia utente"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 3%
                - [Visualizzazioni dell’editor web](./user-guide/web-editor-views.md)
                - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
                - [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Guida intelligente basata sull’intelligenza artificiale per cercare contenuti](./user-guide/ai-based-smart-help.md)
+               - [Assistente AI per l’authoring di documenti con efficienza intelligente](./user-guide/ai-assistant-right-panel.md)
                - [Creare documenti Markdown dall’editor web](./user-guide/web-editor-markdown-topic.md)
                - [Aggiungere citazioni al contenuto](./user-guide/web-editor-apply-citations.md)
                - [Utilizzare i dati provenienti dalle origini dati](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 3%
       - [Risoluzione dei problemi di base](./user-guide/generate-output-basic-troubleshooting.md)
       - [Pubblicare frammenti di contenuto](./user-guide/publish-content-fragment.md)
       - [Pubblicare Frammenti Esperienza](./user-guide/publish-experience-fragment.md)
+      - [Pubblicare pagine AEM Sites](./user-guide/publish-aem-sites.md)
       - Attivazione in blocco del contenuto {#bulk-activation}
          - [Attivazione in blocco di contenuti pubblicati](./user-guide/conf-bulk-activation.md)
          - [Creare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-create-map-collection.md)

@@ -3,7 +3,9 @@ title: Modificare una raccolta di mappe di attivazione in blocco
 description: Utilizza la dashboard di pubblicazione in blocco in AEM Guides. Scopri come modificare una raccolta di mappe di attivazione in blocco aggiungendo o rimuovendo file di mappa.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%

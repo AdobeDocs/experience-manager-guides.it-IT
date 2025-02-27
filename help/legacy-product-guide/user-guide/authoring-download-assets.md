@@ -3,7 +3,9 @@ title: Scarica file
 description: Scopri come scaricare file dalla console delle mappe DITA in AEM Guides ed esportare un file di mappe DITA nell’archivio AEM.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # Scarica file {#id216MC0H0BE8}
 
-È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi dell’AEM e altri sono supportati da AEM Guides. Per informazioni sul download di risorse AEM native, consulta [Scaricare risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) nella documentazione AEM. La sezione seguente spiega il meccanismo di download dei file tramite la console delle mappe DITA in AEM Guides.
+È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per AEM e altri sono supportati da AEM Guides. Per informazioni sul download delle risorse native di AEM, consulta [Scaricare risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) nella documentazione di AEM. La sezione seguente spiega il meccanismo di download dei file tramite la console delle mappe DITA in AEM Guides.
 
 ## Esportare un file di mapping DITA
 
@@ -46,11 +48,11 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
    - Fai clic su **Scarica** per scaricare il file mappa in formato.zip.
 
-   - Fai clic su **Scarica più tardi** per scaricare il file mappa in un secondo momento. Il link per il download è accessibile dalla casella in entrata delle notifiche AEM. Fai clic sulla notifica della mappa generata nella casella in entrata per scaricare la mappa in formato .zip.
+   - Fai clic su **Scarica più tardi** per scaricare il file mappa in un secondo momento. Puoi accedere al collegamento per il download dalla casella in entrata delle notifiche AEM. Fai clic sulla notifica della mappa generata nella casella in entrata per scaricare la mappa in formato .zip.
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche AEM.
+   > Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche di AEM.
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 

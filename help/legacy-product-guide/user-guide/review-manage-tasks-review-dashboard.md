@@ -3,7 +3,9 @@ title: Gestire le attività di revisione mediante il dashboard Revisione
 description: Gestisci le attività di revisione dal dashboard di revisione in AEM Guides. Scopri le azioni da eseguire nella scheda attività, contenuto e revisori e controlla lo stato di un’attività di revisione.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -118,7 +120,7 @@ La relazione sullo stato dell&#39;attività di revisione contiene i dettagli rip
 - La colonna Stato indica lo stato della revisione. Lo stato potrebbe essere uno dei seguenti:
    - **Non avviato**: il revisore non ha ancora aperto il collegamento di revisione.
    - **In corso**: il revisore ha aperto il collegamento di revisione e sta esaminando l&#39;argomento.
-   - **Completo**: il revisore ha completato la revisione completando l&#39;attività di revisione ad esso assegnata. L&#39;attività di revisione è disponibile nella casella in entrata delle notifiche AEM per ogni revisore.
+   - **Completo**: il revisore ha completato la revisione completando l&#39;attività di revisione ad esso assegnata. L’attività di revisione si trova nella casella in entrata delle notifiche di AEM per ogni revisore.
 - Quando un revisore apre un collegamento di revisione e passa a un particolare argomento, tale argomento viene aggiunto all&#39;elenco Argomenti esaminati. In questo modo gli autori possono determinare se i revisori hanno aperto le rispettive sezioni o meno. Eventuali commenti sono riportati tra parentesi.
 - Numero totale di commenti su tutti gli argomenti. In caso di più argomenti in revisione, il numero di commenti per ciascun argomento è indicato \(tra parentesi\) rispetto al nome dell’argomento.
 - Data dell&#39;ultimo accesso a un argomento da parte del revisore.

@@ -1,9 +1,11 @@
 ---
 title: Visualizzazioni dell’editor web
-description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare i markup di rilevamento delle modifiche ed esportare un argomento come PDF in AEM Guides.
+description: Visualizza documenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare le revisioni delle modifiche e esportare un argomento come PDF in AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,7 +122,7 @@ Se un documento contiene marcature di revisione \(o indicazioni visive\), è pos
 
 ### Esportare un argomento come PDF {#id2114BL00B5U}
 
-PDF è uno dei formati di output più comuni utilizzati in tutte le fasi possibili del ciclo di sviluppo dei documenti. AEM Guides offre la flessibilità di generare le PDF di un singolo argomento o di un intero file di mappa. La funzione Esporta come PDF consente all&#39;autore, al publisher o all&#39;amministratore di generare facilmente l&#39;output PDF per un singolo argomento. Utilizza le configurazioni DITA-OT salvate nel profilo a livello di cartella per generare il PDF.
+PDF è uno dei formati di output più comuni utilizzati in tutte le fasi possibili del ciclo di sviluppo dei documenti. AEM Guides offre la flessibilità di generare il PDF di un singolo argomento o di un intero file di mappa. La funzione Esporta come PDF consente all’autore, al publisher o all’amministratore di generare facilmente l’output di PDF per un singolo argomento. Utilizza le configurazioni DITA-OT salvate nel profilo a livello di cartella per generare il PDF.
 
 Questa funzione supporta le seguenti funzionalità:
 
@@ -129,7 +131,7 @@ Questa funzione supporta le seguenti funzionalità:
 - Salva l&#39;output generato nel sistema locale.
 - Risolvi i riferimenti a chiave e contenuto utilizzati nell’argomento prima di generare l’output.
 
-Per esportare un argomento come PDF, effettuare le seguenti operazioni:
+Per esportare un argomento come PDF, eseguire la procedura seguente:
 
 1. Aprire l&#39;argomento in modalità Anteprima.
 
@@ -147,7 +149,7 @@ Per esportare un argomento come PDF, effettuare le seguenti operazioni:
    >
    > Assicurati di aver attivato la finestra pop-up nella configurazione del browser, altrimenti il PDF non verrà scaricato.
 
-   Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF sul sistema locale.
+   Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
 **Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

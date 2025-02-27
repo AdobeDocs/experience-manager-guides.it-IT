@@ -3,7 +3,9 @@ title: Rapporto mappa DITA dal dashboard delle mappe
 description: Generare rapporti mappa DITA dal dashboard delle mappe in AEM Guides. Scopri come generare il file CSV di un rapporto mappa DITA.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti opera
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   Puoi anche scaricare il file CSV del rapporto generato in un secondo momento dalla casella in entrata delle notifiche AEM.
+   Puoi anche scaricare il file CSV del rapporto generato in un secondo momento dalla casella in entrata delle notifiche di AEM.
 
    Fai clic sul rapporto generato nella casella in entrata per scaricarlo.
 

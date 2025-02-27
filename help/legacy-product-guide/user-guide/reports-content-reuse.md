@@ -3,7 +3,9 @@ title: Rapporto sul riutilizzo dei contenuti
 description: Scopri come visualizzare il rapporto sul riutilizzo dei contenuti in AEM Guides. Genera il report per trovare la percentuale di riutilizzo del contenuto.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

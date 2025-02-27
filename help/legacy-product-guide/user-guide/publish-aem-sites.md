@@ -1,16 +1,17 @@
 ---
-title: Publish di un argomento in una pagina AEM Sites
-description: Publish un argomento o gli elementi all’interno di un argomento in un output Adobe Experience Manager Sites.  Scopri come visualizzare la pagina Experience Manager Sites presente per un argomento e ripubblicarla.
+title: Pubblicare un argomento su una pagina AEM Sites
+description: Pubblica un argomento o gli elementi all’interno di un argomento in un output Adobe Experience Manager Sites.  Scopri come visualizzare la pagina Experience Manager Sites presente per un argomento e ripubblicarla.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Pagine Publish Adobe Experience Manager Sites
+# Pubblicare pagine Adobe Experience Manager Sites
 
 
 La pagina Experience Manager Sites fa riferimento al contenuto pubblicato sul sito web Adobe Experience Manager. Experience Manager Guides consente di pubblicare un argomento autonomo in una pagina Sites.

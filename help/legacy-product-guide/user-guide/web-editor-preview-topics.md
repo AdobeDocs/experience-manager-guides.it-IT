@@ -1,9 +1,11 @@
 ---
 title: Visualizzare l'anteprima di un argomento
-description: Scopri come visualizzare in anteprima un argomento in AEM Guides. Scopri le funzioni disponibili in modalità anteprima. Creazione di diramazioni, ripristino e successivo controllo delle versioni nelle guide AEM.
+description: Scopri come visualizzare in anteprima un argomento in AEM Guides. Scopri le funzioni disponibili in modalità anteprima. Branch, ripristino e successivo controllo delle versioni nelle guide di AEM.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Nella modalità anteprima della barra degli strumenti puoi eseguire le seguenti 
 
 **Proprietà**
 
-Visualizza le proprietà dell&#39;argomento selezionato. In base alla versione dell’AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
+Visualizza le proprietà dell&#39;argomento selezionato. In base alla versione di AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
 >[!NOTE]
 >

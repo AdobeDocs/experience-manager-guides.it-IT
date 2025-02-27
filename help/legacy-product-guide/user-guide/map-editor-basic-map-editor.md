@@ -3,7 +3,9 @@ title: Utilizzare l’Editor mappa di base
 description: Scopri come utilizzare l’Editor mappe di base in AEM Guides. Conoscere le funzioni dell’editor di mappe di base a livello di mappa e di argomento. Creare e modificare tabelle di relazioni in una mappa DITA.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 > L’Editor mappe di base, precedentemente disponibile in Experience Manager Guides, è stato dichiarato obsoleto a partire dalle versioni 4.3 e 2307. Non è possibile accedere all&#39;Editor mappe di base per creare e gestire mappe DITA.
 >Si consiglia di utilizzare l’Editor di mappe avanzato. Advanced Map Editor offre funzioni avanzate e migliori opzioni di personalizzazione. Ulteriori informazioni su come utilizzare [Editor mappe avanzato](../user-guide/map-editor-advanced-map-editor.md).
 
-Basic Map Editor fornisce una semplice funzione di trascinamento per aggiungere argomenti dall&#39;archivio AEM per creare la mappa DITA o la mappa segnalibro. È possibile aggiungere argomenti nidificati, tabelle di relazioni \(reltable\), attributi e informazioni sui metadati, nonché convalidare la mappa per verificarne la correttezza.
+Basic Map Editor fornisce una semplice funzione di trascinamento della selezione per aggiungere argomenti dall&#39;archivio AEM per creare la mappa DITA o la mappa segnalibro. È possibile aggiungere argomenti nidificati, tabelle di relazioni \(reltable\), attributi e informazioni sui metadati, nonché convalidare la mappa per verificarne la correttezza.
 
 >[!NOTE]
 >

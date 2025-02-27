@@ -3,7 +3,9 @@ title: Attiva output
 description: Attiva l'output delle mappe DITA in AEM Guides. Scopri come attivare i contenuti nell’istanza di pubblicazione.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 1%
@@ -40,19 +42,19 @@ Visualizza i diversi modi per attivare la raccolta in base alla configurazione.
 
 ![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-È possibile attivare l&#39;output nelle istanze **Anteprima** o **Publish**.
+Puoi attivare l&#39;output nelle istanze **Anteprima** o **Pubblica**.
 
 **Anteprima**
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish in** > **Anteprima**.
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla colonna **Mappa**, quindi selezionare **Publish a** > **Publish**.
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblica in** > **Anteprima**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla colonna **Mappa**, quindi selezionare **Pubblica in** > **Pubblica**.
 
 
-**Publish**
+**Pubblica**
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish in** > **Publish**.
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblica in** > **Pubblica**.
 
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Publish to** > **Publish**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblica su** > **Pubblica**.
 
 
 >[!NOTE]
@@ -71,8 +73,8 @@ Una volta attivato l’output per i file di mappa selezionati, viene aggiornata 
 
 Effettua una delle seguenti operazioni:
 
-* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Publish rapido**.
-* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Publish rapido.**
+* Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblicazione rapida**.
+* Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblicazione rapida.**
   ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

@@ -3,7 +3,9 @@ title: Inserire uno snippet di contenuto dall'origine dati
 description: Utilizza i dati dell’origine dati in AEM Guides. Scopri come inserire uno snippet di contenuto dall’origine dati. Creare un argomento utilizzando il generatore di argomenti.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,9 +28,9 @@ In base alla configurazione, l’amministratore può configurare un connettore d
 <summary> Servizi cloud </summary>
 
 
-- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di ottobre 2023 o successiva, scopri come [configurare un connettore dell&#39;origine dati dall&#39;interfaccia utente](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) nella Guida all&#39;installazione e alla configurazione di Cloud Services.
 
-- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione dei Cloud Service.
+- Se utilizzi la versione di luglio 2023 o di settembre 2023, scopri come [configurare un connettore dell&#39;origine dati](/help/product-guide/cs-install-guide/conf-data-source-connector.md) nella Guida all&#39;installazione e alla configurazione di Cloud Services.
 
 </details>
 
@@ -90,7 +92,7 @@ Per creare uno snippet di contenuto utilizzando il generatore di snippet di cont
 
    >[!NOTE]
    >
-   >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+   >Experience Manager fornisce diverse query di esempio per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
 
 1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
 
@@ -191,7 +193,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
       >[!NOTE]
       >
-      >In Experience Manager vengono fornite query di esempio diverse per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
+      >Experience Manager fornisce diverse query di esempio per tutte le risorse nelle varie origini dati. Questi vengono mappati all’origine dati da cui stai recuperando i dati.
 
    1. Se utilizzi un connettore per file, puoi caricare il file JSON dal computer o sfogliare un file JSON dalle risorse Adobe Experience Manager.
 
@@ -279,7 +281,7 @@ Fai clic con il pulsante destro del mouse su un generatore di argomenti per apri
 
 ## Utilizzare gli strumenti Velocity nei modelli di origini dati {#use-velocity-tools}
 
-I modelli di Experience Manager supportano anche gli strumenti Velocity (versione 2.0). Questi strumenti consentono di applicare varie funzioni ai dati recuperati dalle origini dati. Ulteriori informazioni sull&#39;utilizzo degli [strumenti Velocity](https://velocity.apache.org/tools/2.0/generic.html) e delle funzioni che è possibile applicare.
+I modelli Experience Manager supportano anche gli strumenti Velocity (versione 2.0). Questi strumenti consentono di applicare varie funzioni ai dati recuperati dalle origini dati. Ulteriori informazioni sull&#39;utilizzo degli [strumenti Velocity](https://velocity.apache.org/tools/2.0/generic.html) e delle funzioni che è possibile applicare.
 
 Per utilizzare uno strumento Velocity in un modello, effettuate le seguenti operazioni:
 1. Modifica un modello Velocity nell’editor web.

@@ -3,7 +3,9 @@ title: Gestire i predefiniti di output per Profilo globale e Cartella
 description: Scopri come creare, modificare, rinominare, duplicare ed eliminare predefiniti di output per profili globali e di cartelle come utenti amministratori in AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,7 +41,7 @@ Per creare un predefinito di output per i profili globali e cartelle, effettua l
 
 >[!NOTE]
 >
-> AEM Guides fornisce inoltre un predefinito di output PDF predefinito per generare l&#39;output per le mappe DITA.
+> AEM Guides fornisce inoltre un predefinito di output predefinito per PDF per generare l&#39;output per le mappe DITA.
 
 **Altre operazioni dal menu Opzioni**
 

@@ -3,7 +3,9 @@ title: Gestire i contenuti
 description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AEM Guides. Scopri i concetti chiave della gestione dei contenuti e dell’utilizzo dei profili a livello globale o di cartella.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -16,11 +18,11 @@ Prima di iniziare a creare effettivamente i contenuti, è necessario acquisire f
 
 ## Concetti fondamentali
 
-Alcuni concetti chiave della gestione dei contenuti dell’AEM sono i seguenti:
+Di seguito sono riportati alcuni concetti chiave della gestione dei contenuti in AEM:
 
 **Gestione risorse**
 
-AEM Guides utilizza il servizio di gestione delle risorse digitali (DAM\) dell’AEM per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in AEM Assets. Per ulteriori informazioni sulla gestione delle risorse, consulta [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides utilizza la funzione di gestione delle risorse digitali (DAM) di AEM per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in AEM Assets. Per ulteriori informazioni sulla gestione delle risorse, consulta [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Gestione dei collegamenti**
 
@@ -34,7 +36,7 @@ Per ulteriori informazioni sulla creazione di versioni o sul ripristino di una v
 
 **Gestione DITA nativa**
 
-AEM Guides mantiene la struttura dei file DITA, ma consente anche all&#39;AEM di gestire in modo nativo la DITA utilizzando la mappatura degli elementi per mappare gli elementi DITA ai componenti AEM. La gestione DITA nativa viene utilizzata in funzioni quali l&#39;anteprima degli argomenti, la pubblicazione AEM Sites e i flussi di lavoro di revisione.
+AEM Guides mantiene la struttura dei file DITA, ma consente anche ad AEM di gestire in modo nativo la DITA utilizzando la mappatura degli elementi per mappare gli elementi DITA ai componenti AEM. La gestione DITA nativa viene utilizzata in funzioni quali l&#39;anteprima degli argomenti, la pubblicazione AEM Sites e i flussi di lavoro di revisione.
 
 ## Identificare il ruolo e le autorizzazioni {#id181TF0K0MHT}
 

@@ -3,7 +3,9 @@ title: Rapporto sullo stato della conversione
 description: Converte documenti di formati diversi in DITA in AEM Guides. Scopri come aggiungere filtri e visualizzare un rapporto sullo stato della conversione.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
    - **Filtro:**
 
-     Puoi filtrare i dati del rapporto in base al tipo di file e allo stato della conversione. In Tipo file è possibile scegliere di visualizzare i dati del report per documenti di Word, HTML strutturati, XML e DocBook. Nello stato è possibile scegliere di visualizzare i dati del report per le attività eseguite correttamente, non riuscite, attive o in coda.
+     Puoi filtrare i dati del rapporto in base al tipo di file e allo stato della conversione. In Tipo file è possibile scegliere di visualizzare i dati del report per i documenti di Word, HTML strutturato, XML e DocBook. Nello stato è possibile scegliere di visualizzare i dati del report per le attività eseguite correttamente, non riuscite, attive o in coda.
 
      Nella schermata seguente vengono visualizzati i dati del rapporto per le attività di conversione con stato Non riuscito, Attivo e In coda.
 
@@ -42,7 +44,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
       - **Nome file**: nome del file di origine in cui è stato eseguito il processo di conversione. Se si fa clic sul collegamento Nome file, viene visualizzata la posizione del documento di origine.
 
-      - **Tipo file**: tipo del documento di origine, che può essere Word, HTML strutturato, XML e DocBook.
+      - **Tipo file**: tipo di documento di origine, ad esempio Word, HTML strutturato, XML e DocBook.
 
       - **Aggiunto da**: nome dell&#39;utente che ha eseguito l&#39;attività di conversione.
 

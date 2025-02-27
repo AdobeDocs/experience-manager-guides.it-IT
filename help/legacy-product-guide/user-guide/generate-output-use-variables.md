@@ -3,7 +3,9 @@ title: Utilizzare le variabili per impostare le opzioni Percorso di destinazione
 description: Scopri come utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file. Conoscere le variabili pronte all’uso supportate in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -13,7 +15,7 @@ ht-degree: 0%
 # Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file
 
 
-Durante la generazione di output in PDF o siti AEM, è possibile utilizzare le variabili per definire le opzioni Percorso di destinazione, Nome sito AEM o Nome file PDF. Puoi utilizzare una singola variabile o una combinazione di variabili per definire queste opzioni.
+Durante la generazione di output in AEM Site o PDF, è possibile utilizzare le variabili per definire le opzioni Percorso di destinazione, Nome sito AEM o Nome file PDF. Puoi utilizzare una singola variabile o una combinazione di variabili per definire queste opzioni.
 
 Nella tabella seguente sono elencate le variabili supportate come predefinite:
 

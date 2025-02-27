@@ -3,7 +3,9 @@ title: Usa editor DITAVAL
 description: Scopri come creare e modificare i file DITAVAL utilizzando l’Editor DIVATAL in AEM Guides. Scopri in che modo l’editor DITAVAL supporta i file DITAVAL nelle visualizzazioni di authoring e sorgente.
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 I file DITAVAL vengono utilizzati per generare output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi dell’elemento per condizionare il contenuto. Quindi, create un file DITAVAL in cui specificate le condizioni che devono essere selezionate per generare il contenuto e quali condizioni devono essere escluse dall&#39;output finale.
 
-AEM Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tag\) definiti nel sistema ed è possibile utilizzarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, vedere la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione AEM.
+AEM Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tag\) definiti nel sistema ed è possibile utilizzarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, consulta la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di AEM.
 
 ## Crea file DITAVAL
 
@@ -77,7 +79,7 @@ Se desiderate aggiungere tutte le proprietà condizionali o gli attributi defini
 
    >[!NOTE]
    >
-   > Se si chiude il file senza salvare, le modifiche andranno perse. Se non si desidera eseguire il commit delle modifiche nel repository AEM, fare clic su **Chiudi**, quindi su **Chiudi senza salvare** nella finestra di dialogo **Modifiche non salvate**.
+   > Se si chiude il file senza salvare, le modifiche andranno perse. Se non desideri confermare le modifiche nell&#39;archivio di AEM, fai clic su **Chiudi**, quindi su **Chiudi senza salvare** nella finestra di dialogo **Modifiche non salvate**.
 
 
 ## Visualizzazioni dell’editor DITAVAL

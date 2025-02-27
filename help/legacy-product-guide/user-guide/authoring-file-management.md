@@ -3,7 +3,9 @@ title: Gestione di file e cartelle
 description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incollare, trascinare e rilasciare, eliminare, spostare file e cartelle in blocco e cercare contenuti DITA.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, c
 
   >[!NOTE]
   >
-  > La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+  > La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
   Se un file è già stato estratto per essere modificato da un altro utente e si tenta di caricare e sovrascrivere il file esistente, il file non riesce e viene visualizzato un errore.
 
   >[!NOTE]
   >
-  >La funzionalità **Sovrascrivi file estratto al caricamento** deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, vedere la sezione *Sovrascrivi file estratto al caricamento* nell&#39;as a Cloud Service Installa e configura Adobe Experience Manager Guides.
+  >La funzionalità **Sovrascrivi file estratto al caricamento** deve essere disabilitata dall&#39;amministratore. Se questa funzionalità è attivata, è possibile sovrascrivere i file estratti. Se la funzionalità non è abilitata, non è possibile sovrascrivere un file estratto. Per ulteriori dettagli, vedere la sezione *Sovrascrivi file estratto al caricamento* nell&#39;installazione e configurazione di Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *Trascina i file in un percorso diverso*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale al nome del file originale.
@@ -82,7 +84,7 @@ Quando il file viene sovrascritto, il nome o l’UUID del file non vengono modif
 
 Se si seleziona l&#39;opzione **Crea versione per la copia di lavoro esistente**, viene creata una nuova versione della copia di lavoro del documento; il nuovo file viene caricato, viene creata anche una nuova versione del file e viene creata come copia di lavoro del documento.
 
-La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, vedere la sezione *Creare una nuova versione per il file caricato* nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
 *Trascina e rilascia il file in una posizione diversa*: sono disponibili le opzioni **Sovrascrivi file esistenti\(s\)**, **Sposta file\(s\) in una nuova posizione** e un&#39;opzione per creare una versione della copia di lavoro esistente.
@@ -98,11 +100,11 @@ Con la sostituzione o lo spostamento dei file, se si sceglie di creare una versi
 
 ## Spostare i file in blocco {#move-files-bulk}
 
-AEM Guides viene fornito con lo strumento Bulk Move che consente all’amministratore di spostare una cartella con un numero elevato di file da una posizione all’altra. Questo strumento consente di spostare facilmente i file all&#39;interno di una o più cartelle in una cartella diversa nell&#39;archivio AEM. Una delle caratteristiche principali di questo strumento è che non solo sposta un numero elevato di file, ma mantiene anche i riferimenti a e dai file che vengono spostati. È possibile modificare il numero di file che è possibile spostare in batch senza ostacolare le attività di creazione e pubblicazione.
+AEM Guides viene fornito con lo strumento Bulk Move che consente all’amministratore di spostare una cartella con un numero elevato di file da una posizione all’altra. Questo strumento consente di spostare facilmente i file all’interno di una o più cartelle in una cartella diversa nell’archivio AEM. Una delle caratteristiche principali di questo strumento è che non solo sposta un numero elevato di file, ma mantiene anche i riferimenti a e dai file che vengono spostati. È possibile modificare il numero di file che è possibile spostare in batch senza ostacolare le attività di creazione e pubblicazione.
 
 >[!NOTE]
 >
-> Lo strumento Sposta in blocco funziona solo a livello di cartella. Se desideri spostare singoli file argomento o mappa, utilizza lo strumento di spostamento normale dell’interfaccia utente Assets dell’AEM.
+> Lo strumento Sposta in blocco funziona solo a livello di cartella. Se desideri spostare singoli file argomento o mappa, utilizza lo strumento di spostamento normale dall’interfaccia utente Assets di AEM.
 
 Di seguito sono riportate alcune delle funzioni fornite dallo strumento Spostamento in blocco:
 
@@ -130,7 +132,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    <details>
 
-   <summary> Cloud Service e file system locale basato su UUID </summary>
+   <summary> Cloud Services e file system basato su UUID on-premise </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,7 +219,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
 ## Cerca contenuto DITA
 
-Per impostazione predefinita, l&#39;AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. AEM Guides aggiunge un livello sopra l&#39;AEM, che consente all&#39;AEM di comprendere ed elaborare i contenuti DITA. La funzione Ricerca contenuto DITA in AEM Guides consente di cercare contenuto DITA all’interno dell’archivio AEM.
+Per impostazione predefinita, AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. AEM Guides aggiunge un livello sopra AEM, che consente ad AEM di comprendere ed elaborare i contenuti DITA. La funzione Ricerca contenuto DITA in AEM Guides consente di cercare contenuto DITA all&#39;interno dell&#39;archivio AEM.
 
 >[!NOTE]
 >
@@ -275,7 +277,7 @@ Per cercare i file in base al loro stato di estrazione, effettuare le seguenti o
 
 ## Elimina file
 
-L’eliminazione dei file dal repository dell’AEM è una funzione soggetta a restrizioni, controllata dall’amministratore di sistema. In base alle configurazioni, l’eliminazione dei file potrebbe essere soggetta a restrizioni se:
+L’eliminazione dei file dal repository di AEM è una funzione limitata controllata dall’amministratore di sistema. In base alle configurazioni, l’eliminazione dei file potrebbe essere soggetta a restrizioni se:
 
 - Ritirato
 - Hanno riferimenti in entrata o in uscita

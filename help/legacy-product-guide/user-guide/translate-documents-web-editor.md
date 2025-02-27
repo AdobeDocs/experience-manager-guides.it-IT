@@ -3,7 +3,9 @@ title: Traduci documenti dall'editor Web
 description: Traduci i contenuti in più lingue dall’editor web. Scopri come creare un progetto di traduzione, aggiungere regole, visualizzare le versioni e ignorare i file non sincronizzati in AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -20,7 +22,7 @@ AEM Guides dispone di una potente funzione nell’editor web che consente di tra
 
 >[!NOTE]
 >
-> L’amministratore può configurare la scheda Gestisci \(utilizzata per la traduzione\) nell’editor web. Per ulteriori dettagli, vedere *Configurare la funzionalità di traduzione nella sezione Editor Web* nell&#39;as a Cloud Service Installare e configurare Adobe Experience Manager Guides.
+> L’amministratore può configurare la scheda Gestisci \(utilizzata per la traduzione\) nell’editor web. Per ulteriori dettagli, vedere *Configurare la funzionalità di traduzione nella sezione Editor Web* dell&#39;installazione e configurazione di Adobe Experience Manager Guides as a Cloud Service.
 
 ## Prima di iniziare
 
@@ -136,9 +138,9 @@ AEM Guides consente agli amministratori di configurare le regole di traduzione. 
 I file SRX devono essere denominati come `<language-code>.srx`. Ad esempio, en-US o ar-AE.
 
 >[!NOTE]
->Il titolo non distingue tra maiuscole e minuscole, quindi puoi avere &quot;en-US&quot; o &quot;en-us&quot; o &quot;EN-us&quot;. Inoltre, le guide AEM possono risolvere il segno &quot;-&quot; (trattino) o &quot;_&quot; (trattino basso). Quindi, puoi avere &quot;en-US&quot; o &quot;en_US&quot;.
+>Il titolo non distingue tra maiuscole e minuscole, quindi puoi avere &quot;en-US&quot; o &quot;en-us&quot; o &quot;EN-us&quot;. Inoltre, le guide di AEM possono risolvere &quot;-&quot; (trattino) o &quot;_&quot; (trattino basso). Quindi, puoi avere &quot;en-US&quot; o &quot;en_US&quot;.
 
-Inoltre, è possibile inserire questi file in qualsiasi cartella della radice delle risorse AEM che sia `./content/dam`.
+Inoltre, puoi inserire questi file in qualsiasi cartella della directory principale delle risorse di AEM che sia `./content/dam`.
 
 
 
@@ -205,7 +207,7 @@ Alcuni dei riferimenti nel dashboard di traduzione potrebbero essere in stato di
 
 >[!NOTE]
 >
-> Puoi visualizzare il collegamento In corso per i progetti tradotti creati nella versione di febbraio 2023 o successiva di AEM Guides as a Cloud Service.
+> Puoi visualizzare il collegamento In corso per i progetti tradotti creati in AEM Guides as a Cloud Service versione di febbraio 2023 o successiva.
 
 Fate clic sul nome del riferimento nella finestra di dialogo per aprirlo in modalità anteprima. Puoi anche fare clic sul progetto di traduzione per avviare la traduzione.
 

@@ -2,8 +2,10 @@
 title: Informazioni sui predefiniti di output
 description: Comprendere i predefiniti di output in AEM Guides. Crea predefiniti di output dall’editor web e dal dashboard delle mappe per i formati AEM site, PDF, HTML5, EPUB, custom e JSON.
 feature: Publishing
+hide: true
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -12,14 +14,14 @@ ht-degree: 0%
 
 # Informazioni sui predefiniti di output {#understanding_output_settings}
 
-AEM Guides supporta la creazione di output nei formati più diffusi, ad esempio AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. Un predefinito di output rappresenta un formato di output personalizzato in cui si desidera pubblicare il contenuto.
+AEM Guides supporta la creazione di output nei formati più diffusi, come AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. Un predefinito di output rappresenta un formato di output personalizzato in cui si desidera pubblicare il contenuto.
 
 Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
 
 Potete creare i predefiniti in due modi:
 
 - **Dall&#39;editor Web**: è possibile creare il predefinito di output Sito AEM, PDF, Knowledge Base, HTML5, Personalizzato e JSON e generare i rispettivi output.
-- **Dal dashboard delle mappe**: è possibile creare un predefinito di output personalizzato per sito AEM, PDF, HTML5, EPUB e e generare i rispettivi output.
+- **Dal dashboard delle mappe**: è possibile creare il predefinito di output Sito AEM, PDF, HTML5, EPUB e personalizzato e generare i rispettivi output.
 
 Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
 

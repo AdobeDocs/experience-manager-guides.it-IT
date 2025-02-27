@@ -1,16 +1,18 @@
 ---
-title: Publish di un argomento in un frammento di contenuto
-description: Publish di un argomento o degli elementi all’interno di un argomento in un frammento di contenuto in AEM Guides.  Scopri come visualizzare i Frammenti di contenuto presenti in un argomento e ripubblicarli.
+title: Pubblicare un argomento in un frammento di contenuto
+description: Pubblica un argomento o gli elementi di un argomento in un frammento di contenuto in AEM Guides.  Scopri come visualizzare i Frammenti di contenuto presenti in un argomento e ripubblicarli.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Frammenti di contenuto Publish
+# Pubblicare frammenti di contenuto
 
 I frammenti di contenuto sono parti discrete di contenuto in Adobe Experience Manager. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati da Adobe Experience Manager. I frammenti di contenuto sono modulari, dove il contenuto viene suddiviso in componenti più piccoli.
 
@@ -39,7 +41,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 1. Nella finestra di dialogo **Genera frammento di contenuto**, compila i seguenti dettagli nelle schede **Generale** e **Mappatura**.
 
    Scheda **Generale**
-   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento di contenuto](images/generate-content-fragment.png)
+   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento di contenuto](images/generate-content-fragment.png)
    *Aggiungi il percorso, il nome, il titolo e il filtro delle condizioni per pubblicare un argomento o i relativi elementi come frammento di contenuto.*
 
 
@@ -63,7 +65,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 
    Scheda **Mappatura**
 
-   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento di contenuto](images/content-fragment-mapping.png)
+   ![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento di contenuto](images/content-fragment-mapping.png)
 
    *Selezionare il modello per frammenti di contenuto e aggiungere i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di contenuto.*
 

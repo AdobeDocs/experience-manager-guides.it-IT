@@ -1,7 +1,8 @@
 ---
 title: Guida intelligente basata sull’intelligenza artificiale per cercare contenuti
 description: Scopri come visualizzare e utilizzare la Guida avanzata basata sull’intelligenza artificiale nell’editor web.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Puoi porre le tue domande e ottenere le risposte in modo informativo. La risposta alla query si basa sul contenuto della documentazione del prodotto. Questa ricerca è completamente conversazionale. Puoi fare domande, e poi, in base alla risposta, puoi anche fare altre domande. La risposta include anche collegamenti ai documenti di origine, a cui è possibile fare riferimento per ulteriori dettagli.
 
-Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come si crea un argomento?* Ricevi una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output PDF per il documento, è possibile porre domande su di esso. *Come si pubblica un argomento in un PDF?* o *Come generare l&#39;output PDF per un argomento?*
+Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come si crea un argomento?* Ricevi una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output di PDF per il documento, è possibile porre domande su di esso. *Come si pubblica un argomento in un PDF?* o *Come generare l&#39;output di PDF per un argomento?*
 
 
 
@@ -25,7 +26,7 @@ All&#39;apertura dell&#39;editor Web, il pannello **Guida avanzata** viene visua
 
 >[!NOTE]
 >
-> L&#39;amministratore deve configurare la funzionalità **Guida avanzata**. Per ulteriori dettagli, vedere la sezione [Configurare la Guida avanzata basata su IA per eseguire ricerche nel contenuto](/help/product-guide/cs-install-guide/conf-smart-help.md) nella Guida all&#39;installazione e alla configurazione per i Cloud Service.
+> L&#39;amministratore deve configurare la funzionalità **Guida avanzata**. Per ulteriori dettagli, consulta la sezione [Configurare la Guida avanzata basata sull&#39;intelligenza artificiale per eseguire ricerche nel contenuto](/help/product-guide/cs-install-guide/conf-smart-help.md) nella Guida all&#39;installazione e alla configurazione per Cloud Services.
 
 ![Pannello Guida avanzato](images/smart-help-panel.png){width="300" align="left"}
 

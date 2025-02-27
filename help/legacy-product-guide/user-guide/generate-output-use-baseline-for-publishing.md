@@ -3,7 +3,9 @@ title: Utilizzare la previsione
 description: Conoscere l’utilizzo delle linee di base in AEM Guides. Scopri come creare, visualizzare contenuti, modificare, duplicare, rimuovere, aggiungere etichette ed esportare baseline tradotte.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

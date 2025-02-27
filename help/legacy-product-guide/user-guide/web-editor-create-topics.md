@@ -3,7 +3,9 @@ title: Crea argomenti
 description: Scopri come creare tipi di argomenti DITA utilizzando modelli personalizzati nell’editor web di AEM Guides.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Per creare un argomento, effettua le seguenti operazioni:
 
 1. Fai clic su **Crea**. Viene visualizzato il messaggio Topic Created (Creazione argomento).
 
-   È possibile scegliere di aprire l&#39;argomento per la modifica nell&#39;editor Web o salvare il file dell&#39;argomento nel repository AEM.
+   È possibile scegliere di aprire l&#39;argomento per la modifica nell&#39;editor Web o salvare il file dell&#39;argomento nel repository di AEM.
 
    A ogni nuovo argomento creato dall&#39;interfaccia utente di Assets **Crea** \> **Argomento DITA** o dall&#39;editor Web viene assegnato un ID argomento univoco. Il valore di questo ID è il nome del file stesso. Inoltre, un nuovo documento viene salvato come ultima copia di lavoro dell’argomento in DAM. Fino a quando non si salva una revisione di un argomento appena creato, nella Cronologia versioni non verrà visualizzato alcun numero di versione. Se si apre l&#39;argomento per la modifica, le informazioni sulla versione vengono visualizzate nell&#39;angolo superiore destro della scheda del file di argomento:
 

@@ -1,20 +1,22 @@
 ---
-title: Publish di un argomento in un frammento di esperienza
-description: Publish Applicare un argomento o gli elementi di un argomento a un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
+title: Pubblicare un argomento in un frammento di esperienza
+description: Pubblica un argomento o gli elementi di un argomento in un frammento di esperienza in AEM Guides.  Scopri come visualizzare i frammenti di esperienza presenti in un argomento e ripubblicarli.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
-# Frammenti esperienza Publish
+# Pubblicare Frammenti Esperienza
 
 I frammenti di esperienza sono parti di contenuto modulare in Adobe Experience Manager. Questi blocchi di contenuto sono basati su modelli e incapsulano sia il contenuto che il relativo layout. Questi contenuti riutilizzabili consentono ai creatori di contenuti di assemblare e fornire esperienze coerenti e scalabili su più canali supportati da Experience Manager. Questa funzione consente di creare facilmente esperienze di marketing coerenti in modo efficiente, come newsletter, banner promozionali e testimonianze di clienti.
 
-Experience Manager Guides consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento e i relativi elementi in un frammento di esperienza. Quindi, utilizza la mappatura per pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi quindi utilizzare i frammenti di esperienza in qualsiasi sito di Experienci Manager o estrarre i dettagli tramite API supportate da Frammenti di esperienza.
+Experience Manager Guides consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento e i relativi elementi in un frammento di esperienza. Quindi, utilizza la mappatura per pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi quindi utilizzare i frammenti di esperienza in qualsiasi sito Experience Manager o estrarre i dettagli tramite API supportate da Frammenti di esperienza.
 
 
 
@@ -45,10 +47,10 @@ Ad esempio:
 
    >[!NOTE]
    >
-   > È inoltre possibile pubblicare un frammento di esperienza dalla **vista archivio**. Seleziona l’argomento da pubblicare come frammento di esperienza. Quindi, dal menu **Opzioni**, seleziona **Publish As** > **Frammento esperienza**.
+   > È inoltre possibile pubblicare un frammento di esperienza dalla **vista archivio**. Seleziona l’argomento da pubblicare come frammento di esperienza. Dal menu **Opzioni**, seleziona **Pubblica come** > **Frammento esperienza**.
 
 1. Nella finestra di dialogo **Genera frammento esperienza**, compila i seguenti dettagli:
-   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento esperienza](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento esperienza](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Aggiungi il percorso, il modello e i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di esperienza. È possibile sovrascrivere un frammento di esperienza esistente.*
 

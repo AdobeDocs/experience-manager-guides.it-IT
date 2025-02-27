@@ -3,7 +3,9 @@ title: Creare una mappa
 description: Crea una mappa con Editor mappe in AEM Guides. Trova i passaggi per creare un file di mappa basato su un modello di mappa.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -50,7 +52,7 @@ Per creare un file di mappa, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Per utilizzare l&#39;Editor mapping avanzato, accedere al file di mapping nell&#39;Editor Web. Se l&#39;amministratore ha configurato l&#39;Editor mapping avanzato come editor predefinito nei file di mapping, il file di mapping viene aperto direttamente nell&#39;Editor mapping avanzato per la modifica. Consulta *Impostare l&#39;Editor mappe avanzate come as a Cloud Service* nella sezione Installare e configurare Adobe Experience Manager Guides.
+   > Per utilizzare l&#39;Editor mapping avanzato, accedere al file di mapping nell&#39;Editor Web. Se l&#39;amministratore ha configurato l&#39;Editor mapping avanzato come editor predefinito nei file di mapping, il file di mapping viene aperto direttamente nell&#39;Editor mapping avanzato per la modifica. Consulta *Impostare l&#39;Editor mappe avanzate come predefinito* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
 **Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

@@ -3,7 +3,9 @@ title: Usa raccolta mappe per la generazione dell'output
 description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere o eliminare una mappa DITA. Configurare, generare e annullare un’attività di generazione dell’output da una raccolta di mappe in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 1%
@@ -54,7 +56,7 @@ Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i 
 
 - **Filtro:** La barra più recente mostra i filtri seguenti:
    - **Modificato**: è possibile selezionare Sì o No. Se si seleziona sì, nella tabella Mappe e predefiniti verranno visualizzate solo le mappe DITA modificate.
-   - **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Ad esempio, se scegli il predefinito per *Sito AEM*, vengono visualizzate solo le mappe con il predefinito per output *Sito AEM* configurato.
+   - **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
    - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
 - Tabella **Mappe e predefiniti**: la tabella Mappe e predefiniti presenta le informazioni nelle colonne seguenti:
    - **Mappa**: mostra il titolo del file di mappa DITA.
@@ -69,7 +71,7 @@ Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i 
 
 Per configurare e generare l’output utilizzando una raccolta di mappe, effettua le seguenti operazioni:
 
-1. Apri la raccolta Mappa.Puoi visualizzare i vari predefiniti di output come Sito AEM, PDF (incluso Native PDF), HTML5, EPUB e Predefiniti personalizzati. Puoi anche visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore.
+1. Apri la raccolta delle mappe.Puoi visualizzare i vari predefiniti di output come Sito AEM, PDF (incluso Native PDF), HTML5, EPUB e Predefiniti personalizzati. Puoi anche visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore.
 
    L&#39;icona ![](images/global-preset-icon.svg) indica un predefinito a livello di profilo della cartella.
 1. \(Facoltativo\) Effettuare una delle seguenti operazioni in base alle proprie esigenze:
@@ -137,7 +139,7 @@ Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali as
 
 ## Annullare un&#39;attività di generazione output da una raccolta di mappe
 
-Analogamente all&#39;annullamento di un&#39;attività di generazione output dalla [console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o dal [dashboard di Publish](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione output da una raccolta mappe. Accedere alla scheda Output di una raccolta di mappe e passare all&#39;attività di pubblicazione che si desidera annullare, quindi fare clic sull&#39;icona **Annulla questo processo** per annullare l&#39;attività di pubblicazione.
+Analogamente all&#39;annullamento di un&#39;attività di generazione output dalla [console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o dal [dashboard di pubblicazione](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione output da una raccolta mappe. Accedere alla scheda Output di una raccolta di mappe e passare all&#39;attività di pubblicazione che si desidera annullare, quindi fare clic sull&#39;icona **Annulla questo processo** per annullare l&#39;attività di pubblicazione.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

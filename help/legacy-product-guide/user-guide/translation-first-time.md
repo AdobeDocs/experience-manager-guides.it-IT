@@ -3,7 +3,9 @@ title: Best practice per la traduzione dei contenuti
 description: Conoscere le best practice per la traduzione dei contenuti in AEM Guides. Scopri come configurare il servizio di traduzione, creare un nuovo progetto di traduzione e avviare il processo di traduzione.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -21,14 +23,14 @@ Considera il seguente punto per la traduzione del contenuto:
 - La configurazione cloud deve essere la stessa della cartella di origine e in una cartella deve essere presente una sola configurazione cloud. Puoi creare più cartelle in /conf, se desideri utilizzare più connettori di traduzione.
 - Una cartella non può contenere più di 1000 file.
 - Assicurati che l’utente che ha avviato il processo di traduzione disponga delle autorizzazioni di lettura, modifica, creazione ed eliminazione per le cartelle della lingua di origine e di destinazione.
-- Poiché la traduzione dei contenuti richiede la creazione di un progetto di traduzione, l’utente deve avere accesso alla creazione di un progetto in AEM.
+- Poiché la traduzione del contenuto richiede la creazione di un progetto di traduzione, l’utente deve avere accesso alla creazione di un progetto in AEM.
 - Se desideri utilizzare i predefiniti condizionali con la mappa, devi crearli prima di avviare il processo di traduzione. Poiché i predefiniti condizionali sono inclusi anche nella versione tradotta della mappa, la creazione dei predefiniti prima di avviare il processo di traduzione si assicura che siano disponibili nella versione tradotta.
 - Il processo di traduzione del contenuto deve essere avviato dalla console delle mappe DITA e non dall’interfaccia utente di AEM Assets.
 - Il flusso di lavoro di traduzione DITA basato su componenti non deve essere utilizzato se si traducono contenuti tramite traduzione umana. Tuttavia, questa opzione deve essere utilizzata per la traduzione automatica.
 - I contenuti e i supporti utilizzati a livello globale che non richiedono la localizzazione devono essere tenuti fuori dalle copie per lingua.
 - Tutti i contenuti comuni che devono essere localizzati devono essere conservati in una cartella comune sotto la cartella della lingua.
 
-La figura seguente mostra un esempio di struttura di cartelle in AEM quando si dispone di contenuto utilizzato a livello globale e tre copie per lingua.
+L’illustrazione seguente mostra un esempio di struttura di cartelle in AEM in presenza di contenuto utilizzato a livello globale e tre copie per lingua.
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
@@ -38,9 +40,9 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
 1. Nell’interfaccia utente di Assets, seleziona la cartella della lingua di origine.
 
-1. Apri le proprietà della cartella e passa alla scheda **Cloud Service**.
+1. Apri le proprietà della cartella e passa alla scheda **Servizi cloud**.
 
-1. Nella scheda **Cloud Service** configura il servizio di traduzione che desideri utilizzare.
+1. Nella scheda **Servizi cloud** configura il servizio di traduzione che desideri utilizzare.
 
    Puoi configurare la traduzione automatica o umana.
 
@@ -48,7 +50,7 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
    >[!NOTE]
    >
-   > Consulta [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) nella documentazione AEM per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
+   > Consulta [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) nella documentazione di AEM per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
 
 1. Fai clic su **Salva e chiudi** per salvare le proprietà della cartella aggiornate.
 

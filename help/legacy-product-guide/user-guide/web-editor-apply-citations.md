@@ -3,7 +3,9 @@ title: Aggiungere e gestire le citazioni nel contenuto
 description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applicare, importare, filtrare, cercare, modificare lo stile delle citazioni, modificare, visualizzare in anteprima, inserire, eliminare e generare l’output di contenuto con le citazioni.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,14 +19,14 @@ Le citazioni sono riferimenti all’origine delle informazioni aggiunte al conte
 In AEM Guides, puoi aggiungere e importare citazioni e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
 
 
-AEM Guides consente di modificare, visualizzare in anteprima e ordinare le citazioni. Dopo aver aggiunto le citazioni nel contenuto, puoi generare l’output utilizzando Native PDF. Puoi anche aggiungere la bibliografia o la pagina dei riferimenti nell’output di Native PDF.
+AEM Guides consente di modificare, visualizzare in anteprima e ordinare le citazioni. Dopo aver aggiunto le citazioni nel contenuto, puoi generare l’output utilizzando PDF nativo. Puoi anche aggiungere la bibliografia o la pagina dei riferimenti nell’output del PDF nativo.
 
 AEM Guides supporta più stili di citazioni, come Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) e American Heart Association (AHA). La raccomandazione è di utilizzarli in modo chiaro e coerente.
 
 
 >[!NOTE]
 >
->Attualmente AEM Guides supporta solo il PDF nativo per le citazioni.
+>Attualmente AEM Guides supporta solo PDF nativo per le citazioni.
 
 
 ## Aggiungi citazioni
@@ -127,7 +129,7 @@ Viene aperto il pannello **Citazioni**.
 ### Cambia stile citazione {#change-citation-style}
 
 L&#39;amministratore di sistema può modificare lo stile delle citazioni dal menu a discesa **Citazioni** nella scheda **Impostazioni generali** delle **Impostazioni editor**.
-Questi stili determinano il modo in cui le citazioni vengono visualizzate nel riquadro di anteprima o nell&#39;output di Native PDF.
+Questi stili determinano il modo in cui le citazioni vengono visualizzate nel riquadro di anteprima o nell&#39;output PDF nativo.
 
 Nel menu a discesa sono disponibili le seguenti opzioni:
 
@@ -212,7 +214,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 1. Selezionare le citazioni che si desidera inserire dalla finestra di dialogo **citazione**.
 1. Seleziona **Fine** per aggiungerli all&#39;argomento.
 
-Dopo aver inserito le citazioni nell&#39;argomento, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare i contenuti con le citazioni utilizzando Native PDF.
+Dopo aver inserito le citazioni nell&#39;argomento, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare contenuti con citazioni utilizzando il PDF nativo.
 
 
 
@@ -253,14 +255,14 @@ Nell&#39;argomento posizionare il cursore alla fine della citazione.
 
 ## Genera output di contenuto con citazioni
 
-Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto con le citazioni utilizzando Native PDF.
+Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto con le citazioni utilizzando PDF nativo.
 
-Nell’output di PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
+Nell’output PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
 
-Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output di PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](/help/product-guide/native-pdf/pdf-template.md).
+Per modificare la visualizzazione della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](/help/product-guide/native-pdf/pdf-template.md).
 
 
 
@@ -268,7 +270,7 @@ Per modificare la visualizzazione e l&#39;aspetto della pagina delle citazioni, 
 
 Applica la formattazione alla citazione quando viene aggiunta all&#39;argomento.
 
-1. Selezionare **Fogli di stile** nel pannello **Modelli** di un predefinito di output di Native PDF.   Viene aperto il pannello **STILI** che contiene tutte le opzioni di stile.
+1. Selezionare **Fogli di stile** nel pannello **Modelli** di un predefinito di output PDF nativo.   Viene aperto il pannello **STILI** che contiene tutte le opzioni di stile.
 
 1. Nel pannello Ricerca, cerca `<cite>`.
 

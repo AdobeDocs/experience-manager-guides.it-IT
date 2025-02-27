@@ -3,7 +3,9 @@ title: AEM Sites
 description: Create e configurate il predefinito AEM Sites nell'Editor Web e generate l'output AEM Sites per la mappa DITA, gli argomenti selezionati e gli argomenti collegati.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -41,7 +43,7 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 >
 >Prima di configurare i predefiniti di AEM Sites per Experience Manager Guides, l’amministratore deve creare una struttura AEM Sites utilizzando i modelli.
 - **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
-- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per il Cloud Service.
+- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
 
 
 
@@ -70,7 +72,7 @@ La scheda **Generale** contiene le seguenti configurazioni relative alla generaz
 - Usa percorso del sito
 - Percorso sito
 - Sito
-- Percorso Publish
+- Percorso di pubblicazione
 - Modello pagina argomento
 - Genera nomi di pagina in base a
    - Nome file argomento
@@ -100,7 +102,7 @@ Per ulteriori informazioni, vedere [Configurazione AEM Sites](#aem_sites_config)
 
 In **Elenco argomenti** viene visualizzato l&#39;elenco degli argomenti presenti nella copia di lavoro corrente della mappa DITA. Per impostazione predefinita, sono inclusi tutti gli argomenti. Puoi selezionare argomenti specifici e generare l’output di AEM Sites solo per essi. Ad esempio, sono stati aggiornati alcuni argomenti in modo da poter pubblicare solo tali argomenti anziché l&#39;intera mappa DITA.
 
-La scheda **Elenco argomenti** è presente nei predefiniti AEM che non sono stati creati in base alla mappatura legacy.
+La scheda **Elenco argomenti** è presente nei predefiniti di AEM che non sono stati creati in base alla mappatura legacy.
 
 **Riferimenti cross-map**
 Questo elenco contiene argomenti contenenti riferimenti a mappe incrociate con `scope ="peer"`. È possibile specificare il contesto di pubblicazione per un elenco di riferimenti a mappe incrociate con `scope="peer"` ad argomenti disponibili in altre mappe DITA. Questa scheda viene visualizzata se si utilizza la versione di Experience Manager Guides (UUID).
@@ -119,12 +121,12 @@ Per l’output di AEM Sites sono disponibili le seguenti opzioni:
 
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
-| Usa percorso del sito | Utilizza questa opzione per pubblicare il contenuto in un sito di Experienci Manager. Seleziona questa opzione se conosci il percorso esatto del sito in cui desideri pubblicare l’output. Inoltre, indica il percorso completo nel campo Percorso sito. |
+| Usa percorso del sito | Utilizza questa opzione per pubblicare i contenuti in un sito Experience Manager. Seleziona questa opzione se conosci il percorso esatto del sito in cui desideri pubblicare l’output. Inoltre, indica il percorso completo nel campo Percorso sito. |
 | Percorso sito | Questa opzione viene visualizzata se si seleziona **Usa percorso sito**. Sfoglia il percorso esatto del sito Experience Manager in cui desideri pubblicare l’output. |
 | Sito | Nome del Experience Manager Sites in cui desideri pubblicare il contenuto. Le opzioni nel menu a discesa vengono compilate in base all’elenco dei siti disponibili in AEM Sites. <br>Seleziona **Aggiorna** ![Aggiorna icona](images/navtitle-refresh-icon.svg) per recuperare un nuovo elenco di opzioni e riflettere i dati aggiornati. |
-| Percorso Publish | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output. Il Percorso Publish viene compilato con tutti i percorsi che contengono pagine create in base al modello della home page. L&#39;output AEM Sites della mappa DITA viene generato in questo percorso.  Se ad esempio si specifica il sito come `AEMG-Docs` e il percorso di Publish come `aemg-docs-en/docs/product-abc.`, l&#39;output di AEM Sites verrà generato nel nodo `aemg-docs-en/docs/product-abc/` in `crx/de`. |
+| Percorso di pubblicazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output. Il Percorso di pubblicazione viene compilato con tutti i percorsi che contengono pagine create in base al modello della home page. L&#39;output AEM Sites della mappa DITA viene generato in questo percorso.  Se ad esempio si specifica il sito come `AEMG-Docs` e il percorso di pubblicazione come `aemg-docs-en/docs/product-abc.`, l&#39;output di AEM Sites verrà generato nel nodo `aemg-docs-en/docs/product-abc/` in `crx/de`. |
 | Modello pagina argomento | Componenti strutturali che consentono di organizzare i contenuti in modo coerente in più documenti. Questi modelli sono predefiniti nel modello Sito Adobe Experience Manager. Le opzioni vengono compilate con tutti i modelli di pagina dell&#39;argomento disponibili per il sito selezionato. Selezionare il modello da applicare a tutti gli argomenti di output. |
-| Genera nomi di pagina in base a | **Nome file argomento**: utilizza il nome file dell&#39;argomento DITA per creare l&#39;URL del sito. <br> **Titolo argomento**: utilizza il titolo dell&#39;argomento DITA per creare i nomi del sito Experience Manager. |
+| Genera nomi di pagina in base a | **Nome file argomento**: utilizza il nome file dell&#39;argomento DITA per creare l&#39;URL del sito. <br> **Titolo argomento**: utilizza il titolo dell&#39;argomento DITA per creare i nomi dei siti Experience Manager. |
 | Pulizia delle pagine generate in precedenza | - **Elimina le pagine generate in precedenza per l&#39;argomento rimosse dalla mappa**: se la struttura della mappa DTIA cambia, è possibile utilizzare questa opzione per rimuovere le pagine generate in precedenza per gli argomenti rimossi. Questa funzione è disponibile solo per la pubblicazione di mappe complete.<br><br>Si supponga di aver pubblicato una mappa DITA contenente gli argomenti a.dita, b.dita e c.dita. Prima di pubblicare di nuovo la mappa, hai rimosso l’argomento b.dita dalla mappa. Ora, se hai selezionato questa opzione, tutto il contenuto relativo a b.dita viene rimosso dall’output di AEM Sites e vengono pubblicati solo a.dita e c.dita.<br><br>**Nota**: le informazioni sulle pagine eliminate vengono acquisite anche nei registri di generazione dell&#39;output. Per ulteriori informazioni sull&#39;accesso ai file di log, [Visualizzare e controllare il file di log](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Attenzione**: quando si eliminano gli argomenti, le pagine non sono più disponibili nel sito pubblicato. Pertanto, prima di eliminare gli argomenti, viene visualizzato un avviso. Conferma l&#39;eliminazione.<br><br>- **Elimina tutte le pagine create da altre origini nel percorso**: se si seleziona questa opzione, verranno eliminate tutte le pagine pubblicate nel percorso da altre mappe, singoli argomenti o qualsiasi altra origine. Le pagine non sono più disponibili dal sito pubblicato. Pertanto, prima di eliminare gli argomenti, viene visualizzato un avviso. Conferma l&#39;eliminazione. |
 | Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output. |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>**Importante**: quando si genera l&#39;output incrementale per il sito AEM, l&#39;output viene creato utilizzando la versione corrente dei file e non la baseline allegata.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
@@ -153,7 +155,7 @@ Per creare e configurare un predefinito AEM Sites, effettua le seguenti operazio
    1. Selezionare **Sito**, quindi scegliere il percorso di pubblicazione e i modelli di pagina dell&#39;argomento dalle opzioni popolate:
       1. Seleziona il sito.
       1. Seleziona **Sito**. Esempio: `AEMG Docs`.
-      1. Le opzioni **Percorso Publish** e **Modello pagina argomento** vengono impostate automaticamente nel menu a discesa. Puoi anche scegliere le opzioni. Ad esempio, `AEMG-Docs-Site/en/docs/product1` e `Topic page` sono impostati rispettivamente.
+      1. Le opzioni **Percorso pubblicazione** e **Modello pagina argomento** vengono impostate automaticamente nel menu a discesa. Puoi anche scegliere le opzioni. Ad esempio, `AEMG-Docs-Site/en/docs/product1` e `Topic page` sono impostati rispettivamente.
    1. Selezionare il percorso completo del sito:
       1. Selezionare l&#39;opzione **Usa percorso sito**.
       1. Selezionare il percorso completo del sito. Esempio: `/content/AEMG-Docs-Site/en/docs/product1`.
@@ -167,11 +169,11 @@ Per creare e configurare un predefinito AEM Sites, effettua le seguenti operazio
 
    >[!NOTE]
    >
-   > Se pubblichi il contenuto in un sito AEM per la prima volta, si consiglia di pubblicare le pagine a livello di sito. In questo modo l&#39;output verrà visualizzato correttamente nell&#39;istanza **Publish** senza alcuna interruzione CSS.
+   > Se pubblichi il contenuto in un sito AEM per la prima volta, si consiglia di pubblicare le pagine a livello di sito. In questo modo l&#39;output verrà visualizzato correttamente nell&#39;istanza **Pubblica** senza alcuna interruzione CSS.
 
 
 
-### Argomenti collegati a Publish
+### Pubblica argomenti collegati
 
 Experience Manager Guides semplifica la pubblicazione di documenti complessi consentendo la creazione di riferimenti ad argomenti utilizzando `peer @scope`. Puoi quindi definire il contesto di pubblicazione di questi riferimenti dai predefiniti di AEM Sites e infine generare l’output degli argomenti collegati.
 Per ulteriori dettagli, visualizzare [Genera output di argomenti di collegamento da altre mappe](../user-guide/generate-output-aem-site.md#generate-output-linking-topics-from-other-maps).

@@ -3,7 +3,9 @@ title: Applicazione di tag in blocco a contenuto DITA
 description: Utilizza l’assegnazione tag in blocco dei contenuti in AEM Guides per migliorare la reperibilità dei contenuti DITA. Scopri come applicare, rimuovere, mostrare o nascondere tag in blocco su uno o più argomenti.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 I tag ti consentono di raggruppare o classificare il contenuto all’interno dell’archivio dei contenuti e anche nell’output pubblicato. Se sono stati applicati tag al contenuto, è possibile trovare facilmente argomenti correlati all&#39;interno di una mappa DITA che possono essere utili per l&#39;authoring dei contenuti. Con l’output pubblicato, gli utenti finali saranno in grado di individuare più rapidamente il contenuto corretto con i tag corretti.
 
-AEM Guides consente di assegnare tag al contenuto DITA in pochi clic. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di AEM. Per ulteriori informazioni sulla creazione e la gestione dei tag, vedere la sezione [Amministrazione tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione AEM.
+AEM Guides consente di assegnare tag al contenuto DITA in pochi clic. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di AEM. Per ulteriori informazioni sulla creazione e la gestione dei tag, consulta la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di AEM.
 
-Per impostazione predefinita, AEM Guides non concede l’accesso in lettura a nessun utente della cartella in cui sono memorizzati tutti i tag nell’archivio AEM. Per utilizzare i tag definiti nell’archivio AEM, è necessario chiedere all’amministratore di sistema di concedere l’accesso alla cartella in cui sono memorizzati i tag.
+Per impostazione predefinita, AEM Guides non concede l’accesso in lettura ad alcun utente della cartella in cui sono memorizzati tutti i tag nell’archivio di AEM. Per utilizzare i tag definiti nell’archivio di AEM, è necessario chiedere all’amministratore di sistema di concedere l’accesso alla cartella in cui sono memorizzati i tag.
 
 ## Applicare tag collettivi
 

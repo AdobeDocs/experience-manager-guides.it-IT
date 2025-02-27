@@ -1,9 +1,11 @@
 ---
 title: Creare una raccolta di mappe di attivazione in blocco
-description: Scopri come creare una raccolta di mappe di attivazione in blocco nelle guide AEM.
+description: Scopri come creare una raccolta di mappe di attivazione in blocco nelle guide di AEM.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Per creare una raccolta di mappe di attivazione in blocco, effettuare le seguent
 
 1. Seleziona il collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
-1. Selezionare il riquadro **Dashboard di Publish in blocco**.
+1. Seleziona il riquadro **Dashboard di pubblicazione in blocco**.
 
    Per la prima volta, viene visualizzata una pagina di raccolte vuota. Se in precedenza hai creato raccolte per l&#39;attivazione in blocco, queste vengono visualizzate in questa pagina.
 
@@ -75,7 +77,7 @@ La scheda **Cronologia controlli** presenta informazioni sugli output delle mapp
 - **Lingua**: mostra il codice della lingua della mappa DITA.
 - **Predefinito**: mostra il titolo del predefinito di output configurato nel file di mappa. Inoltre, visualizza l’icona in base al tipo di predefinito di output.
 - **Stato**: mostra lo stato dell&#39;attivazione come completata o non riuscita.
-- **Destinazione**: se generi l&#39;output in Experience Manager Guides as a Cloud Service, puoi visualizzarne la destinazione in Publish o Anteprima.
+- **Destinazione**: se generi l&#39;output in Experience Manager Guides as a Cloud Service, puoi visualizzarne la destinazione come Pubblica o Anteprima.
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ La scheda **Cronologia controlli** presenta informazioni sugli output delle mapp
 Nel pannello a sinistra sono disponibili le seguenti opzioni di filtro:
 
 - **Modificato**: è possibile selezionare Sì o No. Se si seleziona sì, vengono visualizzate solo le mappe DITA modificate. Una mappa modificata è una mappa che è stata generata dall&#39;ultima pubblicazione.
-- **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Questa colonna mostra il titolo del predefinito di output configurato nel file di mappa. Ad esempio, se scegli il predefinito per *Sito AEM*, vengono visualizzate solo le mappe con il predefinito per output *Sito AEM* configurato.
+- **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Questa colonna mostra il titolo del predefinito di output configurato nel file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
 - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella scheda Mappe e predefiniti.
 
 I filtri vengono aggiornati quando si passa dalla scheda **Mappe e predefiniti** alla scheda **Cronologia controlli** e viceversa.

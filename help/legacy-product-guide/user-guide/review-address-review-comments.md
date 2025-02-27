@@ -3,7 +3,9 @@ title: Commenti sulla revisione degli indirizzi
 description: Scopri come indirizzare i commenti di revisione come autori in AEM Guides. Scopri come un autore può modificare, filtrare, accettare o rifiutare commenti in un documento.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

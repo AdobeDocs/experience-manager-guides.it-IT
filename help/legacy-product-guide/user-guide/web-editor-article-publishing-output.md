@@ -3,7 +3,9 @@ title: Genera output dal pannello Archivio
 description: Genera l’output dal pannello dell’archivio o dal pannello Vista mappa in AEM Guides. Scopri come pubblicare un argomento utilizzato in una o più mappe DITA o generare output per più argomenti.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 - Utilizzare la funzionalità **Genera output** nel pannello Vista mappa per generare l&#39;output per i diversi argomenti selezionati.
 
-## Publish argomento utilizzato in una o più mappe DITA
+## Pubblicare un argomento utilizzato in una o più mappe DITA
 
 Per generare l&#39;output per uno o più argomenti nella mappa DITA, effettuare le seguenti operazioni:
 

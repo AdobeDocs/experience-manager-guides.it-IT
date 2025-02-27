@@ -1,7 +1,9 @@
 ---
 title: Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
 description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Experience Manager Guides fornisce suggerimenti avanzati per creare contenuti co
 
 Durante l&#39;authoring dei contenuti, la funzione **Suggerisci contenuto riutilizzabile** nello strumento Assistente IA può eseguire ricerche utilizzando l&#39;intelligenza artificiale e mostrare il contenuto esistente che è semanticamente simile al contenuto. Puoi quindi scegliere come riferimento il contenuto corrispondente che desideri includere nell’argomento corrente.
 
-Questo consente di riutilizzare il contenuto esistente dall’archivio della documentazione e creare contenuti coerenti. Stai creando un documento contenente informazioni su **Adobe Firefly**, incluso un paragrafo su **Adobe**. In tal caso, puoi visualizzare e aggiungere rapidamente il riferimento al contenuto da un altro argomento, come **Adobe Photoshop**, che include lo stesso paragrafo.
+Questo consente di riutilizzare il contenuto esistente dall’archivio della documentazione e creare contenuti coerenti. Si sta ad esempio creando un documento contenente informazioni su **Adobe Firefly**, incluso un paragrafo su **Adobe**. In tal caso, puoi visualizzare e aggiungere rapidamente il riferimento al contenuto da un altro argomento, come **Adobe Photoshop**, che include lo stesso paragrafo.
 >[!NOTE]
 >
 > Nei [profili globali o a livello di cartella](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), l&#39;amministratore deve definire i file o le cartelle da indicizzare per i suggerimenti avanzati, il numero minimo di caratteri da immettere per visualizzare i suggerimenti e il numero massimo di suggerimenti visualizzabili nell&#39;elenco.

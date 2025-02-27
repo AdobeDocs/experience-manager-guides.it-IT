@@ -3,7 +3,9 @@ title: Rapporto cronologia versioni file ripristinati
 description: Visualizzare i rapporti sulla cronologia delle versioni dei file ripristinati in AEM Guides. Scopri come accedere ai registri di ripristino della versione dall’interfaccia utente di Assets, dall’anteprima dell’argomento e dalla selezione degli strumenti AEM.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Puoi accedere a questo rapporto dalle seguenti posizioni:
 
 - **Anteprima argomento**: quando visualizzi l&#39;anteprima di un argomento, puoi visualizzare anche il pannello **Cronologia versione** dalla barra a sinistra. Otterrai un pannello simile all&#39;interfaccia utente di Assets da cui puoi fare clic sul collegamento **Ripristina registri versione** per accedere alla cronologia delle versioni ripristinate del documento attivo.
 
-- **Sezione Strumenti AEM**: è possibile accedere a questo report anche dalla sezione Strumenti AEM. La procedura seguente spiega come accedere alla cronologia delle versioni ripristinate dalla sezione Strumenti dell’AEM.
+- **Sezione Strumenti di AEM**: puoi accedere a questo rapporto anche dalla sezione Strumenti di AEM. La procedura seguente spiega come accedere alla cronologia delle versioni ripristinate dalla sezione Strumenti di AEM.
 
 
 Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riportate di seguito.

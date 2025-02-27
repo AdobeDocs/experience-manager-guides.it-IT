@@ -3,7 +3,9 @@ title: Creare e gestire le baseline dall'editor Web
 description: Crea e gestisci le linee di base dall’editor web in AEM Guides. Scopri come creare linee di base sulla base di etichette e applicare filtri alle linee di base.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Si consiglia di utilizzare questa funzione della linea di base dell’editor web se è stato effettuato l’aggiornamento ad AEM Guides as a Cloud Service versione di marzo o successiva.
+> Si consiglia di utilizzare questa funzione della linea di base dall’editor web se è stato effettuato l’aggiornamento ad AEM Guides as a Cloud Service versione di marzo o successiva.
 
 AEM Guides fornisce la funzione Baseline integrata nell’Editor web che consente agli utenti di creare baseline e utilizzarle per pubblicare o tradurre argomenti di versioni diverse. Possono inoltre pubblicare in parallelo più predefiniti di output della stessa mappa DITA.
 
@@ -153,4 +155,3 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 Dopo aver modificato la previsione, è possibile fare clic sul pulsante **Salva** nella parte superiore per salvare le modifiche apportate alla previsione. Se non si desidera salvare la modifica e ripristinare la previsione, è possibile fare clic sul pulsante **Reimposta**. Facendo clic sul pulsante **Reimposta** viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
 **Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
-
