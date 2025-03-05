@@ -4,9 +4,9 @@ description: Scopri le funzioni dell’editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
 
 >[!NOTE]
 >
-> La funzione Assistente IA è attualmente disponibile per Adobe Experience Manager Guides as a Cloud Service.
+>La funzione Assistente IA è attualmente disponibile per Adobe Experience Manager Guides as a Cloud Service.
 
 **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell&#39;intestazione contenente il logo Adobe Experience Manager è nascosta. In questo modo si ottimizza lo spazio del contenuto per la modifica. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
@@ -190,6 +190,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
       - Seleziona **Salva**.
 
      Dopo aver configurato l&#39;app, crea il profilo **ServiceNow**.
+
    - Per creare un profilo, selezionare la Knowledge Base ServiceNow dal menu a discesa **Tipo di server**. Immetti un profilo **Nome**. Nell&#39;**URL ServiceNow**, immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Nome utente** e **Password** forniti dal sito consumer ServiceNow. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
      ![Profilo di pubblicazione ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
    - **Eseguire il controllo di convalida prima di salvare il file**: selezionare questa opzione per eseguire le convalide Schematron utilizzando i file Schematron selezionati prima di eseguire qualsiasi operazione di salvataggio. Potete aggiungere un file Schematron selezionando l&#39;icona +. Vengono elencati i file Schematron selezionati.
 
      >[!NOTE]
+     >
      >I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
 
      ![Convalida nelle impostazioni dell&#39;editor](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.\
+   - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.
+
      Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
+
       1. Seleziona **Aggiungi**.
       1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
       1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
-     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
+         Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
+
       1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
 
          >[!TIP]
          >
-         > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
+         >Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
 
       1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](images/edit_pencil_icon.svg) o eliminare ![elimina](images/Delete_icon.svg) i gruppi di lingue.
       1. Salva le **impostazioni**.
@@ -296,7 +301,7 @@ La funzionalità **Trova e sostituisci** è disponibile nelle modalità di visua
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Utilizzando l&#39;icona delle impostazioni \(![](images/settings-find-replace-icon.svg)\), è possibile attivare/disattivare le opzioni di ricerca **Ignora maiuscole/minuscole** e **Solo parole intere**. Per eseguire la ricerca senza distinzione tra maiuscole e minuscole, attivare \(o selezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. Se invece si desidera eseguire la ricerca con distinzione tra maiuscole e minuscole, disattivare \(o deselezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. È inoltre possibile scegliere di cercare una parola intera.
+Utilizzando l&#39;icona delle impostazioni \(![](images/settings-find-replace-icon.svg)\), è possibile attivare/disattivare le opzioni di ricerca **Ignora maiuscole/minuscole** e **Solo parole intere**. Per eseguire la ricerca senza distinzione tra maiuscole e minuscole, attivare o selezionare l&#39;opzione **Ignora maiuscole/minuscole**. Altrimenti, se si desidera eseguire la ricerca con distinzione tra maiuscole e minuscole, disattivare (o deselezionare) l&#39;opzione **Ignora maiuscole/minuscole**. È inoltre possibile scegliere di cercare una parola intera.
 
 La ricerca è istantanea, il che significa che quando si digita la frase o la parola di ricerca nel campo **Trova**, il termine viene immediatamente cercato e selezionato nell&#39;argomento. Analogamente, per sostituire un testo nell&#39;argomento, immettere il termine di ricerca e la sua sostituzione nei rispettivi campi e selezionare il pulsante **Sostituisci** o **Sostituisci tutto**.
 
@@ -364,7 +369,7 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
 **Etichette versione**
 
-Le etichette consentono di identificare la fase in cui un particolare argomento si trova nel DDLC \(Document Development Life Cycle\). Ad esempio, quando si lavora su un argomento, è possibile impostare l&#39;etichetta come &quot;Approvato&quot;. Quando un argomento viene pubblicato e reso disponibile ai clienti, puoi assegnare l’etichetta &quot;Rilasciato&quot; a tale argomento.
+Le etichette consentono di identificare la fase in cui un particolare argomento si trova nel DDLC (Document Development Life Cycle). Ad esempio, quando si lavora su un argomento, è possibile impostare l&#39;etichetta come &quot;Approvato&quot;. Quando un argomento viene pubblicato e reso disponibile ai clienti, puoi assegnare l’etichetta &quot;Rilasciato&quot; a tale argomento.
 
 Experience Manager Guides consente di specificare etichette in formato testo libero o di utilizzare un set di etichette predefinite. L’etichetta personalizzata consente a qualsiasi autore nel sistema di specificare un’etichetta in base alla propria scelta. Questo offre flessibilità, ma introduce etichette non coerenti nel sistema. Per risolvere questo problema, gli amministratori possono configurare un set di etichette predefinite. Per ulteriori informazioni sulla configurazione delle etichette predefinite, visualizzare *Configurare e personalizzare l&#39;editor Web XML* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
 Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni**.
 
-    >[!NOTE]
-    >
-    > Passa il puntatore del mouse su un file dall&#39;elenco dei risultati di ricerca per visualizzare l&#39;icona Sostituisci tutto nel file sulla destra. Viene inoltre visualizzata l&#39;icona Ignora file per rimuovere il file dal risultato della ricerca. I file ignorati vengono rimossi dall&#39;elenco e il termine ricercato non viene sostituito.
+>[!NOTE]
+>
+> Passa il puntatore del mouse su un file dall&#39;elenco dei risultati di ricerca per visualizzare l&#39;icona Sostituisci tutto nel file sulla destra. Viene inoltre visualizzata l&#39;icona Ignora file per rimuovere il file dal risultato della ricerca. I file ignorati vengono rimossi dall&#39;elenco e il termine ricercato non viene sostituito.
 
 È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e, fino a quando non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
 
