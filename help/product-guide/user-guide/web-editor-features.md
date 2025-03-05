@@ -4,9 +4,9 @@ description: Scopri le funzioni dell’editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 14afe993292c78ed2f14178b3ab9dcbbaee7c372
+source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
 workflow-type: tm+mt
-source-wordcount: '18660'
+source-wordcount: '18659'
 ht-degree: 0%
 
 ---
@@ -1245,7 +1245,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 ### Mappa
 
-Quando si seleziona l&#39;icona della vista Mappa, viene visualizzata la vista Mappa in cui viene visualizzato un elenco di argomenti all&#39;interno del file di mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. Puoi fare doppio clic su qualsiasi file all’interno della mappa per aprirlo nell’editor.
+Quando si seleziona l&#39;icona della vista Mappa, viene visualizzata la vista Mappa in cui viene visualizzato un elenco di argomenti all&#39;interno del file mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. Puoi fare doppio clic su qualsiasi file all’interno della mappa per aprirlo nell’editor.
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
 
@@ -1572,36 +1572,36 @@ Nell&#39;esempio seguente viene illustrato come utilizzare lo schema soggetto in
 
 1. Creare un file dello schema soggetto in uno strumento desiderato. Il codice XML seguente crea uno schema soggetto che associa i valori per l&#39;attributo `platform`.
 
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?>
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
-   <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
-       <title>rw</title>
-       <!-- Define new OS values that are merged with those in the unixOS scheme -->
-       <subjectdef keys="os">
-           <subjectdef keys="linux">    </subjectdef>
-           <subjectdef keys="mswin">    </subjectdef>
-           <subjectdef keys="zos">    </subjectdef>
-       </subjectdef>
-       <!-- Define application values -->
-       <subjectdef keys="app" navtitle="Applications">
-           <subjectdef keys="apacheserv">    </subjectdef>
-           <subjectdef keys="mysql">    </subjectdef>
-       </subjectdef>
-       <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
-       <enumerationdef>
-           <attributedef name="platform">    </attributedef>
-           <subjectdef keyref="os">    </subjectdef>
-       </enumerationdef>
-       <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
-       <enumerationdef>
-           <attributedef name="otherprops">    </attributedef>
-           <subjectdef keyref="app">    </subjectdef>
-       </enumerationdef>
-   </subjectScheme>
-   ```
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+    <subjectScheme id="GUID-4f942f63-9a20-4355-999f-eab7c6273270">
+        <title>rw</title>
+        <!-- Define new OS values that are merged with those in the unixOS scheme -->
+        <subjectdef keys="os">
+            <subjectdef keys="linux">    </subjectdef>
+            <subjectdef keys="mswin">    </subjectdef>
+            <subjectdef keys="zos">    </subjectdef>
+        </subjectdef>
+        <!-- Define application values -->
+        <subjectdef keys="app" navtitle="Applications">
+            <subjectdef keys="apacheserv">    </subjectdef>
+            <subjectdef keys="mysql">    </subjectdef>
+        </subjectdef>
+        <!-- Define an enumeration of the platform attribute, equal to       each value in the OS subject. This makes the following values       valid for the platform attribute: linux, mswin, zos -->
+        <enumerationdef>
+            <attributedef name="platform">    </attributedef>
+            <subjectdef keyref="os">    </subjectdef>
+        </enumerationdef>
+        <!-- Define an enumeration of the otherprops attribute, equal to       each value in the application subjects.       This makes the following values valid for the otherprops attribute:       apacheserv, mysql -->
+        <enumerationdef>
+            <attributedef name="otherprops">    </attributedef>
+            <subjectdef keyref="app">    </subjectdef>
+        </enumerationdef>
+    </subjectScheme>
+```
 
-   ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
 1. Salva il file con estensione a.ditamap e caricalo in qualsiasi cartella in DAM.
 
@@ -1630,7 +1630,7 @@ Le definizioni dell&#39;oggetto sono definite in `subject_scheme_map_1.ditamap`
 
 
 ```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
     <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
     <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
 
@@ -1674,7 +1674,7 @@ Le definizioni dell&#39;oggetto sono definite in `subject_scheme_map_1.ditamap`
 La definizione di enumerazione è presente in    subject_scheme_map_2.ditamap.
 
 ```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
         <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
         <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
         <title>subject_scheme_map_2</title> 
