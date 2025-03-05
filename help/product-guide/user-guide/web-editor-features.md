@@ -4,9 +4,9 @@ description: Scopri le funzioni dell’editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ Quando apri una mappa nella vista mappa, il titolo della mappa corrente viene vi
 
 Quando definite gli attributi chiave per i riferimenti argomento o mappa, potete visualizzare il titolo, l&#39;icona corrispondente e il tasto nel pannello sinistro. La chiave viene visualizzata come `keys=<key-name>`.
 
-![chiavi nella vista mappa](images/view-key-title-map-view.png){width="300" align="left"}
+![Chiavi nella vista mappa](images/view-key-title-map-view.png){width="300" align="left"}
 
 Se si dispone dei diritti di modifica sui file di mappa, sarà possibile modificare anche i file. Per ulteriori informazioni sull&#39;apertura e la modifica di un argomento tramite mappa DITA, visualizzare [Modifica argomenti tramite mappa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1265,7 +1265,7 @@ Per un file di mappa nella vista Mappa sono disponibili le seguenti opzioni:
 
 Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del file di mappa:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Menu Opzioni nella vista Mappa](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Modifica**: apri il file mappa per la modifica nell&#39;editor mappa.
 
