@@ -5,18 +5,18 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 10%
 
 ---
 
 # Amministrazione degli utenti e sicurezza {#id181AED00G5Z}
 
-Per accedere e configurare le funzioni di AEM Guides, devi creare degli utenti. A questi utenti possono quindi essere assegnate le autorizzazioni per accedere a tutte o a funzioni specifiche di AEM Guides. Scopri come configurare e mantenere l’autorizzazione degli utenti e anche come funziona l’autenticazione e l’autorizzazione in AEM.
+Per accedere e configurare le funzioni di AEM Guides, devi creare degli utenti. A questi utenti possono quindi essere assegnate le autorizzazioni per accedere a tutte o a funzioni specifiche di AEM Guides. Scopri come configurare e mantenere l’autorizzazione utente e anche come funziona l’autenticazione e l’autorizzazione in AEM.
 
-I seguenti argomenti nella documentazione AEM ti aiuteranno a comprendere l’amministrazione degli utenti e i concetti e le funzionalità relativi alla sicurezza:
+I seguenti argomenti nella documentazione di AEM sono utili per comprendere l’amministrazione degli utenti e i concetti e le funzioni relativi alla sicurezza:
 
 - [Utenti e gruppi in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
@@ -29,7 +29,7 @@ I seguenti argomenti nella documentazione AEM ti aiuteranno a comprendere l’am
 
 ## Gruppi di utenti creati da AEM Guides {#id181TF0K0MHT}
 
-AEM Guides fornisce tre gruppi predefiniti per gestire diverse attività in un progetto DITA. Questi gruppi sono: *Autori*, *Revisori* e *Editori*. A seconda del gruppo a cui è associato un utente, questi può eseguire attività specifiche. Ad esempio, un’attività di pubblicazione può essere eseguita solo da un editore, ma non da un autore o un revisore. Analogamente, un autore può creare un nuovo argomento e un revisore può solo esaminare un argomento.
+AEM Guides fornisce tre gruppi preconfigurati. Questi gruppi sono: *Autori*, *Revisori* e *Editori*. A seconda del gruppo a cui è associato un utente, questi può eseguire attività specifiche. Ad esempio, un’attività di pubblicazione può essere eseguita solo da un editore, ma non da un autore o un revisore. Analogamente, un autore può creare un nuovo argomento e un revisore può solo esaminare un argomento.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Crea attività di revisione | Sì |   | Sì |
 | Rivedi argomento[1](#fntarg_1) | Sì | Sì | Sì |
 | Risoluzione chiave | Sì |   | Sì |
-| Apri nel FrameMaker | Sì |   | Sì |
+| Apri in FrameMaker | Sì |   | Sì |
 | Check-out/check-in | Sì |   | Sì |
 | Modifica argomento | Sì |   | Sì |
 | Sposta argomento | Sì |   | Sì |
@@ -104,7 +104,7 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 
 - Se desideri che gli utenti possano eseguire operazioni di ricerca in DAM, devi renderli membri del gruppo *dam-users*.
 
-- Se desideri assegnare i diritti di amministratore a qualsiasi utente, puoi concedergli l&#39;accesso tramite i gruppi standard AEM come *amministratori*, *amministratori di progetti* o la configurazione OSGI \(console Felix\).
+- Se desideri assegnare i diritti di amministratore a qualsiasi utente, puoi concedergli l&#39;accesso tramite i gruppi standard di AEM come *amministratori*, *amministratori di progetti* o la configurazione OSGI \(console Felix\).
 
 - Per assegnare a un utente i diritti per modificare lo stato di un documento, assicurarsi di aggiungere l&#39;utente nella sezione relativa alla transizione dello stato del profilo di stato del documento.
 
