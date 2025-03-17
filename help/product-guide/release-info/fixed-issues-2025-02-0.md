@@ -2,9 +2,9 @@
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.02.0
 description: Scopri le correzioni di bug nella versione 2025.02.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe ha identificato i seguenti problemi noti per la versione 2025.02.0:
 - Quando si utilizza l&#39;immagine come `<keyref>`, il **tipo di riferimento** dell&#39;immagine non viene visualizzato nel **report multimediale**.
 - In alcuni casi, la funzionalità di blocco per i file CSS non funziona come previsto, consentendo ad altri utenti di modificare e salvare i file anche quando sono bloccati da un altro utente.
 - Se il nome del predefinito contiene caratteri maiuscoli, le modifiche apportate all&#39;impostazione del predefinito non vengono applicate ai predefiniti già creati nella mappa.
+- Quando si apre una mappa DITA con la shell unificata abilitata, l&#39;editor viene aggiornato in modo intermittente.

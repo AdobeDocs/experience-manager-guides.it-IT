@@ -3,9 +3,9 @@ title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+source-git-commit: 18f15390fa26229f5d14552835a3c7e645b3e81d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '366'
 ht-degree: 32%
 
 ---
@@ -27,13 +27,13 @@ Di seguito sono elencate le versioni pianificate per Experience Manager Guides a
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Problemi risolti | Stato |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | Aggiornamento automatico | ~ Aprile 2025 |  |  |  | Destinazione |
+| Adobe Experience Manager Guides 2025.04.0 | Aggiornamento automatico | 21-23 aprile 2025 |  |  |  | Destinazione |
 
 ### Versioni live
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Problemi risolti | Stato |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.2.0 | Aggiornamento automatico | 24-26 febbraio 2025 | [Qui](whats-new-2025-02-0.md) | [Qui](upgrade-instructions-2025-02-0.md) | [Qui](fixed-issues-2025-02-0.md) | In corso |
+| Adobe Experience Manager Guides 2025.2.0 | Aggiornamento automatico | 10-12 marzo 2025 | [Qui](whats-new-2025-02-0.md) | [Qui](upgrade-instructions-2025-02-0.md) | [Qui](fixed-issues-2025-02-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.12.0 | Aggiornamento automatico | 13-15 gennaio 2025 |  | [Qui](upgrade-instructions-2024-12-0.md) | [Qui](fixed-issues-2024-12-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | mercoledì 29 ottobre 2024 | - | - | [Qui](fixed-issues-2024-10-0-sp1.md) | Aggiornata |
 | Adobe Experience Manager Guides 2024.10.0 | Aggiornamento automatico | 14-16 ottobre 2024 | [Qui](whats-new-2024-10-0.md) | [Qui](upgrade-instructions-2024-10-0.md) | [Qui](fixed-issues-2024-10-0.md) | Aggiornata |
@@ -53,6 +53,7 @@ Di seguito sono riportati gli aggiornamenti di prodotto in termini di nuove funz
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Stato |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 4 | sabato 4 aprile 2025 |  |  | Destinazione |
 | Adobe Experience Manager Guides 5.1.0 | Versione | ~ Agosto 2025 |  |  | Destinazione |
 
 ### Versioni live

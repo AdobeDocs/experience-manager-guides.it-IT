@@ -5,9 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Personalizza barra degli strumenti {#id172FB00L0V6}
 
 Per impostazione predefinita, l&#39;Editor Web viene fornito con le funzioni editoriali più comuni richieste da qualsiasi editor DITA. Nell’editor sono disponibili funzioni quali l’inserimento di elementi di tipo elenco \(numerato o puntato\), riferimenti incrociati, riferimenti a contenuti, tabelle, paragrafi e formattazione di caratteri. Oltre a questi elementi di base, è possibile personalizzare l&#39;Editor Web per inserire elementi utilizzati nell&#39;ambiente di authoring.
+
+>[!NOTE]
+>
+> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
@@ -31,7 +35,7 @@ L&#39;aggiunta di una funzionalità all&#39;editor Web comporta due attività pr
 
 Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web, effettuare le operazioni riportate di seguito.
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 
@@ -208,7 +212,7 @@ Talvolta è possibile non assegnare tutte le funzionalità attualmente disponibi
 
 Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effettuate le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. Passa al file di configurazione predefinito disponibile nella posizione seguente:.
 
