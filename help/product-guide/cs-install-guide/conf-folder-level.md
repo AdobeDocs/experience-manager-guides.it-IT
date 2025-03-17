@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Utilizzando il file di configurazione in questa sezione, puoi creare alcuni snip
 
 Per creare uno snippet sono necessari i seguenti dettagli:
 
-snippetID
-:   ID univoco del frammento. Può richiedere un valore alfanumerico.
+**snippetID** - ID univoco per lo snippet. Può richiedere un valore alfanumerico.
 
-nome
-:   Nome descrittivo per identificare il frammento. Questo nome viene visualizzato nel pannello Snippet.
+**name** - Nome descrittivo per identificare lo snippet. Questo nome viene visualizzato nel pannello Snippet.
 
-descrizione
-:   Aggiungere un&#39;informazione descrittiva per lo snippet.
+**descrizione** - Aggiungi un&#39;informazione descrittiva per lo snippet.
 
-valore
-:   Fornisci il codice XML del frammento.
+**value** - Fornisci il codice XML del frammento.
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configurare la ricerca per l’interfaccia utente di AEM Assets {#id192SC800MY4}
 
-Per impostazione predefinita, l&#39;AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. Inoltre, non esiste alcuna funzionalità OOTB per cercare contenuti in base al loro UUID. AEM Guides consente di aggiungere le funzionalità di ricerca di contenuti DITA e basate su UUID nell’archivio AEM.
+Per impostazione predefinita, AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. Inoltre, non esiste alcuna funzionalità OOTB per cercare contenuti in base al loro UUID. AEM Guides consente di aggiungere le funzionalità di ricerca di contenuti DITA e basate su UUID nell’archivio AEM.
 
 La configurazione della ricerca del contenuto DITA prevede le seguenti attività:
 
@@ -132,8 +132,7 @@ Nella sezione del set di regole puoi specificare:
 
 Una regola è costituita dai seguenti elementi:
 
-xpath
-:   Query XPath che recupera gli elementi o gli attributi dai file DITA. La configurazione predefinita per la regola elemento recupera tutti gli elementi `prolog`. La configurazione predefinita per la regola attributo recupera tutti gli attributi degli elementi `prolog`. È possibile specificare una query XPath per serializzare gli elementi o gli attributi che si desidera cercare.
+**xpath**: query XPath che recupera gli elementi o gli attributi dai file DITA. La configurazione predefinita per la regola elemento recupera tutti gli elementi `prolog`. La configurazione predefinita per la regola attributo recupera tutti gli attributi degli elementi `prolog`. È possibile specificare una query XPath per serializzare gli elementi o gli attributi che si desidera cercare.
 
 La query XPath contiene il nome della classe del tipo di documento. La classe `topic/topic` viene utilizzata per i documenti DITA di tipo argomento. Se si desidera creare una regola per altri documenti DITA, è necessario utilizzare i seguenti nomi di classe:
 
@@ -145,19 +144,15 @@ La query XPath contiene il nome della classe del tipo di documento. La classe `t
 | Riferimento | - riferimento/riferimento argomento/argomento |
 | Mappa | - mappa/mappa |
 
-text
-:   Se desideri cercare il testo all’interno dell’elemento specificato, specifica il valore yes. Se non si specifica alcun valore come, vengono serializzati solo gli attributi all&#39;interno dell&#39;elemento. Gli attributi che si desidera cercare devono essere specificati nella sezione del set di attributi.
+**testo** - Se si desidera cercare il testo all&#39;interno dell&#39;elemento specificato, specificare il valore yes. Se non si specifica alcun valore come, vengono serializzati solo gli attributi all&#39;interno dell&#39;elemento. Gli attributi che si desidera cercare devono essere specificati nella sezione del set di attributi.
 
-attributeset
-:   Specificare l&#39;ID del set di attributi che si desidera associare alla regola. Il valore all-attrs è un caso speciale per indicare che tutti gli attributi per questa regola devono essere serializzati.
+**attributeset** - Specificare l&#39;ID del set di attributi che si desidera associare alla regola. Il valore all-attrs è un caso speciale per indicare che tutti gli attributi per questa regola devono essere serializzati.
 
 Un set di attributi contiene un elenco di attributi che si desidera cercare all&#39;interno del contenuto DITA. Il set di attributi contiene quanto segue:
 
-id
-:   Identificatore univoco per il set di attributi. Questo ID è specificato nel parametro attributeset di un set di regole.
+**id** - Identificatore univoco per il set di attributi. Questo ID è specificato nel parametro attributeset di un set di regole.
 
-attributo
-:   Elenco di attributi che si desidera cercare. Per ogni attributo, è necessario creare una singola voce nell&#39;elemento `attribute`.
+**attribute** - Elenco di attributi che si desidera cercare. Per ogni attributo, è necessario creare una singola voce nell&#39;elemento `attribute`.
 
 Per aggiungere elementi o attributi DITA personalizzati nel file di serializzazione della ricerca, effettuare le seguenti operazioni:
 
@@ -180,7 +175,7 @@ Le nuove informazioni di serializzazione vengono memorizzate e attivate per la r
 
 Dopo aver apportato modifiche al file di serializzazione della ricerca predefinito, è necessario abilitare l&#39;opzione Estrazione metadati DITA nel bundle *com.adobe.fmdita.config.ConfigManager* e quindi eseguire il flusso di lavoro per estrarre i metadati. In questo modo i metadati richiesti vengono estratti dai file DITA esistenti e lo stesso viene quindi reso disponibile per la ricerca.
 
-Se si creano nuovi file o si modifica un file dopo aver aggiornato il file di serializzazione, i metadati vengono estratti automaticamente da tali file. Il processo di estrazione dei metadati è necessario solo per i file già esistenti nell’archivio AEM.
+Se si creano nuovi file o si modifica un file dopo aver aggiornato il file di serializzazione, i metadati vengono estratti automaticamente da tali file. Il processo di estrazione dei metadati è necessario solo per i file già esistenti nell’archivio di AEM.
 
 L&#39;estrazione dei metadati da file DITA esistenti comporta due attività:
 
@@ -216,7 +211,7 @@ Per eseguire il flusso di lavoro di estrazione dei metadati, effettua le seguent
 
 ## Escludere i file temporanei dai risultati della ricerca {#id197AHI0035Z}
 
-Per impostazione predefinita, la ricerca viene eseguita sull’intero archivio dell’AEM. Potrebbero essere presenti alcune posizioni da escludere dalla ricerca. Ad esempio, quando avvii il flusso di lavoro di traduzione del contenuto, i file non approvati rimangono in una posizione di cartella temporanea. Quando si esegue la ricerca, nei risultati della ricerca vengono restituiti anche i file di questa posizione temporanea.
+Per impostazione predefinita, la ricerca viene eseguita sull’intero archivio di AEM. Potrebbero essere presenti alcune posizioni da escludere dalla ricerca. Ad esempio, quando avvii il flusso di lavoro di traduzione del contenuto, i file non approvati rimangono in una posizione di cartella temporanea. Quando si esegue la ricerca, nei risultati della ricerca vengono restituiti anche i file di questa posizione temporanea.
 
 Per impedire ad AEM Guides di effettuare ricerche nel percorso della cartella di traduzione temporanea, devi aggiungere il percorso della cartella temporanea nell’elenco delle esclusioni.
 
