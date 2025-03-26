@@ -4,7 +4,7 @@ description: Scopri come creare tipi di argomenti DITA utilizzando modelli perso
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Per creare un argomento dall’editor, effettua le seguenti operazioni:
 
 1. Nel pannello Archivio, seleziona l&#39;icona **Nuovo file**, quindi seleziona **Argomento** dal menu a discesa.
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    È inoltre possibile accedere a questa opzione dalla [home page di Experience Manager Guides](./intro-home-page.md) e dal menu delle opzioni di una cartella nella vista Archivio.
 
@@ -49,7 +49,7 @@ Per creare un argomento dall’editor, effettua le seguenti operazioni:
 
 L&#39;argomento viene creato nel percorso specificato. Inoltre, l’argomento viene aperto nell’Editor per la modifica.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Creare argomenti dall’interfaccia utente di Assets
 
@@ -61,7 +61,7 @@ Per creare un argomento dall’interfaccia utente di Assets, effettua le seguent
 
 1. Nella pagina Blueprint selezionare il tipo di documento DITA che si desidera creare e selezionare **Successivo**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Per impostazione predefinita, Experience Manager Guides fornisce i modelli di argomenti DITA più utilizzati. Puoi configurare altri modelli di argomento in base ai requisiti organizzativi, visualizzare *Configurare i modelli di authoring* in Installare e configurare Adobe Experience Manager Guides per la configurazione.
 
