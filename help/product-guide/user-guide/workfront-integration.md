@@ -3,7 +3,8 @@ title: Integrazione con Workfront
 description: Scopri come integrare Workfront con Adobe Experience Manager Guides e iniziare a creare attività per i flussi di lavoro di authoring, pubblicazione, revisione e traduzione.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Per accedere alle attività di Adobe Workfront, effettua le seguenti operazioni:
 
    Viene visualizzata la pagina **Attività di Workfront**.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Seleziona **Accedi**.
 
    Ti reindirizzano alla pagina di accesso di Adobe Workfront.
@@ -48,7 +49,7 @@ Per accedere alle attività di Adobe Workfront, effettua le seguenti operazioni:
 
    Viene automaticamente reindirizzato alla pagina **Attività Workfront** in Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Funzioni disponibili nella pagina Attività di Workfront
 
@@ -72,7 +73,7 @@ Per creare una nuova attività Adobe Workfront, effettua le seguenti operazioni:
 
    Viene visualizzata la finestra di dialogo **Crea attività**.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. Nella scheda **Generale**, immettere i dettagli dell&#39;attività seguenti:
 
    * **Tipo di attività**: selezionare il tipo di attività da creare. Le opzioni disponibili sono: **Authoring**, **Revisione**, **Pubblicazione** e **Traduzione**.
@@ -83,20 +84,20 @@ Per creare una nuova attività Adobe Workfront, effettua le seguenti operazioni:
    * **Assegnatario**: selezionare un assegnatario per l&#39;attività.
 3. Nella scheda **Assets**, seleziona **Aggiungi** per aggiungere una risorsa a questa attività.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * Per le attività di authoring, pubblicazione e traduzione, viene richiesto di selezionare il percorso del file richiesto nella finestra di dialogo **Seleziona percorso**. Il file selezionato (un argomento per la creazione e la mappatura per la pubblicazione e la traduzione) viene aggiunto all&#39;attività non appena viene selezionato il pulsante **Crea**.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * Per le attività di revisione, viene richiesto di selezionare il tipo di risorsa (Mappa o Argomenti), quindi i file selezionati vengono visualizzati come segue:
 
 
-     ![Aggiunta di mappe a un&#39;attività di revisione](./images/attach-asset-topics.png){width="650" align="left"}
+     ![Aggiunta di mappe a un&#39;attività di revisione](./images/attach-asset-topics.png){align="left"}
 
      *Aggiunta di argomenti a un&#39;attività di revisione*
 
-     ![Aggiunta di mappe a un&#39;attività di revisione](./images/attach-asset-maps.png){width="650" align="left"}
+     ![Aggiunta di mappe a un&#39;attività di revisione](./images/attach-asset-maps.png){align="left"}
 
      *Aggiunta di mappe a un&#39;attività di revisione*
 
@@ -125,7 +126,7 @@ Una nuova attività viene creata ed elencata nella scheda **Creato da te**.
 
 Tutte le attività create e ancora attive vengono visualizzate nella scheda **Creato da te** della pagina Attività di Workfront, fornendo dettagli chiave come il nome del progetto, gli assegnatari, la data di creazione dell&#39;attività, la data di completamento dell&#39;attività e lo stato dell&#39;attività.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 Quando passi il cursore su un’attività presente nella scheda Creato da te, sono disponibili le seguenti opzioni:
 
@@ -147,7 +148,7 @@ Visualizza le informazioni sull&#39;attività, inclusi i dettagli immessi durant
 
 Tutte le attività assegnate all&#39;utente e ancora attive vengono visualizzate nella scheda **Assegnate all&#39;utente** della pagina Attività di Workfront, fornendo dettagli chiave come il nome del progetto, gli assegnatari, la data di scadenza e lo stato dell&#39;attività.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 Quando passi il cursore su un’attività presente nella scheda Assegnato a te, sono disponibili le seguenti opzioni:
 
@@ -159,7 +160,7 @@ Consente di aprire l&#39;attività. A seconda del tipo di attività, si aprirà 
 
 Visualizza le informazioni sull&#39;attività, inclusi i dettagli immessi durante la creazione dell&#39;attività, lo stato dell&#39;attività ed eventuali risorse aggiunte.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Accesso alle attività assegnate dalla sezione Panoramica
 
@@ -167,7 +168,7 @@ Puoi anche accedere alle attività Adobe Workfront assegnate dalla [sezione Pano
 
 **Le attività** sono uno di questi widget in cui viene visualizzato un elenco di attività di Adobe Workfront (che sono assegnate all&#39;utente e sono ancora attive) insieme ai dettagli dell&#39;attività chiave, tra cui il nome dell&#39;attività, il progetto associato, la data di scadenza e lo stato corrente.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 Analogamente alla scheda Assegnato a te, il widget Attività fornisce anche le opzioni per **Apri** e visualizzare **Dettagli attività** quando passi il cursore su un&#39;attività.
 
@@ -194,11 +195,11 @@ Per lavorare su un’attività di authoring, effettua le seguenti operazioni:
 
 1. Accedi all&#39;attività dalla sezione [Panoramica](#accessing-assigned-tasks-from-overview-section) o dalla scheda [Assegnato](#managing-tasks-assigned-to-you).
 
-   ![Creazione di attività nella scheda Assegnato a te](./images/authoring-task-access.png){width="650" align="left"}
+   ![Creazione di attività nella scheda Assegnato a te](./images/authoring-task-access.png){align="left"}
 
    *Attività di authoring nella scheda Assegnato a te*
 
-   ![Authoring delle attività nel widget Attività](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![Authoring delle attività nel widget Attività](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Authoring dell&#39;attività nel widget Attività*
 2. Passa il cursore del mouse sull’attività su cui desideri lavorare e seleziona  ![](images/Smock_OpenIn_18_N.svg)  per aprirlo. È inoltre possibile aprire l&#39;attività selezionando semplicemente l&#39;attività.
@@ -206,7 +207,7 @@ Per lavorare su un’attività di authoring, effettua le seguenti operazioni:
    Tutte le attività di authoring vengono aperte nell&#39;editor.
 3. Rivedi i dettagli dell&#39;attività nella scheda **Dettagli** e seleziona il file **Risorsa** per aprirlo.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Apporta le modifiche necessarie e seleziona **Contrassegna come completato**.
 5. Passa alla scheda **Commenti** per aggiungere un commento a questa attività. Questi commenti, aggiunti a livello di attività, si rifletteranno anche sulla dashboard del progetto Adobe Workfront.
@@ -223,18 +224,18 @@ Per lavorare su un&#39;attività di revisione a te assegnata, effettua le seguen
 
 1. Accedi all&#39;attività dalla sezione [Panoramica](#accessing-assigned-tasks-from-overview-section) o dalla scheda [Assegnato](#managing-tasks-assigned-to-you).
 
-   ![Rivedi le attività nella scheda Assegnato a te](./images/review-task-access.png){width="650" align="left"}
+   ![Rivedi le attività nella scheda Assegnato a te](./images/review-task-access.png){align="left"}
 
    *Attività di revisione nella scheda Assegnato a te*
 
-   ![Rivedi le attività nel widget Attività](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![Rivedi le attività nel widget Attività](./images/review-task-access-your-tasks.png){align="left"}
 
    *Authoring dell&#39;attività nel widget Attività*
 2. Passa il cursore del mouse sull’attività su cui desideri lavorare e seleziona  ![](images/Smock_OpenIn_18_N.svg)  per aprirlo. È inoltre possibile aprire l&#39;attività selezionando semplicemente l&#39;attività.
 
    Per i revisori, l&#39;attività di revisione si apre nella **interfaccia utente di revisione**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Esegui la revisione richiesta. Per informazioni dettagliate su come rivedere un argomento, visualizzare [argomenti di revisione](./review-topics.md).
 4. Al termine della revisione, selezionare **Contrassegna come completato**.
@@ -248,13 +249,13 @@ Contrassegnare l&#39;attività come completata dal revisore non indica il comple
 
 Le attività di revisione riassegnate al creatore/agli autori per l&#39;incorporazione della revisione, sono accessibili dalla sezione [Panoramica](#accessing-assigned-tasks-from-overview-section) o dalla scheda [Assegnato a te](#managing-tasks-assigned-to-you).
 
-![Rivedi le attività in modalità Autore](./images/review-task-author-mode.png){width="800" align="left"}
+![Rivedi le attività in modalità Autore](./images/review-task-author-mode.png){align="left"}
 
 *Attività di revisione riassegnata agli autori*
 
 Per queste attività, lo stato dell&#39;attività per l&#39;assegnatario diventa **Authoring** mentre il tipo dell&#39;attività rimane **Revisione**. Questo cambiamento di stato si verifica quando la revisione viene completata da tutti i revisori.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Se si seleziona l&#39;attività o l&#39;icona Apri ![](images/Smock_OpenIn_18_N.svg), l&#39;attività verrà aperta nell&#39;editor in cui l&#39;autore potrà [indirizzare i commenti di revisione](../user-guide/review-address-review-comments.md), modificare l&#39;attività aggiornando la versione degli argomenti, quindi riassegnare l&#39;attività al revisore, se necessario.
@@ -271,21 +272,21 @@ Per lavorare su un’attività di traduzione, effettua le seguenti operazioni:
 
 1. Accedi all&#39;attività dalla sezione [Panoramica](#accessing-assigned-tasks-from-overview-section) o dalla scheda [Assegnato](#managing-tasks-assigned-to-you).
 
-   ![Attività di traduzione nella scheda Assegnato a te](./images/translation-tasks-access.png){width="650" align="left"}
+   ![Attività di traduzione nella scheda Assegnato a te](./images/translation-tasks-access.png){align="left"}
 
    *Attività di traduzione nella scheda Assegnato a te*
 
-   ![Attività di traduzione nel widget Attività](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Attività di traduzione nel widget Attività](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Attività di traduzione nel widget Attività*
 
 2. Passa il cursore del mouse sull’attività su cui desideri lavorare e seleziona  ![](images/Smock_OpenIn_18_N.svg)  per aprirla nella **console Mappa**. È inoltre possibile aprire l&#39;attività selezionando semplicemente l&#39;attività.
 3. Rivedi i dettagli dell’attività e il file aggiunto per la traduzione.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Passa alla scheda **Traduzione** per le varie opzioni di traduzione. Scopri come [tradurre il contenuto](../user-guide/translation.md) in Experience Manager Guides.
 5. Esegui la traduzione richiesta e seleziona **Invia per la traduzione**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Passare alla sezione **Workfront** e selezionare **Contrassegna come completato** per indicare che l&#39;attività è stata completata.
 7. Passa alla scheda **Commenti** per aggiungere un commento a questa attività. Questi commenti, aggiunti a livello di attività, si rifletteranno sul dashboard del progetto Adobe Workfront.
 
@@ -301,17 +302,17 @@ Per lavorare su un’attività di pubblicazione, effettua le seguenti operazioni
 
 1. Accedi all&#39;attività dalla sezione [Panoramica](#accessing-assigned-tasks-from-overview-section) o dalla scheda [Assegnato](#managing-tasks-assigned-to-you).
 
-   ![Pubblicazione delle attività nella scheda Assegnato a te](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![Pubblicazione delle attività nella scheda Assegnato a te](./images/publishing-tasks-access.png){align="left"}
 
    *Attività di pubblicazione nella scheda Assegnato a te*
 
-   ![Pubblicazione delle attività nel widget Attività](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Pubblicazione delle attività nel widget Attività](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Pubblicazione dell&#39;attività nel widget Attività*
 2. Passa il cursore del mouse sull’attività su cui desideri lavorare e seleziona  ![](images/Smock_OpenIn_18_N.svg)  per aprirla nella **console Mappa**. È inoltre possibile aprire l&#39;attività selezionando semplicemente l&#39;attività.
 3. Rivedi i dettagli dell’attività e il file aggiunto per la pubblicazione.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Passa a **Predefiniti di output** ed esegui le azioni di pubblicazione necessarie per pubblicare l&#39;attività. Per ulteriori dettagli, visualizzare [Informazioni sui predefiniti di output](../user-guide/generate-output-understand-presets.md/).
 5. Al termine della pubblicazione, passare alla sezione **Workfront** e selezionare **Contrassegna come completato** per indicare che l&#39;attività è stata completata.
 6. Passa alla scheda **Commenti** per aggiungere un commento a questa attività. Questi commenti, aggiunti a livello di attività, si rifletteranno sul dashboard dei progetti di Workfront.
