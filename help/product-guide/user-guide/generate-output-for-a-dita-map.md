@@ -4,7 +4,7 @@ description: Genera output per una mappa DITA dalla console delle mappe e dal da
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Per generare l&#39;output per una mappa DITA mediante il dashboard Mappa, effett
 
 1. Selezionate uno o più predefiniti di output da utilizzare per generare l&#39;output.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. Seleziona l&#39;icona **Genera** per avviare il processo di generazione dell&#39;output.
 

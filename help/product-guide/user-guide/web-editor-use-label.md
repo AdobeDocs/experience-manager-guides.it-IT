@@ -4,7 +4,7 @@ description: Scopri come utilizzare le etichette per diverse versioni di un file
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Per aggiungere un&#39;etichetta all&#39;argomento dall&#39;editor, eseguire la p
 
 Per eliminare un&#39;etichetta di versione da un argomento, utilizzare l&#39;icona **Rimuovi** fornita per ogni etichetta aggiunta nella finestra di dialogo Gestione etichette versione.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Utilizzo delle etichette dall’interfaccia utente di Assets

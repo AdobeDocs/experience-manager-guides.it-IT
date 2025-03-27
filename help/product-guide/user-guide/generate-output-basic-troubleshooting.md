@@ -4,7 +4,7 @@ description: Risolvi i problemi relativi alla risoluzione dei problemi di base i
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
    Il file di registro viene aperto in una nuova scheda.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){align="left"}
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di registro:
    - Fatale: evidenzia gli errori irreversibili nel file di registro con colore rosa.

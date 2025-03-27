@@ -4,7 +4,7 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Nella barra degli strumenti della visualizzazione Layout sono disponibili le seg
 
 Visualizza la finestra di dialogo di ricerca dell&#39;argomento. Passare al file argomento/mappa che si desidera inserire e scegliere **Seleziona** per aggiungerlo alla mappa.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Gruppo di argomenti** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Se hai applicato una condizione a un argomento, a destra dell’argomento viene 
 
 La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor. Mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
 
@@ -243,7 +243,7 @@ Mostra o nasconde i tag XML. I tag fungono da segnali visivi che indicano il lim
 
 Questa vista consente di modificare il contenuto nel suo formato non elaborato, fornendo un controllo completo sulla struttura e sulla formattazione.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 In questa visualizzazione, la barra degli strumenti fornisce le opzioni di base per la modifica e l&#39;inserimento del contenuto disponibili nel menu a discesa **Menu**, inclusi Taglia, Copia, Annulla, Ripeti, Elimina, Trova e sostituisci, Etichetta versione, Unisci, Salva come nuova versione, Blocca e Sblocca.
@@ -254,7 +254,7 @@ La modalità Anteprima esegue il rendering del contenuto così come verrà visua
 
 Oltre a poter visualizzare la posizione di ciascun file di argomento all&#39;interno di una mappa, è consigliabile visualizzare il contenuto della mappa in un unico flusso consecutivo. La funzione Anteprima mappa consente di visualizzare l&#39;intero contenuto del file mappa con un solo clic. Non è necessario generare un output del file di mappa per visualizzare come si presenterà l&#39;intera mappa dopo la pubblicazione. Potete semplicemente accedere all&#39;anteprima della mappa e tutti gli argomenti e le mappe secondarie vengono visualizzati sotto forma di libro.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    È possibile aprire più argomenti nell&#39;editor e ogni argomento viene aperto in una nuova scheda nell&#39;editor. Anche se la mappa DITA contiene mappe secondarie, gli argomenti delle mappe secondarie vengono aperti in una nuova scheda per la modifica. Se desideri visualizzare gli argomenti sotto una mappa secondaria, puoi selezionare ed espandere la mappa secondaria.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Se si seleziona un file di mappa, la mappa viene aperta in una nuova scheda dell&#39;editor.
 

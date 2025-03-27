@@ -4,7 +4,7 @@ description: Scopri come creare ed eliminare una raccolta di mappe e aggiungere 
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
    I file di mappa DITA vengono aggiunti alla raccolta di mappe.
 
-   ![mappa dashboard raccolta](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![mappa dashboard raccolta](./images/map-collection-dashboard.png){align="left"}
 
 **Opzioni di filtro**
 
@@ -95,7 +95,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
    - Abilitare **Tutti i predefiniti** per una mappa DITA per selezionare tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
    - Abilitare **Predefiniti profilo cartella** per una mappa DITA per selezionare tutti i relativi predefiniti profilo cartella. Questa opzione è disabilitata per impostazione predefinita.
 
-![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800" align="left"}
+![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 
 Nell&#39;insieme map è possibile configurare le proprietà dei metadati in blocco per le mappe DITA. Selezionare **Configura metadati** per aprire la pagina **Metadati risorsa**. Nella pagina **Metadati risorsa**, tutte le mappe presenti nella raccolta sono elencate a sinistra.
 
-![configurare i metadati](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configurare i metadati](images/map-collection-asset-metadata.png){align="left"}
 
 Per configurare le proprietà dei metadati, effettua le seguenti operazioni:
 
@@ -147,6 +147,6 @@ Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali as
 
 Analogamente all&#39;annullamento di un&#39;attività di generazione output dalla [console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o dal [dashboard di pubblicazione](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione output da una raccolta mappe. Accedere alla scheda Output di una raccolta di mappe, passare all&#39;attività di pubblicazione che si desidera annullare e selezionare l&#39;icona **Annulla questo processo** per annullare l&#39;attività di pubblicazione.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Argomento padre:**[ Generazione output](generate-output.md)

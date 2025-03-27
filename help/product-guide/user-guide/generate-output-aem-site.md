@@ -4,7 +4,7 @@ description: Scopri come funziona in AEM Guides la generazione di output increme
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Per generare un output incrementale per AEM Sites utilizzando la console Mappa, 
 1. Seleziona il predefinito di AEM Sites per il quale desideri generare l’output incrementale.
 1. Nella scheda **Argomenti** selezionare gli argomenti che si desidera pubblicare.
 
-   ![elenco argomenti siti aem](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![elenco argomenti siti aem](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Per generare l’output incrementale per AEM Sites utilizzando il dashboard Mapp
    >
    > Se sono stati aggiunti nuovi argomenti alla mappa DITA, non sarà possibile generarli da qui. È innanzitutto necessario pubblicare gli argomenti appena aggiunti utilizzando la funzione di pubblicazione mappa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Selezionare **Rigenera**.
 

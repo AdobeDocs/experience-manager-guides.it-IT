@@ -4,7 +4,7 @@ description: Crea e configura il predefinito Sites di AEM in AEM Guides dal dash
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Per l’output di AEM Sites sono disponibili le seguenti opzioni:
 
 Un altro modo per collegare il contenuto consiste nel creare un collegamento utilizzando `peer` `@scope`. Per tali contenuti, il collegamento viene risolto in fase di esecuzione scegliendo il titolo del file e il contesto configurato per l&#39;argomento collegato dal contesto di pubblicazione della mappa DITA. La schermata seguente mostra il pannello Proprietà per un collegamento con `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Per semplificare la pubblicazione di mappe complesse e argomenti collegati ad altri argomenti in altre mappe, Adobe Experience Manager Guides consente di impostare il contesto di pubblicazione per ciascun predefinito di output.
 
@@ -65,7 +65,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 
    Vengono visualizzate le schede Impostazioni predefiniti di AEM e Contesto di pubblicazione.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Apri la scheda **Contesto di pubblicazione**.
 
@@ -77,7 +77,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 
    Per impostazione predefinita, per tutti gli argomenti collegati sono selezionati il predefinito di output e la mappa più recente.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Per modificare la selezione predefinita della mappa e del predefinito DITA, selezionare **Modifica** \(nella barra degli strumenti principale\).
 

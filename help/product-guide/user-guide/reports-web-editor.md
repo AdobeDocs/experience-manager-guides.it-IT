@@ -4,7 +4,7 @@ description: Generare rapporti di mappe DITA dalla console delle mappe in AEM Gu
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Adobe Experience Manager Guides dispone di una funzione nella console Mappa che 
 
 Puoi individuare tutti e quattro i rapporti dal pannello **Rapporti**. In base alle tue esigenze, puoi selezionare qualsiasi rapporto come mostrato qui.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 Il pannello Rapporti consente di accedere a quattro diversi tipi di rapporti. Ogni rapporto, insieme alle relative caratteristiche di accessibilità, viene discusso in dettaglio di seguito.
 
@@ -44,7 +44,7 @@ Il report **Elenco argomenti** fornisce informazioni dettagliate sugli argomenti
 
 1. Selezionare **Elenco argomenti** dal pannello Rapporti. Viene visualizzato l&#39;elenco degli argomenti presenti nella mappa DITA.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. Dal pannello **Filtri** è possibile filtrare gli argomenti in base al **Tipo di riferimento** \(diretto o indiretto\), **Stato documento** \(ad esempio se gli argomenti sono in stato Modifica, In-Review o Rivisto, questi sono elencati\) o al **Autore** dell&#39;argomento.
 
@@ -78,7 +78,7 @@ Per visualizzare il rapporto metadati di una mappa, effettua le seguenti operazi
 1. Selezionare **Metadati** dal pannello Rapporti. L&#39;elenco di tutti i riferimenti di una mappa viene visualizzato insieme ai relativi metadati, ad esempio tag, stato del documento e metadati personalizzati. Per aggiungere una nuova colonna di metadati personalizzata, fare riferimento alla sezione [Aggiungi colonne di metadati personalizzate](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. Dal pannello **Filtri** è possibile filtrare gli argomenti in base al **Stato documento** \(ad esempio se gli argomenti sono in stato Modifica, In revisione o Rivisto, sono elencati\), **Riferimenti** \(diretti o indiretti\), **Tipo file** \(Mappa, Argomento, Documento, Immagine, Video e altri\) del riferimento.
@@ -127,7 +127,7 @@ Per aggiornare i metadati, effettuare le seguenti operazioni:
    >
    > Non è possibile selezionare i file estratti. Accanto al titolo di un file estratto viene visualizzata anche un&#39;icona di estrazione. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Seleziona **Gestisci** dall&#39;inizio.
@@ -225,13 +225,13 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
    - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. Nella schermata seguente, ad esempio, vengono mostrati due collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati, `m_ElectricalSpecs_900.ditamap` viene visualizzato nella terza colonna in due righe separate.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Se si ordina per **Usato nella colonna**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `m_ElectricalSpecs_900.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Puoi filtrare i collegamenti interrotti in base al **tipo di file** e al **tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto interrotto utilizzati.

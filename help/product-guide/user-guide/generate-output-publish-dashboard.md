@@ -4,7 +4,7 @@ description: Gestisci le attività di pubblicazione utilizzando il dashboard di 
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Quando nel sistema è in esecuzione un set elevato di attività di pubblicazione
 
 Il dashboard di pubblicazione offre una panoramica completa di tutte le attività di pubblicazione attualmente in esecuzione nel sistema.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 Il dashboard di pubblicazione contiene i seguenti dettagli:
 
@@ -39,7 +39,7 @@ Il pannello a sinistra nel dashboard di pubblicazione fornisce le seguenti opzio
 
 - **Predefinito di output** - Selezionare uno o più predefiniti di output per i quali si desidera visualizzare le attività di pubblicazione attualmente attive. Nella schermata seguente, le attività di pubblicazione vengono filtrate in modo da mostrare solo le attività che utilizzano il predefinito di output Sito di AEM:
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **Avviato da** - Selezionare un nome utente dall&#39;elenco per visualizzare le attività di pubblicazione avviate dall&#39;utente selezionato.
 
@@ -65,7 +65,7 @@ Puoi anche accedere a **Publish Dashboard** dalla pagina **Strumenti** di Adobe 
 
    Se si seleziona il collegamento Nome file, viene visualizzato il dashboard delle mappe DITA della mappa selezionata.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ Per annullare un’attività di generazione output dal dashboard di pubblicazion
 
 1. Dall&#39;elenco delle attività di pubblicazione attive, selezionare l&#39;icona Elimina di un&#39;attività che si desidera annullare.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. Selezionare **Sì** al prompt dei messaggi **Conferma annullamento**.
 
    Il comando di annullamento viene accettato e l&#39;annullamento viene tentato finché l&#39;attività rimane attiva. Una volta terminata, l&#39;attività viene rimossa dall&#39;elenco delle attività attualmente attivo. Lo stato dell&#39;attività viene aggiornato anche nel dashboard delle mappe DITA come Annullato. Nella schermata seguente, l&#39;attività *HTML5* è stata annullata dal dashboard di pubblicazione e il suo stato è stato modificato anche nel dashboard delle mappe DITA.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **Argomento padre:**[ Generazione output](generate-output.md)

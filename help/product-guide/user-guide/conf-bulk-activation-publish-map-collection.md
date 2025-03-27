@@ -4,7 +4,7 @@ description: Attiva l'output delle mappe DITA in AEM Guides. Scopri come attivar
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Dopo aver creato una raccolta di mappe per l’attivazione in blocco, il passagg
 
 1. Selezionare la raccolta che si desidera pubblicare e selezionare **Apri**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \(*Facoltativo*\) Applica i filtri richiesti dalla barra a sinistra per filtrare la mappa in base alla lingua, al predefinito di output o alla lingua modificati.
 

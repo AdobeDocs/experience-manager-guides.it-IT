@@ -3,7 +3,8 @@ title: Informazioni sull’apertura di file nella console Mappa
 description: Scopri come aprire un file di mappa DITA nell’interfaccia di Map Console di Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ Puoi anche aprire un file di mappa esistente nella console Mappa dall’editor.
 
    Il file mappa si apre nella console Mappa.
 
-   ![Nuovo ](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![Nuovo ](images/map-console.png){align="left"}

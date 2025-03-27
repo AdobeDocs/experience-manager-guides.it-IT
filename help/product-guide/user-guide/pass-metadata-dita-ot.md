@@ -4,7 +4,7 @@ description: Scopri come trasmettere i metadati all’output utilizzando la pubb
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 1. Seleziona e apri un predefinito di output a cui desideri trasmettere i campi di metadati. Ad esempio, seleziona Predefinito di output PDF. Verificare che sia stato creato utilizzando l&#39;opzione **DITA-OT**.
 1. Dall&#39;elenco a discesa **Proprietà file** selezionare i metadati che si desidera passare alla pubblicazione DITA-OT.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    Nel menu a discesa Proprietà sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio, nella schermata precedente `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite.
 
@@ -61,7 +61,7 @@ Se si lavora nell&#39;**interfaccia utente di Assets**, eseguire la procedura se
 1. Seleziona e modifica un predefinito di output a cui desideri trasmettere i campi di metadati. Ad esempio, seleziona Predefinito di output PDF.
 1. Selezionare l&#39;opzione **DITA-OT** nel predefinito di output selezionato.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. Dal menu a discesa Proprietà, selezionare i metadati che si desidera trasmettere alla pubblicazione DITA-OT.
 

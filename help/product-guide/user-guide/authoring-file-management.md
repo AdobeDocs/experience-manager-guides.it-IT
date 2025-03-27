@@ -4,7 +4,7 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
 1. Nella barra a sinistra, seleziona **Cronologia versioni** e quindi una versione.
 1. In Cronologia versioni è inoltre possibile visualizzare le miniature delle diverse versioni.
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e selezionare **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 

@@ -4,7 +4,7 @@ description: Scopri come creare una raccolta di mappe di attivazione in blocco n
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Per creare una raccolta di mappe di attivazione in blocco, effettuare le seguent
 
 I file di mappa DITA vengono aggiunti alla raccolta di mappe per l&#39;attivazione in blocco.
 
-![ ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png){align="left"}
 
 ## Scheda Mappe e predefiniti
 
@@ -87,7 +87,7 @@ La scheda **Cronologia controlli** presenta informazioni sugli output delle mapp
 
 - **Modificata**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se attivare l&#39;output per questa mappa DITA.
 - **Pubblicato**: mostra la data e l&#39;ora dell&#39;ultimo output pubblicato (o attivato). Se selezioni il collegamento, viene visualizzata la pagina Risultati attivazione, che contiene i registri con informazioni sul percorso della directory principale in cui viene attivato il contenuto.
-  ![ ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png){align="left"}
 
   *Visualizza le informazioni sugli output delle mappe attivate nella scheda **Cronologia controllo**.*
 

@@ -4,7 +4,7 @@ description: Scopri come avviare l’editor dalla pagina di navigazione di AEM, 
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Le sezioni seguenti descrivono come accedere e avviare l’Editor da varie posiz
 
 Quando accedi ad Experience Manager, viene visualizzata la pagina Navigazione:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 Se si seleziona il collegamento **Guide**, verrà visualizzata la [home page di Adobe Experience Manager Guides](./intro-home-page.md).
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Per avviare l&#39;editor, passare alla barra di navigazione e selezionare **Editor** dal menu a discesa. La home page è selezionata per impostazione predefinita.
 
@@ -37,7 +37,7 @@ Per avviare l&#39;editor, passare alla barra di navigazione e selezionare **Edit
 
 Dopo aver avviato l&#39;editor senza selezionare alcun file, viene visualizzata una schermata dell&#39;editor vuota. Puoi aprire un file per la modifica da Experience Manager **Archivio** o dalle tue **Raccolte**.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 In alternativa, è possibile avviare l&#39;editor aprendo i file esistenti presenti nel widget **File recenti** e nel widget **Raccolte** della [esperienza pagina iniziale di Adobe Experience Manager Guides](./intro-home-page.md).
 
@@ -57,7 +57,7 @@ Per aprire un argomento nell&#39;editor, eseguire la procedura seguente:
    >
    > Puoi anche visualizzare l’UUID dell’argomento.
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Per aprire un argomento nell&#39;editor, eseguire la procedura seguente:
    >
    > Se desideri aprire più argomenti per la modifica, seleziona gli argomenti desiderati dall&#39;interfaccia utente di Asset e seleziona **Modifica**. Assicurati che nel browser non sia abilitato il blocco dei popup, altrimenti verrà aperto per la modifica solo il primo argomento dell’elenco selezionato.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    Se non vuoi visualizzare l&#39;anteprima di un argomento e vuoi aprirlo direttamente nell&#39;editor, seleziona l&#39;icona **Modifica** nel menu Azioni rapide dalla vista a schede:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    L’argomento viene aperto nell’editor.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 Puoi anche aprire un file di mappa nell’interfaccia utente di Assets e avviare l’Editor per modificare gli argomenti nel file di mappa.
 
@@ -98,7 +98,7 @@ Per aprire una mappa nell’editor, effettua le seguenti operazioni:
 1. Selezionare il file dell&#39;argomento che si desidera modificare.
 1. Selezionare **Modifica argomento**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. L’argomento viene aperto nell’editor.
 
@@ -122,11 +122,11 @@ Per aprire l’editor dalla console Mappa, effettua le seguenti operazioni:
 1. Selezionare il percorso in cui si trova il file mappa. Il file di mappa selezionato viene aggiunto alla console Mappa.
 1. Passa al file di mappa e seleziona **Apri nell&#39;editor** dal menu a discesa.
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    Il file di mappa contenente gli argomenti è aperto per la modifica nell&#39;editor.
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

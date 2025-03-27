@@ -4,7 +4,7 @@ description: Crea predefiniti di output dall’editor web. Scopri come modificar
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Per creare predefiniti di output per la mappa DITA, effettuate le seguenti opera
    Viene creato il predefinito per la Knowledge Base.
 
 
-   ![Nuovo ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![Nuovo ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Una volta creato il predefinito, è possibile generare l&#39;output per articoli specifici della knowledge base. A tale scopo, passare alla scheda **Articoli** e selezionare gli argomenti per i quali si desidera generare l&#39;output.
 1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Per visualizzare l&#39;output, chiudere la finestra di dialogo Output generato e selezionare **Visualizza output** nella pagina predefinita.
 

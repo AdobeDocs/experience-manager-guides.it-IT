@@ -4,7 +4,7 @@ description: Scopri come pubblicare uno o più articoli dalla console Mappa. Gen
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
 1. Passa alla scheda **Articoli** e seleziona gli argomenti per i quali desideri generare l&#39;output.
 1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Per visualizzare l&#39;output, chiudere la finestra di dialogo **Output generato** e selezionare **Visualizza output** nella pagina predefinita.
 

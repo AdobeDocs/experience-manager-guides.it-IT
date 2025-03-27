@@ -4,7 +4,7 @@ description: Conoscere l’utilizzo delle linee di base in AEM Guides. Scopri co
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Per modificare una baseline esistente, effettuare le operazioni riportate di seg
 1. Apportare le modifiche necessarie nella baseline. È possibile modificare il nome e la versione dell&#39;argomento o del contenuto di riferimento.
 1. Se si desidera utilizzare una versione diversa per uno o più argomenti, è possibile selezionare manualmente tali argomenti. Selezionare **Sfoglia argomento**, selezionare l&#39;argomento per il quale si desidera utilizzare una versione diversa. Dall&#39;elenco a discesa Seleziona una versione per l&#39;argomento selezionato, selezionare una versione dell&#39;argomento che si desidera utilizzare nella baseline e selezionare **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    Le informazioni sull&#39;argomento e sulla versione selezionata vengono memorizzate nel back-end. È possibile ripetere questo passaggio per modificare la versione selezionata per più argomenti.
 
@@ -128,7 +128,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
 
 1. Seleziona **Aggiungi etichette**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. Nella finestra di dialogo **Aggiungi etichetta**, specifica un&#39;etichetta univoca da associare a questa linea di base.
 
@@ -158,7 +158,7 @@ Per esportare una baseline tradotta, effettuare le seguenti operazioni:
 
 1. Nella scheda **Traduzione**, espandi l&#39;opzione **Previsione** disponibile nella barra a sinistra.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. Selezionare l&#39;opzione **Usa baseline** e scegliere la baseline da esportare.
 

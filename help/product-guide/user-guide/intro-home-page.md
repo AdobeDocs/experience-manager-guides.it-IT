@@ -3,7 +3,8 @@ title: Esperienza della pagina Home di Adobe Experience Manager Guides
 description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 La home page è la prima schermata visualizzata al momento dell&#39;accesso a Experience Manager Guides. Offre un’esperienza di schermata di benvenuto unificata e intuitiva, con una visualizzazione rapida dei file a cui hai effettuato l’accesso di recente, delle raccolte e altro ancora.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 La home page di Experience Manager Guides è suddivisa nelle sezioni seguenti:
 
@@ -26,7 +27,7 @@ La home page di Experience Manager Guides è suddivisa nelle sezioni seguenti:
 
 La barra dell’intestazione è la barra superiore della home page in cui viene visualizzato il logo Adobe Experience Manager (o Unified Shell, se utilizzi Unified Shell come interfaccia utente di Experience Manager Guides). Quando selezioni il logo, viene visualizzata la pagina di navigazione di Experience Manager.
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## Barra di spostamento
 
@@ -36,7 +37,7 @@ La barra di navigazione mette in primo piano gli strumenti per passare da una na
 >
 > Se utilizzi Adobe Experience Manager Guides as a Cloud Service, nella barra di navigazione viene visualizzata una funzione aggiuntiva denominata **Assistente IA**.
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
@@ -88,11 +89,11 @@ I widget seguenti sono presenti nella sezione Widget:
 
 - **File recenti**: il widget fornisce un&#39;istantanea dei file aperti di recente (un elenco di file a cui si è effettuato l&#39;accesso nell&#39;editor) insieme ai dettagli chiave dei file, inclusi Titolo, Nome file, Tipo file, Percorso file e Accesso alle date.
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   Puoi ordinare e ridimensionare le colonne selezionando le opzioni dal menu a discesa delle colonne. Per impostazione predefinita, i dati vengono ordinati in base alla data e all’ora dell’ultimo accesso.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   Da [Preferenze utente](#user-preferences), è possibile impostare il numero massimo di file che è possibile visualizzare in questo widget. Per impostazione predefinita, questo limite è impostato su **20**.
@@ -110,11 +111,11 @@ I widget seguenti sono presenti nella sezione Widget:
 - **Raccolte**: se lavori su un set di file o cartelle, puoi aggiungerli a questo widget per accedervi rapidamente. Una volta aggiunti, puoi visualizzare i file per Titolo insieme ad altri dettagli chiave come Proprietario e Data di creazione. Quando selezioni il menu a discesa della colonna, puoi visualizzare le opzioni per ordinare e ridimensionare la colonna.
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   Le breadcrumb della raccolta selezionata vengono visualizzate nella parte superiore del widget Raccolta. Puoi selezionarla per tornare a una cartella specifica all’interno della gerarchia.
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   Quando passi il cursore su una raccolta e selezioni l&#39;icona Altro ![](images/Smock_MoreSmallList_18_N.svg), sono disponibili le seguenti opzioni:
 
@@ -158,7 +159,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Generale**: la scheda Generale consente di configurare le impostazioni seguenti:
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **Profilo cartella**: il profilo cartella controlla varie configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell&#39;editor. Il profilo Globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
    - **Percorso base**: per impostazione predefinita, quando si accede all&#39;archivio di Experience Manager Guides dall&#39;editor, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. È possibile impostare il percorso di base della cartella di lavoro e la vista Archivio mostra quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel percorso di base.
@@ -168,7 +169,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Aspetto**: la scheda Aspetto consente di selezionare i temi per l&#39;applicazione e la visualizzazione origine dell&#39;area di modifica dei contenuti. Utilizzare questa scheda per configurare le impostazioni seguenti:
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Configurazione di visualizzazione dei file dell&#39;editor**: selezionare la modalità predefinita di visualizzazione dei file nell&#39;editor. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore. Per impostazione predefinita, i file vengono visualizzati per titolo nell’editor.
    - **Tema applicazione e visualizzazione Source**: è possibile scegliere tra i temi Chiaro o Scuro per l&#39;applicazione e la visualizzazione origine. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso del tema Scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore nero. Seleziona **Usa tema dispositivo** per consentire a Experience Manager Guides di selezionare i temi chiari e scuri in base al tema del dispositivo.

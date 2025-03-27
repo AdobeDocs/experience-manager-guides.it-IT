@@ -4,7 +4,7 @@ description: Scopri come visualizzare in anteprima un argomento in Adobe Experie
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Per visualizzare in anteprima un argomento dall’editor, effettua le seguenti o
 
    Viene visualizzata l&#39;anteprima dell&#39;argomento.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Anteprima argomenti dalla modalità Anteprima**
 
@@ -61,7 +61,7 @@ Per visualizzare in anteprima un argomento, effettua le seguenti operazioni:
 
 Quando si utilizza la funzione Anteprima dall’interfaccia utente di Assets, nella barra degli strumenti sono disponibili le seguenti operazioni,
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Proprietà**
@@ -78,7 +78,7 @@ I riferimenti **Usati in** elencano i documenti in cui viene fatto riferimento o
 
 L&#39;icona \(+\) nella sezione Riferimenti di **Usati in** consente di spostarsi verso l&#39;alto per individuare l&#39;argomento utilizzato o a cui si fa riferimento.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Se si seleziona l&#39;icona ![](images/right-arrow-used-in-dialog.svg) accanto a un documento, vengono visualizzati i file mappa o argomento a cui il documento viene ulteriormente indirizzato.
 
@@ -108,7 +108,7 @@ Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;ico
   >
   > Per visualizzare il codice sorgente di un file di mappa DITA, selezionare il file nell&#39;interfaccia utente di Assets e selezionare Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Condividi collegamento UUID**
 
@@ -120,7 +120,7 @@ Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;ico
 
 Una nuova opzione **Condividi collegamento UUID** è visualizzata nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra l&#39;opzione **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 Nell’interfaccia utente Assets, questa opzione è visibile quando selezioni un file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
 
@@ -148,7 +148,7 @@ File estratto nella visualizzazione elenco:
 
 Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** in **Visualizzazione elenco** e selezionare lo stato **Estratto** nella finestra di dialogo **Configura colonne**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
    1. Nella barra a sinistra, seleziona **Cronologia versioni** e quindi una versione.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e selezionare **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
    1. Nell&#39;elenco **Mostra differenze** selezionare la versione con cui si desidera confrontare la versione di base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       Il contenuto modificato viene evidenziato nell’anteprima dell’argomento. Il contenuto evidenziato in verde indica che il contenuto appena aggiunto e il contenuto in rosso quello eliminato.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Branch, ripristino e versioni successive

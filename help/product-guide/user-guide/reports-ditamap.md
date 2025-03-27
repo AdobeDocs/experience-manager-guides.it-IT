@@ -4,7 +4,7 @@ description: Generare rapporti mappa DITA dal dashboard delle mappe in AEM Guide
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
 1. Seleziona **Report**.
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    La pagina Rapporti è divisa in due parti:
 
@@ -37,7 +37,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
      Quando si seleziona un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      Gli elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
@@ -82,7 +82,7 @@ Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti opera
 
 1. Selezionare **Genera report** in alto a sinistra per generare il report mappa DITA.
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. Riceverai una notifica quando il report sarà pronto per il download. Seleziona **Scarica** per scaricare il file CSV del rapporto generato.
 

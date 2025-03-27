@@ -1,10 +1,10 @@
 ---
 title: Visualizza lo stato dell'attività di generazione output
-description: Visualizzare la coda di generazione output dei documenti di FrameMaker. Scopri come visualizzare lo stato di un’attività di generazione output.
+description: Visualizzare la coda di generazione output dei documenti FrameMaker. Scopri come visualizzare lo stato di un’attività di generazione output.
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Visualizza lo stato dell&#39;attività di generazione output {#viewing_output_history}
 
-Dopo aver avviato l&#39;operazione di generazione dell&#39;output per un documento di FrameMaker, AEM Guides invia l&#39;operazione alla coda di generazione dell&#39;output. Questa coda viene aggiornata in tempo reale, mostrando lo stato di ogni operazione di generazione output nella coda.
+Dopo aver avviato l’attività di generazione dell’output per un documento FrameMaker, AEM Guides invia questa attività alla coda di generazione dell’output. Questa coda viene aggiornata in tempo reale, mostrando lo stato di ogni operazione di generazione output nella coda.
 
 Per visualizzare la coda di generazione dell’output, effettua le seguenti operazioni:
 
-1. Nell’interfaccia utente di Assets, passa a e fai clic sul documento del FrameMaker per il quale desideri controllare lo stato di generazione dell’output.
+1. Nell’interfaccia utente di Assets, passa a e fai clic sul documento FrameMaker di cui desideri controllare lo stato di generazione dell’output.
 
 1. Fare clic su Output.
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){align="left"}
 
 1. La pagina Output è divisa in due parti:
 
@@ -36,4 +36,4 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
      In questo elenco è possibile che siano presenti attività eseguite correttamente o attività non riuscite. Per le attività completate correttamente, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere facendo clic sul collegamento nella colonna Generato a.
 
 
-**Argomento padre:**[ Genera output dei documenti di FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)

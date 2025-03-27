@@ -4,7 +4,7 @@ description: Conoscere le best practice per la traduzione dei contenuti in AEM G
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Considera il seguente punto per la traduzione del contenuto:
 
 L’illustrazione seguente mostra un esempio di struttura di cartelle in Adobe Experience Manager in presenza di contenuto utilizzato a livello globale e tre copie per lingua.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## Configurare il servizio di traduzione
 

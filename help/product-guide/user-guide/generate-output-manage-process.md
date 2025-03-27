@@ -3,7 +3,8 @@ title: Generazione di output
 description: Gestisci il processo di generazione dell’output in AEM Sites, PDF, HTML5, EPUB, personalizzato e JSON tramite plug-in DITA-OT, pubblicazione di PDF nativi e FMPS in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Dopo aver avviato l&#39;attività di generazione dell&#39;output per una mappa o
 
 1. Selezionare **OUTPUT**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    La pagina Output è divisa in due parti:
 
@@ -63,17 +64,17 @@ Per annullare un&#39;attività di generazione output dalla console delle mappe D
 
 1. Selezionare l&#39;icona **Annulla processo**.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Selezionare **Sì** al prompt dei messaggi **Conferma annullamento**.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Se l&#39;attività non è ancora stata avviata, il comando di annullamento viene eseguito sull&#39;attività. Per un&#39;attività che viene annullata, lo stato è impostato su Annullamento.
 
    Una volta annullata, l&#39;attività viene spostata nell&#39;elenco **Output generati** con stato **Annullato**. Quando passi il cursore del mouse sull’attività annullata, viene visualizzato il nome dell’utente che ha annullato l’attività. Nella schermata seguente, l&#39;attività *HTML5* è stata annullata.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Eliminare un’attività di output
@@ -90,9 +91,8 @@ Per rimuovere un task di output dall&#39;elenco Output generato, effettuare le o
 
 1. Seleziona l’icona Elimina.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Selezionare **Sì** nella **Conferma eliminazione**.
 
    L&#39;attività viene eliminata dall&#39;elenco Output generati.
-

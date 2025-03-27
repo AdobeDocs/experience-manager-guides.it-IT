@@ -4,7 +4,7 @@ description: Scopri i tipi di stati dei documenti in Adobe Experience Manager Gu
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Per modificare lo stato di un documento, effettuare le seguenti operazioni:
 
 La vista a schede dell&#39;interfaccia utente di Assets mostra lo stato corrente insieme alla data e alle dimensioni di creazione del rispettivo argomento o mappa DITA.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){align="left"}
 
 ## Utilizzare gli stati del documento in DDLC
 

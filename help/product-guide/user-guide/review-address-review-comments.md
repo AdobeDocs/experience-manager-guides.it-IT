@@ -4,7 +4,7 @@ description: Scopri come indirizzare i commenti di revisione come autori in AEM 
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Un autore può indirizzare commenti in un documento dall&#39;editor Web. Vengono
 >
 > Quando si affrontano i commenti di revisione \(per un documento di revisione attivo\), accertarsi di non aprire l’argomento in-review in più schede con la vista tag completi abilitata, e di non passare dalla modalità di visualizzazione Autore a quella di Source.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e Traccia modifiche. Il pannello Revisione mostra tutti i commenti inseriti nel documento dai revisori. Il pannello **Rileva modifiche** mostra lo stato di tutti i commenti inseriti ed eliminati nel documento.
 
@@ -54,11 +54,11 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 
   Per incorporare la modifica suggerita \(inserimento o eliminazione\) una alla volta, fare clic con il pulsante destro del mouse sul commento nel contenuto e selezionare Accetta modifica o Rifiuta modifica. A seconda della selezione, il commento viene accettato o rifiutato. In caso di commento accettato, il contenuto viene aggiunto al contenuto e, in caso di rifiuto, viene rimosso dal contenuto. Inoltre, lo stato del commento viene modificato nel pannello Revisione.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   Potete inoltre utilizzare il pannello Revisioni per accettare o rifiutare i commenti. Se si seleziona un commento, quest&#39;ultimo verrà evidenziato nel documento.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

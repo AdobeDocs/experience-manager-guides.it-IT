@@ -4,7 +4,7 @@ description: Crea e configura il predefinito AEM Sites nella console Mappa utili
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 
 Nella scheda **Elenco argomenti** viene visualizzato l&#39;elenco degli argomenti presenti nella copia di lavoro corrente della mappa DITA. Per impostazione predefinita, sono inclusi tutti gli argomenti. Puoi selezionare argomenti specifici e generare l’output di AEM Sites solo per essi. Ad esempio, sono stati aggiornati alcuni argomenti in modo da poter pubblicare solo tali argomenti anziché l&#39;intera mappa DITA.
 
-![elenco argomenti siti aem](images/aem-presets-topic-list.png) {width="800" align="left"}
+![elenco argomenti siti aem](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

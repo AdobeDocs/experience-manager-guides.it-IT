@@ -4,7 +4,7 @@ description: Scopri come tradurre nuovamente un argomento modificato in AEM Guid
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 
    Se si seleziona la freccia per visualizzare ulteriori dettagli, è possibile visualizzare la copia per lingua non sincronizzata.
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. Selezionare la casella di controllo per selezionare gli argomenti che si desidera inviare per la ritraduzione.
 

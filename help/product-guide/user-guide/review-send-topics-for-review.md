@@ -4,7 +4,7 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    Viene visualizzata la pagina Contenuto.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. Nella pagina Contenuto selezionare una versione dell&#39;argomento che si desidera condividere per la revisione.
 
@@ -214,7 +214,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
    Viene visualizzata la pagina Contenuto con tutti gli argomenti a cui si fa riferimento dal file di mappa. Se la mappa DITA contiene mappe nidificate, vengono elencati anche gli argomenti delle mappe nidificate.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. Nella pagina Contenuto selezionare una versione dell&#39;argomento che si desidera condividere per la revisione.
 

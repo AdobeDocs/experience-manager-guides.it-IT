@@ -4,7 +4,7 @@ description: Conoscere l’utilizzo dei predefiniti per le condizioni in AEM Gui
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Puoi creare i predefiniti per le condizioni in due modi:
 
 Experience Manager Guides consente di creare e gestire i predefiniti di condizione dalla console Mappa e di utilizzarli all&#39;interno dei **Predefiniti di output** per generare l&#39;output condizionale finale.
 
-<img src="images/manage-condtions-presets.png" alt= "Predefiniti condizione nel console delle mappe" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Predefiniti condizione nel console delle mappe" border="1px">
 
 ### Creare un predefinito di condizione
 
