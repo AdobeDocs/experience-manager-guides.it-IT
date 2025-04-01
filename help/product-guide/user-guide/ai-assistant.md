@@ -1,7 +1,8 @@
 ---
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente AI per eseguire ricerche e creare documenti in modo intelligente in Adobe Experience Manager Guides.
-source-git-commit: d51b460610617cafec07124c4fdb091aa4e37a09
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,14 +21,14 @@ La funzionalità **Authoring** nell&#39;Assistente di intelligenza artificiale r
 
 Per ulteriori dettagli, visualizzare [Authoring](./ai-assistant-right-panel.md).
 
-![assistente ai](./images/ai-assistant-panel.png){width="300" align="left"}
+![assistente ai](./images/ai-assistant-panel.png){align="left"}
 
 La funzionalità **Help** nell&#39;Assistente di intelligenza artificiale è uno strumento intuitivo basato su chat progettato per aiutarti a comprendere meglio Experience Manager Guides, risolvere i problemi e cercare informazioni nella documentazione di Adobe Experience Manager Guides. Anziché eseguire ricerche nelle guide utente e nei documenti di riferimento, è possibile utilizzare la funzionalità **Guida** per trovare rapidamente risposte pertinenti alle query. Ciò consente di risparmiare tempo e di concentrarsi sulla creazione dei contenuti, con conseguente aumento della produttività e dell&#39;efficienza.
 
 Per ulteriori dettagli, visualizzare la [Guida](./ai-based-smart-help.md).
 
 
-![Pannello Guida avanzato](images/smart-help-panel.png){width="300" align="left"}
+![Pannello Guida avanzato](images/smart-help-panel.png){align="left"}
 
 ## Introduzione all’Assistente AI
 
@@ -40,7 +41,7 @@ Per avviare l’Assistente IA, effettua le seguenti operazioni:
 
    La pagina dell&#39;Assistente AI viene visualizzata evidenziandone le caratteristiche chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
 
-   ![Pannello Guida avanzato](images/get-started-ai.png){width="300" align="left"}
+   ![Pannello Guida avanzato](images/get-started-ai.png){align="left"}
 
 1. Leggere attentamente le linee guida per l&#39;utente, quindi selezionare **Inizia** per avviare l&#39;Assistente IA.
 
@@ -51,8 +52,3 @@ Per avviare l’Assistente IA, effettua le seguenti operazioni:
 [Comunicazioni di Adobe Experience Manager Guides Generative AI](./adobe-generative-ai-disclosures.md)
 
 [Configurare l’Assistente AI per la guida e l’authoring avanzati](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-
