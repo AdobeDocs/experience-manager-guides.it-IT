@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ L’apertura di un elemento consente di rimuovere il tag elemento dal testo sele
 
 In XML, gli spazi vuoti includono spazi, tabulazioni, ritorni a capo e righe vuote. Experience Manager Guides converte più spazi vuoti conseguenti in un unico spazio. In questo modo è possibile mantenere la visualizzazione WYSIWYG dell’editor.
 
-    >[!NOTE]
-    >
-    >In alcuni elementi in cui gli spazi vuoti devono essere conservati in base alle regole DITA, vengono mantenuti i più spazi vuoti risultanti. Ad esempio, elementi `&lt;pre>` e `&lt;codeblock>`.
+>[!NOTE]
+>
+> In alcuni elementi in cui gli spazi bianchi devono essere conservati secondo le regole DITA, vengono mantenuti i molteplici spazi bianchi conseguenti. Ad esempio, `<pre>` e `<codeblock>` elementi.
 
 
 **Mantenimento delle interruzioni di riga e del rientro**

@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 6%
+source-wordcount: '2089'
+ht-degree: 7%
 
 ---
 
@@ -147,7 +147,15 @@ ht-degree: 6%
             - [Crea argomenti](./user-guide/web-editor-create-topics.md)
             - [Visualizzare l&#39;anteprima di un argomento](./user-guide/web-editor-preview-topics.md)
          - [Conoscere le funzioni dell’editor](./user-guide/web-editor-features.md)
+         - Conoscere l&#39;interfaccia e le funzionalità dell&#39;editor {#editor-interface-features}
+            - [Barra intestazione](./user-guide/web-editor-header-bar.md)
+            - [Barra delle schede](./user-guide/web-editor-tab-bar.md)
+            - [Barra degli strumenti](./user-guide/web-editor-toolbar.md)
+            - [Pannello sinistro](./user-guide/web-editor-left-panel.md)
+            - [Area di modifica dei contenuti](./user-guide/web-editor-content-editing-area.md)
+            - [Pannello a destra](./user-guide/web-editor-right-panel.md)
          - [Funzioni aggiuntive nell’editor](./user-guide/web-editor-other-features.md)
+         - [Utilizzo delle impostazioni dell’editor](./user-guide/web-editor-settings.md)
          - [Scelte rapide da tastiera nell’editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Visualizzazioni dell’editor](./user-guide/web-editor-views.md)
          - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
