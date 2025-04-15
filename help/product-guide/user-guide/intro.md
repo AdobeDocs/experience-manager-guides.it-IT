@@ -1,38 +1,38 @@
 ---
-title: Informazioni su Adobe Experience Manager Guides
-description: Scopri Adobe Experience Manager Guides, una soluzione di gestione dei contenuti per componenti basata su DITA di livello aziendale. Conoscere i vantaggi di Experience Manager Guides.
+title: About Adobe Experience Manager Guides
+description: Scopri Adobe Experience Manager Guides, una soluzione di livello enterprise per la gestione dei contenuti per componenti basata su DITA. Scopri i vantaggi di Experience Manager Guides.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
 source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# Informazioni su Adobe Experience Manager Guides {#id1645E0A50MY}
+# About Adobe Experience Manager Guides {#id1645E0A50MY}
 
-Adobe Experience Manager Guides è una potente soluzione di gestione dei contenuti per componenti di livello enterprise \(CCMS\). È disponibile in due versioni: on-prem e cloud service. Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo ad AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando un editor web integrato di facile utilizzo.
+Adobe Experience Manager Guides is a powerful, enterprise-grade component content management solution \(CCMS\). It comes in two flavors - on-prem and cloud service. It enables native DITA support in Adobe Experience Manager, empowering AEM to handle DITA-based content creation and delivery. It empowers authors to create content using an easy-to-use built-in web editor.
 
-Experience Manager Guides fornisce tutte le funzioni principali di CCMS, ad esempio l&#39;authoring, la collaborazione, la revisione, la traduzione, la ricerca, i report e la gestione dei metadati per i contenuti DITA, consentendo agli autori di fare di più in meno tempo attraverso un riutilizzo efficiente dei contenuti e potenti flussi di lavoro. Inoltre, gli utenti possono sfruttare la funzionalità di pubblicazione con clic singolo all&#39;avanguardia per generare output basati su DITA per i formati più diffusi, ovvero Adobe Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT.
+Experience Manager Guides provides all core CCMS functions, such as authoring, collaboration, review, translation, search, reports, and metadata management for DITA content, enabling authors to do more in less time through efficient content reuse and powerful workflows. Moreover, users can leverage its best-in-class, single-click publishing capability to generate DITA-based output for the most popular formats - Adobe Experience Manager Sites, PDF, HTML5, EPUB, and custom output through DITA-OT.
 
-Con Experience Manager Guides, le aziende possono offrire agli utenti finali esperienze personalizzate e complete, garantendo coerenza e uniformità nei contenuti pre e post-vendita. Il controllo completo sull&#39;integrità dei contenuti può essere ottenuto facilmente. Inoltre, i tempi e i costi di localizzazione si riducono notevolmente.
+With Experience Manager Guides, enterprises can deliver seamless and personalized experiences to end users and ensure consistency and uniformity in pre- and post-sales content. Complete control over content integrity can be achieved easily. What&#39;s more, localization time and costs also reduce significantly.
 
-## Vantaggi in breve
+## Benefits at a glance
 
-- Esperienza di contenuti pre e post-acquisto uniforme per gli utenti finali
+- Uniform pre- and post-purchase content experience for end users
 
-- Esperienza di pubblicazione omni-channel in Experience Manager Sites, PDF, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT
+- Omnichannel publishing experience to Experience Manager Sites, PDF, HTML5, EPUB, JSON, and custom output through DITA-OT
 
-- Familiarità con gli strumenti/sistemi Adobe esistenti e opportunità di consolidamento con un partner
+- Familiarity with existing Adobe tools/systems and the opportunity to consolidate with one partner
 
-- Un unico CMS per la gestione completa dei contenuti tecnici e di marketing
+- Single CMS for managing marketing and technical content end-to-end
 
-- Maggiore rapidità di commercializzazione con un riutilizzo efficiente dei contenuti
+- Faster go-to-market with efficient content reuse
 
-- Potenti flussi di lavoro per revisione, collaborazione e traduzione
+- Powerful review, collaboration, and translation workflows
 
-- Riduzione dei tempi e dei costi di localizzazione
+- Reduced localization time and costs
 
-- Riduzione dei costi generali di manutenzione
+- Reduced maintenance overheads
