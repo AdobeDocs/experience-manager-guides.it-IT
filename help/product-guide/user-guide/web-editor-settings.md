@@ -1,18 +1,19 @@
 ---
-title: Visualizzazioni editor per argomenti
-description: Visualizza gli argomenti in modalità di creazione, origine e anteprima. Scopri come visualizzare il contenuto in base ai filtri condizionali, visualizzare le revisioni delle modifiche e esportare un argomento come PDF in AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Impostazioni editor in Experience Manager Guides
+description: Scopri le varie impostazioni disponibili nell’interfaccia dell’editor di Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Impostazioni editor
 
-L&#39;opzione **Impostazioni** presente nella [barra delle schede] dell&#39;editor è disponibile solo per gli amministratori e gli amministratori dei profili di cartella e consente di configurare le impostazioni seguenti:
+L&#39;opzione **Impostazioni** presente nella [barra](./web-editor-tab-bar.md) delle schede dell&#39;editor è disponibile solo per gli amministratori e gli amministratori dei profili delle cartelle e consente di configurare le seguenti impostazioni:
 
 - [Generale](#general)
 - [Pannelli](#panels)
@@ -56,29 +57,29 @@ Le impostazioni generali consentono di configurare il dizionario da utilizzare c
 
 - **Citazioni**
 
-  Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a discesa che desideri utilizzare nel progetto. Per ulteriori dettagli, visualizzare [Modifica stili citazione](./web-editor-apply-citations.md#change-citation-style).
+  Modificare lo stile delle citazioni. Scegli lo stile di citazione dal menu a discesa che desideri utilizzare nel progetto. Per ulteriori dettagli, vedere [Modificare gli stili di citazione](./web-editor-apply-citations.md#change-citation-style).
 
-- **Assistente IA**
-Selezionare questa opzione per abilitare la funzionalità [Assistente AI](./ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
+- **Assistente** AI
+Selezionare questa opzione per abilitare la [funzione AI Assistant](./ai-assistant.md) nelle Guide Experience Manager. Deselezionate questa opzione per disattivare la funzione.
 
 
 ## Pannelli
 
-Questa impostazione consente di controllare i pannelli visualizzati nei pannelli sinistro e destro della console Editor e Mappa. Puoi attivare o disattivare il pulsante per mostrare o nascondere il pannello desiderato.
+Questa impostazione controlla i pannelli visualizzati nei pannelli sinistro e destro dell&#39;Editor e della console Mappa. Puoi attivare o disattivare il pulsante per mostrare o nascondere il pannello desiderato.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
-Potete anche definire l&#39;ordine di visualizzazione delle feature presenti nei pannelli. Per modificare l&#39;ordine di default delle feature disponibili nei pannelli, selezionate le barre punteggiate per trascinare e rilasciare le linguette delle feature nella posizione desiderata. Una funzione può anche essere spostata dalla sezione **Altro** alla sezione principale di un pannello e viceversa in base al requisito. Una volta riordinate, le feature vengono visualizzate nella stessa sequenza nei rispettivi pannelli destro e sinistro.
+Potete anche definire l&#39;ordine di visualizzazione delle feature presenti nei pannelli. Per modificare l&#39;ordine predefinito delle funzioni disponibili nei pannelli, selezionate le barre punteggiate per trascinare le schede delle funzioni nella posizione desiderata. Una funzione può anche essere spostata dalla **sezione Altro** alla sezione principale di un pannello e viceversa in base al requisito. Una volta riordinate, le funzioni appaiono nella stessa sequenza nel rispettivo pannello destro e sinistro.
 
 ![](images/panels-screen.png){width="650" align="left"}
 
 
-È possibile visualizzare fino a otto pannelli alla volta. Tutte le modifiche apportate alle impostazioni del pannello vengono applicate immediatamente.
+È possibile visualizzare un massimo di otto pannelli alla volta. Qualsiasi modifica apportata alle impostazioni del pannello viene applicata immediatamente.
 
 
 >[!NOTE]
 >
-> Se è stato configurato un pannello personalizzato, viene visualizzato anche nell’elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato.
+> Se un pannello personalizzato è stato configurato, appare anche nell&#39;elenco dei pannelli. È possibile attivare o disattivare l&#39;opzione per mostrare o nascondere il pannello personalizzato.
 
 ## Elenco elementi
 
@@ -94,22 +95,22 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
 ## Elenco attributi
 
-Analogamente all&#39;elenco degli elementi, è possibile controllare l&#39;elenco degli attributi e i relativi nomi visualizzati da visualizzare nell&#39;elenco degli attributi di un elemento. Nella schermata seguente, solo 3 attributi sono stati configurati per essere visualizzati nell’elenco degli attributi di un elemento:
+Analogamente all&#39;elenco degli elementi, è possibile controllare l&#39;elenco degli attributi e i relativi nomi visualizzati da visualizzare nell&#39;elenco degli attributi di un elemento. Nei seguenti schermata, sono stati configurati solo 3 attributi da mostrare nell&#39;elenco degli attributi di un elemento:
 
 ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Con questa impostazione, quando si tenta di aggiungere un attributo a un elemento, viene visualizzato solo l’elenco degli attributi configurati nell’elenco.
+Con questa impostazione, quando si tenta di aggiungere un attributo a un elemento, viene visualizzato solo l&#39;elenco degli attributi configurati nell&#39;elenco.
 
 ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## Colori
 
-Visualizza un elenco di colori di sfondo preconfigurati per **Condizioni**. Gli utenti possono selezionare un colore di sfondo quando applicano una condizione a un argomento. In qualità di amministratore, puoi anche creare e aggiungere colori di sfondo personalizzati all’elenco. Per aggiungere un nuovo colore, immettere il nome desiderato nel campo **Nome colore**, scegliere un colore personalizzato e selezionare l&#39;icona **+**. Il colore personalizzato verrà visualizzato alla fine dell&#39;elenco dei colori.
+Visualizza un elenco di colori di sfondo preconfigurati per **le condizioni**. Gli utenti possono selezionare un colore di sfondo quando applicano una condizione a un argomento. In qualità di amministratore, puoi anche creare e aggiungere colori di sfondo personalizzati all’elenco. Per aggiungere un nuovo colore, immettere il nome desiderato nel campo **Nome colore**, scegliere un colore personalizzato e selezionare l&#39;icona **+**. Il colore personalizzato verrà visualizzato alla fine dell&#39;elenco dei colori.
 
 ## Pubblicare i profili
 
-Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per una knowledge base di destinazione. Ad esempio, Salesforce o ServiceNow.
+Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. È possibile creare un nuovo profilo per un knowledge base destinazione. Ad esempio, Salesforce o ServiceNow.
 
 **Crea un profilo Salesforce**
 
@@ -123,14 +124,14 @@ Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. 
 
      `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Selezionate i seguenti ambiti OAuth:
-      - Accesso completo (completo)
-      - Seleziona Gestisci dati utente tramite API (api)
+   - Selezionare gli ambiti OAuth seguenti:
+      - accesso completo (completo)
+      - Selezionare Gestisci dati utente tramite API (api)
 
-     Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
+     Una volta configurata l&#39;app, Salesforce fornisce una chiave **consumer e** un **segreto** consumer. Questi possono essere utilizzati per creare il profilo Salesforce.
 
 
-   - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+   - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immetti un Nome profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
      ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
@@ -168,15 +169,15 @@ Configura il server ServiceNow per caricare le risorse.
 
 Questa scheda contiene le opzioni per configurare le convalide Schematron nell’Editor. È possibile attivare le seguenti funzionalità:
 
-- **Eseguire il controllo di convalida prima di salvare il file**: selezionare questa opzione per eseguire le convalide Schematron utilizzando i file Schematron selezionati prima di eseguire qualsiasi operazione di salvataggio. Potete aggiungere un file Schematron selezionando l&#39;icona +. Vengono elencati i file Schematron selezionati.
+- **Eseguire convalida controllo prima di salvare il file**: selezionare questa opzione per eseguire le convalide Schematron utilizzando i file Schematron selezionati prima di qualsiasi operazione di salvataggio. È possibile aggiungere un file Schematron selezionando l&#39;icona +. Vengono elencati i file Schematron selezionati.
 
   >[!NOTE]
   >
-  > I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
+  > I file Schematron selezionati rimarranno invariati per il profilo di cartella selezionato.
 
-  ![Convalida nelle impostazioni dell&#39;editor](./images/editor-setting-validation.png){width="550" align="left"}
+  ![Convalida nelle impostazioni editor](./images/editor-setting-validation.png){width="550" align="left"}
 
-  In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
+  Ciò impedisce agli utenti di salvare qualsiasi file che interrompa un regola definito nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
 - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, l&#39;opzione per aggiungere il file schematron **Aggiungi file schematron** non è disponibile per gli utenti nel **pannello di convalida** dell&#39;editor.
 
@@ -200,10 +201,10 @@ Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etic
   Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
 
    1. Seleziona **Aggiungi**.
-   1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
+   1. Immettere il nome del gruppo linguistico. Ogni lingua dovrebbe avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
    1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
-      Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
+      Digitare i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Ad esempio, digitate &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del loro nome o codice.
 
    1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
 
@@ -212,7 +213,7 @@ Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etic
       > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
 
    1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](images/edit_pencil_icon.svg) o eliminare ![elimina](images/Delete_icon.svg) i gruppi di lingue.
-   1. Salva le **impostazioni**.
+   1. Salva il **Impostazioni**.
 
       >[!NOTE]
       >
@@ -226,12 +227,12 @@ Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etic
 
 ## Metadati
 
-È possibile controllare i metadati della versione dell&#39;argomento e i relativi valori da visualizzare nella finestra di dialogo **Cronologia versioni**.  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
+È possibile controllare la versione metadati dell&#39;argomento e i relativi valori da visualizzare nella **finestra di dialogo Versione cronologia** .  Nel percorso metadati, specificate la posizione dei nodi da cui desiderate selezionare il metadati. È inoltre possibile definire un nome personalizzato per il metadati come etichetta. Le proprietà predefinite sono Titolo, Document State e Tag.
 
-I metadati possono essere scelti da qualsiasi proprietà sotto il nodo `/jcr:content` della risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
+Il metadati può essere selezionato da qualsiasi proprietà sotto il `/jcr:content` nodo del risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
 
 
-Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se si lascia vuota l&#39;etichetta, l&#39;ultimo elemento viene scelto come etichetta.
+Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se lasci vuota l&#39;etichetta, l&#39;ultimo elemento viene selezionato come etichetta.
 
 
 ![scheda metadati nelle impostazioni dell&#39;editor](images/editor-setting-metadata.png){width="550" align="left"}

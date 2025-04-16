@@ -3,7 +3,8 @@ title: Pannello a destra nell’editor
 description: Scopri il pannello A destra nell’editor. Scopri l’interfaccia e le funzioni dell’editor in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -73,9 +74,9 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 
 ![proprietà-file](images/file-properties-general.png){width="300" align="left"}
 
-- **Nome file**: visualizza il nome del file dell&#39;argomento selezionato. Il nome del file viene collegato alla pagina delle proprietà del file selezionato.
+- **** Nome File: visualizza il nome file dell&#39;argomento selezionato. Il nome del file è collegato ipertestuale alla pagina delle proprietà del file selezionato.
 - **ID**: visualizza l&#39;ID dell&#39;argomento selezionato.
-- **Tag**: questi sono i tag di metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
+- **Tag**: questi sono i tag metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
 - **Modifica altre proprietà**: è possibile modificare altre proprietà dalla pagina delle proprietà del file.
 - **Lingua**: mostra la lingua dell&#39;argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
 - **Data creazione**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
@@ -130,7 +131,7 @@ Utilizzando la funzione Tracked changes (Modifiche tracciate) del pannello di de
 
 >[!NOTE]
 >
-> La funzionalità delle modifiche rilevate mostra tutti gli aggiornamenti rilevati tramite la funzionalità Attiva/Disattiva rilevamento modifiche della [barra delle schede](#tab-bar).
+> La funzionalità delle modifiche rilevate mostra tutti gli aggiornamenti rilevati tramite la funzionalità Attiva/Disattiva rilevamento modifiche della [barra delle schede](./web-editor-tab-bar.md).
 
 ## Schematron
 
