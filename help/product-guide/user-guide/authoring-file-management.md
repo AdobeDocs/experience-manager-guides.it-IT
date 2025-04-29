@@ -4,9 +4,9 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
@@ -195,7 +195,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 

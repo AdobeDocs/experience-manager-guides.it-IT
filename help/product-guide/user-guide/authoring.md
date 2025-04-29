@@ -4,10 +4,10 @@ description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AE
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -59,7 +59,7 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Modifica argomento | Sì |   | Sì |
 | Sposta argomento | Sì |   | Sì |
 | Modifica proprietà argomento | Sì |   | Sì |
-| Copiare | Sì |   | Sì |
+| Copia | Sì |   | Sì |
 | Elimina | Sì |   | Sì |
 | Condividi | Sì |   | Sì |
 | **Stato documento** |
@@ -88,15 +88,3 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 [1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.
 
 [2](#fnsrc_2) a seconda dei diritti assegnati all&#39;utente nel profilo dello stato del documento.
-
-## Prerequisiti per l’authoring dei contenuti
-
-**Utilizzare profili globali o a livello di cartella**
-
-In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, che visualizzeranno modelli o profili che non sono rilevanti per loro.
-
-Experience Manager Guides consente di configurare le configurazioni di authoring \(topic o map\) dei modelli, dei modelli di output, degli attributi condizionali e dell’editor web a livello aziendale (global\) e di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
-
-Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto o agli amministratori di prodotto per decentralizzare l’amministrazione.
-
-Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, visualizzare *Configurare i profili globali o a livello di cartella* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.

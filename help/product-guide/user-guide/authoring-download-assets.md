@@ -4,7 +4,7 @@ description: Scopri come scaricare file dalla console delle mappe DITA in AEM Gu
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 1. Seleziona **Scarica**. Nella finestra di dialogo Scarica mappa puoi scegliere le seguenti opzioni:
 
    - **Usa baseline**: selezionare questa opzione per ottenere un elenco delle baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, visualizzare [Utilizzo delle baseline](generate-output-use-baseline-for-publishing.md#).
+
    - **Flatten File Hierarchy**: selezionare questa opzione per salvare tutti gli argomenti e i file multimediali di riferimento in un&#39;unica cartella.
+
+
    >[!NOTE]
    >
    > È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, viene scaricata l&#39;ultima versione persistente degli argomenti e dei file multimediali di riferimento.

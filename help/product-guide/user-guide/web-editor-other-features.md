@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nell’editor sono disponibili alcune altre funzioni utili che puoi utilizzare:
 
-**Funzioni del menu di scelta rapida nella scheda di un file**
+## Funzioni del menu di scelta rapida nella scheda di un file
 
 Quando apri un file nell’editor, puoi eseguire varie azioni dal menu di scelta rapida. È possibile visualizzare opzioni diverse a seconda che si apra un file multimediale, un singolo file DITA o più file.
 
@@ -142,19 +142,21 @@ L’editor fornisce una finestra di dialogo per la ricerca intelligente dei file
 >
 > In caso di file immagine, audio o video, la finestra di dialogo per la ricerca dei file viene impostata automaticamente sul percorso del file e non sull’ultimo percorso utilizzato.
 
-**Supporto per la pubblicazione basata su articoli**
+## Supporto per la pubblicazione basata su articoli
 
 Dall&#39;editor è possibile generare l&#39;output per uno o più argomenti o per l&#39;intera mappa DITA. È necessario creare predefiniti di output per la mappa DITA e quindi generare facilmente l&#39;output per uno o più argomenti. Se hai aggiornato alcuni argomenti nella mappa, puoi anche generare l’output solo per tali argomenti dall’Editor. Per ulteriori dettagli, visualizzare [Pubblicazione basata su articolo](web-editor-article-publishing.md#id218CK0U019I).
 
-**Supporto per i documenti Markdown**
+## Supporto per i documenti Markdown
 
 L&#39;editor consente di utilizzare i documenti Markdown \(.md\) insieme ai documenti DITA. È possibile creare e visualizzare in anteprima un documento Markdown nell&#39;Editor e aggiungerlo nel file di mappa tramite l&#39;editor di mappe DITA. Per ulteriori dettagli, visualizzare [Documenti Markdown dell&#39;autore dall&#39;editor](web-editor-markdown-topic.md#).
 
-**Supporto per l&#39;argomento termine glossario DITA**
+## Supporto per l&#39;argomento termine del glossario DITA
 
 L&#39;editor supporta i termini del glossario DITA che è possibile inserire aggiungendo `term` o `abbreviated-form` elementi.
 
-**Inserisci equazioni MathML**
+## Utilizzare le equazioni di MathML
+
+### Inserisci equazioni MathML
 
 Experience Manager Guides offre un supporto predefinito per l&#39;inserimento di equazioni di MathML tramite l&#39;integrazione con l&#39;applicazione [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Per inserire un&#39;equazione di MathML, selezionare l&#39;icona **Elemento** e digitare mathml. Quando si seleziona l&#39;elemento matml dall&#39;elenco, viene visualizzata la finestra di dialogo **Inserisci MathML**:
 
@@ -164,22 +166,22 @@ Utilizzando gli strumenti di equazione di MathML, crea l&#39;equazione e selezio
 
 In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con il pulsante destro del mouse su un&#39;equazione esistente e selezionando **Modifica MathML** dal menu di scelta rapida.
 
-- **Convalida delle equazioni nell&#39;editor di MathML**
+### Convalida delle equazioni nell’editor di MathML
 
-  Experience Manager Guides convalida le equazioni di MathML quando si salva un argomento che le contiene.
+Experience Manager Guides convalida le equazioni di MathML quando si salva un argomento che le contiene.
 Quando si inserisce un&#39;equazione utilizzando l&#39;editor di MathML, in caso di problemi di sintassi Experience Manager Guides evidenzia l&#39;equazione in rosso. È possibile correggerla prima di inserirla. Se non si apportano modifiche ma si seleziona **Inserisci**, verrà visualizzato un avviso.
 
-  ![convalida equazione matematica](images/validate-mathml-equation.png){width="400" align="left"}
+![convalida equazione matematica](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Se si inserisce l&#39;equazione di MathML che contiene un errore di sintassi, quando si tenta di salvare l&#39;argomento si verifica un errore di convalida.
+Se si inserisce l&#39;equazione di MathML che contiene un errore di sintassi, quando si tenta di salvare l&#39;argomento si verifica un errore di convalida.
 
 
-**Inserisci note a piè di pagina**
+## Inserisci note a piè di pagina
 
 Inserire una nota a piè di pagina nel contenuto utilizzando l&#39;elemento `fn`. Nella modalità di creazione, il valore della nota a piè di pagina viene visualizzato in linea con il contenuto. Tuttavia, quando si passa alla modalità Anteprima o si pubblica il documento, la nota a piè di pagina viene visualizzata alla fine dell&#39;argomento.
 
 
-**Rinominare o sostituire un elemento**
+## Rinominare o sostituire un elemento
 
 L’editor visualizza la breadcrumb dell’elemento in basso a sinistra nell’argomento. Se desideri scambiare o sostituire un elemento con un altro elemento, puoi farlo dal menu di scelta rapida della breadcrumb. Ad esempio, è possibile scambiare l&#39;elemento `p` con `note` o qualsiasi altro elemento valido nel contesto.
 
@@ -195,9 +197,9 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 - Potete accedere alla finestra di dialogo Rinomina elemento (Rename Element) richiamando il menu Opzioni (Options) di un elemento nel pannello Struttura.
 
+## Ritorno a capo e apertura di un elemento
 
-
-**Racchiudi un elemento**
+### Racchiudi un elemento
 
 - La disposizione di un elemento consente di aggiungere un tag elemento al testo selezionato. È possibile racchiudere il testo in qualsiasi elemento figlio seguendo gli standard DITA. Ad esempio, se il testo si trova sotto un elemento `note`, è possibile racchiuderlo in un elemento `p`.
 
@@ -205,11 +207,11 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 - È inoltre possibile selezionare il testo o l&#39;elemento nel contenuto e quindi selezionare l&#39;opzione **Elemento a capo** dal menu di scelta rapida.
 
-**Annullamento del wrapping di un elemento**
+### Annullare il wrapping di un elemento
 
 L’apertura di un elemento consente di rimuovere il tag elemento dal testo selezionato e di unirlo al relativo elemento padre. Se ad esempio si dispone di un elemento `p` all&#39;interno di un elemento `note`, è possibile annullare il wrapping dell&#39;elemento `p` per unire il testo direttamente all&#39;interno dell&#39;elemento `note`. L&#39;opzione **Annulla wrapping elemento** è disponibile nel menu di scelta rapida della breadcrumb dell&#39;argomento. Per annullare il wrapping di un elemento, fare clic con il pulsante destro del mouse sull&#39;elemento per aprire il menu di scelta rapida, quindi selezionare **Annulla wrapping elemento** per rimuovere l&#39;elemento e unire il testo dell&#39;elemento con l&#39;elemento padre.
 
-**Gestione dello spazio vuoto per gli elementi DITA**
+## Gestione degli spazi vuoti per gli elementi DITA
 
 In XML, gli spazi vuoti includono spazi, tabulazioni, ritorni a capo e righe vuote. Experience Manager Guides converte più spazi vuoti conseguenti in un unico spazio. In questo modo è possibile mantenere la visualizzazione WYSIWYG dell’editor.
 
@@ -218,7 +220,7 @@ In XML, gli spazi vuoti includono spazi, tabulazioni, ritorni a capo e righe vuo
 > In alcuni elementi in cui gli spazi bianchi devono essere conservati secondo le regole DITA, vengono mantenuti i molteplici spazi bianchi conseguenti. Ad esempio, `<pre>` e `<codeblock>` elementi.
 
 
-**Mantenimento delle interruzioni di riga e del rientro**
+## Mantenimento delle interruzioni di riga e del rientro
 
 Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e renderizzati in base alla loro definizione nelle modalità Autore, Source o Anteprima e anche nell’output finale pubblicato. La schermata seguente mostra il contenuto all&#39;interno dell&#39;elemento `msgblock` in cui sono stati mantenuti le interruzioni di riga e gli spazi \(rientro\):
 
@@ -226,7 +228,7 @@ Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e 
 
 
 
-**Gestione di spazi unificatori nell&#39;editor**
+## Gestione degli spazi unificatori nell’editor
 
 - È possibile inserire spazi unificatori nel documento utilizzando l&#39;icona **Simbolo** ![](images/symbol-icon.svg) o i tasti di scelta rapida **Alt** + **Spazio**.  Questi spazi unificatori vengono visualizzati come indicatori quando si modifica un argomento nell&#39;Editor. È possibile disattivare la visualizzazione degli spazi unificatori con l&#39;opzione **Mostra indicatore di spazio unificatore in modalità di creazione** dalla scheda **Aspetto** di [Preferenze utente](./intro-home-page.md#user-preferences).
 
@@ -234,7 +236,7 @@ Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e 
 Tuttavia, se copi e incolla contenuto con uno spazio unificatore dalla visualizzazione **Autore**, questo verrà mantenuto.
 
 
-**ID elemento generato automaticamente**
+## Genera automaticamente ID elemento
 
 È possibile generare automaticamente gli ID per gli elementi nell&#39;argomento DITA. Questi ID sono univoci in un argomento DITA. Ad esempio, se generi ID per un elemento paragrafo, gli ID saranno p\_1, p2, p\_3 e così via. Puoi selezionare più elementi e generare ID per ciascun elemento selezionato.
 
@@ -246,5 +248,24 @@ Per generare automaticamente l’ID per uno o più elementi, effettua le seguent
 
    In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb e selezionare **Genera ID**.
 
+
+
+## Gestione di file di grandi dimensioni nell’editor
+
+Di seguito sono indicate le principali caratteristiche volte a migliorare la gestione dei file di grandi dimensioni:
+
+- Per migliorare le prestazioni, alcune funzionalità come Annulla, Ripristina, il pannello della struttura e il marcatore sporco sono disabilitate. Per un’esperienza ottimale, si consiglia di suddividere gli argomenti in argomenti più piccoli.
+
+- Nella parte superiore viene visualizzato un messaggio di avviso per i file di grandi dimensioni, come illustrato nel frammento seguente. Questo avviso evidenzia il numero di elementi in base al valore specificato nel parametro **largeFileTagCount** del file uiconfig.json. Per impostazione predefinita, **largeFileTagCount** è impostato su 2500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Inoltre, il conteggio dei tag viene visualizzato sulla barra inferiore dell’interfaccia. Quando passi il cursore del mouse sul valore del conteggio dei tag, viene visualizzata una descrizione comando. La selezione della scheda **Ulteriori informazioni** fornisce dettagli sulla gestione dei file di grandi dimensioni.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
 **Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Scopri come integrare Workfront con Adobe Experience Manager Guides
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Per creare una nuova attività Adobe Workfront, effettua le seguenti operazioni:
 3. Nella scheda **Assets**, seleziona **Aggiungi** per aggiungere una risorsa a questa attività.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   Viene visualizzata la finestra di dialogo **Seleziona percorso**. Seleziona un percorso per la risorsa richiesta. Per aggiungere più risorse, seleziona i percorsi validi nel browser percorsi. I percorsi selezionati verranno mantenuti e potranno essere esaminati o modificati facilmente quando riapri la finestra di dialogo.
 
    * Per le attività di authoring, pubblicazione e traduzione, viene richiesto di selezionare il percorso del file richiesto nella finestra di dialogo **Seleziona percorso**. Il file selezionato (un argomento per la creazione e la mappatura per la pubblicazione e la traduzione) viene aggiunto all&#39;attività non appena viene selezionato il pulsante **Crea**.
 

@@ -4,9 +4,9 @@ description: Gestisci le attività di revisione dal dashboard di revisione in AE
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Nella scheda **Attività** è possibile eseguire le azioni seguenti:
 - Modifica la **data di scadenza**. Puoi posticipare o posticipare la scadenza per il completamento dell’attività.
 - Selezionare l&#39;opzione per consentire agli utenti di esaminare solo gli argomenti ad essi assegnati.
 - Seleziona **Aggiorna** per aggiornare i dettagli modificati.
+
+  Viene visualizzato un messaggio per confermare se l’aggiornamento è riuscito o meno.
 - Seleziona **Completa** per contrassegnare l&#39;attività di revisione come completata prima della data di scadenza. Quando l&#39;attività di un singolo argomento viene contrassegnata come Completa, la revisione dell&#39;argomento selezionato viene chiusa. Tuttavia, nel caso di argomenti condivisi per la revisione tramite una mappa DITA, contrassegnando l&#39;attività Mappa DITA come Completa verrà chiusa la revisione di tutti gli argomenti della mappa condivisi per la revisione.
 - Seleziona **Duplica** per creare una copia dell&#39;attività di revisione. Il processo di creazione di un&#39;attività di revisione duplicata è simile a quello di creazione di una nuova attività di revisione. Dopo aver avviato il flusso di lavoro dell&#39;attività duplicata, viene visualizzata la pagina Crea attività di revisione. Devi fornire i dettagli della nuova attività come spiegato in [Invia argomenti per la revisione](review-send-topics-for-review.md#).
 

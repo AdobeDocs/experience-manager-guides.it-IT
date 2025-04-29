@@ -4,9 +4,9 @@ description: Crea e gestisci le baseline dalla console delle mappe in Adobe Expe
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
   > Il processo di aggiunta o rimozione delle etichette viene eseguito in modo asincrono, quindi puoi continuare a lavorare su altri file. Una volta aggiunta o rimossa l’etichetta, viene visualizzato un messaggio a comparsa che conferma che l’etichetta è stata aggiunta o rimossa e che si riceve anche una notifica nella casella in entrata per la stessa etichetta.
 
 - **Modificare le proprietà** di una baseline statica esistente impostata durante la creazione della baseline.
-- Esporta lo snapshot di una baseline in un file di Microsoft Excel con l&#39;opzione **Esporta baseline**.
+- L&#39;opzione **Esporta baseline** esporta uno snapshot della baseline nel file di Microsoft Excel, inclusi tutti i dettagli essenziali quali titolo, nome file, tipo di file, numero di versione, stato del documento e altre informazioni rilevanti.
 
 
 ### Elenco delle etichette {#labels-list}
