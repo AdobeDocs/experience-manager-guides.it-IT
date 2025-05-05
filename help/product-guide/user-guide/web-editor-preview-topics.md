@@ -246,4 +246,4 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
   Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo report, visualizzare [Report cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
-**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**&#x200B;[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

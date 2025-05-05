@@ -50,6 +50,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
    * **Nome**: digitare il nome del frammento di contenuto. Per impostazione predefinita, il nome viene compilato con il titolo dell&#39;argomento e gli spazi vengono sostituiti con &quot;_&quot;. Ad esempio, *sample_content_fragment*. Puoi modificarlo.  Questo nome viene utilizzato per generare l’URL per il frammento di contenuto.
 
    * Puoi selezionare condizioni diverse per creare varianti di frammenti di contenuto. Selezionare una delle opzioni seguenti:
+
      >[!NOTE]
      > 
      > Le condizioni sono abilitate solo se gli attributi della condizione sono definiti nell&#39;argomento.

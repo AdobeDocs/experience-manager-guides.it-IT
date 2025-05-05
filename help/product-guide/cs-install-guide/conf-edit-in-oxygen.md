@@ -28,4 +28,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 >
 > Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor web.
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

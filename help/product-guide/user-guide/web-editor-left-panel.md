@@ -554,7 +554,7 @@ Per aggiungere un file DITA al pannello dei contenuto riutilizzabili, usate uno 
 
 - Selezionare l&#39;icona **+** accanto a contenuto riutilizzabili per aprire la finestra di dialogo Sfoglia file. Selezionare il file che si desidera aggiungere e quindi selezionare **Aggiungi** per completare il processo.
 
-- Nella vista Repository, selezionare l&#39;icona **Opzioni** del file desiderato e scegliere **Aggiungi a** > contenuto **** riutilizzabile dal menu di scelta rapida.
+- Nella vista Repository, selezionare l&#39;icona **Opzioni** del file desiderato e scegliere **Aggiungi a** > contenuto **&#x200B;**&#x200B;riutilizzabile dal menu di scelta rapida.
 
 - Fare clic con il pulsante destro del mouse sulla scheda di un file nell&#39;editor per aprire il menu di scelta rapida e scegliere **Aggiungi a** > **Contenuto riutilizzabile**.
 
@@ -671,7 +671,7 @@ Per cercare termini di testo e sostituirli con abbreviazioni del glossario, effe
 
 - **Chiavi** del glossario: seleziona le chiavi del glossario dalla mappa DITA che desideri utilizzare per il ricerca nell&#39;argomento selezionato. I tasti selezionati verranno visualizzati di seguito. Per rimuovere una chiave selezionata, selezionate l&#39;icona **Rimuovi** .
 
-- **Argomenti**: scegliere l&#39;argomento **** corrente aperto nell&#39;editor, tutti gli **argomenti** aperti nella mappa corrente o la **mappa** corrente in fase di modifica nell&#39;editor mappa per ricerca i termini.
+- **Argomenti**: scegliere l&#39;argomento **&#x200B;**&#x200B;corrente aperto nell&#39;editor, tutti gli **argomenti** aperti nella mappa corrente o la **mappa** corrente in fase di modifica nell&#39;editor mappa per ricerca i termini.
 - **Filtra Argomenti per Stato**: è possibile scegliere di limitare la ricerca agli argomenti con lo stato del documento selezionato. Gli argomenti possono trovarsi in Bozza, Modifica, In revisione, Approvato, Rivisto Fine stato o in uno qualsiasi degli stati configurati dall&#39;organizzazione.
 - **Azione**: è possibile scegliere di cercare manualmente le chiavi del glossario **per ogni argomento** o **Automaticamente per tutti gli argomenti**. Se si sceglie **Manualmente per ogni argomento**, verrà richiesto di confermare prima di convertire ogni termine in ogni argomento. Se si sceglie **Automaticamente per tutti gli argomenti**, tutti i termini in tutti gli argomenti verranno convertiti automaticamente.
 - **Converti**: è possibile convertire un **testo cercato in termine glossario** o un **termine glossario in testo.**
@@ -1122,4 +1122,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

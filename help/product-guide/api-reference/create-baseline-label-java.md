@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Una sessione JCR valida. |
 | `sourcePath` | Stringa | Percorso assoluto del file mappa DITA nell&#39;archivio AEM. |
 | ``baselineName`` | Stringa | Nome del nodo della linea di base a cui deve essere applicata l&#39;etichetta. Per ottenere il nome del nodo della linea di base, è possibile utilizzare il metodo [\#id185NFF0085Z](#id185NFF0085Z) o controllare il nodo delle linee di base della mappa DITA in CRXDE.<br> **Nota:** l&#39;etichetta viene applicata alla versione dei file a cui viene fatto riferimento direttamente dal file di mapping nella baseline. |
-| `label` | Stringa | Etichetta applicata ai file nella baseline. Verificare che l&#39;etichetta non contenga i seguenti caratteri: &amp;sol; &amp;virgola; &amp;due punti; &amp;virgola; &amp;lbrack; &amp;virgola; &amp;rbrack; &amp;virgola; &amp;vert; &amp;virgola; &amp;ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2. |
+| `label` | Stringa | Etichetta applicata ai file nella baseline. Verificare che l&#39;etichetta non contenga i seguenti caratteri: &sol; &virgola; &amp;due punti; &virgola; &lbrack; &virgola; &rbrack; &virgola; &vert; &virgola; &ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2. |
 
 **Eccezione**:
 Genera `RepositoryException`.

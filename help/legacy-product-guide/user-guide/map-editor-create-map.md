@@ -55,4 +55,4 @@ Per creare un file di mappa, effettua le seguenti operazioni:
    > Per utilizzare l&#39;Editor mapping avanzato, accedere al file di mapping nell&#39;Editor Web. Se l&#39;amministratore ha configurato l&#39;Editor mapping avanzato come editor predefinito nei file di mapping, il file di mapping viene aperto direttamente nell&#39;Editor mapping avanzato per la modifica. Consulta *Impostare l&#39;Editor mappe avanzate come predefinito* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor mappe](map-editor.md)

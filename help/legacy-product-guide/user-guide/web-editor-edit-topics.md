@@ -49,6 +49,7 @@ Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente do
 
    - Seleziona il contenuto all’interno di un elemento.
    - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare la finestra di dialogo **Racchiudi con elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
+
      >[!NOTE]
      >
      > È inoltre possibile visualizzare la finestra di dialogo Surround con elemento selezionando il menu di scelta rapida del contenuto selezionato.
@@ -106,4 +107,4 @@ Quando si apre un file nell&#39;editor Web, in Experience Manager Guides è disp
 È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file nel repository** dalla scheda **Aspetto** delle **Preferenze utente**.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

@@ -29,7 +29,7 @@ Dettagli bundle:
 
 - Versione: **3.4**
 
-- Pacchetto: ****com.adobe.fmdita.api.map****
+- Pacchetto: **&#x200B;**&#x200B;com.adobe.fmdita.api.map&#x200B;**&#x200B;**
 
 - Dettagli classe:
 

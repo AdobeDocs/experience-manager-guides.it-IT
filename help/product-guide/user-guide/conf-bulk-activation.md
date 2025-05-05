@@ -41,4 +41,4 @@ Predefiniti di output JSON.
 - **[Eliminare una raccolta di mappe di attivazione in blocco](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)

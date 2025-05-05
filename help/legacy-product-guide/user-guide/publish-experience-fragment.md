@@ -37,6 +37,7 @@ Ad esempio:
 
      Se non si definisce un modello consentito per una cartella, i modelli vengono selezionati dalla cartella principale o dalla cartella dei modelli per impostazione predefinita.
    * **Ordinabile**: consente di modificare l&#39;ordine delle risorse all&#39;interno di una cartella.
+
      ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Aggiungi la configurazione cloud nelle proprietà della cartella per collegarla ai modelli di frammento.*
 1. Per generare un frammento di esperienza, seleziona **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.

@@ -19,4 +19,4 @@ AEM Guides supporta anche l’authoring con strumenti desktop come Adobe FrameMa
 - **[Utilizzo dell&#39;ossigeno](author-desktop-oxygen.md)**
 
 
-**Argomento padre:**[ Contenuto autore](authoring-content.md)
+**Argomento padre:**&#x200B;[ Contenuto autore](authoring-content.md)

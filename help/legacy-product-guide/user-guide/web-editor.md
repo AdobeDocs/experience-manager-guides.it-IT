@@ -47,4 +47,4 @@ Inoltre, l&#39;editor Web è compatibile con DITA e supporta gli standard DITA 1
 - **[Usa etichette](web-editor-use-label.md)**
 
 
-**Argomento padre:**[ Creare contenuti con AEM Guides](authoring-content-xml-doc.md)
+**Argomento padre:**&#x200B;[ Creare contenuti con AEM Guides](authoring-content-xml-doc.md)

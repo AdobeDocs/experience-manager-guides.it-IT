@@ -74,4 +74,4 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento.
 
 
-**Argomento padre:**[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**&#x200B;[ Rivedi argomenti o mappe](review.md)

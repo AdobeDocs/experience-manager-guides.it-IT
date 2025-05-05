@@ -63,6 +63,7 @@ Il report **Elenco argomenti** fornisce informazioni dettagliate sugli argomenti
    - **Stato documento** Lo stato dell&#39;argomento.
    - **Autore** l&#39;ultimo utente che ha lavorato sull&#39;argomento.
    - **Mappa padre** L&#39;elenco di tutte le mappe in cui si fa riferimento direttamente all&#39;argomento.
+
    >[!NOTE]
    >
    > Seleziona **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare eventuali modifiche nel file di mappa o se un riferimento all&#39;interno del file di argomenti viene aggiornato.
@@ -206,6 +207,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
    - **Tipo multimediale** \(selezionato per impostazione predefinita\) Tipo del file multimediale. Le opzioni disponibili sono Audio, Video o Immagine.
    - **Usato In** \(selezionato per impostazione predefinita\) I riferimenti in cui è stato utilizzato il contenuto multimediale. Potete selezionare il riferimento per modificarlo.
    - **Tipo di riferimento** \(selezionato per impostazione predefinita\) Il tipo di riferimento - diretto o indiretto.
+
    >[!NOTE]
    >
    > Selezionare **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare eventuali modifiche nel file di mappa o eventuali elementi multimediali nella mappa DITA aggiornati.
@@ -266,4 +268,4 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Selezionare **Scarica** per scaricare lo snapshot di tutti i collegamenti interrotti nella mappa DITA. Il file Excel contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti.
 
 
-**Argomento padre:**[ Introduzione ai report](reports-intro.md)
+**Argomento padre:**&#x200B;[ Introduzione ai report](reports-intro.md)

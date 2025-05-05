@@ -30,4 +30,4 @@ Per generare l&#39;output dal pannello **Generazione rapida**, effettua le segue
 1. Fai clic su **Genera** per generare l&#39;output per i predefiniti selezionati. Alla generazione dell’output viene visualizzato un messaggio di successo. Se la generazione non riesce, viene visualizzato un messaggio di errore. Puoi anche visualizzare il registro degli errori per visualizzare i dettagli dell’errore che si è verificato nel processo di generazione.
 1. Fare clic sull&#39;icona **Visualizza output** \( ![](images/view-output-icon.svg)\) di un predefinito specifico per visualizzare l&#39;output generato per il predefinito.
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

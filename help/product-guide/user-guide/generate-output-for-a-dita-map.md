@@ -70,4 +70,4 @@ Puoi visualizzare lo stato corrente della richiesta di generazione output nella 
 
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)

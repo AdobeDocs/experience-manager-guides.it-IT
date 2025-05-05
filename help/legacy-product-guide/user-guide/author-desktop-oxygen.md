@@ -20,4 +20,4 @@ Puoi produrre output in PDF, ePub, HTML e molti altri formati, utilizzando la st
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento principale:**[ Creare contenuti tramite strumenti desktop](author-desktop-tools.md)
+**Argomento principale:**&#x200B;[ Creare contenuti tramite strumenti desktop](author-desktop-tools.md)

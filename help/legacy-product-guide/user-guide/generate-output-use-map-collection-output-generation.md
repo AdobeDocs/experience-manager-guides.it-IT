@@ -89,6 +89,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
    - Abilita qualsiasi singolo predefinito.
    - Abilitare **Tutti i predefiniti** per una mappa DITA per selezionare tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
    - Abilitare **Predefiniti profilo cartella** per una mappa DITA per selezionare tutti i relativi predefiniti profilo cartella. Questa opzione è disabilitata per impostazione predefinita.
+
      ![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ Analogamente all&#39;annullamento di un&#39;attività di generazione output dall
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)

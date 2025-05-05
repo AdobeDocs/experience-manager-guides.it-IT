@@ -78,4 +78,4 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 1. Tornare al file mappa DITA nella cartella della lingua di origine nell&#39;interfaccia utente di Assets. Gli argomenti ritrascritti ora sono sincronizzati.
 
 
-**Argomento padre:**[ Panoramica sulla traduzione dei contenuti](translation.md)
+**Argomento padre:**&#x200B;[ Panoramica sulla traduzione dei contenuti](translation.md)

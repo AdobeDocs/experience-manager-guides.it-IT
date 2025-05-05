@@ -71,7 +71,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - L&#39;elemento `<title>` viene aggiunto automaticamente quando l&#39;elemento `<fig>` viene inserito come snippet. (18562)
 - Si verificano dei problemi durante il caricamento di un numero elevato di file con set di dati densi in Experience Manager Guides.(17008)
 - L&#39;editor Web non visualizza la parola chiave corretta per impostazione predefinita, soprattutto se la parola chiave è definita in modo diverso nelle mappe figlio. (14748)
-- Lo stato del documento **1} non viene visualizzato quando si modificano le proprietà di più di 50 file in blocco dalla visualizzazione Mappa dell&#39;editor Web.** (14574)
+- Lo stato del documento **1&rbrace; non viene visualizzato quando si modificano le proprietà di più di 50 file in blocco dalla visualizzazione Mappa dell&#39;editor Web.** (14574)
 - Il comportamento del pulsante Chiudi non è coerente quando si utilizza la funzionalità Salvataggio automatico. (10996)
 - Si verificano problemi di convalida negli elementi di MathML quando si inseriscono nuovi elementi o si modificano le equazioni. (10624)
 - La funzionalità Revisioni non funziona con il testo che inizia con i caratteri coreani. (14538)

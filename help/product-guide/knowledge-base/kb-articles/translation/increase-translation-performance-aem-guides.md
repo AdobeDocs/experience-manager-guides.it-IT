@@ -24,10 +24,12 @@ Ogni progetto di traduzione genera più gruppi di utenti per l’accesso, con co
 
 - Contrassegna tutti i progetti come &quot;Inattivi&quot; una volta completata e approvata la traduzione. Il progetto rimane disponibile per la revisione ed è semplicemente contrassegnato come inattivo.
    - Segui questi passaggi per mantenere le prestazioni complessive di traduzione in buona salute.
+
      ![Progetto di traduzione inattivo ](../assets/translation/translation-project-image1.png)
 
 - Per i progetti meno recenti, elimina la cartella contrassegnata come inattiva, approvata e rivista
    - Segui questi passaggi per mantenere buone le prestazioni complessive di traduzione pulendo i file di traduzione temporanei e i gruppi di utenti associati a questa cartella di progetto.
+
      ![Elimina progetto di traduzione e cartella ](../assets/translation/translation-project-image2.png)
 
 

@@ -59,4 +59,4 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 
 Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor Web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

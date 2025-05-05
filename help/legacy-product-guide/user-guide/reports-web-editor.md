@@ -42,6 +42,7 @@ Per creare un rapporto sugli argomenti, effettuare le seguenti operazioni:
    - **Stato documento** Lo stato corrente dell&#39;argomento.
    - **Autore** l&#39;ultimo utente che ha lavorato sull&#39;argomento.
    - **Mappa padre** L&#39;elenco di tutte le mappe in cui si fa riferimento direttamente all&#39;argomento.
+
    >[!NOTE]
    >
    > Fai clic su **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare eventuali modifiche nel file di mappa o se viene aggiornato un riferimento nel file di argomenti.
@@ -115,7 +116,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
 1. Fare doppio clic su **Multimedia** a sinistra. Viene visualizzato l&#39;elenco degli elementi multimediali presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco per file multimediali o in base ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **** prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
+   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **&#x200B;**&#x200B;prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -137,6 +138,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
    - **Tipo multimediale** \(selezionato per impostazione predefinita\) Tipo del file multimediale. Le opzioni disponibili sono Audio, Video o Immagine.
    - **Usato In** \(selezionato per impostazione predefinita\) I riferimenti in cui è stato utilizzato il contenuto multimediale. Potete fare clic sul riferimento per modificarlo.
    - **Tipo di riferimento** \(selezionato per impostazione predefinita\) Il tipo di riferimento - diretto o indiretto.
+
    >[!NOTE]
    >
    > Fai clic su **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare eventuali modifiche nel file di mappa o se eventuali elementi multimediali presenti nella mappa DITA vengono aggiornati.
@@ -159,9 +161,11 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco in base ai collegamenti o ai nomi di utilizzati nei riferimenti.
 
    - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. La schermata seguente, ad esempio, mostra tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati. `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Se ordini per colonna **Usato in**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `TestMap.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Puoi filtrare i collegamenti interrotti in base al **tipo di file** e al **tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto utilizzati nella mappa.
 
@@ -194,4 +198,4 @@ Fai clic su **Aggiorna** per ottenere un nuovo elenco di collegamenti interrotti
 1. Fare clic su **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
 
 
-**Argomento padre:**[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[ Report](reports-intro.md)

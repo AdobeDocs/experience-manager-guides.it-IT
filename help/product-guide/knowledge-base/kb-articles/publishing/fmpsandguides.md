@@ -86,8 +86,7 @@ Si tratta di un conflitto se si sceglie il predefinito FMPS e si forniscono anch
 
 >FMPS2020.0.2 o versioni successive sono compatibili con la pubblicazione di base.
 >Verificare che la baseline sia stata creata correttamente. Per verificare, passare alla scheda Mappa dashboard— Argomenti— Download  Mappare e scegliere &quot;Usa baseline&quot;.
-- ### Le attività Publish di FMPS richiedono più tempo rispetto ad altri motori
-
+>- ### Le attività Publish di FMPS richiedono più tempo rispetto ad altri motori
 >Durante la pubblicazione da FMPS, il tempo di intestazione fisso ideale è di circa 3-4 minuti; se ritieni che sia più lungo, contatta l’amministratore FMPS o contatta il supporto Adobe.
 
 ## Altre risorse:

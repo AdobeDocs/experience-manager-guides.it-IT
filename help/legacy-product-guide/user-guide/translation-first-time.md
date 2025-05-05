@@ -141,4 +141,4 @@ Al termine della traduzione, lo stato del processo di traduzione diventa *Pronto
 >
 > Se si rifiuta la traduzione di uno o più argomenti in un processo di traduzione, lo stato di traduzione **In corso** di tutti gli argomenti rifiutati viene ripristinato allo stato originale. Lo stato degli argomenti indicati viene controllato e ripristinato in base all’ultimo stato di traduzione. Inoltre, i file di traduzione creati nel progetto di destinazione non vengono eliminati anche se la traduzione viene rifiutata per essi.
 
-**Argomento padre:**[ Traduci contenuto](translation.md)
+**Argomento padre:**&#x200B;[ Traduci contenuto](translation.md)

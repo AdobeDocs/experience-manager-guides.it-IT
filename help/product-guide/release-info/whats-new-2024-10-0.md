@@ -76,7 +76,7 @@ Se in un file si fa riferimento allo stesso argomento più di una volta, è poss
 
 ![Predefinito legacy di AEM Sites](assets/aem-sites-legacy.png)
 
-*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**del predefinito **AEM Sites**.*
+*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**&#x200B;del predefinito **AEM Sites**.*
 
 Ulteriori informazioni su [Predefiniti AEM Sites](../user-guide/generate-output-aem-site.md).
 

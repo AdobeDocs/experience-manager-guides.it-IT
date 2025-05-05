@@ -45,4 +45,4 @@ Per configurare gli elementi in modo che abbiano un ID generato automaticamente,
 1. Fai clic su **Salva**.
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

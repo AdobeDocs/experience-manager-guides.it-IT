@@ -114,4 +114,4 @@ Puoi cercare una stringa nell’output di AEM Sites. Per impostazione predefinit
 
 Per ulteriori dettagli, visualizzare la sezione *Configurare l&#39;appiattimento della struttura del nodo del sito AEM* nella guida Installare e configurare Adobe Experience Manager Guides.
 
-**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**&#x200B;[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

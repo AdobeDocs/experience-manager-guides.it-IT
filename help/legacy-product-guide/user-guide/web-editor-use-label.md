@@ -58,4 +58,4 @@ Per eliminare un’etichetta, effettua le seguenti operazioni:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

@@ -81,4 +81,4 @@ Quando utilizzi un Dispatcher con AEM Guides, se l’istanza Autore ha in primo 
                 }
 ```
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)

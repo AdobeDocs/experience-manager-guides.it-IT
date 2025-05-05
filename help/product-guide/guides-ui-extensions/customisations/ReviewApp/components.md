@@ -35,12 +35,15 @@ Commento di revisione lato editor XML:
 
 - Risposta commento revisione: `id: comment_reply`
    - Il widget per ogni risposta di commento di revisione.
+
      ![Schermata Risposta Commento Recensione](./imgs/reply.png)
 
 - Nuova risposta commento revisione: `id: comment_new_reply`
    - Il widget per la nuova risposta del commento di revisione.
+
      ![Schermata Nuova Risposta Commento Recensione](./imgs/new_reply.png)
 
 - Casella degli strumenti di annotazione: `id: annotation_toolbox`
    - Barra degli strumenti in alto a destra nell’app di revisione.
+
      ![Schermata Casella degli strumenti Annotazione](./imgs/annotation_toolbox.png)

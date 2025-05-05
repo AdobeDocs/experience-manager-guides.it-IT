@@ -154,4 +154,4 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la previsione, è possibile fare clic sul pulsante **Salva** nella parte superiore per salvare le modifiche apportate alla previsione. Se non si desidera salvare la modifica e ripristinare la previsione, è possibile fare clic sul pulsante **Reimposta**. Facendo clic sul pulsante **Reimposta** viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

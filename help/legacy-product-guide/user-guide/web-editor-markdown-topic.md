@@ -62,4 +62,4 @@ Per creare un argomento Markdown dall’editor Web, effettua le seguenti operazi
 >
 > Se le modifiche non sono state salvate, viene visualizzata una finestra a comparsa e viene richiesto di salvare l&#39;argomento prima di chiuderlo.
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

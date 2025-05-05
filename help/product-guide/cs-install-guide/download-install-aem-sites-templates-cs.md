@@ -113,8 +113,10 @@ Sono necessari i due tipi di modelli seguenti:
   ![modello pagina sezione](assets/customize-existing-aem-templates-section.png)
    - Pagina dettagli o Modello pagina argomenti: utilizza questo modello per il contenuto degli argomenti di una mappa. Tutte le pagine Sites di contenuto DITA/XML vengono create utilizzando i modelli di pagina per argomento. Per creare questi modelli, sono disponibili due prerequisiti:
       - Aggiungi un componente testo al modello, contenuto in un componente contenitore, con una proprietà obbligatoria. `text="$topic.content$"`.
+
         ![modello pagina contenitore](assets/customize-existing-aem-templates-container.png)
       - Rifletti lo stesso contenitore e componente di testo nella struttura dello stesso modello, come mostrato nella schermata seguente:
+
         ![struttura del modello di contenitore](assets/customize-existing-aem-templates-structure.png)
 
 ### Assegna tag a pagina categoria come contenitore di documentazione

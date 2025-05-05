@@ -106,4 +106,4 @@ Nel pannello a sinistra sono disponibili le seguenti opzioni di filtro:
 
 I filtri vengono aggiornati quando si passa dalla scheda **Mappe e predefiniti** alla scheda **Cronologia controlli** e viceversa.
 
-**Argomento padre: **[Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre: &#x200B;** [Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

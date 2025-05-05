@@ -41,4 +41,4 @@ Questa mappa principale sarà applicabile a tutte le risorse (cartelle e sottoca
 
 **Visualizzazione modifica argomento** - Selezionare l&#39;icona Risoluzione chiave durante la modifica di un argomento DITA e selezionare il file DITA da utilizzare per la risoluzione dei riferimenti chiave.
 
-**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor mappe](map-editor.md)

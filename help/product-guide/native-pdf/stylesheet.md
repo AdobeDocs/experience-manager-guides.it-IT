@@ -159,7 +159,7 @@ Nell’esempio seguente verrà creato uno stile capolettera:
 
    >[!NOTE]
    >
-   Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
+   >Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
 
 1. Nell&#39;elenco **Stili** espandere **Stili paragrafo**.
 
@@ -195,7 +195,7 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
 
    >[!NOTE]
    >
-   Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
+   >Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
 
 1. Nell&#39;elenco **Stili** espandere **Stili di carattere**.
 
@@ -215,7 +215,7 @@ Nell’esempio seguente verrà creato uno stile di carattere in linea:
 
      >[!NOTE]
      >
-     Puoi anche aggiungere font al modello, che sono memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di tipi di carattere e sull&#39;utilizzo delle risorse, vedere [Operazioni con le risorse](components-pdf-template.md#work-with-resources).
+     >Puoi anche aggiungere font al modello, che sono memorizzati nella sezione Risorse del modello. Per ulteriori dettagli sull&#39;aggiunta di tipi di carattere e sull&#39;utilizzo delle risorse, vedere [Operazioni con le risorse](components-pdf-template.md#work-with-resources).
 
    * **Layout**: è possibile impostare le proprietà relative al layout, ad esempio Altezza e Larghezza, Margine, Spaziatura interna, Allineamento e altro ancora.
 
@@ -239,7 +239,7 @@ Nell’esempio seguente, personalizzeremo lo stile dell’elenco numerato o ordi
 
    >[!NOTE]
    >
-   Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
+   >Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
 
 1. Nell&#39;elenco **Stili** espandere **Stili elenco**.
 
@@ -277,7 +277,7 @@ Nell’esempio seguente, personalizzeremo lo stile dell’elenco numerato o ordi
 
      >[!NOTE]
      >
-     Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
+     >Potete immettere il valore in pixel (pixel), pt (punti), rem, em, % (percentuale) o in unità (pollici).
 
    * **Larghezza prefisso**: area occupata dal formato numero. Viene automaticamente impostato su una dimensione che può adattarsi facilmente al formato selezionato. Se desideri aumentare le dimensioni, puoi sostituire il valore predefinito.
 
@@ -299,7 +299,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
    >[!NOTE]
    >
-   Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
+   >Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
 
 1. Nell&#39;elenco **Stili** fare clic con il pulsante destro del mouse su **Stile tabella** e scegliere **Nuovo stile**.
 
@@ -315,7 +315,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
      >[!NOTE]
      >
-     Le impostazioni seguenti sono disponibili nella sezione **Generale** quando **Applica formattazione a** è impostato su **Intera tabella**.
+     >Le impostazioni seguenti sono disponibili nella sezione **Generale** quando **Applica formattazione a** è impostato su **Intera tabella**.
 
    * **Testo a capo**: selezionare la modalità di disposizione del testo attorno alla tabella. Questa funzione è utile quando la tabella si trova all’interno di un altro elemento a livello di blocco e deve essere sottoposta a rendering insieme ad altro contenuto nell’elemento del blocco. Le opzioni di wrapping sono *left* o *right* allineate o *none*.
 
@@ -329,7 +329,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
      >[!NOTE]
      >
-     Le impostazioni seguenti sono disponibili nella sezione **Cella** quando **Applica formattazione a** è impostato su **Tabella intera**.
+     >Le impostazioni seguenti sono disponibili nella sezione **Cella** quando **Applica formattazione a** è impostato su **Tabella intera**.
 
    * **Spaziatura interna**: specificare la spaziatura tra le celle di una tabella. Potete specificare valori di spaziatura diversi per i lati superiore, inferiore, sinistro e destro.
 
@@ -355,7 +355,7 @@ Nell&#39;esempio seguente verrà creato un nuovo stile per il titolo della fines
 
    >[!NOTE]
    >
-   Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
+   >Consulta la sezione [Personalizzare uno stile predefinito o nuovo](components-pdf-template.md#customize-style) per aprire un foglio di stile per personalizzarlo o modificarlo.
 
 1. Nell&#39;elenco **Stili** espandere **Altri stili**.
 
@@ -406,7 +406,7 @@ Ad esempio, è possibile definire i seguenti stili per definire la dimensione de
 
 >[!NOTE]
 >
-Nell&#39;esempio precedente, &quot;Front&quot; e &quot;Back&quot; sono i nomi di esempio dei file di layout che è possibile utilizzare nei modelli.
+>Nell&#39;esempio precedente, &quot;Front&quot; e &quot;Back&quot; sono i nomi di esempio dei file di layout che è possibile utilizzare nei modelli.
 
 
 ## Definire uno stile CSS personalizzato per il contenuto di prefissi e suffissi

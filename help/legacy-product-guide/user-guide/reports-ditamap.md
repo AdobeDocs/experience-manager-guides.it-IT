@@ -96,4 +96,4 @@ Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti opera
 
 Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
-**Argomento padre:**[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[ Report](reports-intro.md)

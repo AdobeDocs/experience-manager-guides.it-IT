@@ -27,4 +27,4 @@ AEM Guides viene fornito con tre editor preconfigurati. è possibile utilizzarli
 - **[Editor DITAVAL](ditaval-editor.md)**
 
 
-**Argomento padre:**[ Contenuto autore](authoring-content.md)
+**Argomento padre:**&#x200B;[ Contenuto autore](authoring-content.md)

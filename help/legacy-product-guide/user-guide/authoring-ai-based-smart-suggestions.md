@@ -30,7 +30,7 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 1. Seleziona un tag per visualizzare i suggerimenti di authoring per il tag corrente.  I suggerimenti per visualizzare e aggiungere riferimenti al contenuto dai file indicizzati vengono visualizzati in base al contenuto nel tag corrente. È inoltre possibile selezionare più tag.
 
 
-1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile.
+1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ![&#128279;](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ai suggerisci contenuto riutilizzabile.
 
 
 

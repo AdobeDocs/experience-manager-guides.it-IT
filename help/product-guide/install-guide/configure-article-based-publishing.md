@@ -21,4 +21,4 @@ Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti
 - Modello della knowledge base per la pubblicazione basata su articoli
 - Pacchetto di componenti per la pubblicazione basata su articoli
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

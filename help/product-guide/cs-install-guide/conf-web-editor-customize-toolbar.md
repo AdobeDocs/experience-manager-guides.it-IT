@@ -51,16 +51,16 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
    **elementi**:   Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
        &quot;
-       &quot;toolbar&quot;: {
+       &quot;toolbar&quot;: &lbrace;
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extraclass&quot;:
        &quot;operazioni barra degli strumenti&quot;,
-       &quot;elementi&quot;: [
-       {
+       &quot;elementi&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;label&quot;: &quot;Left Controls&quot;,
-       &quot;elementi&quot;: [
+       &quot;elementi&quot;: &lbrack;
        &quot;
    
    Nell&#39;insieme `items` è necessario specificare la definizione di una o più icone della barra degli strumenti.
@@ -145,4 +145,4 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

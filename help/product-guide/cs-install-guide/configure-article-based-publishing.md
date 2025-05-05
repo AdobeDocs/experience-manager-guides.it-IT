@@ -42,4 +42,4 @@ Per creare un sito AEM per la pubblicazione dell’output basato su articoli, ef
 
 Puoi utilizzare il sito AEM per pubblicare l’articolo utilizzando i predefiniti di output dell’editor web.
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

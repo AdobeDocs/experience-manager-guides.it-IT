@@ -22,4 +22,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Aggiungi i caratteri da sostituire con un trattino basso nei nomi dei file di output del sito AEM. <br> **Valore predefinito**: ``'<\>\`@$`` |
 
-**Argomento padre:**[ Configura nomi file](conf-file-names.md)
+**Argomento padre:**&#x200B;[ Configura nomi file](conf-file-names.md)

@@ -25,4 +25,4 @@ Per l&#39;ottimizzazione delle prestazioni, considerare i punti seguenti:
   Questa modifica riduce il tempo di pubblicazione e l&#39;utilizzo della memoria durante la pubblicazione di mappe DITA con un numero elevato di argomenti.
 
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)

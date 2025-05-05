@@ -53,6 +53,7 @@ Per integrare il contenuto in Experience Manager Guides, effettua le seguenti op
 1. **Configurare il connettore dell&#39;origine dati**
    - Il connettore dell’origine dati funge da interfaccia per stabilire la connettività con le origini dati esterne. È necessario configurare il connettore per stabilire la connessione e includere i metodi di autenticazione, ad esempio `Basic Auth` o `API key Auth`. Tutti i dettagli di configurazione, comprese le informazioni crittografate, vengono archiviati in modo sicuro in Adobe Experience Manager.
    - Il livello del connettore è progettato per essere estensibile, consentendo di creare implementazioni per la connessione a vari sistemi che non sono forniti come preconfigurati da Experience Manager Guides.
+
      ![Livello connettore](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Per integrare il contenuto in Experience Manager Guides, effettua le seguenti op
         ```
 
       - Modelli
+
         ![Motore di modelli](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Dati generati dalla stessa origine dati ma da modelli diversi
+
         ![Dati generati](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **Genera contenuto utilizzando i modelli**

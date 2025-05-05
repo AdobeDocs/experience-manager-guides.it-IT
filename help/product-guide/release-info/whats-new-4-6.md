@@ -30,7 +30,7 @@ Un frammento di esperienza è un’unità di contenuto modulare all’interno di
 
 ![scheda opzioni proprietà file](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish e visualizzare i frammenti di esperienza di un argomento dalla sezione **Output**nelle **Proprietà file**.*
+*Publish e visualizzare i frammenti di esperienza di un argomento dalla sezione **Output**&#x200B;nelle **Proprietà file**.*
 
 Experience Manager Guides ora consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento o i relativi elementi e un modello di Frammento di esperienza. Puoi anche creare varianti di Frammento esperienza utilizzando i filtri di condizione.
 
@@ -81,7 +81,7 @@ Se in un file si fa riferimento allo stesso argomento più di una volta, è poss
 
 ![Predefinito legacy di AEM Sites](assets/aem-sites-legacy.png)
 
-*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**del predefinito **AEM Sites**.*
+*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**&#x200B;del predefinito **AEM Sites**.*
 
 
 

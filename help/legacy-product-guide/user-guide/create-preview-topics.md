@@ -21,4 +21,4 @@ AEM Guides viene fornito con una potente funzione per creare argomenti DITA dall
 - **[Anteprima di un argomento](web-editor-preview-topics.md)**
 
 
-**Argomento padre:**[ Contenuto autore](authoring-content.md)
+**Argomento padre:**&#x200B;[ Contenuto autore](authoring-content.md)

@@ -38,6 +38,7 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
    - **Usa baseline**: selezionare questa opzione per ottenere un elenco delle baseline create per la mappa DITA. Per scaricare il file mappa e il relativo contenuto in base a una baseline specifica, selezionare la baseline dall&#39;elenco a discesa. Per ulteriori dettagli sull&#39;utilizzo delle baseline, vedere [Utilizzo delle baseline](generate-output-use-baseline-for-publishing.md#).
    - **Flatten File Hierarchy**: selezionare questa opzione per salvare tutti gli argomenti e i file multimediali di riferimento in un&#39;unica cartella.
+
    >[!NOTE]
    >
    > È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, viene scaricata l&#39;ultima versione persistente degli argomenti e dei file multimediali di riferimento.
@@ -58,4 +59,4 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
 Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)

@@ -56,4 +56,4 @@ Dal menu Opzioni (Options) potete inoltre eseguire le seguenti operazioni sul pr
 >
 > Quando un predefinito di output in Profili globali e cartelle viene eliminato, si riflette in tutte le mappe correlate e non viene visualizzato nella scheda **Predefiniti di output**.
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)

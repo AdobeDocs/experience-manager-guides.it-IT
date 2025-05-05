@@ -35,4 +35,4 @@ Per visualizzare il percorso relativo o l’UUID del contenuto a cui si fa rifer
 1. Fai clic su **Salva**.
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)

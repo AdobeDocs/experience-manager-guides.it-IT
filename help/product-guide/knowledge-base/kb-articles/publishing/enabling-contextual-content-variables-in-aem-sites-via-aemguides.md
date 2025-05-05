@@ -35,7 +35,7 @@ Prima di procedere, verifica che siano soddisfatti i seguenti prerequisiti:
 
 2. **Configurazione variabili di contenuto contestuali**:
    - Completa la configurazione per **Variabili di contenuto contestuali** in AEM utilizzando la [documentazione ufficiale](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Ciò include:
-      - Abilitazione dell&#39;aggregazione di proprietà ****.
+      - Abilitazione dell&#39;aggregazione di proprietà **&#x200B;**.
       - Configurazione della riscrittura di **HTML** (se si utilizza l&#39;output di HTML).
       - Configurazione della riscrittura **JSON** (se si utilizza l&#39;output JSON).
 

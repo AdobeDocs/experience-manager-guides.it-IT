@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Prepara i file InDesign per la conversione {#id195DBF0045Z}
 
-L&#39;InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1}&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
+L&#39;InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1&rbrace;&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
 
 Anche se è possibile modificare il contenuto DITA in un ordine ragionevole in un editor DITA, è molto più semplice correggere il file InDesign prima di creare il file IDML. Questa operazione può essere eseguita senza modificare l&#39;aspetto del documento di origine. Ha anche il vantaggio di rendere accessibile il documento di origine definendo correttamente l&#39;ordine di lettura.
 
@@ -453,7 +453,7 @@ Per controllare i riferimenti, esegui i seguenti passaggi utilizzando lo script 
 1. Esegui lo script di convalida \[`/bin/fmdita/validatebtree?operation=validate`\] per verificare se sono presenti nuovi riferimenti interrotti.
 1. Se lo script di convalida riporta errori, è possibile applicarvi la patch utilizzando lo script di patch.
 1. Registra i dettagli forniti di seguito e, se necessario, condividili con il team di successo del cliente:
-1. 
+1. &#x200B;
    - Registri stampati dallo script di convalida
 - Package di &quot;`/content/fmdita/references`&quot;
 - Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
@@ -467,7 +467,7 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
    **Nota:* si consiglia di copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
-1. 
+1. &#x200B;
    - Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
 - Verifica che i riferimenti siano stati corretti
 

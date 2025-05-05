@@ -74,7 +74,7 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 
 ![proprietà-file](images/file-properties-general.png){width="300" align="left"}
 
-- **** Nome File: visualizza il nome file dell&#39;argomento selezionato. Il nome del file è collegato ipertestuale alla pagina delle proprietà del file selezionato.
+- **&#x200B;**&#x200B;Nome File: visualizza il nome file dell&#39;argomento selezionato. Il nome del file è collegato ipertestuale alla pagina delle proprietà del file selezionato.
 - **ID**: visualizza l&#39;ID dell&#39;argomento selezionato.
 - **Tag**: questi sono i tag metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
 - **Modifica altre proprietà**: è possibile modificare altre proprietà dalla pagina delle proprietà del file.
@@ -141,4 +141,4 @@ Scopri come utilizzare i file Schematron in Experience Manager Guides. Fai rifer
 
 
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

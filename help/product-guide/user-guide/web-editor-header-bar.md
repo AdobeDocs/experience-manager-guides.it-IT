@@ -23,4 +23,4 @@ Utilizza l&#39;icona **Espandi** nella barra degli strumenti per nascondere la b
 
 
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

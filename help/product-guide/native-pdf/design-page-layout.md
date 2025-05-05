@@ -165,6 +165,7 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
 1. Modificate la proprietà Visualizza rotazione (View Rotation) per eseguire il rendering del contenuto in senso orario di 90°.
 
    1. Selezionare **90°** in senso orario dall&#39;elenco a discesa Visualizza rotazione.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Fai clic su **Salva tutto** per salvare le proprietà di layout della pagina aggiornate.
@@ -179,9 +180,11 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
       Il foglio di stile Layout è aperto per la modifica.
 
    1. Fai clic con il pulsante destro del mouse su **Altri stili** e scegli **Nuovo stile**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Nel popup Aggiungi stile immettere **stile orizzontale** in **classname**.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Fai clic su **Fine**.
@@ -437,6 +440,7 @@ Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina v
    1. Nel pannello di destra, fai clic su **Proprietà contenuto** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Espandi la sezione delle proprietà **Layout** e imposta il valore della proprietà **Float** su **right**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Il campo Titolo capitolo è allineato sul lato destro del piè di pagina della pagina.

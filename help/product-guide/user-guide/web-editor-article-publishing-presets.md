@@ -66,4 +66,4 @@ Per visualizzare l&#39;output, chiudere la finestra di dialogo Output generato e
 
 
 
-**Argomento padre:**[ Pubblicazione basata su articolo dall&#39;editor](web-editor-article-publishing.md)
+**Argomento padre:**&#x200B;[ Pubblicazione basata su articolo dall&#39;editor](web-editor-article-publishing.md)

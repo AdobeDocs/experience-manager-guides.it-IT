@@ -318,4 +318,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)

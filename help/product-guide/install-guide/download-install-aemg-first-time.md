@@ -55,4 +55,4 @@ Per scaricare e installare AEM Guides per la prima volta in un computer, effettu
 >
 > Eseguire la procedura di installazione su tutte le istanze dei server AEM presenti nella configurazione.
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)

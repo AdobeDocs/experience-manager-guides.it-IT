@@ -46,4 +46,4 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
    > È inoltre possibile rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor](web-editor.md)

@@ -42,4 +42,4 @@ Per i formati di output supportati sono disponibili le seguenti opzioni predefin
 
 In qualità di amministratore, Experience Manager Guides ti consente di creare e gestire i predefiniti di output per i profili globali e delle cartelle. Per ulteriori dettagli, visualizzare [Gestione predefiniti di output globali e Profilo cartella](./web-editor-manage-output-presets.md).
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)

@@ -37,4 +37,4 @@ Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi f
 >
 > Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
 
-**Argomento padre:**[ Configura nomi file](conf-file-names.md)
+**Argomento padre:**&#x200B;[ Configura nomi file](conf-file-names.md)

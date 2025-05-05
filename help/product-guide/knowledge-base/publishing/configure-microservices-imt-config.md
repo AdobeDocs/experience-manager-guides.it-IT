@@ -40,7 +40,7 @@ Per creare configurazioni IMS in **Adobe Developer Console**, effettua le seguen
 
    <img src="assets/projects-tab.png" alt="scheda progetti" width="500">
 
-   *Selezionare la scheda **Progetti**in **Adobe Developer Console***
+   *Selezionare la scheda **Progetti**&#x200B;in **Adobe Developer Console***
 
 1. Per creare un nuovo progetto vuoto, seleziona **Progetto vuoto** dal menu a discesa **Crea nuovo progetto**.
 

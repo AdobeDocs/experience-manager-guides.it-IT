@@ -171,4 +171,4 @@ Per esportare una baseline tradotta, effettuare le seguenti operazioni:
 1. \(Facoltativo\) Per esportare una baseline già esportata, selezionare **Sovrascrivi baseline esistente**, quindi selezionare **Esporta baseline**.
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)

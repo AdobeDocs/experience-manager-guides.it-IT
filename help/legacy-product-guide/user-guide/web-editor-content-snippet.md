@@ -125,6 +125,7 @@ Ad esempio:
       - Se hai selezionato il modello di elenco jira ordinato, puoi visualizzare un elenco ordinato per i problemi Jira.
 
    1. La vista origine mostra i dati nella vista origine DITA.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Aggiungi un generatore di frammenti di contenuto. Visualizza i dati in modalità di origine o anteprima.*
 

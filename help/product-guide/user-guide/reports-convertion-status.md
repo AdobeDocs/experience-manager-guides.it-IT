@@ -56,4 +56,4 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
       - **Output**: percorso del documento convertito. Selezionando sul collegamento Output si raggiunge la posizione in cui viene salvato l’output.
 
 
-**Argomento padre:**[ Introduzione ai report](reports-intro.md)
+**Argomento padre:**&#x200B;[ Introduzione ai report](reports-intro.md)

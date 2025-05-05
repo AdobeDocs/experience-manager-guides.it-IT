@@ -18,4 +18,4 @@ Per iniziare, distribuisci Experience Manager Guides tramite Cloud Manager. Per 
 
 
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)

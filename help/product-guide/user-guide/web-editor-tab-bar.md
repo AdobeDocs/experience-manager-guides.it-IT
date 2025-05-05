@@ -52,4 +52,4 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
    - **Software on-premise**: se si utilizza Adobe Experience Manager Guides (4.2.1 e versioni successive), se si seleziona l&#39;opzione **Assets**, verrà visualizzato il percorso del file corrente nell&#39;interfaccia utente di Assets.
 - **Impostazioni**: consente di accedere alla finestra di dialogo Impostazioni editor. Per ulteriori informazioni, vedere [Utilizzo delle impostazioni dell&#39;editor](./web-editor-settings.md).
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

@@ -17,4 +17,4 @@ Adobe Experience Manager Guides supporta la creazione di output per documenti Fr
 
 Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[ Genera output di documenti FrameMaker](fm-output-generatation.md)

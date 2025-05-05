@@ -178,4 +178,4 @@ Le seguenti funzioni di Experience Manager Guides non sono attualmente applicabi
 > La funzionalità **Trova e sostituisci** non elabora i file Markdown a livello di repository. Ciò include la ricerca di un file Markdown all’interno di una mappa o cartella. Tuttavia, può ancora essere utilizzato all’interno dell’editor Markdown. Inoltre, le opzioni **Ricerca** e **Filtro** nella visualizzazione Archivio non elaborano i file Markdown.
 
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

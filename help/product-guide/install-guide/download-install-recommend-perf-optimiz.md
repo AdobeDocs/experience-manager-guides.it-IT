@@ -51,7 +51,7 @@ I parametri di avvio della JVM devono essere accuratamente regolati in base all&
 
 : imposta la dimensione heap JVM su un minimo di 1/4 della memoria totale disponibile. Utilizzare il parametro `-Xmx<size>` per impostare la dimensione della memoria heap. Impostare il valore per -`Xms` uguale a `-Xmx`.
 
-- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder``>`.
+- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder` `>`.
 
 - Abilita registro Java GC come:
 
@@ -115,4 +115,4 @@ Questa operazione può essere eseguita in fase di esecuzione tramite la console 
 Un numero maggiore di **Limita pagine del sito AEM nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
 
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)

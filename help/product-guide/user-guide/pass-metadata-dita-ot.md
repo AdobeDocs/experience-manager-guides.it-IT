@@ -86,4 +86,4 @@ Le proprietà dei metadati selezionate verranno passate all&#39;output generato 
 
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
