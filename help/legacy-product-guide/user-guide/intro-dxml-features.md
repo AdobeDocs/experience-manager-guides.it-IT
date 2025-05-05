@@ -69,11 +69,11 @@ Utilizzando il connettore AEM in FrameMaker, puoi gestire i file FrameMaker. Il 
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
 
 * Guida utente
 * Guida di riferimento API
 * Guida rapida
-* [Guida* Pagina archiviazione](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (accedere alla documentazione precedente)
+* [Guida* Pagina archiviazione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) (accedere alla documentazione precedente)
 
 **Argomento padre:**&#x200B;[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

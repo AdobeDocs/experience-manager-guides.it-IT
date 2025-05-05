@@ -14,9 +14,9 @@ ht-degree: 14%
 
 # Configurare Dispatcher {#id213BCM0M05U}
 
-Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli, consulta [Dispatcher nel cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli, consulta [Dispatcher nel cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=it).
 
-1. Per la migrazione della configurazione del dispatcher da AMS a Cloud Service, consulta [Migrazione della configurazione di Dispatcher da AMS ad AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
+1. Per la migrazione della configurazione del dispatcher da AMS a Cloud Service, consulta [Migrazione della configurazione di Dispatcher da AMS ad AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=it).
 1. Per informazioni dettagliate su come configurare Dispatcher, vedere [Configurazione di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=it).
 
 >[!NOTE]

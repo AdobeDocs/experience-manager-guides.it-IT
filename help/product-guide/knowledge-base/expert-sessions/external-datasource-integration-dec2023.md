@@ -44,11 +44,11 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **Configura connettore origine dati** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Configura connettore origine dati** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=it)
 
-- **Documentazione** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **Documentazione** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=it)
 
-- **Utilizzo degli strumenti Velocity per i modelli** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **Utilizzo degli strumenti Velocity per i modelli** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=it#use-velocity-tools)
 
 
 

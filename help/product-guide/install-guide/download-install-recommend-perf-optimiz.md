@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Configura archivio dati \(Obbligatorio\)
 
 **Qual è la modifica?**
-Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
 Puoi porre le tue domande e ottenere le risposte in modo informativo. La risposta alla query si basa sul contenuto della documentazione del prodotto. Questa ricerca è completamente conversazionale. Puoi fare domande, e poi, in base alla risposta, puoi anche fare altre domande. La risposta include anche collegamenti ai documenti di origine, a cui è possibile fare riferimento per ulteriori dettagli.
 
 Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come si crea un argomento?* Ricevi una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output di PDF per il documento, è possibile porre domande su di esso. *Come si pubblica un argomento in un PDF?* o *Come generare l&#39;output di PDF per un argomento?*

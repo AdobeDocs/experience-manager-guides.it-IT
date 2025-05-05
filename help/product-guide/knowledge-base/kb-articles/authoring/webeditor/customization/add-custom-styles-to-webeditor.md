@@ -34,7 +34,7 @@ Comprendiamo questo con un esempio in cui vogliamo mostrare la breve descrizione
 
 Utilizza i profili cartella per controllare *css_layout.css* nella scheda &quot;Configurazione editor XML&quot; e aggiungere i CSS con stili personalizzati
 
-[utilizza questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione del layout del modello CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[utilizza questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione del layout del modello CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=it#customize-the-css-template-layout)
 
 Utilizza quanto segue per impostare lo stile precedente nell’editor web:
 - Utilizza [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) e caricalo nel profilo cartella che preferisci
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Riferimenti
 
-Potresti anche essere interessato alla sessione di esperti sulle configurazioni e la personalizzazione dell&#39;editor Web descritta in [Sessione di esperti sull&#39;editor Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Potresti anche essere interessato alla sessione di esperti sulle configurazioni e la personalizzazione dell&#39;editor Web descritta in [Sessione di esperti sull&#39;editor Web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=it)

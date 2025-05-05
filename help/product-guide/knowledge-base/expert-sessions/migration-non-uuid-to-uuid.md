@@ -46,9 +46,9 @@ Passaggi per passare da non-uuid a uuid
 
 ### Documentazione
 
-- [Migrazione del contenuto da non UUID a UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrazione del contenuto da non UUID a UUID](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: spostare il contenuto UUID da on-premise/AMS al cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Passaggio a AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Passaggio a AEM Cloud](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: migrazione dei contenuti non uuid a Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum della community

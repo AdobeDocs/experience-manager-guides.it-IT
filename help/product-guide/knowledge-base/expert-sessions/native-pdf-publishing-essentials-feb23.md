@@ -41,7 +41,7 @@ In questa sessione imparerai quanto segue:
 
 ## Risorse correlate
 
-- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=it)
 
 - **Guida utente** - [Pubblicazione nativa di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 

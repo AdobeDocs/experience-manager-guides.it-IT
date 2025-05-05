@@ -17,19 +17,19 @@ Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desid
 
 >[!IMPORTANT]
 >
-> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
+> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
 
 ## Interfaccia utente della console Assets
 
-Puoi selezionare il contenuto sul desktop e trascinare l’interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Per ulteriori dettagli, vedi [Carica risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) nella documentazione di Adobe Experience Manager.
+Puoi selezionare il contenuto sul desktop e trascinare l’interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Per ulteriori dettagli, vedi [Carica risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#upload-assets) nella documentazione di Adobe Experience Manager.
 
 ## App desktop Adobe Experience Manager
 
-Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=it).
 
 ## Acquisizione in blocco delle risorse
 
-In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuto in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuto in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#asset-bulk-ingestor).
 
 ## Utilizza FrameMaker per il caricamento in blocco
 

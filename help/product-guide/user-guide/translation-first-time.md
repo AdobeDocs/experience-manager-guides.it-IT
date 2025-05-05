@@ -49,7 +49,7 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
    >[!NOTE]
    >
-   > Visualizza [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) nella documentazione di Adobe Experience Manager per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
+   > Visualizza [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=it) nella documentazione di Adobe Experience Manager per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
 
 1. Seleziona **Salva e chiudi** per salvare le proprietà della cartella aggiornate.
 

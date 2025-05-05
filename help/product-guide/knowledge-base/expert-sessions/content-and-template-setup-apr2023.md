@@ -51,7 +51,7 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=it)
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

@@ -44,7 +44,7 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 >[!IMPORTANT]
 >
->Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Per istruzioni sulla disinstallazione, consulta la sezione **Disinstallazione dei pacchetti** nell&#39;articolo [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Per istruzioni sulla disinstallazione, consulta la sezione **Disinstallazione dei pacchetti** nell&#39;articolo [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -78,7 +78,7 @@ Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Au
 
 >[!IMPORTANT]
 >
->Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la sezione **Disinstallazione dei pacchetti** nelle istruzioni di disinstallazione dell&#39;articolo [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Se nel sistema è installata una versione precedente del plug-in, accertarsi di disinstallarla prima di avviare il processo di installazione. Consulta la sezione **Disinstallazione dei pacchetti** nelle istruzioni di disinstallazione dell&#39;articolo [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Effettuare le seguenti operazioni sul sistema in cui è installato Oxygen XML Author:
 
@@ -117,7 +117,7 @@ In qualità di amministratore AEM, effettua le seguenti operazioni per installar
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) nella documentazione AEM.
+   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=it) nella documentazione AEM.
 
    ![Gestione pacchetti](images/package-manager.png) {width="650" align="left"}
 

@@ -40,7 +40,7 @@ In questa sessione imparerai quanto segue:
 
 ## Risorse correlate
 
-- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=it)
 
 - **Guida utente** - [Utilizzare la previsione](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 

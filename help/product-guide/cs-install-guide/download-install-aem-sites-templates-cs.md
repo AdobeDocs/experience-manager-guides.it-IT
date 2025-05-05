@@ -35,7 +35,7 @@ Per creare un’AEM Sites utilizzando il modello, effettua le seguenti operazion
 1. Immettere `Site title` e `Site name`.
 1. Fai clic su **Crea**. Il pacchetto viene installato e viene creato un modello di AEM Sites.
 
-Ulteriori informazioni su [Aggiunta di un modello di sito all&#39;AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
+Ulteriori informazioni su [Aggiunta di un modello di sito all&#39;AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ Una volta installato il pacchetto, nell&#39;interfaccia utente Sites viene creat
 
 
 **AEMG** contiene i seguenti componenti.
-- Nella cartella **AEMG** è presente una cartella per la lingua inglese (en). Puoi creare copie in lingua simili in base alle tue esigenze. Ad esempio, un sito web multilingue include copie in lingua inglese (en), tedesca (de) e francese (fr).  Ulteriori informazioni sulla creazione di una copia per lingua mediante la [Creazione guidata copia lingua](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Nella cartella **AEMG** è presente una cartella per la lingua inglese (en). Puoi creare copie in lingua simili in base alle tue esigenze. Ad esempio, un sito web multilingue include copie in lingua inglese (en), tedesca (de) e francese (fr).  Ulteriori informazioni sulla creazione di una copia per lingua mediante la [Creazione guidata copia lingua](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - All&#39;interno della cartella della lingua inglese (en), Experience Manager Guides fornisce molte pagine di esempio pronte all&#39;uso come **Ricerca**, **Accedi**, **Documenti** e **Supporto**.
 
 - **Docs** è la home page della documentazione di esempio. Funge da posizione centrale per tutta la documentazione relativa al prodotto
@@ -96,7 +96,7 @@ Per modificare i modelli di argomento, effettuare le seguenti operazioni:
 1. Seleziona il modello da modificare.
 1. Seleziona l&#39;icona **Modifica** in alto.
 
-Viene aperto l’Editor modelli AEM. È possibile modificare il modello di argomento. Ulteriori informazioni sulla [creazione di modelli di pagina](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+Viene aperto l’Editor modelli AEM. È possibile modificare il modello di argomento. Ulteriori informazioni sulla [creazione di modelli di pagina](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personalizzare i modelli di AEM Sites esistenti {#customize-existing-aem-sites-templates}

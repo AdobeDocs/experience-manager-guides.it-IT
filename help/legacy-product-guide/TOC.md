@@ -142,5 +142,5 @@ ht-degree: 3%
       - [Rapporto sul riutilizzo dei contenuti](./user-guide/reports-content-reuse.md)
       - [Rapporto sullo stato della conversione](./user-guide/reports-convertion-status.md)
       - [Rapporto cronologia versioni file ripristinati](./user-guide/reports-reverted-file-version-history.md)
-- [GUIDA UTENTE (NUOVA INTERFACCIA UTENTE)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GUIDA UTENTE (NUOVA INTERFACCIA UTENTE)](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Adobe Experience Manager Assets offre la possibilità di creare risorse e aggiungervi metadati. Puoi conservare i metadati per ogni risorsa. Puoi gestire i metadati con le risorse e organizzare ed elaborare automaticamente le risorse in base ai loro metadati.
 
-Per ulteriori dettagli sulla gestione dei metadati in AEM, consulta [Gestire i metadati delle risorse digitali](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
+Per ulteriori dettagli sulla gestione dei metadati in AEM, consulta [Gestire i metadati delle risorse digitali](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=it).
 
 **Argomento padre:**&#x200B;[ Gestisci metadati](manage-metadata.md)

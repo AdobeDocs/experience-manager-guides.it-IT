@@ -21,7 +21,7 @@ Di seguito sono riportati alcuni concetti chiave della gestione dei contenuti in
 
 **Gestione risorse**
 
-Experience Manager Guides utilizza la gestione delle risorse digitali (DAM\) di Adobe Experience Manager per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in Adobe Experience Manager Assets. Per ulteriori informazioni sulla gestione delle risorse, visualizzare [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+Experience Manager Guides utilizza la gestione delle risorse digitali (DAM\) di Adobe Experience Manager per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in Adobe Experience Manager Assets. Per ulteriori informazioni sulla gestione delle risorse, visualizzare [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it).
 
 **Gestione dei collegamenti**
 

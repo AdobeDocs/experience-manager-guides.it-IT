@@ -31,7 +31,7 @@ Per scaricare e installare modelli AEM Sites su Experience Manager Guides for On
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione AEM.
+   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione AEM.
 
 1. Per caricare il pacchetto, fare clic su **Carica pacchetto**.
 
@@ -52,7 +52,7 @@ Una volta installati i pacchetti, nell&#39;interfaccia utente Sites viene creato
 
 
 **AEMG** contiene i seguenti componenti.
-- Nella cartella **AEMG** è presente una cartella per la lingua inglese (en). Puoi creare copie in lingua simili in base alle tue esigenze. Ad esempio, un sito web multilingue include copie in lingua inglese (en), tedesca (de) e francese (fr).  Ulteriori informazioni sulla creazione di una copia per lingua mediante la [Creazione guidata copia lingua](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Nella cartella **AEMG** è presente una cartella per la lingua inglese (en). Puoi creare copie in lingua simili in base alle tue esigenze. Ad esempio, un sito web multilingue include copie in lingua inglese (en), tedesca (de) e francese (fr).  Ulteriori informazioni sulla creazione di una copia per lingua mediante la [Creazione guidata copia lingua](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - All&#39;interno della cartella della lingua inglese (en), Experience Manager Guides fornisce molte pagine di esempio pronte all&#39;uso come **Ricerca**, **Accedi**, **Documenti** e **Supporto**.
 
 - **Docs** è la home page della documentazione di esempio. Funge da posizione centrale per tutta la documentazione relativa al prodotto
@@ -97,7 +97,7 @@ Per modificare i modelli di argomento, effettuare le seguenti operazioni:
 1. Seleziona il modello da modificare.
 1. Seleziona l&#39;icona **Modifica** in alto.
 
-Viene aperto l’Editor modelli AEM. È possibile modificare il modello di argomento. Ulteriori informazioni sulla [creazione di modelli di pagina](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+Viene aperto l’Editor modelli AEM. È possibile modificare il modello di argomento. Ulteriori informazioni sulla [creazione di modelli di pagina](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personalizzare i modelli di AEM Sites esistenti

@@ -185,7 +185,7 @@ Per specificare il modello di progettazione da utilizzare per la generazione di 
 >
 > Dopo aver creato un nodo del modello di progettazione personalizzato, è necessario aggiornare l’opzione Progettazione nei predefiniti di output del sito AEM per utilizzare il nodo del modello di progettazione personalizzato.
 
-Per ulteriori informazioni, vedere [Creazione del primo sito Web di Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Nozioni di base](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) sullo sviluppo di un sito Web personale sull&#39;AEM.
+Per ulteriori informazioni, vedere [Creazione del primo sito Web di Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) e [Nozioni di base](https://helpx.adobe.com/it/experience-manager/6-3/sites/developing/using/the-basics.html) sullo sviluppo di un sito Web personale sull&#39;AEM.
 
 ### Usa il titolo del documento per generare l&#39;output del sito AEM
 
@@ -642,11 +642,11 @@ AEM Guides fornisce la categoria `apps.fmdita.dashboard-extn` per personalizzare
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione della libreria client AEM, vedere [Utilizzo delle librerie lato client](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Per ulteriori informazioni sulla creazione della libreria client AEM, vedere [Utilizzo delle librerie lato client](https://helpx.adobe.com/it/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Gestione della rappresentazione delle immagini durante la generazione dell&#39;output {#id177BF0G0VY4}
 
-L’AEM viene fornito con una serie di flussi di lavoro e di handle di file multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni sulla gestione delle risorse da parte dell&#39;AEM, consulta [Elaborazione di Assets tramite gestori di supporti e flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) nella documentazione AEM.
+L’AEM viene fornito con una serie di flussi di lavoro e di handle di file multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni sulla gestione delle risorse da parte dell&#39;AEM, consulta [Elaborazione di Assets tramite gestori di supporti e flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/media-handlers.html) nella documentazione AEM.
 
 AEM Guides consente di configurare la rappresentazione dell’immagine da utilizzare al momento della generazione dell’output per i documenti. Ad esempio, puoi scegliere una delle rappresentazioni immagine predefinite oppure crearne una e utilizzare la stessa opzione per pubblicare i documenti. Il mapping della rappresentazione dell&#39;immagine per la pubblicazione dei documenti è memorizzato nel file `/libs/fmdita/config/ **renditionmap.xml**`. Uno snippet di file `renditionmap.xml` è il seguente:
 

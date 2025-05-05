@@ -51,7 +51,7 @@ In questa sessione hai appreso quanto segue:
 
 - **[Scarica il manuale dei report di AEM Guides](./assets/aem-guides-expert-session-reports-documentation.pdf)** per comprendere i dettagli dei report mostrati nella sessione.
 
-- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **Video sulle funzioni** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=it)
 
 - **Guida utente** - [Contenuto autore](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

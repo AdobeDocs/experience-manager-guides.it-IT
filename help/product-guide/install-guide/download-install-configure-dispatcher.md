@@ -18,7 +18,7 @@ Se prevedi di utilizzare un’istanza Dispatcher su AEM Author insieme ad AEM Gu
 
 >[!NOTE]
 >
-> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull&#39;utilizzo di Dispatcher, vedere [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull&#39;utilizzo di Dispatcher, vedere [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=it).
 
 ## Abilitare AllowEncodedSlashes negli URL
 

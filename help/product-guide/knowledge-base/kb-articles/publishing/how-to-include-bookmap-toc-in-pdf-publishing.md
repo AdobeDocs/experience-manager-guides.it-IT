@@ -93,8 +93,8 @@ Se si pubblica Ditamap, Native PDF offre la funzionalità per generare automatic
 
 ## Risorse aggiuntive :
 
-- [Documentazione del layout della pagina di progettazione nativa di PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Sessione Expert preregistrata su Native PDF Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentazione del layout della pagina di progettazione nativa di PDF](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Sessione Expert preregistrata su Native PDF Essentials](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

@@ -40,11 +40,11 @@ In questa sessione hai appreso quanto segue:
 
 ### Documentazione
 
-- [Schemi metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [Profili metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [Gestione dei metadati nelle risorse DITA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [Estrai metadati DITA come metadati](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [Usa metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [Schemi metadati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [Profili metadati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [Gestione dei metadati nelle risorse DITA](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [Estrai metadati DITA come metadati](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [Usa metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [Usa metadati in PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
