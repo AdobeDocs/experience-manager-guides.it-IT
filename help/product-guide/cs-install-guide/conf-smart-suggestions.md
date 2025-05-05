@@ -2,7 +2,7 @@
 title: Configurare l’Assistente AI per la guida e l’authoring avanzati
 description: Scopri come configurare l’Assistente IA in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 
 ## Abilitare il flag AI nell’ambiente
 
-Per abilitare la funzione Assistente IA nell&#39;interfaccia utente di Experience Manager Guides, aggiungi il flag `ENABLES_GUIDES_AI` nell&#39;ambiente.
+Per abilitare la funzione Assistente IA nell&#39;interfaccia utente di Experience Manager Guides, aggiungi il flag `ENABLE_GUIDES_AI` nell&#39;ambiente.
 
 Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
