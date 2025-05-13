@@ -1,9 +1,10 @@
 ---
 title: Nuove funzionalità UX e AI in AEM Guides
 description: Scopri in che modo la nuova esperienza utente e gli assistenti AI in AEM Guides semplificano l’authoring, migliorano la navigazione e introducono intelligenza in tempo reale nei flussi di lavoro dei contenuti.
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -27,9 +28,9 @@ Nel percorso di creazione dei contenuti, la distribuzione di un output coerente 
 ## Elementi principali da ricordare
 
 In questa sessione abbiamo trattato i seguenti argomenti:
-- La pagina di destinazione personalizzata riprogettata per consentire un accesso rapido a file, raccolte e workfront recenti.
+- La pagina di destinazione personalizzata riprogettata per consentire un accesso rapido a file, raccolte e attività di Workfront recenti.
 - Navigazione semplificata per le transizioni tra authoring, pubblicazione e gestione dei contenuti.
-- Console delle mappe dedicata che consolida in un&#39;unica posizione le attività di pubblicazione, traduzione e reporting.
+- Console di mappatura dedicata che consolida in un&#39;unica posizione le funzionalità di pubblicazione, traduzione e reporting.
 - Riutilizzo più intelligente dei contenuti tramite suggerimenti basati sull’intelligenza artificiale.
 - Miglioramenti dei contenuti come traduzioni, riepiloghi e miglioramenti dei contenuti in tempo reale durante l’authoring.
 - Pannello di aiuto basato sull’intelligenza artificiale che fornisce assistenza contestuale nell’ambiente di authoring.
@@ -37,11 +38,11 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ## Risorse correlate
 
-- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Funzionalità IA](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Funzionalità IA in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configura Assistente IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
