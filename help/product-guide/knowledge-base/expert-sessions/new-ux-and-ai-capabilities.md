@@ -37,11 +37,11 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ## Risorse correlate
 
-- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Funzionalità IA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Funzionalità IA](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
