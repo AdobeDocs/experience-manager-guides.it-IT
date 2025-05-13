@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -129,8 +129,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 8%
          - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
          - [Scarica file](./user-guide/authoring-download-assets.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 8%
       - [Migrazione di contenuti da non-uuid a UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [Migrazione dei contenuti Delta](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Pubblicazione PDF più intelligente con PDF nativo](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [Nuove funzionalità UX e AI in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - Articoli {#kb-articles}
       - Authoring {#authoring}
          - Editor web {#webeditor}
