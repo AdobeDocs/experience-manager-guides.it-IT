@@ -4,7 +4,7 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 La barra degli strumenti viene visualizzata quando si apre un argomento o una mappa per la modifica nell&#39;editor. Le funzioni disponibili nella barra degli strumenti sono le seguenti:
 
 - [Menu a discesa](#menu-dropdown)
-- [Opzioni di inserimento contenuto](#content-insertion-options)
-- [Versione informazioni e Salva come nuova versione pulsante](#version-information-and-save-as-new-version)
+- [Opzioni di inserimento contenuti](#content-insertion-options)
+- [Informazioni sulla versione e pulsante Salva come nuova versione](#version-information-and-save-as-new-version)
 - [Blocca/sblocca](#lockunlock)
 
 >[!NOTE]
@@ -26,13 +26,13 @@ La barra degli strumenti viene visualizzata quando si apre un argomento o una ma
 
 ## Menu a discesa
 
-Il menu a discesa Menu fornisce accesso alle azioni di modifica, Trova e sostituisci, Versione cronologia, etichetta Versione, Unisci, Crea attività di revisione, Traccia modifiche e funzione Tag.
+Il menu a discesa consente di accedere alle azioni di modifica, Trova e sostituisci, Cronologia versioni, Etichetta versione, Unione, Crea attività di revisione, Traccia modifiche e Funzione tag.
 
 La spiegazione dettagliata di queste caratteristiche è la seguente:
 
 **Modifica delle azioni**
 
-Quando modifichi un argomento nell&#39;Editor, accesso le varie azioni di modifica come **Taglia** o ***Ctrl***+***X*** , **Copia** o ***Ctrl*** +***C*** , **Annulla** o ***Ctrl*** +***Z*** , **Ripeti** o ***Ctrl*** +***Y*** e **Elimina** presenti nel menu a discesa.
+Durante la modifica di un argomento nell&#39;editor, accedere alle varie azioni di modifica, ad esempio **Taglia** o ***Ctrl***+***X*** , **Copia** o ***Ctrl***+***C*** , **Annulla** o ***Ctrl***+***Z*** , **Ripristina** o ***Ctrl***+***Y*** e **Elimina** presente nel menu a discesa.
 
 
 **Trova e sostituisci**
@@ -65,15 +65,15 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Viene visualizzata la finestra di dialogo **Cronologia versioni**.
 
-   ![Versione finestra di dialogo Cronologia](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Finestra di dialogo Cronologia versioni](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
-   *Anteprima le modifiche apportate nelle diverse versioni di un argomento.*
+   *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
-1. Scegli una versione dell&#39;argomento che desideri confrontare o ripristinare nell&#39;elenco **a discesa Confronta con** .
+1. Scegliere una versione dell&#39;argomento da confrontare o ripristinare nell&#39;elenco a discesa **Confronta con**.
 
    >[!NOTE]
    >
-   > Se a una versione sono applicate delle etichette, queste vengono mostrate anche \(tra parentesi\) insieme al numero di versione.
+   > Se a una versione sono applicate etichette, queste vengono visualizzate anche \(tra parentesi\) insieme al numero di versione.
 
 1. Abilita l&#39;opzione **Visualizza etichette e commenti** per visualizzare le etichette e i commenti applicati alle versioni corrente e confrontata.
 1. È inoltre possibile visualizzare le informazioni seguenti nella finestra di dialogo **Cronologia versioni**:
@@ -88,15 +88,15 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    >[!NOTE]
    >
-   > L&#39;amministratore di sistema può modificare i metadati da visualizzare dall&#39;scheda metadati nella **Impostazioni**. Per informazioni dettagliate, fare riferimento alla **sezione Altre azioni** della [barra delle schede](#tab-bar).
+   > L&#39;amministratore di sistema può modificare i metadati da visualizzare dalla scheda Metadati in **Impostazioni**. Per ulteriori informazioni, consulta la sezione **Altre azioni** della [Barra delle schede](./web-editor-tab-bar.md).
 
-   È inoltre possibile visualizzare la utente e i dettagli temporali della versione corrente e di quella confrontata.
+   Puoi anche visualizzare i dettagli dell’utente e dell’ora della versione corrente e della versione confrontata.
 
    Dopo aver scelto una versione dall&#39;elenco a discesa, è disponibile l&#39;opzione **Ripristina versione selezionata**. Nella finestra di anteprima vengono visualizzate le differenze tra la versione corrente e la versione selezionata dell&#39;argomento.
 
 1. Seleziona **Ripristina la versione selezionata** per ripristinare la copia di lavoro con la versione selezionata dell&#39;argomento.
 
-   Viene visualizzata la finestra di dialogo Ripristina Versione.
+   Viene visualizzata la finestra di dialogo Ripristina versione.
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
@@ -128,13 +128,13 @@ Esistono diversi metodi tramite i quali è possibile applicare etichette agli ar
 
 1. Aprire un argomento nell&#39;editor.
 
-1. Seleziona **Versione etichette** dal menu a discesa.
+1. Seleziona **Etichette versione** dal menu a discesa.
 
-   Verrà visualizzata la finestra di dialogo Gestione Etichetta Versione.
+   Viene visualizzata la finestra di dialogo Gestione etichette versione.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
-   La finestra di dialogo Gestione Etichetta Versione è divisa in due parti: il pannello di sinistra contiene un elenco di versioni disponibili per l&#39;argomento insieme all&#39;elenco a discesa delle etichette \(o una casella di testo per inserire un&#39;etichetta\) e il pannello di destra con un&#39;anteprima dell&#39;argomento.
+   La finestra di dialogo Gestione etichette versione è suddivisa in due parti: nel pannello a sinistra è disponibile un elenco di versioni per l&#39;argomento con l&#39;elenco a discesa delle etichette \(o una casella di testo per immettere un&#39;etichetta\) e nel pannello a destra con un&#39;anteprima dell&#39;argomento.
 
 1. Selezionare la versione alla quale si desidera applicare le etichette.
 
@@ -144,13 +144,13 @@ Esistono diversi metodi tramite i quali è possibile applicare etichette agli ar
    >
    > Se un&#39;etichetta è già applicata a una versione, viene visualizzata accanto al numero di versione nell&#39;elenco a discesa e sotto l&#39;elenco Seleziona versione. È possibile rimuovere un&#39;etichetta esistente selezionando l&#39;icona \(**x**\) accanto all&#39;etichetta.
 
-1. Se l&#39;amministratore ha definito un elenco di etichette, viene visualizzato un elenco a discesa delle etichette da cui è possibile scegliere le etichette da applicare. È possibile selezionare più etichette dall&#39;elenco a discesa.
+1. Se l&#39;amministratore ha definito un elenco di etichette, viene visualizzato un elenco a discesa delle etichette da cui è possibile scegliere le etichette da applicare. Puoi selezionare più etichette dall’elenco a discesa.
 
-   Altrimenti, ti viene mostrata una casella di testo, in cui puoi inserire le etichette che desideri aggiungere al tuo argomento.
+   Viene inoltre visualizzata una casella di testo in cui è possibile immettere le etichette che si desidera aggiungere all&#39;argomento.
 
    >[!NOTE]
    >
-   > Non è possibile applicare la stessa etichetta su più versioni di un argomento. Se si tenta di associare un&#39;etichetta esistente, viene fornita un&#39;opzione per rimuoverla dalla versione esistente e applicarla alla versione selezionata dell&#39;argomento.
+   > Non è possibile applicare la stessa etichetta a più versioni di un argomento. Se si tenta di associare un&#39;etichetta esistente, è possibile rimuoverla dalla versione esistente e applicarla alla versione selezionata dell&#39;argomento.
 
 1. Selezionare **Aggiungi etichetta**.
 
@@ -187,17 +187,17 @@ Per unire le modifiche in un argomento, effettuare le seguenti operazioni:
 
 1. Seleziona **Fine**.
 
-1. Se hai selezionato l&#39;opzione **Rileva modifiche dalla versione** selezionata, tutte le modifiche dalla versione selezionata vengono visualizzate nella funzione Revisioni del pannello di destra.
+1. Se hai selezionato l&#39;opzione **Rileva modifiche dalla versione selezionata**, tutte le modifiche dalla versione selezionata vengono visualizzate nella funzione Tracciamento modifiche nel pannello di destra.
 
-   Potete scegliere di accettare o rifiutare tutti i commenti dal pannello Revisioni delle modifiche oppure accettare o rifiutare singoli commenti.
+   Potete scegliere di accettare o rifiutare tutti i commenti dal pannello Modifiche tracciate oppure accettare o rifiutare un singolo commento.
 </details>
 
 <details>
-    <summary> Unione di file di mappe </summary>
+    <summary> Unisci file mappa </summary>
 
-Per unire le modifiche in un file mappa, attenersi alla seguente procedura:
+Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
-1. Apri una mappa nell&#39;editor.
+1. Apri una mappa nell’editor.
 
 1. Seleziona **Unisci**.
 
@@ -249,11 +249,11 @@ Per accettare o rifiutare tutte le modifiche con un solo clic, selezionare **Acc
 
 >[!NOTE]
 >
-> La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, consulta la [modalità Anteprima](web-editor-views.md#preview-mode-id19AAGL00163) .
+> La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, visualizzare la modalità [Anteprima](web-editor-views.md#preview-mode).
 
 **Tag**
 
-La **funzione Tag** nell&#39;Editor è un pulsante che controlla la visibilità degli elementi DITA. Quando abilitato, visualizza tag strutturali all&#39;interno del contenuto, consentendo di visualizzare e gestire gli elementi DITA sottostanti in modo più efficace. Se l’opzione è disabilitata, l’editor nasconde questi tag, fornendo un ambiente di authoring più pulito e mirato.
+La funzionalità **Tag** nell&#39;editor è un interruttore che controlla la visibilità degli elementi DITA. Quando questa opzione è attivata, visualizza i tag strutturali all&#39;interno del contenuto, consentendo di visualizzare e gestire gli elementi DITA sottostanti in modo più efficace. Se l’opzione è disabilitata, l’editor nasconde questi tag, fornendo un ambiente di authoring più pulito e mirato.
 
 La schermata seguente mostra un documento con la vista Tag abilitata:
 
@@ -263,11 +263,11 @@ In un documento con tag è possibile eseguire le operazioni seguenti:
 
 - **Seleziona un elemento**: seleziona il tag di apertura o chiusura di un elemento per selezionarne il contenuto.
 
-- **Espandere o comprimere i** tag: seleziona il segno + o - in un tag per espanderlo o comprimerlo.
+- **Espandere o comprimere i tag**: selezionare il segno + o - per espandere o comprimere un tag.
 
-- **Utilizzate il menu** di scelta rapida: il menu di scelta rapida offre opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. È inoltre possibile inserire un elemento prima o dopo l&#39;elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l&#39;elemento selezionato.
+- **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
 
-- **Trascina e rilascia gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l&#39;elemento è consentito, l&#39;elemento viene posizionato nella posizione di rilascio.
+- **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
 
 
 >[!NOTE]
@@ -363,8 +363,8 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Type** diventa **entry**.
 
 1. Nella sezione **Attributi**, seleziona **+Aggiungi**.
-1. Selezionare l&#39;attributo `@valign` dall&#39;elenco **a discesa Attributo** .
-1. Dall&#39;elenco a discesa dei valori, selezionare l&#39;allineamento del testo desiderato da applicare alle celle della tabella selezionata.
+1. Selezionare l&#39;attributo `@valign` dall&#39;elenco a discesa **Attributo**.
+1. Dall&#39;elenco a discesa valore, selezionare l&#39;allineamento del testo che si desidera applicare alle celle di tabella selezionate.
 1. Seleziona **Aggiungi.**
 
 ![](images/align-table-cell_cs.png){align="left"}
@@ -377,18 +377,18 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Selezionare
 
 >[!NOTE]
 >
-> Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando il flusso di lavoro **Carica Assets**.  Per ulteriori dettagli, visualizzate l&#39;workflow **Carica Assets** nella [sezione Pannello](#left-panel) a sinistra.
+> Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando il flusso di lavoro **Carica Assets**.  Per ulteriori dettagli, visualizza il flusso di lavoro **Carica Assets** nella sezione [Pannello sinistro](./web-editor-left-panel.md).
 
 
 ![](images/insert-image.png){width="300" align="left"}
 
-È possibile aggiungere un Titolo immagine/figura e un testo alternativo per l&#39;immagine nella finestra di dialogo Inserisci Immagine.
+Potete aggiungere un titolo immagine/figura e un testo alternativo per l&#39;immagine nella finestra di dialogo Inserisci immagine.
 
 >[!NOTE]
 >
-> Quando si inserisce un&#39;immagine e si specifica un testo alternativo per la stessa, questa viene aggiunta all&#39;interno dell&#39;elemento `<alt>` in conformità con i più recenti standard DITA. L&#39;utilizzo dell&#39;attributo per il `@alt` testo alternativo è deprecato, ma rimane supportato nelle versioni DITA precedenti.
+> Quando si inserisce un&#39;immagine e si specifica un testo alternativo per lo stesso elemento, questo viene aggiunto all&#39;interno dell&#39;elemento `<alt>` in conformità agli standard DITA più recenti. L&#39;utilizzo dell&#39;attributo `@alt` per il testo alternativo è obsoleto, ma rimane supportato nelle versioni DITA precedenti.
 
-Utilizzando l&#39;opzione **Seleziona File** , è possibile ricerca i file di immagine richiesti in base al nome del file. È inoltre possibile filtrare i risultati ricerca per percorso \(da ricerca in\), raccolte, tipo File e tag. Dopo aver trovato il file di immagine richiesto, selezionare il file e scegliere **Seleziona** per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e altri.
+Utilizzando l&#39;opzione **Seleziona file**, è possibile cercare il file di immagine richiesto in base al nome del file. Puoi anche filtrare i risultati della ricerca per Percorso \(per cercare in\), Raccolte, Tipo file e Tag. Dopo aver trovato il file di immagine richiesto, selezionare il file e scegliere **Seleziona** per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e altri.
 
 Dopo aver inserito un&#39;immagine, potete modificarne l&#39;altezza, la larghezza, il posizionamento e gli attributi dal pannello Proprietà contenuto. Seleziona il file di immagine e apporta le modifiche desiderate nel pannello Proprietà contenuto nel pannello di destra.
 
@@ -467,7 +467,7 @@ Puoi anche eseguire ricerche utilizzando l’UUID del file a cui desideri fare r
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Se l&#39;amministratore ha abilitato l&#39;opzione UUID in *XMLEditorConfig*, verrà visualizzato l&#39;UUID del contenuto a cui si fa riferimento nella **proprietà Link** .
+Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l&#39;UUID del contenuto a cui si fa riferimento verrà visualizzato nella proprietà **Link**.
 
 ![](images/ref-link-uuid_cs.png){align="left"}
 
@@ -477,7 +477,7 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUID in *XMLEditorConfig*, ve
 
 >[!IMPORTANT]
 >
-> Anche se il percorso relativo del contenuto di riferimento è mostrato nella **proprietà Link** , internamente il collegare viene creato utilizzando l&#39;UUID del contenuto a cui si fa riferimento.
+> Anche se il percorso relativo del contenuto a cui si fa riferimento è visualizzato nella proprietà **Link**, internamente il collegamento viene creato utilizzando l&#39;UUID del contenuto a cui si fa riferimento.
 
 >[!TIP]
 >
@@ -621,4 +621,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
