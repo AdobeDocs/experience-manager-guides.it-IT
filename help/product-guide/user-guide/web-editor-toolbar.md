@@ -621,4 +621,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
