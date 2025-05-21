@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.04.0
 description: Scopri le correzioni di bug nella versione 2025.04.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -60,12 +61,10 @@ Adobe ha identificato i seguenti problemi noti per la versione 2025.04.0:
 - Quando si incolla nuovo contenuto in una nuova riga all&#39;interno di un elemento `codeblock`, viene inserita automaticamente una riga vuota.(27842)
 - Il passaggio da un predefinito all&#39;altro che utilizza la stessa linea di base disattiva il pulsante **Salva** per il predefinito corrente. (28025)
 - Un argomento all&#39;interno di una mappa DITA non viene pubblicato nell&#39;output di AEM Sites quando viene utilizzato sia come `keydef` che come `topicref` all&#39;interno delle relative mappe secondarie. (22269)
-- Nell’output di AEM Sites, le immagini si interrompono quando la linea di base non viene applicata durante la pubblicazione. (28043)
 - Si verifica un errore dell&#39;applicazione quando più argomenti di una mappa vengono modificati e quindi chiusi utilizzando l&#39;opzione **Chiudi tutto**, con l&#39;impostazione **Chiedi al salvataggio della versione alla chiusura** abilitata.(27931)
 
+Adobe ha identificato il seguente problema noto con una soluzione alternativa:
 
-
-
-
-
-
++++Nell’output di AEM Sites, le immagini si interrompono quando la linea di base non viene applicata durante la pubblicazione. (28043)
+***Soluzione alternativa:*** Puoi pubblicare tali risorse dalla **interfaccia utente di Assets**, dopo di che il collegamento diventerà operativo.
++++

@@ -3,10 +3,10 @@ title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 6ec7f5142de71b270caaccd5a26b8723efa42a00
+source-git-commit: 1a3e9734119db9fe6a2657cc0c18aae9da3bbcdf
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 32%
+source-wordcount: '407'
+ht-degree: 33%
 
 ---
 
@@ -28,6 +28,7 @@ Di seguito sono elencate le versioni pianificate per Experience Manager Guides a
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Problemi risolti | Stato |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2025.06.0 | Aggiornamento automatico | 02-04 giugno 2025 |  |  |  | Destinazione |
+| Adobe Experience Manager Guides 2025.07.0 | Aggiornamento automatico | 15-17 luglio 2025 |  |  |  | Destinazione |
 
 ### Versioni live
 
@@ -54,6 +55,7 @@ Di seguito sono riportati gli aggiornamenti di prodotto in termini di nuove funz
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Stato |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.0.0 | Service Pack 1 | giovedì 4 giugno 2025 |  |  | Destinazione |
 | Adobe Experience Manager Guides 5.1.0 | Versione | ~ Agosto 2025 |  |  | Destinazione |
 
 ### Versioni live
