@@ -4,9 +4,9 @@ description: Scopri come utilizzare la pubblicazione nativa di PDF, creare e gen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 9ae2690c52ab5408a9d17e9a40a89fe1f902042f
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
 
   Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
 
-[Download](assets/SampleXMP.xmp)
+[Scarica](assets/SampleXMP.xmp)
 
   In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
    1. Selezionare **File** > **Proprietà** in Acrobat.
@@ -183,8 +183,8 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per l’union
 | **Abilita equazioni di MathML** | Seleziona questa opzione per eseguire il rendering delle equazioni di MathML presenti nel contenuto. In caso contrario, per impostazione predefinita, le equazioni verranno ignorate. |
 | **Crea modulo PDF interattivo** | Selezionare questa opzione se si desidera includere campi modulo PDF interattivi e personalizzabili per un input utente avanzato negli output PDF generati. |
 | **Includi modifiche traccia** | Seleziona questa opzione se desideri includere le revisioni nel PDF generato per una facile revisione e confronto. |
-| **Mantieni file temporanei** | Selezionare questa opzione se si desidera conservare i file HTML provvisori creati durante la generazione dell&#39;output PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. |
-| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/it/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Mantieni file temporanei** | Selezionare questa opzione se si desidera conservare i file HTML provvisori creati durante la generazione dell&#39;output PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. I file scaricati includerebbero anche `system_config.json` file che fornisce informazioni sull&#39;URL dell&#39;autore, sull&#39;URL locale e sull&#39;URL di pubblicazione. |
+| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Proprietà file** | Seleziona i metadati da passare alla pubblicazione nativa di PDF. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio, `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite, mentre è possibile avere `author` come proprietà personalizzata. Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando PDF nativo. <br> Queste proprietà vengono selezionate dal file `metadataList` disponibile in:`/libs/fmdita/config/metadataList`. <br>Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`. |
 
 

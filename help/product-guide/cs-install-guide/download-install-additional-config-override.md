@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Per garantire una transizione fluida e ridurre al minimo le interruzioni, Experi
 
 >[!IMPORTANT]
 >
-> Questa opzione di configurazione per passare dalla nuova alla vecchia interfaccia utente sarà disponibile fino alla versione 2025.4.0. In seguito, la nuova interfaccia utente diventerà quella predefinita e l’opzione per tornare alla precedente non sarà più supportata.
+> Questa opzione di configurazione per passare dalla nuova alla vecchia interfaccia utente era supportata fino alla versione 2025.4.0. Con la versione 2025.6.0 di, questa impostazione è obsoleta e non può più essere utilizzata per ripristinare la vecchia interfaccia utente.
 
 Per configurare l’interfaccia utente di Experience Manager Guides, effettua le seguenti operazioni:
 
@@ -65,4 +65,4 @@ Per configurare l’interfaccia utente di Experience Manager Guides, effettua le
 
 
 
-**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

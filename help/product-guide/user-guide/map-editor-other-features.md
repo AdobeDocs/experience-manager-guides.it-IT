@@ -1,17 +1,17 @@
 ---
-title: Altre funzioni negli editor di mappe
-description: Scopri alcune funzioni comuni nell’Editor mappa. Scopri come risolvere i riferimenti chiave nell’editor mappa.
+title: Altre funzioni nell’Editor mappa
+description: Scopri alcune funzioni comuni nell’Editor mappa. Scopri come risolvere i riferimenti chiave nell’Editor mappa.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
-# Funzioni aggiuntive nell’editor mappa {#id1942D0T0HUI}
+# Funzioni aggiuntive nell’Editor mappa {#id1942D0T0HUI}
 
 Alcune funzioni comuni nell’Editor mappa sono:
 
@@ -41,4 +41,35 @@ Questa mappa principale sarà applicabile a tutte le risorse (cartelle e sottoca
 
 **Visualizzazione modifica argomento** - Selezionare l&#39;icona Risoluzione chiave durante la modifica di un argomento DITA e selezionare il file DITA da utilizzare per la risoluzione dei riferimenti chiave.
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor mappe](map-editor.md)
+## Aggiungi riferimenti di navigazione
+
+L&#39;elemento `navref` viene utilizzato all&#39;interno di una mappa DITA per includere i riferimenti di spostamento da un&#39;altra mappa DITA. Questo consente agli autori di riutilizzare la struttura di navigazione, ad esempio menu o collegamenti condivisi, senza unire nell’output il contenuto effettivo della mappa di riferimento.
+
+>[!NOTE]
+>
+> L&#39;elemento `navref` è destinato esclusivamente alla navigazione all&#39;interno della struttura della mappa. Non contribuisce all&#39;output delle mappe DITA generato ed è escluso dall&#39;elaborazione e dalla visualizzazione in visualizzazione Mappa, Report, Linea di base, Traduzione e Anteprima.
+
+Per aggiungere riferimenti di navigazione a una mappa, effettuare le seguenti operazioni:
+
+1. Aprire il file di mapping DITA in cui si desidera aggiungere un riferimento di spostamento.
+
+   Il file di mappa viene aperto nell&#39;Editor mappa.
+1. Passare alla vista Autore e posizionare il cursore in una posizione valida per un riferimento di navigazione.
+1. Selezionare l&#39;opzione **Elemento** nella barra degli strumenti.
+1. Nella finestra di dialogo **Inserisci elemento**, seleziona **navref**.
+
+   ![](./images/select-navref-element.png)
+1. Viene visualizzata la finestra di dialogo **Seleziona percorso**. Seleziona un file di mappa da includere come riferimento di navigazione nella mappa e scegli **Seleziona**.
+
+Nella posizione specificata viene aggiunto un riferimento di navigazione del file di mappa selezionato. Inoltre, il titolo della mappa a cui si fa riferimento viene visualizzato sia nella vista Creazione che nella vista Layout.
+
+![](./images/navref-added-author-view.png)
+
+*Visualizzazione autore*
+
+![](./images/navref-added-layout-view.png)
+
+*Visualizzazione Layout*
+
+
+**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)

@@ -4,9 +4,9 @@ description: Crea e gestisci le baseline dalla console delle mappe in Adobe Expe
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ In **Selezionare la versione basata su,** selezionare una delle opzioni seguenti
 
 - **Data**: seleziona la versione degli argomenti in base alla data e all&#39;ora specificate.
 - **Etichetta**: selezionare questa opzione per scegliere gli argomenti in base all&#39;etichetta ad essi applicata. Se per gli argomenti sono specificate etichette, queste sono elencate nel menu a discesa. È possibile scegliere un&#39;etichetta dall&#39;elenco. È inoltre possibile aggiungere un&#39;etichetta nella casella di testo.
+
+  >[!NOTE]
+  >
+  > Quando si selezionano le etichette, il caricatore delle etichette rimane visibile finché tutte le etichette non vengono recuperate e caricate completamente. Una volta caricate, le etichette vengono visualizzate in ordine alfabetico senza distinzione tra maiuscole e minuscole. Vengono recuperati in batch di 20, con scorrimento infinito abilitato nel menu a discesa per caricare batch aggiuntivi durante lo scorrimento.
 
   Per i riferimenti diretti nelle linee di base statiche, le etichette vengono estratte dall’ultima versione salvata della mappa. Ad esempio, se sono state create le etichette `Label Release 1.0` e `Label Release 1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e quindi si aggiunge l&#39;Argomento A alla mappa salvata come versione 1.0. In questo caso, è possibile visualizzare le etichette `Label Release 1.0` e `Label Release 1.1` nel menu a discesa per le etichette della linea di base statica.
 
@@ -164,5 +168,5 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la baseline, selezionare **Salva** per salvare le modifiche. È possibile selezionare **Reimposta** se non si desidera salvare la modifica e reimpostare la previsione. Quando si seleziona **Reimposta**, viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)
 

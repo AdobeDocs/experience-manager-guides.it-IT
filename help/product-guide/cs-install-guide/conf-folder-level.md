@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -456,7 +456,7 @@ Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati 
 
 Per ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -508,7 +508,11 @@ Per impostazione predefinita, l&#39;editor XML è dotato di numerose funzioni ch
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+
+>[!NOTE]
+>
+> Quando personalizzi l’app utilizzando il framework di estensione, per evitare problemi durante la distribuzione si consiglia di utilizzare solo i componenti essenziali React Spectrum supportati come struttura, tabella, casella di controllo, pulsante di scelta e gruppo di opzioni.
 
 **Layout pagina editor XML**
 

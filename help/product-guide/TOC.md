@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2122'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Servizi cloud {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2025 {#2025-releases}
+            - Versione 2025.06.0 {#2506-release}
+               - [Novità](./release-info/whats-new-2025-06-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2025-06-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2025-06-0.md)
             - Versione 2025.04.0 {#2504-release}
                - [Novità](./release-info/whats-new-2025-04-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 8%
          - [Creare una mappa](./user-guide/map-editor-create-map.md)
          - [Creare mappe in base a modelli personalizzati](./user-guide/create-maps-customized-templates.md)
          - [Funzioni dell’editor mappa](./user-guide/map-editor-advanced-map-editor.md)
+         - [Scarica file](./user-guide/authoring-download-assets.md)
          - [Funzioni aggiuntive nell’Editor mappa](./user-guide/map-editor-other-features.md)
       - editor DITAVAL {#ditaval-editor}
          - [Utilizzare l&#39;editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 8%
          - [Concetti chiave, ruoli, autorizzazioni e prerequisiti](./user-guide/authoring.md)
          - [Carica file](./user-guide/authoring-upload-existing-files.md)
          - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
-         - [Scarica file](./user-guide/authoring-download-assets.md)
+         - [Elaborare o rielaborare le risorse](./user-guide/asset-processor.md)
+      - Risoluzione dei problemi {#troubleshooting}
+         - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)

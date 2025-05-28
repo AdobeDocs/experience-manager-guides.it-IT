@@ -4,9 +4,9 @@ description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revi
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 
    - **G**: numero di commenti ricevuti su un argomento. Questo numero cambia in base al filtro applicato.
 
+
    Tutti gli argomenti della mappa vengono visualizzati come un unico documento composito. Gli argomenti che il revisore può esaminare vengono visualizzati normalmente. Gli argomenti che non possono essere esaminati dalla revisione non vengono visualizzati.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ La casella dei commenti supporta le voci su più righe e consente agli utenti di
 **Visualizzazione documento e visualizzazione argomento** - Per impostazione predefinita, se più argomenti sono condivisi per la revisione, viene mostrata ai revisori una visualizzazione documento composita degli argomenti. In caso di revisione di mappe DITA, tutti gli argomenti della mappa vengono presentati sotto forma di un singolo documento, simile a una visualizzazione libro. Se lo si desidera, è inoltre possibile selezionare un argomento particolare e solo tale argomento verrà visualizzato nella schermata di revisione.
 
 Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione aggiuntiva per tornare alla visualizzazione del documento. Nella schermata seguente, viene aperto per la revisione un particolare argomento di un file di mappa. L&#39;opzione evidenziata - **Mostra visualizzazione documento** consente all&#39;utente di tornare alla visualizzazione documento del file di mappa.
+
+>[!NOTE]
+>
+> Qualsiasi risoluzione dello schermo con una larghezza superiore a 1600 px è compatibile con le larghezze predefinite del pannello (sinistra e destra), in modo che non venga visualizzata alcuna barra di scorrimento orizzontale e che il contenuto rimanga correttamente allineato nella visualizzazione del documento. Inoltre, è sempre possibile ridimensionare la schermata per mantenere la visualizzazione del documento appropriata nell’interfaccia utente di revisione.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialog
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

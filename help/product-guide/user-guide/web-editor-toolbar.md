@@ -4,7 +4,7 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -380,7 +380,7 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Selezionare
 > Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando il flusso di lavoro **Carica Assets**.  Per ulteriori dettagli, visualizza il flusso di lavoro **Carica Assets** nella sezione [Pannello sinistro](./web-editor-left-panel.md).
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 Potete aggiungere un titolo immagine/figura e un testo alternativo per l&#39;immagine nella finestra di dialogo Inserisci immagine.
 
@@ -621,4 +621,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

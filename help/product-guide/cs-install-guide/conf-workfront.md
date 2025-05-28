@@ -4,10 +4,11 @@ description: Scopri come configurare Workfront in Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 2748ecee0963028be5d9220f852f4dfbc122d4a0
+exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
+source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ Ulteriori informazioni sull&#39;[integrazione Adobe Workfront](../user-guide/wor
 Prima di iniziare, assicurati che:
 
 1. Hai accesso standard ad Adobe Workfront e accesso amministratore a Experience Manager Guides.
-2. [crea un nuovo modulo personalizzato in Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) richiesto per Experience Manager Guides utilizzando in modo specifico i campi seguenti:
+2. [crea un nuovo modulo personalizzato in Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) richiesto per Experience Manager Guides utilizzando in modo specifico i campi seguenti:
 
    | Tipo di campo | Etichetta | Nome | Scelte (Mostra valori abilitati) |
    |------------|------|------|-------------------------------|
@@ -31,10 +32,13 @@ Prima di iniziare, assicurati che:
    | Testo con formattazione | Elenco autori | author-list | - |
    | Testo con formattazione | Elenco revisori | reviewer-list | - |
    | Testo su riga singola | URL di revisione | review-url | - |
+   | Testo su riga singola | URL attività | task-url | - |
+   | Testo su riga singola | Oggetto e-mail | oggetto e-mail | - |
 
 >[!NOTE]
 >
-> Nella tabella precedente, le scelte rappresentano le opzioni disponibili nel campo **Tipo di attività**. Per ogni opzione è necessario specificare il **nome attività** e il **valore attività**. Il nome e i valori per ogni tipo di attività devono essere esattamente gli stessi indicati nella tabella precedente. Ad esempio, per il tipo di attività Autore, fornisci **Authoring** come nome e **AUTHOR** come valore corrispondente.
+> * Nella tabella precedente, le scelte rappresentano le opzioni disponibili nel campo **Tipo di attività**. Per ogni opzione è necessario specificare il **nome attività** e il **valore attività**. Il nome e i valori per ogni tipo di attività devono essere esattamente gli stessi indicati nella tabella precedente. Ad esempio, per il tipo di attività Autore, fornisci **Authoring** come nome e **AUTHOR** come valore corrispondente.
+> * Quando lavori con i servizi locali, assicurati sempre che `localhost` sia sostituito con l&#39;indirizzo del server corretto nella configurazione **Day CQ Link Externalizer** per ricevere correttamente il collegamento dell&#39;attività risolto nelle notifiche e-mail.
 
 ## Inizia
 
@@ -51,7 +55,7 @@ Per configurare Adobe Workfront in Experience Manager Guides, effettua le seguen
 
    Per accedere alla chiave **ID client** e **Segreto client** configurate nella configurazione di Adobe Workfront, passa a `Setup >> Systems>> oAuth2 Applications`.
 
-   Per ulteriori dettagli sulla configurazione del dominio Adobe Workfront, vedi la sezione Flusso del codice di autorizzazione in [Creare applicazioni OAuth2 per le integrazioni Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Per ulteriori dettagli sulla configurazione del dominio Adobe Workfront, vedi la sezione Flusso del codice di autorizzazione in [Creare applicazioni OAuth2 per le integrazioni Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Seleziona **Accesso e verifica**.
 
@@ -63,7 +67,4 @@ Per configurare Adobe Workfront in Experience Manager Guides, effettua le seguen
 6. Nell’elenco a discesa del modulo personalizzato, seleziona il modulo personalizzato Adobe Workfront creato per Experience Manager Guides. Visualizza [Prerequisiti](#prerequisites).
 7. Seleziona **Salva e chiudi** per applicare e salvare le modifiche alla configurazione di Workfront.
 
-Una volta configurati, [aggiungi gli utenti ad Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) utilizzando gli stessi indirizzi e-mail di Experience Manager Guides.
-
-
-
+Una volta configurati, [aggiungi gli utenti ad Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) utilizzando gli stessi indirizzi e-mail di Experience Manager Guides.
