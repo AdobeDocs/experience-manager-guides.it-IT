@@ -72,4 +72,4 @@ Nella posizione specificata viene aggiunto un riferimento di navigazione del fil
 *Visualizzazione Layout*
 
 
-**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor mappe](map-editor.md)

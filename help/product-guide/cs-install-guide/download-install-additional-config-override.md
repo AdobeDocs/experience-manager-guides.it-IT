@@ -65,4 +65,4 @@ Per configurare l’interfaccia utente di Experience Manager Guides, effettua le
 
 
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)
