@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2130'
 ht-degree: 8%
 
 ---
@@ -94,6 +94,9 @@ ht-degree: 8%
             - [Note sulla versione di gennaio](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versioni](./release-info/latest-release-info.md)
+         - Versione 5.0.0 SP1 {#500-sp1-release}
+            - [Problemi risolti](./release-info/fixed-issues-5-0-0-sp1.md)
+            - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-5-0-0-sp1.md)
          - Versione 5.0.0 {#500-release}
             - [Novità](./release-info/whats-new-5-0-0.md)
             - [Problemi risolti](./release-info/fixed-issues-5-0-0.md)
@@ -133,8 +136,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -284,7 +287,7 @@ ht-degree: 8%
       - Risoluzione dei problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)

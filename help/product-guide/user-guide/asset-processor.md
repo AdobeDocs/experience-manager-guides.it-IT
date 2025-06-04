@@ -4,7 +4,8 @@ description: Scopri come elaborare le risorse
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Per elaborare o rielaborare le risorse, effettua le seguenti operazioni:
 1. Nel pannello **Strumenti** seleziona **Guide**.
 1. Selezionare il riquadro **Processore risorse**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. Viene visualizzata la finestra Processore risorse guide con i dettagli riportati di seguito. Inoltre, in questa finestra vengono visualizzate solo le informazioni relative alle ultime cinque migrazioni.
 
@@ -43,7 +44,7 @@ Per elaborare o rielaborare le risorse, effettua le seguenti operazioni:
 
    - **Stato**: indica lo stato della rielaborazione come In corso, Completato o Annullato.
 
-   ![Guide-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guide-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Seleziona la scheda **Nuovo processo** nell&#39;angolo superiore destro della finestra per avviare una nuova attività di elaborazione.
 
@@ -66,20 +67,16 @@ Dopo l’avvio dell’attività di elaborazione, sono disponibili opzioni aggiun
 
 - **Riavvia**: riavvia l&#39;attività di elaborazione delle risorse precedentemente completata.
 
-  ![riavvia-processore-risorse](images/restart-asset-processor.png){width="550" align="left"}
+  ![riavvia-processore-risorse](images/restart-asset-processor.png){align="left"}
 
 - **Riprendi**: riprende l&#39;attività di elaborazione delle risorse annullata o non riuscita in precedenza.
 
-  ![riprendi-processore-risorse](images/resume-asset-processor.png){width="550" align="left"}
+  ![riprendi-processore-risorse](images/resume-asset-processor.png){align="left"}
 
 - **Annulla**: annulla l&#39;attività di elaborazione delle risorse attualmente in corso.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **Visualizza registri**: mostra i registri per l&#39;attività di elaborazione delle risorse. Per le attività in corso, il registro mostra informazioni di elaborazione dettagliate, tra cui il tempo rimanente stimato e lo stato delle risorse. Questo elenco di registri visualizza fino alle ultime 500 voci. È possibile scaricare il registro completo.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}

@@ -5,10 +5,10 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 1%
+source-wordcount: '1856'
+ht-degree: 2%
 
 ---
 
@@ -18,20 +18,20 @@ I flussi di lavoro consentono di automatizzare le attività di Adobe Experience 
 
 Per ulteriori informazioni sui flussi di lavoro in AEM, consulta:
 
-- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Le sezioni in questo argomento descrivono le varie personalizzazioni che è possibile effettuare nei flussi di lavoro predefiniti forniti in AEM Guides.
 
 ## Personalizza flusso di lavoro di revisione {#id176NE0C00HS}
 
-Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, vedere [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione AEM.
+Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione di AEM.
 
 AEM Guides consente di personalizzare il flusso di lavoro di revisione predefinito. Con gli altri flussi di lavoro di authoring o pubblicazione, puoi utilizzare i quattro processi personalizzati seguenti relativi alla revisione.
 
@@ -44,7 +44,9 @@ AEM Guides consente di personalizzare il flusso di lavoro di revisione predefini
 - **Pianifica processo per chiudere la revisione**: questo processo assicura che il processo di revisione venga completato quando viene raggiunta la scadenza.
 
 
-Quando crei un flusso di lavoro di revisione personalizzato, la prima attività consiste nell’impostare i metadati richiesti dal processo Crea revisione. A tale scopo, è possibile creare uno script ECMA. Di seguito è riportato un esempio dello script ECMA che assegna i metadati:
+Quando crei un flusso di lavoro di revisione personalizzato, la prima attività consiste nell’impostare i metadati richiesti dal processo Crea revisione. A tale scopo, è possibile creare uno script ECMA. Di seguito è riportato un esempio dello script ECMA che assegna i metadati sia per l&#39;argomento che per la mappa.
+
+**Per Argomento**
 
 ```json
 var workflowdata=workItem.getWorkflowData();
@@ -59,6 +61,35 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
+```
+
+**Per La Mappa**
+
+```json
+var workflowdata = workItem.getWorkflowData();
+workflowdata.getMetaDataMap().put("initiator", "admin");
+workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
+workflowdata.getMetaDataMap().put("orgTopics", "GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita|GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita|GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita|");
+var payloadJson = "{\"referrer\":\"\",\"rootMap\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"asset\":[\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\"],\"base\":\"/content/dam\"}";
+workflowdata.getMetaDataMap().put("payloadJson", payloadJson);
+workflowdata.getMetaDataMap().put("deadline", "2047-06-27T13:19:00.000+05:30");
+workflowdata.getMetaDataMap().put("title", "Review task via workflow with map");
+workflowdata.getMetaDataMap().put("description", "Review task via workflow with map Description");
+workflowdata.getMetaDataMap().put("assignee", "user-one");
+workflowdata.getMetaDataMap().put("status", "1");
+workflowdata.getMetaDataMap().put("projectPath", "/content/projects/review_project_via_workflow");
+workflowdata.getMetaDataMap().put("startTime", new Date().getTime());
+var versionJson = "[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]}]";
+workflowdata.getMetaDataMap().put("versionJson", versionJson);
+workflowdata.getMetaDataMap().put("notifyViaEmail", "true");
+workflowdata.getMetaDataMap().put("allowAllReviewers", "false");
+workflowdata.getMetaDataMap().put("isDitamap", "true");
+workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
+var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
+workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 ```
 
 È possibile creare questo script nel nodo `/etc/workflows/scripts`. La tabella seguente descrive le proprietà assegnate da questo script ECMA:
@@ -75,31 +106,40 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 | `assignee` | Stringa | ID utente degli utenti a cui desideri inviare l&#39;argomento\(s\) per la revisione. |
 | `status` | Numero intero | Un valore statico impostato come 1. |
 | `startTime` | Lungo | Utilizzare la funzione `System.currentTimeMillis()` per ottenere l&#39;ora di sistema corrente. |
+| `projectPath` | Stringa | Percorso del progetto di revisione a cui verrà assegnata l’attività di revisione. Esempio: /content/projects/samplereviewproject. |
+| `reviewType` | Stringa | Valore statico &quot;AEM&quot;. |
+| `versionJson` | Oggetto JSON | versionJson è un elenco di argomenti inclusi nella revisione in cui ogni oggetto argomento ha la seguente struttura { &quot;path&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } |
+| `isDitamap` | Booleano | false/true |
+| `ditamapHierarchy` | Oggetto JSON | Se la mappa viene inviata per la revisione, il valore qui dovrebbe essere simile a:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot; &quot;&quot;, &quot;elementi&quot;: [] } ] } ]. |
+| `ditamap` | Stringa | Specifica il percorso della mappa dei tag dell&#39;attività di revisione |
+| `allowAllReviewers` | Booleano | false/true |
+| `notifyViaEmail` | Booleano | false/true |
+
 
 Dopo aver creato lo script, chiamalo prima del processo Crea revisione nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro di revisione.
 
 ### Rimuovi il flusso di lavoro di revisione dalla configurazione di eliminazione
 
-Per migliorare le prestazioni del motore del flusso di lavoro, puoi eliminare regolarmente le istanze del flusso di lavoro completate dall’archivio AEM. Se utilizzi le configurazioni AEM predefinite, tutte le istanze di flusso di lavoro completate vengono pulite dopo un periodo di tempo specifico. Questo determina anche l’eliminazione di tutti i flussi di lavoro di revisione dall’archivio AEM.
+Per migliorare le prestazioni del motore del flusso di lavoro, puoi eliminare regolarmente le istanze del flusso di lavoro completate dall’archivio di AEM. Se utilizzi le configurazioni di AEM predefinite, tutte le istanze di flusso di lavoro completate vengono pulite dopo un periodo di tempo specifico. Questo determina anche l’eliminazione di tutti i flussi di lavoro di revisione dall’archivio AEM.
 
-È possibile impedire la rimozione automatica dei flussi di lavoro di revisione rimuovendo il modello di flusso di lavoro di revisione \(informazioni\) dalla configurazione di rimozione automatica. È necessario utilizzare la **configurazione eliminazione flusso di lavoro Adobe Granite** per rimuovere i modelli del flusso di lavoro di revisione dall&#39;elenco di rimozione automatica.
+È possibile impedire la rimozione automatica dei flussi di lavoro di revisione rimuovendo il modello di flusso di lavoro di revisione \(informazioni\) dalla configurazione di rimozione automatica. È necessario utilizzare la **Configurazione di eliminazione del flusso di lavoro di Adobe Granite** per rimuovere i modelli del flusso di lavoro di revisione dall&#39;elenco di rimozione automatica.
 
-Nella **Configurazione eliminazione flusso di lavoro Granite di Adobe**, accertati di elencare almeno un flusso di lavoro che puoi eliminare in modo sicuro. Ad esempio, puoi utilizzare uno dei seguenti flussi di lavoro creati da AEM Guides:
+Nella **Configurazione eliminazione flusso di lavoro di Adobe Granite**, accertati di elencare almeno un flusso di lavoro che puoi eliminare in modo sicuro. Ad esempio, puoi utilizzare uno dei seguenti flussi di lavoro creati da AEM Guides:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-L&#39;aggiunta di un flusso di lavoro nella **configurazione eliminazione flusso di lavoro Adobe Granite** garantisce che l&#39;AEM elimini solo i flussi di lavoro elencati nella configurazione. Questo impedisce all’AEM di eliminare le informazioni del flusso di lavoro di revisione.
+L&#39;aggiunta di un flusso di lavoro nella **configurazione eliminazione flusso di lavoro di Adobe Granite** garantisce che AEM elimini solo i flussi di lavoro elencati nella configurazione. Questo impedisce ad AEM di eliminare le informazioni del flusso di lavoro di revisione.
 
-Per ulteriori dettagli sulla configurazione della **configurazione di eliminazione del flusso di lavoro Adobe Granite**, vedi *Amministrazione delle istanze del flusso di lavoro* nella documentazione AEM.
+Per ulteriori dettagli sulla configurazione della **configurazione di Adobe Granite Workflow Purge**, vedi *Amministrazione delle istanze del flusso di lavoro* nella documentazione di AEM.
 
 ### Personalizzare i modelli e-mail
 
-Alcuni flussi di lavoro di AEM Guides utilizzano le notifiche e-mail. Ad esempio, se avvii un’attività di revisione, viene inviata una notifica e-mail ai revisori. Tuttavia, per assicurarsi che la notifica e-mail venga inviata, devi abilitare questa funzionalità in AEM. Per abilitare le notifiche e-mail in AEM, consulta l&#39;articolo [Configurazione delle notifiche e-mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it) nella documentazione AEM.
+Alcuni flussi di lavoro di AEM Guides utilizzano le notifiche e-mail. Ad esempio, se avvii un’attività di revisione, viene inviata una notifica e-mail ai revisori. Tuttavia, per garantire l’invio della notifica e-mail, devi abilitare questa funzionalità in AEM. Per abilitare le notifiche e-mail in AEM, consulta l&#39;articolo [Configurazione delle notifiche e-mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it) nella documentazione di AEM.
 
 AEM Guides contiene un set di modelli e-mail che puoi personalizzare. Per personalizzare questi modelli, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. Nella scheda Navigator, passare alla posizione seguente:
 
@@ -120,7 +160,7 @@ AEM Guides contiene un set di modelli e-mail che puoi personalizzare. Per person
 
 ## Personalizzare il flusso di lavoro di generazione post-output {#id17A6GI004Y4}
 
-AEM Guides offre la flessibilità di specificare un flusso di lavoro per la generazione post-output. Puoi eseguire alcune attività di post-elaborazione sull’output generato tramite AEM Guides. Ad esempio, potrebbe essere utile applicare alcuni tag CQ all’output del sito AEM generato, impostare determinate proprietà all’output del PDF o inviare un’e-mail a un set di utenti una volta generato l’output.
+AEM Guides offre la flessibilità di specificare un flusso di lavoro per la generazione post-output. Puoi eseguire alcune attività di post-elaborazione sull’output generato tramite AEM Guides. Ad esempio, puoi applicare alcuni tag CQ all’output del sito AEM generato, impostare determinate proprietà all’output di PDF o inviare un’e-mail a un set di utenti una volta generato l’output.
 
 Puoi creare un nuovo modello di flusso di lavoro da utilizzare come flusso di lavoro di generazione post-output. Quando viene attivato un flusso di lavoro di generazione post-output, il flusso di lavoro di generazione dell&#39;output condivide informazioni contestuali tramite la mappa metadati del flusso di lavoro, che è possibile utilizzare per eseguire l&#39;elaborazione sull&#39;output generato. La tabella seguente descrive le informazioni contestuali condivise come metadati:
 
@@ -163,7 +203,7 @@ generatedPath;
 */
 ```
 
-Dopo aver creato lo script, chiama lo script personalizzato nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro. Dopo aver progettato il flusso di lavoro personalizzato, chiama *Finalize Post Generation* come ultimo passaggio del processo del flusso di lavoro. Il passaggio *Finalize Post Generation* assicura che lo stato dell&#39;attività di generazione dell&#39;output venga aggiornato a *Finished* al completamento del processo di generazione dell&#39;output. Dopo aver creato un flusso di lavoro di generazione post-output personalizzato, puoi configurarlo con uno qualsiasi dei predefiniti di generazione di output. Selezionare il flusso di lavoro richiesto nella proprietà *Esegui flusso di lavoro di generazione Post* del predefinito richiesto. Quando si esegue un&#39;attività di generazione output utilizzando il predefinito di output configurato, lo stato dell&#39;attività \(nella scheda Output\) diventa *Elaborazione Post*.
+Dopo aver creato lo script, chiama lo script personalizzato nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro. Dopo aver progettato il flusso di lavoro personalizzato, chiama *Finalize Post Generation* come ultimo passaggio del processo del flusso di lavoro. Il passaggio *Finalize Post Generation* assicura che lo stato dell&#39;attività di generazione dell&#39;output venga aggiornato a *Finished* al completamento del processo di generazione dell&#39;output. Dopo aver creato un flusso di lavoro di generazione post-output personalizzato, puoi configurarlo con uno qualsiasi dei predefiniti di generazione di output. Selezionare il flusso di lavoro richiesto nella proprietà *Esegui flusso di lavoro di post-generazione* del predefinito richiesto. Quando esegui un&#39;attività di generazione output utilizzando il predefinito di output configurato, lo stato dell&#39;attività \(nella scheda Output\) diventa *Post-elaborazione*.
 
 ## Personalizza flusso di lavoro Aggiorna risorsa {#id18C3D0I0B5Z}
 
@@ -192,7 +232,7 @@ Per personalizzare il flusso di lavoro *Risorsa di aggiornamento DAM*, effettua 
 
 ## Configurare il flusso di lavoro XML di post-elaborazione {#id18CJB03J0Y4}
 
-AEM Guides crea una serie di flussi di lavoro che ti consentono di lavorare con contenuti DITA nell’AEM. Alcuni flussi di lavoro, ad esempio, vengono eseguiti quando si caricano contenuti DITA o si aggiornano contenuti esistenti. Questi flussi di lavoro analizzano i documenti DITA ed eseguono varie attività, ad esempio l&#39;impostazione dei metadati, l&#39;aggiunta di predefiniti di output alle nuove mappe DITA e altre attività correlate.
+AEM Guides crea una serie di flussi di lavoro che ti consentono di lavorare con contenuti DITA in AEM. Alcuni flussi di lavoro, ad esempio, vengono eseguiti quando si caricano contenuti DITA o si aggiornano contenuti esistenti. Questi flussi di lavoro analizzano i documenti DITA ed eseguono varie attività, ad esempio l&#39;impostazione dei metadati, l&#39;aggiunta di predefiniti di output alle nuove mappe DITA e altre attività correlate.
 
 >[!NOTE]
 >
@@ -207,4 +247,4 @@ Le seguenti proprietà determinano il modo in cui AEM Guides esegue i flussi di 
 | Proprietà | Nome bundle | Descrizione |
 |--------|-----------|-----------|
 | Outref dinamici | `com.adobe.fmdita.postprocess.PostProcessObservation` | Per tutti i file su cui non è stata eseguita la post-elaborazione, recupera i riferimenti in uscita analizzando i file dell’argomento. Si consiglia di mantenere questa opzione disabilitata in quanto ha la possibilità di sovraccaricare il sistema se il numero di file da elaborare è elevato. |
-| Post Process Threads | `com.adobe.fmdita.config.ConfigManager` | Imposta il numero di thread di post-elaborazione da utilizzare per il flusso di lavoro di post-elaborazione. <br>Il valore predefinito è 1. |
+| Threads post-elaborazione | `com.adobe.fmdita.config.ConfigManager` | Imposta il numero di thread di post-elaborazione da utilizzare per il flusso di lavoro di post-elaborazione. <br>Il valore predefinito è 1. |

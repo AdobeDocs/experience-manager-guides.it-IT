@@ -1,7 +1,8 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.06.0
 description: Scopri le correzioni di bug nella versione 2025.06.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -18,7 +19,6 @@ Scopri le [istruzioni di aggiornamento per la versione 2025.06.0](upgrade-instru
 
 ## Authoring
 
-- Quando si apre una mappa DITA con la shell unificata abilitata, l&#39;editor viene aggiornato in modo intermittente. (GUIDES-26919)
 - Se non si chiudono le connessioni della sessione JCR durante l’aggiornamento o la creazione di argomenti, si verificano perdite di memoria e tempi di inattività del servizio. (GUIDES-26282)
 - Trascinando le colonne, la larghezza cambia da valori percentuali a pixel e vengono generate tabelle distorte o non allineate.(GUIDES-23128)
 - Quando il contenuto viene incollato in un `code block` o quando vengono aggiunti spazi in `code block` e la visualizzazione viene cambiata, la spaziatura viene persa. (GUIDES-27478)
@@ -47,6 +47,8 @@ Scopri le [istruzioni di aggiornamento per la versione 2025.06.0](upgrade-instru
 Adobe ha identificato il seguente problema noto per la versione 2025.06.0:
 
 - Quando si utilizza l&#39;opzione Trova e sostituisci, dopo aver applicato l&#39;operazione Sostituisci occorrenza singola su un file, non è possibile eseguire ulteriori azioni nel pannello Trova e sostituisci. (GUIDES-28930)
+
+- Quando si apre una mappa DITA con la shell unificata abilitata, l&#39;editor viene aggiornato in modo intermittente. (GUIDES-26919)
 
 - In un profilo di cartella, quando una risorsa già indicizzata viene eliminata dall’interfaccia utente, il percorso indicizzato corrispondente non viene rimosso e il tentativo di reindicizzazione non riesce e viene visualizzato un messaggio di errore. (GUIDES-29147) <br>**Soluzione:** Rimuovere il percorso obsoleto che non esiste più prima di avviare la reindicizzazione.
 
