@@ -2,9 +2,9 @@
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.06.0
 description: Scopri le correzioni di bug nella versione 2025.06.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,6 @@ Adobe ha identificato il seguente problema noto per la versione 2025.06.0:
 
 - Quando si apre una mappa DITA con la shell unificata abilitata, l&#39;editor viene aggiornato in modo intermittente. (GUIDES-26919)
 
-- In un profilo di cartella, quando una risorsa già indicizzata viene eliminata dall’interfaccia utente, il percorso indicizzato corrispondente non viene rimosso e il tentativo di reindicizzazione non riesce e viene visualizzato un messaggio di errore. (GUIDES-29147) <br>**Soluzione:** Rimuovere il percorso obsoleto che non esiste più prima di avviare la reindicizzazione.
+- Per la configurazione di IA nel profilo cartella, quando una risorsa già indicizzata viene eliminata dall’interfaccia utente, il percorso indicizzato corrispondente non viene rimosso e un tentativo di reindicizzazione non riesce e viene visualizzato un messaggio di errore. (GUIDES-29147) <br>**Soluzione:** Rimuovere il percorso obsoleto che non esiste più prima di avviare la reindicizzazione.
 
-- Se una mappa contiene dipendenze cicliche e apri l’Anteprima mappa, le viste Source, Author e Layout diventano inaccessibili fino a quando la pagina non viene aggiornata. (GUIDES-28334) <br>**Soluzione alternativa:** È necessario aggiornare la pagina per ripristinare l&#39;accesso a queste visualizzazioni.
+- Se una mappa contiene dipendenze cicliche e apri l’Anteprima mappa, le viste Source, Author e Layout diventano inaccessibili fino a quando il browser non viene aggiornato. (GUIDES-28334) <br>**Soluzione alternativa:** È necessario aggiornare il browser per ripristinare l&#39;accesso a queste visualizzazioni.
