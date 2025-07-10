@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
+source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2139'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Servizi cloud {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2025 {#2025-releases}
+            - Versione 2025.07.0 {#2507-release}
+               - [Novità](./release-info/whats-new-2025-07-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2025-07-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2025-07-0.md)
             - Versione 2025.06.0 {#2506-release}
                - [Novità](./release-info/whats-new-2025-06-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2025-06-0.md)
@@ -136,8 +140,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -287,7 +291,7 @@ ht-degree: 8%
       - Risoluzione dei problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -458,6 +462,7 @@ ht-degree: 8%
       - Utilizzare la ricerca in AEM Assets {#aem-asset-search-cs}
          - [Configurare la ricerca per l’interfaccia utente di AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Appendice](./cs-install-guide/appendix.md)
+
 - Riferimento API {#api-reference}
    - [Introduzione](./api-reference/introduction.md)
    - [API REST per la gestione dell’output](./api-reference/output-management.md)
@@ -534,7 +539,7 @@ ht-degree: 8%
             - [Personalizzazione della barra degli strumenti e della barra degli argomenti](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Esempi](./guides-ui-extensions/examples.md)
             - [Json personalizzabili](./guides-ui-extensions/jsons.md)
-            - Rivedi{#review-app-customisations}
+            - Rivedere{#review-app-customisations}
                - [Componenti](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personalizzazione](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Finestra di dialogo personalizzata](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)

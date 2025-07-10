@@ -4,9 +4,9 @@ description: Crea e configura il predefinito AEM Sites nella console Mappa utili
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,8 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
 | Usa percorso del sito | Utilizza questa opzione per pubblicare i contenuti in un sito Experience Manager. |
-| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato. |
-| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Selezionare il modello da applicare alle home page delle mappe. |
+| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato. |
+| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Selezionare il modello da applicare alle home page delle mappe. |
 | Sito | Nome del Experience Manager Sites in cui desideri pubblicare il contenuto. Le opzioni nel menu a discesa vengono compilate in base all’elenco dei siti disponibili in AEM Sites. <br>Seleziona **Aggiorna** ![Aggiorna icona](images/navtitle-refresh-icon.svg) per recuperare un nuovo elenco di opzioni e riflettere i dati aggiornati. |
 | Percorso di pubblicazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output. Il Percorso di pubblicazione viene compilato con tutti i percorsi che contengono pagine create in base al modello della home page. L&#39;output AEM Sites della mappa DITA viene generato in questo percorso.  Se ad esempio si specifica il sito come `AEMG-Docs` e il percorso di pubblicazione come `aemg-docs-en/docs/product-abc.`, l&#39;output di AEM Sites verrà generato nel nodo `aemg-docs-en/docs/product-abc/` in `crx/de`. |
 | Modello pagina argomento | Selezionare il modello da applicare a tutti gli argomenti di output. |
@@ -131,7 +131,7 @@ Nella scheda **Elenco argomenti** viene visualizzato l&#39;elenco degli argoment
 
 **Riferimenti tra mappe**
 
-Questo elenco contiene argomenti contenenti riferimenti a mappe incrociate con `scope =”peer”`. È possibile specificare il contesto di pubblicazione per un elenco di riferimenti a mappe incrociate con `scope=”peer”` ad argomenti disponibili in altre mappe DITA. Questa scheda viene visualizzata se si utilizza la versione di Experience Manager Guides (UUID).
+Questo elenco contiene argomenti contenenti riferimenti a mappe incrociate con `scope ="peer"`. È possibile specificare il contesto di pubblicazione per un elenco di riferimenti a mappe incrociate con `scope="peer"` ad argomenti disponibili in altre mappe DITA. Questa scheda viene visualizzata se si utilizza la versione di Experience Manager Guides (UUID).
 
 Per ulteriori dettagli, fare riferimento alla sezione [Utilizzo degli argomenti collegati](#working-with-linked-topics) di seguito.
 
@@ -171,18 +171,20 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 
 **Contenuto**
 
+![Nuovo ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
-| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
+| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](./web-editor-baseline.md) per ulteriori dettagli. |
 | Filtro condizionale | Selezionare una delle opzioni seguenti:<br><br>**Nessuna**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>**Utilizzo di DITAVAL**: selezionare i file DITAVal per generare contenuto condizionale. È possibile selezionare più file DITAVal utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVal vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVal viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal dashboard delle mappe. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio AEM in cui è memorizzato il file. È possibile selezionare solo i file DITAVal e viene visualizzato un errore se si seleziona un altro tipo di file.<br>**Predefinito condizione**: seleziona un predefinito condizione dall&#39;elenco a discesa per applicare una condizione durante la pubblicazione dell&#39;output. Questa opzione è visibile se è stata aggiunta una condizione per il file di mapping DITA. Le impostazioni condizionali sono disponibili nella scheda Predefiniti condizione della console delle mappe DITA. Per ulteriori informazioni sul predefinito di condizione, visualizzare [Usa predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadati <br> <br>Proprietà file (Assets) | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: le proprietà dei metadati fanno distinzione tra maiuscole e minuscole.<br><br>*Se è stata selezionata una baseline, i valori delle proprietà si basano sulla versione della baseline selezionata.<br>* Se non è stata selezionata una baseline, i valori delle proprietà si basano sulla versione più recente.<br><br>È inoltre possibile trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: se non hai definito `cq:tags` nell&#39;opzione Proprietà, i valori per `cq:tags` vengono scelti dalla copia di lavoro corrente anche se hai selezionato una previsione per la pubblicazione. |
 | Metadati <br> <br>Utilizza le proprietà mappa come fallback | Se questa opzione è selezionata, le proprietà definite per il file mappa vengono copiate anche negli argomenti in cui tali proprietà non sono definite. Durante l&#39;utilizzo di questa opzione, prendere in considerazione i seguenti punti:<br><br>*È possibile passare alle pagine del sito AEM solo le proprietà String, Date o Long (singole e multivalore).<br>* I valori dei metadati per una proprietà di tipo String non supportano caratteri speciali (ad esempio `@, #, " "`).<br>* Questa opzione deve essere utilizzata insieme all&#39;opzione `Properties`. |
 
 **Riferimenti tra mappe**
 
-Questo elenco contiene argomenti contenenti riferimenti a mappe incrociate con `scope =”peer”`. È possibile specificare il contesto di pubblicazione per un elenco di riferimenti a mappe incrociate con `scope=”peer”` ad argomenti disponibili in altre mappe DITA. Questa scheda viene visualizzata se si utilizza la versione di Experience Manager Guides (UUID).
+Questo elenco contiene argomenti contenenti riferimenti a mappe incrociate con `scope ="peer"`. È possibile specificare il contesto di pubblicazione per un elenco di riferimenti a mappe incrociate con `scope="peer"` ad argomenti disponibili in altre mappe DITA. Questa scheda viene visualizzata se si utilizza la versione di Experience Manager Guides (UUID).
 
 Per ulteriori dettagli, fare riferimento alla sezione [Utilizzo degli argomenti collegati](#working-with-linked-topics) di seguito.
 
@@ -208,7 +210,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 
    >[!NOTE]
    >
-   >La scheda **Riferimenti a mappe incrociate** mostra gli argomenti collegati solo con `scope=”peer”`. Per i collegamenti con `scope=”local”`, non è necessario specificare il contesto di pubblicazione.
+   >La scheda **Riferimenti a mappe incrociate** mostra gli argomenti collegati solo con `scope="peer"`. Per i collegamenti con `scope="local"`, non è necessario specificare il contesto di pubblicazione.
 
    Per impostazione predefinita, per tutti gli argomenti collegati vengono selezionati il predefinito di output e la mappa più recente. Per impostazione predefinita, il contesto di pubblicazione per tutti gli argomenti collegati è impostato su `<Most recently generated>` mappa.
 
@@ -217,15 +219,15 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 1. Se si desidera utilizzare l&#39;output pubblicato più di recente di ciascun file dipendente nella mappa, selezionare **Usa contesto di pubblicazione generato più di recente** per tutti gli argomenti dipendenti.
 È necessario pubblicare la mappa selezionata come mappa padre prima di pubblicare la mappa contenente gli argomenti collegati. Se la mappa con argomenti collegati non è pubblicata, i collegamenti verranno visualizzati come testo normale anziché come collegamenti ipertestuali nell’output di AEM Sites.
 Seleziona lo stesso tipo di predefinito AEM Sites per l’argomento collegato. Ad esempio, se il predefinito AEM Sites corrente utilizza la mappatura di componenti legacy, seleziona un predefinito AEM Sites simile all’argomento collegato.
-1. Nell’elenco a discesa Mappa padre, seleziona il file di mappa con il cui output desideri collegare l’output della mappa corrente.
-Quando si seleziona un file di mappa, nella colonna UUID della mappa principale viene visualizzato l’UUID della mappa. I predefiniti di output associati alla mappa scelta sono elencati nell’elenco Predefiniti della mappa principale. Ad esempio, l&#39;argomento 1 nella Mappa A contiene un riferimento all&#39;argomento 2. L&#39;argomento 2 può essere presente in una o più mappe. Per ogni collegamento puoi selezionare la mappa principale e un predefinito specifico oppure l’output pubblicato più di recente.
+1. Nell&#39;elenco a discesa Mappa padre selezionare il file di mappa con il quale si desidera collegare l&#39;output della mappa corrente.
+Quando si seleziona un file di mappa, nella colonna UUID mappa principale viene visualizzato l&#39;UUID della mappa. I predefiniti di output associati alla mappa selezionata sono elencati nell&#39;elenco Predefiniti mappa padre. Ad esempio, l&#39;argomento 1 nella Mappa A contiene un riferimento all&#39;argomento 2. L&#39;argomento 2 può essere presente in una o più mappe. Per ogni collegamento puoi selezionare la mappa principale e un predefinito specifico oppure l’output pubblicato più di recente.
 
 1. Se in un file si fa riferimento allo stesso argomento più di una volta, è possibile aggiungere un contesto di pubblicazione diverso per ogni istanza. Questo offre maggiore flessibilità e controllo sui contenuti. Ad esempio, l&#39;argomento 3 è presente sia nella Mappa B che nella Mappa C. L&#39;argomento 1 contiene due riferimenti all&#39;argomento 3. Potete scegliere Mappa B come mappa padre per il primo collegamento e Mappa C come mappa padre per il secondo collegamento.
 
-1. Nell’elenco a discesa Predefinito della mappa principale, seleziona il predefinito di output con cui vuoi collegare l’output della mappa corrente.
+1. Nell&#39;elenco a discesa Predefinito mappa padre selezionare il predefinito di output con cui si desidera collegare l&#39;output della mappa corrente.
    >[!NOTE]
    >
-   > I diversi predefiniti di AEM Sites della mappa corrente vengono visualizzati nell’elenco a discesa. Se non selezioni un predefinito, viene visualizzata un’icona di avviso e la generazione dell’output non riesce.
+   > I diversi predefiniti di AEM Sites della mappa corrente vengono visualizzati nell’elenco a discesa. Se non selezioni un predefinito, viene visualizzata un’icona di avviso e la generazione dell’output ha esito negativo.
 
 1. Selezionare la mappa richiesta e il relativo predefinito di output per tutti gli argomenti di origine, quindi selezionare **Genera**.
 

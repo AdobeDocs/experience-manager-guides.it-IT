@@ -4,9 +4,9 @@ description: Scopri come funziona in AEM Guides la generazione di output increme
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Se la mappa è bloccata e hai aggiornato un singolo argomento nella mappa, devi 
 
 Per rigenerare l&#39;output per un argomento specifico o un gruppo di argomenti, effettuare le operazioni riportate di seguito.
 
->[!IMPORTANT]
->
-> Durante la rigenerazione dell&#39;output di AEM Sites, l&#39;output viene creato utilizzando la versione corrente dei file e non la baseline allegata.
-
-## Genera output incrementale dalla console Mappa
+## Genera output incrementale dalla console Mappa (per i siti AEM che utilizzano la mappatura di componenti compositi)
 
 Per generare un output incrementale per AEM Sites utilizzando la console Mappa, effettua le seguenti operazioni:
 
@@ -36,19 +32,26 @@ Per generare un output incrementale per AEM Sites utilizzando la console Mappa, 
 1. Seleziona il predefinito di AEM Sites per il quale desideri generare l’output incrementale.
 1. Nella scheda **Argomenti** selezionare gli argomenti che si desidera pubblicare.
 
-   ![elenco argomenti siti aem](images/aem-presets-topic-list.png) {align="left"}
+   - Senza linea di base
+
+     ![elenco argomenti siti aem](images/aem-presets-topic-list.png) {align="left"}
+
+   - Con baseline
+
+     ![elenco argomenti di aem sites con linea di base](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Quando si seleziona una baseline nella scheda **Contenuto**, nell&#39;elenco Argomento vengono visualizzati gli argomenti e le relative versioni dalla baseline allegata.<br><br>
    > La pubblicazione incrementale dall&#39;elenco Argomenti deve essere utilizzata solo quando non vi è alcuna modifica alla struttura della mappa. Se si verifica una modifica nella struttura della mappa o nel sommario, l’intera mappa deve essere pubblicata una volta per aggiornare il sommario.
+
 1. Seleziona **Salva** per salvare le modifiche.
 1. Selezionare **Genera output** per generare l&#39;output.
 
 
-## Genera output incrementale dal dashboard Mappa
+## Genera output incrementale dal dashboard Mappa (per i siti AEM che utilizzano la mappatura dei componenti legacy)
 
-Per generare l’output incrementale per AEM Sites utilizzando il dashboard Mappa, effettua le seguenti operazioni:
+Per generare l’output incrementale per AEM Sites utilizzando il dashboard delle mappe, effettua le seguenti operazioni:
 
 1. Nell&#39;interfaccia utente di Assets, passare al file di mapping DITA e selezionarlo.
 
@@ -71,6 +74,9 @@ Per generare l’output incrementale per AEM Sites utilizzando il dashboard Mapp
    Viene visualizzata la pagina **Rigenera argomenti selezionati**.
 
 1. Selezionate il predefinito di output da utilizzare per rigenerare gli argomenti selezionati.
+
+   Per il predefinito di output di AEM Sites che utilizza la mappatura di componenti legacy, se è selezionata una linea di base, per la generazione dell’output vengono utilizzate le versioni dell’argomento incluse nella linea di base selezionata. Inoltre, la pubblicazione incrementale dall&#39;elenco Argomenti deve essere utilizzata solo quando non vi sono modifiche alla struttura della mappa. Se si verifica una modifica nella struttura della mappa o nel sommario, l’intera mappa deve essere pubblicata una volta per aggiornare il sommario. Per informazioni dettagliate sull&#39;utilizzo del predefinito per sito AEM, visualizza [i predefiniti AEM Sites nel dashboard delle mappe](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Selezionare **Rigenera** per avviare il processo di generazione dell&#39;output.
 

@@ -3,9 +3,9 @@ title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 7510a830bdec0fb4473ee93d5f46f0aa15555a9e
+source-git-commit: b79084e369ecc92c4b20447069f8b0b52b4a42b8
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 34%
 
 ---
@@ -27,7 +27,6 @@ Di seguito sono elencate le versioni pianificate per Experience Manager Guides a
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Problemi risolti | Stato |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.07.0 | Aggiornamento automatico | 14-16 luglio 2025 |  |  |  | Destinazione |
 | Adobe Experience Manager Guides 2025.08.0 | Aggiornamento automatico | 25-27 agosto 2025 |  |  |  | Destinazione |
 | Adobe Experience Manager Guides 2025.10.0 | Aggiornamento automatico | 06-08 ottobre 2025 |  |  |  | Destinazione |
 | Adobe Experience Manager Guides 2025.11.0 | Aggiornamento automatico | 17-19 novembre 2025 |  |  |  | Destinazione |
@@ -36,6 +35,7 @@ Di seguito sono elencate le versioni pianificate per Experience Manager Guides a
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Problemi risolti | Stato |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.07.0 | Aggiornamento automatico | 14-16 luglio 2025 | [Qui](whats-new-2025-07-0.md) | [Qui](upgrade-instructions-2025-07-0.md) | [Qui](fixed-issues-2025-07-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2025.6.0 | Aggiornamento automatico | 02-04 giugno 2025 | [Qui](whats-new-2025-06-0.md) | [Qui](upgrade-instructions-2025-06-0.md) | [Qui](fixed-issues-2025-06-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2025.4.0 | Aggiornamento automatico | 05-07 maggio 2025 | [Qui](whats-new-2025-04-0.md) | [Qui](upgrade-instructions-2025-04-0.md) | [Qui](fixed-issues-2025-04-0.md) | Aggiornata |
 | Adobe Experience Manager Guides 2025.2.0 | Aggiornamento automatico | 10-12 marzo 2025 | [Qui](whats-new-2025-02-0.md) | [Qui](upgrade-instructions-2025-02-0.md) | [Qui](fixed-issues-2025-02-0.md) | Aggiornata |
