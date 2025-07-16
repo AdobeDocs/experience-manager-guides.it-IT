@@ -3,7 +3,8 @@ title: Gestire un corso in contenuti di apprendimento e formazione
 description: Scopri le varie funzioni presenti in Experience Manager Guides che ti consentono di gestire il corso in modo efficiente.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ Puoi aggiungere al corso contenuto esistente dal tuo archivio dei contenuti. Per
 
 1. Seleziona il menu **Opzioni** > **Aggiungi esistente**.
 2. Seleziona il tipo di contenuto del corso che desideri creare.
-3. Nella finestra di dialogo Seleziona percorso, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
+3. Nella finestra di dialogo **Seleziona percorso**, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
 
    ![](assets/add-existing-learning-content.png)
 4. Scegli **Seleziona**.
 
-Il contenuto di apprendimento selezionato viene aggiunto al corso dall’archivio.
+Il contenuto del corso selezionato viene aggiunto al corso dall’archivio.
 
 ## Rimuovi contenuto
 
 È possibile rimuovere qualsiasi argomento dal corso selezionando il menu **Opzioni** per l&#39;argomento specifico e quindi selezionando **Rimuovi** come illustrato di seguito.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Creare versioni del corso
 
 Puoi controllare il controllo delle versioni del corso selezionando il menu **Opzioni** > **Controllo delle versioni**.
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Per il controllo delle versioni di un corso sono disponibili le seguenti opzioni:
 
@@ -70,7 +71,3 @@ L&#39;opzione **Mostra** determina la modalità di visualizzazione degli argomen
 > Queste impostazioni di visualizzazione si applicano solo in Gestione corsi e non hanno alcun impatto sull’output pubblicato.
 
 ![](assets/course-display-settings.png)
-
-
-
-

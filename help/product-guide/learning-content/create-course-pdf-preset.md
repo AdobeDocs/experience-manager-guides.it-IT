@@ -3,7 +3,8 @@ title: Crea predefinito PDF
 description: Creare un predefinito PDF nei contenuti di apprendimento e formazione
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -18,7 +19,7 @@ Per creare un predefinito di output PDF, effettua le seguenti operazioni:
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. Nella scheda **Predefiniti di output**, seleziona l&#39;icona + per creare un predefinito di output.
+1. Nel pannello **Predefiniti di output**, seleziona l&#39;icona + per creare un predefinito di output.
 1. Seleziona **PDF** dal menu a discesa **Tipo** nella finestra di dialogo Nuovo predefinito di output.
 1. Nel campo **Name**, specifica un nome per questo predefinito.
 1. Nel campo **Genera PDF utilizzando**, selezionare **PDF nativo**.
@@ -28,5 +29,3 @@ Per creare un predefinito di output PDF, effettua le seguenti operazioni:
 Viene visualizzata la pagina delle impostazioni predefinite di PDF, in cui è possibile effettuare le configurazioni necessarie.
 
 ![](assets/learning-pdf-preset.png){width="650" align="left"}
-
-

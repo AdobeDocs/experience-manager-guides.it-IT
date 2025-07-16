@@ -1,0 +1,32 @@
+---
+title: Flusso di lavoro di creazione
+description: Scopri il flusso di lavoro di authoring per i contenuti di apprendimento e formazione in Experience Manager Guides.
+feature: Authoring
+role: User
+source-git-commit: 0dfb3c9121f0cc0ca068bde8161dd25162f6b8cd
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
+
+---
+
+# Flusso di lavoro di creazione
+
+Questa pagina fornisce un accesso rapido ai video che descrivono i flussi di lavoro chiave per l’authoring dei contenuti di apprendimento e formazione in AEM Guides, consentendoti di creare, gestire e pubblicare in modo efficiente i contenuti di apprendimento.
+
+| Titolo | Descrizione | Collegamento video |
+|-------|-------------|------------|
+| Navigazione nell’ambiente di authoring di AEM Guides | Una guida dettagliata dell’ambiente AEM Guides, che tratta tutte le operazioni, dall’accesso all’editor ed esplorazione dei contenuti alla configurazione dei predefiniti di output SCORM. | [Avvia video](https://video.tv.adobe.com/v/3464836/learning-content-aem-guides){target="_blank"} |
+| Archivio e gestione delle raccolte | Panoramica della navigazione nell’archivio e della gestione delle raccolte in AEM Guides, incluse le azioni sui file, la ricerca e l’organizzazione dei contenuti. | [Avvia video](https://video.tv.adobe.com/v/3464899/aem-guides-learning-content){target="_blank"} |
+| Creazione di corsi in AEM Guides | Dimostra come creare e gestire i corsi in AEM Guides, inclusi modelli, gerarchia dei contenuti, quiz, controllo delle versioni e struttura dei corsi. | [Avvia video](https://video.tv.adobe.com/v/3464902/aem-guides-learning-content){target="_blank"} |
+| Creazione e modifica di contenuti di apprendimento | Procedura dettagliata per la creazione di contenuti strutturati in AEM Guides, che tratta modelli, formattazione, elementi multimediali, collegamenti ipertestuali, tabelle e proprietà di contenuto. | [Avvia video](https://video.tv.adobe.com/v/3464900){target="_blank"} |
+| Creazione e modifica dei quiz | Una guida dettagliata alla creazione di quiz in AEM Guides, che tratta modelli, tipi di domande, contenuti avanzati, feedback e proprietà dei quiz. | [Avvia video](https://video.tv.adobe.com/v/3464903/learning-content-aem-guides){target="_blank"} |
+| Utilizzo delle banche domande | Panoramica sulla creazione e il riutilizzo delle banche domande in AEM Guides, con inserimento, comportamento di modifica, randomizzazione e best practice per ID univoci. | [Avvia video](https://video.tv.adobe.com/v/3464901/learning-content-aem-guides){target="_blank"} |
+| Informazioni sulle proprietà dei file | Panoramica dei metadati a livello di file in AEM Guides, ad esempio lo stato del documento, i tag, gli attributi del contenuto di apprendimento, i riferimenti e le proprietà del contenuto. | [Avvia video](https://video.tv.adobe.com/v/3464898/aem-guides-learning-content){target="_blank"} |
+| Contenuti di apprendimento e gestione CSS | Illustra come applicare stili in linea e basati su pannelli nei contenuti di apprendimento, gestire le limitazioni degli stili dei quiz e configurare gli stili utilizzando l’editor CSS. | [Avvia video](https://video.tv.adobe.com/v/3464895/aem-guides-learning-content){target="_blank"} |
+| Modifica avanzata dei contenuti | Mostra come inserire e configurare elementi avanzati in AEM Guides, inclusi widget (pannello a soffietto, carosello, hotspot), elementi multimediali, iframe, blocchi di codice e block quote. | [Avvia video](https://video.tv.adobe.com/v/3464896/aem-guides-learning-content){target="_blank"} |
+| Creazione e utilizzo di snippet | Panoramica della creazione, dell’anteprima e dell’utilizzo dei frammenti in AEM Guides. | [Avvia video](https://video.tv.adobe.com/v/3464897/aem-guides-learning-content){target="_blank"} |
+| Utilizzo delle variabili | Spiega come creare e utilizzare variabili utente e di sistema in AEM Guides, inclusi i set di variabili e il loro comportamento nella pubblicazione. | [Avvia video](https://video.tv.adobe.com/v/3464893/learning-content-aem-guides){target="_blank"} |
+| Utilizzo di condizioni e predefiniti | Introduzione all’applicazione di condizioni in AEM Guides, che riguardano la creazione, l’utilizzo in contenuti e quiz, i predefiniti per le condizioni e i flussi di lavoro di pubblicazione. | [Avvia video](https://video.tv.adobe.com/v/3464894/learning-content-aem-guides){target="_blank"} |
+| Generazione di output SCORM e PDF | Procedura dettagliata su come configurare i predefiniti di output e generare pacchetti SCORM e PDF in AEM Guides, incluse le impostazioni di anteprima, download e chiave. | [Avvia video](https://video.tv.adobe.com/v/3464904/aem-guides-learning-content){target="_blank"} |
+| Controllo della versione | Panoramica del controllo delle versioni in AEM Guides, con informazioni quali blocco, salvataggio delle versioni, aggiunta di commenti ed etichette, visualizzazione della cronologia e delle differenze e ripristino delle modifiche. | [Avvia video](https://video.tv.adobe.com/v/3464905/aem-guides-learning-content){target="_blank"} |
