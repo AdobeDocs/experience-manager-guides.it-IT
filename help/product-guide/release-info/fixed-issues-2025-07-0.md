@@ -1,9 +1,10 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.07.0
 description: Scopri le correzioni di bug nella versione 2025.07.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ Scopri le [istruzioni di aggiornamento per la versione 2025.07.0](upgrade-instru
 Adobe ha identificato i seguenti problemi noti per la versione 2025.07.0:
 
 - Quando si utilizzano gli argomenti di Markdown, nella barra degli strumenti dell&#39;editor viene visualizzato un pulsante **Riferimento argomento** che tuttavia non funziona. (GUIDES-31038)
-- Quando si caricano cartelle con nomi in maiuscolo tramite l’app desktop Adobe Experience Manager, l’uso di maiuscole e minuscole non viene mantenuto e i nomi vengono visualizzati in minuscolo nell’editor. (GUIDES-30909)
+- I nomi dei nodi delle cartelle non vengono visualizzati correttamente al posto dei titoli delle cartelle nell’editor. (GUIDES-30909)
 - Nella finestra di dialogo **Unisci**, l&#39;elenco a discesa visualizza in modo errato **Contenuto principale** invece di mostrare le versioni disponibili dell&#39;argomento selezionato. (GUIDES-30820)
 - Quando si apre una mappa DITA con la shell unificata abilitata, l&#39;editor viene aggiornato in modo intermittente.(GUIDES-26919)
