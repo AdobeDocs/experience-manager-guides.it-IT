@@ -4,9 +4,9 @@ description: Gestisci le attività di revisione dal dashboard di revisione in AE
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
    Viene visualizzato un pannello Progetto con sezioni delle attività.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > In alternativa, puoi accedere direttamente al dashboard del progetto dal pannello a sinistra dell’Editor. Apri il [pannello Revisione](./web-editor-left-panel.md#review) e utilizza l&#39;icona **Apri il dashboard del progetto** posizionata su ogni progetto di revisione elencato nel pannello Revisione.
 
 1. Seleziona i tre punti nella sezione **Recensioni**.
 
@@ -126,4 +130,4 @@ La relazione sullo stato dell&#39;attività di revisione contiene i dettagli rip
 - Numero totale di commenti su tutti gli argomenti. In caso di più argomenti in revisione, il numero di commenti per ciascun argomento è indicato \(tra parentesi\) rispetto al nome dell’argomento.
 - Data dell&#39;ultimo accesso a un argomento da parte del revisore.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

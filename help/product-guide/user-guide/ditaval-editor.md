@@ -4,7 +4,7 @@ description: Scopri come creare e modificare i file DITAVAL utilizzando l’Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I file DITAVAL vengono utilizzati per generare output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi dell’elemento per condizionare il contenuto. Quindi, create un file DITAVAL in cui specificate le condizioni che devono essere selezionate per generare il contenuto e quali condizioni devono essere escluse dall&#39;output finale.
 
-Adobe Experience Manager Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi (che possono essere utilizzati come condizioni) definiti nel sistema ed è possibile utilizzarli per creare o modificare i file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione delle condizioni in Adobe Experience Manager, visualizzare la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=it) nella documentazione di Adobe Experience Manager.
+Adobe Experience Manager Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi (che possono essere utilizzati come condizioni) definiti nel sistema ed è possibile utilizzarli per creare o modificare i file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione delle condizioni in Adobe Experience Manager, visualizzare la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di Adobe Experience Manager.
 
 Nelle sezioni seguenti vengono descritte le opzioni disponibili per un file DITAVAL in Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Per creare un file DITAVAL, effettuate le seguenti operazioni:
 
 1. Nel pannello Archivio, seleziona l&#39;icona **Nuovo file**, quindi seleziona **Argomento** dal menu a discesa.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    È inoltre possibile accedere a questa opzione dalla [home page di Experience Manager Guides](./intro-home-page.md) e dal menu delle opzioni di una cartella nella visualizzazione Archivio.
 
@@ -42,7 +42,7 @@ Per creare un file DITAVAL, effettuate le seguenti operazioni:
    - Modello su cui verrà basato l&#39;argomento. Per un file DITAVAL, selezionare **Ditaval** dall&#39;elenco a discesa.
    - Percorso in cui salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Seleziona **Crea**.
@@ -112,35 +112,35 @@ Per una determinata proprietà sono disponibili principalmente quattro azioni el
 - **Colore di sfondo**: selezionare la tonalità, la saturazione e il contrasto dal colore di sfondo. Il valore HEX corrispondente viene aggiornato automaticamente in base alla selezione. È inoltre possibile cambiare il formato dello spazio colore utilizzando il menu a discesa per scegliere tra HEX, RGB e HSB.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Colore testo**: selezionare la tonalità, la saturazione e il contrasto dal colore Testo. Il valore HEX corrispondente viene aggiornato automaticamente in base alla selezione. È inoltre possibile cambiare il formato dello spazio colore utilizzando il menu a discesa per scegliere tra HEX, RGB e HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Opzioni di stile**: è possibile aggiungere alcune opzioni di stile come Grassetto, Corsivo, Sottolineato, Sovrapposto, Doppio sottolineato.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Flag iniziale e finale**: è possibile inserire immagini come flag iniziale e finale utilizzando il pulsante **Aggiungi flag**. Per scegliere le immagini, utilizzare **Sfoglia Assets** per effettuare la selezione dall&#39;archivio Guide o **Aggiungi file** per il caricamento dal sistema locale. È inoltre possibile specificare testo alternativo per le immagini.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Conflitto di stili**: risolve i conflitti che si verificano quando un singolo elemento contiene più proprietà con stili di contrassegno diversi. In questi casi, viene selezionato il valore definito nelle proprietà dei conflitti di stile, che funge da selettore di valori predefinito per i colori dello sfondo e del testo.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Informazioni sulla versione e Salva come nuova versione

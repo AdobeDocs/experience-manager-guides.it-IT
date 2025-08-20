@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 92d422de65b6bf50755d69dfb741d6530a9190ce
+source-git-commit: 896c9c870942edd00a115977bc658f0a99fa699b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Prima di installare Adobe Experience Manager Guides, accertati che il sistema so
 
 >[!IMPORTANT]
 >
-> Per la generazione dell’output del sito AEM nella versione 4.6, l’istanza Publish di Adobe Experience Manager deve disporre del Service Pack 21, 20, 19.
+> Per la generazione dell’output del sito AEM nella versione 5.0, l’istanza Publish di Adobe Experience Manager deve disporre del Service Pack 22, 21, 20.
 
 
 
@@ -35,6 +35,7 @@ Prima di installare Adobe Experience Manager Guides, accertati che il sistema so
 
 | Versione [!DNL AEM Guides] | Specifiche tecniche |
 |---|---|
+| **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22, SP21 o SP20<br><br> <li>   Java: 11 o 8 <br><br>   <li>Sistemi operativi: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 e 6</ul> |
 | **AEM Guides 4.6.0** | **Non-UUID e UUID 4.6.0** <ul><li> AEM 6.5 SP 21, SP20 o SP19<br><br> <li>   Java: 11 o 8 <br><br>   <li>Sistemi operativi: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 e 6</ul> |
 | **AEM Guides 4.4.0** | **Non-UUID e UUID 4.4.0** <ul><li> AEM 6.5 SP20, SP19, SP18 o SP17 <br><br> <li>   Java: 11 o 8 <br><br>   <li>Sistemi operativi: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 e 6</ul> |
 | **AEM Guides 4.2** | **Non-UUID e UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 o SP12 <br><br><li>Java: 11 o 8   <br><br><li> Sistemi operativi: <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 e 6</ul></ul> <br>**Non-UUID e UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 o SP12 <br><br><li>Java: 11 o 8<br><br> <li> Sistemi operativi: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 e 6</ul> |

@@ -4,9 +4,9 @@ description: Scopri come caricare i file nell’archivio AEM e gestire gli error
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 0259c0c0b7270d860198f17e6ea5f5829df038d5
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,21 @@ Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desid
 
 >[!IMPORTANT]
 >
-> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
+> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
 
 ## Interfaccia utente della console Assets
 
-Puoi selezionare il contenuto sul desktop e trascinare l’interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Per ulteriori dettagli, vedi [Carica risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#upload-assets) nella documentazione di Adobe Experience Manager.
+Per [aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) tramite l&#39;interfaccia utente della console Assets, seleziona la risorsa richiesta sul desktop e trascina l&#39;interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Durante il caricamento delle risorse, accertati che i nomi dei file non includano caratteri non supportati o non consentiti.
+
+Per ulteriori dettagli, visualizzare la sezione [Gestione del nome file e caratteri non consentiti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) nella documentazione di Adobe Experience Manager.
 
 ## App desktop Adobe Experience Manager
 
-Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=it).
+Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Acquisizione in blocco delle risorse
 
-In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuto in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#asset-bulk-ingestor).
+In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuto in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Utilizza FrameMaker per il caricamento in blocco
 
@@ -47,4 +49,4 @@ Per ulteriori dettagli sul funzionamento dei vari scenari di caricamento dei fil
 
 Se utilizzi uno strumento come Adobe Experience Manager Desktop App o Asset Bulk Ingestor, l’azione da eseguire su un file duplicato è controllata da un’impostazione nel server Adobe Experience Manager. Contatta l’amministratore di sistema per informazioni su questa configurazione.
 
-**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

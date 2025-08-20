@@ -4,9 +4,9 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -159,22 +159,22 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Generale**: la scheda Generale consente di configurare le impostazioni seguenti:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **Profilo cartella**: il profilo cartella controlla varie configurazioni relative agli attributi condizionali, ai modelli di authoring, ai predefiniti di output e alle configurazioni dell&#39;editor. Il profilo Globale è visualizzato per impostazione predefinita. Inoltre, se l’amministratore ha configurato i profili delle cartelle nel sistema, anche tali profili vengono visualizzati nell’elenco Profili cartella.
    - **Percorso base**: per impostazione predefinita, quando si accede all&#39;archivio di Experience Manager Guides dall&#39;editor, vengono visualizzate le risorse dalla posizione /content/dam. La cartella di lavoro potrebbe essere costituita da alcune cartelle all’interno della cartella /content/dam/. È possibile impostare il percorso di base della cartella di lavoro e la vista Archivio mostra quindi in primo piano il contenuto di tale posizione. Questo riduce il tempo necessario per accedere alla cartella di lavoro. Inoltre, quando si inserisce un file di riferimento o multimediale nell&#39;argomento, il percorso di esplorazione dei file inizia con la cartella impostata nel percorso di base.
-      - **Seleziona mappa radice**: selezionare un file di mappa DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, visualizzare [Risolvi riferimenti chiave](./map-editor-other-features.md).
-      - **Numero massimo di file recenti**: utilizzare questo campo per impostare un limite massimo per i file visualizzati nel widget File recenti.
-      - **Impostare il comportamento di apertura predefinito della mappa**: è possibile selezionare un comportamento predefinito che verrà seguito dal sistema durante l&#39;apertura di un file di mappa DITA.
+   - **Seleziona mappa radice**: selezionare un file di mappa DITA per risolvere i riferimenti chiave o le voci del glossario. La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, visualizzare [Risolvi riferimenti chiave](./map-editor-other-features.md).
+   - **Numero massimo di file recenti**: utilizzare questo campo per impostare un limite massimo per i file visualizzati nel widget File recenti.
+   - **Preferenze di apertura per le mappe**: qui è possibile selezionare un comportamento predefinito che il sistema seguirà durante l&#39;apertura di un file di mappe DITA.
 
 - **Aspetto**: la scheda Aspetto consente di selezionare i temi per l&#39;applicazione e la visualizzazione origine dell&#39;area di modifica dei contenuti. Utilizzare questa scheda per configurare le impostazioni seguenti:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **Configurazione di visualizzazione dei file dell&#39;editor**: selezionare la modalità predefinita di visualizzazione dei file nell&#39;editor. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore. Per impostazione predefinita, i file vengono visualizzati per titolo nell’editor.
    - **Tema applicazione e visualizzazione Source**: è possibile scegliere tra i temi Chiaro o Scuro per l&#39;applicazione e la visualizzazione origine. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso del tema Scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore nero. Seleziona **Usa tema dispositivo** per consentire a Experience Manager Guides di selezionare i temi chiari e scuri in base al tema del dispositivo.
 
      In tutti i temi, l&#39;area di modifica del contenuto viene visualizzata in bianco come sfondo nella vista Autore.
 
+   - **Configurazione di visualizzazione dei file dell&#39;editor**: selezionare la modalità predefinita di visualizzazione dei file nell&#39;editor. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore. Per impostazione predefinita, i file vengono visualizzati per titolo nell’editor.
+
    - **Individua sempre i file nel repository**: selezionare questa opzione per visualizzare il percorso di un file nel repository durante la modifica nell&#39;editor.
-   - **Mostra indicatore di spazio unificatore in modalità di creazione**: selezionare questa opzione per visualizzare un indicatore per gli spazi unificatori durante la modifica nell&#39;editor. È attivata per impostazione predefinita.

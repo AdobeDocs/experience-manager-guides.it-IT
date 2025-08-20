@@ -4,9 +4,9 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ La barra degli strumenti viene visualizzata quando si apre un argomento o una ma
 
 ## Menu a discesa
 
-Il menu a discesa consente di accedere alle azioni di modifica, Trova e sostituisci, Cronologia versioni, Etichetta versione, Unione, Crea attività di revisione, Traccia modifiche e Funzione tag.
+Il menu a discesa Menu consente di accedere alle azioni di modifica Trova e sostituisci, Cronologia versioni, Etichetta versione, Unisci, Crea attività di revisione e Mostra menu (che include Revisioni, Tag, Spazio unificatore).
 
-La spiegazione dettagliata di queste caratteristiche è la seguente:
+![Menu a discesa per la barra degli strumenti dell&#39;editor](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+La spiegazione dettagliata di queste funzioni è la seguente:
 
 **Modifica delle azioni**
 
@@ -227,52 +229,52 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
 Puoi [creare un&#39;attività di revisione](./review-send-topics-for-review.md) dell&#39;argomento corrente o mappare il file direttamente dall&#39;editor. Aprire il file per il quale si desidera creare l&#39;attività di revisione e selezionare **Crea attività di revisione** dal menu a discesa per avviare il processo di creazione della revisione.
 
-**Rileva modifiche**
+**Mostra menu**
 
-È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Di nuovo, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia un&#39;aggiunta e un&#39;eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
+Il menu Mostra (Show) comprende le seguenti funzioni:
 
+- **Rileva modifiche:** È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità Rileva modifiche. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Di nuovo, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia un&#39;aggiunta e un&#39;eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
 La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle barre di modifica:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Un caso d’uso tipico per il tracciamento delle modifiche in un documento può essere la revisione tra pari. È possibile abilitare la registrazione delle modifiche e condividere il documento per la revisione, quindi il revisore apporta le modifiche con la registrazione delle modifiche attivata. Quando ricevi il documento, dovresti disporre di un meccanismo per visualizzare gli aggiornamenti suggeriti e di un modo pratico per accettare o rifiutare le modifiche.
 
-Un caso d’uso tipico per il tracciamento delle modifiche in un documento può essere la revisione tra pari. È possibile abilitare la registrazione delle modifiche e condividere il documento per la revisione, quindi il revisore apporta le modifiche con la registrazione delle modifiche attivata. Quando ricevi il documento, dovresti disporre di un meccanismo per visualizzare gli aggiornamenti suggeriti e di un modo pratico per accettare o rifiutare le modifiche.
+  In Experience Manager Guides è disponibile la funzione Tracked changes che contiene informazioni sugli aggiornamenti apportati nel documento. La funzione Tracked changes (Modifiche tracciate) fornisce informazioni sugli aggiornamenti effettuati, su chi li ha effettuati e in quale momento. Tramite la funzione Modifiche rilevate, è inoltre possibile accettare o rifiutare facilmente gli aggiornamenti suggeriti nel documento.
 
-In Experience Manager Guides è disponibile la funzione Tracked changes che contiene informazioni sugli aggiornamenti apportati nel documento. La funzione Tracked changes (Modifiche tracciate) fornisce informazioni sugli aggiornamenti effettuati, su chi li ha effettuati e in quale momento. Tramite la funzione Modifiche rilevate, è inoltre possibile accettare o rifiutare facilmente gli aggiornamenti suggeriti nel documento.
+  Per accedere alla funzione, seleziona l&#39;icona **Rileva modifiche** nel pannello di destra.
 
-Per accedere alla funzione, seleziona l&#39;icona **Rileva modifiche** nel pannello di destra.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Se si seleziona una revisione, viene selezionato il contenuto modificato nel documento. Potete accettare una modifica selezionando l&#39;icona Accetta modifica (Accept Change) oppure rifiutarla selezionando Rifiuta modifica (Rifiuta change).
 
-Se si seleziona una revisione, viene selezionato il contenuto modificato nel documento. Potete accettare una modifica selezionando l&#39;icona Accetta modifica (Accept Change) oppure rifiutarla selezionando Rifiuta modifica (Rifiuta change).
+  Per accettare o rifiutare tutte le modifiche con un solo clic, selezionare **Accetta tutte le modifiche** o **Rifiuta tutte le modifiche**.
 
-Per accettare o rifiutare tutte le modifiche con un solo clic, selezionare **Accetta tutte le modifiche** o **Rifiuta tutte le modifiche**.
+  >[!NOTE]
+  >
+  > La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, visualizzare la modalità [Anteprima](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> La modalità Anteprima consente di visualizzare il documento con o senza i markup del contenuto modificato. Per ulteriori dettagli, visualizzare la modalità [Anteprima](web-editor-views.md#preview-mode).
+- **Tag:** La funzionalità **Tag** nell&#39;editor è un pulsante che consente di controllare la visibilità degli elementi DITA. Quando questa opzione è attivata, visualizza i tag strutturali all&#39;interno del contenuto, consentendo di visualizzare e gestire gli elementi DITA sottostanti in modo più efficace. Se l’opzione è disabilitata, l’editor nasconde questi tag, fornendo un ambiente di authoring più pulito e mirato.
 
-**Tag**
+  La schermata seguente mostra un documento con la vista Tag abilitata:
 
-La funzionalità **Tag** nell&#39;editor è un interruttore che controlla la visibilità degli elementi DITA. Quando questa opzione è attivata, visualizza i tag strutturali all&#39;interno del contenuto, consentendo di visualizzare e gestire gli elementi DITA sottostanti in modo più efficace. Se l’opzione è disabilitata, l’editor nasconde questi tag, fornendo un ambiente di authoring più pulito e mirato.
+  ![](images/tags-view.png){width="650" align="left"}
 
-La schermata seguente mostra un documento con la vista Tag abilitata:
+  In un documento con tag è possibile eseguire le operazioni seguenti:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Seleziona un elemento**: seleziona il tag di apertura o chiusura di un elemento per selezionarne il contenuto.
 
-In un documento con tag è possibile eseguire le operazioni seguenti:
+   - **Espandere o comprimere i tag**: selezionare il segno + o - per espandere o comprimere un tag.
 
-- **Seleziona un elemento**: seleziona il tag di apertura o chiusura di un elemento per selezionarne il contenuto.
+   - **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
 
-- **Espandere o comprimere i tag**: selezionare il segno + o - per espandere o comprimere un tag.
-
-- **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
-
-- **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
+   - **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
 
 
->[!NOTE]
->
-> Se un utente abilita la vista Tag dall’editor, questa rimane abilitata anche nelle sessioni. Ciò significa che non è necessario abilitare nuovamente la visualizzazione Tag per accedervi in un secondo momento. Il valore predefinito per la visualizzazione Tag per una nuova sessione utente è determinato dalla proprietà `tagsView` nel file `ui\_config.json`. Per ulteriori dettagli, vedi la sezione [Configurare il valore predefinito per la visualizzazione Tag](../cs-install-guide/configure-default-value-tags-view.md) in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Se un utente abilita la vista Tag dall’editor, questa rimane abilitata anche nelle sessioni. Ciò significa che non è necessario abilitare nuovamente la visualizzazione Tag per accedervi in un secondo momento. Il valore predefinito per la visualizzazione Tag per una nuova sessione utente è determinato dalla proprietà `tagsView` nel file `ui\_config.json`. Per ulteriori dettagli, vedi la sezione [Configurare il valore predefinito per la visualizzazione Tag](../cs-install-guide/configure-default-value-tags-view.md) in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+
+- **Spazio unificatore:** Abilitare questa opzione per visualizzare un indicatore per gli spazi unificatori durante la modifica nell&#39;editor. È visibile solo nella visualizzazione **Autore** per l&#39;argomento e le mappe DITA.
 
 ## Opzioni di inserimento contenuti
 
@@ -621,4 +623,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

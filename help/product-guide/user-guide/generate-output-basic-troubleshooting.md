@@ -4,9 +4,9 @@ description: Risolvi i problemi relativi alla risoluzione dei problemi di base i
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
 1. Dopo aver avviato il processo di generazione dell&#39;output, selezionare **Output** nella console delle mappe DITA.
 
-   La colonna **General** degli **Output generati** mostra le icone per dare un segnale visivo sull&#39;esito positivo o negativo della generazione dell&#39;output.
+   La colonna **Generation setting** dei **Output generati** mostra il colore per dare un segnale visivo sull&#39;esito positivo o negativo della generazione dell&#39;output per diversi predefiniti di output.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   Nella schermata precedente, la prima e la terza icona mostrano la generazione di output non riuscita. La seconda icona mostra una generazione di output corretta, ma con messaggi. L’ultima è una generazione di output di successo senza alcun messaggio.
+   Nella schermata precedente:
+
+   - Il rosso indica una generazione di output non riuscita.
+   - Il verde indica una generazione di output riuscita.
+   - Il valore Amber indica una generazione di output riuscita con errori.
+
+   >[!NOTE]
+   >
+   > I colori della scheda **Output**, che indicano lo stato dei vari risultati di output, sono diversi da quelli utilizzati per categorizzare i vari tipi di errore all&#39;interno dei file di log.
 
 1. Selezionare il collegamento nella colonna **Generated At** al termine del processo.
 
    Il file di registro viene aperto in una nuova scheda.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di registro:
-   - Fatale: evidenzia gli errori irreversibili nel file di registro con colore rosa.
-   - Errore: evidenzia gli errori nel file di registro con un colore arancione.
-   - Avvertenza: evidenzia gli avvisi nel file di registro con colore viola.
-   - Info: evidenzia i messaggi informativi nel file di registro con il colore blu.
-   - Eccezione: evidenzia le eccezioni nel file di registro con un colore giallo.
+   - Fatale: evidenzia gli errori irreversibili nel file di registro con un colore rosso scuro.
+   - Errore: evidenzia gli errori nel file di registro con un colore rosso. Le eccezioni vengono trattate come errori e sono evidenziate in rosso in modo simile.
+   - Avvertenza: evidenzia gli avvisi nel file di registro con un colore giallo.
+   - Info: evidenzia i messaggi informativi nel file di registro con il colore verde.
+
 1. Utilizzare i pulsanti di spostamento su e giù per passare al testo evidenziato nel file di log.
 
    In alternativa, scorri il file di registro e controlla i messaggi.
@@ -91,4 +99,4 @@ Per risolvere il problema, effettua le seguenti operazioni:
 1. Aumenta il valore per il parametro *Numero di chiamate per richiesta* in base alle tue esigenze.
 
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

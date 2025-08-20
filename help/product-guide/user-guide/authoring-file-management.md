@@ -4,9 +4,9 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Questa sezione spiega come Adobe Experience Manager Guides gestisce le operazion
 - *Se il file con lo stesso nome non esiste nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale a UUID.
 - *Se il file con lo stesso nome esiste già nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID. Il nome del file è uguale all’UUID.
 
-
 ## Copiare e incollare cartelle
 
 **Copia e incolla cartella nella stessa posizione**
@@ -43,6 +42,16 @@ Questa sezione spiega come Adobe Experience Manager Guides gestisce le operazion
 - *La cartella contiene file con nomi di file leggibili dall&#39;utente*: viene creata una nuova copia della cartella e viene assegnato un nuovo UUID a tutti i file all&#39;interno della cartella nel nuovo percorso. In questo caso, non vi è alcuna modifica nei nomi delle cartelle o dei file.
 
 - *La cartella contiene file con nomi di file basati su un modello UUID*: viene creata una nuova copia della cartella con lo stesso nome della cartella originale. Un nuovo UUID viene inoltre assegnato a tutti i file all’interno della nuova cartella. Anche i nomi dei file vengono modificati; i nomi dei file sono gli stessi del nuovo UUID.
+
+**Messaggio di successo e notifica**
+
+L’operazione di copia e incolla per le cartelle nell’interfaccia utente di Assets viene eseguita in background in modo asincrono, consentendo di continuare a lavorare mentre il sistema elabora la richiesta. Viene visualizzato un messaggio pop-up per indicare che il processo è stato avviato.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Una volta completata l&#39;operazione, viene attivata una notifica di esito positivo o negativo per indicare se l&#39;operazione è riuscita o meno.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Trascinare i file
@@ -317,4 +326,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

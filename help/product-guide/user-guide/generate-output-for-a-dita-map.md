@@ -4,9 +4,9 @@ description: Genera output per una mappa DITA dalla console delle mappe e dal da
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ Puoi visualizzare lo stato corrente della richiesta di generazione output nella 
 
 È inoltre possibile generare l&#39;output di AEM Sites per uno o più argomenti o per l&#39;intera mappa DITA dalla console Mappa. Per ulteriori dettagli, visualizzare [Genera output Knowledge Base](web-editor-article-publishing.md#id218CK0U019I).
 
+## Unione di argomenti diversi in una mappa DITA tramite l&#39;attributo `chunk`
+
+Una mappa DITA può includere diversi tipi di argomenti, ad esempio riferimento, concetto e attività. L&#39;attributo `chunk=to-content` consente di unire questi argomenti per generare un output a pagina singola in AEM Sites. Tuttavia, per pubblicare correttamente l&#39;argomento unito, verificare che l&#39;amministratore abbia configurato il catalogo XML corretto nei profili DITA.
+
+Il sistema richiede un ID pubblico con la parola chiave `composite` nel catalogo XML per identificare e applicare correttamente la regola DTD appropriata.
+Questa configurazione è inclusa per impostazione predefinita nel catalogo XML standard. Tuttavia, se utilizzi un catalogo XML personalizzato, assicurati che l’amministratore abbia aggiunto l’ID pubblico alla configurazione. Senza di esso, l’argomento unito potrebbe non essere pubblicato correttamente.
+
+Per informazioni dettagliate sull&#39;utilizzo dell&#39;ID pubblico e dell&#39;ID di sistema nelle DTD/XSD personalizzate, visualizzare [Integrare la specializzazione DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

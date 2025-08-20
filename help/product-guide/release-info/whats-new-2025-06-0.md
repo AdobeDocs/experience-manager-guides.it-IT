@@ -3,10 +3,10 @@ title: Note sulla versione | Novità di Adobe Experience Manager Guides versione
 description: Scopri le funzioni nuove e migliorate della versione 2025.06.0 di Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -17,14 +17,6 @@ Questo articolo descrive le funzioni nuove e migliorate introdotte con la versio
 Per un elenco dei problemi risolti in questa versione, consulta [Problemi risolti nella versione 2025.06.0](fixed-issues-2025-06-0.md).
 
 Scopri le [istruzioni di aggiornamento per la versione 2025.06.0](../release-info/upgrade-instructions-2025-06-0.md).
-
-## I file temporanei per l’output pubblicato ora includono gli URL Author e Publish in un nuovo file di configurazione
-
-I più recenti miglioramenti apportati alla pubblicazione di Experience Manager Guides ora aggiungono un nuovo file `system_config.json` ai file temporanei generati durante la pubblicazione degli output HTML, PDF e JSON tramite DITA-OT, nonché dell&#39;output PDF nativo. Questo file viene incluso automaticamente nel processo di pubblicazione e accessibile tramite file temporanei quando si abilita l&#39;opzione **Mantieni file temporanei** per i predefiniti e si genera l&#39;output.
-
-Il file `system_config.json` contiene i dettagli chiave dell&#39;istanza, inclusi l&#39;URL di authoring, l&#39;URL locale e l&#39;URL di pubblicazione, che forniscono un contesto più chiaro e migliorano la tracciabilità degli URL scaricati.
-
-Per ulteriori dettagli, visualizzare [Comprendere i predefiniti di output](../user-guide/generate-output-understand-presets.md).
 
 ## Richiesta di timeout della sessione per evitare la perdita accidentale di contenuto
 

@@ -4,9 +4,10 @@ description: Scopri come configurare i profili delle cartelle quando utilizzi i 
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ ht-degree: 0%
 
 Per iniziare a configurare il profilo della cartella per i contenuti di apprendimento e formazione, è necessario:
 
-1. [Crea un profilo di cartella](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **Selezionare il profilo di cartella da configurare**: una volta creato il profilo di cartella, è necessario selezionare il profilo di cartella nella pagina [Preferenze utente](../user-guide/intro-home-page.md#user-preferences) per assicurarsi che autori e autori abbiano accesso ai modelli corretti.
+1. **Creare cartelle diverse per gestire i modelli di creazione e di output**: è possibile creare cartelle per autori e autori che lavorano in reparti o prodotti diversi della propria azienda. Queste cartelle possono essere mappate su profili di cartelle specifici, ciascuno configurato con diversi modelli di authoring e output per supportare la creazione di corsi di apprendimento specifici per il reparto e l’amministrazione decentrata.
+
+   Puoi creare una nuova cartella dal pannello Archivio.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Crea cartelle per lingua per gestire la traduzione**: se traduci il contenuto in lingue diverse, devi creare cartelle corrispondenti a ciascuna lingua. Ognuna di queste cartelle della lingua conterrà il contenuto corrispondente a tale lingua.
+
+   Per ulteriori dettagli, visualizzare [Best practice per la traduzione dei contenuti](../user-guide/translation-first-time.md).
+3. **Crea una cartella per gestire Assets**: analogamente alle cartelle, puoi anche creare diverse cartelle di Assets per soddisfare le esigenze dei diversi reparti. In questo modo, assicurati anche che gli autori e gli editori abbiano accesso al CSS corretto configurato nei loro modelli, immagini e altre risorse.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Crea un profilo di cartella](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) per mappare diverse cartelle.
+5. **Selezionare il profilo di cartella da configurare**: una volta creato il profilo di cartella, è necessario selezionare il profilo di cartella nella pagina [Preferenze utente](../user-guide/intro-home-page.md#user-preferences) per assicurarsi che autori e autori abbiano accesso ai modelli corretti.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Configura impostazioni profilo cartella**: per i contenuti di apprendimento e formazione, è possibile configurare le seguenti impostazioni a livello di cartella:
+6. **Configura impostazioni profilo cartella**: per i contenuti di apprendimento e formazione, è possibile configurare le seguenti impostazioni a livello di cartella:
    - [Pannelli](#configure-panels)
    - [Modelli](#configure-templates)
    - [Predefiniti di output](#configure-output-presets)

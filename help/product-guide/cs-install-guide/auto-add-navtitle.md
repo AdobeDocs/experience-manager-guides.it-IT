@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ Per includere l&#39;attributo `@navtitle` per impostazione predefinita nelle pro
                            },
    ```
 
-1. Modifica il parametro `required` come:
+1. Modifica il parametro `required` come mostrato di seguito:
 
    ```
    "required": {"navtitle": true}
    ```
 
+   Se è impostato su `true`, il pulsante **Aggiorna attributo titolo navigazione** è attivato per essere visualizzato nella barra degli strumenti dell&#39;editor. Se impostato su `false` o lasciato vuoto, il pulsante rimane nascosto nell&#39;editor.
 1. Salva il file.
 
 1. Carica il file nel profilo corrispondente \(Global o Folder\).
@@ -54,4 +55,6 @@ Per includere l&#39;attributo `@navtitle` per impostazione predefinita nelle pro
 
 Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterrà l&#39;attributo `@navtitle` per impostazione predefinita.
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+
+
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

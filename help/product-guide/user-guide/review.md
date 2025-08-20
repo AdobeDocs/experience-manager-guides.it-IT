@@ -4,9 +4,9 @@ description: Rivedi in modo efficiente gli argomenti o le mappe in AEM Guides pe
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Alcune delle funzionalità principali offerte da Adobe Experience Manager Guides
 - Condividere una versione aggiornata dell&#39;argomento per la revisione dal dashboard di revisione.
 
 - Accedere ai commenti condivisi su diverse versioni dell&#39;argomento.
-
+- Assegna facilmente tag agli utenti di specifiche attività di revisione nei commenti o nelle risposte per azioni rapide e follow-up. Gli utenti taggati ricevono immediatamente una notifica sia tramite AEM che tramite la notifica e-mail.
 - Raggruppa e filtra i commenti in base alla versione dell&#39;argomento.
 
 - Visualizzare le differenze affiancate tra diverse versioni degli argomenti condivisi per la revisione.
@@ -41,6 +41,7 @@ Funzioni disponibili per *revisori*:
 - Consente di passare dalla visualizzazione composita alla visualizzazione argomento singolo.
 - Utilizza gli strumenti di commento, come inserimento, eliminazione, evidenziazione e nota/commento del testo, per fornire il loro feedback.
 - Allegare uno o più file a un commento di revisione.
+- Rispondi a un commento assegnando tag agli utenti coinvolti nella stessa attività di revisione.
 - Scaricare allegati da un commento.
 - Il pannello Revisione consente di aggiungere commenti o rispondere ai commenti di altri utenti.
 - Conoscere facilmente la versione dell&#39;argomento in esame.
@@ -57,10 +58,18 @@ Funzioni disponibili per *revisori*:
 
 - **[Invia argomenti per la revisione](review-send-topics-for-review.md)**
 
+- **[Rivedi argomenti](review-topics.md)**
+
 - **[Riassegna attività di revisione tramite notifica](reassign-review-using-notification.md)**
 
-- **[Rivedi argomenti](review-topics.md)**
+- **[Completa l&#39;attività di revisione come revisore](review-complete-review-tasks.md)**
 
 - **[Commenti sulla revisione dell&#39;indirizzo](review-address-review-comments.md)**
 
+- **[Chiudi o richiedi revisione per un&#39;attività di revisione](review-close-review-task.md)**
+
 - **[Gestire le attività di revisione mediante il dashboard di revisione](review-manage-tasks-review-dashboard.md)**
+
+- **[Visualizza un&#39;attività di revisione completata](review-view-completed-task.md)**
+
+- **[Informazioni sulle notifiche di revisione](review-understanding-review-notifications.md)**

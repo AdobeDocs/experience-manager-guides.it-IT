@@ -4,10 +4,10 @@ description: Creare documenti Markdown dall’Editor. Scopri come creare, creare
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 2%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Markdown è un linguaggio di markup leggero che consente di aggiungere elementi 
 Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
 
 1. Nel pannello Archivio selezionare ![](images/Add_icon.svg), quindi **Argomento** dal menu a discesa.
-1. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
+2. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
    * **Modello**: selezionare **Markdown** dall&#39;elenco a discesa. Il modello **Argomento** è selezionato per impostazione predefinita.
    * **Percorso**: sfogliare il percorso in cui si desidera salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
 
-   >
+   >[!NOTE]
    >
    > In caso di aggiornamento, devi aggiungere il modello Markdown al profilo della cartella corrente in uso. È possibile [creare un nuovo modello di markdown dall&#39;editor](./web-editor-features.md#templates) o utilizzare un modello esistente per la creazione di markdown. Per informazioni dettagliate su come aggiungere modelli di authoring in Experience Manager Guides, visualizzare [Configurare profili globali o a livello di cartella](../cs-install-guide/conf-folder-level.md).
-1. Seleziona **Crea**.
+3. Seleziona **Crea**.
 
    L&#39;argomento Markdown viene creato nel percorso selezionato e può essere modificato.
 
@@ -158,7 +158,7 @@ La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 * **Usato in**: Usato nei riferimenti elenca i documenti in cui viene fatto riferimento o utilizzato il file corrente.
 * **Collegamenti in uscita**: i collegamenti in uscita elencano i documenti a cui si fa riferimento nel documento corrente.
 
->
+>[!NOTE]
 >
 > Tutti i riferimenti ai collegamenti utilizzati in e in uscita sono collegamenti ipertestuali ai documenti. È possibile aprire e modificare facilmente i documenti collegati.
 
@@ -166,16 +166,13 @@ La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 
 Le seguenti funzioni di Experience Manager Guides non sono attualmente applicabili per l’authoring Markdown:
 
-1. Rivedi
+1. Rivedere
 2. Unisci
 3. Assistente IA
 4. Rileva modifiche
-5. Trova e sostituisci
-6. Ricerca e filtro
-
->[!NOTE]
->
-> La funzionalità **Trova e sostituisci** non elabora i file Markdown a livello di repository. Ciò include la ricerca di un file Markdown all’interno di una mappa o cartella. Tuttavia, può ancora essere utilizzato all’interno dell’editor Markdown. Inoltre, le opzioni **Ricerca** e **Filtro** nella visualizzazione Archivio non elaborano i file Markdown.
 
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+
+
+
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

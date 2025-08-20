@@ -4,9 +4,9 @@ description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revi
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Rivedi argomenti {#id2056B0W0FBI}
 
 Se sei un revisore, riceverai un’e-mail di richiesta di revisione con il collegamento agli argomenti di revisione. Utilizzando questo collegamento è possibile accedere alla pagina di revisione in cui è possibile aggiungere il proprio feedback sugli argomenti condivisi.
+
+>[!NOTE]
+>
+> Quando accedi alla richiesta di revisione dalla notifica, puoi scegliere di riassegnarla a un altro utente che fa parte dello stesso progetto di revisione. Per ulteriori dettagli, visualizzare [Riassegna attività di revisione tramite notifica](./reassign-review-using-notification.md).
 
 Per rivedere un argomento, effettua le seguenti operazioni:
 
@@ -34,8 +38,6 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    > - Adobe Experience Manager Guides as a Cloud Service versione di novembre 2022 o precedente
    > - Adobe Experience Manager Guides versione 4.1 o precedente
 
-
-
    Quando si utilizza una mappa DITA per avviare il flusso di lavoro di revisione, viene visualizzata la seguente schermata:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 
      >[!NOTE]
      >
-     > Quando si applicano i filtri, nel pannello dei commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
+     > Quando applicate i filtri, nel pannello Commenti vengono visualizzati solo i commenti che corrispondono ai filtri selezionati. Il numero di commenti filtrati viene visualizzato a sinistra nel pannello degli argomenti.
 
    - **E**: un argomento assegnato per la revisione al revisore corrente è visualizzato in nero e può essere selezionato. Quando il revisore seleziona un collegamento ad argomento, l’argomento viene portato in alto sullo schermo.
    - **F**: un argomento non disponibile per la revisione è disattivato. L&#39;argomento viene visualizzato in modalità di sola lettura e non è consentito aggiungere commenti di revisione su tali argomenti.
@@ -162,6 +164,21 @@ La schermata seguente mostra il contenuto in modalità *Anteprima*:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Assegnare tag agli utenti in un commento**
+
+Quando si collabora a un&#39;attività di revisione con più revisori, è possibile migliorare la comunicazione assegnando tag a utenti specifici sia nei nuovi commenti che nelle risposte. In qualità di revisore, puoi avviare un commento o rispondere a uno esistente assegnando tag ad altri utenti coinvolti nella stessa attività di revisione per attirare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
+
+>[!NOTE]
+>
+> Per visualizzare l&#39;elenco degli utenti assegnati a un&#39;attività di revisione e assegnare loro un tag in un commento, è necessario disporre dell&#39;accesso *Lettura* sui nodi `/home/users and /home/groups`. Per ulteriori dettagli, visualizzare [Amministrazione utente e sicurezza](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Se l&#39;assegnazione dei tag non è ancora disponibile dopo la conferma dell&#39;accesso, l&#39;amministratore potrebbe dover assegnare una licenza `user-admin` per abilitare questa funzionalità.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere prontamente informati. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Aggiungi allegati ai commenti** -   Se si desidera integrare il commento fornendo informazioni aggiuntive disponibili in altri file, è possibile allegarle al commento. In qualità di revisore, puoi aggiungere facilmente uno o più file dal sistema locale al commento. È possibile aggiungere un file a tutti i tipi di commenti supportati: Evidenziazione, Barrato, Inserisci testo o Commento.
 
 Quando inserite uno dei commenti, viene visualizzata la finestra a comparsa relativa. Dopo aver inserito ulteriori commenti o informazioni nel pop-up, premete Invio. Una volta aggiunto il commento, è possibile aggiungere un allegato.
@@ -172,7 +189,7 @@ Nella schermata precedente, il documento contiene la finestra a comparsa del com
 
 Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
-1. Selezionare l&#39;icona ![](images/file-attach-review.svg) *Aggiungi allegato* nel commento con cui si desidera aggiungere un allegato.
+1. Selezionare l&#39;icona ** Aggiungi allegato![](images/file-attach-review.svg) nel commento con cui si desidera aggiungere un allegato.
 
    Viene visualizzata la finestra di dialogo Apri file.
 
@@ -257,4 +274,4 @@ Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialog
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

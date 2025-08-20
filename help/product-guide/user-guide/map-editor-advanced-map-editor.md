@@ -4,9 +4,9 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività co
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ Visualizza la finestra di dialogo **Riutilizza contenuto**. Utilizzare questa fi
 
 **Aggiorna attributo titolo navigazione** - ![](images/refresh.svg)
 
-Sincronizza l&#39;elemento `title` di un file di riferimento in una mappa con il valore specificato nel relativo attributo `@navtitle`. È possibile aggiungere diversi tipi di file di riferimento in una mappa, ad esempio mappe di argomenti, riferimenti, attività, sottomappe e così via. La maggior parte di questi file supporta l&#39;attributo `@navtitle`. Se un file contiene l&#39;attributo `@navtitle`, viene aggiornato l&#39;attributo `@navtitle` per lo stesso file nella mappa. Se l&#39;attributo `@navtitle` non è presente, l&#39;attributo `@navtitle` viene aggiunto a tale file di riferimento e anche il relativo `title` viene aggiornato per visualizzare l&#39;attributo `@navtitle`.
+Consente di mantenere sincronizzati l&#39;attributo `@navtitle` e l&#39;elemento `title` di un file di riferimento. È possibile aggiungere diversi tipi di file a una mappa, ad esempio argomenti, attività, riferimenti o sottopagine. La maggior parte di questi supporta l&#39;attributo `@navtitle`, che controlla la modalità di visualizzazione del nome del file nella mappa o nel sommario. Se un file contiene l&#39;attributo `@navtitle`, viene aggiornato l&#39;attributo `@navtitle` per lo stesso file nella mappa. Se l&#39;attributo `@navtitle` non è presente, l&#39;attributo `@navtitle` viene aggiunto a tale file di riferimento e anche il relativo `title` viene aggiornato per visualizzare l&#39;attributo `@navtitle`.
 
 >[!NOTE]
 >
-> L&#39;amministratore può configurare l&#39;aggiunta automatica dell&#39;attributo `@navtitle` a ogni file di riferimento aggiunto a una mappa. Per ulteriori dettagli sulla configurazione dell&#39;aggiunta automatica dell&#39;attributo `@navtitle`, vedere *Includere l&#39;attributo @navtitle per impostazione predefinita* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
-
-Selezionare l&#39;icona Aggiorna attributo titolo navigazione per sincronizzare i valori dell&#39;elemento `title` e dell&#39;attributo `@navtitle`.
+> L’amministratore può scegliere di mostrare o nascondere questo pulsante nella barra degli strumenti dell’Editor mappe utilizzando una proprietà di configurazione. Possono inoltre abilitare l&#39;aggiunta automatica dell&#39;attributo `@navtitle` quando i file vengono aggiunti a una mappa. Per ulteriori dettagli, visualizzare [Includi attributo @navtitle per impostazione predefinita](../cs-install-guide/auto-add-navtitle.md)* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 **Tag**
 
