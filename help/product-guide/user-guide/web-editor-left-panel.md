@@ -1130,4 +1130,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)

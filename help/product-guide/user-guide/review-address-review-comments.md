@@ -90,4 +90,4 @@ Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apr
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)

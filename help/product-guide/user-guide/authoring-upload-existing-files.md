@@ -49,4 +49,4 @@ Per ulteriori dettagli sul funzionamento dei vari scenari di caricamento dei fil
 
 Se utilizzi uno strumento come Adobe Experience Manager Desktop App o Asset Bulk Ingestor, l’azione da eseguire su un file duplicato è controllata da un’impostazione nel server Adobe Experience Manager. Contatta l’amministratore di sistema per informazioni su questa configurazione.
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)

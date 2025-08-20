@@ -57,4 +57,4 @@ Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterr
 
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
