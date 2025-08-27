@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
+source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
 workflow-type: tm+mt
 source-wordcount: '4794'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - Attività
 
-   - Risoluzione dei problemi
+   - Risoluzione di problemi
 
    - Vuoto
 
@@ -411,7 +411,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati
 
-Per ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -454,9 +454,9 @@ Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati 
 
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -508,7 +508,7 @@ Per impostazione predefinita, l&#39;editor XML è dotato di numerose funzioni ch
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
