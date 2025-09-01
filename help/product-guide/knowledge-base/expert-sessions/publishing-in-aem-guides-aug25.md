@@ -1,7 +1,7 @@
 ---
 title: Pubblicazione in AEM Guides
 description: Esplora i formati di pubblicazione in AEM Guides e scopri come distribuire contenuti su più canali, tra cui AEM Sites, PDF, HTML5, Edge Delivery Services, JSON e altro ancora.
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 95404f56afdf4527de80f39ed1633ed3806e4b8a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -39,9 +39,9 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ## Risorse correlate
 
-- [Nozioni di base sulla generazione dell&#39;output] (https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [Nozioni di base sulla generazione dell&#39;output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [Installa nuovi modelli AEM Sites](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [Installa nuovi modelli AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [Pubblicazione Argomento Singolo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
