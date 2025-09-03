@@ -3,9 +3,10 @@ title: Richiedere un riesame o chiudere un'attività di revisione come autore
 description: Scopri come chiudere un’attività di revisione o richiedere nuovamente una revisione come Autore in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Per richiedere un riesame o chiudere un&#39;attività di revisione, effettuare l
 4. Seleziona **Aggiorna attività** per eseguire ulteriori azioni sull&#39;attività di revisione selezionata.
 5. Nella finestra di dialogo **Aggiorna attività**, scegli una delle azioni seguenti:
 
-   - **Richiedi revisione**: avvia un altro ciclo di revisione. È possibile selezionare una versione diversa dell&#39;argomento da rivedere. Per impostazione predefinita, viene selezionata la versione più recente (o l&#39;ultima modifica) del file argomento o mappa inviato per la revisione. I revisori che hanno completato la revisione precedente riceveranno una notifica per fornire un feedback sulla versione aggiornata. Gli altri revisori, che non hanno contrassegnato l&#39;attività di revisione come completata, ricevono una notifica sull&#39;aggiornamento dell&#39;argomento.
+   - **Richiedi revisione**: avvia un altro ciclo di revisione. È possibile selezionare una versione diversa dell&#39;argomento da rivedere. Per impostazione predefinita, viene selezionata la versione più recente (o l&#39;ultima modifica) del file argomento o mappa inviato per la revisione. È inoltre possibile utilizzare l&#39;opzione **Modifica versioni** per impostare la versione degli argomenti selezionati su **Versione più recente**, **Versione su** e **Previsione** in base alle esigenze.  I revisori che hanno completato la revisione precedente riceveranno una notifica per fornire un feedback sulla versione aggiornata. Gli altri revisori, che non hanno contrassegnato l&#39;attività di revisione come completata, ricevono una notifica sull&#39;aggiornamento dell&#39;argomento.
 
    - **Chiudi revisione**: chiude l&#39;attività di revisione. Il pulsante **Aggiorna attività** presente nella parte inferiore del pannello Revisione diventa **Chiuso** e viene inviata una notifica a tutti gli utenti coinvolti nell&#39;attività di revisione che ne indica la chiusura.
 
-   Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+   Per informazioni dettagliate su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > La finestra di dialogo **Aggiorna attività** includerà anche una colonna **Stato documento** per indicare lo stato corrente degli argomenti di revisione elencati quando si utilizza Experience Manager Guides as Cloud Services.
+
 
 6. Seleziona **Conferma**.
 

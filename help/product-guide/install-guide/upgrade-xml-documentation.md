@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
+source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
 workflow-type: tm+mt
-source-wordcount: '8041'
+source-wordcount: '9118'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > Segui le istruzioni di aggiornamento specifiche per la versione con licenza del tuo prodotto.
 
-È possibile aggiornare la versione corrente di Experience Manager Guides alla versione 5.0.0 Service Pack 1:
+Puoi aggiornare la versione corrente di Experience Manager Guides alla versione 5.1.0:
 
-
-- Se utilizzi le versioni 5.0.0, 4.6.x, 4.6 o 4.4, puoi eseguire direttamente l’aggiornamento alla versione 5.0.0 Service Pack 1.
+- Se utilizzi le versioni 4.6.3, 4.6.4, 5.0.0 o 5.0.0 Service Pack 1, puoi eseguire direttamente l’aggiornamento alla versione 5.1.0.
+- Se utilizzi le versioni 4.6.0, 4.6.1, devi effettuare l’aggiornamento alla versione 4.6.3, 4.6.4 o 5.0.0 prima di eseguire l’aggiornamento alla versione 5.1.0.
 - Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -43,6 +43,7 @@ Per ulteriori informazioni, consulta le procedure seguenti:
 - [Aggiornamento alla versione 4.4.0](#upgrade-to-version-440)
 - [Aggiornamento alla versione 4.6.0](#upgrade-to-version-460)
 - [Aggiornamento alla versione 5.0.0](#upgrade-to-version-500)
+- [Aggiornamento alla versione 5.1.0](#upgrade-to-version-510)
 
 
 
@@ -58,11 +59,11 @@ Prima di eseguire il processo è necessario completare alcune attività. Le segu
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [&#128279;](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides, verificare di disporre di:
 
@@ -103,7 +104,7 @@ Questa API è progettata per migrare i dati di sistema come indicato nella sezio
 
 **Mappatura migrazione**: l&#39;API precedente esegue la migrazione di tutti i dati nel percorso di origine nel percorso di destinazione.
 
-| Sorgente | Destinazione |
+| Origine | Target |
 |------|------|
 | /content/fmdita | /var/dxml |
 | /content/dxml | /var/dxml |
@@ -135,7 +136,7 @@ L’aggiornamento alla versione 4.2 dipende dalla versione corrente di Experienc
 
 Se utilizzi le versioni 4.0, 4.1 o 4.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.2.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2, assicurati di disporre di:
 
@@ -311,7 +312,7 @@ L’aggiornamento alla versione 4.2.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2.1, assicurati di disporre di:
 
@@ -488,7 +489,7 @@ L’aggiornamento alla versione 4.3.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.0, assicurati di disporre di:
 
@@ -546,7 +547,7 @@ L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.1, assicurati di disporre di:
 
@@ -787,7 +788,7 @@ L’aggiornamento alla versione 4.4.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.4.0, assicurati di disporre di:
 
@@ -980,7 +981,7 @@ Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un 
 Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 1000 a 50, è necessario unire l&#39;eventuale rewriter personalizzato esistente con `'fmdita-rewriter'`.
 
 
-**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)
 
 
 ## Aggiornamento alla versione 4.6.0
@@ -995,7 +996,7 @@ L’aggiornamento alla versione 4.6.0 dipende dalla versione corrente di Experie
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.6.0, assicurati di disporre di:
 
@@ -1150,7 +1151,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.0.0, verificare di disporre dei seguenti elementi:
 
@@ -1298,11 +1299,176 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
 
 >[!NOTE]
 >
-> Seguendo la documentazione, assicurati che entrambe le proprietà (reindex=true e reindex-async=true per /oak:index/damAssetLucene) vengano aggiornate contemporaneamente tramite l’operazione di salvataggio.
+> Seguendo la documentazione, assicurati che entrambe le proprietà (reindex=true e reindex-async=true per /oak:index/damAssetLucene) vengano aggiornate contemporaneamente tramite l&#39;operazione di salvataggio.
+
+## Aggiornamento alla versione 5.1.0
+
+>[!TIP]
+>
+> L’aggiornamento alla versione 5.1.0 dipende dalla versione corrente di Experience Manager Guides. Se utilizzi le versioni 4.6.3, 4.6.4, 5.0.0 o 5.0.0 Service Pack 1, puoi eseguire direttamente l’aggiornamento alla versione 5.1.0.
+
+>[!NOTE]
+>
+> La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
+
+****Prerequisiti****
+
+Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.1.0, verificare di disporre dei seguenti elementi:
+
+1. Aggiornamento a Experience Manager Guides versione 4.6.3, 4.6.4, 5.0.0 o 5.0.0 Service Pack 1 e completamento del rispettivo passaggio di installazione.
+1. (Facoltativo) Ha chiuso tutte le attività di traduzione.
+1. Il livello di registro è stato modificato in **INFO** per la classe `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` e questi registri sono stati aggiunti in un nuovo file di registro, ad esempio `logs/translation_upgrade.log`.
+
+
+## Installare la versione 5.1.0
+
+1. Scarica il pacchetto di versione 5.1.0 da [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html).
+1. Installa la versione 5.1.0 del pacchetto.
+1. Puoi scegliere di premere il trigger per avviare il processo di aggiornamento della mappa di traduzione. Per ulteriori dettagli, vedere [Abilitare il trigger dello script tramite un servlet](#enable-trigger-of-script-via-a-servlet).
+
+1. Dopo aver completato l’installazione del pacchetto, attendi i seguenti messaggi\(s\) nei registri:
+
+   `Completed the post deployment setup script`
+
+   Il messaggio sopra riportato indica che tutti i passaggi dell&#39;installazione sono stati completati.
+
+   Se riscontri uno dei seguenti prefissi ERROR, segnalali al team di successo del cliente:
+
+   - Errore nello script di installazione post-distribuzione
+   - Eccezione durante il porting del MAP di traduzione
+   - Impossibile trasferire la mappa di traduzione dalla versione 1 alla versione 2 per la proprietà
+1. Aggiornamento del plug-in del connettore ossigeno rilasciato con la versione 5.1.0 \(se necessario\).
+1. Cancella la cache del browser dopo l’installazione del pacchetto.
+
+## Dopo aver installato la versione 5.1.0
+
+Dopo aver installato Experience Manager Guides, è possibile unire le varie configurazioni applicabili dalla versione appena installata alla configurazione.
+
+>[!NOTE]
+>
+> Il modello dam-update-asset può essere personalizzato. Pertanto, se sono state apportate personalizzazioni, è necessario sincronizzare le personalizzazioni e Experience Manager Guides nella copia di lavoro del modello.
+
+1. **Flusso di lavoro Aggiorna risorsa DAM \(Modifiche post-elaborazione\):**
+
+1. Apri URL:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Seleziona **Flusso di lavoro Aggiorna risorsa DAM**.
+1. Seleziona **Modifica**.
+1. Se il componente **DXML Post Process Initiator** è presente, verificare che le personalizzazioni siano sincronizzate.
+1. Se il componente **DXML Post Process Initiator** è assente, eseguire la procedura seguente per inserirlo:
+
+1. Selezionare **Inserisci componente** \(Responsabile della post-elaborazione di Experience Manager Guides come fase finale del processo\).
+1. Configura il **passaggio del processo** con i dettagli seguenti:
+
+   **Scheda comune**
+
+   **Titolo:** iniziatore post-elaborazione DXML
+
+   **Descrizione**: passaggio iniziatore post-elaborazione DXML che attiverà un processo sling per la post-elaborazione DXML della risorsa modificata/creata
+
+   **Scheda Elabora**
+
+   - Selezionare **DXML Post Process Initiator** dal menu a discesa **Process**
+
+   - Seleziona **Avanzamento gestore**
+
+   - Seleziona **Fine**
+
+1. Seleziona **Sincronizza** in alto a destra dopo aver completato le modifiche. Riceverai una notifica di esito positivo.
+
+   >[!NOTE]
+   >
+   > Aggiorna e verifica che le modifiche personalizzate e il passaggio di post-elaborazione Experience Manager Guides siano presenti nel modello di flusso di lavoro finale.
+
+1. Una volta convalidato il flusso di lavoro **Aggiorna risorsa DAM**, controlla le configurazioni del modulo di avvio corrispondenti. Per farlo, vai all’interfaccia di AEM Workflow e apri i moduli di avvio.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Trova e apporta le modifiche \(se necessario\) ai seguenti due moduli di avvio \(che dovrebbe essere attivo\) corrispondenti al flusso di lavoro **Aggiorna risorsa DAM**:
+
+1. Modulo di avvio per &quot;*Nodo creato*&quot; per **Flusso di lavoro Aggiorna risorsa DAM**- per la condizione `"jcr:content/jcr:mimeType!=video"`, il valore &#39;Globbing&#39; deve essere:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; deve avere `"event-user-data:changedByWorkflowProcess"`.
+   - Modulo di avvio per &quot;*Node Modified*&quot; per **Flusso di lavoro Aggiorna risorsa DAM -** per la condizione &quot;`jcr:content/jcr:mimeType!=video`&quot;, il valore &#39;Globbing&#39; deve essere:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` deve avere `"event-user-data:changedByWorkflowProcess"`.
+
+1. Al termine dell’aggiornamento, accertati che le personalizzazioni/sovrapposizioni siano convalidate e aggiornate in modo che corrispondano al nuovo codice dell’applicazione. Di seguito sono riportati alcuni esempi:
+   - Tutti i componenti sovrapposti da/libs/fmditaor/libssdevono essere confrontati con il nuovo codice del prodotto e gli aggiornamenti devono essere eseguiti in file sovrapposti in/apps.
+   - Tutte le categorie clientlib utilizzate dal prodotto, devono essere riviste per eventuali modifiche. Eventuali configurazioni sostituite \(esempi di seguito\) devono essere confrontate con quelle più recenti in modo da ottenere le funzioni più recenti:
+   - elementmapping.xml
+   - ui\_config.json\(potrebbe essere stato impostato in profili cartella\)
+   - ha modificato `com.adobe.fmdita.config.ConfigManager`
+
+1. Se hai aggiunto delle personalizzazioni in damAssetLucene, potresti dover applicarle nuovamente. Dopo aver apportato tali modifiche, imposta la reindicizzazione su true. In questo modo tutti i nodi esistenti verranno reindicizzati con le personalizzazioni. Al termine, il flag di reindicizzazione verrà impostato di nuovo su false. Questa operazione può richiedere alcune ore a seconda del numero di risorse nel sistema.
+
+## Passaggi per reindicizzare gli indici Experience Manager Guides
+
+1. Apri `crx/de` e passa al percorso indice: `/oak:index/guidesAssetProperties`
+2. Impostare la proprietà di reindicizzazione come `true` (`false` per impostazione predefinita) e fare clic su **Salva tutto**.
+3. Una volta completata la reindicizzazione, la proprietà di reindicizzazione viene nuovamente impostata su `false` e il conteggio di reindicizzazione viene incrementato di 1.
+
+   >[!NOTE]
+   >
+   > Questa operazione può richiedere alcuni minuti, a seconda della quantità di dati presenti.
+4. Seguire la stessa procedura per gli altri indici aggiunti o modificati: `guidesBulkActivation`, `guidesPeerLinkIndex` e `guidesKonnectTemplateIndex`.
+
+## Passaggi per indicizzare il contenuto esistente
+
+
+
+Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
+
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+- Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+
+
+>[!NOTE]
+>
+> Se si utilizza lo schema personalizzato, è necessario definire il percorso dei file DTD e XSD catalog.xml personalizzati nell&#39;archivio di AEM nell&#39;opzione **Integrate Catalog**.
+
+
+
+
+## Passaggi per gestire il conflitto `'fmdita rewriter'`
+
+Experience Manager Guides dispone di un modulo [**sling rewriter personalizzato**](../cs-install-guide/conf-output-generation.md#custom-rewriter) per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse).
+
+Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un valore `'order'` maggiore di 50, in quanto il rewriter sling di Experience Manager Guides utilizza `'order'` 50.  Per evitare questo problema, è necessario un valore > 50. Per ulteriori dettagli, visualizza [Pipeline di riscrittura output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 1000 a 50, è necessario unire l&#39;eventuale rewriter personalizzato esistente con `'fmdita-rewriter'`.
+
+
+
+## Passaggi per reindicizzare damAssetLucene
+
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
+
+>[!NOTE]
+>
+> Seguendo la documentazione, assicurati che entrambe le proprietà (reindex=true e reindex-async=true per /oak:index/damAssetLucene) vengano aggiornate contemporaneamente tramite l&#39;operazione di salvataggio.
+
 
 
 **Argomento padre:** [Scarica e installa](download-install.md)

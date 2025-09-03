@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 2%
 
 ---
@@ -18,20 +18,20 @@ I flussi di lavoro consentono di automatizzare le attività di Adobe Experience 
 
 Per ulteriori informazioni sui flussi di lavoro in AEM, consulta:
 
-- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Le sezioni in questo argomento descrivono le varie personalizzazioni che è possibile effettuare nei flussi di lavoro predefiniti forniti in AEM Guides.
 
 ## Personalizza flusso di lavoro di revisione {#id176NE0C00HS}
 
-Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione di AEM.
+Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione di AEM.
 
 AEM Guides consente di personalizzare il flusso di lavoro di revisione predefinito. Con gli altri flussi di lavoro di authoring o pubblicazione, puoi utilizzare i quattro processi personalizzati seguenti relativi alla revisione.
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **Per La Mappa**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 È possibile creare questo script nel nodo `/etc/workflows/scripts`. La tabella seguente descrive le proprietà assegnate da questo script ECMA:
@@ -114,6 +116,7 @@ workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 | `ditamap` | Stringa | Specifica il percorso della mappa dei tag dell&#39;attività di revisione |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
+| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è impostato su `3.0`.<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
 
 
 Dopo aver creato lo script, chiamalo prima del processo Crea revisione nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro di revisione.
@@ -133,29 +136,58 @@ L&#39;aggiunta di un flusso di lavoro nella **configurazione eliminazione flusso
 
 Per ulteriori dettagli sulla configurazione della **configurazione di Adobe Granite Workflow Purge**, vedi *Amministrazione delle istanze del flusso di lavoro* nella documentazione di AEM.
 
-### Personalizzare i modelli e-mail
+### Personalizzare le notifiche e-mail e AEM
 
 Alcuni flussi di lavoro di AEM Guides utilizzano le notifiche e-mail. Ad esempio, se avvii un’attività di revisione, viene inviata una notifica e-mail ai revisori. Tuttavia, per garantire l’invio della notifica e-mail, devi abilitare questa funzionalità in AEM. Per abilitare le notifiche e-mail in AEM, consulta l&#39;articolo [Configurazione delle notifiche e-mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it) nella documentazione di AEM.
 
-AEM Guides contiene un set di modelli e-mail che puoi personalizzare. Per personalizzare questi modelli, effettua le seguenti operazioni:
+AEM Guides contiene un set di notifiche e-mail e AEM che puoi personalizzare. Per personalizzare queste notifiche, effettua le seguenti operazioni:
 
-1. Accedi ad AEM e apri la modalità CRXDE Lite.
-
-1. Nella scheda Navigator, passare alla posizione seguente:
-
-   `/libs/fmdita/mail`
+1. Utilizzare Gestione pacchetti per scaricare la cartella `/libs/fmdita/mail/review`.
 
    >[!NOTE]
    >
    > Non effettuare personalizzazioni nei file di configurazione predefiniti disponibili nel nodo ``libs``. È necessario creare una sovrapposizione del nodo ``libs`` nel nodo ``apps`` e aggiornare i file richiesti solo nel nodo ``apps``.
 
-1. La cartella e-mail contiene i seguenti modelli personalizzabili:
+1. La cartella `review` contiene le seguenti sottocartelle:
 
-   | Nome file modello | Descrizione |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   La descrizione dettagliata di queste sottocartelle è spiegata di seguito:
+
+   | Rivedi sottocartelle | Descrizione |
    |-----------------|-----------|
-   | closereview.html | Questo modello e-mail viene utilizzato quando un’attività di revisione viene chiusa. |
-   | createreview.html | Questo modello e-mail viene utilizzato quando viene creata una nuova attività di revisione. |
-   | reviewapproval.css | Questo file CSS contiene lo stile dei modelli e-mail. |
+   | `aem-notification` | Contiene diversi tipi di notifica di AEM disponibili per la personalizzazione. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> All&#39;interno di queste sottocartelle, si trovano `primary.vm` e `secondary.vm` file che ti consentono di personalizzare rispettivamente il titolo e la descrizione della notifica di AEM. |
+   | `CSS` | Contiene il file `email-notification.css` per personalizzare lo stile delle notifiche e-mail. |
+   | `email-notification` | Contiene diversi tipi di notifiche e-mail disponibili per la personalizzazione. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> All&#39;interno di queste sottocartelle, sono presenti `primary.vm` e `secondary.vm` file che consentono di personalizzare rispettivamente l&#39;oggetto e il corpo della notifica e-mail. |
+
+Di seguito è riportata la definizione di ciascun tipo di notifica:
+
+- `closed`: si attiva quando un&#39;attività di revisione viene chiusa.
+- `content-updated`: si attiva quando un autore o un iniziatore aggiorna il contenuto.
+- `feedback-addressed`: si attiva quando l&#39;autore o l&#39;iniziatore gestisce i commenti e richiede una revisione da parte del revisore.
+- `feedback-provided` Si attiva quando il revisore contrassegna l&#39;attività come completata fornendo commenti a livello di attività all&#39;autore o all&#39;iniziatore dell&#39;attività di revisione.
+- `requested`: si attiva quando un autore o un iniziatore crea un&#39;attività di revisione.
+- `reviewer-removed`: si attiva quando a un revisore viene revocata l&#39;assegnazione dell&#39;attività di revisione.
+- `tag-mention`: si attiva quando un utente viene menzionato o taggato nei commenti di revisione.
+
+Durante la personalizzazione di una notifica e-mail o AEM, accertati di utilizzare solo il seguente set predefinito di variabili utilizzate nei file `primary.vm` e `secondary.vm`.
+
+
+| **Nome variabile** | **Descrizione** | **Tipo di dati** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Percorso del progetto contenente l’attività di revisione | Stringa |
+| `reviewTitle` | Titolo dell&#39;attività di revisione | Stringa |
+| `projectName` | Nome del progetto | Stringa |
+| `commentator` | Nome dell’utente che ha aggiunto un commento | Stringa |
+| `commentExcerpt` | Frammento del commento aggiunto | Stringa |
+| `taskLink` | Collegamento diretto all&#39;attività di revisione | URL |
+| `authorName` | Nome dell&#39;autore che ha creato o aggiornato l&#39;attività di revisione | Stringa |
+| `dueDate` | Data di scadenza dell&#39;attività di revisione | Data |
+| `reviewerName` | Nome del revisore assegnato all’attività | Stringa |
+| `user` | Utente coinvolto nell’attività di revisione, ad esempio Autore, Revisore o persino Amministratore. | Stringa |
+| `recipient` | Utente specifico che riceve la notifica | Stringa |
 
 
 ## Personalizzare il flusso di lavoro di generazione post-output {#id17A6GI004Y4}
