@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 5.1.0
 description: Scopri le correzioni di bug nella versione 5.1.0 di Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe ha identificato i seguenti problemi noti per la versione 5.1.0:
 
 - Se il revisore completa l&#39;attività senza aggiungere alcun commento, nella notifica e-mail inviata all&#39;iniziatore dell&#39;attività viene visualizzato il commento più recente a livello di attività. (GUIDES-33590)
 - Nella finestra di dialogo Unisci, l’elenco a discesa mostra erroneamente il contenuto principale invece di mostrare le versioni disponibili dell’argomento selezionato. (GUIDES-30820)
-il collegamento diventa operativo. (GUIDES-30820)
 - Passando da un predefinito all&#39;altro che utilizza la stessa linea di base, il pulsante Salva viene disattivato per il predefinito corrente. (GUIDES-28025)
 - Quando si incolla nuovo contenuto in una nuova riga all’interno di un elemento codeblock, viene inserita automaticamente una riga vuota.(GUIDES-27842)
 - Un argomento all&#39;interno di una mappa DITA non viene pubblicato nell&#39;output di AEM Sites quando viene utilizzato sia come keydef che come topicref all&#39;interno delle relative mappe secondarie. (GUIDES-22269)
