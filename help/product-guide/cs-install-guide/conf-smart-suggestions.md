@@ -2,9 +2,9 @@
 title: Configurare l’Assistente AI per la guida e l’authoring avanzati
 description: Scopri come configurare l’Assistente IA in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 1. Passa alla scheda **Ambienti**.
 1. Seleziona il nome dell’ambiente da configurare. Dovresti passare alla pagina **Informazioni sull&#39;ambiente**.
 1. Passa alla scheda **Configurazione**.
-1. Aggiornare il campo JSON SERVICE_ACCOUNT_DETAILS. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
+1. Aggiorna il campo JSON - `SERVICE_ACCOUNT_DETAILS`. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
    ![configurazione account del servizio ims](assets/ims-service-account-config.png){width="800" align="left"}
 
