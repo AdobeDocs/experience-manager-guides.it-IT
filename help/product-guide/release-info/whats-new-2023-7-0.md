@@ -4,9 +4,9 @@ description: Scopri le funzioni nuove e migliorate nella versione di luglio 2023
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -46,31 +46,31 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Rivedi
 
 Una raccolta di mappe consente di organizzare più mappe e di pubblicarle in batch. Sono stati apportati molti nuovi miglioramenti alla raccolta Mappa:
 
-- Ora è anche possibile aggiungere predefiniti di output di PDF nativi a una raccolta di mappe e utilizzarli per generare l&#39;output di PDF.
-- Puoi visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore e utilizzarli per generare l’output PDF.
+- Ora è anche possibile aggiungere predefiniti di output PDF nativi a una raccolta di mappe e utilizzarli per generare l&#39;output di PDF.
+- Puoi visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore e utilizzarli per generare l’output di PDF.
 - Ora non solo è possibile selezionare un singolo predefinito, ma è anche possibile abilitare tutti i predefiniti del profilo di cartella per una mappa DITA in un&#39;unica operazione.
   ![](assets/edit-map-collection.png){width="800" align="left"}
 
 Per ulteriori dettagli, visualizzare [Utilizza raccolta mappe per la generazione dell&#39;output](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Possibilità di accedere ai file temporanei di HTML durante la generazione dell&#39;output nativo di PDF
+## Possibilità di accedere a file HTML temporanei durante la generazione dell&#39;output nativo di PDF
 
-Ora AEM Guides consente di scaricare i file HTML temporanei creati durante la generazione dell’output PDF nativo. Nelle impostazioni del predefinito di output, seleziona l’opzione per scaricare i file temporanei.  AEM Guides ti consente quindi di scaricare i file temporanei creati durante la generazione dell’output utilizzando tale predefinito.
+Ora AEM Guides consente di scaricare i file HTML temporanei creati durante la generazione dell’output nativo di PDF. Nelle impostazioni del predefinito di output, seleziona l’opzione per scaricare i file temporanei.  AEM Guides ti consente quindi di scaricare i file temporanei creati durante la generazione dell’output utilizzando tale predefinito.
 
 Questa funzione consente di ottenere informazioni migliori sul processo di generazione con accesso a stili e layout provvisori e consente di correggere o modificare gli stili CSS in base alle esigenze.
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-Per ulteriori dettagli, visualizzare [Creare un predefinito di output PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Per ulteriori dettagli, visualizzare [Creare un predefinito di output di PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
-## Pubblicazione basata su microservizi per generare output HTML5 e personalizzato
+## Pubblicazione basata su microservizi per generare output HTML5 e personalizzati
 
-Il nuovo microservizio di pubblicazione consente di eseguire carichi di lavoro di pubblicazione di grandi dimensioni simultaneamente su AEM Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore. Ora utilizzando il microservizio, puoi anche generare l’output HTML5 e personalizzato.
+Il nuovo microservizio di pubblicazione consente di eseguire contemporaneamente carichi di lavoro di pubblicazione di grandi dimensioni su AEM Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore. Utilizzando il microservizio, è inoltre possibile generare l’output HTML5 e l’output personalizzato.
 Puoi eseguire più richieste di pubblicazione e ottenere prestazioni migliori per generare questi formati di output.
 Per ulteriori dettagli, visualizzare [Configurare la pubblicazione basata su microservizi per AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 ## Visualizza i dettagli della versione di AEM Guides nelle Informazioni su
 
-Ora, insieme alle informazioni **Informazioni su** dell&#39;AEM, puoi anche visualizzare i dettagli della versione di AEM Guides. Puoi visualizzare i dettagli della versione corrente nell&#39;opzione **Informazioni su** di **Guida** nella pagina di navigazione AEM.
+Ora, insieme alle informazioni su **Informazioni su** di AEM, puoi anche visualizzare i dettagli sulla versione di AEM Guides. Puoi visualizzare i dettagli della versione corrente nell&#39;opzione **Informazioni su** di **Guida** nella pagina di navigazione di AEM.
 
-![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)
+![](assets/about-aem-help.png){width="800" align="left"}
