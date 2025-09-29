@@ -73,5 +73,5 @@ Per assegnare le autorizzazioni, passa a **Strumenti** > **Sicurezza** > **Autor
 
 Queste autorizzazioni garantiscono che gli utenti possano creare o modificare il contenuto solo all’interno delle cartelle specificate.
 
-Per ulteriori dettagli, visualizzare [Autorizzazioni in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Per ulteriori dettagli, visualizzare [Autorizzazioni in AEM](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
