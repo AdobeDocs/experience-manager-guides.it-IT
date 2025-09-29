@@ -1,9 +1,10 @@
 ---
 title: Genera output SCORM
-description: Scopri come generare un output SCORM nel contenuto di apprendimento e formazione
+description: Scopri come generare un output SCORM in Formazione e apprendimento del prodotto
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,6 +29,3 @@ Per generare un output SCORM, effettuare le seguenti operazioni:
    ![](assets/scorm-view-output.png){width="650" align="left"}
 
 Puoi caricare il file ZIP nel tuo LMS per rendere il corso disponibile agli Allievi.
-
-
-

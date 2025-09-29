@@ -1,9 +1,10 @@
 ---
 title: Esplorare l’interfaccia e i prerequisiti
-description: Esplora l’interfaccia e i prerequisiti per lavorare con i contenuti di apprendimento e formazione in Adobe Experience Manager Guides.
+description: Esplora l’interfaccia e i prerequisiti per lavorare con il Product Training and Learning in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -44,13 +45,3 @@ La pagina Preferenze utente è costituita da due schede:
 - **Aspetto**: fornisce le opzioni per selezionare i temi per l&#39;applicazione e la visualizzazione sorgente del contenuto di apprendimento.
 
 Per ulteriori dettagli, visualizzare [Preferenze utente](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

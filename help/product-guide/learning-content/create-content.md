@@ -1,38 +1,44 @@
 ---
-title: Creare contenuti di apprendimento
-description: Descrive come creare un contenuto di apprendimento nel contenuto di apprendimento e formazione.
+title: Crea un argomento
+description: Descrive come creare un argomento nella sezione Formazione e apprendimento del prodotto.
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 75a35db1b81d71f3994c3a6763647b94a2b79b36
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 1%
 
 ---
 
-# Creare contenuti di apprendimento
+# Crea un argomento
 
-Per aggiungere contenuti di apprendimento a un corso, effettua le seguenti operazioni:
+Prima di approfondire il processo passo passo, ecco una breve panoramica video per aiutarti a visualizzare come creare un argomento di apprendimento.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
+
+
+Per aggiungere un argomento a un corso, effettua le seguenti operazioni:
 
 1. Apri un corso in **Gestione corsi** e seleziona **Aggiungi nuovo** dal menu **Opzioni**.
 
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
-1. Seleziona **Contenuto apprendimento**.
-Viene visualizzata la finestra di dialogo **Nuovo contenuto di apprendimento**.
+1. Seleziona **Argomento**.
 
-   ![](assets/learning-content-dialog.png){width="350" align="left"}
+   Viene visualizzata la finestra di dialogo **Nuovo argomento di apprendimento**.
+
+   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
 
 1. Seleziona il modello desiderato dal menu a discesa.
 
    ![](assets/template-types-lc.png){width="350" align="left"}
 
-1. Fornisci un titolo appropriato per il contenuto di apprendimento.
+1. Inserite un titolo appropriato per l&#39;argomento.
 1. Seleziona **Crea**.
 
-Il contenuto di apprendimento viene creato all’interno del corso e visualizzato nel pannello Gestione corsi.
+Un nuovo argomento di apprendimento viene creato all’interno del corso e visualizzato nel pannello Gestione corsi.
 
 >[!NOTE]
 >
-> Una volta creati nuovi contenuti di apprendimento, ad essi viene assegnata automaticamente la versione 1.0.
+> Una volta creato, il nuovo argomento di apprendimento viene assegnato automaticamente alla versione 1.0.

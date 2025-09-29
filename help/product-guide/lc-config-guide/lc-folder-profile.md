@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Configurare i profili delle cartelle
 
 È necessario un profilo di cartella per separare le configurazioni dei diversi reparti o prodotti dell&#39;azienda. Per i contenuti di apprendimento e formazione, puoi creare e configurare un profilo a livello di cartella per gestire modelli di authoring, modelli di output, predefiniti di output e altre impostazioni a livello di cartella.
+
+Scopri le [best practice per la configurazione della struttura di cartelle](best-practices-folder-structure.md).
 
 Per iniziare a configurare il profilo della cartella per i contenuti di apprendimento e formazione, è necessario:
 
@@ -25,7 +27,6 @@ Per iniziare a configurare il profilo della cartella per i contenuti di apprendi
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Crea cartelle per lingua per gestire la traduzione**: se traduci il contenuto in lingue diverse, devi creare cartelle corrispondenti a ciascuna lingua. Ognuna di queste cartelle della lingua conterrà il contenuto corrispondente a tale lingua.
 
-   Per ulteriori dettagli, visualizzare [Best practice per la traduzione dei contenuti](../user-guide/translation-first-time.md).
 3. **Crea una cartella per gestire Assets**: analogamente alle cartelle, puoi anche creare diverse cartelle di Assets per soddisfare le esigenze dei diversi reparti. In questo modo, assicurati anche che gli autori e gli editori abbiano accesso al CSS corretto configurato nei loro modelli, immagini e altre risorse.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

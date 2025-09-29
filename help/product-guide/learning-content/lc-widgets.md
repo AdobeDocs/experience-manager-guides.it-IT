@@ -3,16 +3,22 @@ title: Utilizzare i widget interattivi
 description: Scopri i widget interattivi utilizzabili nel contenuto di apprendimento.
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i widget interattivi
 
-Puoi migliorare il contenuto di apprendimento aggiungendo più widget per rendere il corso più interattivo. Selezionare il menu **Inserisci** sulla barra degli strumenti per accedere ai widget. I widget disponibili includono:
+Puoi migliorare il contenuto di apprendimento aggiungendo più widget per rendere il corso più interattivo. Ecco un breve video con informazioni dettagliate sui vari widget disponibili.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+I widget disponibili progettati per migliorare l’esperienza utente e semplificare la distribuzione dei contenuti includono:
 
 - **Pannello a soffietto:** aggiunge un pannello a soffietto al contenuto. Puoi inserire testo adatto sia nell’intestazione del Pannello a soffietto che nel relativo corpo. Le relative proprietà possono essere gestite utilizzando il pannello **Proprietà contenuto**, incluse le opzioni per consentire l&#39;apertura simultanea di una o più fisarmoniche, nonché per aggiungere o rimuovere elementi.
 

@@ -1,11 +1,12 @@
 ---
 title: Predefiniti supportati
-description: Fornisce un’introduzione ai predefiniti supportati per la pubblicazione di un corso nel contenuto di apprendimento e formazione
+description: Fornisce un’introduzione ai predefiniti supportati per la pubblicazione di un corso nel corso di formazione e apprendimento del prodotto
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ Quando pubblichi un corso, puoi scegliere SCORM e PDF per distribuire i contenut
 
 - **PDF:** Il predefinito di output di PDF consente di pubblicare il contenuto del corso in un formato professionale pronto per la stampa. Il formato PDF lo rende ideale per la condivisione dei contenuti a scopo di revisione o archiviazione.
 
-
-
-
+Per una panoramica video su come creare, configurare e generare output per un predefinito, visualizzare [Creare e configurare i predefiniti](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).

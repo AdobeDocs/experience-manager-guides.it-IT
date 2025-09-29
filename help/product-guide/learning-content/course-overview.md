@@ -3,9 +3,10 @@ title: Panoramica del corso di apprendimento in Experience Manager Guides
 description: Scopri le nozioni di base del corso di apprendimento in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 1d809c4629cc9445872273f2e8ae9458d97aef21
+exl-id: e33b4d28-8040-48a4-a074-bf8912243674
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Un corso è un’unità di apprendimento progettata per fornire esperienze di fo
 
 ## Come funziona?
 
-In qualità di Autore, puoi creare un corso utilizzando i modelli di corso disponibili. Puoi quindi creare il corso aggiungendo componenti chiave, come il contenuto di apprendimento (proprio come i capitoli del corso), il quiz, il riepilogo dell’apprendimento o un gruppo di apprendimento. Questi componenti vengono combinati e migliorati tramite un’interfaccia di authoring intuitiva, in cui il contenuto viene arricchito con testo, elementi multimediali, widget interattivi e valutazioni per creare un’esperienza di apprendimento coinvolgente.
+In qualità di Autore, puoi creare un corso utilizzando i modelli di corso disponibili. Puoi quindi creare il corso aggiungendo componenti chiave, ad esempio Panoramica, Argomento, Quiz, Riepilogo o un Gruppo. Questi componenti vengono combinati e migliorati tramite un’interfaccia di authoring intuitiva, in cui il contenuto viene arricchito con testo, elementi multimediali, widget interattivi e valutazioni per creare un’esperienza di apprendimento coinvolgente.
 
 Una volta completato il contenuto del corso, i predefiniti di output vengono configurati per pubblicare il corso.
 
@@ -24,3 +25,6 @@ Il diagramma seguente illustra brevemente il flusso di lavoro del corso.
 
 ![](assets/learning-course-workflow.png)
 
+Prima di approfondire i dettagli, ecco un breve video che presenta una panoramica dei contenuti di formazione e apprendimento sul prodotto disponibili in Experience Manager Guides, che tratta argomenti quali la creazione di corsi, l’aggiunta di contenuti e la pubblicazione nel formato desiderato.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475302/learning-content-aem-guides)

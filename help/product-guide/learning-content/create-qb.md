@@ -1,11 +1,12 @@
 ---
 title: Crea banca domande
-description: Scopri come creare una banca domande nel contenuto di apprendimento e formazione
+description: Scopri come creare una banca domande nel corso di formazione e apprendimento del prodotto
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,13 @@ ht-degree: 0%
 # Crea banca domande
 
 È possibile semplificare il processo di creazione dei quiz inserendo domande direttamente da una banca domande. Questa funzione consente di riutilizzare le domande esistenti, mantenere la coerenza tra le valutazioni e risparmiare tempo durante la creazione dei quiz.
-Per semplificare la creazione e il riutilizzo dei quiz, potete creare una banca di domande personalizzata in base alle vostre esigenze specifiche. Per creare una banca di domande, segui la procedura riportata di seguito.
+Per semplificare la creazione e il riutilizzo dei quiz, potete creare una banca di domande personalizzata in base alle vostre esigenze specifiche.
+
+Prima di approfondire la procedura dettagliata, ecco un breve video che illustra come creare una banca domande e utilizzarla all&#39;interno di un quiz.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
+
+Per creare una banca di domande, effettua le seguenti operazioni:
 
 1. Apri un corso in **Gestione corsi** e seleziona **Aggiungi nuovo** dal menu **Opzioni**.
 1. Seleziona **Banca domande**.
@@ -24,8 +31,3 @@ Viene visualizzata la finestra di dialogo **Nuova domanda**. Puoi selezionare il
 1. Seleziona **Crea**.
 Una banca domande viene aggiunta come parte del corso e visualizzata nel pannello Gestione corsi.
 1. È possibile aggiungere domande alla banca delle domande nello stesso modo in cui si fa per un quiz, pur avendo la flessibilità di configurare le proprietà di ogni domanda durante il processo. Per ulteriori dettagli, visualizzare [Inserire le domande in un quiz](./quiz-insert-questions.md).
-
-
-
-
-

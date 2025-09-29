@@ -1,9 +1,10 @@
 ---
 title: Nozioni di base su Gestione corsi
-description: Scopri le nozioni di base di Gestione corsi quando utilizzi i contenuti di apprendimento e formazione in Adobe Experience Manager Guides.
+description: Scopri le nozioni di base di Gestione corsi quando utilizzi la formazione e l’apprendimento dei prodotti in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

@@ -1,22 +1,25 @@
 ---
 title: Inserisci domande da banca domande
-description: Scopri come inserire le domande dalla banca delle domande nel Quiz per i contenuti di apprendimento e formazione
+description: Scopri come inserire le domande dalla banca delle domande nel Quiz per la formazione e l’apprendimento dei prodotti
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Inserisci domande da banca domande
 
-Effettua le seguenti operazioni, per inserire domande dalla banca domande nel quiz:
+Per inserire domande dalla banca domande nel quiz, effettua le seguenti operazioni:
 
-1. Seleziona l&#39;opzione **Inserisci da banca domande** dal menu a discesa **Domande** nella barra degli strumenti, come illustrato di seguito. Viene visualizzata la finestra di dialogo **Inserisci da banca domande**.
+1. Seleziona l&#39;opzione **Inserisci da banca domande** dal menu a discesa **Domande** nella barra degli strumenti, come illustrato di seguito.
 
    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+   Viene visualizzata la finestra di dialogo **Inserisci da HTML question bank**.
 
 1. Specificare il percorso della banca domande memorizzata nel repository e selezionare le domande da inserire nel quiz, come illustrato di seguito. È inoltre possibile selezionare tutte le domande della banca delle domande utilizzando **Seleziona tutto**.
 
@@ -33,3 +36,5 @@ Effettua le seguenti operazioni, per inserire domande dalla banca domande nel qu
    Le domande casuali vengono aggiunte al quiz come mostrato di seguito.
 
    ![](assets/inserted-question.png){width="650" align="left"}
+
+Per una rapida panoramica video, visualizza [Utilizzo della banca domande](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).

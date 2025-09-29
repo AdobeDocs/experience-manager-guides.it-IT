@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 8%
 
 ---
@@ -151,8 +151,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -307,9 +307,9 @@ ht-degree: 8%
             - [Nozioni di base su Gestione corsi](./learning-content/course-manager-basics.md)
             - [Gestire il corso](./learning-content/manage-course.md)
          - Creare e personalizzare i contenuti di apprendimento {#customize-lc}
-            - [Panoramica dei contenuti di apprendimento](./learning-content/lc-overview.md)
-            - [Creare contenuti di apprendimento](./learning-content/create-content.md)
-            - [Modifica contenuto di apprendimento](./learning-content/edit-content.md)
+            - [Panoramica](./learning-content/lc-overview.md)
+            - [Crea argomento](./learning-content/create-content.md)
+            - [Modifica argomento](./learning-content/edit-content.md)
             - [Aggiungere blocchi predefiniti di base](./learning-content/lc-basic-blocks.md)
             - [Utilizzare i widget interattivi](./learning-content/lc-widgets.md)
             - [Usa stili in linea](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 8%
             - [Crea quiz](./learning-content/create-quiz.md)
             - [Modifica quiz](./learning-content/edit-quiz.md)
             - [Inserire domande in un quiz](./learning-content/quiz-insert-questions.md)
+            - [Proprietà quiz](./learning-content/quiz-properties.md)
             - Banca domande {#question-bank}
                - [Crea banca domande](./learning-content/create-qb.md)
                - [Inserisci domande da banca domande](./learning-content/insert-questions.md)
-            - [Proprietà quiz](./learning-content/quiz-properties.md)
          - Pubblica il corso {#publish-course}
             - [Informazioni sulla pubblicazione dei corsi](./learning-content/publish-overview.md)
             - [Predefiniti supportati](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 8%
       - Guida alla configurazione {#config-lc}
          - [Informazioni su questa guida](./lc-config-guide/introduction.md)
          - [Configurare i profili delle cartelle](./lc-config-guide/lc-folder-profile.md)
+         - [Best practice per impostare la struttura delle cartelle](./lc-config-guide/best-practices-folder-structure.md)
          - [Configura altre impostazioni](./lc-config-guide/lc-other-settings.md)
       - Tutorial video {#lc-video}
          - [Flusso di lavoro di creazione](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 8%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)

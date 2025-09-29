@@ -1,13 +1,13 @@
 ---
-title: Gestire un corso in contenuti di apprendimento e formazione
+title: Gestire un corso in Product Training and Learning
 description: Scopri le varie funzioni presenti in Experience Manager Guides che ti consentono di gestire il corso in modo efficiente.
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -23,13 +23,15 @@ Per aggiungere nuovi contenuti al corso, effettua le seguenti operazioni:
 
    ![](assets/learning-course-content.png)
 2. Seleziona il tipo di contenuto da creare. Opzioni disponibili:
-   - **Contenuto di apprendimento**: il materiale principale di un corso è costituito da parti brevi e mirate, come passaggi, esempi o spiegazioni, che insegnano un&#39;abilità o un&#39;idea specifica. Per ulteriori dettagli, visualizza [Crea e personalizza contenuto di apprendimento](./create-content.md).
-   - **Riepilogo apprendimento**: revisione rapida alla fine di un capitolo del corso che ricorda agli Allievi i punti chiave che hanno appena appreso.
+   - **Panoramica**: il primo argomento del corso che fornisce una rapida introduzione a ciò che il corso copre.
+   - **Argomento**: il materiale principale di un corso è costituito da pezzi brevi e mirati come passaggi, esempi o spiegazioni che insegnano una competenza o un&#39;idea specifica. Per ulteriori dettagli, visualizzare [Crea e personalizza argomento](./create-content.md).
+   - **Riepilogo**: revisione rapida alla fine di un capitolo del corso che ricorda agli Allievi i punti chiave che hanno appena appreso.
    - **Quiz**: una serie di domande utilizzate per verificare se qualcuno comprende bene ciò che ha imparato. Per ulteriori dettagli, visualizzare [Crea e gestisci quiz](./create-quiz.md).
    - **Banca domande**: un insieme condiviso di domande riutilizzabili che possono essere utilizzate per creare quiz in modo rapido e coerente. Per ulteriori dettagli, visualizzare [Banca domande](./create-qb.md).
-   - **Gruppo di apprendimento**: un gruppo di apprendimento consente di organizzare i contenuti di apprendimento correlati, come capitoli, argomenti e altri moduli, in un ordine logico, creando una gerarchia chiara che semplifica la gestione e il riutilizzo dei materiali di formazione.
+   - **Gruppo**: un gruppo di apprendimento consente di organizzare in un ordine logico argomenti correlati come capitoli, argomenti e altri moduli, creando una gerarchia chiara che semplifica la gestione e il riutilizzo dei materiali di formazione.
 3. Seleziona **Crea**.
-Il contenuto selezionato viene creato e aggiunto al corso.
+
+Il contenuto selezionato viene creato e aggiunto al corso. Per una panoramica video, visualizza [Aggiungi nuovo contenuto a un corso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Aggiungi contenuto esistente
 
@@ -44,11 +46,19 @@ Puoi aggiungere al corso contenuto esistente dal tuo archivio dei contenuti. Per
 
 Il contenuto del corso selezionato viene aggiunto al corso dall’archivio.
 
+>[!NOTE]
+>
+>È inoltre possibile utilizzare l&#39;opzione **Aggiungi file esistente**>**File (solo risorsa zip)** per includere un file zip che viene decompresso e integrato nella struttura di cartelle dell&#39;output SCORM finale. Questo consente di semplificare la creazione di pacchetti di risorse durante la pubblicazione del corso.
+
+Per una panoramica video, visualizza [Aggiungi contenuto esistente al corso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+
 ## Rimuovi contenuto
 
-È possibile rimuovere qualsiasi argomento dal corso selezionando il menu **Opzioni** per l&#39;argomento specifico e quindi selezionando **Rimuovi** come illustrato di seguito.
+È possibile rimuovere qualsiasi argomento dal corso selezionando il menu **Opzioni** per l&#39;argomento specifico e quindi selezionando **Rimuovi voce** come illustrato di seguito.
 
 ![](assets/remove-learning-content.png)
+
+Per una panoramica video, visualizza [Rimuovi contenuto dal corso](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
 
 ## Creare versioni del corso
 
@@ -71,3 +81,5 @@ L&#39;opzione **Mostra** determina la modalità di visualizzazione degli argomen
 > Queste impostazioni di visualizzazione si applicano solo in Gestione corsi e non hanno alcun impatto sull’output pubblicato.
 
 ![](assets/course-display-settings.png)
+
+Per una panoramica video, visualizza [Mostra opzioni](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).

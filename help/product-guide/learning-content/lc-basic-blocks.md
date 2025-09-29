@@ -1,20 +1,27 @@
 ---
-title: Aggiungi elementi di base al contenuto di apprendimento
-description: Scopri gli elementi di base che puoi aggiungere ai contenuti di apprendimento nel contenuto di apprendimento e formazione
+title: Aggiungere blocchi predefiniti di base
+description: Scopri gli elementi di base che puoi aggiungere al tuo argomento o al contenuto di apprendimento nella sezione Training e apprendimento del prodotto.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Aggiungi elementi di base al contenuto di apprendimento
+# Aggiungere blocchi predefiniti di base all&#39;argomento
 
-Puoi utilizzare le funzioni di modifica di base disponibili nella barra degli strumenti Contenuto di apprendimento, come descritto di seguito:
+Per comprendere meglio come creare un argomento di apprendimento e aggiungervi elementi di base, il video seguente offre una breve panoramica delle funzioni disponibili.
 
-- **Widget**: aggiungi widget come soffietto, carosello, punti attivi e altro al contenuto di apprendimento utilizzando il menu **Inserisci** come mostrato di seguito. Per ulteriori dettagli sui widget interattivi, visualizzare [Usa widget interattivi](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+È possibile utilizzare le funzioni di modifica di base disponibili nella barra degli strumenti dell&#39;editor, come descritto di seguito:
+
+- **Widget**: aggiungi widget come soffietto, carosello, punti attivi e altro ancora all&#39;argomento o al contenuto di apprendimento utilizzando il menu **Inserisci** come mostrato di seguito. Per ulteriori dettagli sui widget interattivi, visualizzare [Usa widget interattivi](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ Puoi utilizzare le funzioni di modifica di base disponibili nella barra degli st
 - **Collegamenti ipertestuali**: aggiunge collegamenti ipertestuali alla posizione desiderata nel contenuto. Puoi utilizzarlo dal menu **Altro** nella barra degli strumenti. Può essere un riferimento di file, un URL Web o un collegamento di posta elettronica come mostrato di seguito.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-
