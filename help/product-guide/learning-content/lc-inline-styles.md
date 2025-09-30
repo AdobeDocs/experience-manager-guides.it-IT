@@ -4,9 +4,9 @@ description: Scopri come utilizzare i vari stili in linea per creare contenuti d
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Usa stili in linea
 
 Applica stili in linea per personalizzare l’aspetto di un testo specifico direttamente all’interno del contenuto del corso. Ciò consente di eseguire regolazioni rapide della formattazione, ad esempio la dimensione del carattere, il colore, l&#39;allineamento e altro ancora. Puoi modificare gli stili in linea per il testo selezionato utilizzando il pannello **Proprietà contenuto**.
+
+Ecco un breve video che illustra i vari stili in linea disponibili.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ Applica stili in linea per personalizzare l’aspetto di un testo specifico dire
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-Sono disponibili le seguenti opzioni di stile in linea.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+La descrizione delle opzioni di stile in linea disponibili è la seguente:
 
 - **Tipo di carattere:** Consente di personalizzare l&#39;aspetto del testo utilizzando varie opzioni, ad esempio famiglia di caratteri, spessore del carattere, decorazione del testo, dimensione del carattere e altro ancora. Queste impostazioni consentono di applicare uno stile al contenuto, come illustrato nell’esempio seguente.
 
