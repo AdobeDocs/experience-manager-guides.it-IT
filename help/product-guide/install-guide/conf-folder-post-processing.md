@@ -5,16 +5,16 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: e84a00237e61275c6cd1ddd312883ac4f66b65ff
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Disattiva la postelaborazione per una cartella
 
-Per impostazione predefinita, tutte le risorse caricate vengono elaborate utilizzando il flusso di lavoro Risorsa di aggiornamento DAM. Nell’ambito di questo flusso di lavoro, Experience Manager Guides esegue un’ulteriore elaborazione, denominata postelaborazione. Questo aiuta anche a generare gli UUID
+Per impostazione predefinita, tutte le risorse caricate vengono elaborate utilizzando il flusso di lavoro Risorsa di aggiornamento DAM. Nell’ambito di questo flusso di lavoro, Experience Manager Guides esegue un’ulteriore elaborazione, denominata postelaborazione. Questo aiuta anche a generare gli UUID di.
 
 Durante il caricamento dei file e delle cartelle nel server *Adobe Experience Manager Assets*, puoi anche disabilitare la postelaborazione e la generazione di UUID.
 
@@ -32,7 +32,7 @@ Per disabilitare la postelaborazione in un determinato percorso o ignorare la po
 
 1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Selezionare l&#39;opzione **Percorsi ignorati per elaborazione Post** per ignorare una cartella per la post-elaborazione.
+1. Selezionare l&#39;opzione **Percorsi ignorati per post-elaborazione** per ignorare una cartella per la post-elaborazione.
 
    Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (proprietà multivalore, stringhe con percorso che omette `/` alla fine)
 
@@ -42,7 +42,7 @@ Per disabilitare la postelaborazione in un determinato percorso o ignorare la po
    >
    > Questa proprietà è disabilitata per impostazione predefinita e la scheda di traduzione è disponibile nel dashboard delle mappe.
 
-1. Selezionare l&#39;opzione **Percorsi abilitati per elaborazione Post** per abilitare un percorso per la post-elaborazione.
+1. Selezionare l&#39;opzione **Percorsi abilitati per post-elaborazione** per abilitare un percorso per la post-elaborazione.
 
    Valore stringa per impostare qualsiasi proprietà standard NODE_OPTIONS (proprietà multivalore, stringhe con percorso che omette `/` alla fine)
 
@@ -55,7 +55,9 @@ Per disabilitare la postelaborazione in un determinato percorso o ignorare la po
 
 1. Fai clic su **Salva**.
 
-
+>[!NOTE]
+>
+> Oltre ai percorsi ignorati e abilitati configurati tramite la configurazione OSGi, il comportamento di post-elaborazione è influenzato anche da un nodo a livello di archivio situato in `/var/dxml/postprocess/ignoredPaths`. <br> Se una cartella viene esclusa in modo imprevisto dalla post-elaborazione e non è elencata nella configurazione OSGi, è consigliabile controllare questo nodo dell&#39;archivio. Se il percorso è impostato su `true`, verrà ignorato. Per riabilitare l’elaborazione, puoi rimuovere manualmente la proprietà corrispondente dal nodo.
 
 ## Regole per abilitare o disabilitare la post-elaborazione
 
