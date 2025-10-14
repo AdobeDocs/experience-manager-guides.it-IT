@@ -23,4 +23,4 @@ Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Expe
 >
 > AEM as a Cloud Service non supporta Dispatcher per l’istanza di authoring.
 
-**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

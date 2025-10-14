@@ -49,7 +49,7 @@ Per creare il predefinito AEM Sites utilizzando la mappatura di componenti compo
    Viene creato il predefinito per AEM Sites.
 
 
-   ![Nuovo ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ Nella console Mappa (Map), le opzioni di configurazione predefinite per la mappa
 - Elenco argomenti
 - Riferimenti a mappe incrociate
 
-![Nuovo ](images/aem-sites-new-config.png){width="650" align="left"}
+![Nuovo &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Generale**
 
@@ -153,7 +153,7 @@ Nella console Mappa, le opzioni di configurazione predefinite per la mappatura d
 - Contenuto
 - Riferimenti a mappe incrociate
 
-![Nuovo ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nuovo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Generale**
 
@@ -171,7 +171,7 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 
 **Contenuto**
 
-![Nuovo ](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nuovo &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
 
 La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 

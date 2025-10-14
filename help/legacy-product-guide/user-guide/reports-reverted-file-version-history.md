@@ -58,4 +58,4 @@ Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riporta
    - **Commento**: qualsiasi commento fornito dall&#39;utente che ha ripristinato il file.
 
 
-**Argomento padre:**&#x200B;[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)

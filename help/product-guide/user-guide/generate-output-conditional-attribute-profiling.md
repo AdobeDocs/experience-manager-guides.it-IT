@@ -58,4 +58,4 @@ L&#39;attributo `platform` è archiviato nel sistema. Ogni volta che un autore d
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

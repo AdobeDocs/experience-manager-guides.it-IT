@@ -49,4 +49,4 @@ Puoi visualizzare i vari tipi di predefiniti di output insieme alle relative ico
 1. Seleziona **Fine**.
 
 
-**Argomento padre:**&#x200B;[ Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre:**&#x200B;[&#x200B; Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

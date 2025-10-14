@@ -39,4 +39,4 @@ Una volta riassegnata l&#39;attività di revisione, nella colonna Assegnatario v
 
 Il revisore assegnato riceve una notifica nella casella in entrata relativa all&#39;attività di revisione riassegnata.
 
-**Argomento padre:**&#x200B;[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)

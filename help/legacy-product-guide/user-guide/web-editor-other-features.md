@@ -253,4 +253,4 @@ Per generare automaticamente l’ID per uno o più elementi, effettua le seguent
    In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb e selezionare **Genera ID**.
 
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)

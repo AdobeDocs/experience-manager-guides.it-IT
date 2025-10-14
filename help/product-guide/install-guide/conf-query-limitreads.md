@@ -33,4 +33,4 @@ Per aumentare il numero di nodi che una query può leggere alla volta, eseguire 
 
 Quando si aumenta il valore di questo attributo, è possibile generare il report per mappe DITA più grandi.
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

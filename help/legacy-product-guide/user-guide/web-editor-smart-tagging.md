@@ -40,4 +40,4 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento padre:**&#x200B;[ Gestisci metadati](manage-metadata.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)

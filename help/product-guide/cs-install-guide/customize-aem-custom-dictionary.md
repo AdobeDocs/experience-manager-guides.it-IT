@@ -35,4 +35,4 @@ Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effet
 
 Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

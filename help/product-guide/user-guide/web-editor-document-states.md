@@ -114,4 +114,4 @@ Una volta contrassegnato come approvato, il documento non è più disponibile pe
    Lo stato del documento viene modificato in Bozza e il documento viene aperto nell&#39;Editor in modalità di modifica.
 
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

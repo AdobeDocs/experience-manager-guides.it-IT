@@ -33,4 +33,4 @@ Per la pubblicazione basata su articoli, è necessario creare il predefinito di 
 - **[Genera output dal pannello Archivio o dal pannello Visualizzazione mappa](web-editor-article-publishing-output.md)**
 
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)

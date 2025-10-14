@@ -102,4 +102,4 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>Nota: è inoltre possibile trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Argomento padre:**&#x200B;[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)

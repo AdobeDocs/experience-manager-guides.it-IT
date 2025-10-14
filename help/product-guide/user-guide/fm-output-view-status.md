@@ -36,4 +36,4 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
      In questo elenco è possibile che siano presenti attività eseguite correttamente o attività non riuscite. Per le attività completate correttamente, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere selezionando il collegamento nella colonna Generato a.
 
 
-**Argomento padre:**&#x200B;[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)

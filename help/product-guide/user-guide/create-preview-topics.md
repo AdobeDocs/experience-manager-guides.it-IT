@@ -20,4 +20,4 @@ Adobe Experience Manager Guides viene fornito con una potente funzione per crear
 - **[Anteprima di un argomento](web-editor-preview-topics.md)**
 
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

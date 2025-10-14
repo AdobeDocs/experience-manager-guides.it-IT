@@ -34,4 +34,4 @@ Inoltre, l&#39;editor è compatibile con DITA e supporta gli standard DITA 1.3, 
 - **[Usa etichette](web-editor-use-label.md)**
 
 
-**Argomento padre:**&#x200B;[ Creare contenuti con Experience Manager Guides](authoring-content-xml-doc.md)
+**Argomento padre:**&#x200B;[&#x200B; Creare contenuti con Experience Manager Guides](authoring-content-xml-doc.md)

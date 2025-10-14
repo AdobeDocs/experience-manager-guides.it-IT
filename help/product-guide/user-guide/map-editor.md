@@ -38,4 +38,4 @@ Questo argomento illustra come creare una mappa DITA e quindi utilizzare l&#39;E
 - **[Funzionalità aggiuntive nell&#39;editor mappa](map-editor-other-features.md)**
 
 
-**Argomento padre:**&#x200B;[ Creare contenuti con AEM Guides](authoring-content-xml-doc.md)
+**Argomento padre:**&#x200B;[&#x200B; Creare contenuti con AEM Guides](authoring-content-xml-doc.md)

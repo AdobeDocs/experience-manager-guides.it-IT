@@ -250,4 +250,4 @@ Seleziona una o più delle seguenti opzioni di filtro dalla finestra di dialogo 
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e fare clic su **Applica**.
 
-**Argomento padre:**&#x200B;[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)

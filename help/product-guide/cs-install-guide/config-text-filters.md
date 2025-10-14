@@ -80,4 +80,4 @@ Per configurare i filtri di testo, effettua le seguenti operazioni:
 
 I filtri configurati sono disponibili nel pannello dei filtri.
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

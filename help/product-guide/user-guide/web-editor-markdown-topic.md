@@ -175,4 +175,4 @@ Le seguenti funzioni di Experience Manager Guides non sono attualmente applicabi
 
 
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

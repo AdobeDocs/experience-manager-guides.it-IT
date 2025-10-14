@@ -115,4 +115,4 @@ Questa operazione può essere eseguita in fase di esecuzione tramite la console 
 Un numero maggiore di **Limita pagine del sito AEM nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
 
 
-**Argomento padre:**&#x200B;[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

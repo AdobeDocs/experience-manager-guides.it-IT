@@ -152,4 +152,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)

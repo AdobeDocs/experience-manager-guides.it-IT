@@ -79,4 +79,4 @@ Di seguito è riportato un elenco di altre utili risorse di Experience Manager G
 * Guida rapida
 * [Guida* Pagina archiviazione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) (accedere alla documentazione precedente)
 
-**Argomento padre:**&#x200B;[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)

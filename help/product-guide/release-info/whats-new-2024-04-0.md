@@ -68,7 +68,7 @@ Ora, oltre ad attivare l&#39;output per la raccolta di attivazione in blocco nel
 Questa funzionalità consente di attivare il contenuto in un&#39;istanza di anteprima, per verificarne l&#39;aspetto e il funzionamento prima di attivarlo nell&#39;istanza **Publish**.
 
 
-![ ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *Visualizza le informazioni sugli output delle mappe attivate nella scheda **Cronologia controllo**.*
 
@@ -160,7 +160,7 @@ Ora disponi di un’esperienza avanzata per filtrare i file. La funzionalità ri
 
 Sfrutta vantaggi quali un accesso più rapido ai file rilevanti e un’interfaccia utente più intuitiva, che rende l’esperienza di ricerca più fluida ed efficiente.
 
-![filtro di ricerca rapida ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro di ricerca rapida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 

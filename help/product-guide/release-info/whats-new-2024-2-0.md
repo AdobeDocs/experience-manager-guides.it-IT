@@ -27,7 +27,7 @@ Ora è possibile migliorare il percorso di authoring con Smart Suggestions, una 
 
 Per mantenere corretti e coerenti i contenuti, la ricerca e i suggerimenti sono limitati al contenuto di proprietà dell’organizzazione e strettamente correlati alle parole chiave cercate.
 
-![Pannello suggerimenti avanzati nell&#39;editor Web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Pannello suggerimenti avanzati nell&#39;editor Web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Visualizza suggerimenti avanzati per trovare e aggiungere riferimenti ai contenuti corrispondenti dall&#39;archivio dei contenuti.*

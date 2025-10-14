@@ -411,7 +411,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -454,7 +454,7 @@ Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati 
 
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
 

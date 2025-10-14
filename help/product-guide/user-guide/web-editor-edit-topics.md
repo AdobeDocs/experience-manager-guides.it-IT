@@ -115,4 +115,4 @@ Quando si apre un file nell&#39;editor, Experience Manager Guides fornisce la fu
 È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file nel repository** dalla scheda **Aspetto** delle **Preferenze utente**.
 
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)

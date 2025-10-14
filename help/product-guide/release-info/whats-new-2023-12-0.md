@@ -124,7 +124,7 @@ Experience Manager Guides offre ora un’esperienza utente migliorata per la cre
 Consente inoltre di duplicare una baseline basata sull&#39;etichetta. La versione di riferimento viene scelta in base all&#39;etichetta specificata (se esiste) durante la duplicazione, oppure seleziona la versione dalla baseline duplicata.
 
 
-![duplicare una baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicare una baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 

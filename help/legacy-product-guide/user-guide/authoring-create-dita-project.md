@@ -77,4 +77,4 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
 1. Fai clic su **Apri** per aprire la pagina del progetto.
 
 
-**Argomento padre:**&#x200B;[ Rivedi argomenti o mappe](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)

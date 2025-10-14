@@ -168,5 +168,5 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la baseline, selezionare **Salva** per salvare le modifiche. È possibile selezionare **Reimposta** se non si desidera salvare la modifica e reimpostare la previsione. Quando si seleziona **Reimposta**, viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
 

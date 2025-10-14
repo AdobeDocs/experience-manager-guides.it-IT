@@ -195,4 +195,4 @@ Se si desidera eliminare un argomento dalla tabella, fare clic sull&#39;icona a 
 
 Se si desidera eliminare la tabella delle relazioni, fare clic in un punto qualsiasi all&#39;esterno della tabella delle relazioni e quindi fare clic su Elimina.
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor mappe](map-editor.md)

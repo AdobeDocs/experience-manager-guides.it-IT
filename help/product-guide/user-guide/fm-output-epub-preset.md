@@ -27,4 +27,4 @@ Per l’output di EPUB sono disponibili le seguenti opzioni:
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di EPUB. |
 | Esegui flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output. |
 
-**Argomento padre:**&#x200B;[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)

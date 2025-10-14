@@ -274,4 +274,4 @@ Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialog
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

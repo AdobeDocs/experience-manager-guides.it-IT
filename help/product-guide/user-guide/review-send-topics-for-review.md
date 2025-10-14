@@ -270,4 +270,4 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
 A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

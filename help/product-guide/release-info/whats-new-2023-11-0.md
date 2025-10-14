@@ -66,7 +66,7 @@ Nella versione di novembre 2023 sono stati apportati i seguenti miglioramenti al
 
 È possibile definire gli attributi della condizione negli argomenti DITA. Quindi, utilizzate gli attributi condizione nel predefinito condizione per pubblicare il contenuto in una mappa DITA. Experience Manager Guides ora consente anche di creare e gestire i predefiniti per le condizioni dall’editor web. È inoltre possibile modificarli, duplicarli o eliminarli facilmente.
 
-![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Per ulteriori dettagli, visualizzare [Usa predefiniti di condizione](../user-guide/generate-output-use-condition-presets.md).
 

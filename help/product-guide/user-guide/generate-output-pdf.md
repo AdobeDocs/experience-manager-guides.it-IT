@@ -41,4 +41,4 @@ Per ulteriori informazioni sulla creazione del predefinito PDF nativo, visualizz
 
 
 
-**Argomento padre:**&#x200B;[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)

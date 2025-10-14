@@ -24,7 +24,7 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 
 
 1. Seleziona il contenuto dell’argomento per visualizzare i suggerimenti correlati. Assicurati che la lunghezza del carattere del contenuto superi quella impostata dall’amministratore nel profilo della cartella per visualizzare i suggerimenti di contenuto.
-1. Dal **pannello Authoring** nell&#39;Assistente di intelligenza artificiale, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona di contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
+1. Dal **pannello Authoring** nell&#39;Assistente di intelligenza artificiale, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona di contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Seleziona un tag per visualizzare i suggerimenti di authoring per il tag corrente.  I suggerimenti per visualizzare e aggiungere riferimenti al contenuto dai file indicizzati vengono visualizzati in base al contenuto nel tag corrente. È inoltre possibile selezionare più tag.
 
@@ -35,7 +35,7 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 
    >[!NOTE]
    >
-   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
+   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Puoi visualizzare i suggerimenti avanzati nel pannello dei suggerimenti.  Experience Manager Guides fornisce contenuti di suggerimento contestualmente simili o con lo stesso significato. Ad esempio, puoi cercare l’argomento che contiene il numero di versione esatto, come &quot;versione 2023.03.12 di&quot;. Puoi anche cercare &quot;Adobe ha la sede centrale a San Jose, California&quot; e trovare contenuti simili come &quot;San Jose ha la sede di molte aziende di software come Adobe&quot;.

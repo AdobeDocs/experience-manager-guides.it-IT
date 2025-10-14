@@ -169,4 +169,4 @@ Per rimuovere un task di output dall&#39;elenco Output generato, effettuare le o
    L&#39;attività viene eliminata dall&#39;elenco Output generati.
 
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

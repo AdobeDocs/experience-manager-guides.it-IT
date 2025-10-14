@@ -31,7 +31,7 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
 
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nuovo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
@@ -46,4 +46,4 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
    > È inoltre possibile rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
 
 
-**Argomento padre:**&#x200B;[ Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)

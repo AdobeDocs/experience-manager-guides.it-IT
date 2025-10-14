@@ -48,4 +48,4 @@ Per ulteriori dettagli sui vari scenari di caricamento dei file, vedere [Caricar
 
 Se utilizzi uno strumento come AEM Desktop App o Asset Bulk Ingestor, l’azione da eseguire su un file duplicato è controllata da un’impostazione nel server AEM. Contatta l’amministratore di sistema per informazioni su questa configurazione.
 
-**Argomento padre:**&#x200B;[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)

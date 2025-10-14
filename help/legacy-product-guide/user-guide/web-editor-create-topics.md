@@ -61,4 +61,4 @@ Per creare un argomento, effettua le seguenti operazioni:
 >
 > Dopo aver creato l&#39;argomento DITA, salvare le modifiche apportate alla copia di lavoro e creare una nuova versione una volta completati gli aggiornamenti all&#39;argomento.
 
-**Argomento padre:**&#x200B;[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**&#x200B;[&#x200B; Crea e visualizza in anteprima argomenti](create-preview-topics.md)

@@ -19,4 +19,4 @@ Oxygen XML Author offre funzioni di authoring intuitive e un&#39;interfaccia di 
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento principale:**&#x200B;[ Creare contenuti tramite strumenti desktop](author-desktop-tools.md)
+**Argomento principale:**&#x200B;[&#x200B; Creare contenuti tramite strumenti desktop](author-desktop-tools.md)

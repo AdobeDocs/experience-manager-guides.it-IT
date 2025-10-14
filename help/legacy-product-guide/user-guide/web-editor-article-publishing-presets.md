@@ -61,4 +61,4 @@ Per creare predefiniti di output per la mappa DITA, effettuate le seguenti opera
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Argomento padre:**&#x200B;[ Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)
+**Argomento padre:**&#x200B;[&#x200B; Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)

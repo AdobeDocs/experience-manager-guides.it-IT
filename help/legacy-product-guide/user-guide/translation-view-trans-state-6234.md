@@ -26,4 +26,4 @@ Per visualizzare lo stato di traduzione di una mappa DITA, effettuare le seguent
    >
    > È possibile filtrare ulteriormente il contenuto in base al relativo stato di traduzione \(come Copia mancante non sincronizzata, In corso o In sincronia\), Tipo di Source \(come Tutto, DITA, Mappa DITA o Risorsa\), data di modifica. È inoltre possibile immettere parole chiave per cercare argomenti specifici.
 
-**Argomento padre:**&#x200B;[ Traduci contenuto](translation.md)
+**Argomento padre:**&#x200B;[&#x200B; Traduci contenuto](translation.md)

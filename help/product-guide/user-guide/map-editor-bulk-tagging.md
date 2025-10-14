@@ -107,4 +107,4 @@ Per rimuovere tutti i tag da uno o più argomenti, effettua le seguenti operazio
 
 Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag nella vista della console delle mappe DITA selezionando l&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, selezionando Mostra tag vengono visualizzati tutti i tag.
 
-**Argomento padre:**&#x200B;[ Gestisci metadati](manage-metadata.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)

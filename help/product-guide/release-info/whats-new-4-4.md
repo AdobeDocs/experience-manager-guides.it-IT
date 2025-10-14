@@ -33,7 +33,7 @@ Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versio
 
 È possibile definire gli attributi della condizione negli argomenti DITA. Quindi, utilizzate gli attributi condizione nel predefinito condizione per pubblicare il contenuto in una mappa DITA. Experience Manager Guides ora offre anche un’esperienza arricchita nell’editor web, che consente di creare e gestire in modo più efficiente i predefiniti per le condizioni. È inoltre possibile modificarli, duplicarli o eliminarli facilmente.
 
-![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Per ulteriori dettagli, visualizzare [Usa predefiniti di condizione](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ Le opzioni **Aggiornamento manuale** e **Aggiornamento automatico** sono più in
 Consente inoltre di duplicare una baseline basata sull&#39;etichetta. La versione di riferimento viene scelta in base all&#39;etichetta specificata (se esiste) durante la duplicazione, oppure seleziona la versione dalla baseline duplicata.
 
 
-![duplicare una baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicare una baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 

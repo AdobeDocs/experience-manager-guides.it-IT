@@ -86,4 +86,4 @@ Per generare l&#39;output per più argomenti nella mappa DITA dal pannello Vista
 1. Viene visualizzato lo stato del processo di generazione dell&#39;output.Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
 
 
-**Argomento padre:**&#x200B;[ Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)
+**Argomento padre:**&#x200B;[&#x200B; Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)

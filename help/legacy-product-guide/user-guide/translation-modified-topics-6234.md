@@ -79,4 +79,4 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 1. Tornare al file mappa DITA nella cartella della lingua di origine nell&#39;interfaccia utente di Assets. Gli argomenti ritradicati sono ora sincronizzati.
 
 
-**Argomento padre:**&#x200B;[ Traduci contenuto](translation.md)
+**Argomento padre:**&#x200B;[&#x200B; Traduci contenuto](translation.md)

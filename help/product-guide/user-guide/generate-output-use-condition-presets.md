@@ -169,4 +169,4 @@ L’azione è impostata come azione predefinita per tutti gli attributi, a presc
 1. Selezionare il pulsante **Rimuovi**.
 1. Seleziona **Rimuovi** per confermare l&#39;azione.
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

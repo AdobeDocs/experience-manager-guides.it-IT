@@ -18,4 +18,4 @@ AEM Guides supporta la creazione di output per documenti FrameMaker in formati P
 
 Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati di output supportati.
 
-**Argomento padre:**&#x200B;[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)

@@ -230,4 +230,4 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 
 - Se nella cartella viene creato un altro argomento o mappa allo stesso livello, i nomi delle nuove risorse vengono aggiunti 0, 1, 2 e così via. È possibile scegliere di aprire la mappa per la modifica o salvare il file di mappa nel repository.
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor mappe](map-editor.md)

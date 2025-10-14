@@ -26,4 +26,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 >
 > Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
 
-**Argomento padre:**&#x200B;[ Configura nomi file](conf-file-names.md)
+**Argomento padre:**&#x200B;[&#x200B; Configura nomi file](conf-file-names.md)

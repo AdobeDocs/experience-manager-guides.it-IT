@@ -33,7 +33,7 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 1. Selezionare **AEM Sites** dal menu a discesa **Tipo** nella finestra di dialogo **Nuovo predefinito di output**.
 1. Deseleziona l&#39;opzione **Usa mapping di componenti legacy** nella finestra di dialogo **Nuovo predefinito di output**.
 
-![Nuovo ](images/new-aem-sites-dialog-box.png)
+![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 

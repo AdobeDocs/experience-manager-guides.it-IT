@@ -94,7 +94,7 @@ Per ulteriori dettagli sulla gestione delle definizioni gerarchiche delle defini
 
 Utilizza il menu di scelta rapida per visualizzare rapidamente in anteprima il file (.dita, .xml, audio, video o immagine) senza aprirlo. Ora è possibile ridimensionare il riquadro di anteprima e, se il contenuto contiene un collegamento di riferimento, è possibile selezionarlo per aprirlo in una nuova scheda.
 
-![Riquadro di anteprima ](assets/quick-preview_cs.png){width="800" align="left"}
+![Riquadro di anteprima &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Anteprima del file nel riquadro.*
 

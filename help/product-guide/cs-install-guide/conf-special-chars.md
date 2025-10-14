@@ -46,4 +46,4 @@ La struttura del file `symbols.json` è illustrata di seguito:
   All’interno di una categoria è possibile definire più definizioni di caratteri speciali.
 
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

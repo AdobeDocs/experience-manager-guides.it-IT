@@ -27,4 +27,4 @@ Puoi produrre output in PDF, ePub, HTML e molti altri formati, utilizzando la st
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento padre:**&#x200B;[ Contenuto autore](authoring-content.md)
+**Argomento padre:**&#x200B;[&#x200B; Contenuto autore](authoring-content.md)

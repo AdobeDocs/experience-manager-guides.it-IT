@@ -31,4 +31,4 @@ Per generare l&#39;output per i documenti FrameMaker, effettuare le operazioni r
 >
 > Puoi visualizzare lo stato corrente della richiesta di generazione dell’output facendo clic su Output. Per ulteriori informazioni, vedere [Visualizzare lo stato dell&#39;attività di generazione output](fm-output-view-status.md).
 
-**Argomento padre:**&#x200B;[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)

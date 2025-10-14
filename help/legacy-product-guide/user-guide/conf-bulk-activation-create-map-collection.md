@@ -46,7 +46,7 @@ Per creare una raccolta di mappe di attivazione in blocco, effettuare le seguent
 
 I file di mappa DITA vengono aggiunti alla raccolta di mappe per l&#39;attivazione in blocco.
 
-![ ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png){width="800" align="left"}
+![&#x200B; ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Scheda Mappe e predefiniti
 
@@ -85,7 +85,7 @@ La scheda **Cronologia controlli** presenta informazioni sugli output delle mapp
 
 - **Modificata**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se attivare l&#39;output per questa mappa DITA.
 - **Pubblicato**: mostra la data e l&#39;ora dell&#39;ultimo output pubblicato (o attivato). Se selezioni il collegamento, viene visualizzata la pagina Risultati attivazione, che contiene i registri con informazioni sul percorso della directory principale in cui viene attivato il contenuto.
-  ![ ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![&#x200B; ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Visualizza le informazioni sugli output delle mappe attivate nella scheda **Cronologia controllo**.*
 

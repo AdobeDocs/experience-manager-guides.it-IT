@@ -198,4 +198,4 @@ Fai clic su **Aggiorna** per ottenere un nuovo elenco di collegamenti interrotti
 1. Fare clic su **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
 
 
-**Argomento padre:**&#x200B;[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)

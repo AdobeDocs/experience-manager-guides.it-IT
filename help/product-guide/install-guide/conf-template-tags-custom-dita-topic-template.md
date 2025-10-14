@@ -77,4 +77,4 @@ Per configurare una cartella per i modelli di argomento DITA personalizzati, eff
 
 Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti.
 
-**Argomento padre:**&#x200B;[ Configura modelli di argomento e mappa](conf-template-tags.md)
+**Argomento padre:**&#x200B;[&#x200B; Configura modelli di argomento e mappa](conf-template-tags.md)

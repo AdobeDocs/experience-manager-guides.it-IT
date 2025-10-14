@@ -28,4 +28,4 @@ Per visualizzare lo stato di traduzione di una mappa DITA, effettuare le seguent
 
    ![](images/translation-status-new.png){align="left"}
 
-**Argomento padre:**&#x200B;[ Panoramica sulla traduzione dei contenuti](translation.md)
+**Argomento padre:**&#x200B;[&#x200B; Panoramica sulla traduzione dei contenuti](translation.md)

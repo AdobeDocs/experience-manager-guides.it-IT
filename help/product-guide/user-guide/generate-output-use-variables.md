@@ -30,4 +30,4 @@ Nella tabella seguente sono elencate le variabili supportate come predefinite:
 | `${system_time}` | Utilizza l’ora del server corrente per creare il percorso di destinazione. | **Nome file mappa DITA:** <br>`SampleDita.ditamap` <br> <br> **Percorso file mappa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Percorso di destinazione** configurato come: <br> `/content/output/sites/${system_time}`<br><br>**Percorso di output finale:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 È inoltre possibile utilizzare come variabili i metadati definiti per il file mappa DITA o mappa di un libro. I metadati si trovano nel nodo `/jcr:content/metadata` della mappa DITA o del file di mappa di libri. Ad esempio, una delle proprietà dei metadati definite nel nodo `/jcr:content/metadata` è `dc:title`. È possibile specificare `${dc:title}` e il valore del titolo viene utilizzato nell&#39;output finale.
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

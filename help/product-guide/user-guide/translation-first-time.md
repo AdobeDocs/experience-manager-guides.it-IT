@@ -79,4 +79,4 @@ Al termine della traduzione, lo stato del processo di traduzione diventa *Pronto
 >- Se si rifiuta, elimina o annulla il processo di traduzione per un argomento presente in più progetti (per uno qualsiasi dei progetti), lo stato di traduzione **In corso** dell&#39;argomento non viene ripristinato, ma il progetto viene rimosso dall&#39;elenco di progetti **In corso** per la risorsa specificata.
 >- Inoltre, se si annulla o si elimina il processo di traduzione o si elimina l&#39;intero progetto, lo stato di traduzione **In corso** viene ripristinato allo stato originale.
 
-**Argomento padre:**&#x200B;[ Panoramica sulla traduzione dei contenuti](translation.md)
+**Argomento padre:**&#x200B;[&#x200B; Panoramica sulla traduzione dei contenuti](translation.md)

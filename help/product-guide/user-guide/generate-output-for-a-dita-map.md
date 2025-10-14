@@ -78,4 +78,4 @@ Per informazioni dettagliate sull&#39;utilizzo dell&#39;ID pubblico e dell&#39;I
 
 
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

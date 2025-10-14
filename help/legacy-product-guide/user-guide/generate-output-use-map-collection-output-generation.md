@@ -144,4 +144,4 @@ Analogamente all&#39;annullamento di un&#39;attività di generazione output dall
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Argomento padre:**&#x200B;[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

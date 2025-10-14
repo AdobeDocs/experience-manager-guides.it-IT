@@ -26,15 +26,15 @@ Questo processo prevede 3 fasi:
 
 ## Passaggio 1: caricare il carattere personalizzato nella cartella delle risorse del modello
 
-![Caricamento font personalizzato e importazione di ](../assets/publishing/custom-font1.png)
+![Caricamento font personalizzato e importazione di &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Passaggio 2: apportare le modifiche necessarie nel foglio di stile dei modelli di PDF
 
-![Carattere nel foglio di stile del modello PDF ](../assets/publishing/custom-font2.png)
+![Carattere nel foglio di stile del modello PDF &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Passaggio 3 (facoltativo): incorporare il tipo di carattere utilizzato in PDF
 
-![Carattere personalizzato incorporato in DITA PDF ](../assets/publishing/custom-font3.png)
+![Carattere personalizzato incorporato in DITA PDF &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Domande frequenti
 

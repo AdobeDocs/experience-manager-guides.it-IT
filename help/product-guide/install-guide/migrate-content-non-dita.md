@@ -390,4 +390,4 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 
 Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di configurazioni per la conversione. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata nell&#39;elemento `outputDir`.
 
-**Argomento padre:**&#x200B;[ Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)

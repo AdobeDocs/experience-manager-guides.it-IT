@@ -240,4 +240,4 @@ Il file `ui_config.json` è suddiviso in tre sezioni:
 1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**&#x200B;[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
