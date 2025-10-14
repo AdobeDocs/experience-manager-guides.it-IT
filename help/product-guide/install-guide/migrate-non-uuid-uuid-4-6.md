@@ -219,5 +219,5 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
    > Se prima della migrazione la proprietà **Utilizza il titolo per i nomi delle pagine del sito AEM** in `com.adobe.fmdita.config.ConfigManager` è impostata su *False*, dopo la migrazione sarà necessario aggiornare la proprietà.
 
 
-1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it`).
 
