@@ -57,4 +57,4 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
 >
 > Se si utilizza Adobe Experience Manager Guides in una configurazione locale, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

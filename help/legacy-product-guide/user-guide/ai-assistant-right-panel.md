@@ -18,7 +18,7 @@ Experience Manager Guides fornisce uno strumento di assistenza per l’intellige
 >[!NOTE]
 >
 > Per aggiungere la funzionalità Assistente AI nel pannello di destra, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Assistente AI** nella scheda **Pannelli** delle **impostazioni Workspace** ![icona impostazioni Workspace](./images/editor_settings_icon.svg).
-> > È inoltre necessario estrarre il documento per visualizzare l&#39;icona Assistente AI.
+> &#x200B;> È inoltre necessario estrarre il documento per visualizzare l&#39;icona Assistente AI.
 
 Questa funzione è disponibile solo per gli argomenti DITA. Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
 
@@ -29,7 +29,7 @@ Questa funzione è disponibile solo per gli argomenti DITA. Dopo aver selezionat
 ## Suggerisci contenuti riutilizzabili
 
 
-Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
+Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
 Ulteriori informazioni sull&#39;utilizzo di [suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring dei contenuti](authoring-ai-based-smart-suggestions.md).
 
 
