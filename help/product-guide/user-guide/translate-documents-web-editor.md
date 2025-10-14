@@ -4,10 +4,10 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
-ht-degree: 0%
+source-wordcount: '2376'
+ht-degree: 1%
 
 ---
 
@@ -157,7 +157,7 @@ Per informazioni dettagliate sulla configurazione di profili globali e a livello
 
 Experience Manager Guides consente di passare l’etichetta del file di origine al file di destinazione. Questo ti aiuterà a identificare facilmente la versione sorgente del file tradotto.
 
-Per aggiungere l&#39;etichetta della versione di origine nella copia di destinazione, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Propaga le etichette della versione di origine alla versione di destinazione** nella scheda **Traduzione** in **Impostazioni**.
+Per aggiungere l&#39;etichetta della versione di origine nella copia di destinazione, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Propaga le etichette della versione di origine alla versione di destinazione** nella scheda **Traduzione** in **Impostazioni Workspace** (visualizzate come **Impostazioni** per **Prem**).
 
 Ad esempio, se ad alcuni file di origine è stata applicata l&#39;etichetta di versione `Release 1.0`, è possibile passare anche l&#39;etichetta di origine \(`Release 1.0`\) al file tradotto.
 
@@ -219,11 +219,11 @@ Selezionate il nome del riferimento nella finestra di dialogo per aprirlo in mod
 > 
 >Questa funzione è disponibile per i nuovi progetti di traduzione creati con Experience Manager Guides versione 2404 o successiva.  Non avrà alcun impatto sui progetti esistenti.
 
-L&#39;amministratore può configurare l&#39;opzione **Pulizia progetti di traduzione dopo il completamento** nella scheda **Traduzione** in **Impostazioni editor** per disabilitare o eliminare automaticamente i progetti di traduzione.
+L&#39;amministratore può configurare l&#39;opzione **Pulizia progetto di traduzione dopo il completamento** nella scheda **Traduzione** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**) per disabilitare o eliminare automaticamente i progetti di traduzione.
 
 Per la gestione dei documenti, Experience Manager Guides consente di eliminare i progetti di traduzione una volta completata la traduzione.
 
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

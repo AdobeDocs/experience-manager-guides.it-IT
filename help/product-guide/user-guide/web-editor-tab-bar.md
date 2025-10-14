@@ -3,9 +3,10 @@ title: Barra delle schede nell’editor
 description: Scopri la barra delle schede nell’editor. Scopri l’interfaccia e le funzioni dell’editor in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
    - **Servizi cloud**: se utilizzi Servizi cloud, quando selezioni l&#39;opzione **Assets** vieni reindirizzato alla pagina di navigazione di AEM.
 
    - **Software on-premise**: se si utilizza Adobe Experience Manager Guides (4.2.1 e versioni successive), se si seleziona l&#39;opzione **Assets**, verrà visualizzato il percorso del file corrente nell&#39;interfaccia utente di Assets.
-- **Impostazioni**: consente di accedere alla finestra di dialogo Impostazioni editor. Per ulteriori informazioni, vedere [Utilizzo delle impostazioni dell&#39;editor](./web-editor-settings.md).
+- **Impostazioni Workspace**: consente di accedere alla finestra di dialogo delle impostazioni di Workspace. Per ulteriori dettagli, visualizzare [Configurazione impostazioni di Workspace](../cs-install-guide/workspace-settings.md).
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+>[!NOTE]
+>
+> Se si utilizza Adobe Experience Manager Guides in una configurazione locale, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
+
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

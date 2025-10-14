@@ -4,9 +4,9 @@ description: Scopri il pannello a sinistra nell’editor. Scopri l’interfaccia
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Puoi visualizzare le seguenti opzioni nelle schede **Generale** e **Avanzate**.
 È sincronizzato con la casella di ricerca nella finestra del repository. Se ad esempio si digita `general purpose` nella casella di ricerca nel pannello del repository, verrà visualizzato anche nella finestra di dialogo **Filtro avanzato** e viceversa.
 
 - **Cerca in**: selezionare il percorso in cui si desidera eseguire la ricerca nei file presenti nell&#39;archivio di Adobe Experience Manager.
+- **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
+- **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
+- **Bloccato da**: visualizza un elenco di utenti. L’elenco viene impaginato e caricato in modo asincrono, mostrando un set limitato di utenti alla volta e recuperandone altri durante lo scorrimento o la navigazione. Ciò migliora la velocità di caricamento e le prestazioni complessive, soprattutto quando si lavora con un numero elevato di utenti.
+- **Modificato dopo** / **Modificato prima di**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
+   - Nelle ultime due ore
+   - Nell&#39;ultima settimana
+   - Nell&#39;ultimo mese
+   - Nell&#39;ultimo anno
+- **Tag**: filtra il contenuto in base ai tag.
 
 **Avanzate**
 
@@ -635,10 +644,8 @@ Se un elemento blocco dispone di un proprio testo, viene visualizzato insieme a 
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Puoi anche assegnare gli attributi di visualizzazione configurati dall&#39;amministratore nella scheda **Attributi di visualizzazione** delle **Impostazioni**. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
+Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Puoi anche assegnare gli attributi di visualizzazione configurati dall&#39;amministratore nella scheda **Attributi di visualizzazione** delle **impostazioni di Workspace** (come **Impostazioni** per **Prem**). Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
 
-
-Per ulteriori dettagli, visualizza gli *attributi di visualizzazione* nella descrizione della funzionalità *Impostazioni* nel pannello a sinistra.
 
 **Funzione di ricerca**
 
@@ -933,7 +940,7 @@ Puoi anche modificare i valori dal menu a discesa dell’attributo nella vista S
 
 Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
 
-Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Generale in Impostazioni. Per ulteriori dettagli, visualizzare la sezione **Impostazioni** nella [Barra delle schede](./web-editor-tab-bar.md).
+Per visualizzare lo schema di oggetti dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema di oggetti nel pannello Condizioni** nella scheda Generale in **Impostazioni Workspace** (come **Impostazioni** per **Prem**). Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
 
 Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
 
@@ -1056,7 +1063,7 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 1. Selezionare **Sostituisci occorrenza singola** \( ![](images/replace-icon.svg)\) per sostituire il termine di ricerca attualmente evidenziato nell&#39;argomento oppure selezionare Corrispondenza successiva ![](images/next-match-in-search.png) o Corrispondenza precedente ![](images/previous-match-in-search.png) per passare all&#39;occorrenza successiva o precedente del testo.
 1. Selezionare **Sostituisci tutto** \( ![](images/replace-all-in-file-icon.svg)\) per sostituire tutte le occorrenze del termine cercato in un singolo file con il termine sostitutivo in un solo clic. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica.
 
-Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni**.
+Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**).
 
     >[!NOTE]
     >
@@ -1110,7 +1117,12 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Abilita l&#39;opzione **Attività avviate da me** per visualizzare solo le attività avviate. Lo stato di attivazione o disattivazione di questa opzione viene mantenuto anche dopo l’aggiornamento della pagina. Abilita l&#39;opzione **Mostra solo attività attive** per filtrare l&#39;elenco dei progetti in modo da visualizzare le attività attualmente attive.
+     La finestra di dialogo **Filtro** include anche le seguenti opzioni che possono essere attivate o disattivate utilizzando l&#39;interruttore:
+
+      - **Attività avviate da me**: se abilitata, mostra solo le attività avviate.
+      - **Mostra solo le attività attive**: se questa opzione è attivata, filtra l&#39;elenco dei progetti in modo da visualizzare solo le attività attive.
+
+     Per impostazione predefinita, entrambe le opzioni sono disabilitate. Inoltre, lo stato di attivazione selezionato viene mantenuto anche dopo l’aggiornamento della pagina.
 
 1. Per impostazione predefinita, nel progetto di revisione viene visualizzato un elenco semplice di argomenti a cui sono associati commenti. Applica i filtri richiesti dalla barra a sinistra per filtrare gli argomenti in base ai commenti di revisione presenti in essi:
 
@@ -1130,4 +1142,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

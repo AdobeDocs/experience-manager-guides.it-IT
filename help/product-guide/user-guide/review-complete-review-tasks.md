@@ -3,7 +3,8 @@ title: Completa l'attività di revisione come revisore
 description: Scopri come contrassegnare un’attività come completata come revisore in AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 8e750fc6b20859ffd953c8c2b7a12cbe633ab02c
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Le nuove funzioni descritte in questo articolo sono abilitate per impostazione predefinita con la versione 2508 di Experience Manager Guides as a Cloud Services. Le revisioni create prima della migrazione non sono interessate e continueranno a utilizzare il flusso di lavoro precedente. Se preferisci continuare a utilizzare le funzioni esistenti senza questi aggiornamenti, contatta il team Customer Success per disabilitare le nuove funzioni.
+> Le nuove funzioni descritte in questo articolo sono abilitate per impostazione predefinita con la versione 2508 di Experience Manager Guides as a Cloud Service. Le revisioni create prima della migrazione non sono interessate e continueranno a utilizzare il flusso di lavoro precedente. Se preferisci continuare a utilizzare le funzioni esistenti senza questi aggiornamenti, contatta il team Customer Success per disabilitare le nuove funzioni.
 
 In qualità di revisore, puoi contrassegnare un’attività di revisione come completata dopo aver rivisto tutto il contenuto e aver richiesto una notifica all’autore. In questa fase è inoltre possibile lasciare eventuali commenti finali.
 
@@ -66,4 +67,3 @@ I commenti all&#39;interno della finestra di dialogo vengono visualizzati in ord
 La finestra di dialogo **Commenti attività** è accessibile a tutti gli utenti coinvolti nell&#39;attività di revisione, inclusi l&#39;autore o l&#39;iniziatore dell&#39;attività di revisione e altri revisori. Di conseguenza, i commenti di altri revisori (se coinvolti) potrebbero essere visualizzati anche nella finestra di dialogo Commenti attività. Ciò consente di garantire una comunicazione chiara e tracciabile durante l’intero processo di revisione.
 
 Dopo aver esaminato il feedback a livello di attività, l’Autore può richiedere un riesame o chiudere l’attività di revisione. In entrambi i casi, tutti i commenti acquisiti durante il processo di revisione rimangono disponibili come riferimento nella finestra di dialogo **Commenti attività**.
-

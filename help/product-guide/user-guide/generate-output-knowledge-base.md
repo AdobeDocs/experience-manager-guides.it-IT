@@ -4,10 +4,10 @@ description: Scopri come creare un predefinito della Knowledge Base dalla consol
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1260'
+ht-degree: 2%
 
 ---
 
@@ -86,7 +86,7 @@ Le seguenti opzioni di configurazione sono visualizzate per **ServiceNow** come 
 
 | Opzioni ServiceNow | Descrizione |
 | --- | --- |
-| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare dai profili di connessione ServiceNow configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzione **Impostazioni editor** nella sezione [Pannello sinistro](./web-editor-features.md#id2051EA0M0HS). |
+| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare dai profili di connessione ServiceNow configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) nella sezione [Pannello sinistro](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilizzare questo campo per selezionare la Knowledge Base ServiceNow richiesta. È possibile configurare le knowledge base nel sito ServiceNow per archiviare il contenuto in base alle autorizzazioni. Gli articoli di questa mappa DITA possono essere pubblicati in queste knowledge base. |
 | Categoria e sottocategoria | Le categorie sono simili agli alberi gerarchici utilizzati per trovare e classificare gli articoli della Knowledge Base di ServiceNow. Aggiungere una categoria e una sottocategoria per pubblicare gli argomenti e i sottoargomenti del sommario in tale categoria e sottocategoria sul sito ServiceNow. |
 
@@ -96,7 +96,7 @@ Le seguenti opzioni di configurazione vengono visualizzate per **Salesforce** co
 
 | Opzioni Salesforce | Descrizione |
 | --- | --- |
-| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare tra i profili di connessione Salesforce configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni** nella sezione [Barra delle schede](./web-editor-features.md#tab-bar). |
+| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare tra i profili di connessione Salesforce configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) nella sezione [Barra delle schede](./web-editor-features.md#tab-bar). |
 | Tipo di record | Utilizza il menu a discesa per selezionare tra i tipi di record impostati in Salesforce in base alle impostazioni di visibilità basate sul profilo utente. I tipi di record di Salesforce consentono di raggruppare più record di un tipo per l&#39;oggetto. Definiscono la modalità di organizzazione della pubblicazione. Ad esempio, puoi selezionare FAQ Tipo di record e pubblicare in base al layout e ai campi della pagina FAQ. |
 | Campo contenuto articolo | È possibile avere campi diversi e un layout univoco per ogni modello di tipo di record. Utilizzare questi campi per immettere informazioni specifiche in base al tipo di articolo. Ad esempio, puoi visualizzare il titolo, la risposta e l’equazione di un articolo di domande frequenti. |
 | Categorie | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito Salesforce. |

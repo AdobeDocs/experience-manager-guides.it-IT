@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: bece5e257370f458de8878814da290086eea344e
+source-git-commit: a29c27a263a3e06e041ffb5e81892449e64323a3
 workflow-type: tm+mt
 source-wordcount: '9124'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Puoi aggiornare la versione corrente di Experience Manager Guides alla versione 
 - Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -34,17 +34,16 @@ Puoi aggiornare la versione corrente di Experience Manager Guides alla versione 
 
 Per ulteriori informazioni, consulta le procedure seguenti:
 
-- [Aggiornamento da 3.8.5 a versione 4.0](#upgrade-from-version-385-to-version-40)
-- [Aggiornamento alla versione 4.2](#upgrade-to-version-42)
-- [Aggiornamento alla versione 4.2.1](#upgrade-to-version-421)
-- [Aggiornamento alla versione 4.3.0](#upgrade-to-version-430)
-- [Aggiornamento alla versione 4.3.1](#upgrade-to-version-431)
-- [Aggiorna alla versione 4.3.1.5](#upgrade-to-version-4315)
-- [Aggiornamento alla versione 4.4.0](#upgrade-to-version-440)
-- [Aggiornamento alla versione 4.6.0](#upgrade-to-version-460)
-- [Aggiornamento alla versione 5.0.0](#upgrade-to-version-500)
 - [Aggiornamento alla versione 5.1.0](#upgrade-to-version-510)
-
+- [Aggiornamento alla versione 5.0.0](#upgrade-to-version-500)
+- [Aggiornamento alla versione 4.6.0](#upgrade-to-version-460)
+- [Aggiornamento alla versione 4.4.0](#upgrade-to-version-440)
+- [Aggiorna alla versione 4.3.1.5](#upgrade-to-version-4315)
+- [Aggiornamento alla versione 4.3.1](#upgrade-to-version-431)
+- [Aggiornamento alla versione 4.3.0](#upgrade-to-version-430)
+- [Aggiornamento alla versione 4.2.1](#upgrade-to-version-421)
+- [Aggiornamento alla versione 4.2](#upgrade-to-version-42)
+- [Aggiornamento da 3.8.5 a versione 4.0](#upgrade-from-version-385-to-version-40)
 
 
 >[!IMPORTANT]
@@ -59,11 +58,11 @@ Prima di eseguire il processo è necessario completare alcune attività. Le segu
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [&#128279;](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides, verificare di disporre di:
 
@@ -136,7 +135,7 @@ L’aggiornamento alla versione 4.2 dipende dalla versione corrente di Experienc
 
 Se utilizzi le versioni 4.0, 4.1 o 4.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.2.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2, assicurati di disporre di:
 
@@ -312,7 +311,7 @@ L’aggiornamento alla versione 4.2.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2.1, assicurati di disporre di:
 
@@ -489,7 +488,7 @@ L’aggiornamento alla versione 4.3.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.0, assicurati di disporre di:
 
@@ -547,7 +546,7 @@ L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.1, assicurati di disporre di:
 
@@ -788,7 +787,7 @@ L’aggiornamento alla versione 4.4.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.4.0, assicurati di disporre di:
 
@@ -981,7 +980,7 @@ Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un 
 Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 1000 a 50, è necessario unire l&#39;eventuale rewriter personalizzato esistente con `'fmdita-rewriter'`.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)
 
 
 ## Aggiornamento alla versione 4.6.0
@@ -996,7 +995,7 @@ L’aggiornamento alla versione 4.6.0 dipende dalla versione corrente di Experie
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.6.0, assicurati di disporre di:
 
@@ -1151,7 +1150,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.0.0, verificare di disporre dei seguenti elementi:
 
@@ -1299,7 +1298,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,9 +1308,9 @@ La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai 
 
 >[!IMPORTANT]
 >
-> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.1.0, verificare di disporre dei seguenti elementi:
 
@@ -1462,7 +1461,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
 
 >[!NOTE]
 >

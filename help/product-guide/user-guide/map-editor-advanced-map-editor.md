@@ -4,9 +4,9 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Le opzioni visualizzate nella barra degli strumenti dell’editor si basano sull
 
 - [Layout](#layout-view)
 - [Autore](#author-view)
-- [Sorgente](#source-view)
+- [Origine](#source-view)
 - [Anteprima](#preview)
 
 Nelle sezioni seguenti sono descritte le opzioni della barra degli strumenti disponibili nelle diverse viste dell’Editor mappa:
@@ -146,7 +146,7 @@ Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività co
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ Nel pannello di destra vengono visualizzate le Proprietà contenuto e le Proprie
 
 Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento attualmente selezionato nella mappa, il relativo URL di collegamento e i relativi attributi. Per ulteriori dettagli, visualizzare [Proprietà contenuto](web-editor-features.md#right-panel) nell&#39;editor.
 
-- **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore nella scheda **Visualizza attributi** delle impostazioni dell&#39;editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti con l&#39;attributo `audience` sono definiti come `US`.
+- **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore in **Visualizza attributi**. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti con l&#39;attributo `audience` sono definiti come `US`.
 
   ![visualizzazione layout](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Per ulteriori dettagli, visualizzare gli *attributi di visualizzazione* nella descrizione della funzionalità *Impostazioni* in [Editor](web-editor-features.md#main-toolbar).
+  Per ulteriori dettagli, visualizzare [Attributi di visualizzazione](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Metadati** Utilizzando i metadati, puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
 

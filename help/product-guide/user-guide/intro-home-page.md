@@ -4,9 +4,9 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
   La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
 - **Personalizza sezione panoramica**: consente di nascondere o visualizzare i widget nella sezione Widget.
 - **Profilo cartella in uso**: visualizza il profilo cartella attualmente in uso.
+- **Altre azioni**: consente di accedere a opzioni aggiuntive. Selezionando questo pulsante si apre un menu con le seguenti opzioni:
+
+   - **Assets**: ti porta a una destinazione in base alla tua configurazione.
+      - **Servizi cloud**: se utilizzi Servizi cloud, quando selezioni l&#39;opzione **Assets** vieni reindirizzato alla pagina di navigazione di AEM.
+
+      - **Software on-premise**: se si utilizza Adobe Experience Manager Guides (4.2.1 e versioni successive), se si seleziona l&#39;opzione **Assets**, verrà visualizzato il percorso del file corrente nell&#39;interfaccia utente di Assets.
+   - **Impostazioni Workspace**: consente di accedere alla finestra di dialogo **Impostazioni Workspace**. Per ulteriori dettagli, visualizzare [Configurazione impostazioni di Workspace](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > Nella pagina Home, l’opzione delle impostazioni di Workspace è disponibile solo per l’impostazione dei servizi cloud. In una configurazione locale, l’opzione Altre azioni non è disponibile nella pagina Home. Tuttavia, è ancora possibile accedere alle impostazioni pertinenti tramite l’interfaccia dell’editor e la console Mappa, passando a Più opzioni > Impostazioni.
+
 - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
 ## Pannello sinistro
@@ -169,7 +181,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
 - **Aspetto**: la scheda Aspetto consente di selezionare i temi per l&#39;applicazione e la visualizzazione origine dell&#39;area di modifica dei contenuti. Utilizzare questa scheda per configurare le impostazioni seguenti:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Tema applicazione e visualizzazione Source**: è possibile scegliere tra i temi Chiaro o Scuro per l&#39;applicazione e la visualizzazione origine. Nel caso del tema Luce, le barre degli strumenti e i pannelli utilizzano uno sfondo grigio chiaro. Nel caso del tema Scuro, le barre degli strumenti e i pannelli utilizzano uno sfondo di colore nero. Seleziona **Usa tema dispositivo** per consentire a Experience Manager Guides di selezionare i temi chiari e scuri in base al tema del dispositivo.
 

@@ -2,7 +2,8 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2025.08.0
 description: Scopri le funzioni nuove e migliorate della versione 2025.08.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ L&#39;ultimo aggiornamento introduce una configurazione avanzata per **Creazione
 
 Dopo aver attivato l&#39;Assistente di **IA**, gli amministratori possono scegliere in modo selettivo le azioni rapide visibili nella scheda **Authoring**, semplificando le interazioni dell&#39;autore. Queste impostazioni di visibilità sono specifiche per ciascun profilo di cartella.
 
-Ulteriori informazioni su [Assistente AI nelle impostazioni dell&#39;editor](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
+Ulteriori informazioni su [Assistente AI nelle impostazioni dell&#39;editor](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Con questa versione le impostazioni all&#39;interno delle **Preferenze utente** 
 Inoltre, nella barra degli strumenti dell&#39;editor alcuni interruttori di accesso rapido per abilitare o disabilitare Revisioni, Tag e Spazi non interrotti sono ora raggruppati nell&#39;opzione **Mostra** nel menu a discesa per una migliore fruibilità.
 
 Per ulteriori dettagli, visualizzare [Barra degli strumenti nell&#39;editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

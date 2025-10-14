@@ -1,12 +1,12 @@
 ---
 title: Gestire le attività di revisione mediante il dashboard Revisione
-description: Gestisci le attività di revisione dal dashboard di revisione in AEM Guides. Scopri le azioni da eseguire nella scheda attività, contenuto e revisori e controlla lo stato di un’attività di revisione.
+description: Gestisci le attività di revisione dal dashboard di revisione in AEM Guides. Scopri le azioni da eseguire nella scheda Attività, Contenuto e Revisori e controlla lo stato di un’attività di revisione.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 
    Nel dashboard Revisione vengono visualizzati i dettagli relativi all&#39;attività di revisione, ad esempio il nome dell&#39;attività, l&#39;autore che ha avviato la revisione, la data di inizio della revisione, la data di scadenza, lo stato, il numero di nuovi commenti non accettati o rifiutati dall&#39;autore e il nome dei revisori. Le attività sono elencate in ordine di nuove attività rispetto alle attività meno recenti.
 
+   Nel dashboard Revisione, il campo **Stato** può mostrare uno dei seguenti valori:
+   - **In corso**: indica che la revisione è ancora in corso.
+   - **Chiuso**: indica che l&#39;attività di revisione è stata completata.
+
    >[!NOTE]
    >
    > Se si seleziona il collegamento Attività di revisione, viene aperto l&#39;argomento o il file di mappa inviato per la revisione.
@@ -59,7 +63,7 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 Nella scheda **Attività** è possibile eseguire le azioni seguenti:
 
 - Modifica il titolo dell&#39;attività nel campo **Titolo**.
-- Aggiungi gli assegnatari predefiniti nell&#39;elenco a discesa **Assegna a**. I revisori che aggiungi da qui potranno esaminare tutti gli argomenti che fanno parte di questa attività di revisione. Puoi scegliere di rimuovere o aggiungere selettivamente altri revisori ad argomenti specifici dalla [scheda Revisori](#reviewer-tab-id199RF0N0MUI).
+- Aggiungi gli assegnatari predefiniti nell&#39;elenco a discesa **Assegna a**. I revisori che aggiungi da qui potranno esaminare tutti gli argomenti che fanno parte di questa attività di revisione. Puoi scegliere di rimuovere o aggiungere selettivamente altri revisori ad argomenti specifici dalla [scheda Revisori](#Reviewer-tab-id199RF0N0MUI).
 - Aggiorna la descrizione dell&#39;attività nel campo **Descrizione**.
 - Modifica la **data di scadenza**. Puoi posticipare o posticipare la scadenza per il completamento dell’attività.
 - Selezionare l&#39;opzione per consentire agli utenti di esaminare solo gli argomenti ad essi assegnati.
@@ -71,7 +75,7 @@ Nella scheda **Attività** è possibile eseguire le azioni seguenti:
 
   Se è stata selezionata un&#39;attività di revisione creata da una mappa DITA, vengono visualizzati gli argomenti che costituiscono un pert della mappa. È quindi possibile scegliere gli argomenti che si desidera includere nella nuova attività di revisione.
 
-  In caso di attività di revisione duplicata da uno o più argomenti di revisione, nell&#39;elenco delle attività di revisione vengono visualizzati solo tali argomenti. Puoi scegliere di condividere questi argomenti per la revisione con un diverso gruppo di revisori.
+  In caso di attività di revisione duplicata da uno o più argomenti di revisione, nell&#39;elenco delle attività di revisione vengono visualizzati solo tali argomenti. È possibile scegliere di condividere questi argomenti per la revisione con un diverso gruppo di revisori.
 
 - Seleziona **Chiudi** per passare alla pagina Posta in arrivo.
 
@@ -83,7 +87,7 @@ Puoi eseguire le azioni seguenti nella scheda **Contenuto**:
 
 - Modifica la versione dell’argomento inviato per la revisione. È possibile scegliere la versione più recente dell&#39;argomento, la versione in data, la versione con etichetta specifica o la versione con una baseline specifica \(per una mappa DITA\).
 
-- Selezionare **Aggiorna** per condividere la versione aggiornata dell&#39;argomento con i revisori. I revisori ricevono una notifica e-mail che indica che la versione più recente dell’argomento è stata inviata per la revisione. La volta successiva che un revisore apre l&#39;argomento, visualizza la versione aggiornata dell&#39;argomento.
+- Selezionare **Aggiorna** per condividere la versione aggiornata dell&#39;argomento con i revisori. I revisori ricevono una notifica e-mail che indica che la versione più recente dell’argomento è stata inviata per la revisione. Alla successiva apertura dell&#39;argomento, il revisore visualizza la versione aggiornata dell&#39;argomento.
 
   >[!NOTE]
   >
@@ -94,7 +98,7 @@ Puoi eseguire le azioni seguenti nella scheda **Contenuto**:
 - Seleziona **Duplica** per creare una nuova attività di revisione utilizzando l&#39;attività corrente come base.
 
 
-## Scheda Revisori {#reviewer-tab-id199RF0N0MUI}
+## Scheda Revisori {#Reviewer-tab-id199RF0N0MUI}
 
 ![](images/reviewers-tab.png){align="left"}
 
@@ -107,27 +111,33 @@ Puoi eseguire le seguenti azioni nella scheda **Revisori**:
   >
   > È inoltre possibile selezionare o deselezionare singolarmente un argomento selezionando la casella di controllo accanto all&#39;argomento.
 
-- **Aggiungi**: visualizza la finestra Aggiungi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
-- **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
-- **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
+- **Aggiungi**: visualizza la finestra Aggiungi revisori. È possibile digitare il nome di un ruolo revisore o utente \(o gruppo\) che si desidera aggiungere come revisore agli argomenti selezionati.
+- **Rimuovi**: visualizza la finestra di dialogo Rimuovi revisori. È possibile digitare il nome del ruolo di revisore o utente \(o gruppo\) che si desidera rimuovere come revisore dagli argomenti selezionati.
+- **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un ruolo revisore o utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
 - **Esporta**: consente di esportare i dettagli dell&#39;attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
 - **Modifica revisori**: se si seleziona l&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti, viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
 
 ## Controllare lo stato di un&#39;attività di revisione {#check-review-status-id199RF0A0UHS}
 
-Dalla pagina principale del dashboard di revisione, se si seleziona un&#39;attività di revisione e si sceglie **Stato**, viene visualizzato il rapporto sullo stato dell&#39;attività di revisione.
+In Experience Manager Guides, ogni attività di revisione ha uno stato che ne riflette lo stato corrente. Dal dashboard di revisione, è possibile accedere a queste informazioni selezionando un&#39;attività e scegliendo l&#39;opzione **Stato**.
 
-![](images/review-status-report.png){align="left"}
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+Verrà aperto un rapporto sullo stato dell&#39;attività di revisione, come illustrato di seguito:
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
+
+In alternativa, è possibile accedere al rapporto sullo stato direttamente dal [pannello Revisione](./web-editor-left-panel.md#review) nell&#39;editor. Apri un&#39;attività di revisione attiva dal pannello Revisione, seleziona **Aggiorna attività** e scegli **Controlla stato revisione**.
 
 La relazione sullo stato dell&#39;attività di revisione contiene i dettagli riportati di seguito.
 
 - Nome\(s\) del revisore a cui è assegnata l&#39;attività di revisione.
 - La colonna Stato indica lo stato della revisione. Lo stato potrebbe essere uno dei seguenti:
-   - **Non avviato**: il revisore non ha ancora aperto il collegamento di revisione.
-   - **In corso**: il revisore ha aperto il collegamento di revisione e sta esaminando l&#39;argomento.
-   - **Completo**: il revisore ha completato la revisione completando l&#39;attività di revisione ad esso assegnata. L’attività di revisione si trova nella casella in entrata delle notifiche di AEM per ogni revisore.
+   - **Non avviato**: il revisore non ha ancora aperto l&#39;attività di revisione.
+   - **In corso**: il revisore ha aperto l&#39;attività di revisione e sta esaminando l&#39;argomento.
+   - **Completo**: il revisore ha completato la revisione e ha contrassegnato l&#39;attività come completata nell&#39;interfaccia utente Revisione. L’attività di revisione si trova nella casella in entrata delle notifiche di AEM per ogni Revisore.
 - Quando un revisore apre un collegamento di revisione e passa a un particolare argomento, tale argomento viene aggiunto all&#39;elenco Argomenti esaminati. In questo modo gli autori possono determinare se i revisori hanno aperto le rispettive sezioni o meno. Eventuali commenti sono riportati tra parentesi.
 - Numero totale di commenti su tutti gli argomenti. In caso di più argomenti in revisione, il numero di commenti per ciascun argomento è indicato \(tra parentesi\) rispetto al nome dell’argomento.
 - Data dell&#39;ultimo accesso a un argomento da parte del revisore.
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

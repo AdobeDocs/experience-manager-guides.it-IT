@@ -2,7 +2,7 @@
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides fornisce uno strumento di assistenza AI che cons
 
 >[!NOTE]
 >
-> Questa funzione di authoring è disponibile solo per gli argomenti DITA ed è accessibile solo dall&#39;interfaccia dell&#39;editor. Nella home page e nella console Mappa viene visualizzato solo il pannello **Guida**. Le opzioni disponibili nella funzione di authoring vengono configurate a livello di profilo della cartella dagli amministratori mediante le impostazioni dell’editor.
+> Questa funzione di authoring è disponibile solo per gli argomenti DITA ed è accessibile solo dall&#39;interfaccia dell&#39;editor. Nella home page e nella console Mappa viene visualizzato solo il pannello **Guida**. Le opzioni disponibili nella funzione di authoring vengono configurate a livello di profilo della cartella dagli amministratori utilizzando le impostazioni di Workspace.
 
 Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
 

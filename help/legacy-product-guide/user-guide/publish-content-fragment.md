@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -49,8 +49,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
    * **Titolo**: digita il titolo del frammento di contenuto. Per impostazione predefinita, il titolo viene compilato con il titolo dell’argomento. Puoi modificarlo. Questo titolo viene utilizzato per generare il nome del frammento di contenuto.
    * **Nome**: digitare il nome del frammento di contenuto. Per impostazione predefinita, il nome viene compilato con il titolo dell&#39;argomento e gli spazi vengono sostituiti con &quot;_&quot;. Ad esempio, *sample_content_fragment*. Puoi modificarlo.  Questo nome viene utilizzato per generare l’URL per il frammento di contenuto.
 
-   * Puoi selezionare condizioni diverse per creare varianti di frammenti di contenuto. Selezionare una delle opzioni seguenti:
-
+   * Puoi selezionare condizioni diverse per creare varianti di frammenti di contenuto. Seleziona una delle opzioni seguenti:
      >[!NOTE]
      > 
      > Le condizioni sono abilitate solo se gli attributi della condizione sono definiti nell&#39;argomento.
@@ -113,4 +112,4 @@ Per un frammento di contenuto è inoltre possibile eseguire le azioni seguenti d
 
 Il nuovo script di migrazione dei contenuti UUID è stato ottimizzato in modo significativo, rendendo la migrazione dei contenuti da Non-UUID a UUID 30 volte più veloce dello script precedente. Include funzioni quali la ripresa dai punti di controllo, informazioni live, tempo di completamento stimato e reporting dettagliato, garantendo un processo di migrazione armonioso. In particolare, il processo di migrazione mantiene i metadati delle risorse senza alcuna modifica. Lo script è stato testato e verificato su un ampio set di dati di 3 milioni di risorse, a conferma della sua efficienza e affidabilità per le migrazioni su larga scala.
 
-Ulteriori informazioni sulla [migrazione di contenuti da non-UUID a UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Ulteriori informazioni sulla [migrazione di contenuti da non-UUID a UUID](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

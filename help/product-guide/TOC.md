@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 8%
+source-wordcount: '2401'
+ht-degree: 9%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Servizi cloud {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2025 {#2025-releases}
+            - Versione 2025.10.0 {#2510-release}
+               - [Novità](./release-info/whats-new-2025-10-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2025-10-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2025-10-0.md)
             - Versione 2025.08.0 {#2508-release}
                - [Novità](./release-info/whats-new-2025-08-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 8%
             - [Pannello sinistro](./user-guide/web-editor-left-panel.md)
             - [Area di modifica dei contenuti](./user-guide/web-editor-content-editing-area.md)
             - [Pannello a destra](./user-guide/web-editor-right-panel.md)
-         - [Funzioni aggiuntive nell’editor](./user-guide/web-editor-other-features.md)
-         - [Utilizzo delle impostazioni dell’editor](./user-guide/web-editor-settings.md)
+         - [Funzionalità aggiuntive nell&#39;editor](./user-guide/web-editor-other-features.md)
          - [Scelte rapide da tastiera nell’editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Visualizzazioni dell’editor](./user-guide/web-editor-views.md)
          - [Supporto per i file Schematron](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 8%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 8%
       - Migrazione dei contenuti {#content-migration}
          - [Migrazione di contenuti da non-UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processo di migrazione {#migration-process}
-            - [Migrare contenuti non UUID con versioni](./install-guide/migrate-non-uuid-uuid.md)
-            - [Migrare contenuti non UUID con versioni (legacy)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 migrazione di contenuti da non-UUID a 4.3.2 UUID](./install-guide/migrate-non-uuid-4-3.md)
+            - [4.6.0 da non UUID a migrazione contenuti UUID 4.6.1](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Migrare i contenuti esistenti](./install-guide/migrate-content.md)
          - [Carica contenuto DITA esistente](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrare contenuti non DITA](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 8%
          - [Configurare un modello di mappa DITA personalizzato](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Utilizzare gli stati dei documenti {#doc-state-cs}
          - [Configurare gli stati dei documenti](./cs-install-guide/customize-doc-state.md)
+      - Configurare le impostazioni di Workspace {#workspace-configs}
+         - [Impostazioni Workspace](./cs-install-guide/workspace-settings.md)
       - Utilizzare le configurazioni dell’editor web {#web-editor-configs-cs}
          - [Personalizza editor web](./cs-install-guide/conf-web-editor.md)
          - [Personalizza barra degli strumenti](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 8%
    - [API basata su Java per lavorare con i profili di cartelle](./api-reference/folder-profile-java.md)
    - [API basata su Java per la creazione e l’attivazione di pacchetti](./api-reference/create-activate-package-java.md)
    - [Gestore di eventi di post-elaborazione](./api-reference/post-process-event.md)
+   - [API per tenere traccia dello stato di post-elaborazione di una cartella o di una risorsa](./api-reference/track-post-processing-status.md)
    - [Gestore eventi di completamento attivazione in blocco](./api-reference/bulk-activation-complete-event.md)
    - [Gestore di eventi del processo di conversione](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}

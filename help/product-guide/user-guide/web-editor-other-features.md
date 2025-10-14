@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -246,8 +246,19 @@ Per generare automaticamente l’ID per uno o più elementi, effettua le seguent
 1. Seleziona il contenuto a cui assegnare gli ID.
 1. Fare clic con il pulsante destro del mouse e selezionare **Genera ID** dal menu di scelta rapida.
 
-   In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb e selezionare **Genera ID**.
+In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb e selezionare **Genera ID**.
 
+## Identificazione di ID duplicati per gli elementi di una mappa o di un argomento nella vista Creazione
+
+Se un argomento o una mappa specifica contiene elementi con ID duplicati, nell&#39;angolo inferiore destro dell&#39;area di modifica del contenuto adiacente alle visualizzazioni dell&#39;editor viene visualizzato un pulsante **ID duplicati**.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Selezionando **ID duplicati** si apre un popover in cui sono elencati tutti gli ID duplicati. Puoi selezionare l’ID visualizzato dal popover per passare all’elemento corrispondente e aggiornarlo con un ID univoco.
+
+>[!NOTE]
+>
+> Il pulsante **ID duplicati** è disponibile solo nella visualizzazione **Autore** e ID di elementi simili sono consentiti in diversi argomenti nidificati.
 
 
 ## Gestione di file di grandi dimensioni nell’editor
@@ -268,4 +279,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-**Argomento padre:**&#x200B;[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

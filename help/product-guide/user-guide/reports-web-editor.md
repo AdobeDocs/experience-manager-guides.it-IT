@@ -4,9 +4,9 @@ description: Generare rapporti di mappe DITA dalla console delle mappe in AEM Gu
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Il report **Elenco argomenti** fornisce informazioni dettagliate sugli argomenti
    - **Percorso file** Percorso completo dell&#39;argomento.
    - **Tipo di riferimento** Il tipo di riferimento - diretto o indiretto.
    - **Stato documento** Lo stato dell&#39;argomento.
-   - **Autore** l&#39;ultimo utente che ha lavorato sull&#39;argomento.
+   - **Autore** l&#39;ultimo utente che ha lavorato sull&#39;argomento. L’elenco viene impaginato e caricato in modo asincrono, mostrando un set limitato di utenti alla volta e recuperandone altri durante lo scorrimento o la navigazione. Ciò migliora la velocità di caricamento e le prestazioni complessive, soprattutto quando si lavora con un numero elevato di utenti.
    - **Mappa padre** L&#39;elenco di tutte le mappe in cui si fa riferimento direttamente all&#39;argomento.
-
    >[!NOTE]
    >
    > Seleziona **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare eventuali modifiche nel file di mappa o se un riferimento all&#39;interno del file di argomenti viene aggiornato.
@@ -149,7 +148,7 @@ Per aggiornare i metadati, effettuare le seguenti operazioni:
 
 Questa funzione consente di aggiungere colonne di metadati personalizzate in base alle esigenze, che vengono quindi visualizzate nei rapporti sui metadati. Offre inoltre maggiore flessibilità nella generazione di rapporti sui metadati. Per aggiungere una nuova colonna di metadati personalizzata, effettua le seguenti operazioni:
 
-1. Per aggiungere una colonna di metadati personalizzata, seleziona **Impostazioni** dai tre punti nell&#39;angolo in alto a destra della pagina dei metadati.
+1. Per aggiungere una colonna di metadati personalizzata, seleziona **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) dai tre punti nell&#39;angolo in alto a destra della pagina dei metadati.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
    - **Tipo multimediale** \(selezionato per impostazione predefinita\) Tipo del file multimediale. Le opzioni disponibili sono Audio, Video o Immagine.
    - **Usato In** \(selezionato per impostazione predefinita\) I riferimenti in cui è stato utilizzato il contenuto multimediale. Potete selezionare il riferimento per modificarlo.
    - **Tipo di riferimento** \(selezionato per impostazione predefinita\) Il tipo di riferimento - diretto o indiretto.
-
    >[!NOTE]
    >
    > Selezionare **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare eventuali modifiche nel file di mappa o eventuali elementi multimediali nella mappa DITA aggiornati.
@@ -268,4 +266,4 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Selezionare **Scarica** per scaricare lo snapshot di tutti i collegamenti interrotti nella mappa DITA. Il file Excel contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti.
 
 
-**Argomento padre:**&#x200B;[ Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

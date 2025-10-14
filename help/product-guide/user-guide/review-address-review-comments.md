@@ -4,9 +4,9 @@ description: Scopri come indirizzare i commenti di revisione come autori in AEM 
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 - **G**: cerca un testo all&#39;interno di commenti.
 - **H**: accettare o rifiutare un commento.
 
-- **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento.
+- **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento. Per impostazione predefinita, nessuno dei filtri è selezionato.
 
-**Rispondi a un commento assegnando tag ad altri utenti**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Rispondi a un commento assegnando tag ad altri utenti**
 
 In qualità di autore e di iniziatore dell&#39;attività di revisione, è possibile rispondere ai commenti di revisione e assegnare tag ad altri utenti coinvolti nella stessa attività di revisione per indirizzare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
 
@@ -90,4 +91,4 @@ Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apr
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Argomento padre:**&#x200B;[ Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

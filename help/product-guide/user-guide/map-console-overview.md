@@ -4,9 +4,9 @@ description: Scopri la console Mappa e le varie funzioni disponibili che consent
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ L&#39;interfaccia della console Mappa è principalmente divisa in due sezioni: *
 
    - **Commutatore navigazione**: consente la navigazione diretta ad altre pagine - Editor o Home page:
    - **File mappa selezionato**: visualizza il nome del file mappa attualmente selezionato. Puoi aprirlo nell’editor o scegliere un file di mappa diverso per la console Mappa.
-   - **Altre azioni**: fornisce opzioni per passare alla **interfaccia utente di Assets** e alle **impostazioni**. Per ulteriori informazioni, vedere la sezione **Altre azioni** del documento [Conoscere le caratteristiche dell&#39;editor](./web-editor-features.md#tab-bar).
+   - **Altre azioni**: fornisce opzioni per passare alla **interfaccia utente di Assets** e alle **impostazioni Workspace**. Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Se si utilizza Adobe Experience Manager Guides in una configurazione locale, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
+
    - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Per ulteriori dettagli, visualizzare [Generazione output](./generate-output.md).
 
 **Creazione e gestione dei report**
 
-In una configurazione organizzativa, desideri verificare la completezza complessiva della documentazione tecnica prima di iniziare a lavorarci o a inviare i documenti in diretta. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala. Con Map Console, puoi accedere ai rapporti di Experience Manager Guides che forniscono informazioni utili sullo stato generale del contenuto nell’archivio e sul modo in cui il contenuto viene utilizzato nel processo di documentazione.
+In una configurazione organizzativa, desideri verificare la completezza complessiva della documentazione tecnica prima di iniziare a lavorarci o a inviare i documenti in diretta. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala. Con la console Map puoi accedere ai rapporti di Experience Manager Guides che forniscono un utile insight sullo stato complessivo del contenuto nell’archivio e sul modo in cui il contenuto viene utilizzato nel processo di documentazione.
 
 Per ulteriori dettagli, visualizzare [i report in Experience Manager Guides](./reports-intro.md).
 
