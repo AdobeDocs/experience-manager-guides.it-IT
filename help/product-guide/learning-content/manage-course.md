@@ -4,9 +4,9 @@ description: Scopri le varie funzioni presenti in Experience Manager Guides che 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Per aggiungere nuovi contenuti al corso, effettua le seguenti operazioni:
    - **Gruppo**: un gruppo di apprendimento consente di organizzare in un ordine logico argomenti correlati come capitoli, argomenti e altri moduli, creando una gerarchia chiara che semplifica la gestione e il riutilizzo dei materiali di formazione.
 3. Seleziona **Crea**.
 
-Il contenuto selezionato viene creato e aggiunto al corso. Per una panoramica video, visualizza [Aggiungi nuovo contenuto a un corso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Il contenuto selezionato viene creato e aggiunto al corso. Per una panoramica video, visualizzare [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Aggiungi contenuto esistente
 
@@ -50,7 +50,7 @@ Il contenuto del corso selezionato viene aggiunto al corso dall’archivio.
 >
 >È inoltre possibile utilizzare l&#39;opzione **Aggiungi file esistente** > **File (solo risorsa zip)** per includere un file zip che viene decompresso e integrato nella struttura di cartelle dell&#39;output SCORM finale. Questo consente di semplificare la creazione di pacchetti di risorse durante la pubblicazione del corso.
 
-Per una panoramica video, visualizza [Aggiungi contenuto esistente al corso](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Per una panoramica video, visualizzare [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Rimuovi contenuto
 
@@ -58,7 +58,8 @@ Per una panoramica video, visualizza [Aggiungi contenuto esistente al corso](htt
 
 ![](assets/remove-learning-content.png)
 
-Per una panoramica video, visualizza [Rimuovi contenuto dal corso](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Per una panoramica video, visualizzare [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+
 
 ## Creare versioni del corso
 
@@ -82,4 +83,4 @@ L&#39;opzione **Mostra** determina la modalità di visualizzazione degli argomen
 
 ![](assets/course-display-settings.png)
 
-Per una panoramica video, visualizza [Mostra opzioni](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Per una panoramica video, visualizzare [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
