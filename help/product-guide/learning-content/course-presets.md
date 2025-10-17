@@ -4,9 +4,9 @@ description: Fornisce un’introduzione ai predefiniti supportati per la pubblic
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Quando pubblichi un corso, puoi scegliere SCORM e PDF per distribuire i contenut
 
 - **PDF:** Il predefinito di output di PDF consente di pubblicare il contenuto del corso in un formato professionale pronto per la stampa. Il formato PDF lo rende ideale per la condivisione dei contenuti a scopo di revisione o archiviazione.
 
-Per una panoramica video su come creare, configurare e generare output per un predefinito, visualizzare [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
+Per una panoramica video su come creare, configurare e generare l&#39;output per un predefinito, visualizzare [Predefiniti supportati](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).
