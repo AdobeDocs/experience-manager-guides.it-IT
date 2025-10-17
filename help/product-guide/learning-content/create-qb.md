@@ -4,9 +4,9 @@ description: Scopri come creare una banca domande nel corso di formazione e appr
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Prima di approfondire la procedura dettagliata, ecco un breve video che illustra
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Per creare una banca di domande, effettua le seguenti operazioni:
+**Passaggi per creare una banca domande**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Per creare una banca di domande, effettua le seguenti operazioni:
 
 1. Apri un corso in **Gestione corsi** e seleziona **Aggiungi nuovo** dal menu **Opzioni**.
 1. Seleziona **Banca domande**.
