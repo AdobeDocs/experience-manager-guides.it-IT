@@ -4,7 +4,7 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Funzioni dell’editor mappa {#id1942D0S0IHS}
 
-La barra degli strumenti nell&#39;Editor mappa è simile all&#39;Editor argomenti. Le operazioni di base, come l’attivazione del pannello sinistro, il salvataggio della mappa, la creazione di una nuova versione della mappa, l’annullamento/ripristino dell’ultima operazione e l’eliminazione degli elementi selezionati, sono comuni in entrambi gli editor. Per informazioni dettagliate sul funzionamento di queste operazioni, visualizzare la sezione [Informazioni sulle caratteristiche dell&#39;editor](web-editor-features.md#).
+La barra degli strumenti nell&#39;Editor mappa è simile all&#39;Editor argomenti. Le operazioni di base, come l’attivazione del pannello sinistro, il salvataggio della mappa, la creazione di una nuova versione della mappa, l’annullamento/ripristino dell’ultima operazione e l’eliminazione degli elementi selezionati, sono comuni in entrambi gli editor. Per informazioni dettagliate sul funzionamento di queste operazioni, visualizzare [Barra degli strumenti nella sezione Editor](web-editor-toolbar.md#).
 
 Le opzioni visualizzate nella barra degli strumenti dell’editor si basano sulla vista Editor mappa. Nell’Editor mappa sono disponibili quattro visualizzazioni:
 
@@ -146,7 +146,7 @@ Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività co
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
