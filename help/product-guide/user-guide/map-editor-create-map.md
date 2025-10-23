@@ -4,7 +4,7 @@ description: Crea una mappa con Editor mappe in Experience Manager Guides. Trova
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Barra delle schede*\): simile alla barra delle schede dell&#39;editor. Visualizza [barra delle schede](./web-editor-features.md#tab-bar) nell&#39;editor per ulteriori dettagli.
+   - **A** - \(*Barra delle schede*\): simile alla barra delle schede dell&#39;editor. Visualizza [barra delle schede](./web-editor-tab-bar.md) nell&#39;editor per ulteriori dettagli.
 
    - **B** - \(*Barra degli strumenti*\) Questa è la barra degli strumenti che consente di utilizzare i file di mapping. Per ulteriori informazioni sulle funzionalità disponibili tramite la barra degli strumenti, visualizzare [Funzionalità disponibili nella barra degli strumenti dell&#39;Editor mappe](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Visualizzazioni mappa*\): consente di passare dall&#39;Editor mappa a Layout, Autore, Source e Anteprima. La visualizzazione **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. La visualizzazione **Autore** consente di modificare gli argomenti nell&#39;Editor mappa. Questo offre anche la vista WYSIWYG del file di mappa. La visualizzazione **Source** consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa.
 
-   - **D** - \(*Pannello sinistro*\): consente di accedere al pannello sinistro che consente di accedere alle raccolte, all&#39;archivio, alla mappa, alla struttura e ad altre funzionalità. Puoi espanderla o comprimerla selezionando l’icona Espandi/Comprimi. Per ulteriori dettagli sulle funzionalità disponibili nel pannello sinistro, visualizza [Pannello sinistro](./web-editor-features.md#left-panel) nell&#39;editor.
+   - **D** - \(*Pannello sinistro*\): consente di accedere al pannello sinistro che consente di accedere alle raccolte, all&#39;archivio, alla mappa, alla struttura e ad altre funzionalità. Puoi espanderla o comprimerla selezionando l’icona Espandi/Comprimi. Per ulteriori dettagli sulle funzionalità disponibili nel pannello sinistro, visualizza [Pannello sinistro](./web-editor-left-panel.md) nell&#39;editor.
 
    - **E** - \(*Area centrale*\): area di modifica contenuto mappa.
 
-   - **F** - \(*Pannello destro*\): consente di accedere al pannello Proprietà. È possibile visualizzare le proprietà del contenuto e le proprietà della mappa dell&#39;argomento o della mappa selezionata. Per ulteriori dettagli sulle funzionalità disponibili in questo pannello, visualizza [Pannello a destra](web-editor-features.md#right-panel) nell&#39;editor.
+   - **F** - \(*Pannello destro*\): consente di accedere al pannello Proprietà. È possibile visualizzare le proprietà del contenuto e le proprietà della mappa dell&#39;argomento o della mappa selezionata. Per ulteriori dettagli sulle funzionalità disponibili in questo pannello, visualizza [Pannello a destra](web-editor-right-panel.md) nell&#39;editor.
 
 1. Nel pannello sinistro passare alla visualizzazione **Archivio**.
 

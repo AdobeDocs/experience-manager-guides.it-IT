@@ -4,7 +4,7 @@ description: Visualizza gli argomenti in modalità di creazione, origine e antep
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 L’interfaccia dell’editor in Adobe Experience Manager supporta la visualizzazione degli argomenti in tre diverse modalità o visualizzazioni:
 
 * [Autore](#author)
-* [Sorgente](#source)
+* [Origine](#source)
 * [Anteprima](#preview)
 
 ## Autore
@@ -27,7 +27,7 @@ L’interfaccia dell’editor in Adobe Experience Manager supporta la visualizza
 >
 > Quando utilizzi il riferimento al contenuto, il contenuto a cui si fa riferimento viene visualizzato anche nella vista Autore in blu. Il contenuto a cui si fa riferimento non è modificabile.
 
-## Sorgente
+## Origine
 
 Nella visualizzazione Source viene visualizzato il codice XML sottostante che costituisce l&#39;argomento. Se si ha familiarità con l&#39;utilizzo diretto di XML, è consigliabile utilizzare la visualizzazione Source. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, è possibile aggiungere elementi e attributi utilizzando lo Smart Catalog oppure trovare e sostituire testo, elementi o attributi.
 
@@ -49,7 +49,7 @@ Nella visualizzazione Source viene visualizzato il codice XML sottostante che co
   Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
 
 * La funzione Trova e sostituisci consente di cercare qualsiasi testo, elemento o attributo nella vista Source.
-Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Trova e sostituisci** nella sezione [Barra delle schede](web-editor-features.md#tab-bar).
+Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Trova e sostituisci** nella sezione [Barra delle schede](web-editor-tab-bar.md).
 
 * Nella visualizzazione Source sono disponibili numerose scelte rapide che consentono di spostarsi e lavorare rapidamente su un documento. Nella tabella seguente sono elencate le azioni supportate e i relativi tasti di scelta rapida:
 
@@ -149,4 +149,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -4,7 +4,7 @@ description: Scopri come creare un modello personalizzato, utilizzarlo per crear
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Experience Manager Guides consente di creare mappe e argomenti personalizz
 
 ### Creare modelli personalizzati dall’editor
 
-La funzionalità **Modelli** è presente nel [pannello sinistro dell&#39;interfaccia Editor](./web-editor-features.md#left-panel) ed è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati nei modelli di tipo *map* e *topic*.
+La funzionalità **Modelli** è presente nel [pannello sinistro dell&#39;interfaccia Editor](./web-editor-left-panel.md) ed è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati nei modelli di tipo *map* e *topic*.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -230,4 +230,4 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 
 - Se nella cartella viene creato un altro argomento o mappa allo stesso livello, i nomi delle nuove risorse vengono aggiunti 0, 1, 2 e così via. È possibile scegliere di aprire la mappa per la modifica o salvare il file di mappa nel repository.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)

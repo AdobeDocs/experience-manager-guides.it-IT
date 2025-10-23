@@ -4,7 +4,7 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Poiché il flusso di lavoro di revisione è specifico per il progetto, l&#39;ini
 
 Puoi creare un’attività di revisione da:
 
-- **Editor**: consente di inviare un singolo argomento o una mappa DITA per la revisione. Il flusso di lavoro per la creazione di un’attività di revisione è comune nell’interfaccia utente di Editor e Assets. Solo il metodo di avvio del flusso di lavoro di revisione è diverso. Per informazioni sull&#39;avvio del flusso di lavoro di revisione dall&#39;editor, visualizzare la funzionalità [Crea attività di revisione](web-editor-features.md#id215OCJ00JXA) nell&#39;editor.
+- **Editor**: consente di inviare un singolo argomento o una mappa DITA per la revisione. Il flusso di lavoro per la creazione di un’attività di revisione è comune nell’interfaccia utente di Editor e Assets. Solo il metodo di avvio del flusso di lavoro di revisione è diverso. Per informazioni sull&#39;avvio del flusso di lavoro di revisione dall&#39;editor, visualizzare la funzionalità [Crea attività di revisione](web-editor-left-panel.md#review) nell&#39;editor.
 
 - **Interfaccia utente di Assets**: consente di inviare uno o più argomenti e mappa DITA per la revisione. La condivisione di documenti da rivedere dal flusso di lavoro dell’interfaccia utente di Assets è trattata in questo argomento.
 
@@ -250,7 +250,6 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
    - **Riassegna**: visualizza la finestra di dialogo Riassegna revisori. È possibile digitare il nome di un revisore o di un ruolo utente \(o gruppo\) a cui si desidera assegnare l&#39;attività di revisione. In questo modo tutti i revisori esistenti verranno rimossi dagli argomenti selezionati e i revisori appena selezionati verranno assegnati a tali argomenti.
    - **Esporta**: consente di esportare i dettagli dell&#39;attività di revisione in un file CSV. Il file contiene dettagli quali il percorso e il titolo dell&#39;argomento, il nome del revisore e la versione degli argomenti inviati per la revisione.
    - **Modifica revisori**: se si seleziona l&#39;icona ![](images/edit_pencil_icon.svg) nell&#39;elenco degli argomenti, viene visualizzata la finestra di dialogo Modifica revisori. Da questa finestra di dialogo è possibile aggiungere o rimuovere revisori per l&#39;argomento selezionato.
-
    >[!IMPORTANT]
    >
    > È necessario assegnare almeno un revisore per creare l&#39;attività di revisione.
@@ -270,4 +269,4 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
 A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

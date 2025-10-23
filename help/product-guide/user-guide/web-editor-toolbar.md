@@ -4,7 +4,7 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '5962'
 ht-degree: 0%
@@ -84,7 +84,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -406,7 +406,7 @@ Puoi anche aggiungere altre proprietà per un file di immagine selezionando le p
 
 >[!NOTE]
 >
->Puoi anche definire le aree cliccabili \(mappa immagine\) nell’immagine. Per ulteriori dettagli, visualizzare la descrizione della funzione **Inserisci/Modifica mappa immagine** nella sezione [Pannello sinistro](web-editor-features.md#left-panel).
+>Puoi anche definire le aree cliccabili \(mappa immagine\) nell’immagine. Per ulteriori dettagli, visualizzare la descrizione della funzione **Inserisci/Modifica mappa immagine** nella sezione [Pannello sinistro](web-editor-left-panel.md).
 
 **Menu di scelta rapida per file immagine o multimediali**
 
@@ -623,4 +623,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

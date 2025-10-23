@@ -4,7 +4,7 @@ description: Scopri come indirizzare i commenti di revisione come autori in AEM 
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
 
-In qualità di autore, puoi indirizzare i commenti in un argomento utilizzando l’Editor. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità **del pannello** Review![](images/active-review-tasklist-icon.svg) nella sezione [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
+In qualità di autore, puoi indirizzare i commenti in un argomento utilizzando l’Editor. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità **del pannello** Review![](images/active-review-tasklist-icon.svg) nella sezione [Left Panel](../user-guide/web-editor-left-panel.md).
 
 Nelle sezioni seguenti vengono descritti i modi in cui i commenti vengono inseriti nell’editor.
 
@@ -83,7 +83,7 @@ In qualità di autore e di iniziatore dell&#39;attività di revisione, è possib
 ![](images/tag-users-review.png){width="350" align="left"}
 *Didascalia:Tag utenti come iniziatore/autore*
 
-Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere prontamente informati. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere informati tempestivamente. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
 **Accedere ai commenti di revisione utilizzando l&#39;interfaccia utente Revisione**
 
@@ -91,4 +91,4 @@ Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apr
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

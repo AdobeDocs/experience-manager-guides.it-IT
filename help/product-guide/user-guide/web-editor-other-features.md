@@ -4,7 +4,7 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Di seguito sono illustrate le varie opzioni del menu di scelta rapida:
 
 ***Salva come nuova versione***
 
-Per creare una nuova versione del file, selezionare **Salva come nuova versione**. Per ulteriori dettagli su **Salva** e **Salva come nuova versione**, visualizza [Scopri le funzionalità dell&#39;editor](web-editor-features.md#).
+Per creare una nuova versione del file, selezionare **Salva come nuova versione**. Per ulteriori dettagli su **Salva** e **Salva come nuova versione**, visualizza [Barra degli strumenti nell&#39;editor](web-editor-toolbar.md).
 
 ***Copia***: puoi scegliere tra le seguenti opzioni:
 
@@ -66,9 +66,9 @@ Per creare una nuova versione del file, selezionare **Salva come nuova versione*
 
 ***Aggiungi a***: puoi scegliere tra le seguenti opzioni:
 
-- **Raccolte**: per aggiungere il file selezionato alle raccolte, selezionare **Aggiungi a \> Raccolte**. Per ulteriori dettagli, visualizza la descrizione della funzione **Raccolte** nella sezione [Pannello sinistro](web-editor-features.md#left-panel).
+- **Raccolte**: per aggiungere il file selezionato alle raccolte, selezionare **Aggiungi a \> Raccolte**. Per ulteriori dettagli, visualizza la descrizione della funzione **Raccolte** nella sezione [Pannello sinistro](web-editor-left-panel.md).
 
-- **Contenuto riutilizzabile**: per copiare il file selezionato nell&#39;elenco dei contenuti riutilizzabili, selezionare **Aggiungi a \> Contenuto riutilizzabile**. Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Contenuto riutilizzabile** nella sezione [Pannello sinistro](web-editor-features.md#left-panel).
+- **Contenuto riutilizzabile**: per copiare il file selezionato nell&#39;elenco dei contenuti riutilizzabili, selezionare **Aggiungi a \> Contenuto riutilizzabile**. Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Contenuto riutilizzabile** nella sezione [Pannello sinistro](web-editor-left-panel.md).
 
 ***Proprietà***
 
@@ -114,7 +114,7 @@ L’esperienza di salvataggio dei file dipenderà dai tre scenari seguenti, in c
 A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche salvate o non salvate, è possibile visualizzare le seguenti opzioni:
 
 - **Sblocca e chiudi**: il blocco sul file viene rilasciato e il file viene chiuso.
-- **Salva come nuova versione**: verranno salvate le modifiche apportate al contenuto e verrà creata una nuova versione del file. Puoi anche aggiungere etichette e commenti per la nuova versione salvata. Per ulteriori informazioni sul salvataggio di una nuova versione, visualizzare [Salva come nuova versione](web-editor-features.md#save-as-new-version).
+- **Salva come nuova versione**: verranno salvate le modifiche apportate al contenuto e verrà creata una nuova versione del file. Puoi anche aggiungere etichette e commenti per la nuova versione salvata. Per ulteriori informazioni sul salvataggio di una nuova versione, visualizzare [Salva come nuova versione](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Sblocca il file**: se si sceglie di sbloccare un file, il blocco verrà rilasciato sul file e le modifiche verranno salvate nella versione corrente del file.
 
@@ -279,4 +279,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
