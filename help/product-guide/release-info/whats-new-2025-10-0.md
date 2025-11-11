@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2025.10.0
 description: Scopri le funzioni nuove e migliorate della versione 2025.10.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ Per ulteriori dettagli, visualizzare [Richiedere un riesame o chiudere un&#39;at
 
 È ora disponibile una nuova API per monitorare lo stato di post-elaborazione di singole risorse e cartelle. Questa funzione è particolarmente utile per i team che utilizzano flussi di lavoro automatizzati, in cui la pubblicazione deve avvenire solo dopo che il contenuto è stato completamente elaborato. L’API offre un modo affidabile per confermare la preparazione, riducendo il rischio di errori di pubblicazione causati da un’elaborazione incompleta.
 
-Per informazioni dettagliate, visualizza [API per tenere traccia dello stato di post-elaborazione di cartelle o risorse](../api-reference/track-post-processing-status.md).
+Inoltre, con l’introduzione di questa API, gli eventi di post-elaborazione delle risorse non verranno attivati automaticamente. Gli amministratori possono ora abilitare questo evento tramite un&#39;impostazione in `fmdita config manager`.
+
+Per ulteriori informazioni, vedere:
+
+- [API per tenere traccia dello stato di post-elaborazione di singole risorse e cartelle](../api-reference/track-post-processing-status.md)
+- [Impostazione del gestore eventi di post-elaborazione in Gestione configurazione fmdita](../api-reference/post-process-event.md)
 
