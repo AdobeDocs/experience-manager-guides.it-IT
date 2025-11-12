@@ -4,7 +4,7 @@ description: Creare documenti Markdown dall’Editor. Scopri come creare, creare
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown è un linguaggio di markup leggero che consente di aggiungere elementi 
 Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
 
 1. Nel pannello Archivio selezionare ![](images/Add_icon.svg), quindi **Argomento** dal menu a discesa.
-2. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
+1. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
    >[!NOTE]
    >
    > In caso di aggiornamento, devi aggiungere il modello Markdown al profilo della cartella corrente in uso. È possibile [creare un nuovo modello di markdown dall&#39;editor](./web-editor-features.md#templates) o utilizzare un modello esistente per la creazione di markdown. Per informazioni dettagliate su come aggiungere modelli di authoring in Experience Manager Guides, visualizzare [Configurare profili globali o a livello di cartella](../cs-install-guide/conf-folder-level.md).
-3. Seleziona **Crea**.
+1. Seleziona **Crea**.
 
    L&#39;argomento Markdown viene creato nel percorso selezionato e può essere modificato.
 
@@ -106,7 +106,7 @@ Per l’authoring Markdown, l’editor supporta tre diverse modalità di visuali
 
 ![](images/markdown-footer.png){align="left"}
 
-* Sorgente
+* Origine
 * Affiancato
 * Anteprima
 
@@ -175,4 +175,4 @@ Le seguenti funzioni di Experience Manager Guides non sono attualmente applicabi
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

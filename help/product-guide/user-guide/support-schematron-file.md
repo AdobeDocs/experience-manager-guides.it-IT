@@ -4,9 +4,9 @@ description: Scopri come importare e convalidare un argomento DITA, utilizzare l
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il panne
 
 1. Selezionate l&#39;icona Schematron () per aprire il pannello Schematron.
 1. Utilizzare **Aggiungi file di schema** per aggiungere file di schema.
+
+   >[!NOTE]
+   >
+   > Quando si aggiunge un file Schematron non valido, nel pannello Convalida viene visualizzato un messaggio di errore.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
+
    >[!NOTE]
    >
    >Per rimuoverla, potete utilizzare l&#39;icona croce accanto al nome del file Schematron.
+
 1. Selezionare **Convalida con schema** per convalidare l&#39;argomento.
 
    * Se l’argomento non rispetta alcuna regola, viene visualizzato il messaggio di convalida riuscita per il file.

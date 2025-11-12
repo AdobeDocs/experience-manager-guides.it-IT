@@ -4,9 +4,10 @@ description: Scopri come personalizzare i modelli di sito AEM esistenti per AEM 
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ Se utilizzi il modello predefinito AEM Guides (AEMG Docs), le configurazioni e i
 
 I nomi dei modelli variano in base alla configurazione del progetto. Ad esempio, nella configurazione OOTB AEMG Docs:
 
-- Pagina contenitore documentazione: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Pagina contenitore documentazione: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Pagina argomento: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Pagina argomento: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Personalizzazione:** Il processo di personalizzazione prevede due passaggi principali:
 
@@ -85,7 +86,7 @@ Se si dispone di un argomento DITA relativo alle &quot;Istruzioni di installazio
 
 >[!NOTE]
 >
-> Assicurarsi che i componenti che utilizzano sling:resourceType in wcm/foundation/components siano migrati ai corrispondenti core/wcm/components.
+> Assicurarsi che i componenti che utilizzano Sling:resourceType in `wcm/foundation/components` siano migrati al `core/wcm/components` corrispondente.
 
 Aggiungi lo stesso (contenitore e componente testo) nella struttura dello stesso modello:
 
@@ -139,4 +140,4 @@ Per impostazione predefinita, le librerie client (clientlibs) fornite nel pacche
 
 >[!NOTE]
 >
-> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/it/docs/experience-manager-core-components/using/get-started/authoring).
+> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).

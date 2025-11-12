@@ -3,9 +3,9 @@ title: Impostazioni Workspace in Experience Manager Guides
 description: Scopri le varie impostazioni disponibili nell’interfaccia dell’editor di Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Questa impostazione consente di controllare i pannelli visualizzati nei pannelli
 
 Potete anche definire l&#39;ordine di visualizzazione delle feature presenti nei pannelli. Per modificare l&#39;ordine di default delle feature disponibili nei pannelli, selezionate le barre punteggiate per trascinare e rilasciare le linguette delle feature nella posizione desiderata. Una funzione può anche essere spostata dalla sezione **Altro** alla sezione principale di un pannello e viceversa in base al requisito. Una volta riordinate, le feature vengono visualizzate nella stessa sequenza nei rispettivi pannelli destro e sinistro.
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 È possibile visualizzare fino a otto pannelli alla volta. Tutte le modifiche apportate alle impostazioni del pannello vengono applicate immediatamente.
@@ -188,13 +188,16 @@ Questa scheda contiene le opzioni per configurare le convalide Schematron nell�
 
   >[!NOTE]
   >
-  > I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
+  >- I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
+  >- Quando si aggiunge un file Schematron non valido, viene visualizzato un messaggio di errore, come illustrato di seguito.
 
-  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
 - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, l&#39;opzione per aggiungere il file schematron **Aggiungi file schematron** non è disponibile per gli utenti nel **pannello di convalida** dell&#39;editor.
+
+  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Visualizza attributi

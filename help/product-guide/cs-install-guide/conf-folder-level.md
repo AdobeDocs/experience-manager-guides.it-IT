@@ -5,16 +5,16 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
 
 # Configurare profili globali o a livello di cartella {#id181AH2003PF}
 
-In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
+In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurandoli solo a livello aziendale \(o globale\) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
 
 AEM Guides consente di configurare modelli di authoring (argomento o mappa\), modelli di output, attributi condizionali e configurazioni dell’editor web a livello aziendale (globale\) e a livello di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
 
@@ -94,7 +94,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
-1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic su **Profili cartella**.
+1. Selezionare **Guide** dall&#39;elenco degli strumenti e fare clic sul riquadro **Profili cartella**.
 
    Per la prima volta viene visualizzata la pagina Profili cartella con solo il riquadro Profilo globale.
 
@@ -192,7 +192,7 @@ Per configurare gli attributi condizionali standard supportati da DITA a livello
 
 1. Fai clic su **Modifica**.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
 1. Immettere **Nome**, **Valore** e **Etichetta** per l&#39;attributo condizionale.
 
@@ -232,7 +232,7 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 
 ## Configurare i modelli {#id1889D0IL0Y4}
 
-AEM Guides viene fornito con 7 modelli di argomenti predefiniti, 2 modelli di mappe DITA e 3 modelli PDF. Puoi scegliere di avere solo pochi modelli disponibili per gli autori e gli editori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring e la pubblicazione. La scheda **Modelli** della configurazione Profili cartelle consente di aggiungere o rimuovere modelli di argomento, mappa o PDF da profili globali o a livello di cartella.
+AEM Guides viene fornito con 7 modelli di argomenti predefiniti, 2 modelli di mappe DITA e 3 modelli PDF. Puoi scegliere di avere solo alcuni modelli disponibili per gli autori e gli editori. Se utilizzi un modello personalizzato, lo stesso può essere configurato e reso disponibile per l’authoring e la pubblicazione. La scheda **Modelli** della configurazione Profili cartelle consente di aggiungere o rimuovere modelli di argomento, mappa o PDF da profili globali o a livello di cartella.
 
 Anche prima di configurare l’argomento, la mappa o i modelli PDF a livello globale o di cartella, puoi definire una posizione in cui memorizzare i modelli personalizzati. Per configurare un percorso personalizzato per l&#39;archiviazione dei modelli, vedere [Configurare il percorso della cartella dei modelli DITA personalizzati](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
@@ -271,7 +271,7 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
 
    - Fai clic su **Sfoglia** e seleziona un modello da DAM.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
    I modelli selezionati vengono aggiunti all&#39;elenco dei modelli.
 
@@ -411,7 +411,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -419,7 +419,7 @@ Per informazioni dettagliate sulla configurazione, visualizzare [Configurazione 
 
 **Configurare suggerimenti avanzati basati sull&#39;intelligenza artificiale**
 
-Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. La scheda **Configurazione IA** consente di controllare le impostazioni di **Suggerisci contenuto riutilizzabile** dal pannello Assistente IA nell&#39;editor Web.
+Puoi configurare i suggerimenti avanzati basati sull’intelligenza artificiale e aiutare gli autori a riutilizzare i contenuti esistenti e a creare facilmente riferimenti a contenuti corretti e coerenti. La scheda **Configurazione IA** consente di controllare le impostazioni di **Suggerisci contenuto riutilizzabile** dal pannello Assistente IA nell&#39;editor.
 
 Per configurare la configurazione di IA standard a livello globale o di cartella, effettua le seguenti operazioni:
 1. Accedi a Adobe Experience Manager come amministratore o utente con diritti di amministratore su un profilo a livello di cartella.
@@ -438,25 +438,68 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
 1. Seleziona **Modifica**.
 1. In qualità di amministratore, puoi configurare le seguenti impostazioni:
 
-   **Caratteri minimi**: immettere il numero minimo di caratteri che gli autori devono digitare per ottenere i suggerimenti. Ad esempio, se questo numero è 7, l’autore deve aggiungere almeno 7 caratteri per visualizzare un suggerimento avanzato.
+   **Caratteri minimi**: immettere il numero minimo di caratteri che gli autori devono selezionare per ottenere i suggerimenti. Ad esempio, se il numero è 40, l’autore deve selezionare almeno 40 caratteri per visualizzare un suggerimento avanzato.
+
+   Per le selezioni che non soddisfano il requisito minimo di caratteri, nel pannello Assistente IA viene visualizzato il seguente messaggio:
+
+   ![](assets/smart-suggestions-character-limit.png)
+
+   Tuttavia, per le selezioni generali in cui non sono disponibili suggerimenti, viene visualizzato il seguente messaggio:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   In questo modo gli autori possono capire se i suggerimenti non sono disponibili a causa di una selezione di caratteri insufficiente o se non vi è effettivamente alcun contenuto corrispondente.
 
    **Numero massimo di suggerimenti**: immetti il numero massimo di suggerimenti che gli autori possono ottenere durante l&#39;authoring del contenuto. Ad esempio, se questo numero è 5, l’autore può visualizzare fino a cinque suggerimenti avanzati.
 
-   **File e cartelle**: selezionare i file o le cartelle da cui visualizzare i suggerimenti avanzati. *Per coerenza del contenuto, si consiglia di non inserire nell&#39;elenco due voci contenenti file comuni*. Dopo aver selezionato i file e le cartelle, vengono elencati.
+   **File e cartelle**: selezionare le cartelle da cui visualizzare i suggerimenti avanzati. È possibile selezionare solo le cartelle secondarie del percorso di cartella specificato in un profilo di cartella. Per ulteriori dettagli, visualizzare [Limitazioni del profilo cartella](#folder-profile-restrictions).
+
+   *Per mantenere la coerenza del contenuto, si consiglia di non inserire nell&#39;elenco due voci contenenti file comuni*. Dopo aver selezionato i file e le cartelle, vengono elencati.
 
 1. Fai clic su **Salva**.
 
    >[!NOTE]
    >
-   > I dettagli degli ultimi stati indicizzati vengono visualizzati nella parte superiore dopo il salvataggio del file.
+   > L’ultimo stato indicizzato del profilo di cartella viene visualizzato nella parte superiore dopo il salvataggio del file.
 
 Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati basati sull&#39;intelligenza artificiale](../user-guide/authoring-ai-based-smart-suggestions.md) per aggiungere riferimenti ai contenuti durante l&#39;authoring nell&#39;editor Web.
 
+### Restrizioni del profilo della cartella
+
+Per garantire il funzionamento efficace dei suggerimenti avanzati, tieni presente quanto segue durante l’indicizzazione delle cartelle:
+
+1. Per consentire all’assistente AI di fornire suggerimenti avanzati agli autori, il contenuto deve essere indicizzato tramite i profili delle cartelle.
+2. Quando si specifica una cartella per l&#39;indicizzazione, è possibile aggiungere solo le cartelle che si trovano sotto il profilo della cartella corrente. Se si tenta di aggiungere cartelle all’esterno di questo profilo di cartella, verrà generato un avviso.
+
+   ![](assets/warning-message-indexing.png)
+
+   Questa restrizione si applica solo ai profili a livello di cartella. Il profilo globale non applica limitazioni di percorso e può indicizzare cartelle che non si trovano in nessun altro profilo di cartella.
+3. Se viene aggiunta una cartella principale per l’indicizzazione, tutte le cartelle secondarie già elencate vengono rimosse automaticamente per evitare duplicazioni. Anche l’aggiunta di una cartella secondaria di un elemento padre già indicizzato attiverà un avviso.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Qualsiasi aggiornamento, spostamento o eliminazione di file all’interno di cartelle indicizzate attiva la reindicizzazione automatica o la rimozione dall’indice.
+5. Per ogni tentativo di indicizzazione vengono visualizzati i seguenti stati:
+
+   - In corso: indica che l’indicizzazione è in corso.
+   - Indicizzazione completata: indica che l’indicizzazione è stata completata correttamente.
+   - Indicizzazione non riuscita: indica che l’indicizzazione non è riuscita.
+   - Non in sincronia: indica che l’indicizzazione non è sincronizzata, generalmente osservata dopo un aggiornamento o una migrazione, quando non è stato possibile verificare lo stato di indicizzazione corrente. Per aggiornare e aggiornare lo stato, prova a ripetere l’indicizzazione.
+
+   Quando l&#39;indicizzazione non riesce, vengono fornite le opzioni **Visualizza i registri di errore** e **Riprova indicizzazione** per risolvere il problema.
+
+   ![](assets/indexing-failed-options.png)
+
+   I registri degli errori vengono visualizzati come illustrato di seguito:
+
+   ![testo alternativo](index-error-log.png)
+
+6. Per ogni profilo di cartella viene visualizzata una marca temporale per l’ultima ora dell’indice.
+
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -502,13 +545,13 @@ Ulteriori informazioni sull&#39;utilizzo della [Guida avanzata basata sull&#39;i
 
 ## Configurare e personalizzare l&#39;editor XML {#id2065G300O5Z}
 
-Per impostazione predefinita, l&#39;editor XML è dotato di numerose funzioni che consentono agli autori di creare documenti DITA. Se lavorate in un ambiente restrittivo, potete scegliere quali funzioni sono esposte agli autori. La scheda Configurazione dell&#39;editor XML consente di controllare facilmente le funzioni e di modificare l&#39;aspetto dell&#39;editor. In qualità di amministratore, puoi personalizzare i seguenti componenti dell’Editor:
+Per impostazione predefinita, l&#39;editor XML è dotato di numerose funzioni che consentono agli autori di creare documenti DITA. Se lavori in un ambiente restrittivo, puoi scegliere quali funzioni esporre agli autori. La scheda Configurazione dell&#39;editor XML consente di controllare facilmente le funzioni e di modificare l&#39;aspetto dell&#39;editor. In qualità di amministratore, puoi personalizzare i seguenti componenti dell’Editor:
 
 **Configurazione interfaccia utente editor XML**
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -566,7 +609,7 @@ Per creare uno snippet sono necessari i seguenti dettagli:
 
 **Etichette versione contenuto XML**
 
-Per impostazione predefinita, agli autori è consentito creare etichette di loro scelta e associarle ai propri file di argomento. Tuttavia, questo può portare a molte varianti della stessa etichetta, ad esempio una potrebbe avere le etichette &quot;Release 1.0&quot;, &quot;Release 1.0&quot;, &quot;Release 1&quot; per identificare la stessa fase di un argomento. Per evitare tali etichette incoerenti nel sistema, puoi creare un elenco predefinito di etichette tra cui gli autori potranno quindi scegliere. L’uso di etichette coerenti consente una migliore gestione dei file nel sistema.
+Per impostazione predefinita, gli autori possono creare etichette di loro scelta e associarle ai file dei loro argomenti. Tuttavia, questo può portare a molte varianti della stessa etichetta, ad esempio una potrebbe avere le etichette &quot;Release 1.0&quot;, &quot;Release 1.0&quot;, &quot;Release 1&quot; per identificare la stessa fase di un argomento. Per evitare tali etichette incoerenti nel sistema, puoi creare un elenco predefinito di etichette tra cui gli autori potranno quindi scegliere. L’uso di etichette coerenti consente una migliore gestione dei file nel sistema.
 
 Utilizzando la configurazione dell’etichetta della versione, puoi caricare un elenco di etichette valide per la tua organizzazione. Scarica il file label.json predefinito e modificalo come mostrato di seguito:
 
@@ -581,7 +624,7 @@ Utilizzando la configurazione dell’etichetta della versione, puoi caricare un 
 }
 ```
 
-Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequenza di etichette e viene aggiunto dall’etichetta visualizzata dagli autori ovunque sia richiesta un’etichetta. Salvare il file e caricarlo nella sezione Etichette versione contenuto XML.
+Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequenza di etichette e viene aggiunto dall’etichetta visualizzata dagli autori ogni volta che un’etichetta è richiesta. Salvare il file e caricarlo nella sezione Etichette versione contenuto XML.
 
 >[!IMPORTANT]
 >

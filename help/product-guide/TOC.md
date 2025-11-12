@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2428'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Servizi cloud {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2025 {#2025-releases}
+            - Versione 2025.11.0 {#2511-release}
+               - [Novità](./release-info/whats-new-2025-11-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2025-11-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2025-11-0.md)
             - Versione 2025.10.0 {#2510-release}
                - [Novità](./release-info/whats-new-2025-10-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2025-10-0.md)
@@ -158,16 +162,17 @@ ht-degree: 9%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
+      - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
    - Contenuto autore {#author-content}
       - [Panoramica sull’authoring](./user-guide/authoring-content.md)
       - [Modi per creare contenuti con AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -181,12 +186,14 @@ ht-degree: 9%
             - [Visualizzare l&#39;anteprima di un argomento](./user-guide/web-editor-preview-topics.md)
          - [Conoscere le funzioni dell’editor](./user-guide/web-editor-features.md)
          - Conoscere l’interfaccia e le funzioni dell’editor {#editor-interface-features}
+            - [Panoramica](./user-guide/intro-editor-interface.md)
             - [Barra intestazione](./user-guide/web-editor-header-bar.md)
             - [Barra delle schede](./user-guide/web-editor-tab-bar.md)
             - [Barra degli strumenti](./user-guide/web-editor-toolbar.md)
             - [Pannello sinistro](./user-guide/web-editor-left-panel.md)
             - [Area di modifica dei contenuti](./user-guide/web-editor-content-editing-area.md)
             - [Pannello a destra](./user-guide/web-editor-right-panel.md)
+            - [Pannello di ricerca](./user-guide/search-panel-explorer.md)
          - [Funzionalità aggiuntive nell&#39;editor](./user-guide/web-editor-other-features.md)
          - [Scelte rapide da tastiera nell’editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Visualizzazioni dell’editor](./user-guide/web-editor-views.md)
@@ -280,6 +287,7 @@ ht-degree: 9%
          - [Gestisci processo di generazione output](./user-guide/generate-output-manage-process.md)
          - [Gestire le attività di pubblicazione tramite il dashboard di pubblicazione](./user-guide/generate-output-publish-dashboard.md)
          - [Risoluzione dei problemi di base](./user-guide/generate-output-basic-troubleshooting.md)
+         - [Domande frequenti sul flusso di lavoro di pubblicazione e sulla scalabilità](./user-guide/publishing-scalability-faq.md)
       - Attivazione in blocco dei contenuti {#bulk-activation}
          - [Attivazione in blocco di contenuti pubblicati](./user-guide/conf-bulk-activation.md)
          - [Creare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -352,11 +360,11 @@ ht-degree: 9%
          - [Concetti chiave, ruoli, autorizzazioni e prerequisiti](./user-guide/authoring.md)
          - [Carica file](./user-guide/authoring-upload-existing-files.md)
          - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
-         - [Elaborare o rielaborare le risorse](./user-guide/asset-processor.md)
+         - [Elaborare risorse](./user-guide/asset-processor.md)
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 9%
          - [Tradurre il contenuto](./install-guide/translation.md)
       - Utilizzare la ricerca in AEM Assets {#aem-asset-search}
          - [Configurare la ricerca per l’interfaccia utente di AEM Assets](./install-guide/conf-dita-search.md)
+      - Utilizzare l’elaborazione delle risorse {#asset-processing-on-prem}
+         - [Configura funzionalità di elaborazione risorse](./install-guide/configure-asset-processing.md)
+      - Operazioni con la pulizia dell&#39;albero B{#btree-cleanup}
+         - [Configurare la pulizia dell&#39;albero B](./install-guide/configure-btree-clean-up-job.md)
       - [Appendice](./install-guide/appendix.md)
    - Servizi cloud {#cs-ig}
       - [Informazioni su questa guida](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 9%
          - [Tradurre il contenuto](./cs-install-guide/translation.md)
       - Utilizzare la ricerca in AEM Assets {#aem-asset-search-cs}
          - [Configurare la ricerca per l’interfaccia utente di AEM Assets](./cs-install-guide/conf-dita-search.md)
+      - Utilizzare l’elaborazione delle risorse {#asset-processing-cloud}
+         - [Configurare la funzione di elaborazione delle risorse](./cs-install-guide/configure-asset-processing-cs.md)
+      - Operazioni con la pulizia dell&#39;albero B{#btree-cleanup-cs}
+         - [Configura pulizia albero B](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [Appendice](./cs-install-guide/appendix.md)
 - Riferimento API {#api-reference}
    - [Introduzione](./api-reference/introduction.md)
@@ -540,15 +556,10 @@ ht-degree: 9%
    - [API REST per registrare un connettore di origine dati](./api-reference/data-source-connector.md)
    - [API REST per funzionare con gli attributi condizionali](./api-reference/conditional-attribute.md)
    - [API REST per il flusso di lavoro di conversione](./api-reference/convert-to-dita.md)
-   - [API REST per la creazione e l’attivazione dei pacchetti](./api-reference/create-activate-package.md)
-   - [API basata su Java per lavorare con la generazione di output](./api-reference/generate-output.md)
-   - [API basate su Java per l&#39;utilizzo delle mappe DITA](./api-reference/dita-map-management-java.md)
-   - [API basate su Java per il flusso di lavoro di conversione](./api-reference/convert-to-dita-java.md)
-   - [API basate su Java per lavorare con le linee di base e le etichette](./api-reference/create-baseline-label-java.md)
-   - [API basata su Java per lavorare con i profili di cartelle](./api-reference/folder-profile-java.md)
-   - [API basata su Java per la creazione e l’attivazione di pacchetti](./api-reference/create-activate-package-java.md)
+   - [API REST per la creazione e l&#39;attivazione dei pacchetti](./api-reference/create-activate-package.md)
    - [Gestore di eventi di post-elaborazione](./api-reference/post-process-event.md)
    - [API per tenere traccia dello stato di post-elaborazione di una cartella o di una risorsa](./api-reference/track-post-processing-status.md)
+   - [API per avviare l’elaborazione in blocco delle risorse](./api-reference/bulk-assets-processing.md)
    - [Gestore eventi di completamento attivazione in blocco](./api-reference/bulk-activation-complete-event.md)
    - [Gestore di eventi del processo di conversione](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}

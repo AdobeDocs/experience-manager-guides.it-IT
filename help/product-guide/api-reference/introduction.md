@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
+source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -18,222 +18,113 @@ Adobe Experience Manager Guides \(in seguito denominato *AEM Guides*\) è una so
 
 ## API di AEM Guides
 
-Le API di AEM Guides sono disponibili in due formati: HTTP e Java. Queste API espongono le funzioni chiave di AEM Guides agli sviluppatori di applicazioni. Utilizzando queste funzioni, gli sviluppatori possono creare i propri plug-in per estendere i flussi di lavoro preconfigurati. Le API sono disponibili per la gestione degli output per il contenuto DITA, l&#39;utilizzo delle mappe DITA, l&#39;aggiunta di attributi condizionali ai profili a livello di cartella e la conversione di documenti HTML e Words in formato DITA.
+Le API di AEM Guides sono disponibili in due formati:
 
-## Installazione dei JAR nell’archivio Apache Maven locale {#install-jar-local}
+- [API basate su Java](#java-based-apis)
+- [API basate su REST](#rest-based-apis)
 
-Per poter utilizzare i file JAR esposti da AEM Guides, devi installarli nell’archivio Apache Maven locale. Per installare i JAR nel percorso dell’archivio Maven, effettua le seguenti operazioni:
-
-1. Estrai il contenuto del file del pacchetto AEM Guides \(.zip\) sul sistema locale.
-
-2. Al prompt dei comandi passare alla cartella seguente nel percorso del contenuto estratto:
-
-   ```
-   \jcr_root\libs\fmdita\osgi-bundles\install
-   ```
-
-3. Esegui il seguente comando per installare il bundle API nell’archivio Maven locale:
-
-   ```
-   mvn install:install-file -Dfile=api-X.x.jar -DgroupId=com.adobe.fmdita -DartifactId=api -Dversion=X.x -Dpackaging=jar**
-   ```
-
-   >[!NOTE]
-   >
-   > Nel comando precedente, X.x deve essere sostituito con il numero di versione effettivo nei parametri Dfile e Dversion.
-
-4. \(*Facoltativo*\) Installa la dipendenza nell’archivio del progetto Maven locale. Per ottenere questo risultato, crea una cartella nel progetto Maven ed esegui il comando `mvn install` fornito nel passaggio precedente con il seguente parametro aggiuntivo:
-
-   ```
-   -DlocalRepositoryPath=<path_to_project_repository>
-   ```
-
-   Quindi, per esporre la cartella dell’archivio locale del progetto al processo di compilazione Maven, aggiungi un elemento `repository` nel file pom.xml padre come mostrato di seguito:
-
-   ```XML
-   <repositories>
-      <repository>
-         <id>project-repository</id>
-         <url>file://${project.basedir}/repository</url>
-      </repository>
-   </repositories>
-   ```
+Queste API espongono le funzioni chiave di AEM Guides agli sviluppatori di applicazioni. Utilizzando queste funzioni, gli sviluppatori possono creare i propri plug-in per estendere i flussi di lavoro preconfigurati. Le API sono disponibili per la gestione degli output per il contenuto DITA, l&#39;utilizzo delle mappe DITA, l&#39;aggiunta di attributi condizionali ai profili a livello di cartella e la conversione di documenti HTML e Words in formato DITA.
 
 
-Questo processo installa i JAR API nell’archivio Maven locale.
+### API basate su Java
 
-## Utilizzo del JAR dell’API di servizio in un progetto Maven
+Puoi utilizzare le API basate su Java disponibili in Experience Manager Guides per creare plug-in personalizzati ed estendere flussi di lavoro preconfigurati.
 
-Dopo aver installato i JAR API nell’archivio Maven locale, esegui i seguenti passaggi per utilizzare i JAR nei progetti:
+**Configura SDK dall&#39;archivio centrale Maven per AEM Guides as a Cloud Service**
 
-1. Aggiungi il file JAR alla base di codice e esegui il commit nell’archivio della base di codice in una cartella, ad esempio &quot;dependencies&quot;. Il nome della cartella dipende dalla gerarchia della base di codice.
+>[!INFO]
+>
+>Visualizza [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) per la documentazione più recente e dettagliata sull&#39;utilizzo dell&#39;API basata su Java per Experience Manager Guides as a Cloud Service.
 
-2. Configura i file pom.xml del progetto come segue:
+Per configurare e utilizzare i file JAR dell&#39;API di servizio dall&#39;archivio Maven nei progetti, aggiungi l&#39;API SDK come dipendenza dal progetto nel file `pom.xml` del progetto, come illustrato di seguito.
 
-   File pom.xml del progetto padre:
+    &quot;XML
+    &lt;dipendenza>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
+    &lt;versione>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    &quot;
 
-   >[!IMPORTANT]
-   >
-   > Nel seguente snippet di codice, X.x deve essere sostituito con il numero di versione effettivo e il nome del file JAR dell’API. Queste informazioni saranno le stesse fornite nel passaggio 3 del [processo di installazione](#install-jar-local).
+>[!NOTE]
+>
+> Assicurati di utilizzare la stessa versione del JAR API del pacchetto AEM Guides installato sul server.
 
-   ```XML
-   <plugin>
-   
-       <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-       <version>2.5.2</version>
-   
-       <configuration>
-   
-               <groupId>com.adobe.fmdita</groupId>
-   
-               <artifactId>api</artifactId>
-   
-               <version>X.x</version>
-   
-               <file>${basedir}/dependencies/fmdita/api-X.x.jar</file>
-   
-               <packaging>jar</packaging>
-   
-               <generatePom>true</generatePom>
-   
-       </configuration>
-   
-       <executions>
-   
-           <execution>
-   
-               <id>inst_fmdita</id>
-   
-                   <goals>
-   
-                       <goal>install-file</goal>
-   
-                   </goals>
-   
-                   <phase>clean</phase>
-   
-           </execution>
-   
-       </executions>
-   </plugin>
-   ```
+**Configura e utilizza l&#39;API JAR dall&#39;archivio centrale Maven (on-premise)**
 
-   File pom.xml del modulo secondario:
+>[!INFO]
+>
+>Visualizza [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) per la documentazione più recente e dettagliata sull&#39;utilizzo dell&#39;API basata su Java per la configurazione on-premise di Experience Manager Guides.
 
-   ```XML
-   <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-   
-      <artifactId>maven-install-plugin</artifactId>
-   
-      <configuration>
-   
-         <groupId>com.adobe.fmdita</groupId>
-   
-         <artifactId>api</artifactId>
-   
-         <version>3.6</version>
-   
-         <file>${basedir}/../dependencies/fmdita/api-3.6.jar</file>
-   
-         <packaging>jar</packaging>
-   
-         <generatePom>true</generatePom>
-   
-      </configuration>
-   
-      <executions>
-   
-         <execution>
-   
-            <id>inst_fmdita</id>
-   
-            <goals>
-   
-               <goal>install-file</goal>
-   
-            </goals>
-   
-            <phase>clean</phase>
-   
-         </execution>
-   
-      </executions>
-   
-   </plugin>
-   ```
+Per configurare e utilizzare i file JAR delle API di servizio per le distribuzioni on-premise, aggiungi il file JAR delle API di servizio come dipendenza dal progetto nel file `pom.xml` del progetto, come illustrato di seguito:
+
+    &quot;XML
+    &lt;dipendenza>
+    &lt;groupId>com.adobe.aem&lt;/groupId>
+    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
+    &lt;versione>${RELEASE}&lt;/version>
+    &lt;/dependency>
+    
+    &quot;
+
+>[!NOTE]
+>
+> Assicurati di utilizzare la stessa versione del JAR API del pacchetto AEM Guides installato sul server.
 
 
-## Configurare e utilizzare il servizio API JAR dall’archivio Maven pubblico
+**Configura e utilizza l&#39;API JAR dall&#39;archivio Maven pubblico di AEM Guides (on-premise)**
 
-Per configurare e utilizzare i JAR dell’API del servizio dall’archivio Maven pubblico nei progetti, effettua le seguenti operazioni:
+>[!NOTE]
+>
+> L’archivio Maven pubblico di AEM Guides diventerà obsoleto dopo la versione 5.3.0 di Experience Manager Guides. Il file JAR dell’API sarà successivamente disponibile solo nell’archivio centrale Maven.
 
-1. Per utilizzare il file JAR dell’API di servizio in un progetto, configura l’archivio Maven pubblico di AEM Guides nel file pom.xml.
-2. Configura l’archivio Maven pubblico nel file settings.xml di Maven come segue:
+Per utilizzare i JAR dell’API di servizio dall’archivio Maven pubblico, effettua le seguenti operazioni:
+
+1. Configura l&#39;archivio Maven pubblico di AEM Guides nel file `pom.xml` o `settings.xml` come mostrato di seguito:
 
    ```XML
    <repository>
-      <id>fmdita-public</id>
-      <name>fmdita-public</name>
-      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
-   </repository>
+       <id>fmdita-public</id>
+       <name>fmdita-public</name>
+       <url>https://repo.aem-guides.com/repository/fmdita-public</url>
+    </repository>
    ```
 
-3. Una volta configurato l’archivio, aggiungi il JAR dell’API del servizio come dipendenza dal progetto nel file pom.xml del progetto.
+1. Una volta configurato l&#39;archivio, aggiungere il file JAR dell&#39;API di servizio come dipendenza dal progetto nel file `pom.xml` del progetto.
+
+   ```XML
+   <dependency>
+       <groupId>com.adobe.fmdita</groupId>
+       <artifactId>api</artifactId>
+       <version>${RELEASE}</version>
+   </dependency>
+   ```
 
    >[!NOTE]
    >
    > Utilizza la stessa versione del JAR API del pacchetto AEM Guides installato sul server.
 
-4. Configura la dipendenza Maven come mostrato di seguito:
-
-   ```XML
-   <dependency>
-      <groupId>com.adobe.fmdita</groupId>
-      <artifactId>api</artifactId>
-      <version>4.0</version>
-   </dependency>
-   ```
+Una volta aggiunto il file JAR dell&#39;API di servizio come dipendenza del progetto nel file `pom.xml` del progetto, puoi generare e utilizzare le API Java di AEM Guides nel progetto.
 
 
-Una volta aggiunto il file JAR dell’API di servizio come dipendenza dal progetto nel file pom.xml del progetto, puoi creare e utilizzare le API Java di AEM Guides nel progetto.
+### API basate su REST
 
-## Utilizzo di API JAR dall’archivio centrale Maven per AEM Guides as a Cloud Service
+Experience Manager Guides fornisce un set completo di API basate su REST che consentono agli sviluppatori di accedere e interagire con le funzionalità di base tramite HTTP.
 
-Per AEM Guides as a Cloud Service il file JAR dell’API è stato distribuito a Maven Central. Puoi utilizzare il file JAR dell’API senza alcuna configurazione.
+Queste API sono ideali per:
 
->[!NOTE]
->
-> La convenzione di denominazione del file jar dell’API è stata aggiornata in base alla convenzione di denominazione dei componenti aggiuntivi per cloud.
+- Integrazione di Experience Manager Guides con altri sistemi aziendali
+- Automazione dei flussi di lavoro di pubblicazione e revisione
+- Creazione di applicazioni ed estensioni personalizzate
 
-Per utilizzare il file JAR API, devi aggiungere la dipendenza al pom.xml del progetto come mostrato di seguito:
-
-```XML
-<dependency>
-   <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-dox-sdk-api</artifactId>
-   <version>${RELEASE}</version>
-</dependency>
-```
-
->[!NOTE]
->
-> Poiché i pacchetti all’interno del JAR API sono ancora gli stessi, non è necessaria alcuna modifica del codice per utilizzare questo JAR API nei progetti cloud esistenti.
-
-### API basate su Java
-
-Puoi utilizzare le API basate su Java disponibili in Experience Manager Guides per creare plug-in personalizzati ed estendere flussi di lavoro preconfigurati. Visualizza [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) per la documentazione più recente e dettagliata sull&#39;utilizzo dell&#39;API basata su Java.
-
-
+Per informazioni dettagliate sull&#39;utilizzo delle API, sui parametri e sulle richieste di esempio, consulta gli argomenti pertinenti nella sezione **Riferimento API** della documentazione di Experience Manager Guides.
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guida utente
 - Guida all’installazione e alla configurazione
 - Guida rapida
-- [Pagina di archiviazione della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
+- [Pagina di archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)

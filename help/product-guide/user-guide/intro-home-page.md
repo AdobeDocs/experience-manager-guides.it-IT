@@ -4,9 +4,9 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La home page è la prima schermata visualizzata al momento dell&#39;accesso a Experience Manager Guides. Offre un’esperienza di schermata di benvenuto unificata e intuitiva, con una visualizzazione rapida dei file a cui hai effettuato l’accesso di recente, delle raccolte e altro ancora.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 La home page di Experience Manager Guides è suddivisa nelle sezioni seguenti:
 
@@ -60,15 +60,19 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
      >[!NOTE]
      >
-     > Nella pagina Home, l’opzione delle impostazioni di Workspace è disponibile solo per l’impostazione dei servizi cloud. In una configurazione locale, l’opzione Altre azioni non è disponibile nella pagina Home. Tuttavia, è ancora possibile accedere alle impostazioni pertinenti tramite l’interfaccia dell’editor e la console Mappa, passando a Più opzioni > Impostazioni.
+     > Nella home page, l’opzione delle impostazioni di Workspace è disponibile solo per la configurazione di Cloud Services. In una configurazione locale, l’opzione Altre azioni non è disponibile nella pagina Home. Tuttavia, è ancora possibile accedere alle impostazioni pertinenti tramite l’interfaccia dell’editor e la console Mappa, passando a Più opzioni > Impostazioni.
 
 - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
 ## Pannello sinistro
 
-Il pannello a sinistra consente di accedere rapidamente alle funzioni Panoramica, Mappa raccolte, Pubblicazione in blocco, Coda di pubblicazione e Preferenze utente. Puoi espandere il pannello selezionando l&#39;icona **Espandi** posta nell&#39;angolo inferiore sinistro dell&#39;interfaccia. Una volta espanso, utilizza l&#39;icona **Comprimi** per comprimere il pannello.
+>[!NOTE]
+>
+> L’archivio è disponibile nel pannello a sinistra solo per la configurazione di Cloud Service a partire dalla versione 2025.11.0. Per la configurazione on-premise, l’archivio continua a essere accessibile dall’interfaccia dell’editor.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+Il pannello a sinistra consente di accedere rapidamente alle funzioni Panoramica, Archivio, Mappa raccolte, Pubblicazione in blocco, Coda di pubblicazione e Preferenze utente. Puoi espandere il pannello selezionando l&#39;icona **Espandi** posta nell&#39;angolo inferiore sinistro dell&#39;interfaccia. Una volta espanso, utilizza l&#39;icona **Comprimi** per comprimere il pannello.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 Ciò che visualizzi in questo pannello dipende dal tuo ruolo utente. Nella tabella seguente sono elencati i ruoli e le rispettive sezioni visualizzati nel pannello sinistro.
 
@@ -80,6 +84,7 @@ Ciò che visualizzi in questo pannello dipende dal tuo ruolo utente. Nella tabel
 Le funzioni disponibili nel pannello a sinistra sono illustrate come segue:
 
 - [Panoramica](#overview)
+- [Archivio](#repository)
 - [Mappa raccolte](#map-collections)
 - [Pubblica in blocco](#bulk-publish)
 - [Coda di pubblicazione](#publish-queue)
@@ -151,6 +156,10 @@ I widget seguenti sono presenti nella sezione Widget:
 >
 > Inoltre, se l&#39;amministratore ha configurato l&#39;integrazione di Adobe Workfront nel sistema, **Il widget delle attività** viene visualizzato anche nella sezione Widget. Ulteriori informazioni sull&#39;[integrazione Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
 
+### Archivio
+
+L’archivio funge da hub centralizzato per individuare facilmente cartelle e file. Fornisce una visualizzazione completa dell’elenco di tutti i file e le cartelle, insieme ai relativi dettagli contestuali. Grazie a questa interfaccia unificata, è possibile sfogliare facilmente i file ed eseguire ricerche con solide opzioni di filtro, garantendo efficienza e un’esperienza migliore. Ulteriori informazioni su [Archivio](./home-page-repository-view.md).
+
 ### Mappare le raccolte
 
 Experience Manager Guides consente di organizzare i contenuti per la pubblicazione utilizzando un dashboard denominato **Mappare le raccolte**. Per utilizzare questa funzione, seleziona **Mappa raccolte** dal pannello a sinistra. Viene visualizzata la pagina Mappa raccolte nell&#39;**interfaccia utente di Assets** in cui è possibile [utilizzare la raccolta mappe per la generazione dell&#39;output.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
    - **Configurazione di visualizzazione dei file dell&#39;editor**: selezionare la modalità predefinita di visualizzazione dei file nell&#39;editor. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore. Per impostazione predefinita, i file vengono visualizzati per titolo nell’editor.
 
-   - **Individua sempre i file nel repository**: selezionare questa opzione per visualizzare il percorso di un file nel repository durante la modifica nell&#39;editor.
+   - **Individua sempre i file nell&#39;elenco delle cartelle**: selezionare questa opzione per visualizzare la posizione di un file nell&#39;archivio durante la modifica nell&#39;editor.
+
+  >[!NOTE]
+  >
+  >A partire dalla versione 2025.11.0, l&#39;impostazione **Individua sempre i file nel repository** viene rinominata in **Individua sempre i file nel Explorer**. Per la configurazione on-premise, continua a essere disponibile come sempre individua i file nell’archivio fino alla versione 5.1 di Experience Manager Guides.

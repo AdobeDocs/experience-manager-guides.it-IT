@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | Stringa | Percorso del file che ha attivato l&#39;evento. In genere si tratta del file su cui è stata eseguita un&#39;operazione. |
 | `eventType` | Stringa | Il tipo di evento, ad esempio CREATE o MODIFY. |
-| `status` | Stringa | Stato di ritorno per l&#39;operazione eseguita. Le opzioni possibili sono: - <br>- OPERAZIONE RIUSCITA: l&#39;operazione di post-elaborazione è stata completata. <br>- NON RIUSCITO: operazione di post-elaborazione non riuscita a causa di un errore. |
+| `status` | Stringa | Stato di ritorno per l&#39;operazione eseguita. Le opzioni possibili sono: <br>- OPERAZIONE RIUSCITA: operazione di post-elaborazione completata. <br>- NON RIUSCITO: operazione di post-elaborazione non riuscita a causa di un errore. |
 | `errorMsg` | Stringa | Il messaggio di errore in caso di errore dell’operazione di post-elaborazione. |
 | `uuid` | Stringa | L’UUID del file che ha attivato questo evento. In genere si tratta del file su cui è stata eseguita un&#39;operazione. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Nome | Tipo | Descrizione |
 |----|----|-----------|
 | `path` | Stringa | Percorso del file che ha attivato l&#39;evento. In genere si tratta del file su cui è stata eseguita un&#39;operazione. |
-| `status` | Stringa | Stato di ritorno per l&#39;operazione eseguita. Le opzioni possibili sono: - <br>- OPERAZIONE RIUSCITA: l&#39;operazione di post-elaborazione è stata completata. <br>- COMPLETATO CON ERRORI: operazione di post-elaborazione completata, ma con alcuni errori. <br>- NON RIUSCITO: operazione di post-elaborazione non riuscita a causa di un errore. |
+| `status` | Stringa | Stato di ritorno per l&#39;operazione eseguita. Le opzioni possibili sono: <br>- OPERAZIONE RIUSCITA: operazione di post-elaborazione completata. <br>- COMPLETATO CON ERRORI: operazione di post-elaborazione completata, ma con alcuni errori. <br>- NON RIUSCITO: operazione di post-elaborazione non riuscita a causa di un errore. |
 | `message` | Stringa | Nel caso in cui lo stato sia COMPLETATO CON ERRORI o NON RIUSCITO, questo parametro contiene i dettagli sull’errore o sul motivo dell’errore. |
 | `operation` | Stringa | Operazione di post-elaborazione eseguita sul file. Le opzioni possibili sono:<br>- Aggiunta <br>- Aggiornamento <br>- Eliminazione |

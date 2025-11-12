@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Per creare una nuova versione del file, selezionare **Salva come nuova versione*
 
 - **Mappa**: se hai aperto una mappa DITA di grandi dimensioni e desideri trovare la posizione esatta di un file nella mappa, seleziona **Individua in \> Mappa**. Quando si seleziona l&#39;opzione Individua nella mappa, il file \(da cui viene richiamata l&#39;opzione\) viene posizionato ed evidenziato nella gerarchia della mappa. Per poter utilizzare questa funzione, è necessario aprire il file di mappa nell&#39;editor. Se la vista mappa è nascosta, quando si richiama questa funzione viene visualizzata la vista mappa e il file viene evidenziato nella gerarchia delle mappe.
 
-- **Archivio**: simile a Individua in mappa, **Individua in \> Archivio** mostra la posizione del file nel repository \(o DAM\). Viene aperta la vista Archivio e il file selezionato viene evidenziato nel repository. Se il file si trova all&#39;interno di una cartella, quest&#39;ultima viene espansa per mostrare la posizione del file selezionato nel repository.
+- **Explorer**: simile a Individua in mappa, **Individua in \> Explorer** mostra la posizione del file in Esplora risorse \(o DAM\). Viene aperta la visualizzazione Esplora risorse e il file selezionato viene evidenziato in Esplora risorse. Se il file si trova all&#39;interno di una cartella, quest&#39;ultima viene espansa in modo da visualizzare la posizione del file selezionato in Esplora risorse.
 
+  >[!NOTE]
+  >
+  >Dalla versione 2025.11.0, **L&#39;archivio** è stato rinominato in **Explorer**. Per la configurazione on-premise, continua a essere disponibile come archivio fino alla versione 5.1 di Experience Manager Guides.
 
 ***Aggiungi a***: puoi scegliere tra le seguenti opzioni:
 
@@ -279,4 +282,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

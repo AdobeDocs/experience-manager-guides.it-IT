@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2025.10.0
 description: Scopri le funzioni nuove e migliorate della versione 2025.10.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---

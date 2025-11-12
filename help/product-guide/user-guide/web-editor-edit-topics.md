@@ -4,9 +4,9 @@ description: Scopri come modificare gli argomenti nell’editor. Scopri le varie
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente do
 
    - Seleziona il contenuto all’interno di un elemento.
    - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti nella parte superiore per visualizzare la finestra di dialogo **Inserisci elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
-
      >[!NOTE]
      >
      > È inoltre possibile visualizzare la finestra di dialogo Inserisci elemento selezionando il menu di scelta rapida del contenuto selezionato.
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Individuare un file aperto nella vista Archivio
+## Individuare un file aperto in Esplora risorse
 
-Quando si apre un file nell&#39;editor, Experience Manager Guides fornisce la funzione di individuare il file nella vista Archivio. Ad esempio, individua l&#39;argomento corrente durante la modifica.
+Quando si apre un file nell&#39;editor, Experience Manager Guides fornisce la funzione di individuare il file in Esplora risorse. Ad esempio, individua l&#39;argomento corrente durante la modifica.
 
-È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file nel repository** dalla scheda **Aspetto** delle **Preferenze utente**.
+È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file in Esplora risorse** dalla scheda **Aspetto** delle **Preferenze utente**.
 
+>[!NOTE]
+>
+>A partire dalla versione 2025.11.0, l&#39;impostazione **Individua sempre i file nel repository** viene rinominata in **Individua sempre i file nel Explorer**. Per la configurazione on-premise, continua a essere disponibile come sempre individua i file nell’archivio fino alla versione 5.1 di Experience Manager Guides.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)

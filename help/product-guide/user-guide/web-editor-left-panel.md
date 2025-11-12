@@ -4,9 +4,9 @@ description: Scopri il pannello a sinistra nell’editor. Scopri l’interfaccia
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ Il pannello a sinistra consente di accedere rapidamente alle raccolte, alla vist
 
 >[!NOTE]
 >
-> Il pannello sinistro è ridimensionabile. Per ridimensionare il pannello, posiziona il cursore sul bordo del pannello. Il cursore si trasforma in una freccia a due punte, seleziona e trascina per ridimensionare la larghezza del pannello.
+>Il pannello sinistro è ridimensionabile. Per ridimensionare il pannello, posiziona il cursore sul bordo del pannello. Il cursore si trasforma in una freccia a due punte, seleziona e trascina per ridimensionare la larghezza del pannello.
 
 Il pannello sinistro consente di accedere alle seguenti funzioni:
 
 - [Raccolte](#collections)
 - [Archivio](#repository)
+- [Explorer](#explorer)
 - [Mappa](#map)
 - [Contenuto riutilizzabile](#reusable-content)
 - [Struttura](#outline)
@@ -118,6 +119,10 @@ Puoi anche eseguire molte azioni utilizzando il menu Opzioni disponibile per una
 
 ## Archivio
 
+>[!NOTE]
+>
+> A partire dalla versione 2025.11.0, **L&#39;archivio** nell&#39;editor diventerà obsoleto e verrà sostituito da **Explorer** per l&#39;installazione di **Cloud Service**. Per la configurazione di **On-Premise**, continuerai a visualizzare e utilizzare l&#39;archivio tramite l&#39;interfaccia dell&#39;editor fino alla versione 5.1 di Experience Manager Guides.
+
 Quando selezioni l’icona Archivio, ottieni un elenco di file e cartelle disponibili in DAM. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il cursore del mouse su un file, potete visualizzare il titolo e il nome del file come descrizione comando.
 
 >[!NOTE]
@@ -134,7 +139,7 @@ o di visualizzare immagini nell&#39;immagine.
 
 Selezionare una mappa e premere Invio o fare doppio clic per aprirla nella **vista mappa**. Per ulteriori dettagli, visualizza la descrizione della funzione **Vista mappa** nel pannello a sinistra. Selezionare un argomento e premere Invio o fare doppio clic per aprirlo nell&#39;[area di modifica dei contenuti](./web-editor-content-editing-area.md). La possibilità di navigare e aprire un file direttamente dall’editor consente di risparmiare tempo e di aumentare la produttività.
 
-**Ricerca filtro nel repository**
+## Filtra ricerca nel repository
 
 L’editor fornisce filtri migliorati per la ricerca di testo. È possibile cercare e filtrare un testo nei file presenti nel percorso selezionato dell&#39;archivio Adobe Experience Manager. La ricerca viene eseguita nel titolo, nel nome del file e nel contenuto dei file.
 
@@ -155,7 +160,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -206,7 +211,7 @@ Puoi visualizzare le seguenti opzioni nelle schede **Generale** e **Avanzate**.
   >
   >Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. I file contenenti il testo `personal spaceship` sono elencati nella schermata precedente. È possibile selezionare più file dall&#39;elenco filtrato per trascinarli in una mappa aperta per la modifica.
 
-**Menu Opzioni**
+### Menu Opzioni
 
 Oltre ad aprire i file dal pannello di sinistra, è possibile eseguire molte azioni utilizzando il menu Opzioni disponibile nella vista Archivio. Verranno visualizzate opzioni diverse, a seconda che si scelga una cartella, un file argomento o un file multimediale.
 
@@ -427,6 +432,23 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 - **Genera**: utilizza l&#39;opzione per pubblicare una mappa o argomenti all&#39;interno di una mappa in una pagina Sites, in un frammento di contenuto o in un frammento di esperienza.
 
+## Explorer
+
+>[!NOTE]
+>
+> A partire dalla versione 2025.11.0, il termine Archivio nell&#39;Editor verrà sostituito da **Explorer** per l&#39;installazione del servizio Cloud. Durante la configurazione on-premise, continuerà a visualizzare e ad accedere all’archivio nell’editor.
+
+Explorer fornisce la maggior parte delle funzionalità precedentemente disponibili in Repository, tra cui:
+
+- Navigazione tra file e cartelle
+- Menu Opzioni per file e cartelle
+
+Tuttavia, introduce un’esperienza di ricerca e filtro migliorata, progettata per migliorare l’usabilità e l’efficienza.
+
+Per informazioni dettagliate sul menu di scelta rapida per file e cartelle, visualizzare [Menu Opzioni](#options-menu).
+
+Per informazioni dettagliate sull&#39;esperienza di ricerca, visualizzare [Pannello di ricerca](./search-panel-explorer.md).
+
 ## Mappa
 
 Quando si seleziona l&#39;icona della vista Mappa, viene visualizzata la vista Mappa in cui viene visualizzato un elenco di argomenti all&#39;interno del file di mappa. Se non è stato aperto alcun file di mappa, la vista Mappa appare vuota. Facendo doppio clic su un file di mappa, il file di mappa viene aperto in questa vista. Puoi fare doppio clic su qualsiasi file all’interno della mappa per aprirlo nell’editor.
@@ -474,7 +496,7 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
    - **Copia UUID**: copia l&#39;UUID del file di mappa negli Appunti.
    - **Copia percorso**: copia il percorso completo del file di mappa negli Appunti.
 
-- **Individua nel repository**: mostra la posizione del file di mapping nel repository \(o DAM\).
+- **Individua in Esplora**: mostra la posizione del file di mappa in Esplora\(o DAM\).
 
 - **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
    - **Raccolte**: aggiunge il file di mapping alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
@@ -531,7 +553,7 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa:
    - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
 
-- **Individua nel repository**: mostra la posizione del file selezionato nel repository \(o DAM\).
+- **Individua in Esplora**: mostra la posizione del file selezionato in Esplora \(o DAM\).
 - **Espandi tutto**: consente di espandere tutti gli argomenti nei file di mappa.
 
 - **Comprimi tutto**: comprimi tutti gli argomenti che fanno parte del file di mapping corrente.
@@ -956,26 +978,32 @@ I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati 
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Crea un frammento**
+
 Per aggiungere uno snippet, utilizzare uno dei metodi seguenti:
 
-- Seleziona l&#39;icona **+** accanto a Snippet per aprire la finestra di dialogo **Nuovo snippet**.
+1. Seleziona l&#39;icona **+** accanto a Snippet per aprire la finestra di dialogo **Nuovo snippet**.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  Nella finestra di dialogo Nuovo frammento, specificate un titolo da visualizzare nel pannello Frammenti, una descrizione e il codice XML del contenuto del frammento che desiderate creare. Seleziona **Crea** per salvare e creare lo snippet.
+   Nella finestra di dialogo Nuovo snippet, specificate un titolo da visualizzare nel pannello Snippet, una descrizione, selezionate un formato (DITA o HTML) per il contenuto e fornite un codice del contenuto del frammento che desiderate creare. Seleziona **Crea** per salvare e creare lo snippet.
 
-- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse sulla breadcrumb dell&#39;elemento che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e seleziona **Crea** per salvare lo snippet.
+2. Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse sulla breadcrumb dell&#39;elemento che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e seleziona **Crea** per salvare lo snippet.
 
-- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e seleziona **Crea** per salvare lo snippet.
+3. Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e seleziona **Crea** per salvare lo snippet.
 
-  La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
+   La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Inserire uno snippet**
 
 Per inserire uno snippet, utilizzare uno dei metodi seguenti:
 
-- Selezionate uno snippet dal pannello Snippet e trascinatelo nella posizione desiderata nell&#39;argomento.
+- Selezionate uno snippet dal pannello Snippet e trascinatelo nella posizione desiderata nell&#39;argomento. Per perfezionare la vista, potete anche usare le opzioni filtro nella parte superiore del pannello Snippet:
+
+   - **Mostra tutti i frammenti**: elenca tutti i frammenti disponibili, inclusi i formati DITA e HTML.
+   - **Mostra solo snippet applicabili**: filtra l&#39;elenco in modo da visualizzare solo i frammenti rilevanti per l&#39;argomento o il contesto corrente. Ad esempio, se si sta lavorando su un argomento DITA, i frammenti di codice HTML verranno esclusi dall&#39;elenco per garantire l&#39;accuratezza contestuale.
 
 - Posizionare il punto di inserimento nel punto in cui si desidera inserire lo snippet. Scegliere Inserisci snippet dal menu Opzioni dello snippet desiderato.
 
@@ -1142,4 +1170,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
