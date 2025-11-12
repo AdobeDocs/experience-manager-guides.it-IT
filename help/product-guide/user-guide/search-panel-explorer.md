@@ -34,7 +34,7 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
 Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set di file per visualizzare un sottoinsieme di file rilevanti necessari. Per cercare i file da Esplora risorse, effettua le seguenti operazioni:
 
-1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto ****. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
+1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto **&#x200B;**. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
 
    >[!NOTE]
    >
