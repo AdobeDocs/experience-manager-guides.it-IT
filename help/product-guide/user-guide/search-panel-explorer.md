@@ -3,7 +3,7 @@ title: Pannello di ricerca nell’interfaccia dell’editor
 description: Scopri come utilizzare il pannello Ricerca nell’interfaccia dell’editor.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Home page**: utilizzo dell&#39;opzione **Mostra nel pannello di ricerca** durante la navigazione dall&#39;interfaccia dell&#39;archivio nella home page. Per visualizzare i dettagli, [Cerca nell&#39;archivio](#search-from-repository-interface-on-the-home-page).
+- **Home page**: utilizzo dell&#39;opzione **Mostra nel pannello di ricerca** durante la navigazione dall&#39;interfaccia dell&#39;archivio nella home page. Per visualizzare i dettagli, [Cerca nell&#39;archivio](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
@@ -34,7 +34,7 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
 Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set di file per visualizzare un sottoinsieme di file rilevanti necessari. Per cercare i file da Esplora risorse, effettua le seguenti operazioni:
 
-1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto **&#x200B;**. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
+1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto ****. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
 
    >[!NOTE]
    >
