@@ -61,4 +61,4 @@ Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riporta
 
 
 
-**Argomento padre:**[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
