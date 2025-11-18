@@ -5,14 +5,31 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Rapporto sul riutilizzo dei contenuti {#id205BB900OQD}
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Si applica a:</td>
+    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides On-Premise</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Versione:</td>
+    <td style="width:500px; white-space: nowrap;">2025.11.0, 2025.12.0</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Versione:</td>
+    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
+  </tr>
+</table>
+
+![](./images/test-version-info-table.svg)
 
 Un altro rapporto utile che puoi generare è il Rapporto sul riutilizzo dei contenuti. Questo rapporto calcola la percentuale media di utilizzo del contenuto, che è molto utile per i project manager e i responsabili aziendali per visualizzare la quantità di contenuto riutilizzato.
 
@@ -63,4 +80,4 @@ Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti 
 >
 > Puoi anche esportare il rapporto sul riutilizzo dei contenuti in formato CSV. A tale scopo, fai clic sul collegamento Esporta in CSV nell’angolo in alto a sinistra dello schermo e scegli una posizione in cui salvare il file CSV. Puoi quindi aprire il file CSV in qualsiasi editor CSV.
 
-**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)
