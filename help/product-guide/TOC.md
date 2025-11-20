@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2418'
 ht-degree: 9%
 
 ---
@@ -162,14 +162,14 @@ ht-degree: 9%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -364,7 +364,7 @@ ht-degree: 9%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -390,7 +390,6 @@ ht-degree: 9%
          - [Migrare contenuti non DITA](./install-guide/migrate-content-non-dita.md)
       - Utilizzo di DITA-OT e specializzazione personalizzati {#custom-dita-ot-spec}
          - [Usa specializzazione DITA-OT e DITA personalizzata](./install-guide/dita-ot-specialization.md)
-      - Configurare i nomi di file basati su UUID e non-UUID {#conf-non-uuid-filename}
       - [Configurare la post-elaborazione per una cartella](./install-guide/conf-folder-post-processing.md)
       - [Configura nomi file](./install-guide/conf-file-names.md)
       - [Configurare nomi di file automatici basati su UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -453,7 +452,6 @@ ht-degree: 9%
                - [Applicare gli stili alle note a piè di pagina](./native-pdf/footnote-number-style.md)
          - [Configurare i flag JVM per la pubblicazione nativa di PDF](./native-pdf/configure-jvm-flags.md)
          - [Configura posizione output di base per l&#39;output di pubblicazione](./native-pdf/configure-base-output-location.md)
-         - Utilizzare flussi di lavoro personalizzati {#custom-workflow}
          - [Configurare e personalizzare i flussi di lavoro](./install-guide/customize-workflows.md)
       - Utilizzare le configurazioni di traduzione {#translate-config}
          - [Tradurre il contenuto](./install-guide/translation.md)

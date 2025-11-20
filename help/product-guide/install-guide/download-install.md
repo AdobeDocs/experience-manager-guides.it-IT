@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Scarica e installa {#id1645E0O04MK}
 
-AEM Guides è reso disponibile tramite il portale di distribuzione software Adobe. Puoi scaricare AEM Guides dal tuo account Adobe Software Distribution Portal e installarlo in tutte le istanze Adobe Experience Manager \(AEM\) presenti nella tua configurazione. In genere, l’istanza di authoring e l’istanza di produzione dell’AEM sono ospitate su server diversi. Dovrai installare AEM Guides su tutte le istanze di AEM che intendi utilizzare.
+AEM Guides è disponibile tramite il portale di distribuzione software Adobe. Puoi scaricare AEM Guides dal tuo account Adobe Software Distribution Portal e installarlo in tutte le istanze di Adobe Experience Manager \(AEM\) presenti nella tua configurazione. In genere, l’istanza di authoring e l’istanza di produzione di AEM sono ospitate su server diversi. Dovrai installare AEM Guides su tutte le istanze di AEM che intendi utilizzare.
 
 Prima di iniziare il processo di download e installazione, è necessario assicurarsi che il sistema soddisfi i requisiti tecnici per installare AEM Guides.
 
@@ -32,4 +32,4 @@ Prima di iniziare il processo di download e installazione, è necessario assicur
 
 - **[Disinstalla AEM Guides](download-install-unistall-aemg.md)**
 
-- **[Recommendations per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)**
+- **[Consigli per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md)**
