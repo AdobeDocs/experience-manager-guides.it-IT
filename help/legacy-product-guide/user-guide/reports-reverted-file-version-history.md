@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
+source-git-commit: 692a4fe0fbe461d5febfab060f67c91651b859a2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 Quando lavori su più versioni simultanee insieme a più autori, il contenuto è associato a più versioni. Potrebbero essere presenti alcune informazioni comuni a più versioni, che diversi autori potrebbero utilizzare nel loro progetto. Per gestire tali assegnazioni di lavoro, gli autori potrebbero finire con più versioni di file. Tali versioni potrebbero essere semplicemente una versione più recente di un file o un ripristino di una versione precedente. È un’attività complessa identificare quando un file è stato ripristinato e perché.
 
 AEM Guides consente di generare un rapporto sulla cronologia delle versioni per un singolo file o per tutti i file presenti in una cartella. Questa cronologia delle versioni offre una visualizzazione consolidata di tutte le versioni di un file che sono state ripristinate, di chi ha creato tali versioni e del motivo per cui le ha create.
-
-{{$include /help/_includes/overview.md}}
 
 Puoi accedere a questo rapporto dalle seguenti posizioni:
 
@@ -61,4 +59,4 @@ Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riporta
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)
