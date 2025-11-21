@@ -154,7 +154,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 - PDF nativo | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
 - PDF nativo | Impossibile salvare le impostazioni del modello PDF. (10751)
 - PDF nativo | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
-- PDF nativo | L&#39;elemento `<note>``</note>` non genera un titolo di estensione in eccesso del relativo tipo. (10549)
+- PDF nativo | L&#39;elemento `<note>` `</note>` non genera un titolo di estensione in eccesso del relativo tipo. (10549)
 - PDF nativo | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12296)
 
 
