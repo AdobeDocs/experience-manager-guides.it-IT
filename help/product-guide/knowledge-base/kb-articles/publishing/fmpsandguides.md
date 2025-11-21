@@ -19,9 +19,9 @@ Article consente di configurare ed eseguire FMPS con AEM Guides.
 
 ## Compatibilità di FMPS con AEM Guides
 
-- Compatibilità con AEM Guides 4.1: [matrice di compatibilità 4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Compatibilità con AEM Guides 4.1: [matrice di compatibilità 4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=it/#compatibility-matrix)
 - Compatibilità con AEM Guides 4.0: [matrice di compatibilità 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Ultima versione: [Informazioni sulla versione più recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- Ultima versione: [Informazioni sulla versione più recente](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=it)
 
 ## Installazione
 
@@ -93,7 +93,7 @@ Si tratta di un conflitto se si sceglie il predefinito FMPS e si forniscono anch
 
 ## Altre risorse:
 
-[Informazioni e supporto su FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[Informazioni e supporto su FMPS](https://helpx.adobe.com/it/support/framemaker-publishing-server.html)
 
 [Informazioni e supporto su AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 

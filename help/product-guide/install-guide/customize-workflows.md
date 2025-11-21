@@ -18,20 +18,20 @@ I flussi di lavoro consentono di automatizzare le attività di Adobe Experience 
 
 Per ulteriori informazioni sui flussi di lavoro in AEM, consulta:
 
-- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creazione di modelli di flusso di lavoro ed estensione delle funzionalità del flusso di lavoro: [Sviluppo ed estensione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Le sezioni in questo argomento descrivono le varie personalizzazioni che è possibile effettuare nei flussi di lavoro predefiniti forniti in AEM Guides.
 
 ## Personalizza flusso di lavoro di revisione {#id176NE0C00HS}
 
-Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione di AEM.
+Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html) nella documentazione di AEM.
 
 AEM Guides consente di personalizzare il flusso di lavoro di revisione predefinito. Con gli altri flussi di lavoro di authoring o pubblicazione, puoi utilizzare i quattro processi personalizzati seguenti relativi alla revisione.
 
