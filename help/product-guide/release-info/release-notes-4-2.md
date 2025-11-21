@@ -4,9 +4,9 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Puoi aggiornare facilmente la versione corrente di AEM Guides alla versione 4.2.
 
 >[!NOTE]
 >
->Prima di aggiornare la versione di AEM Guides è necessario installare il service pack per AEM.
+>È necessario installare AEM Service Pack prima di aggiornare la versione di AEM Guides.
 
 Per ulteriori dettagli, vedere [Istruzioni per l&#39;aggiornamento](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
@@ -50,9 +50,9 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- | --- | --- |
 | 4.2 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.2 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-| | | | |
+| | | | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -60,7 +60,7 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- |--- |--- |
 | 4.2 (non UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
 | 4.2 (UUID) | 2,8-uuid-8 | 2,8-uuid-8 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemi risolti
 
@@ -104,11 +104,11 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Gestione
 
 * Copiare una risorsa mappa DITA (dall’interfaccia utente di Asset ) causa l’esistenza di linee di base errate nella risorsa copiata. (11218)
-* Non viene visualizzato alcun messaggio di avvertenza al caricamento di un file che supera il limite consentito dall’AEM (2 GB per impostazione predefinita). (10817)
+* Al caricamento di un file non viene visualizzato alcun messaggio di avviso che superi il limite consentito in AEM (2 GB per impostazione predefinita). (10817)
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
 * Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
-* Traduzione | L’elaborazione Post è bloccata per l’intera cartella lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
+* Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Traduzione| I metadati e i tag non vengono propagati alle copie tradotte. (4696)
 * Se la versione viene modificata e salvata nell’editor della linea di base, per qualsiasi risorsa vengono visualizzati più pop-up. (10399)
 * La perdita di sessione si verifica in com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -117,24 +117,24 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 * La rigenerazione dell&#39;argomento non funziona per alcuni scenari. (10635)
-* La pubblicazione PDF non riesce quando si genera l’output di un predefinito duplicato (di un predefinito esistente). (10584)
-* Il pulsante Visualizza registro non funziona se la generazione PDF non riesce per un predefinito. (10576)
+* La pubblicazione PDF non genera l’output per un predefinito duplicato (di un predefinito esistente). (10584)
+* Il pulsante Visualizza registro non funziona se la generazione di PDF non riesce per un predefinito. (10576)
 * Publishlistener non visualizza i dati richiesti nei registri di informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
-* Native PDF | La generazione di PDF non riesce con un’eccezione Null Pointer. (10950)
-* Native PDF | conkeyref non viene risolto nell&#39;output generato. (10564)
-* Native PDF | Si verificano dei problemi con i metadati di una mappa a cui è necessario fare riferimento nell’output di PDF.( 10556)
-* Native PDF | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
-* Native PDF | Si verificano problemi durante la rimozione di argomenti con ruolo di elaborazione=&#39;solo risorsa&#39;. (10554)
-* Native PDF | I tasti vuoti vengono visualizzati nell&#39;output di PDF. (10553)
-* Native PDF | `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
-* Native PDF | Native PDF utilizza lo stile in linea invece del nome della classe per i tag generati. (10498)
-* Native PDF | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo.( 10454)
-* Native PDF | Impossibile nascondere gli argomenti del frontmatter dal sommario. (10355)
-* Native PDF | Attributo frame tabella non propagato al HTML temporaneo (come classe). (10353)
-* Native PDF | I file temporanei di HTML aggiungono le classi colsep e rowsep a <td> e <th> anche se il loro valore è 0 nel DITA di origine. (10352)
-* Native PDF | Riavviando i numeri di pagina nel layout del capitolo, la numerazione viene avviata in modo casuale dalla fine del capitolo precedente. (10154)
-* Native PDF | I riferimenti chiave per i keydefs con immagine o collegamenti esterni non vengono risolti. (10063)
-* Native PDF | L&#39;appendice viene visualizzata come un capitolo in PDF generato. (9829)
+* PDF nativo | La generazione di PDF ha esito negativo con un’eccezione Null Pointer. (10950)
+* PDF nativo | conkeyref non viene risolto nell&#39;output generato. (10564)
+* PDF nativo | Si verificano dei problemi con i metadati di una mappa a cui è necessario fare riferimento nell’output di PDF.( 10556)
+* PDF nativo | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
+* PDF nativo | Si verificano problemi durante la rimozione di argomenti con ruolo di elaborazione=&#39;solo risorsa&#39;. (10554)
+* PDF nativo | I tasti vuoti vengono visualizzati nell&#39;output di PDF. (10553)
+* PDF nativo | I `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
+* PDF nativo | Il PDF nativo utilizza lo stile in linea invece del nome della classe per i tag generati. (10498)
+* PDF nativo | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo.( 10454)
+* PDF nativo | Impossibile nascondere gli argomenti del frontmatter dal sommario. (10355)
+* PDF nativo | Attributo frame tabella non propagato al HTML temporaneo (come classe). (10353)
+* PDF nativo | I file temporanei di HTML aggiungono le classi colsep e rowsep a <td> e <th> anche se il loro valore è 0 nel DITA di origine. (10352)
+* PDF nativo | Riavviando i numeri di pagina nel layout del capitolo, la numerazione viene avviata in modo casuale dalla fine del capitolo precedente. (10154)
+* PDF nativo | I riferimenti chiave per i keydefs con immagine o collegamenti esterni non vengono risolti. (10063)
+* PDF nativo | L&#39;appendice viene visualizzata come un capitolo nel PDF generato. (9829)
 * La scheda Modello nell’editor XML non viene visualizzata dagli amministratori dei profili delle cartelle. (10266)
 * La pubblicazione della linea di base non riesce per PDF generato con FrameMaker Publishing Server 2020. (10551)
 * Si verifica un errore di applicazione quando si fa clic sul pulsante Modifica dopo aver selezionato tutti i predefiniti tramite la casella di controllo Predefiniti di output nella finestra a comparsa Generazione rapida. (10388)
@@ -144,6 +144,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione 4.2 di AEM Guides:
+Adobe ha identificato il seguente problema noto per la versione 4.2 di AEM Guides:
 
 * Gli utenti possono eseguire le operazioni di revisione anche dopo il completamento dell&#39;attività di revisione.

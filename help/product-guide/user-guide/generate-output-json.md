@@ -4,7 +4,7 @@ description: Scopri come creare un predefinito JSON dalla console Mappa. Configu
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -63,4 +63,4 @@ Per il predefinito JSON sono disponibili le seguenti opzioni:
 | Proprietà da propagare nell’output | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà.<br><br>**Nota**: è inoltre possibile definire proprietà personalizzate e passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Utilizzare i metadati](metadata-dita.md#id21BJ00QD0XA). |
 | Flusso di lavoro di post generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br><br>**Nota**: per ulteriori informazioni sulla creazione di un flusso di lavoro di generazione post-output personalizzato, vedere _Personalizzare il flusso di lavoro di generazione post-output_ nella guida Installare e configurare Adobe Experience Manager Guides as a Cloud Service. |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

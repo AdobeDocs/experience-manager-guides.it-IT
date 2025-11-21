@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 2%
@@ -60,7 +60,6 @@ Nell&#39;editor Web, le seguenti configurazioni sono state organizzate nelle sch
 | Carica come bozza | Seleziona questa opzione per caricare l’argomento e condividerlo come bozza prima di renderlo disponibile agli utenti. |
 | Carica immagini | Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti. |
 | Carica documenti collegati | Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti. |
-
 
 ### Adobe Experience Manager
 

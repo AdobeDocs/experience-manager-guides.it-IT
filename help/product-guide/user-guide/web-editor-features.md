@@ -6,7 +6,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hidefromtoc: true
 hide: true
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -341,7 +341,7 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -630,7 +630,7 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Selezionare
 
 Potete aggiungere un titolo immagine/figura e un testo alternativo per l&#39;immagine nella finestra di dialogo Inserisci immagine.
 
->
+>[!NOTE]
 >
 > Quando si inserisce un&#39;immagine e si specifica un testo alternativo per lo stesso elemento, questo viene aggiunto all&#39;interno dell&#39;elemento `<alt>` in conformità agli standard DITA più recenti. L&#39;utilizzo dell&#39;attributo `@alt` per il testo alternativo è obsoleto, ma rimane supportato nelle versioni DITA precedenti.
 
@@ -896,7 +896,7 @@ Alcune delle funzionalità nel pannello a sinistra sono disponibili nella sezion
 - [Variabili](#variables)
 - [Trova e sostituisci](#find-and-replace)
 - [Modelli PDF](#pdf-templates)
-- [Rivedi](#review)
+- [Rivedere](#review)
 
 
 Nel pannello a sinistra viene visualizzata anche un&#39;opzione aggiuntiva etichettata come **Workfront**, se Adobe Workfront è configurato.
@@ -992,7 +992,7 @@ Seleziona l&#39;icona **Ricerca filtro** \(![Icona filtro di ricerca](images/fil
 
 >[!NOTE]
 >
-> Quando si esegue una ricerca in un testo o si filtra un file, sull&#39;icona \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) di **Ricerca filtro** viene visualizzato un punto blu per indicare che si trova nel pannello di ricerca e che sono stati applicati alcuni filtri.
+> Quando si esegue una ricerca in un testo o si filtra un file, sull&#39;icona \(**Icona filtro di ricerca**\) di ![Ricerca filtro](images/filter-search-icon.svg) viene visualizzato un punto blu per indicare che si trova nel pannello di ricerca e che sono stati applicati alcuni filtri.
 
 
 Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manager, sono disponibili le seguenti opzioni:
@@ -1000,7 +1000,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -1132,7 +1132,7 @@ Accedere a diverse opzioni del menu Opzioni a seconda che sia stato selezionato 
 - Anteprima
 - Sposta in
 - Rinomina
-- Elimina
+- Eliminare
 - Genera
 - Scarica come PDF
 - Aggiungi a
@@ -1886,7 +1886,7 @@ Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema
 
 Consente di utilizzare diversi modelli di PDF. Per ulteriori dettagli, visualizzare [modelli di PDF](../native-pdf/pdf-template.md).
 
-### Rivedi
+### Rivedere
 
 In Experience Manager Guides è disponibile la funzione che consente di visualizzare tutte le attività di revisione nei progetti. Puoi visualizzare tutti i progetti di revisione e le attività di revisione attive nei progetti di revisione di cui fai parte dal pannello **Revisione**.  È quindi possibile aprire le attività di revisione per visualizzare i commenti dei vari revisori.
 
@@ -1957,7 +1957,7 @@ Il pannello a destra consente di accedere alle seguenti funzioni:
 
 - [Proprietà contenuto](#content-properties)
 - [Proprietà file](#file-properties)
-- [Rivedi](#review-1)
+- [Rivedere](#review-1)
 - [Rileva modifiche](#track-changes)
 - [Schematron](#schematron)
 
@@ -1975,7 +1975,7 @@ Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi seleziona **Aggiungi**.
 
-   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 
@@ -2035,7 +2035,7 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte, Proprietà.
 
-### Rivedi
+### Rivedere
 
 Se si seleziona l&#39;icona Revisione, viene aperto il pannello Revisione in cui è possibile selezionare un task di revisione per il documento aperto e visualizzare i commenti.
 

@@ -4,7 +4,7 @@ description: Versione di maggio di Adobe Experience Manager Guides as a Cloud Se
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 ## Aggiornamento alla versione di maggio
 
 Aggiorna la configurazione corrente di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *AEM Guides as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.5.144.
-1. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di maggio di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.5.144.
+1. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di maggio di AEM Guides as a Cloud Service.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di AEM Guides as a Cloud Service di maggio 2022.
+In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di maggio 2022 di AEM Guides as a Cloud Service.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -31,7 +31,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
 | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -43,7 +43,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guides as a Cloud Service fornisce molti miglioramenti e nuove funzioni nella versione di maggio:
+AEM Guides as a Cloud Service offre molti miglioramenti e nuove funzioni nella versione di maggio:
 
 ### Editor Web avanzato
 
@@ -93,23 +93,23 @@ Per ulteriori dettagli sulla traduzione, vedere *Tradurre documenti dalla sezion
 
 ### Pubblicazione avanzata
 
-* È inoltre possibile accedere a **Publish Dashboard** dalla scheda Output durante la generazione dell&#39;output dal dashboard delle mappe. Nel dashboard di Publish è disponibile un elenco di tutte le attività di pubblicazione attive.
+* È inoltre possibile accedere a **Publish Dashboard** dalla scheda Output durante la generazione dell&#39;output dal dashboard delle mappe. Nel dashboard di pubblicazione è disponibile un elenco di tutte le attività di pubblicazione attive.
 
 ![output in coda](assets/queued-output.png)
 
 * Dal dashboard delle mappe puoi selezionare più file DITAVAL per generare contenuto condizionale. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Puoi anche passare il cursore sul nome del file per visualizzare il percorso nell’archivio AEM in cui è memorizzato il file.
 
 * **Funzionalità obsoleta**
-AEM as a Cloud Service non supporta più la generazione del formato di output DITA per i documenti di FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
+AEM as a Cloud Service non supporta più la generazione del formato di output DITA per i documenti FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
 
 ### Miglioramento della pubblicazione basata su articoli
 
-L’editor XML consente di mappare più categorie di prodotti in un articolo durante la pubblicazione in un profilo Salesforce.
+L&#39;editor XML consente di mappare più categorie di prodotti in un articolo durante la pubblicazione in un profilo Salesforce.
 
 ### Altre funzioni migliorate
 
 * La modalità Anteprima supporta anche l&#39;attributo di elaborazione condizionale `deliveryTarget` in DITA. È disponibile come opzione nel filtro a discesa insieme a **audience**, **platform**, **product**, props, **otherprops**.
-* È stata fornita l&#39;opzione per la sincronizzazione forzata tra il server AEM in ossigeno e il sistema locale.
+* È stata fornita l’opzione per la sincronizzazione forzata tra il server AEM in Ossigeno e il sistema locale.
 
 ## Problemi risolti
 
@@ -138,8 +138,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 * In Cronologia versioni, il numero di versione e l&#39;etichetta non vengono visualizzati per la versione corrente. (9446)
 * L’editor si blocca quando alcuni file di contenuto vengono aperti nell’editor. (9443)
 * La ricerca nel pannello Archivio e nella finestra di dialogo Sfoglia topicref blocca lo schermo quando il contenuto è di grandi dimensioni. (9432)
-* I metadati passati all’output del sito AEM non rispettano la linea di base del contenuto. (9416)
-* Oxygen verifica una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
+* I metadati passati all&#39;output del sito AEM non rispettano la linea di base del contenuto. (9416)
+* L’ossigeno estrae una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La linea di base non riuscita disattiva la modifica nella scheda Predefinito del dashboard delle mappe. (9403)
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
 * Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
@@ -169,7 +169,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * `xref` senza testo non viene visualizzato nell&#39;output di pubblicazione basato su articoli. (8764)
 * I riferimenti interrompono le immagini in movimento o i file multimediali che hanno uno spazio nei nomi dei file. (8624)
 * I riferimenti si interrompono quando si sceglie `Select All` e si spostano i file multimediali o il contenuto DITA in un&#39;altra cartella. (8622)
-* I processi di output con stato come &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di Publish.  (8569)
+* I processi di output con stato come &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di pubblicazione.  (8569)
 * La funzione di eliminazione dell&#39;output ha esito negativo se è presente un numero elevato di nodi della cronologia di output rimasti. (8568)
 * Il pacchetto Add on DITA impedisce il rilevamento delle risorse duplicate DAM. (8417)
 * Pulsante Crea attività di revisione abilitato per i file non DITA. (8401)
@@ -177,14 +177,14 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Spazio imprevisto trovato in ogni elemento `entry` vuoto quando l&#39;attributo outputclass viene aggiunto all&#39;elemento `tgroup`. (7532)
 * Il pannello dell’archivio non visualizza le icone di blocco file archiviate o estratte al termine dell’azione. (5817)
 * L’icona Blocca viene visualizzata nella vista archivio anche quando il file viene archiviato dall’editor.  (5756)
-* Siti mancanti nei predefiniti AEM nella scheda Output. (9567)
+* Siti mancanti nei predefiniti di AEM nella scheda Output. (9567)
 * L&#39;editor XML si blocca quando si tenta di modificare alcuni file DITA. (9537)
 * L&#39;esecuzione di una ricerca nell&#39;editor XML determina il blocco della pagina. (9452)
 * Il download della mappa con linea di base non funziona se il contenuto viene spostato in un’altra cartella. (9331)
-* Il ricaricamento non riesce in ossigeno quando i file esistono già nell’AEM nella stessa posizione. (9328)
+* Il ricaricamento non riesce in ossigeno quando i file esistono già in AEM nella stessa posizione. (9328)
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
-* Dopo il check-in di un documento da Oxygen a AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
-* Il caricamento di file da Oxygen a AEM non riesce. 9157
+* Dopo il check-in di un documento da Oxygen ad AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
+* Il caricamento di file da Oxygen ad AEM non riesce. 9157
 * La notifica e-mail non viene inviata quando un’attività di revisione viene riassegnata nella casella in entrata. (8376)
 
 ## Problemi noti

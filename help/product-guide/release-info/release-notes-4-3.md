@@ -4,9 +4,9 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Puoi aggiornare la versione corrente di AEM Guides alla versione 4.3.0
 
 >[!NOTE]
 >
->Prima di aggiornare la versione di AEM Guides è necessario installare il service pack per AEM.
+>È necessario installare AEM Service Pack prima di aggiornare la versione di AEM Guides.
 
 Per ulteriori dettagli, vedere [Istruzioni per l&#39;aggiornamento](../install-guide/upgrade-xml-documentation.md).
 
@@ -57,9 +57,9 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- | --- | --- |
 | 4.3.0 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.3.0 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-| | | | |
+| | | | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -67,7 +67,7 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- |--- |--- |
 | 4.3.0 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.0 (UUID) | 3,0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Problemi risolti
 
@@ -105,34 +105,34 @@ Di seguito sono elencati i bug risolti in varie aree:
 - Quando si tenta di aprire o aggiornare la versione degli argomenti nella linea di base, il caricatore &quot;Recupero di informazioni dal server&quot; viene eseguito indefinitamente.(12478)
 
 
-### Rivedi
+### Rivedere
 
 - Nuova interfaccia di revisione | Le condizioni vengono evidenziate e visualizzate in modo diverso rispetto al funzionamento nell&#39;Editor Web. (11628)
 
 ### Pubblicazione
 
-- La pubblicazione non riesce quando si rinomina un predefinito di PDF nativo. (12564)
-- La duplicazione di un modello di PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
-- Native PDF | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12407)
+- La pubblicazione non riesce quando si rinomina un predefinito PDF nativo. (12564)
+- La duplicazione di un modello PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
+- PDF nativo | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12407)
 - La pubblicazione sul sito AEM non riesce quando si leggono file temporanei dal pod che potrebbero essere stati aggiornati o riavviati. (12113)
-- Native PDF | Gli attributi personalizzati non vengono propagati al motore temporaneo HTML o PDF. (DXML-12005)
-- Native PDF |  Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
-- Native PDF | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
-- Native PDF | Impossibile salvare le impostazioni del modello di PDF. (10751)
-- Native PDF | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
-- Native PDF | L&#39;elemento `<note>` `</note>` non genera un titolo di estensione in eccesso del relativo tipo. (10549)
-- Output JSON | La proprietà `fmUuid` nel nodo jcr:content di JSON è diversa dall&#39;&quot;id&quot; all&#39;interno del JSON. (11564)
+- PDF nativo | Gli attributi personalizzati non vengono propagati al motore HTML o PDF temporaneo. (DXML-12005)
+- PDF nativo |  Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
+- PDF nativo | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
+- PDF nativo | Impossibile salvare le impostazioni del modello PDF. (10751)
+- PDF nativo | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
+- PDF nativo | L&#39;elemento `<note>``</note>` non genera un titolo di estensione in eccesso del relativo tipo. (10549)
+- Output JSON | La proprietà `fmUuid` nel nodo jcr:content di JSON è diversa dall&#39;ID all&#39;interno del JSON. (11564)
 - Output JSON | Se sono presenti la mappa e l’argomento con lo stesso nome file, viene rimosso il codice JSON della mappa. (11524)
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione 4.3.0 di AEM Guides:
+Adobe ha identificato il seguente problema noto per la versione 4.3.0 di AEM Guides:
 
 - Il layout di pagina comune definito nel modello Base non viene applicato come modello predefinito.
 
   Soluzione alternativa:
 Aggiungi layout di pagina comune come copertina anteriore e posteriore quindi inizia a venire per ogni pagina.
-- Si è verificato un problema in Ricerca sito durante la ricerca nella pagina di output del sito AEM in AEM Service Pack 16 o 17.
+- Si verifica un problema in Ricerca sito durante la ricerca nella pagina di output del sito AEM in AEM Service Pack 16 o 17.
 
   Soluzione alternativa:
 

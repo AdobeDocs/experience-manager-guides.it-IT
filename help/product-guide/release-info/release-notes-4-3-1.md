@@ -4,9 +4,9 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Puoi aggiornare facilmente la versione corrente di Experience Manager Guides all
 
 >[!NOTE]
 >
->Prima di aggiornare la versione di Experience Manager Guides è necessario installare il service pack per AEM.
+>È necessario installare AEM Service Pack prima di aggiornare la versione di Experience Manager Guides.
 
 Per ulteriori dettagli, vedere [Istruzioni per l&#39;aggiornamento](../install-guide/upgrade-xml-documentation.md).
 
@@ -57,9 +57,9 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- | --- | --- |
 | 4.3.1 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.3.1 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-| | | | |
+| | | | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -67,7 +67,7 @@ Per ulteriori dettagli, consulta la sezione *Requisiti tecnici* nella guida Inst
 | --- | --- | --- |--- |--- |
 | 4.3.1 (non UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Pubblicazione
 
-- Native PDF | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
-- PDF nativa| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
-- Native PDF | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
+- PDF nativo | L&#39;ordine degli argomenti non viene corretto durante la generazione dell&#39;output di PDF. (13157)
+- PDF nativo| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
+- PDF nativo | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
 - L&#39;attributo `DeliveryTarget` non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
-- Il flusso di lavoro **Publish** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
+- Il flusso di lavoro **Pubblica** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
 
-- Native PDF | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
-- Native PDF | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
-- Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione. (12166)
+- PDF nativo | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
+- PDF nativo | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output di PDF. (12644)
+- PDF nativo | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione. (12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
-- Se vengono utilizzate risorse di DAM dell&#39;AEM in un output diverso dal sito AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
+- Se in un output diverso dal sito AEM vengono utilizzate risorse di DAM di AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
 - AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
-- Native PDF | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
-- Native PDF | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
-- Native PDF | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
+- PDF nativo | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
+- PDF nativo | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
+- PDF nativo | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
 - Il contenuto di `<conref>` non è visualizzato nell&#39;output di PDF. (11131)
 - All&#39;interno degli elementi `<div>` viene aggiunto uno spazio aggiuntivo quando si passa dalla visualizzazione Autore a quella Source nell&#39;editor di layout di pagina. (10750)
-- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza di Publish. (9564)
+- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)
 
 
 ### Gestione
@@ -136,10 +136,10 @@ Di seguito sono elencati i bug risolti in varie aree:
 - La linea di base mostra il numero errato di file nel dashboard mappa quando si utilizza la funzionalità Sfoglia tutti gli argomenti. (13265)
 - Nell&#39;editor Web, la baseline mostra il titolo della versione precedente anziché della versione selezionata del file DITA. (13444)
 
-### Rivedi
+### Rivedere
 
 - La revisione di un argomento mostra commenti non corretti. (13453)
-- Il pulsante Chiudi nella pagina Revisione del Experience Manager Guides porta gli utenti alla home page dell&#39;AEM. (13535)
+- Il pulsante Chiudi nella pagina Revisione di Experience Manager Guides porta gli utenti alla home page di AEM. (13535)
 - Gli allegati non vengono visualizzati nel pannello di destra dell’editor per un argomento In-review. (13011)
 
 

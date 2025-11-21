@@ -4,7 +4,7 @@ description: Ultima versione di Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -49,9 +49,9 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- | --- | --- |
 | 4.1.3 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1.3 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-| | | | |
+| | | | |  |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -59,7 +59,7 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- |--- |--- |
 | 4.1.3 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemi risolti
@@ -92,9 +92,9 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- | --- | --- |
 | 4.1.2 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1.2 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-| | | | |
+| | | | |  |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -102,7 +102,7 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- |--- |--- |
 | 4.1.2 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Problemi risolti
@@ -149,9 +149,9 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- | --- | --- |
 | 4.1 (non UUID) | 2020.2 o versione successiva* | 2019 | 2020.3 o versione successiva | 2019.8 (ultimo aggiornamento) |
 | 4.1 (UUID) | 2020.2 o versione successiva* | Non compatibile | 2020.4 o versione successiva | Non compatibile |
-| | | | |
+| | | | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -159,20 +159,21 @@ Per ulteriori dettagli, consulta la sezione Requisiti tecnici nella guida Instal
 | --- | --- | --- |--- |--- |
 | 4.1 (non UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |  |
+|  |  |  | | |
 
 
 ## Nuove funzioni e miglioramenti
 
 AEM Guides fornisce molti miglioramenti e nuove funzioni nella versione 4.1:
 
-### Pubblicazione nativa di PDF
+### Pubblicazione nativa su PDF
 
 Il supporto per la creazione di un PDF nativo è stato aggiunto anche nella versione 4.1 di AEM Guides. È stato introdotto un nuovo motore di pubblicazione con le seguenti caratteristiche:
+
 * Creare un modello CSS
 * Creare diversi modelli di pagina
-* Progettare modelli di PDF comprendenti CSS e modelli di pagina
-* Contenuto della mappa Publish e dell’argomento in formato PDF
+* Progettare modelli PDF comprendenti CSS e modelli di pagina
+* Pubblicare contenuti di mappe e argomenti in formato PDF
 
 ### Supporto per il percorso del sito della knowledge base nella pubblicazione basata su articoli
 
@@ -300,19 +301,19 @@ Per ulteriori dettagli sulla traduzione, vedere *Tradurre i documenti dalla sezi
 
 ### Pubblicazione avanzata
 
-* È inoltre possibile accedere a **Publish Dashboard** dalla scheda Output durante la generazione dell&#39;output dal dashboard delle mappe. Nel dashboard di Publish è disponibile un elenco di tutte le attività di pubblicazione attive.
+* È inoltre possibile accedere a **Publish Dashboard** dalla scheda Output durante la generazione dell&#39;output dal dashboard delle mappe. Nel dashboard di pubblicazione è disponibile un elenco di tutte le attività di pubblicazione attive.
 
 ![output in coda](assets/queued-output.png)
 
 * Dal dashboard delle mappe puoi selezionare più file DITAVAL per generare contenuto condizionale. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Puoi anche passare il cursore sul nome del file per visualizzare il percorso nell’archivio AEM in cui è memorizzato il file.
 
-* Sono state rispettate le linee di base per i metadati dell’output del sito AEM. È inoltre possibile elaborare le proprietà di una versione di base come metadati. Se non è definita alcuna linea di base, le proprietà della versione più recente vengono elaborate come metadati.
+* Le linee di base sono state rispettate per i metadati dell’output del sito AEM. È inoltre possibile elaborare le proprietà di una versione di base come metadati. Se non è definita alcuna linea di base, le proprietà della versione più recente vengono elaborate come metadati.
 
 * Sono state aggiunte le opzioni **Nome file** e **Argomenti riga di comando DITA-OT** per i predefiniti di output HTML5, EPUB e Personalizzati. Ora puoi specificare il nome del file con cui vuoi salvare l’output. È inoltre possibile specificare gli argomenti aggiuntivi che DITA-OT deve elaborare durante la generazione dell&#39;output.
 
 ### Dashboard mappa
 
-Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in coda e si riceve una notifica quando la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o in un secondo momento dal collegamento fornito nella casella in entrata delle notifiche AEM.
+Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in coda e si riceve una notifica quando la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o in un secondo momento dal collegamento fornito nella casella in entrata delle notifiche di AEM.
 
 ![Download mappa](assets/download-map-prompt.png)
 
@@ -323,7 +324,7 @@ Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in cod
 
 ### Funzione obsoleta
 
-AEM Guides non supporta più la generazione del formato di output DITA per i documenti di FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
+AEM Guides non supporta più la generazione del formato di output DITA per i documenti FrameMaker. Questa opzione DITA è stata rimossa anche dai predefiniti di output del dashboard Mappa.
 
 ## Problemi risolti
 
@@ -331,13 +332,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 * Il supporto per l’authoring non è disponibile come alternativa per i riferimenti basati su percorsi di file per la pubblicazione. (8076)
 * Il pacchetto Add on DITA impedisce il rilevamento delle risorse duplicate DAM. (8417)
-* Dopo il check-in di un documento da Oxygen a AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9124)
+* Dopo il check-in di un documento da Oxygen ad AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9124)
 * L&#39;aggiornamento dei file estratti non funziona con la registrazione con l&#39;autenticazione Web in ossigeno. (9179)
 * Il file non viene estratto quando viene aperto in ossigeno. (9192)
-* Dopo il check-in di un documento da Oxygen a AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
+* Dopo il check-in di un documento da Oxygen ad AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
 * Autenticazione Web non funzionante in ossigeno. (9296)
-* Il ricaricamento non riesce in ossigeno quando i file esistono già nell’AEM nella stessa posizione. (9328)
-* Opzione non disponibile per la sincronizzazione forzata dei contenuti tra AEM e il sistema locale. (9439)
+* Il ricaricamento non riesce in ossigeno quando i file esistono già in AEM nella stessa posizione. (9328)
+* Opzione non disponibile per la sincronizzazione forzata del contenuto tra AEM e il sistema locale. (9439)
 * L&#39;ID non viene generato automaticamente per l&#39;elemento aggiunto mediante la finestra di dialogo **Inserisci contenuto riutilizzabile** dalla barra degli strumenti secondaria. (5826)
 * Non viene visualizzata alcuna finestra di dialogo di conferma quando si carica un’immagine con lo stesso nome di un file esistente tramite l’editor. (6011)
 * Spazio unificatore non disponibile nel pallet dei caratteri. (7523)
@@ -361,14 +362,14 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La descrizione dell’attività di revisione non viene visualizzata nella notifica e-mail inviata quando viene assegnata una nuova attività di revisione. (8507)
 * Scarica API mappa | Le cartelle temporanee non vengono pulite in caso di errori del processo di download. (8523)
 * `columnpreview.jsp` dipende dall&#39;SP.  (8543)
-* I processi di output con lo stato &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di Publish.  (8569)
+* I processi di output con lo stato &quot;In attesa&quot; o &quot;In esecuzione&quot; non vengono eliminati nel dashboard di pubblicazione.  (8569)
 * Icona predefinita selezionata al momento della generazione di un rapporto utilizzando il pulsante Genera, anche quando la proprietà dell’icona è definita. (8573)
 * Si verificano dei problemi durante il processo di revisione durante l’aggiornamento da 3.8.X a 4.0. (8788)
 * Nel pannello Revisione dell&#39;Editor Web, se un nome utente è lungo, le icone da accettare/rifiutare non vengono visualizzate chiaramente. (8793)
 * La struttura di riferimento si interrompe dopo la rimozione di un argomento e l&#39;esecuzione di un&#39;operazione di spostamento. (8804)
 * La DTD personalizzata definita dall&#39;utente non ha la precedenza sulla DTD DITA standard incorporata in DITA-OT. (9104)
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
-* La nota a piè di pagina &quot;Use-by-reference&quot; non scorre fino alla sezione della nota a piè di pagina nell&#39;output del sito AEM. (9061)
+* La nota a piè di pagina &quot;usa per riferimento&quot; non scorre fino alla sezione della nota a piè di pagina nell’output del sito AEM. (9061)
 * L’ordine delle note a piè di pagina non è corretto nell’output del sito AEM. (9327)
 * Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
@@ -382,9 +383,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Nel pannello Cronologia versioni, la sezione della versione corrente mostra una marca temporale errata e informazioni modificate da. (8765)
 * Linea di base non aggiornata sulla base dell’etichetta definita. (8799)
 * Si verifica un errore quando i file la cui cartella principale contiene caratteri speciali nel nome del file vengono aperti in ossigeno utilizzando il pulsante **Modifica in ossigeno**. (8918)
-* Il caricamento di file da Oxygen a AEM non riesce. 9157
+* Il caricamento di file da Oxygen ad AEM non riesce. 9157
 * Il download della mappa con linea di base non funziona se il contenuto viene spostato in un’altra cartella. (9331)
-* Oxygen verifica una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
+* L’ossigeno estrae una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La ricerca nel pannello Archivio e nella finestra di dialogo Sfoglia topicref blocca lo schermo quando il contenuto è di grandi dimensioni. (9432)
 * Se l&#39;impostazione **Crea nuova versione per il file caricato** è attivata, viene creata una nuova versione al momento del ripristino e del salvataggio su qualsiasi nodo bloccato. (9473)
 * Nell’interfaccia di Assets, al ripristino della versione di un file vengono visualizzate differenze di marca temporale non corrette. (9480)
@@ -403,7 +404,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Attributi mancanti quando si aggiunge un capitolo a una mappa segnalibro mediante trascinamento dalla vista Preferiti. (8746)
 * La finestra di dialogo Inserisci parola chiave non dispone della funzionalità di ricerca e le parole chiave non sono elencate in ordine. 9094
 * L&#39;esecuzione di una ricerca nell&#39;editor XML determina il blocco della pagina. (9452)
-* Siti mancanti nei predefiniti AEM nella scheda Output. (9567)
-* Immagini SVG che non vengono riprodotte correttamente nelle modalità di creazione di XML Editor. (9426)
+* Siti mancanti nei predefiniti di AEM nella scheda Output. (9567)
+* Immagini di SVG che non vengono riprodotte correttamente nelle modalità di creazione di XML Editor. (9426)
 * La linea di base non viene rispettata durante la pubblicazione tramite Salesforce. (8953)
 * La possibilità di cancellare la rootmap dalle impostazioni delle preferenze utente non è presente. (8534)

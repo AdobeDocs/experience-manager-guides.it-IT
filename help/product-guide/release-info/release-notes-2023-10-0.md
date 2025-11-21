@@ -4,7 +4,7 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -21,13 +21,13 @@ Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consul
 
 Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei tuoi Cloud Service a 2023.10.0.373.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di ottobre 2023 di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2023.10.0.373.
+3. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di ottobre 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
-(Solo se utilizzi una versione precedente alla versione di giugno 2023 di AEM Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di AEM Guides as a Cloud Service)
 
 Dopo aver completato l’installazione, puoi scegliere di premere il trigger per avviare il processo di traduzione:
 
@@ -62,7 +62,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
 
-(Solo se utilizzi una versione precedente alla versione di giugno 2023 di AEM Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di AEM Guides as a Cloud Service)
 
 Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
 
@@ -80,24 +80,24 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
 1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 ## Passaggi per indicizzare il contenuto esistente per utilizzare il nuovo elenco Trova e sostituisci e Argomento nella scheda Rapporti:
 
-(Solo se utilizzi una versione precedente alla versione di giugno 2023 di AEM Guides as a Cloud Service)
+(Solo per le versioni precedenti alla versione di giugno 2023 di AEM Guides as a Cloud Service)
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
@@ -116,14 +116,14 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.10.0 | 3,2-uuid 5 | 3,2-uuid 5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versione modello della Knowledge Base
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti per componenti AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti dei componenti di AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemi risolti
 
@@ -139,18 +139,18 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Pubblicazione
 
-- Native PDF | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
-- PDF nativa| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
-- Native PDF | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
+- PDF nativo | L&#39;ordine degli argomenti non viene corretto durante la generazione dell&#39;output di PDF. (13157)
+- PDF nativo| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
+- PDF nativo | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
 - L&#39;attributo `DeliveryTarget` non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
-- Il flusso di lavoro **Publish** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
+- Il flusso di lavoro **Pubblica** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
 
 ### Gestione
 
 - La cronologia delle versioni non viene visualizzata anche se la proprietà `dc:format` non è presente per una risorsa. (10463)
 
 
-### Rivedi
+### Rivedere
 
 - La revisione di un argomento mostra commenti non corretti. (13453)
 
@@ -164,6 +164,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione di ottobre 2023.
+Adobe ha identificato il seguente problema noto per la versione di ottobre 2023.
 
 - Ripubblicazione del frammento di contenuto non riuscita.

@@ -4,10 +4,10 @@ description: Scopri come utilizzare la pubblicazione nativa di PDF, creare e gen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: e722ba35e27599566140709e060f3b391d50b4db
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3232'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,7 @@ Per utilizzare una variabile, è necessario definirla nel formato `${<variable>}
 Ad esempio, una delle proprietà dei metadati definite nel nodo /`jcr:content/metadata` è
 `dc:title`. È possibile specificare `${dc:title}` e il valore del titolo viene utilizzato nell&#39;output finale.
 
-Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Ad esempio, `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Esempio: `View ${dc:title} in ${dc:language}`.
+Puoi utilizzare una singola variabile o una combinazione di variabili per definire i metadati. Ad esempio, `${dc:title} ${dc:docstate}`. Puoi anche utilizzare la combinazione di una variabile e una stringa.  Ad esempio, `View ${dc:title} in ${dc:language}`.
 
 Utilizza le variabili di linguaggio per definire il valore localizzato delle proprietà dei metadati. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. Ad esempio, puoi stampare &quot;Autore&quot; come valore dei metadati in inglese e &quot;Autorin&quot; in tedesco.
 
@@ -184,7 +184,7 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per l’union
 | **Crea modulo PDF interattivo** | Selezionare questa opzione se si desidera includere campi modulo PDF interattivi e personalizzabili per un input utente avanzato negli output PDF generati. |
 | **Includi modifiche traccia** | Seleziona questa opzione se desideri includere le revisioni nel PDF generato per una facile revisione e confronto. |
 | **Mantieni file temporanei** | Selezionare questa opzione se si desidera conservare i file HTML provvisori creati durante la generazione dell&#39;output PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. I file scaricati includerebbero anche `system_config.xml` file che fornisce informazioni sull&#39;URL dell&#39;autore, sull&#39;URL locale e sull&#39;URL di pubblicazione. Questi URL sono configurati nelle impostazioni di esternalizzazione di AEM e si riflettono nel file `system_config.xml`. |
-| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/it/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Proprietà file** | Seleziona i metadati da passare alla pubblicazione nativa di PDF. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio, `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite, mentre è possibile avere `author` come proprietà personalizzata. Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando PDF nativo. <br> Queste proprietà vengono selezionate dal file `metadataList` disponibile in:`/libs/fmdita/config/metadataList`. <br>Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`. |
 
 

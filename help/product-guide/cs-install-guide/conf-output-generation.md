@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Per specificare il modello di progettazione da utilizzare per la generazione di 
 >
 > Dopo aver creato un nodo del modello di progettazione personalizzato, è necessario aggiornare l’opzione Progettazione nei predefiniti di output del sito AEM per utilizzare il nodo del modello di progettazione personalizzato.
 
-Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=it) sullo sviluppo del tuo sito Web su AEM.
+Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sullo sviluppo del tuo sito Web su AEM.
 
 ### Usa il titolo del documento per generare l&#39;output del sito AEM
 
@@ -146,7 +146,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 ### Configurare l’URL dell’output del sito AEM per utilizzare il titolo del documento
 
-Puoi utilizzare i titoli dei documenti nell’URL dell’output del sito AEM. Se il nome del file non esiste o contiene tutti i caratteri speciali, puoi configurare il sistema per sostituire i caratteri speciali con un separatore nell’URL dell’output del sito AEM. Puoi anche configurarlo per sostituirli con il nome del primo argomento secondario.
+Puoi utilizzare i titoli dei documenti nell’URL dell’output del sito AEM. Se il nome del file non esiste o contiene tutti i caratteri speciali, puoi configurare il sistema per sostituire i caratteri speciali con un separatore nell’URL dell’output del sito AEM. È inoltre possibile configurarlo per sostituirli con il nome del primo argomento figlio.
 
 
 Per configurare i nomi delle pagine, effettuare le seguenti operazioni:
@@ -158,7 +158,7 @@ Per configurare i nomi delle pagine, effettuare le seguenti operazioni:
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booleano (`true/false`). **Valore predefinito**: `false` |
 
-Se ad esempio il *@navtitle* in `<topichead>` contiene tutti i caratteri speciali e si imposta la proprietà `aemsite.pagetitle` su true, per impostazione predefinita viene utilizzato un separatore. Se si imposta la proprietà `nodename.systemDefinedPageName` su true, verrà visualizzato il nome del primo argomento figlio.
+Se ad esempio il *@navtitle* in `<topichead>` contiene tutti i caratteri speciali e si imposta la proprietà `aemsite.pagetitle` su true, per impostazione predefinita viene utilizzato un separatore. Se si imposta la proprietà `nodename.systemDefinedPageName` su true, verrà visualizzato il nome del primo argomento secondario.
 
 
 ### Configurare le regole di bonifica del nome file per la creazione di argomenti e la pubblicazione dell’output in AEM Sites e altri formati {#id2164D0KD0XA}
@@ -269,7 +269,7 @@ Per escludere l&#39;elemento `table` dall&#39;appiattimento, aggiungere la segue
 
 ### Configurare il controllo delle versioni per le pagine eliminate nell’output del sito AEM
 
-Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea **&#x200B;**&#x200B;selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
+Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea ****selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
 
 Per interrompere la creazione di una versione per le pagine da eliminare, effettua le seguenti operazioni:
 
@@ -603,7 +603,7 @@ Nella tabella seguente vengono descritti gli elementi dello schema di elementi D
 | `<wrapelement>` | L’elemento HTML in cui racchiudere il contenuto. |
 | `<wrapclass>` | Il valore dell&#39;elemento alla proprietà `wrapclass.` |
 | `<attributemap>` | Nodo contenitore contenente uno o più nodi `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Associa gli attributi DITA alle proprietà di AEM: <br> -   **`from`**: nome attributo DITA <br> -   **`to`**: nome proprietà componente AEM <br> -   **`ispath`**: se l&#39;attributo è un valore di percorso \(ad esempio: *immagine*\) <br> -   **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Associa gli attributi DITA alle proprietà di AEM: <br> -   **`from`**: nome attributo DITA <br> -   **`to`**: nome proprietà componente AEM <br> -   **`ispath`**: se l&#39;attributo è un valore di percorso \(ad esempio: *immagine*\) <br> -   **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
 
 **Note aggiuntive**
 
@@ -630,11 +630,11 @@ AEM Guides fornisce la categoria `apps.fmdita.dashboard-extn` per personalizzare
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione della libreria client di AEM, vedere [Utilizzo delle librerie lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=it).
+> Per ulteriori informazioni sulla creazione della libreria client di AEM, vedere [Utilizzo delle librerie lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gestione della rappresentazione delle immagini durante la generazione dell&#39;output {#id177BF0G0VY4}
 
-AEM viene fornito con una serie di flussi di lavoro e di handle di contenuti multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni su come AEM gestisce le risorse, consulta [Elaborazione di Assets tramite gestori di contenuti multimediali e flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=it) nella documentazione di AEM.
+AEM viene fornito con una serie di flussi di lavoro e di handle di contenuti multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni su come AEM gestisce le risorse, consulta [Elaborazione di Assets tramite gestori di contenuti multimediali e flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) nella documentazione di AEM.
 
 AEM Guides consente di configurare la rappresentazione dell’immagine da utilizzare al momento della generazione dell’output per i documenti. Ad esempio, puoi scegliere una delle rappresentazioni immagine predefinite oppure crearne una e utilizzare la stessa opzione per pubblicare i documenti. Il mapping della rappresentazione dell&#39;immagine per la pubblicazione dei documenti è memorizzato nel file `/libs/fmdita/config/ **renditionmap.xml**`. Uno snippet di file `renditionmap.xml` è il seguente:
 
@@ -686,8 +686,8 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Specifica il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Se si desidera disattivare questa funzione, impostare questa proprietà su 0.Everyday alla data specificata per l&#39;esecuzione del processo di rimozione sugli output generati prima del numero di giorni specificato in questa proprietà. <br> **Valore predefinito**: 5 |
-| `output.history.purgetime` | Specificare l&#39;ora in cui viene avviato il processo di rimozione. <br> **Valore predefinito**: 0:00 \(o 12:00 mezzanotte\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Specifica il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Se si desidera disattivare questa funzione, impostare questa proprietà su 0.Everyday alla data specificata per l&#39;esecuzione del processo di rimozione sugli output generati prima del numero di giorni specificato in questa proprietà. | **Valore predefinito**: 5 |
+| `output.history.purgetime` | Specificare l&#39;ora in cui viene avviato il processo di rimozione. | **Valore predefinito**: 0:00 \(o 12:00 mezzanotte\) |
 
 ## Modifica il limite dell’elenco di output generato di recente {#id1679JH0H0O2}
 

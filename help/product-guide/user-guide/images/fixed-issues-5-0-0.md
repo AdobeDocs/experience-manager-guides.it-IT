@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Sono stati risolti dei problemi in Adobe Experience Manager Guides, versione 5.0.0
 description: Scopri le correzioni di bug nella versione 5.0.0 di Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 1%
@@ -12,8 +12,7 @@ ht-degree: 1%
 
 Questo articolo descrive i bug corretti in varie aree della versione 5.0.0 di Adobe Experience Manager Guides.
 
-
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 5.0.0](whats-new-5-0.md).
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
 Scopri le [istruzioni di aggiornamento per la versione 5.0.0](upgrade-instructions-5-0-0.md).
 
@@ -72,7 +71,7 @@ Scopri le [istruzioni di aggiornamento per la versione 5.0.0](upgrade-instructio
 - Quando invii due versioni di un argomento non tradotto contemporaneamente utilizzando una traduzione non legacy e approvi la seconda versione prima della prima, il progetto di traduzione con la prima versione viene interrotto. (22200)
 
 
-## Rivedi
+## Rivedere
 
 - Quando si selezionano più argomenti da esaminare in una mappa, la notifica e-mail ricevuta dal revisore indica che tutti gli argomenti nella mappa sono disponibili per la revisione, anziché solo quelli selezionati. (23214)
 - Il titolo e l’icona dell’argomento non sono allineati nell’interfaccia di creazione della revisione. (11670)

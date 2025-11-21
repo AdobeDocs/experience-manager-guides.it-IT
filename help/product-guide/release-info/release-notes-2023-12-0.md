@@ -4,7 +4,7 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 # Versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *Experience Manager Guides as a Cloud Service*).
+Questa nota sulla versione descrive le istruzioni per l&#39;aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di dicembre 2023 di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *Experience Manager Guides as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizza [Novità della versione di dicembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023-12-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizzare [Novità della versione di dicembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023-12-0.md).
 
 ## Aggiornamento alla versione di dicembre 2023
 
-Aggiorna l’as a Cloud Service configurazione di Experience Manager Guides corrente eseguendo i seguenti passaggi:
+Aggiorna la configurazione corrente di Experience Manager Guides as a Cloud Service eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2023.12.0.16.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di dicembre 2023 di Experience Manager Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2023.12.0.16.
+3. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di dicembre 2023 di Experience Manager Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
@@ -81,7 +81,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
 1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
@@ -95,10 +95,10 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Passaggi per gestire il conflitto `'fmdita rewriter'`
 
@@ -126,7 +126,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versione modello della Knowledge Base
@@ -143,7 +143,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Authoring
 
-- Il **Titolo** nella scheda Editor Web viene troncato dopo un punto(.) aggiuntivo. (14372)
+- Il **Titolo** nella scheda Editor Web viene troncato dopo un carattere punto(.). (14372)
 - I messaggi di errore per i nomi di mappe duplicati nell’interfaccia utente di Assets non vengono aggiornati. (14320)
 - Si verifica un errore nella logica di creazione della versione durante il trascinamento della selezione delle risorse. (14291)
 - Il contenuto riutilizzabile ignora gli ID elemento. (14213)
@@ -159,8 +159,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 - I componenti Fmdita hanno un percorso hardcoded di `delegator.jsp`, che impedisce la sovrapposizione dei componenti AEM Sites. (13993)
-- La visualizzazione con tag del reattore PDF nell’output di pubblicazione nativa di PDF non funziona come previsto. (13622)
-- La pubblicazione di siti AEM rileva un problema quando si esegue il commit nell’archivio dati per mappe di grandi dimensioni con collegamenti tra pari dell’ambito. (13531)
+- La visualizzazione con tag del reattore PDF nell’output di pubblicazione nativo di PDF non funziona come previsto. (13622)
+- La pubblicazione di siti AEM rileva un problema quando si esegue il commit nell’archivio dati per mappe di grandi dimensioni con collegamenti peer di ambito. (13531)
 - Impossibile attivare un sito utilizzando il dashboard Pubblicazione in blocco di Experience Manager Guides. (13439)
 - La localizzazione delle etichette degli elementi non funziona correttamente nell’output di AEM Sites. (12144)
 - Opzione **ditaval** mancante nei predefiniti di output a livello di profilo della cartella creati tramite l&#39;interfaccia utente dell&#39;editor Web. (11903)
@@ -181,5 +181,5 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione di dicembre 2023:
+Adobe ha identificato il seguente problema noto per la versione di dicembre 2023:
 - L’errore &quot;Getting Invalid DTD Error&quot; (Recupero dell’errore DTD non valido) si verifica in modo intermittente durante l’aggiornamento alla versione di dicembre 2023.

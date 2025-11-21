@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ Per configurare un connettore, effettuare le seguenti operazioni:
    <img src="./assets/data-sources-create-window.png" alt= "origini dati elencate nella pagina origini dati" width="800">
 
    *Visualizzare o creare un connettore origine dati.*
+
 1. Fai clic su **Crea**.
-1. Selezionare il database per il quale si desidera creare il connettore. Ad esempio, il connettore di Elasticsearch.
+1. Selezionare il database per il quale si desidera creare il connettore. Ad esempio, il connettore Elasticsearch.
+
    >[!NOTE]
    >
    >Vengono elencati tutti i database predefiniti disponibili.
@@ -47,7 +49,7 @@ Per configurare un connettore, effettuare le seguenti operazioni:
    >[!TIP]
    >
    >* Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino al campo per visualizzare ulteriori dettagli.
-   > * I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore di Elasticsearch.
+   >* I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore Elasticsearch.
 
    * **Nome**: immettere il nome dell&#39;origine dati.
    * **Tipo di autenticazione**: selezionare il tipo di autenticazione dall&#39;elenco a discesa. Ad esempio, autenticazione nome utente-password di base
@@ -57,12 +59,7 @@ Per configurare un connettore, effettuare le seguenti operazioni:
 
 
 1. Selezionare l&#39;opzione **Escludi modelli factory** per escludere i modelli factory dall&#39;utilizzo per la generazione di argomenti e frammenti. Non verranno visualizzati nel menu a discesa **Modello di mappatura dati** nella finestra di dialogo **Aggiungi generatore frammenti di contenuto** o **Aggiungi generatore argomenti**.
-
-
 1. Seleziona **Verifica connessione**. Puoi visualizzare il pulsante **Verifica connessione** abilitato solo dopo aver aggiunto i dettagli richiesti. Visualizza un messaggio di operazione riuscita se i dettagli della connessione sono corretti. In caso contrario, è possibile visualizzare un messaggio di errore.
-
-
-
 1. Seleziona **Salva** nella parte superiore per salvare il connettore.     Visualizza il pulsante **Salva** attivato dopo aver compilato tutti i dettagli e aver stabilito la connessione.
 
 
@@ -76,9 +73,8 @@ Per creare una risorsa, effettua le seguenti operazioni:
 
 1. Seleziona ![icona di aggiunta](assets/Add_icon.svg) nella **sezione risorse URL** per aggiungere una risorsa per ogni URL.
 1. Configura tutti i dettagli nella finestra di dialogo **Aggiungi risorsa**.
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 1. Puoi modificare ![icona di modifica](assets/edit_pencil_icon.svg) o eliminare ![elimina](assets/Delete_icon.svg) la risorsa dall&#39;elenco delle risorse URL.
-
 1. È inoltre possibile utilizzare le risorse predefinite disponibili per origini dati quali Salsify, Akeneo e Microsoft ADO. Disattiva le opzioni per la risorsa da non configurare per un’origine dati.
 
 Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo frammento di contenuto o argomento.
@@ -87,7 +83,7 @@ Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse 
 
 ## Installare un connettore open source{#install-open-source-connector}
 
-Per pubblicare nei Cloud Service una dipendenza presente nell&#39;archivio centrale [Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides), è necessario includere e incorporare la dipendenza per un connettore open-source.
+Per pubblicare una dipendenza presente nell&#39;archivio centrale [Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) in Cloud Services, è necessario includere e incorporare la dipendenza per un connettore open-source.
 
 1. Aggiungi la dipendenza in `all/pom.xml` nel codice del progetto Git di Cloud Manager. Ad esempio, puoi aggiungere la seguente dipendenza per il connettore dell’origine dati delle bacheche DevOps di Microsoft Azure.
 
@@ -103,16 +99,16 @@ Per pubblicare nei Cloud Service una dipendenza presente nell&#39;archivio centr
 
 1. Incorpora la dipendenza aggiunta.
 
-       &quot;
-       &lt;incorporato>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;tipo>jar&lt;/tipo>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
-1. Esegui la pipeline per applicare le modifiche nei Cloud Service.
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
+1. Esegui la pipeline per applicare le modifiche in Cloud Services.
 Il connettore è installato nell’ambiente.
 
 

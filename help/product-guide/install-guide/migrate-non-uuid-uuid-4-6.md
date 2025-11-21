@@ -4,7 +4,7 @@ description: Scopri come migrare contenuti non UUID a UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -178,9 +178,9 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
 
 | Riepilogo dopo il completamento del processo | Come si interpreta? | Azione |
 |---|---|---|
-| Numero totale di file: 288 | Numero di mappe DITA con almeno 1 linea di base. |
-| Numero di file migrati correttamente: 13 | Numero di mappe DITA aggiornate con tutte le linee di base. |
-| Numero di file ignorati: 275 | Numero di mappe DITA senza alcuna linea di base. |
+| Numero totale di file: 288 | Numero di mappe DITA con almeno 1 linea di base. |  |
+| Numero di file migrati correttamente: 13 | Numero di mappe DITA aggiornate con tutte le linee di base. |  |
+| Numero di file ignorati: 275 | Numero di mappe DITA senza alcuna linea di base. |  |
 | Numero di file non aggiornati: 0 | Il numero di oggetti della baseline non validi (vuoti) è elencato nel rapporto (Excel). | Verifica la presenza di errori diversi da: `baselineObj not found on` |
 
 È inoltre possibile accedere a un elenco di **file aggiornati con errori** e **file non riusciti** durante il processo di migrazione nella tabella di riepilogo del report.
@@ -219,5 +219,5 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
    > Se prima della migrazione la proprietà **Utilizza il titolo per i nomi delle pagine del sito AEM** in `com.adobe.fmdita.config.ConfigManager` è impostata su *False*, dopo la migrazione sarà necessario aggiornare la proprietà.
 
 
-1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it`).
+1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

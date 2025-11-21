@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +18,13 @@ Per accedere e configurare le funzioni di AEM Guides, devi creare degli utenti. 
 
 I seguenti argomenti nella documentazione di AEM sono utili per comprendere l’amministrazione degli utenti e i concetti e le funzioni relativi alla sicurezza:
 
-- [Utenti e gruppi in AEM](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Utenti e gruppi in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Autorizzazioni in AEM](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Autorizzazioni in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Gestione di utenti e gruppi](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Gestione di utenti e gruppi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Gestione delle autorizzazioni](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Gestione delle autorizzazioni](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Gruppi di utenti creati da AEM Guides {#id181TF0K0MHT}
@@ -50,30 +50,30 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Modifica argomento | Sì |   | Sì |
 | Sposta argomento | Sì |   | Sì |
 | Modifica proprietà argomento | Sì |   | Sì |
-| Copiare | Sì |   | Sì |
-| Elimina | Sì |   | Sì |
+| Copia | Sì |   | Sì |
+| Eliminare | Sì |   | Sì |
 | Condividi | Sì |   | Sì |
-| **Stato documento** |
+| **Stato documento** |  |  |  |
 | Crea/modifica profilo stato documento |   |   | Sì |
 | Cambia stato documento[2](#fntarg_2) | Sì | Sì | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |  |  |  |
 | Genera |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
 | Creare |   |   | Sì |
 | Elimina predefinito |   |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |  |  |  |
 | Visualizza output generato | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |  |  |  |
 | Crea attività di revisione | Sì |   | Sì |
 | Modifica | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |  |  |  |
 | Creare |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
-| Rimuovi |   |   | Sì |
+| Rimuovere |   |   | Sì |
 | Console mappe DITA \(scheda Rapporti\) | Sì |   | Sì |
-| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |
+| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |  |  |  |
 | Crea/modifica predefinito condizione |   |   | Sì |
 
 ## Note aggiuntive sui gruppi di utenti

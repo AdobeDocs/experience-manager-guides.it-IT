@@ -4,7 +4,8 @@ description: Scopri come configurare un connettore personalizzato per le origini
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -63,7 +64,7 @@ Implementa le seguenti funzioni importanti:
 | getName | sì | <ul><li>Questo metodo consente di recuperare il nome univoco assegnato a un connettore. <li>Il nome restituito è fondamentale per identificare il connettore all’interno di un contesto di interfaccia utente, soprattutto se le impostazioni di configurazione del connettore non specificano esplicitamente un nome. <li>Questo nome viene utilizzato in vari componenti dell’interfaccia utente per visualizzare o gestire i connettori in modo semplice. |
 | getGroup | sì | <ul> <li>Questo metodo consente di recuperare il nome del gruppo associato a un connettore. <li>I nomi dei gruppi vengono in genere utilizzati per organizzare o classificare i connettori in gruppi logici in base alla loro funzionalità, finalità o tipo. <li> Questo consente una gestione e una presentazione più semplici dei connettori all’interno dell’interfaccia utente di configurazione. |
 | getDefaultTemplatePath |  | <ul><li> Questo metodo restituisce il percorso predefinito per i modelli associati a questo connettore. <li> Per impostazione predefinita, restituisce una stringa vuota, che indica che non viene impostato alcun percorso predefinito a meno che non venga ignorato. |
-| getLogoSvg |  | <ul><li>Utilizzare questo metodo per restituire la rappresentazione SVG del logo del connettore. <li> Per impostazione predefinita, restituisce una stringa vuota che indica che non vengono forniti dati SVG a meno che non vengano ignorati. |
+| getLogoSvg |  | <ul><li>Utilizzare questo metodo per restituire la rappresentazione SVG del logo del connettore. <li> Per impostazione predefinita, restituisce una stringa vuota che indica che non vengono forniti dati SVG a meno che non vengano sostituiti. |
 | getMaxNoRowsForPreviewQuery | | <ul><li>Questo metodo restituisce il numero massimo di righe interrogate o visualizzate nell’anteprima dell’interfaccia utente. <li> Per impostazione predefinita, restituisce il valore di DEFAULT_LIMIT_PREVIEW, una costante che rappresenta il limite predefinito per le righe di anteprima. |
 | getConfigClass | sì | <ul><li>Questo metodo fornisce informazioni sulle classi che implementano l&#39;interfaccia Config e sono supportate da questo connettore. <li> Consente all’applicazione o al framework di individuare e lavorare in modo dinamico con configurazioni compatibili con il connettore. |
 
@@ -120,6 +121,6 @@ Experience Manager Guides consente inoltre di fornire risorse personalizzate per
 Per renderle utilizzabili dal connettore, è necessario implementare le seguenti funzioni del connettore:
 
 
-- `getLogoSvg` - Restituisce il SVG del logo come stringa.
+- `getLogoSvg` - Restituisce il logo SVG come stringa.
 
 - `getTemplates` - Restituisce l&#39;elenco dei modelli nel formato specificato.

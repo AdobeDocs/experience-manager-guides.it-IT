@@ -4,7 +4,7 @@ description: Scopri come creare un predefinito PDF utilizzando DITA-OT dalla con
 feature: Publishing
 role: User
 exl-id: 6ac82dad-34af-4f9e-8b52-4e4f2eb982a4
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -102,4 +102,4 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>Nota: è inoltre possibile trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

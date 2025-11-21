@@ -4,25 +4,25 @@ description: Versione di gennaio di  [!DNL Adobe Experience Manager Guides] as a
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
 
-# Versione di gennaio dell&#39;as a Cloud Service [!DNL Adobe Experience Manager Guides]
+# Versione di gennaio di [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Aggiornamento alla versione di gennaio
 
-As a Cloud Service Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] (in seguito denominata [!DNL AEM Guides] as a Cloud Service) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.1.78.
-1. Eseguire il commit delle modifiche ed eseguire la pipeline dei Cloud Service per eseguire l&#39;aggiornamento alla versione di gennaio dell&#39;as a Cloud Service [!DNL AEM Guides].
+Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominata [!DNL AEM Guides] as a Cloud Service) eseguendo i seguenti passaggi:
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.1.78.
+1. Eseguire il commit delle modifiche ed eseguire la pipeline dei servizi cloud per eseguire l&#39;aggiornamento alla versione di gennaio di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione [!DNL AEM Guides] di gennaio 2022 as a Cloud Service.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] as a Cloud Service versione di gennaio 2022.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -37,7 +37,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione cloud [!DNL AEM Guides] | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## Nuove funzioni e miglioramenti
@@ -50,7 +50,7 @@ Questa funzione consente agli utenti di creare la mappa DITA in modo additivo e 
 
 ![Pubblicazione basata su articolo](assets/article-based-publishing.png)
 
-Oltre all&#39;AEM, puoi utilizzare questa funzione esclusiva per pubblicare i tuoi articoli su tutti i portali della knowledge base, ad esempio Salesforce. Questa funzione viene fornita anche con un modello di contenuto OOTB, basato sui componenti core AEM, che consente di creare un archivio dei contenuti tecnici basato sulla conoscenza. L’aspetto eccezionale di questo modello è che è completamente personalizzabile in base ai requisiti organizzativi e può supportare anche casi di utilizzo come portali Intranet aziendali.
+Oltre ad AEM, questa funzione esclusiva consente di pubblicare gli articoli su tutti i portali della Knowledge Base, ad esempio Salesforce. Questa funzione viene fornita anche con un modello di contenuto OOTB, basato sui componenti core di AEM, che consente di creare un archivio dei contenuti tecnici basato sulle conoscenze. L’aspetto eccezionale di questo modello è che è completamente personalizzabile in base ai requisiti organizzativi e può supportare anche casi di utilizzo come portali Intranet aziendali.
 È inoltre possibile filtrare gli articoli in base allo stato del documento e all&#39;ora di modifica.
 
 Questo articolo on-the-go basato sulle esigenze di pubblicazione non solo offre un controllo completo sulla pubblicazione dei contenuti, ma riduce anche il tempo complessivo di pubblicazione dei contenuti aggiornati.
@@ -80,12 +80,12 @@ Nell’editor web sono stati introdotti numerosi miglioramenti e nuove funzioni:
 
 * È ora possibile caricare i file con estensione docx dall&#39;editor Web.
 
-### Autore con FrameMaker
+### Creazione con FrameMaker
 
-Ora è possibile creare e pubblicare i documenti in FrameMaker. Il FrameMaker viene fornito con un connettore predefinito per Adobe Experience Manager. In FrameMaker è disponibile un&#39;interfaccia di facile utilizzo che consente di gestire le versioni dei documenti in un ambiente distribuito e collaborativo.
+Ora è possibile creare e pubblicare i documenti in FrameMaker. FrameMaker viene fornito con un connettore predefinito per Adobe Experience Manager. In FrameMaker è disponibile un&#39;interfaccia di facile utilizzo che consente di gestire le versioni dei documenti in un ambiente distribuito e collaborativo.
 
 Dopo aver creato il contenuto, FrameMaker consente di pubblicare i documenti in diversi formati: PDF, HTML5, EPUB e DITA. È inoltre possibile eseguire varie operazioni di gestione dei file, ad esempio l&#39;estrazione, l&#39;estrazione con gli elementi dipendenti, l&#39;archiviazione, l&#39;aggiornamento e così via.
-Per eseguire l&#39;authoring con FrameMaker as a Cloud Service in [!DNL AEM Guides], utilizzare FrameMaker versione 2020.4 e successive.
+Per creare con FrameMaker in [!DNL AEM Guides] as a Cloud Service utilizza FrameMaker versione 2020.4 e successive.
 
 ### Nuovo dashboard di traduzione
 
@@ -101,7 +101,7 @@ Nell’editor web è stata introdotta una nuova dashboard di traduzione con le s
 
 ### Pubblicazione avanzata
 
-* Gli autori possono ora passare metadati a livello di mappa e di argomento alla pubblicazione DITA-OT. Questa funzione è utile quando i modelli di PDF personalizzati sono progettati per utilizzare le proprietà dei metadati dei file come tag, autore, stato del documento e altro ancora.
+* Gli autori possono ora passare metadati a livello di mappa e di argomento alla pubblicazione DITA-OT. Questa funzione è utile quando i modelli PDF personalizzati sono progettati per utilizzare proprietà di metadati di file come tag, autore, stato del documento e altro ancora.
 
 ![Metadati DITA-OT](assets/custom-meta-data-output-preset.png)
 
@@ -119,17 +119,17 @@ Durante l’utilizzo dei file in AEM Assets è ora possibile visualizzare i segu
 
 ![Miniatura cronologia versioni](assets/version-history-preview-image.png)
 
-* Ogni volta che l&#39;utente crea un file DITA, il nome del file predefinito viene visualizzato in piccolo maiuscolo per essere in linea con lo scenario di creazione di cartelle AEM native.
+* Ogni volta che l&#39;utente crea un file DITA, il nome del file predefinito viene visualizzato in piccolo maiuscolo per essere in linea con lo scenario di creazione della cartella nativa di AEM.
 
 ### Nuova funzione di esportazione dei rapporti
 
-I rapporti sono molto utili per identificare lo stato del contenuto. as a Cloud Service [!DNL AEM Guides] fornisce vari report per assumere il controllo del contenuto. Ora non solo puoi visualizzare i rapporti, ma puoi anche esportare i dati del rapporto in un file CSV per visualizzarli e condividerli con il tuo team più ampio. I dati dei rapporti possono fornire un rapido sguardo a eventuali collegamenti interrotti o immagini mancanti.
+I rapporti sono molto utili per identificare lo stato del contenuto. [!DNL AEM Guides] as a Cloud Service fornisce vari report per assumere il controllo del contenuto. Ora non solo puoi visualizzare i rapporti, ma puoi anche esportare i dati del rapporto in un file CSV per visualizzarli e condividerli con il tuo team più ampio. I dati dei rapporti possono fornire un rapido sguardo a eventuali collegamenti interrotti o immagini mancanti.
 
 ![Esportazione report](assets/export-report.png)
 
 ### Migliore esperienza di aggiornamento di Oxygen DAM
 
-Quando si aggiornano i file dal server AEM in Oxygen, viene visualizzato un messaggio di avvertenza se nella sessione corrente di Oxygen sono presenti file non salvati. È possibile scegliere di annullare l&#39;operazione di aggiornamento per salvare eventuali file non salvati. Senza questa funzione, gli utenti perdevano informazioni non salvate nei loro documenti.
+Quando si aggiornano i file da AEM Server in Oxygen, viene visualizzato un messaggio di avviso se nella sessione corrente di Oxygen sono presenti file non salvati. È possibile scegliere di annullare l&#39;operazione di aggiornamento per salvare eventuali file non salvati. Senza questa funzione, gli utenti perdevano informazioni non salvate nei loro documenti.
 
 
 ### Altri miglioramenti funzionali
@@ -156,17 +156,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 * xref a un elemento che è esso stesso un conref non viene risolto nell’editor. (7933)
 * Il rendering del titolo con chiave non viene eseguito correttamente nell’anteprima dell’editor e nel pannello Archivio. (7909)
 * I frammenti con caratteri speciali non vengono memorizzati correttamente. (7908)
-* Il salvataggio di un argomento dopo la formattazione delle equazioni MathML genera un errore. (7954)
-* keydef con (tm) non vengono riprodotti correttamente nell&#39;editor e l&#39;output del sito AEM conteneva simboli TM duplicati. (7859)
+* Il salvataggio di un argomento dopo la formattazione delle equazioni di MathML genera un errore. (7954)
+* keydef con (tm) non vengono riprodotti correttamente nell’editor e l’output del sito AEM conteneva simboli TM duplicati. (7859)
 * Il trascinamento di uno snippet non funziona come per le DTD. (7758)
-* HTML ignora le dimensioni definite personalizzate per gli elementi grafici. (7718)
+* HTML sta ignorando le dimensioni definite personalizzate per gli elementi grafici. (7718)
 * l&#39;attributo conrefend non viene aggiornato quando il file di origine viene spostato. (7698)
 * L’utilizzo di documenti di riferimento di tipo argomento causa diversi problemi all’interfaccia utente. (7656)
 * I file DITAVAL non vengono visualizzati quando l&#39;autore aggiunge ditavalref in una mappa. (7594)
 * Spazio imprevisto in ogni elemento `<entry>` vuoto quando l&#39;attributo outputclass viene aggiunto all&#39;elemento `<tgroup>`. (7532)
 * Il pulsante Source non funziona per gli argomenti aperti tramite la dashboard delle mappe. (7465)
-* Con la funzione di stampa gradevole vengono inserite righe e spazi vuoti che possono essere visualizzati quando il file viene aperto in FrameMaker o ossigeno. (7408)
-* Le mappe con href=&quot;/&quot; in uno qualsiasi degli argomenti non vengono pubblicate sui siti AEM. (7405)
+* La funzione di stampa consente di inserire righe e spazi vuoti che possono essere visualizzati all&#39;apertura del file in FrameMaker o Oxygen. (7408)
+* Le mappe con href=&quot;/&quot; in uno qualsiasi degli argomenti non vengono pubblicate sui siti di AEM. (7405)
 * Sono stati riscontrati problemi di prestazioni nell’editor quando la mappa principale presenta un numero elevato di chiavi. (7400)
 * Lo stato del documento per una mappa con modello personalizzato non viene ereditato dal profilo degli stati corrispondente. (7359)
 * Rendering errato dell&#39;elemento `<tm>` come elemento di blocco. (7286)
@@ -187,10 +187,10 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 * I file la cui cartella principale contiene caratteri speciali restituiscono un errore durante il caricamento in ossigeno. (8054)
 * Quando un documento appena creato viene aperto in ossigeno, viene generato l&#39;errore &quot;Impossibile trovare GUID&quot;. (7856)
-* L&#39;opzione Check-in è disattivata dopo che il file è stato estratto dall&#39;AEM mediante Modifica in ossigeno. (7471)
+* L&#39;opzione Check-in è disattivata dopo il check-out del file da AEM mediante Modifica in ossigeno. (7471)
 
 
-### Rivedi
+### Rivedere
 
 * La sincronizzazione in tempo reale non funziona per i commenti. (7661)
 
@@ -206,7 +206,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 * La creazione di PDF non riesce per la prima volta quando si seleziona Abilita controllo delle versioni. (8053, 8294)
-* Lo spazio vuoto viene aggiunto automaticamente dopo un tag &quot;tm;&quot; nell’output del sito AEM. (7964)
+* Il carattere spazio vuoto viene aggiunto automaticamente dopo un tag &quot;tm;&quot; nell’output del sito AEM. (7964)
 * Impossibile visualizzare i video di YouTube nell’output del sito AEM. (7401)
 * Il filtro per etichetta non riesce per il contenuto di riferimento dopo che l’utente fa clic su Sfoglia tutti gli argomenti nella scheda della linea di base del dashboard delle mappe. (7388)
 * L&#39;argomento di pubblicazione con l&#39;elemento `<tm>` con valore di proprietà SM o reg non viene visualizzato correttamente nell&#39;output generato. (7239)
@@ -216,9 +216,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il titolo della pagina non viene utilizzato per la generazione dell’URL di output anche se questa impostazione è selezionata. (8257)
 * Pubblicazione della linea di base con selezione della versione corrente delle immagini anziché del nodo bloccato. Questo viene visualizzato anche se il nome di un file contiene spazio o caratteri speciali. (8274, 8322)
 * La pubblicazione incrementale non riesce per la mappa DITA con lo schema del tipo soggetto con mapref. (8218)
-* Se si aggiunge un valore Null a una mappa nel dashboard Publish in blocco, (8695)
+* Viene aggiunto un valore Null ogni volta che viene aggiunta una mappa al dashboard di pubblicazione in blocco. (8695)
 * Quando si utilizza la pubblicazione della linea di base con l’immagine come riferimento nell’argomento, l’immagine non viene pubblicata nell’output. (8564)
-* La pubblicazione non riesce con un’eccezione se la linea di base utilizzata nella pubblicazione dei siti AEM viene eliminata. (8572)
+* La pubblicazione non riesce con un’eccezione se la linea di base utilizzata nella pubblicazione del sito AEM viene eliminata. (8572)
 * La rigenerazione dell&#39;argomento non funziona. (8091)
 * Si sono verificati problemi con la pubblicazione delle note a piè di pagina nelle tabelle. (4709)
 
@@ -237,13 +237,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Importazione dei contenuti
 
 * Conversione da HTML a DITA | Una tabella con &quot;tr&quot; con voci &quot;td&quot; vuote causa l’inserimento di righe aggiuntive nell’output. (8132)
-* Conversione da HTML a DITA | Se un HTML ha una tabella con più tbody, l’operazione non riesce, ad eccezione di. (7940)
+* Conversione da HTML a DITA | Se in HTML è presente una tabella con più tbody, si verifica un errore con un’eccezione. (7940)
 * Conversione da HTML a DITA | si verifica un errore se il HTML di origine contiene commenti. (7937)
 * L&#39;importazione di file DITA 1.3 causa la trasformazione di alcuni href in collegamenti non corretti. (8019)
 
 ## Problemi noti
 
-L&#39;Adobe ha identificato i seguenti problemi noti per la versione di gennaio 2022 dell&#39;as a Cloud Service [!DNL AEM Guides].
+Adobe ha identificato i seguenti problemi noti per la versione di gennaio 2022 di as a Cloud Service [!DNL AEM Guides].
 
 
 ### Problemi noti relativi alla soluzione alternativa

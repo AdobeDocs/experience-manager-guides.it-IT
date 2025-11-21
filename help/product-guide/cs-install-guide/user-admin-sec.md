@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,7 +18,7 @@ Per accedere e configurare le funzioni di AEM Guides, devi creare degli utenti. 
 
 I seguenti argomenti nella documentazione di AEM sono utili per comprendere l’amministrazione degli utenti e i concetti e le funzioni relativi alla sicurezza:
 
-- [Utenti, gruppi e autorizzazioni di AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=it)
+- [Utenti, gruppi e autorizzazioni di AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
 - [Amministrazione utenti e sicurezza](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=it)
 
@@ -45,30 +45,30 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Modifica argomento | Sì |   | Sì |
 | Sposta argomento | Sì |   | Sì |
 | Modifica proprietà argomento | Sì |   | Sì |
-| Copiare | Sì |   | Sì |
-| Elimina | Sì |   | Sì |
+| Copia | Sì |   | Sì |
+| Eliminare | Sì |   | Sì |
 | Condividi | Sì |   | Sì |
-| **Stato documento** |
+| **Stato documento** |  |  |  |
 | Crea/modifica profilo stato documento |   |   | Sì |
 | Cambia stato documento[2](#fntarg_2) | Sì | Sì | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |  |  |  |
 | Genera |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
 | Creare |   |   | Sì |
 | Elimina predefinito |   |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |  |  |  |
 | Visualizza output generato | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |  |  |  |
 | Crea attività di revisione | Sì |   | Sì |
 | Modifica | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |  |  |  |
 | Creare |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
-| Rimuovi |   |   | Sì |
+| Rimuovere |   |   | Sì |
 | Console mappe DITA \(scheda Rapporti\) | Sì |   | Sì |
-| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |
+| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |  |  |  |
 | Crea/modifica predefinito condizione |   |   | Sì |
 
 ## Note aggiuntive sui gruppi di utenti

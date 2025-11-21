@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 1%
@@ -179,10 +179,10 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
 
 | Riepilogo dopo il completamento del processo | Come si interpreta? | Azione |
 |---|---|---|
-| Numero totale di file: 4833 | Numero di mappe DITA con almeno 1 linea di base. |
-| Numero di file aggiornati correttamente: 4705 | Numero di mappe DITA aggiornate con tutte le linee di base. |
-| Numero di file aggiornati con errori: 0 | Numero di mappe DITA le cui linee di base non sono state aggiornate. |
-| Numero di file ignorati: 1647 | Numero di mappe DITA senza alcuna linea di base. |
+| Numero totale di file: 4833 | Numero di mappe DITA con almeno 1 linea di base. |  |
+| Numero di file aggiornati correttamente: 4705 | Numero di mappe DITA aggiornate con tutte le linee di base. |  |
+| Numero di file aggiornati con errori: 0 | Numero di mappe DITA le cui linee di base non sono state aggiornate. |  |
+| Numero di file ignorati: 1647 | Numero di mappe DITA senza alcuna linea di base. |  |
 | Numero di file non aggiornati: 128 | Il numero di oggetti della baseline non validi (vuoti) è elencato nel rapporto (Excel). | Verifica la presenza di errori diversi da: `baselineObj not found on` |
 
 
@@ -220,5 +220,5 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
    > Se prima della migrazione la proprietà **Utilizza il titolo per i nomi delle pagine del sito AEM** in `com.adobe.fmdita.config.ConfigManager` è impostata su *False*, dopo la migrazione sarà necessario aggiornare la proprietà.
 
 
-1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it`).
+1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

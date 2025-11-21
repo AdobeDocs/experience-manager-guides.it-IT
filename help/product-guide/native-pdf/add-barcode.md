@@ -1,22 +1,22 @@
 ---
-title: Funzionalità nativa di PDF Publish | Aggiungi codice a barre
+title: Funzione di pubblicazione nativa di PDF | Aggiungi codice a barre
 description: Scopri come aggiungere codici a barre.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# Aggiungere un codice a barre all&#39;output PDF
+# Aggiungere un codice a barre all&#39;output di PDF
 
 Un codice a barre è un pattern di dati che le macchine possono leggere. I clienti possono scansionare i codici a barre con uno scanner o una fotocamera per smartphone. Può essere utile codificare informazioni quali dettagli di prodotto, numeri di inventario o URL di siti web. L’aggiunta di codici a barre consente di acquisire facilmente i dati, migliora l’esperienza del cliente e facilita una migliore gestione e sicurezza dei dati.
 
 È possibile creare uno stile per il codice a barre. e utilizzarlo per inserire un codice a barre in un layout di pagina. Puoi applicare lo stile a un codice a barre di esempio nel layout di pagina desiderato.
 
 
-Questa esercitazione consente di aggiungere codici a barre nell&#39;output di PDF.
+Questa esercitazione ti aiuta ad aggiungere codici a barre nell&#39;output di PDF.
 
 ## Passaggi per generare un codice a barre
 
@@ -72,7 +72,7 @@ La schermata seguente mostra un codice a barre di esempio in un output PDF.
 
 Modificare il file `Common.plt` nel modello **Basic** per aggiungere un codice a barre dopo il titolo del progetto.
 
-Per creare un codice a barre per un numero ISBN, aggiungere un numero ISBN. Quindi utilizza il numero ISBN per generare il codice a barre.
+Per creare un codice a barre per un numero ISBN, aggiungi un numero ISBN. Quindi utilizza il numero ISBN per generare il codice a barre.
 
 ```html
 ...
@@ -126,33 +126,33 @@ Alcuni dei codici a barre comunemente utilizzati sono i seguenti:
 
 | Tipo | -ro-tipo-codice a barre | Dettagli aggiuntivi |
 | ---| --- | --- |
-| Codice QR | qrcode | La simbologia del codice a barre del QR secondo ISO/IEC 18004:2015. |
+| Codice QR | qrcode | La simbologia del codice a barre QR in base allo standard ISO/IEC 18004:2015. |
 | Codice 128 | code128 | La simbologia del codice a barre del codice 128 come definita nella norma ISO/IEC 15417:2007. |
 | Codice 32 | code32 | Codice 32, noto anche come codice harmacode italiano. |
 | Codice 49 | code49 | Codice 49 in conformità con ANSI/AIM-BC6-2000. |
 | Codice 11 | code11 |                            |
 | Codice 93 | code93 |                            |
 | Codice16k | code16k |                            |
-| PDF 417 | pdf417 | Le simbologie dei codici a barre PDF417/MicroPDF417 sono conformi alle norme ISO/IEC 15438:2006 e ISO/IEC 24728:2006. |
-| Codice 3 di 9 | code39 | Il codice 3 di 9 simboli di codici a barre conformemente alla norma ISO/IEC 16388:2007. |
+| PDF417 | pdf417 | Il codice a barre PDF417/MicroPDF417 è simbolico in base alle norme ISO/IEC 15438:2006 e ISO/IEC 24728:2006. |
+| Codice 3 di 9 | code39 | Il codice 3 di 9 simboli di codici a barre secondo ISO/IEC 16388:2007. |
 | MSI Plessey | sciocco |                            |
 | Codice canale | channelcode | Codice di canale secondo ANSI/AIM BC12-1998. |
 | Codabar | codabar | Simbologia del codice a barre di Codabar secondo BS EN 798:1996. |
 | EAN-8 | ean-8 | Simbologia del codice a barre EAN secondo BS EN 797:1996. |
 | EAN-13 | ean-13 | Simbologia del codice a barre EAN secondo BS EN 797:1996. |
-| UPC-A | upc-a | Simbologia del codice a barre UPC secondo BS EN 797:1996. |
-| UPC-E | upc-e | Simbologia del codice a barre UPC secondo BS EN 797:1996. |
-| Componente aggiuntivo Ean/UPC | addon | Simbologia del codice a barre del componente aggiuntivo EAN/UPC in base alla norma BS EN 797:1996. |
-| Telepen | telepene | Noto anche come Alpha Telepen. |
-| Databar GS1/Databar 14 | databar | GS1 DataBar in conformità alla norma ISO/IEC 24724:2011. |
-| GS1 Databar Expanded/Databar 14 Expanded | database espanso | Barra dei dati GS1 espansa in conformità alla norma ISO/IEC 24724:2011. |
-| GS1 Databar Limited | databar-limited | GS1 DataBar Limited in conformità alla norma ISO/IEC 24724:2011. |
+| UPC-A | upc-a | Simbologia codice a barre UPC secondo BS EN 797:1996. |
+| UPC-E | upc-e | Simbologia codice a barre UPC secondo BS EN 797:1996. |
+| Componente aggiuntivo Ean/UPC | addon | Simbologia del codice a barre del componente aggiuntivo EAN/UPC in base a BS EN 797:1996. |
+| Telepen | telepene | Noto anche come Telepen Alpha. |
+| Databar GS1/Databar 14 | databar | Barra dati GS1 in base allo standard ISO/IEC 24724:2011. |
+| GS1 Databar Expanded/Databar 14 Expanded | database espanso | Barra dati GS1 espansa in base allo standard ISO/IEC 24724:2011. |
+| GS1 Databar Limited | databar-limited | GS1 DataBar Limited secondo ISO/IEC 24724:2011. |
 | POSTNET (tecnica di codifica numerica postale) | postnet | La simbologia del codice a barre POSTNET (Postal Numeric Encoding Technique) utilizzata dal servizio postale degli Stati Uniti. |
 | Farmazentralnummer (PZN-8) | pzn8 | Simbologia basata sul Codice 39 utilizzata dall&#39;industria farmaceutica in Germania. |
 | Codice Farmacologico | codice farmacologico |                            |
 | Blocco codice F | codablockf | Simbologia secondo AIM Europe &quot;Uniform Symbology Specification Codablock F&quot;, 1995. |
 | Logmars | logmars | Lo standard LOGMARS (Logistics Applications of Automated Marking and Reading Symbols) utilizzato dal Dipartimento della Difesa degli Stati Uniti. |
-| Aztec Runes | rune azteche | Simbologia del codice a barre Aztec Runes in conformità alla norma ISO/IEC 24778:2008, allegato A. |
-| Codice Aztec | codice azteco | Codice azteco: simbologia dei codici a barre in base alla norma ISO/IEC 24778:2008. |                            |
+| Aztec Runes | rune azteche | Simbologia del codice a barre Aztec Runes in base alla norma ISO/IEC 24778:2008 allegato A. |
+| Codice Aztec | codice azteco | Simbologia codice a barre Aztec in base alla norma ISO/IEC 24778:2008. |
 | DataMatrix | data-matrix | Simbologia del codice a barre ECC 200 Data Matrix secondo ISO/IEC 16022:2006. |
 | Codice uno | code-one |                            |

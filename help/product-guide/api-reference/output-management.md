@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -36,15 +36,15 @@ Restituisce una matrice di oggetti Predefinito di output JSON, ognuno dei quali 
 | Elemento | Descrizione |
 |-------|-----------|
 | `outputName` | Nome del predefinito di output. I nomi di output sono univoci nell&#39;ambito della mappa DITA in cui sono definiti. |
-| `outputType` | Tipo di output generato utilizzando questo predefinito, ad esempio Sito AEM, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZATO |
+| `outputType` | Tipo di output generato utilizzando questo predefinito, ad esempio AEM Site, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZATO |
 | `outputTitle` | Nome descrittivo per le impostazioni del predefinito di output. Viene utilizzato per definire il valore della proprietà Nome impostazione per il predefinito di output. |
 | `ditaValPathList` | Array di percorsi di file DITAVAL da utilizzare per generare l&#39;output desiderato. |
 | `targetPath` | Percorso in cui viene pubblicato o memorizzato l’output. |
-| `siteName` | *\(Per output sito AEM\)* Nome del sito AEM. |
+| `siteName` | *\(Per l&#39;output del sito AEM\)* Nome del sito AEM. |
 | `templatePath` | *\(Per output sito AEM\)* Percorso del nodo del modello da utilizzare per generare l&#39;output desiderato. |
 | `searchScope` | Specificare l&#39;ambito dell&#39;operazione di ricerca. Il valore di questo parametro deve essere impostato su `local`. |
-| `generateTOC` | *\(Per output sito AEM\)* Specificare se viene generato un sommario \(true\) o meno \(false\). |
-| `generateBreadcrumbs` | *\(Per output sito AEM\)* Specificare se le breadcrumb vengono generate \(true\) o meno \(false\). |
+| `generateTOC` | *\(Per l&#39;output del sito AEM\)* Specificare se viene generato un sommario \(true\) o meno \(false\). |
+| `generateBreadcrumbs` | *\(Per l&#39;output del sito AEM\)* Specificare se le breadcrumb vengono generate \(true\) o meno \(false\). |
 | `overwriteStrategy` | *\(Per l&#39;output del sito AEM\)* Specificare se i file di destinazione sono sovrascritti \(true\) o meno \(false\). |
 | `pdfGenerator` | Specifica il motore di generazione PDF da utilizzare. I valori possibili sono:<br>-   DITAOT <br>-   FMPS |
 
@@ -66,7 +66,7 @@ http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener
 | `:operation` | Stringa | Sì | Nome dell&#39;operazione chiamata. Il valore di questo parametro è ``createoutput``.<br> **Nota:** il valore non distingue tra maiuscole e minuscole. |
 | `sourcePath` | Stringa | Sì | Percorso assoluto del file mappa DITA. |
 | `outputTitle` | Stringa | Sì | Nome descrittivo per le impostazioni del predefinito di output. Utilizzato per definire il valore della proprietà Nome impostazione per il predefinito di output.<br> **Nota:** quando viene creato un nuovo predefinito di output, il sistema back-end utilizza un nome univoco per il predefinito di output dal titolo specificato. |
-| `outputType` | Stringa | Sì | Tipo di output generato utilizzando questo predefinito, ad esempio Sito AEM, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZATO |
+| `outputType` | Stringa | Sì | Tipo di output generato utilizzando questo predefinito, ad esempio AEM Site, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZATO |
 
 **Valori risposta**:
 
@@ -112,13 +112,13 @@ http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener
 | Elemento | Descrizione |
 |-------|-----------|
 | `outputName` | Nome del predefinito di output. I nomi di output sono univoci nell&#39;ambito della mappa DITA in cui sono definiti. |
-| `outputType` | Tipo di output generato utilizzando questo predefinito, ad esempio Sito AEM, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZA <br> |
+| `outputType` | Tipo di output generato utilizzando questo predefinito, ad esempio AEM Site, PDF, EPUB o altro. Opzioni disponibili:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONALIZZA <br> |
 | `outputTitle` | Nome descrittivo per le impostazioni del predefinito di output. Viene utilizzato per definire il valore della proprietà Nome impostazione per il predefinito di output. |
 | `ditaValPathList` | Array di percorsi di file DITAVAL da utilizzare per generare l&#39;output desiderato. |
 | `targetPath` | Percorso in cui viene pubblicato o memorizzato l’output. |
-| `siteName` | \(Per output sito AEM\) Nome del sito AEM. |
-| `siteTitle` | \(Per output sito AEM\) Titolo del sito AEM. |
-| `templatePath` | \(Per output sito AEM\) Percorso del nodo modello da utilizzare per generare l’output desiderato. |
+| `siteName` | \(Per l’output del sito AEM\) Nome del sito AEM. |
+| `siteTitle` | \(Per l’output del sito AEM\) Titolo del sito AEM. |
+| `templatePath` | \(Per l’output del sito AEM\) Percorso del nodo modello da utilizzare per generare l’output desiderato. |
 | `searchScope` | Specificare l&#39;ambito dell&#39;operazione di ricerca. Il valore di questo parametro deve essere impostato su `local`. |
 | `generateTOC` | \(Per output sito AEM\) Specificare se viene generato un sommario \(true\) o meno \(false\). |
 | `generateBreadcrumbs` | \(Per l’output del sito AEM\) Specifica se le breadcrumb vengono generate \(true\) o meno \(false\). |
@@ -131,7 +131,7 @@ http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener
 
 ## Genera output
 
-Metodo di GET che genera output utilizzando uno o più predefiniti di output.
+Metodo GET che genera l&#39;output utilizzando uno o più predefiniti di output.
 
 **URL richiesta**:
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener
@@ -142,14 +142,14 @@ http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `operation` | Stringa | Sì | Nome dell&#39;operazione chiamata. Il valore di questo parametro è `GENERATEOUTPUT`.<br> **Nota:** il valore fa distinzione tra maiuscole e minuscole. |
 | `source` | Stringa | Sì | Percorso assoluto del file mappa DITA. |
-| `outputName` | Stringa | Sì | Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite|pdfoutput`. |
+| `outputName` | Stringa | Sì | Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`. |
 
 **Valori risposta**:
 Restituisce una risposta HTTP 200 \(Riuscito\).
 
 ## Genera output incrementale
 
-Metodo di GET che genera un output incrementale per un sito AEM utilizzando uno o più predefiniti di output.
+Un metodo GET che genera un output incrementale per un sito AEM utilizzando uno o più predefiniti di output.
 
 **URL richiesta**:
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/publishlistener

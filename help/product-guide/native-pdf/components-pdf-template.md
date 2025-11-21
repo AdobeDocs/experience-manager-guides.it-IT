@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Per creare un foglio di stile, effettuare le seguenti operazioni:
 Per impostazione predefinita, i file CSS forniti con il modello contengono stili per intestazione, paragrafo, carattere, collegamento ipertestuale, immagine, tabella, div, pagina e altri stili. Potete sovrascrivere il formato di stile predefinito o creare un nuovo stile.
 
 
-È possibile creare un nuovo stile da utilizzare nel layout di pagina del modello o applicare uno stile personalizzato per qualsiasi elemento DITA. Per applicare questi stili personalizzati all&#39;elemento DITA, è necessario assicurarsi che il nome della classe dello stile sia uguale al nome dell&#39;elemento DITA o all&#39;attributo `outputclass`.  Ad esempio, `<div>` in DITA è gestito da `.div {}` in CSS o dal relativo attributo `outputclass`. Se applichi `<div outputclass="my-div">` in DITA, sarà governato da `.div {}` o `.my-div {}` nel CSS.
+È possibile creare un nuovo stile da utilizzare nel layout di pagina del modello o applicare uno stile personalizzato per qualsiasi elemento DITA. Per applicare questi stili personalizzati all&#39;elemento DITA, è necessario assicurarsi che il nome della classe dello stile corrisponda al nome dell&#39;elemento DITA o all&#39;attributo `outputclass`.  Ad esempio, `<div>` in DITA è gestito da `.div {}` in CSS o dal relativo attributo `outputclass`. Se applichi `<div outputclass="my-div">` in DITA, sarà governato da `.div {}` o `.my-div {}` nel CSS.
 
 
 
@@ -198,7 +198,7 @@ Il file selezionato viene importato ed elencato nella cartella Risorse.
 Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina di PDF, avviando PDF da una pagina pari o dispari, i formati per i riferimenti incrociati e abilitando i segni di stampa nel PDF finale generato
 utilizzando il modello.
 
->
+>[!NOTE]
 >
 > A partire dalla versione 5.0/2025.02.0 di Experience Manager Guides, la sezione **Stampa** nelle impostazioni PDF avanzate è stata spostata nel pannello **Predefiniti di output**. Per configurare le impostazioni di stampa, visualizzare [Output di pubblicazione PDF](../web-editor/native-pdf-web-editor.md#print).
 
@@ -420,7 +420,7 @@ AEM Guides fornisce le seguenti variabili predefinite:
 * {chapter}: aggiunge un riferimento incrociato ai numeri dei capitoli. Ad esempio, vedere il Capitolo 1.
 * {bookmarkText}: crea un riferimento incrociato al testo contrassegnato con segnalibro. Ad esempio, vedere stop_words a pagina 5.
 * {captionText}: crea un riferimento incrociato alla didascalia della figura o della tabella nell&#39;argomento. Ad esempio, consultate Flusso d&#39;aria a pagina 2.
-* {figure}: aggiunge un riferimento incrociato al numero di figura. Seleziona il numero della figura dagli stili di numerazione automatica definiti per la didascalia della figura.  Ad esempio, è possibile utilizzare &quot;Vedere {figure} a pagina {page}&quot;. Il riferimento incrociato nell&#39;output contiene il numero di figura generato automaticamente e il relativo numero di pagina, &quot;Vedere la Figura 1 a pagina 5&quot;.
+* {figure}: aggiunge un riferimento incrociato al numero di figura. Consente di selezionare il numero di figura dagli stili di numerazione automatica definiti per la didascalia.  Ad esempio, è possibile utilizzare &quot;Vedere {figure} a pagina {page}&quot;. Il riferimento incrociato nell&#39;output contiene il numero di figura generato automaticamente e il relativo numero di pagina, &quot;Vedere la Figura 1 a pagina 5&quot;.
 * {table}: aggiunge un riferimento incrociato al numero di tabella. Seleziona il numero di tabella dagli stili di numerazione automatica definiti per la didascalia. Ad esempio, è possibile utilizzare &quot;Vedere {table} a pagina {page}&quot;. Il riferimento incrociato nell&#39;output contiene il numero di tabella generato automaticamente e il relativo numero di pagina, &quot;Vedere Tabella 1 a pagina 5&quot;.
 
 
@@ -459,11 +459,11 @@ Ad esempio, puoi aggiungere una variabile di lingua &quot;reference-label&quot; 
 Quando si aggiunge `${lng:<variable name>}` alla sezione Paragrafo, i rimandi nei paragrafi dell&#39;output contengono il testo localizzato e il numero di pagina.\
 Ad esempio, le schermate seguenti mostrano i riferimenti incrociati &quot;Visualizza a pagina 1&quot; in inglese e &quot;Einzelheiten finden Sie auf der Seite 1&quot; in tedesco.
 
-<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah" width ="800" border="2px">
 
 *Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua inglese.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah" width ="800" border="2px">
 
 
 *Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua tedesca.*

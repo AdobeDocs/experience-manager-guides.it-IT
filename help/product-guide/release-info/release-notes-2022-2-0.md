@@ -4,7 +4,7 @@ description: Versione di febbraio di  [!DNL Adobe Experience Manager Guides] as 
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Effettua l’aggiornamento alla versione di febbraio
 
-As a Cloud Service Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] (in seguito denominata [!DNL AEM Guides] as a Cloud Service) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.2.114.
-1. Eseguire il commit delle modifiche ed eseguire la pipeline dei Cloud Service per eseguire l&#39;aggiornamento alla versione di febbraio dell&#39;as a Cloud Service [!DNL AEM Guides].
+Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominata [!DNL AEM Guides] as a Cloud Service) eseguendo i seguenti passaggi:
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.2.114.
+1. Eseguire il commit delle modifiche ed eseguire la pipeline dei servizi cloud per eseguire l&#39;aggiornamento alla versione di febbraio di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
-In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di febbraio 2022 di [!DNL AEM Guides] as a Cloud Service.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] as a Cloud Service versione di febbraio 2022.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -42,17 +42,17 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 ## Nuove funzioni e miglioramenti
 
-### Pubblicazione nativa di PDF
+### Pubblicazione nativa su PDF
 
 Il supporto per la creazione di un PDF nativo è stato aggiunto anche nella versione di febbraio di [!DNL AEM Guides] as a Cloud Service. È stato introdotto un nuovo motore di pubblicazione con le seguenti caratteristiche:
 * Creare un modello CSS
 * Creare diversi modelli di pagina
-* Progettare modelli di PDF comprendenti CSS e modelli di pagina
-* Contenuto della mappa Publish e dell’argomento in formato PDF
+* Progettare modelli PDF comprendenti CSS e modelli di pagina
+* Pubblicare contenuti di mappe e argomenti in formato PDF
 
 ### Supporto per il percorso del sito della knowledge base nella pubblicazione basata su articoli
 
-[!DNL AEM Guides] offre la funzionalità di pubblicazione basata su as a Cloud Service per generare in modo incrementale un output di uno o più argomenti o pubblicare il contenuto in una piattaforma knowledgebase. Con la versione di febbraio, è disponibile un&#39;opzione aggiuntiva per scegliere il percorso del sito della Knowledge Base in cui pubblicare l&#39;argomento o la mappa. Dopo aver selezionato il percorso, l’output viene generato nel percorso specificato.
+[!DNL AEM Guides] as a Cloud Service fornisce la funzionalità di pubblicazione basata su articoli per generare in modo incrementale un output di uno o più argomenti o pubblicare il contenuto in una piattaforma knowledgebase. Con la versione di febbraio, è disponibile un&#39;opzione aggiuntiva per scegliere il percorso del sito della Knowledge Base in cui pubblicare l&#39;argomento o la mappa. Dopo aver selezionato il percorso, l’output viene generato nel percorso specificato.
 
 ### Miglioramenti dell’editor web
 
@@ -68,7 +68,7 @@ In base alla configurazione, è possibile salvare le modifiche e creare una nuov
 
 Per ulteriori dettagli, vedere *Scenari di chiusura e salvataggio dei file* nella Guida utente.
 
-* Al pallet dei caratteri è stato aggiunto uno spazio unificatore.  Uno spazio di **unbreak** impedisce un&#39;interruzione di riga automatica in un punto particolare di un documento HTML. L&#39;editor Web supporta uno spazio unificatore sia per l&#39;output del sito AEM che per quello di HTML5.
+* Al pallet dei caratteri è stato aggiunto uno spazio unificatore.  Uno spazio **unificatore** impedisce un&#39;interruzione di riga automatica in un punto particolare di un documento di HTML. L’editor web supporta uno spazio unificatore sia per l’output di AEM Site che per quello di HTML5.
 
 * Quando carichi un’immagine dall’editor web, viene visualizzata una finestra di dialogo di conferma se esiste già un’immagine con lo stesso nome. È possibile mantenere entrambi i file, ovvero esistente e nuovo, oppure sovrascrivere il file esistente e salvare solo il nuovo file.
 
@@ -76,11 +76,11 @@ Per ulteriori dettagli, vedere *Scenari di chiusura e salvataggio dei file* nell
 
 ### Dashboard mappa
 
-Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in coda e si riceve una notifica quando la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o in un secondo momento dal collegamento fornito nella casella in entrata delle notifiche AEM.
+Quando si sceglie di scaricare la mappa DITA, la richiesta viene inserita in coda e si riceve una notifica quando la mappa è pronta per il download. Puoi scegliere di scaricare il file mappa immediatamente o in un secondo momento dal collegamento fornito nella casella in entrata delle notifiche di AEM.
 
 ![Download mappa](assets/download-map-prompt.png)
 
-### Rivedi
+### Rivedere
 
 È possibile indicare i dettagli nel campo descrizione dell&#39;attività di revisione e visualizzarli nell&#39;e-mail inviata al revisore.
 
@@ -93,7 +93,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La pubblicazione basata su articoli non pubblica gli articoli in base alla linea di base selezionata. (8771)
 * I file DITAVAL non vengono rispettati nella pubblicazione basata su articoli. (8770)
 * Impossibile eseguire la pubblicazione basata su articolo per il profilo Salesforce quando il tipo di record è Domande frequenti e il contenuto del campo articolo è Domanda. (8448)
-* Impossibile eseguire la pubblicazione basata su articolo per il profilo Salesforce quando il tipo di record è Manuale. (8447)
+* Impossibile eseguire la pubblicazione basata su articoli per il profilo Salesforce quando il tipo di record è Manuale. (8447)
 
 ### Editor web
 

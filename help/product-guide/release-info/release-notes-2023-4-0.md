@@ -4,9 +4,9 @@ description: Versione di aprile 2023 di Adobe Experience Manager Guides as a Clo
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consul
 
 Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service in 2023.4.249.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di aprile 2023 di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2023.4.249.
+3. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di aprile 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente (solo se utilizzi una versione precedente alla versione di settembre di AEM Guides as a Cloud Service)
 
@@ -33,9 +33,9 @@ Per indicizzare il contenuto esistente e utilizzare il nuovo testo di ricerca e 
 (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Ad esempio: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+Ad esempio: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678
 
-* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+* Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
@@ -54,7 +54,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.04.0 | 2,9-uuid-2 | 2,9-uuid-2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 
@@ -62,7 +62,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-* Native PDF | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11596)
+* PDF nativo | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11596)
 * Il problema si verifica quando si sposta (trascina e rilascia) al posto di una voce di elenco esistente con l’opzione Rileva modifiche attivata. (11570)
 * Si verifica un problema quando si sposta (trascina e rilascia) come nuova voce di elenco con l’opzione Rileva modifiche attivata. (11569)
 * Il rientro o il rientro degli elementi dell&#39;elenco non funziona come previsto con l&#39;opzione Rileva modifiche attivata. (11568)
@@ -74,6 +74,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Problema noto con la soluzione alternativa
 
-L’Adobe ha identificato il seguente problema noto per la versione di AEM Guides as a Cloud Service di aprile 2023.
+Adobe ha identificato il seguente problema noto per la versione di AEM Guides as a Cloud Service di aprile 2023.
 
-* Native PDF | I vecchi metadati vengono compilati solo dopo l’apertura esplicita del predefinito di output.
+* PDF nativo | I vecchi metadati vengono compilati solo dopo l’apertura esplicita del predefinito di output.

@@ -1,11 +1,11 @@
 ---
-title: Genera PDF
+title: Generare un PDF
 description: Scopri come creare un predefinito PDF dall’editor web e dal dashboard delle mappe. Configura il predefinito di output PDF in AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: fae55104-fef6-4994-911a-139598332b96
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 1%
@@ -68,4 +68,4 @@ Per l&#39;output PDF sono disponibili le seguenti opzioni:
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Per ulteriori dettagli, vedere [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF). |
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>Nota: è inoltre possibile trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, vedere [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

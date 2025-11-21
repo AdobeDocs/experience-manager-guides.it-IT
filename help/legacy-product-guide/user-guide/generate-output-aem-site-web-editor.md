@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 1. Selezionare **AEM Sites** dal menu a discesa **Tipo** nella finestra di dialogo **Nuovo predefinito di output**.
 1. Deseleziona l&#39;opzione **Usa mapping di componenti legacy** nella finestra di dialogo **Nuovo predefinito di output**.
 
-![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png)
+![Nuovo ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 >[!NOTE]
 >
 >Prima di configurare i predefiniti di AEM Sites per Experience Manager Guides, l’amministratore deve creare una struttura AEM Sites utilizzando i modelli.
->- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
->- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
+- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
+- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
 
 
 
@@ -154,17 +154,17 @@ Per creare e configurare un predefinito AEM Sites, effettua le seguenti operazio
 1. Puoi configurare il modello predefinito di Sites in due modi:
    1. Selezionare **Sito**, quindi scegliere il percorso di pubblicazione e i modelli di pagina dell&#39;argomento dalle opzioni popolate:
       1. Seleziona il sito.
-      1. Seleziona **Sito**. Esempio: `AEMG Docs`.
+      1. Seleziona **Sito**. Ad esempio, `AEMG Docs`.
       1. Le opzioni **Percorso pubblicazione** e **Modello pagina argomento** vengono impostate automaticamente nel menu a discesa. Puoi anche scegliere le opzioni. Ad esempio, `AEMG-Docs-Site/en/docs/product1` e `Topic page` sono impostati rispettivamente.
    1. Selezionare il percorso completo del sito:
       1. Selezionare l&#39;opzione **Usa percorso sito**.
-      1. Selezionare il percorso completo del sito. Esempio: `/content/AEMG-Docs-Site/en/docs/product1`.
+      1. Selezionare il percorso completo del sito. Ad esempio, `/content/AEMG-Docs-Site/en/docs/product1`.
       1. Il &#39;Modello pagina argomento&#39; viene impostato automaticamente come `Topic Page`.
 
 
 1. Salvate le modifiche apportate al predefinito.
 1. Selezionare l&#39;opzione **Genera**.
-1. Genera AEM Sites per la mappa corrispondente. Esempio: `/content/AEMG-Docs-Site/en/docs/product`.
+1. Genera AEM Sites per la mappa corrispondente. Ad esempio, `/content/AEMG-Docs-Site/en/docs/product`.
 
 
    >[!NOTE]

@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per caricare un plug-in DITA-OT personalizzato nell&#39;archivio AEM, effettuare
 
    >[!NOTE]
    >
-   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche utilizzando la pipeline di Cloud Manager. Per ulteriori dettagli, consulta [Distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it) nella documentazione di AEM.
+   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche utilizzando la pipeline di Cloud Manager. Per ulteriori dettagli, consulta [Distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) nella documentazione di AEM.
 
 1. Per creare un nuovo profilo, potete scegliere di modificare il profilo predefinito, crearne uno nuovo o duplicare le impostazioni del profilo predefinito.
 
@@ -64,12 +64,12 @@ Per caricare un plug-in DITA-OT personalizzato nell&#39;archivio AEM, effettuare
 
    | Nome proprietà | Descrizione |
    |-------------|-----------|
-   | **Proprietà profilo** |
+   | **Proprietà profilo** |  |
    | Nome profilo | Specifica un nome univoco per questo profilo. |
    | Riutilizza output | *\(Facoltativo\)* Se il profilo è basato su un profilo esistente, selezionare questa opzione. Selezionando questa opzione, AEM Guides non estrae nuovamente il contenuto del pacchetto DITA-OT e riutilizza il pacchetto DITA-OT esistente. |
    | Percorso di estrazione profilo | *\(Facoltativo\)* Specificare il percorso in cui viene conservato DITA-OT sul disco. Per impostazione predefinita, AEM Guides raggruppa un pacchetto DITA-OT nel proprio archivio e lo estrae sul disco in questo percorso. <br> **NOTA** È possibile definire questo percorso utilizzando qualsiasi variabile o proprietà di sistema esistente. Per ulteriori informazioni, vedere la descrizione della proprietà [Variabili di ambiente DITA-OT](#id181NH0YN0AX). |
    | Percorso assegnato | \(*Facoltativo*\) Specificare il percorso nell&#39;archivio dei contenuti a cui è applicabile il profilo. È possibile specificare più posizioni. |
-   | **Proprietà DITA-OT** |
+   | **Proprietà DITA-OT** |  |
    | Timeout DITA-OT | \(*Facoltativo*\) Specificare il tempo \(in secondi\) per il quale AEM Guides attende una risposta dal plug-in DITA-OT. Se non viene ricevuta alcuna risposta entro il tempo specificato, AEM Guides interrompe l’attività di pubblicazione e l’attività viene contrassegnata come non riuscita. Inoltre, i registri degli errori sono resi disponibili nel file di registro di generazione dell’output. <br> Valore predefinito: 300 secondi \(5 minuti\) |
    | Argomenti PDF DITA-OT | Specificare gli argomenti della riga di comando elaborati dal plug-in DITA-OT personalizzato per la generazione dell&#39;output di PDF. Per tutti i profili DITA-OT personalizzati, specificare il seguente argomento della riga di comando:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Argomenti AEM DITA-OT | \(*Facoltativo*\) Specificare gli argomenti della riga di comando personalizzati elaborati dal plug-in DITA-OT personalizzato per la generazione dell&#39;output del sito AEM. |

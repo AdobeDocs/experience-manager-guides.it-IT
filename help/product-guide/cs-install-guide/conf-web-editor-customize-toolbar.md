@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ Per impostazione predefinita, l&#39;Editor Web viene fornito con le funzioni edi
 
 >[!NOTE]
 >
-> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
 - Aggiungere una nuova funzionalità alla barra degli strumenti
-
 - Rimuovi eventuali funzionalità esistenti dalla barra degli strumenti
 
 
@@ -50,19 +49,19 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    **elementi**:   Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
-       &quot;
-       &quot;toolbar&quot;: &lbrace;
-       &quot;type&quot;: &quot;blockGroup&quot;,
-       &quot;extraclass&quot;:
-       &quot;operazioni barra degli strumenti&quot;,
-       &quot;elementi&quot;: &lbrack;
-       &lbrace;
-       &quot;type&quot;: &quot;buttonGroup&quot;,
-       &quot;extraclass&quot;: &quot;left-controls&quot;,
-       &quot;label&quot;: &quot;Left Controls&quot;,
-       &quot;elementi&quot;: &lbrack;
-       &quot;
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    Nell&#39;insieme `items` è necessario specificare la definizione di una o più icone della barra degli strumenti.
 
    Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario definire le seguenti proprietà:
@@ -77,10 +76,10 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    **al clic**:   Specificate il nome del comando definito per la feature nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
 
-       &quot;Javascript
-       &quot;al clic&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;}
-       &quot;
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **mostra o nascondi**:   Se si sta definendo la proprietà `show`, specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\) o `false` \(nascondi in tutte le modalità\).
 
    Al posto di `show`, puoi anche definire la proprietà `hide`. I valori possibili sono gli stessi della proprietà `show` con l&#39;unica differenza che l&#39;icona non viene visualizzata per la modalità specificata.
@@ -145,4 +144,4 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

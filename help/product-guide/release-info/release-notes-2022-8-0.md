@@ -4,7 +4,7 @@ description: Versione di agosto di Adobe Experience Manager Guides as a Cloud Se
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 ## Effettua l’aggiornamento alla versione di agosto
 
 Aggiorna la configurazione corrente di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *AEM Guides as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.8.167.
-1. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di agosto di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.8.167.
+1. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di agosto di AEM Guides as a Cloud Service.
 
 ## Matrice di compatibilità
 
@@ -31,7 +31,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
 | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -43,7 +43,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guides as a Cloud Service fornisce molti miglioramenti e nuove funzioni nella versione di agosto:
+AEM Guides as a Cloud Service offre molti miglioramenti e nuove funzioni nella versione di agosto:
 
 ### Vista Layout nell’Editor mappa
 
@@ -97,9 +97,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il file Node.js aggiornato non viene utilizzato per la pubblicazione. (9835)
 * L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate nella pagina **Proprietà**. (8745)
 * L&#39;elemento Frontmatter aggiunto a una bookmap DITA non funziona correttamente. (9507)
-* Native PDF | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando si seleziona un elemento vuoto. (9822)
-* Native PDF | L’appendice viene pubblicata come capitolo nell’output PDF. (9829)
-* Native PDF | Quando si modifica un’immagine di un SVG, questa non viene visualizzata come aggiornata nel layout della pagina. 9069
+* PDF nativo | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
+* PDF nativo | L’appendice viene pubblicata come capitolo nell’output di PDF. (9829)
+* PDF nativo | Quando un’immagine SVG viene modificata, non viene visualizzata come aggiornata nel layout della pagina. 9069
 * Quando si inserisce un carattere `Nonbreaking Hyphen` tramite la finestra di dialogo **Inserisci carattere speciale**, viene inserito un carattere trattino regolare. (8919)
 * XML Editor non mostra le immagini aggiornate negli argomenti se sono state modificate. (9500)
 * Durante la pubblicazione dell&#39;output tramite l&#39;editor, i predefiniti non possono essere eliminati dalla scheda **Output**. (9100)
@@ -114,7 +114,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problemi noti
 
-Adobe ha identificato i seguenti problemi noti per la versione di AEM Guides as a Cloud Service dell’agosto 2022.
+Adobe ha identificato i seguenti problemi noti per AEM Guides as a Cloud Service, versione di agosto 2022.
 
 ### Problemi noti relativi alla soluzione alternativa
 

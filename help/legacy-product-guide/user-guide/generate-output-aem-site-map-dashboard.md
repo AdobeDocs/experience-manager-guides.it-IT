@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -115,4 +115,4 @@ Puoi cercare una stringa nell’output di AEM Sites. Per impostazione predefinit
 
 Per ulteriori dettagli vedi la sezione *Configurare l&#39;appiattimento della struttura dei nodi del sito AEM* nella guida Installare e configurare Adobe Experience Manager Guides.
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

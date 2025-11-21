@@ -4,7 +4,7 @@ description: Crea e configura il predefinito Sites di AEM in AEM Guides dal dash
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -114,4 +114,4 @@ Puoi cercare una stringa nell’output di AEM Sites. Per impostazione predefinit
 
 Per ulteriori dettagli, visualizzare la sezione *Configurare l&#39;appiattimento della struttura del nodo del sito AEM* nella guida Installare e configurare Adobe Experience Manager Guides.
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

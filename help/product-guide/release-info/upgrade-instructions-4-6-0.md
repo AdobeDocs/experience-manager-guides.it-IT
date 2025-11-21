@@ -2,9 +2,10 @@
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 4.6.0
 description: Scopri come effettuare l’aggiornamento alla versione 4.6.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 1880d889dc9063ef05c4f856d6082d1ea03b7946
+exl-id: 03d0d85b-7324-441f-9b35-66a63691d630
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -37,9 +38,9 @@ Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide
 | --- | --- | --- | --- | --- |
 | 4.6.0 (non UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.3 o versione successiva |
 | 4.6.0 (UUID) | 2022 o versione successiva | 2020.2 o versione successiva* | 2022 o versione successiva | 2020.4 o versione successiva |
-| | | | |
+| | | | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
@@ -47,7 +48,7 @@ Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide
 | --- | --- | --- |--- |--- |
 | 4.6.0 (non UUID) | 2,8-regular-10 | 2,8-regular-10 | 1,6 | 1,6 |
 | 4.6.0 (UUID) | 3.6-uuid.9 | 3.6-uuid.9 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | |  |
 
 ### Versione modello della Knowledge Base
 
@@ -67,13 +68,13 @@ Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide
 È possibile aggiornare facilmente la versione corrente delle Guide alla versione 4.6.0. Prima di procedere con l’aggiornamento alla versione 4.6.0 di Experience Manager Guides, è necessario considerare i seguenti punti:
 
 - Se utilizzi le versioni 4.4, 4.3.1 o 4.3.0 , puoi eseguire direttamente l’aggiornamento alla versione 4.6.0.
-- Se utilizzi le versioni 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 4.6.0.
+- Se utilizzi le versioni 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi eseguire l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 4.6.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto disponibile nell&#39;[archivio di Adobe Experience Manager Guides help PDF](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
->Prima di aggiornare la versione di Experience Manager Guides è necessario installare il service pack per AEM.
+>È necessario installare AEM Service Pack prima di aggiornare la versione di Experience Manager Guides.
 
 Per informazioni dettagliate, visualizzare [Istruzioni per l&#39;aggiornamento per le versioni locali](../install-guide/upgrade-xml-documentation.md) di Experience Manager Guides.

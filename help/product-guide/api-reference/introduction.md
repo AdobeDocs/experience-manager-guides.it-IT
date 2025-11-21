@@ -5,10 +5,10 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 1%
 
 ---
 
@@ -38,14 +38,13 @@ Puoi utilizzare le API basate su Java disponibili in Experience Manager Guides p
 
 Per configurare e utilizzare i file JAR dell&#39;API di servizio dall&#39;archivio Maven nei progetti, aggiungi l&#39;API SDK come dipendenza dal progetto nel file `pom.xml` del progetto, come illustrato di seguito.
 
-    &quot;XML
-    &lt;dipendenza>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
-    &lt;versione>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-dox-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -59,14 +58,13 @@ Per configurare e utilizzare i file JAR dell&#39;API di servizio dall&#39;archiv
 
 Per configurare e utilizzare i file JAR delle API di servizio per le distribuzioni on-premise, aggiungi il file JAR delle API di servizio come dipendenza dal progetto nel file `pom.xml` del progetto, come illustrato di seguito:
 
-    &quot;XML
-    &lt;dipendenza>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
-    &lt;versione>${RELEASE}&lt;/version>
-    &lt;/dependency>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-guides-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -122,9 +120,9 @@ Per informazioni dettagliate sull&#39;utilizzo delle API, sui parametri e sulle 
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guida utente
 - Guida all’installazione e alla configurazione
 - Guida rapida
-- [Pagina di archiviazione della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
+- [Pagina di archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)

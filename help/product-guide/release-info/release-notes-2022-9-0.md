@@ -4,7 +4,7 @@ description: Versione di settembre di Adobe Experience Manager Guides as a Cloud
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 ## Aggiornamento alla versione di settembre
 
 Aggiorna la configurazione corrente di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *AEM Guides as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service a 2022.9.178.
-1. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di settembre di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.9.178.
+1. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di settembre di AEM Guides as a Cloud Service.
 
 ## Passaggi per indicizzare il contenuto esistente
 
@@ -27,7 +27,7 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate ||  Esempio:   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 * L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Ad esempio: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
-* Una volta completato il processo, la richiesta di GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+* Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 
 ## Matrice di compatibilità
@@ -41,19 +41,19 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Non compatibile | Aggiornamento 2020 4 e versioni successive |
 | | |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ### Connettore ossigeno
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Nuove funzioni e miglioramenti
 
-AEM Guides as a Cloud Service fornisce molti miglioramenti e nuove funzioni nella versione di settembre:
+AEM Guides as a Cloud Service offre molti miglioramenti e nuove funzioni nella versione di settembre:
 
 
 ### Creare una baseline dinamica basata su etichette
@@ -82,9 +82,9 @@ Dal dashboard di traduzione, puoi facilmente vedere le differenze tra l’ultima
 
 In base alle differenze, puoi decidere se tradurre o meno un argomento.
 
-### Interfaccia utente metadati disponibile per i predefiniti di PDF
+### Interfaccia utente metadati disponibile per i predefiniti PDF
 
-È possibile impostare i metadati dal predefinito di output di una mappa DITA. È possibile impostare i metadati Titolo, Autore, Oggetto e Parole chiave. Questi metadati vengono mappati ai metadati nelle Proprietà file del PDF di output.
+È possibile impostare i metadati dal predefinito di output di una mappa DITA. È possibile impostare i metadati Titolo, Autore, Oggetto e Parole chiave. Questi metadati vengono mappati ai metadati in Proprietà file del PDF di output.
 Questi metadati sostituiscono i metadati definiti a livello di libro. Potete definire i metadati in modo specifico in ciascun predefinito di output e trasmetterli al PDF di output.
 
 ![Metadati nel predefinito](assets/preset-metadata.png)
@@ -112,17 +112,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Trova e sostituisci | La modalità scura non è leggibile per i risultati di ricerca nell’editor web. (9978)
 * Traduzione | I metadati e i tag non vengono propagati alle copie tradotte. (4696)
 * Quando si copia e incolla un contenuto (ctrl+c/ctrl+v) viene generato un errore in modalità di creazione. (10304)
-* Modello PDF | Se si aggiungono immagini di sfondo a qualsiasi layout di pagina, il percorso immagine viene visualizzato come assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
-* Native PDF | Il titolo del capitolo e l’intestazione del capitolo non funzionano nella pubblicazione PDF. (9947)
-* Native PDF | `xref` per un concetto non è risolto correttamente per un argomento DITA specifico. (10229)
-* Native PDF | Impossibile visualizzare il testo della didascalia per una tabella nell’output PDF generato. (9827)
-* Native PDF | I riferimenti nelle appendici non vengono visualizzati come appendici nell’output di PDF. (10182)
-* Native PDF | L&#39;attributo di frame per una tabella non viene propagato al HTML temp (come classe). (10353)
-* Native PDF | i file HTML temporanei aggiungono le classi colsep e rowsep a td e th anche se il loro valore è 0 nel DITA di origine. (10352)
-* Native PDF |  I metadati per il dato aggiunto nel layout di pagina non vengono rispettati. (10377)
-* Native PDF |  La generazione di PDF non riesce per contenuti specifici. (9927)
-* Native PDF | Il contenuto tramite conkeyref non viene visualizzato nell’output PDF. (9836)
-* Native PDF | I riferimenti a tasti per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
+* Modello PDF | L&#39;aggiunta di immagini di sfondo a qualsiasi layout di pagina visualizza il Percorso immagine assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
+* PDF nativo | Il titolo e l’intestazione del capitolo non funzionano in PDF publishing. (9947)
+* PDF nativo | `xref` per un concetto non è risolto correttamente per un argomento DITA specifico. (10229)
+* PDF nativo | Impossibile visualizzare il testo della didascalia per una tabella nell’output PDF generato. (9827)
+* PDF nativo | I riferimenti nelle appendici non vengono visualizzati come appendici nell’output di PDF. (10182)
+* PDF nativo | L&#39;attributo di frame per una tabella non viene propagato al HTML temporaneo (come classe). (10353)
+* PDF nativo | i file HTML temporanei aggiungono le classi colsep e rowsep a td e th anche se il loro valore è 0 nel DITA di origine. (10352)
+* PDF nativo |  I metadati per il dato aggiunto nel layout di pagina non vengono rispettati. (10377)
+* PDF nativo |  La generazione di PDF non riesce per contenuti specifici. (9927)
+* PDF nativo | Il contenuto tramite conkeyref non viene visualizzato nell’output PDF. (9836)
+* PDF nativo | I riferimenti a tasti per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
 * Nella vista Creazione di una mappa non viene visualizzato il testo segnaposto per l&#39;elenco tabelle e l&#39;elenco figure. (10330)
 * Quando si crea una nuova baseline, il filtro già selezionato non viene applicato. (9954)
 * File video mancante dalla linea di base se il nome della cartella principale contiene uno spazio. 10031)
@@ -132,7 +132,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problemi noti
 
-Adobe ha identificato i seguenti problemi noti per la versione di AEM Guides as a Cloud Service di settembre 2022.
+Adobe ha identificato i seguenti problemi noti per la versione di settembre 2022 di AEM Guides as a Cloud Service.
 
 
 * La baseline dinamica non è integrata con la pubblicazione della knowledge base.

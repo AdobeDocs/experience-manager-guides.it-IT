@@ -4,7 +4,7 @@ description: Scopri come creare un predefinito HTML5 dalla console delle mappe e
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: a953de289530457b257259bda3d9af2b68790592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -108,4 +108,4 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

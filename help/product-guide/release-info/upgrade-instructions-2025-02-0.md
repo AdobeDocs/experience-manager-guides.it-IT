@@ -1,7 +1,8 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2025.02.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2025.02.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: b180621b54fa5c7390aa798e66ed91e5e738ab28
+exl-id: 7b01be4c-031f-4153-8d6d-d6352e94be65
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -33,7 +34,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2025.02.0 | 3,8-uuid 1 | 3,8-uuid 1 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versione modello della Knowledge Base

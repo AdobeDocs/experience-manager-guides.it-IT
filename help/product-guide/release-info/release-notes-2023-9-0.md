@@ -4,9 +4,9 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, consul
 
 Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei tuoi Cloud Service a 2023.9.0.359.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di settembre 2023 di AEM Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2023.9.0.359.
+3. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di settembre 2023 di AEM Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
-(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
+(Solo per le versioni precedenti alla versione di AEM Guides as a Cloud Service di giugno 2023)
 
 Dopo aver completato l’installazione, puoi scegliere di premere il trigger per avviare il processo di traduzione:
 
@@ -62,7 +62,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Passaggi per pubblicare ed elaborare il contenuto esistente per utilizzare il rapporto sui collegamenti interrotti
 
-(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
+(Solo per le versioni precedenti alla versione di AEM Guides as a Cloud Service di giugno 2023)
 
 Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente e l’utilizzo del nuovo rapporto sui collegamenti interrotti:
 
@@ -81,24 +81,24 @@ as a Cloud Service, per creare il file di configurazione.
 1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una volta completato il processo, la richiesta di GET precedente risponderà con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponderà con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
 1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
 ## Passaggi per indicizzare il contenuto esistente per utilizzare il nuovo elenco Trova e sostituisci e Argomento nella scheda Rapporti:
 
-(Solo se utilizzi una versione precedente al rilascio di AEM Guides as a Cloud Service di giugno 2023)
+(Solo per le versioni precedenti alla versione di AEM Guides as a Cloud Service di giugno 2023)
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Esegui una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. Una volta completato il processo, la richiesta di GET precedente risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Matrice di compatibilità
 
@@ -117,14 +117,14 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versione modello della Knowledge Base
 
 | Nome pacchetto componenti | Versione componenti | Versione modello |
 |---|---|---|
-| Pacchetto di contenuti per componenti AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Pacchetto di contenuti dei componenti di AEM Guides per Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemi risolti
 
@@ -159,22 +159,22 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Pubblicazione
 
-- La pubblicazione non riesce quando si rinomina un predefinito di PDF nativo. (12564)
-- La duplicazione di un modello di PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
+- La pubblicazione non riesce quando si rinomina un predefinito PDF nativo. (12564)
+- La duplicazione di un modello PDF nativo viene duplicata nel percorso predefinito del modello invece che nel percorso personalizzato fornito. (12563)
 
-- Native PDF | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
-- Native PDF | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
-- Native PDF | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione.(12166)
+- PDF nativo | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
+- PDF nativo | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output di PDF. (12644)
+- PDF nativo | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione.(12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
-- Se vengono utilizzate risorse di DAM dell&#39;AEM in un output diverso dal sito AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
+- Se in un output diverso dal sito AEM vengono utilizzate risorse di DAM di AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
 - AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
-- Native PDF | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
-- Native PDF | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
-- Native PDF | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
+- PDF nativo | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
+- PDF nativo | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
+- PDF nativo | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
 - Il contenuto di `<conref>` non è visualizzato nell&#39;output di PDF. (11131)
 - All&#39;interno degli elementi `<div>` viene aggiunto uno spazio aggiuntivo quando si passa dalla visualizzazione Autore a quella Source nell&#39;editor di layout di pagina. (10750)
-- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza di Publish. (9564)
+- Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)
 
 ### Traduzione
 

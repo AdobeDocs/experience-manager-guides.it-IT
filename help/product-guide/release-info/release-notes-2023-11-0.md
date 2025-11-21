@@ -4,26 +4,26 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 80839890-075f-4187-a167-444c73215496
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1673'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questa nota sulla versione descrive le istruzioni per l’aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *Experience Manager Guides as a Cloud Service*).
+Questa nota sulla versione descrive le istruzioni per l&#39;aggiornamento, la matrice di compatibilità e i problemi risolti nella versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service (in seguito denominato *Experience Manager Guides as a Cloud Service*).
 
-Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizza [Novità della versione di novembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023-11-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizzare [Novità della versione di novembre 2023 di Experience Manager Guides as a Cloud Service](whats-new-2023-11-0.md).
 
 ## Aggiornamento alla versione di novembre 2023
 
-Aggiorna l’as a Cloud Service configurazione di Experience Manager Guides corrente eseguendo i seguenti passaggi:
+Aggiorna la configurazione corrente di Experience Manager Guides as a Cloud Service eseguendo i seguenti passaggi:
 
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei tuoi Cloud Service a 2023.11.0.406.
-3. Apporta le modifiche ed esegui la pipeline dei Cloud Service per l’aggiornamento alla versione di novembre 2023 di Experience Manager Guides as a Cloud Service.
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+2. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2023.11.0.406.
+3. Apporta le modifiche ed esegui la pipeline dei servizi cloud per l’aggiornamento alla versione di novembre 2023 di Experience Manager Guides as a Cloud Service.
 
 ## Passaggi per abilitare l’attivazione di uno script tramite un servlet
 
@@ -81,7 +81,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
 
 1. Ripristinare il valore predefinito o esistente precedente di `queryLimitReads` se è stato modificato nel passaggio 1.
 
@@ -95,10 +95,10 @@ Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza i
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta di GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
+1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
-1. Una volta completato il processo, la richiesta di GET precedente risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
+1. Una volta completato il processo, la precedente richiesta GET risponde con successo e indica se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
 ## Passaggi per gestire il conflitto `'fmdita rewriter'`
 
@@ -126,7 +126,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 | Versione di Experience Manager Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.11.0 | 3,2-uuid 5 | 3,2-uuid 5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versione modello della Knowledge Base
@@ -155,24 +155,24 @@ Di seguito sono elencati i bug risolti in varie aree:
 - Nell&#39;editor Web viene visualizzata la finestra **Riferimenti chiave** quando si inserisce il tag `varname`. (10940)
 - I file ZIP non vengono riconosciuti nell&#39;editor Web e non è possibile trascinarli. (12709)
 - Il contenuto con alcuni attributi applicati non viene evidenziato in modalità Creazione o Anteprima. (11063)
-- Quando si chiude un argomento dopo averlo modificato, si viene reindirizzati alla home page dell&#39;AEM invece di tornare alla visualizzazione cartella. (13306)
+- Quando si chiude un argomento dopo averlo modificato, si viene reindirizzati alla home page di AEM invece di tornare alla vista cartelle. (13306)
 - Si verifica un ritardo nella post-elaborazione dei file copiati e incollati nei servizi cloud. (12457)
 - L&#39;impostazione della rootmap viene mantenuta nell&#39;editor Web anche se l&#39;utente non l&#39;ha impostata in modo esplicito nelle preferenze utente. (11551)
 
 
 ### Pubblicazione
 
-- La funzionalità Publish come frammento di contenuto non funziona per i file elencati nei risultati di ricerca. (14090)
-- Nella pubblicazione di PDF nativi, la selezione del colore di sfondo nel layout del modello richiede il ricaricamento della pagina quando si ripristina `None`. (13621)
-- Si è verificato un problema durante l’impegno per l’archivio dati per una mappa DITA di grandi dimensioni con collegamenti peer per l’ambito nella pubblicazione di siti AEM. (13530)
-- Nella pubblicazione di PDF nativi, l’accessibilità è compromessa in quanto le immagini nell’intestazione e nel piè di pagina non visualizzano testo alternativo. (12829)
-- La duplicazione del layout di pagina in Native PDF non funziona con nessuna estensione aggiunta automaticamente. (12534)
-- Quando si genera l’output di PDF con la pubblicazione di PDF nativi, il nome del file viene troncato dopo un punto. (13620)
-- L&#39;icona e la descrizione comandi non sono corretti per l&#39;opzione **Modifica contenuto** nella barra degli strumenti Layout di pagina dei modelli utilizzati nella pubblicazione di PDF nativi. (13492)
+- La funzionalità Pubblica come frammento di contenuto non funziona per i file elencati nei risultati di ricerca. (14090)
+- Nella pubblicazione nativa in PDF, la selezione del colore di sfondo nel layout del modello richiede il ricaricamento della pagina quando si torna a `None`. (13621)
+- Si è verificato un problema durante il commit nell’archivio dati per una mappa DITA di grandi dimensioni con collegamenti peer per l’ambito nella pubblicazione di siti AEM. (13530)
+- Nella pubblicazione nativa in PDF, l’accessibilità è compromessa in quanto le immagini nell’intestazione e nel piè di pagina non visualizzano testo alternativo. (12829)
+- La duplicazione del layout di pagina in PDF nativo non funziona con nessuna estensione aggiunta automaticamente. (12534)
+- Quando si genera l’output di PDF con la pubblicazione PDF nativa, il nome del file viene troncato dopo un punto. (13620)
+- L&#39;icona e la descrizione comandi non sono corrette per l&#39;opzione **Modifica contenuto** nella barra degli strumenti Layout di pagina dei modelli utilizzati nella pubblicazione nativa di PDF. (13492)
 - I metadati personalizzati non sono disponibili nell’output finale. (12116)
 - Il rewriter fmdita è in conflitto con la configurazione del rewriter dell’utente e porta alla visualizzazione di URL lunghi invece dei collegamenti. (12076)
-- Nel predefinito per sito AEM, l&#39;opzione per **Generare PDF separati per ogni argomento** non è funzionale. (11555)
-- La pubblicazione PDF nativa non supporta la conversione dello spazio colore CMYK. (10754)
+- Nel predefinito per sito AEM, l&#39;opzione per **Generare un PDF separato per ogni argomento** non funziona. (11555)
+- La pubblicazione nativa su PDF non supporta la conversione dello spazio colore CMYK. (10754)
 - Le chiamate della linea di base dinamica utilizzano il nome invece del titolo, il che si traduce in un errore di esportazione dell’API mappa DITA. (14268)
 
 ### Gestione
@@ -183,11 +183,11 @@ Di seguito sono elencati i bug risolti in varie aree:
 - Non vengono creati predefiniti di condizione per mappe DITA di grandi dimensioni. (10936)
 - Nell’elenco Collegamenti interrotti dei report viene visualizzato un collegamento di riferimento autonomo. (13539)
 
-### Rivedi
+### Rivedere
 
 - I pannelli di revisione affiancata delle versioni precedenti e correnti nell’editor web non sono corretti nella versione di ottobre 2023 di Experience Manager Guides as a Cloud Service. (14156)
 - La personalizzazione del modello e-mail per il flusso di lavoro **Revisione** non funziona con la sovrapposizione dei nodi. (13954)
-- Il pulsante **Chiudi** nella pagina Revisione di Experience Manager Guides porta gli utenti alla home page dell&#39;AEM. (13535)
+- Il pulsante **Chiudi** nella pagina Revisione di Experience Manager Guides porta gli utenti alla home page di AEM. (13535)
 - I caratteri interrotti vengono visualizzati durante la creazione dei frammenti in lingua coreana. (13489)
 - Gli allegati coreani nella schermata Experience Manager Guides Review non sono selezionabili. (13436)
 - Il titolo della mappa viene tagliato nella schermata di revisione e collaborazione, senza opzione per visualizzare il titolo completo. (13012)
@@ -199,6 +199,6 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione di novembre 2023.
+Adobe ha identificato il seguente problema noto per la versione di novembre 2023.
 
 - La rigenerazione selettiva degli argomenti per l’output del sito AEM non riesce.

@@ -1,11 +1,11 @@
 ---
-title: Funzionalità nativa di PDF Publish | Utilizzare gli stili di contenuto comuni
+title: Funzione di pubblicazione nativa di PDF | Utilizzare gli stili di contenuto comuni
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Un foglio di stile contiene le definizioni degli stili per gli elementi utilizzati nell’output di PDF. È possibile scegliere di utilizzare i fogli di stile di esempio o crearne di nuovi. Nella maggior parte dei casi, la creazione di una copia del foglio di stile di esempio OOTB consente di iniziare rapidamente.
 
-L’editor di stili è un editor WYSIWYG che nasconde tutte le complessità di un codice CSS dietro l’interfaccia utente. Utilizzando l’editor di stili, puoi personalizzare facilmente e molto rapidamente gli stili per gli elementi desiderati. Gli stili sono suddivisi nelle seguenti categorie:
+L’editor di stili è un editor di WYSIWYG che nasconde tutte le complessità di un codice CSS dietro l’interfaccia utente. Utilizzando l’editor di stili, puoi personalizzare facilmente e molto rapidamente gli stili per gli elementi desiderati. Gli stili sono suddivisi nelle seguenti categorie:
 
 * Stili intestazione
 * Stili paragrafo
@@ -49,7 +49,7 @@ Gli stili di titolo racchiudono tutti gli stili di base dei titoli utilizzati ne
 
 In un libro (o in una mappa di un libro), si lavora con i capitoli. Gli stili di titolo di base sono progettati in modo tale da essere applicati ai titoli a livello di capitolo senza alcuna personalizzazione. Tuttavia, se desideri creare intestazioni specifiche per il contenuto, dovrai crearle. Ad esempio, l&#39;intestazione predefinita `h1.chapter` viene applicata al titolo del capitolo. Se si desidera che il titolo del capitolo venga visualizzato in uno stile diverso, è necessario personalizzare lo stile `h1.chapter`. Allo stesso modo, è possibile creare stili personalizzati per i sottotitoli del capitolo. Ad esempio, se desideri creare uno stile personalizzato per tutte le intestazioni di livello 2<sup>nd</sup> e 3<sup>rd</sup> nel capitolo, devi creare un nuovo stile come `h2.chatper` e `h3.chatper`.
 
-Poiché la funzione di pubblicazione di PDF nativi contiene le definizioni degli stili di base per gli stili più comuni, anche se uno stile viene eliminato accidentalmente, al contenuto viene applicato lo stile predefinito. Se ad esempio nel foglio di stile non è presente alcuna definizione di stile per lo stile h2, la caratteristica Pubblicazione di PDF nativi applicherà uno stile di base al contenuto h2.
+Poiché la funzione di pubblicazione nativa di PDF contiene le definizioni degli stili di base per gli stili più comuni, anche se uno stile viene eliminato accidentalmente, al contenuto viene applicato lo stile predefinito. Ad esempio, se nel foglio di stile non è presente alcuna definizione di stile per lo stile h2, la caratteristica Pubblicazione nativa di PDF applicherà uno stile di base al contenuto h2.
 
 In questo esempio verrà creato uno stile di intestazione del capitolo di secondo livello:
 
@@ -93,7 +93,7 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
    Gli stili che è possibile applicare all&#39;elenco numerazione automatica sono visualizzati sotto la proprietà Numerazione automatica.
 
 1. Imposta le seguenti proprietà:
-   * **Stile**: consente di scegliere tra un&#39;ampia gamma di stili di numerazione generici o specifici delle impostazioni internazionali. Puoi scegliere stili come Arabo-Indaco, Devanagari, Georgiano, Decimale, Alpha inferiore e altro ancora. Per l&#39;esempio corrente, selezionare `upper-alpha`.
+   * **Stile**: consente di scegliere tra un&#39;ampia gamma di stili di numerazione generici o specifici delle impostazioni internazionali. Puoi scegliere stili come Arabo-Indaco, Devanagari, Georgiano, Decimale, Lower-Alpha e altro ancora. Per l&#39;esempio corrente, selezionare `upper-alpha`.
 
    * **Formato**: il formato predefinito è impostato su `<x>`, in cui il valore `x` viene sostituito con lo stile di numerazione selezionato nella proprietà Style. Ad esempio, se è stato selezionato lo stile `decimal` (1), il valore di `x` incrementi automatici per ogni istanza dello stile `h1` andrà come 2, 3 e così via. Puoi anche aggiungere testo personalizzato nel campo per formattare lo stile dell’intestazione. Ad esempio, se desideri che tutte le intestazioni h1 abbiano il prefisso `Chapter`, imposta questo campo come `Chapter <x>`.
 
@@ -141,7 +141,6 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
    |  | Formato | `Section <2>.<x>:` |  |
    |  | Larghezza prefisso | 125 px |  |
    |  | Font > Allineamento testo | Sinistra | Assicurarsi che Applica formattazione a sia impostato su Numerazione |
-   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -151,7 +150,7 @@ Le proprietà dello stile h1 vengono visualizzate nel pannello Proprietà insiem
 
 ### Creare lo stile capolettera {#drop-cap-style}
 
-Lo stile capolettera viene utilizzato nelle riviste e nei documenti letterari in cui al primo carattere di un paragrafo o di una sezione viene assegnato uno stile speciale. È possibile ottenere lo stesso effetto utilizzando la funzione Pubblicazione nativa di PDF.
+Lo stile capolettera viene utilizzato nelle riviste e nei documenti letterari in cui al primo carattere di un paragrafo o di una sezione viene assegnato uno stile speciale. Puoi ottenere lo stesso effetto utilizzando la funzione di pubblicazione nativa di PDF.
 
 Nell’esempio seguente verrà creato uno stile capolettera:
 
@@ -345,7 +344,7 @@ Nell’esempio seguente viene illustrato come creare uno stile di tabella e le v
 
 ## Utilizzare altri stili {#other-styles}
 
-Se si utilizza contenuto strutturato (DITA), si noterà che quasi tutti gli elementi DITA hanno una mappatura di stile nel foglio di stile predefinito. Ad esempio, lo stile di un elemento `<shortdesc>` è definito nella definizione di stile **Altro stile** > **.shortdesc**. Puoi personalizzare facilmente uno di questi stili, che vengono applicati automaticamente nell’output PDF generato dal contenuto strutturato. A differenza di altri stili personalizzati, non è quindi necessario aggiungere un attributo `outputclass` al contenuto di questi stili.
+Se si utilizza contenuto strutturato (DITA), si noterà che quasi tutti gli elementi DITA hanno una mappatura di stile nel foglio di stile predefinito. Ad esempio, lo stile di un elemento `<shortdesc>` è definito nella definizione di stile **Altro stile** > **.shortdesc**. Puoi personalizzare facilmente uno di questi stili, che vengono applicati automaticamente nell’output di PDF generato dal contenuto strutturato. A differenza di altri stili personalizzati, non è quindi necessario aggiungere un attributo `outputclass` al contenuto di questi stili.
 
 Se si desidera creare una definizione di stile per un elemento non disponibile per impostazione predefinita o se si dispone di un elemento personalizzato, è possibile crearlo facilmente nel foglio di stile. L’unico punto da considerare è creare lo stile con lo stesso nome del nome dell’elemento strutturato.
 
@@ -378,7 +377,7 @@ La schermata seguente mostra lo stile wintitle applicato al testo &quot;Controll
 
 ## Definire uno stile univoco per il layout di una singola pagina
 
-Durante la pubblicazione dell’output di PDF nativo, tutti gli stili vengono uniti nel PDF finale ed è fondamentale assegnare uno stile univoco a ciascun modello all’interno del CSS.
+Durante la pubblicazione dell’output del PDF nativo, tutti gli stili vengono uniti nel PDF finale ed è fondamentale assegnare uno stile univoco a ciascun modello all’interno del CSS.
 Utilizza nomi di stile CSS distinti per applicare font e stili specifici a sezioni diverse di un PDF. Ad esempio, puoi definire il font desiderato per il frontespizio utilizzando il seguente CSS.
 
 ```css
@@ -406,12 +405,12 @@ Ad esempio, è possibile definire i seguenti stili per definire la dimensione de
 
 >[!NOTE]
 >
->Nell&#39;esempio precedente, &quot;Front&quot; e &quot;Back&quot; sono i nomi di esempio dei file di layout che è possibile utilizzare nei modelli.
+> Nell&#39;esempio precedente, &quot;Front&quot; e &quot;Back&quot; sono i nomi di esempio dei file di layout che è possibile utilizzare nei modelli.
 
 
 ## Definire uno stile CSS personalizzato per il contenuto di prefissi e suffissi
 
-Se definisci gli stili CSS personalizzati, viene data loro la prima precedenza durante la generazione dell’output di PDF nativo.
+Se definisci gli stili CSS personalizzati, viene data loro la prima precedenza durante la generazione dell’output PDF nativo.
 Il seguente stile CSS predefinito nasconde sia il contenuto del prefisso che quello del suffisso.
 
 ```css

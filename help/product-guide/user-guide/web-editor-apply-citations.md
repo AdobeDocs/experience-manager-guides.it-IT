@@ -4,7 +4,7 @@ description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applic
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,8 +66,8 @@ Per aggiungere le citazioni, effettua le seguenti operazioni:
    | **Anno** <br> Aggiungere l&#39;anno di pubblicazione del libro. | **Data aggiornamento** <br> Aggiungere la data di aggiornamento del contenuto del sito Web. | **Pagine** <br> Aggiungi il numero di pagina o l&#39;intervallo di pagine in cui è stato trovato l&#39;articolo. |
    | **Versione** <br> Aggiungi la versione del libro. | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. | **URL** <br>Aggiungi il collegamento Web al giornale di registrazione. |
    | **Serie** <br>Aggiungi la serie del libro. |  | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco per la citazione. |
-   | **URL** <br> Aggiungi il collegamento Web al registro. |
-   | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. |
+   | **URL** <br> Aggiungi il collegamento Web al registro. |  |  |
+   | **ID univoco** <br> Aggiungi un ID univoco per la citazione. Un ID univoco è un identificatore univoco della citazione. |  |  |
 
 1. Seleziona **Fine**.
 
@@ -96,7 +96,7 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo le citazioni univoche e non già presenti.
-   > &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+    &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
 
 ## Gestire le citazioni
 
@@ -186,7 +186,7 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
@@ -201,7 +201,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni**.
 
-1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.

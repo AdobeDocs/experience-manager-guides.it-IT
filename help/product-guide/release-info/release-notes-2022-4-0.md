@@ -4,7 +4,7 @@ description: Versione di aprile di Adobe Experience Manager Guides as a Cloud Se
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Effettua l’aggiornamento alla versione di aprile
 
-As a Cloud Service Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] (in seguito denominato *[!DNL AEM Guides]as a Cloud Service*) eseguendo i seguenti passaggi:
-1. Consulta il codice Git del Cloud Service e passa al ramo configurato nella pipeline dei Cloud Service corrispondente all’ambiente da aggiornare.
-1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei Cloud Service in 2022.4.133.
-1. Eseguire il commit delle modifiche ed eseguire la pipeline dei Cloud Service per eseguire l&#39;aggiornamento alla versione di aprile dell&#39;as a Cloud Service [!DNL AEM Guides].
+Aggiorna la configurazione corrente di [!DNL Adobe Experience Manager Guides] as a Cloud Service (in seguito denominata *[!DNL AEM Guides]as a Cloud Service*) eseguendo i seguenti passaggi:
+1. Consulta il codice Git dei servizi cloud e passa al ramo configurato nella pipeline dei servizi cloud corrispondente all’ambiente da aggiornare.
+1. Aggiorna la proprietà `<dox.version>` nel file `/dox/dox.installer/pom.xml` del codice Git dei servizi cloud a 2022.4.133.
+1. Eseguire il commit delle modifiche ed eseguire la pipeline dei servizi cloud per eseguire l&#39;aggiornamento alla versione di aprile di [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice di compatibilità
 
-As a Cloud Service In questa sezione è elencata la matrice di compatibilità per le applicazioni software supportate dalla versione di [!DNL AEM Guides] di aprile 2022.
+In questa sezione viene elencata la matrice di compatibilità per le applicazioni software supportate da [!DNL AEM Guides] as a Cloud Service versione di aprile 2022.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -39,7 +39,7 @@ As a Cloud Service In questa sezione è elencata la matrice di compatibilità pe
 | 2022.4.0 | 2.5.6. | 2.5.6. |
 |  |  |  |
 
-*Le condizioni di base e quelle create nell’AEM sono supportate nelle versioni di FMPS a partire dal 2020.2.
+*Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
 
 ## Nuove funzioni e miglioramenti
 
@@ -86,21 +86,21 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La ricerca durante la digitazione causa richieste di ricerca indesiderate nella vista Archivio. 9307
 * Si verificano dei problemi quando nel titolo della scheda viene utilizzata una parola chiave. (9318)
 * La linea di base non riesce quando si aggiunge un’etichetta con spazi. (9362)
-* L&#39;output del sito AEM non visualizza correttamente l&#39;elemento glossusage. (8936)
+* L’output del sito AEM non visualizza correttamente l’elemento glossusage. (8936)
 * Si è verificato un errore di console all&#39;apertura della scheda **Output** nell&#39;editor Web. (8715)
 * Il messaggio di errore visualizzato quando si pubblica un tipo di record manuale tramite Salesforce non è intuitivo. (8952)
 * L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. 9300
 * I metadati non possono essere rimossi dopo la pubblicazione di una mappa DITA con i metadati.  (9178)
 * Il pannello Traduzione è visibile anche all&#39;apertura della mappa DITA nell&#39;Editor mappa. (9053)
 * La DTD personalizzata definita dall&#39;utente non ha la precedenza sulla DTD DITA standard incorporata in DITA-OT. (9104)
-* Nella funzione Native PDF, il caricamento nei modelli non riesce per i file non DITA e non di immagine. 9070
+* Nella funzione PDF nativa, il caricamento nei modelli non riesce per i file non DITA e non di immagine. 9070
 * Il meccanismo di autorizzazione esegue due query invece di una, in alcuni scenari specializzati. (9221)
 * La pubblicazione dell&#39;output del sito AEM non riesce se si utilizza una DTD personalizzata. (9243)
-* La nota a piè di pagina &quot;Use-by-reference&quot; non scorre fino alla sezione della nota a piè di pagina nell&#39;output del sito AEM. (9234)
+* La nota a piè di pagina &quot;usa per riferimento&quot; non scorre fino alla sezione della nota a piè di pagina nell’output del sito AEM. (9234)
 
 ## Problemi noti
 
-L&#39;Adobe ha identificato il seguente problema noto nella versione di aprile as a Cloud Service di [!DNL AEM Guides].
+Adobe ha identificato il seguente problema noto nella versione di aprile di as a Cloud Service [!DNL AEM Guides].
 
 * L&#39;editor Web non segnala un errore quando due o più baseline vengono create con lo stesso nome ma presentano differenze di spazio o maiuscole/minuscole. Ad esempio, &quot;adobe&quot; e &quot;Adobe&quot; o &quot;Adobe&quot;.
 * Il connettore dell’ossigeno si blocca in modo intermittente durante l’esecuzione di frequenti accessi, disconnessione o commutazione tra diversi tipi di autenticazione.
