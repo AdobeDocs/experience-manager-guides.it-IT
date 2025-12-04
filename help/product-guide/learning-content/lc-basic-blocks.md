@@ -4,9 +4,9 @@ description: Scopri gli elementi di base che puoi aggiungere al tuo argomento o 
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Per comprendere meglio come creare un argomento di apprendimento e aggiungervi e
 
 È possibile utilizzare le funzioni di modifica di base disponibili nella barra degli strumenti dell&#39;editor, come descritto di seguito:
 
-- **Widget**: aggiungi widget come soffietto, carosello, punti attivi e altro ancora all&#39;argomento o al contenuto di apprendimento utilizzando il menu **Inserisci** come mostrato di seguito. Per ulteriori dettagli sui widget interattivi, visualizzare [Usa widget interattivi](./lc-widgets.md).
+- **Opzioni di inserimento**: fornisce opzioni per aggiungere [widget interattivi](./lc-widgets.md) quali Pannello a soffietto, Carosello, HotSpot, Schede, Inverti schede e Clic per visualizzare, nonché [elementi strutturali](./lc-other-insert-options.md) quali Iframe, Citazioni, Blocco di codice e altro ancora. Utilizza questo menu per aggiungere funzionalità e varietà ai contenuti di apprendimento, rendendoli coinvolgenti e ben strutturati.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Componenti testo**: aggiunge intestazione/titoli, paragrafo, virgolette in linea, apice, pedice e citazione al contenuto.
 
@@ -45,15 +45,33 @@ Per comprendere meglio come creare un argomento di apprendimento e aggiungervi e
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: aggiunge video e audio al contenuto dal menu **Altro** della barra degli strumenti. Puoi personalizzarne le proprietà utilizzando il pannello **Proprietà contenuto**.
+- **Multimedia**: aggiunge video e audio al contenuto. Puoi personalizzarne le proprietà utilizzando il pannello **Proprietà contenuto**.
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Simboli**: aggiunge i simboli desiderati al contenuto di un elenco, come illustrato di seguito. Puoi utilizzarlo dal menu **Altro** nella barra degli strumenti.
+- **Contenuto riutilizzabile**: consente di incorporare il contenuto esistente dalle risorse o dall&#39;archivio per facilitarne la riutilizzo. Per inserire un contenuto riutilizzabile, effettua le seguenti operazioni:
+
+   1. Selezionare **Contenuto riutilizzabile** dalla barra degli strumenti.
+Viene visualizzata la finestra di dialogo **Riutilizza contenuto**.
+   2. Individua e seleziona l’argomento desiderato per includerne il contenuto nel corso corrente.
+   3. Seleziona l’ID del contenuto da aggiungere; accanto a per riferimento viene visualizzata un’anteprima.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Scegli **Seleziona**.
+
+  Il contenuto viene inserito. Ad esempio, la sezione sulla struttura del veicolo è un contenuto che viene riutilizzato e aggiunto all’argomento del corso. Il tipo viene visualizzato come **Riferimento** e il relativo **ID** si riflette nel pannello **Proprietà contenuto**.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Simboli**: aggiunge i simboli desiderati al contenuto di un elenco, come illustrato di seguito.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Collegamenti ipertestuali**: aggiunge collegamenti ipertestuali alla posizione desiderata nel contenuto. Puoi utilizzarlo dal menu **Altro** nella barra degli strumenti. Può essere un riferimento di file, un URL Web o un collegamento di posta elettronica come mostrato di seguito.
+- **Collegamenti ipertestuali**: aggiunge collegamenti ipertestuali alla posizione desiderata nel contenuto. Può essere un riferimento di file, un URL Web o un collegamento di posta elettronica come mostrato di seguito.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Inoltre, il menu a discesa **Menu** consente di accedere alle azioni di modifica (Taglia, Copia, Elimina), Trova e sostituisci ed Etichetta versione.

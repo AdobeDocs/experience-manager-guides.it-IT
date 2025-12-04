@@ -4,10 +4,10 @@ description: Scopri le varie funzioni presenti in Experience Manager Guides che 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ L&#39;opzione **Mostra** determina la modalità di visualizzazione degli argomen
 ![](assets/course-display-settings.png)
 
 Per una panoramica video, visualizza [Mostra impostazioni](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Crea attività di revisione
+
+In qualità di Autore di un corso di apprendimento o di Amministratore, puoi creare un’attività di revisione per il corso e assegnarla a un Revisore per un feedback. Inizia aprendo il tuo corso nel pannello **Gestione corsi**, quindi seleziona **Crea attività di revisione** dal menu **Opzioni** come mostrato di seguito:
+
+![](assets/create-review-task-lc.png)
+
+Viene visualizzata la pagina **Crea attività di revisione**, in cui è necessario aggiungere dettagli sull&#39;attività, ad esempio il titolo dell&#39;attività di revisione, specificare il progetto DITA di cui fa parte, definire le sequenze temporali dell&#39;attività, assegnare revisori e altro ancora. Al termine, i revisori riceveranno una notifica per questa attività. Gli argomenti del corso selezionati vengono visualizzati nell’interfaccia utente Revisione, dove i revisori possono aggiungere commenti e inviare nuovamente gli argomenti per gli aggiornamenti.
+
+Per comprendere il flusso di lavoro di revisione in Experience Manager Guides, visualizza, [Invia argomenti per la revisione](../user-guide/review-send-topics-for-review.md).
+
+

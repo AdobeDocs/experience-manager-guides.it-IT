@@ -4,9 +4,9 @@ description: Scopri come inserire domande in un quiz nella sezione Formazione e 
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Per inserire domande in un quiz, effettua le seguenti operazioni:
 
-1. Scegli il tipo di domanda desiderato dal menu a discesa **Domande** nella barra degli strumenti. In base alle tue esigenze, puoi aggiungere domande utilizzando uno dei tre formati disponibili: Vero o Falso, Corretto singolo e Corretto multiplo come mostrato di seguito.
+1. Scegli il tipo di domanda desiderato dal menu a discesa **Domande** nella barra degli strumenti. In base alle tue esigenze, puoi aggiungere domande utilizzando uno dei quattro formati disponibili: Vero o Falso, Corretto singolo, Corretto multiplo e Corrispondenza con quanto segue, come mostrato di seguito. Per ulteriori dettagli, visualizzare [Tipi di domande](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ Per eliminare una domanda o un’opzione specifica da un quiz, effettua le segue
 1. Nel menu di scelta rapida, selezionare **Elimina domanda** (per rimuovere l&#39;intera domanda) o **Elimina opzione** (per rimuovere solo l&#39;opzione selezionata).
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## Tipi di domande
+
+In un quiz sono supportati i seguenti tipi di domande:
+
+- **Correzione singola**: una domanda con più opzioni in cui è corretta una sola risposta.
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **Vero/Falso**: una domanda basata su istruzioni in cui gli Allievi scelgono se è Vero o Falso.
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **Correzione multipla**: una domanda con più opzioni in cui è possibile correggere più risposte.
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **Corrispondenza con**: consente agli Allievi di abbinare gli elementi di due elenchi per formare coppie corrette. Puoi aggiungere nuovi set di opzioni dal pannello **Proprietà contenuto**. Per aumentare la complessità, puoi rimuovere un’opzione dal primo elenco e includere una corrispondenza aggiuntiva nella colonna Corrispondenza. Questo crea un elemento di difficoltà richiedendo agli Allievi di pensare criticamente a quale opzione non ha una coppia diretta.
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  Nell&#39;output pubblicato, viene visualizzata la domanda **Corrispondenza con la seguente** con menu a discesa per ogni elemento, che consente di selezionare la corrispondenza corretta tra le opzioni disponibili.
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}
