@@ -3,7 +3,7 @@ title: Note sulla versione | Novità della versione di dicembre 2025 dei contenu
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2025 dei contenuti di formazione e apprendimento del prodotto
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Altre opzioni nel menu Inserisci](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **Nuovi widget interattivi**: è possibile coinvolgere gli studenti con alcuni nuovi widget interattivi che rendono il contenuto più coinvolgente: **Fare clic per visualizzare**, **Inverti scheda** e **Scheda**.
 
@@ -36,7 +36,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Tipi di domande quiz](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## Rivedere
 
@@ -44,7 +44,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Crea attività di revisione](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## Gestione dei contenuti
 
@@ -52,7 +52,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Aggiungi blocchi predefiniti di base](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
