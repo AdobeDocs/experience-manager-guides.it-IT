@@ -3,9 +3,9 @@ title: Altre opzioni del menu Inserisci
 description: Scopri le opzioni del menu Inserisci che puoi utilizzare nel contenuto di apprendimento.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Le altre opzioni disponibili nel menu Inserisci della barra degli strumenti dell
   > La modifica o la creazione di contenuti H5P non è supportata in Adobe Experience Manager Guides. Preparare il pacchetto H5P esternamente prima di caricarlo.
 
 
-- **Equazione matematica:** inserisce equazioni MathML nel contenuto. Puoi creare un&#39;equazione di MathML e selezionare **Inserisci** per aggiungerla al documento.
+- **Equazione MathML:** inserisce equazioni MathML nel contenuto. Puoi creare un&#39;equazione di MathML e selezionare **Inserisci** per aggiungerla al documento.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   L&#39;equazione viene inserita con uno sfondo grigio chiaro. In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con il pulsante destro del mouse su un&#39;equazione esistente e selezionando **Modifica equazione matematica** dal menu di scelta rapida. Per informazioni dettagliate sulla convalida delle equazioni di MathML in Experience Manager Guides, visualizzare [Convalida delle equazioni nell&#39;editor di MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Verifica conoscenza:** consente di aggiungere domande nei formati disponibili (Correzione singola, Correzione multipla, Vero/Falso, Corrispondenza con quanto segue o inserimento dalla banca domande) all&#39;argomento per la revisione e per confermare la comprensione senza classificazione o reporting. Queste domande rispecchiano i formati standard ed escludono il punteggio, rendendoli ideali per l’autovalutazione e adatti come parte del contenuto del corso o di un argomento prima di un quiz o di una valutazione successiva, a seconda delle necessità.
+- **Verifica conoscenza:** consente di aggiungere domande nei formati disponibili (Correzione singola, Correzione multipla, Vero/Falso, Corrispondenza con quanto segue o inserimento dalla banca domande) all&#39;argomento per la revisione e per confermare la comprensione senza classificazione. Queste domande rispecchiano i formati standard ed escludono il punteggio, rendendoli ideali per l’autovalutazione e adatti come parte del contenuto del corso o di un argomento prima di un quiz o di una valutazione successiva, se disponibile.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
