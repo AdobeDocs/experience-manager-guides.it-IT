@@ -4,7 +4,7 @@ description: Scopri come migrare contenuti non UUID a UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Scarica i pacchetti richiesti da Adobe Software Distribution Portal, in base all
 
 
 1. **Pre-migrazione**: [com.adobe.guides.pre-uuid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)
-1. **Scarica UUID versione 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip)
+1. **Scarica UUID versione 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)
 1. **Migrazione**: [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
 
 ## Controlli di premigrazione
@@ -86,7 +86,7 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
    * Esegui **Compressione Tar offline** prima di avviare questa attività.
    * Assicurati che non sia pianificata alcuna indicizzazione o manutenzione del sistema durante la finestra di questa migrazione.
 
-1. Installa la versione UUID della versione supportata su quella non UUID. Ad esempio, se utilizzi la build 4.6.0 Service Pack 4 non UUID, devi installare UUID versione 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip) ed eseguire la migrazione.
+1. Installa la versione UUID della versione supportata su quella non UUID. Ad esempio, se utilizzi la build 4.6.0 Service Pack 4 non UUID, devi installare UUID versione 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip) ed eseguire la migrazione.
 
 
 1. Installa il pacchetto di aggiornamento della migrazione UUID [com.adobe.guides.uuid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip).
@@ -219,5 +219,5 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-gu
    > Se prima della migrazione la proprietà **Utilizza il titolo per i nomi delle pagine del sito AEM** in `com.adobe.fmdita.config.ConfigManager` è impostata su *False*, dopo la migrazione sarà necessario aggiornare la proprietà.
 
 
-1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it`).
+1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
