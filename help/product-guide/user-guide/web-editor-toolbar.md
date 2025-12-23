@@ -4,9 +4,9 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -471,6 +471,10 @@ Puoi anche eseguire ricerche utilizzando l’UUID del file a cui desideri fare r
 
 Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l&#39;UUID del contenuto a cui si fa riferimento verrà visualizzato nella proprietà **Link**.
 
+>[!IMPORTANT]
+>
+> In base al comportamento DITA standard, l&#39;attributo scope=`external` non deve essere applicato ai collegamenti interni, in quanto è destinato solo a riferimenti a risorse esterne. L’applicazione di questo attributo ai collegamenti interni potrebbe interrompere i flussi di lavoro. Per il contenuto gestito in Experience Manager Guides, utilizzare invece l&#39;ambito predefinito=`local` o i riferimenti basati su chiave.
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
