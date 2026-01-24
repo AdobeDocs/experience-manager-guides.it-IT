@@ -166,7 +166,7 @@ Quando il comando precedente viene eseguito, è possibile controllare l&#39;outp
 
 ### Distribuzione
 
-Dopo aver sviluppato il plug-in DITA-OT, è possibile integrarlo in DITA-OT utilizzando il comando _dita —install_ nella directory DITA-OT e distribuirlo al server AEM [fare riferimento a questo articolo per ulteriori dettagli](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Dopo aver sviluppato il plug-in DITA-OT, è possibile integrarlo in DITA-OT utilizzando il comando _dita —install_ nella directory DITA-OT e distribuirlo al server AEM [fare riferimento a questo articolo per ulteriori dettagli](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=it)
 
 
 ## Riferimenti
