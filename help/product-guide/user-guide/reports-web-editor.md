@@ -266,4 +266,4 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Selezionare **Scarica** per scaricare lo snapshot di tutti i collegamenti interrotti nella mappa DITA. Il file Excel contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti.
 
 
-**Argomento padre:**[ Introduzione ai report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)

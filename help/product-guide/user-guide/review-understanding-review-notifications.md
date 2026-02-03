@@ -61,4 +61,4 @@ Per un elenco completo delle variabili predefinite e per esaminare la personaliz
 
 
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

@@ -27,38 +27,38 @@ Per configurare i filtri dello stato del documento, effettuare le seguenti opera
 Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
        &quot;
-       &quot;repositoryFilters&quot;: [
-       {
+       &quot;repositoryFilters&quot;: &lbrack;
+       &lbrace;
        &quot;title&quot;: &quot;Stato documento&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;elementi figlio&quot;: [
-       {
+       &quot;elementi figlio&quot;: &lbrack;
+       &lbrace;
        &quot;title&quot;: &quot;Bozza&quot;,
        &quot;valore&quot;: &quot;Bozza&quot;
-       },
-       {
+       &rbrace;,
+       &lbrace;
        &quot;title&quot;: &quot;Modifica&quot;,
        &quot;valore&quot;: &quot;Modifica&quot;
-       },
-       {
+       &rbrace;,
+       &lbrace;
        &quot;title&quot;: &quot;In-Review&quot;,
        &quot;value&quot;: &quot;In-Review&quot;
-       },
-       {
-}       &quot;title&quot;: &quot;Approvato&quot;,
+       &rbrace;,
+       &lbrace;
+&rbrace;       &quot;title&quot;: &quot;Approvato&quot;,
        &quot;valore&quot;: &quot;Approvato&quot;
-       },
-       {
-}       &quot;title&quot;: &quot;Rivisto&quot;,
+       &rbrace;,
+       &lbrace;
+&rbrace;       &quot;title&quot;: &quot;Rivisto&quot;,
        &quot;valore&quot;: &quot;Esaminato&quot;
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;Fine&quot;,
        &quot;valore&quot;: &quot;Fine&quot;
-       }
-       ]
-       }
-       ]
+       &rbrace;
+       &rbrack;
+       &rbrace;
+       &rbrack;
        &quot;
    Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
 
@@ -75,4 +75,4 @@ Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
 I filtri configurati vengono visualizzati nel pannello **Filtri** nell&#39;archivio nella home page.
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

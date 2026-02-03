@@ -306,4 +306,4 @@ Una volta aggiornata l’attività di revisione, i revisori ricevono le notifich
 Per ulteriori dettagli, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
