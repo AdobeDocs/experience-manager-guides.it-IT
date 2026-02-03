@@ -4,18 +4,21 @@ description: Utilizza l’assegnazione tag in blocco dei contenuti in AEM Guides
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
+
 # Applicazione di tag in blocco a contenuto DITA {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 I tag ti consentono di raggruppare o classificare il contenuto all’interno dell’archivio dei contenuti e anche nell’output pubblicato. Se sono stati applicati tag al contenuto, è possibile trovare facilmente argomenti correlati all&#39;interno di una mappa DITA che possono essere utili per l&#39;authoring dei contenuti. Con l’output pubblicato, gli utenti finali saranno in grado di individuare più rapidamente il contenuto corretto con i tag corretti.
 
-Adobe Experience Manager Guides consente di assegnare tag al contenuto DITA in pochi passaggi. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di Adobe Experience Manager. Per ulteriori informazioni sulla creazione e la gestione dei tag, vedere la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=it) nella documentazione di Adobe Experience Manager.
+Adobe Experience Manager Guides consente di assegnare tag al contenuto DITA in pochi passaggi. È possibile utilizzare la funzione di assegnazione tag in blocco per applicare più tag a più argomenti, a una mappa DITA o a una mappa secondaria. In alternativa, è possibile applicare i tag anche a un singolo argomento. L&#39;assegnazione tag è la funzionalità nativa di Adobe Experience Manager. Per ulteriori informazioni sulla creazione e la gestione dei tag, vedere la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di Adobe Experience Manager.
 
 Per impostazione predefinita, Experience Manager Guides non concede l’accesso in lettura ad alcun utente della cartella in cui sono memorizzati tutti i tag nell’archivio di Adobe Experience Manager. Per utilizzare i tag definiti nel repository di Adobe Experience Manager, è necessario chiedere all&#39;amministratore di sistema di concedere l&#39;accesso alla cartella in cui sono memorizzati i tag.
 
@@ -107,4 +110,4 @@ Per rimuovere tutti i tag da uno o più argomenti, effettua le seguenti operazio
 
 Se agli argomenti sono stati applicati numerosi tag, la navigazione potrebbe risultare un po&#39; complicata. È possibile nascondere facilmente i tag nella vista della console delle mappe DITA selezionando l&#39;icona Nascondi tag. Allo stesso modo, quando i tag non sono visibili, selezionando Mostra tag vengono visualizzati tutti i tag.
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)
+**Argomento padre:**[ Gestisci metadati](manage-metadata.md)

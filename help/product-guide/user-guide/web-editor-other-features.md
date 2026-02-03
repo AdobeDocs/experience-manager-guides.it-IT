@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ L’editor fornisce una finestra di dialogo per la ricerca intelligente dei file
 >
 > In caso di file immagine, audio o video, la finestra di dialogo per la ricerca dei file viene impostata automaticamente sul percorso del file e non sull’ultimo percorso utilizzato.
 
+## Sfogliare file e cartelle in Experience Manager Guides
+
+Experience Manager Guides fornisce finestre di dialogo intuitive - **Seleziona file** e **Seleziona percorso** - per consentire di sfogliare e scegliere i file o le cartelle all&#39;interno dell&#39;archivio dei contenuti in modo efficiente.
+
+>[!NOTE]
+>
+> Il browser del percorso di file e cartelle viene introdotto con un’interfaccia utente rinnovata nella versione 2601 di Experience Manager Guides as a Cloud Service. La nuova interfaccia è attivata per impostazione predefinita. Se preferisci continuare a utilizzare l’interfaccia utente esistente senza questi aggiornamenti, contatta il team Customer Success per disabilitare questo nuovo miglioramento.
+
+### Esplorazione dei file in Experience Manager Guides
+
+Il browser del percorso dei file consente di individuare e selezionare rapidamente file specifici all’interno dell’archivio dei contenuti. Questa funzione è disponibile per attività quali l’aggiunta di un argomento a una mappa, il collegamento di un’immagine o di un rimando, la creazione di contenuto riutilizzabile e altro ancora.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+Quando si avvia il browser di file, viene visualizzata la finestra di dialogo **Seleziona file**. Questa finestra di dialogo include due schede: **Archivio** e **Raccolte**. Per impostazione predefinita, la scheda Archivio è selezionata.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Funzionalità disponibili nella scheda Archivio per l&#39;esplorazione dei file**
+
+**Visualizzazione tabulare di file e cartelle**
+
+La scheda Archivio offre una visualizzazione tabulare dei file e delle cartelle provenienti dall&#39;archivio dei contenuti, facilitando l&#39;individuazione del percorso corretto. Per spostarti tra le cartelle, puoi anche utilizzare le breadcrumb in alto e il pannello di navigazione delle cartelle a sinistra.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Selezione di file singolo e multiplo**
+
+Per utilizzare un file, selezionalo e scegli **Seleziona**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+In alcuni casi, è anche possibile selezionare più file da questa finestra di dialogo del browser del percorso. Ad esempio, quando esplori i file per il contenuto riutilizzabile, puoi selezionare più file e renderli parte del contenuto riutilizzabile.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+La selezione di più file è attualmente disponibile per contenuto riutilizzabile, riferimenti ad argomenti, Schematron, Predefiniti di output (utilizzando DITAVAL) e Workfront.
+
+>[!NOTE]
+>
+> Quando si selezionano i file dalla finestra di dialogo del browser del percorso, alcune cartelle potrebbero apparire disabilitate. Questo comportamento limita l’accesso a tipi di file specifici per garantire selezioni valide. Ad esempio, quando si crea un contenuto riutilizzabile, è necessario utilizzare solo i file argomento e mappa. Per impedire l&#39;utilizzo di un tipo di file non valido, ad esempio un&#39;immagine, i file corrispondenti non vengono visualizzati o rimangono disabilitati per la selezione nel browser percorsi.
+
+**Anteprima file selezionati**
+
+Puoi visualizzare in anteprima i file selezionati utilizzando il pulsante **Anteprima**, come illustrato di seguito:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+L&#39;anteprima del file selezionato viene visualizzata a destra.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+Per le selezioni multiple, nel pannello Anteprima viene visualizzata un&#39;anteprima di tutti i file selezionati, per una facile revisione.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+È inoltre possibile utilizzare l&#39;icona **Rimuovi** per deselezionare alcuni file dall&#39;anteprima.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Esperienza di ricerca e filtro**
+
+Quando esplori i file nel repository, puoi cercare i file per nome, titolo o contenuto all’interno del percorso selezionato. Puoi utilizzare uno, due o tutti e tre i criteri per la ricerca. Se non viene selezionato nessuno dei criteri, i risultati includeranno elementi comuni a tutti e tre i criteri.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Seleziona l&#39;icona **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire il pannello Filtro a destra.
+
+![](images/select-file-filters.png){align="left"}
+
+Per filtrare i file e restringere la ricerca, sono disponibili le seguenti opzioni:
+
+- **Cerca in**: selezionare il percorso in cui si desidera eseguire la ricerca nei file presenti nel repository.
+
+- **Tipo di file**: filtra la ricerca in base a un tipo di file specifico. Le opzioni disponibili sono: **Argomento**, **Mappa**, **DITAVAL**, **Immagine**, **Multimedia**, **Documento** e **Altri**.
+
+  >[!NOTE]
+  >
+  > In alcuni casi, il filtro **Tipo file** è preapplicato a tipi di file specifici in base all&#39;attività e non può essere modificato. Ad esempio, quando si cerca un’immagine, il filtro è impostato per visualizzare solo i file immagine e quando si crea contenuto riutilizzabile, è impostato per mostrare solo i file argomento e mappa. Per perfezionare i risultati della ricerca, è comunque possibile modificare altri filtri, ad esempio lo stato del documento, i tag o la data dell’ultima modifica.
+
+- **Stato documento**: è possibile filtrare la ricerca in base allo stato corrente dei file. I valori di filtro disponibili sono definiti nel campo `repositoryFilters` di `ui_config.json file` e sono associati al profilo di cartella attualmente in uso.
+
+  Ciò significa che:
+
+   - Se utilizzi il Profilo globale, vengono applicati i valori dei filtri configurati nel Profilo globale.
+   - Se selezioni un profilo di cartella specifico, vengono recuperati i valori dei filtri definiti in tale profilo.
+
+  I valori di filtro predefiniti disponibili per lo stato del documento sono: Bozza, Modifica, In revisione, Approvato, Rivisto e Fine. Per informazioni dettagliate sulla personalizzazione dei valori di filtro per gli stati dei documenti, visualizzare [Configurare i filtri per lo stato dei documenti](../cs-install-guide/config-doc-state-filters.md).
+
+- **Bloccato da**: visualizza un elenco di utenti. L’elenco viene impaginato e caricato in modo asincrono, mostrando un set limitato di utenti alla volta e recuperandone altri durante lo scorrimento o la navigazione. Ciò migliora la velocità di caricamento e le prestazioni complessive, soprattutto quando si lavora con un numero elevato di utenti.
+
+- **Ultima modifica**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
+   - Nell&#39;ultima settimana
+   - Nell&#39;ultimo mese
+   - Nell&#39;ultimo anno
+
+- **Tag**: filtra il contenuto in base ai tag.
+
+- **Elementi DITA**: consente di filtrare il contenuto in base a vari elementi DITA.
+
+Dopo aver applicato tutti i filtri richiesti, seleziona **Applica** dall&#39;angolo inferiore destro del pannello Filtri.
+
+**Funzionalità disponibili nella scheda Raccolte per l&#39;esplorazione dei file**
+
+La scheda **Raccolte** fornisce una visualizzazione curata dei file disponibili nelle raccolte per l&#39;accesso e il riutilizzo rapidi. A differenza della scheda Archivio, che visualizza la gerarchia completa delle cartelle, le raccolte consentono di selezionare argomenti, mappe e immagini utilizzati di frequente senza spostarsi tra più cartelle.
+
+![](images/select-file-collections.png)
+
+Nella scheda Raccolte è possibile:
+
+- Utilizza le breadcrumb in alto e il pannello di navigazione delle cartelle a destra per navigare facilmente tra le raccolte.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Seleziona i file presenti in un percorso di Raccolte specifico e visualizzalo in anteprima nel pannello di destra.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Cartelle del browser all’interno dell’archivio
+
+L&#39;esplorazione delle cartelle tramite la finestra di dialogo **Seleziona cartella** consente di selezionare il percorso corretto della cartella all&#39;interno dell&#39;archivio per attività quali la creazione di nuovi argomenti o la specifica di percorsi di output per il contenuto pubblicato. Offre una visualizzazione chiara e strutturata ad albero delle cartelle, rendendo la navigazione intuitiva e garantendo che il contenuto sia posizionato nella posizione giusta.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Supporto per la pubblicazione basata su articoli
 
 Dall&#39;editor è possibile generare l&#39;output per uno o più argomenti o per l&#39;intera mappa DITA. È necessario creare predefiniti di output per la mappa DITA e quindi generare facilmente l&#39;output per uno o più argomenti. Se hai aggiornato alcuni argomenti nella mappa, puoi anche generare l’output solo per tali argomenti dall’Editor. Per ulteriori dettagli, visualizzare [Pubblicazione basata su articolo](web-editor-article-publishing.md#id218CK0U019I).
@@ -282,4 +408,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

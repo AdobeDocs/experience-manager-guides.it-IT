@@ -4,9 +4,9 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Nella barra degli strumenti della visualizzazione Layout sono disponibili le seg
 
 **Riferimento argomento** - ![](images/topic-reference.svg)
 
-Visualizza la finestra di dialogo di ricerca dell&#39;argomento. Passare al file argomento/mappa che si desidera inserire e scegliere **Seleziona** per aggiungerlo alla mappa.
+Visualizza la finestra di dialogo Seleziona file. Passare al file argomento/mappa che si desidera inserire e scegliere **Seleziona** per aggiungerlo alla mappa.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività co
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ Oltre a poter visualizzare la posizione di ciascun file di argomento all&#39;int
 
 Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
 
+**Apri argomenti per la modifica**
+
 - Fare clic con il pulsante destro del mouse su un argomento e selezionare **Modifica** per aprire l&#39;argomento per la modifica in una nuova scheda.
 
   >[!NOTE]
   >
   > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Passa all’argomento desiderato selezionando il titolo dell’argomento nella struttura ad albero della mappa \(nel pannello a sinistra\).
 
 - L&#39;argomento corrente nell&#39;anteprima della mappa viene evidenziato anche nella struttura della mappa.
+
+**Aggiorna argomenti o mappa**
+
+Quando si apre una mappa in modalità Anteprima e si torna da un&#39;altra scheda dell&#39;Editor, l&#39;anteprima non viene aggiornata automaticamente. Per ricaricare l’anteprima della mappa, è necessario un aggiornamento manuale.
+
+È possibile utilizzare la funzionalità Aggiorna, disponibile nella modalità Anteprima della mappa, in due modi:
+
+- **Aggiornamento a livello di mappa**: se si seleziona il pulsante **Aggiorna**, viene aggiornata l&#39;anteprima dell&#39;intera mappa (inclusi tutti gli argomenti) e viene visualizzata la prima posizione di scorrimento per ottenere una visualizzazione chiara.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Aggiornamento a livello di argomento**: se si seleziona **Aggiorna argomento** dal menu di scelta rapida, l&#39;argomento specifico verrà aggiornato mantenendo invariata la posizione di scorrimento.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Altri modi per visualizzare in anteprima un file di mappa**
 

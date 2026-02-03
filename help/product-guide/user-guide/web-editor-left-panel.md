@@ -4,9 +4,9 @@ description: Scopri il pannello a sinistra nell’editor. Scopri l’interfaccia
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '9768'
+source-wordcount: '10929'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -228,18 +228,19 @@ Puoi eseguire le seguenti azioni utilizzando il menu Opzioni disponibile per una
     <summary> Passaggi per creare un nuovo argomento </summary>
 
 Passaggi per creare un nuovo argomento:
+
 1. Seleziona **Nuovo** > **Argomento**.
-2. Viene visualizzata la finestra di dialogo **Nuovo argomento**.
+1. Viene visualizzata la finestra di dialogo **Nuovo argomento**.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
 
-3. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
+1. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
    - Titolo per l&#39;argomento.
    - \(Facoltativo\)* Nome file dell&#39;argomento. Il nome del file viene suggerito automaticamente in base al Titolo dell’argomento. Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non verrà visualizzato.
    - Modello su cui verrà basato l&#39;argomento. Ad esempio, per una configurazione predefinita, puoi scegliere tra i modelli Vuoto, Concetto, DITAVAL, Riferimento, Attività, Argomento, Markdown, Glossario e Risoluzione dei problemi. Se nella cartella è configurato un profilo di cartella, verranno visualizzati solo i modelli di argomento configurati nel profilo di cartella.
 
    - Percorso in cui salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
-4. Seleziona **Crea**. L&#39;argomento viene creato nel percorso specificato. Inoltre, l’argomento viene aperto nell’Editor per la modifica.
+1. Seleziona **Crea**. L&#39;argomento viene creato nel percorso specificato. Inoltre, l’argomento viene aperto nell’Editor per la modifica.
 
 </details>
 
@@ -279,7 +280,7 @@ Passaggi per creare una nuova cartella:
 
 </details>
 
-- **Carica Assets**: carica un file dal sistema locale alla cartella selezionata nell&#39;archivio Adobe Experience Manager. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
+- **Carica risorse**: carica un file dal sistema locale alla cartella selezionata nell&#39;archivio di Adobe Experience Manager. È inoltre possibile trascinare i file dal sistema locale all&#39;argomento di lavoro corrente. Questa funzione è molto utile se si desidera inserire nell&#39;argomento immagini provenienti dal sistema locale.
 
   ![](images/upload-assets.png){width="300" align="left"}
 
@@ -289,6 +290,35 @@ Passaggi per creare una nuova cartella:
 
   ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
+  Dopo un caricamento riuscito, viene visualizzata la seguente finestra di dialogo di conferma:
+
+  ![](images/upload-successful.png)
+
+  <details>
+
+  <summary>Gestione di caratteri non validi nei nomi dei file</summary>
+
+  Se il nome file della risorsa da caricare contiene caratteri non validi (ad esempio * / : [\] | # % { } ?), possono verificarsi i seguenti scenari:
+
+   - **Caricamento parziale**: indica che una o più risorse caricate contengono caratteri non validi nei nomi dei file.
+
+     ![](images/partial-asset-upload.png)
+
+   - **Caricamento non riuscito**: indica che tutte le risorse caricate contengono caratteri non validi nei nomi dei file.
+
+     ![](images/upload-asset-failed.png)
+
+  Per risolvere questi conflitti, rimuovi eventuali caratteri non validi dai nomi dei file delle risorse, quindi ricaricali nell’archivio.
+
+  </details>
+
+- **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
+- **Comprimi**: comprimi la cartella selezionata nell&#39;archivio.
+
+  >[!NOTE]
+  >
+  > Utilizza l&#39;icona **\>** accanto a una cartella per espanderla.
+
 - **Trova file nella cartella**: sposta lo stato attivo sulla ricerca del repository in cui è possibile immettere il termine di ricerca. La ricerca viene eseguita nella cartella selezionata nell’archivio. È inoltre possibile applicare un filtro per restituire file DITA, file di immagine o entrambi.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -297,15 +327,9 @@ Passaggi per creare una nuova cartella:
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Comprimi**: comprimi la cartella selezionata nell&#39;archivio.
-
-  >[!NOTE]
-  >
-  > Utilizza l&#39;icona **\>** accanto a una cartella per espanderla.
-
 - **Aggiungi a raccolte**: aggiunge la cartella selezionata ai preferiti. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
 
-- **Aggiorna**: ottieni un nuovo elenco di file e cartelle dal repository.
+- **Rielabora risorse**: attiva l&#39;elaborazione di tutte le risorse per la cartella.
 - **Visualizza nell&#39;interfaccia utente di Assets**: visualizza il contenuto della cartella nell&#39;interfaccia utente di Assets.
 
 **Opzioni per un file**
@@ -324,6 +348,7 @@ Accedere a diverse opzioni del menu Opzioni a seconda che sia stato selezionato 
 - Scarica come PDF
 - Aggiungi a
 - Copia
+- Rielabora risorsa
 - Visualizza nell’interfaccia di Assets
 - Proprietà
 
@@ -334,17 +359,24 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 - **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nell&#39;[Editor mappe](map-editor-advanced-map-editor.md#) per la modifica.
 
-- **Duplicato**: utilizzare questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
+- **Modifica in ossigeno**: selezionare questa opzione per modificare il file selezionato nel plug-in del connettore di ossigeno. Il file viene aperto per la modifica.
+
+  >[!NOTE]
+  >
+  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
+
+- **Apri nel dashboard delle mappe**: se il file selezionato è una mappa DITA, questa opzione apre il dashboard delle mappe.
+
+- **Apri nella console delle mappe**: se il file selezionato è una mappa DITA, questa opzione apre la console delle mappe.
+
 - **Blocco**: ottieni un blocco sul file selezionato per la modifica. Se il file è bloccato, posizionando il puntatore del mouse sull&#39;icona del lucchetto viene visualizzato **Bloccato da te** se è stato bloccato oppure **Bloccato da [username]** se è stato bloccato da un altro utente.
 
 - **Anteprima**: consente di ottenere un&#39;anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, è possibile selezionarlo per aprirlo in una nuova scheda. Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere il pannello **Anteprima**, è possibile selezionare l&#39;icona di chiusura o selezionare un punto qualsiasi all&#39;esterno del riquadro.
 
   ![](images/quick-preview_cs.png){align="left"}
 
-- **Rinomina**: utilizzare questa opzione per rinominare il file selezionato. Immettere il nome del nuovo file nella finestra di dialogo **Rinomina risorsa**.
-   - È possibile rinominare un file di qualsiasi tipo.
-   - Impossibile modificare l&#39;estensione di un file.
-   - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
+
+- **Duplicato**: utilizzare questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
 
 - **Sposta in**: utilizzare questa opzione per spostare il file selezionato in un&#39;altra cartella.
    - È possibile digitare il nome della cartella di destinazione oppure scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
@@ -377,6 +409,11 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
   La ridenominazione o lo spostamento di un file non interrompe i riferimenti esistenti da o verso il file, in quanto ogni file ha un UUID univoco.
   </details>
 
+- **Rinomina**: utilizzare questa opzione per rinominare il file selezionato. Immettere il nome del nuovo file nella finestra di dialogo **Rinomina risorsa**.
+   - È possibile rinominare un file di qualsiasi tipo.
+   - Impossibile modificare l&#39;estensione di un file.
+   - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
+
 - **Elimina**: utilizzare questa opzione per eliminare il file selezionato. Viene visualizzata una richiesta di conferma prima di eliminare il file.
 
    - Viene visualizzata una richiesta di conferma prima di eliminare il file.
@@ -402,35 +439,30 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
   >
   > È inoltre possibile eliminare il file selezionato in modo simile utilizzando il tasto Elimina della tastiera.
 
-- **Copia**: puoi scegliere tra le seguenti opzioni:
-
-   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
-
-   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
+- **Genera**: utilizza l&#39;opzione per pubblicare una mappa o argomenti all&#39;interno di una mappa in una pagina Sites, in un frammento di contenuto o in un frammento di esperienza.
 
 - **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
    - **Raccolte**: aggiunge il file selezionato alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
 
    - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
-- **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file selezionato. È inoltre possibile accedere a questa pagina delle proprietà dall’interfaccia utente di Assets selezionando un file e quindi l’icona Proprietà nella barra degli strumenti.
+- **Copia**: puoi scegliere tra le seguenti opzioni:
 
-- **Apri nel dashboard delle mappe**: se il file selezionato è una mappa DITA, questa opzione apre il dashboard delle mappe.
+   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
 
-- **Apri nella console delle mappe**: se il file selezionato è una mappa DITA, questa opzione apre la console delle mappe.
+   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
-- **Modifica in ossigeno**: selezionare questa opzione per modificare il file selezionato nel plug-in del connettore di ossigeno. Il file viene aperto per la modifica.
-
-  >[!NOTE]
-  >
-  >Contatta il team di successo del cliente per abilitare questa funzione nell’ambiente. Questa funzione non è abilitata come parte del supporto predefinito. Per ulteriori dettagli, vedere la sezione [Configurare l&#39;opzione da modificare in Ossigeno](../cs-install-guide/conf-edit-in-oxygen.md) nella Guida all&#39;installazione e alla configurazione.
-
+- **Rielabora risorsa**: attiva l&#39;elaborazione per la risorsa selezionata.
 
 - **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima di un file .dita/.xml nell&#39;interfaccia utente di Assets. Nel caso di un file .ditamap/.bookmap, tutti i file di argomenti all&#39;interno della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 
-- **Scarica come PDF**: utilizza l&#39;opzione per generare l&#39;output di PDF e scaricarlo.
+- **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file selezionato.
 
-- **Genera**: utilizza l&#39;opzione per pubblicare una mappa o argomenti all&#39;interno di una mappa in una pagina Sites, in un frammento di contenuto o in un frammento di esperienza.
+  Qualsiasi aggiunta, eliminazione o modifica delle proprietà dei metadati in questa pagina (predefinita o personalizzata) attiverà l&#39;[indicatore della copia di lavoro](./web-editor-edit-topics.md#working-copy-indicator) nella versione del documento.
+
+  Puoi accedere alla pagina Proprietà anche dall’interfaccia utente di Assets selezionando un file e quindi l’icona Proprietà nella barra degli strumenti.
+
+- **Scarica come PDF**: utilizza l&#39;opzione per generare l&#39;output di PDF e scaricarlo.
 
 ## Explorer
 
@@ -587,12 +619,19 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 Per aggiungere un file DITA al pannello Contenuto riutilizzabile, utilizzare uno dei metodi seguenti:
 
-- Selezionare l&#39;icona **+** accanto a Contenuto riutilizzabile per aprire la finestra di dialogo Sfoglia file. Selezionare il file da aggiungere, quindi selezionare **Aggiungi** per completare il processo.
+- Selezionare l&#39;icona **+** accanto a Contenuto riutilizzabile per aprire la finestra di dialogo **Seleziona file**.
+- Selezionare il file da aggiungere, quindi scegliere **Seleziona**. Puoi anche cercare file specifici utilizzando l’opzione di ricerca del filtro. Per ulteriori dettagli, visualizzare [Altre funzionalità nell&#39;editor](./web-editor-other-features.md).
 
+
+
+  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+  È inoltre possibile utilizzare l&#39;icona **Rimuovi** per deselezionare alcuni file dall&#39;anteprima.
+
+  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - Nella vista Archivio, selezionare l&#39;icona **Opzioni** del file desiderato e scegliere **Aggiungi a** > **Contenuto riutilizzabile** dal menu di scelta rapida.
 
 - Fare clic con il pulsante destro del mouse sulla scheda di un file nell&#39;editor per aprire il menu di scelta rapida e scegliere **Aggiungi a** > **Contenuto riutilizzabile**.
-
 
 Una volta aggiunto il file, nel pannello Contenuto riutilizzabile è possibile visualizzare tutti gli elementi di contenuto riutilizzabili dal file. Il contenuto riutilizzabile viene visualizzato con i relativi ID e nomi di elementi.
 
@@ -1047,63 +1086,177 @@ Experience Manager Guides consente di creare e gestire le variabili per la pubbl
 
 L’icona Trova e sostituisci si trova nella parte inferiore del pannello a sinistra. Il pannello Trova e sostituisci consente di cercare e sostituire il testo tra i file di una mappa o di una cartella all’interno dell’archivio. È possibile eseguire operazioni di ricerca e sostituzione in tutti gli argomenti di una mappa, inclusi gli argomenti contenuti nelle mappe secondarie e nei file Markdown.
 
-![](images/map-find-replace.png){align="left"}
-
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
 
 >[!NOTE]
 >
 > In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei nomi dei file nell’Editor. Selezionare l&#39;opzione **Nome file** della sezione **Configurazione di visualizzazione dei file dell&#39;editor** in **Preferenze utente**.
 
+La funzione Trova e sostituisci può essere utilizzata in due modalità distinte, a seconda dei requisiti:
+
+- **In modalità Source:** la ricerca esegue la scansione non solo del contenuto visibile, ma anche del contenuto di origine sottostante (struttura XML, inclusi elementi, tag e valori di attributi) per la stringa cercata. Questa modalità garantisce una ricerca completa nell’intero contenuto. Per utilizzare questa funzionalità, è necessario abilitare l&#39;opzione **Usa modalità origine** disponibile nel pannello Trova e sostituisci.
+
+  >[!NOTE]
+  >
+  > La funzione **Usa modalità origine** è disponibile in Experience Manager Guides as a Cloud Service con versione 2026.01.0 e per la configurazione locale con versione 5.2. Per utilizzare questa funzione, devi innanzitutto indicizzare il contenuto a seconda della configurazione in uso.
+  > - **Per Cloud Services**: è necessario eseguire una distribuzione dell&#39;indice personalizzata. Per ulteriori dettagli, visualizzare [Distribuzione dell&#39;indice personalizzato](/help/product-guide/cs-install-guide/custom-indexing.md). Al termine, contatta il team di successo del cliente per abilitare questa funzione.
+  > - **On-Premise**: è necessaria la reindicizzazione del contenuto esistente prima che la funzionalità possa essere utilizzata. Per ulteriori dettagli, visualizzare [Contenuto reindicizzazione](/help/product-guide/install-guide/custom-indexing-prem.md). Al termine, contatta il team di successo del cliente per abilitare questa funzione.
+
+  ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>
+
 <details>
-    <summary> Esegui la ricerca globale e sostituisci </summary>
+    <summary> Esegui ricerca globale e sostituisci con modalità Source</summary>
 
-
-Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operazioni:
+Per eseguire la ricerca globale e sostituirla con la modalità Source, effettuare le seguenti operazioni:
 
 1. Apri il pannello **Trova e sostituisci** globale.
-1. Selezionare il menu a discesa **Cerca in** e selezionare una delle opzioni seguenti per eseguire la ricerca.
-
-   - **Mappa corrente**: per eseguire ricerche nella mappa aperta
-
-     >[!NOTE]
-     >
-     > Questa opzione viene visualizzata se avete già aperto una mappa per la modifica.
+1. Abilitare l&#39;opzione **Usa modalità origine**.
+1. Selezionare il menu a discesa **Percorso** e selezionare una delle opzioni seguenti per eseguire la ricerca.
 
    - **Percorso**: per eseguire una ricerca nel percorso selezionato
-   - **Seleziona mappa**: per eseguire una ricerca nella mappa selezionata
+   - **Mappa**: per eseguire ricerche in una mappa specifica dall&#39;archivio o dalle raccolte
+   - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
 
-1. Puoi utilizzare il menu a discesa **Opzioni** e scegliere tra le seguenti opzioni:
+   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
 
-   - **Blocca il file prima di sostituirlo**: selezionare questa opzione se si desidera bloccare automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l’amministratore abbia abilitato la configurazione per bloccare un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo relativa al blocco dei file non richiederà di bloccare ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
+
+1. Immettere la stringa di ricerca nel campo **Trova**. Per limitare i risultati, selezionare l&#39;icona **Filtro** accanto al campo Trova e selezionare i seguenti filtri desiderati:
+
+   ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+   - **Tipo di file**: scegliere il tipo di file; **Argomenti** e **Mappe** in cui si desidera cercare il testo
+   - **Stato documento**: è possibile selezionare uno stato del documento tra le opzioni disponibili. Le opzioni dello stato del documento visualizzate derivano dai profili delle cartelle. Essi rappresentano il set combinato di tutti i possibili stati del documento in tali profili. Gli stati predefiniti includono In-review, Fatto (Done), Bozza (Draft), Approvato (Approved), Modifica (Edit) e Rivisto (Reviewed).
+   - **Ultima modifica**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
+
+      - Nelle ultime 2 ore
+      - Nell&#39;ultima settimana
+      - Nell&#39;ultimo mese
+      - Nell&#39;ultimo anno
+   - **Altri**: puoi configurare i seguenti elementi:
+      - **Tag**: filtra il contenuto in base ai tag.
+      - **Ricerca con distinzione tra maiuscole e minuscole**: abilita la ricerca per garantire che i risultati corrispondano esattamente alla combinazione di maiuscole e minuscole specificata.
+      - **Elenca i file bloccati da altri utenti**: visualizza i file attualmente bloccati da altri utenti, impedendo eventuali modifiche fino al rilascio del blocco.
+
+1. Premi Invio o seleziona l&#39;icona **Cerca** per eseguire la ricerca.
+
+   ![](images/search-icon.png){width="350" align="left"}
+
+1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nella visualizzazione Source con il termine cercato evidenziato nel contenuto.
+
+1. Immettere il termine da utilizzare come sostituto nel campo **Sostituisci con**. Per personalizzare la modalità di applicazione delle sostituzioni, fare clic sull&#39;icona **Impostazioni** accanto al campo e scegliere tra le opzioni disponibili.
+
+   - **Sostituisci file sbloccati**: selezionare questa opzione per consentire la sostituzione nei file sbloccati.
+
+   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato. Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+
+   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+
+
+1. Seleziona **Sostituisci occorrenza** per sostituire la stringa di ricerca attualmente evidenziata nell&#39;argomento o seleziona le frecce in alto e in basso per passare all&#39;occorrenza successiva o precedente del testo.
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Selezionare **Sostituisci tutto** per sostituire tutte le occorrenze della stringa cercata in tutti i file cercati con la stringa sostitutiva specificata in un&#39;unica operazione. Verrà visualizzata una notifica dopo la sostituzione di tutte le occorrenze.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   >Per abilitare il pulsante **Sostituisci tutto**, l&#39;amministratore del profilo di cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**).
+
+1. È inoltre possibile passare il cursore del mouse su un file dall&#39;elenco dei risultati della ricerca per visualizzare l&#39;icona **Sostituisci tutto nel file** sulla destra, che consente di sostituire tutte le occorrenze del termine in un unico file.
+
+   >[!NOTE]
+   >
+   > Per rimuovere il file dal risultato della ricerca, viene inoltre visualizzata l&#39;icona **Rimuovi**. I file rimossi vengono rimossi dall&#39;elenco e il termine cercato non viene sostituito al loro interno.
+
+   ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. Al termine dell’operazione Sostituisci tutto, viene generato un rapporto CSV scaricabile che fornisce un’istantanea di tutte le azioni di sostituzione eseguite. È possibile scaricare il report per visualizzare informazioni dettagliate sulle operazioni di sostituzione, incluso il numero di occorrenze sostituite correttamente, insieme ai dettagli di ciascuna, nonché eventuali errori e le relative motivazioni. L&#39;operazione potrebbe non riuscire per alcuni motivi specifici, ad esempio il blocco del file da parte di un altro utente, errori di convalida causati dalle modifiche apportate al file durante l&#39;operazione o altri problemi simili.
+
+   ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e, fino a quando non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. È inoltre possibile interrompere l&#39;operazione Sostituisci tutto nel mezzo. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo.
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>
+
+<br>
+
+- **Senza modalità Source:** la ricerca è limitata al testo visualizzato nella visualizzazione Autore, concentrandosi solo sul contenuto visibile ignorando il contenuto sorgente come elementi o attributi XML. Questa modalità è ideale per ricerche rapide di solo contenuto.
+
+  ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Esecuzione di ricerche globali e sostituzione senza modalità Source</summary>
+
+
+Per eseguire la ricerca globale e sostituirla senza la modalità Source, effettuare le seguenti operazioni:
+
+1. Apri il pannello **Trova e sostituisci** globale.
+1. Selezionare il menu a discesa **Percorso** e scegliere una delle opzioni seguenti per eseguire la ricerca.
+
+   - **Percorso**: per eseguire una ricerca nel percorso selezionato
+   - **Mappa**: per eseguire ricerche in una mappa specifica dall&#39;archivio o dalle raccolte
+   - **Mappa corrente**: per eseguire ricerche nella mappa attualmente aperta
+
+   ![](images/path-dropdown.png){width="350" align="left"}
+
+1. Immettere la stringa di ricerca nel campo **Trova**. Per limitare i risultati, selezionare l&#39;icona **Filtro** accanto al campo Trova e selezionare i seguenti filtri desiderati:
+
+
    - **Solo parole intere**: selezionare questa opzione per cercare l&#39;intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
-   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
-
-     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
 
    - **Includi riferimenti indiretti**: selezionare questa opzione se si desidera cercare la stringa nei riferimenti indiretti anche all&#39;interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
 
-1. Immettere il termine di ricerca o il testo che si desidera trovare.
-1. Immettere il testo con cui si desidera sostituire il termine di ricerca.
-1. Premi Invio o seleziona l&#39;icona **Cerca** \( ![](images/search-icon.svg)\) per eseguire la ricerca.
-1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
+   ![](images/find-filters.png){width="350" align="left"}
 
-1. Selezionare **Sostituisci occorrenza singola** \( ![](images/replace-icon.svg)\) per sostituire il termine di ricerca attualmente evidenziato nell&#39;argomento oppure selezionare Corrispondenza successiva ![](images/next-match-in-search.png) o Corrispondenza precedente ![](images/previous-match-in-search.png) per passare all&#39;occorrenza successiva o precedente del testo.
-1. Selezionare **Sostituisci tutto** \( ![](images/replace-all-in-file-icon.svg)\) per sostituire tutte le occorrenze del termine cercato in un singolo file con il termine sostitutivo in un solo clic. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica.
+1. Premi Invio o seleziona l&#39;icona **Cerca** per eseguire la ricerca.
 
-Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**).
+   ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Passa il puntatore del mouse su un file dall&#39;elenco dei risultati di ricerca per visualizzare l&#39;icona Sostituisci tutto nel file sulla destra. Viene inoltre visualizzata l&#39;icona Ignora file per rimuovere il file dal risultato della ricerca. I file ignorati vengono rimossi dall&#39;elenco e il termine ricercato non viene sostituito.
+1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nella visualizzazione Autore nell’area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
+
+1. Immettere il termine da utilizzare come sostituto nel campo **Sostituisci con**. Per personalizzare la modalità di applicazione delle sostituzioni, fare clic sull&#39;icona **Impostazioni** accanto al campo e scegliere tra le opzioni disponibili.
+
+   - **Blocca il file prima di sostituirlo**: selezionare questa opzione se si desidera bloccare automaticamente un file prima di sostituire la stringa di ricerca. Questa impostazione è più rilevante nel caso in cui l’amministratore abbia abilitato la configurazione per bloccare un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo relativa al blocco dei file non richiederà di bloccare ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
+
+   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato. Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+
+   ![](images/replace-settings.png){width="350" align="left"}
+
+
+1. Seleziona **Sostituisci occorrenza** per sostituire la stringa di ricerca attualmente evidenziata nell&#39;argomento o seleziona le frecce in alto e in basso per passare all&#39;occorrenza successiva o precedente del testo
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Selezionare **Sostituisci tutto** per sostituire tutte le occorrenze del termine ricercato in un unico file con il termine sostitutivo in un&#39;unica operazione. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica.
+
+   >[!NOTE]
+   >
+   > Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore del profilo della cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**). Se si verificano errori durante l&#39;operazione di sostituzione, tali file verranno ignorati a causa di problemi di analisi XML o di errori DITA.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+1. È inoltre possibile passare il cursore del mouse su un file dall&#39;elenco dei risultati della ricerca per visualizzare l&#39;icona **Sostituisci tutto nel file** sulla destra, che consente di sostituire tutte le occorrenze del termine in un unico file.
+
+   >[!NOTE]
+   >
+   > Per rimuovere il file dal risultato della ricerca, viene inoltre visualizzata l&#39;icona **Rimuovi**. I file rimossi vengono rimossi dall&#39;elenco e il termine cercato non viene sostituito al loro interno.
+
+   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e, fino a quando non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 È inoltre possibile utilizzare l&#39;opzione **Trova in mappa** dal menu **Opzioni** di una mappa per trovare e sostituire il testo in una mappa. Questa opzione viene visualizzata per una mappa aperta nel pannello del repository o nella vista mappa.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 
@@ -1170,4 +1323,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

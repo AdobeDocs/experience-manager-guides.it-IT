@@ -4,10 +4,10 @@ description: Scopri l’API per avviare l’elaborazione in blocco delle risorse
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 8%
+source-wordcount: '587'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,15 @@ Metodo POST che avvia l&#39;elaborazione in blocco delle risorse per un percorso
 | `path` | Stringa | Sì | Percorso assoluto della cartella o risorsa nell’archivio AEM da elaborare. |
 | `excludedPaths` | Stringa | No | Elenco dei percorsi da escludere dall’elaborazione |
 | `type` | Stringa | Sì | Tipo di elaborazione da eseguire. Ad esempio: ASSET_PROCESSING. |
+| `filter` | Oggetto | No | Filtri applicati alle risorse selezionate |
+
+**Filtra campi oggetto**
+
+| Nome | Tipo | Descrizione |
+|----|----|-----------|
+| fileTypes | Stringa | Tipi di risorse da elaborare. Valori consentiti: DITATOPICO, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, ALTRI. |
+| startTime | Numero intero | Limite inferiore per il tempo di creazione delle risorse |
+| endTime | Numero intero | Limite superiore per il tempo di creazione delle risorse |
 
 **Esempio di richiesta**
 
@@ -35,7 +44,12 @@ Metodo POST che avvia l&#39;elaborazione in blocco delle risorse per un percorso
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

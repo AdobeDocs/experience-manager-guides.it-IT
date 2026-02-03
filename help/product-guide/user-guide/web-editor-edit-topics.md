@@ -4,9 +4,9 @@ description: Scopri come modificare gli argomenti nell’editor. Scopri le varie
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides fornisce l’indicatore della copia di lavoro che indi
 
 Experience Manager Guides indica anche se l’ultima copia salvata \(working\) del file è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
 
-![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Qualsiasi modifica ai campi metadati disponibili in [Proprietà file](./web-editor-right-panel.md#file-properties) attiverà anche l&#39;indicatore della copia di lavoro sulla versione del documento.
 
+![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
 
 ## Accedere ai file bloccati in modalità Autore e Source
 
@@ -117,4 +120,4 @@ Quando si apre un file nell&#39;editor, Experience Manager Guides fornisce la fu
 >
 >A partire dalla versione 2025.11.0, l&#39;impostazione **Individua sempre i file nel repository** viene rinominata in **Individua sempre i file nel Explorer**. Per la configurazione on-premise, continua a essere disponibile come sempre individua i file nell’archivio fino alla versione 5.1 di Experience Manager Guides.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)

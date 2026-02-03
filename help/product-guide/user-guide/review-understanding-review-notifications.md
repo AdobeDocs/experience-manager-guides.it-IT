@@ -3,9 +3,10 @@ title: Informazioni sulle notifiche di revisione
 description: Scopri i diversi tipi di notifiche di revisione e come vengono attivate durante le diverse fasi del flusso di lavoro di revisione in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ La tabella seguente fornisce una panoramica dei diversi tipi di notifiche di rev
 | Revisore non assegnato | Non più assegnato all&#39;attività di revisione **Revisione homepage** | Revoca assegnazione da **Autore** | Non più assegnato all&#39;attività di revisione **Revisione homepage** | Ti è stata revocata l&#39;assegnazione dell&#39;attività di revisione **Revisione homepage** nel progetto **Revisione WebDocs** da **Autore**. | **Revisore** |
 | Menzione tag | Menzionato nel commento dell&#39;attività di revisione per **Revisione homepage** | Citato da **Autore** | Menzionato nel commento dell&#39;attività di revisione per **Revisione homepage** | Sei stato menzionato in un commento all&#39;attività **Revisione homepage** in **Revisione WebDocs** da **Autore**. **Estratto di commento:** *&quot;Aggiornare la struttura dell&#39;intestazione in base alle linee guida per l&#39;accessibilità.&quot;* | **Utente menzionato** |
 | Contenuto aggiornato durante la revisione | Argomento aggiornato nell&#39;attività di revisione **Revisione della home page** | Aggiornato da **Autore** | Argomento aggiornato nell&#39;attività di revisione **Revisione della home page** | **L&#39;autore** ha aggiornato le versioni dell&#39;argomento per l&#39;attività di revisione **Homepage Review**. Rivedi con largo anticipo la data di scadenza **15 agosto 2025**. | **Revisore** |
+| Argomenti aggiunti o rimossi o versione aggiornata mentre è in corso un&#39;attività di revisione con uno o più revisori | Argomenti aggiornati nell&#39;attività di revisione **Revisione homepage** | Aggiornato da **Autore** | Argomenti aggiornati nell&#39;attività di revisione **Revisione homepage** | **L&#39;autore** ha aggiornato le versioni dell&#39;argomento per l&#39;attività di revisione **Homepage Review**. Rivedi con largo anticipo la data di scadenza **15 agosto 2025**. | **Revisore** |
 
 
 Nella tabella precedente, il **testo in grassetto** rappresenta valori di esempio ed è guidato da variabili predefinite che possono essere utilizzate nelle notifiche.
@@ -59,4 +61,4 @@ Per un elenco completo delle variabili predefinite e per esaminare la personaliz
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

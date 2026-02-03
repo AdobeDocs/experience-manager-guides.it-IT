@@ -4,7 +4,7 @@ description: Scopri in che modo Edge Delivery Services (Beta) estende le possibi
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Per abilitare la pubblicazione da Experience Manager Guides a EDS (Beta), devi c
 2. [Creare e configurare un profilo di pubblicazione per EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizzare l’output utilizzando i blocchi EDS](#customize-output-using-eds-blocks)
 
-Per una procedura dettagliata e rapida, visualizza [Pubblicazione in AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Per una procedura dettagliata e rapida, visualizza [Pubblicazione in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -57,7 +57,7 @@ Per installare e configurare l&#39;applicazione *AEM Code Sync*, effettuare le s
 1. Passare alla pagina [Sincronizzazione codice AEM](https://github.com/apps/aem-code-sync) e selezionare **Installa**.
 2. *AEM Code Sync* monitora le modifiche all&#39;archivio e assicura che gli aggiornamenti vengano inviati correttamente a GitHub.
 
-   >
+   >[!NOTE]
    >
    > Durante l’installazione dell’applicazione, assicurati di utilizzare lo stesso account GitHub a cui appartiene l’archivio.
 
@@ -128,7 +128,7 @@ Per configurare l&#39;URL del punto di attivazione nel file `fstab.yaml`:
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > Nell&#39;URL del punto di attivazione, `main` indica il ramo in cui si desidera pubblicare il contenuto e `docs` indica la cartella principale dell&#39;archivio EDS (Beta) su cui si sta lavorando. Se preferisci modificare il nome del ramo in GitHub, devi aggiornare lo stesso nome di ramo nell&#39;URL *punto_att* (nel file `fstab.yaml`) e nel profilo di pubblicazione EDS corrispondente in Experience Manager Guides.
 
@@ -148,7 +148,7 @@ Le sezioni seguenti descrivono ogni passaggio in sequenza e spiegano come impost
 
 ### Creare il profilo di pubblicazione EDS (Beta)
 
-1. Vai a **[Impostazioni Workspace]** **>** **Pubblica profili**.
+1. Vai a **[Impostazioni Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Pubblica profili**.
 2. Seleziona l&#39;icona **+** per creare un nuovo profilo di pubblicazione e fornisci i seguenti dettagli:
    - **Tipo di server**: seleziona **Edge Delivery Services GitHub (Beta)** dal menu a discesa.
    - **Nome**: immettere un nome per il profilo.
@@ -184,7 +184,7 @@ Il profilo di pubblicazione EDS (Beta) è ora configurato.
 
 6. Selezionare **Salva**, quindi **Genera output**.
 
->
+>[!NOTE]
 >
 > L&#39;output generato viene archiviato nella cartella **docs** dell&#39;archivio EDS (Beta).
 

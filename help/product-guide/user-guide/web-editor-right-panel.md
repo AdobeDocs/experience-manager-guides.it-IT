@@ -4,10 +4,10 @@ description: Scopri il pannello A destra nell’editor. Scopri l’interfaccia e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Il pannello a destra consente di accedere alle seguenti funzioni:
 
 - [Proprietà contenuto](#content-properties)
 - [Proprietà file](#file-properties)
-- [Rivedi](#review)
+- [Rivedere](#review)
 - [Rileva modifiche](#track-changes)
 - [Schematron](#schematron)
 
@@ -45,7 +45,7 @@ Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi seleziona **Aggiungi**.
 
-   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 
@@ -74,10 +74,22 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 
 ![proprietà-file](images/file-properties-general.png){width="300" align="left"}
 
-- **&#x200B;**&#x200B;Nome File: visualizza il nome file dell&#39;argomento selezionato. Il nome del file è collegato ipertestuale alla pagina delle proprietà del file selezionato.
+- **Nome file**: visualizza il nome del file dell&#39;argomento selezionato. Il nome del file viene collegato alla pagina delle proprietà del file selezionato.
 - **ID**: visualizza l&#39;ID dell&#39;argomento selezionato.
-- **Tag**: questi sono i tag metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
-- **Modifica altre proprietà**: è possibile modificare altre proprietà dalla pagina delle proprietà del file.
+- **Conteggio parole**: visualizza il numero totale di parole nell&#39;argomento DITA corrispondente. Le parole separate da spazi sono considerate singole parole. Il conteggio viene aggiornato ogni volta che si salvano le modifiche apportate all&#39;argomento. Per i riferimenti incrociati, nel conteggio viene incluso solo il testo visualizzato, mentre le chiavi sono escluse.
+
+  >[!NOTE]
+  >
+  > La funzione **Conteggio parole** è stata introdotta nella versione 2026.01.0 di Experience Manager Guides as a Cloud Service. Tutti i nuovi argomenti DITA creati dopo l&#39;aggiornamento a questa versione avranno automaticamente il conteggio delle parole calcolato nel pannello di destra. Per gli argomenti esistenti, è richiesta la [rielaborazione delle risorse](./asset-processor.md).
+
+- **Tag**: questi sono i tag di metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
+- **Modifica altre proprietà**: è possibile modificare altre proprietà ( per i file che non sono in modalità **Sola lettura**) dalla pagina Proprietà file.
+
+  >[!NOTE]
+  >
+  > Qualsiasi aggiunta, eliminazione o modifica delle proprietà dei metadati (predefinite o personalizzate) attiverà l&#39;[indicatore della copia di lavoro](./web-editor-edit-topics.md#working-copy-indicator) nella versione del documento.
+
+
 - **Lingua**: mostra la lingua dell&#39;argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
 - **Data creazione**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
 - **Modificato il**: visualizza la data e l&#39;ora di modifica dell&#39;argomento.
@@ -109,7 +121,7 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte, Proprietà.
 
-## Rivedi
+## Rivedere
 
 Se si seleziona l&#39;icona Revisione, viene aperto il pannello Revisione in cui è possibile selezionare un task di revisione per il documento aperto e visualizzare i commenti.
 
@@ -141,4 +153,4 @@ Scopri come utilizzare i file Schematron in Experience Manager Guides. Fai rifer
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

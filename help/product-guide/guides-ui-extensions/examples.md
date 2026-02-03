@@ -1,13 +1,13 @@
 ---
 title: Esempi
 description: Elenco di esempi di personalizzazione
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Esempi
 
@@ -26,6 +26,9 @@ In questo esempio abbiamo personalizzato `right tab panel` per avere un altro `t
 
 5. [Barra degli strumenti](./examples/toolbar.ts)
 In questo esempio sono stati sostituiti i pulsanti `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` con un singolo pulsante `More Insert Options` contenente tutti questi pulsanti.
+
+6. [Pulsante Gestisci nel pannello Metadati](./examples/metadata_report_manage_button.ts)
+In questo esempio, abbiamo personalizzato il pulsante **Gestisci** (che si trova nel pannello Metadati della pagina Rapporti) in modo che venga disabilitato quando i file selezionati sono in modalità di sola lettura. In questo modo è possibile evitare la modifica accidentale di metadati su file non destinati alla modifica.
 
 [Verifica esempi app]
 

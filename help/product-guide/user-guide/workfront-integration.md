@@ -4,9 +4,9 @@ description: Scopri come integrare Workfront con Adobe Experience Manager Guides
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Con l’integrazione di Experience Manager Guides e Adobe Workfront, puoi:
 
 * Pianificare, allocare e tenere traccia dell&#39;avanzamento di singole attività e progetti senza ricorrere a più strumenti non integrati.
 * Gestisci tutti i flussi di lavoro di Experience Manager Guides, inclusi authoring, revisione, pubblicazione e traduzione dei contenuti in modo più efficiente.
-* Ricevi notifiche e-mail da Adobe Workfront ogni volta che vengono assegnate nuove attività. Per ulteriori dettagli, visualizzare [Panoramica notifiche](https://experienceleague.adobe.com/it/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Ricevi notifiche e-mail da Adobe Workfront ogni volta che vengono assegnate nuove attività. Per ulteriori dettagli, visualizzare [Panoramica notifiche](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Monitora lo stato del progetto utilizzando la dashboard intuitiva di Adobe Workfront, che offre informazioni in tempo reale sulle prestazioni del progetto.
 
-  Per informazioni sulle solide funzionalità di gestione dei progetti di Adobe Workfront abilitate per i project manager in Experience Manager Guides, visualizza [Panoramica del progetto](https://experienceleague.adobe.com/it/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Per informazioni sulle solide funzionalità di gestione dei progetti di Adobe Workfront abilitate per i project manager in Experience Manager Guides, visualizza [Panoramica del progetto](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Introduzione
 
@@ -61,7 +61,7 @@ Nella pagina Attività di Workfront sono disponibili le seguenti funzioni:
 
 La pagina Attività di Workfront include anche l&#39;icona di collegamento ![](./images/Smock_LinkOut_18_N.svg) che, se selezionata, consente di accedere alla pagina del progetto Adobe Workfront. Qui puoi visualizzare i dettagli delle attività, visualizzare i commenti, aggiungere commenti e accedere ad altre funzioni in base alle autorizzazioni mappate con il tuo account Adobe Workfront.
 
-Per ulteriori dettagli, visualizza [Panoramica delle date di Progetto, Attività e Problema in Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Per ulteriori dettagli, visualizza [Panoramica delle date di Progetto, Attività e Problema in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Creare attività di Workfront
 
@@ -88,7 +88,7 @@ Per creare una nuova attività Adobe Workfront, effettua le seguenti operazioni:
 
    Viene visualizzata la finestra di dialogo **Seleziona percorso**. Seleziona un percorso per la risorsa richiesta. Per aggiungere più risorse, seleziona i percorsi validi nel browser percorsi. I percorsi selezionati verranno mantenuti e potranno essere esaminati o modificati facilmente quando riapri la finestra di dialogo.
 
-   * Per le attività di authoring, pubblicazione e traduzione, viene richiesto di selezionare il percorso del file richiesto nella finestra di dialogo **Seleziona percorso**. Il file selezionato (un argomento per la creazione e la mappatura per la pubblicazione e la traduzione) viene aggiunto all&#39;attività non appena viene selezionato il pulsante **Crea**.
+   * Per le attività di authoring, pubblicazione e traduzione, viene richiesto di selezionare il percorso del file richiesto nella finestra di dialogo **Seleziona file**. Il file selezionato (un argomento per la creazione e la mappatura per la pubblicazione e la traduzione) viene aggiunto all&#39;attività non appena viene selezionato il pulsante **Crea**.
 
      ![](./images/attach-asset.png){align="left"}
 
@@ -122,7 +122,7 @@ Una nuova attività viene creata ed elencata nella scheda **Creato da te**.
 
 >[!NOTE]
 >
-> In qualità di project manager, puoi visualizzare questa nuova attività nel dashboard di Adobe Workfront insieme ad altri dettagli chiave sull’attività. Per ulteriori dettagli, visualizzare [Comprendere le dashboard](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> In qualità di project manager, puoi visualizzare questa nuova attività nel dashboard di Adobe Workfront insieme ad altri dettagli chiave sull’attività. Per ulteriori dettagli, visualizzare [Comprendere le dashboard](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gestione delle attività create dall&#39;utente
 

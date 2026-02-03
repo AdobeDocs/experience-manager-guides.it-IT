@@ -4,9 +4,9 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -375,7 +375,7 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 
 **Immagine** - ![](images/Image_icon.svg)
 
-Inserisce un&#39;immagine nel percorso valido corrente o successivo. Selezionare l&#39;icona Immagine per aprire la finestra di dialogo Inserisci immagine, quindi cercare e selezionare l&#39;immagine da inserire.
+Inserisce un&#39;immagine nel percorso valido corrente o successivo. Seleziona l’icona Immagine per aprire la finestra di dialogo Inserisci immagine, quindi cerca e seleziona l’immagine da inserire.
 
 >[!NOTE]
 >
@@ -384,13 +384,30 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Selezionare
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Potete aggiungere un titolo immagine/figura e un testo alternativo per l&#39;immagine nella finestra di dialogo Inserisci immagine.
+
+Nella finestra di dialogo **Seleziona file**, è possibile sfogliare il file di immagine richiesto da **Archivio** o **Raccolte**.
+
+>[!NOTE]
+>
+> Il browser del percorso di file e cartelle viene introdotto con un’interfaccia utente rinnovata nella versione 2601 di Experience Manager Guides as a Cloud Service. La nuova interfaccia è attivata per impostazione predefinita. Se preferisci continuare a utilizzare l’interfaccia utente esistente senza questi aggiornamenti, contatta il team Customer Success per disabilitare questo nuovo miglioramento.
+
+![](images/select-file-browser-images.png)
+
+Utilizza le breadcrumb nella parte superiore e il pannello di navigazione delle cartelle a sinistra per spostarti facilmente tra le cartelle.
+
+![](images/select-file-browser-file-navigation.png)
+
+È possibile cercare il file di immagine richiesto per nome file, titolo file e contenuto. È inoltre possibile filtrare i risultati della ricerca in base a Percorso \(per eseguire la ricerca in\), Stato documento, Bloccato da, Ultima modifica e Tag. Il filtro del tipo di file è preapplicato a **Immagini** e rimane disabilitato per altri tipi di file per consentire selezioni di file valide. Per ulteriori dettagli sull&#39;utilizzo dei filtri in questo browser percorsi, visualizzare [Altre funzionalità nell&#39;editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Dopo aver trovato il file di immagine richiesto, selezionare il file e scegliere **Seleziona** per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e altri.
+
+È inoltre possibile aggiungere un titolo immagine/figura e un testo alternativo per l’immagine nella finestra di dialogo Inserisci immagine.
 
 >[!NOTE]
 >
 > Quando si inserisce un&#39;immagine e si specifica un testo alternativo per lo stesso elemento, questo viene aggiunto all&#39;interno dell&#39;elemento `<alt>` in conformità agli standard DITA più recenti. L&#39;utilizzo dell&#39;attributo `@alt` per il testo alternativo è obsoleto, ma rimane supportato nelle versioni DITA precedenti.
-
-Utilizzando l&#39;opzione **Seleziona file**, è possibile cercare il file di immagine richiesto in base al nome del file. Puoi anche filtrare i risultati della ricerca per Percorso \(per cercare in\), Raccolte, Tipo file e Tag. Dopo aver trovato il file di immagine richiesto, selezionare il file e scegliere **Seleziona** per inserire l&#39;immagine nel documento. È possibile inserire vari formati di file immagine, ad esempio `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` e altri.
 
 Dopo aver inserito un&#39;immagine, potete modificarne l&#39;altezza, la larghezza, il posizionamento e gli attributi dal pannello Proprietà contenuto. Seleziona il file di immagine e apporta le modifiche desiderate nel pannello Proprietà contenuto nel pannello di destra.
 
@@ -426,7 +443,7 @@ Selezionate un&#39;immagine nell&#39;argomento corrente e fate clic sull&#39;ico
 
 Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.png), Cerchio ![](images/imagemap-circle-toolbar.png) o Poligono ![](images/imagemap-polygon-toolbr.png) per definire un&#39;area su un&#39;immagine che si desidera utilizzare come collegamento. Dopo aver definito un’area, viene visualizzata la finestra di dialogo Riferimento in cui è necessario specificare il collegamento al contenuto interno o esterno:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Se le aree si sovrappongono, è possibile portare la forma avanti o indietro facendo clic sulla relativa icona nella barra degli strumenti. È inoltre possibile rimuovere un&#39;area selezionandola e facendo clic sull&#39;icona Elimina. Facendo doppio clic su un’area si apre la finestra di dialogo Riferimento, in cui è possibile modificare il collegamento di destinazione. Dopo aver contrassegnato le aree richieste nell&#39;immagine, salvare le modifiche selezionando **Fine**.
 
@@ -440,13 +457,19 @@ Inserisce diversi tipi di file multimediali. Seleziona l’icona a discesa Multi
 - YouTube
 - Vimeo
 
-Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la vista del repository per sfogliare e selezionare il file desiderato. Se scegli YouTube o Vimeo, viene visualizzata la finestra di dialogo Inserisci file multimediali. Incollare il collegamento del file video nel campo Collegamento Web e selezionare Inserisci per aggiungere il video nella posizione valida corrente o successiva nel documento.
+Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la finestra di dialogo **Seleziona file** per sfogliare e selezionare il file desiderato dall&#39;archivio o dalle raccolte.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Se scegli YouTube o Vimeo, viene visualizzata la finestra di dialogo **Inserisci file multimediali**. Incollare il collegamento del file video nel campo Collegamento Web e selezionare Inserisci per aggiungere il video nella posizione valida corrente o successiva nel documento.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Durante l&#39;aggiunta di un collegamento video YouTube, è necessario sostituire la stringa `watch?v=` con `embed` nell&#39;URL. Per aggiungere ad esempio un collegamento video YouTube: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, è necessario aggiungerlo come: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Questa modifica garantisce che il video venga incorporato nell’output del sito AEM e di PDF.
 
-È inoltre possibile aggiungere il file audio o video dalla finestra di dialogo Inserisci file multimediale. Selezionare l&#39;opzione File audio/video, quindi selezionare l&#39;icona Sfoglia per avviare la visualizzazione del repository. Selezionare il file audio o video dal repository e selezionare **Seleziona** per aggiungere il collegamento del file nel campo File audio/video. Se scegliete un file video, nell&#39;area di anteprima viene visualizzata anche un&#39;anteprima del file. È possibile riprodurre il file video per visualizzarne l&#39;anteprima.
+È inoltre possibile aggiungere il file audio o video dalla finestra di dialogo **Inserisci file multimediale**. Selezionare l&#39;opzione File audio/video, quindi selezionare l&#39;icona Sfoglia per avviare la visualizzazione del repository. Selezionare il file audio o video dal repository e selezionare **Seleziona** per aggiungere il collegamento del file nel campo File audio/video. Se scegliete un file video, nell&#39;area di anteprima viene visualizzata anche un&#39;anteprima del file. È possibile riprodurre il file video per visualizzarne l&#39;anteprima.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l
 >
 > Consulta la sezione Riferimenti nella guida alle best practice per le best practice sui riferimenti ai contenuti.
 
-**Ricerca filtro**
+**Filtra ricerca nella vista Archivio**
 
-Puoi cercare del testo nei file presenti nel percorso selezionato dell’archivio AEM. Ad esempio, la ricerca di &quot;generale&quot; viene eseguita nella schermata seguente. Puoi anche restringere la ricerca utilizzando filtri avanzati. È possibile cercare tutti i file DITA come Argomenti DITA e Mappe DITA presenti nel percorso selezionato.
+Nella finestra di dialogo **Seleziona file**, è possibile cercare del testo nei file presenti nel percorso selezionato del **archivio**. Ad esempio, nella schermata seguente viene eseguita la ricerca di *freni*.
 
-È possibile cercare file non DITA come i file immagine, i file multimediali e i documenti nel percorso selezionato. È inoltre possibile cercare valori specifici negli attributi degli elementi DITA. È inoltre possibile cercare i file estratti dall&#39;utente specificato.
+>[!NOTE]
+>
+> Il browser File e Percorso viene introdotto con un’interfaccia utente rinnovata nella versione 2601 di Experience Manager Guides as a Cloud Service. La nuova interfaccia è attivata per impostazione predefinita. Se preferisci continuare a utilizzare l’interfaccia utente esistente senza questi aggiornamenti, contatta il team Customer Success per disabilitare questo nuovo miglioramento.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Puoi utilizzare le breadcrumb nella parte superiore e il pannello di navigazione delle cartelle a sinistra per spostarti facilmente all’interno delle cartelle.
+
+![](images/select-file-browser-file-navigation.png)
+
+Puoi cercare il file richiesto per nome file, titolo file e contenuto. Puoi anche restringere la ricerca utilizzando filtri migliorati dal pannello A destra. Per ulteriori dettagli, visualizzare [Altre funzionalità nell&#39;editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Puoi anche visualizzare in anteprima il contenuto del file.
 
 >[!NOTE]
 >
 > L’amministratore di sistema può anche configurare i filtri di testo e mostrare o nascondere altri filtri. Per ulteriori dettagli, visualizzare la sezione *Configurare i filtri di testo* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
-
-Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato. Ad esempio, nella schermata precedente sono elencati i file contenenti il testo &quot;generale&quot;. Puoi anche visualizzare in anteprima il contenuto del file.
-
 
 **Contenuto riutilizzabile** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Inserisci parola chiave definita nella mappa DITA. Selezionate l&#39;opzione Par
 
 Le parole chiave sono elencate in ordine alfabetico ed è inoltre possibile cercare le parole chiave\(s\) digitando una stringa di ricerca nella casella Cerca. Il risultato della ricerca restituirà le parole chiave contenenti la stringa in ID o Value. Le parole chiave definite nella mappa DITA sono elencate in questa finestra di dialogo. Scegliere la parola chiave da inserire e selezionare **Inserisci**.
 
-È inoltre possibile modificare gli attributi della parola chiave inserita facendo clic con il pulsante destro del mouse sulla parola chiave e selezionando l&#39;opzione Attributi. Viene visualizzata la finestra di dialogo **Attributi per parola chiave:
+È inoltre possibile modificare gli attributi della parola chiave inserita facendo clic con il pulsante destro del mouse sulla parola chiave e selezionando l&#39;opzione Attributi. Viene aperta la finestra di dialogo **Attributi per parola chiave**:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Se un file è bloccato da un altro utente, passa il cursore sull’icona del luc
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

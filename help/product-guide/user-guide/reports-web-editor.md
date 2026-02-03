@@ -4,9 +4,9 @@ description: Generare rapporti di mappe DITA dalla console delle mappe in AEM Gu
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,13 @@ Per visualizzare il rapporto metadati di una mappa, effettua le seguenti operazi
 
 Per aggiornare i metadati, effettuare le seguenti operazioni:
 
-1. Per aggiornare i metadati, selezionare i file da aggiornare. È possibile selezionare i file visualizzati nel pannello Metadati selezionando la casella di controllo accanto a **Titolo**. Per selezionare tutti i record, utilizzare la scheda **Seleziona tutti** sopra la barra del titolo, come illustrato di seguito.
+1. Per aggiornare i metadati, seleziona i file da aggiornare. È possibile selezionare i file visualizzati nel pannello Metadati selezionando la casella di controllo accanto a **Titolo**.
+
+   Se si desidera selezionare tutti i record, utilizzare la scheda **Seleziona tutti** sopra la barra del titolo. Poiché i record vengono caricati progressivamente durante lo scorrimento, assicurarsi di scorrere fino alla fine dell&#39;elenco prima di utilizzare **Seleziona tutto**. In questo modo le autorizzazioni di modifica e lo stato di blocco vengono valutati per tutti i file, non solo per i record attualmente visibili.
 
    >[!NOTE]
    >
-   > Non è possibile selezionare i file estratti. Accanto al titolo di un file estratto viene visualizzata anche un&#39;icona di estrazione. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
+   > Se un file è bloccato da un altro utente, non può essere selezionato per l’aggiornamento dei metadati. Accanto al titolo di un file bloccato viene visualizzata anche un&#39;icona di blocco. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Per aggiornare i metadati, effettuare le seguenti operazioni:
 
 1. Se desideri aggiungere nuovi tag, seleziona nuovi tag dall’elenco a discesa per applicarli a tutti gli argomenti selezionati. Puoi anche eliminare qualsiasi tag selezionando l’icona a forma di croce accanto al tag.
 
-   >[!NOTE]
-   >
-   > Vengono elencati i tag comuni applicati a tutti gli argomenti selezionati.
+
 
 1. Selezionare un nuovo stato del documento per modificare lo stato di tutti i riferimenti selezionati. Nell’elenco a discesa viene visualizzato lo stato comune possibile per tutti gli argomenti selezionati. Ad esempio, se lo stato corrente degli argomenti è In revisione, è possibile visualizzare lo stato Bozza, Approvato o Rivisto.
 1. Seleziona **Aggiorna** per aggiornare i metadati. Viene visualizzato un messaggio di conferma per i metadati, indipendentemente dal fatto che siano stati aggiornati correttamente o con aggiornamenti non riusciti. È inoltre possibile selezionare **Scarica report** per scaricare lo snapshot del report. Questa istantanea contiene i dettagli dello stato aggiornato per i riferimenti selezionati.
@@ -236,16 +236,16 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 
 1. Puoi filtrare i collegamenti interrotti in base al **tipo di file** e al **tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto interrotto utilizzati.
 
-   Argomento DITA, Mappa DITA, Riferimento file, Riferimento chiave, Riferimento contenuto, Riferimento chiave contenuto, Riferimento immagine, Riferimento file multimediale e Riferimento chiave multimediale sono valori disponibili per l&#39;elenco a discesa **Tipo di collegamento** e Argomento DITA, Mappa DITA, Documento, Immagine, Video, Audio e altri sono valori disponibili per l&#39;elenco a discesa **Tipo file**.
+   Argomento DITA, Mappa DITA, Riferimento file, Riferimento chiave, Riferimento contenuto, Riferimento chiave contenuto, Riferimento immagine, Riferimento file multimediale e Riferimento chiave multimediale sono valori disponibili per l&#39;elenco a discesa **Tipo di collegamento** e Argomento, Mappa, Documento, Immagine, Video, Audio e altri sono valori disponibili per l&#39;elenco a discesa **Tipo file**.
 1. È inoltre possibile utilizzare le seguenti opzioni di filtro per scegliere di visualizzare le colonne seguenti nell&#39;elenco:
 
    - **Collegamento interrotto** (selezionato per impostazione predefinita) Il percorso del collegamento interrotto è specificato nella mappa DITA.
 
-   - **Tipo di collegamento** (selezionato per impostazione predefinita) Il tipo di collegamento. Le opzioni disponibili sono Argomento DITA, Mappa DITA, Riferimento file, Riferimento chiave, Riferimento contenuto, Riferimento chiave contenuto, Riferimento immagine, Riferimento file multimediale e Riferimento chiave multimediale.
+   - **Tipo di collegamento** (selezionato per impostazione predefinita) Il tipo di collegamento. Le opzioni disponibili sono Argomento, Mappa, Riferimento file, Riferimento chiave, Riferimento contenuto, Riferimento chiave contenuto, Riferimento immagine, Riferimento file multimediale e Riferimento chiave multimediale.
 
    - **Usato In** (selezionato per impostazione predefinita) I riferimenti in cui è stato utilizzato il collegamento interrotto. Puoi selezionare il riferimento per visualizzarlo in modalità di authoring.
 
-   - **Tipo file** (selezionato per impostazione predefinita) Il tipo di riferimento: Argomento DITA, Mappa DITA, Documento, Immagine, Video, Audio e altri.
+   - **Tipo file** (selezionato per impostazione predefinita) Il tipo di riferimento: Argomento, Mappa, Documento, Immagine, Video, Audio e altri.
 
    Seleziona **Aggiorna** per ottenere un nuovo elenco di collegamenti interrotti e visualizzare eventuali modifiche nel file di mappa o se eventuali collegamenti interrotti nella mappa DITA vengono aggiornati.
 1. Puoi fare clic sull&#39;icona **Collegamento di correzione** (![](images/fix-broken-link.svg)) per correggere il collegamento interrotto.
@@ -266,4 +266,4 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Selezionare **Scarica** per scaricare lo snapshot di tutti i collegamenti interrotti nella mappa DITA. Il file Excel contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

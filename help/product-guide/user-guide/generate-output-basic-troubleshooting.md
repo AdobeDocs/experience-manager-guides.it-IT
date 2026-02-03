@@ -4,9 +4,9 @@ description: Risolvi i problemi relativi alla risoluzione dei problemi di base i
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
    ![](images/log-file-new.png){align="left"}
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di registro:
-   - Fatale: evidenzia gli errori irreversibili nel file di registro con un colore rosso scuro.
-   - Errore: evidenzia gli errori nel file di registro con un colore rosso. Le eccezioni vengono trattate come errori e sono evidenziate in rosso in modo simile.
-   - Avvertenza: evidenzia gli avvisi nel file di registro con un colore giallo.
-   - Info: evidenzia i messaggi informativi nel file di registro con il colore verde.
+   - **Fatal**: evidenzia gli errori irreversibili nel file di registro con un colore rosso scuro.
+   - **Errore**: evidenzia gli errori nel file di registro con un colore rosso. Le eccezioni vengono trattate come errori e sono evidenziate in rosso in modo simile.
+   - **Avviso**: evidenzia gli avvisi nel file di registro con il colore giallo.
+   - **Informazioni**: evidenzia i messaggi di informazione nel file di registro con il colore verde.
 
-1. Utilizzare i pulsanti di spostamento su e giù per passare al testo evidenziato nel file di log.
+1. Utilizzare i pulsanti di spostamento su e giù per passare al testo evidenziato nel file di log. In alternativa, scorri il file di registro e controlla i messaggi.
 
-   In alternativa, scorri il file di registro e controlla i messaggi.
+1. Nel file di registro è possibile eseguire le azioni seguenti:
 
+   - **Registro di download**: se l&#39;elenco dei registri è esteso, selezionare **Registro di download** per scaricare il file di registro sul dispositivo per accedervi e rivederlo più facilmente.
+   - **Copia registro**: copia l&#39;elenco dei registri negli Appunti, consentendo di incollarlo rapidamente in un editor di testo.
 
 ## Copiare e controllare il file di registro in un editor di testo
 
@@ -82,6 +84,9 @@ Per copiare e controllare il file di registro di generazione dell’output in un
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## Risolvi errore di compilazione JSP
 
 Se l&#39;argomento DITA è troppo grande, è possibile visualizzare l&#39;errore di compilazione JSP \(`org.apache.sling.api.request.TooManyCallsException`\) nel browser. Questo errore può essere visualizzato quando si apre un argomento per la modifica, la revisione o la pubblicazione.
@@ -99,4 +104,4 @@ Per risolvere il problema, effettua le seguenti operazioni:
 1. Aumenta il valore per il parametro *Numero di chiamate per richiesta* in base alle tue esigenze.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

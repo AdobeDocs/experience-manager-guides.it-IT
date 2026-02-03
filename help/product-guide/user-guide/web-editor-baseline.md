@@ -4,7 +4,7 @@ description: Crea e gestisci le baseline dalla console delle mappe in Adobe Expe
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
+source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
   >
   >L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
 
-  ![opzioni di una previsione](images/baseline-options.png){width="500" align="left"}
+  ![opzioni di una previsione](images/baseline-options.png){align="left"}
 
 ### Azioni disponibili per una baseline esistente
 
@@ -168,5 +168,5 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la baseline, selezionare **Salva** per salvare le modifiche. È possibile selezionare **Reimposta** se non si desidera salvare la modifica e reimpostare la previsione. Quando si seleziona **Reimposta**, viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)
 

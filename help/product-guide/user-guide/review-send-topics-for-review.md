@@ -4,9 +4,9 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -269,4 +269,41 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
 A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+## Aggiungere o rimuovere argomenti da un&#39;attività di revisione in corso
+
+In qualità di autore o iniziatore di un&#39;attività di revisione, è possibile aggiungere nuovi argomenti a un&#39;attività di revisione in corso (se non sono stati precedentemente inviati per la revisione) o rimuovere argomenti da un&#39;attività di revisione in corso senza influire sul flusso di lavoro di revisione.
+
+Per aggiungere o rimuovere argomenti da un&#39;attività di revisione in corso, effettuare le operazioni riportate di seguito.
+
+1. Nel pannello Revisione passare all&#39;attività di revisione da modificare e selezionare **Apri dettagli attività** dal menu di scelta rapida.
+
+   Viene visualizzata la pagina **Dettagli attività**.
+
+1. Selezionare la scheda **CONTENUTO** per visualizzare gli argomenti attualmente inclusi nell&#39;attività di revisione.
+1. Rivedere l&#39;elenco degli argomenti e modificare la selezione in base alle esigenze.
+
+   - Seleziona i nuovi argomenti che non sono stati inviati in precedenza per la revisione.
+   - Deselezionare gli argomenti che si desidera rimuovere dall&#39;attività di revisione.
+
+   >[!NOTE]
+   >
+   > Almeno un argomento deve rimanere selezionato per aggiornare un&#39;attività di revisione in corso.
+
+   ![](images/modify-review-topics.png)
+
+1. Dopo aver modificato l&#39;elenco degli argomenti, gli aggiornamenti corrispondenti vengono propagati automaticamente alla scheda **REVIEWERS** della pagina Dettagli attività.
+
+   ![](images/modify-reviewers.png)
+
+   Rivedere l&#39;elenco degli argomenti aggiornato nella scheda Revisori. Per i nuovi argomenti aggiunti, è necessario assegnare revisori a meno che l&#39;impostazione **Consenti agli assegnatari di rivedere qualsiasi argomento** non sia abilitata per l&#39;attività di revisione.
+1. Seleziona **Aggiorna**.
+
+Una volta aggiornata l’attività di revisione, i revisori ricevono le notifiche (sia tramite AEM che e-mail) in base al loro stato di revisione:
+
+- **In corso**: ai revisori che stanno ancora lavorando sull&#39;attività viene notificato che l&#39;attività è stata aggiornata.
+- **Completato**: i revisori che hanno terminato la revisione ricevono una notifica che richiede una revisione.
+
+Per ulteriori dettagli, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+
+
+**Argomento padre:**[ Introduzione alla revisione](review.md)

@@ -4,9 +4,9 @@ description: Scopri come chiudere un’attività di revisione o richiedere nuova
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Per richiedere un riesame o chiudere un&#39;attività di revisione, effettuare l
 
    >[!NOTE]
    >
-   > Puoi anche aprire l’attività nel dashboard attività per una visualizzazione più completa. A tale scopo, selezionare **Apri nel dashboard attività** dal menu Opzioni di qualsiasi attività di revisione attiva. I dettagli dell’attività vengono aperti nella console Progetti.
+   > È possibile accedere alla pagina **Dettagli attività** per gestire l&#39;attività di revisione. A tale scopo, selezionare **Apri dettagli attività** dal menu Opzioni di qualsiasi attività di revisione attiva. Questa operazione apre i dettagli dell’attività nella console Progetti.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Seleziona l&#39;icona **Commenti attività** per accedere e rivedere i commenti a livello di attività aggiunti dal revisore.
 
    ![](images/task-comments-selection-author-view.png).

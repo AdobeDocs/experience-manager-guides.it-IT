@@ -4,9 +4,9 @@ description: Pubblica un argomento o gli elementi all’interno di un argomento 
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Questa funzione consente di pubblicare un argomento e i relativi elementi senza 
 Per generare una pagina Sites, effettuare le seguenti operazioni:
 
 
-1. Apri l’argomento nell’Editor e seleziona Proprietà file dal pannello di destra.
+1. Apri l&#39;argomento nell&#39;editor e seleziona **Proprietà file** dal pannello di destra.
 1. Seleziona l&#39;**icona Nuovo output**![icona Nuovo output](./images/Add_icon.svg) dalla sezione **Output**.
 1. Selezionare **Pagina siti**.
 1. Nella finestra di dialogo **Genera pagina Sites**, compila i seguenti dettagli:
    ![Aggiungi il percorso e i dettagli del modello nella pagina Genera siti](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   *Aggiungere il percorso, il titolo, il nome e i dettagli del modello per pubblicare un argomento o i relativi elementi come pagina Sites. *
 
    * **Percorso**: sfogliare e selezionare il percorso della cartella in cui si desidera pubblicare la pagina Sites.
    * **Titolo**: digita il titolo della pagina Sites. Per impostazione predefinita, il titolo viene compilato con il titolo dell’argomento. Puoi modificarlo. Questo titolo viene utilizzato per generare il nome della pagina Sites.
@@ -35,10 +33,10 @@ Per generare una pagina Sites, effettuare le seguenti operazioni:
    * **Modello pagina**: seleziona il modello di pagina Sites per creare la pagina Sites. Puoi visualizzare i modelli nella cartella sul percorso selezionato. L’amministratore può anche caricare modelli personalizzati.
 
 
-   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
+   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto. Seleziona una delle opzioni seguenti:
 
 
-      * **Nessuno**: seleziona questa opzione se non desideri applicare alcuna condizione all&#39;output pubblicato.
+      * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
       * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per generare contenuto personalizzato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
       * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
 
@@ -51,7 +49,7 @@ Per generare una pagina Sites, effettuare le seguenti operazioni:
 1. Seleziona **Genera** per pubblicare la pagina Sites.
 1. Puoi visualizzare la pagina Sites per un argomento nella sezione **Output** delle **Proprietà file**. Le pagine Sites vengono visualizzate in base alla data e all’ora di pubblicazione, la più recente delle quali corrisponde alla prima.
 
-   ![Visualizza la pagina Sites per un argomento](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![Visualizza la pagina Sites per un argomento](images/aem-sites-output-new.png){width=300 align="left"}
 
    *Visualizzare la pagina Sites presente per un argomento e ripubblicarla.*
 

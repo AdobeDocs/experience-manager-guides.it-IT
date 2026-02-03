@@ -4,9 +4,9 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,15 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    - **Nome file**: nome del file di origine
    - **Tipo file**: tipo del file di origine. Le opzioni disponibili sono Mappa, Argomento e Immagine.
    - **Tipo di riferimento**: riferimenti diretti o indiretti
-   - **Versione**: numero di versione del file di origine
+   - **Versione**: numero di versione del file di origine.
+
+     Se in un file sono state salvate modifiche non ancora versionate (ovvero non salvate come nuova versione nella mappa), accanto al file viene visualizzata un&#39;icona di informazioni che indica la presenza di modifiche senza versione.
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > Per visualizzare solo i file con modifiche senza versione, abilita l&#39;impostazione **Mostra solo le risorse con modifiche senza versione** nel pannello Filtri. Inoltre, l’indicatore senza versione è visibile solo quando si traducono i file in base alle versioni più recenti.
    - **Etichetta versione**: etichetta per la versione selezionata del file di origine
    - **Versione di destinazione**: numero di versione del file di destinazione
    - **Stato documento**: stato del file di origine. Le opzioni disponibili sono Bozza, In revisione e Rivisto.
@@ -226,4 +234,4 @@ Per la gestione dei documenti, Experience Manager Guides consente di eliminare i
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

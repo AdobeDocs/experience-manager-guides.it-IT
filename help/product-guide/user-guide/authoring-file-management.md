@@ -4,7 +4,7 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Se si sceglie l&#39;opzione **Sovrascrivi file esistenti\(s\)**, il file caricat
 Se si sceglie l&#39;opzione **Sposta file\(s\) nel nuovo percorso**, il file esistente viene spostato nel percorso corrente e quindi sovrascritto con il file caricato. Lo spostamento di un file nella nuova posizione non interrompe i riferimenti esistenti da o verso il file.
 
 Con la sostituzione o lo spostamento dei file, se si sceglie di creare una versione dalla copia esistente, viene creata una nuova versione dalla copia di lavoro del documento. Il nuovo file viene sostituito nella posizione esistente o spostato nella nuova posizione.
-
 
 ## Spostare i file in blocco {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

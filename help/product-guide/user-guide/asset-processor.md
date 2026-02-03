@@ -5,10 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -53,20 +53,29 @@ Per elaborare le risorse, segui i passaggi indicati di seguito:
 
 1. Seleziona la scheda **Nuovo processo** nell&#39;angolo superiore destro della finestra per avviare una nuova attività di elaborazione.
 
+   Viene visualizzata la finestra di dialogo **Nuovo processo**.
+
    ![Processore-risorse-nuovo-processo](images/new-asset-processor.png){width="350" align="left"}
 
-1. Seleziona la cartella da elaborare. Puoi anche selezionare le cartelle (all’interno della cartella selezionata principale) che desideri escludere o ignorare.
+1. Fornisci i seguenti dettagli nella finestra di dialogo:
+
+   1. **Tipo di funzionalità**: seleziona **Elaborazione risorse** dal menu a discesa.
+   1. **Selezionare cartelle e file**: spostarsi e scegliere una o più cartelle e file da elaborare.
+   1. **Selezionare le cartelle da ignorare**: è possibile selezionare sottocartelle all&#39;interno della cartella principale selezionata da escludere dall&#39;elaborazione.
+   1. **Tipo risorsa**: dal menu a discesa, seleziona il tipo di risorsa specifico da elaborare (ad esempio Argomento DITA, Mappa DITA, Markdown, HTML/CSS, DITAVAL o altri file). Solo il tipo di risorsa selezionato viene elaborato dalle cartelle specificate in precedenza.
+Esempio: la selezione di Argomento DITA elabora solo gli argomenti DITA all&#39;interno della cartella selezionata, abilitando il filtro mirato.
+   1. **Creato dopo/Creato prima**: applica filtri di data per elaborare le risorse create entro l&#39;intervallo di tempo specificato.
 
    >[!NOTE]
    >
-   >È possibile selezionare una sola cartella alla volta per l’elaborazione. Per operazioni specifiche, puoi escludere più cartelle.
+   > Se per una cartella è già in esecuzione un processo, non è possibile avviare un nuovo processo per la stessa cartella fino al completamento dell&#39;operazione corrente.
 
-1. Seleziona **Crea**. Viene visualizzato un pop-up che mostra **Operazione completata e il processo è stato attivato correttamente** come mostrato nel frammento. Lo stesso si riflette nell’elenco. Nella finestra è possibile visualizzare lo stato dell&#39;operazione di elaborazione.
+1. Seleziona **Crea**. Viene visualizzato un pop-up che mostra **Operazione completata e il processo è stato attivato correttamente**. Nella finestra è possibile visualizzare lo stato dell&#39;operazione di elaborazione.
 
    ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Opzioni aggiuntive per l’elaborazione delle attività
+## Opzioni aggiuntive per le attività di elaborazione delle risorse
 
 Dopo l’avvio dell’attività di elaborazione, sono disponibili opzioni aggiuntive. Per accedere a queste opzioni, passa il cursore sull’ID di esecuzione dell’attività. I dettagli di queste opzioni sono riportati di seguito:
 
