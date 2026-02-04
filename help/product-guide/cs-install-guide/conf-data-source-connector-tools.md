@@ -5,7 +5,7 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -134,3 +134,4 @@ Se esiste un connettore con lo stesso nome, viene visualizzato un errore.
 
 
 Dopo aver configurato l&#39;origine dati, il connettore viene elencato nel **pannello Origini dati** nell&#39;editor Web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
+
