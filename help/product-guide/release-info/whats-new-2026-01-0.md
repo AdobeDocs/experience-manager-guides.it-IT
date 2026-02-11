@@ -2,9 +2,10 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2026.01.0
 description: Scopri le funzioni nuove e migliorate della versione 2026.01.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -106,9 +107,18 @@ Eventuali modifiche ai campi metadati disponibili in **Proprietà file** attiver
 
 Per ulteriori dettagli, visualizzare il [pannello destro nell&#39;editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Gestione migliorata per i file di sola lettura
+### Le proprietà dei metadati non sono più modificabili per i file di sola lettura
 
-La modifica delle proprietà dei file è ora limitata per i file in modalità **Sola lettura**. Se un file è bloccato da un altro utente (disponibile in modalità di sola lettura), non è possibile modificare alcuna proprietà dei metadati, né dal [pannello destro](../user-guide/web-editor-right-panel.md#file-properties), né dall&#39;opzione **Proprietà** nel [menu di scelta rapida di un file](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab), né dal [report metadati](../user-guide/reports-web-editor.md#metadata-report). In questo modo è possibile evitare modifiche accidentali ai file di sola lettura.
+Con questa versione, quando l&#39;impostazione `Disable Edit Without Checkout` è abilitata, le proprietà del file non possono più essere modificate se un file è in modalità **Sola lettura**.
+
+Questa restrizione si applica a tutti i punti di ingresso in cui è possibile modificare le proprietà, tra cui:
+
+- Il **pannello a destra** dell&#39;interfaccia dell&#39;editor
+- Opzione **Proprietà** nel menu di scelta rapida del file
+- Il rapporto metadati di una mappa
+- Interfaccia utente di Assets
+
+Se un file è di sola lettura, è necessario estrarlo prima di apportare modifiche alle proprietà. Questa modifica applica controlli delle autorizzazioni più severi e garantisce che gli aggiornamenti delle proprietà seguano le stesse regole di estrazione e blocco delle modifiche al contenuto.
 
 ## Miglioramenti della revisione
 
@@ -176,19 +186,3 @@ Con questa versione sono stati apportati i seguenti miglioramenti API:
 
 - Vengono introdotte nuove API per creare un nuovo progetto di traduzione e tracciarne lo stato. Queste API consentono di automatizzare il processo di traduzione, riducendo lo sforzo manuale e migliorando l’efficienza. Per informazioni dettagliate, visualizza [Crea progetto di traduzione](../api-reference/translation-project.md)
 - API di elaborazione delle risorse migliorate con una migliore funzionalità di filtro per file e cartelle. Per ulteriori dettagli, visualizzare [Elabora risorse](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

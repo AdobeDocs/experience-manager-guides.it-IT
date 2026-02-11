@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2521'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Il processo di conversione prevede le seguenti azioni nel back-end:
 - Creazione e convalida di singoli argomenti e file di mappe DITA.
 - Eliminazione dei file temporanei.
 
-In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
+In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
 
 Per convertire i documenti InDesign esistenti in documenti di tipo argomento DITA, effettuare le seguenti operazioni:
 
@@ -294,7 +294,9 @@ Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di 
 
 ## Migrazione di documenti FrameMaker non strutturati {#id1949B050VUI}
 
-AEM Guides supporta la migrazione di contenuti Adobe FrameMaker non strutturati (con estensione fm e book) in DITA strutturata. Il processo si concentra sulla valutazione del contenuto esistente, utilizzando un approccio basato su modelli, e sulla mappatura degli stili di FrameMaker a DITA tramite tabelle di conversione. Dopo la conversione, il contenuto strutturato può essere modificato, convalidato e pubblicato in formati come PDF e HTML5 pronto per i dispositivi mobili, con supporto per la personalizzazione dell’output. Per ulteriori dettagli, visualizzare [Migrazione della documentazione tecnica da non strutturata a DITA in Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+Per convertire i contenuti Adobe FrameMaker non strutturati (con estensione fm e book) in DITA strutturata, è possibile utilizzare il meccanismo di tabella di conversione di FrameMaker. Il processo si concentra sulla valutazione del contenuto esistente, utilizzando un approccio basato su modelli, e sulla mappatura degli stili di FrameMaker a DITA tramite tabelle di conversione. Per ulteriori dettagli, visualizzare [Migrazione della documentazione tecnica da non strutturata a DITA in Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+
+Dopo la conversione, è possibile migrare il contenuto strutturato in AEM Guides.  Per ulteriori dettagli, visualizzare [Carica contenuto DITA esistente](./migrate-content-upload-existing-dita-content.md).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -399,4 +401,4 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 
 Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di configurazioni per la conversione. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata nell&#39;elemento `outputDir`.
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)
