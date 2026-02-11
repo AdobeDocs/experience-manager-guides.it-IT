@@ -128,7 +128,7 @@ Il processo di conversione prevede le seguenti azioni nel back-end:
 - Creazione e convalida di singoli argomenti e file di mappe DITA.
 - Eliminazione dei file temporanei.
 
-In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
+In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
 
 Per convertire i documenti InDesign esistenti in documenti di tipo argomento DITA, effettuare le seguenti operazioni:
 
@@ -401,4 +401,4 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 
 Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di configurazioni per la conversione. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata nell&#39;elemento `outputDir`.
 
-**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
