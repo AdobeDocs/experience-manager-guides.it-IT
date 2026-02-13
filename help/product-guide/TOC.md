@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
+source-git-commit: 0df85db362d0a4b786fa01209920438598e1b155
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2507'
 ht-degree: 9%
 
 ---
@@ -174,14 +174,14 @@ ht-degree: 9%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -379,7 +379,7 @@ ht-degree: 9%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -605,6 +605,7 @@ ht-degree: 9%
       - [Pubblicazione PDF più intelligente con PDF nativo](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
       - [Nuove funzionalità UX e AI in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
       - [Pubblicazione in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
+      - [Revisione dei contenuti in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - Articoli {#kb-articles}
       - Authoring {#authoring}
          - Editor web {#webeditor}
