@@ -4,9 +4,9 @@ description: Scopri come inserire domande in un quiz nella sezione Formazione e 
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Per inserire domande in un quiz, effettua le seguenti operazioni:
 
-1. Scegli il tipo di domanda desiderato dal menu a discesa **Domande** nella barra degli strumenti. In base alle tue esigenze, puoi aggiungere domande utilizzando uno dei quattro formati disponibili: Vero o Falso, Corretto singolo, Corretto multiplo e Corrispondenza con quanto segue, come mostrato di seguito. Per ulteriori dettagli, visualizzare [Tipi di domande](#question-types).
+1. Scegli il tipo di domanda desiderato dal menu a discesa **Domande** nella barra degli strumenti. In base alle tue esigenze, puoi aggiungere domande utilizzando uno dei quattro formati disponibili: Vero o Falso, Corretto singolo, Corretto multiplo, Corrispondenza con le risposte seguenti e Breve come mostrato di seguito. Per ulteriori dettagli, visualizzare [Tipi di domande](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Per inserire domande in un quiz, effettua le seguenti operazioni:
 
 1. Nel formato selezionato viene inserita una domanda. È quindi possibile modificare la domanda in base alle proprie esigenze.
 
-1. Puoi selezionare qualsiasi domanda e configurarne le proprietà utilizzando il pannello **Proprietà contenuto**. Ad esempio, puoi specificare la risposta corretta, impostare i punteggi da assegnare e definire eventuali penali per le risposte errate.
+1. Puoi selezionare qualsiasi domanda e configurarne le proprietà utilizzando il pannello **Proprietà contenuto**.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Salvate tutte le modifiche apportate al quiz.
+
+
+## Proprietà domanda
+
+Puoi configurare le domande utilizzando le seguenti proprietà di domanda dal pannello **Proprietà contenuto**:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Opzioni**: specifica la risposta corretta alla domanda
+- **ID domanda**: specifica l&#39;ID domanda per ogni domanda. Se non è presente un ID domanda, si consiglia di aggiungerlo sempre.
+- **Punti per la risposta corretta**: specificare i punti da assegnare per la risposta corretta.
+- **Penale per risposta errata**: specificare i punti da detrarre per una risposta errata.
+- **Etichetta domanda**: consente di aggiungere un&#39;etichetta domanda.
+- **Feedback**: consente di fornire il feedback per una risposta corretta o non corretta.
+- **Fissa opzione alla posizione**: quando un&#39;opzione specifica per una domanda è bloccata, rimane fissa nella posizione specificata nell&#39;elenco delle opzioni, anche se **Nella configurazione del predefinito SCORM sono abilitate scelte di risposta casuali per ogni tentativo**, che altrimenti ridistribuirebbe le opzioni disponibili. Potete passare il cursore sull&#39;opzione desiderata di una domanda nel pannello Proprietà contenuto e fissarla.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Inserire un paragrafo nel quiz
 
@@ -53,7 +70,7 @@ Per eliminare una domanda o un’opzione specifica da un quiz, effettua le segue
 
 In un quiz sono supportati i seguenti tipi di domande:
 
-- **Correzione singola**: una domanda con più opzioni in cui è corretta una sola risposta.
+- **Corretto singolo**: una domanda con più opzioni in cui è corretta una sola risposta.
 
   ![](assets/single-correct.png){width="650" align="left"}
 
@@ -62,7 +79,7 @@ In un quiz sono supportati i seguenti tipi di domande:
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Correzione multipla**: una domanda con più opzioni in cui è possibile correggere più risposte.
+- **Più corretti**: una domanda con più opzioni in cui è possibile correggere più risposte.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ In un quiz sono supportati i seguenti tipi di domande:
   Nell&#39;output pubblicato, viene visualizzata la domanda **Corrispondenza con la seguente** con menu a discesa per ogni elemento, che consente di selezionare la corrispondenza corretta tra le opzioni disponibili.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Risposta breve**: consente agli Allievi di rispondere utilizzando un breve input di testo. Accetta risposte alfanumeriche, confronta le risposte senza distinzione tra maiuscole e minuscole e per le risposte molto lunghe fornisce una barra di scorrimento orizzontale.
+
+  ![](assets/short-answer.png){width="650" align="left"}

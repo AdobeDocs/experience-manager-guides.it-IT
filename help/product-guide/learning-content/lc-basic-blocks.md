@@ -4,9 +4,9 @@ description: Scopri gli elementi di base che puoi aggiungere al tuo argomento o 
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Per comprendere meglio come creare un argomento di apprendimento e aggiungervi e
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
-- **Componenti testo**: aggiunge intestazione/titoli, paragrafo, virgolette in linea, apice, pedice e citazione al contenuto.
+- **Componenti testo**: aggiunge al contenuto intestazione, paragrafo, virgolette in linea, apice, pedice e citazione.
+
+  >[!NOTE]
+  >
+  > Puoi anche includere un Titolo e un sottotitolo nei contenuti di apprendimento. Per informazioni dettagliate su come aggiungerlo al contenuto, visualizzare [Aggiungi titolo e sottotitolo al contenuto di apprendimento](#add-title-and-subtitle-to-learning-content).
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -75,3 +79,26 @@ Viene visualizzata la finestra di dialogo **Riutilizza contenuto**.
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
 
 Inoltre, il menu a discesa **Menu** consente di accedere alle azioni di modifica (Taglia, Copia, Elimina), Trova e sostituisci ed Etichetta versione.
+
+## Aggiungi titolo e sottotitolo al contenuto di apprendimento
+
+Per includere titolo e sottotitolo nel contenuto di apprendimento, effettua le seguenti operazioni:
+
+1. Apri il corso di apprendimento nella console Mappa.
+1. Apri l’argomento, il quiz o qualsiasi altro componente del corso a cui desideri aggiungere un titolo o un sottotitolo.
+1. Passare al pannello Proprietà file e selezionare **Aggiungi titolo**.
+
+   ![](assets/add-title-lc.png)
+1. Quando richiesto, scegli se utilizzare l’intestazione esistente come titolo.
+
+   >[!NOTE]
+   >
+   > Se non si desidera utilizzare come titolo il titolo esistente, inserire innanzitutto un titolo utilizzando il componente Testo nella barra degli strumenti dell&#39;editor, quindi selezionare **Aggiungi titolo**. In questo modo viene aggiunto al contenuto un **titolo** di esempio, che potrai modificare in base alle tue esigenze.
+1. In Proprietà file selezionare **Aggiungi sottotitolo**.
+Un esempio di **Sottotitolo** è stato aggiunto al contenuto.
+
+   ![](assets/add-subtitles-lc.png)
+
+Per rimuovere un titolo, deselezionare l&#39;opzione **Aggiungi titolo** nelle proprietà del file. Se si rimuove il titolo, viene automaticamente rimosso il sottotitolo associato.
+
+
