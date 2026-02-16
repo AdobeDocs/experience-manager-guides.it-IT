@@ -3,9 +3,9 @@ title: Note sulla versione | Novità della versione di febbraio 2026 dei contenu
 description: Scopri le funzioni nuove e migliorate nella versione di febbraio 2026 dei contenuti di formazione e apprendimento del prodotto
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Nella versione di febbraio 2026 dei contenuti di formazione e apprendimento sul 
 
   ![](assets/negative-scores-lc.png)
 
-- **Elimina widget facendo clic con il pulsante destro del mouse**: oltre a eliminare le domande dei quiz, ora è possibile eliminare widget quali Accordions, Flip cards e Tabs con **Clic con il pulsante destro del mouse > Elimina elemento**. Questo miglioramento estende la funzionalità esistente *Elimina domanda* ai widget, consentendoti di rimuoverli con meno clic e una navigazione minima.
+- **Elimina widget facendo clic con il pulsante destro del mouse**: oltre a eliminare le domande dei quiz, ora è possibile eliminare widget quali Accordions, Flip cards e altri widget con **Clic con il pulsante destro del mouse > Elimina elemento**. Questo miglioramento estende la funzionalità esistente *Elimina domanda* ai widget, consentendoti di rimuoverli con meno clic e una navigazione minima.
 
   Ulteriori informazioni su [Utilizzare widget interattivi](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Aggiungi scelte di risposta**: è ora possibile fissare scelte di risposta specifiche in modo che la loro posizione rimanga invariata, anche quando le risposte sono randomizzate durante la generazione dell&#39;output SCORM. Questo è particolarmente utile per opzioni come *Tutte le precedenti* o *Nessuna delle precedenti*.
+
+  Ulteriori informazioni sulle [proprietà domanda](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Tipo di risposta breve**: il tipo di domanda Risposta breve consente agli Allievi di rispondere utilizzando risposte alfanumeriche brevi e descrittive anziché selezionare opzioni predefinite. Questo tipo di domanda incoraggia i discenti a ricordare e articolare attivamente la loro comprensione nelle proprie parole, rendendo le valutazioni più coinvolgenti per i discenti.
@@ -64,5 +66,5 @@ Nella versione di febbraio 2026 dei contenuti di formazione e apprendimento sul 
 - Quando si utilizza Experience Manager Guides su Mozilla Firefox, la scheda Flip mostra il testo lato anteriore in senso inverso sul lato posteriore dopo aver riflesso. (GUIDES-39983)
 - Quando fai clic sul sommario nel riquadro a sinistra del corso, il corso continua a mostrare lo stato di completamento anche se il quiz non è stato superato. (GUIDES-40398)
 - Se si tenta di trovare in ALM una corrispondenza errata con il tipo di domanda seguente in un quiz, le opzioni selezionate non vengono visualizzate nel rapporto. (GUIDES-38640)
-- Durante la generazione dell’output di PDF, gli stili di authoring applicati non vengono mantenuti, generando incoerenze nella progettazione.(GUIDES-38642)
+- Durante la generazione dell’output di PDF, gli stili di authoring applicati non vengono mantenuti, generando incoerenze nella progettazione. (GUIDES-38642)
 
