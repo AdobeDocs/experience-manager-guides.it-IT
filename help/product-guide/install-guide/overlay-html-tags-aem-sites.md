@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per sovrapporre e aggiornare il file `config.xml`, effettuare le seguenti operaz
 
 1. Passa al file di configurazione disponibile nella posizione seguente:
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. Crea un nodo di sovrapposizione della cartella `xssprotection` all&#39;interno del nodo delle app.
 
@@ -143,4 +143,4 @@ Mappe immagine:
 
 
 
-Ulteriori informazioni sulle best practice di [Sicurezza](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Ulteriori informazioni sulle best practice di [Sicurezza](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
