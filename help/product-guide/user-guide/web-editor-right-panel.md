@@ -4,9 +4,9 @@ description: Scopri il pannello A destra nell’editor. Scopri l’interfaccia e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: 4bc6fba88d584af0bfebcc8c8dc5b1da52923d0f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi seleziona **Aggiungi**.
 
-   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 
@@ -119,7 +119,23 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 >
 > Tutti i riferimenti utilizzati in e in uscita sono collegati ai documenti. È possibile aprire e modificare facilmente i documenti collegati.
 
-Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte, Proprietà.
+Oltre ad aprire i file, è possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Riferimenti. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte e Proprietà.
+
+**Traduzioni**
+
+In questa sezione sono elencate in ordine alfabetico tutte le copie in lingua disponibili per la risorsa attualmente aperta nell’editor. Le informazioni vengono presentate in una vista a tabella, che mostra ogni codice della lingua insieme al corrispondente *titolo file* (o *nome file* nel caso in cui *titolo file* non sia disponibile).
+
+>
+>
+> Le copie per lingua vengono create quando una risorsa viene inviata per la traduzione. L&#39;inglese (`en`) funge da lingua di origine e le copie tradotte vengono generate nelle rispettive cartelle della lingua di destinazione, ad esempio `de` per il tedesco o `fr` per il francese. Se una risorsa esiste solo nella cartella `en`, non verranno visualizzate copie per altre lingue fino all&#39;avvio e al completamento della traduzione per le lingue di destinazione. Se la risorsa non è presente in alcuna cartella di lingua, **Nessuna traduzione disponibile** verrà visualizzata. Per ulteriori dettagli, visualizza [Best practice per la traduzione dei contenuti](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+Per ogni copia per lingua, puoi passare il cursore sul file per individuarne il percorso nell’archivio o selezionarlo semplicemente per aprirlo nell’editor. Oltre ad aprire i file, è anche possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Traduzioni. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte e Proprietà.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Rivedere
 
@@ -153,4 +169,4 @@ Scopri come utilizzare i file Schematron in Experience Manager Guides. Fai rifer
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

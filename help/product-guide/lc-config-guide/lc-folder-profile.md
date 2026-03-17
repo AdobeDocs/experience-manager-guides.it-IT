@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Per iniziare a configurare il profilo della cartella per i contenuti di apprendi
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Configura impostazioni profilo cartella**: per i contenuti di apprendimento e formazione, è possibile configurare le seguenti impostazioni a livello di cartella:
+   - [Generale](#general)
    - [Pannelli](#configure-panels)
-   - [Modelli](#configure-templates)
+   - [Modelli di contenuto](#configure-content-templates)
    - [Predefiniti di output](#configure-output-presets)
    - [Editor HTML](#html-editor-settings)
    - [Profili di pubblicazione](#manage-publish-profiles)
 
-Per accedere a queste impostazioni, passa alla vista Editor e seleziona **Impostazioni** dal menu **Opzioni** come illustrato di seguito:
+Per accedere a queste impostazioni, passare alla visualizzazione Editor e selezionare **Impostazioni Workspace** dal menu **Opzioni** come illustrato di seguito:
 
 ![](assets/access-editor-settings.png)
+
+## Generale
+
+Nella scheda Generale, puoi configurare le seguenti impostazioni specifiche per la funzione dei contenuti di formazione e apprendimento del prodotto:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Contenuto di apprendimento**: utilizza l&#39;interruttore **Abilita contenuto di apprendimento** per abilitare o disabilitare la funzione a livello di profilo della cartella.
+- **Editor HTML**: questa impostazione consente di configurare l&#39;editor per l&#39;authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
+
+   - **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
+   - **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
 
 ## Configurare i pannelli
 
@@ -60,15 +73,24 @@ Per i contenuti di apprendimento e formazione, assicurati che solo le seguenti f
 **Pannello sinistro**
 
 - **Raccolte**: consente di organizzare e salvare i file utilizzati di frequente o di accedere rapidamente ai file condivisi.
-- **Archivio**: consente di visualizzare e accedere a tutte le mappe, gli argomenti, le immagini e le altre risorse archiviate nel repository dei contenuti.
+- **Esplora risorse**: consente di visualizzare e accedere a tutte le mappe, gli argomenti, le immagini e le altre risorse archiviate nel repository dei contenuti.
 - **Gestione corsi**: fornisce un&#39;area di lavoro dedicata per la creazione e la gestione dei corsi.
+- **Mappa**: fornisce una visualizzazione mappa del file di mappa aperto.
+- **Struttura**: visualizza la gerarchia strutturale dell&#39;argomento o della mappa attualmente aperta, consentendo una navigazione rapida e l&#39;accesso a livello di elemento.
+- **Workfront**: consente di accedere a solide funzionalità di gestione dei progetti oltre alle funzionalità principali di Experience Manager Guides CCMS.
+- **Contenuto riutilizzabile**: consente di gestire e inserire elementi o argomenti riutilizzabili per garantire la coerenza e ridurre la duplicazione tra i contenuti.
+- **Glossario**: consente di creare e gestire i termini del glossario e di includerli negli argomenti per mantenere una terminologia coerente.
 - **Snippet**: consente di creare e riutilizzare frammenti di contenuto di piccole dimensioni in vari argomenti dei corsi di apprendimento.
 - **Condizioni**: consente di configurare gli attributi condizionali a livello globale e di cartella.
+- **Modelli**: ti consente di creare e gestire i modelli del corso.
+- **Citazioni**: consente di aggiungere e gestire citazioni nel contenuto utilizzando gli stili di citazione supportati.
+- **Variabili di lingua**: consente di definire le variabili di lingua per l&#39;output pubblicato.
 - **Variabili**: ti consente di creare e gestire le variabili da utilizzare nel contenuto di apprendimento.
-- **Variabili di lingua**: consente di definire stringhe localizzate per l&#39;output pubblicato o per il testo statico nei modelli.
-- **Modelli**: consente di creare e gestire modelli da utilizzare per gli autori.
 - **Modelli di output**: consente di creare e gestire modelli di output per generare output in vari formati.
 - **Trova e sostituisci**: fornisce le opzioni per cercare e sostituire il testo nei file in una mappa o in una cartella all&#39;interno del repository. 
+- **Origini dati**: consente di connettere origini dati esterne e riutilizzare i dati all&#39;interno del contenuto.
+- **Revisione**: consente di creare e gestire flussi di lavoro di revisione in Experience Manager Guides.
+- **Report di sistema**: consente di creare e gestire report.
 
 **Pannello destro**
 
@@ -90,7 +112,11 @@ Per i contenuti di apprendimento e formazione, assicurati che solo le seguenti f
 
 - **Filtri**: ti consente di utilizzare i filtri quando lavori con rapporti e traduzione.
 
-## Configurare i modelli
+## Configurare i modelli di contenuto
+
+>[!NOTE]
+>
+> Questa impostazione è disponibile solo quando la funzionalità dei contenuti di apprendimento è abilitata nelle **impostazioni Workspace** > **Generale**.
 
 Questa impostazione consente di gestire i modelli di authoring e pubblicazione presenti nel [pannello sinistro dell&#39;editor](../user-guide/web-editor-left-panel.md). Puoi aggiungere, rimuovere o riordinare i modelli di authoring e output, che saranno quindi accessibili agli autori e agli editori.
 
@@ -180,6 +206,10 @@ Per rimuovere un modello, seleziona l&#39;icona **Rimuovi** accanto al modello.
 
 ## Configurare i predefiniti di output
 
+>[!NOTE]
+>
+> Questa impostazione è disponibile solo quando la funzionalità dei contenuti di apprendimento è abilitata nelle **impostazioni Workspace** > **Generale**.
+
 La scheda Predefiniti di output consente di definire i formati di output disponibili per la pubblicazione di un corso. Contiene due sezioni: **Tipi di predefiniti di output consentiti** e **Predefiniti di output comuni**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ La scheda Predefiniti di output consente di definire i formati di output disponi
 - **Predefiniti di output comuni**: in questa sezione vengono visualizzati i predefiniti di output comunemente creati e aggiunti dagli editori a un profilo di cartella specifico. È inoltre possibile rimuovere qualsiasi predefinito non più necessario.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Impostazioni dell’editor HTML
-
-Questa impostazione consente di configurare l’editor per l’authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
-- **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
 
 ## Gestisci profili di pubblicazione
 

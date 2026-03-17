@@ -4,9 +4,9 @@ description: Traduci i contenuti in più lingue dall’editor web. Scopri come c
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,11 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    **Usa versione più recente come in data**: scegliere di filtrare la versione degli argomenti in base alla data e all&#39;ora di creazione. Quando si seleziona una data e un&#39;ora, viene visualizzata solo la versione più recente dei file creati in corrispondenza o prima della data e dell&#39;ora selezionate.
 
 1. Selezionare **Applica**. Viene visualizzato un elenco con i dettagli degli argomenti e delle risorse associate.
+
+   >[!NOTE]
+   >
+   > Quando si traducono le mappe con riferimenti a file DITAVAL e Markdown e quando la traduzione è basata sulla copia di lavoro, vengono inclusi riferimenti come immagini e altre risorse collegate purché siano presenti nella cartella della lingua di origine. Questi riferimenti vengono visualizzati nell&#39;elenco dei riferimenti del dashboard di traduzione e consentono di selezionarli esplicitamente per la traduzione. Durante la traduzione, le risorse a cui si fa riferimento vengono copiate nella cartella della lingua di destinazione e gestite in modo coerente con il comportamento standard di traduzione delle immagini.
+
 1. Seleziona gli argomenti da inviare per la traduzione. È inoltre possibile utilizzare le opzioni di filtro degli argomenti per le colonne seguenti:
 
    - **Titolo**: titolo del file di origine.  Passa il cursore del mouse sul titolo del file di origine per visualizzare il titolo del file di destinazione o tradotto.
@@ -234,4 +239,4 @@ Per la gestione dei documenti, Experience Manager Guides consente di eliminare i
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

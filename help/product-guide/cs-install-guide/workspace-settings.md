@@ -3,9 +3,10 @@ title: Impostazioni Workspace in Experience Manager Guides
 description: Scopri le varie impostazioni disponibili nell’interfaccia dell’editor di Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,9 @@ L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../
 
 ## Generale
 
-Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene cinque sezioni: **Assistente IA**, **Authoring**, **Citazioni**, **Condizione** e **Controllo ortografico**.
+Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene sette sezioni: **Assistente AI**, **Authoring**, **Citazioni**, **Condizione**, **Editor HTML**, **Contenuto di apprendimento** e **Controllo ortografico**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **Assistente IA**
 Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../user-guide/ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
@@ -77,6 +78,26 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 - **Controllo ortografico**
 Sono disponibili due opzioni: **Controllo ortografico AEM** e **Controllo ortografico browser**. Per impostazione predefinita, l’editor utilizza la funzione di controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. Puoi passare al controllo ortografico di AEM per utilizzare il dizionario Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione [Personalizzare il dizionario predefinito di AEM](../cs-install-guide/customize-aem-custom-dictionary.md) nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
+- **Contenuto di apprendimento**: questa impostazione consente di abilitare o disabilitare la funzione Contenuto di apprendimento e formazione del prodotto per l&#39;istanza di Experience Manager Guides. Utilizza l&#39;interruttore **Abilita contenuto di apprendimento** per abilitare o disabilitare la funzione a livello di profilo di cartella. Per impostazione predefinita, questa funzione rimane disabilitata per tutte le istanze.
+
+  Ulteriori informazioni sulla funzionalità [Contenuti di formazione e apprendimento del prodotto](../learning-content/intro.md).
+
+  Le seguenti funzioni/opzioni sono disponibili solo quando l’impostazione del contenuto di apprendimento è abilitata:
+
+   - **Authoring dei corsi**: abilita le opzioni per creare e gestire i corsi sia dall&#39;editor che dalla home page.
+   - **Modelli SCORM**: abilita l&#39;opzione per creare modelli SCORM in *Modelli di output* nell&#39;editor.
+   - **Modelli di contenuto e predefiniti di output**: abilita le opzioni di configurazione Modelli di contenuto e Predefiniti di output nella finestra di dialogo delle impostazioni di Workspace.
+
+Quando il contenuto di apprendimento è disattivato, tutte le opzioni precedenti non sono più disponibili nell’interfaccia di Experience Manager Guides.
+
+Per ulteriori dettagli, visualizzare [Configura profili cartella](../lc-config-guide/lc-folder-profile.md).
+
+- **Editor HTML**: per i contenuti di apprendimento, questa impostazione consente di configurare l&#39;editor per l&#39;authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
+
+   - **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
+   - **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
+
+  Per ulteriori dettagli, visualizzare [creazione e personalizzazione dei contenuti di apprendimento](../learning-content/lc-overview.md).
 
 ## Pannelli
 
@@ -261,5 +282,3 @@ Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se si lascia
 
 Puoi anche definire l’ordine in cui vengono visualizzati questi tag di metadati. Per modificare l’ordine predefinito di questi tag, seleziona le barre punteggiate per trascinare i tag nella posizione desiderata.
 Le etichette metadati vengono visualizzate nella stessa sequenza nella finestra di dialogo **Cronologia versioni** dell&#39;editor.
-
-

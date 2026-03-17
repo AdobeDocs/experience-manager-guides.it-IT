@@ -4,9 +4,9 @@ description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applic
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a90a461883cba0760990f8c86b3a0b9817f37ce2
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,12 @@ Per aggiungere le citazioni, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Puoi anche aggiungere l’ID ISBN, DOI o PubMed. AEM Guides compila automaticamente gli altri campi.
+   >Puoi anche fornire l’ID ISBN, DOI o PubMed. AEM Guides compila automaticamente gli altri campi.
 
    | Libro | Sito Web | Diario |
    | --- | ---|---|
    | **Source** <br> Dall&#39;elenco a discesa, selezionare l&#39;origine della citazione come registro. | **Source**<br> Selezionare l&#39;origine della citazione come sito Web dall&#39;elenco a discesa. | **Source** <br> Selezionare l&#39;origine della citazione come diario dal menu a discesa. |
-   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore univoco registro numerico | **Cerca per** <br> Seleziona **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione. | **Cerca per** <br> Seleziona **DOI** o ID PubMed dall&#39;elenco a discesa per cercare l&#39;ID digitale collegato alla citazione. <br>  <br> |
+   | **Cerca per** <br> Seleziona **ISBN** o **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.  <br> DOI: Identificatore oggetto digitale <br> ISBN: Identificatore univoco registro numerico | **Cerca per** <br> Seleziona **DOI** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione. | **Cerca per** <ul><li>Seleziona **DOI** o **ID PubMed** dal menu a discesa per cercare l&#39;ID digitale collegato alla citazione.</li><li>Seleziona **Qualsiasi campo** dal menu a discesa per eseguire ricerche in tutti i campi di Journal, ad esempio *Titolo*, *Titolo diario*, *Autore*, *Anno*, *Volume*, *Numero* e *Pagine*. <br> La ricerca restituisce la citazione corrispondente più vicina in base al testo immesso.</li> |
    | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. | **Autore** <br> Aggiungere il nome e il cognome dell&#39;autore della citazione. Selezionare ![](images/Add_icon.svg) per aggiungere altri nomi. |
    | **Titolo** <br> Aggiungi il titolo del libro. | **Titolo** <br> Aggiungi il titolo della pagina Web. | **Titolo** <br> Aggiungi il titolo dell&#39;articolo. |
    | **Editor** <br> Aggiungi l&#39;editor del libro. | **Nome sito Web** <br> Aggiungere il nome del sito Web. | **Titolo diario** <br> Aggiungi il titolo del lavoro in cui è stato trovato l&#39;articolo. |
@@ -96,7 +96,7 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo le citazioni univoche e non già presenti.
-   > &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+    &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
 
 ## Gestire le citazioni
 
@@ -186,7 +186,7 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
@@ -201,7 +201,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni**.
 
-1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.
@@ -211,7 +211,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 1. Selezionare le citazioni che si desidera inserire dalla finestra di dialogo **citazione**.
 1. Seleziona **Fine** per aggiungerli all&#39;argomento.
 
-Dopo aver inserito le citazioni nell&#39;argomento, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare contenuti con citazioni utilizzando il PDF nativo.
+Dopo aver inserito le citazioni nell’argomento, puoi visualizzarne l’anteprima nell’editor. Puoi anche pubblicare contenuti con citazioni utilizzando il PDF nativo.
 
 
 

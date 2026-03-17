@@ -4,9 +4,9 @@ description: Scopri come importare e convalidare un argomento DITA, utilizzare l
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Per importare i file Schematron, effettuate le seguenti operazioni:
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Passare alla cartella desiderata (in cui si desidera caricare i file) nel *repository*.
 1. Seleziona l&#39;icona **Opzioni** per aprire il menu di scelta rapida e scegli **Carica risorse**.
 1. Nella finestra di dialogo **Carica risorse**, puoi modificare la cartella di destinazione nel campo **Seleziona cartella risorse**.
@@ -41,16 +39,16 @@ Dopo aver importato i file Schematron, potete modificarli nell&#39;Editor. È po
 
 Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il pannello Convalida schema. Per aggiungere e convalidare un argomento o una mappa con un file Schematron, effettuare le seguenti operazioni:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Selezionate l&#39;icona Schematron () per aprire il pannello Schematron.
+1. Selezionate l&#39;icona Schematron per aprire il pannello Schematron.
 1. Utilizzare **Aggiungi file di schema** per aggiungere file di schema.
 
    >[!NOTE]
    >
    > Quando si aggiunge un file Schematron non valido, nel pannello Convalida viene visualizzato un messaggio di errore.
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
 
@@ -58,14 +56,42 @@ Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il panne
    >
    >Per rimuoverla, potete utilizzare l&#39;icona croce accanto al nome del file Schematron.
 
-1. Selezionare **Convalida con schema** per convalidare l&#39;argomento.
+1. Seleziona **Convalida** per convalidare l&#39;argomento con i file Schematron aggiunti.
 
    * Se l’argomento non rispetta alcuna regola, viene visualizzato il messaggio di convalida riuscita per il file.
    * Se l&#39;argomento non rispetta una regola, ad esempio se non contiene un titolo ed è convalidato per lo Schematron specificato in precedenza, viene visualizzato un errore di convalida.
 
+   >[!NOTE]
+   >
+   > I risultati della convalida vengono visualizzati in base all&#39;attributo del ruolo definito nel file Schematron. Per ulteriori dettagli, visualizzare [Informazioni sui risultati della convalida e sui livelli di gravità](#understanding-validation-results-and-serverity-levels).
+
 1. Seleziona il messaggio di errore per evidenziare l’elemento contenente l’errore nell’argomento/mappa aperto.
 
 Il supporto Schematron nell’Editor consente di convalidare i file in base a un set di regole e di mantenere coerenza e correttezza tra gli argomenti.
+
+## Informazioni sui risultati della convalida e sui livelli di gravità
+
+I risultati della convalida vengono visualizzati in base all&#39;attributo del ruolo definito nel file Schematron. I problemi sono classificati come `Fatal`, `Error`, `Warn` o `Info`, con un conteggio visibile per ogni categoria nel pannello Convalida.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+Per determinare la gravità di un problema, viene valutato il valore _case-senstive_ dell&#39;attributo di ruolo definito nel file Schematron corrispondente.
+
+Lo snippet seguente mostra i valori degli attributi di ruolo supportati definiti in una regola Schematron:
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Se l&#39;attributo del ruolo non è specificato o se viene utilizzato un valore non supportato, il problema viene classificato come `Error` nel pannello Convalida. Questo comportamento si applica anche ai file Schematron esistenti che non definiscono un attributo di ruolo; in questi casi, tutti i problemi sono raggruppati in `Error`.
+
+**Scenari di salvataggio file**
+
+Il salvataggio di un file dipende dal controllo di convalida **Esegui prima di salvare l&#39;impostazione del file** nelle [impostazioni Workspace](../cs-install-guide/workspace-settings.md#validation):
+
+* Se questa opzione è attivata, non è possibile salvare il file finché i problemi di livello `Fatal` o `Error` non vengono risolti.
+* Se l&#39;opzione è disabilitata, i controlli di convalida non vengono eseguiti e i file possono essere salvati anche se sono presenti `Fatal` o `Error` problemi di livello.
 
 ## Utilizzare le istruzioni di asserzione e di report per verificare la presenza di regole{#schematron-assert-report}
 

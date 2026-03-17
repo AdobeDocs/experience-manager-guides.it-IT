@@ -4,9 +4,9 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,20 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    >
    > È possibile creare un&#39;attività di revisione solo per gli argomenti con una revisione. Se l’argomento selezionato non ha una revisione, verrà visualizzato un messaggio di richiesta.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Immetti un **Titolo** per l&#39;attività e seleziona un progetto DITA.
 
 1. Nel campo a discesa **Progetto**, selezionare un progetto DITA per questa attività di revisione. Puoi anche digitare il nome del progetto per individuarlo rapidamente nell’elenco a discesa.
 
-1. Nel campo a discesa **Assegna a**, selezionare i revisori a cui si desidera inviare gli argomenti per la revisione.
+1. Nel campo a discesa **Assegna a**, selezionare i revisori a cui si desidera inviare gli argomenti per la revisione. È inoltre possibile eseguire ricerche per nome membro o ruolo all&#39;interno del progetto selezionato durante la digitazione.
 
-   È possibile assegnare un&#39;attività di revisione a singoli utenti del progetto o a gruppi di utenti. Si noti che è possibile assegnare un&#39;attività di revisione a singoli utenti solo quando si fa parte del gruppo di amministratori del progetto, altrimenti i gruppi di utenti verranno visualizzati solo nel campo Assegna a.
+   Il campo *Assegna a* è abilitato solo dopo aver selezionato un progetto attivo nel campo *Progetto*. L’elenco di membri o ruoli viene recuperato in base al progetto selezionato. Se non è selezionato alcun progetto, il campo *Assegna a* rimane disabilitato.
+
+   È possibile assegnare un&#39;attività di revisione a singoli utenti del progetto o a gruppi di utenti. Si noti che è possibile assegnare un&#39;attività di revisione a singoli utenti solo quando si fa parte del gruppo di amministratori del progetto, altrimenti i gruppi di utenti verranno visualizzati solo nel campo *Assegna a*.
 
    >[!NOTE]
    >
-   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, visualizzare [Creare un progetto DITA](authoring-create-dita-project.md#).
+   > Il flusso di lavoro di revisione è specifico per il progetto. Quando si creano dei progetti, si aggiungono al progetto i membri del team e li si assegnano ai gruppi. Quindi, quando selezioni il progetto qui, puoi scegliere i membri che fanno parte di quel progetto. Per ulteriori informazioni sui progetti, visualizzare [Creare un progetto DITA](authoring-create-dita-project.md#).
 
 1. Immetti una **Descrizione** per l&#39;attività.
 
@@ -92,6 +93,10 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    Se non si seleziona questa opzione, i revisori aggiunti nel campo **Assegna a** potranno esaminare solo gli argomenti ad essi assegnati.
 
 1. Seleziona **Avanti**.
+
+   >[!NOTE]
+   >
+   > Il pulsante **Avanti** è attivato solo dopo aver fornito i dettagli per tutti i campi obbligatori, inclusi *Titolo*, *Progetto*, *Assegna a* e *Data di scadenza*.
 
    Viene visualizzata la pagina Contenuto.
 
@@ -306,4 +311,4 @@ Una volta aggiornata l’attività di revisione, i revisori ricevono le notifich
 Per ulteriori dettagli, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

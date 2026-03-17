@@ -4,16 +4,16 @@ description: Scopri come scaricare file dalla console delle mappe DITA in AEM Gu
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Scarica file {#id216MC0H0BE8}
 
-È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=it) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
+È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
 
 ## Scaricare un file di mappa DITA dall&#39;editor
 
@@ -37,18 +37,17 @@ Per scaricare un file di mappa DITA dall&#39;editor, effettuare le seguenti oper
    - **Opzioni per la gerarchia dei file**: è inoltre possibile utilizzare il menu a discesa della gerarchia dei file per scegliere la modalità di gestione della struttura delle cartelle per i file di mappa scaricati. Opzioni disponibili:
 
       - **Mantieni gerarchia file**: selezionare questa opzione dal menu a discesa per mantenere la struttura di cartelle esistente per i file scaricati.
+      - **Flatten file hierarchy**: seleziona questa opzione dal menu a discesa per scaricare tutti gli argomenti e i file multimediali a cui si fa riferimento in un&#39;unica cartella.
 
-        Le opzioni disponibili in questo metodo sono le seguenti:
+     Per ogni opzione, è possibile specificare ulteriormente la modalità di gestione dei nomi dei file per i file scaricati. Sono disponibili le seguenti opzioni di nome file:
 
-         - **Usa nome file GUID** - Scarica il file di mapping con GUID come nome file.
-
-         - **Usa nome file effettivo** - Scarica il file mappa con il nome file originale.
-
-      - **Flatten file hierarchy**: seleziona questa opzione dal menu a discesa per scaricare tutti gli argomenti e i file multimediali a cui si fa riferimento in un&#39;unica cartella. Quando si utilizza questo metodo, per i file di mapping è disponibile solo l&#39;opzione **Usa nome file GUID**.
+      - **Usa nome file GUID**: scarica il file di mapping con GUID come nome file.
+      - **Usa nome file effettivo**: scarica il file mappa con il nome file originale. Quando questa opzione viene utilizzata con la gerarchia dei file Flatten, tutti i nomi di file duplicati nella mappa vengono risolti automaticamente aggiungendo suffissi numerici (_2, _3 e così via) per garantire nomi di file univoci.
 
    >[!NOTE]
    >
    > È inoltre possibile scaricare il file mappa senza selezionare alcuna opzione. In tal caso, viene scaricata l&#39;ultima versione persistente degli argomenti e dei file multimediali di riferimento.
+
 
 1. Seleziona **Scarica**.
 
@@ -65,6 +64,8 @@ Per scaricare un file di mappa DITA dall&#39;editor, effettuare le seguenti oper
    >[!NOTE]
    >
    > Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche Adobe Experience Manager.
+
+Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il contenuto scaricato. Per visualizzare i metadati associati alla mappa scaricata, aprire il file `metdata.json` incluso nel contenuto scaricato. Questo file è disponibile per entrambe le opzioni *Gerarchia file*: Flatten file hierarchy e Retain file hierarchy.
 
 ## Scaricare un file di mappa DITA dal dashboard Mappa
 
@@ -109,6 +110,6 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
+Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il contenuto scaricato.
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

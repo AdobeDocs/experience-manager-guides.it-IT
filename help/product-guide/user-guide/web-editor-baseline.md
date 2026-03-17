@@ -4,14 +4,18 @@ description: Crea e gestisci le baseline dalla console delle mappe in Adobe Expe
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # Creare e gestire le linee di base dalla console Mappa {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Con la versione 2026.03.0 di Experience Manager Guides è disponibile una nuova linea di base (Beta) che offre prestazioni e stabilità migliorate. Per utilizzare questa linea di base, contatta il team di successo del cliente per far sì che la funzione sia abilitata. Ulteriori informazioni sulla [nuova linea di base (Beta)](./web-editor-baseline-v2.md).
 
 La funzione Baseline consente di creare una versione degli argomenti e delle risorse che può essere utilizzata per la pubblicazione o la traduzione. Se ad esempio la mappa DITA contiene `topicA` e `imageA`, è possibile creare una baseline per utilizzare la terza versione di `topicA`, ma la quarta versione di `ImageA`. Dopo aver impostato una baseline, è possibile pubblicare o tradurre argomenti di versioni diverse in un unico passaggio.
 
@@ -168,5 +172,5 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la baseline, selezionare **Salva** per salvare le modifiche. È possibile selezionare **Reimposta** se non si desidera salvare la modifica e reimpostare la previsione. Quando si seleziona **Reimposta**, viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2559'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Servizi cloud {#cloud-release-notes}
          - [Istruzioni di implementazione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2026 {#2026-releases}
+            - Versione 2026.03.0 {#2603-release}
+               - [Novità](./release-info/whats-new-2026-03-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2026-03-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2026-03-0.md)
             - Versione 2026.01.0 {#2601-release}
                - [Novità](./release-info/whats-new-2026-01-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2026-01-0.md)
@@ -174,14 +178,14 @@ ht-degree: 9%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -284,6 +288,7 @@ ht-degree: 9%
          - Usa linea di base {#work-with-baseline}
             - [Creare e gestire le linee di base dalla console Mappa](./user-guide/web-editor-baseline.md)
             - [Creare e gestire le baseline dal dashboard Mappa](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [Crea e gestisci nuove baseline dalla console Mappa](./user-guide/web-editor-baseline-v2.md)
          - [Gestire i predefiniti di output per Profilo globale e Cartella](./user-guide/web-editor-manage-output-presets.md)
          - [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./user-guide/generate-output-use-variables.md)
          - [Trasmettere i metadati all&#39;output utilizzando DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 9%
          - [Attiva output](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Modificare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Eliminare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [Gestire la replica delle risorse di origine DITA](./user-guide/dita-assets-replication-aem-sites.md)
    - Generazione di output di documenti FrameMaker {#generate-fm-output}
       - [Nozioni di base sulla generazione di output FrameMaker](./user-guide/fm-output-generatation.md)
       - Predefiniti supportati {#fm-docs-generating-presets}
@@ -380,7 +386,7 @@ ht-degree: 9%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -479,7 +485,9 @@ ht-degree: 9%
       - Operazioni con la pulizia dell&#39;albero B{#btree-cleanup}
          - [Configurare la pulizia dell&#39;albero B](./install-guide/configure-btree-clean-up-job.md)
       - Indicizzazione personalizzata{#custom-indexing}
-         - [Distribuzione dell&#39;indice personalizzato per Trova e sostituisci (visualizzazione Source)](./install-guide/custom-indexing-prem.md)
+         - [Distribuzione dell’indice personalizzato per Trova e sostituisci (visualizzazione Source)](./install-guide/custom-indexing-prem.md)
+      - Utilizzare la replica delle risorse DITA{#dita-assets-replication}
+         - [Configura replica risorse DITA](./install-guide/configure-dita-asset-replication.md)
       - [Appendice](./install-guide/appendix.md)
    - Servizi cloud {#cs-ig}
       - [Informazioni su questa guida](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 9%
          - [Configurare Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [Verificare l’installazione di AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [Aggiornare AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [Configurazione aggiuntiva per l’aggiornamento di AEM Guides as Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
          - [Sostituzioni configurazione](./cs-install-guide/download-install-additional-config-override.md)
          - [Consigli per l’ottimizzazione delle prestazioni](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Utilizzare i gruppi di utenti e la sicurezza {#user-group-sec-cs}
@@ -569,6 +578,8 @@ ht-degree: 9%
          - [Configura pulizia albero B](./cs-install-guide/configure-btree-cleanup-cs.md)
       - Indicizzazione personalizzata{#custom-indexing-cs}
          - [Distribuzione dell&#39;indice personalizzato per Trova e sostituisci (visualizzazione Source)](./cs-install-guide/custom-indexing.md)
+      - Utilizzare la replica delle risorse DITA{#dita-assets-replication-cs}
+         - [Configura replica risorse DITA](./cs-install-guide/configure-dita-assets-replication.md)
       - [Appendice](./cs-install-guide/appendix.md)
 - Riferimento API {#api-reference}
    - [Introduzione](./api-reference/introduction.md)

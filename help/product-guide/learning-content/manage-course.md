@@ -4,7 +4,7 @@ description: Scopri le varie funzioni presenti in Experience Manager Guides che 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Puoi aggiungere al corso contenuto esistente dal tuo archivio dei contenuti. Per
 
 1. Seleziona il menu **Opzioni** > **Aggiungi esistente**.
 2. Seleziona il tipo di contenuto del corso che desideri creare.
-3. Nella finestra di dialogo **Seleziona percorso**, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
+3. Nella finestra di dialogo **Seleziona file**, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
 
    ![](assets/add-existing-learning-content.png)
 4. Scegli **Seleziona**.

@@ -4,9 +4,9 @@ description: Scopri la funzione di apprendimento e formazione del prodotto prese
 feature: Authoring
 role: User
 exl-id: d00bc88c-e6ec-4aa3-971a-e9fbabe9a965
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: a36c51352e893c3a0fc80dd17b7887d645f8070c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ Le funzionalità principali sono le seguenti:
 - Riutilizzo dei contenuti
 - Creazione e gestione dei quiz
 - Gestione delle traduzioni leader del settore
+- Flussi di lavoro di revisione basati sul web
 - Pubblicazione multicanale tramite i formati di output standard SCORM e PDF
