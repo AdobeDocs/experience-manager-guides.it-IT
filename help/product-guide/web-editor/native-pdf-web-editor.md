@@ -82,7 +82,7 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
 
 * **Fornisci file XMP**
 
-  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
+  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/it/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
 
 [Scarica](assets/SampleXMP.xmp)
 
