@@ -4,9 +4,9 @@ description: Crea e gestisci una nuova linea di base (Beta) dalla console delle 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > Questo articolo si applica alla nuova linea di base , attualmente disponibile come funzionalità *Beta*, che offre prestazioni e stabilità migliorate disponibili con la versione 2026.03.0 di Experience Manager Guides. Per abilitare la nuova funzione di base nella configurazione, contatta il team Customer Success.
 
-La nuova funzione di base affronta i problemi critici di affidabilità e prestazioni associati a mappe grandi e complesse. Viene fornito con un’architettura di base riprogettata che offre un’esperienza di base più veloce, più stabile e più coerente.
+La nuova funzione di base affronta i problemi critici di affidabilità e prestazioni associati a mappe grandi e complesse. Viene fornito con un’architettura di base riprogettata che offre un’esperienza di base più veloce, più stabile e più coerente. Prima di approfondire i dettagli, ecco un breve video che evidenzia le funzionalità della nuova funzione di base.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 Il nuovo modello di base rafforza la gestione della linea di base affrontando i punti critici comuni:
 
