@@ -1,7 +1,9 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2026.03.0
+title: Note sulla versione | Corretti problemi in Adobe Experience Manager Guides, versione 2026.03.0
 description: Scopri le correzioni di bug nella versione 2026.03.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe ha identificato i seguenti problemi noti per la versione 2026.03.0:
 - Nell&#39;interfaccia utente di Assets, il pulsante **Sposta** non viene attivato al primo tentativo quando sono selezionati più di 2 file o cartelle. (GUIDES-42721) <br> **Soluzione**: dopo aver selezionato più di due file o cartelle, attendere alcuni secondi prima di selezionare la cartella di destinazione.
 - Quando si passa a **Preferenze utente** dall&#39;editor e si aggiorna la mappa principale mentre la modalità Anteprima è aperta nell&#39;editor, l&#39;anteprima della mappa viene caricata come una schermata vuota quando si torna all&#39;editor. (GUIDES-42412) <br> **Soluzione**: l&#39;aggiornamento dell&#39;anteprima utilizzando l&#39;icona **Aggiorna** disponibile in modalità Anteprima risolve il problema.
 - La ridenominazione di un modello esistente non aggiorna il nome nel pannello **Modelli di output** fino a quando la pagina non viene aggiornata manualmente. (GUIDES-42528)<br> **Soluzione**: aggiorna il browser per visualizzare il nome del modello aggiornato nel pannello Modelli di output.
-
-
-
-
-
-
-
-
-
-

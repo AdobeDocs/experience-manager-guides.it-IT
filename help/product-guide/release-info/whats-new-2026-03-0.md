@@ -1,8 +1,10 @@
 ---
-title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2026.03.0
+title: Note sulla versione | Novità della versione 2026.03.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2026.03.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 2%
@@ -112,7 +114,3 @@ Per ulteriori dettagli sul download di file in Experience Manager Guides, visual
 Ora puoi utilizzare regex per abilitare o disabilitare la post-elaborazione per le cartelle. Questo miglioramento consente agli amministratori di definire regole di post-elaborazione da applicare a più cartelle o gerarchie di cartelle intere utilizzando una singola configurazione, invece di specificare percorsi di cartelle individuali.
 
 Per ulteriori dettagli, visualizzare [Utilizzare regex per abilitare o disabilitare la post-elaborazione](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
-
-
-
-
