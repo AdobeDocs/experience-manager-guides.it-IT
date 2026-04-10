@@ -178,4 +178,4 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
 
 >[!NOTE]
 >
-> Per la configurazione di Cloud Service, assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione ad AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Per la configurazione di Cloud Service, assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione ad AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview).

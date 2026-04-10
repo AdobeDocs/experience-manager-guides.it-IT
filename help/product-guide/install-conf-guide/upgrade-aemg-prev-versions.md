@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questo articolo fornisce istruzioni per aggiornare **Adobe Experience Manager Guides** versioni **precedenti alla versione 4.6.0** (fino a **4.4.0** incluso).
 
-Se utilizzi una versione **precedente alla 3.8.5**, consulta la sezione **Aggiornamento di Experience Manager Guides** nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Se utilizzi una versione **precedente alla 3.8.5**, consulta la sezione **Aggiornamento di Experience Manager Guides** nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
 
 Per le istruzioni di aggiornamento per le versioni più recenti, consulta [Aggiornare Adobe Experience Manager Guides per la versione 4.6.0 e successive](./upgrade-aemg-latest-version.md).
 
@@ -57,7 +57,7 @@ Alcuni aggiornamenti richiedono anche l&#39;impostazione del livello di registro
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile **only** da **3.8.5** a **4.0**. Per gli aggiornamenti da **3.4 o versione successiva** a **3.8.5**, fare riferimento alla guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della [Guida di Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile **only** da **3.8.5** a **4.0**. Per gli aggiornamenti da **3.4 o versione successiva** a **3.8.5**, fare riferimento alla guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della [Guida di Adobe Experience Manager Guides](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
 
 Se si utilizza Experience Manager Guides versione **3.8.5**, è possibile eseguire l&#39;aggiornamento alla versione **4.0** senza disinstallare la versione precedente.
 

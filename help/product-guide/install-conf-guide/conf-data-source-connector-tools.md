@@ -175,4 +175,4 @@ Se esiste un connettore con lo stesso nome, viene visualizzato un errore.
 
 Dopo aver configurato l&#39;origine dati, il connettore viene elencato nel **pannello Origini dati** nell&#39;editor Web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
 
-Solo per la configurazione locale, puoi anche creare connettori personalizzati e utilizzarli con diverse origini dati. Scopri come [configurare i connettori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
+Solo per la configurazione locale, puoi anche creare connettori personalizzati e utilizzarli con diverse origini dati. Scopri come [configurare i connettori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

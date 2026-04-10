@@ -41,7 +41,7 @@ Puoi scaricare lo **strumento Content Transfer** come file ZIP dal portale **Sof
 
 ![scarica strumento di trasferimento contenuti](./assets/content-transfer-tool-software-portal.png)
 Quindi installa il pacchetto tramite **Gestione pacchetti** nell&#39;istanza Adobe Experience Manager di origine. Assicurati di scaricare la versione più recente.
-Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=it).
 
 >[!NOTE]
 > 

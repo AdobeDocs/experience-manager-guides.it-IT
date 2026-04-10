@@ -31,7 +31,7 @@ Per scaricare e installare AEM Guides per la prima volta, effettua le seguenti o
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione di AEM.
+   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione di AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

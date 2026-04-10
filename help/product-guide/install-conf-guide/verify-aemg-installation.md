@@ -25,11 +25,11 @@ Per verificare l’installazione, effettua le seguenti operazioni:
 
 1. Accedi al Developer Console del Cloud Service.
 
-   Per informazioni dettagliate sull&#39;accesso a Developer Console, consulta [Accesso a Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) nella documentazione di AEM.
+   Per informazioni dettagliate sull&#39;accesso a Developer Console, consulta [Accesso a Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=it) nella documentazione di AEM.
 
 1. Accedi all’elenco dei bundle OSGi in AEM.
 
-   Per informazioni dettagliate sull&#39;accesso ai bundle, vedi [Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) nella documentazione di AEM.
+   Per informazioni dettagliate sull&#39;accesso ai bundle, vedi [Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=it#bundles) nella documentazione di AEM.
 
 1. Cerca fmdita nell’elenco dei bundle e controllane lo stato.
 

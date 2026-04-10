@@ -139,4 +139,4 @@ Per impostazione predefinita, le librerie client (clientlibs) fornite nel pacche
 
 >[!NOTE]
 >
-> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).
+> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/it/docs/experience-manager-core-components/using/get-started/authoring).
