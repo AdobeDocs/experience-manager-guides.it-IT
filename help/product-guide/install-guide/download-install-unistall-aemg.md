@@ -50,4 +50,4 @@ Per pulire i file residui dopo la disinstallazione, effettuare le seguenti opera
 1. Fare clic su **Annulla validità cache**.
 1. Pulisci la cache del browser.
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

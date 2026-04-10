@@ -54,16 +54,16 @@ Le seguenti schede forniscono istruzioni in base alla configurazione di Experien
    **elementi**:   Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
        &quot;
-       &quot;toolbar&quot;: {
+       &quot;toolbar&quot;: &lbrace;
        &quot;type&quot;: &quot;blockGroup&quot;,
        &quot;extraclass&quot;:
        &quot;operazioni barra degli strumenti&quot;,
-       &quot;elementi&quot;: [
-       {
+       &quot;elementi&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;,
        &quot;extraclass&quot;: &quot;left-controls&quot;,
        &quot;label&quot;: &quot;Left Controls&quot;,
-       &quot;elementi&quot;: [
+       &quot;elementi&quot;: &lbrack;
        &quot;
    
    Nell&#39;insieme `items` è necessario specificare la definizione di una o più icone della barra degli strumenti.
@@ -132,7 +132,7 @@ Le seguenti schede forniscono istruzioni in base alla configurazione di Experien
 
 1. Nel file `ui_config.json`, aggiungere la definizione della nuova funzionalità nella sezione delle barre degli strumenti. In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
 
-   - **type:**Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
+   - **type:**&#x200B;Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
 
    - **extraclass:** Nome della classe o delle classi separate da spazio.
 

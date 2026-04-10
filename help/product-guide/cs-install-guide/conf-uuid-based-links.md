@@ -23,4 +23,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Booleano \(true/false\). Se desideri visualizzare il percorso relativo del contenuto collegato, imposta questa proprietà su false. <br> **Valore predefinito**: true |
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

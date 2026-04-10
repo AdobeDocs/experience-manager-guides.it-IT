@@ -129,7 +129,7 @@ o
 
 1. Fai clic su **Salva**
 1. Seleziona il **set di migrazione**, quindi seleziona **Estrai** nella parte superiore.
-   ![estrazione set di migrazione ](./assets/migration-extract.png)
+   ![estrazione set di migrazione &#x200B;](./assets/migration-extract.png)
 
 1. Verifica i dettagli nella finestra a comparsa **Estrazione set di migrazione** per i percorsi e le configurazioni selezionati e fai clic su **Estrai**. L’estrazione richiederà alcuni minuti e lo stato verrà visualizzato come aggiornato.
    ![estrazione set di migrazione](./assets/migration-set-extraction.png)

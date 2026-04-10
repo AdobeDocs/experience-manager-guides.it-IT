@@ -126,4 +126,4 @@ Le schede seguenti forniscono istruzioni per aggiungere opzioni di filtro dei fi
 >[!ENDTABS]
 
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

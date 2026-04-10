@@ -98,7 +98,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
 >[!TAB On-Premise]
 
 1. **Installare il pacchetto componenti:**
-   1. Passare a [**Gestione pacchetti CRX**](http://<tua-istanza-aem>/crx/packmgr).
+   1. Passare a [**Gestione pacchetti CRX**](http://&lt;tua-istanza-aem>/crx/packmgr).
    2. Carica e installa il pacchetto on-prem-guides-components.all-1.x.0.zip.
 
 2. **Installare il pacchetto Sites:** Caricare e installare il pacchetto aemg-docs.all-1.x.0.zip utilizzando Gestione pacchetti di CRX.
@@ -136,7 +136,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
    **Opzione 1: utilizzare il menu a discesa Sito**
 
    1. Seleziona **Sito** come creato in precedenza (ad esempio, Sito documenti AEMG).
-   2. Verificare che il percorso di pubblicazione **1} e il modello di pagina** Argomento **siano impostati automaticamente su:**
+   2. Verificare che il percorso di pubblicazione **1&rbrace; e il modello di pagina** Argomento **siano impostati automaticamente su:**
       - Percorso di pubblicazione: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` e On-Premise: `aemg-docs/en/docs/product1`
       - Modello pagina argomento: pagina argomento
 

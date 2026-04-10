@@ -48,4 +48,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

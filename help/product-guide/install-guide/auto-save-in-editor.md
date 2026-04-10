@@ -36,4 +36,4 @@ La funzione di salvataggio automatico non è attivata per impostazione predefini
 1. Fai clic su **Salva**.
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

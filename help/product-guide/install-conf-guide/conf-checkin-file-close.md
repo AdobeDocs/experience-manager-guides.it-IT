@@ -58,4 +58,4 @@ Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nell
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

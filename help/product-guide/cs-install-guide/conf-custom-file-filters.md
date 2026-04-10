@@ -69,4 +69,4 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
    ![](assets/file-browse-custom-filters.png)
 
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)

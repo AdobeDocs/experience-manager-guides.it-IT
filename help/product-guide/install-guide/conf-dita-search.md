@@ -179,7 +179,7 @@ Per aggiungere elementi o attributi DITA personalizzati nel file di serializzazi
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
-   http://<nome server\>:<porta\>/system/console/configMgr
+   http://&lt;nome server\>:<porta\>/system/console/configMgr
 
 1. Cerca e fai clic sul bundle *com.adobe.fmdita.config.ConfigManager*.
 
@@ -203,7 +203,7 @@ Per abilitare l’opzione di estrazione dei metadati in configMgr, effettua le s
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager. L&#39;URL predefinito per accedere alla pagina di configurazione è:
 
-   http://<nome server\>:<porta\>/system/console/configMgr
+   http://&lt;nome server\>:<porta\>/system/console/configMgr
 
 1. Cerca e fai clic sul bundle *com.adobe.fmdita.config.ConfigManager*.
 

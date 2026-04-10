@@ -90,4 +90,4 @@ Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterr
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

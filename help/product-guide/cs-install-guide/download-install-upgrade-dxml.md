@@ -32,4 +32,4 @@ ht-degree: 3%
 
 Dopo aver completato il processo di aggiornamento, tutti gli utenti devono cancellare la cache del browser prima di utilizzare la versione aggiornata di AEM Guides.
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

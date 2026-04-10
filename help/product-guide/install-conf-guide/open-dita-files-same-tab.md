@@ -57,4 +57,4 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 
 - Scheda Rapporti nella console delle mappe DITA
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

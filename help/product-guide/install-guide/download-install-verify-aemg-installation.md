@@ -36,4 +36,4 @@ Dopo aver installato AEM Guides, è necessario verificare se l’installazione �
 >
 > È possibile prendere in considerazione una serie di raccomandazioni sull&#39;ottimizzazione delle prestazioni per migliorare le prestazioni del sistema. Per ulteriori informazioni, vedere [Consigli per l&#39;ottimizzazione delle prestazioni](download-install-recommend-perf-optimiz.md#).
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

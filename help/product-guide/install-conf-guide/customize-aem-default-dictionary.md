@@ -61,4 +61,4 @@ Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli 
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

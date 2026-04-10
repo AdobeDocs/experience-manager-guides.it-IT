@@ -38,4 +38,4 @@ Quando questa opzione è selezionata, la casella di controllo **Salva come nuova
 
 Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nella guida Using Adobe Experience Manager Guides as a Cloud Service (Utilizzo di).
 
-**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
