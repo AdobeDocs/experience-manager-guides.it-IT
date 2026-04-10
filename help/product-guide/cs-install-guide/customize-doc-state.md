@@ -5,7 +5,8 @@ exl-id: ab155879-4472-464d-ab25-6075088d718b
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -31,7 +32,7 @@ AEM Guides viene fornito con un set di stati del documento predefiniti. Questi s
 - In-Review
 - Approvato
 - Esaminato
-- Completato
+- Fine
 
 Questi stati predefiniti sono disponibili per tutti gli argomenti DITA creati in DAM. È possibile creare stati del documento personalizzati e assegnarli a una cartella specifica. Tutti i file DITA creati in tale cartella avranno quindi accesso ai nuovi stati del documento creati.
 

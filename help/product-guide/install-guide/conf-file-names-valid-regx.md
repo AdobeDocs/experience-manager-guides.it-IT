@@ -5,7 +5,8 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -45,6 +46,6 @@ Per configurare regx per caratteri \(o allowed\) validi nei nomi dei file, effet
 
 >[!NOTE]
 >
-> Analogamente all&#39;elenco dei caratteri validi per i nomi di file, è inoltre possibile specificare un elenco di caratteri validi per i nomi di file per l&#39;output del sito AEM. Per ulteriori dettagli, vedere [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md#).
+> Analogamente all&#39;elenco dei caratteri validi per i nomi di file, è possibile specificare anche un elenco di caratteri validi per i nomi di file per l&#39;output del sito AEM. Per ulteriori dettagli, vedere [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Argomento padre:**&#x200B;[&#x200B; Configura nomi file](conf-file-names.md)
+**Argomento padre:**[ Configura nomi file](conf-file-names.md)

@@ -5,7 +5,8 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -31,7 +32,7 @@ AEM Guides viene fornito con un set di stati del documento predefiniti. Questi s
 - In-Review
 - Approvato
 - Esaminato
-- Completato
+- Fine
 
 Questi stati predefiniti sono disponibili per tutti gli argomenti DITA creati in DAM. È possibile creare stati del documento personalizzati e assegnarli a una cartella specifica. Tutti i file DITA creati in tale cartella avranno quindi accesso ai nuovi stati del documento creati.
 
@@ -131,7 +132,7 @@ Per automatizzare la modifica dello stato del documento, effettuare le seguenti 
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Apri un flusso di lavoro dalla pagina del flusso di lavoro. Ad esempio, Rivedi argomento.
-1. Seleziona **Passaggio processo** dalla sezione **Flusso di lavoro** della finestra di dialogo AEM e trascina il puntatore sul flusso di lavoro.
+1. Seleziona **Passaggio processo** dalla sezione **Flusso di lavoro** della finestra di dialogo di AEM e trascina nel flusso di lavoro.
 
    ![](assets/process-step-workflow.png)
 
@@ -151,7 +152,7 @@ Per automatizzare la modifica dello stato del documento, effettuare le seguenti 
 
 AEM Guides fornisce un flusso di lavoro di approvazione dei documenti che consente di controllare il ciclo di vita del processo di sviluppo dei documenti. Per abilitare il flusso di lavoro di approvazione, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. Passare al file di configurazione predefinito disponibile nella posizione seguente:
 

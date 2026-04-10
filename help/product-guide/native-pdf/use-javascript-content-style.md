@@ -1,11 +1,12 @@
 ---
-title: Funzionalità nativa di PDF Publish | Utilizzare JavaScript per lavorare con contenuto o stile
+title: Funzione di pubblicazione nativa di PDF | Utilizza JavaScript per lavorare con contenuti o stili
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,12 +15,12 @@ ht-degree: 0%
 
 # Utilizzare JavaScript per lavorare con contenuto o stile
 
-La funzione di pubblicazione di PDF nativi consente di eseguire JavaScript per manipolare il contenuto o lo stile applicato al contenuto prima che venga generato il PDF finale. Questa funzione consente di controllare completamente la modalità di generazione dell’output finale. È possibile, ad esempio, aggiungere informazioni relative alle note legali all&#39;output di PDF, che risiede in un altro PDF. Utilizzando JavaScript, puoi aggiungere le informazioni sull’avviso legale una volta creato il PDF per il contenuto di base, ma prima che venga generato il PDF finale.\
+La funzione di pubblicazione nativa di PDF consente di eseguire JavaScript per manipolare il contenuto o lo stile applicato al contenuto prima che venga generato il PDF finale. Questa funzione consente di controllare completamente la modalità di generazione dell’output finale. Ad esempio, potrebbe essere utile aggiungere informazioni sulle note legali all&#39;output di PDF, che risiede in un altro PDF. Utilizzando JavaScript, puoi aggiungere le informazioni sull’avviso legale una volta creato il PDF per il contenuto di base, ma prima che venga generato il PDF finale.\
 Per supportare l’esecuzione di JavaScript, la funzione di pubblicazione nativa di PDF offre le seguenti funzioni di callback:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: questa funzione di callback viene eseguita prima della generazione del sommario.
-* `window.pdfLayout.onBeforePagination(callback)`: questa funzione di callback viene eseguita dopo la generazione del sommario, ma prima dell&#39;aggiunta delle interruzioni di pagina nel PDF.
-* `window.pdfLayout.onAfterPagination(callback)`: questa funzione di callback viene eseguita dopo l&#39;aggiunta del sommario e delle interruzioni di pagina nel PDF.
+* `window.pdfLayout.onBeforePagination(callback)`: questa funzione di callback viene eseguita dopo la generazione del sommario, ma prima dell&#39;aggiunta delle interruzioni di pagina in PDF.
+* `window.pdfLayout.onAfterPagination(callback)`: questa funzione di callback viene eseguita dopo l&#39;aggiunta del sommario e delle interruzioni di pagina in PDF.
 
 >[!NOTE]
 >
@@ -73,10 +74,10 @@ L’output generato utilizzando questo codice e il modello visualizza il titolo 
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
-## Aggiungere una filigrana all&#39;output PDF per le bozze di documenti {#watermark-draft-document}
+## Aggiungere una filigrana all&#39;output di PDF per le bozze di documenti {#watermark-draft-document}
 
 È inoltre possibile utilizzare JavaScript per aggiungere filigrane condizionali. Queste filigrane vengono aggiunte al documento quando la condizione definita viene soddisfatta.\
-È ad esempio possibile creare un file JavaScript con il codice seguente per creare una filigrana per l&#39;output PDF del documento non ancora approvato. Questa filigrana non viene visualizzata se si genera il PDF per il documento nello stato &quot;Approvato&quot;.
+È ad esempio possibile creare un file JavaScript con il codice seguente per creare una filigrana nell&#39;output PDF del documento non ancora approvato. Questa filigrana non viene visualizzata se si genera il PDF per il documento nello stato &quot;Approvato&quot;.
 
 ```css
 ...

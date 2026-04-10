@@ -5,7 +5,8 @@ exl-id: 3dd7752e-0836-480a-b1e1-6fa2099d404f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,7 +19,7 @@ L’editor web consente di inserire caratteri speciali pronti all’uso. Tuttavi
 
 Per sovrascrivere l’elenco predefinito di caratteri speciali, effettua le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. creare il file `symbols.json` nel percorso seguente:
 
@@ -48,4 +49,4 @@ La struttura del file `symbols.json` è illustrata di seguito:
   All’interno di una categoria è possibile definire più definizioni di caratteri speciali.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

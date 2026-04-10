@@ -1,20 +1,21 @@
 ---
-title: Personalizzare il dizionario predefinito dell’AEM
-description: Scopri come personalizzare il dizionario predefinito dell’AEM
+title: Personalizzare il dizionario predefinito di AEM
+description: Scopri come personalizzare il dizionario predefinito di AEM
 exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%
 
 ---
 
-# Personalizzare il dizionario predefinito dell’AEM {#id209SD8000WU}
+# Personalizzare il dizionario predefinito di AEM {#id209SD8000WU}
 
-L’editor web può essere configurato per utilizzare il correttore ortografico AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico dell&#39;AEM, si ottiene la flessibilità necessaria per definire l&#39;elenco di parole personalizzato. Queste parole personalizzate vengono quindi aggiunte al dizionario dell’AEM e non vengono contrassegnate come \(as correct\) nell’editor Web.
+L’editor web può essere configurato per utilizzare il correttore ortografico di AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico di AEM, è possibile definire l&#39;elenco di parole personalizzato in modo flessibile. Queste parole personalizzate vengono quindi aggiunte al dizionario di AEM e non vengono contrassegnate come \(as correct\) nell’editor Web.
 
 Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effettuare le seguenti operazioni:
 
@@ -35,4 +36,4 @@ Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effet
 
 Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

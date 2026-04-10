@@ -5,7 +5,8 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Carica contenuto DITA esistente {#id176FF000JUI}
 
-Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desidera utilizzare con AEM Guides. Per tali contenuti esistenti, puoi utilizzare uno qualsiasi dei metodi supportati illustrati in [Aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it).
+Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desidera utilizzare con AEM Guides. Per tali contenuti esistenti, puoi utilizzare uno qualsiasi dei metodi supportati illustrati in [Aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
 
 ## Configura pattern nome file UUID
 
@@ -32,7 +33,7 @@ Puoi anche utilizzare i comandi curl per creare una cartella in DAM, caricare fi
 
 **Crea una cartella**
 
-Esegui il comando seguente per creare una cartella nell’archivio AEM:
+Esegui il seguente comando per creare una cartella nel repository di AEM:
 
 ```
 curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server folder path>"
@@ -61,7 +62,7 @@ Specifica i seguenti parametri per caricare un file:
 
 - ``local file path``: percorso completo del file nel sistema locale da caricare.
 
-- `<server folder path>`: percorso completo della cartella sul server AEM in cui si desidera caricare il file.
+- `<server folder path>`: percorso completo della cartella sul server AEM in cui desideri caricare il file.
 
 
 **Aggiungi metadati**
@@ -81,4 +82,4 @@ Specifica i seguenti parametri per aggiungere informazioni sui metadati:
 - `<metadata node path>`: percorso completo della cartella, incluso il nome del file e il relativo nodo di metadati. Ad esempio, se si specifica il percorso come `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, le informazioni sui metadati specificate vengono impostate sul file `intro.xml`.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)

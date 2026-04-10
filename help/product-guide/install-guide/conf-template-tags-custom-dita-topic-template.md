@@ -5,7 +5,8 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -26,7 +27,7 @@ AEM Guides viene fornito con i seguenti modelli di argomenti DITA:
 
 - Glossario
 
-- Risoluzione dei problemi
+- Risoluzione di problemi
 
 - Vuoto
 
@@ -77,4 +78,4 @@ Per configurare una cartella per i modelli di argomento DITA personalizzati, eff
 
 Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti.
 
-**Argomento padre:**&#x200B;[&#x200B; Configura modelli di argomento e mappa](conf-template-tags.md)
+**Argomento padre:**[ Configura modelli di argomento e mappa](conf-template-tags.md)

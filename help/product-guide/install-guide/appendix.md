@@ -5,7 +5,8 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -14,23 +15,23 @@ ht-degree: 0%
 
 # Appendice {#id195AD0L60Y4}
 
-## Prepara i file InDesign per la conversione {#id195DBF0045Z}
+## Preparare i file InDesign per la conversione {#id195DBF0045Z}
 
-L&#39;InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1&rbrace;&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
+InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1}&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
 
 Anche se è possibile modificare il contenuto DITA in un ordine ragionevole in un editor DITA, è molto più semplice correggere il file InDesign prima di creare il file IDML. Questa operazione può essere eseguita senza modificare l&#39;aspetto del documento di origine. Ha anche il vantaggio di rendere accessibile il documento di origine definendo correttamente l&#39;ordine di lettura.
 
 ***Threading cornici di testo***
 
-L&#39;InDesign utilizza il termine *&#39;threading&#39;* per il processo di collegamento di un frame a un altro. Per ulteriori dettagli sulle cornici di testo di threading, vedi l&#39;argomento *[Threading text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* nella documentazione di InDesign.
+InDesign utilizza il termine *&#39;threading&#39;* per il processo di collegamento di un frame a un altro. Per ulteriori dettagli sulle cornici di testo di threading, vedi l&#39;argomento *[Threading text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* nella documentazione di InDesign.
 
 ***Frame sovrapposti***
 
-Alcuni documenti InDesign utilizzano fotogrammi sovrapposti non filettati per motivi di layout. Potrebbe essere molto difficile unire questo contenuto al thread principale. L&#39;opzione migliore potrebbe essere quella di modificare il risultato nell&#39;ambiente DITA.
+Alcuni documenti di InDesign utilizzano fotogrammi sovrapposti non thread per motivi di layout. Potrebbe essere molto difficile unire questo contenuto al thread principale. L&#39;opzione migliore potrebbe essere quella di modificare il risultato nell&#39;ambiente DITA.
 
-***Storie InDesign***
+***Storie di InDesign***
 
-Ogni flusso concatenato di contenuto in un documento InDesign è denominato &quot;*brano*&quot;. Per ottenere i migliori risultati, si consiglia di mantenere limitato il numero di storie. Tuttavia, alcune parti del documento potrebbero non essere necessarie nell&#39;output DITA. Ad esempio, i piè di pagina sono raramente necessari, ma possono essere visualizzati nel mezzo di un argomento se non vengono gestiti con attenzione.
+Ogni flusso concatenato di contenuto in un documento InDesign è un elemento denominato &#39;*storia*&#39;. Per ottenere i migliori risultati, si consiglia di mantenere limitato il numero di storie. Tuttavia, alcune parti del documento potrebbero non essere necessarie nell&#39;output DITA. Ad esempio, i piè di pagina sono raramente necessari, ma possono essere visualizzati nel mezzo di un argomento se non vengono gestiti con attenzione.
 
 Il modo più semplice per escludere il testo non richiesto nel documento è quello di assegnargli un *Tag paragrafo* speciale che viene utilizzato solo per il contenuto indesiderato. Ad esempio, invece di riutilizzare un *\[Paragrafo base\]* per il piè di pagina, crea un tag *Piè di pagina* dedicato. Quindi nel file MapStyle imposta semplicemente i paragrafi *Piè di pagina* da eliminare in questo modo:
 
@@ -62,23 +63,23 @@ Se alcuni dei *paragrafi Heading1* devono essere convertiti in doctype DITA dive
 </doctypes>
 ```
 
-***Documenti InDesign strutturati***
+***Documenti strutturati di InDesign***
 
-L&#39;InDesign ha una relazione debole con XML. Sebbene un documento possa includere una DTD XML e il brano principale possa essere valido rispetto a tale DTD, è anche possibile creare documenti ibridi in cui parte del contenuto è XML, ma non è inclusa alcuna DTD. Questi sono i casi indesiderati per una conversione riuscita in DITA. Se un documento contiene parti XML, provare a salvare l&#39;output in formato XML e verificare se i risultati sono accettabili. In caso contrario, il contenuto DITA includerà anche contenuto non valido o potrebbe non riuscire completamente.
+InDesign ha una relazione debole con XML. Sebbene un documento possa includere una DTD XML e il brano principale possa essere valido rispetto a tale DTD, è anche possibile creare documenti ibridi in cui parte del contenuto è XML, ma non è inclusa alcuna DTD. Questi sono i casi indesiderati per una conversione riuscita in DITA. Se un documento contiene parti XML, provare a salvare l&#39;output in formato XML e verificare se i risultati sono accettabili. In caso contrario, il contenuto DITA includerà anche contenuto non valido o potrebbe non riuscire completamente.
 
 ***Formattazione tabella***
 
-La conversione dalle regole di formattazione della tabella InDesign alla formattazione della tabella equivalente in DITA è un processo complesso. Ciò è dovuto alle funzioni di formattazione avanzate disponibili nei file di origine rispetto alle opzioni di base fornite dal modello di tabella Oasis \(CALS\) utilizzato in DITA. Viene fornito l&#39;allineamento verticale e orizzontale del testo e fornisce risultati simili, anche se il testo giustificato è sempre giustificato in base alla direzione del testo, mentre l&#39;InDesign consente l&#39;allineamento giustificato a sinistra e a destra.
+La conversione dalle regole di formattazione della tabella di InDesign alla formattazione della tabella equivalente in DITA è un processo complesso. Ciò è dovuto alle funzioni di formattazione avanzate disponibili nei file di origine rispetto alle opzioni di base fornite dal modello di tabella Oasis \(CALS\) utilizzato in DITA. Viene fornito l&#39;allineamento verticale e orizzontale del testo e fornisce risultati simili, anche se il testo giustificato è sempre giustificato in base alla direzione del testo, mentre InDesign consente l&#39;allineamento giustificato a sinistra e a destra.
 
-Anche in questo caso, la gestione InDesign dei separatori di colonna e di riga è molto più efficiente delle opzioni di base del modello di tabella Oasis. InDesign fornisce quattro bordi di cella: tipo di bordo \(solido o motivo\), spessore del bordo, colore del bordo, tinta del bordo, colore di distanza del bordo e tinta di distanza del bordo. È necessario eseguire il mapping di tutti questi elementi ai bordi destro e inferiore di ogni cella \(elemento di immissione\) in cui le uniche opzioni disponibili sono 0 o 1: nascondere il bordo o visualizzarlo.
+Anche in questo caso, la gestione dei separatori di colonna e di riga da parte di InDesign è molto più efficiente delle opzioni di base del modello di tabella Oasis. In InDesign sono disponibili quattro bordi di cella: tipo di bordo \(solido o motivo\), spessore del bordo, colore del bordo, tinta del bordo, colore dello spazio tra i bordi e tinta dello spazio tra i bordi. È necessario eseguire il mapping di tutti questi elementi ai bordi destro e inferiore di ogni cella \(elemento di immissione\) in cui le uniche opzioni disponibili sono 0 o 1: nascondere il bordo o visualizzarlo.
 
-Le regole di confine in InDesign possono essere applicate ai seguenti livelli:
+Le regole dei bordi in InDesign possono essere applicate ai seguenti livelli:
 
 - Stili tabella
 - Stili celle
 - Sostituzioni locali su ogni cella
 
-Il processo di conversione da InDesign a DITA applica la regola del bordo nel modo seguente:
+Il processo di conversione da InDesign a DITA applica la regola del bordo come segue:
 
 - Gli stili di tabella sono mappati all&#39;attributo `colspec/@colsep` per le regole verticali. Le regole orizzontali sono mappate all&#39;attributo `row/@rowsep`. In entrambi i casi, se il bordo non è definito, l&#39;attributo non viene creato.
 - Gli stili di cella sono mappati agli attributi `entry/@colsep` e `entry/@rowsep`. Questi valori sovrascriveranno qualsiasi righello di bordo derivato da Stile tabella.
@@ -86,11 +87,11 @@ Il processo di conversione da InDesign a DITA applica la regola del bordo nel mo
 
 ***Modelli alternativi***
 
-Gli stili di tabella InDesign consentono di alternare le regolazioni di colonne e celle. Anche se questa funzione è supportata per la conversione, i risultati saranno evidenti solo quando un gruppo di pattern è mappato per mostrare la regola \(1\) e l&#39;altro gruppo di pattern è mappato per nascondere la regola \(0\).
+Gli stili di tabella di InDesign consentono di alternare le regolazioni di colonne e celle. Anche se questa funzione è supportata per la conversione, i risultati saranno evidenti solo quando un gruppo di pattern è mappato per mostrare la regola \(1\) e l&#39;altro gruppo di pattern è mappato per nascondere la regola \(0\).
 
 ## Preparare il file di mappatura per la migrazione da InDesign a DITA {#id194AF0003HT}
 
-La conversione DITA corretta richiede un file di mapping corrispondente al contenuto del documento di origine. Per i documenti InDesign non strutturati, è necessario mappare tutti gli stili di paragrafo e di carattere disponibili. Per i documenti InDesign strutturati XML è necessario mappare tutti gli elementi della DTD associata.
+La conversione DITA corretta richiede un file di mapping corrispondente al contenuto del documento di origine. Per i documenti InDesign non strutturati, ciò significa che è necessario mappare tutti gli stili di paragrafo e di carattere disponibili. Per i documenti InDesign strutturati XML, è necessario mappare tutti gli elementi della DTD associata.
 
 I file di mappatura per i documenti InDesign non strutturati e strutturati sono diversi. Ciò è dovuto ai requisiti di elaborazione più complessi per la conversione del contenuto sorgente non strutturato in DITA.
 
@@ -297,7 +298,7 @@ Gli elementi `<paragraphStyleRule>` sono descritti di seguito:
 
 ***`paraRule`elemento***
 
-Elemento `paraRule` obbligatorio. Specifica le regole di mapping per tutti gli stili di paragrafo. In un documento InDesign, tutto il testo è contenuto all&#39;interno di una sottostruttura di Stili di paragrafo, anche i paragrafi senza alcuno stile sono denominati `[No paragraph style]`. Le parentesi quadre indicano un nome di stile InDesign incorporato.
+Elemento `paraRule` obbligatorio. Specifica le regole di mapping per tutti gli stili di paragrafo. In un documento di InDesign tutto il testo è contenuto all&#39;interno di una sottostruttura di Stili di paragrafo, anche i paragrafi senza alcuno stile sono denominati `[No paragraph style]`. Le parentesi quadre indicano un nome di stile InDesign incorporato.
 
 >[!NOTE]
 >
@@ -334,7 +335,7 @@ Gli elementi `charRule` sono descritti di seguito:
 
 Questo è un elemento facoltativo.
 
-Regole di mappatura per tutti gli stili di carattere. In un documento InDesign tutto il testo è contenuto all&#39;interno di elementi figlio di Stili di carattere.
+Regole di mappatura per tutti gli stili di carattere. In un documento InDesign, tutto il testo è contenuto all’interno di elementi figlio di Stili di carattere.
 
 Gli attributi utilizzati in `charRule` sono illustrati di seguito:
 
@@ -382,7 +383,7 @@ Gli attributi utilizzati in `attributeRules` sono illustrati di seguito:
 
 **Codici di formattazione locali**
 
-In qualsiasi documento InDesign, gli stili di paragrafo e di carattere possono avere diverse centinaia di sostituzioni di formattazione. La maggior parte di queste proprietà non fornisce alcun ruolo utile nel processo di conversione. Tuttavia, abbiamo identificato un set principale di funzioni di formattazione che influiscono sulla semantica del documento e devono influenzare il processo di conversione.
+In qualsiasi documento di InDesign, gli stili di paragrafo e di carattere possono avere diverse centinaia di sostituzioni di formattazione. La maggior parte di queste proprietà non fornisce alcun ruolo utile nel processo di conversione. Tuttavia, abbiamo identificato un set principale di funzioni di formattazione che influiscono sulla semantica del documento e devono influenzare il processo di conversione.
 
 Gli attributi `@local` vengono presentati come un formato delimitato speciale in cui otto campi vengono forniti insieme a un prefisso per mostrare il tipo di sostituzione della formattazione. I campi dei codici di formattazione sono elencati di seguito:
 
@@ -392,7 +393,7 @@ Gli attributi `@local` vengono presentati come un formato delimitato speciale in
 - **Posizione carattere** per apice o pedice.
 - **Sotto** per il carattere di sottolineatura.
 - **Barrato** per barrato.
-- **Codice elenco** per identificare il tipo di elenco come puntato o numerato, non sempre utilizzato dall&#39;InDesign.
+- **Codice elenco** per identificare il tipo di elenco come puntato o numerato, non sempre utilizzato da InDesign.
 - **Il codice punto elenco** elenca tutti i tipi di punto elenco definiti nel documento.
 - **Codice numero** elenca tutti gli stili di numerazione definiti nel documento.
 
@@ -414,7 +415,7 @@ Elemento `mapDoctypeElemRule` obbligatorio. Gli attributi di questo elemento non
 
 **`elementRules`elemento** Elenca tutti gli elementi.
 
-**`elementRule`elemento** L&#39;elemento `elementRule` è obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Sebbene un documento InDesign contenga elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione &#39;***modalità ibrida***&#39; non sia abilitata.
+**`elementRule`elemento** L&#39;elemento `elementRule` è obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1}&#39; non sia abilitata.***
 
 Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
@@ -453,7 +454,7 @@ Per controllare i riferimenti, esegui i seguenti passaggi utilizzando lo script 
 1. Esegui lo script di convalida \[`/bin/fmdita/validatebtree?operation=validate`\] per verificare se sono presenti nuovi riferimenti interrotti.
 1. Se lo script di convalida riporta errori, è possibile applicarvi la patch utilizzando lo script di patch.
 1. Registra i dettagli forniti di seguito e, se necessario, condividili con il team di successo del cliente:
-1. &#x200B;
+1. 
    - Registri stampati dallo script di convalida
 - Package di &quot;`/content/fmdita/references`&quot;
 - Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
@@ -467,7 +468,7 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
    **Nota:* si consiglia di copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
-1. &#x200B;
+1. 
    - Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
 - Verifica che i riferimenti siano stati corretti
 

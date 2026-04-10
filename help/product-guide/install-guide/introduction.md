@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Informazioni su questa guida {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(in seguito denominato *AEM Guides*\) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise \(CCMS\). Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo all’AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor Web integrato di facile utilizzo.
+Adobe Experience Manager Guides \(in seguito denominato *AEM Guides*\) è una potente soluzione di gestione dei contenuti per componenti di livello enterprise \(CCMS\). Abilita il supporto DITA nativo in Adobe Experience Manager, consentendo ad AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor Web integrato di facile utilizzo.
 
 Questa guida fornisce le istruzioni per scaricare, installare e configurare AEM Guides. In questa guida trovi istruzioni dettagliate per configurare AEM Guides in base alle tue esigenze organizzative di authoring e pubblicazione.
 
@@ -33,13 +34,13 @@ Le informazioni contenute in questa guida sono organizzate come segue:
 
 - [Scarica e installa](download-install.md#): questo argomento descrive come scaricare, installare o aggiornare AEM Guides.
 
-- [Amministrazione utenti e sicurezza](user-admin-sec.md#): questo argomento descrive il concetto principale di utenti e autenticazione in AEM e nei gruppi di utenti predefiniti creati da AEM Guides.
+- [Amministrazione utenti e sicurezza](user-admin-sec.md#): questo argomento descrive il concetto principale di utenti e autenticazione in AEM e i gruppi di utenti predefiniti creati da AEM Guides.
 
 - [Utilizza specializzazione DITA-OT e DITA personalizzata](dita-ot-specialization.md#): in questo argomento viene illustrato come configurare plug-in DITA-OT personalizzati e utilizzare la specializzazione DITA.
 
 - [Configurare gli stati dei documenti](customize-doc-state.md#): in questo argomento viene illustrato come configurare gli stati personalizzati per i documenti DITA.
 
-- [Migra contenuto esistente](migrate-content.md#): questo argomento descrive come integrare il contenuto esistente nell&#39;archivio AEM.
+- [Migra contenuto esistente](migrate-content.md#): questo argomento descrive come incorporare il contenuto esistente nell&#39;archivio AEM.
 
 - [Configura nomi file](conf-file-names.md#): in questo argomento viene illustrato come configurare l&#39;impostazione per l&#39;assegnazione automatica dei nomi di file e definire regex per i caratteri dei nomi di file validi.
 
@@ -61,16 +62,16 @@ Le informazioni contenute in questa guida sono organizzate come segue:
 
 - [Configurare e personalizzare i flussi di lavoro](customize-workflows.md#): in questo argomento vengono descritte le varie configurazioni per personalizzare i flussi di lavoro predefiniti forniti in AEM Guides.
 
-- [Traduci contenuto](translation.md#): questo argomento fornisce collegamenti agli articoli della Guida pertinenti nella documentazione AEM per aiutarti a comprendere e configurare il framework di traduzione. Inoltre, scopri come abilitare il flusso di lavoro di traduzione basato su componenti.
+- [Traduci contenuto](translation.md#): questo argomento fornisce collegamenti agli articoli della Guida pertinenti nella documentazione di AEM per aiutarti a comprendere e configurare il framework di traduzione. Inoltre, scopri come abilitare il flusso di lavoro di traduzione basato su componenti.
 
 - [Configurare la ricerca per l&#39;interfaccia utente di AEM Assets](conf-dita-search.md#): questo argomento descrive come configurare la ricerca di contenuti DITA nell&#39;interfaccia utente di Assets e aggiungere gli attributi personalizzati nella ricerca.
 
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guida utente
 - Guida di riferimento API
 - Guida rapida
-- [Pagina di archiviazione della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
+- [Pagina di archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)

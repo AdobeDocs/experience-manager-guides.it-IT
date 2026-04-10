@@ -1,11 +1,12 @@
 ---
-title: Funzionalità nativa di PDF Publish | Usa stili personalizzati nelle note a piè di pagina
+title: Funzione di pubblicazione nativa di PDF | Usa stili personalizzati nelle note a piè di pagina
 description: Scopri come applicare lo stile ai numeri nelle note a piè di pagina.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -80,7 +81,7 @@ La chiamata della nota a piè di pagina è nascosta nel contenuto principale, ma
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -97,16 +98,16 @@ Scopri come [utilizzare le proprietà di pagina di un layout di pagina](./design
 
 ### Stili CSS
 
-Potete applicare stili e formattare l&#39;area delle note a piè di pagina in un documento PDF. È ad esempio possibile modificare la lunghezza, lo stile, il colore e la larghezza del bordo.
+È possibile applicare stili e formattare l&#39;area delle note a piè di pagina in un documento PDF. È ad esempio possibile modificare la lunghezza, lo stile, il colore e la larghezza del bordo.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## Riavvia la numerazione delle note a piè di pagina
@@ -120,7 +121,7 @@ Per impostazione predefinita, le note a piè di pagina vengono numerate continua
 
 ### Stili CSS
 
-Usate lo stile seguente per reimpostare la numerazione delle note a piè di pagina in ogni pagina dell&#39;output di PDF:
+Utilizza lo stile seguente per reimpostare la numerazione delle note a piè di pagina in ogni pagina dell’output di PDF:
 
 ```css
 @page
@@ -137,15 +138,15 @@ In genere, ogni nota a piè di pagina viene visualizzata come un blocco o inizia
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
 ## Applicare stili ai rimandi delle note a piè di pagina
 
-Potete anche fare riferimento incrociato a una nota a piè di pagina e fare riferimento più volte alla stessa nota nell&#39;output di PDF. Ciò consente di fare riferimento più volte alla stessa citazione o nota dettagliata nel documento senza creare una nuova nota a piè di pagina.
+Potete anche fare riferimento incrociato a una nota a piè di pagina e fare riferimento alla stessa nota più volte nell&#39;output di PDF. Ciò consente di fare riferimento più volte alla stessa citazione o nota dettagliata nel documento senza creare una nuova nota a piè di pagina.
 
-La schermata seguente mostra ad esempio come la stessa nota a piè di pagina viene usata come riferimento incrociato per tutte le città nell’output di PDF.
+Ad esempio, la schermata seguente mostra come la stessa nota a piè di pagina viene fatta riferimento a tutte le città nell’output di PDF.
 <img width="550" alt="riferimenti alle note a piè di pagina in un pdf" src="./assets/link-footnotes.png" border="2px">
 
 *Inserire il rimando a una nota a piè di pagina.*
@@ -158,8 +159,8 @@ Utilizzando gli stili CSS, potete anche formattare i riferimenti incrociati alle
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

@@ -4,7 +4,9 @@ description: Scopri come configurare i filtri per lo stato del documento
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 4942b914ff278ebcf09d00da32d6f9c7cc4d7ff9
+exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,38 +29,38 @@ Per configurare i filtri dello stato del documento, effettuare le seguenti opera
 Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
        &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
+       &quot;repositoryFilters&quot;: [
+       {
        &quot;title&quot;: &quot;Stato documento&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;elementi figlio&quot;: &lbrack;
-       &lbrace;
+       &quot;elementi figlio&quot;: [
+       {
        &quot;title&quot;: &quot;Bozza&quot;,
        &quot;valore&quot;: &quot;Bozza&quot;
-       &rbrace;,
-       &lbrace;
+       },
+       {
        &quot;title&quot;: &quot;Modifica&quot;,
        &quot;valore&quot;: &quot;Modifica&quot;
-       &rbrace;,
-       &lbrace;
+       },
+       {
        &quot;title&quot;: &quot;In-Review&quot;,
        &quot;value&quot;: &quot;In-Review&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Approvato&quot;,
+       },
+       {
+}       &quot;title&quot;: &quot;Approvato&quot;,
        &quot;valore&quot;: &quot;Approvato&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Rivisto&quot;,
+       },
+       {
+}       &quot;title&quot;: &quot;Rivisto&quot;,
        &quot;valore&quot;: &quot;Esaminato&quot;
        ,
-       &lbrace;
+       {
        &quot;title&quot;: &quot;Fine&quot;,
        &quot;valore&quot;: &quot;Fine&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &rbrack;
+       }
+       ]
+       }
+       ]
        &quot;
    Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
 
@@ -75,4 +77,4 @@ Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
 I filtri configurati vengono visualizzati nel pannello **Filtri** nell&#39;archivio nella home page.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

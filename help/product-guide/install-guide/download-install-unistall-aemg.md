@@ -5,7 +5,8 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Puoi disinstallare AEM Guides utilizzando Gestione pacchetti di CRX. Durante la 
 
 Per disinstallare AEM Guides, effettua le seguenti operazioni:
 
-1. Accedi all’istanza dell’AEM e passa a Gestione pacchetti CRX. L’URL predefinito per accedere al gestore di pacchetti è:
+1. Accedi all’istanza di AEM e passa a Gestione pacchetti CRX. L’URL predefinito per accedere al gestore di pacchetti è:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -49,4 +50,4 @@ Per pulire i file residui dopo la disinstallazione, effettuare le seguenti opera
 1. Fare clic su **Annulla validità cache**.
 1. Pulisci la cache del browser.
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

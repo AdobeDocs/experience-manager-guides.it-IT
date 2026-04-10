@@ -1,13 +1,14 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Progettare un layout di pagina
+title: Funzione di pubblicazione nativa di PDF | Progetta il layout di una pagina
 description: Scopri come progettare il layout di pagina per presentare le informazioni in diverse sezioni dell’output PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
-source-wordcount: '5017'
+source-wordcount: '5016'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ Durante la progettazione di un layout di pagina, è essenziale avere il controll
 
 * **Rotazione visualizzazione**: specificare il lato o la direzione in cui viene rappresentato il lato superiore originale dopo la rotazione. È possibile scegliere tra 90, 90 o 180 gradi in senso antiorario. Questa funzione è molto utile quando si desidera utilizzare una combinazione di layout Verticale e Orizzontale nell&#39;output. È ad esempio possibile utilizzare il formato verticale come layout di pagina generico e impostare un layout di pagina orizzontale per il rendering di tabelle di grandi dimensioni. In tal caso, è possibile impostare la visualizzazione del contenuto della tabella in senso orario di 90 gradi. In questo modo la pagina verrà orientata in orizzontale e il contenuto verrà ruotato di 90 gradi per mantenere la continuità nella visualizzazione. Vedremo come questo viene ottenuto come esempio più avanti in questa sezione.
 
-* **Numerazione pagine**: per impostazione predefinita, la numerazione delle pagine è continua in un PDF. Ad esempio, un PDF di 100 pagine può avere numeri di pagina continui da 1 a 100. È inoltre possibile riavviare la numerazione da un numero specifico in tutte le diverse sezioni o nella prima occorrenza di una sezione.
+* **La numerazione delle pagine** :The per impostazione predefinita è continua in un PDF. Ad esempio, un PDF di 100 pagine può avere numeri di pagina continui da 1 a 100. È inoltre possibile riavviare la numerazione da un numero specifico in tutte le diverse sezioni o nella prima occorrenza di una sezione.
    * **Riavvia da** : specifica il numero di pagina da cui inizierà la numerazione per questo layout di pagina. Ad esempio, è possibile impostare il numero di pagina da riavviare per ogni capitolo. In tal caso, è necessario impostare la proprietà restart from su 1 nella variante di layout Prima pagina del layout della pagina del capitolo. Per impostazione predefinita, la numerazione delle pagine continua dalla pagina precedente.
 
    * **Applica solo alla prima occorrenza**: è inoltre possibile iniziare da un numero specifico solo per la prima occorrenza di una sezione. Ad esempio, è possibile iniziare solo il primo capitolo da 1 e continuare i numeri di pagina per gli altri capitoli.
@@ -165,7 +166,6 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
 1. Modificate la proprietà Visualizza rotazione (View Rotation) per eseguire il rendering del contenuto in senso orario di 90°.
 
    1. Selezionare **90°** in senso orario dall&#39;elenco a discesa Visualizza rotazione.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Fai clic su **Salva tutto** per salvare le proprietà di layout della pagina aggiornate.
@@ -180,11 +180,9 @@ Per eseguire le attività sopra indicate, effettua le seguenti operazioni:
       Il foglio di stile Layout è aperto per la modifica.
 
    1. Fai clic con il pulsante destro del mouse su **Altri stili** e scegli **Nuovo stile**.
-
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Nel popup Aggiungi stile immettere **stile orizzontale** in **classname**.
-
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Fai clic su **Fine**.
@@ -440,7 +438,6 @@ Nell’esempio seguente, nell’area del piè di pagina di un layout di pagina v
    1. Nel pannello di destra, fai clic su **Proprietà contenuto** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Espandi la sezione delle proprietà **Layout** e imposta il valore della proprietà **Float** su **right**.
-
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Il campo Titolo capitolo è allineato sul lato destro del piè di pagina della pagina.

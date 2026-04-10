@@ -5,7 +5,8 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -26,4 +27,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 >
 > Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
 
-**Argomento padre:**&#x200B;[&#x200B; Configura nomi file](conf-file-names.md)
+**Argomento padre:**[ Configura nomi file](conf-file-names.md)

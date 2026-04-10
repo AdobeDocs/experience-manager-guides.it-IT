@@ -1,22 +1,24 @@
 ---
-title: Migrazione dei contenuti da on-premise a Cloud Service
-description: Scopri come migrare il contenuto dal software on-premise ai Cloud Service
+title: Migrazione dei contenuti da On-Premise a Cloud Services
+description: Scopri come migrare i contenuti dal software on-premise ai Cloud Services
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 1%
 
 ---
 
-# Migrazione dei contenuti da locale a Cloud Service
+# Migrazione dei contenuti da On-Premise a Cloud Service
 
 Experience Manager as a Cloud Service fornisce una base tecnologica scalabile, sicura e agile per Experience Manager Guides, Assets, Forms e Screens. Questo consente agli addetti al marketing e ai professionisti IT di concentrarsi sulla distribuzione di esperienze significative su larga scala.
-Ad Experience Manager as a Cloud Service, i team possono concentrarsi sull’innovazione invece di pianificare gli aggiornamenti dei prodotti. Le nuove funzioni dei prodotti vengono testate in modo approfondito e distribuite ai team senza interruzioni, in modo che possano sempre accedere all’ultima versione di Adobe Experience Manager.
+Con Experience Manager as a Cloud Service, i team possono concentrarsi sull’innovazione invece di pianificare gli aggiornamenti di prodotto. Le nuove funzioni dei prodotti vengono testate in modo approfondito e distribuite ai team senza interruzioni, in modo che possano sempre accedere all’ultima versione di Adobe Experience Manager.
 
-Questo articolo fornisce una procedura dettagliata per la migrazione dei contenuti Experience Manager Guides on-premise o Managed Services ai Cloud Service, garantendo una transizione senza intoppi alla piattaforma basata su cloud.
+Questo articolo fornisce un processo dettagliato e dettagliato per la migrazione dei contenuti Experience Manager Guides on-premise o Managed Services a Cloud Services, garantendo una transizione fluida alla piattaforma basata su cloud.
 
 ## Prerequisiti
 
@@ -41,7 +43,7 @@ Puoi scaricare lo **strumento Content Transfer** come file ZIP dal portale **Sof
 
 ![scarica strumento di trasferimento contenuti](./assets/content-transfer-tool-software-portal.png)
 Quindi installa il pacchetto tramite **Gestione pacchetti** nell&#39;istanza Adobe Experience Manager di origine. Assicurati di scaricare la versione più recente.
-Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=it).
+Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -51,7 +53,7 @@ Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla ver
 
 
 
-Per migrare i contenuti Experience Manager Guides a Experience Manager as a Cloud Service, effettua le seguenti operazioni.
+Per migrare i contenuti Experience Manager Guides ad Experience Manager as a Cloud Service, effettua le seguenti operazioni.
 
 1. Accedi a [experience.adobe.com](https://experience.adobe.com/) e seleziona **Experience Manager**.
 
@@ -129,7 +131,7 @@ o
 
 1. Fai clic su **Salva**
 1. Seleziona il **set di migrazione**, quindi seleziona **Estrai** nella parte superiore.
-   ![estrazione set di migrazione &#x200B;](./assets/migration-extract.png)
+   ![estrazione set di migrazione ](./assets/migration-extract.png)
 
 1. Verifica i dettagli nella finestra a comparsa **Estrazione set di migrazione** per i percorsi e le configurazioni selezionati e fai clic su **Estrai**. L’estrazione richiederà alcuni minuti e lo stato verrà visualizzato come aggiornato.
    ![estrazione set di migrazione](./assets/migration-set-extraction.png)
@@ -150,27 +152,27 @@ Per ulteriori informazioni, selezionare i tre punti, quindi selezionare **Visual
 
    ![nuova acquisizione](./assets/migration-new-ingestion.png)
 
-## Eseguire lo strumento Content Transfer (Trasferimento contenuti) su un’istanza di Publish
+## Eseguire lo strumento Content Transfer (Trasferimento contenuti) su un’istanza di pubblicazione
 
 Installa lo strumento Content Transfer (Trasferimento contenuti) sull’istanza Publish di origine per spostare il contenuto nell’istanza Publish di destinazione.
-Lo strumento Content Transfer (Trasferimento contenuti) non distingue tra contenuto pubblicato e non pubblicato al momento dell’acquisizione del contenuto in un ambiente Publish. Il contenuto specificato nel set di migrazione viene acquisito nell’istanza di destinazione selezionata. L’utente può acquisire un set di migrazione in un’istanza Author, Publish o in entrambe.
+Lo strumento Content Transfer (Trasferimento contenuti) non distingue tra contenuto pubblicato e non pubblicato durante l’acquisizione del contenuto in un ambiente di pubblicazione. Il contenuto specificato nel set di migrazione viene acquisito nell’istanza di destinazione selezionata. L’utente può acquisire un set di migrazione in un’istanza Author, Publish o entrambe.
 
 ### Approccio consigliato
 
 Prendi in considerazione le seguenti raccomandazioni:
 
 * Utilizzare la stessa versione dello **strumento Content Transfer** utilizzato nell&#39;istanza Autore.
-* Durante l’acquisizione in Publish, il livello Publish non verrà ridotto (a differenza dell’authoring).
-* Eseguire la migrazione di un solo nodo Publish. Prima di iniziare l’estrazione, rimuovilo dal load balancer.
+* Durante l’acquisizione in Publish, il livello di pubblicazione non viene ridotto (a differenza dell’autore).
+* Esegui la migrazione di un solo nodo Publish. Prima di iniziare l’estrazione, rimuovilo dal load balancer.
 
 >[!NOTE]
 >
-> Come precauzione, accertati che non si verifichino operazioni di scrittura sulle istanze di Publish, incluse le azioni avviate dall’utente come:
+> Come precauzione, accertati che non si verifichino operazioni di scrittura sulle istanze Publish, incluse le azioni avviate dall&#39;utente come:
 > * Distribuzione dei contenuti da AEM as a Cloud Service Author a Publish in tale ambiente
-> * Sincronizzazione utenti tra istanze di Publish
+> * Sincronizzazione utenti tra istanze di pubblicazione
 
 
-## Risoluzione dei problemi
+## Risoluzione di problemi
 
 Se l’estrazione non riesce a causa del seguente errore, puoi risolvere il problema importando il certificato CA pertinente:
 
@@ -185,7 +187,3 @@ Se l’estrazione non riesce a causa del seguente errore, puoi risolvere il prob
 
 
 *Abilita registrazione SSL.*
-
-
-
-

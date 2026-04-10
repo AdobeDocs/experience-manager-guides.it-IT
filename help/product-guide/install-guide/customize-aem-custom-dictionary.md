@@ -1,24 +1,25 @@
 ---
-title: Personalizzare il dizionario predefinito dell’AEM
-description: Scopri come personalizzare il dizionario predefinito dell’AEM
+title: Personalizzare il dizionario predefinito di AEM
+description: Scopri come personalizzare il dizionario predefinito di AEM
 exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Personalizzare il dizionario predefinito dell’AEM {#id209SD8000WU}
+# Personalizzare il dizionario predefinito di AEM {#id209SD8000WU}
 
-L’editor web può essere configurato per utilizzare il correttore ortografico AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico dell&#39;AEM, si ottiene la flessibilità necessaria per definire l&#39;elenco di parole personalizzato. Queste parole personalizzate vengono quindi aggiunte al dizionario dell’AEM e non vengono contrassegnate come \(as correct\) nell’editor Web.
+L’editor web può essere configurato per utilizzare il correttore ortografico di AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico di AEM, è possibile definire l&#39;elenco di parole personalizzato in modo flessibile. Queste parole personalizzate vengono quindi aggiunte al dizionario di AEM e non vengono contrassegnate come \(as correct\) nell’editor Web.
 
 Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effettuare le seguenti operazioni:
 
-1. Accedi all’AEM e apri la modalità CRXDE Liti.
+1. Accedi ad AEM e apri la modalità CRXDE Lite.
 
 1. Passa al seguente nodo:
 
@@ -37,4 +38,4 @@ Per creare un elenco di parole personalizzato aggiunto nel dizionario AEM, effet
 
 Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

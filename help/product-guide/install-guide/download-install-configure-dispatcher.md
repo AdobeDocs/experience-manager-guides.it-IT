@@ -5,10 +5,11 @@ exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -18,11 +19,11 @@ Se prevedi di utilizzare un’istanza Dispatcher su AEM Author insieme ad AEM Gu
 
 >[!NOTE]
 >
-> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull&#39;utilizzo di Dispatcher, vedere [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=it).
+> Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli sull&#39;utilizzo di Dispatcher, vedere [Panoramica di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Abilitare AllowEncodedSlashes negli URL
 
-Gli URL con barre codificate non sono abilitati per impostazione predefinita nella configurazione del dispatcher AEM, ma mentre lavori in AEM Guides devi abilitarli. A questo scopo, è necessario impostare il parametro AllowEncodedSlashes su On nella configurazione di Apache, come illustrato nel seguente snippet:
+Gli URL con barre codificate non sono abilitati per impostazione predefinita nella configurazione di AEM Dispatcher, ma è necessario abilitarli mentre si lavora in AEM Guides. A questo scopo, è necessario impostare il parametro AllowEncodedSlashes su On nella configurazione di Apache, come illustrato nel seguente snippet:
 
 ```XML
 <VirtualHost *:80>
@@ -41,7 +42,7 @@ Gli URL con barre codificate non sono abilitati per impostazione predefinita nel
 
 ## Configurare il file mime.types per DITA
 
-Quando si utilizza un Dispatcher con AEM Guides, è necessario assicurarsi che i file mappa e argomento DITA vengano sottoposti a rendering come HTML per consentire agli autori di visualizzare il contenuto come previsto \(anziché in formato testo non elaborato\).
+Quando si utilizza un Dispatcher con AEM Guides, è necessario assicurarsi che i file di mappa e argomenti DITA vengano riprodotti come HTML affinché gli autori possano visualizzare il contenuto come previsto \(anziché in formato testo non elaborato\).
 
 Per aggiornare il file mime.types, effettua le seguenti operazioni:
 
@@ -81,4 +82,4 @@ Quando utilizzi un Dispatcher con AEM Guides, se l’istanza Autore ha in primo 
                 }
 ```
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

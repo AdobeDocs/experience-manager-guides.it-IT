@@ -1,11 +1,12 @@
 ---
-title: Funzionalità nativa di PDF Publish | Utilizzare gli stili delle barre di modifica personalizzati
+title: Funzione di pubblicazione nativa di PDF | Operazioni con stili di barre di modifica personalizzati
 description: Scopri come applicare gli stili sulle barre di modifica.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Utilizzare gli stili delle barre di modifica personalizzati
 
-Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. AEM Guides consente di visualizzare una barra di modifica a sinistra del contenuto modificato all’interno di argomenti e anche gli argomenti modificati nel sommario dell’output PDF.
+Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. AEM Guides consente di visualizzare una barra di modifica a sinistra del contenuto modificato all’interno di argomenti e anche gli argomenti modificati nel sommario dell’output di PDF.
 
-Per ulteriori dettagli sulla visualizzazione della barra delle modifiche, vedere l&#39;impostazione *Crea PDF con barra di modifica tra versioni pubblicate* in [Output di Publish PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori dettagli sulla visualizzazione della barra delle modifiche, vedere l&#39;impostazione *Crea PDF con barra delle modifiche tra le versioni pubblicate* in [Pubblica output PDF](../web-editor/native-pdf-web-editor.md).
 
 ## Contenuto modificato negli argomenti
 
@@ -46,7 +47,7 @@ La barra delle modifiche viene visualizzata a sinistra del contenuto negli argom
 ...
 ```
 
-Analogamente, è possibile utilizzare lo stile `.deleted-block` per definire la modalità di visualizzazione del contenuto eliminato nell&#39;output PDF pubblicato.
+Allo stesso modo, è possibile utilizzare lo stile `.deleted-block` per definire la modalità di visualizzazione del contenuto eliminato nell&#39;output PDF pubblicato.
 
 ```css
 ...

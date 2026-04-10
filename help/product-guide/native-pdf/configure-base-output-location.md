@@ -4,7 +4,9 @@ description: Configurare la posizione di output di base per l'output di pubblica
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -28,5 +30,3 @@ Per configurare la posizione di output di base, effettuare le seguenti operazion
 1. Aggiorna la proprietà **Posizione output di base** per specificare il percorso predefinito nell&#39;archivio AEM in cui verrà salvato PDF dopo la pubblicazione. Inoltre, se viene immesso un percorso non valido, verrà automaticamente ripristinato il percorso predefinito: /content/dam/fmdita-outputs.
 
 1. Fai clic su **Salva**.
-
-

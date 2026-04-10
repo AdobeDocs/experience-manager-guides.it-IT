@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -26,13 +27,13 @@ Per scaricare e installare AEM Guides per la prima volta in un computer, effettu
    >
    >Prima di installare Experience Manager Guides, assicurati che il tuo sistema soddisfi i [requisiti tecnici](../install-guide/download-install-technical-requirements.md).
 
-1. Accedi all’istanza dell’AEM e passa a Gestione pacchetti CRX. L’URL predefinito per accedere al gestore di pacchetti è:
+1. Accedi all’istanza di AEM e passa a Gestione pacchetti CRX. L’URL predefinito per accedere al gestore di pacchetti è:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione AEM.
+   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione di AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -40,7 +41,7 @@ Per scaricare e installare AEM Guides per la prima volta in un computer, effettu
 
 1. Nella finestra di dialogo Carica pacchetto, individua il file AEM Guides scaricato al passaggio 1 e fai clic su **OK**.
 
-   Il pacchetto viene caricato nell’istanza AEM.
+   Il pacchetto viene caricato nella tua istanza di AEM.
 
 1. Per installare il pacchetto, fare clic su **Installa**.
 
@@ -53,6 +54,6 @@ Per scaricare e installare AEM Guides per la prima volta in un computer, effettu
 
 >[!NOTE]
 >
-> Eseguire la procedura di installazione su tutte le istanze dei server AEM presenti nella configurazione.
+> Esegui la procedura di installazione su tutte le istanze dei server AEM presenti nella configurazione.
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

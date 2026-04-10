@@ -5,7 +5,8 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Configurare la generazione di PDF con argomento singolo {#id22ADC70M0XA}
 
-Con AEM Guides, puoi generare le PDF di singoli argomenti o di un intero file di mappa. È possibile pubblicare gli argomenti in formato PDF utilizzando il metodo nativo PDF o DITA-OT. Utilizza il metodo PDF nativo per generare un output PDF ricco di funzioni basato sugli standard W3C CSS3 e CSS paged media. È possibile utilizzare il metodo DITA-OT per generare un output PDF per una mappa dal dashboard delle mappe.
+Con AEM Guides, puoi generare il PDF di singoli argomenti o di un intero file di mappa. È possibile pubblicare gli argomenti in formato PDF utilizzando il metodo nativo PDF o DITA-OT. Utilizza il metodo PDF nativo per generare un output PDF ricco di funzioni basato sugli standard W3C CSS3 e CSS paged media. È possibile utilizzare il metodo DITA-OT per generare un output PDF per una mappa dal dashboard delle mappe.
 
 >[!NOTE]
 >
-> Native PDF è il metodo predefinito per generare un PDF nella versione corrente di AEM Guides.
+> PDF nativo è il metodo predefinito per generare un PDF nella versione corrente di AEM Guides.
 
 Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità di anteprima dell&#39;argomento, effettuare le seguenti operazioni:
 
@@ -57,6 +58,6 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 
 1. Salva il file e caricalo.
 
-Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor Web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
+Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

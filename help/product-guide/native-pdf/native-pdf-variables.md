@@ -1,11 +1,12 @@
 ---
-title: PDF nativo | Utilizzare le variabili nell’output di PDF
+title: PDF nativo | Utilizza variabili nell’output PDF
 description: Utilizzare le variabili nei modelli di output e di output di PDF
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
@@ -25,15 +26,15 @@ Per creare una variabile, effettua le seguenti operazioni:
 *Creare variabili e definirne i valori.*
 
 
-1. Nell&#39;editor, vai al pannello a sinistra e seleziona **Variabili** <img alt= "icona variabile" src="./assets/variables-icon.svg" width="25">. Questa opzione è disponibile nella sezione Altro.
-1. Seleziona **Modifica** <img alt= "Modifica icona matita" src="./assets/edit_pencil_icon.svg" width="25"> per aprire l&#39;editor **Variabili**.
+1. Nell&#39;editor, passa al pannello a sinistra e seleziona **Variabili** <img alt= "icona variabile" src="./assets/variables-icon.svg" width="25">. Questa opzione è disponibile nella sezione Altro.
+1. Seleziona **Modifica** <img alt= "Icona Modifica matita" src="./assets/edit_pencil_icon.svg" width="25"> per aprire l&#39;editor **Variabili**.
 Le variabili sono elencate in ordine alfabetico.
 1. Immettere il nome della variabile nella colonna **Nome** e il relativo valore nella colonna **Valore**.
    >[!TIP]
    >
-   >Puoi utilizzare qualsiasi contenuto HTML come valore di variabile per visualizzare il valore della variabile in una formattazione specifica. Ad esempio, è possibile aggiungere un `<b>` tag al valore della variabile per visualizzare il valore **Experience Manager Guide** in grassetto. È inoltre possibile aggiungere immagini dal archivio come valori.
+   >Puoi utilizzare qualsiasi contenuto HTML come valore di variabile per visualizzare il valore della variabile in una formattazione specifica. È ad esempio possibile aggiungere un tag `<b>` al valore della variabile per visualizzare il valore **Experience Manager Guides** in grassetto. È inoltre possibile aggiungere immagini dall’archivio come valori.
 
-1. Seleziona **Aggiungi variabile** <img alt= "Aggiungi icona" src="./assets/add-icon.svg" width="25"> per aggiungere una nuova variabile. Non è possibile creare una variabile con lo stesso nome di una variabile esistente. Viene visualizzato un errore.
+1. Seleziona **Aggiungi variabile** <img alt= "Icona Aggiungi" src="./assets/add-icon.svg" width="25"> per aggiungere una nuova variabile. Non è possibile creare una variabile con lo stesso nome di una variabile esistente. Viene visualizzato un errore.
 
    >[!NOTE]
    >
@@ -110,16 +111,16 @@ Il nome predefinito della variabile è `<selected variable name>` (ad esempio &q
 1. Seleziona una variabile nel pannello **Variabili**.
 1. Passa il puntatore del mouse sulla variabile per visualizzare il menu **Opzioni**, quindi seleziona l&#39;opzione **Elimina**.
 
-**Dalle variabili editor**
+**Dall&#39;editor variabili**
 
-1. Passare il puntatore del mouse sulla variabile nell&#39;elenco per visualizzare il **menu Opzioni** .
-1. Selezionare **Elimina** opzione.
+1. Passa il cursore del mouse sulla variabile nell&#39;elenco per visualizzare il menu **Opzioni**.
+1. Selezionare l&#39;opzione **Elimina**.
 
 La variabile viene eliminata da tutti i set di variabili.
 
 ## Set di variabili per i predefiniti di output
 
-Adobe Experience Manager Guides supporta anche i set di variabili, che consentono di assegnare alle variabili valori alternativi. Ad esempio, un’azienda può vendere due prodotti, A e B. Ha specifiche diverse per ciascuno di essi. Queste specifiche potrebbero includere il nome del prodotto, il numero di versione e la data di rilascio. Ci possono essere altre differenze in branding. Utilizzando i set di variabili, è possibile definire un diverso insieme di valori per le variabili. Quando si genera l&#39;output, si sceglie il set di variabili appropriato e si produce l&#39;output richiesto.
+Adobe Experience Manager Guides supporta anche i set di variabili, che consentono di assegnare alle variabili valori alternativi. Ad esempio, un’azienda può vendere due prodotti, A e B. Ha specifiche diverse per ciascuno di essi. Queste specifiche possono includere il nome del prodotto, il numero di versione e la data di rilascio. Ci possono essere altre differenze nel branding. Utilizzando i set di variabili, puoi definire un set di valori diverso per le variabili. Quando generate l&#39;output, scegliete l&#39;insieme di variabili appropriato e create l&#39;output richiesto.
 
 ### Configurare i set di variabili
 
@@ -170,7 +171,7 @@ Ad esempio, è possibile reimpostare il valore della variabile ProductName sul v
 
 ## Utilizzare le variabili nei modelli PDF nativi
 
-È possibile aggiungere variabili durante la generazione dell’output dei documenti di prodotto per renderli portatili e facili da aggiornare. È possibile inserire queste variabili all&#39;interno del layout di pagina visualizzato nelle diverse pagine dei documenti. Ad esempio, è possibile aggiungere la variabile ProductName che viene visualizzata nell&#39;area dell&#39;intestazione del layout di pagina (o in qualsiasi altra parte come il piè di pagina o il corpo).
+È possibile aggiungere variabili durante la generazione dell’output dei documenti di prodotto per renderli portatili e facili da aggiornare. È possibile inserire queste variabili all&#39;interno del layout di pagina visualizzato nelle diverse pagine dei documenti. È ad esempio possibile aggiungere la variabile ProductName visualizzata nell&#39;area di intestazione del layout di pagina o in qualsiasi altra parte, ad esempio il piè di pagina o il corpo.
 
 
 
@@ -194,7 +195,7 @@ Per inserire una variabile come ProductName nell&#39;area dell&#39;intestazione,
    1. Seleziona **Inserisci variabile/campi** <img alt= "icona variabile" src="./assets/variables-icon.svg" width="25">.
    1. Nella finestra di dialogo **Variabile** selezionare il nome della variabile per inserirla nell&#39;area dell&#39;intestazione.
    1. È inoltre possibile immettere la stringa di ricerca nella casella di testo. I nomi delle variabili contenenti la stringa specificata vengono filtrati e visualizzati nell’elenco. La variabile selezionata viene inserita nell’area dell’intestazione. Puoi visualizzare il valore predefinito della variabile.
-   1. Per sostituire una variabile, fare doppio clic sul valore della variabile e selezionare un&#39;altra **variabile dalla finestra di dialogo Variabile** . La variabile viene sostituita.
+   1. Per sostituire una variabile, fare doppio clic sul valore della variabile e selezionare un&#39;altra variabile dalla finestra di dialogo **Variabile**. La variabile viene sostituita.
 
 
 ## Genera output PDF con variabili
@@ -207,13 +208,13 @@ Puoi generare l’output PDF con i valori di variabili diverse. Prima di generar
 
 >[!NOTE]
 >
-> È inoltre possibile selezionare (Predefinito) dal menu a discesa per pubblicare i valori predefiniti per tutte le variabili.
+> Puoi anche selezionare (Predefinito) dal menu a discesa per pubblicare i valori predefiniti per tutte le variabili.
 
-A seconda del set di variabili scelto, si otterrà un output corrispondente ai valori delle variabili definiti nel set di variabili. Ad esempio, se si seleziona il set *di variabili Adobe Systems-set1*, l&#39;output visualizza i valori delle variabili definiti in questo set.
+A seconda del set di variabili scelto, otterrai un output corrispondente ai valori delle variabili definiti nel set di variabili. Se ad esempio si seleziona il set di variabili *Adobe-set1*, nell&#39;output verranno visualizzati i valori delle variabili definiti in questo set.
 
 
 <img src="assets/variable-pdf-output.png" alt="Output PDF con variabili" width="500" border="2px">
 
-*Generare l&#39;output PDF utilizzando le variabili nel layout di pagina.*
+*Genera l&#39;output di PDF utilizzando le variabili nel layout di pagina.*
 
 Potete anche aggiornare rapidamente i valori di qualsiasi insieme di variabili ogni volta che è necessario e rigenerare l&#39;output. Ad esempio, se è necessario aggiornare i dettagli di una versione, è possibile aggiornare il valore della versione nella variabile VersionNumber e rigenerare l&#39;output.

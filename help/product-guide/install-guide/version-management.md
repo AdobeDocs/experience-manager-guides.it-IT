@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Per creare una nuova versione del file caricato, effettua le seguenti operazioni
 
    Per impostazione predefinita, questa opzione è disattivata.
 
-   Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione della versione e sovrascrive il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni dell’AEM.
+   Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione della versione e sovrascrive il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni di AEM.
 
 1. Fai clic su **Salva**.
 
@@ -130,7 +131,7 @@ Per impedire agli utenti di eliminare accidentalmente i file estratti da loro o 
 1. Fai clic su **Salva**.
 
 
-Per supportare questa funzione, in `oak:index` è stata aggiunta la nuova proprietà `drivelock` dell&#39;indice:
+Per supportare questa funzione, in `drivelock` è stata aggiunta la nuova proprietà `oak:index` dell&#39;indice:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
@@ -152,7 +153,7 @@ Oltre alla nuova proprietà dell&#39;indice, verificare che le seguenti propriet
 
 ## Impedisci l&#39;eliminazione dei file di riferimento
 
-In qualità di amministratore, puoi controllare chi può eliminare i file dall’archivio AEM. In particolare, se un file contiene riferimenti o vi fa riferimento un altro file, puoi definire chi può eliminare tali file.
+In qualità di amministratore, puoi controllare chi può eliminare i file dal repository di AEM. In particolare, se un file contiene riferimenti o vi fa riferimento un altro file, puoi definire chi può eliminare tali file.
 
 Utilizzando questa configurazione, puoi consentire o vietare a tutti gli utenti di eliminare i file, oppure consentire solo a un gruppo di utenti specifico di eliminare i file. Se è consentita l’eliminazione del file, viene seguito il seguente processo:
 
@@ -212,7 +213,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.

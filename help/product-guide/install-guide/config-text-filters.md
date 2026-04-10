@@ -5,18 +5,19 @@ exl-id: 180e4ab5-5259-4a00-ac3c-bb1d6814ce0d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Configurare i filtri di testo {#id21BPD0FK0XA}
 
-AEM Guides offre la funzione di cercare testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento chiave.
+AEM Guides fornisce la funzione di ricerca del testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento chiave.
 
-Per impostazione predefinita, è possibile utilizzare alcuni filtri migliorati per eseguire ricerche nei file nell’archivio AEM. È possibile filtrare tutti i file DITA o i file non DITA presenti nel percorso selezionato. È inoltre possibile cercare valori specifici negli attributi degli elementi DITA. È inoltre possibile cercare i file estratti dall&#39;utente specificato.
+Per impostazione predefinita, puoi utilizzare alcuni filtri migliorati per eseguire ricerche nei file nell’archivio AEM. È possibile filtrare tutti i file DITA o i file non DITA presenti nel percorso selezionato. È inoltre possibile cercare valori specifici negli attributi degli elementi DITA. È inoltre possibile cercare i file estratti dall&#39;utente specificato.
 
 >[!NOTE]
 >
@@ -102,4 +103,4 @@ Per configurare i filtri di testo, effettua le seguenti operazioni:
 
 I filtri configurati sono disponibili nel pannello dei filtri.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

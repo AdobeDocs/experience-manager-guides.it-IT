@@ -1,23 +1,24 @@
 ---
-title: Recommendations per l'ottimizzazione delle prestazioni
-description: Scopri Recommendations per l’ottimizzazione delle prestazioni
+title: Consigli per l’ottimizzazione delle prestazioni
+description: Scopri i consigli per l’ottimizzazione delle prestazioni
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations per l&#39;ottimizzazione delle prestazioni {#id213BD0JG0XA}
+# Consigli per l’ottimizzazione delle prestazioni {#id213BD0JG0XA}
 
 ## Configura archivio dati \(Obbligatorio\)
 
 **Qual è la modifica?**
-Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ Escludi /var/dxml da oak:index/lucene.
 > AEM Guides non utilizza mai gli indici Lucene per cercare contenuti nel nodo /var/dxml.
 
 **Quando configurare?**
-Se si sta apportando questa modifica su un nuovo sistema prima di eseguire la migrazione del contenuto, è necessario aggiornare solo oak:index/lucene. In caso contrario, su un sistema esistente in cui il contenuto è già stato migrato, quindi dopo aver apportato la modifica in oak:index/lucene, ricompilare gli indici per Lucene \(*il completamento potrebbe richiedere alcune ore*\).
+Se si apporta questa modifica in un nuovo sistema prima di eseguire la migrazione del contenuto, è necessario aggiornare solo oak:index/lucene. In caso contrario, in un sistema esistente in cui il contenuto è già migrato, quindi dopo aver apportato la modifica in oak:index/lucene, ricompilare gli indici per Lucene \(*che potrebbe richiedere alcune ore per il completamento*\).
 
 **Risultato di questa modifica**
 Questa modifica impedisce al nodo /var/dxml di essere indicizzato e memorizzato nell’archivio segmenti.
@@ -47,11 +48,11 @@ Questa modifica impedisce al nodo /var/dxml di essere indicizzato e memorizzato 
 ## Ottimizzazione della memoria Java \(Obbligatorio\)
 
 **Qual è la modifica?**
-I parametri di avvio della JVM devono essere accuratamente regolati in base all&#39;infrastruttura e alle dimensioni del disco. È consigliabile consultare il supporto Adobe per ottenere assistenza per accedere alla configurazione ideale. Tuttavia, puoi provare autonomamente le seguenti configurazioni:
+I parametri di avvio della JVM devono essere accuratamente regolati in base all&#39;infrastruttura e alle dimensioni del disco. È consigliabile consultare il Supporto Adobe per ottenere assistenza per accedere alla configurazione ideale. Tuttavia, puoi provare autonomamente le seguenti configurazioni:
 
 : imposta la dimensione heap JVM su un minimo di 1/4 della memoria totale disponibile. Utilizzare il parametro `-Xmx<size>` per impostare la dimensione della memoria heap. Impostare il valore per -`Xms` uguale a `-Xmx`.
 
-- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Abilita registro Java GC come:
 
@@ -112,7 +113,7 @@ Impostare la proprietà **Limita pagine del sito AEM nell&#39;heap** in `com.ado
 Questa operazione può essere eseguita in fase di esecuzione tramite la console Felix o tramite la distribuzione del codice.
 
 **Risultato di questa modifica**
-Un numero maggiore di **Limita pagine del sito AEM nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
+Un numero maggiore di **pagine del sito AEM limitate nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

@@ -5,7 +5,8 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
    - Attività
 
-   - Risoluzione dei problemi
+   - Risoluzione di problemi
 
    - Vuoto
 
@@ -190,7 +191,7 @@ Per configurare gli attributi condizionali standard supportati da DITA a livello
 
 1. Fai clic su **Modifica**.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
 1. Immettere **Nome**, **Valore** e **Etichetta** per l&#39;attributo condizionale.
 
@@ -283,7 +284,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    - Fai clic su **Sfoglia** e seleziona un modello da DAM.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
    I modelli selezionati vengono aggiunti all&#39;elenco dei modelli.
 

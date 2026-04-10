@@ -5,7 +5,8 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Per presentare l&#39;etichetta `Note` nell&#39;output di PDF, ad esempio, è pos
 
 >[!NOTE]
 >
-> Se il valore di una variabile non è definito in una lingua particolare, AEM Guides seleziona la stringa dalla lingua dell’interfaccia utente (Interfaccia utente dell’applicazione) come meccanismo di fallback.
+> Se il valore di una variabile non è definito in una lingua particolare, AEM Guides seleziona la stringa dalla lingua dell’interfaccia utente (interfaccia utente dell’applicazione) come meccanismo di fallback.
 >
 > Se non è stato definito il valore nella lingua dell&#39;interfaccia utente, verrà cercata l&#39;inglese (`en_us`), altrimenti verrà scelto il valore inglese (`en`) e verrà visualizzato lo stesso nell&#39;output di PDF.
 
@@ -83,7 +84,7 @@ Puoi anche creare nuove variabili di lingua. È ad esempio possibile creare una 
 
 >[!NOTE]
 >
-> Se non selezioni **Aggiungi variabile di lingua**, la variabile non viene creata e aggiunta all&#39;elenco
+> Se non si seleziona **Aggiungi variabile di lingua**, la variabile non verrà creata e aggiunta all&#39;elenco
 
 ## Esportare e importare variabili di lingua
 
@@ -122,7 +123,7 @@ Le variabili con lo stesso ID vengono importate una volta importato il file. I v
 >[!NOTE]
 > 
 ><ul><li>Se il file non è un file XML o se il file contiene un formato non corretto che non è mappato con le variabili di lingua, viene visualizzato un errore che indica la presenza di un problema con il file XML. 
->&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
+&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
 
 ### Opzioni per una variabile di lingua
 
@@ -130,7 +131,7 @@ Passa il puntatore del mouse sulla variabile per visualizzare il relativo menu *
 
 <img width="550" alt="menu delle opzioni per le variabili di lingua" src="./assets/language-variable-user-options.png">
 
-*Utilizza il menu **Opzioni**&#x200B;per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
+*Utilizza il menu **Opzioni**per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
 
 Puoi visualizzare in anteprima sia le variabili dell’applicazione che quelle dell’utente. Per visualizzare la modalità di visualizzazione del valore della variabile nell&#39;output, selezionare **Anteprima** dal menu **Opzioni** della variabile selezionata.
 Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si elimina una variabile da una lingua, questa viene eliminata automaticamente da tutte le lingue.

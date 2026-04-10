@@ -5,9 +5,10 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ In un ambiente multiuso, è inoltre importante assicurarsi che gli utenti non el
 >
 > Questa configurazione è applicabile solo durante il caricamento dei file.
 
-Per abilitare l&#39;opzione **Crea nuova versione per il file caricato**, effettuare le seguenti operazioni:
+Le schede seguenti forniscono istruzioni per abilitare l&#39;opzione **Crea nuova versione per il file caricato** in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
 1. Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install-additional-config-override.md#) per creare il file di configurazione.
 1. Nel file di configurazione, fornisci i seguenti dettagli di \(property\) per configurare l&#39;opzione **Crea nuova versione per il file caricato**:
@@ -38,7 +39,7 @@ Per abilitare l&#39;opzione **Crea nuova versione per il file caricato**, effett
 
 >[!NOTE]
 >
-> Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione delle versioni e ignora il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni dell’AEM.
+> Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione delle versioni e ignora il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni di AEM.
 
 ## Configura le impostazioni per consentire la modifica dei file estratti
 
@@ -92,7 +93,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 ## Impedisci l&#39;eliminazione dei file di riferimento
 
-In qualità di amministratore, puoi controllare chi può eliminare i file dall’archivio AEM. In particolare, se un file contiene riferimenti o vi fa riferimento un altro file, puoi definire chi può eliminare tali file.
+In qualità di amministratore, puoi controllare chi può eliminare i file dal repository di AEM. In particolare, se un file contiene riferimenti o vi fa riferimento un altro file, puoi definire chi può eliminare tali file.
 
 Utilizzando questa configurazione, puoi consentire o vietare a tutti gli utenti di eliminare i file, oppure consentire solo a un gruppo di utenti specifico di eliminare i file. Se è consentita l’eliminazione del file, viene seguito il seguente processo:
 
@@ -142,7 +143,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.

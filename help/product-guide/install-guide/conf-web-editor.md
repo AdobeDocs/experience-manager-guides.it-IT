@@ -5,7 +5,8 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -36,7 +37,7 @@ AEM Guides è dotato di un potente editor Web che consente agli autori di creare
 
 - [Genera automaticamente ID elemento](auto-generate-ids.md)
 
-- [Personalizzare il dizionario predefinito dell&#39;AEM](customize-aem-custom-dictionary.md)
+- [Personalizzare il dizionario predefinito di AEM](customize-aem-custom-dictionary.md)
 
 - [Configurare i filtri di testo](config-text-filters.md)
 

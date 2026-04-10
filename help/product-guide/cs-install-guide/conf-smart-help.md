@@ -1,13 +1,14 @@
 ---
 title: Configurare la Guida avanzata per la ricerca nel contenuto
 description: Scopri come configurare la Guida avanzata per la ricerca nel contenuto
-source-git-commit: 48f7b38448e821a7ad5931a685dedc95303aea95
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti
 
@@ -27,7 +28,7 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
    ![Collegamenti rapidi](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Crea un nuovo progetto.*
 
-1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per prodotti e tecnologie di Adobe con cui puoi sviluppare applicazioni.
+1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
    ![API di gestione IO](assets/confi-ss-io-management.png)

@@ -5,7 +5,8 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -43,9 +44,9 @@ Per utilizzare WinSCP per caricare i file, effettuare le seguenti operazioni:
 
 ## Usa FrameMaker
 
-Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente in AEM i documenti DITA e di altro FrameMaker esistenti \(.book e .fm\). Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
+Adobe FrameMaker viene fornito con un potente connettore AEM che consente di caricare facilmente in AEM i documenti DITA e FrameMaker esistenti \(.book e .fm\). Puoi utilizzare varie funzionalità di caricamento dei file, ad esempio il caricamento di un singolo file e di una cartella completa con o senza dipendenze \(come riferimenti a contenuti, riferimenti incrociati e elementi grafici\).
 
-Per utilizzare il connettore AEM del FrameMaker per caricare il contenuto, effettua le seguenti operazioni:
+Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effettua le seguenti operazioni:
 
 1. Avvia FrameMaker.
 
@@ -53,9 +54,9 @@ Per utilizzare il connettore AEM del FrameMaker per caricare il contenuto, effet
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
-1. Immettere i dettagli seguenti per connettersi all&#39;archivio AEM:
+1. Immetti i seguenti dettagli per connetterti al repository di AEM:
 
-   - **Nome**: immettere un nome descrittivo per identificare la connessione al server AEM.
+   - **Nome**: immetti un nome descrittivo per identificare la connessione al server AEM.
    - **Server**: immettere l&#39;URL e il numero di porta del server AEM.
 
    - **Nome utente**/**Password**: immettere il nome utente e la password per accedere al server AEM.
@@ -97,7 +98,7 @@ Effettua le seguenti operazioni per controllare i nomi dei file in base a un pat
 Per caricare il contenuto con UUID, puoi utilizzare uno dei seguenti metodi:
 
 - Trascinare i contenuti dal sistema locale.
-- Utilizza il flusso di lavoro **Crea** \> **File** dall&#39;interfaccia utente Assets dell&#39;AEM.
+- Utilizza il flusso di lavoro **Crea** \> **File** dall&#39;interfaccia utente Assets di AEM.
 - Utilizza uno strumento come WinSCP.
 
 Se si utilizza uno strumento come WinSCP, è possibile definire l&#39;azione da eseguire su un file duplicato impostando l&#39;opzione **Sposta il file precedente con lo stesso UUID in una nuova cartella** in configMgr. Questa opzione definisce l’azione eseguita su un file disponibile in un’altra posizione nell’archivio AEM. Questa impostazione è disponibile nel bundle *com.adobe.fmdita.config.ConfigManager* in configMgr.
@@ -106,7 +107,7 @@ Per impostazione predefinita, l&#39;opzione **Sposta il vecchio file con lo stes
 
 **Note aggiuntive sull&#39;utilizzo dei file basati su UUID**:
 
-Durante lo spostamento o la copia di contenuti all’interno dell’archivio AEM devono essere considerati i seguenti punti:
+Durante lo spostamento o la copia di contenuti nell’archivio AEM, è necessario tenere in considerazione i seguenti punti:
 
 - Quando si copiano uno o più file da una posizione a un’altra, viene generato un nuovo UUID per i file privi di UUID. Questo UUID viene aggiunto nei metadati del file.
 
@@ -115,11 +116,11 @@ Durante lo spostamento o la copia di contenuti all’interno dell’archivio AEM
 - Non ci sono due file con lo stesso UUID. A tutti i nuovi file viene assegnato un UUID univoco.
 
 
-Durante lo spostamento o la copia dei contenuti dal sistema locale all’archivio AEM, è necessario tenere in considerazione i seguenti punti:
+Durante lo spostamento o la copia del contenuto dal sistema locale all’archivio AEM, è necessario tenere in considerazione i seguenti punti:
 
 - Se un file viene caricato contemporaneamente da due utenti diversi, il file elaborato successivamente sovrascrive quello precedente. Tuttavia, tale pratica è rara e deve essere evitata.
 
-- Quando estrai il contenuto dall’archivio AEM e apporti modifiche sul sistema locale, assicurati che il nome del file non venga modificato al momento del caricamento.
+- Quando estrai il contenuto dall’archivio di AEM e apporti modifiche sul sistema locale, assicurati che il nome del file non venga modificato al momento del caricamento.
 
 
 ## Usa comandi curl
@@ -128,7 +129,7 @@ Puoi anche utilizzare i comandi curl per creare una cartella in DAM, caricare fi
 
 **Crea una cartella**
 
-Esegui il comando seguente per creare una cartella nell’archivio AEM:
+Esegui il seguente comando per creare una cartella nel repository di AEM:
 
 ```curl
 curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server folder path>"
@@ -157,7 +158,7 @@ Specifica i seguenti parametri per caricare un file:
 
 - ``local file path``: percorso completo del file nel sistema locale da caricare.
 
-- `<server folder path>`: percorso completo della cartella sul server AEM in cui si desidera caricare il file.
+- `<server folder path>`: percorso completo della cartella sul server AEM in cui desideri caricare il file.
 
 
 **Aggiungi metadati**
@@ -177,4 +178,4 @@ Specifica i seguenti parametri per aggiungere informazioni sui metadati:
 - `<metadata node path>`: percorso completo della cartella, incluso il nome del file e il relativo nodo di metadati. Ad esempio, se si specifica il percorso come `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, le informazioni sui metadati specificate vengono impostate sul file `intro.xml`.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)

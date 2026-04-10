@@ -1,11 +1,12 @@
 ---
-title: Creazione e personalizzazione di modelli di PDF nativi
+title: Creazione e personalizzazione di modelli PDF nativi
 description: Scopri come creare e personalizzare modelli di PDF nativi.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Modello PDF {#PDF-template}
 
-L’utilizzo di un modello garantisce coerenza nel layout e nella struttura del contenuto. Poiché i modelli sono predefiniti, è possibile evitare la rielaborazione dei problemi di formattazione che si verificano per ogni nuovo progetto o aggiornamento. I modelli consentono di progettare layout di pagina, applicare stili al contenuto e applicare varie impostazioni per personalizzare il PDF.
+L’utilizzo di un modello garantisce coerenza nel layout e nella struttura del contenuto. Poiché i modelli sono predefiniti, è possibile evitare la rielaborazione dei problemi di formattazione che si verificano per ogni nuovo progetto o aggiornamento. I modelli consentono di progettare layout di pagina, applicare stili al contenuto e applicare varie impostazioni per personalizzare PDF.
 
 ## Modelli PDF predefiniti e personalizzati
 
@@ -22,9 +23,9 @@ Sono disponibili alcuni modelli di fabbrica di esempio forniti come predefiniti,
 
 
 
-## Crea un nuovo modello di PDF {#create-pdf-template}
+## Crea un nuovo modello PDF {#create-pdf-template}
 
-È possibile creare modelli di PDF personalizzati con layout di pagina specifici e definire la formattazione per i componenti layout di pagina (come sommario, indice, glossario) o per i componenti DITA (come intestazione, paragrafo, elenco) utilizzando i fogli di stile.
+È possibile creare modelli PDF personalizzati con layout di pagina specifici e definire la formattazione per i componenti layout di pagina (come sommario, indice, glossario) o i componenti DITA (come intestazione, paragrafo, elenco) utilizzando i fogli di stile.
 
 Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
 
@@ -34,7 +35,7 @@ Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
    <img src="assets/create-pdf-template.png" alt="Crea modello PDF" width="400">
 
 1. Nella finestra **Modelli**, seleziona l&#39;icona **+** accanto a **Modelli** e scegli **Modello PDF**.
-1. Nella finestra di dialogo **Nuovo modello PDF** selezionare un modello di fabbrica da utilizzare come base per la creazione del modello personalizzato. È inoltre possibile utilizzare la casella di ricerca per cercare un modello.
+1. Nella finestra di dialogo **Nuovo modello PDF**, selezionare un modello di fabbrica da utilizzare come base per la creazione del modello personalizzato. È inoltre possibile utilizzare la casella di ricerca per cercare un modello.
 1. Specifica un titolo per il modello.
 
    >[!NOTE]
@@ -49,15 +50,15 @@ Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
 
 Se si desidera creare un nuovo modello con gli stessi layout di pagina e la stessa formattazione di un modello esistente, è possibile crearne una copia. Una volta duplicato un modello, puoi personalizzarne ulteriormente i componenti in base alle esigenze.
 
-Per duplicare un modello di PDF esistente, effettua le seguenti operazioni:
+Per duplicare un modello PDF esistente, effettua le seguenti operazioni:
 
 1. Nell&#39;editor Web passare alla scheda **Output**.
 1. Seleziona **Modelli** <img src="./assets/template.svg" alt= "icona modelli" width="25"> nel pannello a sinistra. Verrà aperta la finestra **Modelli**.
 1. Passa il puntatore del mouse sul modello da duplicare e seleziona l&#39;icona **...** *Opzioni* e scegli **Duplica** dal menu di scelta rapida.
 
-   Verrà aperta la finestra di dialogo **Duplica modello PDF**.
+   Verrà aperta la finestra di dialogo **Modello PDF duplicato**.
 
-   <img src="assets/duplicate-template.png" alt="Duplica modello PDF" width="350">
+   <img src="assets/duplicate-template.png" alt="Modello PDF duplicato" width="350">
 
    *Selezionare un modello da duplicare, visualizzare l&#39;anteprima della miniatura e aggiornare il titolo nella finestra di dialogo **Duplica modello PDF**.*
 
@@ -76,9 +77,9 @@ Per duplicare un modello di PDF esistente, effettua le seguenti operazioni:
 
 Puoi anche eseguire le seguenti operazioni sui modelli dal menu **Opzioni**:
 
-<img src="assets/PDF-template-options.png" alt="Duplica modello PDF" width="350">
+<img src="assets/PDF-template-options.png" alt="Modello PDF duplicato" width="350">
 
-### Elimina
+### Eliminare
 
 Selezionare l&#39;opzione Elimina per eliminare il modello selezionato. Quindi, seleziona Sì al prompt di conferma.
 Predefinito rimosso dai **Modelli**.
@@ -93,17 +94,17 @@ Seleziona questa opzione per visualizzare il modello nell’interfaccia utente d
 
 Dopo aver creato il modello personalizzato, puoi sceglierlo tra Layout di pagina nel predefinito di output di PDF.
 
-Scopri come [pubblicare un output di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=it).
+Scopri come [pubblicare un output di PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
->Se nella cartella è configurato un profilo di cartella, verranno visualizzati solo i modelli di PDF configurati nel profilo di cartella.
+>Se nella cartella è configurato un Profilo cartella, verranno visualizzati solo i modelli di PDF configurati nel Profilo cartella.
 
 In base alla configurazione, l’amministratore può configurare i modelli:
 
 +++ Servizi cloud
 
-Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, vedere la sezione [Configurare i modelli](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) nella guida all&#39;installazione e alla configurazione per i Cloud Service.
+Per informazioni dettagliate sulla configurazione dei profili globali e a livello di cartella, consulta la sezione [Configurare i modelli](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) nella guida all&#39;installazione e alla configurazione di Cloud Services.
 
 +++
 
@@ -147,14 +148,14 @@ Per personalizzare un modello di PDF, effettuare le seguenti operazioni:
 
    * Fogli di stile: le impostazioni nella sezione Fogli di stile consentono di personalizzare l’aspetto dei componenti di layout di pagina come il sommario, l’indice, il glossario, le citazioni e altro ancora. È inoltre possibile personalizzare gli stili per il contenuto DITA, ad esempio intestazioni, paragrafi, elenchi e altro ancora. Per ulteriori informazioni sull&#39;utilizzo dei fogli di stile, vedere [Utilizzare i fogli di stile per personalizzare PDF](components-pdf-template.md#stylesheet-customization).
    * Risorse: archivia i file di risorse necessari per personalizzare o progettare modelli di PDF. Assets, come loghi, font personalizzati, immagini di sfondo e altro ancora, è memorizzato nelle Risorse.
-Puoi inoltre utilizzare le risorse presenti in qualsiasi altra posizione nell’archivio. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli di PDF nativi.
+Puoi inoltre utilizzare le risorse presenti in qualsiasi altra posizione nell’archivio. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli PDF nativi.
 
      Per ulteriori informazioni sull&#39;utilizzo delle risorse, vedere [Utilizzare le risorse](components-pdf-template.md#work-with-resources).
 
-   * Impostazioni: configura le impostazioni di output per la generazione di un PDF utilizzando il modello. Questa sezione ti consente di definire la mappatura dei modelli per varie pagine di un PDF, pagina iniziale del capitolo, marcatori di stampa, citazioni e altro ancora.
+   * Impostazioni: configura le impostazioni di output per la generazione di un PDF utilizzando il modello. Questa sezione consente di definire la mappatura dei modelli per varie pagine di un PDF, la pagina iniziale del capitolo, i marcatori di stampa, le citazioni e altro ancora.
 
-   Puoi anche impostare l’ordine in cui devono essere visualizzate nell’output PDF finale.
-Per ulteriori informazioni sull&#39;applicazione delle impostazioni, vedere [Impostazioni PDF avanzate](components-pdf-template.md#advanced-pdf-settings).
+   Puoi anche impostare l’ordine in cui devono essere visualizzate nell’output finale di PDF.
+Per ulteriori informazioni sull&#39;applicazione delle impostazioni, vedere [Impostazioni avanzate di PDF](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Per personalizzare un componente modello, fai doppio clic su un componente modello o seleziona l’icona > prima di esso.

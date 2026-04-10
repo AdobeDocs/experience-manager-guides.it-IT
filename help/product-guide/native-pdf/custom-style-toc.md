@@ -1,11 +1,12 @@
 ---
-title: Funzionalità nativa di PDF Publish | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
+title: Funzione di pubblicazione nativa di PDF | Applica uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Vediamo come ciascuno di questi scenari può essere definito nel CSS. Nella segu
 …
 ```
 
-Questa definizione controlla il colore del testo nel sommario e il titolo dell&#39;argomento. Nell&#39;output PDF riportato di seguito viene illustrato il diverso colore applicato alla voce del sommario:
+Questa definizione controlla il colore del testo nel sommario e il titolo dell&#39;argomento. Nell&#39;output di PDF riportato di seguito viene illustrato il diverso colore applicato alla voce del sommario:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 

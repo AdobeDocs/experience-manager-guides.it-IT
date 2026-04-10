@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Adobe Experience Manager Guides fornisce la funzione di creare una mappatura bas
 
 Experience Manager Guides converte l’argomento completo in HTML che può quindi essere mappato ai componenti core utilizzati nel frammento di esperienza. Ad esempio, è possibile mappare il contenuto di un tag `<p>` per creare un componente di testo nel frammento di esperienza.
 * `name`: specificare l&#39;elemento HTML. Ad esempio, `<div>`, `<img>`
-* `class`: specificare il tag elemento DITA corrispondente all&#39;elemento HTML. Ad esempio, `<p>` `<image>`
+* `class`: specificare il tag dell&#39;elemento DITA corrispondente all&#39;elemento HTML. Ad esempio, `<p>` `<image>`
 * `resourceType`: specificare il tipo di risorsa applicabile per il componente utilizzato nel frammento di esperienza. Ad esempio, `wcm/foundation/components/text` è il resourceType per il componente wcm `text`.
 * `attributeMap`: fornire ulteriori informazioni al componente, ad esempio se un componente testo deve essere renderizzato come `RichText` o contiene `fileReference` di un componente immagine.
 
@@ -159,4 +160,4 @@ File di esempio:
 
 Durante la pubblicazione dei frammenti esperienza dall&#39;editor Web, selezionare `Template` dal menu a discesa nella finestra di dialogo **Genera frammento esperienza** per visualizzare il mapping disponibile per il modello nel campo **Mapping**. Se non è presente alcuna mappatura personalizzata per un modello, viene elencata la mappatura predefinita. Puoi utilizzare la mappatura predefinita per pubblicare l’intero argomento come frammento di esperienza.
 
-Per ulteriori dettagli, visualizza [Frammenti esperienza Publish](../user-guide/publish-experience-fragment.md).
+Per ulteriori dettagli, visualizza [Pubblica frammenti esperienza](../user-guide/publish-experience-fragment.md).

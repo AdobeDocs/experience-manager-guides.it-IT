@@ -5,7 +5,8 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 Experience Manager Guides viene fornito con lo strumento **Origini dati** che consente di configurare connettori predefiniti per le origini dati. È possibile impostare i connettori client JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch e REST generico.
 
 
-Oltre a questi connettori predefiniti, Experience Manager Guides fornisce i connettori per le origini dati Salsify, Akeneo e ADO (Microsoft Azure DevOps Board). Puoi scaricare e installare questi connettori open-source dall&#39;[archivio centrale Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Gli utenti possono quindi configurare questi connettori.
+Oltre a questi connettori predefiniti, Experience Manager Guides fornisce i connettori per le origini dati Salsify, Akeneo e Microsoft Azure DevOps Board (ADO). Puoi scaricare e installare questi connettori open-source dall&#39;[archivio centrale Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Gli utenti possono quindi configurare questi connettori.
 Scopri come [installare un connettore open-source](#install-open-source-connector).
 
 
@@ -85,7 +86,7 @@ Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse 
 
 Per pubblicare una dipendenza presente nell&#39;archivio centrale [Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) in Cloud Services, è necessario includere e incorporare la dipendenza per un connettore open-source.
 
-1. Aggiungi la dipendenza in `all/pom.xml` nel codice del progetto Git di Cloud Manager. Ad esempio, puoi aggiungere la seguente dipendenza per il connettore dell’origine dati delle bacheche DevOps di Microsoft Azure.
+1. Aggiungi la dipendenza in `all/pom.xml` nel codice del progetto Git di Cloud Manager. Ad esempio, puoi aggiungere la seguente dipendenza per il connettore dell’origine dati delle schede madri Microsoft Azure DevOps.
 
 
    ```
