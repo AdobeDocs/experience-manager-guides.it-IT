@@ -4,16 +4,17 @@ description: Scopri come configurare il salvataggio automatico dei file nell’e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 # Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
 
-Una delle funzioni più comuni nell’editor basato su browser è la possibilità di salvare i dati dopo un periodo di tempo specifico. AEM Guides Web Editor supporta anche il salvataggio automatico di file di argomenti e mappe nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
+Una delle funzioni più comuni nell’editor basato su browser è la capacità di salvare i dati dopo un periodo di tempo specifico. AEM Guides Web Editor supporta anche il salvataggio automatico di file di argomenti e mappe nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
 
 La funzione di salvataggio automatico non è abilitata per impostazione predefinita ed è necessario abilitarla utilizzando il file di configurazione per Cloud Service e da `configMgr` per On-Premise.
 
