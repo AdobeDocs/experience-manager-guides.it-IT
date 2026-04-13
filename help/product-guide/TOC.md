@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3233'
 ht-degree: 8%
 
 ---
@@ -188,14 +188,14 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Note sulla versione](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -396,7 +396,7 @@ ht-degree: 8%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -615,7 +615,7 @@ ht-degree: 8%
       - [Ottimizzazione delle prestazioni per on-premise](./install-conf-guide/perf-optimization-on-prem.md)
    - Migrazione dei contenuti {#migrate-content-cs}
       - [Migrare i contenuti esistenti](./install-conf-guide/migrate-content.md)
-      - [Caricare contenuto DITA esistente utilizzando Framemaker e lo strumento WebDav (On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Carica contenuto DITA esistente utilizzando Framemaker e lo strumento WebDav per On-Premise](./install-conf-guide/upload-dita-content.md)
       - [Usa il comando Curl per caricare il contenuto DITA](./install-conf-guide/use-curl-command.md)
       - [Configura pattern file UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
       - [Migrare contenuti non DITA](./install-conf-guide/non-dita-content.md)
