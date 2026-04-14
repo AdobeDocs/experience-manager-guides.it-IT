@@ -4,7 +4,7 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -85,13 +85,13 @@ Per impostazione predefinita, l&#39;editor consente di visualizzare un argomento
 
 
 
-<!--------------------------------------------
+<!--
 
 ***Quick Generate***
 
 Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
---->
+-->
 
 ***Chiudi***: è possibile scegliere tra le opzioni seguenti:
 
@@ -408,4 +408,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

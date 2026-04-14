@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 5.0.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 5.0.0 di Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 5.0.0 di Adobe Experience Manager Guides.
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 5.0.0](../release-info/whats-new-5-0.md).
+Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
-Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 5.0.0](../release-info/fixed-issues-5-0-0.md).
+Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 5.0.0](/help/product-guide/release-info/fixed-issues-5-0-0.md).
 
 ## Matrice di compatibilità
 
@@ -26,7 +26,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 Versione 6.5 Service Pack 22, Service Pack 21 e Service Pack 20
 
-Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide/download-install-technical-requirements.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](/help/product-guide/install-guide/download-install-technical-requirements.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -62,10 +62,10 @@ Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide
 - Se utilizzi le versioni 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l&#39;aggiornamento alla versione 4.4 prima di eseguire l&#39;aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
 >È necessario installare AEM Service Pack prima di aggiornare la versione di Experience Manager Guides.
 
-Per informazioni dettagliate, visualizzare [Istruzioni per l&#39;aggiornamento per le versioni locali](../install-guide/upgrade-xml-documentation.md) di Experience Manager Guides.
+Per informazioni dettagliate, visualizzare [Istruzioni per l&#39;aggiornamento per le versioni locali](/help/product-guide/install-guide/upgrade-xml-documentation.md) di Experience Manager Guides.

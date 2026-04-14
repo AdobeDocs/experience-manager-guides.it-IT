@@ -4,7 +4,7 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2671'
 ht-degree: 0%
@@ -146,7 +146,7 @@ Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività co
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -155,7 +155,7 @@ Visualizza la finestra di dialogo **Inserisci elemento**. Seleziona l’elemento
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -211,7 +211,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **Contenuto riutilizzabile** - ![](images/reusable-content.svg)
 

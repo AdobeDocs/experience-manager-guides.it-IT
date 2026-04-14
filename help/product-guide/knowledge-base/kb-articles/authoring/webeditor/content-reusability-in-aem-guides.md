@@ -4,7 +4,7 @@ description: Questo breve articolo spiega in che modo AEM Guides e DITA consento
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -153,13 +153,13 @@ Passaggio 2: una volta aggiunto, trascina e rilascia il frammento che desideri r
 
 ## Domande frequenti
 
-- ### Non viene visualizzato tutto il contenuto dopo la selezione del file o della chiave nella finestra di dialogo Riutilizza contenuto
+### Non viene visualizzato tutto il contenuto dopo la selezione del file o della chiave nella finestra di dialogo Riutilizza contenuto
 
 Assegna ID ai frammenti (elementi Dita) che desideri riutilizzare in altri argomenti
 
-- ## Le chiavi non vengono visualizzate nella finestra di dialogo Riutilizza contenuto
+## Le chiavi non vengono visualizzate nella finestra di dialogo Riutilizza contenuto
 
-  Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa, che ha una definizione di chiave, oppure aggiungi manualmente il percorso della mappa principale nella stessa finestra di dialogo.
+Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa, che ha una definizione di chiave, oppure aggiungi manualmente il percorso della mappa principale nella stessa finestra di dialogo.
 
 
 <br>
@@ -167,4 +167,4 @@ Assegna ID ai frammenti (elementi Dita) che desideri riutilizzare in altri argom
 <br>
 
 
-Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=it) della community AEM Guides per qualsiasi domanda.
+Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per qualsiasi domanda.

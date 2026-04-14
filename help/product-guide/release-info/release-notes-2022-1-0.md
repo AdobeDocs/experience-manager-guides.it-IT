@@ -4,7 +4,7 @@ description: Versione di gennaio di  [!DNL Adobe Experience Manager Guides] as a
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 | Versione cloud [!DNL AEM Guides] | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac | Modifica in finestre a ossigeno | Modifica in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Nuove funzioni e miglioramenti
 
@@ -50,7 +48,7 @@ Questa funzione consente agli utenti di creare la mappa DITA in modo additivo e 
 
 ![Pubblicazione basata su articolo](assets/article-based-publishing.png)
 
-Oltre ad AEM, questa funzione esclusiva consente di pubblicare gli articoli su tutti i portali della Knowledge Base, ad esempio Salesforce. Questa funzione viene fornita anche con un modello di contenuto OOTB, basato sui componenti core di AEM, che consente di creare un archivio dei contenuti tecnici basato sulle conoscenze. L’aspetto eccezionale di questo modello è che è completamente personalizzabile in base ai requisiti organizzativi e può supportare anche casi di utilizzo come portali Intranet aziendali.
+Oltre ad AEM, questa funzione esclusiva consente di pubblicare gli articoli su tutti i portali della Knowledge Base, ad esempio Salesforce. Questa funzione viene fornita anche con un modello di contenuto OOTB, basato sui componenti core di AEM, che consente di creare un archivio dei contenuti tecnici basato sulle conoscenze. L&#39;aspetto eccezionale di questo modello è che è completamente personalizzabile in base ai requisiti aziendali e può supportare anche casi di utilizzo come portali Intranet aziendali.
 È inoltre possibile filtrare gli articoli in base allo stato del documento e all&#39;ora di modifica.
 
 Questo articolo on-the-go basato sulle esigenze di pubblicazione non solo offre un controllo completo sulla pubblicazione dei contenuti, ma riduce anche il tempo complessivo di pubblicazione dei contenuti aggiornati.
@@ -197,7 +195,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Dashboard mappa
 
 * Impossibile visualizzare il contenuto di riferimento nel titolo di un argomento nella scheda degli argomenti o dei rapporti della dashboard delle mappe. (8263)
-* Output AEM Sites | jcr:title della pagina del sito generata non viene aggiornato quando viene aggiornato il titolo dell&#39;argomento DITA. (8131)
+* L&#39;output AEM Sites | jcr:title della pagina del sito generata non viene aggiornato quando viene aggiornato il titolo dell&#39;argomento DITA. (8131)
 * Il download di MAP non scarica i file video utilizzati negli argomenti. (8070)
 * I file multimediali non vengono scaricati quando il tag dell’oggetto viene utilizzato tramite l’API di scaricamento della mappa dei libri. (8057)
 * Nella scheda Rapporti viene visualizzato un rapporto errato se un argomento contiene conref to file il cui titolo inizia con conref. (4698)
@@ -236,8 +234,8 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Importazione dei contenuti
 
-* Conversione da HTML a DITA | Una tabella con &quot;tr&quot; con voci &quot;td&quot; vuote causa l’inserimento di righe aggiuntive nell’output. (8132)
-* Conversione da HTML a DITA | Se in HTML è presente una tabella con più tbody, si verifica un errore con un’eccezione. (7940)
+* Conversione da HTML a DITA | La tabella con &#39;tr&#39; con voci &#39;td&#39; vuote causa l&#39;aggiunta di righe nell&#39;output. (8132)
+* Conversione da HTML a DITA | Una tabella con più tbody in HTML non riesce, ad eccezione di. (7940)
 * Conversione da HTML a DITA | si verifica un errore se il HTML di origine contiene commenti. (7937)
 * L&#39;importazione di file DITA 1.3 causa la trasformazione di alcuni href in collegamenti non corretti. (8019)
 

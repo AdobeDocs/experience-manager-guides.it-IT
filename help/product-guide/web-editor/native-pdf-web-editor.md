@@ -4,7 +4,7 @@ description: Scopri come utilizzare la pubblicazione nativa di PDF, creare e gen
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: a6dafe6c634b872001a2b82d9d081b3e52a75b80
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3293'
 ht-degree: 1%
@@ -60,8 +60,7 @@ Consente di specificare le impostazioni di output di base, ad esempio il percors
 | **Usa Base Line** | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Visualizza [Lavora con la linea di base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) per ulteriori dettagli. |
 | **Crea PDF con barra di modifica tra le versioni pubblicate** | Utilizza le seguenti opzioni per creare un PDF che mostri le differenze di contenuto tra due versioni utilizzando le barre di modifica:   <br><ul><li> **Baseline della versione precedente** Scegliere la versione della baseline da confrontare con la versione corrente o con un&#39;altra baseline. In PDF viene visualizzata una barra delle modifiche che indica il contenuto modificato. Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. La barra delle modifiche viene visualizzata a sinistra del contenuto inserito, modificato o eliminato. <br> **Nota**: se si seleziona **Usa baseline** e si sceglie una baseline da pubblicare, il confronto verrà eseguito tra le due versioni della baseline selezionate. Ad esempio, se si sceglie la versione 1.3 della baseline in **Usa la baseline** e la versione 1.1 in **Baseline della versione precedente**, verrà eseguito il confronto tra la versione 1.1 della baseline e la versione 1.3 della baseline. <br><li> **Mostra testo aggiunto** Seleziona questa opzione per mostrare il testo inserito in verde e sottolineato. Questa opzione è selezionata per impostazione predefinita. <br> <li> **Mostra testo eliminato** Selezionare questa opzione per visualizzare il testo eliminato in rosso e contrassegnato con un barrato. Questa opzione è selezionata per impostazione predefinita. <br>**Nota** È inoltre possibile personalizzare lo stile della barra delle modifiche, del contenuto inserito o del contenuto eliminato utilizzando il foglio di stile.<br></ul> |
 | **Lingua** | Seleziona la lingua in cui desideri tradurre l’output. <br> **Nota**: i testi dei riferimenti incrociati, ad esempio &quot;Vedere nel capitolo&quot; o &quot;Vedere a pagina&quot;, sono controllati da una variabile di linguaggio. La variabile utilizza il linguaggio definito nell&#39;argomento tramite l&#39;attributo `xml:lang`. Se non viene specificata alcuna lingua, viene utilizzata la lingua predefinita. Se mancano entrambi, il valore predefinito è Inglese (en_US). |
-
-| **Flusso di lavoro di post-generazione** |Seleziona per visualizzare un elenco a discesa contenente tutti i flussi di lavoro configurati in AEM. Puoi selezionare il flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione PDF.|
+| **Flusso di lavoro di post-generazione** | Seleziona questa opzione per visualizzare un elenco a discesa contenente tutti i flussi di lavoro configurati in AEM. Puoi selezionare il flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione PDF. |
 
 **Metadati**
 
@@ -82,7 +81,7 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
 
 * **Fornisci file XMP**
 
-  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/it/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
+  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
 
 [Scarica](assets/SampleXMP.xmp)
 
@@ -186,13 +185,12 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per l’union
 | **Crea modulo PDF interattivo** | Selezionare questa opzione se si desidera includere campi modulo PDF interattivi e personalizzabili per un input utente avanzato negli output PDF generati. |
 | **Includi modifiche traccia** | Seleziona questa opzione se desideri includere le revisioni nel PDF generato per una facile revisione e confronto. |
 | **Mantieni file temporanei** | Selezionare questa opzione se si desidera conservare i file HTML provvisori creati durante la generazione dell&#39;output PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. I file scaricati includerebbero anche `system_config.xml` file che fornisce informazioni sull&#39;URL dell&#39;autore, sull&#39;URL locale e sull&#39;URL di pubblicazione. Questi URL sono configurati nelle impostazioni di esternalizzazione di AEM e si riflettono nel file `system_config.xml`. |
-| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/it/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Proprietà file** | Seleziona i metadati da passare alla pubblicazione nativa di PDF. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio, `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite, mentre è possibile avere `author` come proprietà personalizzata. Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando PDF nativo. <br> Queste proprietà vengono selezionate dal file `metadataList` disponibile in:`/libs/fmdita/config/metadataList`. <br>Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`. |
 
 
 
-<!--------------
-
+<!--
 
 ### Additional notes for PDF output
 
@@ -217,4 +215,4 @@ Experience Manager Guides also provides support for your Markdown documents.  Ma
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
 
---------------->
+-->

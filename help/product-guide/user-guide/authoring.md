@@ -4,7 +4,7 @@ description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AE
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 13%
@@ -21,7 +21,7 @@ Di seguito sono riportati alcuni concetti chiave della gestione dei contenuti in
 
 **Gestione risorse**
 
-Experience Manager Guides utilizza la gestione delle risorse digitali (DAM\) di Adobe Experience Manager per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in Adobe Experience Manager Assets. Per ulteriori informazioni sulla gestione delle risorse, visualizzare [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it).
+Experience Manager Guides utilizza la gestione delle risorse digitali (DAM\) di Adobe Experience Manager per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in Adobe Experience Manager Assets. Per ulteriori informazioni sulla gestione delle risorse, visualizzare [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Gestione dei collegamenti**
 
@@ -60,29 +60,29 @@ Nella tabella seguente sono elencate le varie attività e i gruppi che possono e
 | Sposta argomento | Sì |   | Sì |
 | Modifica proprietà argomento | Sì |   | Sì |
 | Copia | Sì |   | Sì |
-| Elimina | Sì |   | Sì |
+| Eliminare | Sì |   | Sì |
 | Condividi | Sì |   | Sì |
-| **Stato documento** |
+| **Stato documento** |  |  |  |
 | Crea/modifica profilo stato documento |   |   | Sì |
 | Cambia stato documento[2](#fntarg_2) | Sì | Sì | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Predefiniti di output\)** |  |  |  |
 | Genera |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
 | Creare |   |   | Sì |
 | Elimina predefinito |   |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Output\)** |  |  |  |
 | Visualizza output generato | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Argomenti\)** |  |  |  |
 | Crea attività di revisione | Sì |   | Sì |
 | Modifica | Sì |   | Sì |
-| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |
+| **Funzioni disponibili nella console delle mappe DITA \(scheda Baseline\)** |  |  |  |
 | Creare |   |   | Sì |
 | Modifica |   |   | Sì |
 | Duplica |   |   | Sì |
-| Rimuovi |   |   | Sì |
+| Rimuovere |   |   | Sì |
 | Console mappe DITA \(scheda Rapporti\) | Sì |   | Sì |
-| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |
+| **Funzionalità disponibili nella console delle mappe DITA \(Predefiniti condizione\)** |  |  |  |
 | Crea/modifica predefinito condizione |   |   | Sì |
 
 [1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.

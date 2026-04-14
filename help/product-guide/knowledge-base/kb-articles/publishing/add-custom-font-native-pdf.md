@@ -1,17 +1,18 @@
 ---
-title: Aggiungere caratteri personalizzati a DITA PDF
-description: Ottieni l’integrazione personalizzata dei font per rafforzare l’identità del brand e la coerenza visiva in tutti i contenuti nei PDF DITA nativi.
+title: Aggiungere caratteri personalizzati al PDF DITA
+description: Ottieni l’integrazione dei font personalizzati per rafforzare l’identità del brand e la coerenza visiva in tutti i contenuti nei PDF DITA nativi.
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 518bec870dc07e88a422d889a1c54be26c248799
+exl-id: 151e3b1c-6340-4ff2-84d4-246bc4b68065
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Aggiungere caratteri personalizzati a DITA Native PDF
+# Aggiungere caratteri personalizzati al PDF nativo DITA
 
 ## Questo articolo riguarda:
 
@@ -26,19 +27,19 @@ Questo processo prevede 3 fasi:
 
 ## Passaggio 1: caricare il carattere personalizzato nella cartella delle risorse del modello
 
-![Caricamento font personalizzato e importazione di &#x200B;](../assets/publishing/custom-font1.png)
+![Caricamento font personalizzato e importazione di ](../assets/publishing/custom-font1.png)
 
 ## Passaggio 2: apportare le modifiche necessarie nel foglio di stile dei modelli di PDF
 
-![Carattere nel foglio di stile del modello PDF &#x200B;](../assets/publishing/custom-font2.png)
+![Carattere nel foglio di stile del modello di PDF ](../assets/publishing/custom-font2.png)
 
 ## Passaggio 3 (facoltativo): incorporare il tipo di carattere utilizzato in PDF
 
-![Carattere personalizzato incorporato in DITA PDF &#x200B;](../assets/publishing/custom-font3.png)
+![Carattere personalizzato incorporato in DITA PDF ](../assets/publishing/custom-font3.png)
 
 ## Domande frequenti
 
-- ### Posso utilizzare Adobe Fonts?
+### Posso utilizzare Adobe Fonts?
 
 > Sì, vai su fonts.adobe.com e fai clic su &quot;Aggiungi a progetto web&quot;.
 > 
@@ -49,17 +50,17 @@ Questo processo prevede 3 fasi:
 ![Utilizza il tipo di carattere adobe in DITA PDF](../assets/publishing/custom-font4.png)
 
 
-- ### Il tipo di carattere non è visualizzato in PDF
+### Il carattere non è visualizzato in PDF
 
 > Controlla l&#39;ortografia del nome del carattere (errore più comune)
 >
 > Assicurarsi di incorporare il carattere se i caratteri non sono disponibili nel sistema in cui è aperto PDF
 
-- ## Per eventuali altre richieste, contatta i rispettivi CSM
+## Per eventuali altre richieste, contatta i rispettivi CSM
 
 
 ## Altre risorse:
 
 - [Come includere il sommario di DITA Bookmap in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
 - [Come includere sommario nella pubblicazione PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [Video della sessione di esperti su Native PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+- [Video della sessione di esperti sul PDF nativo](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)

@@ -4,7 +4,7 @@ description: Crea e configura il predefinito AEM Sites nella console Mappa utili
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 0%
@@ -49,9 +49,9 @@ Per creare il predefinito AEM Sites utilizzando la mappatura di componenti compo
    Viene creato il predefinito per AEM Sites.
 
 
-   ![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nuovo ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
-<!-----------------------
+<!--
 ### Generate the AEM Sites output using the templates
 
 Once, the preset is created, you can configure the various options available for AEM Sites output generation. Experience Manager Guides allows you to use the out of the box templates or add your own AEM Sites templates.
@@ -70,7 +70,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
    
    The **Topic page template** is automatically set as `Topic Page`. However, you can choose to select other available options in the dropdown.
 
---->
+-->
 
 ### Configurazione predefinita di AEM Sites per la mappatura di componenti compositi
 
@@ -88,7 +88,7 @@ Nella console Mappa (Map), le opzioni di configurazione predefinite per la mappa
 - Elenco argomenti
 - Riferimenti a mappe incrociate
 
-![Nuovo &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
+![Nuovo ](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Generale**
 
@@ -97,8 +97,8 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
 | Usa percorso del sito | Utilizza questa opzione per pubblicare i contenuti in un sito Experience Manager. |
-| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato.<br><br>È inoltre possibile utilizzare le variabili durante l&#39;impostazione del percorso del sito. Per ulteriori dettagli, visualizzare [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./generate-output-use-variables.md) |
-| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Selezionare il modello da applicare alle home page delle mappe. |
+| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato.<br><br>È inoltre possibile utilizzare le variabili durante l&#39;impostazione del percorso del sito. Per ulteriori dettagli, visualizzare [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./generate-output-use-variables.md) |
+| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Selezionare il modello da applicare alle home page delle mappe. |
 | Sito | Nome del Experience Manager Sites in cui desideri pubblicare il contenuto. Le opzioni nel menu a discesa vengono compilate in base all’elenco dei siti disponibili in AEM Sites. <br>Seleziona **Aggiorna** ![Aggiorna icona](images/navtitle-refresh-icon.svg) per recuperare un nuovo elenco di opzioni e riflettere i dati aggiornati. |
 | Percorso di pubblicazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output. Il Percorso di pubblicazione viene compilato con tutti i percorsi che contengono pagine create in base al modello della home page. L&#39;output AEM Sites della mappa DITA viene generato in questo percorso.  Se ad esempio si specifica il sito come `AEMG-Docs` e il percorso di pubblicazione come `aemg-docs-en/docs/product-abc.`, l&#39;output di AEM Sites verrà generato nel nodo `aemg-docs-en/docs/product-abc/` in `crx/de`. |
 | Modello pagina argomento | Selezionare il modello da applicare a tutti gli argomenti di output. |
@@ -153,7 +153,7 @@ Nella console Mappa, le opzioni di configurazione predefinite per la mappatura d
 - Contenuto
 - Riferimenti a mappe incrociate
 
-![Nuovo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nuovo ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Generale**
 
@@ -171,7 +171,7 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 
 **Contenuto**
 
-![Nuovo &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nuovo ](images/aem-sites-content-tab.png){width="650" align="left"}
 
 La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 
