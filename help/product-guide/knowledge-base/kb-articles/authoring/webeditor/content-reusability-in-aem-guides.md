@@ -167,4 +167,4 @@ Assicurati di aver aperto la mappa principale/mappa principale nella vista mappa
 <br>
 
 
-Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per qualsiasi domanda.
+Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=it) della community AEM Guides per qualsiasi domanda.
