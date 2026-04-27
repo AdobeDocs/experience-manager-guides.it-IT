@@ -4,15 +4,15 @@ description: Scopri come configurare le impostazioni di generazione dell’outpu
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3098'
-ht-degree: 0%
+source-wordcount: '3190'
+ht-degree: 1%
 
 ---
 
-
-# Personalizzare l’output del sito AEM {#id166TG0B30WR}
+# Personalizza output del sito AEM esistente {#id166TG0B30WR}
 
 AEM Guides supporta la creazione di output nei seguenti formati:
 
@@ -98,7 +98,7 @@ Nella tabella seguente sono descritte le proprietà del modello di progettazione
 >
 > Dopo aver creato un nodo del modello di progettazione personalizzato, è necessario aggiornare l’opzione Progettazione nei predefiniti di output del sito AEM per utilizzare il nodo del modello di progettazione personalizzato.
 
-Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=it) sullo sviluppo del tuo sito Web su AEM.
+Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sullo sviluppo del tuo sito Web su AEM.
 
 ## Usa il titolo del documento per generare l&#39;output del sito AEM
 
@@ -363,7 +363,7 @@ Per escludere l&#39;elemento `table` dall&#39;appiattimento, aggiungere la segue
 
 ## Configurare il controllo delle versioni per le pagine eliminate nell’output del sito AEM
 
-Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea **&#x200B;**&#x200B;selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
+Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea ****selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
 
 Le schede seguenti forniscono istruzioni per interrompere la creazione di una versione per le pagine che vengono eliminate in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -409,6 +409,3 @@ Le schede seguenti forniscono istruzioni per interrompere la creazione di una ve
 Experience Manager Guides dispone di un modulo [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) Sling personalizzato per la gestione dei collegamenti generati in caso di mappe incrociate (collegamenti tra gli argomenti di due mappe diverse). La configurazione del rewriter è installata nel percorso seguente: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
 Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un valore `'order'` maggiore di 50, in quanto il rewriter sling di Experience Manager Guides utilizza `'order'` 50.  Per evitare questo problema, è necessario un valore >50. Per ulteriori dettagli, visualizza [Pipeline di riscrittura output](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
-
-

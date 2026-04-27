@@ -4,14 +4,15 @@ description: Scopri come personalizzare i modelli di sito AEM esistenti per AEM 
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# Personalizzare i modelli di sito AEM esistenti
+# Personalizzare nuovi modelli di sito AEM
 
 Questa guida fornisce istruzioni dettagliate per personalizzare modelli di sito AEM esistenti da utilizzare con AEM Guides per generare AEM Sites da mappe e argomenti DITA.
 
@@ -61,7 +62,7 @@ Il modello Pagina contenitore documentazione viene utilizzato per creare la pagi
 - In genere include elementi di navigazione, come collegamenti a sezioni o argomenti all’interno della documentazione.
 - Può essere personalizzato per includere branding, intestazioni, piè di pagina e altri elementi di progettazione.
 
-**Caso d&#39;uso di esempio:**
+**Esempio di utilizzo:**
 Se si dispone di una mappa DITA per un manuale di prodotto, il modello di pagina del contenitore della documentazione genererà la home page per tale manuale, visualizzando una panoramica e i collegamenti ai singoli argomenti.
 
 ### Modello per pagina argomento
@@ -76,7 +77,7 @@ Se si dispone di una mappa DITA per un manuale di prodotto, il modello di pagina
    - Il componente testo si trova in genere all&#39;interno di un **componente Container** per garantire layout e stile corretti.
    - Può essere personalizzato per includere intestazioni, piè di pagina ed elementi di navigazione coerenti in tutte le pagine degli argomenti.
 
-**Caso d&#39;uso di esempio:**
+**Esempio di utilizzo:**
 Se si dispone di un argomento DITA relativo alle &quot;Istruzioni di installazione&quot;, il modello di pagina dell&#39;argomento genererà una pagina che visualizza il contenuto dell&#39;argomento.
 
 **Componente contenitore:**
@@ -139,4 +140,4 @@ Per impostazione predefinita, le librerie client (clientlibs) fornite nel pacche
 
 >[!NOTE]
 >
-> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/it/docs/experience-manager-core-components/using/get-started/authoring).
+> Assicurati che i modelli siano testati in un ambiente non di produzione prima di distribuirli in produzione.<br><br>Per ulteriori informazioni, consulta la documentazione ufficiale di [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) e [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).

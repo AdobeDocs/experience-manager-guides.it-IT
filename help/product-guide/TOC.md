@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3316'
 ht-degree: 8%
 
 ---
@@ -188,14 +188,14 @@ ht-degree: 8%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [4.0.x Note sulla versione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -396,7 +396,7 @@ ht-degree: 8%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - [Nozioni di base on-premise](./install-guide/introduction.md)
@@ -633,7 +633,7 @@ ht-degree: 8%
          - [Configura nomi file](./install-conf-guide/conf-file-names-overview.md)
          - [Configurare nomi di file automatici basati su UUID](./install-conf-guide/auto-uuid-filenames.md)
          - [Configura Regx per i caratteri dei nomi di file validi](./install-conf-guide/file-names-valid-regx.md)
-      - Elaborazione delle risorse {#asset-processing}
+      - Elaborazione risorse {#asset-processing}
          - [Configurare la funzione di elaborazione delle risorse](./install-conf-guide/conf-asset-processing.md)
          - [Configurare la post-elaborazione per una cartella](./install-conf-guide/conf-folder-post-processing.md)
       - [Gestione versioni](./install-conf-guide/version-management.md)
@@ -688,8 +688,8 @@ ht-degree: 8%
       - [Configurare le impostazioni di generazione dell&#39;output](./install-conf-guide/conf-output-generation.md)
       - Configurare le impostazioni di output del sito AEM {#conf-aem-sites-output}
          - [Scaricare e installare modelli AEM Sites](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [Istruzioni generali per personalizzare i modelli di sito AEM esistenti](./install-conf-guide/customize-existing-site-template.md)
-         - [Personalizza nuovo output del sito AEM](./install-conf-guide/customize-aem-site-output.md)
+         - [Istruzioni generali per la personalizzazione di nuovi modelli di sito AEM](./install-conf-guide/customize-existing-site-template.md)
+         - [Personalizza output del sito AEM esistente](./install-conf-guide/customize-aem-site-output.md)
          - [Personalizza la mappatura degli elementi DITA con i componenti AEM per l&#39;output legacy del sito AEM](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [Sovrapponi tag HTML nell’output di AEM Sites per on-premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Configurare nomi di file validi per l’output del sito AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
