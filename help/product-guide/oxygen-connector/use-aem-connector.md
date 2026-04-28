@@ -44,7 +44,7 @@ Una volta installato il programma di installazione, installarlo nel computer loc
 
 >[!IMPORTANT]
 >
->If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article for uninstallation instructions.
+>If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) article for uninstallation instructions.
 
 Perform the following steps on the system where Oxygen XML Author is installed:
 
@@ -78,7 +78,7 @@ Perform the following steps on the system where Oxygen XML Author is installed:
 
 >[!IMPORTANT]
 >
->If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article uninstallation instructions.
+>If you have an older version of the plugin installed on your system, ensure that you uninstall it before starting the installation process. See the **Uninstalling Packages** section in the [How to Work With Packages](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/package-manager.html) article uninstallation instructions.
 
 Perform the following steps on the system where Oxygen XML Author is installed:
 
@@ -117,7 +117,7 @@ As an AEM administrator, perform the following steps to install the package:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentation.
+   The Package Manager manages the packages on your local AEM installation. For more information about working with the Package Manager, see [How to Work With Packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=it) in AEM documentation.
 
    ![Package manager](images/package-manager.png) {width="650" align="left"}
 

@@ -18,7 +18,7 @@ In uno scenario reale, gli autori avrebbero accesso all’istanza di authoring d
 
 >[!NOTE]
 >
-> Per ulteriori dettagli su come impostare l&#39;istanza di authoring e pubblicazione in AEM, vedi [Panoramica sull&#39;architettura di authoring e pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Per ulteriori dettagli su come impostare l&#39;istanza di authoring e pubblicazione in AEM, vedi [Panoramica sull&#39;architettura di authoring e pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=it#prerequisites).
 
 Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. La funzione di attivazione in blocco offre la flessibilità di:
 

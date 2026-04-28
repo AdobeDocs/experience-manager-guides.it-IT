@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I file DITAVAL vengono utilizzati per generare output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi dell’elemento per condizionare il contenuto. Quindi, create un file DITAVAL in cui specificate le condizioni che devono essere selezionate per generare il contenuto e quali condizioni devono essere escluse dall&#39;output finale.
 
-AEM Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tag\) definiti nel sistema ed è possibile utilizzarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, consulta la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di AEM.
+AEM Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi \(o tag\) definiti nel sistema ed è possibile utilizzarli per creare o modificare file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione dei tag in AEM, consulta la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=it) nella documentazione di AEM.
 
 ## Crea file DITAVAL
 
