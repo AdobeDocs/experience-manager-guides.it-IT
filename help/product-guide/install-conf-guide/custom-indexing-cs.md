@@ -4,10 +4,11 @@ description: Scopri come personalizzare il contenuto dell’indice
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
+source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
@@ -208,7 +209,8 @@ La verifica principale consiste nel testare la funzione:
 
 ## Risorse aggiuntive
 
-- [Documentazione sull&#39;indicizzazione di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/operations/indexing)
-- [Guida all&#39;indicizzazione di Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentazione di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides)
+- [Documentazione sull’indicizzazione di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/operations/indexing)
+- [Guida all’indicizzazione di Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [Documentazione di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentazione di Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+
