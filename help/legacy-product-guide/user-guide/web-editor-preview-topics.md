@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -49,53 +49,53 @@ La pagina Proprietà contiene informazioni utili sui riferimenti, ad esempio dov
 
 I riferimenti **Usati in** elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente. **Riferimenti in uscita** elenca i documenti a cui si fa riferimento nel documento corrente.
 
-L&#39;icona \(+\) nella sezione Riferimenti di **Usati in** consente di spostarsi verso l&#39;alto per individuare l&#39;argomento utilizzato o a cui si fa riferimento.
+The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Facendo clic sull&#39;icona ![](images/right-arrow-used-in-dialog.svg) accanto a un documento, vengono visualizzati i file mappa o argomento a cui il documento viene ulteriormente associato.
+Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
 
-**Filtro condizionale \(A/B\)**
+**Conditional Filtering \(A/B\)**
 
-Se il tuo argomento ha contenuto condizionale, sulla barra degli strumenti verrà visualizzata l’icona A/B. Facendo clic su questa icona si apre un pop-up che consente di filtrare il contenuto in base alle condizioni disponibili nell’argomento.
+If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
 
 >[!NOTE]
 >
-> Il contenuto condizionale viene evidenziato utilizzando il colore di sfondo chiaro nell’editor web.
+> The conditional content is highlighted using light background color in the Web Editor.
 
 ![](images/conditional-popup_cs.png){width="300" align="left"}
 
 **Modifica**
 
-- Aprire l&#39;argomento per la modifica nell&#39;Editor Web. L&#39;opzione **Modifica** non sarà disponibile se l&#39;amministratore ha abilitato l&#39;opzione **Disattiva modifica senza estrazione**. Se l&#39;opzione è attivata, l&#39;opzione **Modifica** verrà visualizzata solo dopo aver estratto un file di argomenti.
+- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
 
-**Risoluzione chiave**
+**Key Resolution**
 
-- Se si desidera utilizzare un file keyspace per l&#39;argomento, fare clic sull&#39;icona Risoluzione tasti. Potete quindi scegliere uno spazio chiave dalla finestra a comparsa Risoluzione chiave.
+- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
 
 **Origine**
 
-- Aprire il codice sorgente XML di un file. Per visualizzare il codice XML sottostante di una mappa, di un argomento o di un file DITAVAL, aprire il file in modalità Anteprima e fare clic sull&#39;icona Source. Nel pop-up Source XML viene visualizzato il codice sorgente XML. È possibile selezionare un codice specifico dal file oppure premere `Ctrl`+`a` per selezionare l&#39;intero contenuto.
+- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
 
   >[!NOTE]
   >
-  > Per visualizzare il codice sorgente di un file di mappa DITA, selezionare il file nell&#39;interfaccia utente di Assets e fare clic su Source.
+  > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
-**Condividi collegamento UUID**
+**Share UUID Link**
 
-- AEM Guides consente di condividere i collegamenti basati su UUID per mappe DITA, argomenti e file di immagini dalle seguenti posizioni:
+- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
 
-   - Interfaccia utente di Assets
-   - Console della mappa DITA
-   - Anteprima argomento o immagine
+   - Assets UI
+   - DITA map&#39;s console
+   - Topic or image&#39;s Preview
 
-Una nuova opzione **Condividi collegamento UUID** è visualizzata nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra l&#39;opzione **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
+A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
-Nell’interfaccia utente Assets, questa opzione è visibile quando selezioni un file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
+In the Asset UI, this option is visible when you select a file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
 
 Una volta copiato l’URL, lo stesso può essere condiviso con altri utenti per consentire loro di accedere direttamente al file. Questo collegamento rimane valido anche quando il file viene spostato in un’altra posizione nell’archivio. L’unica volta che il collegamento non riesce è quando il file viene eliminato dal repository.
 
@@ -219,4 +219,4 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
   Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo report, vedere [Report cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
-**Argomento padre:**&#x200B;[&#x200B; Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

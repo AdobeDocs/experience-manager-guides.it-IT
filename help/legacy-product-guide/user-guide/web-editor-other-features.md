@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -110,45 +110,45 @@ L’esperienza di salvataggio dei file dipenderà dai tre scenari seguenti, in c
 
 - Nessuna modifica apportata al contenuto.
 - Ha modificato il contenuto e ha salvato le modifiche.
-- Ha modificato il contenuto ma non ha salvato le modifiche.
+- Edited the content but not saved the changes.
 
-A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche salvate o non salvate, è possibile che vengano visualizzate le seguenti opzioni:
+You may see the following options depending on whether the file is locked/unlocked and has saved or unsaved changes:
 
-- **Sblocca e chiudi**: il blocco sul file viene rilasciato e il file viene chiuso.
+- **Unlock and Close**: The lock on the file is released, and the file gets closed.
 
   ![](images/file-close-unlock-file.png){width="400" align="left"}
 
-- **Salva come nuova versione**: verranno salvate le modifiche apportate al contenuto e verrà creata una nuova versione del file. Puoi anche aggiungere etichette e commenti per la nuova versione salvata. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
+- **Save as a New Version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-- **Sblocca il file**: se si sceglie di sbloccare un file, il blocco verrà rilasciato sul file e le modifiche verranno salvate nella versione corrente del file.
+- **Unlock the File**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
 
   >[!NOTE]
   >
-  > Se si deseleziona l&#39;opzione per sbloccare il file, si ottiene anche un&#39;opzione per chiudere il file senza salvare le modifiche.
+  > If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
 
-  Ad esempio, nella schermata seguente viene visualizzato uno dei prompt:
+  For example, one of the prompts is shown in the following screenshot:
 
   ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
-**Indicazioni visive per riferimenti interrotti**
+**Visual cues for broken references**
 
-- Se l&#39;argomento contiene riferimenti incrociati o riferimenti a contenuti interrotti, questi vengono visualizzati in rosso.
+- If your topic contains broken cross-references or content references, they are shown in red text.
 
-**Copia e incolla avanzati**
+**Smart copy-paste**
 
-- Puoi copiare e incollare facilmente contenuti all’interno e tra gli argomenti. La struttura dell’elemento sorgente viene mantenuta nella destinazione. Inoltre, se il contenuto copiato contiene riferimenti al contenuto, anche questi vengono copiati.
+- You can easily copy paste content within and across topics. The source element structure is maintained at the destination. Also, if the copied content contains content references, then even those are copied.
 
-**Ricorda ultima posizione esplorata**
+**Remember last browsed location**
 
-- Nell&#39;editor Web è disponibile una finestra di dialogo per l&#39;esplorazione avanzata dei file. L’editor ricorda l’ultima posizione utilizzata durante l’inserimento di un riferimento o di un contenuto. La prima volta che si richiama la finestra di dialogo Sfoglia file \(mediante Inserisci riferimento o Inserisci contenuto riutilizzo\), si viene portati nel percorso in cui viene salvato il documento corrente. Nella stessa sessione, se si tenta di inserire un altro riferimento, la finestra di dialogo Sfoglia file passa automaticamente alla posizione da cui è stato inserito l&#39;ultimo riferimento.
+- The Web Editor provides a smart file browse dialog. The editor remembers the last used location while inserting a reference or content. The first time you invoke the file browse dialog \(via Insert Reference or Insert Reuse Content\), then you are taken to the location where the current document is saved. In the same session, if you try to insert another reference, then the file browse dialog automatically navigates to the location from where you inserted the last reference.
 
 >[!NOTE]
 >
-> In caso di file immagine, audio o video, la finestra di dialogo per la ricerca dei file viene impostata automaticamente sul percorso del file e non sull’ultimo percorso utilizzato.
+> In case of an image, audio, or video file, the file browse dialog defaults to the file&#39;s location and not the last used location.
 
-**Supporto per la pubblicazione basata su articoli**
+**Support for article-based publishing**
 
-- Dall&#39;Editor Web è possibile generare l&#39;output per uno o più argomenti o per l&#39;intera mappa DITA. È necessario creare predefiniti di output per la mappa DITA e quindi generare facilmente l&#39;output per uno o più argomenti. Se nella mappa sono stati aggiornati alcuni argomenti, è possibile generare l&#39;output solo per tali argomenti dall&#39;editor Web. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
+- From the Web Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Web Editor. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
 **Supporto per i documenti Markdown**
 
@@ -253,4 +253,4 @@ Per generare automaticamente l’ID per uno o più elementi, effettua le seguent
    In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb e selezionare **Genera ID**.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

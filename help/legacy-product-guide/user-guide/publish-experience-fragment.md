@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -32,12 +32,11 @@ Per generare un frammento di esperienza, effettua le seguenti operazioni:
    * **Titolo**: visualizza o modifica il titolo della cartella.
 
    * **Modelli consentiti**: contiene l&#39;elenco dei modelli che possono essere aggiunti come pagine figlie del frammento di esperienza. Per aggiungere il modello consentito, specificare l&#39;espressione regolare per il recupero dei modelli richiesti nel campo **Modelli consentiti**.
-Ad esempio:
+Esempio:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      Se non si definisce un modello consentito per una cartella, i modelli vengono selezionati dalla cartella principale o dalla cartella dei modelli per impostazione predefinita.
    * **Ordinabile**: consente di modificare l&#39;ordine delle risorse all&#39;interno di una cartella.
-
      ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Aggiungi la configurazione cloud nelle proprietà della cartella per collegarla ai modelli di frammento.*
 1. Per generare un frammento di esperienza, seleziona **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.
@@ -65,7 +64,7 @@ Ad esempio:
 
      L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
 
-   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
+   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Seleziona una delle opzioni seguenti:
 
 
       * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
@@ -81,7 +80,7 @@ Ad esempio:
 1. Fai clic su **Genera** per pubblicare il frammento di esperienza.
 1. Puoi visualizzare i frammenti di esperienza per un argomento nella sezione **Output** delle **Proprietà file**. I Frammenti esperienza vengono visualizzati in base alla data e all’ora di pubblicazione, il più recente dei quali è il primo.
 
-   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs.png){width=300 align="left"}
 
    *Visualizza i frammenti di esperienza presenti in un argomento e ripubblicali.*
 

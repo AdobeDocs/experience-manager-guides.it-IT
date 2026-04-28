@@ -3,9 +3,9 @@ title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente nell’editor web.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Experience Manager Guides fornisce uno strumento di assistenza per l’intellige
 >[!NOTE]
 >
 > Per aggiungere la funzionalità Assistente AI nel pannello di destra, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Assistente AI** nella scheda **Pannelli** delle **impostazioni Workspace** ![icona impostazioni Workspace](./images/editor_settings_icon.svg).
-> &#x200B;> È inoltre necessario estrarre il documento per visualizzare l&#39;icona Assistente AI.
+> È inoltre necessario estrarre il documento per visualizzare l&#39;icona Assistente AI.
 
 Questa funzione è disponibile solo per gli argomenti DITA. Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
 
@@ -29,7 +29,7 @@ Questa funzione è disponibile solo per gli argomenti DITA. Dopo aver selezionat
 ## Suggerisci contenuti riutilizzabili
 
 
-Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
+Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
 Ulteriori informazioni sull&#39;utilizzo di [suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring dei contenuti](authoring-ai-based-smart-suggestions.md).
 
 

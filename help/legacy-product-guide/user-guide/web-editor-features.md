@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '18802'
+source-wordcount: '18945'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,6 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
 
 
    - Per creare un profilo di pubblicazione Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
-
      ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -227,33 +226,33 @@ In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispet
 - **Traduzione**: questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etichette di origine alla versione di destinazione e ripulire il progetto di traduzione.
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.\
-     Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
-      1. Seleziona l&#39;icona Aggiungi ![icona di aggiunta](images/Add_icon.svg).
-      1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
-      1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
+   - **Language Groups**: As an administrator, you can  you can create a group of languages and use them as a set to translate the content.\
+     Perform the following steps to create a new language group:
+      1. Select the Add ![add icon](images/Add_icon.svg) icon.
+      1. Enter the language group name. Each language should have a unique name. You can view an error if the name field is empty or if the name isn&#39;t unique.
+      1. Select the languages from the dropdown. You can select multiple languages.
 
-     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
-      1. Seleziona **Fine** per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzato **Mostra più**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+     Type the first few characters of the language, or the language code to filter the desired languages. For example, type &#39;en&#39; to filter all the languages that contain &#39;en&#39; at the beginning of their name or code.
+      1. Select **Done** to add the selected languages to the group. The languages are displayed. When you add three or more languages, **Show more** displays. You can select **Show more** to view all the languages present in the group.
 
          >[!TIP]
          >
-         > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
+         > Toggle **Show more** to **Show less** and view only a few languages.
 
-      1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](images/edit_pencil_icon.svg) o eliminare ![elimina](images/Delete_icon.svg) i gruppi di lingue.
-      1. Salva le **impostazioni editor**.
+      1. Hover over the languages in a group to edit ![edit icon](images/edit_pencil_icon.svg) or delete ![delete](images/Delete_icon.svg) the language groups.
+      1. Save the **Editor settings**.
 
          >[!NOTE]
          >
-         >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
+         >As a user, you can view the language groups configured to your folder profile.
 
-   - **Propagare le etichette della versione di origine alla versione di destinazione**: selezionare questa opzione per passare l&#39;etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
-   - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione da disabilitare o eliminare automaticamente dopo la traduzione. Per impostazione predefinita, **Nessuno** è selezionato, quindi il progetto esiste dopo la traduzione.
+   - **Propagate source version labels to the target version**: Select this option to pass the label of the source file version to the translated file. By default, this is disabled.
+   - **Translation project cleanup after completion**: Select this option to configure the translation projects to be disabled or deleted automatically after the translation. By default, **None** is selected, so the project exists after translation.
 
-     Puoi disattivare i progetti di traduzione se desideri utilizzarli in un secondo momento. L’eliminazione di un progetto comporta l’eliminazione definitiva di tutti i file e le cartelle presenti nel progetto.
+     You can disable the translation projects if you want to use them later. Deleting a project permanently deletes all files and folders present in the project.
 
 
-- **Metadati**: è possibile controllare i metadati della versione dell&#39;argomento e i relativi valori da visualizzare nella finestra di dialogo **Cronologia versioni**.  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
+- **Metadata**: You can control the version metadata of the topic and their values to be displayed in the **Version History** dialog box.  Nel percorso metadati, specifica la posizione dei nodi da cui desideri scegliere i metadati. Puoi anche definire un nome personalizzato per i metadati come etichetta. Le proprietà predefinite sono Titolo, Stato documento e Tag.
 
   I metadati possono essere scelti da qualsiasi proprietà sotto il nodo `/jcr:content` della risorsa, in modo da poter aggiungere il percorso della proprietà come percorso dei metadati.
 
@@ -570,73 +569,73 @@ Le parole chiave sono elencate in ordine alfabetico ed è inoltre possibile cerc
 
 **Inserisci snippet** - ![](images/insert-snippet-icon.svg)
 
-Inserire uno snippet nella posizione valida corrente o successiva. Affinché questa funzione funzioni, è necessario che nel sistema siano definiti snippet. Per ulteriori informazioni sull&#39;aggiunta di uno snippet, vedere la descrizione della funzionalità **Snippet** nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
+Insert a snippet at the current or next valid location. For this feature to work, you must have snippets defined in your system. For more information about adding a snippet, see the **Snippet** feature description in the [Left Panel](web-editor-features.md#id2051EA0M0HS) section.
 
-Facendo clic sull&#39;icona Inserisci frammento, viene visualizzato il catalogo Inserisci frammento. Il catalogo è sensibile al contesto, il che indica che i frammenti verranno visualizzati solo se sono consentiti nella posizione corrente.
+When you click the Insert Snippet icon, you are shown the Insert Snippet catalog. The catalog is context-sensitive, which indicates that it will show the snippets only if they are allowed at the current location.
 
-Nell&#39;esempio seguente vengono illustrati due snippet preconfigurati: Warning ed Error che è possibile inserire nella posizione corrente del documento.
+The following example shows two pre-configured snippets - Warning and Error that can be inserted at the current location in the document.
 
 ![](images/insert-snippet.png){width="300" align="left"}
 
-Quando si sceglie un frammento dall&#39;elenco, questo viene inserito nella posizione valida corrente o successiva del documento. La schermata seguente mostra lo snippet di errore inserito nel documento:
+When you choose a snippet from the list, it gets inserted at the current or next valid location in the document. The following screenshot shows the Error snippet inserted in the document:
 
 ![](images/error-snippet.png){width="400" align="left"}
 
-**Inserisci/Modifica mappa immagine** - ![](images/imagemap-rectangle.svg)
+**Insert/Edit Image Map** - ![](images/imagemap-rectangle.svg)
 
-Inserisce una mappa immagine nell&#39;immagine selezionata. Un&#39;immagine con aree cliccabili che si collegano ad argomenti o pagine Web è chiamata mappa immagine.
+Inserts an image map on the selected image. An image with clickable areas that link to topics or web pages is called an image map.
 
-Selezionare un&#39;immagine nell&#39;argomento corrente e fare clic sull&#39;icona Inserisci/Modifica mappa immagine per aprire la finestra di dialogo Inserisci mappa immagine.
+Select an image in the current topic and click the Insert/Edit Image Map icon to open the insert Image Map dialog.
 
 ![](images/insert-image-map.png){width="650" align="left"}
 
-Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.png), Cerchio ![](images/imagemap-circle-toolbar.png) o Poligono ![](images/imagemap-polygon-toolbr.png) per definire un&#39;area su un&#39;immagine che si desidera utilizzare come collegamento. Dopo aver definito un’area, viene visualizzata la finestra di dialogo Riferimento in cui è necessario specificare il collegamento al contenuto interno o esterno:
+Choose the preferred shape Rectangle ![](images/imagemap-rectangle-toolbar.png), Circle ![](images/imagemap-circle-toolbar.png), or Polygon ![](images/imagemap-polygon-toolbr.png) to define an area over an image that you want to use as a link. After defining an area, the Reference dialog appears wherein you need to specify the link to internal or external content:
 
 ![](images/reference-dialog.png){width="650" align="left"}
 
-Se le aree si sovrappongono, è possibile portare la forma avanti o indietro facendo clic sulla relativa icona nella barra degli strumenti. È inoltre possibile rimuovere un&#39;area selezionandola e facendo clic sull&#39;icona Elimina. Facendo doppio clic su un’area si apre la finestra di dialogo Riferimento, in cui è possibile modificare il collegamento di destinazione. Dopo aver contrassegnato le aree richieste sull&#39;immagine, salvare le modifiche facendo clic su Fine.
+If areas overlap, you can bring the shape forward or send it backward by clicking on the respective icon in the toolbar. You can also remove an area by selecting it and clicking the Delete icon. Double-clicking on an area opens the Reference dialog wherein you can change the destination link. Once you have marked the required areas on your image, save the changes by clicking Done.
 
-**Estrai/Archivia** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Check out/Check in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Estrae o archivia il file corrente. Il Check-Out di un file consente all&#39;utente di accedere in scrittura in modo esclusivo al file. Quando il file viene archiviato, le modifiche vengono salvate nella versione corrente del file.
+Checks out or checks in the current file. Checking out a file gives the user exclusive write access to the file. When the file is checked-in, the changes are saved in the current version of the file.
 
-Se vi trovate nella vista Mappa ed espandete la mappa padre, potete estrarre tutti i file della mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Estrai** ![](images/LockClosed_icon.svg) per ottenere il blocco su tutti i file all&#39;interno della mappa.
+If you are in the Map View and you expand the parent map, you can check out all files in the map with a single click. Simply expand the parent map file and select the parent file, which results in selecting all files within the map. Then you can select **Check out**  ![](images/LockClosed_icon.svg) to get the lock on all files within the map.
 
 >[!NOTE]
 >
-> Quando si archivia un file contenente modifiche non salvate, viene richiesto di salvarle. Se le modifiche non vengono salvate, verrà archiviato solo il file.
+> When you check in a file that has any unsaved changes, it prompts you to save the changes. If you don&#39;t save your changes, then it only checks in the file.
 
-La descrizione comando per l&#39;archiviazione/estrazione è determinata dalla proprietà title nel file `ui_config.json`.
+The tooltip for Check in/Check out is determined by the title property in the `ui_config.json` file.
 
-Per ulteriori dettagli, visualizzare [Configurare il titolo per le icone di archiviazione ed estrazione](/help/product-guide/install-guide/conf-checkin-checkout-title.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+For more details, view [Configure the title for Check in and Check out icons](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in the On-premise Installation and configuration Guide.
 
 
-**Attiva/Disattiva visualizzazione tag** - ![](images/Label_icon.svg)
+**Toggle Tags View** - ![](images/Label_icon.svg)
 
-I tag sono segnali visivi che indicano i limiti di un elemento. Un limite di elemento contrassegna l&#39;inizio e la fine di un elemento. È quindi possibile utilizzare questi limiti come spunto visivo per posizionare il punto di inserimento o selezionare il testo all&#39;interno di un limite. Se si desidera inserire un altro elemento prima o dopo un elemento nel documento, è possibile posizionare il punto di inserimento prima o dopo il limite di apertura o di chiusura dell&#39;elemento.
+Tags are visual cues indicating an element&#39;s boundaries. An element boundary marks the beginning and end of an element. You can then use these boundaries as a visual cue to place the insertion point or select the text within a boundary. If you want to insert another element before or after an element in the document, you can place the insertion point before or after the opening or closing boundary of the element.
 
-La schermata seguente mostra un documento con Visualizzazione tag su:
+The following screenshot shows a document with Tags View on:
 
 ![](images/tags-view.png){width="650" align="left"}
 
-Le seguenti operazioni possono essere eseguite in un documento con Vista tag su:
+The following operations can be performed in a document with Tags View on:
 
-- **Selezionare un elemento**: fare clic sul tag di apertura o chiusura di un elemento per selezionarne il contenuto.
+- **Select an element**: Click on the opening or closing tag of an element to select its content.
 
-- **Espandere o comprimere i tag**: fare clic sul segno + o - per espandere o comprimere un tag.
+- **Expand or collapse tags**: Click on the + or - sign in a tag to expand or collapse it.
 
-- **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
+- **Use the context menu**: The context menu provides options to cut, copy, or paste the selected element. You can also insert an element before or after the selected element. The other options allow you to Generate ID or open the Properties panel for the selected element.
 
-- **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
+- **Drag-and-drop elements**: Select an element&#39;s tag and easily drag-and-drop it on your document. If the drop location is a valid location where the element is allowed, the element is placed at the dropped location.
 
 
 >[!NOTE]
 >
-> Se un utente abilita la Visualizzazione tag dall’editor web, questa rimane abilitata anche in tutte le sessioni. Ciò significa che non è necessario abilitare nuovamente la visualizzazione Tag per accedervi in un secondo momento. Il valore predefinito per la visualizzazione Tag per la sessione di un nuovo utente è determinato dalla proprietà tagsView nel file ui\_config.json. Per ulteriori dettagli, consulta la sezione *Configurare il valore predefinito per la visualizzazione Tag* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+> If a user enables the Tags View from the Web Editor, it remains enabled even across the sessions. This means that you don&#39;t have to enable the Tags View again to access it later.The default value for Tags View for a new user&#39;s session is determined by the tagsView property in the ui\_config.json file. For more details, see the *Configure default value for Tags View* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-**Attiva/Disattiva revisioni** ![](images/track-change-icon.svg)
+**Enable/Disable Track Changes** ![](images/track-change-icon.svg)
 
-Per tenere traccia di tutti gli aggiornamenti apportati a un documento, attivare la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Anche in questo caso, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia aggiunta ed eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
+You can keep a track of all updates made on a document by enabling the Track Changes mode. After enabling the track changes, all insertions and deletions are captured in the document. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Anche in questo caso, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia aggiunta ed eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
 
 La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle barre di modifica:
 
@@ -674,28 +673,28 @@ Per unire le modifiche in un argomento, effettuare le seguenti operazioni:
 
    ![](images/merge-changes-in-topic.png){width="550" align="left"}
 
-1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
+1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-1. Selezionare una versione del file con cui si desidera confrontare la versione corrente del file.
+1. Select a version of the file with which you want to compare the current version of the file.
 
-1. In Opzioni, scegliere:
+1. From the Options, choose:
 
-   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti del contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
+   - **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
-   - **Ripristina versione selezionata**: questa opzione consente di ripristinare la versione corrente del documento nella versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
+   - **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
 1. Fai clic su **Fine**.
 
-1. Se hai selezionato l&#39;opzione **Rileva modificato da versione selezionata**, tutte le modifiche apportate alla versione selezionata vengono visualizzate nella funzione Revisioni del pannello di destra.
+1. If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changes feature of the right panel.
 
-   Potete scegliere di accettare o rifiutare tutti i commenti dal pannello Revisioni tracciate o accettare o rifiutare un singolo commento.
+   You can choose to accept or reject all comments from the Tracked Changes panel or accept or reject individual comment.
 
 
-**Unisci file mappa**
+**Merge map files**
 
-Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
+To merge changes in a map file, perform the following steps:
 
-1. Aprire una mappa nell&#39;Editor Web.
+1. Open a map in the Web Editor.
 
 1. Fare clic su **Unisci**.
 
@@ -703,27 +702,27 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
    ![](images/merge-changes-in-map.png){width="550" align="left"}
 
-1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
+1. *\(Optional\)* You can also browse and select a new file from some other location in your repository.
 
-1. Selezionare una versione del file con cui si desidera confrontare la versione corrente del file.
+1. Select a version of the file with which you want to compare the current version of the file.
 
-1. In Opzioni, scegliere:
+1. From the Options, choose:
 
-   - **Rileva modifiche dalla versione selezionata**: questa opzione mostra tutti gli aggiornamenti del contenuto sotto forma di revisioni. È quindi possibile scegliere di accettare o rifiutare le modifiche nel documento una alla volta o tutte contemporaneamente.
+   - **Track Changes From Selected Version**: This option shows all content updates in the form of track changes. You can then choose to accept or reject changes in the document one at a time or all in one go.
 
-   - **Ripristina versione selezionata**: questa opzione consente di ripristinare la versione corrente del documento nella versione selezionata. Questa opzione non consente di controllare quale contenuto viene accettato o rifiutato.
+   - **Revert to Selected Version**: This option reverts the current version of the document to the selected version. This option does not give you any control on what content is accepted or rejected.
 
 1. Fai clic su **Fine**.
 
-   1. Se hai selezionato l&#39;opzione **Rileva modificato da versione selezionata**, tutte le modifiche apportate alla versione selezionata vengono visualizzate nel pannello Revisioni \(a destra\).
+   1. If you selected the **Track Changed From Selected Version** option, then all changes from the selected version are shown in the Tracked Changespanel \(on the right\).
 
-      Potete scegliere di accettare o rifiutare tutte le modifiche dal pannello Revisioni tracciate oppure accettare o rifiutare singole modifiche nel file di mappa.
-
-
-**Cronologia versioni** - ![](images/version-history-web-editor-ico.svg)
+      You can choose to accept or reject all changes from the Tracked Changes panel or accept or reject individual change in the map file.
 
 
-La funzionalità **Cronologia versioni** nell&#39;editor Web consente di controllare le versioni disponibili dei file DITA, confrontarli e ripristinare qualsiasi versione dall&#39;editor stesso.
+**Version History** - ![](images/version-history-web-editor-ico.svg)
+
+
+The **Version History** feature in the Web Editor allows you to check the available versions of your DITA files, compare them,  and revert to any version from the editor itself.
 
 Nella cronologia delle versioni è possibile confrontare il contenuto e i metadati della versione corrente (che può anche essere una copia di lavoro) con qualsiasi versione precedente dello stesso file. Puoi anche visualizzare le etichette e i commenti per le versioni confrontate.
 
@@ -753,7 +752,7 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
    Scheda **Anteprima**: il contenuto appena aggiunto è in verde e il contenuto eliminato in rosso.
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
    >[!NOTE]
@@ -937,7 +936,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **Json** nel percorso selezionato.
 
-![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -1037,7 +1036,7 @@ Nel menu Opzioni vengono visualizzate opzioni diverse a seconda che si selezioni
 - Anteprima
 - Sposta in
 - Rinomina
-- Elimina
+- Eliminare
 - Copiare
 - Comprimi tutto
 - Aggiungi ai preferiti
@@ -1278,35 +1277,35 @@ Nella finestra di dialogo **Scarica mappa** puoi scegliere le seguenti opzioni:
 
   Dopo aver fatto clic sul pulsante **Scarica**, la richiesta del pacchetto di esportazione della mappa è in coda. Se il pacchetto viene creato correttamente, viene visualizzata la finestra di dialogo **Operazione riuscita**.  Puoi fare clic sul pulsante **Scarica** nella finestra di dialogo **Operazione riuscita**.
 
-  Se la mappa è pronta per il download, riceverai una notifica di pronto per il download. Se il download non riesce, viene inviata la notifica che indica che il download della mappa non è riuscito.
+  You receive the map download-ready notification if the map is ready to download. In case the download fails, you receive the notification that the map download failed.
 
-  Puoi accedere al collegamento per il download dalla casella in entrata delle notifiche AEM. Seleziona la notifica della mappa generata nella casella in entrata per scaricare la mappa in formato .zip.
+  You can access the download link from the AEM notification Inbox. Select the generated map notification in the Inbox to download the map in .zip format.
 
   >[!NOTE]
   >
-  >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche di AEM.
+  >  By default, the downloaded maps remain for five days in the AEM notification Inbox.
 
-- **Genera output**: genera l&#39;output per il file di mappa selezionato. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
-- **Chiudi**: chiude il file di mapping.
+- **Generate Output**: Generate the output for the selected map file. L&#39;output può essere generato solo per i file che fanno parte di un predefinito di output. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
+- **Close**: Closes the map file.
 
 
 
-La schermata seguente mostra il menu Opzioni per un file nella vista mappa DITA:
+The following screenshot shows the Options menu for a file in the DITA Map View:
 
 ![](images/options-menu-file_cs.PNG){width="550" align="left"}
 
-È possibile eseguire le azioni seguenti utilizzando il menu Opzioni:
+You can perform the following actions using the Options menu:
 
 - **Modifica**: apri il file per la modifica. Nel caso di un file .ditamap/.bookmap, viene aperto nell&#39;[Editor mappe avanzato](map-editor-advanced-map-editor.md#) per la modifica.
 
-- **Estrai**: estrai il file selezionato. Per un file estratto, questa opzione diventa **Archivia**.
+- **Check Out**: Check out the selected file. For a checked out file, this option changes to **Check In**.
 
 
 
   >[!NOTE]
   >
   > - Se un file è bloccato o estratto da un utente, posizionando il puntatore del mouse sull&#39;icona del blocco viene visualizzato l&#39;utente \(name\) che ha bloccato il file.
-  > - Quando si archivia un file, viene richiesto di salvare le modifiche. Se le modifiche non vengono salvate, verrà archiviato solo il file.
+  > - When you check in a file, it prompts you to save the changes. Se le modifiche non vengono salvate, verrà archiviato solo il file.
 
 - **Anteprima**: consente di ottenere un&#39;anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, è possibile selezionarlo per aprirlo in una nuova scheda.  Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere il riquadro **Anteprima**, è possibile selezionare l&#39;icona di chiusura oppure fare clic in un punto qualsiasi all&#39;esterno del riquadro.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
@@ -1350,7 +1349,7 @@ La vista Struttura offre le seguenti caratteristiche:
 
 - Utilizza l’elenco a discesa dei filtri per mostrare tutti gli elementi o solo i riferimenti interrotti:
 
-- Facendo clic su un elemento nella visualizzazione Struttura, viene selezionato il contenuto dell&#39;elemento nella visualizzazione Autore o Source. La visualizzazione Struttura rimane sincronizzata con la visualizzazione Autore e Source. Se si apportano modifiche in qualsiasi visualizzazione, è possibile visualizzarle nella visualizzazione Struttura. Ad esempio, se aggiungete un paragrafo o aggiornate un elemento nella vista Creazione, questo verrà visualizzato nella vista Struttura.
+- Facendo clic su un elemento nella visualizzazione Struttura, viene selezionato il contenuto dell&#39;elemento nella visualizzazione Autore o Source.La visualizzazione Struttura rimane sincronizzata con le visualizzazioni Autore e Source. Se si apportano modifiche in qualsiasi visualizzazione, è possibile visualizzarle nella visualizzazione Struttura. Ad esempio, se aggiungete un paragrafo o aggiornate un elemento nella vista Creazione, questo verrà visualizzato nella vista Struttura.
 
   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1527,23 +1526,23 @@ Ad esempio, puoi creare gruppi di condizioni di prodotti come *Acrobat* e *AEM G
 ![condizioni organizzate in una gerarchia nidificata](images/conditions-nested-hierarchy.png){width="300" align="left"}
 
 
-Per modificare una condizione, scegliere **Modifica** dal menu Opzioni. Viene visualizzata la finestra di dialogo Modifica condizione:
+Per modificare una condizione, scegliere **Modifica** dal menu Opzioni. The Edit Condition dialog appears:
 
 ![](images/conditional-panel-edit-cond.png){width="400" align="left"}
 
-Specifica i dettagli nello stesso modo in cui sono configurati durante la definizione di una nuova condizione.
+Specify the details in the same way as configured while defining a new condition.
 
-**Schema soggetto** - ![](images/subject_scheme_panel-icon.svg)
+**Subject scheme** -  ![](images/subject_scheme_panel-icon.svg)
 
-Le mappe di schema argomento sono una forma specializzata di mappe DITA utilizzate per definire soggetti tassonomici e valori controllati. A seconda delle esigenze, puoi creare una mappa dello schema di soggetti e farvi riferimento all’interno del file della mappa principale. AEM Guides consente di definire la gerarchia a livello nidificato delle definizioni dei soggetti nello schema dei soggetti.
+Subject scheme maps are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Depending upon your requirements, you can create a subject scheme map and reference it within your root map file. AEM Guides allows you to define the nested-level hierarchy of the subject definitions in your subject scheme.
 
-È possibile creare e quindi utilizzare facilmente lo schema dell&#39;oggetto in una mappa dello schema dell&#39;oggetto. Una volta aggiunta questa mappa come mappa principale, lo schema soggetto viene visualizzato nel pannello Schema soggetto. Il pannello Schema soggetto visualizza lo schema soggetto disponibile in modo nidificato o gerarchico.
+You can easily create and then use the subject scheme in a subject scheme map. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel. The Subject Scheme panel displays the available subject scheme in a nested or hierarchical manner.
 
-AEM Guides supporta anche mappe di schemi di soggetti a livello nidificato. Nella mappa di schemi di soggetti radice è possibile definire più schemi di soggetti.
+AEM Guides also supports nested level subject scheme maps, and you can have multiple subject schemes defined under the root subject scheme map.
 
-Nell&#39;esempio seguente viene illustrato come utilizzare lo schema soggetto in AEM Guides.
+The following example shows how to use subject scheme in AEM Guides.
 
-1. Creare un file dello schema soggetto in uno strumento desiderato. Il codice XML seguente crea uno schema soggetto che associa i valori per l&#39;attributo `platform`.
+1. Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
 
    ```XML
    <?xml version="1.0" encoding="UTF-8"?>
@@ -1576,28 +1575,28 @@ Nell&#39;esempio seguente viene illustrato come utilizzare lo schema soggetto in
 
    ![](images/subject-scheme-panel.png){width="300" align="left"}
 
-1. Salva il file con estensione a.ditamap e caricalo in qualsiasi cartella in DAM.
+1. Save the file with a.ditamap extension and upload it to any folder in DAM.
 
    >[!NOTE]
    >
-   > È possibile aggiungere un riferimento al file dello schema soggetto nella mappa DITA padre.
+   > You can add a reference to the subject scheme file in the parent DITA map.
 
    ![](images/subject-scheme-root-map.png){width="550" align="left"}
 
-1. Imposta la mappa padre come mappa radice nelle **Preferenze utente**. Una volta aggiunta questa mappa come mappa principale, lo schema soggetto viene visualizzato nel pannello Schema soggetto.
+1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
 
    ![](images/subject-scheme-user-preferences.png){width="400" align="left"}
 
-1. Nell&#39;editor Web aprire il file in cui si desidera utilizzare le definizioni dello schema dell&#39;oggetto.
-1. Applica lo schema soggetto al contenuto semplicemente trascinando lo schema soggetto desiderato sul contenuto. Il contenuto viene quindi evidenziato nel colore definito.
+1. In the Web Editor, open the file where you want to use the subject scheme definitions.
+1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**Gestione delle definizioni gerarchiche delle enumerazioni e delle definizioni dei soggetti**
+**Handling hierarchical definitions of subject definitions and enumerations**
 
-Oltre a gestire le enumerazioni e le definizioni dei soggetti presenti nella stessa mappa, AEM Guides fornisce anche la funzione di definire enumerazioni e definizioni dei soggetti in due mappe separate. È possibile definire una o più definizioni di oggetto in una mappa e le definizioni di enumerazione in un&#39;altra mappa, quindi aggiungere il riferimento alla mappa. Ad esempio, il codice XML seguente crea definizioni di oggetti e definizioni di enumerazione in due mappe separate.
+Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps.
 
-Le definizioni dell&#39;oggetto sono definite in `subject_scheme_map_1.ditamap`
+The subject definitions are defined in `subject_scheme_map_1.ditamap`
 
 
 ```XML
@@ -1642,7 +1641,7 @@ Le definizioni dell&#39;oggetto sono definite in `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-La definizione di enumerazione è presente in    subject_scheme_map_2.ditamap.
+The enumeration definition is present in    subject_scheme_map_2.ditamap.
 
 ```XML
     ?xml version="1.0" encoding="UTF-8"?> 
@@ -1662,27 +1661,27 @@ La definizione di enumerazione è presente in    subject_scheme_map_2.ditamap.
         </subjectScheme>
 ```
 
-Qui le definizioni dei soggetti sono definite in `subject_scheme_map_1.ditamap` mentre la definizione dell&#39;enumerazione è presente in `subject_scheme_map_2.ditamap`. Il riferimento a `subject_scheme_map_1.ditamap` è stato aggiunto anche in `subject_scheme_map_2.ditamap`.
+Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`.
 
 >[!NOTE]
 >
-> Poiché `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` sono referenziati tra loro, gli schemi soggetto vengono risolti.
+> As the `subject_scheme_map_1.ditamap` and `subject_scheme_map_2.ditamap` are referenced with each other hence the subject schemes are getting resolved.
 
-I riferimenti di enumerazione dei soggetti vengono risolti nel seguente ordine di priorità:
+The subject-enumeration references are resolved in the following order of priority:
 
-1. Stessa mappa
-1. Mappa di riferimento
-
-
-I riferimenti non vengono risolti se l’enumerazione non viene trovata nella stessa mappa e nella mappa di riferimento.
+1. Same map
+1. Referenced map
 
 
+The references are not resolved if the enumeration is not found in the same map and the referenced map.
 
 
-**Limita i valori a un elemento specifico**
 
-È inoltre possibile limitare le condizioni ad alcuni elementi all&#39;interno di un argomento. Utilizzare il tag `<elementdef>` per definire l&#39;elemento e il tag `<attributedef>` per definire la condizione che può essere applicata all&#39;elemento.  Se non aggiungi il tag `<elementdef>`, puoi applicare le condizioni a tutti gli elementi.
-Utilizzare ad esempio l&#39;enumerazione seguente per limitare l&#39;attributo `@platform` all&#39;elemento `<shortdesc>`.  Le altre condizioni sono visibili per tutti gli elementi.
+
+**Restrict the values to a specific element**
+
+You can also restrict the  conditions to some elements within a topic. Use the `<elementdef>` tag to define the element and the `<attributedef>` tag to define the condition that can be applied to the element.  If you don&#39;t add the `<elementdef>` tag,  you can apply the conditions to all elements.
+For example, use the following enumeration to restrict the `@platform` attribute to the `<shortdesc>` element.  The other conditions are visible for all elements.
 
 ```XML
 <enumerationdef>
@@ -1700,62 +1699,62 @@ Utilizzare ad esempio l&#39;enumerazione seguente per limitare l&#39;attributo `
 </details>
 
 
-Elenco a discesa **Attributi**
+**Attributes** drop-down
 
-Puoi anche modificare il valore dello schema soggetto utilizzando il menu a discesa **Attributi** dal pannello **Proprietà contenuto** nella visualizzazione **Autore**.
+You can also change the value of the subject scheme using the **Attributes** dropdown from the **Content Properties** panel in the **Author** view.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
-Per modificare il valore, effettua le seguenti operazioni:
+Perform the following steps to change the value:
 
-1. Selezionare un attributo dal menu a discesa **Attributo**.
-1. Seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
-1. Seleziona il valore richiesto dal menu a discesa **Valore**.
+1. Select an attribute from the **Attribute** dropdown.
+1. Select **Edit** ![edit-icon](images/edit_pencil_icon.svg).
+1. Select the required value from the **Value** dropdown.
 1. Fai clic su **Aggiorna**.
 
 
 
-Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
+You can also apply values for an attribute by selecting multiple values from the dropdown.
 
-**Visualizzazione Source**
+**Source View**
 
-È inoltre possibile modificare i valori dall’elenco a discesa dell’attributo nella visualizzazione Source. La Vista Source impedisce inoltre di aggiungere valori errati.
+You can also change the values from the attribute&#39;s drop-down in the Source View. The Source View also prevents you from adding any incorrect value.
 
 ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-**Visualizza e applica lo schema soggetto dal pannello Condizioni**
+**View and apply the subject scheme from the Conditions panel**
 
-Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
+You can also view and apply the subject scheme from the Conditions panel.
 
-Per visualizzare lo schema soggetto dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema soggetto nel pannello Condizioni** nella scheda Condizione in Impostazioni editor. Per ulteriori dettagli, vedere [Scheda Condizione](#id21BMNE0602V).
+To view the subject scheme from the Conditions panel, your system administrator must select the option **Show Subject Scheme in the Conditions panel** under the Condition tab in Editor Settings. For more details see, [Condtion tab](#id21BMNE0602V).
 
-Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
+The Conditions panel displays the flat vertical structure of the subject definitions within the subject scheme.
 
 ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-Puoi aggiungere condizioni al contenuto trascinando e rilasciando la condizione desiderata sul contenuto. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+You can add conditions to your content by dragging and dropping the desired condition onto your content. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
-**Snippet** - ![](images/insert-snippet-icon.svg)
+**Snippets** -  ![](images/insert-snippet-icon.svg)
 
-I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati in vari argomenti nel progetto di documentazione. Il pannello Snippet mostra una raccolta di snippet di contenuto creati dall&#39;utente. Per inserire uno snippet, trascinarlo dal pannello nella posizione desiderata nell&#39;argomento. Il pannello Snippet consente di aggiungere, modificare, eliminare, visualizzare in anteprima e inserire uno snippet.
+Snippets are small content fragments that can be reused across various topics in your documentation project. The Snippets panel shows a collection of content snippets that you have created. To insert a snippet, drag-and-drop the snippet from the panel to the desired location in your topic. The Snippets panel allows you to add, edit, delete, preview, and insert a snippet.
 
 >[!IMPORTANT]
 >
-> La schermata seguente è di un utente con privilegi di amministratore. In qualità di utente con privilegi di amministratore, puoi aggiungere, modificare ed eliminare snippet. Altrimenti, in qualità di autore normale, avrai accesso solo alle opzioni per visualizzare in anteprima e inserire uno snippet.
+> La schermata seguente è di un utente con privilegi di amministratore. As a user with administrative privileges, you can add, edit, and delete snippets. Else, as a normal author, you will only get the options to preview and insert a snippet.
 
 ![](images/snippets-panel_cs.png){width="400" align="left"}
 
-Per aggiungere uno snippet, utilizzare uno dei metodi seguenti:
+To add a snippet, use any of the following methods:
 
-- Fare clic sull&#39;icona + accanto a Snippet per aprire la finestra di dialogo Nuovo snippet.
+- Click the + icon next to Snippets to open the New Snippet dialog.
 
   ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-  Nella finestra di dialogo Nuovo frammento, fornisci un titolo che viene visualizzato nel pannello Snippet, una descrizione e il codice XML del contenuto del frammento che desideri creare. Fai clic su **Crea** per salvare e creare lo snippet.
+  In the New Snippet dialog, provide a title which appears in the Snippets panel, a description, and XML code of the snippet content that you want to create. Click **Create** to save and create the snippet.
 
-- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse sulla breadcrumb dell&#39;elemento che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e fai clic su **Crea** per salvare lo snippet.
+- In the content editing area, right-click on the element&#39;s breadcrumb that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
 
-- Nell&#39;area di modifica del contenuto fare clic con il pulsante destro del mouse in un punto qualsiasi del contenuto che si desidera utilizzare come frammento e scegliere **Crea frammento** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Nuovo frammento con il codice XML dell&#39;elemento selezionato popolato nel campo **Contenuto**. Immetti il **Titolo** e la **Descrizione** per lo snippet e fai clic su **Crea** per salvare lo snippet.
+- In the content editing area, right-click anywhere on the content that you want to use as a snippet and choose **Create Snippet** from the context menu. The New Snippet dialog appears with the XML code of the selected element populated in the **Content** field. Enter the **Title** and **Description** for the snippet and click **Create** to save the snippet.
 
-  La schermata seguente evidenzia la breadcrumb e l’area del contenuto da cui è possibile richiamare il menu di scelta rapida.
+  The following screenshot highlights the breadcrumb and the content area from where you can invoke the context menu.
 
   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
@@ -1821,7 +1820,6 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
    - Immetti il termine o il testo da cercare nel titolo del progetto. Quindi premere Invio per eseguire la ricerca. Ad esempio, puoi cercare tutti i progetti il cui titolo contiene il termine &quot;spazio&quot;.
 
    - Seleziona ![](images/filter-search-icon.svg) per aprire la finestra di dialogo **Filtro**. Puoi selezionare tutti o solo progetti specifici. I progetti selezionati sono elencati nel pannello **Rivedi**.
-
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      L&#39;opzione **Attività avviate da me** è attivata per impostazione predefinita. Ti consente di visualizzare solo le attività avviate. Lo stato di attivazione o disattivazione di questa opzione viene mantenuto anche dopo l’aggiornamento della pagina.
@@ -1869,18 +1867,18 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
 
 1. Puoi fare clic sul menu a discesa **Opzioni** e scegliere tra le seguenti opzioni:
 
-   - **Estrai il file prima di sostituirlo**: selezionare questa opzione se si desidera estrarre automaticamente un file prima di sostituire il termine di ricerca. Questa impostazione è più rilevante nel caso in cui l&#39;amministratore abbia abilitato la configurazione per l&#39;estrazione di un file prima della modifica. Con l’impostazione di back-end attivata, seleziona questa opzione. In questo modo, la finestra di dialogo per l&#39;estrazione dei file non richiederà di estrarre ogni file prima di apportare qualsiasi modifica. Se non si seleziona questa opzione, prima di aprire un file per la modifica verrà visualizzato un messaggio.
-   - **Solo parole intere**: selezionare questa opzione se si desidera cercare l&#39;intera stringa di ricerca. Ad esempio, se si immette nella stringa di ricerca, il risultato della ricerca restituirà tutti i file contenenti parole come over e overview. Se si desidera limitare la ricerca per restituire il termine specificato, selezionare questa opzione.
-   - **Crea nuova versione dopo la sostituzione**: selezionare questa opzione se si desidera creare una nuova versione dell&#39;argomento in cui si sceglie di sostituire il testo. Puoi anche fornire commenti sulla versione che verranno aggiunti a ogni file aggiornato.
+   - **Estrai il file prima di sostituirlo**: selezionare questa opzione se si desidera estrarre automaticamente un file prima di sostituire il termine di ricerca. This setting is more relevant in case your administrator has enabled the configuration to checkout a file before editing. With the backend setting enabled, you should select this option. It will prevent the file checkout dialog from prompting you to checkout every file before making any change. If you do not select this option, then a prompt will appear before a file is opened for editing.
+   - **Whole Word Only**: Select this option if you want to search for the whole search string. For example, if you enter over in the search string, then the search result will return all files containing words like over and overview. If you want to restrict your search to return the exact term that is entered, then select this option.
+   - **Create New Version After Replace**: Select this option if you want to create a new version of the topic in which you choose to replace the text. You can also provide version comments which will be added with each updated file.
 
-     Se non si seleziona questa opzione, le modifiche verranno salvate nella versione corrente dell&#39;argomento e non verrà creata alcuna nuova versione.
+     If you don&#39;t select this option, then the changes are saved in the current version of the topic and no new version is created.
 
-   - **Includi riferimento indiretto**: selezionare questa opzione se si desidera cercare la stringa nei riferimenti indiretti anche all&#39;interno della mappa DITA. Per impostazione predefinita, questa opzione è disabilitata, pertanto la ricerca viene eseguita solo sui riferimenti diretti.
+   - **Include indirect reference**: Select this option if you want to search the string in the indirect references also within the DITA map. By default, this is disabled so the search is performed only on the direct references.
 
-1. Immettere il termine di ricerca o il testo che si desidera trovare.
-1. Immettere il testo con cui si desidera sostituire il termine di ricerca.
-1. Premi Invio o seleziona l&#39;icona **Cerca** \( ![](images/search-icon.svg)\) per eseguire la ricerca.
-1. Selezionare un file dall&#39;elenco dei risultati della ricerca. Il file viene aperto nell&#39;area di modifica del contenuto con il termine cercato evidenziato nel contenuto.
+1. Enter the search term or text that you want to find.
+1. Enter the text with which you want to replace the search term.
+1. Press Enter or select **Search** icon \( ![](images/search-icon.svg)\) to perform the search.
+1. Select a file from the search result list. The file is opened in the content editing area with the searched term highlighted in the content.
 1. Apri il pannello **Trova e sostituisci** globale.
 1. Fai clic sul menu a discesa **Cerca in** e seleziona una delle seguenti opzioni per eseguire la ricerca.
 
@@ -1925,17 +1923,17 @@ Per eseguire la ricerca e la sostituzione globali, effettuare le seguenti operaz
    > Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni editor**.
 
 
-È possibile eseguire una sola operazione di sostituzione alla volta nell&#39;intero sistema e finché l&#39;operazione non viene eseguita, verrà visualizzato lo stato &quot;Sostituisci tutto in corso&quot;. Puoi anche interrompere l’operazione Sostituisci tutto tra o visualizzare il rapporto del registro. Se si interrompe l&#39;operazione, si riceverà una notifica nella Posta in arrivo. Dopo la sostituzione di tutte le occorrenze nel file selezionato, verrà visualizzata una notifica di esito positivo.
+Only one replace all operation can be performed at a time in the whole system, and till the time operation is being performed you will see &quot;Replace all in progress&quot; status. You can also abort the replace all operation in between or see the log report. If you abort the operation, you will receive a notification about it in your Inbox. You will be shown a success notification after replacing all the occurrences in the selected file.
 
 ![](images/replace-all-in-progress.png){width="400" align="left"}
 
-È inoltre possibile utilizzare l&#39;opzione **Trova nella mappa** dal menu **Opzioni** di una mappa per trovare e sostituire il testo in una mappa. Questa opzione viene visualizzata per una mappa aperta nel pannello del repository o nella vista mappa.
+You can also use the **Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
 
 ![](images/map-options-menu.png){width="550" align="left"}
 
 ## Area di modifica dei contenuti {#id2051EB000UI}
 
-Nell&#39;area di modifica del contenuto viene visualizzato il contenuto dell&#39;argomento o della mappa. In quest’area vengono apportate tutte le modifiche al contenuto. Offre una visualizzazione WYSIWYG del contenuto che si sta modificando. È possibile aprire più argomenti contemporaneamente, che vengono visualizzati nelle rispettive schede.
+The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
 
 Per impostazione predefinita, è possibile visualizzare i titoli dei file nelle schede. Passando il puntatore del mouse su un file, potete visualizzare il titolo e il percorso del file come descrizione comando.
 
@@ -1943,25 +1941,25 @@ Per impostazione predefinita, è possibile visualizzare i titoli dei file nelle 
 >
 > In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Selezionare l&#39;opzione **Nome file** della sezione **Visualizza file per** in **Preferenze utente** ![](images/user_preference_editor_icon.svg).
 
-Sotto la scheda del file, la breadcrumb dell’elemento si trova nella posizione corrente del cursore. Nell&#39;angolo superiore destro dell&#39;area di modifica dei contenuti viene visualizzato il numero di versione dell&#39;argomento corrente.
+Below the file&#39;s tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
 ## Pannello a destra {#id2051EB003YK}
 
-Il pannello di destra è un pannello persistente che contiene informazioni sul documento attualmente selezionato.
+The right panel is a persistent panel which contains information about the currently selected document.
 
 >[!NOTE]
 >
-> Il pannello a destra è ridimensionabile. Per ridimensionare il pannello, posiziona il cursore sul bordo del pannello. Il cursore si trasforma in una freccia a due punte, fai clic e trascina per ridimensionare la larghezza del pannello.
+> The right panel is resizable. Per ridimensionare il pannello, posiziona il cursore sul bordo del pannello. Il cursore si trasforma in una freccia a due punte, fai clic e trascina per ridimensionare la larghezza del pannello.
 
-Il pannello a destra consente di accedere alle seguenti funzioni:
+The right panel gives you access to the following features:
 
-**Proprietà contenuto** - ![proprietà contenuto](images/content-properties-icon.svg)
+**Content Properties** -  ![content poperties](images/content-properties-icon.svg)
 
-Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **Proprietà contenuto** nel pannello di destra. Il pannello **Proprietà contenuto** contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi.
+You can access the **Content Properties** feature by selecting the **Content Properties** icon in the right panel. The **Content Properties** panel contains information about the type of currently selected element in the document and its attributes.
 
-**Tipo**: è possibile visualizzare e selezionare i tag della gerarchia completa per il tag corrente dal menu a discesa.
+**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
 
 **Attributi**: il pannello a discesa **Attributi** è disponibile nelle visualizzazioni Layout, Autore e Source. Puoi aggiungere, modificare o eliminare facilmente gli attributi.
 
@@ -1971,7 +1969,7 @@ Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi fare clic su **Aggiungi**.
 
-   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
    ![modifica attributi](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2006,7 +2004,7 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 - **Lingua**: mostra la lingua dell&#39;argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
 - **Data creazione**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
 - **Estratto da**: mostra l&#39;utente che ha estratto l&#39;argomento.
-- **Stato documento**: è possibile selezionare e aggiornare lo stato del documento dell&#39;argomento attualmente aperto. Per ulteriori dettagli, vedere [Stato documento &#x200B;](web-editor-document-states.md#)*.*
+- **Stato documento**: è possibile selezionare e aggiornare lo stato del documento dell&#39;argomento attualmente aperto. Per ulteriori dettagli, vedere [Stato documento ](web-editor-document-states.md#)*.*
 
 **Nota:** è possibile copiare negli Appunti i valori degli attributi dei vari campi delle proprietà File.
 
@@ -2049,4 +2047,4 @@ Utilizzando la funzione Tracked Changes (Modifiche tracciate) del pannello di de
 >
 > La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, vedere [Attiva/Disattiva revisioni](#id205DF0203Y4).
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

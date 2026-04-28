@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,6 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
    - Abilita qualsiasi singolo predefinito.
    - Abilitare **Tutti i predefiniti** per una mappa DITA per selezionare tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
    - Abilitare **Predefiniti profilo cartella** per una mappa DITA per selezionare tutti i relativi predefiniti profilo cartella. Questa opzione è disabilitata per impostazione predefinita.
-
      ![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -144,4 +143,4 @@ Analogamente all&#39;annullamento di un&#39;attività di generazione output dall
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

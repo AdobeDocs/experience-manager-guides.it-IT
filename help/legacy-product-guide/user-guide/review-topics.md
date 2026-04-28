@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -124,44 +124,44 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 1. Fai clic sull&#39;icona **Evidenzia** o **Barrato**.
 1. È possibile aggiungere commenti nel pannello dei commenti per l&#39;azione di evidenziazione o barratura.
 
-**Revisione tramite il pannello Commenti** - Il pannello Commenti visualizza un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Ogni commento visualizza il nome del revisore che lo ha aggiunto insieme alla marca temporale.
+**Revisione tramite il pannello Commenti** - Il pannello Commenti visualizza un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Each comment displays the name of the reviewer who has added the comment along with the timestamp.
 
-I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. Ad esempio, è presente un commento di evidenziazione sulla prima frase e un commento di testo di inserimento sulla seconda frase nel primo paragrafo, quindi il commento di testo di evidenziazione viene visualizzato prima del commento di testo inserito.
+I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. For example, there is a highlight comment on the first sentence and an insert text comment on the second sentence in the first paragraph then the highlight text comment is displayed before the inserted text comment.
 
-Di seguito sono descritte le attività che è possibile eseguire utilizzando il pannello Commenti:
+The tasks that you can perform using the Comments panel are described below:
 
-- Facendo clic su un commento viene evidenziata e visualizzata la posizione del commento corrispondente nel documento.
-- È possibile aggiungere risposte ai commenti.
-- Puoi modificare il tuo commento facendo clic sul testo del commento nel pannello Commenti e selezionando **Modifica** dal menu Opzioni.
-- È possibile eliminare i commenti facendo clic sul commento nel pannello Commenti e selezionando l&#39;opzione **Elimina** dal menu Opzioni.
+- Clicking on a comment highlights and shows the corresponding comment&#39;s location in the document.
+- You can add replies to comments.
+- You can edit your own comment by clicking on your commented text in the Comments panel and then selecting **Edit** from the Options menu.
+- You can delete your own comments by clicking on the comment in the Comments panel and then selecting the **Delete** option from the Options menu.
 
   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
   >[!NOTE]
   >
-  > Il menu Opzioni viene visualizzato solo quando si passa il puntatore del mouse sui commenti. Non viene visualizzato per i commenti degli altri revisori.
+  > The Options menu appears only when you hover over your own comments. It is not displayed for the comments by other reviewers.
 
-- Tutti gli utenti partecipanti possono rispondere ai commenti inviati da altri utenti. In un commento, fai clic su **Rispondi** e premi Invio per inviare una risposta.
+- All participating users can respond to comments submitted by other users. On a comment, click **Reply** and press Enter to submit a response.
 
 **Modalità anteprima**
 
-- L&#39;apertura di un argomento in modalità Anteprima mostra come verrà visualizzato un argomento quando viene visualizzato da un autore dopo l&#39;applicazione di tutte le modifiche. Ad esempio, tutto il testo inserito viene visualizzato come testo normale e tutto il testo cancellato \(eliminato\) viene rimosso dal contenuto.
+- Opening a topic in the Preview mode shows how a topic will be displayed when it is viewed by an author after applying all the changes. For example, all inserted text is shown as normal text and all striked off \(deleted\) text is removed from the content.
 
-- La schermata seguente mostra il contenuto in modalità *Revisione*:
+- The following screenshot shows the content in *Review* mode:
 
 ![](images/review-author-mode.png){width="550" align="left"}
 
-La schermata seguente mostra il contenuto in modalità *Anteprima*:
+The following screenshot shows the content in *Preview* mode:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
-**Aggiungi allegati ai commenti** -   Se si desidera integrare il commento fornendo informazioni aggiuntive disponibili in altri file, è possibile allegarle al commento. In qualità di revisore, puoi aggiungere facilmente uno o più file dal sistema locale al commento. È possibile aggiungere un file a tutti i tipi di commenti supportati: Evidenziazione, Barrato, Inserisci testo o Commento.
+**Add attachments to comments** -   If you want to supplement your comment by providing additional information which is available in some other file, you can do so by attaching it with your comment. As a reviewer, you can easily add one or multiple files from your local system to your comment. A file can be added to all supported forms of comments - Highlight, Strikethrough, Insert Text, or a Comment.
 
-Quando inserite uno dei commenti, viene visualizzata la finestra a comparsa relativa. Dopo aver inserito ulteriori commenti o informazioni nel pop-up, premete Invio. Una volta aggiunto il commento, è possibile aggiungere un allegato.
+When you insert any of the comments, the commenting pop-up appears. After providing additional comments or information in the pop-up, you submit it by hitting Enter. Once the comment is added, you get the option to add an attachment to that comment.
 
 ![](images/comment-pop-up-panel.png){width="800" align="left"}
 
-Nella schermata precedente, il documento contiene la finestra a comparsa del commento di evidenziazione e il commento viene aggiunto anche nel pannello Commenti. L&#39;icona dell&#39;allegato ![](images/file-attach-review.svg) è disponibile insieme al commento in entrambe le posizioni.
+In the above screenshot, the document contains the highlight comment&#39;s pop-up and the comment is also added in the Comments panel. The file attachment icon ![](images/file-attach-review.svg)is available along with the comment at both the locations.
 
 Per aggiungere un allegato al commento, effettua le seguenti operazioni:
 
@@ -250,4 +250,4 @@ Seleziona una o più delle seguenti opzioni di filtro dalla finestra di dialogo 
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e fare clic su **Applica**.
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

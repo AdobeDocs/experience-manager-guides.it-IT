@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Puoi produrre output in PDF, ePub, HTML e molti altri formati, utilizzando la st
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento principale:**&#x200B;[&#x200B; Creare contenuti tramite strumenti desktop](author-desktop-tools.md)
+**Argomento principale:**[ Creare contenuti tramite strumenti desktop](author-desktop-tools.md)

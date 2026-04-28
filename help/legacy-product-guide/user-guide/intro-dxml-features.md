@@ -5,9 +5,9 @@ feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ AEM Guides fornisce funzionalità di revisione basate su web potenti ma facili d
 
 Ora a ogni documento nel DAM viene assegnato lo stato. Questo stato del documento consente di identificare lo stato nel processo di documentazione del documento. L&#39;amministratore del sistema può definire gli stati del documento, gli stati di inizio e di fine predefiniti e la transizione dello stato del documento per i documenti.
 
-**Supporto di localizzazione e gestione delle traduzioni leader del settore**
+**Supporto per la localizzazione e la gestione delle traduzioni leader del settore**
 Ottieni risparmi significativi su tempi e costi di traduzione e assicurati che i contenuti pubblicati siano privi di errori di traduzione.
 
 Adobe Experience Manager viene fornito con connettori incorporati per i principali fornitori di servizi di traduzione. Sfrutta questi connettori per gestire contenuti specifici per le impostazioni internazionali. Utilizza appieno i rapporti di traduzione predefiniti per identificare i contenuti non tradotti prima della pubblicazione e adotta le azioni correttive appropriate. È possibile gestire lo stato del contenuto tradotto rispetto agli aggiornamenti della lingua master per eseguire la traduzione solo per i file DITA aggiornati. L&#39;identificazione manuale dei file da inviare per la traduzione non richiede molto tempo.
 
-**Pubblicazione multicanale all&#39;avanguardia di contenuti DITA**
+**Pubblicazione multicanale di contenuti DITA all&#39;avanguardia**
 Semplificazione della pubblicazione dei contenuti aziendali con un approccio semplice e immediato che accelera il time-to-market.
 
 Aggiungendo il supporto DITA nativo ad Experience Manager, è possibile generare output per Experience Manager Sites, PDF, HTML5, EPUBS o output personalizzato tramite DITA-OT. Puoi sfruttare l’output completamente configurabile per fornire esperienze di contenuto altamente personalizzate, rilevanti e coinvolgenti per gli utenti finali. Puoi anche eseguire facilmente la generazione batch o utilizzare la linea di base per pubblicare una versione specifica della documentazione.
@@ -54,7 +54,7 @@ Aggiungendo il supporto DITA nativo ad Experience Manager, è possibile generare
 **Dati completi sulla ricerca e sull&#39;utilizzo dei contenuti**
 Trova e seleziona più rapidamente i contenuti rilevanti, ottimizzando il ROI sui contenuti ad ogni riutilizzo. Eseguire ricerche di base e avanzate utilizzando attributi di contenuto e metadati di argomenti nell&#39;intero archivio tramite una semplice interfaccia nello strumento di creazione DITA. Ai risultati vengono assegnati dei tag con i dati sull’utilizzo del contenuto, per aiutarti a identificare e selezionare facilmente il contenuto giusto per un riutilizzo ottimale.
 
-**Rapporti approfonditi sulla preparazione alla pubblicazione**
+**Rapporti di preparazione alla pubblicazione approfonditi**
 Rendi la pubblicazione priva di errori controllando e correggendo facilmente il contenuto prima che venga pubblicata. Tenere sotto controllo l&#39;integrità del sistema accedendo facilmente a vari report a livello di mappa DITA. Puoi controllare il numero di argomenti mancanti, collegamenti interrotti o riferimenti, lo stato delle revisioni e delle traduzioni per tutti gli argomenti. Puoi inoltre utilizzare i rapporti per eseguire controlli di integrità completi nelle fasi finali prima della pubblicazione.
 
 **Supporto esteso per la gestione dei tag per output personalizzato**\
@@ -69,11 +69,11 @@ Utilizzando il connettore AEM in FrameMaker, puoi gestire i file FrameMaker. Il 
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 * Guida utente
 * Guida di riferimento API
 * Guida rapida
-* [Guida* Pagina archiviazione](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) (accedere alla documentazione precedente)
+* [Guida* Pagina archiviazione](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (accedere alla documentazione precedente)
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni su Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Argomento padre:**[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

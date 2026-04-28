@@ -1,49 +1,49 @@
 ---
 title: Supporto per i file Schematron
-description: Scopri come importare e convalidare un argomento DITA, utilizzare le istruzioni di asserzione dei rapporti per verificare la presenza di regole, utilizzare espressioni regex e definire pattern astratti nei file Schematron di AEM Guides.
+description: Learn how to import and validate a DITA topic, use assert report statements to check for rules, use regex expressions, and define abstract patterns in Schematron files of AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
 # Supporto per i file Schematron
 
-&quot;Schematron&quot; si riferisce a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. L’editor web supporta i file Schematron. Potete importare i file Schematron e modificarli nell&#39;Editor Web. Utilizzando un file Schematron è possibile definire determinate regole e quindi convalidarle per un argomento o una mappa DITA.
+&quot;Schematron&quot; refers to a rule-based validation language used to define tests for an XML file. Web editor supports Schematron files. You can import the Schematron files and also edit them in Web Editor. Using a Schematron file you can define certain rules and then validate them for a DITA topic or a map.
 
 >[!NOTE]
 >
-> L’editor web supporta ISO Schematron.
+> Web editor supports ISO Schematron.
 
 
-## Importa file Schematron
+## Import Schematron files
 
-Per importare i file Schematron, effettuate le seguenti operazioni:
+Perform the following steps to import the Schematron files:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Passare alla cartella desiderata (in cui si desidera caricare i file) in *Visualizzazione archivio*.
-1. Fai clic sull&#39;icona **Opzioni** per aprire il menu di scelta rapida e scegli **Carica Assets**.
-1. Nella finestra di dialogo **Carica Assets**, puoi modificare la cartella di destinazione nel campo **Seleziona cartella risorse**.
-1. Fare clic su **Scegli file** e selezionare i file Schematron. È possibile selezionare uno o più file Schematron e quindi fare clic su **Carica**.
+1. Navigate to the required folder (where you want to upload the files) in *Repository View*.
+1. Click the **Options** icon to open the context menu and choose **Upload Assets**.
+1. In the **Upload Assets** dialog, you can change the destination folder in the **Select Asset Folder** field.
+1. Click **Choose Files** and browse to select the Schematron files. You can select one or more Schematron files and then click **Upload**.
 
-## Convalidare un argomento o una mappa DITA con Schematron
+## Validate a DITA topic or map with Schematron
 
-Dopo aver importato i file di Schematron, è possibile modificarli nell&#39;Editor Web. È possibile utilizzare i file Schematron per convalidare gli argomenti o una mappa DITA. Ad esempio, è possibile creare le regole seguenti per una mappa o un argomento DITA:
+After importing Schematron files, you can edit them in the Web Editor. You can use the Schematron files to validate the topics or a DITA map. For example, you can create the following rules for a DITA map or topic:
 
-* Per una mappa DITA viene definito un titolo.
-* È stata aggiunta una breve descrizione di una certa lunghezza.
-* Deve essere presente almeno un topicref nella mappa.
+* A title is defined for a DITA map.
+* A short description of a certain length has been added.
+* There should be at least one topicref in the map.
 
-Quando si apre un argomento nell&#39;Editor Web, a destra viene visualizzato il pannello Convalida schema. Per aggiungere e convalidare un argomento o una mappa con un file Schematron, effettuare le seguenti operazioni:
+When you open a topic in the Web Editor, a Schematron Validation panel appears in the right. Perform the following steps to add and validate a topic or map with a Schematron file:
 ![](images/schematron-validate.png){width="300" align="left"}
 
-1. Fate clic sull&#39;icona Schematron () per aprire il pannello Schematron.
+1. Click the Schematron icon (), to open the Schematron panel.
 1. Utilizzate Aggiungi file di schema (Add Schematron File) per aggiungere file di schema.
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
    >[!NOTE]

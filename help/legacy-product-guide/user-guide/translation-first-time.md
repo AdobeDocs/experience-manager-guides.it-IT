@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
    >[!NOTE]
    >
-   > Consulta [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=it) nella documentazione di AEM per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
+   > Consulta [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) nella documentazione di AEM per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
 
 1. Fai clic su **Salva e chiudi** per salvare le proprietà della cartella aggiornate.
 
@@ -141,4 +141,4 @@ Al termine della traduzione, lo stato del processo di traduzione diventa *Pronto
 >
 > Se si rifiuta la traduzione di uno o più argomenti in un processo di traduzione, lo stato di traduzione **In corso** di tutti gli argomenti rifiutati viene ripristinato allo stato originale. Lo stato degli argomenti indicati viene controllato e ripristinato in base all’ultimo stato di traduzione. Inoltre, i file di traduzione creati nel progetto di destinazione non vengono eliminati anche se la traduzione viene rifiutata per essi.
 
-**Argomento padre:**&#x200B;[&#x200B; Traduci contenuto](translation.md)
+**Argomento padre:**[ Traduci contenuto](translation.md)

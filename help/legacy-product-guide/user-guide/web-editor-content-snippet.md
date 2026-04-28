@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,6 @@ Ad esempio:
       - Se hai selezionato il modello di elenco jira ordinato, puoi visualizzare un elenco ordinato per i problemi Jira.
 
    1. La vista origine mostra i dati nella vista origine DITA.
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Aggiungi un generatore di frammenti di contenuto. Visualizza i dati in modalità di origine o anteprima.*
 

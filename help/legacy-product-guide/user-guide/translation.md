@@ -1,32 +1,32 @@
 ---
-title: Scopri come tradurre i contenuti
-description: Traduci i contenuti in più lingue in AEM Guides. Scopri i flussi di lavoro di traduzione umana e automatica.
+title: Learn how to translate content
+description: Translate your content into multiple languages in AEM Guides. Learn about the human and machine translation workflows.
 feature: Translation
 role: User
 hide: true
 exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '135'
 ht-degree: 1%
 
 ---
 
 # Tradurre il contenuto {#id1645H700L67}
 
-AEM Guides viene fornito con funzionalità potenti che consentono di tradurre i contenuti in più lingue. I flussi di lavoro di traduzione umana e automatica sono supportati da AEM Guides.
+AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.
 
-- **Traduzione umana** - Assets viene inviato al tuo provider di traduzioni e tradotto da traduttori professionisti. Una volta completate, le risorse tradotte vengono restituite e quindi importate di nuovo in AEM.
+- **Human translation** - Assets are sent to your translation provider and translated by professional translators. When complete, the translated assets are returned and they are then imported back into AEM.
 
-- **Traduzione automatica**: questo è il servizio predefinito in AEM, in cui il contenuto viene tradotto immediatamente utilizzando la traduzione automatica in tempo reale. AEM fornisce la funzionalità di connessione a Microsoft Translator.
+- **Machine translation** - This is the default service in AEM wherein the content is immediately translates using the machine translation in real time. Out-of-the-box AEM provides the capability to connect to Microsoft Translator.
 
   >[!NOTE]
   >
-  > Microsoft Translator è disponibile solo come licenza di prova.
+  > Microsoft Translator is available only as a trial license.
 
 
-- **[Best practice per la traduzione dei contenuti](translation-first-time.md)**
+- **[Best practices for content translation](translation-first-time.md)**
 
-- **[Visualizza stato traduzione](translation-view-trans-state-6234.md)**
+- **[View translation status](translation-view-trans-state-6234.md)**
 
-- **[Traduci argomenti modificati](translation-modified-topics-6234.md)**
+- **[Translate modified topics](translation-modified-topics-6234.md)**

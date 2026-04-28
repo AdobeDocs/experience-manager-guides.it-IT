@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
       >
       >In questo elenco a discesa vengono visualizzati altri tipi di utenti, ma per un progetto DITA è necessario scegliere solo il tipo di utente Autori, Revisori o Editori. Anche se si aggiunge un utente di un tipo diverso, tale utente non sarà in grado di accedere alle funzioni specifiche DITA disponibili in AEM Guides.
 
-   1. Fare clic su **Aggiungi**.
+   1. Fai clic su **Aggiungi**.
 
       >[!NOTE]
       >
@@ -77,4 +77,4 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
 1. Fai clic su **Apri** per aprire la pagina del progetto.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

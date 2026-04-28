@@ -1,42 +1,42 @@
 ---
 title: Gestione di file e cartelle
-description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incollare, trascinare e rilasciare, eliminare, spostare file e cartelle in blocco e cercare contenuti DITA.
+description: Learn how to manage files and folders in AEM Guides. Copy and paste, drag and drop, delete, move files and folders in bulk, and search DITA content.
 feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3144'
 ht-degree: 0%
 
 ---
 
 # Gestione di file e cartelle {#id2116G0L08XA}
 
-Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, come copiare, incollare, trascinare e rilasciare ed eliminare i file. Sono possibili i seguenti scenari:
+This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
 
-## Copiare e incollare file
+## Copy and paste files
 
-**Se il file ha un nome di file leggibile**
+**If the file has human readable filename**
 
-- *Se il file con lo stesso nome non esiste nella cartella di destinazione*: viene creata una nuova copia del file a cui viene assegnato anche un UUID. In questo caso, il nome del file è uguale al nome del file originale.
-- *Se il file con lo stesso nome esiste già nella cartella di destinazione*: viene creata una nuova copia del file con il suffisso \(come nomefile0.extension\). Al file appena creato viene assegnato anche un UUID.
-
-
-**Se il nome file è basato su un modello UUID**
-
-- *Se il file con lo stesso nome non esiste nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale a UUID.
-- *Se il file con lo stesso nome esiste già nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID. Il nome del file è uguale all’UUID.
+- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a UUID is also assigned to it. Here, the file name is same as the original file name.
+- *If the file with the same name already exists in the destination folder*: A new copy of the file is created with a suffix \(like filename0.extension\). A UUID is also assigned to the newly created file.
 
 
-## Copiare e incollare cartelle
+**If the filename is based on a UUID pattern**
 
-**Copia e incolla cartella nella stessa posizione**
+- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
+- *If the file with the same name already exists in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it. The file name is same as the UUID.
 
-- *La cartella contiene file con nomi di file leggibili dall&#39;utente*: viene creata una nuova copia della cartella con il suffisso \(ad esempio nomecartella0\). Ai file all’interno della cartella viene assegnato anche un nuovo UUID. Tuttavia, i nomi dei file non vengono modificati.
 
-- *La cartella contiene file con nomi di file basati su un modello UUID*: viene creata una nuova copia della cartella con il suffisso \(ad esempio nomecartella0\). Un nuovo UUID viene inoltre assegnato a tutti i file all’interno della nuova cartella. Anche i nomi dei file vengono modificati; i nomi dei file sono gli stessi del nuovo UUID.
+## Copy and paste folders
+
+**Copy and paste folder at the same location**
+
+- *The folder has files with human readable filenames*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to the files within the folder. However, there is no change in the file names.
+
+- *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
 
 
 **Copia e incolla cartella in un percorso diverso**
@@ -217,35 +217,35 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 
-## Cerca contenuto DITA
+## Search DITA content
 
-Per impostazione predefinita, AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. AEM Guides aggiunge un livello sopra AEM, che consente ad AEM di comprendere ed elaborare i contenuti DITA. La funzione Ricerca contenuto DITA in AEM Guides consente di cercare contenuto DITA all&#39;interno dell&#39;archivio AEM.
+By default, AEM does not recognize DITA content, thus, it doesn&#39;t provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
 
 >[!NOTE]
 >
->L&#39;amministratore di sistema può configurare il componente di ricerca **Elemento DITA** e quindi utilizzare la funzionalità dall&#39;interfaccia utente di AEM Assets. Per ulteriori dettagli, vedi la sezione *Aggiungere il componente di ricerca degli elementi DITA nell&#39;interfaccia utente di Assets* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+>Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-Utilizzando la funzione di ricerca, potete effettuare le seguenti operazioni:
+Using the search feature, you can:
 
-- Cercare contenuto DITA in base a un valore di elemento, ad esempio `author`= xml
-- Cerca contenuto DITA in base a un valore di attributo, ad esempio `@platform`= windows
-- Utilizzare una combinazione di elemento DITA e valore di attributo, ad esempio `author`= xml `AND` `@platform`= windows
+- Search for DITA content based on an element value; for example, `author`= xml
+- Search for DITA content based on an attribute value; for example, `@platform`= windows
+- Use a combination of DITA element and attribute value; for example, `author`= xml `AND` `@platform`= windows
 
-Per cercare contenuto DITA nell&#39;archivio AEM, effettuare le seguenti operazioni:
+Perform the following steps to search for DITA content within AEM repository:
 
-1. Apri l’interfaccia utente di Assets.
+1. Open the Assets UI.
 
-1. Nella barra a sinistra, seleziona **Filtri**.
+1. In the left rail, select **Filters**.
 
    ![](images/left-rail-filter.png){width="450" align="center"}
 
-   Le opzioni di filtro del contenuto sono visualizzate nella barra a sinistra. È inoltre disponibile l&#39;opzione di filtro Elemento DITA, utilizzata per filtrare il contenuto DITA.
+   The content filtering options are shown in the left rail. You will also find the filtering option—DITA Element, which is used to filter DITA content.
 
    ![](images/dita-element-search.png){width="450" align="center"}
 
-1. *\(Facoltativo\)* Nel campo **Seleziona directory di ricerca**, cercare il percorso in cui si desidera eseguire la ricerca.
+1. *\(Optional\)* In the **Select Search Directory** field, browse for the location that you want to search in.
 
-1. Nel filtro **Elemento DITA**, specificare **Nome elemento**, **Attributo** e un valore che si desidera cercare. Ad esempio, per cercare documenti con l&#39;elemento `author` di `@type` creatore, è necessario fornire le informazioni come mostrato nella schermata seguente:
+1. In the **DITA Element** filter, provide the **Element Name**, **Attribute**, and a value that you want to search for. For example, to search for documents that have `author` element that is of `@type` creator you need to provide the information as shown in the following screenshot:
 
    ![](images/search-params.png){width="650" align="center"}
 
@@ -318,4 +318,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

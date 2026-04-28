@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ Per creare un rapporto sugli argomenti, effettuare le seguenti operazioni:
    - **Stato documento** Lo stato corrente dell&#39;argomento.
    - **Autore** l&#39;ultimo utente che ha lavorato sull&#39;argomento.
    - **Mappa padre** L&#39;elenco di tutte le mappe in cui si fa riferimento direttamente all&#39;argomento.
-
    >[!NOTE]
    >
    > Fai clic su **Aggiorna** per ottenere un nuovo elenco di argomenti e visualizzare eventuali modifiche nel file di mappa o se viene aggiornato un riferimento nel file di argomenti.
@@ -66,7 +65,7 @@ Per visualizzare i metadati dei riferimenti nella mappa DITA corrente, effettuar
 1. Dal pannello **Filtri** è possibile filtrare gli argomenti in base al **Stato documento** \(lo stato corrente degli argomenti. Ad esempio, se gli argomenti sono in stato Modifica, In-Review o Rivisto, sono elencati\), **Riferimenti** \(diretti o indiretti\), **Tipo file** \(Mappa, Argomento e Immagine\) del riferimento.
 1. È inoltre possibile scegliere di visualizzare solo i **file senza tag** oppure di scegliere tag specifici dal filtro **Tag** per visualizzare i file ad essi associati.
    1. È inoltre possibile utilizzare le opzioni di filtro degli argomenti seguenti per scegliere di visualizzare le colonne seguenti nell&#39;elenco metadati:
-      - **Titolo** \(selezionato per impostazione predefinita\) Il titolo del file di riferimento è specificato nella mappa DITA. È possibile fare clic sul file per modificarlo.È inoltre possibile fare clic su e riprodurre un file audio o video nell&#39;editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della velocità di riproduzione o la visualizzazione delle immagini nell&#39;immagine.
+      - **Titolo** \(selezionato per impostazione predefinita\) Il titolo del file di riferimento è specificato nella mappa DITA. Puoi fare clic sul file per modificarlo.È inoltre possibile fare clic su un file audio o video e riprodurlo nell&#39;editor Web. È possibile modificare il volume o la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili le opzioni per il download, la modifica della velocità di riproduzione o la visualizzazione delle immagini nell&#39;immagine.
 
         >[!NOTE]
         >
@@ -116,7 +115,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
 1. Fare doppio clic su **Multimedia** a sinistra. Viene visualizzato l&#39;elenco degli elementi multimediali presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco per file multimediali o in base ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **&#x200B;**&#x200B;prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
+   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **** prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -138,7 +137,6 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
    - **Tipo multimediale** \(selezionato per impostazione predefinita\) Tipo del file multimediale. Le opzioni disponibili sono Audio, Video o Immagine.
    - **Usato In** \(selezionato per impostazione predefinita\) I riferimenti in cui è stato utilizzato il contenuto multimediale. Potete fare clic sul riferimento per modificarlo.
    - **Tipo di riferimento** \(selezionato per impostazione predefinita\) Il tipo di riferimento - diretto o indiretto.
-
    >[!NOTE]
    >
    > Fai clic su **Aggiorna** per ottenere un nuovo elenco di elementi multimediali e visualizzare eventuali modifiche nel file di mappa o se eventuali elementi multimediali presenti nella mappa DITA vengono aggiornati.
@@ -160,42 +158,40 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Fare doppio clic su **Collegamenti interrotti** a sinistra. Viene visualizzato l&#39;elenco dei collegamenti o dei riferimenti interrotti presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco in base ai collegamenti o ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. La schermata seguente, ad esempio, mostra tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati. `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
-
+   – When you order by **Broken Link**, the paths of the broken links are displayed in the first column and then the names of all references in which they have been used, are displayed in another column on separate rows. If the same broken link is used in multiple files, then they are displayed on one row and are shown as grouped or sub-rows. For example, the following screenshot shows three broken links in the first column and the reference in which they are used, `TestMap.ditamap` is displayed in the third column on three separate rows.
    ![](images/broken-link-report.png){width="800" align="left"}
 
-   - Se ordini per colonna **Usato in**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `TestMap.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
-
+   – If you order by **Used In** column, you will view the transposed view wherein the names of the references in which the broken links have been used are listed in the first column while the broken links are listed in another column on the same row. For example, the following screenshot shows the reference (in which the broken link is used) `TestMap.ditamap` in the first column and the broken links are displayed in the third column on the same row.
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
-1. Puoi filtrare i collegamenti interrotti in base al **tipo di file** e al **tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto utilizzati nella mappa.
+1. You can filter your broken links based on the **File Type** and **Link Type**. The list of broken links is displayed based on your selection in the drop-down. For example, you can choose to display only the content references in your DITA map, and a file shows only the content references used in it.
 
-   A seconda del tipo di riferimenti utilizzati nella mappa, Riferimento file, Riferimento chiave, Riferimento contenuto, Riferimento chiave contenuto, Riferimento immagine e Riferimento file multimediale sono elencati nel menu a discesa **Tipo di collegamento** e **Argomento DITA** o **Mappa DITA** sono elencati nel menu a discesa **Tipo file**.
+   Depending on the type of references used in your map, File reference, Key reference, Content Reference, Content Key Reference, Image Reference, and Multimedia File Reference are listed in the **Link Type** drop-down, and **DITA Topic** or **DITA Map** are listed in the **File Type** dropdown.
 1. È inoltre possibile utilizzare le seguenti opzioni di filtro per scegliere di visualizzare le colonne seguenti nell&#39;elenco:
 
-   - **Collegamento interrotto** (selezionato per impostazione predefinita) Il percorso del collegamento interrotto è specificato nella mappa DITA.
+   – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map.
 
-   - **Tipo di collegamento** (selezionato per impostazione predefinita) Il tipo di collegamento. Le opzioni disponibili sono Riferimento chiave contenuto, Riferimento contenuto, Argomento DITA, Riferimento file, Riferimento immagine, Riferimento chiave e Riferimento file multimediale.
+   – **Link Type** (selected by default) The type of the links. The available options are Content Key Reference, Content Reference, DITA Topic, File Reference, Image Reference, Key reference, and Multimedia File Reference.
 
-   - **Usato In** (selezionato per impostazione predefinita) I riferimenti in cui è stato utilizzato il collegamento interrotto. Puoi fare clic sul riferimento per visualizzarlo in modalità di authoring.
+   – **Used In** (selected by default) The references in which the broken link has been used. You can click the reference to view it in author mode.
 
-   - **Tipo file** (selezionato per impostazione predefinita) Il tipo di riferimento - Mappa DITA o Argomento DITA.
-Fai clic su **Aggiorna** per ottenere un nuovo elenco di collegamenti interrotti e visualizzare eventuali modifiche nel file di mappa o se eventuali collegamenti interrotti nella mappa DITA vengono aggiornati.
-1. È possibile fare clic sull&#39;icona **Collegamento di correzione** (![](images/fix-broken-link.svg)) per correggere il collegamento interrotto.
-
-   >[!NOTE]
-   >
-   > Passa il puntatore del mouse sul percorso del collegamento interrotto nella colonna Collegamento interrotto per visualizzare l&#39;icona Correggi collegamento (![](images/fix-broken-link.svg)).
-
-   È possibile correggere un collegamento in entrambe le visualizzazioni se sono stati ordinati **Collegamenti interrotti** o **Usati in**.
+   – **File Type** (selected by default) The type of reference – DITA Map or DITA Topic.
+Click **Refresh** to get a fresh list of broken links and view any change in your map file or if any broken link within your DITA map is updated.
+1. You can click on the **Fix link** icon (![](images/fix-broken-link.svg)) to fix the broken link.
 
    >[!NOTE]
    >
-   > Quando si corregge un collegamento interrotto mentre è stato ordinato per collegamenti interrotti, il collegamento verrà corretto in tutti i file in cui viene utilizzato (raggruppati in un&#39;unica riga).
+   > Hover over the broken link path under the Broken Link column to view the Fix link (![](images/fix-broken-link.svg))  icon.
 
-1. È necessario aggiornare i dettagli di riferimento richiesti nella finestra di dialogo **Aggiorna collegamento**. I dettagli richiesti nella finestra di dialogo **Aggiorna collegamento** dipendono dal tipo di riferimento.\
-   Una volta corretto un collegamento, questo non viene visualizzato nell’elenco dei collegamenti interrotti. È invece possibile visualizzarlo in Elenco argomenti o Metadati.
+   You can fix a link in both views- when you have ordered by **Broken Links** or by **Used In**.
+
+   >[!NOTE]
+   >
+   > When you fix a broken link while you have ordered by Broken Links, the link will be fixed in all the files where it is used (which are grouped in a single row).
+
+1. You need to update the required reference details in the **Update Link** dialog. The details required in **Update Link** dialog would depend on the type of reference.\
+   Once you fix a link, it is not displayed under the list of broken links. Instead, you can view it under the Topic List or Metadata.
 
 1. Fare clic su **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)

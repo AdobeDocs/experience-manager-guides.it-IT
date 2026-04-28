@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -75,97 +75,97 @@ Effettua una delle seguenti operazioni:
 
 Dopo aver creato un predefinito di condizione, questo viene visualizzato nel menu a discesa **Predefiniti di condizione** dei predefiniti di output. Ulteriori informazioni su come [pubblicare l&#39;output di PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
-### Rinominare un predefinito di condizione
+### Rename a condition preset
 
-Per rinominare un predefinito di condizione, effettua le seguenti operazioni:
+Perform the following steps to rename a condition preset:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
-1. Selezionare **Rinomina** dal menu Opzioni per aprire la finestra di dialogo **Rinomina predefinito di condizione**.
-1. Modifica il nome del predefinito di condizione.
+1. Hover over a condition preset from the **Condition Presets** panel.
+1. Select **Rename** from the Options menu to open the **Rename condition preset** dialog.
+1. Edit the name of the condition preset.
 1. Fai clic su **Rinomina**.
 
-### Duplicare un predefinito di condizione
+### Duplicate a condition preset
 
-Per duplicare un predefinito di condizione, effettua le seguenti operazioni:
+Perform the following steps to duplicate a condition preset:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
-1. Seleziona **Duplica** dal menu Opzioni per aprire la finestra di dialogo **Predefinito condizione duplicato**.
+1. Hover over  a condition preset from the **Condition Presets** panel.
+1. Select **Duplicate** from the Options menu to open the **Duplicate condition preset** dialog.
    >[!NOTE]
    >
-   > Il nome predefinito è `<selected condition preset name>_1`. Puoi modificare il nome in base alle tue esigenze.
+   > The default name of the preset is `<selected condition preset name>_1`. Puoi modificare il nome in base alle tue esigenze.
 
 1. Fai clic su **Duplica**.
 
-### Elimina predefinito condizione
+### Delete condition preset
 
-Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
+Perform the following steps to delete condition presets:
 
-1. Passa il puntatore del mouse su un predefinito di condizione dal pannello **Predefiniti di condizione**.
-1. Selezionare **Elimina** dal menu Opzioni per aprire la finestra di dialogo **Elimina predefinito di condizione**.
+1. Hover over  a condition preset from the **Condition Presets** panel.
+1. Select **Delete** from the Options menu to open the **Delete condition preset** dialog.
 1. Fai clic su **Elimina**.
 
 
 
-## Predefiniti condizione dal dashboard delle mappe
+## Condition presets from the map dashboard
 
 
 ### Creare un predefinito di condizione
 
-Per creare un predefinito di condizione, effettua le seguenti operazioni:
+Perform the following steps to create a condition preset:
 
-1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
-1. Fare clic sul pulsante **Crea**.
-1. Immettere un nome per il predefinito in **Condizione nome**.
-1. Selezionare una delle azioni predefinite seguenti dall&#39;elenco a discesa **Imposta azione predefinita su**:
+1. Select **Condition Presets** tab in the DITA map console.
+1. Click **Create** button.
+1. Enter a name for the preset in **Name Condition**.
+1. Select one of the following default actions from **Set default action to** drop-down:
 
    * Includi
    * Escludi
    * Passthrough
-   * Contrassegno
-L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere dal fatto che vengano aggiunti o meno al predefinito della condizione.
+   * Flag
+The action is set as default action for all the attributes whether they are added to the condition preset or not.
 
-   Ad esempio, nel documento sono presenti 15 attributi di condizione, quattro dei quali sono stati inclusi nel predefinito di condizione. Se selezioni **escludi** come azione predefinita, viene applicato a tutti e 15 gli attributi.
+   For example, you have 15 condition attributes in your document and you have included four of them in the condition preset. If you select **exclude** as default action, it is applied to all 15 attributes.
 
 1. Per aggiungere gli attributi, effettuate una delle seguenti operazioni:
-   * Fai clic su **Aggiungi** a un attributo del predefinito di condizione. Puoi ripetere questo passaggio per aggiungere altri attributi.
-   * Fai clic su **Aggiungi tutti** per aggiungere tutti gli attributi al predefinito di condizione.
-1. \(Facoltativo\) Se necessario, è possibile sostituire l&#39;azione predefinita applicata agli attributi nel passaggio 4. Effettua una delle seguenti operazioni:
-   * Seleziona più attributi, scegli un&#39;azione tra **Imposta l&#39;azione per le condizioni selezionate su**, quindi fai clic su **Applica**.
-   * Selezionare un&#39;azione per un attributo dal menu a discesa **Azione**.
+   * Click **Add** to one attribute to the condition preset. Puoi ripetere questo passaggio per aggiungere altri attributi.
+   * Click **Add all** to add all the attributes to the condition preset.
+1. \(Optional\) If required, you can override the default action applied to the attributes in Step 4. Effettua una delle seguenti operazioni:
+   * Select multiple attributes, choose an action from **Set the action for selected conditions to**, and click **Apply**.
+   * Select an action for an attribute from the **Action** drop-down.
 1. Fai clic su **Salva**.
 
-### Modificare un predefinito di condizione
+### Edit a condition preset
 
-È possibile apportare modifiche a un predefinito di condizione esistente per modificare le azioni applicate agli attributi nel predefinito di condizione. Per modificare un predefinito di condizione, effettua le seguenti operazioni:
+You can make changes in an existing condition preset to change the actions applied to the attributes in the condition preset. Perform the following steps to edit a condition preset:
 
-1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
-1. Fare clic sul pulsante **Modifica**.
-1. Apporta le modifiche necessarie per tutti gli attributi nel predefinito di condizione.
+1. Select **Condition Presets** tab in the DITA map console.
+1. Click **Edit** button.
+1. Make required changes for all the attributes in the condition preset.
 1. Fai clic su **Salva**.
 
-### Creare una copia di un predefinito di condizione
+### Create a copy of a condition preset
 
-È possibile creare una copia di un predefinito di condizione e quindi modificarlo in base alle proprie esigenze. Per creare una copia di un predefinito di condizione, effettua le seguenti operazioni:
+You can create a copy of a condition preset and then modify it according to your requirement. Perform the following steps to create a copy of a condition preset:
 
-1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
-1. Fare clic sul pulsante **Duplica**.
+1. Select **Condition Presets** tab in the DITA map console.
+1. Click **Duplicate** button.
 
    >[!NOTE]
    >
-   > Il nome predefinito è `<selected condition preset name>_Duplicate`
+   > The default name of the preset is `<selected condition preset name>_Duplicate`
 
-   Puoi modificare il nome in base alle tue esigenze.
+   You can change the name according to your requirement.
 
-1. \(Facoltativo\) Apportare le modifiche necessarie per tutti gli attributi nel predefinito di condizione.
+1. \(Optional\) Make required changes for all the attributes in the condition preset.
 1. Fai clic su **Salva**.
 
-### Elimina predefinito condizione
+### Delete condition preset
 
-È possibile eliminare uno o più predefiniti di condizione dalla scheda **Predefinito condizione** della console delle mappe DITA. Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
+You can delete one or more condition presets from the **Condition Preset** tab of the DITA map console. Per eliminare i predefiniti di condizione, effettua le seguenti operazioni:
 
 1. Selezionare la scheda **Predefiniti condizione** nella console delle mappe DITA.
 1. Seleziona il predefinito di condizione\(s\) da eliminare.
 1. Fare clic sul pulsante **Rimuovi**.
 1. Fai clic su **Rimuovi** per confermare l&#39;azione.
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

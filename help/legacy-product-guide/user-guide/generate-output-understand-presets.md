@@ -5,7 +5,7 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -41,4 +41,4 @@ Nelle sezioni seguenti vengono illustrate le opzioni disponibili per i formati d
 
 In qualità di amministratore, Experience Manager Guides ti consente di creare e gestire i predefiniti di output per i profili globali e delle cartelle. Per ulteriori dettagli, visualizzare [Gestione predefiniti di output globali e Profilo cartella](./web-editor-manage-output-presets.md).
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

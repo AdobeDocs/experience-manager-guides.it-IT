@@ -1,27 +1,27 @@
 ---
 title: Contenuto autore
-description: Creare contenuti in AEM Guides. Scopri come creare, visualizzare in anteprima, modificare, salvare la versione del documento e condividerla per le revisioni.
+description: Author content in AEM Guides. Learn to create, preview, edit, save the version of your document, and share for reviews.
 feature: Authoring
 role: User
 hide: true
 exl-id: 861b1706-e4d2-488b-b188-a7746eeba082
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 # Contenuto autore {#id221EAJ0A047}
 
-AEM Guides fornisce la piattaforma per l’authoring dei contenuti mediante un’interfaccia utente di facile utilizzo. Puoi creare il contenuto, visualizzarlo in anteprima, modificarlo, salvare la versione e quindi condividerlo per le recensioni.
+AEM Guides provides the platform to author content using the easy-to-use user interface. You can create your content, preview it, edit it, save the version, and then share for reviews.
 
-Per creare i contenuti è possibile utilizzare gli editor incorporati o gli strumenti desktop. Utilizzando gli editor incorporati, è possibile creare e modificare documenti strutturati, mappe DITA e file di mappa libro. È possibile gestire le versioni dei documenti e condividerle per le revisioni.
+To author your content you can use the built-in editors or the easy desktop tools. Using the built-in editors, you can create and edit structured documents, DITA maps, and book map files. You can manage the versions of your documents and also share them for reviews.
 
-Puoi anche utilizzare gli strumenti desktop per creare i contenuti. Questi strumenti consentono di modificare i documenti utilizzando la pratica interfaccia utente e di pubblicare i file in vari formati.
+You can also use desktop tools to create your content. These tools help you to edit your documents using the convenient user interface and also publish the files in various formats.
 
-- **[Crea e visualizza in anteprima argomenti](create-preview-topics.md)**
+- **[Create and preview topics](create-preview-topics.md)**
 
-- **[Creare contenuti con AEM Guides](authoring-content-xml-doc.md)**
+- **[Author content using AEM Guides](authoring-content-xml-doc.md)**
 
-- **[Creare contenuti con strumenti desktop](author-desktop-tools.md)**
+- **[Author content using desktop tools](author-desktop-tools.md)**

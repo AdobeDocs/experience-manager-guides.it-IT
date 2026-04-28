@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azio
 - **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall&#39;Editor mappe:
    - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento. Per ulteriori dettagli, vedere [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
    - **Nuovo argomento**: quando si sceglie di creare un nuovo argomento dal menu, viene visualizzata la finestra di dialogo Crea nuovo argomento. Nella finestra di dialogo Crea nuovo argomento, fornisci i dettagli richiesti e fai clic su Crea. Per ulteriori dettagli, vedere [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
-- **Sposta**: è possibile scegliere di spostare un argomento verso l&#39;alto/il basso/a destra/a sinistra nella gerarchia.È inoltre possibile trascinare un argomento o una mappa dal pannello dell&#39;archivio alla mappa aperta nell&#39;Editor mappe.
+- **Sposta**: puoi scegliere di spostare un argomento verso l&#39;alto/il basso/a destra/a sinistra nella gerarchia.Puoi anche trascinare un argomento o una mappa dal pannello dell’archivio alla mappa aperta nell’Editor mappe.
 - **Annulla**: annulla l&#39;ultima operazione nella visualizzazione Layout.
 - **Ripeti**: ripeti l&#39;ultima operazione nella visualizzazione Layout.
 - **Copia**: copia il riferimento selezionato dal file mappa.
@@ -347,44 +347,44 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - È inoltre possibile selezionare e archiviare più argomenti utilizzando il pulsante **Salva come nuova versione e sblocca**. Quando si salva una versione degli argomenti, viene creata una nuova versione per ciascun argomento e viene rilasciato anche il blocco. È inoltre possibile visualizzare l&#39;avanzamento dell&#39;archiviazione degli argomenti nella finestra di dialogo **Salva come nuova versione e sblocca**. Al momento del check-in dei file viene visualizzato un messaggio di operazione riuscita.
 
-   - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. Se questa opzione è attivata, quando si chiude l&#39;editor con i file modificati, viene visualizzato l&#39;elenco dei file estratti che devono essere salvati. I file estratti vengono visualizzati con un&#39;icona di blocco:
+   - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. With this option enabled, when you close the editor with changed files, you are shown the list of checked-out files that need to be saved. The checked out files are shown with a lock icon:
 
      ![](images/save-on-close.PNG){width="550" align="left"}
 
-      - Facendo clic sul pulsante **Chiudi senza salvare**, i file vengono chiusi senza salvare le modifiche.
+      - Clicking on **Close Without Saving** button closes the files without saving any changes.
 
-      - Facendo clic sul pulsante **Salva** le modifiche vengono salvate, ma non vengono archiviati i file.
+      - Clicking the **Save** button saves the changes, but does not check in the files.
 
-      - Se si seleziona l&#39;opzione **Verifica file** e si fa clic sul pulsante **Salva**, i file vengono archiviati \(viene creata un&#39;altra versione\) e i file vengono salvati.
+      - Selecting the **Checking Files** option and then clicking the **Save** button checks in the files \(creates another version\) and also saves the files.
 
 
-## Visualizzare l’anteprima di una mappa
+## Preview a map
 
-Oltre a poter visualizzare la posizione di ciascun file argomento all&#39;interno di una mappa, è consigliabile visualizzare il contenuto della mappa in un unico flusso consecutivo. La funzione Anteprima mappa consente di visualizzare l&#39;intero contenuto del file mappa con un solo clic. Non è necessario generare un output del file di mappa per vedere come si presenterà l’intera mappa dopo la pubblicazione. Potete semplicemente accedere all&#39;anteprima della mappa e tutti gli argomenti e le mappe secondarie vengono visualizzati sotto forma di libro.
+In addition to be able to see the position of each topic file within a map, it is desirable to see the map content in one consecutive flow. The Preview Map feature allows you to see the entire content of the map file in a single click. You don&#39;t have to generate an output of the map file to see how the entire map will look like once published. You can simply access the map&#39;s preview and all topics and sub-maps are rendered in the form of a book.
 
-Puoi accedere all’anteprima di una mappa da:
+You can access a map&#39;s preview from:
 
-- **Interfaccia utente di Assets**: nell&#39;interfaccia utente di Assets, passare alla posizione della mappa, selezionare il file della mappa e scegliere **Anteprima mappa** nella barra degli strumenti. L’anteprima della mappa viene visualizzata in una nuova scheda. È possibile visualizzare il contenuto di tutti gli argomenti nella modalità anteprima. In questa visualizzazione non è possibile modificare alcun argomento.
+- **Assets UI**: In the Assets UI, navigate to the map location, select the map file, and choose **Preview Map** in the Toolbar. The map&#39;s preview is shown in a new tab. You can view the content of all topics in the preview mode. In this view, you cannot edit any topic.
 
   >[!NOTE]
   >
-  > Se l&#39;opzione *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata nel menu della barra degli strumenti **Altro**.
+  > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
 
-- **Editor mappe avanzato**: nell&#39;Editor mappe avanzato, fare clic sull&#39;icona Anteprima per visualizzare l&#39;anteprima della mappa corrente.
+- **Advanced Map Editor**: In the Advanced Map Editor, click on the Preview icon to see the preview of the current map.
 
   ![](images/map-preview-icon.png){width="350" align="left"}
 
-  Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
+  You can perform the following additional tasks in the preview mode:
 
-   - Fare clic con il pulsante destro del mouse su un argomento e selezionare **Modifica** per aprire l&#39;argomento per la modifica in una nuova scheda.
+   - Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
 
      >[!NOTE]
      >
-     > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
+     > If you don&#39;t have editing rights, then the topic will open in read-only mode.
 
-   - Passa all’argomento desiderato facendo clic sul titolo dell’argomento nella struttura ad albero della mappa \(nel pannello a sinistra\).
+   - Jump to the desired topic by clicking on the topic title in the map tree \(in left panel\).
 
-   - L&#39;argomento corrente nell&#39;anteprima della mappa viene evidenziato anche nella struttura della mappa.
+   - The current topic in map preview is also highlighted in the map tree.
 
 
-**Argomento padre:** [Utilizzare l&#39;editor mappe](map-editor.md)
+**Parent topic:** [Work with the Map Editor](map-editor.md)

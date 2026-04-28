@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: d6e00884-e17c-499e-9568-0807a75051ad
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Questa mappa principale sarà applicabile a tutte le risorse (cartelle e sottoca
 
 **Visualizzazione modifica argomento** - Fare clic sull&#39;icona Risoluzione chiave durante la modifica di un argomento DITA e selezionare il file DITA da utilizzare per la risoluzione dei riferimenti chiave.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

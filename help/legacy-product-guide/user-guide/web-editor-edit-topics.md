@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,6 @@ Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente do
 
    - Seleziona il contenuto all’interno di un elemento.
    - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti secondaria nella parte superiore per visualizzare la finestra di dialogo **Racchiudi con elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
-
      >[!NOTE]
      >
      > È inoltre possibile visualizzare la finestra di dialogo Surround con elemento selezionando il menu di scelta rapida del contenuto selezionato.
@@ -107,4 +106,4 @@ Quando si apre un file nell&#39;editor Web, in Experience Manager Guides è disp
 È possibile disattivare la funzionalità per individuare il file con l&#39;opzione **Individua sempre i file nel repository** dalla scheda **Aspetto** delle **Preferenze utente**.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

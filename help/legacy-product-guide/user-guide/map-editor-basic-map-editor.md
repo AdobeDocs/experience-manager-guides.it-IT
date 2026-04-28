@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -88,41 +88,41 @@ Immettere le parole chiave che si desidera cercare. Tali parole chiave vengono a
 
 Fare clic sulla casella di controllo a sinistra degli argomenti e fare clic su Raggruppa nella barra degli strumenti per raggruppare gli argomenti selezionati. Per ulteriori informazioni sul raggruppamento degli argomenti, vedere la documentazione [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) in Specifiche del linguaggio OASIS DITA.
 
-**C: Elimina**
+**C: Delete**
 
-Fare clic sulla casella di controllo a sinistra di un argomento e fare clic su Elimina nella barra degli strumenti per rimuovere gli argomenti selezionati dalla mappa.
+Click the checkbox to the left of a topic and click Delete in the toolbar to remove the selected topics from the map.
 
-**D: Mostra Numeri/Nascondi Numeri**
+**D: Show Numbers/Hide Numbers**
 
-Visualizza la numerazione \(o nascondi\) per gli argomenti nella mappa.
+Display \(or hide\) numbering for the topics in the map.
 
-**E: Convalida**
+**E: Validate**
 
-Verifica se la mappa è valida o contiene errori.
+Check whether the map is valid or has errors.
 
-**F: Modalità predefinita/Modalità XML**
+**F: Default Mode/XML Mode**
 
-In **Modalità predefinita**, facendo clic su un collegamento di argomento viene visualizzata l&#39;anteprima dell&#39;argomento in una nuova scheda. Facendo clic sull&#39;icona **Modalità predefinita**, la modalità cambia in **Modalità XML**. In **Modalità XML**, facendo clic in un punto qualsiasi della riga di un argomento, viene visualizzato l&#39;XML sottostante dei riferimenti all&#39;argomento all&#39;interno dell&#39;argomento. Nella visualizzazione XML di origine è disponibile l&#39;opzione **Rientro automatico** che riorganizza il codice XML in un formato presentabile e facilmente leggibile. Se si modifica manualmente una mappa, la vista origine esegue anche controlli di convalida. Se l&#39;XML contiene errori, lo stesso viene evidenziato nella **Modalità XML** e non è consentito salvare il file di mapping DITA. Se si desidera visualizzare il codice XML per l&#39;intera mappa, fare clic in un punto qualsiasi al di fuori del limite dell&#39;argomento.
+In the **Default Mode**, clicking a topic link shows the preview of the topic in a new tab. Clicking on the **Default Mode** icon changes its mode to **XML Mode**. In **XML Mode**, clicking anywhere in a topic row shows the underlying XML of topic references within the topic. In the source XML view, there is an **Auto Indent** option that reorganizes the XML code in presentable and easily readable format. In case you are editing a map manually, the source view also performs validation checks. In case your XML contains errors, the same gets highlighted in the **XML Mode** and you are not allowed to save the DITA map file. If you want to view the XML for the entire map, click anywhere outside the topic boundary.
 
 
-**Nota:** In modalità predefinita è possibile utilizzare le scelte rapide da tastiera per annullare \(`Ctrl+z`\) o ripetere \(`Ctrl+y`\) l&#39;ultima azione.
+**Note:** In the Default Mode you can use the keyboard shortcuts to undo \(`Ctrl+z`\) or redo \(`Ctrl+y`\) the last action.
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
-**G: Proprietà mappa**
+**G: Map Properties**
 
-Visualizza la finestra di dialogo Proprietà mappa, in cui è possibile impostare gli attributi e le informazioni sui metadati per la mappa. Per aggiungere un attributo, fare clic sul pulsante **Aggiungi** nell&#39;angolo inferiore sinistro della finestra di dialogo per ottenere l&#39;elenco a discesa **Attributo**. Selezionare dall&#39;elenco l&#39;attributo che si desidera aggiungere. Se l&#39;attributo selezionato dispone di valori predefiniti specificati nella DTD, tali valori verranno visualizzati in un nuovo elenco a discesa. Puoi selezionare il valore desiderato dall’elenco a discesa. Se non è presente alcun valore predefinito, verrà visualizzata una casella di testo per immettere un valore per l&#39;attributo selezionato.
+Display the Map Properties dialog wherein you can set the attributes and metadata information for the map. To add an attribute, click the **Add** button at the bottom-left corner of the dialog to get the **Attribute** drop-down list. From the list, select the attribute that you want to add. If the selected attribute has pre-defined values specified in the DTD, then those values would be presented in a new drop-down list. You can select the desired value from the drop-down list. If there is no pre-defined value, then you will be presented a text box to enter a value for the selected attribute.
 
 ![](images/map-properties.png){width="300" align="left"}
 
-## Funzioni disponibili a livello di argomento nell’Editor mappa di base
+## Features available at topic level in the Basic Map Editor
 
-Quando passi il puntatore del mouse su un argomento o su un file di mappa secondaria nell&#39;Editor mappe di base, puoi eseguire le seguenti attività:
+When you hover your mouse pointer over a topic or a sub-map file in the Basic Map Editor, you can perform the following tasks:
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Sposta a sinistra o Sposta a destra**
+**A: Move Left or Move Right**
 
 Fare clic sulle icone freccia sinistra o destra per spostare l&#39;argomento a sinistra o a destra. Se si sposta un argomento in questo modo, esso diventa un elemento secondario \(nest\) o di pari livello \(remove nesting\) rispetto all&#39;argomento precedente.
 
@@ -196,4 +196,4 @@ Se si desidera eliminare un argomento dalla tabella, fare clic sull&#39;icona a 
 
 Se si desidera eliminare la tabella delle relazioni, fare clic in un punto qualsiasi all&#39;esterno della tabella delle relazioni e quindi fare clic su Elimina.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

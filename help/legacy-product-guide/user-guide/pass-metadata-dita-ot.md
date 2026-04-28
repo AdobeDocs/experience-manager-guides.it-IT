@@ -5,9 +5,9 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 
    Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`.
 
-   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, vedere [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=it).
+   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, vedere [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Dal menu a discesa **Proprietà**, seleziona le proprietà personalizzate e predefinite richieste. Selezionare ad esempio `author`, `dc:title` e `dc:description`. Questi sono i `metadata/properties` standard che vengono creati dopo la creazione di un file. Le proprietà selezionate sono elencate sotto la dropbox.
 
@@ -43,6 +43,6 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 1. Fai clic su **Fine** in alto a sinistra per salvare le modifiche.
 1. Genera l’output.
 
-Le proprietà dei metadati selezionate verranno passate all&#39;output generato utilizzando DITA-OT.
+The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

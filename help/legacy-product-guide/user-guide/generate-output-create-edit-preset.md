@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -78,4 +78,4 @@ Per eliminare un predefinito di output esistente, effettua le seguenti operazion
    Il predefinito viene rimosso dall&#39;elenco Predefiniti di output.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

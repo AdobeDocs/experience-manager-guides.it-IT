@@ -2,9 +2,10 @@
 title: Guida intelligente basata sull’intelligenza artificiale per cercare contenuti
 description: Scopri come visualizzare e utilizzare la Guida avanzata basata sull’intelligenza artificiale nell’editor web.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -13,10 +14,10 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Puoi porre le tue domande e ottenere le risposte in modo informativo. La risposta alla query si basa sul contenuto della documentazione del prodotto. Questa ricerca è completamente conversazionale. Puoi fare domande, e poi, in base alla risposta, puoi anche fare altre domande. La risposta include anche collegamenti ai documenti di origine, a cui è possibile fare riferimento per ulteriori dettagli.
 
-Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come si crea un argomento?* Ricevi una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output di PDF per il documento, è possibile porre domande su di esso. *Come si pubblica un argomento in un PDF?* o *Come generare l&#39;output di PDF per un argomento?*
+Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come creare un argomento?* Ottieni una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output di PDF per il documento, è possibile porre domande su di esso. *Come pubblicare un argomento in un PDF?* o *Come generare l&#39;output di PDF per un argomento?*
 
 
 

@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: '1896'
+ht-degree: 1%
 
 ---
 
@@ -88,55 +88,55 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    Viene aperto il pannello **Citazioni**.
 
-1. Nel pannello **Citazioni**, seleziona ![Aggiungi icona](images/Add_icon.svg), quindi seleziona **Importa** dal menu a discesa.
-1. Sfoglia un file .bib dal tuo sistema e importalo.
+1. In the **Citations** panel, select ![Add icon](images/Add_icon.svg), and then select **Import** from the dropdown.
+1. Browse a .bib file from your system and import it .
 
    >[!TIP]
    >
-   > L&#39;estensione del nome file .bib è un file del database bibliografico BibTeX. Si tratta di un file di testo formattato appositamente che elenca i riferimenti relativi a una particolare fonte di informazioni.
+   > A .bib filename extension is a BibTeX Bibliographical Database file. It&#39;s a specially formatted text file that lists references about a particular source of information.
 
-   Una volta importato correttamente il file, potete visualizzare i riferimenti nel pannello delle citazioni.
+   Once the file is imported successfully, you can view the references in the citations panel.
 
    >[!NOTE]
-   > <ol><li> AEM Guides importa solo le citazioni univoche e non già presenti.
-   > &gt; <li> AEM Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+   > <ol><li> AEM Guides imports only those citations which are unique and not already present.
+    &gt; <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
 
-## Gestire le citazioni
+## Manage citations
 
-Le citazioni sono ordinate alfabeticamente nel pannello a sinistra. Cercare le citazioni in base alle fonti da utilizzare nell&#39;argomento.
+The citations are sorted alphabetically in the left panel. Search for the citations according to the sources to use in your topic.
 
 ### Filtro
 
-Seleziona l&#39;icona **Filtro** ![](images/filter-search-icon.svg) accanto alla barra di ricerca e seleziona le opzioni di origine dal menu a discesa per filtrare l&#39;elenco delle citazioni. Consente selezioni sia singole che multiple.
+Select the **Filter** ![](images/filter-search-icon.svg) icon next to the search bar and select the source options from the drop-down to filter the citation list. It allows both single and multiple selections.
 
-* **Tutte le origini**: viene visualizzato un elenco completo delle citazioni, incluse tutte le origini.
+* **All Sources**: It shows a complete list of citations, including all the sources.
 
-* **Libro**: mostra l&#39;elenco delle citazioni provenienti dai libri.
+* **Book**: It shows the list of citations sourced from books.
 
-* **Sito Web**: mostra l&#39;elenco delle citazioni provenienti dai siti Web.
+* **Website**: It shows the list of citations sourced from websites.
 
-* **Diario**: mostra l&#39;elenco delle citazioni originate dai diari.
+* **Journal**: It shows the list of citations sourced from journals.
 
 ### Ricerca
 
-Cerca il contenuto nella citazione.
+Search the citation for your content.
 
-1. Nel pannello a sinistra, seleziona Citazioni.
+1. In the left panel, select Citations.
 Viene aperto il pannello **Citazioni**.
 
-1. Utilizzare la barra di ricerca per cercare la citazione appropriata da un elenco lungo.
+1. Use the Search bar to search for the appropriate citation from a long list.
 
-### Cambia stile citazione {#change-citation-style}
+### Change citation style {#change-citation-style}
 
-L&#39;amministratore di sistema può modificare lo stile delle citazioni dal menu a discesa **Citazioni** nella scheda **Impostazioni generali** delle **Impostazioni editor**.
-Questi stili determinano il modo in cui le citazioni vengono visualizzate nel riquadro di anteprima o nell&#39;output PDF nativo.
+Your system administrator can change the style of citations from the **Citations**  dropdown in the **General Settings** tab in the **Editor Settings**.
+These styles determine the way how citations appear in the preview pane or the Native PDF output.
 
-Nel menu a discesa sono disponibili le seguenti opzioni:
+The following options are available in the dropdown:
 
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Stile associazione lingua moderna <br> | Stile associazione psicologica americana | Manuale di stile di Chicago | Stile dell&#39;Institute for Electrical and Electronics Engineers | Stile American Heart Association |
-| Esempio:<br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*.Modificato da Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di memorie oscure* (505-16 ed.). 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*. 505-16, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. |
+| Esempio:<br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*.Modificato da Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di memorie oscure* (505-16 ed.). 10.1080/ 09658210902067289 | Esempio: <br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. |
 
 
 ## Modificare una citazione
@@ -162,7 +162,7 @@ Per visualizzare l&#39;anteprima di una citazione, effettuare le seguenti operaz
 
 Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona     Icona ![](images/options.svg) **Opzioni**.
 
-1. Selezionare **Anteprima**.
+1. Seleziona **Anteprima**.
 È possibile visualizzare in anteprima il contenuto e il formato della citazione nel riquadro di anteprima.
 
    >[!NOTE]
@@ -189,7 +189,7 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
@@ -204,7 +204,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni editor**.
 
-1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.
@@ -237,41 +237,41 @@ La citazione selezionata viene eliminata dal pannello citazioni.
 
 ### Eliminare una citazione da un argomento
 
-Per eliminare una citazione già utilizzata nell&#39;argomento, eseguire la procedura seguente:
+To delete a citation that is already used in the topic, follow these steps:
 
-Nell&#39;argomento posizionare il cursore alla fine della citazione.
+In the topic, place your cursor at the end of the citation.
 
-1. Fare clic con il pulsante destro del mouse su una citazione nell&#39;argomento e selezionare **Modifica citazione** dal menu di scelta rapida. Viene visualizzata la finestra di dialogo Citazione.
-   ![menu di scelta rapida di una citazione](./images/modify-citation.png)
+1. Right-click a citation in the topic and select **Modify Citation** from the shortcut menu. The Citation dialog opens.
+   ![shortcut menu of a citation](./images/modify-citation.png)
 
-1. È possibile scegliere le citazioni da inserire nel documento.
+1. You can choose the citations you want to insert into the document.
 
    >[!NOTE]
    >
-   >Le citazioni già utilizzate nell’argomento vengono sostituite con le citazioni selezionate nella finestra di dialogo.
+   >The citations that are already used in the topic are replaced with the ciations that you select from the dialog.
 
 
 1. Seleziona **Fine**.
 
-## Genera output di contenuto con citazioni
+## Generate output of content with citations
 
-Dopo aver inserito le citazioni nell’argomento, puoi pubblicare il contenuto con le citazioni utilizzando PDF nativo.
+Once you have inserted citations in the topic, you can publish content with citations using Native PDF.
 
-Nell’output PDF nativo, le citazioni vengono visualizzate all’interno del contenuto in cui sono state inserite. Puoi anche creare una pagina di bibliografia. Quando fai clic su una citazione, vieni reindirizzato alla pagina della bibliografia.
+In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
 
-Crea un layout di pagina **Citazioni** nei modelli di PDF e includilo nel documento. Tutte le citazioni utilizzate nel libro vengono elencate in una pagina che appare nell&#39;output di PDF. Per ulteriori informazioni sulla creazione di un layout di pagina, visualizzare [Creare un layout di pagina](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
-
-
-Per modificare la visualizzazione della pagina delle citazioni, visualizzare [Personalizzare i modelli di PDF](/help/product-guide/native-pdf/pdf-template.md).
+Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
+To change the view and feel of the citation page, view [Customize PDF templates](/help/product-guide/native-pdf/pdf-template.md).
 
-### Applicare lo stile del contenuto a una citazione
 
-Applica la formattazione alla citazione quando viene aggiunta all&#39;argomento.
 
-1. Selezionare **Fogli di stile** nel pannello **Modelli** di un predefinito di output PDF nativo.   Viene aperto il pannello **STILI** che contiene tutte le opzioni di stile.
+### Apply content style to a citation
 
-1. Nel pannello Ricerca, cerca `<cite>`.
+Apply formatting to the citation when added to the topic.
 
-Per ulteriori informazioni sugli stili, visualizzare [Utilizzare gli stili di contenuto comuni](/help/product-guide/native-pdf/stylesheet.md).
+1. Select **Stylesheets** in the **Templates** panel of a Native PDF output preset.   It opens the **STYLES** panel that contains all the styling options.
+
+1. In the Search panel, search for `<cite>`.
+
+To learn more about styles, view [Work with the common content styles](/help/product-guide/native-pdf/stylesheet.md).

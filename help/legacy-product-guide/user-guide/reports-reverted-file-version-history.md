@@ -1,45 +1,45 @@
 ---
-title: Rapporto cronologia versioni file ripristinati
-description: Visualizzare i rapporti sulla cronologia delle versioni dei file ripristinati in AEM Guides. Scopri come accedere ai registri di ripristino della versione dall’interfaccia utente di Assets, dall’anteprima dell’argomento e dalla selezione degli strumenti AEM.
+title: Reverted files version history report
+description: View reverted files version history reports in AEM Guides. Learn how to access revert version logs from the Assets UI, topic preview, and AEMs tools selection.
 feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 692a4fe0fbe461d5febfab060f67c91651b859a2
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Rapporto cronologia versioni file ripristinati {#id205BBC00PRK}
+# Reverted files version history report {#id205BBC00PRK}
 
-Quando lavori su più versioni simultanee insieme a più autori, il contenuto è associato a più versioni. Potrebbero essere presenti alcune informazioni comuni a più versioni, che diversi autori potrebbero utilizzare nel loro progetto. Per gestire tali assegnazioni di lavoro, gli autori potrebbero finire con più versioni di file. Tali versioni potrebbero essere semplicemente una versione più recente di un file o un ripristino di una versione precedente. È un’attività complessa identificare quando un file è stato ripristinato e perché.
+When you are working on multiple simultaneous releases along with multiple authors, your content is bound to have multiple versions. There could be some common information across multiple releases, which different authors could use in their project. To handle such work assignments, authors could end up with multiple versions of files. Such versions could simply be a newer version of a file or a revert to an earlier version. It is a complex task to identify when a file was reverted and why.
 
-AEM Guides consente di generare un rapporto sulla cronologia delle versioni per un singolo file o per tutti i file presenti in una cartella. Questa cronologia delle versioni offre una visualizzazione consolidata di tutte le versioni di un file che sono state ripristinate, di chi ha creato tali versioni e del motivo per cui le ha create.
+AEM Guides allows you to generate a version history report for an individual file or for all files in a folder. This version history gives you a consolidate view of all versions of a file that were reverted and who created those versions and the reason for creating those versions.
 
-Puoi accedere a questo rapporto dalle seguenti posizioni:
+You can access this report from the following places:
 
-- **Interfaccia utente di Assets**: selezionando un file e aprendo **Cronologia versioni** dalla barra a sinistra. La visualizzazione **Cronologia versioni** contiene il collegamento **Ripristina registri versioni** nella parte inferiore del pannello. Quando fai clic su questo collegamento, viene visualizzata la cronologia delle versioni ripristinate del file selezionato.
+- **Assets UI**: by selecting a file and opening the **Version History** from the left rail. The **Version History** view contains the **Revert Version Logs** link at the bottom of the panel. When you click on this link, the selected file&#39;s history of the reverted versions is displayed.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Anteprima argomento**: quando visualizzi l&#39;anteprima di un argomento, puoi visualizzare anche il pannello **Cronologia versione** dalla barra a sinistra. Otterrai un pannello simile all&#39;interfaccia utente di Assets da cui puoi fare clic sul collegamento **Ripristina registri versione** per accedere alla cronologia delle versioni ripristinate del documento attivo.
+- **Topic preview**: when you are previewing a topic, there also you can bring up the **Version History** panel from the left rail. You will get a panel similar to the Assets UI from where you can click the **Revert Version Logs** link to access the reverted version history of the active document.
 
-- **Sezione Strumenti di AEM**: puoi accedere a questo rapporto anche dalla sezione Strumenti di AEM. La procedura seguente spiega come accedere alla cronologia delle versioni ripristinate dalla sezione Strumenti di AEM.
+- **AEM&#39;s Tools section**: you can also access this report from AEM&#39;s Tools section. The following procedure explains how you can access the revert version history from the AEM&#39;s Tools section.
 
 
-Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riportate di seguito.
+Perform the following steps to access the Revert History report:
 
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
 
 1. Selezionare **Guide** dall&#39;elenco degli strumenti.
 
-1. Fare clic sul riquadro **Cronologia ripristino versione**.
+1. Click on the **Version Revert History** tile.
 
-   Viene visualizzata una pagina vuota Ripristina cronologia versioni in cui è necessario cercare e selezionare un file o una cartella per generare il report.
+   A blank Revert Version History page is displayed wherein you need to browse to and select a file or folder to generate the report.
 
-1. Fare clic su **Mostra registri** per generare il report per il file o la cartella selezionata.
+1. Click **Show Logs** to generate the report for the selected file or folder.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
@@ -59,4 +59,4 @@ Per accedere al rapporto Cronologia ripristino, effettuare le operazioni riporta
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)

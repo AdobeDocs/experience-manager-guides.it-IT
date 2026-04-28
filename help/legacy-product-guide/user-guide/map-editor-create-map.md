@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ Per creare un file di mappa, effettua le seguenti operazioni:
    > Per utilizzare l&#39;Editor mapping avanzato, accedere al file di mapping nell&#39;Editor Web. Se l&#39;amministratore ha configurato l&#39;Editor mapping avanzato come editor predefinito nei file di mapping, il file di mapping viene aperto direttamente nell&#39;Editor mapping avanzato per la modifica. Consulta *Impostare l&#39;Editor mappe avanzate come predefinito* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

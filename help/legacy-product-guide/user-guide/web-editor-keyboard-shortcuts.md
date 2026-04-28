@@ -1,43 +1,43 @@
 ---
-title: Scelte rapide da tastiera nell’editor web
-description: Scopri le scelte rapide da tastiera per risparmiare tempo nell’editor web di AEM Guides.
+title: Keyboard shortcuts in the Web Editor
+description: Discover time-saving keyboard shortcuts in the web editor of AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
-# Scelte rapide da tastiera nell’editor web {#id2056B0A0WHT}
+# Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
 
-Nell&#39;Editor Web sono disponibili numerose operazioni che è possibile eseguire utilizzando le scelte rapide da tastiera. Nella tabella seguente sono elencate le scelte rapide da tastiera seguenti:
+There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
 
 >[!NOTE]
 >
-> I tasti lettera nella scelta rapida da tastiera non distinguono tra maiuscole e minuscole.
+> The letter keys in the keyboard shortcut are case-insensitive.
 
-## Scelte rapide da tastiera per Windows e macOS
+## Keyboard shortcuts for Windows and macOS
 
-| Operazione nell’editor web | Windows | macOS |
+| Operation in Web Editor | Windows | macOS |
 |-----------------------|-----------------|-----------------|
-| Applica il formato grassetto al testo selezionato | ***Ctrl***+***B*** | ***Comando***+***B*** |
-| Applica formattazione corsivo al testo selezionato | ***Ctrl***+***I*** | ***Comando***+***I*** |
-| Applica formattazione sottolineatura al testo selezionato | ***Ctrl***+***U*** | ***Comando***+***U*** |
-| Attiva nel pannello sinistro | **Ctrl***+**Maiusc**+***1*** | ***Comando***+**Spostamento**+***1*** |
-| Metti a fuoco il pannello a destra | **Ctrl***+**Maiusc**+***2*** | ***Comando***+**Spostamento**+***2*** |
-| Attiva l&#39;editor corrente | **Ctrl***+**Maiusc**+***0*** | ***Comando***+**Spostamento**+***0*** |
-| Salva documento nella visualizzazione Autore o Source | ***Ctrl***+**Maiusc**+***S*** | ***Comando***+**Spostamento**+***S*** |
-| Salvare tutti i documenti aperti nella visualizzazione Autore o Source | ***Ctrl***+***S*** | ***Comando***+***S*** |
-| Mostra finestra di dialogo Inserisci elemento | ***Alt***+***Invio*** | ***Opzione***+***Invio*** |
-| Mostra la finestra di dialogo Inserisci elemento per inserire l’elemento prima dell’elemento selezionato | ***Alt***+***Maiusc***+***Invio*** | ***Opzione***+***Spostamento***+***Invio*** |
-| Spostare il cursore di una parola verso sinistra. | ***Ctrl***+***Freccia sinistra*** | ***Opzione***+***Freccia sinistra*** |
-| Spostare il cursore di una parola verso destra. | ***Ctrl***+***Freccia destra*** | ***Opzione***+***Freccia Destra*** |
-| Sposta il cursore all&#39;inizio della riga corrente. | ***Home*** | ***Comando***+***Freccia sinistra*** |
-| Sposta il cursore alla fine della riga corrente. | **Fine** | ***Comando***+***Freccia Destra*** |
+| Apply bold formatting on selected text | ***Ctrl***+***B*** | ***Command***+***B*** |
+| Apply Italics formatting on selected text | ***Ctrl***+***I*** | ***Command***+***I*** |
+| Apply underline formatting on selected text | ***Ctrl***+***U*** | ***Command***+***U*** |
+| Focus on the left panel | **Ctrl***+**Shift**+***1*** | ***Command***+**Shift**+***1*** |
+| Focus on the right panel | **Ctrl***+**Shift**+***2*** | ***Command***+**Shift**+***2*** |
+| Focus on the current editor | **Ctrl***+**Shift**+***0*** | ***Command***+**Shift**+***0*** |
+| Save document in Author or Source view | ***Ctrl***+**Shift**+***S*** | ***Command***+**Shift**+***S*** |
+| Save all opened documents in Author or Source view | ***Ctrl***+***S*** | ***Command***+***S*** |
+| Show Insert Element dialog | ***Alt***+***Enter*** | ***Option***+***Enter*** |
+| Show Insert Element dialog to insert element before the selected element | ***Alt***+***Shift***+***Enter*** | ***Option***+***Shift***+***Enter*** |
+| Move the cursor one word to the left. | ***Ctrl***+***Left Arrow*** | ***Option***+***Left Arrow*** |
+| Move the cursor one word to the right. | ***Ctrl***+***Right Arrow*** | ***Option***+***Right Arrow*** |
+| Move the cursor to the beginning of the current line. | ***Home*** | ***Command***+***Left Arrow*** |
+| Move the cursor to the end of the current line. | **End** | ***Command***+***Right Arrow*** |
 | Sposta il cursore all&#39;inizio dell&#39;elemento successivo. | ***Scheda*** | ***Scheda*** |
 | Rientra la voce di elenco al livello successivo. | ***Scheda*** | ***Scheda*** |
 | Sposta il cursore alla fine dell&#39;elemento precedente. | ***Maiusc***+***Scheda*** | ***Maiusc***+***Scheda*** |

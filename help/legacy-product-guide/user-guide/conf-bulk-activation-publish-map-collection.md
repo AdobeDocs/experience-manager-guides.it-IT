@@ -5,10 +5,10 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -86,4 +86,4 @@ Quando l’output della mappa viene inserito nella coda per la pubblicazione, vi
 
 Una volta attivato l’output per i file di mappa selezionati, viene aggiornata la scheda della cronologia del controllo e viene visualizzato l’output attivato più recente. La colonna **Pubblicato** è stata aggiornata con la data e l&#39;ora di pubblicazione.
 
-**Argomento padre: &#x200B;** [Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre: **[Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

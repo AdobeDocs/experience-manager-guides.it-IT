@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
 
 1. Se si desidera applicare l&#39;etichetta agli argomenti a cui si fa riferimento dalle mappe secondarie, selezionare l&#39;opzione **Applica etichetta alle mappe figlio e dipendenti**.
 
-   - Fare clic su **Aggiungi**.
+   - Fai clic su **Aggiungi**.
 L&#39;etichetta specificata viene aggiunta alla mappa DITA e agli argomenti e al contenuto a cui si fa riferimento.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
@@ -183,4 +183,4 @@ Per esportare una baseline tradotta, effettuare le seguenti operazioni:
 1. \(Facoltativo\) Per esportare una baseline già esportata, selezionare **Sovrascrivi baseline esistente**, quindi fare clic su **Esporta baseline**.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

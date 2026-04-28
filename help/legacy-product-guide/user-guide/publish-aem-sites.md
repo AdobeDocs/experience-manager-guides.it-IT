@@ -4,9 +4,10 @@ description: Pubblica un argomento o gli elementi all’interno di un argomento 
 feature: Publishing
 role: User
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Per generare una pagina Sites, effettuare le seguenti operazioni:
    * **Modello pagina**: seleziona il modello di pagina Sites per creare la pagina Sites. Puoi visualizzare i modelli nella cartella sul percorso selezionato. L’amministratore può anche caricare modelli personalizzati.
 
 
-   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
+   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Seleziona una delle opzioni seguenti:
 
 
       * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
@@ -58,7 +59,7 @@ Per generare una pagina Sites, effettuare le seguenti operazioni:
 1. Fai clic su **Genera** per pubblicare la pagina Sites.
 1. Puoi visualizzare la pagina Sites per un argomento nella sezione **Output** delle **Proprietà file**. Le pagine Sites vengono visualizzate in base alla data e all’ora di pubblicazione, la più recente delle quali corrisponde alla prima.
 
-   ![Visualizza la pagina Sites per un argomento](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visualizza la pagina Sites per un argomento](images/aem-sites-outputs.png){width=300 align="left"}
 
    *Visualizzare la pagina Sites presente per un argomento e ripubblicarla.*
 

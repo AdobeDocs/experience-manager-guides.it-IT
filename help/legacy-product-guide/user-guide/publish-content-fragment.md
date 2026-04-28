@@ -5,10 +5,10 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -69,38 +69,38 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 
    *Selezionare il modello per frammenti di contenuto e aggiungere i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di contenuto.*
 
-   * **Modello**: seleziona il modello per frammenti di contenuto da utilizzare per creare il frammento di contenuto. I modelli vengono selezionati dalla cartella, che hai configurato sul server Experience Manager Guides.
-   * **Mappatura**: puoi visualizzare gli elementi dell&#39;argomento a cui è applicato un attributo id. Trascina gli elementi argomento nei campi presenti nel modello per frammenti di contenuto.
-Se è presente un frammento di contenuto, a destra vengono inseriti i contenuti del frammento di contenuto pubblicato. Se necessario, questi possono essere sovrascritti con il contenuto dell’argomento. Puoi anche selezionare **Annulla** per ripristinare le modifiche di mappatura.
+   * **Modello**: seleziona il modello per frammenti di contenuto da utilizzare per creare il frammento di contenuto. The models are picked from the folder, which you have configured on Experience Manager Guides server.
+   * **Mapping**: You can view the topic elements that have an id attribute applied to them. Drag the topic elements to the fields present in the content fragment model.
+The right side is populated with the published Content Fragment contents in case of an existing Content Fragment. These can be overwritten with the topic contents if necessary. You can also select **Undo** to revert the mapping changes.
 
 
      >[!NOTE]
      >
-     > Se utilizzi la versione 4.4 o precedenti, seleziona una mappatura dal menu a discesa. Seleziona le mappature dal file *contentFragmentMapping.json*.  L&#39;amministratore può aggiungere le mappature nel file *contentFragmentMapping.json*. Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di contenuto](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
+     > If you are using 4.4 or earlier versions, select a mapping from the drop-down. It picks the mappings from the *contentFragmentMapping.json* file.  Your administrator can add the mappings in the *contentFragmentMapping.json* file. Learn more about how to [create a mapping between a topic and a Content Fragment](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) in the Installation and Configuration Guide.
 
-1. Fai clic su **Genera** per pubblicare il frammento di contenuto.
+1. Click **Generate** to publish the Content Fragment.
 
-1. Puoi visualizzare i Frammenti di contenuto per un argomento nella sezione **Output** delle **Proprietà file**.
+1. You can view the Content Fragments for a topic under the **Outputs** section in the **File Properties**.
 
-   ![Visualizza i frammenti di contenuto per un argomento](images/outputs-options-menu.png){width="300" align="left"}
+   ![View the Content Fragments for a topic](images/outputs-options-menu.png){width="300" align="left"}
 
-   *Visualizza i frammenti di contenuto presenti in un argomento e ripubblicali.*
-
-
-Dopo aver pubblicato i frammenti di contenuto, puoi utilizzarli in qualsiasi sito Adobe Experience Manager.
+   *View the Content Fragments present for a topic and republish them.*
 
 
+Once you&#39;ve published the Content Fragments, you can also use them in any Adobe Experience Manager Site.
 
 
-## Menu Opzioni per un frammento di contenuto
 
-Per un frammento di contenuto è inoltre possibile eseguire le azioni seguenti dal menu **Opzioni**:
 
-* **Genera**: ripubblica il frammento di contenuto per aggiornarlo con il contenuto più recente dell&#39;argomento DITA. Quando rigeneri l’output, puoi modificare il percorso, il nome, il titolo, il modello e la mappatura del frammento di contenuto. Durante la rigenerazione dell&#39;output potete anche selezionare condizioni diverse.
+## Options menu for a Content Fragment
 
-* **Duplicato**: duplicare un frammento di contenuto. È possibile modificare il percorso, il nome, il titolo, il modello e la mappatura. Puoi anche selezionare condizioni diverse quando duplichi un frammento di contenuto per creare una variante di frammento di contenuto.
+You can also perform the following actions for a Content Fragment from the **Options** menu:
 
-* **Rimuovi**: rimuovi un frammento di contenuto dall&#39;elenco degli output. Viene visualizzata una richiesta di conferma. Dopo la conferma, il frammento di contenuto viene rimosso dall&#39;elenco **Output**.
+* **Generate**: Republish the Content Fragment to update it with the latest content from the DITA topic. When you regenerate the output, you can change the path, name, title, model, and mapping of the Content Fragment. You can also select different conditions while regenerating the output.
+
+* **Duplicate**: Duplicate a Content Fragment. You can change the path, name, title, model, and the mapping. You can also select different conditions when you duplicate a Content Fragment to create a Content Fragment variant.
+
+* **Remove**: Remove a Content Fragment from the outputs list. Viene visualizzata una richiesta di conferma. Dopo la conferma, il frammento di contenuto viene rimosso dall&#39;elenco **Output**.
 
   >[!NOTE]
   >

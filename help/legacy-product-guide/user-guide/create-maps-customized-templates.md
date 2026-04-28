@@ -5,10 +5,10 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1111'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Per creare un modello di argomento, effettuare le seguenti operazioni:
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Fare clic sulla cartella **topic** per aprirla.Fare clic su **Crea \> Modello DITA**.
+1. Fai clic sulla cartella **topic** per aprirla.Fare clic su **Crea \> Modello DITA**.
 1. Nella pagina Blueprint, seleziona **Argomento**, quindi fai clic su **Avanti.**
 1. Nella pagina Proprietà, specifica il modello di argomento **Titolo**.
 1. Specifica il file **Name**
@@ -76,7 +76,7 @@ Per creare un modello di mappa, effettua le seguenti operazioni:
    >
    > Il nome del file deve avere l&#39;estensione .ditamap.
 
-1. (Facoltativo\) Aggiungi una descrizione. Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
+1. (Facoltativo\) Aggiungi una descrizione.Fai clic su **Crea**. Viene visualizzato il messaggio di creazione del modello di mappa. È quindi possibile aprire il modello di mappa e modificarlo. Puoi aggiungere i riferimenti per i modelli di argomento, i modelli di mappa e anche altre risorse nel modello di mappa.
 
 ### Menu Opzioni {#options-menu}
 
@@ -190,4 +190,4 @@ La mappa genera tutte le risorse a cui si fa riferimento all’interno della car
 
 - Se nella cartella viene creato un altro argomento o mappa allo stesso livello, i nomi delle nuove risorse vengono aggiunti 0, 1, 2 e così via. È possibile scegliere di aprire la mappa per la modifica o salvare il file di mappa nel repository.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor mappe](map-editor.md)

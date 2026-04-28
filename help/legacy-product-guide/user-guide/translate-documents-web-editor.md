@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2343'
-ht-degree: 0%
+source-wordcount: '2358'
+ht-degree: 1%
 
 ---
 
@@ -77,7 +77,7 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
    **Usa versione più recente come in data**: scegliere di filtrare la versione degli argomenti in base alla data e all&#39;ora di creazione. Quando si seleziona una data e un&#39;ora, viene visualizzata solo la versione più recente dei file creati in corrispondenza o prima della data e dell&#39;ora selezionate.
 
-1. Fare clic su **Applica**. Viene visualizzato un elenco con i dettagli degli argomenti e delle risorse associate.
+1. Fai clic su **Applica**. Viene visualizzato un elenco con i dettagli degli argomenti e delle risorse associate.
 1. Seleziona gli argomenti da inviare per la traduzione. È inoltre possibile utilizzare le opzioni di filtro degli argomenti per le colonne seguenti:
 
    - **Titolo**: titolo del file di origine.  Passa il cursore del mouse sul titolo del file di origine per visualizzare il titolo del file di destinazione o tradotto.
@@ -227,4 +227,4 @@ Per la gestione dei documenti, Experience Manager Guides consente di eliminare i
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

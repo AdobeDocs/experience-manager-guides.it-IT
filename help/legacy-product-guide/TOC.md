@@ -4,10 +4,10 @@ user-guide-description: Leggi la documentazione del prodotto per Adobe Experienc
 breadcrumb-title: Documentazione di AEM Guides
 hide: true
 badgeAll: label="Guida alla vecchia interfaccia utente - Ulteriori informazioni" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Guida alla vecchia interfaccia utente"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 3%
+source-wordcount: '599'
+ht-degree: 6%
 
 ---
 
@@ -17,26 +17,26 @@ ht-degree: 3%
 - [Dichiarazione di non responsabilità](disclaimer.md)
 - [Panoramica di [!DNL AEM Guides]](overview.md)
 - [Informazioni sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
-- Guida utente (precedente interfaccia utente) {#user-guide}
+- Guida utente (vecchia interfaccia utente) {#user-guide}
    - Introduzione {#about-aem-guide}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] funzionanti e funzionalità chiave {#aemg-works-features}
+      - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
-   - Gestisci contenuto {#manage-content}
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+   - Gestione contenuto {#manage-content}
       - [Concetti chiave, ruoli, autorizzazioni e prerequisiti](./user-guide/authoring.md)
       - [Carica file](./user-guide/authoring-upload-existing-files.md)
       - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
       - [Scarica file](./user-guide/authoring-download-assets.md)
    - Contenuto autore {#author-content}
       - [Panoramica sull’authoring](./user-guide/authoring-content.md)
-      - Creazione argomento e anteprima {#create-preview-topics}
+      - Creazione e anteprima argomento {#create-preview-topics}
          - [Creazione e anteprima di argomenti](./user-guide/create-preview-topics.md)
          - [Crea argomenti](./user-guide/web-editor-create-topics.md)
          - [Visualizzare l&#39;anteprima di un argomento](./user-guide/web-editor-preview-topics.md)
          - Contenuto autore {#author-content-aem-guides}
             - [Modo di creare contenuti con AEM Guides](./user-guide/authoring-content-xml-doc.md)
-            - Editor Web {#work-with-web-editor}
+            - Editor web {#work-with-web-editor}
                - [Utilizzare l’editor web](./user-guide/web-editor.md)
                - [Avviare l’editor web](./user-guide/web-editor-launch-editor.md)
                - [Modificare gli argomenti nell&#39;editor Web](./user-guide/web-editor-edit-topics.md)
@@ -70,7 +70,7 @@ ht-degree: 3%
                - [Altre funzioni negli editor di mappe](./user-guide/map-editor-other-features.md)
             - Editor DITAVAL {#ditaval-editor}
                - [Utilizzare l&#39;editor DITAVAL](./user-guide/ditaval-editor.md)
-         - Strumenti desktop per la creazione del contenuto {#author-using-desktop-tools}
+         - Strumenti desktop per l&#39;authoring dei contenuti {#author-using-desktop-tools}
             - [Creare contenuti con strumenti desktop](./user-guide/author-desktop-tools.md)
             - [Utilizzare FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Lavorare con l&#39;ossigeno](./user-guide/author-desktop-oxygen.md)
@@ -89,7 +89,7 @@ ht-degree: 3%
       - [Utilizzare i metadati in AEM](./user-guide/metadata-dita.md)
       - [Applicazione di tag avanzati](./user-guide/web-editor-smart-tagging.md)
       - [Applicazione di tag in blocco a contenuto DITA](./user-guide/map-editor-bulk-tagging.md)
-   - Traduzione del contenuto {#translate-content}
+   - Traduzione dei contenuti {#translate-content}
       - [Tradurre il contenuto](./user-guide/translation.md)
       - [Best practice per la traduzione dei contenuti](./user-guide/translation-first-time.md)
       - [Visualizza stato traduzione](./user-guide/translation-view-trans-state-6234.md)
@@ -120,13 +120,13 @@ ht-degree: 3%
       - [Pubblicare frammenti di contenuto](./user-guide/publish-content-fragment.md)
       - [Pubblicare Frammenti Esperienza](./user-guide/publish-experience-fragment.md)
       - [Pubblicare pagine AEM Sites](./user-guide/publish-aem-sites.md)
-      - Attivazione in blocco del contenuto {#bulk-activation}
+      - Attivazione in blocco dei contenuti {#bulk-activation}
          - [Attivazione in blocco di contenuti pubblicati](./user-guide/conf-bulk-activation.md)
          - [Creare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Attiva output](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Modificare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Eliminare una raccolta di mappe di attivazione in blocco](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - Generazione output di documenti FrameMaker {#generate-fm-output}
+   - Generazione di output di documenti FrameMaker {#generate-fm-output}
       - [Genera output di documenti FrameMaker](./user-guide/fm-output-generatation.md)
       - Predefiniti supportati {#fm-docs-generating-presets}
          - [Predefiniti per la generazione di documenti FrameMaker](./user-guide/fm-output-understand-presets.md)
@@ -142,5 +142,5 @@ ht-degree: 3%
       - [Rapporto sul riutilizzo dei contenuti](./user-guide/reports-content-reuse.md)
       - [Rapporto sullo stato della conversione](./user-guide/reports-convertion-status.md)
       - [Rapporto cronologia versioni file ripristinati](./user-guide/reports-reverted-file-version-history.md)
-- [GUIDA UTENTE (NUOVA INTERFACCIA UTENTE)](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GUIDA UTENTE (NUOVA INTERFACCIA UTENTE)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

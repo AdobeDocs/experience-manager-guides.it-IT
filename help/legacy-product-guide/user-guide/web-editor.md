@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: a5b0d107-4e17-4d0c-99dd-0228189e2449
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ Inoltre, l&#39;editor Web è compatibile con DITA e supporta gli standard DITA 1
 - **[Usa etichette](web-editor-use-label.md)**
 
 
-**Argomento padre:**&#x200B;[&#x200B; Creare contenuti con AEM Guides](authoring-content-xml-doc.md)
+**Argomento padre:**[ Creare contenuti con AEM Guides](authoring-content-xml-doc.md)

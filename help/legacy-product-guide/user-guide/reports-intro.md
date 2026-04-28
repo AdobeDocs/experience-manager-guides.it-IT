@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # Rapporti {#id1645H9007MZ}
 
-In una configurazione organizzativa, desideri verificare la completezza complessiva della documentazione tecnica prima di iniziare a lavorarci o a inviare i documenti in diretta. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala. AEM Guides fornisce alcuni rapporti che forniscono informazioni utili sullo stato complessivo dei contenuti nell’archivio e sul modo in cui i contenuti vengono utilizzati nel processo di documentazione.
+In una configurazione organizzativa, desideri verificare la completezza complessiva della documentazione tecnica prima di iniziare a lavorarci o a inviare i documenti in diretta. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala. AEM Guides fornisce alcuni rapporti che forniscono un utile insight sullo stato complessivo dei contenuti nell’archivio e sul modo in cui i contenuti vengono utilizzati nel processo di documentazione.
 
 È possibile creare rapporti mappa DITA in due modi:
 

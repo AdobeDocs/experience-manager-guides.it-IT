@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Si tratta di una visualizzazione tipica di What You See is What You Get \(WYSISY
 >
 > Quando utilizzi il riferimento al contenuto, il contenuto a cui si fa riferimento viene visualizzato anche nella vista Autore in blu. Il contenuto a cui si fa riferimento non è modificabile.
 
-## Sorgente
+## Origine
 
 Nella visualizzazione Source viene visualizzato il codice XML sottostante che costituisce l&#39;argomento. Se si ha familiarità con l&#39;utilizzo diretto di XML, è consigliabile utilizzare la visualizzazione Source. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, è possibile aggiungere elementi e attributi utilizzando lo Smart Catalog oppure trovare e sostituire testo, elementi o attributi.
 
@@ -152,4 +152,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
