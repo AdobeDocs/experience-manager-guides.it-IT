@@ -99,7 +99,7 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    >[!NOTE]
    > <ol><li> AEM Guides imports only those citations which are unique and not already present.
-    &gt; <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
+   > &gt; <li> AEM Guides can import citations from a Book, Journal, or a Website. Currently it does not support citations from other sources.
 
 ## Manage citations
 
@@ -189,7 +189,7 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
@@ -204,7 +204,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni editor**.
 
-1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.

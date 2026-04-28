@@ -59,4 +59,4 @@ Perform the following steps to access the Revert History report:
 
 
 
-**Argomento padre:**[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)

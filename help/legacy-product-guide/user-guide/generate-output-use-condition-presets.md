@@ -168,4 +168,4 @@ You can delete one or more condition presets from the **Condition Preset** tab o
 1. Fare clic sul pulsante **Rimuovi**.
 1. Fai clic su **Rimuovi** per confermare l&#39;azione.
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

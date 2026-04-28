@@ -33,7 +33,7 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 1. Selezionare **AEM Sites** dal menu a discesa **Tipo** nella finestra di dialogo **Nuovo predefinito di output**.
 1. Deseleziona l&#39;opzione **Usa mapping di componenti legacy** nella finestra di dialogo **Nuovo predefinito di output**.
 
-![Nuovo ](images/new-aem-sites-dialog-box.png)
+![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 >[!NOTE]
 >
 >Prima di configurare i predefiniti di AEM Sites per Experience Manager Guides, l’amministratore deve creare una struttura AEM Sites utilizzando i modelli.
-- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
-- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
+>- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
+>- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
 
 
 

@@ -45,4 +45,4 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 
 The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

@@ -752,7 +752,7 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
    Scheda **Anteprima**: il contenuto appena aggiunto è in verde e il contenuto eliminato in rosso.
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
-   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
    >[!NOTE]
@@ -936,7 +936,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **Json** nel percorso selezionato.
 
-![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -1969,7 +1969,7 @@ You can access the **Content Properties** feature by selecting the **Content Pro
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi fare clic su **Aggiungi**.
 
-   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
    ![modifica attributi](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2004,7 +2004,7 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 - **Lingua**: mostra la lingua dell&#39;argomento. Viene impostato dal campo della lingua nella pagina delle proprietà.
 - **Data creazione**: visualizza la data e l&#39;ora di creazione dell&#39;argomento.
 - **Estratto da**: mostra l&#39;utente che ha estratto l&#39;argomento.
-- **Stato documento**: è possibile selezionare e aggiornare lo stato del documento dell&#39;argomento attualmente aperto. Per ulteriori dettagli, vedere [Stato documento ](web-editor-document-states.md#)*.*
+- **Stato documento**: è possibile selezionare e aggiornare lo stato del documento dell&#39;argomento attualmente aperto. Per ulteriori dettagli, vedere [Stato documento &#x200B;](web-editor-document-states.md#)*.*
 
 **Nota:** è possibile copiare negli Appunti i valori degli attributi dei vari campi delle proprietà File.
 
@@ -2047,4 +2047,4 @@ Utilizzando la funzione Tracked Changes (Modifiche tracciate) del pannello di de
 >
 > La funzione Tracciamento delle modifiche mostra tutti gli aggiornamenti tracciati mediante la funzione Attiva/Disattiva rilevamento modifiche della barra degli strumenti principale. Per ulteriori dettagli, vedere [Attiva/Disattiva revisioni](#id205DF0203Y4).
 
-**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)

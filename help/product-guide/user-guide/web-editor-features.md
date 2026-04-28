@@ -341,7 +341,7 @@ Per accedere alla cronologia delle versioni e ripristinare una versione specific
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Metadata difference for versions ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadata difference for versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -1000,7 +1000,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -1975,7 +1975,7 @@ You can access the **Content properties** feature by selecting the **Content pro
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Then select **Add**.
 
-   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 

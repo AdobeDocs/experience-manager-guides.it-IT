@@ -18,4 +18,4 @@ Adobe Experience Manager Assets provides you with the feature to create assets a
 
 For more details about metadata management in AEM, see [Manage metadata of your digital assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
 
-**Argomento padre:**[ Gestisci metadati](manage-metadata.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)

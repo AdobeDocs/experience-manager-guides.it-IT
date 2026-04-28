@@ -86,4 +86,4 @@ Quando l’output della mappa viene inserito nella coda per la pubblicazione, vi
 
 Una volta attivato l’output per i file di mappa selezionati, viene aggiornata la scheda della cronologia del controllo e viene visualizzato l’output attivato più recente. La colonna **Pubblicato** è stata aggiornata con la data e l&#39;ora di pubblicazione.
 
-**Argomento padre: **[Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre: &#x200B;** [Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

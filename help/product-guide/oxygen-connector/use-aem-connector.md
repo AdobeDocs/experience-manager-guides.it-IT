@@ -209,7 +209,7 @@ Per configurare le impostazioni di connessione nel plug-in ossigeno per Adobe Ex
 
 1. Nel pannello AEM Guides, fai clic sull&#39;icona delle impostazioni, quindi seleziona **Impostazioni**.
 
-   ![Impostazioni connessione ](images/settings.png){width="800" align="left"}
+   ![Impostazioni connessione &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Specifica i dettagli seguenti:
    - **URL server**: URL del server AEM, ad esempio:

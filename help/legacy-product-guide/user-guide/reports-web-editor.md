@@ -115,7 +115,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
 1. Fare doppio clic su **Multimedia** a sinistra. Viene visualizzato l&#39;elenco degli elementi multimediali presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco per file multimediali o in base ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **** prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
+   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **&#x200B;**&#x200B;prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -194,4 +194,4 @@ Click **Refresh** to get a fresh list of broken links and view any change in you
 1. Fare clic su **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
 
 
-**Argomento padre:**[ Report](reports-intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
