@@ -38,7 +38,7 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 
    Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`.
 
-   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=it).
 
 1. Le proprietà selezionate sono elencate sotto il menu a discesa.
 
@@ -73,7 +73,7 @@ Se si lavora nell&#39;**interfaccia utente di Assets**, eseguire la procedura se
 
    Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`.
 
-   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=it).
 
 1. Dal menu a discesa **Proprietà**, seleziona le proprietà personalizzate e predefinite richieste. Selezionare ad esempio `author`, `dc:title` e `dc:description`. Questi sono i `metadata/properties` standard che vengono creati dopo la creazione di un file. Le proprietà selezionate sono elencate sotto la dropbox.
 
