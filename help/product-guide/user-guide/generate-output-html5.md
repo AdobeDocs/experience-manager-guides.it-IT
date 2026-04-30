@@ -108,4 +108,4 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 
 
 
-**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)

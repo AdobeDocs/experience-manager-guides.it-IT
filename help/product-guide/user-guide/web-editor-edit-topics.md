@@ -120,4 +120,4 @@ Quando si apre un file nell&#39;editor, Experience Manager Guides fornisce la fu
 >
 >A partire dalla versione 2025.11.0, l&#39;impostazione **Individua sempre i file nel repository** viene rinominata in **Individua sempre i file nel Explorer**. Per la configurazione on-premise, continua a essere disponibile come sempre individua i file nell’archivio fino alla versione 5.1 di Experience Manager Guides.
 
-**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)

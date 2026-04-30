@@ -31,7 +31,7 @@ Un frammento di esperienza è un’unità di contenuto modulare all’interno di
 
 ![scheda opzioni proprietà file](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Pubblica e visualizza i frammenti di esperienza di un argomento dalla sezione **Output**nelle **Proprietà file**.*
+*Pubblica e visualizza i frammenti di esperienza di un argomento dalla sezione **Output**&#x200B;nelle **Proprietà file**.*
 
 Experience Manager Guides ora consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento o i relativi elementi e un modello di Frammento di esperienza. Puoi anche creare varianti di Frammento esperienza utilizzando i filtri di condizione.
 
@@ -82,7 +82,7 @@ Se in un file si fa riferimento allo stesso argomento più di una volta, è poss
 
 ![Predefinito legacy di AEM Sites](assets/aem-sites-legacy.png)
 
-*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**del predefinito **AEM Sites**.*
+*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**&#x200B;del predefinito **AEM Sites**.*
 
 
 
@@ -188,7 +188,7 @@ Ora disponi di un’esperienza avanzata per filtrare i file. La funzionalità ri
 
 Sfrutta vantaggi quali un accesso più rapido ai file rilevanti e un’interfaccia utente più intuitiva, che rende l’esperienza di ricerca più fluida ed efficiente.
 
-![filtro di ricerca rapida ](assets/repository-filter-search-quick.png) {width="300"}
+![filtro di ricerca rapida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 

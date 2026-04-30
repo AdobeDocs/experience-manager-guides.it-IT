@@ -24,7 +24,7 @@ Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una d
 ## Suggerisci contenuti riutilizzabili
 
 
-Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
+Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
 Ulteriori informazioni sull&#39;utilizzo di [suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring dei contenuti](authoring-ai-based-smart-suggestions.md).
 
 

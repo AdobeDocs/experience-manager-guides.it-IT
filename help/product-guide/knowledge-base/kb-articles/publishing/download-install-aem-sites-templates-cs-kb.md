@@ -98,7 +98,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
    **Opzione 1: utilizzare il menu a discesa Sito**
 
    1. Seleziona **Sito** come creato in precedenza (ad esempio, Sito documenti AEMG).
-   2. Verificare che il percorso di pubblicazione **1} e il modello di pagina** Argomento **siano impostati automaticamente su:**
+   2. Verificare che il percorso di pubblicazione **1&rbrace; e il modello di pagina** Argomento **siano impostati automaticamente su:**
       - Percorso di pubblicazione: `/content/AEMG-Docs-Site/en/docs/product`
       - Modello pagina argomento: pagina argomento
 

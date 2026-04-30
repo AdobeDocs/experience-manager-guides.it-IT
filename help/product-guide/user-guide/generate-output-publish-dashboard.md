@@ -89,4 +89,4 @@ Per annullare un’attività di generazione output dal dashboard di pubblicazion
    ![](images/cancelled-output-task.png)
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

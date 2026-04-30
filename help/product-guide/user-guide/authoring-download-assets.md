@@ -112,4 +112,4 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
 Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il contenuto scaricato.
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
