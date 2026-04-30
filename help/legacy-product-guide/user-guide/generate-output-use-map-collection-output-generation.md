@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
    Se il collegamento Mappa raccolte non è disponibile, seleziona l&#39;opzione **Navigazione** nella barra a sinistra, quindi fai clic su **Mappa raccolte**.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
 1. Immetti un Titolo per la raccolta di mappe.
 1. Fai clic su **Crea**.
@@ -50,7 +50,7 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 
    I file di mappa DITA vengono aggiunti alla raccolta di mappe.
 
-   ![mappa dashboard raccolta](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![mappa dashboard raccolta](./images/map-collection-dashboard.png){width="800"}
 
 Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i seguenti dettagli della mappa:
 
@@ -89,7 +89,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
    - Abilita qualsiasi singolo predefinito.
    - Abilitare **Tutti i predefiniti** per una mappa DITA per selezionare tutti i predefiniti contemporaneamente. Questa opzione è disabilitata per impostazione predefinita.
    - Abilitare **Predefiniti profilo cartella** per una mappa DITA per selezionare tutti i relativi predefiniti profilo cartella. Questa opzione è disabilitata per impostazione predefinita.
-     ![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800" align="left"}
+     ![modifica una raccolta mappe in servizi cloud](images/edit-map-collection-cs.png){width="800"}
 
 
 
@@ -106,7 +106,7 @@ Per configurare e generare l’output utilizzando una raccolta di mappe, effettu
 
 Nell&#39;insieme map è possibile configurare le proprietà dei metadati in blocco per le mappe DITA. Selezionare **Configura metadati** per aprire la pagina **Metadati risorsa**. Nella pagina **Metadati risorsa**, tutte le mappe presenti nella raccolta sono elencate a sinistra.
 
-![configurare i metadati](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configurare i metadati](images/map-collection-asset-metadata.png){width="800"}
 
 Per configurare le proprietà dei metadati, effettua le seguenti operazioni:
 
@@ -141,6 +141,6 @@ Verranno inoltre rimossi tutti i predefiniti o le impostazioni internazionali as
 
 Analogamente all&#39;annullamento di un&#39;attività di generazione output dalla [console mappe DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o dal [dashboard di pubblicazione](generate-output-publish-dashboard.md#), è possibile annullare un&#39;attività di generazione output da una raccolta mappe. Accedere alla scheda Output di una raccolta di mappe e passare all&#39;attività di pubblicazione che si desidera annullare, quindi fare clic sull&#39;icona **Annulla questo processo** per annullare l&#39;attività di pubblicazione.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
 **Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

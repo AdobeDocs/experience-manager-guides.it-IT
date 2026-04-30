@@ -4,9 +4,9 @@ description: Generare rapporti di mappe DITA dalla console delle mappe in AEM Gu
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Adobe Experience Manager Guides dispone di una funzione nella console Mappa che 
 
 1. Seleziona l&#39;icona **Apri nella console delle mappe**.
 
-   ![](images/map-console.png){width="600" align="left"}
+   ![](images/map-console.png){width="600"}
 
 1. Seleziona **Report** dal pannello a sinistra.
 
 Puoi individuare tutti e quattro i rapporti dal pannello **Rapporti**. In base alle tue esigenze, puoi selezionare qualsiasi rapporto come mostrato qui.
 
-![](images/reports-demo.png){align="left"}
+![](images/reports-demo.png)
 
 Il pannello Rapporti consente di accedere a quattro diversi tipi di rapporti. Ogni rapporto, insieme alle relative caratteristiche di accessibilità, viene discusso in dettaglio di seguito.
 
@@ -44,7 +44,7 @@ Il report **Elenco argomenti** fornisce informazioni dettagliate sugli argomenti
 
 1. Selezionare **Elenco argomenti** dal pannello Rapporti. Viene visualizzato l&#39;elenco degli argomenti presenti nella mappa DITA.
 
-   ![](images/web-editor-topiclist-panel-new.png){align="left"}
+   ![](images/web-editor-topiclist-panel-new.png)
 
 1. Dal pannello **Filtri** è possibile filtrare gli argomenti in base al **Tipo di riferimento** \(diretto o indiretto\), **Stato documento** \(ad esempio se gli argomenti sono in stato Modifica, In-Review o Rivisto, questi sono elencati\) o al **Autore** dell&#39;argomento.
 
@@ -78,7 +78,7 @@ Per visualizzare il rapporto metadati di una mappa, effettua le seguenti operazi
 1. Selezionare **Metadati** dal pannello Rapporti. L&#39;elenco di tutti i riferimenti di una mappa viene visualizzato insieme ai relativi metadati, ad esempio tag, stato del documento e metadati personalizzati. Per aggiungere una nuova colonna di metadati personalizzata, fare riferimento alla sezione [Aggiungi colonne di metadati personalizzate](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){align="left"}
+   ![](images/web-editor-metadata-panel-new.png)
 
 
 1. Dal pannello **Filtri** è possibile filtrare gli argomenti in base al **Stato documento** \(ad esempio se gli argomenti sono in stato Modifica, In revisione o Rivisto, sono elencati\), **Riferimenti** \(diretti o indiretti\), **Tipo file** \(Mappa, Argomento, Documento, Immagine, Video e altri\) del riferimento.
@@ -129,12 +129,12 @@ Per aggiornare i metadati, effettuare le seguenti operazioni:
    >
    > Se un file è bloccato da un altro utente, non può essere selezionato per l’aggiornamento dei metadati. Accanto al titolo di un file bloccato viene visualizzata anche un&#39;icona di blocco. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
 
-   ![](images/all-selection.png){align="left"}
+   ![](images/all-selection.png)
 
 
 1. Seleziona **Gestisci** dall&#39;inizio.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Se desideri aggiungere nuovi tag, seleziona nuovi tag dall’elenco a discesa per applicarli a tutti gli argomenti selezionati. Puoi anche eliminare qualsiasi tag selezionando l’icona a forma di croce accanto al tag.
 
@@ -150,12 +150,12 @@ Questa funzione consente di aggiungere colonne di metadati personalizzate in bas
 
 1. Per aggiungere una colonna di metadati personalizzata, seleziona **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) dai tre punti nell&#39;angolo in alto a destra della pagina dei metadati.
 
-   ![](images/custom-metadata-setting.png){width="600" align="left"}
+   ![](images/custom-metadata-setting.png){width="600"}
 
 1. Selezionare **Metadati** nel pannello sinistro del popup visualizzato.
 1. Aggiungi un nuovo campo metadati personalizzato in base al requisito utilizzando la scheda **Aggiungi**.
 
-   ![](images/add-custom-metadata.png){width="600" align="left"}
+   ![](images/add-custom-metadata.png){width="600"}
 
 1. Specifica un percorso di metadati specifico e un titolo appropriato per lo stesso elemento da aggiungere nelle colonne del rapporto metadati. Ad esempio, viene aggiunto un metadati personalizzato con la lingua del titolo e un percorso specifico.
 
@@ -163,7 +163,7 @@ Questa funzione consente di aggiungere colonne di metadati personalizzate in bas
    >
    > Se si desidera rimuovere una particolare colonna di metadati, è possibile eliminarla dall&#39;elenco visualizzato. È inoltre possibile modificare l&#39;**etichetta** per modificare il titolo di visualizzazione della colonna.
 
-   ![](images/added-custom-field.png){width="600" align="left"}
+   ![](images/added-custom-field.png){width="600"}
 
 
 
@@ -174,7 +174,7 @@ Questa funzione consente di aggiungere colonne di metadati personalizzate in bas
    > L&#39;aggiunta di una nuova colonna di metadati si riflette anche nel pannello **Cronologia versione** nell&#39;editor. Per ulteriori informazioni, visualizzare **[Metadati](web-editor-features.md)**.
 
 
-   ![](images/updated-custom-field.png){width="600" align="left"}
+   ![](images/updated-custom-field.png){width="600"}
 
 
 Allo stesso modo, puoi seguire i passaggi sopra indicati per aggiungere nuovi campi di metadati personalizzati in base ai requisiti necessari nei rapporti sui metadati.
@@ -190,11 +190,11 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
 
    - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il testSong.mp3 multimediale nella prima colonna e due riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
-     ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order-new.png){width="650"}
 
    - Se si ordina per la colonna **Usato in**, verrà visualizzata la vista trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i contenuti multimediali sono elencati nella prima colonna, mentre i nomi dei contenuti multimediali sono elencati in un&#39;altra colonna su righe separate. Ad esempio, la schermata seguente mostra i nomi di due riferimenti \(testing_Indian e Video content Topic\) nella prima colonna e il test multimedialeSong.mp3 viene visualizzato nella terza colonna su due righe separate.
 
-     ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order-new.png){width="650"}
 
 1. Puoi filtrare i contenuti multimediali in base al **Tipo di contenuti multimediali** e al **Tipo di riferimento**. L’elenco dei file multimediali viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti audio nella mappa DITA e un file mostra solo i riferimenti audio utilizzati.
 
@@ -225,13 +225,13 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
    - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. Nella schermata seguente, ad esempio, vengono mostrati due collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati, `m_ElectricalSpecs_900.ditamap` viene visualizzato nella terza colonna in due righe separate.
 
 
-   ![](images/broken-link-report-new.png){align="left"}
+   ![](images/broken-link-report-new.png)
 
 
    - Se si ordina per **Usato nella colonna**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `m_ElectricalSpecs_900.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
 
 
-   ![](images/broken-link-filter-usedin-new.png){align="left"}
+   ![](images/broken-link-filter-usedin-new.png)
 
 
 1. Puoi filtrare i collegamenti interrotti in base al **tipo di file** e al **tipo di collegamento**. L’elenco dei collegamenti interrotti viene visualizzato in base alla selezione effettuata nel menu a discesa. Ad esempio, è possibile scegliere di visualizzare solo i riferimenti di contenuto nella mappa DITA e un file mostra solo i riferimenti di contenuto interrotto utilizzati.

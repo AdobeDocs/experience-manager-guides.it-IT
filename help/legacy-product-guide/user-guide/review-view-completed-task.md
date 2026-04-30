@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In qualità di revisore, puoi visualizzare un indicatore nel pannello commenti p
 
 Tuttavia, puoi cercare o filtrare qualsiasi commento. Puoi anche scegliere di mostrare o nascondere le condizioni e visualizzare di conseguenza il contenuto condizionale. È possibile scaricare qualsiasi allegato, ma non caricare o eliminare allegati per i commenti.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## Come autore
@@ -31,6 +31,6 @@ In qualità di autore, nel pannello Revisione potete vedere lo stato chiuso. È 
 
 Tuttavia, puoi cercare o filtrare qualsiasi commento. È possibile scaricare qualsiasi allegato, ma non caricare o eliminare allegati per i commenti.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 Pertanto, sia come revisore che come autore, è possibile visualizzare il contenuto rivisto insieme ai commenti, ma non è possibile apportare modifiche in un&#39;attività di revisione completata.

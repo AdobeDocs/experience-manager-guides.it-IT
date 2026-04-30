@@ -3,9 +3,9 @@ title: Note sulla versione | Novità di Adobe Experience Manager Guides versione
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 4.4.0
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2318'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 
 Ora Experience Manager Guides offre una funzione avanzata di cronologia delle versioni che consente di confrontare le modifiche apportate a un documento nel tempo. Nella nuova visualizzazione affiancata è possibile confrontare facilmente il contenuto e i metadati della versione corrente con qualsiasi versione precedente dello stesso documento. Puoi anche visualizzare le etichette e i commenti per le versioni confrontate. In qualità di amministratore, puoi controllare i metadati della versione dell&#39;argomento e i relativi valori da visualizzare nella finestra di dialogo **Cronologia versioni**.
 
-![Finestra di dialogo Cronologia versioni](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Finestra di dialogo Cronologia versioni](assets/version-history-dialog-web-editor.png){width="800"}
 *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
 Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versioni** nella sezione [Pannello sinistro (legacy)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
@@ -33,7 +33,7 @@ Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versio
 
 È possibile definire gli attributi della condizione negli argomenti DITA. Quindi, utilizzate gli attributi condizione nel predefinito condizione per pubblicare il contenuto in una mappa DITA. Experience Manager Guides ora offre anche un’esperienza arricchita nell’editor web, che consente di creare e gestire in modo più efficiente i predefiniti per le condizioni. È inoltre possibile modificarli, duplicarli o eliminarli facilmente.
 
-![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Per ulteriori dettagli, visualizzare [Usa predefiniti di condizione](../user-guide/generate-output-use-condition-presets.md).
 
@@ -41,7 +41,7 @@ Per ulteriori dettagli, visualizzare [Usa predefiniti di condizione](../user-gui
 
 Ora è possibile ottenere un&#39;esperienza rinnovata per aggiungere o modificare gli attributi di un elemento dal pannello **Proprietà contenuto** nell&#39;editor Web.
 
-![Pannello Attributi](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Pannello Attributi](assets/attributes-multiple-properties.png){width="300"}
 
 *Aggiungi attributi dal pannello Proprietà contenuto.*
 
@@ -52,7 +52,7 @@ Per ulteriori dettagli, consulta la descrizione della funzione **Proprietà cont
 
 Ora, durante l&#39;authoring, puoi aggiornare i tag di metadati del file utilizzando il menu a discesa dalle **Proprietà file** nel pannello di destra. Puoi anche selezionare **Modifica altre proprietà** per aggiornare altri metadati.
 
-![proprietà-file](assets/file-properties-general.png){width="300" align="left"}
+![proprietà-file](assets/file-properties-general.png){width="300"}
 
 *Aggiorna i metadati e modifica le proprietà del file dal pannello di destra.*
 
@@ -62,7 +62,7 @@ Per ulteriori dettagli, fare riferimento alla descrizione della funzionalità **
 
 Quando definite gli attributi chiave per i riferimenti argomento o mappa, potete anche visualizzare il titolo, l&#39;icona corrispondente e il tasto nel pannello sinistro. La chiave viene visualizzata come `key=<key-name>`.
 
-![chiavi nella vista mappa](assets/view-key-title-map-view.png) {width="300" align="left"}
+![chiavi nella vista mappa](assets/view-key-title-map-view.png) {width="300"}
 
 *Visualizza l&#39;attributo chiave nella visualizzazione mappa.*
 
@@ -74,13 +74,13 @@ Per ulteriori dettagli, consulta la descrizione della funzione **Vista mappa** n
 Experience Manager Guides offre ora un’esperienza utente migliorata per la creazione delle linee di base dall’editor web.
 Le opzioni **Aggiornamento manuale** e **Aggiornamento automatico** sono più intuitive e consentono di scegliere facilmente se creare una baseline statica o aggiornarla automaticamente in base alle etichette.
 
-![crea nuova previsione](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
+![crea nuova previsione](assets/dynamic-baseline-4-4.png) {width="300"}
 *Crea una baseline dall&#39;editor Web.*
 
 Consente inoltre di duplicare una baseline basata sull&#39;etichetta. La versione di riferimento viene scelta in base all&#39;etichetta specificata (se esiste) durante la duplicazione, oppure seleziona la versione dalla baseline duplicata.
 
 
-![duplicare una baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicare una baseline &#x200B;](assets/duplicate-baseline.png) {width="300"}
 
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 
@@ -92,7 +92,7 @@ Experience Manager Guides fornisce un dashboard avanzato per la raccolta mappe. 
 
 È ora possibile visualizzare il nome del file della mappa DITA. È inoltre possibile visualizzare le baseline. Questo consente di trovare rapidamente la linea di base utilizzata per un predefinito.
 
-![Mappa dashboard raccolta](assets/map-collection-dashboard.png){width="800" align="left"}
+![Mappa dashboard raccolta](assets/map-collection-dashboard.png){width="800"}
 
 *Visualizza, modifica e genera output dal dashboard della raccolta mappe.*
 
@@ -102,7 +102,7 @@ Scopri come [utilizzare la raccolta mappe per la generazione dell&#39;output](..
 
 Il pannello **Traduzione** è stato migliorato.  Puoi visualizzare l&#39;elenco **Lingue disponibili** e selezionare rapidamente le impostazioni locali in cui tradurre il progetto. Con una sola selezione, puoi anche scegliere **Seleziona tutti** per tradurre il progetto in tutte le lingue disponibili.
 
-![pannello di traduzione](assets/translation-languages-4.4.png){width="300" align="left"}
+![pannello di traduzione](assets/translation-languages-4.4.png){width="300"}
 
 
 
@@ -118,7 +118,7 @@ Ad esempio, durante la modifica di un paragrafo che desideri inserire un element
 tutti gli elementi validi che iniziano con &quot;t&quot;.
 
 
-![Finestra di dialogo Inserisci](assets/insert-element.png){width="300" align="left"}
+![Finestra di dialogo Inserisci](assets/insert-element.png){width="300"}
 
 *Digitare un carattere per cercare tutti gli elementi validi che iniziano con il carattere.*
 
@@ -130,7 +130,7 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Inseri
 
 Ora è possibile suddividere facilmente l&#39;elenco nell&#39;Editor Web. Selezionare l&#39;opzione **Dividi elenco** dal menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente. Viene creato un nuovo elenco allo stesso livello, a partire dalla voce di elenco selezionata per la suddivisione.
 
-![pannello di traduzione](assets/context-menu-split-list.png){width="300" align="left"}
+![pannello di traduzione](assets/context-menu-split-list.png){width="300"}
 
 *Selezionare l&#39;opzione per dividere l&#39;elenco corrente.*
 
@@ -152,7 +152,7 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Propri
 
 È ora possibile scegliere la modalità predefinita di visualizzazione dei file nell&#39;editor Web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore.
 
-![Finestra di dialogo Preferenze utente](assets/user-preferences-2311.png){width="550" align="left"}
+![Finestra di dialogo Preferenze utente](assets/user-preferences-2311.png){width="550"}
 
 *Modifica la modalità predefinita di visualizzazione dei file dalla finestra di dialogo **Preferenze utente**.*
 
@@ -169,43 +169,43 @@ Ora è anche possibile utilizzare i tasti di scelta rapida per spostare il curso
 Ulteriori informazioni sulle [scelte rapide da tastiera nell&#39;editor Web](../user-guide/web-editor-keyboard-shortcuts.md).
 
 
-## Risoluzione dei collegamenti incrociati nell’output del sito AEM
+## Risolvere i collegamenti cross-map nell’output del sito AEM
 
-Il rendering dei collegamenti delle mappe incrociate (XREF con peer ambito) nell&#39;output del sito AEM viene ora risolto in base al titolo del file del contesto di pubblicazione impostato per la mappa generata.
+Il rendering dei collegamenti delle mappe incrociate (XREF con peer ambito) nell’output del sito AEM ora viene risolto in base al titolo del file del contesto di pubblicazione impostato per la mappa generata.
 
 
-## Configura l’URL dell’output del sito AEM per utilizzare il titolo del documento
+## Configurare l’URL dell’output del sito AEM per utilizzare il titolo del documento
 
 In qualità di amministratore, Experience Manager Guides ti consente di configurare l’URL dell’output del sito AEM. Se il nome del file non esiste o contiene tutti i caratteri speciali, puoi configurare per sostituirli con un separatore nell’URL dell’output del sito AEM. È inoltre possibile sostituirli con il nome del primo argomento secondario. Scopri come [configurare l&#39;URL dell&#39;output del sito AEM per utilizzare il titolo del documento](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
 
 
-## Predefiniti di output multipli Publish in parallelo
+## Pubblicare più predefiniti di output in parallelo
 
-L&#39;Experience Manager fornisce la funzione per la creazione delle linee di base selezionando automaticamente gli argomenti in base all&#39;etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
+Experience Manager fornisce la funzione di creare linee di base scegliendo automaticamente gli argomenti in base all’etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
 
 Ulteriori informazioni su come [creare e gestire le baseline dall&#39;editor Web](../user-guide/web-editor-baseline.md).
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-Nella versione 4.4.0 sono stati apportati i seguenti miglioramenti a Native PDF:
+Nella versione 4.4.0 sono stati apportati i seguenti miglioramenti al PDF nativo:
 
 ### Utilizzare le variabili nell’output di PDF
 
-È possibile utilizzare le variabili per inserire e gestire in modo dinamico le informazioni riutilizzabili. Experience Manager Guides consente di creare, modificare e visualizzare in anteprima le variabili durante la generazione dell’output PDF. È possibile modificare rapidamente i valori delle variabili e rendere i documenti facilmente trasferibili e aggiornabili.
+È possibile utilizzare le variabili per inserire e gestire in modo dinamico le informazioni riutilizzabili. Experience Manager Guides consente di creare, modificare e visualizzare in anteprima le variabili durante la generazione dell’output di PDF. È possibile modificare rapidamente i valori delle variabili e rendere i documenti facilmente trasferibili e aggiornabili.
 
-![variabili pdf native](assets/add-variable-default.png){width="800" align="left"}
+![variabili pdf native](assets/add-variable-default.png){width="800"}
 
 *Crea e gestisci variabili nell&#39;editor Web.*
 
-Puoi anche creare set di variabili che sostituiscono i valori predefiniti e assegnare valori alternativi alle variabili. Inserire queste variabili all&#39;interno del layout di pagina e utilizzare lo stesso layout di PDF. Non è necessario creare layout separati per ogni insieme di valori. Ad esempio, puoi creare un set di variabili per ogni versione del prodotto. Questo set di variabili può essere costituito da variabili per diversi dettagli del prodotto come nome del prodotto, numero di versione e data di rilascio. Quindi puoi aggiungere valori diversi per queste variabili.
+Puoi anche creare set di variabili che sostituiscono i valori predefiniti e assegnare valori alternativi alle variabili. Inserisci queste variabili all’interno del layout di pagina e utilizza lo stesso layout di PDF, non è necessario creare layout separati per ogni set di valori. Ad esempio, puoi creare un set di variabili per ogni versione del prodotto. Questo set di variabili può essere costituito da variabili per diversi dettagli del prodotto come nome del prodotto, numero di versione e data di rilascio. Quindi puoi aggiungere valori diversi per queste variabili.
 
-**Set di variabili 1: set di Adobi 1**
+**Set di variabili 1: Adobe-set1**
 
 * Nome prodotto: Experience Manager Guides
 * Numero di versione: 2311
 * Data di rilascio: 11/02/2023
 
-**Set di variabili 2: set di Adobi 2**
+**Set di variabili 2: Adobe-set2**
 
 * Nome prodotto: Experience Manager Guides
 * Numero di versione: 2310
@@ -217,20 +217,20 @@ Puoi anche creare set di variabili che sostituiscono i valori predefiniti e asse
 
 *Genera l&#39;output di PDF utilizzando le variabili nel layout di PDF.*
 
-Per formattare le variabili è possibile applicare gli stili e utilizzare il markup HTML.  Puoi anche aggiornare rapidamente i valori per qualsiasi variabile ogni volta che sia necessario e rigenerare l’output. Ad esempio, se è necessario aggiornare i dettagli di una versione, è possibile modificare il valore della versione nella variabile VersionNumber e rigenerare l&#39;output.
+È possibile applicare stili e utilizzare il markup HTML per formattare le variabili.  Puoi anche aggiornare rapidamente i valori per qualsiasi variabile ogni volta che sia necessario e rigenerare l’output. Ad esempio, se è necessario aggiornare i dettagli di una versione, è possibile modificare il valore della versione nella variabile VersionNumber e rigenerare l&#39;output.
 
 
 Ulteriori informazioni sull&#39;utilizzo di [variabili nell&#39;output di PDF](../native-pdf/native-pdf-variables.md).
 
 
-### Propagazione dei metadati delle risorse nell’output PDF
+### Propagare i metadati delle risorse nell’output di PDF
 
-Experience Manager ora offre la possibilità di trasferire le proprietà dei metadati delle risorse dalla mappa DITA all’output PDF.
-Dal predefinito di output di PDF nativo è possibile scegliere i metadati che si desidera propagare al processo di pubblicazione di PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono trasferite al file PDF generato utilizzando Native PDF.
+Experience Manager ora fornisce la funzionalità di trasferire le proprietà dei metadati delle risorse dalla mappa DITA all’output PDF.
+Dal predefinito di output PDF nativo, è possibile scegliere i metadati che si desidera propagare al processo di pubblicazione PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono trasferite al file PDF generato utilizzando PDF nativo.
 
 Questa funzione è utile in quanto consente di mantenere coerenti le proprietà della risorsa, ad esempio l’autore, la data di creazione o il titolo del documento. Ciò semplifica l&#39;organizzazione, la ricerca e la classificazione dei documenti.
 
-Per ulteriori dettagli, visualizzare le impostazioni **Avanzate** nell&#39;output [Publish PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori dettagli, visualizzare le impostazioni **Avanzate** nell&#39;output [Pubblica PDF](../web-editor/native-pdf-web-editor.md).
 
 ### Usa i metadati aggiunti nell&#39;elemento `topicmeta` per l&#39;output PDF
 
@@ -243,16 +243,16 @@ Ora Experience Manager Guides offre l&#39;opzione di utilizzare i metadati aggiu
 
 Questa funzione consente una migliore gestione dei documenti, garantisce coerenza e rende i documenti ricercabili.
 
-Per ulteriori informazioni, visualizzare la scheda **Metadati** nell&#39;[output di Publish PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori informazioni, visualizzare la scheda **Metadati** nell&#39;output [Pubblica PDF](../web-editor/native-pdf-web-editor.md).
 
 ### Utilizzare e duplicare modelli di PDF predefiniti
 
-Experience Manager Guides fornisce modelli di PDF preconfigurati o predefiniti. Duplicare i modelli di factory PDF per creare i modelli di PDF personalizzati.
+Experience Manager Guides fornisce modelli preconfigurati o di fabbrica per PDF. Duplicare i modelli PDF di fabbrica per creare i modelli PDF personalizzati.
 
 Ora è possibile anche visualizzare in anteprima l&#39;immagine miniatura di un modello durante la creazione e la duplicazione di un modello. Puoi anche modificare o eliminare questa immagine. Questa funzione è utile per marcare o distinguere i modelli con nomi simili.
-Ulteriori informazioni sul modello [PDF](../native-pdf/pdf-template.md).
+Ulteriori informazioni sul [modello PDF](../native-pdf/pdf-template.md).
 
-![Finestra di dialogo Modello PDF duplicato](assets/duplicate-template.png){width="550" align="left"}
+![Finestra di dialogo Modello PDF duplicato](assets/duplicate-template.png){width="550"}
 
 *Duplica un modello PDF esistente.*
 
@@ -267,7 +267,7 @@ Ora è anche possibile ordinare i termini del glossario in base ai tasti di ordi
 Per ulteriori dettagli, visualizzare le [Impostazioni avanzate di PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
-### Gestione delle risorse migliorata per i modelli di PDF nativi
+### Gestione delle risorse migliorata per i modelli PDF nativi
 
-Experience Manager Guides ora ha migliorato la gestione delle risorse per i modelli Native PDF. È ora possibile condividere e riutilizzare le risorse, come immagini, file CSS e file font, tra più modelli di Native PDF. Grazie a questo miglioramento, la gestione delle risorse per un set elevato di modelli è molto più semplice. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli di PDF nativi.
+Experience Manager Guides ora ha migliorato la gestione delle risorse per i modelli PDF nativi. È ora possibile condividere e riutilizzare risorse, come immagini, file CSS e file font, su più modelli PDF nativi. Grazie a questo miglioramento, la gestione delle risorse per un set elevato di modelli è molto più semplice. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli PDF nativi.
 Per ulteriori dettagli, visualizzare [Modello PDF](../native-pdf/pdf-template.md).

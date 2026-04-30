@@ -5,10 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: ff6f968c-3440-4757-882a-676711ad05c3
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
@@ -35,7 +34,7 @@ Per configurare il processo di pulizia della struttura B, effettuare le seguenti
 
 1. Configurare il modulo di pianificazione della pulizia dell&#39;albero B come illustrato di seguito.
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. Seleziona **Salva**.
 
@@ -55,6 +54,6 @@ Per abilitare l’impostazione, effettua le seguenti operazioni:
 1. Cerca e seleziona il bundle *com.adobe.fmdita.config.ConfigManager*.
 1. Abilitare l&#39;impostazione `Guides btree deletion enabled`.
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. Seleziona **Salva**.

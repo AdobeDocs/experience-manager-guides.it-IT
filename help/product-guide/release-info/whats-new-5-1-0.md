@@ -2,9 +2,10 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 5.1.0
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 5.1.0
 role: Leader
-source-git-commit: f6617b727d385d31ba66d575ee48f29e77ac716f
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Gli elementi di rilievo sono i seguenti:
 - **Supporto migliorato dei contrassegni nell&#39;authoring dei file DITAVAL:** Experience Manager Guides offre nuove funzionalità per personalizzare la pubblicazione dei contenuti tramite il supporto migliorato dei contrassegni nei file DITAVAL. È ora possibile applicare i flag di inizio e fine a contenuto specifico, incluse le immagini, e arricchire le sezioni contrassegnate con opzioni di formattazione come grassetto, corsivo e altro ancora. Per gestire le sovrapposizioni di condizioni, è possibile configurare il **conflitto di stili**, che include l&#39;impostazione di un colore di sfondo e di testo predefinito, garantendo chiarezza e coerenza nell&#39;output. Questi flag sono completamente supportati nella generazione di PDF nativi e l&#39;output risultante riflette in modo accurato e completo tutti gli elementi di stile applicati.
 Per ulteriori dettagli, visualizzare [Utilizzare l&#39;editor DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Supporto di più file DITAVAL per PDF nativo:** Per PDF nativo è ora possibile aggiungere più file DITAVAL, ciascuno visualizzato come voce con tag per facilitarne l&#39;identificazione e la rimozione, offrendo maggiore flessibilità e controllo sui contenuti condizionali negli output di PDF
 
@@ -60,7 +61,7 @@ Questa versione apporta miglioramenti all’interfaccia utente e alla funzionali
 
 Per ulteriori dettagli, visualizzare [Risoluzione dei problemi di base](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ### I file temporanei per l’output pubblicato ora includono gli URL Author e Publish in un nuovo file di configurazione
@@ -117,7 +118,7 @@ Experience Manager Guides introduce una nuova opzione **Utilizza nomi di file ef
 
 Per ulteriori dettagli, visualizzare [Scarica file](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 ### Richiesta di timeout della sessione per evitare la perdita accidentale di contenuto
 
@@ -141,10 +142,3 @@ Con questa versione le impostazioni all&#39;interno delle **Preferenze utente** 
 Inoltre, nella barra degli strumenti dell&#39;editor alcuni interruttori di accesso rapido per abilitare o disabilitare Revisioni, Tag e Spazi non interrotti sono ora raggruppati nell&#39;opzione **Mostra** nel menu a discesa per una migliore fruibilità.
 
 Per ulteriori dettagli, visualizzare [Barra degli strumenti nell&#39;editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

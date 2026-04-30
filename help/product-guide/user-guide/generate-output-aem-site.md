@@ -4,9 +4,9 @@ description: Scopri come funziona in AEM Guides la generazione di output increme
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Per generare un output incrementale per AEM Sites utilizzando la console Mappa, 
 
    - Senza linea di base
 
-     ![elenco argomenti siti aem](images/aem-presets-topic-list.png) {align="left"}
+     ![elenco argomenti siti aem](images/aem-presets-topic-list.png)
 
    - Con baseline
 
-     ![elenco argomenti di aem sites con linea di base](images/aem-presets-topic-list-new.png) {align="left"}
+     ![elenco argomenti di aem sites con linea di base](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
-   > Quando si seleziona una baseline nella scheda **Contenuto**, nell&#39;elenco Argomento vengono visualizzati gli argomenti e le relative versioni dalla baseline allegata.<br><br>
+   > Quando si seleziona una baseline nella scheda **Contenuto**, nell&#39;elenco Argomento vengono visualizzati gli argomenti e le relative versioni della baseline allegata.<br><br>
    > La pubblicazione incrementale dall&#39;elenco Argomenti deve essere utilizzata solo quando non vi è alcuna modifica alla struttura della mappa. Se si verifica una modifica nella struttura della mappa o nel sommario, l’intera mappa deve essere pubblicata una volta per aggiornare il sommario.
 
 1. Seleziona **Salva** per salvare le modifiche.
@@ -67,7 +67,7 @@ Per generare l’output incrementale per AEM Sites utilizzando il dashboard dell
    >
    > Se sono stati aggiunti nuovi argomenti alla mappa DITA, non sarà possibile generarli da qui. È innanzitutto necessario pubblicare gli argomenti appena aggiunti utilizzando la funzione di pubblicazione mappa DITA.
 
-   ![](images/regenerate-topics.png){align="left"}
+   ![](images/regenerate-topics.png)
 
 1. Selezionare **Rigenera**.
 

@@ -4,10 +4,10 @@ description: Pubblica un argomento o gli elementi di un argomento in un framment
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 0%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
@@ -28,12 +28,12 @@ Per creare un frammento di contenuto, effettua le seguenti operazioni:
 1. Crea una cartella in cui salvare i frammenti di contenuto creati in base al modello Frammento di contenuto. Ad esempio, &quot;stock-content-fragments&quot;.
 1. Modifica le proprietà della cartella (ad esempio, &quot;stock-content-fragments&quot;) e aggiungi il percorso della cartella, che contiene il modello Frammento di contenuto nella configurazione cloud.
 Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa configurazione collega tutti i modelli per frammenti di contenuto alla cartella.\
-   ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/fragment-folder-cloud-configuration.png){width="650"}
    *Aggiungi la configurazione cloud nelle proprietà della cartella per collegarla ai modelli di frammenti.*
 
 1. Per generare un frammento di contenuto, selezionare **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.
 1. Seleziona **Frammento di contenuto**.\
-   ![scheda opzioni proprietà file](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![scheda opzioni proprietà file](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *Aggiungere un nuovo frammento di contenuto dalle proprietà del file di un argomento*.
 
@@ -48,8 +48,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
    * **Titolo**: digita il titolo del frammento di contenuto. Per impostazione predefinita, il titolo viene compilato con il titolo dell’argomento. Puoi modificarlo. Questo titolo viene utilizzato per generare il nome del frammento di contenuto.
    * **Nome**: digitare il nome del frammento di contenuto. Per impostazione predefinita, il nome viene compilato con il titolo dell&#39;argomento e gli spazi vengono sostituiti con &quot;_&quot;. Ad esempio, *sample_content_fragment*. Puoi modificarlo.  Questo nome viene utilizzato per generare l’URL per il frammento di contenuto.
 
-   * Puoi selezionare condizioni diverse per creare varianti di frammenti di contenuto. Selezionare una delle opzioni seguenti:
-
+   * Puoi selezionare condizioni diverse per creare varianti di frammenti di contenuto. Seleziona una delle opzioni seguenti:
      >[!NOTE]
      > 
      > Le condizioni sono abilitate solo se gli attributi della condizione sono definiti nell&#39;argomento.
@@ -82,7 +81,7 @@ Se è presente un frammento di contenuto, a destra vengono inseriti i contenuti 
 
 1. Puoi visualizzare i Frammenti di contenuto per un argomento nella sezione **Output** delle **Proprietà file**.
 
-   ![Visualizza i frammenti di contenuto per un argomento](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![Visualizza i frammenti di contenuto per un argomento](images/outputs-options-menu-new.png){width="300"}
 
    *Visualizza i frammenti di contenuto presenti in un argomento e ripubblicali.*
 

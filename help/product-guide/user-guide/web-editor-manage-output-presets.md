@@ -4,9 +4,9 @@ description: Scopri come creare, modificare, rinominare, duplicare ed eliminare 
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per creare un predefinito di output per i profili globali e cartelle, effettua l
 1. Seleziona l&#39;icona **Apri nella console delle mappe** per aprire il file delle mappe nella console delle mappe.
 1. Nella console Mappa passare alla scheda **Predefiniti di output**, quindi selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Immetti i seguenti dettagli nella finestra di dialogo **Aggiungi predefinito**:
    - Tipo

@@ -4,9 +4,9 @@ description: Scopri come utilizzare le etichette per diverse versioni di un file
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Per aggiungere un&#39;etichetta all&#39;argomento dall&#39;editor, eseguire la p
 1. Nel pannello Archivio, individuate un argomento e aprilo nell&#39;Editor.
 1. Seleziona **Etichetta versione** dal menu a discesa **Menu**.
 
-   ![](images/version-label-option.png){width="400" align="left"}
+   ![](images/version-label-option.png){width="400"}
 
    Viene visualizzata la finestra di dialogo **Gestione etichette versione**.
 
 1. Nella finestra di dialogo **Gestione etichette versione**, selezionare una versione in cui si desidera aggiungere un&#39;etichetta.
 1. Selezionare un&#39;etichetta per la versione selezionata e selezionare **Aggiungi etichetta**.
 
-   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+   ![](images/version-label-management-dialog-new.png){width="650"}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Per aggiungere un&#39;etichetta all&#39;argomento dall&#39;editor, eseguire la p
 
    Le etichette vengono visualizzate nella Cronologia versioni dell&#39;argomento selezionato.
 
-   ![](images/label-comparison-version-history.png){width="650" align="left"}
+   ![](images/label-comparison-version-history.png){width="650"}
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Per aggiungere un&#39;etichetta all&#39;argomento dall&#39;editor, eseguire la p
 
 Per eliminare un&#39;etichetta di versione da un argomento, utilizzare l&#39;icona **Rimuovi** fornita per ogni etichetta aggiunta nella finestra di dialogo Gestione etichette versione.
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Utilizzo delle etichette dall’interfaccia utente di Assets
@@ -70,7 +70,7 @@ Per aggiungere un’etichetta all’argomento dall’interfaccia utente di Asset
 
    Le etichette vengono visualizzate nella Cronologia versioni dell&#39;argomento selezionato. Nella schermata seguente vengono visualizzate le etichette *x.x Release* e *User Guide* aggiunte alla versione evidenziata dell&#39;argomento.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Per aggiungere un’etichetta all’argomento dall’interfaccia utente di Asset
 
 Per eliminare un&#39;etichetta di versione da un argomento, utilizzare il pulsante **Elimina** fornito per ogni etichetta nel pannello Cronologia versioni.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

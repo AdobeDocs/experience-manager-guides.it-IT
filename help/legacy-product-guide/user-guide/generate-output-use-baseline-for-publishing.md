@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per creare una baseline, effettuare le operazioni riportate di seguito.
 
 1. Nella pagina Baseline fare clic su **Crea**.
 1. Immettere un nome per la baseline in **Nome baseline**.
-   ![crea una previsione](images/create-baseline.png){width="800" align="left"}
+   ![crea una previsione](images/create-baseline.png){width="800"}
 1. In **Imposta versione basata su**, selezionare una delle opzioni seguenti:
 
    - **Etichetta**: selezionare questa opzione per scegliere gli argomenti in base all&#39;etichetta ad essi applicata. Immettere un&#39;etichetta per filtrare l&#39;elenco in base alla stringa immessa. Dall’elenco delle risorse filtrate, puoi scegliere un’etichetta per selezionare gli argomenti e le altre risorse con l’etichetta specificata.
@@ -93,7 +93,7 @@ Per modificare una baseline esistente, effettuare le operazioni riportate di seg
 1. Apportare le modifiche necessarie nella baseline. È possibile modificare il nome e la versione dell&#39;argomento o del contenuto di riferimento.
 1. Se si desidera utilizzare una versione diversa per uno o più argomenti, è possibile selezionare manualmente tali argomenti. Fare clic su **Sfoglia argomento** e selezionare l&#39;argomento per il quale si desidera utilizzare una versione diversa. Dall&#39;elenco a discesa Seleziona una versione per l&#39;argomento selezionato, selezionare una versione dell&#39;argomento che si desidera utilizzare nella baseline e fare clic su **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    Le informazioni sull&#39;argomento e sulla versione selezionata vengono memorizzate nel back-end. È possibile ripetere questo passaggio per modificare la versione selezionata per più argomenti.
 
@@ -140,7 +140,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
 
 1. Fai clic su **Aggiungi etichette**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. Nella finestra di dialogo **Aggiungi etichetta**, specifica un&#39;etichetta univoca da associare a questa linea di base.
 
@@ -151,7 +151,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
    - Fai clic su **Aggiungi**.
 L&#39;etichetta specificata viene aggiunta alla mappa DITA e agli argomenti e al contenuto a cui si fa riferimento.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Esporta previsione tradotta {#id196SE600GHS}
@@ -170,7 +170,7 @@ Per esportare una baseline tradotta, effettuare le seguenti operazioni:
 
 1. Nella scheda **Traduzione**, espandi l&#39;opzione **Previsione** disponibile nella barra a sinistra.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. Selezionare l&#39;opzione **Usa baseline** e scegliere la baseline da esportare.
 

@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
    Viene visualizzato il Rapporto sullo stato della conversione per tutti i task di conversione eseguiti sul sistema.
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. La pagina del rapporto è divisa in due parti:
 
@@ -36,7 +36,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
      Nella schermata seguente vengono visualizzati i dati del rapporto per le attività di conversione con stato Non riuscito, Attivo e In coda.
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **Dati report:**
 

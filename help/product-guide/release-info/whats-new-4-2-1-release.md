@@ -4,9 +4,9 @@ description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager G
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ Questo articolo descrive le funzioni nuove e migliorate della versione 4.2.1 di 
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta l&#39;articolo [Note sulla versione](release-notes-4-2-1.md).
 
-## Passare dall&#39;Editor Web alla home page AEM
+## Passa dall’Editor Web alla home page di AEM
 
-Ora è possibile passare facilmente dall’Editor Web alla pagina di navigazione AEM.
+Ora è possibile passare facilmente dall’Editor Web alla pagina di navigazione di AEM.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
-* Fai clic sull&#39;icona **Guide** (![](assets/aem-guides-icon.png) ) per tornare alla pagina di navigazione AEM.
+* Fai clic sull&#39;icona **Guide** (![](assets/aem-guides-icon.png) ) per tornare alla pagina di navigazione di AEM.
 
 
-Per ulteriori dettagli, vedere [Pagina di navigazione AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Per ulteriori dettagli, vedere [Pagina di navigazione di AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Supporto avanzato dei metadati nella pubblicazione PDF
 
@@ -63,7 +63,7 @@ AEM Guides fornisce la funzione di generare i rapporti per i documenti tecnici. 
 
 Per ulteriori dettagli, vedere la descrizione della funzionalità Generate a multimedia report nella sezione [DITA map report from the Web Editor](../user-guide/reports-web-editor.md).
 
-## Native PDF | Barra delle modifiche per indicare gli argomenti modificati nel sommario
+## PDF nativo | Barra delle modifiche per indicare gli argomenti modificati nel sommario
 
 AEM Guides ora consente di identificare rapidamente gli argomenti modificati nel sommario dell’output PDF.  Viene visualizzata una barra di modifica a sinistra degli argomenti modificati nel sommario. Puoi fare clic sull’argomento nel sommario e visualizzare le modifiche dettagliate.
 
@@ -73,7 +73,7 @@ Per ulteriori dettagli, vedere [Utilizzare gli stili delle barre di modifica per
 
 
 
-## Native PDF | Personalizzare lo stile del marcatore pagina nel componente Nota a piè di pagina
+## PDF nativo | Personalizza lo stile del marcatore pagina nel componente Nota a piè di pagina
 
 Ora è possibile applicare uno stile al marcatore di pagina nelle note a piè di pagina. Ad esempio, è possibile aggiungere parentesi quadre o modificarne il colore. Questi stili consentono agli utenti di identificare facilmente gli indicatori di pagina nel documento.
 

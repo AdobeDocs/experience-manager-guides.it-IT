@@ -4,9 +4,9 @@ description: Crea e gestisci le baseline dalla console delle mappe in Adobe Expe
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Puoi creare una baseline dalla console Mappa eseguendo i seguenti passaggi:
 1. Passa alla scheda **Previsione** e seleziona l&#39;icona + in alto a destra per iniziare a creare una previsione.
 1. Nella finestra di dialogo **Nuova linea di base**, fornisci i dettagli seguenti:
 
-   ![Pannello linea di base](images/baseline-manage.png){width="500" align="left"}
+   ![Pannello linea di base](images/baseline-manage.png){width="500"}
 
    - Immettere un nome per la previsione nel campo **Nome**.
    - In **Configurazione**, scegliere [Aggiornamento manuale](#configuring-baseline-for-manual-update) o [Aggiornamento automatico](#configuring-baseline-for-automatic-update).
@@ -82,7 +82,7 @@ Selezionate questa opzione per la creazione della baseline per scegliere automat
 
 Le baseline create mediante la configurazione di aggiornamento automatico vengono aggiornate in modo dinamico. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se è stata utilizzata la versione 1.2 di un argomento con Label Release 1.0 per la baseline e successivamente è stata aggiornata la versione 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
 
-![Creare una previsione](images/dynamic-baseline.png){width="300" align="left"}
+![Creare una previsione](images/dynamic-baseline.png){width="300"}
 
 - **Etichette**: se per gli argomenti sono state specificate etichette, utilizzare il menu a discesa **Etichette** per scegliere tra le [etichette elencate](#labels-list).
 
@@ -92,7 +92,7 @@ Le baseline create mediante la configurazione di aggiornamento automatico vengon
   >
   >Quando le etichette vengono estratte, viene visualizzato un caricatore e il menu a discesa è disattivato.
 
-  Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se hai creato le etichette   `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A ed etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento B. È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, è possibile visualizzare `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` nel menu a discesa delle etichette della linea di base dinamica.
+  Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se sono state create le etichette `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e le etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento B. È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, è possibile visualizzare `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` nel menu a discesa delle etichette della linea di base dinamica.
 - **Riferimenti indiretti**: per i riferimenti indiretti all&#39;interno della mappa DITA, sono disponibili le seguenti opzioni:
 
    - **Scegli automaticamente**: puoi scegliere di **Scegli automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
@@ -113,7 +113,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
   >
   >L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
 
-  ![opzioni di una previsione](images/baseline-options.png){align="left"}
+  ![opzioni di una linea di base](images/baseline-options.png){}
 
 ### Azioni disponibili per una baseline esistente
 
@@ -123,7 +123,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
 È possibile duplicare una baseline e modificarla in base alle proprie esigenze.
 
-![duplicare una baseline](images/baseline-duplicate.png){width="300" align="left"}
+![duplicare una baseline](images/baseline-duplicate.png){width="300"}
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 
 1. Selezionare **Duplica** dal menu Opzioni di una baseline. Viene visualizzata la finestra di dialogo **Duplica baseline**.
@@ -158,7 +158,7 @@ Le etichette elencate nel menu a discesa si basano sui seguenti criteri:
 
 Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibile applicare filtri alla linea di base aperta nella finestra di modifica della linea di base:
 
-![filtri linea di base](images/baseline-filter.png){width="300" align="left"}
+![filtri linea di base](images/baseline-filter.png){width="300"}
 
 - Filtra i file in base ai nomi o alla posizione.
 - Filtrare i file in base ai valori per colonne diverse, ad esempio Tipo file, Tipo riferimento e così via.

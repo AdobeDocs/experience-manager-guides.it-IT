@@ -4,16 +4,16 @@ description: Scopri le funzioni nuove e migliorate nella versione di ottobre 202
 exl-id: 41bfed0d-5901-4ada-b6d7-a5be93b25ba8
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Novità della versione di ottobre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questo articolo tratta le funzioni nuove e migliorate nella versione di ottobre 2023 di Adobe Experience Manager Guides (in seguito denominato *AEM Guides as a Cloud Service*).
+Questo articolo descrive le funzioni nuove e migliorate nella versione di ottobre 2023 di Adobe Experience Manager Guides (in seguito denominate *AEM Guides as a Cloud Service*).
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta [Note sulla versione](release-notes-2023-10-0.md).
 
@@ -24,7 +24,7 @@ Experience Manager Guides fornisce ora uno strumento **Origini dati** che consen
 
 È inoltre possibile modificare, riconnettersi, duplicare o eliminare facilmente un connettore di origine dati. Scopri come [configurare facilmente un connettore di origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md).
 
-![connettori origine dati elencati nel pannello origini dati](assets/data-sources-create-window.png){width="550" align="left"}
+![connettori origine dati elencati nel pannello origini dati](assets/data-sources-create-window.png){width="550"}
 
 *Creare e visualizzare i connettori dell&#39;origine dati dal pannello origini dati.*
 
@@ -39,13 +39,13 @@ Ora puoi utilizzare gli strumenti Velocity nei modelli di Experience Manager Gui
 Ulteriori informazioni su come [utilizzare gli strumenti Velocity nei modelli di origine dati](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-Nella versione di ottobre 2023 sono stati apportati i seguenti miglioramenti a Native PDF:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione di ottobre 2023:
 
 ### Reimposta il numero di pagina per la prima pagina di un layout
 
-Nell&#39;output nativo di PDF è possibile riavviare i numeri di pagina e specificare il numero da cui inizia la numerazione. Ora è anche possibile iniziare la numerazione solo per la prima occorrenza di una sezione.
+Nell&#39;output PDF nativo è possibile riavviare i numeri di pagina e specificare il numero da cui inizia la numerazione. Ora è anche possibile iniziare la numerazione solo per la prima occorrenza di una sezione.
 Scopri come [utilizzare le proprietà di pagina di un layout di pagina](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
@@ -59,7 +59,7 @@ Ora è possibile non solo modificare una mappa nella vista mappa dell&#39;Editor
 
 Per ulteriori dettagli, consulta la descrizione della funzione **Vista mappa** nella sezione [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![menu opzioni di un file nella vista archivio](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![menu opzioni di un file nella vista archivio](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Selezionare un file nella visualizzazione del repository e scegliere l&#39;opzione per eseguire un&#39;azione sul file.*
 

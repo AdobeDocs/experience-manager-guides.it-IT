@@ -4,9 +4,9 @@ description: Attiva l'output delle mappe DITA in AEM Guides. Scopri come attivar
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Dopo aver creato una raccolta di mappe per l’attivazione in blocco, il passagg
 
 1. Selezionare la raccolta che si desidera pubblicare e selezionare **Apri**.
 
-   ![](images/bulk-activation-collection-open.png){align="left"}
+   ![](images/bulk-activation-collection-open.png)
 
 1. \(*Facoltativo*\) Applica i filtri richiesti dalla barra a sinistra per filtrare la mappa in base alla lingua, al predefinito di output o alla lingua modificati.
 
@@ -39,7 +39,7 @@ Visualizza i diversi modi per attivare la raccolta in base alla configurazione.
 <details>
 <summary> Servizi cloud </summary>
 
-![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Puoi attivare l&#39;output nelle istanze **Anteprima** o **Pubblica**.
 
@@ -74,7 +74,7 @@ Effettua una delle seguenti operazioni:
 
 * Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblicazione rapida**.
 * Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblicazione rapida.**
-  ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

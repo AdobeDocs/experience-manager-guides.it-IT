@@ -5,10 +5,9 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ Nel file CSS viene aggiunta la seguente definizione della classe `custom-bookmar
 
 Nell&#39;output di PDF, la tabella *Elenco contatti* viene aggiunta al secondo livello nell&#39;elenco dei segnalibri di PDF, come illustrato di seguito:
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >

@@ -2,9 +2,10 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2024.10.0
 description: Scopri le funzioni nuove e migliorate della versione 2024.10.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
+exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -40,16 +41,16 @@ Experience Manager Guides fornisce anche alcuni utili miglioramenti nei framment
 
 Adesso, la pubblicazione dei frammenti di contenuto sostituisce solo il contenuto mappato, anziché sovrascrivere l’intero frammento di contenuto. Questa funzione consente a un frammento di contenuto di contenere dati provenienti da più origini, ad esempio più argomenti o l’editor di frammenti di contenuto.
 
-![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Publish come frammento di contenuto](assets/content-fragment-mapping.png)
+![Aggiungere il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento di contenuto](assets/content-fragment-mapping.png)
 
-Per ulteriori dettagli, visualizzare [Frammenti di contenuto Publish](../user-guide/publish-content-fragment.md).
+Per ulteriori dettagli, visualizzare [Pubblica frammenti di contenuto](../user-guide/publish-content-fragment.md).
 
 
-### Varianti dei frammenti esperienza Publish basate su filtri condizione
+### Pubblicare varianti di frammenti esperienza in base a filtri di condizione
 
 Experience Manager Guides consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Ora puoi anche creare varianti di Frammento esperienza utilizzando i filtri condition o DITAVAL e riutilizzarle tra canali diversi o per tipi di pubblico diversi.
 
-Ulteriori informazioni su come [Frammenti esperienza Publish](../user-guide/publish-experience-fragment.md).
+Scopri come [pubblicare frammenti esperienza](../user-guide/publish-experience-fragment.md).
 
 
 ### Predefinito AEM Sites riorganizzato per un facile utilizzo
@@ -82,8 +83,8 @@ Ulteriori informazioni su [Predefiniti AEM Sites](../user-guide/generate-output-
 
 ### Opzione per scegliere una gerarchia di file piatta o nidificata per l&#39;output di HTML5
 
-Ora Experience Manager Guides consente di mantenere la gerarchia di cartelle piatte per i file temporanei, in cui l’intero contenuto viene pubblicato in formato di output HTML5 e salvato in un’unica cartella.
-Se non si sceglie di &quot;appiattire&quot; la gerarchia dei file, l&#39;output di HTML5 viene generato in una gerarchia di cartelle nidificate. Ciò implica che la struttura di cartelle originale del contenuto, con i file organizzati in sottocartelle, viene replicata nell’output. Questa gerarchia di cartelle nidificate consente un&#39;organizzazione e una categorizzazione dei file più complesse, semplificando la gestione e la navigazione di grandi volumi di dati.
+Ora, Experience Manager Guides consente di mantenere la gerarchia di cartelle piatte per i file temporanei in cui l’intero contenuto viene pubblicato in formato di output HTML5 e salvato in un’unica cartella.
+Se non si sceglie di appiattire la gerarchia dei file, l&#39;output di HTML5 viene generato in una gerarchia di cartelle nidificate. Ciò implica che la struttura di cartelle originale del contenuto, con i file organizzati in sottocartelle, viene replicata nell’output. Questa gerarchia di cartelle nidificate consente un&#39;organizzazione e una categorizzazione dei file più complesse, semplificando la gestione e la navigazione di grandi volumi di dati.
 
 
 Ulteriori informazioni su come [generare l&#39;output di HTML5](../user-guide/generate-output-html5.md).
@@ -114,10 +115,6 @@ Scopri come [aprire i file bloccati in modalità Autore e Source](../user-guide/
 
 Experience Manager Guides ora consente di raggruppare le condizioni e di presentarle in una gerarchia nidificata, consentendo di aggiungere più condizioni a un singolo gruppo. Raggruppando le condizioni è possibile organizzarle e applicarle in modo migliore a tutto il contenuto.
 
-![condizioni organizzate in una gerarchia nidificata](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![condizioni organizzate in una gerarchia nidificata](assets/conditions-nested-hierarchy.png){width="300"}
 
 Ulteriori informazioni sulla descrizione della funzionalità **Conditions** nella sezione [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
-
-
-
-

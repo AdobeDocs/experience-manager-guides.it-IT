@@ -4,9 +4,10 @@ description: Scopri come configurare le impostazioni di generazione dell’outpu
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3314'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,7 @@ Le schede seguenti forniscono istruzioni per nascondere la scheda Baseline nel d
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 >[!NOTE]
 >
@@ -116,7 +117,7 @@ La prossima volta che pubblichi un contenuto DITA utilizzando le configurazioni 
 
 La schermata seguente mostra le proprietà aggiunte nel nodo del modello predefinito di AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 La prossima volta che pubblichi un contenuto DITA utilizzando le configurazioni dei modelli del sito, il contenuto viene pubblicato nei nodi specificati nelle proprietà `topicContentNode` e `topicHeadNode`.
 
@@ -205,7 +206,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
    3. In **Etichetta campo**, immettere il nome metadati: Pubblico.
 
-   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Per il nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
+   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Nel nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
 
    Utilizzando questi passaggi, aggiungi tutti i parametri di metadati richiesti.
 
@@ -329,7 +330,7 @@ Per utilizzare il campo dell&#39;argomento della riga di comando DITA-OT per pas
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 - L&#39;impostazione del valore della proprietà su **true** abilita la funzionalità della riga di comando DITA-OT, che consente di passare i metadati tramite la riga di comando DITA-OT.
 - Se si imposta il valore della proprietà su **false**, la funzionalità della riga di comando DITA-OT verrà disattivata. Per trasmettere i metadati, puoi quindi utilizzare il campo Proprietà nel predefinito.
@@ -502,7 +503,7 @@ Per configurare AEM Guides per l&#39;utilizzo di FMPS, aggiornare le seguenti pr
 
 | Proprietà | Descrizione |
 |--------|-----------|
-| Dominio di accesso FrameMaker Publishing Server | Specifica il nome di dominio o il nome del gruppo di lavoro in cui è ospitato FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come:-   **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
+| Dominio di accesso FrameMaker Publishing Server | Specifica il nome di dominio o il nome del gruppo di lavoro in cui è ospitato FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come :- **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
 | URL FRAMEMAKER PUBLISHING SERVER | Specifica l’URL del FrameMaker Publishing Server. In base alla versione FMPS, fornire l&#39;URL FMPS come:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 e versioni precedenti**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versione FMPS | Specifica il numero di versione di FrameMaker Publishing Server. In base alla versione di FMPS, fornire le informazioni sulla versione come: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 e versioni precedenti**: 2019 o 2017 |
 | Nome utente e password FrameMaker Publishing Server | Specifica il nome utente e la password per accedere al FrameMaker Publishing Server. |
@@ -510,5 +511,3 @@ Per configurare AEM Guides per l&#39;utilizzo di FMPS, aggiornare le seguenti pr
 | URL AEM esterno | *\(Facoltativo\)* L&#39;URL di AEM in cui FrameMaker Publishing Server inserirà i file di output generati. Ad esempio, `http://<server-name>:<port>/`. |
 | Nome utente e password amministratore AEM | *\(Facoltativo\)* Il nome utente e la password di un amministratore della configurazione di AEM. Verrà utilizzato da FrameMaker Publishing Server per comunicare con AEM. |
 | Timeout attesa esecuzione attività FMPS | Questa impostazione è applicabile solo a FMPS 2020. Specifica il tempo \(in secondi\) dopo il quale FMPS smetterà di attendere l&#39;esecuzione del processo. |
-
-

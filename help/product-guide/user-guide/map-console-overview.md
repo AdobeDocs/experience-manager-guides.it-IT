@@ -4,9 +4,9 @@ description: Scopri la console Mappa e le varie funzioni disponibili che consent
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides offre una console dedicata, nota come **console Mappe**, per semplificare tutte le attività di gestione delle mappe e pubblicazione. Questa interfaccia centralizzata migliora la produttività e l&#39;accuratezza delle attività correlate alle mappe, fornendo opzioni per generare output, tradurre contenuti, accedere ai report e altro ancora, il tutto in un&#39;unica posizione.
 
-![scheda opzioni proprietà file](./images/map-console-screen.png){align="left"}
+![scheda opzioni proprietà file](./images/map-console-screen.png)
 
 L&#39;interfaccia della console Mappa è principalmente divisa in due sezioni: **Barra di navigazione** e **Pannello sinistro**.
 
-![Nuovo](images/map-console-sections.png){align="left"}
+![Nuovo](images/map-console-sections.png)
 
 - (**A**) **Barra di spostamento**: la barra di spostamento visualizza gli strumenti per passare da una visualizzazione all&#39;altra, modificare la visualizzazione della pagina e visualizzare il nome del file di mappa selezionato.
 

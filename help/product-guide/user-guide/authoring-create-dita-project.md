@@ -4,9 +4,9 @@ description: Creare un progetto DITA utilizzando un modello in AEM Guides. Scopr
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
 
 1. Seleziona **Crea** \> **Progetto** per avviare la procedura guidata Crea progetto.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. Nella pagina Crea progetto selezionare il modello **Progetto DITA** e selezionare **Successivo**.
 
@@ -43,7 +43,7 @@ Per creare un progetto DITA, effettuare le seguenti operazioni:
 
    Informazioni nella scheda **Base**:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - Immetti **Titolo**, **Descrizione** e **Data di scadenza** del progetto.
 

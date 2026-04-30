@@ -4,9 +4,9 @@ description: Scopri come contrassegnare un’attività come completata come revi
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per completare un&#39;attività di revisione, effettuare le seguenti operazioni:
 1. Aprire l&#39;attività di revisione assegnata all&#39;utente.
 2. Seleziona **Contrassegna come completato** dall&#39;alto come mostrato di seguito:
 
-   ![](images/review-task-mark-as-done.png){width="350" align="left"}
+   ![](images/review-task-mark-as-done.png){width="350"}
 
    Viene visualizzata la finestra di dialogo **Attività completata**.
 3. Nella finestra di dialogo **Completa attività**, aggiungi i commenti finali per l&#39;autore e seleziona **Completa**.
@@ -35,20 +35,20 @@ Per completare un&#39;attività di revisione, effettuare le seguenti operazioni:
 
    Ad esempio, in qualità di Revisore, puoi aggiungere un commento come azione di follow-up per l’Autore:
 
-   ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+   ![](images/complete-task-dialog-followup.png){width="350"}
 
    Oppure, aggiungi un commento per indicare il completamento dell’attività come mostrato di seguito:
 
-   ![](images/complete-task-dialog.png){width="350" align="left"}
+   ![](images/complete-task-dialog.png){width="350"}
 
 
 L&#39;attività è stata contrassegnata come completata e il relativo stato è ora impostato su **Completata**. Non sono consentite ulteriori azioni dopo che l’attività è contrassegnata come completata. Viene inviata una notifica all’Autore o all’iniziatore dell’attività di revisione per attirare la loro attenzione immediata. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 In base al feedback, se l&#39;autore o l&#39;iniziatore dell&#39;attività decide di [chiudere l&#39;attività di revisione](./review-close-review-task.md), lo stato dell&#39;attività nell&#39;interfaccia utente di revisione viene modificato in **Chiuso**.
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## Visualizza commenti a livello di attività
 
@@ -56,11 +56,11 @@ Tutti i commenti a livello di attività vengono visualizzati nella finestra di d
 
 Per accedere ai commenti a livello di attività dall&#39;interfaccia utente Revisione, passa al pannello a sinistra e seleziona l&#39;icona **Commenti attività**.
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 La finestra di dialogo **Commenti attività** è visualizzata a destra.
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 I commenti all&#39;interno della finestra di dialogo vengono visualizzati in ordine cronologico, con i commenti recenti visualizzati per primi e i commenti meno recenti visualizzati per ultimi. Questo ordine ti aiuta a seguire la conversazione come progrediva nel tempo.
 

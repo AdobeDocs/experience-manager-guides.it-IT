@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per creare un predefinito di output per i profili globali e cartelle, effettua l
 1. Selezionare l&#39;opzione **Modifica argomenti** dal menu **Opzioni** del file di mapping. Il file mappa viene aperto per la modifica nell&#39;editor Web.
 1. Nella scheda **Output**, selezionare l&#39;icona + per creare un predefinito di output per la mappa DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Immetti i seguenti dettagli nella finestra di dialogo **Aggiungi predefinito**:
    - Tipo

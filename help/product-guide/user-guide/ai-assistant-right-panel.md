@@ -2,9 +2,9 @@
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente IA per l’authoring di documenti con efficienza intelligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Manager Guides fornisce uno strumento di assistenza AI che cons
 
 Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una delle azioni dell’Assistente AI:
 
-![assistente ai](./images/ai-assistant-panel.png){width="300" align="left"}
+![assistente ai](./images/ai-assistant-panel.png){width="300"}
 
 ## Suggerisci contenuti riutilizzabili
 

@@ -4,9 +4,10 @@ description: Scopri come caricare contenuti DITA esistenti in Experience Manager
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effett
 
 1. Aprire la finestra di dialogo **Connection Manager**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Immetti i seguenti dettagli per connetterti al repository di AEM:
 
@@ -94,7 +95,7 @@ Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effett
 
    Una volta stabilita la connessione, Assets dall’archivio AEM viene visualizzato nella finestra Gestione archivio.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Facendo clic con il pulsante destro del mouse su un file o una cartella è possibile eseguire operazioni correlate. Ad esempio, se fai clic con il pulsante destro del mouse su una cartella, ottieni le opzioni per caricare un file, caricare un file con dipendenze, caricare un’intera cartella e così via.
 

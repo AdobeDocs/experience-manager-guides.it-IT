@@ -4,7 +4,7 @@ description: Risolvi i problemi relativi alla risoluzione dei problemi di base i
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
    La colonna **Generation setting** dei **Output generati** mostra il colore per dare un segnale visivo sull&#39;esito positivo o negativo della generazione dell&#39;output per diversi predefiniti di output.
 
-   ![](images/output-general-settings-new.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300"}
 
    Nella schermata precedente:
 
@@ -39,7 +39,7 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
    Il file di registro viene aperto in una nuova scheda.
 
-   ![](images/log-file-new.png){align="left"}
+   ![](images/log-file-new.png)
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di registro:
    - **Fatal**: evidenzia gli errori irreversibili nel file di registro con un colore rosso scuro.
@@ -75,13 +75,13 @@ Per copiare e controllare il file di registro di generazione dell’output in un
 
    Nello snippet di file di log di esempio seguente è possibile visualizzare il messaggio `BUILD FAILED` insieme al motivo dell&#39;errore.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Errore relativo a Experience Manager Guides*: l&#39;altro tipo di errore che è possibile identificare nel file di log è relativo al processo di Experience Manager Guides stesso. In questo caso, il file mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di un errore interno in Experience Manager Guides. Per questo tipo di errori è necessario rivolgersi al team di supporto tecnico.
 
    Nel seguente frammento del file di log di esempio è possibile visualizzare il messaggio `BUILD SUCCESSFUL`, seguito da un altro errore tecnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 

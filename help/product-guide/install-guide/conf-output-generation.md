@@ -5,11 +5,10 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 0%
+source-wordcount: '5886'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +57,7 @@ Per configurare AEM Guides per l&#39;utilizzo di FMPS, aggiornare le seguenti pr
 
 | Proprietà | Descrizione |
 |--------|-----------|
-| Dominio di accesso FrameMaker Publishing Server | Specifica il nome di dominio o il nome del gruppo di lavoro in cui è ospitato FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come:-   **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
+| Dominio di accesso FrameMaker Publishing Server | Specifica il nome di dominio o il nome del gruppo di lavoro in cui è ospitato FrameMaker Publishing Server. In base alla versione di FMPS, fornisci il nome di dominio come :- **FMPS 2020**: indirizzo IP come 192.168.1.101 <br>- **FMPS 2019 e versioni precedenti**: indirizzo IP o nome di dominio |
 | URL FRAMEMAKER PUBLISHING SERVER | Specifica l’URL del FrameMaker Publishing Server. In base alla versione FMPS, fornire l&#39;URL FMPS come:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 e versioni precedenti**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Versione FMPS | Specifica il numero di versione di FrameMaker Publishing Server. In base alla versione di FMPS, fornire le informazioni sulla versione come: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 e versioni precedenti**: 2019 o 2017 |
 | Nome utente e password FrameMaker Publishing Server | Specifica il nome utente e la password per accedere al FrameMaker Publishing Server. |
@@ -71,7 +70,7 @@ Per configurare AEM Guides per l&#39;utilizzo di FMPS, aggiornare le seguenti pr
 
 Se si dispone di un sito AEM che contiene contenuto DITA, è possibile configurare l&#39;output del sito AEM in modo da pubblicare il contenuto DITA in una posizione predefinita all&#39;interno del sito. Ad esempio, nella schermata seguente di una pagina del sito AEM, il nodo `ditacontent` è riservato per l&#39;archiviazione del contenuto DITA:
 
-![](assets/publish-in-aem-site.png){width="300" align="left"}
+![](assets/publish-in-aem-site.png){width="300"}
 
 I nodi rimanenti nella pagina vengono creati direttamente dall’editor del sito di AEM. La configurazione dell&#39;impostazione di pubblicazione per la pubblicazione del contenuto DITA in una posizione predefinita garantisce che nessuno dei contenuti non DITA esistenti venga modificato dal processo di pubblicazione di AEM Guides.
 
@@ -104,7 +103,7 @@ Per configurare le proprietà del modello del sito esistente, effettua le seguen
 
 La schermata seguente mostra le proprietà aggiunte nel nodo del modello predefinito di AEM Guides:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 La prossima volta che pubblichi un contenuto DITA utilizzando le configurazioni dei modelli del sito, il contenuto viene pubblicato nei nodi specificati nelle proprietà `topicContentNode` e `topicHeadNode`.
 
@@ -155,7 +154,7 @@ Per specificare il modello di progettazione da utilizzare per la generazione di 
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -266,13 +265,13 @@ Per configurare i caratteri speciali validi nei nomi di file e nell’output del
 
 Quando si genera l&#39;output di AEM Site, viene creato internamente un nodo per ogni elemento degli argomenti. Per una mappa DITA con migliaia di argomenti, questa struttura di nodi può diventare troppo profonda. Questo tipo di struttura di nodi profondamente nidificata può presentare problemi di prestazioni per siti più grandi. L’istantanea seguente mostra la struttura dei nodi profondamente nidificati per un output di un sito AEM:
 
-![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
+![](assets/deep-nested-aem-site-node-structure.png){width="300"}
 
 Nell&#39;istantanea precedente, si noti che viene creato un nodo per ogni elemento `p` e i relativi sottoelementi successivi e che viene creata una struttura simile per ogni altro elemento utilizzato nell&#39;argomento.
 
 AEM Guides consente di configurare la modalità di creazione interna della struttura dei nodi dell’output del sito AEM. È possibile appiattire la struttura del nodo in corrispondenza di elementi specifici, il che significa che è possibile definire un elemento che verrà considerato come elemento principale e tutti i sottoelementi al suo interno verranno uniti all’elemento principale. Se ad esempio si decide di appiattire l&#39;elemento `p`, qualsiasi elemento visualizzato all&#39;interno dell&#39;elemento `p` verrà unito all&#39;elemento `p` principale. Non verrà creata una nota separata per alcun sottoelemento all&#39;interno dell&#39;elemento `p`. Lo snapshot seguente visualizza la struttura del nodo appiattita in corrispondenza dell&#39;elemento `p`:
 
-![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
+![](assets/flattened-aem-site-node-structure.png){width="300"}
 
 Per appiattire la struttura dei nodi del sito AEM, effettua le seguenti operazioni:
 
@@ -321,7 +320,7 @@ Per appiattire la struttura dei nodi del sito AEM, effettua le seguenti operazio
 
 Ora, quando si genera l&#39;output del sito AEM, i nodi all&#39;interno dell&#39;elemento `p` vengono appiattiti e memorizzati all&#39;interno dell&#39;elemento `p` stesso. Le nuove proprietà di conversione per l&#39;elemento `p` sono disponibili in CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 **Impedisci appiattimento della struttura delle note del sito AEM**
 
@@ -394,7 +393,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
    1. In **Etichetta campo**, immettere il nome metadati: Pubblico.
 
-   1. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Per il nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
+   1. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Nel nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
 
    Utilizzando questi passaggi, aggiungi tutti i parametri di metadati richiesti.
 
@@ -403,7 +402,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
 Il nuovo parametro ora viene visualizzato nella pagina Proprietà per tutte le mappe DITA.
 
-![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
+![](assets/properties-page-custom-metadata.PNG){width="650"}
 
 Successivamente, è necessario rendere disponibili i metadati personalizzati nella console delle mappe DITA. Per rendere disponibili i metadati personalizzati sulla dashboard delle mappe DITA, effettuare le seguenti operazioni:
 
@@ -432,7 +431,7 @@ Infine, in qualità di editore, è necessario includere i metadati personalizzat
 
 1. Nella pagina Proprietà, specifica il valore per i metadati personalizzati. Per il nostro esempio, abbiamo specificato il valore External per il parametro audience.
 
-   ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
+   ![](assets/properties-page-custom-metadata-value.png){width="650"}
 
 1. Fai clic su **Salva e chiudi**.
 
@@ -444,7 +443,7 @@ Infine, in qualità di editore, è necessario includere i metadati personalizzat
 
 1. Dall&#39;elenco a discesa **Proprietà**, selezionare le proprietà che si desidera trasferire al processo di pubblicazione.
 
-   ![](assets/props-in-publish-output.PNG){width="650" align="left"}
+   ![](assets/props-in-publish-output.PNG){width="650"}
 
 
 Le proprietà/metadati selezionati vengono trasmessi al processo di pubblicazione e sono resi disponibili nell’output finale.

@@ -5,7 +5,7 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 1. Seleziona e modifica un predefinito di output a cui desideri trasmettere i campi di metadati. Ad esempio, seleziona Predefinito di output PDF.
 1. Selezionare **DITA-OT** in Genera &lt;output\> tramite opzione nel predefinito di output selezionato.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){width="800"}
 
 1. Dal menu a discesa Proprietà, selezionare i metadati che si desidera trasmettere alla pubblicazione DITA-OT.
 
@@ -38,11 +38,11 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 
 1. Dal menu a discesa **Proprietà**, seleziona le proprietà personalizzate e predefinite richieste. Selezionare ad esempio `author`, `dc:title` e `dc:description`. Questi sono i `metadata/properties` standard che vengono creati dopo la creazione di un file. Le proprietà selezionate sono elencate sotto la dropbox.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Fai clic su **Fine** in alto a sinistra per salvare le modifiche.
 1. Genera l’output.
 
-The selected metadata properties will be passed to the output generated using DITA-OT.
+Le proprietà dei metadati selezionate verranno passate all&#39;output generato utilizzando DITA-OT.
 
 **Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

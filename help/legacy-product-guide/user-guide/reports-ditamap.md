@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
 1. Fai clic su **Rapporti**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
    La pagina Rapporti è divisa in due parti:
 
@@ -38,7 +38,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
      Quando si fa clic su un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
      Gli elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
@@ -52,48 +52,48 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
       - **Stato documento**: lo stato corrente del documento: Bozza, In revisione o Rivisto.
 
-      - **Missing Topics \(B\)**: If there are topics with broken references, then those topics are listed under the Missing Topics list.
+      - **Argomenti mancanti \(B\)**: se sono presenti argomenti con riferimenti interrotti, questi verranno elencati nell&#39;elenco Argomenti mancanti.
 
-      - **Missing Elements**: Lists the number of missing images or broken cross-references, if any.
+      - **Elementi mancanti**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
 
-      - **Open in Editor \(D\)**: Clicking this icon opens the topic in the Web Editor.
-
-
-   Items highlighted under **E** are described below:
-
-   - **Multimedia**: Path of images used in the topic is shown along with its UUID. If you click on the image path, the corresponding image is opened in a pop-up window. Broken image links are listed in red color.
-
-   - **Content References**: Path of the content referred in the topic is shown along with its UUID. If you click on the title of the referred content, the corresponding topic is opened in Preview mode.
-
-   - **Cross Reference**: Path of the cross-referenced content is shown along with its UUID. If you click on the title of the referred content, the corresponding topic is opened in Preview mode. Broken cross-references are listed in red color.
-
-   - **Review**: Shows the status of the review task of the topic. You can see the status \(open or close\), due date, and assignee for the topic under review. If you click the topic link, it opens the topic in review mode.
-
-   - **Used In**: Shows a list of other topics or maps where the topic is used. The UUID of all such topics and maps is also listed.
-
-Besides the report for each individual topic, administrators also have access to information such as publishing history of a DITA map. For more information about the history of generated outputs, see [View the status of the output generation task](generate-output-for-a-dita-map.md#viewing_output_history).
-
-## Generate the CSV of DITA map report
-
-You can download and export the CSV of a DITA map report. The CSV contains the detailed DITA map report.
-
-Perform the following steps to generate the CSV of a DITA map report:
-
-1. Click **Generate Report** on the top-left to generate the DITA map report.
-
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
-
-1. You will receive a notification once the report is ready to download. Click **Download** to download the CSV of the generated report.
-
-   ![](images/download-report-dialog.png){width="550" align="left"}
+      - **Apri nell&#39;editor \(D\)**: facendo clic su questa icona si apre l&#39;argomento nell&#39;editor Web.
 
 
-   You can also download the CSV of the generated report later from the AEM notification Inbox.
+   Gli elementi evidenziati in **E** sono descritti di seguito:
 
-   Click the generated report in the Inbox to download the report.
+   - **Multimedia**: il percorso delle immagini utilizzate nell&#39;argomento viene visualizzato insieme al relativo UUID. Se fate clic sul percorso dell&#39;immagine, l&#39;immagine corrispondente viene aperta in una finestra a comparsa. I collegamenti immagine interrotti sono elencati in rosso.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   - **Riferimenti contenuto**: il percorso del contenuto a cui si fa riferimento nell&#39;argomento viene visualizzato insieme al relativo UUID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima.
 
-Once the report is downloaded in the Inbox you can also select the report and use the Open icon on the top to open the selected report.
+   - **Riferimento incrociato**: viene visualizzato il percorso del contenuto con riferimenti incrociati insieme al relativo UUID. Se fai clic sul titolo del contenuto a cui si fa riferimento, l’argomento corrispondente viene aperto in modalità Anteprima. I riferimenti incrociati interrotti sono elencati in rosso.
+
+   - **Revisione**: mostra lo stato dell&#39;attività di revisione dell&#39;argomento. È possibile visualizzare lo stato \(aperto o chiuso\), la data di scadenza e l&#39;assegnatario dell&#39;argomento in revisione. Se si fa clic sul collegamento dell&#39;argomento, l&#39;argomento viene aperto in modalità di revisione.
+
+   - **Usato in**: mostra un elenco di altri argomenti o mappe in cui viene utilizzato l&#39;argomento. È elencato anche l’UUID di tutti questi argomenti e mappe.
+
+Oltre al report per ogni singolo argomento, gli amministratori hanno anche accesso a informazioni quali la cronologia di pubblicazione di una mappa DITA. Per ulteriori informazioni sulla cronologia degli output generati, vedere [Visualizzare lo stato dell&#39;attività di generazione output](generate-output-for-a-dita-map.md#viewing_output_history).
+
+## Genera il rapporto mappa CSV di DITA
+
+È possibile scaricare ed esportare il file CSV di un rapporto mappa DITA. Il file CSV contiene il rapporto dettagliato sulla mappa DITA.
+
+Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti operazioni:
+
+1. Fai clic su **Genera report** in alto a sinistra per generare il report mappa DITA.
+
+   ![](images/generate-DITA-map-report.png){width="800"}
+
+1. Riceverai una notifica quando il report sarà pronto per il download. Fai clic su **Scarica** per scaricare il file CSV del rapporto generato.
+
+   ![](images/download-report-dialog.png){width="550"}
+
+
+   Puoi anche scaricare il file CSV del rapporto generato in un secondo momento dalla casella in entrata delle notifiche di AEM.
+
+   Fai clic sul rapporto generato nella casella in entrata per scaricarlo.
+
+   ![](images/report-inbox--notification.png){width="300"}
+
+Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
 **Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per generare l&#39;output per una mappa DITA, effettuare le seguenti operazioni:
 
 1. Selezionate uno o più predefiniti di output da utilizzare per generare l&#39;output.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){width="800"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Per rigenerare l&#39;output per un argomento specifico o un gruppo di argomenti,
    >
    > Se sono stati aggiunti nuovi argomenti alla mappa DITA, non sarà possibile generarli da qui. È innanzitutto necessario pubblicare gli argomenti appena aggiunti utilizzando la funzione di pubblicazione mappa DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){width="800"}
 
 1. Fare clic su **Rigenera**.
 
@@ -98,7 +98,7 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
 1. Fare clic su **Output**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){width="800"}
 
    La pagina Output è divisa in due parti:
 
@@ -135,17 +135,17 @@ Per annullare un&#39;attività di generazione output dalla console delle mappe D
 
 1. Fai clic sull&#39;icona *Annulla questo processo*.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){width="800"}
 
 1. Fare clic su **Sì** al prompt del messaggio Conferma annullamento.
 
-   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-condole.png){width="800"}
 
    Se l&#39;attività non è ancora stata avviata, il comando di annullamento viene eseguito sull&#39;attività. Per un&#39;attività che viene annullata, lo stato è impostato su Annullamento.
 
    Una volta annullata, l&#39;attività viene spostata nell&#39;elenco **Output generati** con stato **Annullato**. Quando passi il cursore del mouse sull’attività annullata, viene visualizzato il nome dell’utente che ha annullato l’attività. Nella schermata seguente, l&#39;attività *HTML5* è stata annullata.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 ## Eliminare un&#39;attività di output dalla console delle mappe DITA
@@ -162,7 +162,7 @@ Per rimuovere un task di output dall&#39;elenco Output generato, effettuare le o
 
 1. Fai clic sull’icona Elimina.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){width="800"}
 
 1. Fare clic su **Sì** nel prompt dei messaggi Conferma eliminazione.
 

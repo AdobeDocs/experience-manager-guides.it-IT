@@ -4,7 +4,7 @@ description: Scopri come creare i quiz nella sezione Formazione e apprendimento 
 feature: Authoring
 role: User
 exl-id: 96c1d233-66d8-4f4e-b08a-d533d74fe0ff
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -17,12 +17,12 @@ Per aggiungere un quiz a un corso, effettua le seguenti operazioni:
 
 1. Apri un corso in **Gestione corsi** e seleziona **Aggiungi nuovo** dal menu **Opzioni**.
 
-   ![](assets/workflow-quiz.png){width="650" align="left"}
+   ![](assets/workflow-quiz.png){width="650"}
 
 1. Seleziona **Quiz**.\
    Viene visualizzata una finestra di dialogo **Nuovo quiz di apprendimento** per specificare i dettagli rilevanti del quiz. Puoi selezionare il modello dal menu a discesa e specificare un titolo adatto allo stesso.
 
-   ![](assets/new-learning-quiz.png){width="350" align="left"}
+   ![](assets/new-learning-quiz.png){width="350"}
 
 1. Seleziona **Crea**.
 

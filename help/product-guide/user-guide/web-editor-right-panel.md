@@ -4,9 +4,9 @@ description: Scopri il pannello A destra nell’editor. Scopri l’interfaccia e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **
 
 1. Seleziona **Aggiungi**.
 
-   ![attributi nelle proprietà del contenuto](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![attributi nelle proprietà del contenuto](images/properties-tab-attributes_cs.png){width="300"}
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi seleziona **Aggiungi**.
 
-   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 
@@ -72,7 +72,7 @@ Le proprietà File sono suddivise nelle due sezioni seguenti:
 
 La sezione Generale consente di accedere alle seguenti funzioni:
 
-![proprietà-file](images/file-properties-general.png){width="300" align="left"}
+![proprietà-file](images/file-properties-general.png){width="300"}
 
 - **Nome file**: visualizza il nome del file dell&#39;argomento selezionato. Il nome del file viene collegato alla pagina delle proprietà del file selezionato.
 - **ID**: visualizza l&#39;ID dell&#39;argomento selezionato.
@@ -104,7 +104,7 @@ La sezione Generale consente di accedere alle seguenti funzioni:
 
 La sezione Riferimenti (References) consente di accedere alle seguenti funzioni:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Usato in**: Usato nei riferimenti elenca i documenti in cui viene fatto riferimento o utilizzato il file corrente.
 - **Collegamenti in uscita:** I collegamenti in uscita elencano i documenti a cui si fa riferimento nel documento corrente.
@@ -129,11 +129,11 @@ In questa sezione sono elencate in ordine alfabetico tutte le copie in lingua di
 >
 > Le copie per lingua vengono create quando una risorsa viene inviata per la traduzione. L&#39;inglese (`en`) funge da lingua di origine e le copie tradotte vengono generate nelle rispettive cartelle della lingua di destinazione, ad esempio `de` per il tedesco o `fr` per il francese. Se una risorsa esiste solo nella cartella `en`, non verranno visualizzate copie per altre lingue fino all&#39;avvio e al completamento della traduzione per le lingue di destinazione. Se la risorsa non è presente in alcuna cartella di lingua, **Nessuna traduzione disponibile** verrà visualizzata. Per ulteriori dettagli, visualizza [Best practice per la traduzione dei contenuti](./translation-first-time.md).
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 Per ogni copia per lingua, puoi passare il cursore sul file per individuarne il percorso nell’archivio o selezionarlo semplicemente per aprirlo nell’editor. Oltre ad aprire i file, è anche possibile eseguire molte azioni utilizzando il menu **Opzioni** nella sezione Traduzioni. Alcune delle azioni che puoi eseguire includono Modifica, Anteprima, Copia UUID, Copia percorso, Aggiungi a raccolte e Proprietà.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ Per ogni copia per lingua, puoi passare il cursore sul file per individuarne il 
 
 Se si seleziona l&#39;icona Revisione, viene aperto il pannello Revisione in cui è possibile selezionare un task di revisione per il documento aperto e visualizzare i commenti.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Se hai creato più progetti di revisione, puoi selezionarne uno dal menu a discesa e accedere ai relativi commenti.
 

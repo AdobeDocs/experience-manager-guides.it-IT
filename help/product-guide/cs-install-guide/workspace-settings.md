@@ -4,10 +4,9 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -37,7 +36,7 @@ L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../
 
 Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene sette sezioni: **Assistente AI**, **Authoring**, **Citazioni**, **Condizione**, **Editor HTML**, **Contenuto di apprendimento** e **Controllo ortografico**.
 
-![](assets/workspace-settings.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350"}
 
 - **Assistente IA**
 Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../user-guide/ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
@@ -52,7 +51,7 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
    - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -72,11 +71,11 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
    - **Mostra chiave con titolo nel pannello Schema soggetti**: selezionare questa opzione per visualizzare i tasti insieme ai titoli nello schema soggetti. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
 
-- **Controllo ortografico**
+- **Controllo ortografia**
 Sono disponibili due opzioni: **Controllo ortografico AEM** e **Controllo ortografico browser**. Per impostazione predefinita, l’editor utilizza la funzione di controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. Puoi passare al controllo ortografico di AEM per utilizzare il dizionario Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione [Personalizzare il dizionario predefinito di AEM](../cs-install-guide/customize-aem-custom-dictionary.md) nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 - **Contenuto di apprendimento**: questa impostazione consente di abilitare o disabilitare la funzione Contenuto di apprendimento e formazione del prodotto per l&#39;istanza di Experience Manager Guides. Utilizza l&#39;interruttore **Abilita contenuto di apprendimento** per abilitare o disabilitare la funzione a livello di profilo di cartella. Per impostazione predefinita, questa funzione rimane disabilitata per tutte le istanze.
@@ -104,11 +103,11 @@ Per ulteriori dettagli, visualizzare [Configura profili cartella](../lc-config-g
 
 Questa impostazione consente di controllare i pannelli visualizzati nei pannelli sinistro e destro della console Editor e Mappa. Puoi attivare o disattivare il pulsante per mostrare o nascondere il pannello desiderato.
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 Potete anche definire l&#39;ordine di visualizzazione delle feature presenti nei pannelli. Per modificare l&#39;ordine di default delle feature disponibili nei pannelli, selezionate le barre punteggiate per trascinare e rilasciare le linguette delle feature nella posizione desiderata. Una funzione può anche essere spostata dalla sezione **Altro** alla sezione principale di un pannello e viceversa in base al requisito. Una volta riordinate, le feature vengono visualizzate nella stessa sequenza nei rispettivi pannelli destro e sinistro.
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 È possibile visualizzare fino a otto pannelli alla volta. Tutte le modifiche apportate alle impostazioni del pannello vengono applicate immediatamente.
@@ -122,23 +121,23 @@ Potete anche definire l&#39;ordine di visualizzazione delle feature presenti nei
 
 In qualità di amministratore, puoi controllare l’elenco degli elementi che un autore può inserire in un file e definire anche il nome visualizzato dell’elemento. L&#39;impostazione dell&#39;elenco Elementi consente di specificare il nome dell&#39;elemento in base alle specifiche DITA e un&#39;etichetta che si desidera utilizzare al posto del nome dell&#39;elemento definito DITA:
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
 Nella schermata precedente, all&#39;elemento `p` è stata assegnata un&#39;etichetta di Paragrafo e a `codeblock` viene assegnata un&#39;etichetta di Blocco di codice insieme ad alcuni altri elementi. Se si seleziona l&#39;opzione **Usa solo elementi superiori**, nella finestra di dialogo **Inserisci elemento** verranno visualizzati solo gli elementi validi \(al punto di inserimento corrente\) di questo elenco.
 
 Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata precedente sono visualizzati nel contesto corrente:
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## Elenco attributi
 
 Analogamente all&#39;elenco degli elementi, è possibile controllare l&#39;elenco degli attributi e i relativi nomi visualizzati da visualizzare nell&#39;elenco degli attributi di un elemento. Nella schermata seguente, solo 3 attributi sono stati configurati per essere visualizzati nell’elenco degli attributi di un elemento:
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 Con questa impostazione, quando si tenta di aggiungere un attributo a un elemento, viene visualizzato solo l’elenco degli attributi configurati nell’elenco.
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## Colori
@@ -170,7 +169,7 @@ Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. 
 
    - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
-     ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -195,7 +194,7 @@ Configura il server ServiceNow per caricare le risorse.
 
 - Per creare un profilo, selezionare la Knowledge Base ServiceNow dal menu a discesa **Tipo di server**. Immetti un profilo **Nome**. Nell&#39;**URL ServiceNow**, immettere il sito consumer da utilizzare per la pubblicazione dell&#39;output, quindi aggiungere **Nome utente** e **Password** forniti dal sito consumer ServiceNow. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
-  ![Profilo di pubblicazione ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![Profilo di pubblicazione ServiceNow](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   Dopo la convalida, è possibile selezionare il profilo di pubblicazione nei predefiniti di output di una mappa DITA e utilizzarlo per generare l&#39;output nel server **Salesforce** o **ServiceNow** scelto.
 
@@ -213,13 +212,13 @@ Questa scheda contiene le opzioni per configurare le convalide Schematron nell�
   >- I file Schematron selezionati persisteranno per il profilo di cartella selezionato.
   >- Quando si aggiunge un file Schematron non valido, viene visualizzato un messaggio di errore, come illustrato di seguito.
 
-  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
 - **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, l&#39;opzione per aggiungere il file schematron **Aggiungi file schematron** non è disponibile per gli utenti nel **pannello di convalida** dell&#39;editor.
 
-  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## Visualizza attributi
@@ -228,13 +227,13 @@ Analogamente all&#39;elenco Attributi, è possibile controllare l&#39;elenco deg
 
 Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## Traduzione
 
 Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etichette di origine alla versione di destinazione e ripulire il progetto di traduzione.
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **Gruppi di lingue**: in qualità di amministratore, puoi creare un gruppo di lingue e utilizzarle come set per tradurre il contenuto.
 
@@ -275,7 +274,7 @@ I metadati possono essere scelti da qualsiasi proprietà sotto il nodo `/jcr:con
 Se il percorso dei metadati è vuoto, viene visualizzato un errore. Se si lascia vuota l&#39;etichetta, l&#39;ultimo elemento viene scelto come etichetta.
 
 
-![scheda metadati nelle impostazioni area di lavoro](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![scheda metadati nelle impostazioni area di lavoro](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *Configurare i metadati per la finestra di dialogo **Cronologia versioni**.*
 

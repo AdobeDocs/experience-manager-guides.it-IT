@@ -4,10 +4,9 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Nella configurazione locale, l&#39;opzione **Impostazioni** viene visualizzata n
 Tutte le opzioni di configurazione esistenti disponibili in **Impostazioni editor** rimangono invariate.
 
 
-![Impostazione editor per On-Premise](assets/editor-settings-on-prem.png){width="650" align="left"}
+![Impostazione editor per On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 Per informazioni sulle opzioni di configurazione disponibili, visualizzare [Configura impostazioni di Workspace](../cs-install-guide/workspace-settings.md).

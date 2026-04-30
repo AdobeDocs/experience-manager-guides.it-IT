@@ -4,9 +4,10 @@ description: Scopri come gestire le versioni
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 1. Seleziona l&#39;opzione **Disattiva modifica senza estrazione**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Con questa opzione, gli utenti non visualizzeranno l&#39;opzione Modifica nella barra degli strumenti fino a quando non estraggono un file.
 
@@ -205,11 +206,11 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 1. Fai clic su **Salva**.
 
 
-Per supportare questa funzione, in `drivelock` è stata aggiunta la nuova proprietà `oak:index` dell&#39;indice:
+Per supportare questa funzione, in `oak:index` è stata aggiunta la nuova proprietà `drivelock` dell&#39;indice:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Oltre alla nuova proprietà dell&#39;indice, verificare che le seguenti proprietà siano impostate su `/oak:index/damAssetLucene`:
 
@@ -247,7 +248,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
 
 A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;eliminazione, specificare una delle seguenti costanti:
 
@@ -279,11 +280,11 @@ A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;elimi
 
    - allow\_unsafe\_delete\_for\_all: concedere a tutti gli utenti l’autorizzazione per eliminare i file. In questo caso, se il file\(s\) contiene riferimenti o vi fanno riferimento altri file, potete anche eliminarlo forzatamente. Prima di eliminare il file, viene visualizzato un messaggio con i riferimenti, è possibile annullare l&#39;operazione di eliminazione, rimuovere i riferimenti e infine eliminare il file\(s\). In alternativa, è possibile eliminare forzatamente il file\(s\) senza rimuovere i riferimenti.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: un amministratore o un utente appartenente al gruppo *delete-assets* può eliminare dei file. Se un altro utente tenta di eliminare file con qualsiasi riferimento, non potrà eliminare tali file finché non saranno stati rimossi tutti i riferimenti. La schermata seguente viene visualizzata quando un utente che non dispone delle autorizzazioni necessarie tenta di eliminare dei file.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: non consentire a tutti gli utenti \(inclusi gli amministratori\) di eliminare i file finché i riferimenti a e dal file\(s\) non vengono rimossi.
 

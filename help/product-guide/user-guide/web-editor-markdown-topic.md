@@ -4,9 +4,9 @@ description: Creare documenti Markdown dall’Editor. Scopri come creare, creare
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
 1. Nel pannello Archivio selezionare ![](images/Add_icon.svg), quindi **Argomento** dal menu a discesa.
 1. Nella finestra di dialogo **Nuovo argomento**, fornisci i seguenti dettagli:
 
-   ![](images/create-markdown-dialog.png){width="300" align="left"}
+   ![](images/create-markdown-dialog.png){width="300"}
 
    * **Titolo**: specifica un titolo per l&#39;argomento.
    * **Nome**: il nome del file viene suggerito automaticamente in base al Titolo dell&#39;argomento. Se l’amministratore ha abilitato i nomi di file automatici in base all’impostazione UUID, il campo Nome non verrà visualizzato.
@@ -36,7 +36,7 @@ Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
 
    L&#39;argomento Markdown viene creato nel percorso selezionato e può essere modificato.
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -81,13 +81,13 @@ Features available in the tab bar are explained as follows:
 
 La barra degli strumenti si trova appena sotto la barra delle schede. Le funzioni disponibili nella barra degli strumenti sono illustrate come segue:
 
-![](images/markdown-main-toolbar.png){align="left"}
+![](images/markdown-main-toolbar.png)
 
 | Funzioni | Descrizione |
 |----------------|----------------|
-| Modifica delle azioni | Consente di accedere a varie funzionalità di modifica dei documenti, tra cui **Taglia**  ![](images/S_Cut_18_N.svg), **Annulla**  ![](images/S_Undo_18_N.svg), **Ripeti**  ![](images/S_Redo_18_N.svg), **Copia**  ![](images/S_Copy_18_N.svg), **Elimina**  ![](images/S_Delete_18_N.svg) e **Trova e sostituisci**  ![](images/S_FindAndReplace_18_N.svg). Puoi accedere alle opzioni disponibili dal menu a discesa **Menu**. |
-| Opzioni di formattazione del testo | Consente di accedere a varie opzioni di formattazione del testo, tra cui **Intestazioni**  ![](images/S_DisplayHeading_18_N.svg), **Grassetto**  ![](images/S_TextBold_18_N.svg), **Corsivo**  ![](images/S_TextItalic_18_N.svg), **Barrato**  ![](images/S_TextStrikethrough_18_N.svg), **Codice**  ![](images/S_Code_18_N.svg) e **Citazione di blocco**  ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Opzioni di inserimento contenuti | Fornisce le opzioni per inserire un **elenco numerato**  ![](images/S_TextNumbered_18_N.svg), **Elenco ordinato**  ![](images/S_TextBulleted_18_N.svg), **Tabella**  ![](images/tableAdd.svg), **Immagine** ![](images/S_ImageAdd_18_N.svg), **Riferimento incrociato**  ![](images/S_LinkGlobe_18_N.svg) e **Simbolo**  ![](images/S_SpecialCharacter_18_N.svg) in un documento.<br><br> **Nota**: puoi anche trascinare immagini e altri file nell&#39;editor Markdown. I file vengono aggiunti come collegamenti di riferimento incrociato, mentre le immagini vengono visualizzate come elementi immagine standard. |
+| Modifica delle azioni | Consente di accedere a varie funzionalità di modifica dei documenti, tra cui **Taglia** ![](images/S_Cut_18_N.svg), **Annulla** ![](images/S_Undo_18_N.svg), **Ripristina** ![](images/S_Redo_18_N.svg), **Copia** ![](images/S_Copy_18_N.svg), **Elimina** ![](images/S_Delete_18_N.svg) e **Trova e sostituisci** ![](images/S_FindAndReplace_18_N.svg). Puoi accedere alle opzioni disponibili dal menu a discesa **Menu**. |
+| Opzioni di formattazione del testo | Consente di accedere a varie opzioni di formattazione del testo, tra cui **Intestazioni** ![](images/S_DisplayHeading_18_N.svg), **Grassetto** ![](images/S_TextBold_18_N.svg), **Corsivo** ![](images/S_TextItalic_18_N.svg), **Barrato** ![](images/S_TextStrikethrough_18_N.svg), **Codice** ![](images/S_Code_18_N.svg) e **Citazione di blocco** ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Opzioni di inserimento contenuti | Fornisce le opzioni per inserire un **elenco numerato** ![](images/S_TextNumbered_18_N.svg), **elenco ordinato** ![](images/S_TextBulleted_18_N.svg), **Tabella** ![](images/tableAdd.svg), **Immagine** ![](images/S_ImageAdd_18_N.svg), **Riferimento incrociato** ![](images/S_LinkGlobe_18_N.svg) e **Simbolo** ![](images/S_SpecialCharacter_18_N.svg) in un documento.<br><br> **Nota**: puoi anche trascinare immagini e altri file nell&#39;editor Markdown. I file vengono aggiunti come collegamenti di riferimento incrociato, mentre le immagini vengono visualizzate come elementi immagine standard. |
 | Cronologia delle versioni | Consente di creare versioni dei file Markdown e di visualizzare la cronologia delle modifiche. Puoi confrontare versioni diverse e, se necessario, ripristinare quelle precedenti. L&#39;opzione Cronologia versioni è presente nel menu a discesa **Menu**. |
 | Salva come nuova versione | Salva le modifiche apportate nell&#39;argomento e crea anche una nuova versione dell&#39;argomento. Se si sta lavorando su un argomento appena creato, le informazioni sulla versione vengono visualizzate come nessuna. |
 | Blocca/sblocca | Blocca o sblocca il file corrente. Il blocco di un file consente di accedere in scrittura in modo esclusivo al file. Questo impedisce ad altri utenti di modificare il file. Sblocca il file se vuoi che altri utenti abbiano accesso in modifica. In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da un altro utente. |
@@ -104,7 +104,7 @@ Nell&#39;area di modifica del contenuto viene visualizzata l&#39;origine Markdow
 
 Per l’authoring Markdown, l’editor supporta tre diverse modalità di visualizzazione per agevolare la creazione e la formattazione dei contenuti:
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * Origine
 * Affiancato
@@ -123,7 +123,7 @@ Questa modalità suddivide l’Editor in due pannelli:
 * Pannello Source che visualizza l’argomento Markdown che stai modificando.
 * Pannello Anteprima che mostra in tempo reale l’output di rendering dell’argomento Markdown.
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 Utilizzare questa visualizzazione se si desidera visualizzare l&#39;output di cui è stato eseguito il rendering in tempo reale durante la modifica degli argomenti di markdown.
 

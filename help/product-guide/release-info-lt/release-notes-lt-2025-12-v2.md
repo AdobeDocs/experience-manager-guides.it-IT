@@ -2,10 +2,10 @@
 title: Note sulla versione | Novità della versione di dicembre 2025 dei contenuti di formazione e apprendimento sui prodotti
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2025 dei contenuti di formazione e apprendimento del prodotto
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Altre opzioni nel menu Inserisci](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **Nuovi widget interattivi**: è possibile coinvolgere gli studenti con alcuni nuovi widget interattivi che rendono il contenuto più coinvolgente: **Fare clic per visualizzare**, **Inverti scheda** e **Scheda**.
 
   Per ulteriori dettagli, visualizzare [Utilizzare widget interattivi](../learning-content/lc-widgets.md).
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **Corrispondenza con**: è disponibile un nuovo tipo di domanda, **Corrispondenza con**, per i quiz. Gli Allievi possono abbinare oggetti di due elenchi per collegare idee correlate, incoraggiando il pensiero critico.
 
   Per ulteriori dettagli, visualizzare [Tipi di domande quiz](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## Rivedere
 
@@ -44,7 +44,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Crea attività di revisione](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## Gestione dei contenuti
 
@@ -52,8 +52,4 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   Per ulteriori dettagli, visualizzare [Aggiungi blocchi predefiniti di base](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-
+  ![](assets/reusable-content.png){width="650"}

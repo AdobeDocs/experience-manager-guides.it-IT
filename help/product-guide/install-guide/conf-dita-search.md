@@ -5,10 +5,9 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
@@ -46,13 +45,13 @@ Per aggiungere il componente di ricerca contenuto DITA nell’interfaccia utente
 
 1. Trascinare il predicato **Elemento DITA** nella posizione desiderata nel modulo di ricerca.
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. Fai clic su **Fine** per salvare le modifiche.
 
    Quando accedi all’opzione Filtri nell’interfaccia utente di Assets, riceverai l’opzione Filtro di ricerca per elemento DITA.
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## Aggiungere un componente di ricerca basato su UUID nell’interfaccia utente di Assets {#id2034F04K05Z}
@@ -91,7 +90,7 @@ Per fornire l&#39;accesso alla funzione di ricerca DITA, effettuare le seguenti 
 
 1. Cerca il gruppo di utenti o un singolo utente a cui desideri concedere l’accesso. Ad esempio, per concedere l&#39;accesso a tutti gli utenti nel gruppo autori, immettere autori nel campo **Filtra query** e premere **Invio**.
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. Seleziona il gruppo **authors**.
 
@@ -103,7 +102,7 @@ Per fornire l&#39;accesso alla funzione di ricerca DITA, effettuare le seguenti 
 
 1. Concedi l&#39;autorizzazione **Lettura** per la cartella ricerche.
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. Fai clic su **Salva**.
 

@@ -4,9 +4,9 @@ description: Scopri come creare un predefinito della Knowledge Base dalla consol
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Per creare il predefinito **Knowledge Base** dalla console Mappa, effettuare le 
 1. Selezionare **Knowledge Base** dal menu a discesa Tipo nella finestra di dialogo **Nuovo predefinito di output**.
 1. Nel campo **Destinazione**, seleziona una destinazione per l&#39;output generato. Opzioni disponibili: **Adobe Experience Manager**, **Salesforce** e **ServiceNow**.
 
-   ![](./images/knowledge-base-preset-dialog-box.png){width="350" align="left"}
+   ![](./images/knowledge-base-preset-dialog-box.png){width="350"}
 
 1. Selezionare l&#39;opzione **Aggiungi al profilo cartella corrente** per creare un predefinito di output nel profilo cartella corrente. L&#39;icona ![profilo cartella](images/global-preset-icon.svg) indica un predefinito a livello di profilo della cartella.
 
@@ -37,7 +37,7 @@ Per creare il predefinito **Knowledge Base** dalla console Mappa, effettuare le 
 
 Le opzioni di configurazione del predefinito della Knowledge Base sono organizzate nelle schede **Generale**, **Articoli** e destinazione selezionata (**AEM**/ **ServiceNow**/ **Salesforce**).
 
-![](./images/kb-aem-preset.png){width="550" align="left"}
+![](./images/kb-aem-preset.png){width="550"}
 
 ### Generale
 
@@ -45,9 +45,9 @@ Nella scheda **Generale** sono disponibili le seguenti opzioni di configurazione
 
 | Opzioni della Knowledge Base | Descrizione |
 | --- | --- |
-| Applica condizioni utilizzando | Selezionare una delle opzioni seguenti:<br><br>* **Nessuna applicazione**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>* **File DITAVAL**: selezionare i file DITAVAL per generare contenuto personalizzato. È possibile selezionare più file DITAVAL utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVAL vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVAL viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal predefinito. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio di Adobe Experience Manager in cui è memorizzato il file. È possibile selezionare solo i file DITAVAL e viene visualizzato un errore se si seleziona un altro tipo di file.<br><br> **Nota**: quando si utilizza il filtro DITAVAL per **pubblicazione Salesforce**, tenere presente quanto segue: <br> - Per ogni proprietà DITAVAL sono supportate solo `Include` e `Exclude` azioni.<br> - Il contrassegno per contrassegnare visivamente o evidenziare il contenuto condizionale nell&#39;output non è supportato.<br> - Nei predefiniti di output, è possibile selezionare solo un singolo file DITAVAL per la pubblicazione; selezioni multiple di file DITAVAL non sono supportate per la pubblicazione Salesforce. <br>- `ditavalref` riferimenti all&#39;interno del contenuto non sono supportati. <br><br> **Predefinito condizione**: seleziona un predefinito condizione dal menu a discesa per applicare una condizione durante la pubblicazione dell&#39;output. L&#39;opzione è visibile se è stata aggiunta una condizione presente nella scheda Predefiniti condizione della console Mappa DITA. Per ulteriori informazioni sui predefiniti di condizione, visualizzare [Usa predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Applica condizioni utilizzando | Selezionare una delle opzioni seguenti:<br><br>* **Nessuna applicazione**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>* **File DITAVAL**: selezionare i file DITAVAL per generare il contenuto personalizzato. È possibile selezionare più file DITAVAL utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVAL vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVAL viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal predefinito. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio di Adobe Experience Manager in cui è memorizzato il file. È possibile selezionare solo i file DITAVAL e viene visualizzato un errore se si seleziona un altro tipo di file.<br><br> **Nota**: quando si utilizza il filtro DITAVAL per **pubblicazione Salesforce**, tenere presente quanto segue: <br> - Per ogni proprietà DITAVAL sono supportate solo `Include` e `Exclude` azioni.<br> - Il contrassegno per contrassegnare visivamente o evidenziare il contenuto condizionale nell&#39;output non è supportato.<br> - Nei predefiniti di output, è possibile selezionare solo un singolo file DITAVAL per la pubblicazione; le selezioni multiple di file DITAVAL non sono supportate per la pubblicazione Salesforce. <br>- `ditavalref` riferimenti all&#39;interno del contenuto non sono supportati. <br><br> **Predefinito condizione**: seleziona un predefinito condizione dal menu a discesa per applicare una condizione durante la pubblicazione dell&#39;output. L&#39;opzione è visibile se è stata aggiunta una condizione presente nella scheda Predefiniti condizione della console Mappa DITA. Per ulteriori informazioni sui predefiniti di condizione, visualizzare [Usa predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
-| Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in Adobe Experience Manager. Dopo aver completato la generazione dell’output, devi selezionare un flusso di lavoro da eseguire.<br><br>**Nota**: ulteriori informazioni su come [personalizzare il flusso di lavoro di generazione post-output](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) nella Guida all&#39;installazione e alla configurazione per Cloud Services. |
+| Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in Adobe Experience Manager. È necessario selezionare un flusso di lavoro da eseguire al termine della generazione dell&#39;output.<br><br>**Nota**: ulteriori informazioni su come [personalizzare il flusso di lavoro di generazione post-output](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) nella Guida all&#39;installazione e alla configurazione per Cloud Services. |
 
 ### Articoli
 

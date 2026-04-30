@@ -4,7 +4,7 @@ description: Pubblica un argomento o gli elementi di un argomento in un framment
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,12 +36,11 @@ Ad esempio:
 
      Se non si definisce un modello consentito per una cartella, i modelli vengono selezionati dalla cartella principale o dalla cartella dei modelli per impostazione predefinita.
    * **Ordinabile**: consente di modificare l&#39;ordine delle risorse all&#39;interno di una cartella.
-
-     ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![aggiungi dettagli configurazione cloud nelle proprietà della cartella](images/experience-fragment-folder-properties.png){width="650"}
      *Aggiungi la configurazione cloud nelle proprietà della cartella per collegarla ai modelli di frammento.*
 1. Per generare un frammento di esperienza, seleziona **Nuovo output** ![nuova icona output](./images/Add_icon.svg) dalla sezione **Output** nelle **Proprietà file** di un argomento.
 1. Seleziona **Frammento esperienza**.\
-   ![scheda opzioni proprietà file](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![scheda opzioni proprietà file](./images/file-properties-outputs-new.png){width="300"}
 
    *Aggiungi un nuovo frammento di esperienza dalle proprietà file di un argomento*.
 
@@ -50,7 +49,7 @@ Ad esempio:
    > È inoltre possibile pubblicare un frammento di esperienza dalla **vista archivio**. Seleziona l’argomento da pubblicare come frammento di esperienza. Dal menu **Opzioni**, seleziona **Pubblica come** > **Frammento esperienza**.
 
 1. Nella finestra di dialogo **Genera frammento esperienza**, compila i seguenti dettagli:
-   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento esperienza](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Aggiungi il modello di frammento e i dettagli di mappatura nella finestra di dialogo Pubblica come frammento esperienza](images/experience-fragment-generate.png){width="500"}
 
    *Aggiungi il percorso, il modello e i dettagli di mappatura per pubblicare un argomento o i relativi elementi come frammento di esperienza. È possibile sovrascrivere un frammento di esperienza esistente.*
 
@@ -64,7 +63,7 @@ Ad esempio:
 
      L&#39;amministratore può aggiungere le mappature nel file *experienceFragmentMapping.json*.  Ulteriori informazioni su come [creare una mappatura tra un argomento e un frammento di esperienza](../cs-install-guide/conf-experience-fragment-mapping-cs.md) nella Guida all&#39;installazione e alla configurazione.
 
-   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Selezionare una delle opzioni seguenti:
+   * Puoi anche selezionare condizioni diverse per pubblicare il contenuto.  Seleziona una delle opzioni seguenti:
 
 
       * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
@@ -80,7 +79,7 @@ Ad esempio:
 1. Seleziona **Genera** per pubblicare il frammento di esperienza.
 1. Puoi visualizzare i frammenti di esperienza per un argomento nella sezione **Output** delle **Proprietà file**. I Frammenti esperienza vengono visualizzati in base alla data e all’ora di pubblicazione, il più recente dei quali è il primo.
 
-   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
+   ![Visualizza i frammenti esperienza per un argomento](images/experience-fragment-outputs-new.png){width=300}
 
    *Visualizza i frammenti di esperienza presenti in un argomento e ripubblicali.*
 

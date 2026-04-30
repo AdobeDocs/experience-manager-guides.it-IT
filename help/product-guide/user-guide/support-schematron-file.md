@@ -4,9 +4,9 @@ description: Scopri come importare e convalidare un argomento DITA, utilizzare l
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Dopo aver importato i file Schematron, potete modificarli nell&#39;Editor. È po
 
 Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il pannello Convalida schema. Per aggiungere e convalidare un argomento o una mappa con un file Schematron, effettuare le seguenti operazioni:
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Selezionate l&#39;icona Schematron per aprire il pannello Schematron.
 1. Utilizzare **Aggiungi file di schema** per aggiungere file di schema.
@@ -48,7 +48,7 @@ Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il panne
    >
    > Quando si aggiunge un file Schematron non valido, nel pannello Convalida viene visualizzato un messaggio di errore.
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
 
@@ -73,7 +73,7 @@ Il supporto Schematron nell’Editor consente di convalidare i file in base a un
 
 I risultati della convalida vengono visualizzati in base all&#39;attributo del ruolo definito nel file Schematron. I problemi sono classificati come `Fatal`, `Error`, `Warn` o `Info`, con un conteggio visibile per ogni categoria nel pannello Convalida.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 Per determinare la gravità di un problema, viene valutato il valore _case-senstive_ dell&#39;attributo di ruolo definito nel file Schematron corrispondente.
 

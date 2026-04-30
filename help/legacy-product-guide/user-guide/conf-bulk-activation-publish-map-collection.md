@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Dopo aver creato una raccolta di mappe per l’attivazione in blocco, il passagg
 
 1. Selezionare la raccolta da pubblicare e fare clic su **Apri**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \(*Facoltativo*\) Applica i filtri richiesti dalla barra a sinistra per filtrare la mappa in base alla lingua, al predefinito di output o alla lingua modificati.
 
@@ -40,7 +40,7 @@ Visualizza i diversi modi per attivare la raccolta in base alla configurazione.
 <details>
 <summary> Servizi cloud </summary>
 
-![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![pubblicazione di raccolte in blocco su cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Puoi attivare l&#39;output nelle istanze **Anteprima** o **Pubblica**.
 
@@ -75,7 +75,7 @@ Effettua una delle seguenti operazioni:
 
 * Per attivare l&#39;output delle mappe selezionate, selezionare l&#39;output delle mappe pregenerato e selezionare **Pubblicazione rapida**.
 * Per attivare l&#39;output di tutte le mappe DITA con i relativi predefiniti configurati, selezionare la casella di controllo accanto alla mappa (colonna), quindi selezionare **Pubblicazione rapida.**
-  ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![raccolta in blocco-pubblicazione](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Per creare un argomento, effettua le seguenti operazioni:
 
 1. Nella pagina Blueprint selezionare il tipo di documento DITA che si desidera creare e fare clic su **Avanti**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){width="800"}
 
    Per impostazione predefinita, AEM Guides fornisce i modelli di argomenti DITA più utilizzati. Puoi configurare altri modelli di argomento in base ai requisiti organizzativi. Consulta *Configurare i modelli di authoring* in Installare e configurare Adobe Experience Manager Guides per la tua configurazione.
 
@@ -48,7 +48,7 @@ Per creare un argomento, effettua le seguenti operazioni:
 
    A ogni nuovo argomento creato dall&#39;interfaccia utente di Assets **Crea** \> **Argomento DITA** o dall&#39;editor Web viene assegnato un ID argomento univoco. Il valore di questo ID è il nome del file stesso. Inoltre, un nuovo documento viene salvato come ultima copia di lavoro dell’argomento in DAM. Fino a quando non si salva una revisione di un argomento appena creato, nella Cronologia versioni non verrà visualizzato alcun numero di versione. Se si apre l&#39;argomento per la modifica, le informazioni sulla versione vengono visualizzate nell&#39;angolo superiore destro della scheda del file di argomento:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
    Le informazioni sulla versione per un argomento appena creato vengono visualizzate come *none*. Quando salvi una nuova versione, ad essa viene assegnato il numero di versione 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 

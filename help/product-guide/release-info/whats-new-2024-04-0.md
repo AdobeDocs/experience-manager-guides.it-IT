@@ -1,11 +1,11 @@
 ---
 title: Note sulla versione | Novità di Adobe Experience Manager Guides, versione 2024.4.0
-description: Scopri le funzioni nuove e migliorate nella versione 2024.4.0 di Adobe Experience Manager Guides as a Cloud Service.
+description: Scopri le funzioni nuove e migliorate della versione 2024.4.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 28%
+source-wordcount: '1821'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Ad esempio, se devi tradurre il contenuto per alcuni paesi in Europa, puoi crear
 
 
 
-![pannello di traduzione](assets/translation-languages-2404.png){width="300" align="left"}
+![pannello di traduzione](assets/translation-languages-2404.png){width="300"}
 
 *Seleziona i gruppi di lingue o le lingue in cui tradurre i documenti.*
 
@@ -51,7 +51,7 @@ Se si elimina un progetto, vengono rimossi in modo permanente tutti i file e le 
 
 Puoi disattivare i progetti di traduzione se desideri utilizzarli in un secondo momento.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Configura i gruppi di lingue e le impostazioni di pulizia per i progetti di traduzione.*
@@ -62,13 +62,13 @@ Ulteriori informazioni su come [eliminare o disabilitare automaticamente il prog
 
 ## Attiva l&#39;output per le mappe nella raccolta di attivazione in blocco nell&#39;istanza Anteprima
 
-Ora, oltre ad attivare l&#39;output per la raccolta di attivazione in blocco nell&#39;istanza di pubblicazione, Experience Manager Gudies as Cloud Service fornisce la funzionalità per attivarlo nell&#39;istanza **Preview**.
+Ora, oltre ad attivare l&#39;output per la raccolta di attivazione in blocco sull&#39;istanza di pubblicazione, Experience Manager Gudies as Cloud Services fornisce la funzionalità per attivarlo sull&#39;istanza **Preview**.
 
 
-Questa funzionalità consente di attivare il contenuto in un&#39;istanza di anteprima, per verificarne l&#39;aspetto e il funzionamento prima di attivarlo nell&#39;istanza **Publish**.
+Questa funzionalità consente di attivare il contenuto in un&#39;istanza di anteprima, per verificarne l&#39;aspetto e il funzionamento prima di attivarlo nell&#39;istanza **Pubblica**.
 
 
-![&#x200B; ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](assets/bulk-collection-audit-history.png){width="800"}
 
 *Visualizza le informazioni sugli output delle mappe attivate nella scheda **Cronologia controllo**.*
 
@@ -79,7 +79,7 @@ Ulteriori informazioni sull&#39;[attivazione in blocco](../user-guide/conf-bulk-
 
 I seguenti miglioramenti sono stati apportati ai connettori delle origini dati per la versione 2024.4.0:
 
-### Connettersi alle origini dati delle schede ADO (Microsoft Azure DevOps Board) di Salsify, Akeneo
+### Connettersi alle origini dati Salsify, Akeneo e Microsoft Azure DevOps Board (ADO)
 
 Oltre ai connettori predefiniti esistenti, Experience Manager Guides fornisce anche connettori per origini dati Salsify, Akeneo e bacheche DevOps di Microsoft Azure (ADO). In qualità di amministratore, puoi scaricare e installare questi connettori. Quindi, configura i connettori installati.
 
@@ -87,7 +87,7 @@ Oltre ai connettori predefiniti esistenti, Experience Manager Guides fornisce an
 
 Puoi copiare e incollare facilmente una query di dati di esempio nel generatore per creare uno snippet di contenuto o un argomento. Con questa funzione, non è necessario ricordare la sintassi o creare una query manualmente. Invece di digitare manualmente la query, puoi copiare e incollare una query di esempio, modificarla e utilizzarla per recuperare i dati in base alle tue esigenze.
 
-![finestra di dialogo inserisci frammento di contenuto](assets/insert-content-snippet.png){width="800" align="left"}
+![finestra di dialogo inserisci frammento di contenuto](assets/insert-content-snippet.png){width="800"}
 
 *Copia e modifica una query di esempio per creare lo snippet di contenuto.*
 
@@ -100,11 +100,11 @@ Questa funzione consente di utilizzare i dati memorizzati nei file JSON e di riu
 
 ### Configurare più URL di risorse per un connettore per creare snippet di contenuto o argomenti
 
-In qualità di amministratore, puoi configurare più URL di risorse per alcuni connettori come Generic REST Client, Salsify, Akeneo e Microsoft Azure DevOps Boards (ADO).
+In qualità di amministratore, puoi configurare più URL di risorse per alcuni connettori come Generic REST Client, Salsify, Akeneo e bacheche Microsoft Azure DevOps (ADO).
 
-Quindi, in qualità di autore, puoi connetterti alle origini dati per creare snippet o argomenti utilizzando i generatori. Questa funzione è utile in quanto non è necessario creare un’origine dati per ogni URL. Consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo frammento di contenuto o argomento.
+Quindi, in qualità di autore, puoi connetterti alle origini dati per creare snippet o argomenti utilizzando i generatori. Questa funzione è utile in quanto non è necessario creare un’origine dati per ogni URL. Consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo snippet di contenuto o argomento.
 
-Visualizzare ulteriori dettagli sui connettori di origini dati e su come [configurare un connettore di origine dati dall&#39;interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md).
+Visualizza ulteriori dettagli sui connettori delle origini dati e su come [configurare un connettore di origine dati dall’interfaccia utente](../cs-install-guide/conf-data-source-connector-tools.md).
 
 Scopri come [utilizzare dati dall’origine dati](../user-guide/web-editor-content-snippet.md).
 
@@ -114,7 +114,7 @@ La finestra di dialogo **Preferenze utente** nell&#39;editor Web ora include una
 
 È possibile configurare per visualizzare i file in base al titolo o al nome file e modificare il tema dell&#39;applicazione e la vista origine. Consente inoltre di configurare le impostazioni per individuare un file aperto nella vista archivio e gestire gli spazi unificatori.
 
-![scheda aspetto delle preferenze utente](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![scheda aspetto delle preferenze utente](assets/user_preference_editor_appearance.png){width="550"}
 
 *Personalizza l&#39;aspetto in base alle tue preferenze.*
 
@@ -154,13 +154,13 @@ Scopri come [disabilitare la postelaborazione per una cartella](../cs-install-gu
 Ora disponi di un’esperienza avanzata per filtrare i file. La funzionalità rinnovata di filtro dei file consente di cercare e navigare tra i file in modo più semplice.
 
 
-![cerca i file nella vista archivio](assets/repository-filter-search-2404.png){width="300" align="left"}
+![cerca i file nella vista archivio](assets/repository-filter-search-2404.png){width="300"}
 
 *Cerca i file contenenti il testo`general purpose.`*
 
 Sfrutta vantaggi quali un accesso più rapido ai file rilevanti e un’interfaccia utente più intuitiva, che rende l’esperienza di ricerca più fluida ed efficiente.
 
-![filtro di ricerca rapida &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![filtro di ricerca rapida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -173,7 +173,7 @@ Durante la modifica di un documento nell&#39;Editor Web, è ora possibile visual
 * **Elementi validi nella posizione corrente** che è possibile inserire direttamente nella posizione corrente del cursore.
 * **Elementi validi al di fuori del percorso corrente** che è possibile inserire dopo uno qualsiasi dei padri per l&#39;elemento corrente all&#39;interno della gerarchia degli elementi.
 
-![Finestra di dialogo Inserisci elemento](assets/insert-element-dialog.png){width="300" align="left"}
+![Finestra di dialogo Inserisci elemento](assets/insert-element-dialog.png){width="300"}
 
 *Visualizzare gli elenchi segregati di elementi validi per inserire un elemento nella posizione corrente.*
 
@@ -190,7 +190,7 @@ Ora le proprietà del contenuto **Tipo** vengono visualizzate come menu a disces
 Questo menu a discesa consente di accedere rapidamente ai tag rilevanti all’interno della struttura gerarchica.
 
 
-Menu a discesa ![type nelle proprietà del contenuto](assets/content-properties-type.png){width="300" align="left"}
+Menu a discesa ![type nelle proprietà del contenuto](assets/content-properties-type.png){width="300"}
 
 *Selezionare un tag dalla gerarchia per il tag corrente.*
 
@@ -203,7 +203,7 @@ Ulteriori informazioni sulla funzionalità **Proprietà contenuto** nella sezion
 Experience Manager Guides migliora le prestazioni e l&#39;esperienza della funzione di archiviazione in blocco dei file dall&#39;Editor mappe. Questo miglioramento consente di archiviare i file in blocco in modo più rapido.
 È inoltre possibile visualizzare l&#39;avanzamento dell&#39;operazione di archiviazione per i file dalla finestra di dialogo **Salva come nuova versione e sblocca**. Al termine dell&#39;operazione viene infine visualizzato il messaggio di operazione riuscita e tutti i file estratti selezionati vengono archiviati.
 
-![Salva come nuova versione e sblocca la finestra di dialogo](./assets/save-version-lock.png){width="300" align="left"}
+![Salva come nuova versione e sblocca la finestra di dialogo](./assets/save-version-lock.png){width="300"}
 
 *Visualizzare l&#39;elenco e lo stato dei file archiviati in blocco dall&#39;Editor mappe.*
 
@@ -211,7 +211,7 @@ Scopri come [utilizzare l&#39;Editor mappe avanzato](../user-guide/map-editor-ad
 
 ## Scarica il file temporaneo durante la generazione dell&#39;output tramite DITA-OT
 
-È inoltre possibile scaricare i file temporanei generati quando si pubblica l&#39;output HTML, personalizzato, JSON o PDF dell&#39;AEM tramite DITA-OT. Questa funzione consente di analizzare eventuali problemi che potrebbero verificarsi durante il processo di generazione dell’output e di risolvere efficacemente i problemi.  
+Puoi scaricare i file temporanei generati quando pubblichi l&#39;output AEM Site, HTML, Custom, JSON o PDF tramite DITA-OT. Questa funzione consente di analizzare eventuali problemi che potrebbero verificarsi durante il processo di generazione dell’output e di risolvere efficacemente i problemi.  
 È inoltre possibile scaricare il file metadata.xml se sono state selezionate proprietà di metadati passate all&#39;output generato mediante DITA-OT. 
 
 Per ulteriori dettagli sui predefiniti, visualizzare [Informazioni sui predefiniti di output](../user-guide/generate-output-understand-presets.md).

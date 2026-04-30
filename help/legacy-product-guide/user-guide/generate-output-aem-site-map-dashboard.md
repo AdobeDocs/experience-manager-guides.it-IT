@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Per l’output di AEM Sites sono disponibili le seguenti opzioni:
 
 Un altro modo per collegare il contenuto consiste nel creare un collegamento utilizzando `peer` `@scope`. Per tali contenuti, il collegamento viene risolto in fase di esecuzione scegliendo il titolo del file e il contesto configurato per l&#39;argomento collegato dal contesto di pubblicazione della mappa DITA. La schermata seguente mostra il pannello Proprietà per un collegamento con `peer` `@scope`:
 
-![](images/peer-link-scope-link.png){width="800" align="left"}
+![](images/peer-link-scope-link.png){width="800"}
 
 Per semplificare la pubblicazione di mappe complesse e argomenti collegati ad altri argomenti in altre mappe, AEM Guides consente di impostare il contesto di pubblicazione per ciascun predefinito di output.
 
 Il contesto di pubblicazione consente di specificare l’argomento da utilizzare per la mappatura per la pubblicazione di un output specifico. Comprendiamo questo con l&#39;aiuto di un esempio — supponiamo che tu abbia quattro cartelle: campione a, campione b, campione c e campione d. Ogni cartella contiene una mappa DITA, ovvero mappa DITA A, mappa DITA B, mappa DITA C e mappa DITA D. Il collegamento tra mappe si verifica quando un argomento nella mappa DITA A si collega a un argomento nella mappa DITA B, C o D. Nella schermata seguente, un argomento di esempio contiene i collegamenti \(o riferimenti\) ai file che fanno parte di altre mappe DITA.
 
-![](images/sample-concept-link-to-other.png){width="350" align="left"}
+![](images/sample-concept-link-to-other.png){width="350"}
 
 Ora, quando configuri le impostazioni di pubblicazione di AEM Sites per il file mappa che contiene questo argomento, puoi selezionare quale contesto di pubblicazione per il contenuto collegato viene utilizzato durante la pubblicazione. Un contesto di pubblicazione è una combinazione di mappa DITA e relativo predefinito di output. Il predefinito di output, a sua volta, contiene una versione specifica del contenuto e dei predefiniti condizionali. L&#39;intera combinazione della mappa DITA, del predefinito di output, della versione di \(files\) e delle condizioni definisce il contesto di pubblicazione di una mappa collegata.
 
@@ -66,7 +66,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 
    Vengono visualizzate le schede Impostazioni predefiniti di AEM e Contesto di pubblicazione.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){width="800"}
 
 1. Apri la scheda **Contesto di pubblicazione**.
 
@@ -78,7 +78,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
 
    Per impostazione predefinita, per tutti gli argomenti collegati sono selezionati il predefinito di output e la mappa più recente.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){width="800"}
 
 1. Per modificare la selezione predefinita della mappa e del predefinito DITA, fare clic su **Modifica** \(nella barra degli strumenti principale\).
 
@@ -111,7 +111,7 @@ Se utilizzi `conref` nel contenuto, questo verrà pubblicato come contenuto norm
 
 Puoi cercare una stringa nell’output di AEM Sites. Per impostazione predefinita, è possibile cercare la stringa solo nei titoli. Per cercare la stringa nel contenuto o nel corpo dell’output di AEM Sites, contatta l’amministratore di sistema per abilitare la proprietà flattening.enabled.
 
-![Ricerca nell&#39;output di AEM Sites](images/aem-output-search.png){width="650" align="left"}
+![Ricerca nell&#39;output di AEM Sites](images/aem-output-search.png){width="650"}
 
 Per ulteriori dettagli vedi la sezione *Configurare l&#39;appiattimento della struttura dei nodi del sito AEM* nella guida Installare e configurare Adobe Experience Manager Guides.
 

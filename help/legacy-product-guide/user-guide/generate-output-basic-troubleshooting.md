@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
    La colonna **General** degli **Output generati** mostra le icone per dare un segnale visivo sull&#39;esito positivo o negativo della generazione dell&#39;output.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    Nella schermata precedente, la prima e la terza icona mostrano la generazione di output non riuscita. La seconda icona mostra una generazione di output corretta, ma con messaggi. L’ultima è una generazione di output di successo senza alcun messaggio.
 
@@ -32,7 +32,7 @@ Per visualizzare e controllare il file di registro di generazione dell’output,
 
    Il file di registro viene aperto in una nuova scheda.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. Applica i seguenti filtri per evidenziare il testo nel file di registro:
    - Fatale: evidenzia gli errori irreversibili nel file di registro con colore rosa.
@@ -66,13 +66,13 @@ Per copiare e controllare il file di registro di generazione dell’output in un
 
    Nel seguente frammento del file di log di esempio è possibile visualizzare il messaggio `BUILD FAILED` insieme al motivo dell&#39;errore.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Errore relativo ad AEM Guides*: l&#39;altro tipo di errore che è possibile identificare nel file di registro è relativo al processo AEM Guides stesso. In questo caso, il file mappa DITA viene analizzato correttamente, ma il processo di generazione dell&#39;output non riesce a causa di un errore interno in AEM Guides. Per questo tipo di errori è necessario rivolgersi al team di supporto tecnico.
 
    Nel seguente frammento del file di registro di esempio è possibile visualizzare il messaggio `BUILD SUCCESSFUL`, seguito da un altro errore tecnico.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## Risolvi errore di compilazione JSP

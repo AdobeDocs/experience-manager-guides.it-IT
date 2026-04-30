@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti 
 
 1. Fare clic su **Genera report** per ottenere il report sul riutilizzo dei contenuti.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    La pagina del rapporto è divisa in due parti:
 

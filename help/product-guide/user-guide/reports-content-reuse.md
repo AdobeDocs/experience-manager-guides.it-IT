@@ -4,9 +4,9 @@ description: Scopri come visualizzare il rapporto sul riutilizzo dei contenuti i
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti 
 
 1. Selezionare **Genera report** per ottenere il report di riutilizzo del contenuto.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    La pagina del rapporto è divisa in due parti:
 
@@ -55,7 +55,7 @@ Per visualizzare il rapporto sul riutilizzo del contenuto, effettua le seguenti 
 
       - **Numero di riutilizzi**: numero di riutilizzi dell&#39;argomento corrispondente. Calcolato come somma totale delle voci nelle colonne Con riferimento da meno 1.
 
-      - **Con riferimento da**: gli argomenti in cui è stato fatto riferimento all&#39;argomento corrispondente. In questo caso, vengono considerati solo i riferimenti diretti \(primo livello\). Più argomenti sono separati da virgole. L&#39;UUID del file a cui si fa riferimento è indicato anche tra parentesi.Selezionando il collegamento del titolo dell&#39;argomento si apre l&#39;anteprima dell&#39;argomento.
+      - **Con riferimento da**: gli argomenti in cui è stato fatto riferimento all&#39;argomento corrispondente. In questo caso, vengono considerati solo i riferimenti diretti \(primo livello\). Più argomenti sono separati da virgole. Tra parentesi è indicato anche l’UUID del file di riferimento.Selezionando il collegamento del titolo dell&#39;argomento si apre l&#39;anteprima dell&#39;argomento.
 
 
 >[!NOTE]

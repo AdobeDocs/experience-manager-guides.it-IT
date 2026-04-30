@@ -5,10 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -60,7 +59,7 @@ Per configurare l’interfaccia utente di Experience Manager Guides, effettua le
 5. Seleziona **Aggiungi/Aggiorna**.
 6. Aggiungi i dettagli di configurazione dell’interfaccia utente. Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    Impostando il valore su **true** si mantiene la vecchia interfaccia utente, mentre **false** attiva la nuova interfaccia utente.
 

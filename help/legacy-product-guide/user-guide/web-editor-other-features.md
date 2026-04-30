@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2564'
 ht-degree: 0%
@@ -24,19 +24,19 @@ Quando si apre un file nell&#39;Editor Web, è possibile eseguire varie azioni d
 
 Nel menu di scelta rapida della scheda di un file multimediale aperto vengono visualizzate le seguenti funzioni:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 **File DITA singolo**
 
 Nel menu di scelta rapida della scheda di un file aperto vengono visualizzate le seguenti funzioni:
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300"}
 
 **Più file**
 
 Quando sono aperti più file, nel menu di scelta rapida vengono visualizzate altre opzioni:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Di seguito sono illustrate le varie opzioni del menu di scelta rapida:
 
@@ -85,7 +85,7 @@ Per visualizzare la pagina delle proprietà di AEM del file selezionato, selezio
 
 Per impostazione predefinita, l&#39;Editor Web consente di visualizzare un argomento alla volta. In alcuni casi potrebbe essere utile visualizzare due o più argomenti contemporaneamente. La suddivisione della schermata dell&#39;editor consente di visualizzare più argomenti contemporaneamente. Ad esempio, se hai due argomenti: A e B aperti nell’editor. Facendo clic con il pulsante destro del mouse sull&#39;argomento B e scegliendo **Dividi \> Su**, la finestra dell&#39;editor viene divisa in due parti. L&#39;argomento B viene visualizzato nella metà superiore e l&#39;argomento A nella metà inferiore. Allo stesso modo, è possibile dividere lo schermo orizzontalmente selezionando **Dividi \> Sinistra** o **Dividi \> Destra**. Nella schermata seguente dell&#39;Editor Web vengono visualizzati gli argomenti suddivisi orizzontalmente e verticalmente. In ogni suddivisione è possibile avere una visualizzazione diversa. Ad esempio, nella schermata seguente, la schermata 1 è in modalità di visualizzazione Source, la schermata 2 contiene due documenti aperti in modalità Creazione e la schermata 3 è in modalità Anteprima. È possibile spostare i documenti da una schermata all&#39;altra trascinando la scheda del file e rilasciandola sulla schermata in cui si desidera posizionarla. Analogamente, è possibile riordinare le schede dei file trascinandole e spostandole in base alle proprie preferenze.
 
-![](images/split-editor.png){width="800" align="left"}
+![](images/split-editor.png){width="800"}
 
 ***Generazione rapida***
 
@@ -110,45 +110,45 @@ L’esperienza di salvataggio dei file dipenderà dai tre scenari seguenti, in c
 
 - Nessuna modifica apportata al contenuto.
 - Ha modificato il contenuto e ha salvato le modifiche.
-- Edited the content but not saved the changes.
+- Ha modificato il contenuto ma non ha salvato le modifiche.
 
-You may see the following options depending on whether the file is locked/unlocked and has saved or unsaved changes:
+A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche salvate o non salvate, è possibile che vengano visualizzate le seguenti opzioni:
 
-- **Unlock and Close**: The lock on the file is released, and the file gets closed.
+- **Sblocca e chiudi**: il blocco sul file viene rilasciato e il file viene chiuso.
 
-  ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400"}
 
-- **Save as a New Version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
+- **Salva come nuova versione**: verranno salvate le modifiche apportate al contenuto e verrà creata una nuova versione del file. Puoi anche aggiungere etichette e commenti per la nuova versione salvata. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-- **Unlock the File**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
+- **Sblocca il file**: se si sceglie di sbloccare un file, il blocco verrà rilasciato sul file e le modifiche verranno salvate nella versione corrente del file.
 
   >[!NOTE]
   >
-  > If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
+  > Se si deseleziona l&#39;opzione per sbloccare il file, si ottiene anche un&#39;opzione per chiudere il file senza salvare le modifiche.
 
-  For example, one of the prompts is shown in the following screenshot:
+  Ad esempio, nella schermata seguente viene visualizzato uno dei prompt:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
-**Visual cues for broken references**
+**Indicazioni visive per riferimenti interrotti**
 
-- If your topic contains broken cross-references or content references, they are shown in red text.
+- Se l&#39;argomento contiene riferimenti incrociati o riferimenti a contenuti interrotti, questi vengono visualizzati in rosso.
 
-**Smart copy-paste**
+**Copia e incolla avanzati**
 
-- You can easily copy paste content within and across topics. The source element structure is maintained at the destination. Also, if the copied content contains content references, then even those are copied.
+- Puoi copiare e incollare facilmente contenuti all’interno e tra gli argomenti. La struttura dell’elemento sorgente viene mantenuta nella destinazione. Inoltre, se il contenuto copiato contiene riferimenti al contenuto, anche questi vengono copiati.
 
-**Remember last browsed location**
+**Ricorda ultima posizione esplorata**
 
-- The Web Editor provides a smart file browse dialog. The editor remembers the last used location while inserting a reference or content. The first time you invoke the file browse dialog \(via Insert Reference or Insert Reuse Content\), then you are taken to the location where the current document is saved. In the same session, if you try to insert another reference, then the file browse dialog automatically navigates to the location from where you inserted the last reference.
+- Nell&#39;editor Web è disponibile una finestra di dialogo per l&#39;esplorazione avanzata dei file. L’editor ricorda l’ultima posizione utilizzata durante l’inserimento di un riferimento o di un contenuto. La prima volta che si richiama la finestra di dialogo Sfoglia file \(mediante Inserisci riferimento o Inserisci contenuto riutilizzo\), si viene portati nel percorso in cui viene salvato il documento corrente. Nella stessa sessione, se si tenta di inserire un altro riferimento, la finestra di dialogo Sfoglia file passa automaticamente alla posizione da cui è stato inserito l&#39;ultimo riferimento.
 
 >[!NOTE]
 >
-> In case of an image, audio, or video file, the file browse dialog defaults to the file&#39;s location and not the last used location.
+> In caso di file immagine, audio o video, la finestra di dialogo per la ricerca dei file viene impostata automaticamente sul percorso del file e non sull’ultimo percorso utilizzato.
 
-**Support for article-based publishing**
+**Supporto per la pubblicazione basata su articoli**
 
-- From the Web Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Web Editor. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
+- Dall&#39;Editor Web è possibile generare l&#39;output per uno o più argomenti o per l&#39;intera mappa DITA. È necessario creare predefiniti di output per la mappa DITA e quindi generare facilmente l&#39;output per uno o più argomenti. Se nella mappa sono stati aggiornati alcuni argomenti, è possibile generare l&#39;output solo per tali argomenti dall&#39;editor Web. Per ulteriori dettagli, vedere [Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md#id218CK0U019I).
 
 **Supporto per i documenti Markdown**
 
@@ -162,11 +162,11 @@ You may see the following options depending on whether the file is locked/unlock
 
 - Experience Manager Guides offre un supporto predefinito per l&#39;inserimento di equazioni di MathML tramite l&#39;integrazione con l&#39;applicazione [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Per inserire un&#39;equazione di MathML, selezionare l&#39;icona **Inserisci elemento** e digitare mathml. Quando si seleziona l&#39;elemento matml dall&#39;elenco, viene visualizzata la finestra di dialogo **Inserisci MathML**:
 
-![inserire l&#39;equazione mathml nell&#39;editor mathml](images/insert-mathml-equation.png){width="550" align="left"}
+![inserire l&#39;equazione mathml nell&#39;editor mathml](images/insert-mathml-equation.png){width="550"}
 
 Utilizzando gli strumenti di equazione di MathML, creare l&#39;equazione e fare clic su **Inserisci** per aggiungerla al documento. L&#39;equazione viene inserita con uno sfondo grigio chiaro, come illustrato di seguito:
 
-![equazione di esempio](images/sample-mathml-equation.PNG){width="400" align="left"}
+![equazione di esempio](images/sample-mathml-equation.PNG){width="400"}
 
 In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con il pulsante destro del mouse su un&#39;equazione esistente e selezionando **Modifica MathML** dal menu di scelta rapida.
 
@@ -175,7 +175,7 @@ In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con i
   Experience Manager Guides convalida le equazioni di MathML quando si salva un argomento che le contiene.
 Quando si inserisce un&#39;equazione utilizzando l&#39;editor di MathML, in caso di problemi di sintassi Experience Manager Guides evidenzia l&#39;equazione in rosso. È possibile correggerla prima di inserirla. Se non si apportano modifiche ma si seleziona **Inserisci**, verrà visualizzato un avviso.
 
-  ![convalida equazione matematica](images/validate-mathml-equation.png){width="400" align="left"}
+  ![convalida equazione matematica](images/validate-mathml-equation.png){width="400"}
 
   Se si inserisce l&#39;equazione di MathML che contiene un errore di sintassi, quando si tenta di salvare l&#39;argomento si verifica un errore di convalida.
 
@@ -189,7 +189,7 @@ Quando si inserisce un&#39;equazione utilizzando l&#39;editor di MathML, in caso
 
 - L’editor web visualizza la breadcrumb dell’elemento nella parte superiore dell’argomento. Se desideri scambiare o sostituire un elemento con un altro elemento, puoi farlo dal menu di scelta rapida della breadcrumb. Ad esempio, è possibile scambiare l&#39;elemento `p` con `note` o qualsiasi altro elemento valido nel contesto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Nella breadcrumb, fai clic con il pulsante destro del mouse sul nome di un elemento che desideri sostituire, quindi seleziona Rinomina elemento dal menu di scelta rapida. Nella finestra di dialogo Rinomina elemento vengono visualizzati tutti gli elementi validi consentiti nella posizione corrente. Dalla finestra di dialogo Rinomina elemento, seleziona l’elemento che desideri utilizzare. L’elemento originale viene sostituito con il nuovo elemento.
 
@@ -228,7 +228,7 @@ Oltre al menu di scelta rapida della breadcrumb, è possibile accedere alla fine
 
 - Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e renderizzati in base alla loro definizione nelle modalità Autore, Source o Anteprima e anche nell’output finale pubblicato. La schermata seguente mostra il contenuto all&#39;interno dell&#39;elemento `msgblock` in cui sono stati mantenuti le interruzioni di riga e gli spazi \(rientro\):
 
-![](images/new-line-support_cs.png){width="500" align="left"}
+![](images/new-line-support_cs.png){width="500"}
 
 
 

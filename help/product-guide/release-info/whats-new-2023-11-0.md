@@ -4,31 +4,31 @@ description: Scopri le funzioni nuove e migliorate nella versione di novembre 20
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
 # Novità della versione di novembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questo articolo tratta le funzioni nuove e migliorate nella versione di novembre 2023 di Adobe Experience Manager Guides (in seguito denominato *Experience Manager Guides as a Cloud Service*).
+Questo articolo descrive le funzioni nuove e migliorate nella versione di novembre 2023 di Adobe Experience Manager Guides (in seguito denominate *Experience Manager Guides as a Cloud Service*).
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, visualizzare le [note sulla versione](release-notes-2023-11-0.md).
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-Nella versione di novembre 2023 sono stati apportati i seguenti miglioramenti a Native PDF:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione di novembre 2023:
 
 ### Utilizzare e duplicare modelli di PDF predefiniti
 
-Experience Manager Guides fornisce modelli di PDF preconfigurati o predefiniti. Duplicare i modelli di factory PDF per creare i modelli di PDF personalizzati.
+Experience Manager Guides fornisce modelli preconfigurati o di fabbrica per PDF. Duplicare i modelli PDF di fabbrica per creare i modelli PDF personalizzati.
 
 Ora è possibile anche visualizzare in anteprima l&#39;immagine miniatura di un modello durante la creazione e la duplicazione di un modello. Puoi anche modificare o eliminare questa immagine. Questa funzione è utile per marcare o distinguere i modelli con nomi simili.
-Ulteriori informazioni sul modello [PDF](../native-pdf/pdf-template.md).
+Ulteriori informazioni sul [modello PDF](../native-pdf/pdf-template.md).
 
-![Finestra di dialogo Modello PDF duplicato](assets/duplicate-template.png){width="550" align="left"}
+![Finestra di dialogo Modello PDF duplicato](assets/duplicate-template.png){width="550"}
 
 *Duplica un modello PDF esistente.*
 
@@ -43,9 +43,9 @@ Ora è anche possibile ordinare i termini del glossario in base ai tasti di ordi
 Per ulteriori dettagli, visualizzare le [Impostazioni avanzate di PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 
-### Gestione delle risorse migliorata per i modelli di PDF nativi
+### Gestione delle risorse migliorata per i modelli PDF nativi
 
-Experience Manager Guides ora ha migliorato la gestione delle risorse per i modelli Native PDF. È ora possibile condividere e riutilizzare le risorse, come immagini, file CSS e file font, tra più modelli di Native PDF. Grazie a questo miglioramento, la gestione delle risorse per un set elevato di modelli è molto più semplice. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli di PDF nativi.
+Experience Manager Guides ora ha migliorato la gestione delle risorse per i modelli PDF nativi. È ora possibile condividere e riutilizzare risorse, come immagini, file CSS e file font, su più modelli PDF nativi. Grazie a questo miglioramento, la gestione delle risorse per un set elevato di modelli è molto più semplice. Non è necessario creare risorse duplicate per ciascun modello, ma è possibile mantenerle in una cartella condivisa e utilizzarle in tutti i modelli PDF nativi.
 Per ulteriori dettagli, visualizzare [Modello PDF](../native-pdf/pdf-template.md).
 
 ## Miglioramenti dell’editor web
@@ -57,7 +57,7 @@ Nella versione di novembre 2023 sono stati apportati i seguenti miglioramenti al
 
 È ora possibile scegliere la modalità predefinita di visualizzazione dei file nell&#39;editor Web. È possibile visualizzare l’elenco dei file in base ai titoli o ai nomi dei file dai vari pannelli nella vista Autore.
 
-![Finestra di dialogo Preferenze utente](assets/user-preferences-2311.png){width="550" align="left"}
+![Finestra di dialogo Preferenze utente](assets/user-preferences-2311.png){width="550"}
 
 *Modifica la modalità predefinita di visualizzazione dei file dalla finestra di dialogo **Preferenze utente**.*
 
@@ -66,7 +66,7 @@ Nella versione di novembre 2023 sono stati apportati i seguenti miglioramenti al
 
 È possibile definire gli attributi della condizione negli argomenti DITA. Quindi, utilizzate gli attributi condizione nel predefinito condizione per pubblicare il contenuto in una mappa DITA. Experience Manager Guides ora consente anche di creare e gestire i predefiniti per le condizioni dall’editor web. È inoltre possibile modificarli, duplicarli o eliminarli facilmente.
 
-![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Predefiniti di condizione dalla scheda Gestisci dell&#39;editor Web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Per ulteriori dettagli, visualizzare [Usa predefiniti di condizione](../user-guide/generate-output-use-condition-presets.md).
 

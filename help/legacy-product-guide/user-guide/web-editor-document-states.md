@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Per modificare lo stato di un documento, effettuare le seguenti operazioni:
 
 La vista a schede dell&#39;interfaccia utente di Assets mostra lo stato corrente insieme alla data e alle dimensioni di creazione del rispettivo argomento o mappa DITA.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Utilizzare gli stati del documento in DDLC
 
@@ -72,11 +72,11 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
 
 1. Se il documento è in stato di approvazione, viene visualizzata la seguente finestra di dialogo:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Se il documento non può essere contrassegnato come approvato, viene visualizzato il seguente messaggio:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Se il documento è pronto per essere contrassegnato come approvato, selezionare un&#39;etichetta dall&#39;elenco a discesa e fare clic su **Approva**.
 
@@ -86,7 +86,7 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
 
 1. Una volta che il documento è stato contrassegnato come approvato, viene visualizzata una **Anteprima** del documento in modalità di sola lettura.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >

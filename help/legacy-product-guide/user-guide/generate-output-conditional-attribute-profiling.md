@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
    La schermata seguente mostra la definizione per l&#39;attributo `platform` con valore di `unix` e etichetta di `Red Hat Linux`.
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile.png){width="800"}
 
 1. Se si desidera aggiungere altri valori per lo stesso attributo, fare clic sull&#39;icona **+** e immettere un valore e un&#39;etichetta aggiuntivi.
 
@@ -57,6 +57,6 @@ Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
 L&#39;attributo `platform` è archiviato nel sistema. Ogni volta che un autore decide di utilizzare l&#39;attributo `platform` in un argomento DITA in una cartella, i valori verranno visualizzati nella scheda Proprietà dell&#39;Editor Web.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

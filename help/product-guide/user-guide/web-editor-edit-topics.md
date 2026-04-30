@@ -4,9 +4,9 @@ description: Scopri come modificare gli argomenti nell’editor. Scopri le varie
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente do
 
    - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Se ad esempio si seleziona il contenuto di un paragrafo e quindi si sceglie l&#39;elemento `<note>` dalla finestra di dialogo **Inserisci elemento**, il contenuto selezionato verrà visualizzato in una nota.
 
-     ![Finestra di dialogo Inserisci elemento](./images/insert-element-editor.png) {width="300" align="left"}
+     ![Finestra di dialogo Inserisci elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Aggiorna il browser durante la modifica dei file
 
@@ -70,7 +70,7 @@ Anche il pannello di destra viene riaperto e visualizza la stessa vista di prima
 
 Experience Manager Guides fornisce l’indicatore della copia di lavoro che indica se la \(copia di lavoro\) corrente del file è sincronizzata o meno con la versione salvata. Se sono state apportate modifiche alla copia corrente e il file non è stato salvato, nella scheda File dell&#39;argomento verrà visualizzato il simbolo \* insieme al titolo. Questo indicatore funge da promemoria per il salvataggio delle modifiche e scompare quando si salva il file.
 
-![indicatore copia di lavoro](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicatore copia di lavoro](images/working-copy-text-update-indicator.png){width="550"}
 
 Experience Manager Guides indica anche se l’ultima copia salvata \(working\) del file è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
 
@@ -78,7 +78,7 @@ Experience Manager Guides indica anche se l’ultima copia salvata \(working\) d
 >
 > Qualsiasi modifica ai campi metadati disponibili in [Proprietà file](./web-editor-right-panel.md#file-properties) attiverà anche l&#39;indicatore della copia di lavoro sulla versione del documento.
 
-![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550" align="left"}
+![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550"}
 
 ## Accedere ai file bloccati in modalità Autore e Source
 

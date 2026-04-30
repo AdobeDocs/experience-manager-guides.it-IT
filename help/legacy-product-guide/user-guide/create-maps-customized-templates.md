@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Per creare un modello di argomento, effettuare le seguenti operazioni:
 
 1. Nell&#39;**interfaccia utente di Assets**, passare alla cartella dei modelli dita.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){width="800"}
 
 1. Fai clic sulla cartella **topic** per aprirla.Fare clic su **Crea \> Modello DITA**.
 1. Nella pagina Blueprint, seleziona **Argomento**, quindi fai clic su **Avanti.**
@@ -66,7 +66,7 @@ Per creare un modello di mappa, effettua le seguenti operazioni:
 1. Fai clic sulla cartella **map** per aprirla.
 1. Fare clic su **Crea \> Modello DITA.**
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 
 1. Nella pagina Blueprint, seleziona **Mappa** e fai clic su **Successivo**.
 1. Nella pagina Proprietà, specifica il modello di mappa **Titolo**.

@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -53,16 +53,16 @@ Il modello Pagina contenitore documentazione viene utilizzato per creare la pagi
 - Funge da punto di ingresso o home page per un set specifico di documentazione (ad esempio, un manuale del prodotto o una guida).
 - Aggiungi la proprietà id=&quot;category-page&quot; al jcr:content del nodo iniziale del modello. In questo modo tutte le pagine create da questo modello vengono trattate automaticamente come contenitori di documentazione da AEM Guides.
 
-  ![Aggiunta id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![Aggiunta id=&quot;category-page&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Aggiungi un componente Testo con la proprietà obbligatoria: text=&quot;$category.html$&quot;.
 
-  ![Aggiunta componente testo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![Aggiunta componente testo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - In genere include elementi di navigazione, come collegamenti a sezioni o argomenti all’interno della documentazione.
 - Può essere personalizzato per includere branding, intestazioni, piè di pagina e altri elementi di progettazione.
 
-**Caso d&#39;uso di esempio:**
+**Esempio di utilizzo:**
 Se si dispone di una mappa DITA per un manuale di prodotto, il modello di pagina del contenitore della documentazione genererà la home page per tale manuale, visualizzando una panoramica e i collegamenti ai singoli argomenti.
 
 ### Modello per pagina argomento
@@ -71,18 +71,18 @@ Se si dispone di una mappa DITA per un manuale di prodotto, il modello di pagina
 - Ogni argomento di una mappa DITA viene visualizzato come una pagina separata che utilizza questo modello.
 - Contiene un **componente testo** con la proprietà obbligatoria: text=&quot;$topic.content$&quot;.
 
-  ![Aggiunta componente testo con proprietà obbligatoria](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![Aggiunta componente testo con proprietà obbligatoria](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Questo segnaposto viene sostituito con il contenuto effettivo dell&#39;argomento DITA durante la generazione del sito.
    - Il componente testo si trova in genere all&#39;interno di un **componente Container** per garantire layout e stile corretti.
    - Può essere personalizzato per includere intestazioni, piè di pagina ed elementi di navigazione coerenti in tutte le pagine degli argomenti.
 
-**Caso d&#39;uso di esempio:**
+**Esempio di utilizzo:**
 Se si dispone di un argomento DITA relativo alle &quot;Istruzioni di installazione&quot;, il modello di pagina dell&#39;argomento genererà una pagina che visualizza il contenuto dell&#39;argomento.
 
 **Componente contenitore:**
 
-![Aggiunta del componente contenitore](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Aggiunta del componente contenitore](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Se si dispone di un argomento DITA relativo alle &quot;Istruzioni di installazio
 
 Aggiungi lo stesso (contenitore e componente testo) nella struttura dello stesso modello:
 
-![Aggiunta del contenitore e del componente testo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Aggiunta del contenitore e del componente testo](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Componenti delle guide di rendering nei modelli personalizzati
 
@@ -124,7 +124,7 @@ Per impostazione predefinita, le librerie client (clientlibs) fornite nel pacche
    1. Apri **Pagina prodotto** in **Modalità editor**.
    2. Seleziona **Modifica modello** (verrà aperto un URL come conf/settings/wcm/templates/structure.html).
 
-      ![Modifica modello](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![Modifica modello](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Aggiorna criterio pagina:**
 
@@ -135,7 +135,7 @@ Per impostazione predefinita, le librerie client (clientlibs) fornite nel pacche
 
 3. **Salva modifiche:** Salva il modello dopo l&#39;aggiunta delle librerie client richieste.
 
-   ![Aggiungi librerie client](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![Aggiungi librerie client](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

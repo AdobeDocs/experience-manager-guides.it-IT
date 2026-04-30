@@ -4,9 +4,9 @@ description: Scopri come creare un modello personalizzato, utilizzarlo per crear
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager Guides consente di creare mappe e argomenti personalizz
 
 La funzionalità **Modelli** è presente nel [pannello sinistro dell&#39;interfaccia Editor](./web-editor-left-panel.md) ed è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati nei modelli di tipo *map* e *topic*.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il puntatore del mouse su un modello, è possibile visualizzare il titolo e il nome del file come descrizione comando.
 
@@ -51,16 +51,16 @@ Per creare un argomento o un modello di mappa dall’editor, effettua le seguent
 
 1. Apri il pannello **Modelli** nell&#39;editor e seleziona l&#39;icona **Crea modello DITA**.
 
-   ![](images/create-dita-template-option.png){width="500" align="left"}
+   ![](images/create-dita-template-option.png){width="500"}
 
 1. Scegliere **Modello argomento** o **Modello mappa** dal menu a discesa in base al tipo di modello che si desidera creare.
 1. Se si seleziona **Modello argomento**, verrà visualizzata la finestra di dialogo **Nuovo modello argomento**.
 
-   ![](images/new-topic-template-dialog.png){width="300" align="left"}
+   ![](images/new-topic-template-dialog.png){width="300"}
 
    Se si seleziona **Modello mappa**, viene visualizzata la finestra di dialogo **Nuovo modello mappa**.
 
-   ![](images/map-template-dialog.png){width="300" align="left"}
+   ![](images/map-template-dialog.png){width="300"}
 
    È inoltre possibile selezionare **Cartella** dall&#39;elenco a discesa se si desidera creare prima una cartella all&#39;interno della cartella **topic** o **mappa**.
 
@@ -77,7 +77,7 @@ Una volta creato il modello, è necessario aggiungerlo al profilo globale o a li
 
 Utilizzando il menu **Opzioni** su un modello esistente, puoi scegliere di **Modifica** o **Duplica**. In caso di duplicazione, la struttura e il tipo \(di documento\) del modello vengono mantenuti ed è possibile riutilizzarli per creare un altro modello da esso.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Creare modelli personalizzati dall’interfaccia utente di Assets
 
@@ -85,12 +85,12 @@ Per creare una mappa o un modello di argomento dall’interfaccia utente di Asse
 
 1. Nell&#39;**interfaccia utente di Assets**, passare alla cartella dei modelli dita.
 
-   ![](images/dita-templates.png){align="left"}
+   ![](images/dita-templates.png)
 
 1. Apri la cartella **topic** se vuoi creare un modello **Topic**. Apri la cartella **mappe** se vuoi creare un modello **Mappa**.
 1. Selezionare **Crea \> Modello DITA**.
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 1. Nella pagina Blueprint, seleziona **Argomento \> Successivo** per creare un modello di argomento. Altrimenti, seleziona **Mappa \> Successivo** per creare un modello di mappa.
 1. Nella pagina Proprietà, specifica il modello **Titolo**.
 1. Specificare il file **Name**.
@@ -188,7 +188,7 @@ Nell&#39;**Editor**, eseguire i passaggi seguenti per creare una mappa utilizzan
 1. Nell&#39;**Editor** spostarsi nella cartella in cui si desidera creare la mappa.
 1. Dal menu Opzioni della cartella, selezionare **Nuovo \> Mappa DITA**.
 
-   ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+   ![](images/add-custom-template-dita-map.png){width="500"}
 1. Viene visualizzata la finestra di dialogo **Nuova mappa**.
 1. Nella finestra di dialogo **Nuova mappa**, specifica la mappa **Titolo**, il file **Nome** e seleziona il modello di mappa da utilizzare.
 

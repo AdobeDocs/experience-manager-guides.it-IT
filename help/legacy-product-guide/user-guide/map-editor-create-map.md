@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Per creare un file di mappa, effettua le seguenti operazioni:
    >
    > Il modo in cui gli argomenti vengono trattati in un file di mappa dipende dal modello di mappa. Se ad esempio si seleziona il modello Mappa, verranno utilizzati i riferimenti agli argomenti \(`topicref`\) per fare riferimento agli argomenti. In caso di Bookmap, i riferimenti agli argomenti vengono creati utilizzando l&#39;elemento `chapter` in DITA.
 
-   ![](images/map-template.png){width="650" align="left"}
+   ![](images/map-template.png){width="650"}
 
 1. Nella pagina Proprietà, specifica la mappa **Titolo**.
 
@@ -44,7 +44,7 @@ Per creare un file di mappa, effettua le seguenti operazioni:
 
    A ogni nuovo file di mappa creato dall&#39;interfaccia utente di Assets **Create** \> **DITA Map** o dall&#39;editor Web viene assegnato un ID di mappa univoco. Inoltre, la nuova mappa viene salvata come copia di lavoro più recente in DAM. Fino a quando non salvi una revisione di una mappa appena creata, nella Cronologia versioni non viene visualizzato alcun numero di versione. Se apri la mappa per la modifica, le informazioni sulla versione vengono visualizzate nell’angolo superiore destro della scheda del file mappa:
 
-   ![](images/first-version-map-none.png){width="650" align="left"}
+   ![](images/first-version-map-none.png){width="650"}
 
    Le informazioni sulla versione di una mappa appena creata vengono visualizzate come *none*. Quando salvi una nuova versione, ad essa viene assegnato il numero di versione 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, vedere [Salva come nuova versione](web-editor-features.md#save-as-new-version-id209ME400GXA).
 

@@ -4,9 +4,9 @@ description: Utilizza l’assegnazione tag in blocco dei contenuti in AEM Guides
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Applicazione di tag in blocco a contenuto DITA {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 I tag ti consentono di raggruppare o classificare il contenuto all’interno dell’archivio dei contenuti e anche nell’output pubblicato. Se sono stati applicati tag al contenuto, è possibile trovare facilmente argomenti correlati all&#39;interno di una mappa DITA che possono essere utili per l&#39;authoring dei contenuti. Con l’output pubblicato, gli utenti finali saranno in grado di individuare più rapidamente il contenuto corretto con i tag corretti.
 
@@ -36,7 +36,7 @@ Utilizza la funzione di assegnazione tag in blocco per applicare più tag contem
 
 1. Selezionare gli argomenti o la mappa secondaria a cui si desidera applicare i tag.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

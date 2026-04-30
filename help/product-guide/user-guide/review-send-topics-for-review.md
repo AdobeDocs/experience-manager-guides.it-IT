@@ -4,9 +4,9 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
 1. Scegli l&#39;icona **Seleziona** nell&#39;azione rapida e seleziona gli argomenti che desideri inviare per la revisione.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. Nella barra degli strumenti, seleziona **Crea attività di revisione**. Viene visualizzata la pagina di creazione dell’attività di revisione.
 
@@ -100,7 +100,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    Viene visualizzata la pagina Contenuto.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. Nella pagina Contenuto selezionare una versione dell&#39;argomento che si desidera condividere per la revisione.
 
@@ -121,7 +121,7 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
    Viene visualizzata la pagina Revisori in cui è possibile aggiungere o rimuovere revisori. Per impostazione predefinita, i revisori aggiunti nel campo Assegna a vengono aggiunti automaticamente a ogni argomento selezionato per la revisione.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. Nella pagina Revisori è possibile aggiungere o rimuovere revisori. Nella pagina Revisori sono disponibili le operazioni riportate di seguito.
 
@@ -219,7 +219,7 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
    Viene visualizzata la pagina Contenuto con tutti gli argomenti a cui si fa riferimento dal file di mappa. Se la mappa DITA contiene mappe nidificate, vengono elencati anche gli argomenti delle mappe nidificate.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. Nella pagina Contenuto selezionare una versione dell&#39;argomento che si desidera condividere per la revisione.
 

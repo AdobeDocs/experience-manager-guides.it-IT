@@ -4,7 +4,7 @@ description: Scopri come creare attributi condizionali in AEM Guides. Utilizza g
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
    La schermata seguente mostra la definizione per l&#39;attributo `platform` con valore di `unix` e etichetta di `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){align="left"}
+   ![](images/add-profile-new.png)
 
 1. Se si desidera aggiungere altri valori per lo stesso attributo, selezionare l&#39;icona **+** e immettere un valore e un&#39;etichetta aggiuntivi.
 
@@ -56,6 +56,6 @@ Per definire gli attributi condizionali, effettuare le seguenti operazioni:
 
 L&#39;attributo `platform` è archiviato nel sistema. Ogni volta che un autore decide di utilizzare l&#39;attributo `platform` in un argomento DITA in una cartella, può visualizzare i valori nella scheda Proprietà dell&#39;editor.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
 **Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

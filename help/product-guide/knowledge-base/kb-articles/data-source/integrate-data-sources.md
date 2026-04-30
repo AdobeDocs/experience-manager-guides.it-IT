@@ -1,9 +1,10 @@
 ---
 title: Architettura dell’integrazione delle origini dati esterne in AEM Guides
 description: Scopri l’architettura dell’integrazione delle origini dati esterne in AEM Guides.
-source-git-commit: b0cf652023770eda24ea27ff105ed6dc2cdd1f08
+exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Alcune delle origini dati che è possibile connettere da Experience Manager Guid
 - Product Information Management (PIM) / Product Lifecycle Management (PLM)
    - Pimcore, Salsify, Akeneo e Informatica
 - Sistemi di gestione dei prodotti
-   - Bacheche DevOps di JIRA e Microsoft Azure (ADO)
+   - Schede madri per sistemi DevOps (ADO) JIRA e Microsoft Azure
 - Sistemi OLAP (Online Analytical Processing) e Analytics
 
 ### Integrazione in Experience Manager Guides
@@ -53,7 +54,6 @@ Per integrare il contenuto in Experience Manager Guides, effettua le seguenti op
 1. **Configurare il connettore dell&#39;origine dati**
    - Il connettore dell’origine dati funge da interfaccia per stabilire la connettività con le origini dati esterne. È necessario configurare il connettore per stabilire la connessione e includere i metodi di autenticazione, ad esempio `Basic Auth` o `API key Auth`. Tutti i dettagli di configurazione, comprese le informazioni crittografate, vengono archiviati in modo sicuro in Adobe Experience Manager.
    - Il livello del connettore è progettato per essere estensibile, consentendo di creare implementazioni per la connessione a vari sistemi che non sono forniti come preconfigurati da Experience Manager Guides.
-
      ![Livello connettore](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,11 +99,9 @@ Per integrare il contenuto in Experience Manager Guides, effettua le seguenti op
         ```
 
       - Modelli
-
-        ![Motore di modelli](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![Motore di modelli](assets/data-source-TemplatingEngine.png){width="800"}
       - Dati generati dalla stessa origine dati ma da modelli diversi
-
-        ![Dati generati](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![Dati generati](assets/data-source-templates-topics.png){width="800"}
 
 1. **Genera contenuto utilizzando i modelli**
    - Puoi generare il contenuto dai modelli creati.
@@ -113,8 +111,8 @@ Per integrare il contenuto in Experience Manager Guides, effettua le seguenti op
       - Argomento DITA + mappa: è inoltre possibile generare una mappa completa anche con l&#39;argomento e quindi utilizzare i dati per la pubblicazione diretta o utilizzarli come *Componente riutilizzabile* in altri dati.
 
 
-1. **Publish del contenuto integrato**
-   - La pubblicazione è la funzione OOTB di Experience Manager Guides e puoi pubblicare direttamente tutti i dati generati dal sistema esterno come output PDF o del sito AEM.
+1. **Pubblica il contenuto integrato**
+   - La pubblicazione è la funzione OOTB di Experience Manager Guides e puoi pubblicare direttamente tutti i dati generati dal sistema esterno come output di PDF o AEM Site.
 
 >[!MORELIKETHIS]
 >

@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ In qualità di amministratore, puoi anche configurare le seguenti impostazioni p
 
   Potete accedere a Snippet dal pannello a sinistra nell&#39;Editor.
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **Condizioni**: in qualità di amministratore, è possibile configurare attributi condizionali standard supportati da DITA a livello globale o di cartella. Gli autori utilizzano quindi le condizioni configurate semplicemente trascinando la condizione desiderata sul contenuto.
 
   Puoi accedere a Condizioni dal pannello a sinistra nell’Editor.
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **Variabili**: è possibile definire variabili per rendere il contenuto più portatile, coerente e facile da aggiornare. Durante la generazione dell’output, le variabili vengono sostituite con i valori del set di variabili selezionato, consentendo di produrre output personalizzati in modo efficiente.
 
   Per ulteriori dettagli, visualizzare [Crea una nuova variabile](../native-pdf/native-pdf-variables.md#create-a-new-variable)

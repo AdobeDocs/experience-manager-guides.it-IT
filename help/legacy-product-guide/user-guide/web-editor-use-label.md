@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Per aggiungere un’etichetta all’argomento, effettua le seguenti operazioni:
 
    Le etichette vengono visualizzate nella Cronologia versioni dell&#39;argomento selezionato. Nella schermata seguente vengono visualizzate le etichette *x.x Release* e *User Guide* aggiunte alla versione evidenziata dell&#39;argomento.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Per eliminare un’etichetta, effettua le seguenti operazioni:
 
    Nella Cronologia versioni verranno visualizzate tutte le versioni di un argomento e le relative etichette. Nell&#39;immagine seguente viene illustrato un esempio di versioni diverse di un argomento a cui sono state aggiunte etichette in una versione.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. Fare clic sul pulsante Elimina \(**X**\) per eliminare l&#39;etichetta.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
 **Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)

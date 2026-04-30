@@ -1,10 +1,11 @@
 ---
-title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2025.11.0
+title: Note sulla versione | Novità della versione 2025.11.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2025.11.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -22,11 +23,11 @@ Scopri le [istruzioni di aggiornamento per la versione 2025.11.0](../release-inf
 
 L’archivio, ora accessibile direttamente dalla home page, funge da spazio centralizzato per migliorare la reperibilità di cartelle e file. Sono disponibili **il pannello di navigazione delle cartelle** dedicato e una **visualizzazione tabulare personalizzabile dell&#39;archivio**. La rinnovata esperienza di ricerca e filtro semplifica notevolmente la ricerca e l’individuazione dei file. Per ulteriori dettagli, visualizzare [Conoscere l&#39;interfaccia dell&#39;archivio](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 Nell’editor, l’esperienza di ricerca e filtro per i file è ora coerente con la pagina Home. Per visualizzare i risultati della ricerca viene introdotto un nuovo [pannello di ricerca](../user-guide/search-panel-explorer.md) che si trova nella parte inferiore dell&#39;interfaccia dell&#39;editor. Inoltre, il repository è ora rinominato in **Explorer** nell&#39;editor, consentendo di sfogliare cartelle e file come prima.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## Indicizzazione migliorata per suggerimenti avanzati nell’Assistente IA
@@ -56,7 +57,3 @@ Dopo l’aggiornamento della build, il sistema potrebbe notare un aumento tempor
 È stato introdotto un processo automatizzato per mantenere aggiornate le risorse in `/content/dam`. Il sistema attiva la rielaborazione delle risorse ogni 15 minuti. Durante ogni ciclo, le risorse aggiunte o non elaborate nell’intervallo di 15 minuti più recente vengono prelevate e rielaborate, migliorando l’efficienza e la coerenza nell’archivio dei contenuti.
 
 Per ulteriori dettagli, visualizza [Elabora risorse](../user-guide/asset-processor.md).
-
-
-
-

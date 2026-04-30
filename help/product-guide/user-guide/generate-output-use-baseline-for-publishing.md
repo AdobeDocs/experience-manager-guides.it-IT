@@ -4,9 +4,9 @@ description: Conoscere l’utilizzo delle linee di base in AEM Guides. Scopri co
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Per creare una baseline, effettuare le operazioni riportate di seguito.
 2. Seleziona **Crea** in alto a sinistra.
 3. Nella pagina Previsione immettere un nome per la Previsione nel campo **Nome Previsione**.
 
-   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+   ![](images/create-baseline-assets-ui.png){width="300"}
 
 4. In **Imposta la versione in base a**, selezionare una delle opzioni seguenti:
 
@@ -81,7 +81,7 @@ Per modificare una baseline esistente, effettuare le operazioni riportate di seg
 1. Apportare le modifiche necessarie nella baseline. È possibile modificare il nome e la versione dell&#39;argomento o del contenuto di riferimento.
 1. Se si desidera utilizzare una versione diversa per uno o più argomenti, è possibile selezionare manualmente tali argomenti. Selezionare **Sfoglia argomento**, selezionare l&#39;argomento per il quale si desidera utilizzare una versione diversa. Dall&#39;elenco a discesa Seleziona una versione per l&#39;argomento selezionato, selezionare una versione dell&#39;argomento che si desidera utilizzare nella baseline e selezionare **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){align="left"}
+   ![](images/baseline-select-version-drop-down.png)
 
    Le informazioni sull&#39;argomento e sulla versione selezionata vengono memorizzate nel back-end. È possibile ripetere questo passaggio per modificare la versione selezionata per più argomenti.
 
@@ -128,7 +128,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
 
 1. Seleziona **Aggiungi etichette**.
 
-   ![](images/add-label-baseline-uuid.png){align="left"}
+   ![](images/add-label-baseline-uuid.png)
 
 1. Nella finestra di dialogo **Aggiungi etichetta**, specifica un&#39;etichetta univoca da associare a questa linea di base.
 
@@ -139,7 +139,7 @@ Per aggiungere un&#39;etichetta a più argomenti e al contenuto di riferimento i
    - Seleziona **Aggiungi**.
 L&#39;etichetta specificata viene aggiunta alla mappa DITA e agli argomenti e al contenuto a cui si fa riferimento.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Esporta previsione tradotta
@@ -158,7 +158,7 @@ Per esportare una baseline tradotta, effettuare le seguenti operazioni:
 
 1. Nella scheda **Traduzione**, espandi l&#39;opzione **Previsione** disponibile nella barra a sinistra.
 
-   ![](images/export-baseline-new.png){align="left"}
+   ![](images/export-baseline-new.png)
 
 1. Selezionare l&#39;opzione **Usa baseline** e scegliere la baseline da esportare.
 

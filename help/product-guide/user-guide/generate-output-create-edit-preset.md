@@ -4,9 +4,9 @@ description: Scopri come creare, modificare, duplicare ed eliminare un predefini
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ Puoi gestire i predefiniti di output dalla console Mappa e dal dashboard Mappa. 
 È inoltre possibile duplicare o eliminare un predefinito di output utilizzando il menu a discesa **Opzioni**, come illustrato di seguito.
 
 
-![](images/delete-preset-map-console.png){align="left"}
+![](images/delete-preset-map-console.png)
 
 
 ## Utilizzo del dashboard delle mappe
 
 Potete modificare, duplicare ed eliminare un predefinito di output utilizzando il quadro comandi Mappa (Map) selezionando la scheda desiderata dalla barra superiore, come mostrato di seguito.
 
-![](images/create-new-preset-map-dashboard-new.png){align="left"}
+![](images/create-new-preset-map-dashboard-new.png)
 
 
 

@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Per elaborare le risorse, segui i passaggi indicati di seguito:
 1. Nel pannello **Strumenti** seleziona **Guide**.
 1. Selezionare il riquadro **Processore di massa**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
 1. Viene visualizzata la finestra Processore di massa guide con i dettagli riportati di seguito. Inoltre, in questa finestra vengono visualizzate solo le informazioni relative alle ultime cinque migrazioni.
 
@@ -49,13 +49,13 @@ Per elaborare le risorse, segui i passaggi indicati di seguito:
 
    - **Stato**: mostra lo stato dell&#39;elaborazione come In corso, Completato o Annullato.
 
-   ![Guide-asset-processor](images/guides-asset-processor-new.png){align="left"}
+   ![Guide-asset-processor](images/guides-asset-processor-new.png)
 
 1. Seleziona la scheda **Nuovo processo** nell&#39;angolo superiore destro della finestra per avviare una nuova attività di elaborazione.
 
    Viene visualizzata la finestra di dialogo **Nuovo processo**.
 
-   ![Processore-risorse-nuovo-processo](images/new-asset-processor.png){width="350" align="left"}
+   ![Processore-risorse-nuovo-processo](images/new-asset-processor.png){width="350"}
 
 1. Fornisci i seguenti dettagli nella finestra di dialogo:
 
@@ -72,7 +72,7 @@ Esempio: la selezione di Argomento DITA elabora solo gli argomenti DITA all&#39;
 
 1. Seleziona **Crea**. Viene visualizzato un pop-up che mostra **Operazione completata e il processo è stato attivato correttamente**. Nella finestra è possibile visualizzare lo stato dell&#39;operazione di elaborazione.
 
-   ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
+   ![Message-asset-processor](images/message-asset-processor.png){width="350"}
 
 
 ## Opzioni aggiuntive per le attività di elaborazione delle risorse
@@ -81,16 +81,16 @@ Dopo l’avvio dell’attività di elaborazione, sono disponibili opzioni aggiun
 
 - **Riavvia**: riavvia l&#39;attività di elaborazione delle risorse precedentemente completata.
 
-  ![riavvia-processore-risorse](images/restart-asset-processor.png){width="650" align="left"}
+  ![riavvia-processore-risorse](images/restart-asset-processor.png){width="650"}
 
 - **Riprendi**: riprende l&#39;attività di elaborazione delle risorse annullata o non riuscita in precedenza.
 
-  ![riprendi-processore-risorse](images/resume-asset-processor.png){width="650" align="left"}
+  ![riprendi-processore-risorse](images/resume-asset-processor.png){width="650"}
 
 - **Annulla**: annulla l&#39;attività di elaborazione delle risorse attualmente in corso.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **Visualizza registri**: mostra i registri per l&#39;attività di elaborazione delle risorse. Per le attività in corso, il registro mostra informazioni di elaborazione dettagliate, tra cui il tempo rimanente stimato e lo stato delle risorse. Questo elenco di registri visualizza fino alle ultime 500 voci. È possibile scaricare il registro completo.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

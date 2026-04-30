@@ -4,9 +4,9 @@ description: Crea e gestisci una nuova linea di base (Beta) dalla console delle 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Per migrare la baseline esistente alla nuova baseline, effettuare le seguenti op
 1. Nel pannello **Strumenti** seleziona **Guide**.
 1. Selezionare il riquadro **Processore di massa**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
    Viene visualizzata la pagina **Guide per il processore in blocco**.
 
@@ -87,7 +87,7 @@ Per migrare la baseline esistente alla nuova baseline, effettuare le seguenti op
    1. **Selezionare cartelle e file**: spostarsi e scegliere una o più cartelle e file da elaborare.
    1. **Selezionare le cartelle da ignorare**: è possibile selezionare sottocartelle all&#39;interno della cartella principale selezionata da escludere dalla migrazione.
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. Seleziona **Crea**.
 
@@ -95,11 +95,11 @@ Viene visualizzato un pop-up che mostra **Elaborazione risorsa attivata corretta
 
 Puoi anche selezionare **Visualizza registri** per controllare e scaricare i registri per l&#39;attività di migrazione.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 Il rapporto del registro fornisce dettagli sulla migrazione, tra cui il numero di mappe migrate, le linee di base migrate correttamente e i dettagli correlati.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ I seguenti aggiornamenti si applicano quando si lavora con le linee di base crea
    - **Modifica proprietà**: consente di modificare le proprietà di una baseline esistente.
    - **Rigenera**: consente di rigenerare una baseline dinamica ogni volta che si verificano modifiche.
 
-     ![rigenera-baseline](images/rebuild-baseline.png){align="left"}
+     ![rigenera-baseline](images/rebuild-baseline.png)
 
 - L&#39;azione **Download** supporta i download impaginati. Tutto il contenuto della linea di base che corrisponde ai filtri applicati viene incluso nel download, non solo il contenuto visibile nella pagina corrente.
 - Filtra i file in base al GUID, oltre ai nomi dei file o alla posizione dei file. È inoltre disponibile un&#39;opzione aggiuntiva per **Filtrare i file senza etichette**.
@@ -150,13 +150,13 @@ I seguenti aggiornamenti si applicano quando si lavora con le linee di base crea
    - Passa il puntatore del mouse sul file da modificare.
    - Seleziona l&#39;icona **Modifica**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      Viene visualizzata la finestra di dialogo **Modifica versione**.
    - Seleziona la versione richiesta dal menu a discesa **Versione** (ad esempio, passa dalla versione 1.0 alla versione 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      Le dipendenze aggiunte e rimosse vengono valutate e visualizzate in anteprima. Rivedi le modifiche prima di applicarle.
 

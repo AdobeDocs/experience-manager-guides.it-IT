@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ Quando apri un file nell’editor, puoi eseguire varie azioni dal menu di scelta
 
 Nel menu di scelta rapida della scheda di un file multimediale aperto vengono visualizzate le seguenti funzioni:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **File DITA singolo**
 
 Nel menu di scelta rapida della scheda di un file aperto vengono visualizzate le seguenti funzioni:
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **Più file**
 
 Quando sono aperti più file, nel menu di scelta rapida vengono visualizzate altre opzioni:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Di seguito sono illustrate le varie opzioni del menu di scelta rapida:
 
@@ -127,7 +127,7 @@ A seconda che il file sia bloccato o sbloccato e che siano presenti modifiche sa
 
   Ad esempio, nella schermata seguente viene visualizzato uno dei prompt:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Indicazioni visive per riferimenti interrotti**
 
@@ -157,11 +157,11 @@ Experience Manager Guides fornisce finestre di dialogo intuitive - **Seleziona f
 
 Il browser del percorso dei file consente di individuare e selezionare rapidamente file specifici all’interno dell’archivio dei contenuti. Questa funzione è disponibile per attività quali l’aggiunta di un argomento a una mappa, il collegamento di un’immagine o di un rimando, la creazione di contenuto riutilizzabile e altro ancora.
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 Quando si avvia il browser di file, viene visualizzata la finestra di dialogo **Seleziona file**. Questa finestra di dialogo include due schede: **Archivio** e **Raccolte**. Per impostazione predefinita, la scheda Archivio è selezionata.
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **Funzionalità disponibili nella scheda Archivio per l&#39;esplorazione dei file**
 
@@ -169,17 +169,17 @@ Quando si avvia il browser di file, viene visualizzata la finestra di dialogo **
 
 La scheda Archivio offre una visualizzazione tabulare dei file e delle cartelle provenienti dall&#39;archivio dei contenuti, facilitando l&#39;individuazione del percorso corretto. Per spostarti tra le cartelle, puoi anche utilizzare le breadcrumb in alto e il pannello di navigazione delle cartelle a sinistra.
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **Selezione di file singolo e multiplo**
 
 Per utilizzare un file, selezionalo e scegli **Seleziona**.
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 In alcuni casi, è anche possibile selezionare più file da questa finestra di dialogo del browser del percorso. Ad esempio, quando esplori i file per il contenuto riutilizzabile, puoi selezionare più file e renderli parte del contenuto riutilizzabile.
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 La selezione di più file è attualmente disponibile per contenuto riutilizzabile, riferimenti ad argomenti, Schematron, Predefiniti di output (utilizzando DITAVAL) e Workfront.
 
@@ -191,29 +191,29 @@ La selezione di più file è attualmente disponibile per contenuto riutilizzabil
 
 Puoi visualizzare in anteprima i file selezionati utilizzando il pulsante **Anteprima**, come illustrato di seguito:
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 L&#39;anteprima del file selezionato viene visualizzata a destra.
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 Per le selezioni multiple, nel pannello Anteprima viene visualizzata un&#39;anteprima di tutti i file selezionati, per una facile revisione.
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 È inoltre possibile utilizzare l&#39;icona **Rimuovi** per deselezionare alcuni file dall&#39;anteprima.
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **Esperienza di ricerca e filtro**
 
 Quando esplori i file nel repository, puoi cercare i file per nome, titolo o contenuto all’interno del percorso selezionato. Puoi utilizzare uno, due o tutti e tre i criteri per la ricerca. Se non viene selezionato nessuno dei criteri, i risultati includeranno elementi comuni a tutti e tre i criteri.
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 Seleziona l&#39;icona **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire il pannello Filtro a destra.
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 Per filtrare i file e restringere la ricerca, sono disponibili le seguenti opzioni:
 
@@ -268,7 +268,7 @@ Nella scheda Raccolte è possibile:
 
 L&#39;esplorazione delle cartelle tramite la finestra di dialogo **Seleziona cartella** consente di selezionare il percorso corretto della cartella all&#39;interno dell&#39;archivio per attività quali la creazione di nuovi argomenti o la specifica di percorsi di output per il contenuto pubblicato. Offre una visualizzazione chiara e strutturata ad albero delle cartelle, rendendo la navigazione intuitiva e garantendo che il contenuto sia posizionato nella posizione giusta.
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## Supporto per la pubblicazione basata su articoli
@@ -289,7 +289,7 @@ L&#39;editor supporta i termini del glossario DITA che è possibile inserire agg
 
 Experience Manager Guides offre un supporto predefinito per l&#39;inserimento di equazioni di MathML tramite l&#39;integrazione con l&#39;applicazione [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Per inserire un&#39;equazione di MathML, selezionare l&#39;icona **Elemento** e digitare mathml. Quando si seleziona l&#39;elemento matml dall&#39;elenco, viene visualizzata la finestra di dialogo **Inserisci MathML**:
 
-![inserire l&#39;equazione mathml nell&#39;editor mathml](images/insert-mathml-equation.png){width="550" align="left"}
+![inserire l&#39;equazione mathml nell&#39;editor mathml](images/insert-mathml-equation.png){width="550"}
 
 Utilizzando gli strumenti di equazione di MathML, crea l&#39;equazione e seleziona **Inserisci** per aggiungerla al documento. L&#39;equazione viene inserita con uno sfondo grigio chiaro.
 
@@ -300,7 +300,7 @@ In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con i
 Experience Manager Guides convalida le equazioni di MathML quando si salva un argomento che le contiene.
 Quando si inserisce un&#39;equazione utilizzando l&#39;editor di MathML, in caso di problemi di sintassi Experience Manager Guides evidenzia l&#39;equazione in rosso. È possibile correggerla prima di inserirla. Se non si apportano modifiche ma si seleziona **Inserisci**, verrà visualizzato un avviso.
 
-![convalida equazione matematica](images/validate-mathml-equation.png){width="400" align="left"}
+![convalida equazione matematica](images/validate-mathml-equation.png){width="400"}
 
 Se si inserisce l&#39;equazione di MathML che contiene un errore di sintassi, quando si tenta di salvare l&#39;argomento si verifica un errore di convalida.
 
@@ -314,7 +314,7 @@ Inserire una nota a piè di pagina nel contenuto utilizzando l&#39;elemento `fn`
 
 L’editor visualizza la breadcrumb dell’elemento in basso a sinistra nell’argomento. Se desideri scambiare o sostituire un elemento con un altro elemento, puoi farlo dal menu di scelta rapida della breadcrumb. Ad esempio, è possibile scambiare l&#39;elemento `p` con `note` o qualsiasi altro elemento valido nel contesto.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Nella breadcrumb, fai clic con il pulsante destro del mouse sul nome di un elemento che desideri sostituire, quindi seleziona Rinomina elemento dal menu di scelta rapida. Nella finestra di dialogo Rinomina elemento vengono visualizzati tutti gli elementi validi consentiti nella posizione corrente. Dalla finestra di dialogo Rinomina elemento, seleziona l’elemento che desideri utilizzare. L’elemento originale viene sostituito con il nuovo elemento.
 
@@ -353,7 +353,7 @@ In XML, gli spazi vuoti includono spazi, tabulazioni, ritorni a capo e righe vuo
 
 Gli elementi DITA che contengono interruzioni di riga e spazi sono supportati e renderizzati in base alla loro definizione nelle modalità Autore, Source o Anteprima e anche nell’output finale pubblicato. La schermata seguente mostra il contenuto all&#39;interno dell&#39;elemento `msgblock` in cui sono stati mantenuti le interruzioni di riga e gli spazi \(rientro\):
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
@@ -381,7 +381,7 @@ In alternativa, puoi fare clic con il pulsante destro del mouse nella breadcrumb
 
 Se un argomento o una mappa specifica contiene elementi con ID duplicati, nell&#39;angolo inferiore destro dell&#39;area di modifica del contenuto adiacente alle visualizzazioni dell&#39;editor viene visualizzato un pulsante **ID duplicati**.
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 Selezionando **ID duplicati** si apre un popover in cui sono elencati tutti gli ID duplicati. Puoi selezionare l’ID visualizzato dal popover per passare all’elemento corrispondente e aggiornarlo con un ID univoco.
 
@@ -398,12 +398,12 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Nella parte superiore viene visualizzato un messaggio di avviso per i file di grandi dimensioni, come illustrato nel frammento seguente. Questo avviso evidenzia il numero di elementi in base al valore specificato nel parametro **largeFileTagCount** del file uiconfig.json. Per impostazione predefinita, **largeFileTagCount** è impostato su 2500.
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - Inoltre, il conteggio dei tag viene visualizzato sulla barra inferiore dell’interfaccia. Quando passi il cursore del mouse sul valore del conteggio dei tag, viene visualizzata una descrizione comando. La selezione della scheda **Ulteriori informazioni** fornisce dettagli sulla gestione dei file di grandi dimensioni.
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.

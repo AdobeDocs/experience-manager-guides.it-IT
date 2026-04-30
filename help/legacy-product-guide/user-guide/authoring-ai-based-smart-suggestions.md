@@ -3,7 +3,7 @@ title: Suggerimenti avanzati basati sull’intelligenza artificiale per l’auth
 description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 1. Puoi visualizzare i suggerimenti avanzati nel pannello dei suggerimenti.  Experience Manager Guides fornisce contenuti di suggerimento contestualmente simili o con lo stesso significato. Ad esempio, puoi cercare l’argomento che contiene il numero di versione esatto, come &quot;versione 2023.03.12 di&quot;. Puoi anche cercare &quot;Adobe ha la sede centrale a San Jose, California&quot; e trovare contenuti simili come &quot;San Jose ha la sede di molte aziende di software come Adobe&quot;.
 1. Seleziona **Informazioni contenuto** ![Informazioni contenuto](images/smart-suggestions-content-info-icon.svg) per visualizzare i dettagli.
 
-   ![Pannello informazioni contenuto](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Pannello informazioni contenuto](images/smart-suggestions-content-information.png){width="300"}
 
    *Visualizza informazioni dettagliate sul riferimento contenuto.*
 
