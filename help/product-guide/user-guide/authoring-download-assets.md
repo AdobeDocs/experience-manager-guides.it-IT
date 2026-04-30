@@ -4,16 +4,16 @@ description: Scopri come scaricare file dalla console delle mappe DITA in AEM Gu
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Scarica file {#id216MC0H0BE8}
 
-È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=it) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
+È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
 
 ## Scaricare un file di mappa DITA dall&#39;editor
 
@@ -28,7 +28,7 @@ Per scaricare un file di mappa DITA dall&#39;editor, effettuare le seguenti oper
 
    Viene visualizzata la finestra di dialogo **Scarica mappa**.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. Nella finestra di dialogo Scarica mappa puoi scegliere le seguenti opzioni:
 
@@ -57,7 +57,7 @@ Per scaricare un file di mappa DITA dall&#39;editor, effettuare le seguenti oper
 
    Riceverai la seguente notifica quando la mappa sarà pronta per il download.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
 1. Seleziona **Scarica** per scaricare il file mappa in formato `.zip`. In alternativa, scaricalo in un secondo momento dalla casella in entrata di AEM.
 
@@ -83,7 +83,7 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
    Viene visualizzata la finestra di dialogo Scarica mappa.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Seleziona **Scarica**. Nella finestra di dialogo Scarica mappa puoi scegliere le seguenti opzioni:
 
@@ -98,7 +98,7 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
 1. Dopo aver selezionato il pulsante **Scarica**, la richiesta di download della mappa è in coda. Riceverai la seguente notifica quando la mappa sarà pronta per il download.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Seleziona **Scarica** per scaricare il file mappa in formato.zip.
 
@@ -108,8 +108,8 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
    >
    > Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche Adobe Experience Manager.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il contenuto scaricato.
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

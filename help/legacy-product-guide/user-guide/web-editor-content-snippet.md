@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di co
 
 ### Visualizzazione elenco ![](images/data-sources-list-view-icon.svg)
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Elenco delle origini dati connesse.*
 
-### Vista affiancata   ![](images/data-sources-tile-view-icon.svg)
+### Visualizzazione riquadro ![](images/data-sources-tile-view-icon.svg)
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Visualizzare le origini dati connesse come riquadri.*
 
@@ -78,11 +78,11 @@ AEM Guides offre la funzione di connessione all’origine dati. Puoi recuperare 
 
 Per creare uno snippet di contenuto utilizzando il generatore di snippet di contenuto e inserirlo nell’argomento, effettua le seguenti operazioni:
 
-1. Seleziona **Origini dati** ![](images/data-source-icon.svg)   nel pannello a sinistra per visualizzare le origini dati collegate.
+1. Seleziona **Origini dati** ![](images/data-source-icon.svg) nel pannello a sinistra per visualizzare le origini dati connesse.
 
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto disponibili per l&#39;origine dati selezionata.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *Nel pannello Origini dati sono elencati i generatori di frammenti di contenuto disponibili.*
 
@@ -125,7 +125,7 @@ Ad esempio:
       - Se hai selezionato il modello di elenco jira ordinato, puoi visualizzare un elenco ordinato per i problemi Jira.
 
    1. La vista origine mostra i dati nella vista origine DITA.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *Aggiungi un generatore di frammenti di contenuto. Visualizza i dati in modalità di origine o anteprima.*
 
 1. Per salvare i risultati della query, immettere il nome del generatore, quindi fare clic su **AGGIUNGI**.   All’elenco viene aggiunto un nuovo generatore di frammenti di contenuto.
@@ -151,9 +151,9 @@ Fai clic con il pulsante destro del mouse su un generatore di frammenti di conte
 
 ### Inserire uno snippet di query
 
-È inoltre possibile utilizzare **Inserisci frammento di query** ![](images/data-source-icon.svg)   dalla barra degli strumenti principale per inserire lo snippet di dati negli argomenti.  Puoi selezionare un generatore dal menu a discesa, modificare la query o modificare il modello e inserire i dati nell’argomento.
+È inoltre possibile utilizzare **Inserisci frammento di query** ![](images/data-source-icon.svg) dalla barra degli strumenti principale per inserire il frammento di dati negli argomenti.  Puoi selezionare un generatore dal menu a discesa, modificare la query o modificare il modello e inserire i dati nell’argomento.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *Modificare e inserire uno snippet di dati.*
 
@@ -173,7 +173,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
 1. Selezionare un&#39;origine dati per visualizzare i generatori di frammenti di contenuto e i generatori di argomenti disponibili per l&#39;origine dati selezionata.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Aggiungere un generatore di argomenti per un&#39;origine dati connessa.*
 
@@ -185,7 +185,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    **Recupera configurazione**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *Aggiungere i dettagli della query dati, del modello di mappatura dati e del nodo radice per il generatore di argomenti e assegnare un nome univoco nel pannello Recupera configurazione.*
 
@@ -218,7 +218,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    **Configurazione output**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Immettere il percorso di output e i dettagli delle convenzioni di denominazione degli argomenti nel pannello Configurazione di output. Generare una mappa DITA e denominarla.*
 
@@ -237,7 +237,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
    Nella schermata seguente, ad esempio, `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite per le quali è possibile definire i valori. Puoi creare una proprietà personalizzata come Author e definirne il valore.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Aggiungi le proprietà dei metadati nel pannello Metadati per passare agli argomenti.*
 
@@ -247,7 +247,7 @@ Per creare un argomento utilizzando il generatore di argomenti, effettuare le se
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *Genera nuovi argomenti da un generatore di argomenti esistente.*
 

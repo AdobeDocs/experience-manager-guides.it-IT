@@ -4,16 +4,16 @@ description: Scopri come indirizzare i commenti di revisione come autori in AEM 
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
 
-In qualità di autore, puoi indirizzare i commenti in un argomento utilizzando l’Editor. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità **del pannello** Review![](images/active-review-tasklist-icon.svg) nella sezione [Left Panel](../user-guide/web-editor-left-panel.md).
+In qualità di autore, puoi indirizzare i commenti in un argomento utilizzando l’Editor. I commenti vengono caricati in base all&#39;attività di revisione selezionata nel pannello Revisione. Per ulteriori dettagli, visualizzare la descrizione della funzionalità ![](images/active-review-tasklist-icon.svg) del pannello **Review** nella sezione [Left Panel](../user-guide/web-editor-left-panel.md).
 
 Nelle sezioni seguenti vengono descritti i modi in cui i commenti vengono inseriti nell’editor.
 
@@ -23,7 +23,7 @@ Un autore può indirizzare i commenti di un documento dall’editor. Vengono for
 >
 > Quando si affrontano i commenti di revisione \(per un documento di revisione attivo\), assicurarsi di non aprire l&#39;argomento in-review in più schede con la vista tag completi abilitata, non passare dalla modalità di visualizzazione Autore a quella di Source.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifiche. Il pannello Revisione mostra tutti i commenti aggiunti nel documento dai revisori. Il pannello **Rileva modifiche** mostra lo stato di tutti i commenti inseriti ed eliminati nel documento.
 
@@ -53,11 +53,11 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 
   Per incorporare la modifica suggerita \(inserimento o eliminazione\) una alla volta, fare clic con il pulsante destro del mouse sul commento nel contenuto e selezionare Accetta modifica o Rifiuta modifica. A seconda della selezione, il commento viene accettato o rifiutato. In caso di commento accettato, il contenuto viene aggiunto al contenuto e, in caso di rifiuto, viene rimosso dal contenuto. Inoltre, lo stato del commento viene modificato nel pannello Revisione.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png)
 
   Potete inoltre utilizzare il pannello Revisioni per accettare o rifiutare i commenti. Se si seleziona un commento, quest&#39;ultimo verrà evidenziato nel documento.
 
-  ![](images/changes-tab_cs-new.png){align="left"}
+  ![](images/changes-tab_cs-new.png)
 
   >[!IMPORTANT]
   >
@@ -71,7 +71,7 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento. Per impostazione predefinita, nessuno dei filtri è selezionato.
 
-  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  ![](images/review-comments-author-filter.png){width="350"}
   **Rispondi a un commento assegnando tag ad altri utenti**
 
 In qualità di autore e di iniziatore dell&#39;attività di revisione, è possibile rispondere ai commenti di revisione e assegnare tag ad altri utenti coinvolti nella stessa attività di revisione per indirizzare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
@@ -80,7 +80,7 @@ In qualità di autore e di iniziatore dell&#39;attività di revisione, è possib
 >
 > Per visualizzare l&#39;elenco degli utenti assegnati a un&#39;attività di revisione e assegnare loro un tag in un commento, è necessario disporre dell&#39;accesso *Lettura* sui nodi `/home/users and /home/groups`. Per ulteriori dettagli, visualizzare [Amministrazione utente e sicurezza](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Se l&#39;assegnazione dei tag non è ancora disponibile dopo la conferma dell&#39;accesso, l&#39;amministratore potrebbe dover assegnare una licenza `user-admin` per abilitare questa funzionalità.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Didascalia:Tag utenti come iniziatore/autore*
 
 Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere informati tempestivamente. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
@@ -89,6 +89,6 @@ Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi 
 
 Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apri dalla console **Progetti**, l&#39;argomento verrà avviato nell&#39;interfaccia utente di revisione. Poiché questa attività non è assegnata all&#39;utente, è possibile visualizzare e rispondere ai commenti ma non eseguire alcuna azione di revisione. La barra degli strumenti Commenti rimane disabilitata per gli utenti che non sono assegnati all&#39;attività.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

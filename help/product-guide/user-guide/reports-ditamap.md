@@ -4,9 +4,9 @@ description: Generare rapporti mappa DITA dal dashboard delle mappe in AEM Guide
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
 1. Seleziona **Report**.
 
-   ![](images/reports-page-uuid-new.png){align="left"}
+   ![](images/reports-page-uuid-new.png)
 
    La pagina Rapporti è divisa in due parti:
 
@@ -37,7 +37,7 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
      Quando si seleziona un argomento, viene visualizzato un report dettagliato dell&#39;argomento selezionato.
 
-     ![](images/detailed-report-uuid-new.png){align="left"}
+     ![](images/detailed-report-uuid-new.png)
 
      Gli elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
@@ -82,19 +82,19 @@ Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti opera
 
 1. Selezionare **Genera report** in alto a sinistra per generare il report mappa DITA.
 
-   ![](images/generate-DITA-map-report-new.png){align="left"}
+   ![](images/generate-DITA-map-report-new.png)
 
 1. Riceverai una notifica quando il report sarà pronto per il download. Seleziona **Scarica** per scaricare il file CSV del rapporto generato.
 
-   ![](images/download-report-dialog-new.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550"}
 
 
    Puoi anche scaricare il file CSV del rapporto generato in un secondo momento dalla casella in entrata delle notifiche di Experience Manager.
 
    Seleziona il rapporto generato nella casella in entrata per scaricarlo.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

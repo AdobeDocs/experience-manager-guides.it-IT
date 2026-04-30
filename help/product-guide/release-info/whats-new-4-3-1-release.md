@@ -4,9 +4,9 @@ description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager G
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compa
 
 Experience Manager Guides fornisce connettori pronti all’uso che consentono di connettersi alle origini dati, rendendo Experience Manager Guides un vero e proprio hub di contenuti. In questo modo è possibile risparmiare tempo e fatica, che altrimenti verrebbero utilizzati per l&#39;aggiunta o la replica manuale dei dati.
 
-Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
+Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per i database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
 
 Puoi visualizzare i connettori configurati nel pannello **Origini dati** nell&#39;Editor Web.
 
@@ -39,7 +39,7 @@ Experience Manager Guides ora fornisce anche uno strumento **Origini dati** che 
 
 È inoltre possibile modificare, riconnettersi, duplicare o eliminare facilmente un connettore di origine dati. Ulteriori informazioni su come [configurare facilmente un connettore origine dati dall&#39;interfaccia utente](../install-guide/conf-data-source-connector-tools.md).
 
-![connettori origine dati elencati nel pannello origini dati](assets/data-sources-create-window.png){width="550" align="left"}
+![connettori origine dati elencati nel pannello origini dati](assets/data-sources-create-window.png){width="550"}
 
 *Creare e visualizzare i connettori dell&#39;origine dati dal pannello origini dati.*
 
@@ -54,13 +54,13 @@ Ora puoi utilizzare gli strumenti Velocity nei modelli di Experience Manager Gui
 Ulteriori informazioni su come [utilizzare gli strumenti Velocity nei modelli di origine dati](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-Nella versione di ottobre 2023 sono stati apportati i seguenti miglioramenti a Native PDF:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione di ottobre 2023:
 
 ### Reimposta il numero di pagina per la prima pagina di un layout
 
-Nell&#39;output nativo di PDF è possibile riavviare i numeri di pagina e specificare il numero da cui inizia la numerazione. Ora è anche possibile iniziare la numerazione solo per la prima occorrenza di una sezione.
+Nell&#39;output PDF nativo è possibile riavviare i numeri di pagina e specificare il numero da cui inizia la numerazione. Ora è anche possibile iniziare la numerazione solo per la prima occorrenza di una sezione.
 Scopri come [utilizzare le proprietà di pagina di un layout di pagina](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
@@ -74,7 +74,7 @@ Ora è possibile non solo modificare una mappa nella vista mappa dell&#39;Editor
 
 Per ulteriori dettagli, consulta la descrizione della funzione **Vista mappa** nella sezione [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![menu opzioni di un file nella vista archivio](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![menu opzioni di un file nella vista archivio](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Selezionare un file nella visualizzazione del repository e scegliere l&#39;opzione per eseguire un&#39;azione sul file.*
 
@@ -94,7 +94,7 @@ Per ulteriori dettagli sulla gestione delle definizioni gerarchiche delle defini
 
 Utilizza il menu di scelta rapida per visualizzare rapidamente in anteprima il file (.dita, .xml, audio, video o immagine) senza aprirlo. Ora è possibile ridimensionare il riquadro di anteprima e, se il contenuto contiene un collegamento di riferimento, è possibile selezionarlo per aprirlo in una nuova scheda.
 
-![Riquadro di anteprima &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
+![Riquadro di anteprima ](assets/quick-preview_cs.png){width="800"}
 
 *Anteprima del file nel riquadro.*
 
@@ -108,7 +108,7 @@ Per ulteriori dettagli, fare riferimento a **Opzioni per la descrizione di una f
 
 ## Utilizzare le variabili per la data e l&#39;ora correnti nelle opzioni Percorso di destinazione, Nome sito o Nome file
 
-Durante la generazione di output nel sito o nei PDF AEM, è possibile utilizzare le variabili per impostare le opzioni **Percorso di destinazione**, **Nome sito** o **Nome file**. È ora possibile utilizzare anche le variabili `${system_date}` e `${system_time}`. Queste variabili consentono di aggiungere la data e l’ora correnti a queste opzioni.
+Durante la generazione di output in AEM Site o PDF, è possibile utilizzare le variabili per impostare le opzioni **Percorso di destinazione**, **Nome sito** o **Nome file**. È ora possibile utilizzare anche le variabili `${system_date}` e `${system_time}`. Queste variabili consentono di aggiungere la data e l’ora correnti a queste opzioni.
 
 Scopri come [utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](../user-guide/generate-output-use-variables.md).
 

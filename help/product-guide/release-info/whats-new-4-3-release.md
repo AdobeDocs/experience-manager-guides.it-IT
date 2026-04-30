@@ -4,9 +4,9 @@ description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager G
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2659'
 ht-degree: 0%
 
 ---
@@ -39,22 +39,22 @@ Le citazioni sono riferimenti all’origine delle informazioni aggiunte al conte
 
 In AEM Guides, puoi aggiungere citazioni o importarle e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
 
-Dopo aver inserito le citazioni negli argomenti, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare i contenuti con le citazioni utilizzando Native PDF.
+Dopo aver inserito le citazioni negli argomenti, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare contenuti con citazioni utilizzando il PDF nativo.
 
-![Citazioni elencate in un pannello](assets/citation-panel.png){width="300" align="left"}
+![Citazioni elencate in un pannello](assets/citation-panel.png){width="300"}
 
 
 Per ulteriori dettagli, visualizza [Aggiungi e gestisci citazioni nel contenuto](../user-guide/web-editor-apply-citations.md).
 
-## Da Publish a un frammento di contenuto
+## Pubblicare in un frammento di contenuto
 
-I frammenti di contenuto sono parti discrete di contenuto nell’AEM. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati dall’AEM. La modularità e la riutilizzabilità dei frammenti di contenuto determinano maggiore flessibilità, coerenza, efficienza e gestione più semplice.
+I frammenti di contenuto sono parti discrete di contenuto in AEM. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati da AEM. La modularità e la riutilizzabilità dei frammenti di contenuto determinano maggiore flessibilità, coerenza, efficienza e gestione più semplice.
 
 Ora AEM Guides offre un modo per pubblicare un argomento o gli elementi all’interno di un argomento in un frammento di contenuto. Puoi creare una mappatura basata su JSON tra un argomento e un modello per frammenti di contenuto. Utilizza questa mappatura per pubblicare in un frammento di contenuto il contenuto presente in alcuni o in tutti gli elementi di un argomento.
 
 Sfrutta la potenza di AEM Guides e dei frammenti di contenuto e utilizza i frammenti di contenuto in qualsiasi sito AEM. Puoi anche estrarre i dettagli tramite API supportate da frammenti di contenuto.
 
-![opzione per pubblicare il frammento di contenuto](assets/content-fragment-publish.png){width="550" align="left"}
+![opzione per pubblicare il frammento di contenuto](assets/content-fragment-publish.png){width="550"}
 
 
 ## Revisione dei miglioramenti
@@ -66,7 +66,7 @@ AEM Guides fornisce ora una funzionalità di revisione migliorata con le seguent
 Ora AEM Guides rende le tue recensioni più fluide. Fornisce il pannello Revisioni all&#39;interno dell&#39;Editor Web. Il pannello Revisioni visualizza tutti i progetti di revisione e le attività di revisione attive all&#39;interno dei progetti di revisione di cui fai parte.
 
 In qualità di autore, questa funzione consente di aprire facilmente le attività di revisione, visualizzare i commenti e indirizzarli rapidamente in una visualizzazione centralizzata.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Rivedi** nella sezione [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ### Cerca argomenti di revisione
@@ -75,7 +75,7 @@ La conduzione delle recensioni è una caratteristica fondamentale di AEM Guides.
 È ora possibile cercare un argomento immettendo una parte del testo del titolo o del percorso file nella barra di ricerca della visualizzazione argomenti del pannello di revisione. È inoltre possibile scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione.
 
 
-![Cerca in un pannello degli argomenti di revisione](assets/review-search-topic.png){width="800" align="left"}
+![Cerca in un pannello degli argomenti di revisione](assets/review-search-topic.png){width="800"}
 
 Per ulteriori dettagli, visualizzare [Rivedi argomenti](../user-guide/review-topics.md).
 
@@ -85,19 +85,19 @@ Crea pacchetti personalizzati sopra AEM Guides per fornire estensibilità utiliz
 
 
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-I seguenti miglioramenti di Native PDF sono stati apportati nella versione 4.3.0 per rendere AEM Guides un prodotto più robusto:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione 4.3.0 per rendere AEM Guides un prodotto più robusto:
 
 ### Supporto per le variabili di lingua
 
-AEM Guides fornisce il supporto per le variabili di lingua. È possibile utilizzare le variabili di lingua per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Avvertenza e Avvertenza, o del testo statico nell’output di PDF.
+AEM Guides fornisce il supporto per le variabili di lingua. È possibile utilizzare le variabili di lingua per definire una versione localizzata delle etichette predefinite, ad esempio Nota, Avvertenza e Avvertenza o testo statico nell’output di PDF.
 Puoi aggiungere le variabili di lingua o la versione localizzata delle etichette alle sezioni appropriate nell’output di PDF e nei modelli di output.
 
 #### Variabili di lingua nell’output di PDF
 
-È possibile utilizzare le variabili di lingua per definire etichette localizzate per elementi quali Nota, Attenzione e Avvertenza. Puoi aggiornare il valore di queste variabili in una o più lingue, quindi il valore localizzato viene selezionato automaticamente nell’output di PDF.
-Ad esempio, puoi presentare l’etichetta Nota nell’output PDF nei seguenti modi:
+È possibile utilizzare le variabili di lingua per definire etichette localizzate per elementi quali Nota, Attenzione e Avvertenza. Puoi aggiornare il valore di queste variabili in una o più lingue, quindi il valore localizzato viene scelto automaticamente nell’output di PDF.
+Ad esempio, puoi presentare l’etichetta Nota nell’output di PDF nei seguenti modi:
 
 * Inglese: Note
 * Francese: Remarque
@@ -105,25 +105,25 @@ Ad esempio, puoi presentare l’etichetta Nota nell’output PDF nei seguenti mo
 
 #### Variabili di lingua nei modelli di output
 
-Per creare l&#39;output di PDF in diverse lingue, è necessario creare diversi modelli di PDF contenenti testo localizzato per ogni lingua. Ora, con la funzione Variabili di lingua, è sufficiente creare il modello una sola volta. Quindi, per qualsiasi testo statico da localizzare, puoi creare variabili di lingua corrispondenti e utilizzarle nel modello.
+Per creare l&#39;output di PDF in varie lingue, è necessario creare diversi modelli di PDF contenenti testo localizzato per ogni lingua. Ora, con la funzione Variabili di lingua, è sufficiente creare il modello una sola volta. Quindi, per qualsiasi testo statico da localizzare, puoi creare variabili di lingua corrispondenti e utilizzarle nel modello.
 Puoi creare variabili di lingua per testo più lungo, ad esempio una frase intera o anche un paragrafo. Puoi anche applicare stili e utilizzare il markup HTML per formattare queste variabili di lingua.
 
 Per ulteriori dettagli, visualizzare [Supporto per le variabili di lingua](../native-pdf/native-pdf-language-variables.md).
 
-### Aggiungere una filigrana all&#39;output PDF per i documenti bozza
+### Aggiungere una filigrana all&#39;output di PDF per i documenti bozza
 
-Ora è possibile aggiungere una filigrana all’output PDF del documento che non è ancora stato approvato. Questa filigrana non viene visualizzata se si genera il PDF per il documento nello stato &quot;Approvato&quot;. Ad esempio, puoi aggiungere una bozza di filigrana per l’output PDF.
+Ora è possibile aggiungere una filigrana all’output PDF del documento non ancora approvato. Questa filigrana non viene visualizzata se si genera il PDF per il documento nello stato &quot;Approvato&quot;. Ad esempio, puoi aggiungere una bozza di filigrana per l’output di PDF.
 
-Per ulteriori dettagli, visualizzare [Aggiungere una filigrana all&#39;output PDF per le bozze di documenti](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+Per ulteriori dettagli, visualizzare [Aggiungere una filigrana all&#39;output di PDF per le bozze di documenti](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Possibilità di utilizzare i metadati dell’AEM nei layout PDF
+### Possibilità di utilizzare i metadati di AEM nei layout di PDF
 
 I metadati sono la descrizione o la definizione del contenuto. Questi metadati vengono memorizzati nel contenuto della mappa DITA di origine.
 
 Ora in AEM Guides puoi anche selezionare le proprietà dei metadati delle risorse e aggiungerle al layout di pagina. AEM Guides seleziona quindi queste proprietà di metadati delle risorse e le pubblica nell’output PDF.
 
 
-![aggiungi metadati per pdf nativo](assets/native-pdf-metadata-asset.png){width="300" align="left"}
+![aggiungi metadati per pdf nativo](assets/native-pdf-metadata-asset.png){width="300"}
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Per ulteriori dettagli, visualizzare [Aggiungi campi e metadati](../native-pdf/d
 
 ### Ordinare le pagine nell’output di PDF
 
-Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
+Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche organizzare l’ordine in cui devono essere visualizzate nell’output finale di PDF:
 
 * Sommario
 * Capitoli e argomenti
@@ -145,13 +145,13 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordi
 * Citazione
 * Layout di pagina
 
-Se non desideri visualizzare una particolare sezione nell’output PDF, puoi nasconderla disattivando l’interruttore.
+Se non si desidera visualizzare una sezione specifica nell&#39;output di PDF, è possibile nasconderla disattivando l&#39;interruttore di attivazione.
 
 Per ulteriori dettagli, visualizzare [Ordine pagine](../native-pdf/components-pdf-template.md#page-order).
 
 ### Unisci pagine
 
-In un output di PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata insieme alla pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
+In un output PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata insieme alla pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
 
 Per ulteriori dettagli, vedi la descrizione della funzione Unisci pagine nella sezione [Ordine pagine](../native-pdf/components-pdf-template.md#page-order).
 
@@ -180,15 +180,15 @@ Per ulteriori dettagli, visualizzare [Riferimenti incrociati](../native-pdf/comp
 Ora è anche possibile iniziare un capitolo dalla pagina corrente. Se scegli di farlo, tutti i capitoli vengono pubblicati in continuazione senza interruzioni di pagina. Ad esempio, se un capitolo termina a metà della pagina 15, anche il capitolo successivo inizia dalla quindicesima pagina.
 
 
-### Possibilità di accedere ai file temporanei di HTML durante la generazione dell&#39;output nativo di PDF
+### Possibilità di accedere a file HTML temporanei durante la generazione dell&#39;output nativo di PDF
 
-Ora AEM Guides consente di scaricare i file HTML temporanei creati durante la generazione dell’output PDF nativo. Nelle impostazioni del predefinito di output, seleziona l’opzione per scaricare i file temporanei.  AEM Guides ti consente quindi di scaricare i file temporanei creati durante la generazione dell’output utilizzando tale predefinito.
+Ora AEM Guides consente di scaricare i file HTML temporanei creati durante la generazione dell’output nativo di PDF. Nelle impostazioni del predefinito di output, seleziona l’opzione per scaricare i file temporanei.  AEM Guides ti consente quindi di scaricare i file temporanei creati durante la generazione dell’output utilizzando tale predefinito.
 
 Questa funzione consente di ottenere informazioni migliori sul processo di generazione con accesso a stili e layout provvisori e consente di correggere o modificare gli stili CSS in base alle esigenze.
 
-![finestra di dialogo impostazioni avanzate del pdf nativo](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![finestra di dialogo impostazioni avanzate del pdf nativo](assets/native-pdf-advanced-settings.png){width="800"}
 
-Per ulteriori dettagli, visualizzare [Creare un predefinito di output PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Per ulteriori dettagli, visualizzare [Creare un predefinito di output di PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
 
 ### Riprogettazione dell’editor CSS
@@ -199,7 +199,7 @@ Ora l’editor CSS è stato riprogettato per offrire una migliore esperienza ute
 
 Ora puoi utilizzare selettori personalizzati per aggiungere stili complessi. Il nuovo campo Selettore consente di aggiungere selettori personalizzati oltre alla combinazione di Classe, Tag e Pseudo classe. Ad esempio, è possibile creare lo stile `table a.link` per tutti i collegamenti ipertestuali all&#39;interno di una tabella.
 
-![aggiunta di stili nei modelli pdf nativi](assets/add-styles-native-pdf.png){width="300" align="left"}
+![aggiunta di stili nei modelli pdf nativi](assets/add-styles-native-pdf.png){width="300"}
 
 #### Personalizzare le proprietà dello stile
 
@@ -210,14 +210,14 @@ Ora AEM Guides presenta un nuovo pannello delle proprietà nella sezione di ante
 
 Ora è anche possibile rinominare o spostare un file dal pannello dell’archivio. Questa funzione è utile e consente di gestire facilmente i file dal pannello Archivio. Puoi selezionare un file e rinominarlo o spostarlo utilizzando il menu **Opzioni** per il file selezionato. Quando si sposta o si rinomina un file, in AEM Guides viene visualizzato un messaggio di operazione riuscita.
 
-![menu opzioni di un file](assets/rename-move-assets.png){width="550" align="left"}
+![menu opzioni di un file](assets/rename-move-assets.png){width="550"}
 
 Per ulteriori dettagli sul menu Opzioni di un file, visualizzare la descrizione della funzione **Vista archivio** nella sezione [Pannello sinistro](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Rapporto Collegamenti interrotti nell’editor web
 
 AEM Guides consente di verificare la completezza complessiva dei documenti tecnici e generare rapporti dall’editor web. Ora, nella versione di giugno 2023, AEM Guides offre la funzionalità per visualizzare e correggere i collegamenti interrotti. Si tratta di un report utile che consente di gestire i collegamenti interrotti. È possibile visualizzare facilmente i collegamenti interrotti presenti nella mappa DITA e correggerli.
-![rapporto collegamenti interrotti](assets/broken-link-report.png){width="800" align="left"}
+![rapporto collegamenti interrotti](assets/broken-link-report.png){width="800"}
 
 Una volta corretto un collegamento, questo non viene visualizzato nell’elenco dei collegamenti interrotti.
 
@@ -249,32 +249,32 @@ Per ulteriori dettagli, visualizzare [Definire modelli astratti](../user-guide/s
 
 AEM Guides fornisce anche il supporto per il formato XLIFF (XML Localization Interchange File Format) in traduzione. Ora puoi anche scegliere di **Creare un nuovo progetto di traduzione XLIFF** per convertire il contenuto XML in formato XLIFF. AEM Guides supporta XLIFF versione 1.2.
 
-Utilizzando questo formato, puoi esportare il contenuto nel formato XLIFF standard di settore e quindi fornire lo stesso ai fornitori di traduzione. Per ulteriori dettagli, visualizzare [Crea un progetto di traduzione](../user-guide/translate-documents-web-editor.md#create-translation-project).
+Utilizzando questo formato, puoi esportare il contenuto nel formato XLIFF standard del settore e quindi fornire lo stesso ai fornitori di traduzione. Per ulteriori dettagli, visualizza [Crea un progetto di traduzione](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![tipi di progetti di traduzione](assets/translation-project-types.png){width="350" align="left"}
+![tipi di progetti di traduzione](assets/translation-project-types.png){width="350"}
 
 
 ## Miglioramenti alla raccolta mappe
 
 Una raccolta di mappe consente di organizzare più mappe e di pubblicarle in batch. Sono stati apportati molti nuovi miglioramenti alla raccolta Mappa:
 
-* Ora è possibile aggiungere predefiniti di output di PDF nativi a una raccolta di mappe e utilizzarli per generare l&#39;output di PDF.
-* Puoi visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore e utilizzarli per generare l’output PDF.
+* Ora è possibile aggiungere predefiniti di output PDF nativi a una raccolta di mappe e utilizzarli per generare l&#39;output di PDF.
+* Puoi visualizzare i predefiniti per i profili globali e delle cartelle creati dall’amministratore e utilizzarli per generare l’output di PDF.
 * Ora non solo è possibile selezionare un singolo predefinito, ma è anche possibile abilitare tutti i predefiniti del profilo di cartella per una mappa DITA in un&#39;unica operazione.
-  ![modificare una raccolta di mappe](assets/edit-map-collection.png){width="800" align="left"}
+  ![modificare una raccolta di mappe](assets/edit-map-collection.png){width="800"}
 
 Per ulteriori dettagli, visualizzare [Utilizza raccolta mappe per la generazione dell&#39;output](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Supporto dei PDF nativi nel dashboard Publish in blocco
+## Supporto di PDF nativi nel dashboard di pubblicazione in blocco
 
 
-Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. Nella mappa Bulk Activation puoi includere il predefinito di output PDF nativo, l’output Sito AEM, PDF, HTML5, Personalizzato e JSON.
+Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. Nella mappa di attivazione in blocco, puoi includere il predefinito di output PDF nativo, il sito AEM, PDF, HTML5, personalizzato e l’output JSON.
 Per ulteriori dettagli, visualizzare [Attivazione in blocco del contenuto pubblicato](../user-guide/conf-bulk-activation.md).
 
 ## Migliorato strumento di spostamento in blocco
 
 Ora, in qualità di amministratore, puoi utilizzare il migliorato strumento Sposta in blocco per spostare cartelle con molti file da una posizione all’altra.
-È possibile utilizzare la finestra di dialogo Sfoglia file per selezionare le cartelle di origine che si desidera spostare. È inoltre possibile selezionare il percorso di destinazione per spostare le cartelle di origine. Seleziona l&#39;icona ![info](assets/info-icon.svg) {width="25" align="left"} accanto a un campo per visualizzare ulteriori informazioni.
+È possibile utilizzare la finestra di dialogo Sfoglia file per selezionare le cartelle di origine che si desidera spostare. È inoltre possibile selezionare il percorso di destinazione per spostare le cartelle di origine. Seleziona l&#39;icona ![info](assets/info-icon.svg) {width="25"} accanto a un campo per visualizzare ulteriori informazioni.
 
 Per ulteriori dettagli, visualizzare [Sposta i file in blocco](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -282,7 +282,7 @@ Per ulteriori dettagli, visualizzare [Sposta i file in blocco](../user-guide/aut
 
 AEM Guides consente di creare una raccolta o un elenco di file e cartelle preferito e di utilizzarli facilmente. Il menu **Opzioni** è ora disponibile anche nel pannello **Preferiti**. È possibile rinominare la raccolta selezionata o eliminarla dal menu **Opzioni**. È possibile selezionare l&#39;opzione **Aggiorna** per ottenere un nuovo elenco di file o cartelle dal repository. Puoi anche visualizzare il contenuto della cartella nell’interfaccia utente di Assets.
 
-![pannello Preferiti](assets/favorites-options.png){width="650" align="left"}
+![pannello Preferiti](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -294,6 +294,6 @@ Per ulteriori dettagli sul menu **Opzioni** di una raccolta Preferiti, visualizz
 
 Ora puoi anche utilizzare il tema del dispositivo. Utilizzando le **Preferenze utente**, puoi configurare AEM Guides per passare automaticamente dai temi chiaro a scuro in base al tema del dispositivo.
 
-![preferenze utente](assets/device-theme-user-preferences.png){width="550" align="left"}
+![preferenze utente](assets/device-theme-user-preferences.png){width="550"}
 
 Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Preferenze utente** nella sezione [Barra degli strumenti principale](../user-guide/web-editor-features.md#id2051EA0G05Z).

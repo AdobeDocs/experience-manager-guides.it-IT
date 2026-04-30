@@ -4,7 +4,7 @@ description: Scopri come aprire un file di mappa DITA nell’interfaccia di Map 
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Per aprire un file mappa DITA nella console Mappa, effettuare le seguenti operaz
 
 1. Apri **Map console** dalla home page.
 
-   ![Nuovo &#x200B;](images/map-console-home-page.png){width="800"align="left"}
+   ![Nuovo ](images/map-console-home-page.png){width="800"}
 
 2. Poiché non è selezionato alcun file di mappa, viene richiesto di selezionare un file di mappa per utilizzare le funzioni di gestione e pubblicazione delle mappe.
 
@@ -27,7 +27,7 @@ Per aprire un file mappa DITA nella console Mappa, effettuare le seguenti operaz
 
    Il file mappa si apre nella console Mappa. Per impostazione predefinita, la scheda **Predefiniti di output** è selezionata.
 
-   ![Nuovo](images/map-console-screen.png){width="800"align="left"}
+   ![Nuovo](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ Puoi anche aprire un file di mappa esistente nella console Mappa dall’editor.
 
    Il file mappa si apre nella console Mappa.
 
-   ![Nuovo &#x200B;](images/map-console.png){align="left"}
+   ![Nuovo ](images/map-console.png)

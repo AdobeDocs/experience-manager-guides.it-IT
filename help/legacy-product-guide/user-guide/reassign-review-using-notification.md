@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Per riassegnare un&#39;attività di revisione dalla notifica Posta in arrivo, ef
    >
    > Il revisore deve disporre delle autorizzazioni necessarie per riassegnare e deve far parte del gruppo utente-amministratore.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. Seleziona **Riassegna**.
 
@@ -39,4 +39,4 @@ Una volta riassegnata l&#39;attività di revisione, nella colonna Assegnatario v
 
 Il revisore assegnato riceve una notifica nella casella in entrata relativa all&#39;attività di revisione riassegnata.
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

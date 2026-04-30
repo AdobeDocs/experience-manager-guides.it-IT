@@ -4,9 +4,9 @@ description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incoll
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Questa sezione spiega come Adobe Experience Manager Guides gestisce le operazion
 
 L’operazione di copia e incolla per le cartelle nell’interfaccia utente di Assets viene eseguita in background in modo asincrono, consentendo di continuare a lavorare mentre il sistema elabora la richiesta. Viene visualizzato un messaggio pop-up per indicare che il processo è stato avviato.
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Una volta completata l&#39;operazione, viene attivata una notifica di esito positivo o negativo per indicare se l&#39;operazione è riuscita o meno.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Trascinare i file
@@ -145,7 +145,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    >[!TIP]
    >
-   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
+   > Seleziona <img src="images/info-icon.svg" width="25"> vicino a qualsiasi campo per visualizzare ulteriori dettagli.
 
 
    - **Aggiungi suffisso alle cartelle duplicate**: se stai spostando cartelle con lo stesso nome, devi selezionare questa opzione. Nella schermata precedente, ad esempio, il percorso **Source** contiene il nome delle cartelle da spostare. La cartella denominata topic esiste in due posizioni diverse, test-A e test-B. Quando selezioni questa opzione, le cartelle verranno spostate correttamente. La prima cartella spostata sarà denominata topic, mentre la seconda sarà denominata topic0. L&#39;operazione di spostamento aggiunge un suffisso nelle serie sequenziali \(0, 1, 2 e così via\) alle cartelle con lo stesso nome.
@@ -154,7 +154,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
@@ -186,7 +186,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    >[!TIP]
    >
-   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
+   > Seleziona <img src="images/info-icon.svg" width="25"> vicino a qualsiasi campo per visualizzare ulteriori dettagli.
 
    - **Dimensione batch**: specificare il numero di file da spostare in un singolo batch. I valori predefiniti per 50 file.
    - **Intervallo di sospensione (secondi)**: specificare il tempo di attesa in secondi del processo prima di avviare il batch successivo. Durante questo intervallo di sospensione, il sistema corregge i riferimenti ai file spostati e da essi. L&#39;intervallo di sospensione predefinito è di 60 secondi.
@@ -203,7 +203,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
@@ -325,4 +325,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

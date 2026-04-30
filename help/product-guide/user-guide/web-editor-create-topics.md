@@ -4,9 +4,9 @@ description: Scopri come creare tipi di argomenti DITA utilizzando modelli perso
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per creare un argomento dall’editor, effettua le seguenti operazioni:
 
 1. Nel pannello Archivio, seleziona l&#39;icona **Nuovo file**, quindi seleziona **Argomento** dal menu a discesa.
 
-   ![](images/create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500"}
 
    È inoltre possibile accedere a questa opzione dalla [home page di Experience Manager Guides](./intro-home-page.md) e dal menu delle opzioni di una cartella nella vista Archivio.
 
@@ -45,11 +45,11 @@ Per creare un argomento dall’editor, effettua le seguenti operazioni:
 
 4. Seleziona **Crea**.
 
-   ![](images/create-topic-dialog-new.png){width="300" align="left"}
+   ![](images/create-topic-dialog-new.png){width="300"}
 
 L&#39;argomento viene creato nel percorso specificato. Inoltre, l’argomento viene aperto nell’Editor per la modifica.
 
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## Creare argomenti dall’interfaccia utente di Assets
 
@@ -61,7 +61,7 @@ Per creare un argomento dall’interfaccia utente di Assets, effettua le seguent
 
 1. Nella pagina Blueprint selezionare il tipo di documento DITA che si desidera creare e selezionare **Successivo**.
 
-   ![](images/create_dita_topic.png){align="left"}
+   ![](images/create_dita_topic.png)
 
    Per impostazione predefinita, Experience Manager Guides fornisce i modelli di argomenti DITA più utilizzati. Puoi configurare altri modelli di argomento in base ai requisiti organizzativi, visualizzare *Configurare i modelli di authoring* in Installare e configurare Adobe Experience Manager Guides per la configurazione.
 
@@ -85,7 +85,7 @@ Per creare un argomento dall’interfaccia utente di Assets, effettua le seguent
 
 1. A ogni nuovo argomento creato dall&#39;interfaccia utente di Assets **Crea** \> **Argomento DITA** o dall&#39;editor viene assegnato un ID argomento univoco. Il valore di questo ID è il nome del file stesso. Inoltre, un nuovo documento viene salvato come ultima copia di lavoro dell’argomento in DAM. Fino a quando non si salva una revisione di un argomento appena creato, nella Cronologia versioni non verrà visualizzato alcun numero di versione. Se apri l’argomento per la modifica, le informazioni sulla versione vengono visualizzate nell’angolo superiore destro della barra degli strumenti:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
 2. Le informazioni sulla versione per un argomento appena creato vengono visualizzate come *none*. Quando salvi una nuova versione, ad essa viene assegnato il numero di versione 1.0.
 
@@ -93,4 +93,4 @@ Per creare un argomento dall’interfaccia utente di Assets, effettua le seguent
 
 4. Dopo aver creato l&#39;argomento DITA, salvare le modifiche apportate alla copia di lavoro e creare una nuova versione una volta completati gli aggiornamenti all&#39;argomento.
 
-**Argomento padre:**&#x200B;[&#x200B; Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

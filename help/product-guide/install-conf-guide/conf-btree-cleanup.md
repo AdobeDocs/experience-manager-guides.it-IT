@@ -4,9 +4,10 @@ description: Configurare il processo di pulizia della struttura B per Cloud Serv
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -47,7 +48,7 @@ Le schede seguenti forniscono istruzioni per configurare il processo di pulizia 
 
 1. Configurare il modulo di pianificazione della pulizia dell&#39;albero B come illustrato di seguito.
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. Seleziona **Salva**.
 
@@ -82,7 +83,7 @@ Le seguenti schede forniscono istruzioni per abilitare l’impostazione in base 
 1. Cerca e seleziona il bundle *com.adobe.fmdita.config.ConfigManager*.
 1. Abilitare l&#39;impostazione `Guides btree deletion enabled`.
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. Seleziona **Salva**.
 

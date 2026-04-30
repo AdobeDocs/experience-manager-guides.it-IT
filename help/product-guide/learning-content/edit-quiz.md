@@ -4,9 +4,9 @@ description: Scopri come modificare i quiz nella sezione Formazione e apprendime
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per modificare il quiz, effettua le seguenti operazioni:
 1. Fai doppio clic sul quiz per aprirlo dal pannello Gestione corsi.
 1. **Bloccare** il quiz utilizzando l&#39;interruttore. Questo consente di modificare il quiz e nessun altro può apportare modifiche al quiz.
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. Puoi [aggiungere domande al quiz](./quiz-insert-questions.md) e [inserire domande dalla banca domande](./insert-questions.md).
 1. Per salvare il lavoro, utilizzare **Salva come nuova versione** per creare una nuova versione oppure premere `Ctrl+S` per sovrascrivere il file esistente.

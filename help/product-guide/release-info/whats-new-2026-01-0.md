@@ -1,12 +1,12 @@
 ---
-title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 2026.01.0
+title: Note sulla versione | Novità della versione 2026.01.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2026.01.0 di Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 1%
+source-wordcount: '1599'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Questo articolo descrive le funzioni nuove e migliorate introdotte con la versione 2026.01.0 di Adobe Experience Manager Guides as a Cloud Service.
 
-Per un elenco dei problemi risolti in questa versione, consulta [Problemi risolti nella versione 2026.01.0](fixed-issues-2026-01-0.md).
+Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 2026.01.0](fixed-issues-2026-01-0.md).
 
 Scopri le [istruzioni di aggiornamento per la versione 2026.01.0](../release-info/upgrade-instructions-2026-01-0.md).
 
@@ -25,7 +25,7 @@ Experience Manager Guides ha introdotto diversi miglioramenti alla funzione Trov
 
 L’attivazione di questa modalità consente di eseguire una ricerca globale non solo sul contenuto visibile, ma anche sul contenuto sorgente sottostante (struttura XML, inclusi elementi, tag e valori di attributi) della stringa cercata. Questa modalità garantisce una ricerca completa nell’intero contenuto.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 In questa modalità è possibile applicare i filtri per restringere la ricerca in base al tipo di file, allo stato del documento, alla data dell&#39;ultima modifica e altro ancora. Puoi anche scaricare un rapporto CSV dettagliato dopo aver eseguito l’operazione Sostituisci tutto, che fornisce un’istantanea di tutte le azioni di sostituzione eseguite insieme al loro stato di esito positivo e negativo.
 
@@ -33,7 +33,7 @@ Per ulteriori dettagli, visualizzare la sezione [Trova e sostituisci](../user-gu
 
 >[!NOTE]
 >
-> Per **Utilizzare la funzionalità della modalità di origine** nel pannello Trova e sostituisci, è necessario prima completare una distribuzione dell&#39;indice personalizzata. Una volta implementata l’indicizzazione, contatta il team Customer Success per abilitare questa funzione.
+>Per **Utilizzare la funzionalità della modalità di origine** nel pannello Trova e sostituisci, è necessario prima completare una distribuzione dell&#39;indice personalizzata. Una volta implementata l’indicizzazione, contatta il team Customer Success per abilitare questa funzione.
 
 ## Esperienza di esplorazione file e cartelle migliorata
 
@@ -41,7 +41,7 @@ Questa versione introduce un’interfaccia più pulita e intuitiva per la naviga
 
 Durante l&#39;esplorazione dei file, la finestra di dialogo **Seleziona file** rinnovata presenta ora un layout a schede con due visualizzazioni: **Archivio** per l&#39;esplorazione dell&#39;intero archivio dei contenuti in formato tabulare e **Raccolte** per l&#39;accesso rapido ad argomenti, mappe e immagini utilizzati di frequente.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 I miglioramenti principali includono:
 
@@ -53,7 +53,7 @@ I miglioramenti principali includono:
 
 La finestra di dialogo **Seleziona percorso** offre anche una visualizzazione struttura migliorata per la navigazione delle cartelle, garantendo un modo più organizzato ed efficiente di selezionare i percorsi nell&#39;archivio dei contenuti.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Per ulteriori dettagli, visualizzare [Esplorazione di file e cartelle nella sezione di Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) in _Altre funzionalità nell&#39;editor_.
 
@@ -63,7 +63,7 @@ Per ulteriori dettagli, visualizzare [Esplorazione di file e cartelle nella sezi
 
 Ora, filtra i risultati della ricerca nel repository in base allo stato corrente del documento dei file. Con il nuovo filtro **Stato documento**, è possibile restringere la ricerca utilizzando i valori di filtro disponibili definiti nel file `ui_config.json` all&#39;interno del profilo cartella.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 I valori di filtro predefiniti disponibili per lo stato del documento sono: Bozza, Modifica, In revisione, Approvato, Rivisto e Fine. Per informazioni dettagliate sulla personalizzazione dei valori predefiniti dei filtri dello stato del documento, visualizzare [Configurare i filtri dello stato del documento](../cs-install-guide/config-doc-state-filters.md).
 
@@ -75,7 +75,7 @@ I valori di filtro predefiniti disponibili per lo stato del documento sono: Bozz
 
 Tutti i file multimediali vengono ora visualizzati con icone di miniatura, per facilitare l&#39;identificazione visiva e l&#39;individuazione delle immagini all&#39;interno del **repository**. Questo miglioramento si applica anche alla ricerca di file nel **pannello di ricerca**, per consentire di distinguere rapidamente le risorse multimediali da altri tipi di file.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Miglioramenti dell’editor
 
@@ -87,11 +87,11 @@ Presentazione della nuova funzionalità **Aggiorna** per le mappe già aperte in
 
 - Per aggiornare l&#39;intera mappa (inclusi tutti gli argomenti), nell&#39;angolo in alto a sinistra dell&#39;editor verrà introdotto un nuovo pulsante **Aggiorna**.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Per aggiornare il contenuto di singoli argomenti, nel menu di scelta rapida viene introdotta una nuova opzione **Aggiorna argomento**.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Per ulteriori dettagli, visualizzare [le funzionalità dell&#39;editor di mappe](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -103,7 +103,7 @@ Eventuali modifiche ai campi metadati disponibili in **Proprietà file** attiver
 
 È ora possibile tenere traccia del numero di parole presenti in un file mappa o argomento. Nel nuovo campo **Conteggio parole** nel pannello di destra verrà visualizzato il numero totale di parole presenti in un argomento (o mappa), dove le parole separate da spazi vengono conteggiate come singole parole. Si aggiorna automaticamente ogni volta che si salvano le modifiche. Per i riferimenti incrociati, è incluso solo il testo visualizzato, mentre le chiavi sono escluse.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Per ulteriori dettagli, visualizzare il [pannello destro nell&#39;editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -128,7 +128,7 @@ Ora è possibile aggiungere nuovi argomenti a un&#39;attività di revisione in c
 
 Nella pagina **Dettagli attività**, è sufficiente selezionare o deselezionare gli argomenti per modificare l&#39;elenco degli argomenti. I revisori ricevono notifiche (tramite AEM e e-mail) su eventuali modifiche apportate agli argomenti assegnati tramite AEM e notifiche e-mail. Per ulteriori dettagli, visualizzare [Invia argomenti per la revisione](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Miglioramenti alla traduzione
 
@@ -140,7 +140,7 @@ Se un file contiene modifiche senza versione (non salvate come nuova versione ne
 
 Per ulteriori dettagli, visualizzare [Traduci documenti dalla console Mappa](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Miglioramenti alla pubblicazione
 

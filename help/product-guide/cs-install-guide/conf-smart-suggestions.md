@@ -2,10 +2,9 @@
 title: Configurare l’Assistente AI per la guida e l’authoring avanzati
 description: Scopri come configurare l’Assistente IA in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -35,13 +34,13 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 1. Avvia [Adobe Developer Console](https://developer.adobe.com/console).
 1. Dopo aver effettuato correttamente l&#39;accesso a Developer Console, verrà visualizzata la schermata **Home**. Nella schermata **Home** è possibile trovare facilmente informazioni e collegamenti rapidi, inclusi i collegamenti di navigazione superiore a progetti e download.
 1. Per creare un nuovo progetto vuoto, seleziona **Crea nuovo progetto** dai collegamenti **Avvio rapido**.
-   ![Collegamenti rapidi](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Collegamenti rapidi](assets/conf-ss-quick-start.png) {width="550"}
    *Crea un nuovo progetto.*
 
 1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
-   ![API di gestione IO](assets/confi-ss-io-management.png)
+   ![API di gestione I/O](assets/confi-ss-io-management.png)
    *Aggiungi API di gestione I/O al progetto.*
 
 1. Crea una nuova **credenziale OAuth** e salvala.
@@ -54,7 +53,7 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 
 1. Seleziona il collegamento **OAuth Server-to-Server** per visualizzare i dettagli delle credenziali del progetto.
 
-   ![credenziali connesse](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![credenziali connesse](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Connettersi al progetto per visualizzare i dettagli delle credenziali.*
 
@@ -82,7 +81,7 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 1. Passa alla scheda **Configurazione**.
 1. Incolla i dettagli del servizio JSON (scaricati nella sezione precedente) nel campo **Value** corrispondente a `SERVICE_ACCOUNT_DETAILS`. Assicurati di utilizzare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
-   ![configurazione account del servizio ims](assets/ims-service-account-config.png){width="800" align="left"}
+   ![configurazione account del servizio ims](assets/ims-service-account-config.png){width="800"}
 
 ## Abilitare il flag AI nell’ambiente
 
@@ -90,7 +89,7 @@ Per abilitare la funzione Assistente IA nell&#39;interfaccia utente di Experienc
 
 Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 L&#39;impostazione del flag su **true** abilita la funzionalità, mentre l&#39;impostazione su **false** la disabilita.
 
@@ -100,7 +99,7 @@ Aggiungi la variabile `GUIDES_AI_SITE_ID` nell&#39;ambiente (Cloud Manager) e im
 
 Assicurati di usare lo stesso nome e la stessa configurazione forniti nella schermata seguente.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## Applicare le modifiche all’ambiente
 
@@ -120,7 +119,7 @@ Una volta applicate le modifiche alla configurazione, abilita la funzione Assist
 
 Per ulteriori dettagli, visualizzare [Conoscere le funzionalità dell&#39;editor](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Configurare suggerimenti avanzati nel profilo cartelle
 
@@ -163,7 +162,7 @@ Per ulteriori informazioni, vedere [Configurare suggerimenti avanzati nel profil
 |---|---|---|---|
 | conref.inline.threshold | Soglia che controlla la precisione/il richiamo dei suggerimenti recuperati per il tag attualmente digitato dall’utente. | Qualsiasi valore compreso tra -1,0 e 1,0. | 0,6 |
 | conref.block.threshold | Soglia che controlla la precisione/il richiamo dei suggerimenti recuperati per i tag nell’intero file. | Qualsiasi valore compreso tra -1,0 e 1,0. | 0,7 |
-| emerald.url | Endpoint per il database vettoriale di Smart Suggestion | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| smeraldo.url | Endpoint per il database vettoriale di Smart Suggestion | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
 | chat.url | Endpoint per il servizio di assistenza IA | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Tipo dell’istanza di AEM. Assicurati che questo sia univoco per ogni istanza di AEM su cui sono configurati i suggerimenti avanzati. Un caso d’uso potrebbe essere quello di testare la funzione nell’ambiente di stage con &quot;instance.type&quot; = &quot;stage&quot; mentre, allo stesso tempo, la funzione è configurata anche su &quot;prod&quot;. | Qualsiasi chiave univoca che identifica l’ambiente. Sono consentiti solo valori *alfanumerici*. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 

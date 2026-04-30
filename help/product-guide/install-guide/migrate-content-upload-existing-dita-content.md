@@ -5,10 +5,9 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -52,7 +51,7 @@ Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effett
 
 1. Aprire la finestra di dialogo **Connection Manager**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Immetti i seguenti dettagli per connetterti al repository di AEM:
 
@@ -65,7 +64,7 @@ Per utilizzare il connettore AEM di FrameMaker per caricare il contenuto, effett
 
    Una volta stabilita la connessione, Assets dall’archivio AEM viene visualizzato nella finestra Gestione archivio.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Facendo clic con il pulsante destro del mouse su un file o una cartella è possibile eseguire operazioni correlate. Ad esempio, se fai clic con il pulsante destro del mouse su una cartella, ottieni le opzioni per caricare un file, caricare un file con dipendenze, caricare un’intera cartella e così via.
 
@@ -178,4 +177,4 @@ Specifica i seguenti parametri per aggiungere informazioni sui metadati:
 - `<metadata node path>`: percorso completo della cartella, incluso il nome del file e il relativo nodo di metadati. Ad esempio, se si specifica il percorso come `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, le informazioni sui metadati specificate vengono impostate sul file `intro.xml`.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)

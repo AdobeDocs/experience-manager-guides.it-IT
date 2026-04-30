@@ -4,9 +4,9 @@ description: Utilizza il pannello di generazione rapida in AEM Guides. Scopri co
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Guides fornisce un pannello **Generazione rapida** integrato nell&#39;editor
 >
 > Viene visualizzato il pannello **Generazione rapida** per la mappa DITA aperta nel pannello Visualizzazione mappa.
 
-![](images/quick-generate-map-view.png){align="left"}
+![](images/quick-generate-map-view.png)
 
 Per generare l&#39;output dal pannello **Generazione rapida**, effettua le seguenti operazioni:
 
@@ -34,4 +34,4 @@ Per generare l&#39;output dal pannello **Generazione rapida**, effettua le segue
 1. Fai clic su **Genera** per generare l&#39;output per i predefiniti selezionati. Alla generazione dell’output viene visualizzato un messaggio di successo. Se la generazione non riesce, viene visualizzato un messaggio di errore. Puoi anche visualizzare il registro degli errori per visualizzare i dettagli dell’errore che si è verificato nel processo di generazione.
 1. Fare clic sull&#39;icona **Visualizza output** \( ![](images/view-output-icon.svg)\) di un predefinito specifico per visualizzare l&#39;output generato per il predefinito.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

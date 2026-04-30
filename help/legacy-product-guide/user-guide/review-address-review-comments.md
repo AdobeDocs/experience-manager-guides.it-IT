@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Un autore può indirizzare commenti in un documento dall&#39;editor Web. Vengono
 >
 > Quando si affrontano i commenti di revisione \(per un documento di revisione attivo\), accertarsi di non aprire l’argomento in-review in più schede con la vista tag completi abilitata, e di non passare dalla modalità di visualizzazione Autore a quella di Source.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800"}
 
 Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e Tracciamento modifiche. Il pannello Revisione mostra tutti i commenti inseriti nel documento dai revisori. Il pannello **Modifiche rilevate** mostra lo stato di tutti i commenti inseriti ed eliminati nel documento.
 
@@ -55,11 +55,11 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 
   Per incorporare la modifica suggerita \(inserimento o eliminazione\) una alla volta, fare clic con il pulsante destro del mouse sul commento nel contenuto e selezionare Accetta modifica o Rifiuta modifica. A seconda della selezione, il commento viene accettato o rifiutato. In caso di commento accettato, il contenuto viene aggiunto al contenuto e, in caso di rifiuto, viene rimosso dal contenuto. Inoltre, lo stato del commento viene modificato nel pannello Revisione.
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs.png){width="800"}
 
   Potete inoltre utilizzare la funzione di revisione nel pannello di destra per accettare o rifiutare i commenti. Facendo clic su un commento, questo viene evidenziato nel documento.
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs.png){width="800"}
 
   >[!IMPORTANT]
   >
@@ -74,4 +74,4 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

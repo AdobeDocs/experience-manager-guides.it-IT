@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3838'
 ht-degree: 0%
@@ -36,21 +36,21 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
 1. Con il file mappa selezionato, fare clic su **Modifica argomenti**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){width="800"}
 
    Oppure, puoi anche selezionare l&#39;opzione **Modifica argomenti** dal menu Azioni del file di mappa:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){width="800"}
 
    Il file di mappa viene aperto per la modifica in nell’Editor web.
 
 1. Fai clic sull&#39;icona **Modifica**.
 
-   ![](images/edit-map-icon.png){width="550" align="left"}
+   ![](images/edit-map-icon.png){width="550"}
 
    La mappa viene aperta nell’interfaccia dell’Editor mappe avanzato. Se hai aperto un nuovo file di mappa, nell’editor viene visualizzato solo il titolo della mappa.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){width="800"}
 
    - **A** - \(*Barra degli strumenti principale*\): simile alla barra degli strumenti principale dell&#39;editor Web. Per ulteriori dettagli, vedi [Barra degli strumenti principale](web-editor-features.md#id2051EA0G05Z) nell&#39;editor Web.
 
@@ -72,7 +72,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    L&#39;argomento viene aggiunto nella mappa.
 
-   ![aggiungi argomento editor mappe](images/map-editor-add-topic.png){width="800" align="left"}
+   ![aggiungi argomento editor mappe](images/map-editor-add-topic.png){width="800"}
 
 1. Per aggiungere argomenti successivi o una mappa secondaria, trascinare l&#39;argomento o la mappa secondaria nella posizione desiderata nella mappa.
 
@@ -80,15 +80,15 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - Il file viene aggiunto in un punto in cui la barra orizzontale viene visualizzata nell&#39;area di modifica delle mappe. Nella schermata seguente, l&#39;argomento *Panoramica* verrà aggiunto tra gli argomenti *Descrizione generale* e *Launch and Landing Site*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350"}
 
    - Per sostituire un argomento, posizionare l&#39;argomento in alto, a sinistra o a destra dell&#39;argomento che si desidera sostituire. Una barra verticale a sinistra o a destra di un argomento indica che verrà sostituito con l&#39;argomento che viene rilasciato su di esso.
 
-     ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550"}
 
      Tuttavia, prima di sostituire un argomento, viene visualizzata una richiesta di conferma. L’argomento viene sostituito solo dopo la conferma.
 
-     ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300"}
 
    - Se si aggiunge una mappa secondaria alla mappa DITA, questa verrà visualizzata come collegamento nella mappa DITA. Per visualizzare tutti gli argomenti della mappa secondaria, fare clic sul collegamento corrispondente. Il contenuto della mappa secondaria viene visualizzato in una nuova scheda. Allo stesso modo, per aprire un argomento dalla mappa DITA, fare clic sul collegamento dell&#39;argomento e aprirlo nella nuova scheda.
 
@@ -96,7 +96,7 @@ Per creare il file di mappa mediante l&#39;Editor mappe avanzato, effettuare le 
 
    - Per modificare la posizione di un argomento, selezionare l&#39;argomento \(facendo clic sull&#39;icona dell&#39;argomento\), quindi trascinarlo nella posizione desiderata nel file di mappa. Verificare che la barra orizzontale sia visibile nel punto in cui si desidera inserire l&#39;argomento. Nella schermata seguente, l&#39;argomento *Launch and Landing Site* viene spostato dopo l&#39;argomento *Overview*.
 
-     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350"}
 
    - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica delle mappe e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione di AEM in uso, puoi visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
@@ -122,7 +122,7 @@ Nella vista Layout potete eseguire le seguenti operazioni:
 **Inserisci riferimento argomento** - ![](images/insert-topic-reference.png)
 
 Visualizza la finestra di dialogo di ricerca dell&#39;argomento. Passare al file argomento/mappa che si desidera inserire e fare clic su Seleziona per aggiungerlo alla mappa.
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){width="800"}
 
 
 **Inserisci gruppo di argomenti** - ![](images/insert-topic-group.png)
@@ -133,7 +133,7 @@ Inserire l&#39;elemento `topicgroup`. Per ulteriori informazioni sul raggruppame
 
 Visualizza la finestra di dialogo Inserisci keydef. Utilizzare questa finestra di dialogo per definire qualsiasi definizione di chiave che si desidera utilizzare nella mappa.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -202,7 +202,7 @@ Mostra il nome del file dei titoli degli argomenti.
 
 Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azioni seguenti utilizzando il menu Opzioni disponibile per un elemento nella vista Layout:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall&#39;Editor mappe:
    - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento. Per ulteriori dettagli, vedere [Creare un argomento](web-editor-features.md#id228ICI0105U) nell&#39;editor Web.
@@ -234,7 +234,7 @@ Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento att
 
 - **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore nella scheda **Visualizza attributi** delle impostazioni dell&#39;editor. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti per i quali l’attributo platform è definito come &quot;Android&quot;.
 
-  ![visualizzazione layout](images/layout-inline-attributes.png){width="650" align="left"}
+  ![visualizzazione layout](images/layout-inline-attributes.png){width="650"}
 
 
   Per ulteriori dettagli, vedere *Attributi di visualizzazione* nella descrizione della funzionalità *Impostazioni editor* nella sezione [Pannello sinistro](web-editor-features.md#id2051EA0M0HS).
@@ -313,7 +313,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
    >
    > È inoltre possibile selezionare il file di mapping DITA nell&#39;interfaccia utente di Assets e fare clic su **Modifica argomenti** nella barra degli strumenti principale per avviare l&#39;editor Web.
 
-   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
+   ![](images/web-editor-map-view_cs.png){width="350"}
 
 1. \(*Facoltativo*\) È inoltre possibile selezionare un argomento dalla mappa ed estrarre il file prima di modificarlo. Per estrarre il file\(s\), selezionare uno o più file dal riquadro di sinistra e fare clic su **Estrai**. Puoi anche rilasciare il blocco su qualsiasi file selezionando il file estratto e facendo clic sull&#39;icona **Annulla estrazione e sblocca** nella vista Mappa.
 
@@ -323,13 +323,13 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    Nella schermata seguente vengono evidenziate le icone per Check-Out e Blocco \(A\), Annulla Check-Out e Sblocca \(B\), Salva come nuova versione e Sblocca \(C\), Modifica \(D\), Anteprima \(E\), icone diverse che mostrano i diversi tipi di file DITA \(F\) e i file estratti \(G\).
 
-   ![](images/file-checkout-map-editor.png){width="550" align="left"}
+   ![](images/file-checkout-map-editor.png){width="550"}
 
 1. Fare clic su un collegamento di argomento per aprirlo nell&#39;editor Web per la modifica.
 
    È possibile aprire più argomenti nell&#39;editor e ogni argomento viene aperto in una nuova scheda nell&#39;editor. Anche se la mappa DITA contiene mappe secondarie, gli argomenti delle mappe secondarie vengono aperti in una nuova scheda per la modifica. Se si desidera visualizzare gli argomenti sotto una mappa secondaria, è possibile fare clic su ed espandere la mappa secondaria.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){width="800"}
 
    Se si fa clic su un file di mappa, la mappa viene aperta in una nuova scheda del browser Web.
 
@@ -337,7 +337,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - Puoi salvarli singolarmente. Se fai clic su **Chiudi senza salvare** i tuoi argomenti, verrà visualizzata una finestra di dialogo in cui ti viene richiesto di salvare gli argomenti non salvati:
 
-     ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550"}
 
      È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
 
@@ -347,44 +347,44 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - È inoltre possibile selezionare e archiviare più argomenti utilizzando il pulsante **Salva come nuova versione e sblocca**. Quando si salva una versione degli argomenti, viene creata una nuova versione per ciascun argomento e viene rilasciato anche il blocco. È inoltre possibile visualizzare l&#39;avanzamento dell&#39;archiviazione degli argomenti nella finestra di dialogo **Salva come nuova versione e sblocca**. Al momento del check-in dei file viene visualizzato un messaggio di operazione riuscita.
 
-   - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. With this option enabled, when you close the editor with changed files, you are shown the list of checked-out files that need to be saved. The checked out files are shown with a lock icon:
+   - Se l&#39;amministratore ha attivato l&#39;opzione di archiviazione dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file estratti. Se questa opzione è attivata, quando si chiude l&#39;editor con i file modificati, viene visualizzato l&#39;elenco dei file estratti che devono essere salvati. I file estratti vengono visualizzati con un&#39;icona di blocco:
 
-     ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550"}
 
-      - Clicking on **Close Without Saving** button closes the files without saving any changes.
+      - Facendo clic sul pulsante **Chiudi senza salvare**, i file vengono chiusi senza salvare le modifiche.
 
-      - Clicking the **Save** button saves the changes, but does not check in the files.
+      - Facendo clic sul pulsante **Salva** le modifiche vengono salvate, ma non vengono archiviati i file.
 
-      - Selecting the **Checking Files** option and then clicking the **Save** button checks in the files \(creates another version\) and also saves the files.
+      - Se si seleziona l&#39;opzione **Verifica file** e si fa clic sul pulsante **Salva**, i file vengono archiviati \(viene creata un&#39;altra versione\) e i file vengono salvati.
 
 
-## Preview a map
+## Visualizzare l’anteprima di una mappa
 
-In addition to be able to see the position of each topic file within a map, it is desirable to see the map content in one consecutive flow. The Preview Map feature allows you to see the entire content of the map file in a single click. You don&#39;t have to generate an output of the map file to see how the entire map will look like once published. You can simply access the map&#39;s preview and all topics and sub-maps are rendered in the form of a book.
+Oltre a poter visualizzare la posizione di ciascun file argomento all&#39;interno di una mappa, è consigliabile visualizzare il contenuto della mappa in un unico flusso consecutivo. La funzione Anteprima mappa consente di visualizzare l&#39;intero contenuto del file mappa con un solo clic. Non è necessario generare un output del file di mappa per vedere come si presenterà l’intera mappa dopo la pubblicazione. Potete semplicemente accedere all&#39;anteprima della mappa e tutti gli argomenti e le mappe secondarie vengono visualizzati sotto forma di libro.
 
-You can access a map&#39;s preview from:
+Puoi accedere all’anteprima di una mappa da:
 
-- **Assets UI**: In the Assets UI, navigate to the map location, select the map file, and choose **Preview Map** in the Toolbar. The map&#39;s preview is shown in a new tab. You can view the content of all topics in the preview mode. In this view, you cannot edit any topic.
+- **Interfaccia utente di Assets**: nell&#39;interfaccia utente di Assets, passare alla posizione della mappa, selezionare il file della mappa e scegliere **Anteprima mappa** nella barra degli strumenti. L’anteprima della mappa viene visualizzata in una nuova scheda. È possibile visualizzare il contenuto di tutti gli argomenti nella modalità anteprima. In questa visualizzazione non è possibile modificare alcun argomento.
 
   >[!NOTE]
   >
-  > If the *Preview Map* option is not visible in the main toolbar, it might have moved under the **More** toolbar menu.
+  > Se l&#39;opzione *Anteprima mappa* non è visibile nella barra degli strumenti principale, potrebbe essere stata spostata nel menu della barra degli strumenti **Altro**.
 
-- **Advanced Map Editor**: In the Advanced Map Editor, click on the Preview icon to see the preview of the current map.
+- **Editor mappe avanzato**: nell&#39;Editor mappe avanzato, fare clic sull&#39;icona Anteprima per visualizzare l&#39;anteprima della mappa corrente.
 
-  ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350"}
 
-  You can perform the following additional tasks in the preview mode:
+  Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
 
-   - Right-click on a topic, and select **Edit** to open the topic for editing in a new tab.
+   - Fare clic con il pulsante destro del mouse su un argomento e selezionare **Modifica** per aprire l&#39;argomento per la modifica in una nuova scheda.
 
      >[!NOTE]
      >
-     > If you don&#39;t have editing rights, then the topic will open in read-only mode.
+     > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
 
-   - Jump to the desired topic by clicking on the topic title in the map tree \(in left panel\).
+   - Passa all’argomento desiderato facendo clic sul titolo dell’argomento nella struttura ad albero della mappa \(nel pannello a sinistra\).
 
-   - The current topic in map preview is also highlighted in the map tree.
+   - L&#39;argomento corrente nell&#39;anteprima della mappa viene evidenziato anche nella struttura della mappa.
 
 
-**Parent topic:** [Work with the Map Editor](map-editor.md)
+**Argomento padre:** [Utilizzare l&#39;editor mappe](map-editor.md)

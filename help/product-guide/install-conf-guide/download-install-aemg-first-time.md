@@ -4,10 +4,11 @@ description: Scopri come scaricare e installare AEM Guides per la prima volta
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 1c4a93c2-e477-4466-8390-3fda21ead9ff
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -31,9 +32,9 @@ Per scaricare e installare AEM Guides per la prima volta, effettua le seguenti o
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione di AEM.
+   Gestione pacchetti gestisce i pacchetti nell’installazione AEM locale. Per ulteriori informazioni sull&#39;utilizzo di Gestione pacchetti, vedere [Come utilizzare i pacchetti](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) nella documentazione di AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Per caricare il pacchetto AEM Guides, fai clic su **Carica pacchetto**.
 
@@ -43,7 +44,7 @@ Per scaricare e installare AEM Guides per la prima volta, effettua le seguenti o
 
 1. Per installare il pacchetto, fare clic su **Installa**.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. Nella finestra di dialogo Installa pacchetto, fai clic su **Installa**.
 

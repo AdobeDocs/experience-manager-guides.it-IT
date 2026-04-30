@@ -4,9 +4,9 @@ description: Scopri come tradurre nuovamente un argomento modificato in AEM Guid
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 
    Se si seleziona la freccia per visualizzare ulteriori dettagli, è possibile visualizzare la copia per lingua non sincronizzata.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. Selezionare la casella di controllo per selezionare gli argomenti che si desidera inviare per la ritraduzione.
 
@@ -53,7 +53,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 
 1. Passa al progetto di traduzione nella console Progetto. Nella cartella viene creata una nuova scheda del processo di traduzione. Seleziona i puntini di sospensione per visualizzare le risorse della cartella.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. Per avviare la traduzione, selezionare la freccia sulla scheda del processo di traduzione e selezionare **Inizio** dall&#39;elenco. Un messaggio notifica l’avvio del processo.
 
@@ -78,4 +78,4 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 1. Tornare al file mappa DITA nella cartella della lingua di origine nell&#39;interfaccia utente di Assets. Gli argomenti ritrascritti ora sono sincronizzati.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Panoramica sulla traduzione dei contenuti](translation.md)
+**Argomento padre:**[ Panoramica sulla traduzione dei contenuti](translation.md)

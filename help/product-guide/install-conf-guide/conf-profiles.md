@@ -4,9 +4,10 @@ description: Scopri come configurare profili globali o a livello di cartella
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5943'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto 
 
 Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è possibile configurare le impostazioni nelle schede seguenti:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Generale**: la scheda Generale è disponibile solo quando si configurano le impostazioni \(o progetto/prodotto\) a livello di cartella. È possibile configurare impostazioni quali i percorsi delle cartelle in cui verranno applicate le impostazioni e gli utenti che disporranno dei diritti di amministratore per creare o aggiornare le configurazioni.
 
@@ -97,7 +98,7 @@ Per configurare il profilo globale, effettua le seguenti operazioni:
 
    Per la prima volta viene visualizzata la pagina Profili cartella con solo il riquadro Profilo globale.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Fai clic sul riquadro **Profilo globale**.
 
@@ -126,7 +127,7 @@ Per configurare un profilo a livello di cartella, effettua le seguenti operazion
 
 1. Fai clic su **Crea**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Immetti i seguenti dettagli nella finestra di dialogo **Crea profilo cartella**:
    - Nome del profilo della cartella.
@@ -221,7 +222,7 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 
    >[!IMPORTANT]
    >
-   > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /apps fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere DTD specializzate in /var/dxml/dita\_resources all&#39;interno della cartella del progetto e di includere il percorso DTD/catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /apps fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere DTD specializzata in /var/dxml/dita\_resources all&#39;interno della cartella del progetto e di includere il percorso DTD/catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Utilizza Gestione pacchetti per scaricare il file /libs/fmdita/config/condAttrList.xml:
 
@@ -241,7 +242,7 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 
    >[!IMPORTANT]
    >
-   > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /etc fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere DTD specializzata in /apps all&#39;interno della cartella del progetto e di includere il percorso DTD/catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
+   > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /etc fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere una DTD specializzata in /apps all&#39;interno della cartella del progetto e di includere il percorso della DTD o del catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
@@ -303,7 +304,7 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
    >
    > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics`, `maps` e `PDF` sottocartelle per memorizzare l&#39;argomento, la mappa e i modelli di PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Aggiungi al tuo profilo i modelli richiesti per argomento, mappa e PDF.
 
@@ -311,7 +312,7 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
 
    - Scegliere **Cerca o Tipo** e immettere o selezionare il nome di un modello dall&#39;elenco a discesa. L’elenco a discesa è costituito da tutti i modelli predefiniti ed eventuali nuovi modelli creati.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Fai clic su **Sfoglia** e seleziona un modello da DAM.
 
@@ -319,7 +320,7 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
 
    I modelli selezionati vengono aggiunti all&#39;elenco dei modelli.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -365,7 +366,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
    >
    > Per impostazione predefinita, tutti i modelli di creazione vengono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics` e `maps` sottocartelle per memorizzare l&#39;argomento e mappare i modelli. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. Aggiungi l’argomento richiesto e mappa i modelli nel tuo profilo.
 
@@ -373,7 +374,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    - Scegliere **Cerca o Tipo** e immettere o selezionare il nome di un modello dall&#39;elenco a discesa. L’elenco a discesa è costituito da tutti i modelli predefiniti ed eventuali nuovi modelli creati.
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - Fai clic su **Sfoglia** e seleziona un modello da DAM.
 
@@ -381,7 +382,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    I modelli selezionati vengono aggiunti all&#39;elenco dei modelli.
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >
@@ -514,7 +515,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati (solo per Cloud Service)
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -536,7 +537,7 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
 
 1. Nella pagina del profilo, seleziona la scheda **Configurazione IA**.
 
-   ![Scheda di configurazione IA nel profilo globale](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Scheda di configurazione IA nel profilo globale](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Seleziona **Modifica**.
 1. In qualità di amministratore, puoi configurare le seguenti impostazioni:
@@ -600,9 +601,9 @@ Per garantire il funzionamento efficace dei suggerimenti avanzati, tieni present
 
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -659,7 +660,7 @@ Le seguenti schede forniscono informazioni in base alla configurazione di Experi
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -679,7 +680,7 @@ Questa impostazione controlla la barra degli strumenti e gli altri elementi dell
 
 >[!TAB On-Premise]
 
-Questa impostazione consente di controllare la barra degli strumenti e gli altri elementi dell&#39;interfaccia utente dell&#39;editor Web. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json più recente sul sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. Fai clic sull&#39;icona **Scarica predefinito** per scaricare il file ui\_config.json predefinito sul sistema locale. È sempre possibile scaricare il file predefinito, apportarvi modifiche e caricarlo.A seconda della posizione in cui si sta caricando il file, nel profilo globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando il file ui\_config.json, vedere [Personalizzare la barra degli strumenti](customize-toolbar.md#).
+Questa impostazione consente di controllare la barra degli strumenti e gli altri elementi dell&#39;interfaccia utente dell&#39;editor Web. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json più recente sul sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. Fai clic sull&#39;icona **Scarica predefinito** per scaricare il file ui\_config.json predefinito sul sistema locale. È sempre possibile scaricare il file predefinito, apportarvi modifiche e caricarlo.A seconda della posizione in cui stai caricando il file, a livello globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando il file ui\_config.json, vedere [Personalizzare la barra degli strumenti](customize-toolbar.md#).
 
 >[!ENDTABS]
 
@@ -747,8 +748,3 @@ Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequen
 **Rootmap**
 
 Se gli autori utilizzano una mappa principale specifica, puoi cercare e selezionare tale mappa qui. Puoi definire la rootmap solo per un profilo a livello di cartella.
-
-
-
-
-

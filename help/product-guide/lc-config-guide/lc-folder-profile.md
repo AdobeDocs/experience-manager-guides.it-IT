@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Per iniziare a configurare il profilo della cartella per i contenuti di apprendi
 
    Puoi creare una nuova cartella dal pannello Archivio.
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **Crea cartelle per lingua per gestire la traduzione**: se traduci il contenuto in lingue diverse, devi creare cartelle corrispondenti a ciascuna lingua. Ognuna di queste cartelle della lingua conterrà il contenuto corrispondente a tale lingua.
 
 3. **Crea una cartella per gestire Assets**: analogamente alle cartelle, puoi anche creare diverse cartelle di Assets per soddisfare le esigenze dei diversi reparti. In questo modo, assicurati anche che gli autori e gli editori abbiano accesso al CSS corretto configurato nei loro modelli, immagini e altre risorse.
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [Crea un profilo di cartella](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) per mappare diverse cartelle.
 5. **Selezionare il profilo di cartella da configurare**: una volta creato il profilo di cartella, è necessario selezionare il profilo di cartella nella pagina [Preferenze utente](../user-guide/intro-home-page.md#user-preferences) per assicurarsi che autori e autori abbiano accesso ai modelli corretti.
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **Configura impostazioni profilo cartella**: per i contenuti di apprendimento e formazione, è possibile configurare le seguenti impostazioni a livello di cartella:
    - [Generale](#general)
@@ -51,7 +51,7 @@ Per accedere a queste impostazioni, passare alla visualizzazione Editor e selezi
 
 Nella scheda Generale, puoi configurare le seguenti impostazioni specifiche per la funzione dei contenuti di formazione e apprendimento del prodotto:
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **Contenuto di apprendimento**: utilizza l&#39;interruttore **Abilita contenuto di apprendimento** per abilitare o disabilitare la funzione a livello di profilo della cartella.
 - **Editor HTML**: questa impostazione consente di configurare l&#39;editor per l&#39;authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
@@ -65,7 +65,7 @@ Questa impostazione controlla i pannelli visualizzati nei pannelli sinistro e de
 
 Per i contenuti di apprendimento e formazione, assicurati che solo le seguenti funzioni siano abilitate per la console Editor e Mappa.
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### Editor
@@ -120,11 +120,11 @@ Per i contenuti di apprendimento e formazione, assicurati che solo le seguenti f
 
 Questa impostazione consente di gestire i modelli di authoring e pubblicazione presenti nel [pannello sinistro dell&#39;editor](../user-guide/web-editor-left-panel.md). Puoi aggiungere, rimuovere o riordinare i modelli di authoring e output, che saranno quindi accessibili agli autori e agli editori.
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 I modelli di authoring sono disponibili in quattro categorie: corso di apprendimento, contenuto di apprendimento, quiz e banca delle domande. Eventuali modelli predefiniti configurati nell’istanza verranno visualizzati per impostazione predefinita.
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### Aggiungi modelli
 
@@ -134,13 +134,13 @@ Per aggiungere un nuovo modello, effettua le seguenti operazioni:
 2. Nella finestra di dialogo Seleziona percorso, seleziona il modello desiderato.
 3. Scegli **Seleziona**.
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 Il modello viene aggiunto nella rispettiva categoria nel pannello Impostazioni.
 
 Allo stesso modo, potete aggiungere gli altri modelli di creazione e di output. Una volta aggiunti, questi modelli vengono resi disponibili agli autori e agli editori nelle rispettive finestre di dialogo del corso. Ad esempio, il modello di corso di apprendimento aggiunto dall’Amministratore sarà disponibile per gli autori quando creano un nuovo corso.
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### Utilizzare nuovi modelli di authoring e output
 
@@ -152,7 +152,7 @@ Per utilizzare una mappa o un modello di argomento diverso, create un nuovo mode
 
 Per ulteriori dettagli, visualizzare [Creare modelli personalizzati dall&#39;editor](../user-guide/create-maps-customized-templates.md).
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **Crea nuovi modelli di output**
 
@@ -162,17 +162,17 @@ Per creare un nuovo modello di output per il contenuto di apprendimento e formaz
 
    Viene visualizzato il pannello Modelli di output.
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. Nel pannello Modelli di output, selezionate (+) per creare un nuovo modello di output.
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. Seleziona un modello di output dal menu a discesa.
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. In base al tipo di modello di output selezionato, viene visualizzata una finestra di dialogo in cui è possibile creare un nuovo modello basato sui modelli disponibili.
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. Seleziona **Crea**.
 
@@ -180,16 +180,16 @@ Per creare un nuovo modello di output per il contenuto di apprendimento e formaz
 
 6. Per accedere e aggiungere il modello di output per gli editori, passa a **Impostazioni** > **Modelli** > **Modelli di output** e seleziona **Aggiungi**.
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    Il modello di output viene visualizzato nella finestra di dialogo Seleziona percorso.
 7. Selezionare il modello e scegliere **Conferma**.
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    Il modello di output selezionato viene ora aggiunto al pannello Impostazioni.
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### Rimuovere o riordinare i modelli
 
@@ -197,11 +197,11 @@ Una volta aggiunti, è possibile rimuovere o riordinare i modelli dal pannello I
 
 Per rimuovere un modello, seleziona l&#39;icona **Rimuovi** accanto al modello.
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 È inoltre possibile definire l&#39;ordine di visualizzazione dei modelli presenti in una categoria. Per modificare l&#39;ordine di visualizzazione dei modelli, selezionare le barre punteggiate e trascinare un modello nella posizione desiderata.
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## Configurare i predefiniti di output
@@ -212,15 +212,15 @@ Per rimuovere un modello, seleziona l&#39;icona **Rimuovi** accanto al modello.
 
 La scheda Predefiniti di output consente di definire i formati di output disponibili per la pubblicazione di un corso. Contiene due sezioni: **Tipi di predefiniti di output consentiti** e **Predefiniti di output comuni**.
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **Tipi di predefiniti di output consentiti**: in questa sezione sono elencati tutti i predefiniti di output supportati nell&#39;istanza di Experience Manager Guides. Per la pubblicazione del corso sono applicabili solo i formati **SCORM** e **PDF**. Puoi selezionare una o entrambe le opzioni. I predefiniti selezionati saranno disponibili per gli editori durante la generazione dell’output del corso.
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **Predefiniti di output comuni**: in questa sezione vengono visualizzati i predefiniti di output comunemente creati e aggiunti dagli editori a un profilo di cartella specifico. È inoltre possibile rimuovere qualsiasi predefinito non più necessario.
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## Gestisci profili di pubblicazione
 
@@ -230,4 +230,4 @@ Puoi creare più profili se devi pubblicare su diversi account SCORM Cloud, gara
 
 Fornisci i dettagli del server insieme all’ID client e al segreto client dell’applicazione cloud SCORM associata per configurare il profilo di pubblicazione per il cloud SCORM.
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -30,18 +30,18 @@ Nella visualizzazione Source viene visualizzato il codice XML sottostante che co
 
 - Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi tag elemento nel punto in cui si desidera inserire il nuovo elemento e immettere &quot;&lt;&quot;. Nell&#39;editor viene visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione. Utilizzare i tasti di direzione per selezionare l&#39;elemento che si desidera inserire e premere Invio. Quando si immette la parentesi quadra di chiusura &quot;\>, il tag di chiusura dell&#39;elemento viene aggiunto automaticamente.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 - Puoi anche modificare facilmente un elemento dalla vista Source. Se ad esempio si modifica il tag di apertura di un elemento `p` in `note`, il tag di chiusura `p` verrà automaticamente modificato in `/note`. Se sostituisci un elemento con un elemento non corretto, viene immediatamente visualizzato l’Errore di convalida.
 
 - Per aggiungere un attributo a un elemento, posizionare il cursore all&#39;interno del tag elemento e premere la barra spaziatrice. Un elenco di attributi validi per tale elemento viene visualizzato nello Smart Catalog. Utilizza i tasti freccia per selezionare l’elemento desiderato e premi Invio per inserirlo. Per specificare un valore per l&#39;attributo, immettere il segno di uguale \(=\) e l&#39;editor immette automaticamente le virgolette di apertura e chiusura &quot;&quot; in cui è possibile specificare il valore dell&#39;attributo.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 - Nella vista Source è disponibile un&#39;opzione Rientro automatico che riorganizza il codice XML in un formato presentabile e facilmente leggibile. Inoltre, se si seleziona un testo e si passa dalla visualizzazione Autore a Source o dalla visualizzazione Source alla visualizzazione Autore, il testo selezionato viene evidenziato anche nell&#39;altra visualizzazione.
 - Un&#39;altra caratteristica avanzata della vista Source è la convalida XML nel documento. Se si apre un documento contenente XML non valido, questo verrà aperto nella visualizzazione Source con le informazioni relative a XML non valido. Ad esempio, nella schermata seguente vengono fornite informazioni esatte sull&#39;XML errato nel pop-up Errore di analisi.
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
 
@@ -101,13 +101,13 @@ Se nell&#39;argomento o nella mappa sono state utilizzate condizioni, queste ven
 
 Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Product`. Il contenuto condizionale viene evidenziato con sfondo giallo.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){width="800"}
 
 ### Visualizzare le revisioni delle revisioni {#id2114BJ00CE8}
 
 Se un documento contiene marcature di revisione \(o indicazioni visive\), è possibile anche visualizzare l&#39;anteprima del documento con o senza tali marcature. Durante l’anteprima di un documento, il pannello di destra contiene le opzioni Filtri e Tracciamento.
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 È possibile scegliere tra tre opzioni di **tracciamento**:
 
@@ -117,7 +117,7 @@ Se un documento contiene marcature di revisione \(o indicazioni visive\), è pos
 
   L&#39;immagine seguente mostra l&#39;anteprima di un file di mappa con le marcature:
 
-  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.PNG){width="800"}
 
 
 ### Esportare un argomento come PDF {#id2114BL00B5U}
@@ -139,7 +139,7 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
 
    Viene visualizzata la finestra di dialogo Esporta come PDF.
 
-   ![](images/export-as-pdf-dialog.png){width="350" align="left"}
+   ![](images/export-as-pdf-dialog.png){width="350"}
 
 1. *\(Facoltativo\)* Specificare il nome della trasformazione DITA-OT ed eventuali argomenti della riga di comando che si desidera utilizzare.
 
@@ -152,4 +152,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Per visualizzare in anteprima un argomento, effettua le seguenti operazioni:
 
 ## Funzioni disponibili in modalità anteprima
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 Nella modalità anteprima della barra degli strumenti puoi eseguire le seguenti operazioni:
 
@@ -49,53 +49,53 @@ La pagina Proprietà contiene informazioni utili sui riferimenti, ad esempio dov
 
 I riferimenti **Usati in** elencano i documenti in cui viene fatto riferimento o utilizzato il file corrente. **Riferimenti in uscita** elenca i documenti a cui si fa riferimento nel documento corrente.
 
-The \(+\) icon in the **Used In** references section allows you to further navigate upwards to find where that topic is being used or referred.
+L&#39;icona \(+\) nella sezione Riferimenti di **Usati in** consente di spostarsi verso l&#39;alto per individuare l&#39;argomento utilizzato o a cui si fa riferimento.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
-Clicking the ![](images/right-arrow-used-in-dialog.svg)icon next to a document shows the map or topic files where that document is being further referred.
+Facendo clic sull&#39;icona ![](images/right-arrow-used-in-dialog.svg) accanto a un documento, vengono visualizzati i file mappa o argomento a cui il documento viene ulteriormente associato.
 
-**Conditional Filtering \(A/B\)**
+**Filtro condizionale \(A/B\)**
 
-If your topic has conditional content, then you will see the A/B icon on the toolbar. Clicking on this icon opens a pop-up that allows you to filter the content as per the available conditions in the topic.
+Se il tuo argomento ha contenuto condizionale, sulla barra degli strumenti verrà visualizzata l’icona A/B. Facendo clic su questa icona si apre un pop-up che consente di filtrare il contenuto in base alle condizioni disponibili nell’argomento.
 
 >[!NOTE]
 >
-> The conditional content is highlighted using light background color in the Web Editor.
+> Il contenuto condizionale viene evidenziato utilizzando il colore di sfondo chiaro nell’editor web.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Modifica**
 
-- Open the topic for editing in the Web Editor. The **Edit** option will not be available if your administrator has enabled the **Disable Edit Without Checkout** option. With the option enabled, you will see the **Edit** option only after checking out a topic file.
+- Aprire l&#39;argomento per la modifica nell&#39;Editor Web. L&#39;opzione **Modifica** non sarà disponibile se l&#39;amministratore ha abilitato l&#39;opzione **Disattiva modifica senza estrazione**. Se l&#39;opzione è attivata, l&#39;opzione **Modifica** verrà visualizzata solo dopo aver estratto un file di argomenti.
 
-**Key Resolution**
+**Risoluzione chiave**
 
-- If you want to use a keyspace file for the topic, click the Key Resolution icon. You can then choose a key space from the Key Resolution pop-up.
+- Se si desidera utilizzare un file keyspace per l&#39;argomento, fare clic sull&#39;icona Risoluzione tasti. Potete quindi scegliere uno spazio chiave dalla finestra a comparsa Risoluzione chiave.
 
 **Origine**
 
-- Open the XML source code of a file. You can view the underlying XML code of a map, topic or DITAVAL file by opening the file in the Preview mode and clicking the Source icon. The XML Source pop-up displays the XML source code. You can select a specific code from the file or press `Ctrl`+`a` to select the entire content.
+- Aprire il codice sorgente XML di un file. Per visualizzare il codice XML sottostante di una mappa, di un argomento o di un file DITAVAL, aprire il file in modalità Anteprima e fare clic sull&#39;icona Source. Nel pop-up Source XML viene visualizzato il codice sorgente XML. È possibile selezionare un codice specifico dal file oppure premere `Ctrl`+`a` per selezionare l&#39;intero contenuto.
 
   >[!NOTE]
   >
-  > To get the source code view of a DITA map file, select the file in Assets UI and click Source.
+  > Per visualizzare il codice sorgente di un file di mappa DITA, selezionare il file nell&#39;interfaccia utente di Assets e fare clic su Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
-**Share UUID Link**
+**Condividi collegamento UUID**
 
-- AEM Guides allows you to share the UUID-based links for DITA maps, topics, and image files from the following places:
+- AEM Guides consente di condividere i collegamenti basati su UUID per mappe DITA, argomenti e file di immagini dalle seguenti posizioni:
 
-   - Assets UI
-   - DITA map&#39;s console
-   - Topic or image&#39;s Preview
+   - Interfaccia utente di Assets
+   - Console della mappa DITA
+   - Anteprima argomento o immagine
 
-A new option **Share UUID Link** is shown in the toolbar of the above-mentioned areas. The following screenshot shows the **Share UUID Link** option in the Preview mode of a topic:
+Una nuova opzione **Condividi collegamento UUID** è visualizzata nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra l&#39;opzione **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
-In the Asset UI, this option is visible when you select a file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
+Nell’interfaccia utente Assets, questa opzione è visibile quando selezioni un file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
 
 Una volta copiato l’URL, lo stesso può essere condiviso con altri utenti per consentire loro di accedere direttamente al file. Questo collegamento rimane valido anche quando il file viene spostato in un’altra posizione nell’archivio. L’unica volta che il collegamento non riesce è quando il file viene eliminato dal repository.
 
@@ -113,15 +113,15 @@ Quando si estrae un argomento, lo stato del file viene visualizzato come estratt
 
 File estratto nella vista a schede:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 File estratto nella visualizzazione elenco:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** in **Visualizzazione elenco** e selezionare lo stato **Estratto** nella finestra di dialogo **Configura colonne**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
    1. Nella barra a sinistra, fai clic su **Cronologia versioni** e seleziona una versione.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e fare clic su **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
    1. Nell&#39;elenco **Mostra differenze** selezionare la versione con cui si desidera confrontare la versione di base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       Il contenuto modificato viene evidenziato nell’anteprima dell’argomento. Il contenuto evidenziato in verde indica che il contenuto appena aggiunto e il contenuto in rosso quello eliminato.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### Branch, ripristino e versioni successive {#id193PG0Y051X}
@@ -190,7 +190,7 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
    1. Seleziona una versione da cui desideri creare un ramo. Nella schermata seguente, è selezionata la versione 1.2 per la creazione di un ramo.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -204,19 +204,19 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
       - Se selezioni questa opzione, viene creato un ramo dalla versione 1.1. Viene inoltre creata una nuova versione dell&#39;argomento dalla copia di lavoro corrente dell&#39;argomento e salvata come versione successiva, ovvero 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         La versione 1.2 diventa la copia corrente dell&#39;argomento. Qualsiasi versione salvata dopo questa viene creata nel nuovo ramo di 1.1. Ad esempio, la versione successiva di un nuovo argomento in questo ramo verrà salvata come 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Se non si seleziona questa opzione, non verrà creata alcuna nuova versione dalla copia di lavoro corrente dell&#39;argomento. Dalla versione 1.2 dell’argomento viene creato un nuovo ramo. Qualsiasi versione successiva dell’argomento viene salvata nel ramo 1.2 come 1.2.0, 1.2.1 e così via.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Fai clic su **OK**.
 
 
   Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo report, vedere [Report cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
-**Argomento padre:**&#x200B;[&#x200B; Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

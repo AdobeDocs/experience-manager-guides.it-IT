@@ -3,9 +3,10 @@ title: Pannello di ricerca nell’interfaccia dell’editor
 description: Scopri come utilizzare il pannello Ricerca nell’interfaccia dell’editor.
 feature: Authoring
 role: User
-source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
 - **Interfaccia editor**: selezione dell&#39;**icona di ricerca** dal **pannello Esplora risorse** o utilizzo della **icona di ricerca** nell&#39;angolo inferiore sinistro dell&#39;**area di modifica dei contenuti**. Per ulteriori dettagli, visualizzare [Cerca nel pannello Esplora risorse](#search-from-the-explorer-panel).
 
-  ![](images/search-icon-editor.png){align="left"}
+  ![](images/search-icon-editor.png)
 
 - **Home page**: utilizzo dell&#39;opzione **Mostra nel pannello di ricerca** durante la navigazione dall&#39;interfaccia dell&#39;archivio nella home page. Per visualizzare i dettagli, [Cerca nell&#39;archivio](#search-from-the-repository-interface-on-the-home-page).
 
-  ![](images/search-panel-repo.png){align="left"}
+  ![](images/search-panel-repo.png)
 
 ## Vantaggi chiave
 
@@ -34,27 +35,27 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
 Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set di file per visualizzare un sottoinsieme di file rilevanti necessari. Per cercare i file da Esplora risorse, effettua le seguenti operazioni:
 
-1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto **&#x200B;**. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
+1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto ****. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
 
    >[!NOTE]
    >
    >Se sono già presenti alcuni risultati di ricerca della sessione corrente, selezionando l&#39;icona **Cerca** in Esplora risorse o quella in basso a sinistra nell&#39;area di modifica del contenuto si aprirà semplicemente il pannello che mostra i risultati precedenti. Per aggiornare o perfezionare le ricerche, selezionare **Modifica ricerca**.
 
-   ![](images/search-repo-dialog.png){align="left"}
+   ![](images/search-repo-dialog.png)
 
 2. Esegui la ricerca e applica i filtri necessari. Per istruzioni dettagliate sulle opzioni di ricerca e filtro, visualizza [Esperienza di ricerca e filtro](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Una volta completata la ricerca, seleziona **Mostra nel pannello di ricerca**. Le ricerche recenti verranno quindi visualizzate nel pannello Ricerca nella parte inferiore dell’Editor.
 
-   ![](images/show-search-explorer.png){align="left"}
+   ![](images/show-search-explorer.png)
 
 4. Per aggiornare i risultati della ricerca, selezionare l&#39;opzione **Modifica ricerca** nel pannello Ricerca e aggiornare i criteri per ottenere nuovi risultati.
 
-   ![](images/modify-search.png){align="left"}
+   ![](images/modify-search.png)
 
 Una volta visualizzati i risultati della ricerca nel pannello Ricerca, potete utilizzarli aprendo e modificando uno o più file direttamente dal pannello oppure trascinando i file selezionati in un argomento o una mappa esistente per aggiungere riferimenti.
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 ## Effettua ricerche dall’interfaccia dell’archivio nella pagina Home
 
@@ -62,13 +63,4 @@ Quando si esegue una ricerca e si applicano filtri nell&#39;interfaccia dell&#39
 
 Dal pannello Ricerca, puoi **trascinare e rilasciare** file nell&#39;argomento corrente per allegare facilmente i riferimenti o modificare più file contemporaneamente. Inoltre, puoi perfezionare i risultati della ricerca utilizzando l&#39;opzione **Modifica ricerca** disponibile nel pannello Ricerca.
 
-![](images/search-panel-from-home.png){align="left"}
-
-
-
-
-
-
-
-
-
+![](images/search-panel-from-home.png)

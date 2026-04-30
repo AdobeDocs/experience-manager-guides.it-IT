@@ -4,9 +4,9 @@ description: Scopri come aggiungere tag avanzati in AEM Guides. Utilizzare lo st
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 1. Aprire l&#39;argomento in modalità Anteprima e selezionare **Rielabora Assets** icona dalla barra degli strumenti principale.
 1. Selezionare Estrai parole chiave XML per estrarre le parole chiave rilevanti.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Selezionare l&#39;opzione Esegui post-elaborazione. Viene visualizzato un messaggio quando lo strumento viene avviato correttamente.
 1. I tag vengono estratti automaticamente e possono essere visualizzati nella pagina Proprietà dell&#39;argomento selezionato.
 
-   ![](images/properties-smart-tags.png){align="left"}
+   ![](images/properties-smart-tags.png)
 
    >[!NOTE]
    >
@@ -39,4 +39,4 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)
+**Argomento padre:**[ Gestisci metadati](manage-metadata.md)

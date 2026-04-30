@@ -4,9 +4,9 @@ description: Scopri come creare e modificare i file DITAVAL utilizzando l’Edit
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I file DITAVAL vengono utilizzati per generare output condizionale. In un singolo argomento, puoi aggiungere condizioni utilizzando gli attributi dell’elemento per condizionare il contenuto. Quindi, create un file DITAVAL in cui specificate le condizioni che devono essere selezionate per generare il contenuto e quali condizioni devono essere escluse dall&#39;output finale.
 
-Adobe Experience Manager Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi (che possono essere utilizzati come condizioni) definiti nel sistema ed è possibile utilizzarli per creare o modificare i file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione delle condizioni in Adobe Experience Manager, visualizzare la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=it) nella documentazione di Adobe Experience Manager.
+Adobe Experience Manager Guides consente di creare e modificare facilmente i file DITAVAL mediante l&#39;editor DITAVAL. L&#39;editor DITAVAL recupera gli attributi (che possono essere utilizzati come condizioni) definiti nel sistema ed è possibile utilizzarli per creare o modificare i file DITAVAL. Per ulteriori dettagli sulla creazione e la gestione delle condizioni in Adobe Experience Manager, visualizzare la sezione [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) nella documentazione di Adobe Experience Manager.
 
 Nelle sezioni seguenti vengono descritte le opzioni disponibili per un file DITAVAL in Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Per creare un file DITAVAL, effettuate le seguenti operazioni:
 
 1. Nel pannello Archivio, seleziona l&#39;icona **Nuovo file**, quindi seleziona **Argomento** dal menu a discesa.
 
-   ![](images/new-file-option.png){width="350" align="left"}
+   ![](images/new-file-option.png){width="350"}
 
    È inoltre possibile accedere a questa opzione dalla [home page di Experience Manager Guides](./intro-home-page.md) e dal menu delle opzioni di una cartella nella visualizzazione Archivio.
 
@@ -42,14 +42,14 @@ Per creare un file DITAVAL, effettuate le seguenti operazioni:
    - Modello su cui verrà basato l&#39;argomento. Per un file DITAVAL, selezionare **Ditaval** dall&#39;elenco a discesa.
    - Percorso in cui salvare il file dell&#39;argomento. Per impostazione predefinita, il percorso della cartella attualmente selezionata nell’archivio viene visualizzato nel campo Percorso.
 
-   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350"}
 
 
 4. Seleziona **Crea**.
 
 L&#39;argomento viene creato nel percorso specificato. Inoltre, l’argomento viene aperto nell’Editor per la modifica.
 
-![](images/ditaval-file-editor.png){align="left"}
+![](images/ditaval-file-editor.png)
 
 ## Modifica file DITAVAL
 
@@ -68,7 +68,7 @@ Per ulteriori dettagli, visualizza [Opzioni menu a discesa](./web-editor-toolbar
 
 Aggiungi una singola proprietà nel file DITAVAL.
 
-![](images/ditaval-editor-props-new.png){width="650" align="left"}
+![](images/ditaval-editor-props-new.png){width="650"}
 
 Nel primo elenco a discesa sono elencati gli attributi DITA consentiti che è possibile utilizzare nel file DITAVAL.
 
@@ -78,7 +78,7 @@ Il secondo elenco a discesa mostra i valori configurati per l’attributo selezi
 
 Per aggiungere un numero di revisione specifico a un tag in XML, puoi utilizzare l’opzione Add rev prop. Questo aggiunge un attributo di revisione al tag, con il valore definito nel campo Valore insieme all’azione selezionata per la proprietà. Questo attributo di revisione può essere utilizzato in seguito per filtrare il contenuto XML pertinente in base al numero di revisione specificato durante la generazione dell’output.
 
-![](images/ditaval-rev-props.png){width="650" align="left"}
+![](images/ditaval-rev-props.png){width="650"}
 
 #### Aggiungi tutte le proprietà
 
@@ -89,7 +89,7 @@ Per aggiungere tutte le proprietà condizionali o gli attributi definiti nel sis
 > Se tutte le proprietà condizionali definite esistono già nel file DITAVAL, non è possibile aggiungere altre proprietà. Viene visualizzato un messaggio di errore in questo scenario.
 
 
-![](images/ditaval-all-props-new.png){width="650" align="left"}
+![](images/ditaval-all-props-new.png){width="650"}
 
 
 
@@ -106,41 +106,41 @@ Per una determinata proprietà sono disponibili principalmente quattro azioni el
 **Aggiungi flag:** Per contrassegnare il contenuto nell&#39;output, è possibile impostare il contrassegno come azione per l&#39;attributo desiderato nel file. Puoi anche applicare stili di flag diversi utilizzando il menu a discesa **Stile flag** come mostrato nel frammento di seguito.
 
 
-![](images/ditaval-flag-style.png){width="650" align="left"}
+![](images/ditaval-flag-style.png){width="650"}
 
 
 - **Colore di sfondo**: selezionare la tonalità, la saturazione e il contrasto dal colore di sfondo. Il valore HEX corrispondente viene aggiornato automaticamente in base alla selezione. È inoltre possibile cambiare il formato dello spazio colore utilizzando il menu a discesa per scegliere tra HEX, RGB e HSB.
 
 
-  ![](images/ditaval-background-color.png){width="350" align="left"}
+  ![](images/ditaval-background-color.png){width="350"}
 
 
 
 - **Colore testo**: selezionare la tonalità, la saturazione e il contrasto dal colore Testo. Il valore HEX corrispondente viene aggiornato automaticamente in base alla selezione. È inoltre possibile cambiare il formato dello spazio colore utilizzando il menu a discesa per scegliere tra HEX, RGB e HSB.
 
 
-  ![](images/ditaval-text-color.png){width="350" align="left"}
+  ![](images/ditaval-text-color.png){width="350"}
 
 
 
 - **Opzioni di stile**: è possibile aggiungere alcune opzioni di stile come Grassetto, Corsivo, Sottolineato, Sovrapposto, Doppio sottolineato.
 
 
-  ![](images/ditaval-styling-option.png){width="350" align="left"}
+  ![](images/ditaval-styling-option.png){width="350"}
 
 
 
 - **Flag iniziale e finale**: è possibile inserire immagini come flag iniziale e finale utilizzando il pulsante **Aggiungi flag**. Per scegliere le immagini, utilizzare **Sfoglia Assets** per effettuare la selezione dall&#39;archivio Guide o **Aggiungi file** per il caricamento dal sistema locale. È inoltre possibile specificare testo alternativo per le immagini.
 
 
-  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350"}
 
 
 
 - **Conflitto di stili**: risolve i conflitti che si verificano quando un singolo elemento contiene più proprietà con stili di contrassegno diversi. In questi casi, viene selezionato il valore definito nelle proprietà dei conflitti di stile, che funge da selettore di valori predefinito per i colori dello sfondo e del testo.
 
 
-  ![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650"}
 
 
 #### Informazioni sulla versione e Salva come nuova versione
@@ -167,11 +167,11 @@ Dopo aver modificato il file DITAVAL, seleziona **Salva** nella barra delle sche
 
 L’editor DITAVAL di Adobe Experience Manager Guides supporta la visualizzazione dei file DITAVAL in due diverse modalità o visualizzazioni:
 
-**Autore**:   Questa è una tipica visualizzazione di What You See is What You Get \(WYSISYG\) dell&#39;editor DITAVAL. Puoi aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i relativi valori e le azioni nell’elenco a discesa. Nella vista Autore sono disponibili le opzioni per inserire una singola proprietà e tutte le proprietà con un solo clic.
+**Autore**: si tratta di una visualizzazione tipica di What You See is What You Get (WYSISYG\) dell&#39;editor DITAVAL. Puoi aggiungere o rimuovere proprietà utilizzando la semplice interfaccia utente, che presenta le proprietà, i relativi valori e le azioni nell’elenco a discesa. Nella vista Autore sono disponibili le opzioni per inserire una singola proprietà e tutte le proprietà con un solo clic.
 
 Per trovare la versione del file DITAVAL su cui si sta attualmente lavorando, posizionare il puntatore del mouse sul nome del file.
 
-**Source**:   Nella vista Source viene visualizzato il codice XML sottostante che costituisce il file DITAVAL. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando Smart Catalog.
+**Source**: nella visualizzazione Source viene visualizzato l&#39;XML sottostante che costituisce il file DITAVAL. Oltre a eseguire modifiche regolari del testo in questa visualizzazione, un autore può anche aggiungere o modificare proprietà utilizzando Smart Catalog.
 
 Per richiamare lo Smart Catalog, posizionare il cursore alla fine di qualsiasi definizione di proprietà e immettere &quot;&lt;&quot;. Nell&#39;editor verrà visualizzato un elenco di tutti gli elementi XML validi che è possibile inserire in tale posizione.
 

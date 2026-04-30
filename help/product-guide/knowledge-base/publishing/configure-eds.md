@@ -4,10 +4,11 @@ description: Scopri in che modo Edge Delivery Services (Beta) estende le possibi
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
+exl-id: a4623088-a867-4079-80d6-20866c99683e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 0%
+source-wordcount: '1613'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ Per abilitare la pubblicazione da Experience Manager Guides a EDS (Beta), devi c
 2. [Creare e configurare un profilo di pubblicazione per EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personalizzare l’output utilizzando i blocchi EDS](#customize-output-using-eds-blocks)
 
-Per una procedura dettagliata e rapida, visualizza [Pubblicazione in AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Per una procedura dettagliata e rapida, visualizza [Pubblicazione in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -38,15 +39,15 @@ EDS (Beta) richiede un archivio GitHub con una struttura predefinita. Adobe forn
 Per creare l’archivio, effettua le seguenti operazioni:
 
 1. Aprire l&#39;archivio modelli standard di Experience Manager Guides [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate).
-   ![](assets/eds-boilerplate-template.png){align="left"}
+   ![](assets/eds-boilerplate-template.png)
 
 2. Crea un nuovo archivio utilizzando questo modello. Scopri come [creare un archivio da un modello](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Verificare che la visibilità dell&#39;archivio sia impostata su *Pubblico* in modo che sia accessibile da EDS.
 
-   ![](assets/eds-create-new-repo.png){align="left"}
+   ![](assets/eds-create-new-repo.png)
 
 L’archivio viene ora creato e allineato con la struttura del modello standard.
 
-![](assets/eds-repo-created-github-view.png){align="left"}
+![](assets/eds-repo-created-github-view.png)
 
 ### Collegare GitHub ad Adobe tramite AEM Code Sync
 
@@ -61,15 +62,15 @@ Per installare e configurare l&#39;applicazione *AEM Code Sync*, effettuare le s
    >
    > Durante l’installazione dell’applicazione, assicurati di utilizzare lo stesso account GitHub a cui appartiene l’archivio.
 
-   ![](assets/eds-aem-code-sync-page.png){align="left"}
+   ![](assets/eds-aem-code-sync-page.png)
 3. Nella pagina successiva, concedi l’accesso all’archivio creato. A questo scopo, seleziona l&#39;opzione **Seleziona solo archivi**, quindi seleziona il tuo archivio dal menu a discesa.
 
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350" align="left"}
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
 4. Selezionare **Installa e autorizza**.
 
 Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della corretta registrazione dell&#39;applicazione *AEM Code Sync*. Puoi anche salvare gli URL di anteprima e live del sito web da questa pagina.
 
-![](assets/eds-aem-code-sync-registered.png){align="left"}
+![](assets/eds-aem-code-sync-registered.png)
 
 ### Creare una nuova app GitHub
 
@@ -77,7 +78,7 @@ Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della
 2. Nella barra laterale sinistra, seleziona **App GitHub**.
 3. Seleziona **Nuova app GitHub**.
 
-   ![](assets/eds-new-github-app.png){width="650" align="left"}
+   ![](assets/eds-new-github-app.png){width="650"}
 4. Nella pagina **Registra nuova app GitHub**, fornisci i dettagli seguenti:
    - **Nome app GitHub**: immetti un nome per l&#39;app. Ad esempio, `USERNAME-eds-app` dove USERNAME è il tuo nome utente GitHub.
    - **URL home page**: immettere l&#39;URL dell&#39;istanza di Experience Manager Guides.
@@ -92,7 +93,7 @@ Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della
 
 L&#39;app è ora pronta. Sei stato reindirizzato alla pagina **Impostazioni** dell&#39;app GitHub.
 
-![](assets/eds-github-app-registered-page.png){align="left"}
+![](assets/eds-github-app-registered-page.png){}
 
 ### Crea una nuova app OAuth
 
@@ -104,18 +105,18 @@ Per creare una nuova app OAuth, effettua le seguenti operazioni:
 2. Nella barra laterale sinistra, seleziona **App OAuth**.
 3. Seleziona **Nuova app OAuth**.
 
-   ![](assets/eds-new-oauth-app.png){width="650" align="left"}
+   ![](assets/eds-new-oauth-app.png){width="650"}
 4. Registra l’applicazione fornendo i seguenti dettagli obbligatori:
    - **Nome applicazione**: immettere il nome dell&#39;archivio EDS
    - **URL home page**: immettere l&#39;URL dell&#39;istanza di Experience Manager Guides. Per il formato URL di esempio, fare riferimento al passaggio 4 della sezione [Creare una nuova app GitHub](#create-a-new-github-app).
    - **URL callback di autorizzazione**: uguale all&#39;URL della home page
 5. Selezionare l&#39;opzione **Abilita flusso dispositivo**, quindi selezionare **Registra applicazione** per completare la registrazione.
 
-   ![](assets/eds-new-github-app-register.png){width="650" align="left"}
+   ![](assets/eds-new-github-app-register.png){width="650"}
 
 L&#39;app è ora pronta. Annota l&#39;*ID client*. Puoi generare fino a cinque *segreti client* ora o in seguito durante la configurazione del profilo di pubblicazione in Experience Manager Guides.
 
-![](assets/eds-new-oauth-app-page.png){align="left"}
+![](assets/eds-new-oauth-app-page.png)
 
 
 ### Configurare l’URL del punto di montaggio nell’archivio EDS (Beta)
@@ -132,14 +133,14 @@ Per configurare l&#39;URL del punto di attivazione nel file `fstab.yaml`:
    >
    > Nell&#39;URL del punto di attivazione, `main` indica il ramo in cui si desidera pubblicare il contenuto e `docs` indica la cartella principale dell&#39;archivio EDS (Beta) su cui si sta lavorando. Se preferisci modificare il nome del ramo in GitHub, devi aggiornare lo stesso nome di ramo nell&#39;URL *punto_att* (nel file `fstab.yaml`) e nel profilo di pubblicazione EDS corrispondente in Experience Manager Guides.
 
-   ![](assets/eds-fstab-yaml-file.png){width="650" align="left"}
+   ![](assets/eds-fstab-yaml-file.png){width="650"}
 2. Seleziona **Commit changes**, immetti i dettagli del commit e conferma.
 3. Torna a [Impostazioni sviluppatore](https://github.com/settings/apps), individua l&#39;app e seleziona **Modifica**.
 
-   ![](assets/eds-edit-github-app.png){width="650" align="left"}
+   ![](assets/eds-edit-github-app.png){width="650"}
 4. Passare alla pagina **Installa app** e selezionare **Installa**.
 
-   ![](assets/eds-install-eds-app.png){width="650" align="left"}
+   ![](assets/eds-install-eds-app.png){width="650"}
 5. Ripeti i passaggi 2 e 3 dalla sezione [Connetti GitHub ad Adobe tramite AEM Code Sync](#connect-github-to-adobe-via-aem-code-sync) per autorizzare l&#39;archivio.
 
 ## Creare e configurare un profilo di pubblicazione per EDS (Beta) in Experience Manager
@@ -159,7 +160,7 @@ Le sezioni seguenti descrivono ogni passaggio in sequenza e spiegano come impost
    - **ID client e segreto client**: recuperali dall&#39;app GitHub. Per ulteriori informazioni, consulta [Creare una nuova app OAuth](#create-a-new-oauth-app).
 3. Seleziona **Accesso** per eseguire l&#39;autenticazione.
 
-   ![](assets/eds-publish-profile.png){width="650" align="left"}
+   ![](assets/eds-publish-profile.png){width="650"}
 4. Al completamento dell&#39;autenticazione, selezionare **Salva**.
 
 Il profilo di pubblicazione EDS (Beta) è ora configurato.
@@ -173,14 +174,14 @@ Il profilo di pubblicazione EDS (Beta) è ora configurato.
    - **Nome**: specifica un nome per questo predefinito
 4. Seleziona **Aggiungi**.
 
-   ![](assets/eds-output-preset.png){width="650" align="left"}
+   ![](assets/eds-output-preset.png){width="650"}
 5. Apri il predefinito di output EDS (Beta) appena creato e passa alla scheda **Config**.
    - Seleziona il profilo di pubblicazione creato nel passaggio precedente.
    - Abilita **Push to live**.
 
    Quando **Invia a live** è abilitato, l&#39;output generato viene confermato in GitHub e gli aggiornamenti corrispondenti vengono propagati immediatamente al sito Web live.
 
-   ![](assets/eds-output-preset-config-tab.png){width="650" align="left"}
+   ![](assets/eds-output-preset-config-tab.png){width="650"}
 
 6. Selezionare **Salva**, quindi **Genera output**.
 
@@ -190,7 +191,7 @@ Il profilo di pubblicazione EDS (Beta) è ora configurato.
 
 Viene ora generato l’output EDS (Beta). Il contenuto viene presentato in un layout pulito e reattivo. Include elementi regolari come il titolo della pagina, le breadcrumb, il contenuto del corpo e tutti i blocchi utilizzati nell’argomento. Il sommario a sinistra (generato dalla mappa) consente di navigare tra gli argomenti, mentre un mini-sommario a destra evidenzia le sezioni all’interno della pagina corrente. L’intero output è completamente reattivo, garantendo un’esperienza di lettura ottimizzata e coerente tra i dispositivi.
 
-![](assets/eds-site-output.png){align="left"}
+![](assets/eds-site-output.png)
 
 ## Personalizzare l’output utilizzando i blocchi EDS
 
@@ -207,7 +208,7 @@ Per personalizzare un blocco di breadcrumb per aggiornarne il colore del testo, 
 1. Vai all&#39;archivio GitHub e apri la cartella `blocks`.
 2. Seleziona il blocco **breadcrumb**.
 
-   ![](assets/eds-breadcrumbs.png){width="650" align="left"}
+   ![](assets/eds-breadcrumbs.png){width="650"}
 3. Aprire il file `css` e aggiornare il colore del testo.
 4. Apporta le modifiche a GitHub.
 5. Aggiorna il sito web live per visualizzare gli aggiornamenti.
@@ -219,22 +220,22 @@ In alcuni casi, potrebbe essere utile applicare uno stile solo a una parte speci
 1. Aprire il file dell&#39;argomento e selezionare il testo all&#39;interno di un elemento tag.
 
    Nella schermata seguente, il contenuto all&#39;interno del tag `example` è selezionato.
-   ![](assets/eds-example-tag-org-output.png){width="650" align="left"}
+   ![](assets/eds-example-tag-org-output.png){width="650"}
 2. Per configurare il testo all&#39;interno del tag `example`:
    - Passa a **Proprietà contenuto**.
    - Aggiungi l&#39;attributo `outputclass`.
    - Imposta il relativo valore su `example eds-force-block`.
    - Seleziona **Aggiungi**.
-     ![](assets/eds-example-tag.png){width="650" align="left"}
+     ![](assets/eds-example-tag.png){width="650"}
 3. Salvate e rigenerate l&#39;output.
 4. Creare una nuova cartella con lo stesso nome di `outputclass` nella directory `blocks`. Scopri come [aggiungere file a un repository](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).
 
-   ![](assets/eds-example-folder.png){width="650" align="left"}
+   ![](assets/eds-example-folder.png){width="650"}
 5. Aggiungere i file richiesti `css` e facoltativi `js`.
 
-   ![](assets/eds-example-folder-subfolders.png){width="650" align="left"}
+   ![](assets/eds-example-folder-subfolders.png){width="650"}
 6. Eseguire il commit delle modifiche e rigenerare l&#39;output.
 
 Il contenuto selezionato ora visualizza lo stile personalizzato definito nel blocco.
 
-![](assets/eds-example-output.png){width="650" align="left"}
+![](assets/eds-example-output.png){width="650"}

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 0%
@@ -27,7 +27,7 @@ AEM Guides fornisce la funzione Baseline integrata nell’Editor web che consent
 1. Nel pannello Repository, aprire il file mappa DITA in Vista mappa.
 1. Fare clic sulla scheda **Gestisci**. Nel pannello **Baseline** vengono visualizzate le baseline della mappa DITA.
 
-   ![Pannello linea di base](images/baseline-manage.png){width="800" align="left"}
+   ![Pannello linea di base](images/baseline-manage.png){width="800"}
 
 1. Nel pannello **Baseline**, seleziona l&#39;icona + in alto a destra per iniziare a creare una baseline.
 1. Immettere un nome per la baseline in **Nome**.
@@ -59,7 +59,7 @@ AEM Guides fornisce la funzione Baseline integrata nell’Editor web che consent
 
    Le baseline create mediante la configurazione di aggiornamento automatico vengono aggiornate in modo dinamico. Se si genera una baseline, si scarica una baseline o si crea un progetto di traduzione utilizzando una baseline, i file vengono selezionati in modo dinamico in base alle etichette aggiornate. Ad esempio, se è stata utilizzata la versione 1.2 di un argomento con Label Release 1.0 per la baseline e successivamente è stata aggiornata la versione 1.5 con Label Release 1.0, la baseline verrà aggiornata dinamicamente e verrà utilizzata la versione 1.5.
 
-   ![Creare una previsione](images/dynamic-baseline.png){width="300" align="left"}
+   ![Creare una previsione](images/dynamic-baseline.png){width="300"}
 
    - **Etichette**: se per gli argomenti sono state specificate etichette, utilizzare il menu a discesa **Etichette** per scegliere tra le [etichette elencate](#labels-list).
 Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
@@ -68,7 +68,7 @@ Alle etichette selezionate per prime viene assegnata una priorità maggiore risp
      >
      >Quando le etichette vengono estratte, viene visualizzato un caricatore e il menu a discesa è disattivato.
 
-     Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se hai creato le etichette   `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A ed etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento B. È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, è possibile visualizzare `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` nel menu a discesa delle etichette della linea di base dinamica.
+     Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se sono state create le etichette `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e le etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento B. È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, è possibile visualizzare `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` nel menu a discesa delle etichette della linea di base dinamica.
 
 1. **Riferimenti indiretti**: per i riferimenti indiretti all&#39;interno della mappa DITA, sono disponibili le seguenti opzioni:
 
@@ -94,7 +94,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
   >
   >L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
 
-  ![opzioni di una previsione](images/baseline-options.png){width="800" align="left"}
+  ![opzioni di una previsione](images/baseline-options.png){width="800"}
 
 
 
@@ -103,7 +103,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 ### Duplicare una baseline
 
 È possibile duplicare una baseline e modificarla in base alle proprie esigenze.
-![duplicare una baseline](images/baseline-duplicate.png){width="300" align="left"}
+![duplicare una baseline](images/baseline-duplicate.png){width="300"}
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 
 1. Selezionare **Duplica** dal menu Opzioni di una baseline. Viene visualizzata la finestra di dialogo **Duplica baseline**.
@@ -140,7 +140,7 @@ Le etichette elencate nel menu a discesa si basano sui seguenti criteri:
 
 Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibile applicare filtri alla linea di base aperta nella finestra di modifica della linea di base:
 
-![filtri linea di base](images/baseline-filter.png){width="300" align="left"}
+![filtri linea di base](images/baseline-filter.png){width="300"}
 
 - Filtra i file in base ai nomi o alla posizione.
 - Filtrare i file in base ai valori per colonne diverse, ad esempio Tipo file, Tipo riferimento e così via.
@@ -154,4 +154,4 @@ Utilizzando l&#39;icona Filtri nel pannello **Filtri linea di base** è possibil
 
 Dopo aver modificato la previsione, è possibile fare clic sul pulsante **Salva** nella parte superiore per salvare le modifiche apportate alla previsione. Se non si desidera salvare la modifica e ripristinare la previsione, è possibile fare clic sul pulsante **Reimposta**. Facendo clic sul pulsante **Reimposta** viene visualizzato un avviso che segnala la perdita delle modifiche non salvate.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

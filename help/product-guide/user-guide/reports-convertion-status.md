@@ -4,9 +4,9 @@ description: Converte documenti di formati diversi in DITA in AEM Guides. Scopri
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
    Viene visualizzato il Rapporto sullo stato della conversione per tutti i task di conversione eseguiti sul sistema.
 
-   ![](images/conversion-status-report-new.png){align="left"}
+   ![](images/conversion-status-report-new.png)
 
 1. La pagina del rapporto è divisa in due parti:
 
@@ -35,7 +35,7 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
 
      La schermata seguente mostra i dati del rapporto per le attività di conversione con stato Completato.
 
-     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png)
 
    - **Dati report:**
 
@@ -56,4 +56,4 @@ Per visualizzare il rapporto Stato conversione, effettuare le seguenti operazion
       - **Output**: percorso del documento convertito. Selezionando sul collegamento Output si raggiunge la posizione in cui viene salvato l’output.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

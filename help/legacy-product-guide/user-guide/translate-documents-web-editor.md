@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
 1. In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella. I gruppi di lingue visualizzano le cartelle della lingua insieme ai relativi codici di lingua. Ad esempio, il gruppo di lingue denominato G1 contiene le cartelle di lingua italiana \(it\), tedesca \(de\), francese \(fr\) e inglese \(en\).
 
-   ![pannello di traduzione](images/translation-languages.png){width="300" align="left"}
+   ![pannello di traduzione](images/translation-languages.png){width="300"}
 
    *Selezionare i gruppi di lingue o le lingue in cui tradurre i documenti.*
 
@@ -93,11 +93,11 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    - **Etichetta destinazione**: etichetta per la versione selezionata del file di destinazione
 1. Fai clic su **Invia per traduzione** nell&#39;angolo superiore destro.
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){width="800"}
 
 1. Dal menu a discesa, seleziona **Crea un nuovo progetto di traduzione**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Oltre a un nuovo progetto di traduzione, puoi selezionare tra le seguenti opzioni:
 
@@ -162,7 +162,7 @@ Per aggiungere l&#39;etichetta della versione di origine nella copia di destinaz
 
 Ad esempio, se ad alcuni file di origine è stata applicata l&#39;etichetta di versione `Release 1.0`, è possibile passare anche l&#39;etichetta di origine \(`Release 1.0`\) al file tradotto.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Ad esempio, se ad alcuni file di origine è stata applicata l&#39;etichetta di v
 
 AEM Guides offre la funzione di verificare le differenze tra la versione selezionata e l’ultima versione di origine tradotta degli argomenti. Puoi scegliere di tradurre i **file non sincronizzati** in base alle modifiche apportate.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Selezionare **Mostra differenza** icona \(![](images/show-difference-icon.svg)\) per un argomento per visualizzare le differenze tra l&#39;ultima versione tradotta e la versione corrente del file selezionato.
 
@@ -182,7 +182,7 @@ Selezionare **Mostra differenza** icona \(![](images/show-difference-icon.svg)\)
 
 Viene visualizzata la finestra di dialogo **Differenza versione**. Mostra il numero di versione **Ultima versione tradotta** e il numero di versione **Selezionata** a sinistra. Nella finestra di anteprima vengono visualizzate le differenze tra l&#39;ultima versione tradotta e la versione selezionata dell&#39;argomento.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Ignora risorse non sincronizzate
 
@@ -193,7 +193,7 @@ Per ignorare lo stato Non sincronizzato, effettuare le seguenti operazioni:
 1. Seleziona le risorse non sincronizzate per le quali desideri modificare lo stato.
 1. Selezionare il pulsante **Segna in sincronia** \(![](images/translation-mark-in-sync-icon.svg)\) in alto. Viene visualizzata la finestra di dialogo **Segna in sincronia**.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Fare clic su **Forza sincronizzazione**. Imposta lo stato su In sincronia per le risorse non sincronizzate selezionate.
 
@@ -211,7 +211,7 @@ Alcuni dei riferimenti nel dashboard di traduzione potrebbero essere in stato di
 
 Fate clic sul nome del riferimento nella finestra di dialogo per aprirlo in modalità anteprima. Puoi anche fare clic sul progetto di traduzione per avviare la traduzione.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Eliminare o disattivare automaticamente un progetto di traduzione completato
@@ -227,4 +227,4 @@ Per la gestione dei documenti, Experience Manager Guides consente di eliminare i
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

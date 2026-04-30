@@ -4,9 +4,10 @@ description: Scopri come configurare i filtri per la finestra di dialogo di navi
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -54,13 +55,13 @@ Le schede seguenti forniscono istruzioni per aggiungere opzioni di filtro dei fi
    Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
    titolo
-:   Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+: nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
    proprietà
-:   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
+: proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
 
    operazione
-:   Specificare &quot; `exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
+: specifica &quot; `exists`&quot; per rilevare l&#39;esistenza del valore specificato nel parametro della proprietà.
 
    Il secondo filtro è per File di immagine. I parametri sono simili al primo filtro, ad eccezione del parametro `value`. Il parametro `value` accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
 
@@ -109,11 +110,11 @@ Le schede seguenti forniscono istruzioni per aggiungere opzioni di filtro dei fi
 
    Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
-   - **titolo:**   Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+   - **titolo:** Il nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
-   - **proprietà:**   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot;`jcr:content/metadata/dita_class`&quot; come valore.
+   - **proprietà:** proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot;`jcr:content/metadata/dita_class`&quot; come valore.
 
-   - **operazione:**   Specificare &quot;`exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
+   - **operazione:** Specificare &quot;`exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
 
    Il secondo filtro è per File di immagine. I parametri sono simili al primo filtro, ad eccezione del parametro `value`. Il parametro `value` accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
 
@@ -121,9 +122,9 @@ Le schede seguenti forniscono istruzioni per aggiungere opzioni di filtro dei fi
 
    Quando avvii la finestra di dialogo Sfoglia file, vengono visualizzate le opzioni di filtro configurate nel file ui\_config.json.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)

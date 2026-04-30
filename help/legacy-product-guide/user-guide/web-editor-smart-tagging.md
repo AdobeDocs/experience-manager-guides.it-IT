@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -26,12 +26,12 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 1. Aprire l&#39;argomento in modalità Anteprima e selezionare **Rielabora Assets** icona dalla barra degli strumenti principale.
 1. Selezionare Estrai parole chiave XML per estrarre le parole chiave rilevanti.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Selezionare l&#39;opzione Esegui post-elaborazione. Viene visualizzato un messaggio quando lo strumento viene avviato correttamente.
 1. I tag vengono estratti automaticamente e possono essere visualizzati nella pagina Proprietà dell&#39;argomento selezionato.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >
@@ -40,4 +40,4 @@ Per creare tag avanzati, effettua le seguenti operazioni:
 
 *Contatta il team di successo del cliente per abilitare questa funzione nell&#39;ambiente. Questa funzionalità non è abilitata come parte del supporto predefinito.*
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)
+**Argomento padre:**[ Gestisci metadati](manage-metadata.md)

@@ -5,10 +5,9 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -72,7 +71,7 @@ Per abilitare queste funzioni, effettua le seguenti operazioni:
 
 1. Seleziona l&#39;opzione **Disattiva modifica senza estrazione**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Con questa opzione, gli utenti non visualizzeranno l&#39;opzione Modifica nella barra degli strumenti fino a quando non estraggono un file.
 
@@ -131,11 +130,11 @@ Per impedire agli utenti di eliminare accidentalmente i file estratti da loro o 
 1. Fai clic su **Salva**.
 
 
-Per supportare questa funzione, in `drivelock` è stata aggiunta la nuova proprietà `oak:index` dell&#39;indice:
+Per supportare questa funzione, in `oak:index` è stata aggiunta la nuova proprietà `drivelock` dell&#39;indice:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Oltre alla nuova proprietà dell&#39;indice, verificare che le seguenti proprietà siano impostate su `/oak:index/damAssetLucene`:
 
@@ -180,11 +179,11 @@ Per definire chi può eliminare un file che contiene riferimenti o a cui fanno r
 
    - allow\_unsafe\_delete\_for\_all: concedere a tutti gli utenti l’autorizzazione per eliminare i file. In questo caso, se il file\(s\) contiene riferimenti o vi fanno riferimento altri file, potete anche eliminarlo forzatamente. Prima di eliminare il file, viene visualizzato un messaggio con i riferimenti, è possibile annullare l&#39;operazione di eliminazione, rimuovere i riferimenti e infine eliminare il file\(s\). In alternativa, è possibile eliminare forzatamente il file\(s\) senza rimuovere i riferimenti.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: un amministratore o un utente appartenente al gruppo *delete-assets* può eliminare dei file. Se un altro utente tenta di eliminare file con qualsiasi riferimento, non potrà eliminare tali file finché non saranno stati rimossi tutti i riferimenti. La schermata seguente viene visualizzata quando un utente che non dispone delle autorizzazioni necessarie tenta di eliminare dei file.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: non consentire a tutti gli utenti \(inclusi gli amministratori\) di eliminare i file finché i riferimenti a e dal file\(s\) non vengono rimossi.
 
@@ -211,9 +210,9 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
 1. Immetti i seguenti dettagli sui file da eliminare:
 
-   ![](assets/preview-purge-report.png){width="350" align="left"}
+   ![](assets/preview-purge-report.png){width="350"}
 
-1. &#x200B;
+1. 
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.
@@ -233,7 +232,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 1. Scarica il rapporto di eliminazione della versione e controlla i file e le versioni che verranno eliminati.
 1. Puoi scegliere di **Annullare la rimozione** o **Avviare la rimozione**.
 
-   ![](assets/download-purge-report.png){width="350" align="left"}
+   ![](assets/download-purge-report.png){width="350"}
 
    Viene visualizzato lo stato di rimozione.
 

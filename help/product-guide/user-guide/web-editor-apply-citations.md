@@ -4,10 +4,10 @@ description: Aggiungere e gestire le citazioni in AEM Guides. Scopri come applic
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 0%
+source-wordcount: '1932'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Per aggiungere le citazioni, effettua le seguenti operazioni:
 
    Viene aperto il pannello **Citazioni**.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. Nel pannello **Citazioni**, seleziona ![Aggiungi icona](images/Add_icon.svg). Dal menu a discesa puoi scegliere di aggiungere una nuova citazione o di importarne una.
 
@@ -44,7 +44,7 @@ Per aggiungere le citazioni, effettua le seguenti operazioni:
 
    Viene visualizzata la finestra di dialogo **Aggiungi citazione**.
 
-   ![pannello citazioni nell&#39;editor Web](images/citation-add.png) {width="300" align="left"}
+   ![pannello citazioni nell&#39;editor Web](images/citation-add.png) {width="300"}
 
 
 1. Compila i campi nella finestra di dialogo **Aggiungi citazione**.
@@ -96,7 +96,7 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo le citazioni univoche e non già presenti.
-   > &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+    &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
 
 ## Gestire le citazioni
 
@@ -133,7 +133,7 @@ Nel menu a discesa sono disponibili le seguenti opzioni:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Stile associazione lingua moderna <br> | Stile associazione psicologica americana | Manuale di stile di Chicago | Stile dell&#39;Institute for Electrical and Electronics Engineers | Stile American Heart Association |
-| Esempio:<br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*.Modificato da Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di memorie oscure* (505-16 ed.). 10,1080/09658210902067289 | Esempio: <br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*. 505-16, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. |
+| Esempio:<br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*.Modificato da Memory, vol 16, 2010, Amsterdam. | Esempio: <br> Crawford, C., J., &amp; , C. (2010). *Contenuto emotivo di memorie oscure* (505-16 ed.). 10.1080/ 09658210902067289 | Esempio: <br> Crawford, Claire, et al. *Contenuto emotivo di memorie oscure*. 505-16, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. | Esempio: <br> C. Crawford, J. , e C. , *Contenuto emotivo di memorie oscure*. Amsterdam, 2010. |
 
 
 ## Modificare una citazione
@@ -157,9 +157,9 @@ La citazione selezionata viene modificata.
 
 Per visualizzare l&#39;anteprima di una citazione, effettuare le seguenti operazioni:
 
-Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona     Icona ![](images/options.svg) **Opzioni**.
+Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona l&#39;icona ![](images/options.svg) **Opzioni**.
 
-1. Selezionare **Anteprima**.
+1. Seleziona **Anteprima**.
 È possibile visualizzare in anteprima il contenuto e il formato della citazione nel riquadro di anteprima.
 
    >[!NOTE]
@@ -168,7 +168,7 @@ Passa il puntatore del mouse sul nome della citazione dall’elenco. Seleziona  
 
 1. Selezionate un punto qualsiasi dello schermo per chiudere la casella di anteprima.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
-   ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
 
 1. Seleziona **Fine**.
@@ -201,7 +201,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni**.
 
-1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.
@@ -225,7 +225,7 @@ Per eliminare una citazione dal pannello Citazioni, effettuate le seguenti opera
 
 1. Passa il puntatore del mouse sul nome della citazione dall’elenco.
 1. Selezionare l&#39;icona ![](images/options.svg) **Opzioni**.
-1. Seleziona la   **Elimina** ![](images/Delete_icon.svg).
+1. Selezionare **Elimina** ![](images/Delete_icon.svg).
 Viene visualizzata la finestra di dialogo di conferma.
 1. Selezionare **Sì**.
 La citazione selezionata viene eliminata dal pannello citazioni.

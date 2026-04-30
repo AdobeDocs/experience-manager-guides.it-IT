@@ -4,9 +4,9 @@ description: Conoscere le best practice per la traduzione dei contenuti in AEM G
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Considera il seguente punto per la traduzione del contenuto:
 
 L’illustrazione seguente mostra un esempio di struttura di cartelle in Adobe Experience Manager in presenza di contenuto utilizzato a livello globale e tre copie per lingua.
 
-![](images/aem-directory_structure.png){align="left"}
+![](images/aem-directory_structure.png)
 
 ## Configurare il servizio di traduzione
 
@@ -49,7 +49,7 @@ Per configurare il servizio di traduzione umana o automatica da utilizzare, effe
 
    >[!NOTE]
    >
-   > Visualizza [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=it) nella documentazione di Adobe Experience Manager per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
+   > Visualizza [Configurazione del framework di integrazione della traduzione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) nella documentazione di Adobe Experience Manager per informazioni dettagliate sull&#39;integrazione con servizi di traduzione di terze parti.
 
 1. Seleziona **Salva e chiudi** per salvare le proprietà della cartella aggiornate.
 
@@ -79,4 +79,4 @@ Al termine della traduzione, lo stato del processo di traduzione diventa *Pronto
 >- Se si rifiuta, elimina o annulla il processo di traduzione per un argomento presente in più progetti (per uno qualsiasi dei progetti), lo stato di traduzione **In corso** dell&#39;argomento non viene ripristinato, ma il progetto viene rimosso dall&#39;elenco di progetti **In corso** per la risorsa specificata.
 >- Inoltre, se si annulla o si elimina il processo di traduzione o si elimina l&#39;intero progetto, lo stato di traduzione **In corso** viene ripristinato allo stato originale.
 
-**Argomento padre:**&#x200B;[&#x200B; Panoramica sulla traduzione dei contenuti](translation.md)
+**Argomento padre:**[ Panoramica sulla traduzione dei contenuti](translation.md)

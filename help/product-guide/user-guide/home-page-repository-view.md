@@ -3,9 +3,10 @@ title: Archivio nella home page
 description: Scopri l’archivio nella pagina Home. Scopri l’interfaccia e le funzioni dell’archivio in Adobe Experience Manager Guides nella pagina Home.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ L’archivio funge da spazio centralizzato per migliorare la reperibilità di ca
 
 Questa interfaccia unificata semplifica diverse funzioni, tra cui la creazione di nuovi file o cartelle, la modifica di file, il caricamento di risorse e la ricerca di file con solide opzioni di filtro, garantendo in tal modo efficienza e facilità d’uso.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 L’interfaccia dell’archivio è suddivisa nelle sezioni seguenti:
 
@@ -27,16 +28,16 @@ L’interfaccia dell’archivio è suddivisa nelle sezioni seguenti:
 
 La barra di navigazione dell’archivio, che si trova nella parte superiore dell’interfaccia dell’archivio, consente di accedere rapidamente alle azioni essenziali elencate.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Pannello di navigazione cartelle**: visualizza una struttura gerarchica delle cartelle all&#39;interno dell&#39;archivio, consentendo una navigazione fluida. Questo pannello mostra solo le informazioni a livello di cartella. Quando una cartella viene selezionata da qui, il suo contenuto, i file e le sottocartelle vengono visualizzati nella vista Archivio. Puoi mostrare o nascondere questo pannello utilizzando l’icona evidenziata di seguito.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **Breadcrumb**: indica il percorso corrente all&#39;interno dell&#39;archivio, con la gerarchia delle cartelle che conducono alla cartella corrente. Puoi selezionarla per tornare a una cartella specifica all’interno della gerarchia.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **Aggiorna**: aggiorna l&#39;archivio per riflettere le modifiche più recenti.
 - **Carica Assets**: consente di caricare le risorse direttamente nella cartella corrente, come evidenziato nelle breadcrumb.
@@ -55,7 +56,7 @@ L’archivio funge da spazio centrale e fornisce un elenco tabulare di tutte le 
 
 - **Personalizza**: è possibile modificare le colonne visualizzate utilizzando l&#39;opzione **Personalizza** situata nell&#39;angolo superiore destro della visualizzazione Archivio. Questa opzione consente di mostrare o nascondere qualsiasi colonna e di ridisporre le colonne in base alle esigenze. Le colonne **Name** o **Title** sono obbligatorie e non possono essere disabilitate insieme. Altri campi, ad esempio **Tipo file**, **UUID**, **Stato documento**, **Bloccato da**, **Creato il** e **Modificato il**, possono essere attivati o disattivati in base alle esigenze. Puoi riorganizzarle semplicemente trascinandole e rilasciandole.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **Ridimensionamento colonne**: è possibile ridimensionare le colonne selezionando le opzioni dal menu a discesa delle colonne.
 
@@ -67,11 +68,11 @@ L’archivio funge da spazio centrale e fornisce un elenco tabulare di tutte le 
    - Dopo aver selezionato i file desiderati utilizzando la casella di controllo, l&#39;opzione **Modifica** diventa disponibile nell&#39;angolo in alto a destra della visualizzazione Archivio.
    - Selezionando **Modifica** i file selezionati verranno aperti nell&#39;interfaccia dell&#39;editor, dove sarà possibile iniziare a modificarli.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **Menu Opzioni per le cartelle**: è possibile eseguire le azioni seguenti utilizzando il menu **Opzioni** disponibile per una cartella:
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **Nuovo**: creare un nuovo argomento DITA, una mappa DITA o una cartella.
    - **Carica Assets**: carica un file dal sistema locale alla cartella selezionata nell&#39;archivio.
@@ -80,7 +81,7 @@ L’archivio funge da spazio centrale e fornisce un elenco tabulare di tutte le 
 
 - **Menu Opzioni per i file**: è possibile eseguire le azioni seguenti utilizzando il menu **Opzioni** per un file:
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **Modifica**: apri il file per la modifica.
    - **Modifica in ossigeno**: selezionare questa opzione per modificare il file selezionato nel plug-in del connettore di ossigeno.
@@ -107,11 +108,11 @@ L’archivio funge da spazio centrale e fornisce un elenco tabulare di tutte le 
 
 L&#39;opzione **Cerca** consente di cercare i file richiesti dall&#39;archivio principalmente in base al **Titolo file**, **Nome file** e **Contenuto**. Puoi utilizzare uno, due o tutti e tre i criteri per la ricerca. Se non viene selezionato nessuno dei criteri, i risultati includeranno elementi comuni a tutti e tre i criteri.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 Seleziona l&#39;icona **Ricerca filtro** \(![Icona filtro di ricerca](images/filter-search-icon.svg)\) per aprire il pannello Filtro a destra.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 Per filtrare i file e restringere la ricerca, sono disponibili le seguenti opzioni:
 
@@ -143,15 +144,14 @@ Dopo aver applicato tutti i filtri richiesti, seleziona **Applica** dall&#39;ang
 
 I risultati della ricerca personalizzati in base al filtro selezionato vengono visualizzati come **elenco tabulare di soli file** (le cartelle non vengono visualizzate). È possibile rimuovere un filtro singolarmente o più filtri contemporaneamente e i risultati vengono aggiornati per riflettere la selezione aggiornata.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 Una volta visualizzati i risultati della ricerca, è possibile selezionare più file e aprirli nell&#39;editor utilizzando l&#39;icona **Modifica** oppure utilizzare tutti i risultati inviando i risultati della ricerca all&#39;editor tramite l&#39;opzione **Mostra nel pannello di ricerca**.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Mostra nel pannello di ricerca**
 
 L&#39;opzione **Mostra nel pannello di ricerca** diventa disponibile dopo aver eseguito una ricerca nell&#39;archivio. Questa funzione ti consente di visualizzare tutti i risultati della ricerca nel **pannello Ricerca** nell&#39;Editor. Per ulteriori dettagli, visualizzare [Pannello di ricerca](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

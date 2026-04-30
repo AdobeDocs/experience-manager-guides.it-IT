@@ -4,9 +4,9 @@ description: Visualizzare la coda di generazione output dei documenti FrameMaker
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
 1. Selezionare Output.
 
-   ![](images/output-queued-fm.png){align="left"}
+   ![](images/output-queued-fm.png)
 
 1. La pagina Output è divisa in due parti:
 
@@ -36,4 +36,4 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
      In questo elenco è possibile che siano presenti attività eseguite correttamente o attività non riuscite. Per le attività completate correttamente, il processo di pubblicazione crea un file di registro \(logs.txt\) a cui è possibile accedere selezionando il collegamento nella colonna Generato a.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)

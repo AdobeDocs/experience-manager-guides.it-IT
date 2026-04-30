@@ -4,9 +4,9 @@ description: Scopri come visualizzare in anteprima un argomento in Adobe Experie
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Per visualizzare in anteprima un argomento dall’editor, effettua le seguenti o
 1. Nel pannello Repository, individuate l&#39;argomento che desiderate visualizzare.
 1. Passa il puntatore del mouse sull&#39;argomento che desideri visualizzare in anteprima e seleziona **Anteprima** dal menu Opzioni.
 
-   ![](images/preview-topic.png){width="600" align="left"}
+   ![](images/preview-topic.png){width="600"}
 
    Viene visualizzata l&#39;anteprima dell&#39;argomento.
 
-   ![](images/preview-pop-up.png){align="left"}
+   ![](images/preview-pop-up.png)
 
 **Anteprima argomenti dalla modalità Anteprima**
 
@@ -61,7 +61,7 @@ Per visualizzare in anteprima un argomento, effettua le seguenti operazioni:
 
 Quando si utilizza la funzione Anteprima dall’interfaccia utente di Assets, nella barra degli strumenti sono disponibili le seguenti operazioni,
 
-![](images/preview-screen.png){align="left"}
+![](images/preview-screen.png)
 
 
 **Proprietà**
@@ -78,7 +78,7 @@ I riferimenti **Usati in** elencano i documenti in cui viene fatto riferimento o
 
 L&#39;icona \(+\) nella sezione Riferimenti di **Usati in** consente di spostarsi verso l&#39;alto per individuare l&#39;argomento utilizzato o a cui si fa riferimento.
 
-![](images/used-in-dialog_cs.png){align="left"}
+![](images/used-in-dialog_cs.png)
 
 Se si seleziona l&#39;icona ![](images/right-arrow-used-in-dialog.svg) accanto a un documento, vengono visualizzati i file mappa o argomento a cui il documento viene ulteriormente indirizzato.
 
@@ -90,7 +90,7 @@ Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;ico
 >
 > Il contenuto condizionale viene evidenziato utilizzando il colore di sfondo chiaro nell’editor.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Modifica**
 
@@ -108,7 +108,7 @@ Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;ico
   >
   > Per visualizzare il codice sorgente di un file di mappa DITA, selezionare il file nell&#39;interfaccia utente di Assets e selezionare Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png)
 
 **Condividi collegamento UUID**
 
@@ -120,7 +120,7 @@ Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;ico
 
 Una nuova opzione **Condividi collegamento UUID** è visualizzata nella barra degli strumenti delle aree sopra indicate. La schermata seguente mostra l&#39;opzione **Condividi collegamento UUID** nella modalità Anteprima di un argomento:
 
-![](images/share-uuid-link_cs.png){align="left"}
+![](images/share-uuid-link_cs.png)
 
 Nell’interfaccia utente Assets, questa opzione è visibile quando selezioni un file. In modalità Anteprima, questa opzione è disponibile per impostazione predefinita nella barra degli strumenti principale. In una console di mappe DITA, questa opzione è visibile nella sezione Predefiniti di output.
 
@@ -140,15 +140,15 @@ Quando si estrae un argomento, lo stato del file viene visualizzato come estratt
 
 File estratto nella vista a schede:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 File estratto nella visualizzazione elenco:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** in **Visualizzazione elenco** e selezionare lo stato **Estratto** nella finestra di dialogo **Configura colonne**.
 
-![](images/list-view-settings-check-out_cs.png){align="left"}
+![](images/list-view-settings-check-out_cs.png)
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
    1. Nella barra a sinistra, seleziona **Cronologia versioni** e quindi una versione.
 
-      ![](images/timeline-versions62_cs.png){align="left"}
+      ![](images/timeline-versions62_cs.png)
 
    1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e selezionare **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
    1. Nell&#39;elenco **Mostra differenze** selezionare la versione con cui si desidera confrontare la versione di base.
 
-      ![](images/show-diff-list-cropped.png){align="left"}
+      ![](images/show-diff-list-cropped.png)
 
       Il contenuto modificato viene evidenziato nell’anteprima dell’argomento. Il contenuto evidenziato in verde indica che il contenuto appena aggiunto e il contenuto in rosso quello eliminato.
 
-      ![](images/version-difference.png){align="left"}
+      ![](images/version-difference.png)
 
 
 ## Branch, ripristino e versioni successive
@@ -217,7 +217,7 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
    1. Seleziona una versione da cui desideri creare un ramo. Nella schermata seguente, è selezionata la versione 1.2 per la creazione di un ramo.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -231,19 +231,19 @@ Se la colonna Estratto non è visibile, selezionare **Visualizza impostazioni** 
 
       - Se selezioni questa opzione, viene creato un ramo dalla versione 1.1. Viene inoltre creata una nuova versione dell&#39;argomento dalla copia di lavoro corrente dell&#39;argomento e salvata come versione successiva, ovvero 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         La versione 1.2 diventa la copia corrente dell&#39;argomento. Qualsiasi versione salvata dopo questa viene creata nel nuovo ramo di 1.1. Ad esempio, la versione successiva di un nuovo argomento in questo ramo verrà salvata come 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Se non si seleziona questa opzione, non verrà creata alcuna nuova versione dalla copia di lavoro corrente dell&#39;argomento. Dalla versione 1.2 dell’argomento viene creato un nuovo ramo. Qualsiasi versione successiva dell’argomento viene salvata nel ramo 1.2 come 1.2.0, 1.2.1 e così via.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Selezionare **OK**.
 
 
   Viene creato un nuovo ramo dalla versione selezionata dell&#39;argomento. Il processo descritto sopra è applicabile anche per il ripristino di una versione specifica di un argomento. Il ripristino di una versione specifica implica tecnicamente la creazione di un nuovo ramo dalla versione selezionata e l&#39;impostazione di tale versione come copia di lavoro corrente dell&#39;argomento. È inoltre possibile visualizzare la cronologia dei file ripristinati nel rapporto Cronologia ripristino versione. Per ulteriori dettagli su questo report, visualizzare [Report cronologia versioni file ripristinati](reports-reverted-file-version-history.md#).
 
-**Argomento padre:**&#x200B;[&#x200B; Crea e visualizza in anteprima argomenti](create-preview-topics.md)
+**Argomento padre:**[ Crea e visualizza in anteprima argomenti](create-preview-topics.md)

@@ -2,9 +2,9 @@
 title: Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti
 description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basati sull’intelligenza artificiale nell’editor web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -24,24 +24,24 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 
 
 1. Seleziona il contenuto dell’argomento per visualizzare i suggerimenti correlati. Assicurati che la lunghezza del carattere del contenuto superi quella impostata dall’amministratore nel profilo della cartella per visualizzare i suggerimenti di contenuto.
-1. Dal **pannello Authoring** nell&#39;Assistente di intelligenza artificiale, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona di contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+1. Dal **pannello Authoring** nell&#39;Assistente di intelligenza artificiale, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona di contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Seleziona un tag per visualizzare i suggerimenti di authoring per il tag corrente.  I suggerimenti per visualizzare e aggiungere riferimenti al contenuto dai file indicizzati vengono visualizzati in base al contenuto nel tag corrente. È inoltre possibile selezionare più tag.
 
 
-1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ![&#128279;](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ai suggerisci contenuto riutilizzabile.
+1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile.
 
 
 
    >[!NOTE]
    >
-   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Puoi visualizzare i suggerimenti avanzati nel pannello dei suggerimenti.  Experience Manager Guides fornisce contenuti di suggerimento contestualmente simili o con lo stesso significato. Ad esempio, puoi cercare l’argomento che contiene il numero di versione esatto, come &quot;versione 2023.03.12 di&quot;. Puoi anche cercare &quot;Adobe ha la sede centrale a San Jose, California&quot; e trovare contenuti simili come &quot;San Jose ha la sede di molte aziende di software come Adobe&quot;.
 1. Seleziona **Informazioni contenuto** ![Informazioni contenuto](images/smart-suggestions-content-info-icon.svg) per visualizzare i dettagli.
 
-   ![Pannello informazioni contenuto](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Pannello informazioni contenuto](images/smart-suggestions-content-information.png){width="300"}
 
    *Visualizza informazioni dettagliate sul riferimento contenuto.*
 

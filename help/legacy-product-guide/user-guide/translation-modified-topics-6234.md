@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 
    Se fai clic sulla freccia per visualizzare ulteriori dettagli. è possibile visualizzare la copia per lingua non aggiornata.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. Fare clic sulla casella di controllo per selezionare gli argomenti che si desidera inviare per la ritraduzione.
 
@@ -54,7 +54,7 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 
 1. Passa al progetto di traduzione nella console Progetto. Nella cartella viene creata una nuova scheda del processo di traduzione. Fai clic sui puntini di sospensione per visualizzare le risorse della cartella.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. Per avviare la traduzione, fare clic sulla freccia sulla scheda del processo di traduzione e selezionare **Inizio** dall&#39;elenco. Un messaggio notifica l’avvio del processo.
 
@@ -79,4 +79,4 @@ Per inviare un argomento modificato per la ritraduzione, effettua le seguenti op
 1. Tornare al file mappa DITA nella cartella della lingua di origine nell&#39;interfaccia utente di Assets. Gli argomenti ritradicati sono ora sincronizzati.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Traduci contenuto](translation.md)
+**Argomento padre:**[ Traduci contenuto](translation.md)

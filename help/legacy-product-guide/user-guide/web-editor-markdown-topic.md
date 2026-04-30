@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -24,15 +24,15 @@ Per creare un argomento Markdown dall’editor Web, effettua le seguenti operazi
 1. Creare **Argomento Markdown** in uno dei modi seguenti:
    1. Fai clic sull&#39;icona **Crea file DITA** nell&#39;angolo superiore destro del pannello Archivio, quindi seleziona **Argomento Markdown** dal menu a discesa.
 
-   ![](images/create-markdown-dita-topic.png){width="550" align="left"}
+   ![](images/create-markdown-dita-topic.png){width="550"}
 
    1. Seleziona **Crea** dal menu Opzioni della cartella selezionata, quindi seleziona **Argomento markdown** dal menu a discesa.
 
-   ![](images/create-markdown-options-menu.png){width="550" align="left"}
+   ![](images/create-markdown-options-menu.png){width="550"}
 
 1. Immettere il nome e il percorso dell&#39;argomento Markdown nella finestra di dialogo **Crea nuovo argomento Markdown**.
 
-![](images/create-markdown-dialog.png){width="350" align="left"}
+![](images/create-markdown-dialog.png){width="350"}
 
 1. Fai clic su **Crea**.
 
@@ -62,4 +62,4 @@ Per creare un argomento Markdown dall’editor Web, effettua le seguenti operazi
 >
 > Se le modifiche non sono state salvate, viene visualizzata una finestra a comparsa e viene richiesto di salvare l&#39;argomento prima di chiuderlo.
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

@@ -4,9 +4,9 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '6173'
+source-wordcount: '6207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La barra degli strumenti viene visualizzata quando si apre un argomento o una ma
 
 Il menu a discesa Menu consente di accedere alle azioni di modifica Trova e sostituisci, Cronologia versioni, Etichetta versione, Unisci, Crea attività di revisione e Mostra menu (che include Revisioni, Tag, Spazio unificatore).
 
-![Menu a discesa per la barra degli strumenti dell&#39;editor](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+![Menu a discesa per la barra degli strumenti dell&#39;editor](images/editor-toolbar-menu-dropdown-new.png){width="350"}
 
 La spiegazione dettagliata di queste funzioni è la seguente:
 
@@ -41,7 +41,7 @@ Durante la modifica di un argomento nell&#39;editor, accedere alle varie azioni 
 
 La funzionalità **Trova e sostituisci** è disponibile nelle modalità di visualizzazione Creazione e Source. Quando questa opzione è attivata, la barra di testo Trova e sostituisci viene visualizzata nella parte inferiore dell&#39;area di modifica dell&#39;argomento. È possibile utilizzare i tasti di scelta rapida **CTRL**+**F** per richiamare la barra Trova e sostituisci.
 
-![](images/find-replace-bar.png){align="left"}
+![](images/find-replace-bar.png)
 
 Utilizzando l&#39;icona delle impostazioni \(![](images/settings-find-replace-icon.svg)\), è possibile attivare/disattivare le opzioni di ricerca **Ignora maiuscole/minuscole** e **Solo parole intere**. Per eseguire la ricerca senza distinzione tra maiuscole e minuscole, attivare \(o selezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. Se invece si desidera eseguire la ricerca con distinzione tra maiuscole e minuscole, disattivare \(o deselezionare\) l&#39;opzione **Ignora maiuscole/minuscole**. È inoltre possibile scegliere di cercare una parola intera.
 
@@ -67,7 +67,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Viene visualizzata la finestra di dialogo **Cronologia versioni**.
 
-   ![Finestra di dialogo Cronologia versioni](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Finestra di dialogo Cronologia versioni](images/version-history-dialog-web-editor.png){width="550"}
 
    *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
@@ -84,7 +84,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Scheda **Metadati**: i metadati appena aggiunti sono in verde e quelli eliminati in rosso.
 
-   ![Differenza metadati per le versioni &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Differenza metadati per le versioni ](images/metadata-version-diff.png){width="550"}
 
    *Confrontare i metadati di diverse versioni nella cronologia delle versioni.*
 
@@ -100,7 +100,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Viene visualizzata la finestra di dialogo Ripristina versione.
 
-   ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
+   ![](images/version-history-revert-dialog-save-working-copy.png){width="550"}
 
 1. \(*Facoltativo*\) Fornire un motivo per ripristinare una versione precedente. È inoltre possibile creare una nuova versione della copia di lavoro attiva dell&#39;argomento.
 
@@ -110,7 +110,7 @@ La funzionalità **Cronologia versioni** nell&#39;editor consente di controllare
 
    Quando si ripristina una versione precedente, viene visualizzato un segnale visivo che indica che la versione su cui si sta lavorando non è quella più recente.
 
-   ![](images/older-version-visual-cue.png){align="left"}
+   ![](images/older-version-visual-cue.png){ }
 
 </details>
 
@@ -134,7 +134,7 @@ Esistono diversi metodi tramite i quali è possibile applicare etichette agli ar
 
    Viene visualizzata la finestra di dialogo Gestione etichette versione.
 
-   ![](images/version-label-management-dialog.png){width="350" align="left"}
+   ![](images/version-label-management-dialog.png){width="350"}
 
    La finestra di dialogo Gestione etichette versione è suddivisa in due parti: nel pannello a sinistra è disponibile un elenco di versioni per l&#39;argomento con l&#39;elenco a discesa delle etichette \(o una casella di testo per immettere un&#39;etichetta\) e nel pannello a destra con un&#39;anteprima dell&#39;argomento.
 
@@ -175,7 +175,7 @@ Per unire le modifiche in un argomento, effettuare le seguenti operazioni:
 
    Viene visualizzata la finestra di dialogo Unisci.
 
-   ![](images/merge-changes-in-topic.png){width="550" align="left"}
+   ![](images/merge-changes-in-topic.png){width="550"}
 
 1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
 
@@ -205,7 +205,7 @@ Per unire le modifiche in un file di mappa, effettuare le seguenti operazioni:
 
    Viene visualizzata la finestra di dialogo Unisci (Merge).
 
-   ![](images/merge-changes-in-map.png){width="550" align="left"}
+   ![](images/merge-changes-in-map.png){width="550"}
 
 1. *\(Facoltativo\)* È inoltre possibile sfogliare e selezionare un nuovo file da un&#39;altra posizione nell&#39;archivio.
 
@@ -235,7 +235,7 @@ Il menu Mostra (Show) comprende le seguenti funzioni:
 
 - **Rileva modifiche:** È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità Rileva modifiche. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Di nuovo, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia un&#39;aggiunta e un&#39;eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
 La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle barre di modifica:
-  ![](images/track-changes-content.png){width="650" align="left"}
+  ![](images/track-changes-content.png){width="650"}
 
   Un caso d’uso tipico per il tracciamento delle modifiche in un documento può essere la revisione tra pari. È possibile abilitare la registrazione delle modifiche e condividere il documento per la revisione, quindi il revisore apporta le modifiche con la registrazione delle modifiche attivata. Quando ricevi il documento, dovresti disporre di un meccanismo per visualizzare gli aggiornamenti suggeriti e di un modo pratico per accettare o rifiutare le modifiche.
 
@@ -243,7 +243,7 @@ La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle b
 
   Per accedere alla funzione, seleziona l&#39;icona **Rileva modifiche** nel pannello di destra.
 
-  ![](images/changes-panel_cs.png){width="300" align="left"}
+  ![](images/changes-panel_cs.png){width="300"}
 
   Se si seleziona una revisione, viene selezionato il contenuto modificato nel documento. Potete accettare una modifica selezionando l&#39;icona Accetta modifica (Accept Change) oppure rifiutarla selezionando Rifiuta modifica (Rifiuta change).
 
@@ -257,7 +257,7 @@ La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle b
 
   La schermata seguente mostra un documento con la vista Tag abilitata:
 
-  ![](images/tags-view.png){width="650" align="left"}
+  ![](images/tags-view.png){width="650"}
 
   In un documento con tag è possibile eseguire le operazioni seguenti:
 
@@ -292,26 +292,26 @@ Ad esempio, se ti trovi all&#39;interno dell&#39;elemento in linea `<b>`, puoi i
 
 È inoltre possibile digitare un carattere o una stringa nella casella di ricerca e cercare gli elementi che iniziano con essa.
 
-![inserisci elemento](images/insert-element.png){width="300" align="left"}
+![inserisci elemento](images/insert-element.png){width="300"}
 
 *Immettere &#39;t&#39; per cercare tutti gli elementi validi che iniziano con &#39;t&#39;.*
 
 Se si lavora all&#39;interno di un elemento blocco come `note`, utilizzare l&#39;icona Inserisci elemento per inserire un nuovo elemento dopo l&#39;elemento `note`. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
 
-![Inserisci elemento in un elemento di blocco](images/note-in-para-insert-element_cs.png){align="left"}
+![Inserisci elemento in un elemento blocco](images/note-in-para-insert-element_cs.png){ }
 
 Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#39;interno dell&#39;elemento nota stesso. Per inserire un nuovo elemento all&#39;esterno di una nota, seleziona l&#39;elemento p \(evidenziato nella schermata\) nella breadcrumb degli elementi, quindi seleziona l&#39;icona Elemento o premi ***Alt***+***Invio*** per aprire la finestra di dialogo Inserisci elemento. Quindi, selezionate l&#39;elemento desiderato e premete Invio per inserire l&#39;elemento selezionato dopo l&#39;elemento nota.
 
 È inoltre possibile aggiungere un elemento tra due elementi quando viene visualizzato un cursore a blocchi lampeggiante.
 
 
-![](images/Block-cursor.png){width="300" align="left"}
+![](images/Block-cursor.png){width="300"}
 
 Ad esempio, se si sta lavorando su un argomento DITA e il cursore di blocco lampeggia tra la breve descrizione e il corpo, è possibile aggiungere l&#39;elemento `prolog` e quindi aggiungere il copyright, l&#39;autore e altri dettagli.
 
 Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegliere **Inserisci elemento** per visualizzare la finestra di dialogo **Inserisci elemento** e scegliere l&#39;elemento che si desidera inserire.
 
-![](images/insert-element-before-after.png){width="300" align="left"}
+![](images/insert-element-before-after.png){width="300"}
 
 **Paragrafo** - ![](images/Paragraph_icon.svg)
 
@@ -333,7 +333,7 @@ Crea un elenco numerato nel percorso valido corrente o successivo. Se fai parte 
 
 Inserisce una tabella nella posizione valida corrente o successiva. Selezionare l&#39;icona Tabella per aprire la finestra di dialogo Inserisci tabella semplice.
 
-![](images/table-properties.png){width="550" align="left"}
+![](images/table-properties.png){width="550"}
 
 >[!NOTE]
 >
@@ -343,7 +343,7 @@ Inserisce una tabella nella posizione valida corrente o successiva. Selezionare 
 
 Una volta inserita una tabella, è possibile modificarla utilizzando il menu di scelta rapida.
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
 
 
@@ -369,7 +369,7 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 1. Dall&#39;elenco a discesa valore, selezionare l&#39;allineamento del testo che si desidera applicare alle celle di tabella selezionate.
 1. Seleziona **Aggiungi.**
 
-![](images/align-table-cell_cs.png){align="left"}
+![](images/align-table-cell_cs.png){ }
 
 </details>
 
@@ -382,7 +382,7 @@ Inserisce un&#39;immagine nel percorso valido corrente o successivo. Seleziona l
 > Puoi anche aggiungere un’immagine trascinandola dal sistema locale sull’articolo. In questo caso, il file di immagine viene aggiunto utilizzando il flusso di lavoro **Carica Assets**.  Per ulteriori dettagli, visualizza il flusso di lavoro **Carica Assets** nella sezione [Pannello sinistro](./web-editor-left-panel.md).
 
 
-![](images/insert-image-new-dialog.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300"}
 
 
 Nella finestra di dialogo **Seleziona file**, è possibile sfogliare il file di immagine richiesto da **Archivio** o **Raccolte**.
@@ -411,7 +411,7 @@ Dopo aver trovato il file di immagine richiesto, selezionare il file e scegliere
 
 Dopo aver inserito un&#39;immagine, potete modificarne l&#39;altezza, la larghezza, il posizionamento e gli attributi dal pannello Proprietà contenuto. Seleziona il file di immagine e apporta le modifiche desiderate nel pannello Proprietà contenuto nel pannello di destra.
 
-![](images/image-properties.png){align="left"}
+![](images/image-properties.png){ }
 
 Nel campo Source viene visualizzato l’UUID del file immagine inserito. Per trovare il percorso completo del file immagine inserito, posizionare il puntatore del mouse sul campo Source. Il percorso viene visualizzato nella descrizione comando.
 
@@ -439,11 +439,11 @@ Inserisce una mappa immagine nell&#39;immagine selezionata. Un&#39;immagine con 
 
 Selezionate un&#39;immagine nell&#39;argomento corrente e fate clic sull&#39;icona Inserisci/Modifica mappa immagine per aprire la finestra di dialogo Inserisci mappa immagine.
 
-![](images/insert-image-map.png){width="650" align="left"}
+![](images/insert-image-map.png){width="650"}
 
 Scegliere la forma preferita Rettangolo ![](images/imagemap-rectangle-toolbar.png), Cerchio ![](images/imagemap-circle-toolbar.png) o Poligono ![](images/imagemap-polygon-toolbr.png) per definire un&#39;area su un&#39;immagine che si desidera utilizzare come collegamento. Dopo aver definito un’area, viene visualizzata la finestra di dialogo Riferimento in cui è necessario specificare il collegamento al contenuto interno o esterno:
 
-![](images/reference-dialog.png){width="350" align="left"}
+![](images/reference-dialog.png){width="350"}
 
 Se le aree si sovrappongono, è possibile portare la forma avanti o indietro facendo clic sulla relativa icona nella barra degli strumenti. È inoltre possibile rimuovere un&#39;area selezionandola e facendo clic sull&#39;icona Elimina. Facendo doppio clic su un’area si apre la finestra di dialogo Riferimento, in cui è possibile modificare il collegamento di destinazione. Dopo aver contrassegnato le aree richieste nell&#39;immagine, salvare le modifiche selezionando **Fine**.
 
@@ -459,11 +459,11 @@ Inserisce diversi tipi di file multimediali. Seleziona l’icona a discesa Multi
 
 Quando si seleziona l&#39;opzione File audio o video, viene visualizzata la finestra di dialogo **Seleziona file** per sfogliare e selezionare il file desiderato dall&#39;archivio o dalle raccolte.
 
-![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+![](images/select-file-dialog-multimedia.png){width="650"}
 
 Se scegli YouTube o Vimeo, viene visualizzata la finestra di dialogo **Inserisci file multimediali**. Incollare il collegamento del file video nel campo Collegamento Web e selezionare Inserisci per aggiungere il video nella posizione valida corrente o successiva nel documento.
 
-![](images/insert-multimedia-dialog.png){width="350" align="left"}
+![](images/insert-multimedia-dialog.png){width="350"}
 
 >[!NOTE]
 >
@@ -471,7 +471,7 @@ Se scegli YouTube o Vimeo, viene visualizzata la finestra di dialogo **Inserisci
 
 È inoltre possibile aggiungere il file audio o video dalla finestra di dialogo **Inserisci file multimediale**. Selezionare l&#39;opzione File audio/video, quindi selezionare l&#39;icona Sfoglia per avviare la visualizzazione del repository. Selezionare il file audio o video dal repository e selezionare **Seleziona** per aggiungere il collegamento del file nel campo File audio/video. Se scegliete un file video, nell&#39;area di anteprima viene visualizzata anche un&#39;anteprima del file. È possibile riprodurre il file video per visualizzarne l&#39;anteprima.
 
-![](images/insert-multimedia.png){width="650" align="left"}
+![](images/insert-multimedia.png){width="650"}
 
 **Riferimento incrociato**
 
@@ -479,7 +479,7 @@ Inserisci riferimenti di tipo: riferimento contenuto, riferimento chiave contenu
 
 Selezionare l&#39;icona **Seleziona file** \(per riferimento contenuto e riferimento file\) o **Seleziona mappa radice** \(per riferimento chiave contenuto e riferimento chiave\) e selezionare il file o il contenuto desiderato da collegare.
 
-![](images/insert-references.png){width="650" align="left"}
+![](images/insert-references.png){width="650"}
 
 Nel documento viene aggiunto un collegamento del riferimento selezionato. Il menu di scelta rapida sul collegamento consente di:
 
@@ -490,7 +490,7 @@ Nel documento viene aggiunto un collegamento del riferimento selezionato. Il men
 
 Puoi anche eseguire ricerche utilizzando l’UUID del file a cui desideri fare riferimento. Per i collegamenti a Contenuto e Riferimento chiave, immetti l’UUID del file a cui vuoi collegare e il file viene automaticamente cercato e visualizzato nella sezione Anteprima. Quando si specifica l&#39;UUID del file, non è necessario indicare esplicitamente l&#39;estensione per i file con estensione xml. L&#39;estensione .xml viene aggiunta automaticamente all&#39;UUID.
 
-![](images/insert-content-using-uuid-search.png){width="650" align="left"}
+![](images/insert-content-using-uuid-search.png){width="650"}
 
 Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l&#39;UUID del contenuto a cui si fa riferimento verrà visualizzato nella proprietà **Link**.
 
@@ -498,7 +498,7 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l
 >
 > In base al comportamento DITA standard, l&#39;attributo scope=`external` non deve essere applicato ai collegamenti interni, in quanto è destinato solo a riferimenti a risorse esterne. L’applicazione di questo attributo ai collegamenti interni potrebbe interrompere i flussi di lavoro. Per il contenuto gestito in Experience Manager Guides, utilizzare invece l&#39;ambito predefinito=`local` o i riferimenti basati su chiave.
 
-![](images/ref-link-uuid_cs.png){align="left"}
+![](images/ref-link-uuid_cs.png){ }
 
 >[!NOTE]
 >
@@ -520,7 +520,7 @@ Nella finestra di dialogo **Seleziona file**, è possibile cercare del testo nei
 >
 > Il browser File e Percorso viene introdotto con un’interfaccia utente rinnovata nella versione 2601 di Experience Manager Guides as a Cloud Service. La nuova interfaccia è attivata per impostazione predefinita. Se preferisci continuare a utilizzare l’interfaccia utente esistente senza questi aggiornamenti, contatta il team Customer Success per disabilitare questo nuovo miglioramento.
 
-![](images/reference-search-filters.png){width="650" align="left"}
+![](images/reference-search-filters.png){width="650"}
 
 Puoi utilizzare le breadcrumb nella parte superiore e il pannello di navigazione delle cartelle a sinistra per spostarti facilmente all’interno delle cartelle.
 
@@ -540,7 +540,7 @@ Viene visualizzato l’elenco dei file filtrati che contengono il testo cercato.
 
 Riutilizzare il contenuto esistente in qualsiasi altro documento del progetto. È possibile inserire contenuto collegando direttamente al contenuto di un file oppure utilizzando un riferimento chiave, visualizzare [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z). Quando si seleziona l&#39;icona Contenuto riutilizzabile, viene visualizzata la finestra di dialogo Riutilizza contenuto:
 
-![](images/reuse-content-dialog.png){width="650" align="left"}
+![](images/reuse-content-dialog.png){width="650"}
 
 Nella finestra di dialogo Riutilizza contenuto selezionare il file DITA per i riferimenti di file o il file mappa DITA contenente i riferimenti chiave. Una volta selezionati, l’argomento o i riferimenti chiave vengono visualizzati nella finestra di dialogo. È possibile selezionare l&#39;ID o la chiave dell&#39;argomento che si desidera inserire e selezionare **Fine** per inserire il contenuto nell&#39;argomento.
 
@@ -562,7 +562,7 @@ Inserisce caratteri speciali nell&#39;argomento. Selezionate l&#39;icona Simbolo
 >
 > Experience Manager Guides fornisce finestre di dialogo mobili e ridimensionabili. Le finestre di dialogo con due linee trasversali nell&#39;angolo inferiore destro possono essere ridimensionate. Le linee trasversali nella finestra di dialogo Carattere speciale sono mostrate di seguito.
 
-![](images/insert-special-char.png){width="350" align="left"}
+![](images/insert-special-char.png){width="350"}
 
 Nella finestra di dialogo Inserisci carattere speciale è possibile cercare un carattere speciale utilizzando il relativo nome. Tutti i caratteri speciali vengono memorizzati in varie categorie. Utilizzare l&#39;elenco a discesa Seleziona categoria e selezionare una categoria. Vengono visualizzati i caratteri speciali disponibili nella categoria selezionata. È possibile spostarsi nell&#39;elenco dei caratteri speciali utilizzando i tasti di direzione o selezionare il carattere desiderato che si desidera inserire. Il nome e il codice esadecimale del carattere speciale selezionato vengono visualizzati sotto l&#39;elenco. Selezionare **Inserisci** per inserire il carattere selezionato nel documento.
 
@@ -570,13 +570,13 @@ Nella finestra di dialogo Inserisci carattere speciale è possibile cercare un c
 
 Inserisci parola chiave definita nella mappa DITA. Selezionate l&#39;opzione Parola chiave per aprire la finestra di dialogo Riferimento chiave (Key Reference).
 
-![](images/insert-keyword.png){width="550" align="left"}
+![](images/insert-keyword.png){width="550"}
 
 Le parole chiave sono elencate in ordine alfabetico ed è inoltre possibile cercare le parole chiave\(s\) digitando una stringa di ricerca nella casella Cerca. Il risultato della ricerca restituirà le parole chiave contenenti la stringa in ID o Value. Le parole chiave definite nella mappa DITA sono elencate in questa finestra di dialogo. Scegliere la parola chiave da inserire e selezionare **Inserisci**.
 
 È inoltre possibile modificare gli attributi della parola chiave inserita facendo clic con il pulsante destro del mouse sulla parola chiave e selezionando l&#39;opzione Attributi. Viene aperta la finestra di dialogo **Attributi per parola chiave**:
 
-![](images/attributes-for-keyword.png){width="550" align="left"}
+![](images/attributes-for-keyword.png){width="550"}
 
 È possibile modificare gli attributi della parola chiave o aggiungere un nuovo attributo alla parola chiave.
 
@@ -588,11 +588,11 @@ Quando selezionate l&#39;opzione Snippet, viene visualizzato il catalogo Inseris
 
 Nell&#39;esempio seguente vengono illustrati due snippet preconfigurati: Warning ed Error che è possibile inserire nella posizione corrente del documento.
 
-![](images/insert-snippet.png){width="300" align="left"}
+![](images/insert-snippet.png){width="300"}
 
 Quando si sceglie un frammento dall&#39;elenco, questo viene inserito nella posizione valida corrente o successiva del documento. La schermata seguente mostra lo snippet di errore inserito nel documento:
 
-![](images/error-snippet.png){width="400" align="left"}
+![](images/error-snippet.png){width="400"}
 
 **Citazioni** - ![](images/Citations_icon.svg)
 
@@ -610,17 +610,17 @@ La funzionalità **Informazioni sulla versione e salvataggio come nuova versione
 
   Il numero di versione cambia con ogni nuova versione creata per il file di argomento o di mappa. Se si sta lavorando su un documento appena creato, le informazioni sulla versione vengono visualizzate come **none**.
 
-  ![](images/version-information.png){align="left"}
+  ![](images/version-information.png){ }
 
 
 - **Salva come nuova versione** è un pulsante che consente di salvare le modifiche apportate nell&#39;argomento e di creare una nuova versione dell&#39;argomento.
 
-  ![](images/save-as-new-version.png){align="left"}
+  ![](images/save-as-new-version.png){ }
 
 
 Quando scegli di salvare un argomento o una mappa utilizzando **Salva come nuova versione**, viene visualizzata la seguente finestra di dialogo:
 
-![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
+![](images/save-as-new-version-dialog.PNG){width="300"}
 
 Immetti i commenti e le etichette di versione per identificare le modifiche e seleziona **Salva** per creare una nuova versione del file.
 
@@ -628,7 +628,7 @@ Quando si sceglie l&#39;opzione **Salva come nuova versione**, la prima versione
 
 Se l’amministratore dispone di etichette di versione preconfigurate, le visualizzerai in un elenco a discesa. È possibile scegliere un&#39;etichetta dall&#39;elenco delle etichette disponibili e salvare il documento.
 
-![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
+![](images/web-editor-pre-defined-labels.PNG){width="300"}
 
 Al momento del salvataggio di un argomento, è possibile aggiungere un commento specificando le modifiche apportate nell&#39;argomento. Questo commento viene visualizzato nella Cronologia versioni dell&#39;argomento.
 
@@ -636,7 +636,7 @@ Se l&#39;argomento è in revisione, i revisori riceveranno una notifica che indi
 
 Quando si posiziona il puntatore del mouse sul titolo di un argomento, vengono visualizzati il titolo del file, il percorso e il numero di versione.
 
-![](images/mouse-hover-on-title_cs.png){align="left"}
+![](images/mouse-hover-on-title_cs.png){ }
 
 >[!NOTE]
 >
@@ -646,17 +646,17 @@ Quando si posiziona il puntatore del mouse sul titolo di un argomento, vengono v
 
 Blocca o sblocca il file corrente. Il blocco di un file consente di accedere in scrittura in modo esclusivo al file. Questo impedisce ad altri utenti di modificare il file. Sblocca il file se vuoi che altri utenti abbiano accesso in modifica. Quando il file viene sbloccato, le modifiche vengono salvate nella versione corrente del file.
 
-![](images/web-editor-lock-button.png){align="left"}
+![](images/web-editor-lock-button.png){ }
 
 Se ti trovi nella vista Mappa ed espandi la mappa principale, puoi bloccare tutti i file nella mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Blocca** ![](images/LockClosed_icon.svg) per ottenere il blocco su tutti i file all&#39;interno della mappa.
 
 Nel pannello Repository, i file bloccati vengono visualizzati con un&#39;icona di blocco. Quando passi il cursore sull’icona del lucchetto, il comando Bloccato da te/nome utente viene visualizzato come descrizione comando.
 
-![](images/web-editor-locked-by-icon-new.png){width="350" align="left"}
+![](images/web-editor-locked-by-icon-new.png){width="350"}
 
 Se un file è bloccato da un altro utente, passa il cursore sull’icona del lucchetto nel repository e viene visualizzato il nome dell’utente che lo ha bloccato. In questo caso, il file viene aperto in modalità di sola lettura, con **Accesso di sola lettura** visualizzato accanto alle informazioni sulla versione.
 
 In qualità di amministratore, puoi anche accedere alla funzionalità **Forza sblocco** che ti consente di sbloccare il file bloccato da altri utenti. Utilizzare questa funzione per accedere ai diritti di modifica su un file bloccato da altri utenti.
 
-![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+![](images/web-editor-force-unlock-new.png){width="350"}
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

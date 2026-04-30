@@ -4,9 +4,9 @@ description: Scopri le funzioni nuove e migliorate nella versione di settembre 2
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compa
 
 AEM Guides fornisce connettori predefiniti per la connessione con le origini dati, rendendo AEM Guides un vero e proprio hub di contenuti. In questo modo è possibile risparmiare tempo e fatica, che altrimenti verrebbero utilizzati per l&#39;aggiunta o la replica manuale dei dati.
 
-Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
+Oltre ai connettori predefiniti come JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite), l’amministratore può anche configurare connettori per i database MariaDB, H2DB, AdobeCommerce e Elasticsearch. Possono inoltre aggiungere altri connettori estendendo le interfacce predefinite.
 
 Puoi visualizzare i connettori configurati nel pannello **Origini dati** nell&#39;Editor Web.
 
@@ -39,28 +39,28 @@ Le citazioni sono riferimenti all’origine delle informazioni aggiunte al conte
 
 In AEM Guides, puoi aggiungere citazioni o importarle e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
 
-Dopo aver inserito le citazioni negli argomenti, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare i contenuti con le citazioni utilizzando Native PDF.
+Dopo aver inserito le citazioni negli argomenti, è possibile visualizzarne l&#39;anteprima nell&#39;editor Web. Puoi anche pubblicare contenuti con citazioni utilizzando il PDF nativo.
 
-![Citazioni elencate in un pannello](assets/citation-panel.png){width="300" align="left"}
+![Citazioni elencate in un pannello](assets/citation-panel.png){width="300"}
 
 *Visualizza l&#39;elenco delle citazioni nel pannello Citazioni.*
 
 Per ulteriori dettagli, visualizza [Aggiungi e gestisci citazioni nel contenuto](../user-guide/web-editor-apply-citations.md).
 
 
-## Da Publish a un frammento di contenuto
+## Pubblicare in un frammento di contenuto
 
-I frammenti di contenuto sono parti discrete di contenuto nell’AEM. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati dall’AEM. La modularità e la riutilizzabilità dei frammenti di contenuto determinano maggiore flessibilità, coerenza, efficienza e gestione più semplice.
+I frammenti di contenuto sono parti discrete di contenuto in AEM. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati da AEM. La modularità e la riutilizzabilità dei frammenti di contenuto determinano maggiore flessibilità, coerenza, efficienza e gestione più semplice.
 
 Ora AEM Guides offre un modo per pubblicare un argomento o gli elementi all’interno di un argomento in un frammento di contenuto. Puoi creare una mappatura basata su JSON tra un argomento e un modello per frammenti di contenuto. Utilizza questa mappatura per pubblicare in un frammento di contenuto il contenuto presente in alcuni o in tutti gli elementi di un argomento.
 
 Sfrutta la potenza di AEM Guides e dei frammenti di contenuto e utilizza i frammenti di contenuto in qualsiasi sito AEM. Puoi anche estrarre i dettagli tramite API supportate da frammenti di contenuto.
 
-![opzione per pubblicare il frammento di contenuto](assets/content-fragment-publish.png){width="550" align="left"}
+![opzione per pubblicare il frammento di contenuto](assets/content-fragment-publish.png){width="550"}
 
-*Publish argomento di un frammento di contenuto.*
+*Pubblica un argomento in un frammento di contenuto.*
 
-Per ulteriori dettagli, visualizzare [Publish in un frammento di contenuto](../user-guide//publish-content-fragment.md).
+Per ulteriori dettagli, visualizza [Pubblica in un frammento di contenuto](../user-guide//publish-content-fragment.md).
 
 ## Revisione dei miglioramenti
 
@@ -71,7 +71,7 @@ AEM Guides fornisce ora una funzionalità di revisione migliorata con le seguent
 La conduzione delle recensioni è una caratteristica fondamentale di AEM Guides. Aiuta i revisori a rivedere i documenti loro assegnati .
 È ora possibile cercare un argomento immettendo una parte del testo del titolo o del percorso file nella barra di ricerca della visualizzazione argomenti del pannello di revisione. È inoltre possibile scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione. Per ulteriori dettagli, visualizzare [Rivedi argomenti](../user-guide/review-topics.md).
 
-![Cerca in un pannello degli argomenti di revisione](assets/review-search-topic.png){width="800" align="left"}
+![Cerca in un pannello degli argomenti di revisione](assets/review-search-topic.png){width="800"}
 
 *Cerca un argomento di revisione nel pannello di revisione.*
 
@@ -83,15 +83,15 @@ Crea pacchetti personalizzati sopra AEM Guides per fornire estensibilità utiliz
 
 
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-I seguenti miglioramenti apportati a Native PDF sono stati apportati nella versione di settembre 2023 per rendere AEM Guides un prodotto più robusto:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione di settembre 2023 per rendere AEM Guides un prodotto più robusto:
 
 
 
 ### Ordinare le pagine nell’output di PDF
 
-Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordine in cui devono essere visualizzate nell’output PDF finale:
+Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche organizzare l’ordine in cui devono essere visualizzate nell’output finale di PDF:
 
 * Sommario
 * Capitoli e argomenti
@@ -102,13 +102,13 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche disporre l’ordi
 * Citazione
 * Layout di pagina
 
-Se non desideri visualizzare una particolare sezione nell’output PDF, puoi nasconderla disattivando l’interruttore.
+Se non si desidera visualizzare una sezione specifica nell&#39;output di PDF, è possibile nasconderla disattivando l&#39;interruttore di attivazione.
 
 Per ulteriori dettagli, visualizzare [Ordine pagine](../native-pdf/components-pdf-template.md#page-order).
 
 ### Unisci pagine
 
-In un output di PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata continuando con la pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
+In un output PDF nativo per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. È ora possibile unire una sezione alla pagina precedente o a quella successiva. In questo modo la sezione viene pubblicata insieme alla pagina selezionata nell’output di PDF e non vi è alcuna interruzione di pagina tra le pagine.
 
 Per ulteriori dettagli, visualizzare la descrizione della funzione **Unisci pagine** nella sezione [Ordine pagine](../native-pdf/components-pdf-template.md#page-order).
 
@@ -148,7 +148,7 @@ Ora l’editor CSS è stato riprogettato per offrire una migliore esperienza ute
 
 Ora puoi utilizzare selettori personalizzati per aggiungere stili complessi. Il nuovo campo Selettore consente di aggiungere selettori personalizzati oltre alla combinazione di Classe, Tag e Pseudo classe. Ad esempio, è possibile creare lo stile `table a.link` per tutti i collegamenti ipertestuali all&#39;interno di una tabella.
 
-![aggiunta di stili nei modelli pdf nativi](assets/add-styles-native-pdf.png){width="300" align="left"}
+![aggiunta di stili nei modelli pdf nativi](assets/add-styles-native-pdf.png){width="300"}
 
 *Aggiungi i dettagli per il nuovo stile.*
 
@@ -172,22 +172,22 @@ Per ulteriori dettagli sulla gestione delle definizioni gerarchiche delle defini
 ## Selezionare tutti i predefiniti in una raccolta mappe
 
 È possibile non solo attivare un predefinito singolo e tutti i predefiniti di profilo di cartella, ma anche attivare tutti i predefiniti per una mappa DITA in un&#39;unica operazione.
-![modificare una raccolta di mappe](assets/edit-map-collection-cs.png){width="800" align="left"}\
+![modificare una raccolta di mappe](assets/edit-map-collection-cs.png){width="800"}\
 *Selezionare tutti i predefiniti in una raccolta mappe.*
 
 Per ulteriori dettagli, visualizzare [Utilizza raccolta mappe per la generazione dell&#39;output](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 
-## Supporto dei PDF nativi nel dashboard Publish in blocco
+## Supporto di PDF nativi nel dashboard di pubblicazione in blocco
 
 
-Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. Nella mappa Bulk Activation puoi includere il predefinito di output PDF nativo, l’output Sito AEM, PDF, HTML5, Personalizzato e JSON.
+Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. Nella mappa di attivazione in blocco, puoi includere il predefinito di output PDF nativo, il sito AEM, PDF, HTML5, personalizzato e l’output JSON.
 Per ulteriori dettagli, visualizzare [Attivazione in blocco del contenuto pubblicato](../user-guide/conf-bulk-activation.md).
 
 ## Migliorato strumento di spostamento in blocco
 
 Ora, in qualità di amministratore, puoi utilizzare il migliorato strumento Sposta in blocco per spostare cartelle con molti file da una posizione all’altra.
-È possibile utilizzare la finestra di dialogo Sfoglia file per selezionare le cartelle di origine che si desidera spostare. È inoltre possibile selezionare il percorso di destinazione per spostare le cartelle di origine. Seleziona l&#39;icona ![info](assets/info-icon.svg) {width="25" align="left"} accanto a un campo per visualizzare ulteriori informazioni.
+È possibile utilizzare la finestra di dialogo Sfoglia file per selezionare le cartelle di origine che si desidera spostare. È inoltre possibile selezionare il percorso di destinazione per spostare le cartelle di origine. Seleziona l&#39;icona ![info](assets/info-icon.svg) {width="25"} accanto a un campo per visualizzare ulteriori informazioni.
 
 Per ulteriori dettagli, visualizzare [Sposta i file in blocco](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -196,7 +196,7 @@ Per ulteriori dettagli, visualizzare [Sposta i file in blocco](../user-guide/aut
 
 Utilizza il menu di scelta rapida per visualizzare rapidamente in anteprima il file (.dita, .xml, audio, video o immagine) senza aprirlo. Ora è possibile ridimensionare il riquadro di anteprima e, se il contenuto contiene un collegamento di riferimento, è possibile selezionarlo per aprirlo in una nuova scheda.
 
-![Riquadro di anteprima &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
+![Riquadro di anteprima ](assets/quick-preview_cs.png){width="800"}
 
 *Anteprima del file nel riquadro.*
 
@@ -205,6 +205,6 @@ Per ulteriori dettagli sul menu di scelta rapida, vedere la descrizione della fu
 
 ## Utilizzare le variabili per la data e l&#39;ora correnti nelle opzioni Percorso di destinazione, Nome sito o Nome file
 
-Durante la generazione di output nel sito o nei PDF AEM, è possibile utilizzare le variabili per impostare le opzioni **Percorso di destinazione**, **Nome sito** o **Nome file**. È ora possibile utilizzare anche le variabili `${system_date}` e `${system_time}`. Queste variabili consentono di aggiungere la data e l’ora correnti a queste opzioni.
+Durante la generazione di output in AEM Site o PDF, è possibile utilizzare le variabili per impostare le opzioni **Percorso di destinazione**, **Nome sito** o **Nome file**. È ora possibile utilizzare anche le variabili `${system_date}` e `${system_time}`. Queste variabili consentono di aggiungere la data e l’ora correnti a queste opzioni.
 
 Scopri come [utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](../user-guide/generate-output-use-variables.md).

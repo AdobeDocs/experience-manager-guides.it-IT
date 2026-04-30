@@ -4,7 +4,7 @@ description: Scopri come creare una raccolta di mappe di attivazione in blocco n
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Per creare una raccolta di mappe di attivazione in blocco, effettuare le seguent
 
 I file di mappa DITA vengono aggiunti alla raccolta di mappe per l&#39;attivazione in blocco.
 
-![&#x200B; ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png){align="left"}
+![ ha creato la raccolta di attivazione in blocco](images/bulk-activation-collection-created.png)
 
 ## Scheda Mappe e predefiniti
 
@@ -87,7 +87,7 @@ La scheda **Cronologia controlli** presenta informazioni sugli output delle mapp
 
 - **Modificata**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se attivare l&#39;output per questa mappa DITA.
 - **Pubblicato**: mostra la data e l&#39;ora dell&#39;ultimo output pubblicato (o attivato). Se selezioni il collegamento, viene visualizzata la pagina Risultati attivazione, che contiene i registri con informazioni sul percorso della directory principale in cui viene attivato il contenuto.
-  ![&#x200B; ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png){align="left"}
+  ![ ha creato la scheda della cronologia di controllo della raccolta di attivazione in blocco](images/bulk-collection-audit-history.png)
 
   *Visualizza le informazioni sugli output delle mappe attivate nella scheda **Cronologia controllo**.*
 
@@ -108,4 +108,4 @@ Nel pannello a sinistra sono disponibili le seguenti opzioni di filtro:
 
 I filtri vengono aggiornati quando si passa dalla scheda **Mappe e predefiniti** alla scheda **Cronologia controlli** e viceversa.
 
-**Argomento padre: &#x200B;** [Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre: **[Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

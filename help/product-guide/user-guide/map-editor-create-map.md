@@ -4,9 +4,9 @@ description: Crea una mappa con Editor mappe in Experience Manager Guides. Trova
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per creare una mappa, effettua le seguenti operazioni:
 
 1. Nel pannello Esplora risorse, seleziona l&#39;icona **Nuovo file**, quindi seleziona **Mappa DITA** dal menu a discesa.
 
-   ![](images/create-map-options.png){align="left"}
+   ![](images/create-map-options.png)
 
    È inoltre possibile accedere a questa opzione dalla [home page di Experience Manager Guides](./intro-home-page.md) e dal menu delle opzioni di una cartella nella visualizzazione Esplora risorse.
 
@@ -35,14 +35,14 @@ Per creare una mappa, effettua le seguenti operazioni:
    - Modello su cui verrà basato l&#39;argomento. Per un file di mappa, le opzioni disponibili sono **Bookmap**, **Map** e **Schema soggetto**.
    - Percorso in cui si desidera salvare il file mappa. Per impostazione predefinita, il percorso della cartella attualmente selezionata in Esplora risorse viene visualizzato nel campo Percorso.
 
-   ![](images/new-map-dialog.png){width="300" align="left"}
+   ![](images/new-map-dialog.png){width="300"}
 
 
 4. Seleziona **Crea**.
 
 La mappa viene creata nel percorso specificato. Inoltre, la mappa viene aperta nell’Editor mappa per la modifica.
 
-![](images/map-file-in-map-editor.png){align="left"}
+![](images/map-file-in-map-editor.png)
 
 ## Aggiungere argomenti a un file di mappa
 
@@ -53,11 +53,11 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
 1. Nella vista Esplora, individua e apri il file di mappa che desideri modificare.
 1. Seleziona l&#39;icona **Modifica**.
 
-   ![](images/edit-map-icon.png){width="450" align="left"}
+   ![](images/edit-map-icon.png){width="450"}
 
 1. Il file di mappa viene aperto nell&#39;Editor mappa. Se hai aperto un nuovo file di mappa, nell’editor viene visualizzato solo il titolo della mappa.
 
-   ![](images/new-map-file-in-editor.png){align="left"}
+   ![](images/new-map-file-in-editor.png)
 
 
    - **A** - \(*Barra delle schede*\): simile alla barra delle schede dell&#39;editor. Visualizza [barra delle schede](./web-editor-tab-bar.md) nell&#39;editor per ulteriori dettagli.
@@ -74,13 +74,13 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
 
 1. Nel pannello sinistro passare alla visualizzazione **Esplora risorse**.
 
-1. Adobe Experience Manager In Esplora risorse passare alla cartella contenente gli argomenti o le mappe secondarie che si desidera aggiungere.
+1. In Esplora risorse passare alla cartella contenente gli argomenti o le mappe secondarie che si desidera aggiungere.
 
 1. Selezionare l&#39;argomento o il file di mapping nella visualizzazione **Explorer** e trascinarlo nell&#39;area di modifica del contenuto delle mappe \(middle\).
 
    L&#39;argomento viene aggiunto nella mappa.
 
-   ![aggiungi argomento editor mappe](images/map-editor-add-topic.png){align="left"}
+   ![aggiungi argomento editor mappe](images/map-editor-add-topic.png)
 
 1. Per aggiungere argomenti successivi o una mappa secondaria, trascinare l&#39;argomento o la mappa secondaria nella posizione desiderata nella mappa.
 
@@ -88,7 +88,7 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
 
    - Il file viene aggiunto in un punto in cui la barra del rettangolo tratteggiata viene visualizzata nell&#39;area di modifica delle mappe. Nella schermata seguente, l&#39;argomento *Un argomento di esempio* verrà aggiunto tra gli argomenti *Suggerimenti avanzati 1* e *Suggerimenti avanzati 2*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png)
 
    - Per sostituire un argomento, trascinare e rilasciare il nuovo argomento sopra l&#39;argomento che si desidera sostituire. e rilasciarlo indica che verrà sostituito con l&#39;argomento che viene rilasciato su di esso.
 
@@ -98,7 +98,7 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
 
    - Per modificare la posizione di un argomento, selezionare l&#39;argomento \(selezionando l&#39;icona dell&#39;argomento\), quindi trascinarlo nella posizione desiderata nel file di mappa. Nella schermata seguente, l&#39;argomento *Smart Suggest 1* viene spostato dopo il *A Sample topic*.
 
-     ![](images/move-topic-adv-map-editor.png){align="left"}
+     ![](images/move-topic-adv-map-editor.png)
 
    - Per verificare le proprietà del file mappa, fare clic con il pulsante destro del mouse in un punto qualsiasi dell&#39;area di modifica delle mappe e scegliere **Proprietà** dal menu di scelta rapida. In base alla versione di Adobe Experience Manager in uso, è possibile visualizzare proprietà quali metadati, pianificazione \(de\)attivazione, riferimenti, stato del documento e altro ancora.
 
@@ -120,7 +120,7 @@ Per creare una mappa dall’interfaccia utente di Assets, effettua le seguenti o
    >
    > Il modo in cui gli argomenti vengono trattati in un file di mappa dipende dal modello di mappa. Se ad esempio si seleziona il modello Mappa, verranno utilizzati i riferimenti agli argomenti \(`topicref`\) per fare riferimento agli argomenti. In caso di Bookmap, i riferimenti agli argomenti vengono creati utilizzando l&#39;elemento `chapter` in DITA.
 
-   ![](images/map-template.png){align="left"}
+   ![](images/map-template.png)
 
 1. Nella pagina Proprietà, specifica la mappa **Titolo**.
 
@@ -136,7 +136,7 @@ Per creare una mappa dall’interfaccia utente di Assets, effettua le seguenti o
 
    A ogni nuovo file di mappa creato dall’interfaccia utente di Assets o dall’editor viene assegnato un ID di mappa univoco. Inoltre, la nuova mappa viene salvata come copia di lavoro più recente in DAM. Fino a quando non si salva una revisione di una mappa appena creata, non verrà visualizzato alcun numero di versione nella Cronologia versioni. Se apri la mappa per la modifica, le informazioni sulla versione vengono visualizzate nell’angolo superiore destro della scheda del file mappa:
 
-   ![](images/first-version-map-none.png){align="left"}
+   ![](images/first-version-map-none.png)
 
    Le informazioni sulla versione di una mappa appena creata vengono visualizzate come *none*. Quando salvi una nuova versione, ad essa viene assegnato il numero di versione 1.0. Per ulteriori informazioni sul salvataggio di una nuova versione, visualizzare [Salva come nuova versione](web-editor-features.md#save-as-new-version).
 
@@ -164,11 +164,11 @@ Per aggiungere argomenti a un file di mappa dall’interfaccia utente di Assets,
 
 1. Con il file mappa selezionato, selezionare **Modifica argomenti**.
 
-   ![](images/edit-map-main-menu.png){align="left"}
+   ![](images/edit-map-main-menu.png)
 
    Oppure, puoi anche selezionare l&#39;opzione **Modifica argomenti** dal menu Azioni del file di mappa:
 
-   ![](images/edit-map-action-menu.png){align="left"}
+   ![](images/edit-map-action-menu.png)
 
    Il file di mappa viene aperto per la modifica nell&#39;editor. Per aggiungere argomenti al file mappa, seguire i passaggi (4-8) descritti in [Aggiungere argomenti a un file mappa](#add-topics-to-a-map-file).
 

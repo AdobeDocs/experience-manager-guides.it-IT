@@ -2,10 +2,10 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides, versione 2024.2.0
 description: Scopri le funzioni nuove e migliorate della versione 2024.2.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
-source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 1%
+source-wordcount: '1063'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Ora è possibile migliorare il percorso di authoring con Smart Suggestions, una 
 
 Per mantenere corretti e coerenti i contenuti, la ricerca e i suggerimenti sono limitati al contenuto di proprietà dell’organizzazione e strettamente correlati alle parole chiave cercate.
 
-![Pannello suggerimenti avanzati nell&#39;editor Web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Pannello suggerimenti avanzati nell&#39;editor Web ](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *Visualizza suggerimenti avanzati per trovare e aggiungere riferimenti ai contenuti corrispondenti dall&#39;archivio dei contenuti.*
@@ -42,7 +42,7 @@ Ulteriori informazioni sui [suggerimenti avanzati basati sull&#39;intelligenza a
 
 Ora Experience Manager Guides offre una funzione avanzata di cronologia delle versioni che consente di confrontare le modifiche apportate a un documento nel tempo. Nella nuova visualizzazione affiancata è possibile confrontare facilmente il contenuto e i metadati della versione corrente con qualsiasi versione precedente dello stesso documento. Puoi anche visualizzare le etichette e i commenti per le versioni confrontate. In qualità di amministratore, puoi controllare i metadati della versione dell&#39;argomento e i relativi valori da visualizzare nella finestra di dialogo **Cronologia versioni**.
 
-![Finestra di dialogo Cronologia versioni](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Finestra di dialogo Cronologia versioni](assets/version-history-dialog-web-editor.png){width="800"}
 *Visualizzare in anteprima le modifiche nelle diverse versioni di un argomento.*
 
 
@@ -52,7 +52,7 @@ Ulteriori informazioni sulla descrizione della funzionalità **Cronologia versio
 
 Il pannello **Traduzione** è stato migliorato.  Puoi visualizzare l&#39;elenco **Lingue disponibili** e selezionare rapidamente le impostazioni locali in cui tradurre il progetto. Con una sola selezione, puoi anche scegliere **Seleziona tutti** per tradurre il progetto in tutte le lingue disponibili.
 
-![pannello di traduzione](assets/translation-languages-4.4.png){width="300" align="left"}
+![pannello di traduzione](assets/translation-languages-4.4.png){width="300"}
 
 *Selezionare le lingue in cui tradurre il progetto. Scegliere l&#39;impostazione predefinita, la baseline o la versione più recente dei file per la traduzione.*
 
@@ -67,7 +67,7 @@ Ad esempio, durante la modifica di un paragrafo che desideri inserire un element
 tutti gli elementi validi che iniziano con &quot;t&quot;.
 
 
-![Finestra di dialogo Inserisci](assets/insert-element.png){width="300" align="left"}
+![Finestra di dialogo Inserisci](assets/insert-element.png){width="300"}
 
 *Digitare un carattere per cercare tutti gli elementi validi che iniziano con il carattere.*
 
@@ -79,7 +79,7 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Inseri
 
 Ora è possibile suddividere facilmente l&#39;elenco nell&#39;Editor Web. Selezionare l&#39;opzione **Dividi elenco** dal menu di scelta rapida di una voce di elenco per dividere l&#39;elenco corrente. Viene creato un nuovo elenco allo stesso livello, a partire dalla voce di elenco selezionata per la suddivisione.
 
-![pannello di traduzione](assets/context-menu-split-list.png){width="300" align="left"}
+![pannello di traduzione](assets/context-menu-split-list.png){width="300"}
 
 *Selezionare l&#39;opzione per dividere l&#39;elenco corrente.*
 
@@ -93,21 +93,21 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Propri
 
 ## Possibilità di pubblicare più predefiniti di output con linee di base dinamiche in parallelo
 
-L&#39;Experience Manager fornisce la funzione per la creazione delle linee di base selezionando automaticamente gli argomenti in base all&#39;etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
+Experience Manager fornisce la funzione di creare linee di base scegliendo automaticamente gli argomenti in base all’etichetta ad esse applicata. Ora è anche possibile pubblicare facilmente più predefiniti di output con linee di base automatiche della stessa mappa DITA. Non è necessario pubblicare un solo predefinito alla volta, ma è possibile pubblicare facilmente più predefiniti di output in parallelo.
 
 
-## Miglioramenti di Native PDF
+## Miglioramenti della versione nativa di PDF
 
-I seguenti miglioramenti di Native PDF sono stati apportati nella versione 2024.2.0:
+I seguenti miglioramenti al PDF nativo sono stati apportati nella versione 2024.2.0:
 
 ### Trasmettere i metadati delle risorse all’output PDF
 
 Experience Manager ora fornisce la funzionalità di passare le proprietà dei metadati delle risorse dalla mappa DITA all’output PDF.
-Dal predefinito di output di PDF nativo, puoi scegliere i metadati che desideri trasmettere al processo di pubblicazione di PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando Native PDF.
+Dal predefinito di output PDF nativo, puoi scegliere i metadati che desideri trasmettere al processo di pubblicazione PDF. Puoi selezionare sia le proprietà personalizzate che quelle predefinite.  Le proprietà dei metadati selezionate vengono passate al file PDF generato utilizzando PDF nativo.
 
 Questa funzione è utile in quanto consente di mantenere coerenti le proprietà della risorsa, ad esempio l’autore, la data di creazione o il titolo del documento. Ciò semplifica l&#39;organizzazione, la ricerca e la classificazione dei documenti.
 
-Per ulteriori dettagli, visualizzare le impostazioni **Avanzate** nell&#39;output [Publish PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori dettagli, visualizzare le impostazioni **Avanzate** nell&#39;output [Pubblica PDF](../web-editor/native-pdf-web-editor.md).
 
 
 ### Usa i metadati aggiunti nell&#39;elemento `topicmeta` per l&#39;output PDF
@@ -121,4 +121,4 @@ Ora Experience Manager Guides offre l&#39;opzione di utilizzare i metadati aggiu
 
 Questa funzione consente una migliore gestione dei documenti, garantisce coerenza e rende i documenti ricercabili.
 
-Per ulteriori informazioni, visualizzare la scheda **Metadati** nell&#39;[output di Publish PDF](../web-editor/native-pdf-web-editor.md).
+Per ulteriori informazioni, visualizzare la scheda **Metadati** nell&#39;output [Pubblica PDF](../web-editor/native-pdf-web-editor.md).

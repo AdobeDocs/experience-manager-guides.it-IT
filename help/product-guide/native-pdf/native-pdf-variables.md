@@ -1,14 +1,13 @@
 ---
-title: PDF nativo | Utilizza variabili nell’output PDF
+title: PDF nativo | Utilizzare le variabili nell’output di PDF
 description: Utilizzare le variabili nei modelli di output e di output di PDF
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Una variabile è una coppia nome-valore di dati che funge da informazione riutil
 
 Per creare una variabile, effettua le seguenti operazioni:
 
-![Crea una nuova variabile](assets/add-variable-default.png){width="800" align="left"}
+![Crea una nuova variabile](assets/add-variable-default.png){width="800"}
 
 *Creare variabili e definirne i valori.*
 
@@ -83,14 +82,14 @@ Nell’anteprima della variabile viene visualizzato il valore predefinito. Ad es
 1. Seleziona una variabile nel pannello **Variabili**.
 1. Passa il puntatore del mouse sulla variabile per visualizzare il menu **Opzioni**, quindi seleziona l&#39;opzione **Anteprima**.
 
-   ![anteprima variabile dal pannello variabili](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![anteprima variabile dal pannello variabili](assets/variables-panel-preview-default.png){width="550"}
 
 *Visualizzare in anteprima il valore predefinito per una variabile.*
 
 **Dall&#39;editor variabili**
 
 1. Passa il cursore del mouse sulla variabile nell&#39;elenco per visualizzare il menu **Opzioni**.
-1. Selezionare **Anteprima**.
+1. Seleziona **Anteprima**.
 
 ### Duplicare una variabile
 
@@ -127,7 +126,7 @@ Adobe Experience Manager Guides supporta anche i set di variabili, che consenton
 È necessario configurare i set di variabili prima di aggiungervi variabili.
 
 1. Seleziona **Impostazioni** <img alt= "Icona Impostazioni" src="./assets/settings-icon.svg" width="25"> per aprire la finestra di dialogo **Configura set di variabili**.
-   ![configura set di variabili](assets/configure-variable-set.png){width="550" align="left"}
+   ![configura set di variabili](assets/configure-variable-set.png){width="550"}
 1. Immettere il nome del set di variabili nella colonna **Nome**.
 1. Seleziona **Aggiungi variabile** <img alt= "Icona Aggiungi" src="./assets/add-icon.svg" width="25"> per aggiungere un nuovo set di variabili. I set di variabili sono elencati in ordine alfabetico.
 1. È possibile selezionare **Elimina** per rimuovere un set di variabili.
@@ -159,7 +158,7 @@ Ogni nuova variabile viene aggiunta a tutti i set di variabili. Quando elimini o
 Puoi anche visualizzare in anteprima i valori per un set di variabili.
 Ad esempio, per il set di variabili *Adobe-Set1*, il valore della variabile ProductName è stato definito come &quot;ProductA&quot;, quindi il valore viene visualizzato nell&#39;anteprima nell&#39;editor di variabili.
 
-![anteprima variabile dall&#39;editor variabili](assets/variables-editor-preview.png){width="550" align="left"}
+![anteprima variabile dall&#39;editor variabili](assets/variables-editor-preview.png){width="550"}
 
 *Visualizza in anteprima il valore definito nel set di variabili selezionato.*
 
@@ -202,7 +201,7 @@ Per inserire una variabile come ProductName nell&#39;area dell&#39;intestazione,
 
 Puoi generare l’output PDF con i valori di variabili diverse. Prima di generare il layout, scegli un set di variabili dall&#39;elenco a discesa **Set di variabili** di un predefinito di output per sceglierne i valori.
 
-![elenco a discesa set di variabili](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![elenco a discesa set di variabili](assets/output-preset-variable-dropdown.png){width="550"}
 
 *Selezionare un set di variabili dal menu a discesa nel predefinito di output che si desidera utilizzare per generare l&#39;output di PDF.*
 

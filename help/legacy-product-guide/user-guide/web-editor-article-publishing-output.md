@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -31,16 +31,16 @@ Per generare l&#39;output per uno o più argomenti nella mappa DITA, effettuare 
 1. Nella scheda **Autore** selezionare l&#39;argomento nella mappa DITA che si desidera pubblicare.
 
 1. Selezionare **Generazione rapida** dal menu Opzioni dell&#39;argomento selezionato.
-   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1. Per pubblicare un argomento utilizzato in una singola mappa DITA, selezionare i predefiniti di output della mappa che si desidera utilizzare per la pubblicazione e fare clic su **Genera**.
-   ![](images/select-preset_cs.png){width="350" align="left"}
+   ![](images/select-preset_cs.png){width="350"}
 
 1. Viene visualizzato lo stato del processo di generazione dell’output. Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
 
 1. Se si dispone di un argomento comune utilizzato in più argomenti, selezionare le varie mappe DITA e i predefiniti di output che si desidera utilizzare per pubblicare e fare clic su **Genera.**
 
-   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
+   ![](images/select-preset-multiple-maps_cs.png){width="350"}
 
 1. Viene visualizzato lo stato del processo di generazione dell’output.
 
@@ -49,7 +49,7 @@ Per generare l&#39;output per uno o più argomenti nella mappa DITA, effettuare 
    - **Mappa**: elenca le mappe DITA che contengono l&#39;argomento selezionato.
    - **Stato**: visualizza lo stato di pubblicazione di ciascun argomento.
 Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800"}
 
 
 ## Generare l&#39;output per una mappa DITA dall&#39;editor Web
@@ -60,7 +60,7 @@ Per generare l&#39;output per l&#39;intera mappa DITA, effettuare le seguenti op
 
 1. Selezionare **Generazione rapida** dal menu Opzioni della mappa DITA.
 
-   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-map-options-menu_cs.png){width="650"}
 
 1. Selezionare i predefiniti di output della mappa DITA che si desidera utilizzare per la pubblicazione e fare clic su **Genera.**
 
@@ -81,9 +81,9 @@ Per generare l&#39;output per più argomenti nella mappa DITA dal pannello Vista
    >
    > Verranno visualizzati solo i predefiniti di output della mappa DITA corrente che contengono tutti gli argomenti selezionati.
 
-   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
+   ![](images/generate-output-multiple-topics_cs.png){width="650"}
 
 1. Viene visualizzato lo stato del processo di generazione dell’output.Per visualizzare l&#39;output, posizionare il puntatore del mouse sull&#39;argomento e fare clic su Visualizza output.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)
+**Argomento padre:**[ Pubblicazione basata su articolo dall&#39;editor Web](web-editor-article-publishing.md)

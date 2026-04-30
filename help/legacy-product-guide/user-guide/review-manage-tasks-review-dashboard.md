@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 
    Viene visualizzato un pannello Progetto con sezioni delle attività.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){width="800"}
 
 1. Fai clic sui tre punti nella sezione **Recensioni**.
 
    Viene visualizzato il dashboard Revisione. Nel dashboard sono elencate tutte le attività di revisione create.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){width="800"}
 
    Nel dashboard Revisione vengono visualizzati i dettagli relativi all&#39;attività di revisione, ad esempio il nome dell&#39;attività, l&#39;autore che ha avviato la revisione, la data di inizio della revisione, la data di scadenza, lo stato, il numero di nuovi commenti non accettati o rifiutati dall&#39;autore e il nome dei revisori. Le attività sono elencate in ordine di nuove attività rispetto alle attività meno recenti.
 
@@ -51,7 +51,7 @@ Per accedere e utilizzare il dashboard Revisione, effettuare le seguenti operazi
 
 ## Scheda Attività
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 Nella scheda **Attività** è possibile eseguire le azioni seguenti:
 
@@ -72,7 +72,7 @@ Nella scheda **Attività** è possibile eseguire le azioni seguenti:
 
 ## Scheda Contenuto
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 Puoi eseguire le azioni seguenti nella scheda **Contenuto**:
 
@@ -91,7 +91,7 @@ Puoi eseguire le azioni seguenti nella scheda **Contenuto**:
 
 ## Scheda Revisori {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
 Puoi eseguire le seguenti azioni nella scheda **Revisori**:
 
@@ -112,7 +112,7 @@ Puoi eseguire le seguenti azioni nella scheda **Revisori**:
 
 Dalla pagina principale della dashboard di revisione, se si seleziona un&#39;attività di revisione e si fa clic su **Stato**, viene visualizzato il rapporto sullo stato dell&#39;attività di revisione:
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
 La relazione sullo stato dell&#39;attività di revisione contiene i dettagli riportati di seguito.
 
@@ -125,4 +125,4 @@ La relazione sullo stato dell&#39;attività di revisione contiene i dettagli rip
 - Numero totale di commenti su tutti gli argomenti. In caso di più argomenti in revisione, il numero di commenti per ciascun argomento è indicato \(tra parentesi\) rispetto al nome dell’argomento.
 - Data dell&#39;ultimo accesso a un argomento da parte del revisore.
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

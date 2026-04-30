@@ -4,9 +4,9 @@ description: Scopri i tipi di stati dei documenti in Adobe Experience Manager Gu
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Per modificare lo stato di un documento, effettuare le seguenti operazioni:
 
 La vista a schede dell&#39;interfaccia utente di Assets mostra lo stato corrente insieme alla data e alle dimensioni di creazione del rispettivo argomento o mappa DITA.
 
-![](images/document_state.png){align="left"}
+![](images/document_state.png)
 
 ## Utilizzare gli stati del documento in DDLC
 
@@ -82,11 +82,11 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
 
 1. Se il documento è in stato di approvazione, viene visualizzata la seguente finestra di dialogo:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Se il documento non può essere contrassegnato come approvato, viene visualizzato il seguente messaggio:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Se il documento è pronto per essere contrassegnato come approvato, selezionare un&#39;etichetta dall&#39;elenco a discesa e selezionare **Approva**.
 
@@ -96,7 +96,7 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
 
 1. Una volta che il documento è stato contrassegnato come approvato, viene visualizzata una **Anteprima** del documento in modalità di sola lettura. Tutte le opzioni di modifica vengono rimosse da tutte e tre le modalità Autore, Source e Anteprima. Tuttavia, puoi comunque accedere al menu a discesa **Menu** che presenta le opzioni **Cronologia versioni** e **Tag**.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -114,4 +114,4 @@ Una volta contrassegnato come approvato, il documento non è più disponibile pe
    Lo stato del documento viene modificato in Bozza e il documento viene aperto nell&#39;Editor in modalità di modifica.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Nelle sezioni seguenti viene descritto come accedere e avviare l&#39;editor Web 
 
 Quando accedi ad AEM, viene visualizzata la pagina Navigazione:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
 Facendo clic sul collegamento **Guide** si accede direttamente all&#39;editor Web.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
 Dopo aver avviato l&#39;editor Web senza selezionare alcun file, viene visualizzata una schermata dell&#39;editor Web vuota. È possibile aprire un file per la modifica dal repository di AEM o dalla raccolta Preferiti.
 
@@ -67,7 +67,7 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
@@ -89,15 +89,15 @@ Un’altra posizione da cui è possibile avviare l’editor web è quella dell�
    >
    > Se desideri aprire più argomenti per la modifica, seleziona gli argomenti desiderati dall’interfaccia utente di Assets e fai clic su Modifica. Assicurati che nel browser non sia abilitato il blocco dei popup, altrimenti verrà aperto per la modifica solo il primo argomento dell’elenco selezionato.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    Se non si desidera visualizzare l&#39;anteprima di un argomento e aprirlo direttamente nell&#39;editor Web, fare clic sull&#39;icona Modifica nel menu Azioni rapide nella vista a schede:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. Fai clic su **Modifica** per aprire l&#39;argomento nell&#39;editor Web.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## Console mappe DITA {#id2056BG090BF}
@@ -116,7 +116,7 @@ Per aprire l&#39;Editor Web dalla console delle mappe DITA, effettuare le seguen
 
 1. Fare clic su **Modifica argomento**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. L&#39;argomento viene aperto nell&#39;editor Web.
 
@@ -125,4 +125,4 @@ Per aprire l&#39;Editor Web dalla console delle mappe DITA, effettuare le seguen
    > Se l&#39;amministratore ha configurato l&#39;opzione **Disattiva modifica senza estrazione**, è necessario estrarre il file prima di modificarlo. Se non si estrae il file, il documento viene aperto nell&#39;editor in modalità di sola lettura.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
+**Argomento padre:**[ Utilizzare l&#39;editor Web](web-editor.md)

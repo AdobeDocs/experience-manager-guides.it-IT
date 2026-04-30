@@ -4,9 +4,9 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Nella barra degli strumenti della visualizzazione Layout sono disponibili le seg
 
 Visualizza la finestra di dialogo Seleziona file. Passare al file argomento/mappa che si desidera inserire e scegliere **Seleziona** per aggiungerlo alla mappa.
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Gruppo di argomenti** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ Inserire l&#39;elemento `topicgroup`. Per ulteriori informazioni sul raggruppame
 
 Visualizza la finestra di dialogo Inserisci keydef. Utilizzare questa finestra di dialogo per definire qualsiasi definizione di chiave che si desidera utilizzare nella mappa.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ Mostra o nasconde una casella di controllo per ciascun argomento. È possibile u
 
 Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azioni seguenti utilizzando il menu Opzioni che viene visualizzato quando si passa il puntatore del mouse su un file o si fa clic con il pulsante destro del mouse all&#39;interno dell&#39;editor nella visualizzazione Layout:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall&#39;Editor mappe:
    - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento.
@@ -140,13 +140,13 @@ Se hai applicato una condizione a un argomento, a destra dell’argomento viene 
 
 La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor. Mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout.
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza la finestra di dialogo **Inserisci elemento prima o **Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ Mostra o nasconde i tag XML. I tag fungono da segnali visivi che indicano il lim
 
 Questa vista consente di modificare il contenuto nel suo formato non elaborato, fornendo un controllo completo sulla struttura e sulla formattazione.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 In questa visualizzazione, la barra degli strumenti fornisce le opzioni di base per la modifica e l&#39;inserimento del contenuto disponibili nel menu a discesa **Menu**, inclusi Taglia, Copia, Annulla, Ripeti, Elimina, Trova e sostituisci, Etichetta versione, Unisci, Salva come nuova versione, Blocca e Sblocca.
@@ -252,7 +252,7 @@ La modalità Anteprima esegue il rendering del contenuto così come verrà visua
 
 Oltre a poter visualizzare la posizione di ciascun file di argomento all&#39;interno di una mappa, è consigliabile visualizzare il contenuto della mappa in un unico flusso consecutivo. La funzione Anteprima mappa consente di visualizzare l&#39;intero contenuto del file mappa con un solo clic. Non è necessario generare un output del file di mappa per visualizzare come si presenterà l&#39;intera mappa dopo la pubblicazione. Potete semplicemente accedere all&#39;anteprima della mappa e tutti gli argomenti e le mappe secondarie vengono visualizzati sotto forma di libro.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
   >
   > Se non si dispone dei diritti di modifica, l&#39;argomento verrà aperto in modalità di sola lettura.
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - Passa all’argomento desiderato selezionando il titolo dell’argomento nella struttura ad albero della mappa \(nel pannello a sinistra\).
 
@@ -281,10 +281,10 @@ Quando si apre una mappa in modalità Anteprima e si torna da un&#39;altra sched
 È possibile utilizzare la funzionalità Aggiorna, disponibile nella modalità Anteprima della mappa, in due modi:
 
 - **Aggiornamento a livello di mappa**: se si seleziona il pulsante **Aggiorna**, viene aggiornata l&#39;anteprima dell&#39;intera mappa (inclusi tutti gli argomenti) e viene visualizzata la prima posizione di scorrimento per ottenere una visualizzazione chiara.
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **Aggiornamento a livello di argomento**: se si seleziona **Aggiorna argomento** dal menu di scelta rapida, l&#39;argomento specifico verrà aggiornato mantenendo invariata la posizione di scorrimento.
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **Altri modi per visualizzare in anteprima un file di mappa**
 
@@ -298,11 +298,11 @@ Puoi accedere all’anteprima di una mappa da:
 
 - **Editor mappe**: nell&#39;Editor mappe, selezionare **Anteprima** dal menu Opzioni per visualizzare l&#39;anteprima della mappa corrente.
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   L&#39;anteprima della mappa viene visualizzata in una casella a comparsa.
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Mappa proprietà**
 
@@ -329,7 +329,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    È possibile aprire più argomenti nell&#39;editor e ogni argomento viene aperto in una nuova scheda nell&#39;editor. Anche se la mappa DITA contiene mappe secondarie, gli argomenti delle mappe secondarie vengono aperti in una nuova scheda per la modifica. Se desideri visualizzare gli argomenti sotto una mappa secondaria, puoi selezionare ed espandere la mappa secondaria.
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    Se si seleziona un file di mappa, la mappa viene aperta in una nuova scheda dell&#39;editor.
 
@@ -337,7 +337,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - Puoi salvarli singolarmente. Se si chiude senza salvare gli argomenti, verrà visualizzata una finestra di dialogo in cui viene richiesto di salvare gli argomenti non salvati:
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
 
@@ -349,7 +349,7 @@ Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti oper
 
    - Se l&#39;amministratore ha attivato l&#39;opzione di sblocco dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file bloccati. Con questa opzione attivata, quando chiudi l’editor con i file modificati, viene visualizzato l’elenco dei file bloccati che devono essere salvati. I file bloccati vengono visualizzati con un&#39;icona di blocco:
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## Pannello a destra nell’Editor mappa
 
@@ -361,7 +361,7 @@ Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento att
 
 - **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore in **Visualizza attributi**. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti con l&#39;attributo `audience` sono definiti come `US`.
 
-  ![visualizzazione layout](images/layout-inline-attributes.png){width="650" align="left"}
+  ![visualizzazione layout](images/layout-inline-attributes.png){width="650"}
 
 
   Per ulteriori dettagli, visualizzare [Attributi di visualizzazione](../cs-install-guide/workspace-settings.md#display-attributes).

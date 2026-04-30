@@ -4,9 +4,9 @@ description: Scopri come chiudere un’attività di revisione o richiedere nuova
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Per richiedere un riesame o chiudere un&#39;attività di revisione, effettuare l
 
    La finestra di dialogo **Commenti attività** è visualizzata a destra.
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+   ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Seleziona **Aggiorna attività** per eseguire ulteriori azioni sull&#39;attività di revisione selezionata.
 5. Nella finestra di dialogo **Aggiorna attività**, scegli una delle azioni seguenti:
 
@@ -52,22 +52,22 @@ Per richiedere un riesame o chiudere un&#39;attività di revisione, effettuare l
 
    Per informazioni dettagliate su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
    Puoi anche [controllare lo stato dell&#39;attività di revisione](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) utilizzando l&#39;opzione **Controlla stato revisione** presente nella finestra di dialogo Aggiorna attività. Se si seleziona questa opzione, viene visualizzata la dashboard Revisione in cui viene visualizzato il rapporto sullo stato dell&#39;attività di revisione.
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. Seleziona **Conferma**.
 
 
 Come Autore o iniziatore di un&#39;attività di revisione, quando chiudi l&#39;attività, il pulsante **Aggiorna attività** presente nella parte inferiore del pannello Revisione viene modificato in **Chiuso**, a indicare che l&#39;attività non è più attiva.
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 Inoltre, il pulsante **Aggiorna attività** presente nel pannello Revisione rimane disattivato per gli altri utenti dell&#39;attività di revisione. Ad esempio, se apri l&#39;attività nell&#39;editor come revisore di un&#39;attività di revisione, il pulsante Aggiorna attività verrà disattivato con un messaggio **Non disponi dell&#39;autorizzazione per questa attività**. Solo l&#39;iniziatore di un&#39;attività di revisione è autorizzato ad aggiornare l&#39;attività dall&#39;editor.
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

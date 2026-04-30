@@ -2,10 +2,10 @@
 title: Utilizza l’Assistente AI per creare i documenti in modo intelligente "
 description: Scopri come utilizzare l’Assistente AI per eseguire ricerche e creare documenti in modo intelligente in Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
-source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,16 @@ La funzionalità **Authoring** nell&#39;Assistente di intelligenza artificiale r
 
 Per ulteriori dettagli, visualizzare [Authoring](./ai-assistant-right-panel.md).
 
-![assistente ai](./images/ai-assistant-panel.png){align="left"}
+![assistente ai](./images/ai-assistant-panel.png)
 
 La funzionalità **Help** nell&#39;Assistente di intelligenza artificiale è uno strumento intuitivo basato su chat progettato per aiutarti a comprendere meglio Experience Manager Guides, risolvere i problemi e cercare informazioni nella documentazione di Adobe Experience Manager Guides. Anziché eseguire ricerche nelle guide utente e nei documenti di riferimento, è possibile utilizzare la funzionalità **Guida** per trovare rapidamente risposte pertinenti alle query. Ciò consente di risparmiare tempo e di concentrarsi sulla creazione dei contenuti, con conseguente aumento della produttività e dell&#39;efficienza.
 
 Per ulteriori dettagli, visualizzare la [Guida](./ai-based-smart-help.md).
 
 
-![Pannello Guida avanzato](images/smart-help-panel.png){align="left"}
+![Pannello Guida avanzato](images/smart-help-panel.png)
 
-## Introduzione all’Assistente AI
+## Introduzione all’Assistente IA
 
 Quando utilizzi **AI Asistant** per la prima volta, ti viene richiesto di inviare il consenso prima di utilizzare le funzionalità di Experience Manager Guides Generative AI.
 
@@ -41,7 +41,7 @@ Per avviare l’Assistente IA, effettua le seguenti operazioni:
 
    La pagina dell&#39;Assistente AI viene visualizzata evidenziandone le caratteristiche chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
 
-   ![Pannello Guida avanzato](images/get-started-ai.png){align="left"}
+   ![Pannello Guida avanzato](images/get-started-ai.png)
 
 1. Leggere attentamente le linee guida per l&#39;utente, quindi selezionare **Inizia** per avviare l&#39;Assistente IA.
 
