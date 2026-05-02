@@ -143,4 +143,4 @@ Mappe immagine:
 
 
 
-Ulteriori informazioni sulle best practice di [Sicurezza](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Ulteriori informazioni sulle best practice di [Sicurezza](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/security).

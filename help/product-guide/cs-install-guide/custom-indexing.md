@@ -220,5 +220,5 @@ La verifica principale consiste nel testare la funzione:
 
 - [Documentazione sull’indicizzazione di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guida all’indicizzazione di Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentazione di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentazione di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides)
 - [Documentazione di Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
