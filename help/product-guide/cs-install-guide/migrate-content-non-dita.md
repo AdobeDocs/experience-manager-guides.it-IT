@@ -5,10 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -129,7 +128,7 @@ Il processo di conversione prevede le seguenti azioni nel back-end:
 - Creazione e convalida di singoli argomenti e file di mappe DITA.
 - Eliminazione dei file temporanei.
 
-In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
+In generale, il processo di conversione richiede di [preparare i file InDesign per la conversione](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) e [preparare il file di mappatura per la migrazione da InDesign a DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), quindi è necessario seguire la procedura specificata per l&#39;esecuzione del processo di conversione.
 
 Per convertire i documenti InDesign esistenti in documenti di tipo argomento DITA, effettuare le seguenti operazioni:
 
@@ -235,7 +234,7 @@ Per caricare i documenti in un file ZIP, è necessario considerare i seguenti pu
   </html>
   ```
 
-  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `li` di `class` deve essere impostato su `topicref`.
+  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `class` di `li` deve essere impostato su `topicref`.
 
 - Se utilizzi gli stili in linea, converti gli stili in linea in classi di stile basate su CSS nel file XHTML. Utilizzare quindi la mappatura degli attributi di stile per convertire gli stili basati su classi in attributi DITA `outputclass` nel file DITA convertito.
 
@@ -403,4 +402,4 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 
 Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di configurazioni per la conversione. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata nell&#39;elemento `outputDir`.
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)

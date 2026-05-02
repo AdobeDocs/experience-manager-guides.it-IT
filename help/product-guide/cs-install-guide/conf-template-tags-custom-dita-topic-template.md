@@ -5,8 +5,7 @@ exl-id: 5a2f4897-9697-4c5c-b5be-8fdb3a211948
 feature: Template Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
@@ -63,6 +62,6 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specifica un percorso in cui memorizzare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mapping e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specificare un percorso in cui archiviare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
 
-**Argomento padre:**&#x200B;[&#x200B; Configura modelli di argomento e mappa](conf-template-tags.md)
+**Argomento padre:**[ Configura modelli di argomento e mappa](conf-template-tags.md)

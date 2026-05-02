@@ -5,10 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -53,7 +52,7 @@ Per caricare un plug-in DITA-OT personalizzato nell&#39;archivio AEM, effettuare
 
    >[!NOTE]
    >
-   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche utilizzando la pipeline di Cloud Manager. Per ulteriori dettagli, consulta [Distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it) nella documentazione di AEM.
+   > Si consiglia di non sovrascrivere il pacchetto DITA-OT predefinito. È necessario caricare il pacchetto DITA-OT personalizzato contenente la cartella plug-in /var/dxml/dita\_resources/dita-ot. Puoi eseguire questa operazione anche utilizzando la pipeline di Cloud Manager. Per ulteriori dettagli, consulta [Distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) nella documentazione di AEM.
 
 1. Per creare un nuovo profilo, potete scegliere di modificare il profilo predefinito, crearne uno nuovo o duplicare le impostazioni del profilo predefinito.
 

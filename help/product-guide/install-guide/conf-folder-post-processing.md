@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ Per disabilitare la postelaborazione in un determinato percorso o ignorare la po
 
 >[!NOTE]
 >
-> Oltre ai percorsi ignorati e abilitati configurati tramite la configurazione OSGi, il comportamento di post-elaborazione è influenzato anche da un nodo a livello di archivio situato in `/var/dxml/postprocess/ignoredPaths`. <br> Se una cartella viene esclusa in modo imprevisto dalla post-elaborazione e non è elencata nella configurazione OSGi, è consigliabile controllare questo nodo dell&#39;archivio. Se il percorso è impostato su `true`, verrà ignorato. Per riabilitare l’elaborazione, puoi rimuovere manualmente la proprietà corrispondente dal nodo.
+> Oltre ai percorsi ignorati e abilitati configurati tramite la configurazione OSGi, il comportamento di post-elaborazione è influenzato anche da un nodo a livello di archivio situato in `/var/dxml/postprocess/ignoredPaths`. <br> Se una cartella viene esclusa in modo imprevisto dalla post-elaborazione e non è elencata nella configurazione OSGi, si consiglia di controllare questo nodo dell’archivio. Se il percorso è impostato su `true`, verrà ignorato. Per riabilitare l’elaborazione, puoi rimuovere manualmente la proprietà corrispondente dal nodo.
 
 ## Regole per abilitare o disabilitare la post-elaborazione
 

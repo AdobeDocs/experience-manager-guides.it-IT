@@ -5,10 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5703'
+source-wordcount: '5820'
 ht-degree: 1%
 
 ---
@@ -26,7 +25,7 @@ Per nascondere la scheda Linea di base nel quadro comandi Mappa DITA, effettuare
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 >[!NOTE]
 >
@@ -129,7 +128,7 @@ Per specificare il modello di progettazione da utilizzare per la generazione di 
 >
 > Dopo aver creato un nodo del modello di progettazione personalizzato, è necessario aggiornare l’opzione Progettazione nei predefiniti di output del sito AEM per utilizzare il nodo del modello di progettazione personalizzato.
 
-Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=it) sullo sviluppo del tuo sito Web su AEM.
+Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sullo sviluppo del tuo sito Web su AEM.
 
 ### Usa il titolo del documento per generare l&#39;output del sito AEM
 
@@ -270,7 +269,7 @@ Per escludere l&#39;elemento `table` dall&#39;appiattimento, aggiungere la segue
 
 ### Configurare il controllo delle versioni per le pagine eliminate nell’output del sito AEM
 
-Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea **&#x200B;**&#x200B;selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
+Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea ****selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
 
 Per interrompere la creazione di una versione per le pagine da eliminare, effettua le seguenti operazioni:
 
@@ -331,7 +330,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
    3. In **Etichetta campo**, immettere il nome metadati: Pubblico.
 
-   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Per il nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
+   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Nel nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
 
    Utilizzando questi passaggi, aggiungi tutti i parametri di metadati richiesti.
 
@@ -434,7 +433,7 @@ Per utilizzare il campo dell&#39;argomento della riga di comando DITA-OT per pas
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 - L&#39;impostazione del valore della proprietà su **true** abilita la funzionalità della riga di comando DITA-OT, che consente di passare i metadati tramite la riga di comando DITA-OT.
 - Se si imposta il valore della proprietà su **false**, la funzionalità della riga di comando DITA-OT verrà disattivata. Per trasmettere i metadati, puoi quindi utilizzare il campo Proprietà nel predefinito.
@@ -595,16 +594,16 @@ Nella tabella seguente vengono descritti gli elementi dello schema di elementi D
 | `<ditaelement>` | Nodo di primo livello per ogni elemento di mappatura. |
 | `<class>` | Attributo di classe dell&#39;elemento DITA di destinazione per il quale si sta scrivendo il componente.<br> Ad esempio, l&#39;attributo di classe per l&#39;argomento DITA è: <br> `- topic/topic` |
 | `<componentpath>` | Percorso CRXDE del componente AEM mappato. |
-| `<type>` | Valori possibili:<br> -   **COMPOSITO**: Elabora anche elementi figlio <br> -   **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
+| `<type>` | Valori possibili:<br> - **COMPOSITO**: Elabora anche elementi figlio <br> - **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
 | `<attributeprop>` | Utilizzato per la mappatura di attributi e valori DITA serializzati ai nodi AEM come proprietà. Ad esempio, se si dispone dell&#39;elemento `<note type="Caution">` e il componente mappato per questo elemento ha `<attributeprop>attr_t</ attributeprop>`, l&#39;attributo e il valore del nodo vengono serializzati nella proprietà `attr_t` del nodo AEM corrispondente \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Salva l&#39;output `getTextContent()` nella proprietà definita da `propname_t.` <br> **Nota:** questa è una proprietà ottimizzata. |
 | `<xmlprop>propname_x </xmlprop>` | Salva il codice XML serializzato di questo nodo nella proprietà definita da `propname_x.<br> `**Nota:** Si tratta di una proprietà ottimizzata. |
 | `<xpath>` | Se l&#39;elemento XPath viene fornito nel mapping di elementi, insieme al nome e alla classe dell&#39;elemento deve essere soddisfatta anche la condizione XPath affinché venga utilizzato il mapping di componenti. |
-| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nella posizione specificata.<br> Valori possibili: <br> - **head**: Sotto il nodo head <br> - **text**: Sotto il nodo paragrafo |
+| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nel percorso specificato.<br> Valori possibili: <br> - **head**: sotto il nodo head <br> - **text**: sotto il nodo paragrafo |
 | `<wrapelement>` | L’elemento HTML in cui racchiudere il contenuto. |
 | `<wrapclass>` | Il valore dell&#39;elemento alla proprietà `wrapclass.` |
 | `<attributemap>` | Nodo contenitore contenente uno o più nodi `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Associa gli attributi DITA alle proprietà di AEM: <br> -   **`from`**: nome attributo DITA <br> -   **`to`**: nome proprietà componente AEM <br> -   **`ispath`**: se l&#39;attributo è un valore di percorso \(ad esempio: *immagine*\) <br> -   **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappa gli attributi DITA alle proprietà di AEM: <br> - **`from`**: nome attributo DITA <br> - **`to`**: nome proprietà componente AEM <br> - **`ispath`**: Se l&#39;attributo è un valore percorso \(ad esempio: *image*\) <br> - **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
 
 **Note aggiuntive**
 
@@ -631,11 +630,11 @@ AEM Guides fornisce la categoria `apps.fmdita.dashboard-extn` per personalizzare
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione della libreria client di AEM, vedere [Utilizzo delle librerie lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=it).
+> Per ulteriori informazioni sulla creazione della libreria client di AEM, vedere [Utilizzo delle librerie lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gestione della rappresentazione delle immagini durante la generazione dell&#39;output {#id177BF0G0VY4}
 
-AEM viene fornito con una serie di flussi di lavoro e di handle di contenuti multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni su come AEM gestisce le risorse, consulta [Elaborazione di Assets tramite gestori di contenuti multimediali e flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=it) nella documentazione di AEM.
+AEM viene fornito con una serie di flussi di lavoro e di handle di contenuti multimediali predefiniti per l’elaborazione delle risorse. In AEM, esistono flussi di lavoro predefiniti per gestire l’elaborazione delle risorse per i tipi MIME più comuni. In genere, per ogni immagine caricata, AEM crea più rappresentazioni dello stesso in formato binario. Queste rappresentazioni possono avere dimensioni diverse, una risoluzione diversa, una filigrana aggiunta o altre caratteristiche modificate. Per ulteriori informazioni su come AEM gestisce le risorse, consulta [Elaborazione di Assets tramite gestori di contenuti multimediali e flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) nella documentazione di AEM.
 
 AEM Guides consente di configurare la rappresentazione dell’immagine da utilizzare al momento della generazione dell’output per i documenti. Ad esempio, puoi scegliere una delle rappresentazioni immagine predefinite oppure crearne una e utilizzare la stessa opzione per pubblicare i documenti. Il mapping della rappresentazione dell&#39;immagine per la pubblicazione dei documenti è memorizzato nel file `/libs/fmdita/config/ **renditionmap.xml**`. Uno snippet di file `renditionmap.xml` è il seguente:
 

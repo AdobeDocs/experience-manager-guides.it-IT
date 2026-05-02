@@ -5,10 +5,9 @@ exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -33,4 +32,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 >
 > Analogamente all&#39;elenco dei caratteri validi per i nomi di file, è possibile specificare anche un elenco di caratteri validi per i nomi di file per l&#39;output del sito AEM. Per ulteriori dettagli, vedere [Configurare nomi di file validi per l&#39;output del sito AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Argomento padre:**&#x200B;[&#x200B; Configura nomi file](conf-file-names.md)
+**Argomento padre:**[ Configura nomi file](conf-file-names.md)

@@ -5,10 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 ## Configura archivio dati \(Obbligatorio\)
 
 **Qual è la modifica?**
-Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio dati di tipo file date e S3, vedere l&#39;articolo [Configurazione degli archivi nodi e dei dati in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ I parametri di avvio della JVM devono essere accuratamente regolati in base all&
 
 : imposta la dimensione heap JVM su un minimo di 1/4 della memoria totale disponibile. Utilizzare il parametro `-Xmx<size>` per impostare la dimensione della memoria heap. Impostare il valore per -`Xms` uguale a `-Xmx`.
 
-- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Abilita registro Java GC come:
 
@@ -116,4 +115,4 @@ Questa operazione può essere eseguita in fase di esecuzione tramite la console 
 Un numero maggiore di **pagine del sito AEM limitate nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)

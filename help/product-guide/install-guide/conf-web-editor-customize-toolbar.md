@@ -5,10 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Per impostazione predefinita, l&#39;Editor Web viene fornito con le funzioni edi
 
 >[!NOTE]
 >
-> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
@@ -50,7 +49,7 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
 1. Nel file `ui_config.json`, aggiungere la definizione della nuova funzionalità nella sezione delle barre degli strumenti. In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
 
-   - **type:**&#x200B;Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
+   - **type:**Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
 
    - **extraclass:** Nome della classe o delle classi separate da spazio.
 
@@ -226,11 +225,11 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 1. Passare al file `ui_config.json` nel nodo `apps` e aprirlo per la modifica.
 Il file `ui_config.json` è suddiviso in tre sezioni:
 
-- **barre degli strumenti:**   Questa sezione contiene la definizione di tutte le funzioni disponibili nella barra degli strumenti dell’editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
+- **barre degli strumenti:** Questa sezione contiene la definizione di tutte le funzionalità disponibili nella barra degli strumenti dell&#39;editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
 
-- **collegamenti:**   Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
+- **scelte rapide:** Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzionalità nell&#39;editor.
 
-- **modelli:**   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
+- **modelli:** Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -241,4 +240,4 @@ Il file `ui_config.json` è suddiviso in tre sezioni:
 1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

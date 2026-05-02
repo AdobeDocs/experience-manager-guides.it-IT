@@ -5,10 +5,9 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -60,4 +59,4 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 
 Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

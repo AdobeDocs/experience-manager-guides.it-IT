@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
 
 A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;eliminazione, specificare una delle seguenti costanti:
 
@@ -143,7 +142,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
 - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.

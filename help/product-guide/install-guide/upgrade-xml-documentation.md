@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 - Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -60,11 +59,11 @@ Prima di eseguire il processo è necessario completare alcune attività. Le segu
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [&#128279;](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides, verificare di disporre di:
 
@@ -89,7 +88,7 @@ Questa API è progettata per valutare lo stato corrente del sistema e segnalare 
 | Punto finale | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo di richiesta | **GET** Puoi utilizzare un browser Web, in cui hai effettuato l&#39;accesso all&#39;istanza AEM come amministratore. |
-| Risposta prevista | -   Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>-   Se nella posizione di destinazione è presente un nodo, viene visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** non si tratta di un errore comune in quanto il percorso di destinazione non è stato utilizzato in precedenza da Experience Manager Guides 3.x. <br> -   Se questo script non riesce, non procedere e segnalalo al team di successo del cliente. |
+| Risposta prevista | - Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>- Se nel percorso di destinazione è presente un nodo, verrà visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** non si tratta di un errore comune in quanto il percorso di destinazione non è stato utilizzato in precedenza da Experience Manager Guides 3.x. <br> - Se questo script non riesce, non procedere e segnalalo al tuo team di successo cliente. |
 
 **API di migrazione dati di sistema**
 
@@ -101,7 +100,7 @@ Questa API è progettata per migrare i dati di sistema come indicato nella sezio
 | Punto finale | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-| Risposta prevista | -   Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>-   In caso di errori, ripristina l’ultimo punto di controllo e condividi i registri degli errori con l’output API al team di successo del cliente. |
+| Risposta prevista | - Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>- In caso di errori, ripristinare l&#39;ultimo checkpoint e condividere i registri degli errori con l&#39;output API con il team di successo del cliente. |
 
 **Mappatura migrazione**: l&#39;API precedente esegue la migrazione di tutti i dati nel percorso di origine nel percorso di destinazione.
 
@@ -137,7 +136,7 @@ L’aggiornamento alla versione 4.2 dipende dalla versione corrente di Experienc
 
 Se utilizzi le versioni 4.0, 4.1 o 4.1.x, puoi eseguire direttamente l’aggiornamento alla versione 4.2.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2, assicurati di disporre di:
 
@@ -297,7 +296,7 @@ e imposta le seguenti proprietà nel nodo:
    (insieme ad altri nodi e proprietà esistenti)
 
 1. Reindicizzare l&#39;indice `damAssetLucene` (impostando il flag di reindicizzazione come `true` in
-e attendi che sia di nuovo `false` (questo indica che la reindicizzazione è completa). Tieni presente che potrebbero essere necessarie alcune ore a seconda delle dimensioni dell’indice.
+e attendi che sia di nuovo `false` (questo indica che la reindicizzazione è stata completata). Tieni presente che potrebbero essere necessarie alcune ore a seconda delle dimensioni dell’indice.
 1. Esegui nuovamente lo script di indicizzazione eseguendo i passaggi precedenti.
 
 
@@ -313,7 +312,7 @@ L’aggiornamento alla versione 4.2.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.2.1, assicurati di disporre di:
 
@@ -490,7 +489,7 @@ L’aggiornamento alla versione 4.3.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.0, assicurati di disporre di:
 
@@ -527,7 +526,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -548,7 +547,7 @@ L’aggiornamento alla versione 4.3.1 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.3.1, assicurati di disporre di:
 
@@ -728,7 +727,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -789,7 +788,7 @@ L’aggiornamento alla versione 4.4.0 dipende dalla versione corrente di Experie
 >
 >La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.4.0, assicurati di disporre di:
 
@@ -929,7 +928,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -982,7 +981,7 @@ Se nel codebase è presente un altro rewriter sling personalizzato, utilizza un 
 Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 1000 a 50, è necessario unire l&#39;eventuale rewriter personalizzato esistente con `'fmdita-rewriter'`.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)
+**Argomento padre:**[ Scarica e installa](download-install.md)
 
 
 ## Aggiornamento alla versione 4.6.0
@@ -997,7 +996,7 @@ L’aggiornamento alla versione 4.6.0 dipende dalla versione corrente di Experie
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 4.6.0, assicurati di disporre di:
 
@@ -1119,7 +1118,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1152,7 +1151,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 >
 > La post-elaborazione e l’indicizzazione potrebbero richiedere alcune ore. Si consiglia di avviare il processo di aggiornamento durante le ore non di punta.
 
-**&#x200B;**&#x200B;Prerequisiti&#x200B;**&#x200B;**
+****Prerequisiti****
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.0.0, verificare di disporre dei seguenti elementi:
 
@@ -1274,7 +1273,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1300,7 +1299,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
 
 >[!NOTE]
 >
@@ -1310,7 +1309,7 @@ La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai 
 
 >[!IMPORTANT]
 >
-> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Prerequisiti**
 
@@ -1441,7 +1440,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1467,7 +1466,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
 
 >[!NOTE]
 >

@@ -5,10 +5,9 @@ exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -43,4 +42,4 @@ Per creare un sito AEM per la pubblicazione dell’output basato su articoli, ef
 
 È possibile utilizzare il sito AEM per pubblicare l&#39;articolo utilizzando i predefiniti di output dell&#39;editor Web.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

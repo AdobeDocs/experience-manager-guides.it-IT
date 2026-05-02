@@ -5,10 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 4204b6fe9e56de09bd833007a36330a42b26b57a
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2448'
 ht-degree: 0%
 
 ---
@@ -225,7 +224,7 @@ Per caricare i documenti in un file ZIP, è necessario considerare i seguenti pu
   </html>
   ```
 
-  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `li` di `class` deve essere impostato su `topicref`.
+  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `class` di `li` deve essere impostato su `topicref`.
 
 - Se utilizzi gli stili in linea, converti gli stili in linea in classi di stile basate su CSS nel file XHTML. Utilizzare quindi la mappatura degli attributi di stile per convertire gli stili basati su classi in attributi DITA `outputclass` nel file DITA convertito.
 
@@ -399,4 +398,4 @@ Per convertire i documenti strutturati esistenti in formato DITA, effettuare le 
 
 Utilizzando il blocco `<config> </config>`, puoi definire uno o più blocchi di configurazioni per la conversione. Il flusso di lavoro di conversione viene eseguito e l&#39;output finale sotto forma di argomento DITA viene salvato nella posizione specificata nell&#39;elemento `outputDir`.
 
-**Argomento padre:**&#x200B;[&#x200B; Esegui migrazione contenuto esistente](migrate-content.md)
+**Argomento padre:**[ Esegui migrazione contenuto esistente](migrate-content.md)

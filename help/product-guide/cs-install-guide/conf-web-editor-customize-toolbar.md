@@ -5,10 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Per impostazione predefinita, l&#39;Editor Web viene fornito con le funzioni edi
 
 >[!NOTE]
 >
-> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Durante la migrazione dalla vecchia interfaccia alla nuova interfaccia utente di AEM Guides (applicabile dalle versioni 2502 e 5.0 di AEM Guides), gli aggiornamenti a `ui_config` devono essere convertiti in configurazioni dell&#39;interfaccia utente più flessibili e modulari. Questo framework consente di adottare le modifiche direttamente nell’editor_toolbar e in altri widget di destinazione, a seconda delle necessità. Per ulteriori dettagli, visualizzare [Panoramica della configurazione dell&#39;interfaccia utente di conversione](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Esistono due modi per personalizzare la barra degli strumenti dell’editor web:
 
@@ -44,11 +43,11 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    In genere, è possibile creare un nuovo gruppo di pulsanti della barra degli strumenti e aggiungervi uno o più pulsanti. In alternativa, è possibile aggiungere un nuovo pulsante della barra degli strumenti all&#39;interno di un gruppo di barre degli strumenti esistente. Per creare un nuovo gruppo di barre degli strumenti sono necessari i seguenti dettagli:
 
-   **tipo**:   Specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
+   **tipo**: specificare `blockGroup` come valore `type`. Questo valore indica che si sta creando un gruppo di blocchi contenente uno o più gruppi di barre degli strumenti.
 
-   **extraclass**:   Nome della classe o delle classi separate da spazio.
+   **extraclass**: nome della classe o delle classi separate da spazio.
 
-   **elementi**:   Specificate la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
+   **elementi**: specifica la definizione di tutti i gruppi nella barra degli strumenti. Ogni gruppo può contenere una o più icone della barra degli strumenti. Per definire le icone all&#39;interno di un gruppo di barre degli strumenti, è necessario definire nuovamente l&#39;attributo `type` all&#39;interno di `items` e impostarne il valore su `buttonGroup`. Specificare uno o più nomi di classe nella proprietà `extraclass`. Specificare il nome della funzionalità nella proprietà `label`. Il frammento seguente del file `ui_config.json` mostra la definizione per il blocco della barra degli strumenti principale, seguito dalla definizione `buttonGroup`:
 
    ```
    "toolbar": {    
@@ -67,21 +66,21 @@ Per aggiungere una funzionalità alla barra degli strumenti dell&#39;editor Web,
 
    Per aggiungere un&#39;icona a forma di barra degli strumenti, è necessario definire le seguenti proprietà:
 
-   **tipo**:   Specificare `button` come valore `type`. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
+   **tipo**: specificare `button` come valore `type`. Questo valore indica che si sta aggiungendo un pulsante della barra degli strumenti.
 
-   **icona**:   Specificate il nome dell&#39;icona Coral da utilizzare nella barra degli strumenti.
+   **icon**: specificare il nome dell&#39;icona Coral che si desidera utilizzare nella barra degli strumenti.
 
-   **variante**:   Specificare `quiet` come valore `variant`.
+   **variante**: specificare `quiet` come valore `variant`.
 
-   **titolo**:   Specifica la descrizione comando per l’icona.
+   **title**: specifica la descrizione comando per l&#39;icona.
 
-   **al clic**:   Specificate il nome del comando definito per la feature nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
+   **al clic**: specificare il nome del comando definito per la funzionalità nel file JavaScript. Se il comando richiede parametri di input, specificare il nome del comando come:
 
    ```Javascript
    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
    ```
 
-   **mostra o nascondi**:   Se si sta definendo la proprietà `show`, specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\) o `false` \(nascondi in tutte le modalità\).
+   **mostra o nascondi**: se si sta definendo la proprietà `show`, specificare le modalità di visualizzazione dell&#39;icona. I valori possibili sono - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visualizza in tutte le modalità\) o `false` \(nascondi in tutte le modalità\).
 
    Al posto di `show`, puoi anche definire la proprietà `hide`. I valori possibili sono gli stessi della proprietà `show` con l&#39;unica differenza che l&#39;icona non viene visualizzata per la modalità specificata.
 
@@ -130,11 +129,11 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 
    Il file `ui_config.json` è suddiviso in tre sezioni:
 
-   1. **barre degli strumenti**:   Questa sezione contiene la definizione di tutte le funzioni disponibili nella barra degli strumenti dell’editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
+   1. **barre degli strumenti**: questa sezione contiene la definizione di tutte le funzionalità disponibili nella barra degli strumenti dell&#39;editor, ad esempio Inserisci/Rimuovi elenco numerato, \(file\) Chiudi, Salva, Commenti e altro ancora.
 
-   1. **collegamenti**:   Questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell’editor.
+   1. **scelte rapide**: questa sezione contiene la definizione delle scelte rapide da tastiera assegnate a una particolare funzione nell&#39;editor.
 
-   1. **modelli**:   Questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
+   1. **modelli**: questa sezione contiene la struttura predefinita degli elementi DITA che è possibile utilizzare nel documento. Per impostazione predefinita, la sezione modelli contiene le definizioni dei modelli per gli elementi paragrafo, tabella semplice, tabella e corpo. Puoi creare una definizione di modello per qualsiasi elemento aggiungendo una struttura XML valida per l’elemento desiderato. Ad esempio, se si desidera aggiungere un elemento `p` con ogni nuovo elemento `li` in un elenco, è possibile aggiungere il codice seguente alla fine della sezione dei modelli per ottenere questo risultato:
 
    ```css
    "li": "<li><p></p></li>"
@@ -145,4 +144,4 @@ Per rimuovere qualsiasi feature indesiderata dalla barra degli strumenti, effett
 1. Salva il file *ui\_config.json* e ricarica l&#39;editor Web.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)

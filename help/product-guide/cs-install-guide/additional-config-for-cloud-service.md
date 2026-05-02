@@ -2,11 +2,10 @@
 title: Configurazione aggiuntiva per l’aggiornamento di Cloud Service
 description: Scopri la configurazione aggiuntiva per l’aggiornamento di Cloud Service
 exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: '863'
+ht-degree: 1%
 
 ---
 
@@ -108,7 +107,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.

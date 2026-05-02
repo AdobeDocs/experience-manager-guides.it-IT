@@ -1,15 +1,14 @@
 ---
-title: Funzione di pubblicazione nativa di PDF | Utilizza gli stili di contenuto comuni
+title: Funzione di pubblicazione nativa di PDF | Operazioni con gli stili di contenuto comuni
 description: Scopri come creare fogli di stile di utilizzo e stili per i contenuti.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '3778'
-ht-degree: 0%
+source-wordcount: '3818'
+ht-degree: 1%
 
 ---
 
