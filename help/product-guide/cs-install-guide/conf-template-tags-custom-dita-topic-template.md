@@ -64,4 +64,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specificare un percorso in cui archiviare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
 
-**Argomento padre:**[ Configura modelli di argomento e mappa](conf-template-tags.md)
+**Argomento padre:**&#x200B;[&#x200B; Configura modelli di argomento e mappa](conf-template-tags.md)

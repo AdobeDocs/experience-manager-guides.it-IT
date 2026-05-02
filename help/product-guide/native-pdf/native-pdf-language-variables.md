@@ -122,7 +122,7 @@ Le variabili con lo stesso ID vengono importate una volta importato il file. I v
 >[!NOTE]
 > 
 ><ul><li>Se il file non è un file XML o se il file contiene un formato non corretto che non è mappato con le variabili di lingua, viene visualizzato un errore che indica la presenza di un problema con il file XML. 
-&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
+>&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
 
 ### Opzioni per una variabile di lingua
 
@@ -130,7 +130,7 @@ Passa il puntatore del mouse sulla variabile per visualizzare il relativo menu *
 
 <img width="550" alt="menu delle opzioni per le variabili di lingua" src="./assets/language-variable-user-options.png">
 
-*Utilizza il menu **Opzioni**per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
+*Utilizza il menu **Opzioni**&#x200B;per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
 
 Puoi visualizzare in anteprima sia le variabili dell’applicazione che quelle dell’utente. Per visualizzare la modalità di visualizzazione del valore della variabile nell&#39;output, selezionare **Anteprima** dal menu **Opzioni** della variabile selezionata.
 Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si elimina una variabile da una lingua, questa viene eliminata automaticamente da tutte le lingue.
