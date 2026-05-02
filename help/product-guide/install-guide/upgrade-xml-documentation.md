@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -89,7 +88,7 @@ Questa API è progettata per valutare lo stato corrente del sistema e segnalare 
 | Punto finale | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Tipo di richiesta | **GET** Puoi utilizzare un browser Web, in cui hai effettuato l&#39;accesso all&#39;istanza AEM come amministratore. |
-| Risposta prevista | -   Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>-   Se nella posizione di destinazione è presente un nodo, viene visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** non si tratta di un errore comune in quanto il percorso di destinazione non è stato utilizzato in precedenza da Experience Manager Guides 3.x. <br> -   Se questo script non riesce, non procedere e segnalalo al team di successo del cliente. |
+| Risposta prevista | - Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>- Se nel percorso di destinazione è presente un nodo, verrà visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** non si tratta di un errore comune in quanto il percorso di destinazione non è stato utilizzato in precedenza da Experience Manager Guides 3.x. <br> - Se questo script non riesce, non procedere e segnalalo al tuo team di successo cliente. |
 
 **API di migrazione dati di sistema**
 
@@ -101,7 +100,7 @@ Questa API è progettata per migrare i dati di sistema come indicato nella sezio
 | Punto finale | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-| Risposta prevista | -   Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>-   In caso di errori, ripristina l’ultimo punto di controllo e condividi i registri degli errori con l’output API al team di successo del cliente. |
+| Risposta prevista | - Una volta completata la migrazione, è possibile installare la soluzione XML Documentation versione 4.0.<br>- In caso di errori, ripristinare l&#39;ultimo checkpoint e condividere i registri degli errori con l&#39;output API con il team di successo del cliente. |
 
 **Mappatura migrazione**: l&#39;API precedente esegue la migrazione di tutti i dati nel percorso di origine nel percorso di destinazione.
 
@@ -297,7 +296,7 @@ e imposta le seguenti proprietà nel nodo:
    (insieme ad altri nodi e proprietà esistenti)
 
 1. Reindicizzare l&#39;indice `damAssetLucene` (impostando il flag di reindicizzazione come `true` in
-e attendi che sia di nuovo `false` (questo indica che la reindicizzazione è completa). Tieni presente che potrebbero essere necessarie alcune ore a seconda delle dimensioni dell’indice.
+e attendi che sia di nuovo `false` (questo indica che la reindicizzazione è stata completata). Tieni presente che potrebbero essere necessarie alcune ore a seconda delle dimensioni dell’indice.
 1. Esegui nuovamente lo script di indicizzazione eseguendo i passaggi precedenti.
 
 
@@ -527,7 +526,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -728,7 +727,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -929,7 +928,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
    | Tipo di richiesta | **POST** Questo script è una richiesta POST, quindi deve essere eseguito tramite agenti come Postman. |
-   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Risposta prevista | L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint.<br> URL di esempio: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
@@ -1119,7 +1118,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1274,7 +1273,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
@@ -1441,7 +1440,7 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
 Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
-- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 

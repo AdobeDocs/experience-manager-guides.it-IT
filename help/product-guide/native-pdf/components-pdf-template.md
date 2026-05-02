@@ -5,10 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '4767'
 ht-degree: 0%
 
 ---
@@ -290,7 +289,7 @@ Le seguenti impostazioni sono disponibili nella sezione Layout di pagina:
 
   **Pagine in primo piano** viene utilizzato anche come layout di fallback per **TOC**, **Elenco di figure** ed Elenco di tabelle.  Analogamente, **Pagine argomento secondario** viene utilizzato anche come layout di fallback per i layout **Indice** e **Glossario**. Se non è stato selezionato il layout per queste pagine, viene applicato il layout Pagine prima o dietro.  Se non è stato selezionato il layout Pagine di primo livello o Pagine di secondo livello, verrà applicato il layout di pagina predefinito.
 
-* **Layout di pagina per pagine vuote**:    È inoltre possibile specificare il layout di pagina per le pagine vuote. Il layout selezionato verrà applicato a tutte le pagine vuote. Ad esempio, se hai progettato un layout di pagina vuoto per tutte le pagine vuote, seleziona **Vuoto** nell&#39;elenco a discesa e tutte le pagine vuote nel documento avranno il layout di pagina vuoto.
+* **Layout di pagina per pagine vuote**: è inoltre possibile specificare il layout di pagina per le pagine vuote. Il layout selezionato verrà applicato a tutte le pagine vuote. Ad esempio, se hai progettato un layout di pagina vuoto per tutte le pagine vuote, seleziona **Vuoto** nell&#39;elenco a discesa e tutte le pagine vuote nel documento avranno il layout di pagina vuoto.
 
 * **Pagina di copertina e pagina posteriore**: se hai progettato un layout di copertina, mappalo all&#39;opzione **Pagina di copertina**. Allo stesso modo, se hai un layout di pagina posteriore, mappalo sull&#39;opzione **Pagina posteriore**. Se non è stato creato alcun layout di copertina o di pagina posteriore, viene applicato il layout di pagina predefinito.
 
@@ -332,7 +331,7 @@ Per impostazione predefinita, tutte le sezioni iniziano su una nuova pagina. Sel
 
 >[!NOTE]
 >
-> Questa impostazione si applica solo alla sezione e non ai relativi componenti.  Ad esempio, se selezioni l&#39;opzione **Pagina precedente** per **Capitoli e argomenti**, la sezione **Capitoli e argomenti** si unisce alla pagina precedente. I vari capitoli e argomenti vengono pubblicati in base alle impostazioni **Generali**.Ad esempio, se in **Inizia un nuovo capitolo dall&#39;impostazione**, si seleziona **Pagina dispari**, viene inserita una pagina vuota dopo un capitolo che termina in una pagina dispari.
+> Questa impostazione si applica solo alla sezione e non ai relativi componenti.  Ad esempio, se selezioni l&#39;opzione **Pagina precedente** per **Capitoli e argomenti**, la sezione **Capitoli e argomenti** si unisce alla pagina precedente. I vari capitoli e argomenti vengono pubblicati in base alle impostazioni **Generali**.Ad esempio, se in **Inizia un nuovo capitolo dall&#39;impostazione**, selezioni **Pagina dispari**, viene inserita una pagina vuota dopo un capitolo che termina in una pagina dispari.
 
 Quando si unisce una sezione alla pagina precedente o successiva, il contenuto viene unito e viene applicato lo stile della sezione di destinazione in cui viene unito il contenuto.
 
@@ -386,11 +385,11 @@ Selezionare un ordine di pagina che determini la sequenza delle pagine nel docum
 * **Opuscolo**: tutte le pagine sono ordinate come in un opuscolo.
 * **Opuscolo da destra a sinistra**: tutte le pagine sono in ordine da destra a sinistra.
 * **Personalizzato**: definisci un ordine di pagine personalizzato anziché predefinito.
-   * &quot;a..b&quot; — tutte le pagine consecutive da a a b.
+   * &quot;a..b&quot; — Tutte le pagine consecutive da a a b.
    * &quot;a,b,c&quot; — Ordine delle nuove pagine a, b, c.
    * &quot;a*b&quot; — La pagina a viene ripetuta b volte.
    * &quot;-a&quot; — I numeri di pagina negativi vengono conteggiati a ritroso a partire dall’ultima pagina e possono essere combinati con altri ordini personalizzati.
-   * &quot;X&quot; — Tutte le pagine del documento. Come &quot;1..-1&quot;.
+   * &quot;X&quot; — Tutte le pagine del documento. Stesso risultato di &quot;1..-1&quot;.
 
 Ad esempio, puoi assegnare un ordine personalizzato come &quot;2,3,5*2,7..10,-1,-2.
 L&#39;ordine di pagina specificato determina un PDF con i seguenti numeri di pagina dal documento originale, supponendo che contenga 25 pagine in totale: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.

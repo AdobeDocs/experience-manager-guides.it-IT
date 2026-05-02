@@ -1,10 +1,10 @@
 ---
-title: Note sulla versione | Sono stati risolti dei problemi in Adobe Experience Manager Guides, versione 5.0.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 5.0.0
 description: Scopri le correzioni di bug nella versione 5.0.0 di Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 

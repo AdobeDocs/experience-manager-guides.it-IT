@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -29,40 +28,40 @@ Per configurare i filtri dello stato del documento, effettuare le seguenti opera
 Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
        &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
-       &quot;title&quot;: &quot;Stato documento&quot;,
-       &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;elementi figlio&quot;: &lbrack;
-       &lbrace;
-       &quot;title&quot;: &quot;Bozza&quot;,
-       &quot;valore&quot;: &quot;Bozza&quot;
-       &rbrace;,
-       &lbrace;
-       &quot;title&quot;: &quot;Modifica&quot;,
-       &quot;valore&quot;: &quot;Modifica&quot;
-       &rbrace;,
-       &lbrace;
-       &quot;title&quot;: &quot;In-Review&quot;,
-       &quot;value&quot;: &quot;In-Review&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Approvato&quot;,
-       &quot;valore&quot;: &quot;Approvato&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Rivisto&quot;,
-       &quot;valore&quot;: &quot;Esaminato&quot;
-       ,
-       &lbrace;
-       &quot;title&quot;: &quot;Fine&quot;,
-       &quot;valore&quot;: &quot;Fine&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &rbrack;
-       &quot;
-   Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
+     &quot;repositoryFilters&quot;: &lbrack;
+     &lbrace;
+     &quot;title&quot;: &quot;Document state&quot;,
+     &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
+     &quot;children&quot;: &lbrack;
+     &lbrace;
+     &quot;title&quot;: &quot;Draft&quot;,
+     &quot;value&quot;: &quot;Draft&quot;
+     &rbrace;,
+     &lbrace;&lbrace;21     &quot;title&quot;: &quot;Modifica&quot;,
+     &quot;value&quot;: &quot;Modifica&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;title&quot;: &quot;In-Review&quot;,
+     &quot;value&quot;: &quot;In-Review&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;title&quot;: &quot;Approvato&quot;,
+     &quot;value&quot;: &quot;Approvato&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;titolo&quot;: &quot;Rivisto&quot;,
+     &quot;valore&quot;: &quot;Rivisto&quot;
+     &rbrace;,
+     &lbrace;
+     &quot;titolo&quot;: &quot;Completato&quot;,
+     &quot;valore&quot;: &quot;Completato&quot;
+     &rbrace;
+     &rbrace;
+     &rbrace;
+     &rbrack;
+     &quot;
+   
+Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
 
 1. Puoi personalizzare i valori del filtro in base al flusso di lavoro della tua organizzazione. Ad esempio, per aggiungere uno stato del documento personalizzato **In sospeso**, inserire la voce seguente in `children`:
 

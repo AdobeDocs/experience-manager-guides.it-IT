@@ -5,11 +5,10 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 2%
+source-wordcount: '2228'
+ht-degree: 3%
 
 ---
 
@@ -117,7 +116,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | Stringa | Specifica il percorso della mappa dei tag dell&#39;attività di revisione |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
-| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è impostato su `3.0`.<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
+| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è `3.0` .<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
 
 
 Dopo aver creato lo script, chiamalo prima del processo Crea revisione nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro di revisione.

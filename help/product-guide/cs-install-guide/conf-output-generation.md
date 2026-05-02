@@ -5,10 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5703'
+source-wordcount: '5820'
 ht-degree: 1%
 
 ---
@@ -26,7 +25,7 @@ Per nascondere la scheda Linea di base nel quadro comandi Mappa DITA, effettuare
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 >[!NOTE]
 >
@@ -331,7 +330,7 @@ Per aggiungere i metadati richiesti nel sistema, effettuare le seguenti operazio
 
    3. In **Etichetta campo**, immettere il nome metadati: Pubblico.
 
-   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Per il nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
+   4. Nell&#39;impostazione **Mappa su proprietà**, specificare ./jcr:content/metadata/&lt;nome dei metadati\>. Nel nostro esempio, lo imposteremo su ./jcr:content/metadata/audience.
 
    Utilizzando questi passaggi, aggiungi tutti i parametri di metadati richiesti.
 
@@ -434,7 +433,7 @@ Per utilizzare il campo dell&#39;argomento della riga di comando DITA-OT per pas
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booleano\(`true/false`\).**Valore predefinito**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valore predefinito**: `true` |
 
 - L&#39;impostazione del valore della proprietà su **true** abilita la funzionalità della riga di comando DITA-OT, che consente di passare i metadati tramite la riga di comando DITA-OT.
 - Se si imposta il valore della proprietà su **false**, la funzionalità della riga di comando DITA-OT verrà disattivata. Per trasmettere i metadati, puoi quindi utilizzare il campo Proprietà nel predefinito.
@@ -595,16 +594,16 @@ Nella tabella seguente vengono descritti gli elementi dello schema di elementi D
 | `<ditaelement>` | Nodo di primo livello per ogni elemento di mappatura. |
 | `<class>` | Attributo di classe dell&#39;elemento DITA di destinazione per il quale si sta scrivendo il componente.<br> Ad esempio, l&#39;attributo di classe per l&#39;argomento DITA è: <br> `- topic/topic` |
 | `<componentpath>` | Percorso CRXDE del componente AEM mappato. |
-| `<type>` | Valori possibili:<br> -   **COMPOSITO**: Elabora anche elementi figlio <br> -   **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
+| `<type>` | Valori possibili:<br> - **COMPOSITO**: Elabora anche elementi figlio <br> - **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
 | `<attributeprop>` | Utilizzato per la mappatura di attributi e valori DITA serializzati ai nodi AEM come proprietà. Ad esempio, se si dispone dell&#39;elemento `<note type="Caution">` e il componente mappato per questo elemento ha `<attributeprop>attr_t</ attributeprop>`, l&#39;attributo e il valore del nodo vengono serializzati nella proprietà `attr_t` del nodo AEM corrispondente \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Salva l&#39;output `getTextContent()` nella proprietà definita da `propname_t.` <br> **Nota:** questa è una proprietà ottimizzata. |
 | `<xmlprop>propname_x </xmlprop>` | Salva il codice XML serializzato di questo nodo nella proprietà definita da `propname_x.<br> `**Nota:** Si tratta di una proprietà ottimizzata. |
 | `<xpath>` | Se l&#39;elemento XPath viene fornito nel mapping di elementi, insieme al nome e alla classe dell&#39;elemento deve essere soddisfatta anche la condizione XPath affinché venga utilizzato il mapping di componenti. |
-| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nella posizione specificata.<br> Valori possibili: <br> - **head**: Sotto il nodo head <br> - **text**: Sotto il nodo paragrafo |
+| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nel percorso specificato.<br> Valori possibili: <br> - **head**: sotto il nodo head <br> - **text**: sotto il nodo paragrafo |
 | `<wrapelement>` | L’elemento HTML in cui racchiudere il contenuto. |
 | `<wrapclass>` | Il valore dell&#39;elemento alla proprietà `wrapclass.` |
 | `<attributemap>` | Nodo contenitore contenente uno o più nodi `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Associa gli attributi DITA alle proprietà di AEM: <br> -   **`from`**: nome attributo DITA <br> -   **`to`**: nome proprietà componente AEM <br> -   **`ispath`**: se l&#39;attributo è un valore di percorso \(ad esempio: *immagine*\) <br> -   **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappa gli attributi DITA alle proprietà di AEM: <br> - **`from`**: nome attributo DITA <br> - **`to`**: nome proprietà componente AEM <br> - **`ispath`**: Se l&#39;attributo è un valore percorso \(ad esempio: *image*\) <br> - **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
 
 **Note aggiuntive**
 

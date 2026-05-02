@@ -5,11 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 9%
+source-wordcount: '877'
+ht-degree: 8%
 
 ---
 
@@ -67,7 +66,7 @@ In base al flusso di lavoro di traduzione utilizzato nella configurazione, deve 
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> -   Se utilizzi una traduzione umana, *Disabilita* \( `false`\) l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. <br> -   Se utilizzi la traduzione automatica, *Abilita \( `true`\)* l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleano: <br> - Se utilizzi la traduzione umana, *Disabilita* \( `false`\) l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. <br> - Se utilizzi la traduzione automatica, *Abilita \( `true`\)* l&#39;opzione **Flusso di lavoro di traduzione basato su componenti**. |
 
 
 
@@ -82,7 +81,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi il flusso di lavoro di traduzione più recente, *Disabilita* \( `false`\) l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**.  <br> -   Se utilizzi la traduzione legacy, *Abilita \( `true`\)* l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. <br> **Valore predefinito**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleano: <br> - Se utilizzi il flusso di lavoro di traduzione più recente, *Disabilita* \( `false`\) l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**.  <br> - Se utilizzi la traduzione legacy, *Abilita \( `true`\)* l&#39;opzione **Esegui flusso di lavoro di traduzione legacy**. <br> **Valore predefinito**: false |
 
 
 
@@ -103,5 +102,5 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> -   Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* \( false\) l&#39;opzione **Copie per lingua post-elaborazione**.<br> -   Se desideri eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilita* \( true\) l&#39;opzione **Copie lingua post-elaborazione**.<br> **Valore predefinito**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se non si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Disabilita* \( false\) l&#39;opzione **Copie lingua post-elaborazione**.<br> - Se si desidera eseguire l&#39;operazione di post-elaborazione sui file temporanei, *Abilitare* \( true\) l&#39;opzione **Copie per lingua post-elaborazione**.<br> **Valore predefinito**: false |
 

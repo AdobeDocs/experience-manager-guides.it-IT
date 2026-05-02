@@ -5,10 +5,9 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -52,13 +51,13 @@ Per aggiungere le opzioni di filtro dei file personalizzati alla finestra di dia
    Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
    titolo
-:   Nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+: nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
    proprietà
-:   Proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
+: proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati `dita_class`, il filtro proprietà accetta &quot; `jcr:content/metadata/dita_class`&quot; come valore.
 
    operazione
-:   Specificare &quot; `exists`&quot; per verificare l&#39;esistenza del valore specificato nel parametro della proprietà.
+: specifica &quot; `exists`&quot; per rilevare l&#39;esistenza del valore specificato nel parametro della proprietà.
 
    Il secondo filtro è per File di immagine. I parametri sono simili al primo filtro, ad eccezione del parametro `value`. Il parametro `value` accetta un array di tipi di immagine come valore. Tutti i tipi di file specificati nel parametro value vengono cercati e visualizzati nella finestra di dialogo Sfoglia file. Tutti gli altri tipi di file vengono ignorati.
 

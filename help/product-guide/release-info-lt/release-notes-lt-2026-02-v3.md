@@ -2,10 +2,10 @@
 title: Note sulla versione | Novità della versione di febbraio 2026 dei contenuti di formazione e apprendimento sui prodotti
 description: Scopri le funzioni nuove e migliorate nella versione di febbraio 2026 dei contenuti di formazione e apprendimento del prodotto
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ Nella versione di febbraio 2026 dei contenuti di formazione e apprendimento sul 
 - Quando fai clic sul sommario nel riquadro a sinistra del corso, il corso continua a mostrare lo stato di completamento anche se il quiz non è stato superato. (GUIDES-40398)
 - Se si tenta di trovare in ALM una corrispondenza errata con il tipo di domanda seguente in un quiz, le opzioni selezionate non vengono visualizzate nel rapporto. (GUIDES-38640)
 - Durante la generazione dell’output di PDF, gli stili di authoring applicati non vengono mantenuti, generando incoerenze nella progettazione. (GUIDES-38642)
-

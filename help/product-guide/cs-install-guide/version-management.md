@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | I valori possibili sono: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valore predefinito**: `allow_unsafe_delete_for_delete_assets_group` <br> I dettagli di queste costanti sono riportati di seguito. |
 
 A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;eliminazione, specificare una delle seguenti costanti:
 

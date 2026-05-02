@@ -5,10 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -235,7 +234,7 @@ Per caricare i documenti in un file ZIP, è necessario considerare i seguenti pu
   </html>
   ```
 
-  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `li` di `class` deve essere impostato su `topicref`.
+  Ogni tag `ul` deve avere l&#39;attributo `class` impostato su `book`. Analogamente, ogni tag `class` di `li` deve essere impostato su `topicref`.
 
 - Se utilizzi gli stili in linea, converti gli stili in linea in classi di stile basate su CSS nel file XHTML. Utilizzare quindi la mappatura degli attributi di stile per convertire gli stili basati su classi in attributi DITA `outputclass` nel file DITA convertito.
 

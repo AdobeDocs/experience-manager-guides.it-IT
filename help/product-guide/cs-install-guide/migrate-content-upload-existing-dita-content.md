@@ -5,10 +5,9 @@ exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | Stringa che specifica il regex per il pattern del nome file UUID. <br> Se un file non segue il modello specificato, viene aggiunto un UUID alla proprietà del file e tutti i riferimenti al file vengono aggiornati con l&#39;UUID assegnato al file. <br> **Valore predefinito**: `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | Stringa che specifica il regex per il pattern del nome file UUID. <br> Se un file non segue il pattern specificato, viene aggiunto un UUID alla proprietà del file e tutti i riferimenti al file vengono aggiornati con l’UUID assegnato al file. <br> **Valore predefinito**: `"^GUID-(?<id>.*)"` |
 
 ## Usa comandi curl
 

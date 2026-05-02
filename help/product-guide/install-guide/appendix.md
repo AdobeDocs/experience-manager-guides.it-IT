@@ -5,10 +5,9 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -465,7 +464,7 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
 
 1. Eseguire lo script di patch `[/bin/fmdita/validatebtree?operation=patch]` per correggere i riferimenti interrotti. L’esecuzione dello script richiede alcuni minuti e stampa i registri mentre procede. Al termine dell&#39;esecuzione, verrà stampato &quot;`Done`&quot;.
 
-   **Nota:* si consiglia di copiare e salvare i registri a scopo di riferimento.
+   ** Nota:* si consiglia di copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
 1. &#x200B;
