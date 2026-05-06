@@ -4,7 +4,7 @@ description: Scopri le modifiche apportate al framework dell’estensione per Ed
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -189,7 +189,7 @@ guides.ready(() => {
   guides.editor.updateAttributeByXpath(args: UpdateXpathArgs): any
   ```
 
-## Command Execution
+## Esecuzione del comando
 
 - `guides.editor.runCommand(commandName, ...args)`: esegue un comando denominato nel nuovo editor. Restituisce `true` se il comando è riuscito, `false` in caso contrario.
 
@@ -314,7 +314,7 @@ guides.ready(() => {
   }
   ```
 
-## Funzioni di utilità
+## Funzioni utility
 
 - `guides.editor.runUtil(utilName, ...args)`: richiama un&#39;utilità denominata dal Registro di sistema dell&#39;utilità del nuovo editor. Restituisce il risultato dell&#39;utilità o `undefined` se l&#39;utilità non viene trovata.
 
