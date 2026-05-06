@@ -4,9 +4,9 @@ description: Scopri come rivedere gli argomenti e utilizzare le funzioni di revi
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ Quando si collabora a un&#39;attività di revisione con più revisori, è possib
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere prontamente informati. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere informati tempestivamente. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
@@ -273,5 +273,16 @@ Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialog
 
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
+
+
+## Cronologia delle versioni per il revisore
+
+La funzione Cronologia versioni consente ai revisori di confrontare la versione corrente dell&#39;attività di revisione con le versioni delle attività di revisione precedentemente chiuse sulle quali i revisori hanno lavorato. In questo modo i revisori possono convalidare le modifiche apportate dall&#39;ultima revisione completata e mantenere la continuità tra i cicli di revisione.
+
+![](images/version-history-icon.png)
+
+L&#39;icona **Cronologia versioni** dell&#39;argomento viene visualizzata dopo che l&#39;attività di revisione è stata chiusa dall&#39;autore. Se il revisore chiude l&#39;attività, questa sarà comunque disponibile solo dopo che anche l&#39;autore la avrà chiusa. Per ogni versione dell’attività di revisione completata, i revisori possono accedere alla cronologia delle versioni dal menu a discesa nella finestra di dialogo Cronologia versione. Da qui, i revisori possono confrontare revisioni, etichette, commenti e altri dettagli relativi alle attività tra le versioni.
+
+![](images/version-history-dialog.png)
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

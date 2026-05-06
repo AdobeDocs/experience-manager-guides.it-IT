@@ -4,14 +4,18 @@ description: Scopri la barra degli strumenti nell’editor. Scopri l’interfacc
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6443'
 ht-degree: 0%
 
 ---
 
 # Barra degli strumenti nell’editor
+
+>[!INFO]
+>
+> Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
 
 La barra degli strumenti viene visualizzata quando si apre un argomento o una mappa per la modifica nell&#39;editor. Le funzioni disponibili nella barra degli strumenti sono le seguenti:
 
@@ -26,9 +30,21 @@ La barra degli strumenti viene visualizzata quando si apre un argomento o una ma
 
 ## Menu a discesa
 
-Il menu a discesa Menu consente di accedere alle azioni di modifica Trova e sostituisci, Cronologia versioni, Etichetta versione, Unisci, Crea attività di revisione e Mostra menu (che include Revisioni, Tag, Spazio unificatore).
+Il menu a discesa consente di accedere alle varie azioni di modifica, come illustrato di seguito:
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![Menu a discesa per la barra degli strumenti dell&#39;editor](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
+
+
+>[!TAB Editor precedente]
 
 ![Menu a discesa per la barra degli strumenti dell&#39;editor](images/editor-toolbar-menu-dropdown-new.png){width="350"}
+
+
+>[!ENDTABS]
 
 La spiegazione dettagliata di queste funzioni è la seguente:
 
@@ -231,7 +247,11 @@ Puoi [creare un&#39;attività di revisione](./review-send-topics-for-review.md) 
 
 **Mostra menu**
 
-Il menu Mostra (Show) comprende le seguenti funzioni:
+>[!NOTE]
+>
+> In Nuovo editor, il menu **Mostra** non è più disponibile nel menu a discesa Menu. Per accedere alle varie opzioni disponibili nel menu Mostra, passa a [Impostazioni editor](./config-editor-settings.md). Il menu Mostra continua a essere disponibile nel menu a discesa Menu nel vecchio editor.
+
+Il menu Mostra (Show) nel vecchio editor (Old Editor) comprende le seguenti funzioni:
 
 - **Rileva modifiche:** È possibile tenere traccia di tutti gli aggiornamenti apportati a un documento abilitando la modalità Rileva modifiche. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Tutto il contenuto eliminato viene evidenziato con il metodo Barrato e tutti gli inserimenti vengono evidenziati in verde. Vengono inoltre visualizzate le barre di modifica sul bordo della pagina dell&#39;argomento. Di nuovo, viene visualizzata una barra rossa per il contenuto eliminato e una barra verde per il contenuto aggiunto. Nel caso in cui vi sia un&#39;aggiunta e un&#39;eliminazione sulla stessa riga, vengono visualizzate entrambe le barre verdi e rosse.
 La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle barre di modifica:
@@ -298,16 +318,25 @@ Ad esempio, se ti trovi all&#39;interno dell&#39;elemento in linea `<b>`, puoi i
 
 Se si lavora all&#39;interno di un elemento blocco come `note`, utilizzare l&#39;icona Inserisci elemento per inserire un nuovo elemento dopo l&#39;elemento `note`. Nella schermata seguente è stato inserito un elemento nota all’interno dell’elemento p \(paragrafo\):
 
-![Inserisci elemento in un elemento blocco](images/note-in-para-insert-element_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![Inserisci elemento in un elemento di blocco](images/note-in-para-insert-element_cs-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![Inserisci elemento in un elemento di blocco](images/note-in-para-insert-element_cs.png)
+
+>[!ENDTABS]
 
 Se si preme Invio nell&#39;elemento nota, viene creato un nuovo paragrafo all&#39;interno dell&#39;elemento nota stesso. Per inserire un nuovo elemento all&#39;esterno di una nota, seleziona l&#39;elemento p \(evidenziato nella schermata\) nella breadcrumb degli elementi, quindi seleziona l&#39;icona Elemento o premi ***Alt***+***Invio*** per aprire la finestra di dialogo Inserisci elemento. Quindi, selezionate l&#39;elemento desiderato e premete Invio per inserire l&#39;elemento selezionato dopo l&#39;elemento nota.
 
-È inoltre possibile aggiungere un elemento tra due elementi quando viene visualizzato un cursore a blocchi lampeggiante.
+Nel nuovo editor è possibile inserire un nuovo elemento tra gli elementi esistenti quando viene visualizzato un cursore orizzontale. Questo cursore indica che il cursore è posizionato all&#39;esterno di un elemento di blocco e può aggiungere un nuovo elemento in tale posizione.
 
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
-![](images/Block-cursor.png){width="300"}
-
-Ad esempio, se si sta lavorando su un argomento DITA e il cursore di blocco lampeggia tra la breve descrizione e il corpo, è possibile aggiungere l&#39;elemento `prolog` e quindi aggiungere il copyright, l&#39;autore e altri dettagli.
+In un argomento DITA, ad esempio, quando il cursore orizzontale viene visualizzato tra `short description` e `body`, è possibile inserire un elemento `prolog`. È quindi possibile utilizzare `prolog` per aggiungere metadati quali `copyright`, `author` e altri dettagli.
 
 Un altro modo per immettere un nuovo elemento consiste nell’utilizzare il menu di scelta rapida. Fare clic con il pulsante destro del mouse in qualsiasi punto del documento per richiamare il menu di scelta rapida. Da questo menu scegliere **Inserisci elemento** per visualizzare la finestra di dialogo **Inserisci elemento** e scegliere l&#39;elemento che si desidera inserire.
 
@@ -331,21 +360,23 @@ Crea un elenco numerato nel percorso valido corrente o successivo. Se fai parte 
 
 **Tabella** - ![](images/Table_icon.svg)
 
-Inserisce una tabella nella posizione valida corrente o successiva. Selezionare l&#39;icona Tabella per aprire la finestra di dialogo Inserisci tabella semplice.
+Inserisce una tabella o una tabella semplice nella posizione valida corrente o successiva. Selezionare l&#39;icona Tabella per aprire la finestra di dialogo **Inserisci tabella semplice**.
 
 ![](images/table-properties.png){width="550"}
+
+È possibile specificare il numero di righe e colonne richieste nella tabella. Se si desidera mantenere la prima riga come intestazione di tabella, selezionare l&#39;opzione **Imposta prima riga come intestazione**. Per aggiungere un titolo alla tabella, immetterlo nel campo Titolo.
 
 >[!NOTE]
 >
 > È inoltre possibile copiare una tabella da MS Word o Excel e incollarla nel file degli argomenti di Experience Manager Guides. La tabella copiata verrà incollata come `<simpletable>` o `<tgroup>` a seconda delle impostazioni configurate nella configurazione dell&#39;editor XML. Per ulteriori dettagli, visualizzare [Configurare la visualizzazione delle tabelle incollate](../cs-install-guide/conf-pasted-tables.md).
 
-È possibile specificare il numero di righe e colonne richieste nella tabella. Se si desidera mantenere la prima riga come intestazione di tabella, selezionare l&#39;opzione **Imposta prima riga come intestazione**. Per aggiungere un titolo alla tabella, immetterlo nel campo Titolo.
-
 Una volta inserita una tabella, è possibile modificarla utilizzando il menu di scelta rapida.
 
+>[!NOTE]
+>
+> Puoi anche scegliere di passare al nuovo editor per migliorare l’esperienza di modifica delle tabelle. Per ulteriori dettagli sulle funzionalità di creazione delle tabelle disponibili nel nuovo editor, visualizzare [Operazioni con le tabelle nel nuovo editor](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
+
 ![](images/table-context-menu_cs.png){width="550"}
-
-
 
 Utilizzando il menu di scelta rapida della tabella, è possibile:
 
@@ -359,8 +390,7 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 
 - Genera ID
 
-<details>
-    <summary> Definire gli attributi su più celle, righe intere o colonne di una tabella </summary>
+**Definire gli attributi su più celle, righe intere o colonne di una tabella**
 
 È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Type** diventa **entry**.
 
@@ -371,7 +401,6 @@ Utilizzando il menu di scelta rapida della tabella, è possibile:
 
 ![](images/align-table-cell_cs.png){ }
 
-</details>
 
 **Immagine** - ![](images/Image_icon.svg)
 
@@ -413,7 +442,9 @@ Dopo aver inserito un&#39;immagine, potete modificarne l&#39;altezza, la larghez
 
 ![](images/image-properties.png){ }
 
-Nel campo Source viene visualizzato l’UUID del file immagine inserito. Per trovare il percorso completo del file immagine inserito, posizionare il puntatore del mouse sul campo Source. Il percorso viene visualizzato nella descrizione comando.
+Il campo **Percorso Source** mostra il percorso relativo del riferimento selezionato. Utilizza il pulsante **Copia percorso** per copiare il percorso assoluto.
+
+Il campo **UUID Source** mostra l&#39;UUID del riferimento selezionato. Utilizza il pulsante **Copia UUID** per copiare l&#39;UUID.
 
 Per ridimensionare un&#39;immagine, specificate Altezza (Height) o Larghezza (Width) per il file di immagine. Le proporzioni dell&#39;immagine vengono mantenute automaticamente. Se lo desideri, puoi anche scegliere di non mantenere le proporzioni del file di immagine selezionando l’icona del lucchetto \(di Mantieni proporzioni\) e fornendo i valori di Altezza e Larghezza.
 
@@ -498,7 +529,18 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l
 >
 > In base al comportamento DITA standard, l&#39;attributo scope=`external` non deve essere applicato ai collegamenti interni, in quanto è destinato solo a riferimenti a risorse esterne. L’applicazione di questo attributo ai collegamenti interni potrebbe interrompere i flussi di lavoro. Per il contenuto gestito in Experience Manager Guides, utilizzare invece l&#39;ambito predefinito=`local` o i riferimenti basati su chiave.
 
-![](images/ref-link-uuid_cs.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nuovo editor]
+
+![](images/ref-link-uuid_cs-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![](images/ref-link-uuid_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -506,7 +548,7 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l
 
 >[!IMPORTANT]
 >
-> Anche se il percorso relativo del contenuto a cui si fa riferimento è visualizzato nella proprietà **Link**, internamente il collegamento viene creato utilizzando l&#39;UUID del contenuto a cui si fa riferimento.
+> Anche se il percorso relativo del contenuto a cui si fa riferimento è visualizzato nella proprietà **Percorso collegamento**, internamente il collegamento viene creato utilizzando l&#39;UUID del contenuto a cui si fa riferimento.
 
 >[!TIP]
 >
@@ -606,16 +648,41 @@ Connettiti con la tua origine dati e utilizza i dati per creare contenuti. Scopr
 
 La funzionalità **Informazioni sulla versione e salvataggio come nuova versione** combina il monitoraggio della versione e il salvataggio dei contenuti in un&#39;unica funzionalità.
 
-- Nelle informazioni sulla versione viene visualizzata la versione corrente dell&#39;argomento o della mappa. Accanto al numero di versione viene visualizzato un asterisco (*) per indicare le modifiche non salvate.
+Nelle informazioni sulla versione viene visualizzata la versione corrente dell&#39;argomento o della mappa. Accanto al numero di versione viene visualizzato un asterisco `(*)` per indicare che le modifiche sono state salvate nel documento ma non sono state create versioni.
 
-  Il numero di versione cambia con ogni nuova versione creata per il file di argomento o di mappa. Se si sta lavorando su un documento appena creato, le informazioni sulla versione vengono visualizzate come **none**.
+>[!NOTE]
+>
+> Qualsiasi modifica ai campi metadati disponibili in [Proprietà file](./web-editor-right-panel.md#file-properties) o applicata al backend attiverà anche l&#39;asterisco `(*)` nella versione del documento.  Per evitare che gli aggiornamenti dei metadati generati dal sistema influiscano su questo indicatore, gli amministratori possono configurare un elenco da ignorare per le proprietà dei metadati. Per informazioni dettagliate su come configurare le proprietà dei metadati, visualizzare [Configurare l&#39;elenco di proprietà dei metadati da ignorare](../install-conf-guide/conf-metadata-prop.md).
 
-  ![](images/version-information.png){ }
+Il numero di versione cambia con ogni nuova versione creata per il file di argomento o di mappa. Se si sta lavorando su un documento appena creato, le informazioni sulla versione vengono visualizzate come **none**.
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/version-information-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![](images/version-information.png)
+
+>[!ENDTABS]
 
 
-- **Salva come nuova versione** è un pulsante che consente di salvare le modifiche apportate nell&#39;argomento e di creare una nuova versione dell&#39;argomento.
+**Salva come nuova versione** è un pulsante che consente di salvare le modifiche apportate nell&#39;argomento e di creare una nuova versione dell&#39;argomento.
 
-  ![](images/save-as-new-version.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nuovo editor]
+
+![](images/save-as-new-version-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![](images/save-as-new-version.png)
+
+>[!ENDTABS]
 
 
 Quando scegli di salvare un argomento o una mappa utilizzando **Salva come nuova versione**, viene visualizzata la seguente finestra di dialogo:
@@ -636,7 +703,17 @@ Se l&#39;argomento è in revisione, i revisori riceveranno una notifica che indi
 
 Quando si posiziona il puntatore del mouse sul titolo di un argomento, vengono visualizzati il titolo del file, il percorso e il numero di versione.
 
-![](images/mouse-hover-on-title_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![](images/mouse-hover-on-title_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -646,7 +723,17 @@ Quando si posiziona il puntatore del mouse sul titolo di un argomento, vengono v
 
 Blocca o sblocca il file corrente. Il blocco di un file consente di accedere in scrittura in modo esclusivo al file. Questo impedisce ad altri utenti di modificare il file. Sblocca il file se vuoi che altri utenti abbiano accesso in modifica. Quando il file viene sbloccato, le modifiche vengono salvate nella versione corrente del file.
 
-![](images/web-editor-lock-button.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/web-editor-lock-button-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+![](images/web-editor-lock-button.png)
+
+>[!ENDTABS]
 
 Se ti trovi nella vista Mappa ed espandi la mappa principale, puoi bloccare tutti i file nella mappa con un solo clic. Espandere semplicemente il file di mappa padre e selezionare il file padre, in modo da selezionare tutti i file all&#39;interno della mappa. Quindi puoi selezionare **Blocca** ![](images/LockClosed_icon.svg) per ottenere il blocco su tutti i file all&#39;interno della mappa.
 

@@ -4,7 +4,7 @@ description: Creare documenti Markdown dall’Editor. Scopri come creare, creare
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Per creare un argomento Markdown dall’editor, effettua le seguenti operazioni:
    >[!NOTE]
    >
    > In caso di aggiornamento, devi aggiungere il modello Markdown al profilo della cartella corrente in uso. È possibile [creare un nuovo modello di markdown dall&#39;editor](./web-editor-features.md#templates) o utilizzare un modello esistente per la creazione di markdown. Per informazioni dettagliate su come aggiungere modelli di authoring in Experience Manager Guides, visualizzare [Configurare profili globali o a livello di cartella](../cs-install-guide/conf-folder-level.md).
+
 1. Seleziona **Crea**.
 
    L&#39;argomento Markdown viene creato nel percorso selezionato e può essere modificato.

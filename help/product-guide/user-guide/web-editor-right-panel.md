@@ -4,9 +4,9 @@ description: Scopri il pannello A destra nell’editor. Scopri l’interfaccia e
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,21 @@ Il pannello a destra consente di accedere alle seguenti funzioni:
 
 Puoi accedere alla funzione **Proprietà contenuto** selezionando l&#39;icona **Proprietà contenuto** nel pannello di destra. Il pannello **Proprietà contenuto** contiene informazioni sul tipo di elemento attualmente selezionato nel documento e sui relativi attributi.
 
-**Tipo**: è possibile visualizzare e selezionare i tag della gerarchia completa per il tag corrente dal menu a discesa.
+Per il contenuto a cui si fa riferimento, il pannello mostra anche le opzioni **Percorso collegamento** e **UUID collegamento** che consentono di identificare e copiare il riferimento selezionato.
+
+>[!NOTE]
+>
+> Per i file basati su HTML, le opzioni Collega percorso e Collega UUID non sono disponibili. Questi file continuano a utilizzare il comportamento **URL collegamento** esistente.
+
+![](images/web-editor-cross-ref-options.png)
+
+**Tipo**: visualizza e seleziona i tag della gerarchia completa per il tag corrente dal menu a discesa.
+
+**Percorso collegamento**: mostra il percorso relativo del riferimento selezionato. Utilizza **Copia percorso** per copiare il percorso assoluto.
+
+**Collega UUID**: mostra l&#39;UUID del riferimento selezionato. Utilizza **Copia UUID** per copiare l&#39;UUID.
+
+Se incolla un UUID valido direttamente nel campo Percorso collegamento, questo viene automaticamente risolto nel percorso assoluto del file e l’UUID corrispondente viene visualizzato nel campo UUID collegamento. In questo modo è più facile identificare e copiare sia il percorso della risorsa che il relativo riferimento basato su UUID.
 
 **Attributi**: il pannello a discesa **Attributi** è disponibile nelle visualizzazioni Layout, Autore e Source. Puoi aggiungere, modificare o eliminare facilmente gli attributi.
 
@@ -66,6 +80,10 @@ Se l’amministratore ha creato un profilo per gli attributi, questi vengono ott
 
 Visualizzare le proprietà del file selezionato selezionando l&#39;icona Proprietà file nel pannello di destra. La funzione Proprietà file è disponibile in tutte e quattro le modalità o visualizzazioni: Layout, Autore, Source e Anteprima.
 
+>[!NOTE]
+>
+> Il pannello Proprietà file fornisce opzioni per visualizzare e modificare varie proprietà di metadati associate a un file. Tuttavia, quando un file è in modalità di sola lettura, queste proprietà dei metadati non possono essere modificate. Questa limitazione si applica solo ai file DITA e Markdown. Per le risorse non DITA (come immagini e file multimediali), le proprietà dei metadati rimangono modificabili anche in modalità di sola lettura.
+
 Le proprietà File sono suddivise nelle due sezioni seguenti:
 
 **Generale**
@@ -83,7 +101,7 @@ La sezione Generale consente di accedere alle seguenti funzioni:
   > La funzione **Conteggio parole** è stata introdotta nella versione 2026.01.0 di Experience Manager Guides as a Cloud Service. Tutti i nuovi argomenti DITA creati dopo l&#39;aggiornamento a questa versione avranno automaticamente il conteggio delle parole calcolato nel pannello di destra. Per gli argomenti esistenti, è richiesta la [rielaborazione delle risorse](./asset-processor.md).
 
 - **Tag**: questi sono i tag di metadati dell&#39;argomento. Vengono impostati dal campo tag della pagina delle proprietà. Puoi digitarli o selezionarli dal menu a discesa.  I tag vengono visualizzati sotto il menu a discesa. Per eliminare un tag, seleziona l’icona a forma di croce accanto al tag.
-- **Modifica altre proprietà**: è possibile modificare altre proprietà ( per i file che non sono in modalità **Sola lettura**) dalla pagina Proprietà file.
+- **Modifica altre proprietà**: consente di visualizzare e modificare altre proprietà del file attualmente aperto.
 
   >[!NOTE]
   >

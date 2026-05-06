@@ -4,20 +4,39 @@ description: Scopri come modificare gli argomenti nell’editor. Scopri le varie
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # Modifica argomenti nell&#39;editor {#id2056B040VUI}
 
+>[!INFO]
+>
+>Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
+
 L&#39;editor è dotato di una serie di funzioni di modifica che consentono di creare o modificare facilmente i file degli argomenti. Per modificare un argomento nell’Editor, è necessario eseguire in generale i seguenti passaggi.
 
 >[!IMPORTANT]
 >
 > Se riscontri un errore dell’applicazione durante l’utilizzo dell’editor, aggiorna la pagina per continuare a lavorare.
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+1. Per modificare o inserire un elemento in un argomento, fare clic all&#39;interno del bordo del testo dell&#39;elemento richiesto per apportare modifiche oppure posizionare il cursore alla fine dell&#39;elemento dopo il quale si desidera aggiungere un nuovo elemento e selezionare l&#39;elemento richiesto dalla barra degli strumenti (oppure premere ALT+1 per aprire il popup Inserisci elemento), che elenca e inserisce in modo intelligente solo gli elementi validi per tale posizione nell&#39;argomento.
+
+1. È inoltre possibile utilizzare il menu Inserimento rapido per inserire rapidamente gli elementi consentiti in corrispondenza della posizione del cursore. Selezionare **Controllo + /** per Windows o **Comando + /** per Mac per accedere agli elementi.
+
+   ![Menu inserimento rapido](./images/quick-insert-menu-in-editor.png){width="650"}
+
+   Cercare un nuovo elemento o sceglierne uno tra i preferiti utilizzando il menu Inserimento rapido, quindi inserirlo nella posizione corrente del cursore. I Preferiti includono gli elementi utilizzati più di frequente e vengono visualizzati solo quelli validi per la posizione corrente del cursore. È possibile abilitare o disabilitare questa funzionalità e configurare gli elementi preferiti da inserire tramite il menu Inserimento rapido disponibile nelle [Impostazioni editor](./config-editor-settings.md).
+
+
+>[!TAB Editor precedente]
 
 1. Per apportare modifiche all&#39;argomento, fare clic all&#39;interno del bordo del testo dell&#39;elemento richiesto e iniziare ad apportare modifiche.
 
@@ -35,19 +54,35 @@ L&#39;editor è dotato di una serie di funzioni di modifica che consentono di cr
    >
    > Se non desideri eseguire il commit delle modifiche nell&#39;archivio di Adobe Experience Manager, seleziona **Chiudi**, quindi seleziona **Chiudi senza salvare** nella finestra di dialogo Modifiche non salvate.
 
+>[!ENDTABS]
 
 ## Selezione parziale del contenuto tra gli elementi
 
 Experience Manager Guides consente inoltre di selezionare il contenuto tra gli elementi. Dopo aver selezionato il contenuto, puoi eseguire le operazioni seguenti:
 
-- Formattazione ed eliminazione: applica al contenuto selezionato il grassetto, il corsivo, la sottolineatura o persino l’eliminazione. Il contenuto dei tag aperti validi viene quindi unito e visualizzato sotto un singolo elemento. È ad esempio possibile selezionare il contenuto di un paragrafo ed estendere la selezione a un altro paragrafo. Quindi, se rendi in grassetto il contenuto selezionato, tutto il contenuto in grassetto dei tag aperti viene unito e visualizzato sotto un singolo elemento di paragrafo.
+- Formattazione: la formattazione del contenuto selezionato è molto più semplice in Nuovo editor rispetto a Editor 1.0, come illustrato di seguito.
 
-Allo stesso modo, se elimini il contenuto selezionato, il contenuto rimanente dopo l’eliminazione nei tag aperti viene unito.
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+Puoi formattare il contenuto selezionato in grassetto, corsivo o sottolineato utilizzando la barra degli strumenti contestuale. Seleziona il contenuto, quindi fai clic sull’icona di formattazione appropriata nel menu visualizzato. Applica il formato grassetto, corsivo o sottolineato al contenuto selezionato. Il contenuto dei tag aperti validi viene quindi unito e visualizzato sotto un singolo elemento.
+
+![Opzioni di formattazione](./images/formatting-options.png){width="650"}
+
+>[!TAB Editor precedente]
+
+Applica il grassetto, il corsivo e la sottolineatura al contenuto selezionato. Il contenuto dei tag aperti validi viene quindi unito e visualizzato sotto un singolo elemento. È ad esempio possibile selezionare il contenuto di un paragrafo ed estendere la selezione a un altro paragrafo. Quindi, se rendi in grassetto il contenuto selezionato, tutto il contenuto in grassetto dei tag aperti viene unito e visualizzato sotto un singolo elemento di paragrafo.
+
+>[!ENDTABS]
+
+- Eliminazione: se elimini il contenuto selezionato, viene unito il contenuto rimanente dopo l’eliminazione nei tag aperti.
 
 - Racchiudi il contenuto in un elemento valido: per racchiuderlo in un elemento valido, effettua le seguenti operazioni:
 
    - Seleziona il contenuto all’interno di un elemento.
    - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti nella parte superiore per visualizzare la finestra di dialogo **Inserisci elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
+
      >[!NOTE]
      >
      > È inoltre possibile visualizzare la finestra di dialogo Inserisci elemento selezionando il menu di scelta rapida del contenuto selezionato.
@@ -70,15 +105,40 @@ Anche il pannello di destra viene riaperto e visualizza la stessa vista di prima
 
 Experience Manager Guides fornisce l’indicatore della copia di lavoro che indica se la \(copia di lavoro\) corrente del file è sincronizzata o meno con la versione salvata. Se sono state apportate modifiche alla copia corrente e il file non è stato salvato, nella scheda File dell&#39;argomento verrà visualizzato il simbolo \* insieme al titolo. Questo indicatore funge da promemoria per il salvataggio delle modifiche e scompare quando si salva il file.
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+Questa vista mostra come viene eseguito il rendering del contenuto nel nuovo editor.
+
+![indicatore copia di lavoro](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+
+>[!TAB Editor precedente]
+
+Questa vista mostra come viene eseguito il rendering del contenuto nel vecchio editor.
+
 ![indicatore copia di lavoro](images/working-copy-text-update-indicator.png){width="550"}
+
+>[!ENDTABS]
 
 Experience Manager Guides indica anche se l’ultima copia salvata \(working\) del file è sincronizzata o meno con la versione salvata. Se sono presenti modifiche non salvate tra la copia in modifica e l&#39;ultima versione salvata, viene visualizzato un segno \* insieme alle informazioni sulla versione visualizzate nell&#39;angolo superiore destro della scheda del file dell&#39;argomento. Questo indicatore funge da promemoria per salvare e creare una versione dalla copia \(working\) corrente del file.
 
 >[!NOTE]
 >
-> Qualsiasi modifica ai campi metadati disponibili in [Proprietà file](./web-editor-right-panel.md#file-properties) attiverà anche l&#39;indicatore della copia di lavoro sulla versione del documento.
+> Qualsiasi modifica ai campi metadati disponibili in [Proprietà file](./web-editor-right-panel.md#file-properties) o applicata al backend attiverà anche l&#39;asterisco `(*)` nella versione del documento.  Per evitare che gli aggiornamenti dei metadati generati dal sistema influiscano su questo indicatore, gli amministratori possono configurare un elenco da ignorare per le proprietà dei metadati. Per informazioni dettagliate su come configurare le proprietà dei metadati, visualizzare [Configurare l&#39;elenco di proprietà dei metadati da ignorare](../install-conf-guide/conf-metadata-prop.md).
 
-![Indicatore aggiornamento versione](images/version-update-indicator.png){width="550"}
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![Indicatore aggiornamento versione](images/version-update-indicator-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![Indicatore aggiornamento versione](images/version-update-indicator.png){width="650"}
+
+
+>[!ENDTABS]
 
 ## Accedere ai file bloccati in modalità Autore e Source
 

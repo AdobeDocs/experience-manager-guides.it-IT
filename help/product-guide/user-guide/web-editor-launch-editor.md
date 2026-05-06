@@ -4,14 +4,18 @@ description: Scopri come avviare l’editor dalla pagina di navigazione di AEM, 
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Avviare l’editor {#id2056B0140HS}
+
+>[!INFO]
+>
+> Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
 
 Puoi avviare l’Editor dalle seguenti posizioni:
 
@@ -85,9 +89,23 @@ Per aprire un argomento nell&#39;editor, eseguire la procedura seguente:
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   L’argomento viene aperto nell’editor.
+L’argomento viene aperto nell’editor.
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+Questa vista mostra come viene eseguito il rendering del contenuto nel nuovo editor
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+Questa vista mostra come viene eseguito il rendering del contenuto nel vecchio editor
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 Puoi anche aprire un file di mappa nell’interfaccia utente di Assets e avviare l’Editor per modificare gli argomenti nel file di mappa.
 
@@ -124,13 +142,25 @@ Per aprire l’editor dalla console Mappa, effettua le seguenti operazioni:
 
    ![](images/map-console-open-in-editor.png)
 
-   Il file di mappa contenente gli argomenti è aperto per la modifica nell&#39;editor.
-
-   ![](images/map-console-edit-topics.png)
+Il file di mappa contenente gli argomenti è aperto per la modifica nell&#39;editor.
 
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+Modalità di modifica mappa nel nuovo editor:
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
+Modalità di modifica mappa nel vecchio editor:
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **Argomento padre**: [Introduzione all&#39;editor](web-editor.md)

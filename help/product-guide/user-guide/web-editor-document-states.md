@@ -4,14 +4,18 @@ description: Scopri i tipi di stati dei documenti in Adobe Experience Manager Gu
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Stato documento {#id1821HC00URO}
+
+>[!INFO]
+>
+> Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
 
 Per gestire la preparazione dei documenti, Adobe Experience Manager Guides fornisce la proprietà Stato documento per indicare lo stato corrente del documento. Gli stati dei documenti consentono di verificare rapidamente se un documento è nuovo, in revisione o completato.
 
@@ -96,11 +100,23 @@ Per utilizzare la funzione di approvazione del documento, effettuare le seguenti
 
 1. Una volta che il documento è stato contrassegnato come approvato, viene visualizzata una **Anteprima** del documento in modalità di sola lettura. Tutte le opzioni di modifica vengono rimosse da tutte e tre le modalità Autore, Source e Anteprima. Tuttavia, puoi comunque accedere al menu a discesa **Menu** che presenta le opzioni **Cronologia versioni** e **Tag**.
 
-   ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS]
 
-   >[!NOTE]
-   >
-   > In modalità Anteprima, il menu a discesa con le opzioni Cronologia versioni e Tag viene rimosso dalla barra degli strumenti.
+>[!TAB Nuovo editor]
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS]
+
+
+
+>[!NOTE]
+>
+> In modalità Anteprima, il menu a discesa con le opzioni Cronologia versioni e Tag viene rimosso dalla barra degli strumenti.
 
 
 Una volta contrassegnato come approvato, il documento non è più disponibile per la modifica. Se desideri utilizzare il documento per la prossima versione, devi riportarlo allo stato *Bozza*. Per ripristinare la modalità *Bozza* dello stato di un documento approvato, effettuare le seguenti operazioni:

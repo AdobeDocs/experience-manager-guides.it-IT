@@ -4,9 +4,9 @@ description: Genera output per una mappa DITA dalla console delle mappe e dal da
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,10 @@ Se un output non ha esito positivo, viene visualizzato il seguente messaggio di 
 <img src="images/error-log.png" alt="registro errori" width="250">
 
 Per visualizzare il log degli errori, selezionare **Ignora**, passare il puntatore del mouse sulla scheda del predefinito selezionato e selezionare **Visualizza log** dal menu di scelta rapida predefinito.
+
+>[!NOTE]
+>
+> Se la mappa utilizza un file DITAVAL, tutte le immagini di flag a cui si fa riferimento nel file DITAVAL vengono copiate in una posizione correlata alla mappa pubblicata nell&#39;output.  Inoltre, se si utilizzano più file DITAVAL per filtrare all&#39;interno della stessa mappa, assicurarsi di utilizzare nomi di file univoci `.ditaval` per evitare problemi di nomi di file duplicati durante la pubblicazione.
 
 ## Genera output per una mappa DITA dal dashboard Mappa
 

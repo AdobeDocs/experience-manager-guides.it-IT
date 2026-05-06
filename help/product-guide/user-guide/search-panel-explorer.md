@@ -4,14 +4,18 @@ description: Scopri come utilizzare il pannello Ricerca nell’interfaccia dell�
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Pannello di ricerca
+
+>[!INFO]
+>
+>Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
 
 Il pannello Ricerca nell’Editor migliora la produttività consentendo di accedere rapidamente a un sottoinsieme di file, visualizzati in base ai termini di ricerca o ai filtri applicati durante la modifica del contenuto. Consente di aprire facilmente uno o più file ricercati o di utilizzarli all&#39;interno di un file esistente semplicemente trascinandoli e rilasciandoli in un argomento o in una mappa. Puoi individuare il **pannello di ricerca** nella parte inferiore dell&#39;editor.
 
@@ -55,7 +59,17 @@ Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set 
 
 Una volta visualizzati i risultati della ricerca nel pannello Ricerca, potete utilizzarli aprendo e modificando uno o più file direttamente dal pannello oppure trascinando i file selezionati in un argomento o una mappa esistente per aggiungere riferimenti.
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB Editor precedente]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## Effettua ricerche dall’interfaccia dell’archivio nella pagina Home
 

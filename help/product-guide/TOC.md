@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 7%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 7%
       - Servizi cloud {#cloud-release-notes}
          - {hide-from-toc}[Istruzioni di distribuzione](./release-info/deploy-xml-on-aemaacs.md)
          - Versioni del 2026 {#2026-releases}
+            - Versione 2026.05.0 {#2605-release}
+               - [Novità](./release-info/whats-new-2026-05-0.md)
+               - [Problemi risolti](./release-info/fixed-issues-2026-05-0.md)
+               - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2026-05-0.md)
             - Versione 2026.04.0 {#2604-release}
                - [Novità](./release-info/whats-new-2026-04-0.md)
                - [Problemi risolti](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 7%
          - [Utilizza i dati delle tue origini dati](./user-guide/web-editor-content-snippet.md)
          - [Stato documento](./user-guide/web-editor-document-states.md)
          - [Usa etichette](./user-guide/web-editor-use-label.md)
+         - [Impostazioni editor](./user-guide/config-editor-settings.md)
       - Editor mappa {#map-editor}
          - [Introduzione all’Editor mappa](./user-guide/map-editor.md)
          - [Creare una mappa](./user-guide/map-editor-create-map.md)
@@ -392,7 +397,7 @@ ht-degree: 7%
          - [Concetti chiave, ruoli, autorizzazioni e prerequisiti](./user-guide/authoring.md)
          - [Carica file](./user-guide/authoring-upload-existing-files.md)
          - [Gestione di file e cartelle](./user-guide/authoring-file-management.md)
-         - [Elaborare risorse](./user-guide/asset-processor.md)
+         - [Elabora risorse](./user-guide/asset-processor.md)
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
@@ -664,6 +669,7 @@ ht-degree: 7%
          - [Configura la visualizzazione delle tabelle incollate per Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurare la generazione di un singolo argomento PDF per Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Configurare la funzione di traduzione nell’editor web per Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Configurare l’elenco da ignorare delle proprietà dei metadati per Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Impostazione editor per On-Premise {#editor-on-prem-settings}
          - [Configurare caratteri speciali aggiuntivi per On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurare il titolo per le icone Archivia ed Estrai per On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 7%
             - Widget {#framework-widgets}
                - [Widget di rendering](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widget di base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Modifiche al framework di estensione per Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - Guida introduttiva {#getting-started}
             - [Introduzione](./guides-ui-extensions/getting-started/introduction.md)
             - [Guida all’installazione](./guides-ui-extensions/getting-started/integrating-customisations.md)

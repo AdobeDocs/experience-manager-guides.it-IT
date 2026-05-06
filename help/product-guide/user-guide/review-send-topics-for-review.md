@@ -4,9 +4,9 @@ description: Scopri come creare un’attività di revisione e inviare argomenti 
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '3161'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,18 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    >[!NOTE]
    >
    > Una volta raggiunta la scadenza, viene inviata un’e-mail all’iniziatore per informare che l’attività di revisione è stata completata. L&#39;iniziatore può estendere la scadenza dell&#39;attività di revisione dal [dashboard di revisione](review-manage-tasks-review-dashboard.md#).
+
+1. Abilita **Promemoria automatico** per configurare le notifiche di promemoria pianificate (e i promemoria e-mail) per i revisori. Questa operazione può essere eseguita sia prima della data di scadenza di un&#39;attività di revisione che dopo la scadenza.
+
+   >[!NOTE]
+   >
+   >L&#39;opzione Promemoria automatici rimane disattivata fino a quando non viene selezionata una data di scadenza per l&#39;attività di revisione.
+
+   - **Promemoria prima della data di scadenza**: è possibile configurare più promemoria (massimo 3) fino a 60 giorni prima della data di scadenza per informare in anticipo i revisori. Il promemoria 1 può essere impostato fino al numero di giorni rimanenti dalla data odierna alla data di scadenza e i valori del promemoria devono seguire un ordine decrescente, che rappresenta il numero di giorni precedenti alla data di scadenza.
+
+   - **Promemoria dopo la scadenza**: è inoltre possibile configurare promemoria (massimo 3) da inviare dopo la scadenza per notificare ai revisori che l&#39;attività è scaduta. I promemoria scaduti possono essere configurati fino a 30 giorni dopo la data di scadenza. I valori dei promemoria devono seguire un ordine crescente, che rappresenta il numero di giorni successivi alla data di scadenza.
+
+   In base alla pianificazione configurata, il sistema invia notifiche e promemoria e-mail ad AEM ai revisori alle date del promemoria pianificato.
 
 1. Selezionare la mappa radice dal **percorso rootmap**. Questa rootmap viene utilizzata per risolvere tutti i riferimenti chiave e i termini del glossario utilizzati nel contenuto della revisione. Se non si seleziona la rootmap, i riferimenti chiave o i termini del glossario associati all&#39;argomento DITA non vengono risolti prima di inviare l&#39;argomento per la revisione.
 

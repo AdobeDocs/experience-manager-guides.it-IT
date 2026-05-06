@@ -4,9 +4,9 @@ description: Esplora altre funzioni dell’editor in Adobe Experience Manager Gu
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ Nel menu di scelta rapida della scheda di un file multimediale aperto vengono vi
 
 Nel menu di scelta rapida della scheda di un file aperto vengono visualizzate le seguenti funzioni:
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB Editor precedente]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **Più file**
 
 Quando sono aperti più file, nel menu di scelta rapida vengono visualizzate altre opzioni:
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB Editor precedente]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 Di seguito sono illustrate le varie opzioni del menu di scelta rapida:
 
@@ -144,6 +165,90 @@ L’editor fornisce una finestra di dialogo per la ricerca intelligente dei file
 >[!NOTE]
 >
 > In caso di file immagine, audio o video, la finestra di dialogo per la ricerca dei file viene impostata automaticamente sul percorso del file e non sull’ultimo percorso utilizzato.
+
+## Utilizzare le tabelle nel nuovo editor
+
+Il nuovo editor consente di creare, formattare e organizzare tabelle direttamente all’interno del contenuto utilizzando varie azioni contestuali.
+
+Questa sezione descrive le varie funzioni di creazione delle tabelle disponibili nel nuovo editor.
+
+**Modificare la tabella utilizzando il menu di scelta rapida**
+
+Il menu di scelta rapida viene visualizzato quando si fa clic con il pulsante destro del mouse all&#39;interno di una cella di tabella. Le opzioni seguenti sono disponibili in base al tipo di tabella che si sta utilizzando.
+
+![](images/table-context-menu.png){width="550"}
+
+- Inserire righe, colonne o celle
+
+- Dividi celle in orizzontale o in verticale (non disponibile per tabelle semplici)
+
+- Unisci celle a destra o a discesa (non disponibile per tabelle semplici)
+
+- Eliminare righe o colonne
+
+**Impostare la formattazione e l&#39;allineamento del testo utilizzando la barra degli strumenti contestuale**
+
+La barra degli strumenti contestuale viene visualizzata quando si selezionano il contenuto o le celle all&#39;interno di una tabella. La barra degli strumenti fornisce opzioni pertinenti alla selezione.
+
+- Selezionare il contenuto della cella per accedere alle opzioni di formattazione seguenti:
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  Utilizzare le opzioni Grassetto, Corsivo o Sottolineato per formattare il testo.
+- Per accedere alla barra degli strumenti contestuale per una singola cella, utilizzare `Ctrl+click` per Windows e `Command+click` per macOS.
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- Allo stesso modo, puoi anche selezionare più celle e utilizzare la barra degli strumenti contestuale per applicare contemporaneamente la formattazione del testo e il relativo allineamento.
+
+  Opzioni disponibili per la selezione di una o più righe:
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
+   - Allineamento verticale del testo (non disponibile per tabelle semplici)
+   - Inserisci riga sopra
+   - Inserisci riga sotto
+   - Rimuovi riga
+   - Unisci celle (non disponibile per tabelle semplici)
+
+  Opzioni disponibili per la selezione di una o più colonne:
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
+   - Allineamento verticale del testo (non disponibile per tabelle semplici)
+   - Inserisci riga sopra
+   - Inserisci riga sotto
+   - Rimuovi riga
+   - Inserisci colonna sopra
+   - Inserisci colonna sotto
+   - Rimuovi colonna
+   - Unisci celle (non disponibile per tabelle semplici)
+
+- Selezionare la tabella per applicare la formattazione del testo e l&#39;allineamento all&#39;intera tabella.
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- Aggiungere righe o colonne utilizzando un pulsante più interattivo
+
+  Per aggiungere una nuova riga alla fine della tabella, posizionare il cursore sull&#39;ultima riga e selezionare il pulsante **+**. Viene aggiunta una nuova riga nella parte inferiore della tabella.
+
+  ![](images/add-row.png){width="550"}
+
+  Passa il puntatore del mouse sull&#39;ultima colonna e seleziona il pulsante **+** per aggiungere una nuova colonna all&#39;estrema destra della tabella.
+
+  ![](images/add-column.png){width="550"}
+
+- Aggiungere più righe o colonne a una tabella utilizzando le opzioni Inserisci (non disponibile per tabelle semplici)
+
+  Per aggiungere più righe o colonne a una tabella, selezionare innanzitutto il numero di righe o colonne che si desidera aggiungere, quindi selezionare le opzioni Inserisci riga (sopra o sotto) o Inserisci colonna (sinistra o destra). Lo stesso numero di righe o colonne viene aggiunto alla tabella in base alla selezione.
+
+- Trascinare righe e colonne (non disponibile per tabelle semplici)
+
+  Sposta facilmente le righe e le colonne all’interno della tabella tramite trascinamento. Quando si trascina una riga o una colonna, questa viene visualizzata con uno sfondo semitrasparente per indicare che è in corso lo spostamento. Una linea blu evidenzia la posizione di destinazione in cui la riga o la colonna verrà posizionata al momento del rilascio.
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Sfogliare file e cartelle in Experience Manager Guides
 
@@ -314,7 +419,19 @@ Inserire una nota a piè di pagina nel contenuto utilizzando l&#39;elemento `fn`
 
 L’editor visualizza la breadcrumb dell’elemento in basso a sinistra nell’argomento. Se desideri scambiare o sostituire un elemento con un altro elemento, puoi farlo dal menu di scelta rapida della breadcrumb. Ad esempio, è possibile scambiare l&#39;elemento `p` con `note` o qualsiasi altro elemento valido nel contesto.
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB Editor precedente]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 Nella breadcrumb, fai clic con il pulsante destro del mouse sul nome di un elemento che desideri sostituire, quindi seleziona Rinomina elemento dal menu di scelta rapida. Nella finestra di dialogo Rinomina elemento vengono visualizzati tutti gli elementi validi consentiti nella posizione corrente. Dalla finestra di dialogo Rinomina elemento, seleziona l’elemento che desideri utilizzare. L’elemento originale viene sostituito con il nuovo elemento.
 
@@ -392,11 +509,19 @@ Selezionando **ID duplicati** si apre un popover in cui sono elencati tutti gli 
 
 ## Gestione di file di grandi dimensioni nell’editor
 
+>[!NOTE]
+>
+> Questa sezione si applica solo al vecchio editor. Con il nuovo editor, l’esperienza di modifica per argomenti complessi e di grandi dimensioni viene migliorata grazie a un caricamento più rapido e a interazioni più reattive, insieme al supporto per operazioni di annullamento/ripristino e marcatore sporco.
+
 Di seguito sono indicate le principali caratteristiche volte a migliorare la gestione dei file di grandi dimensioni:
 
 - Per migliorare le prestazioni, alcune funzionalità come Annulla, Ripristina, il pannello della struttura e il marcatore sporco sono disabilitate. Per un’esperienza ottimale, si consiglia di suddividere gli argomenti in argomenti più piccoli.
 
 - Nella parte superiore viene visualizzato un messaggio di avviso per i file di grandi dimensioni, come illustrato nel frammento seguente. Questo avviso evidenzia il numero di elementi in base al valore specificato nel parametro **largeFileTagCount** del file uiconfig.json. Per impostazione predefinita, **largeFileTagCount** è impostato su 2500.
+
+  >[!NOTE]
+  >
+  > Questo messaggio di avviso si applica solo al vecchio editor, in cui viene visualizzato in base al parametro `largeFileTagCount` configurato. Nel nuovo editor, i file di grandi dimensioni si caricano senza problemi senza attivare alcun avviso. Inoltre, le funzionalità correlate che non funzionano nella funzione Old Editor normalmente in New Editor.
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -407,5 +532,6 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
+
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
