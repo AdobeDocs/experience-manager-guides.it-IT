@@ -4,7 +4,7 @@ description: Scopri come utilizzare le etichette per diverse versioni di un file
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -25,8 +25,6 @@ Per aggiungere un&#39;etichetta all&#39;argomento dall&#39;editor, eseguire la p
 
 1. Nel pannello Archivio, individuate un argomento e aprilo nell&#39;Editor.
 1. Seleziona **Etichetta versione** dal menu a discesa **Menu**.
-
-   ![](images/version-label-option.png){width="400"}
 
    Viene visualizzata la finestra di dialogo **Gestione etichette versione**.
 
@@ -81,4 +79,4 @@ Per eliminare un&#39;etichetta di versione da un argomento, utilizzare il pulsan
 ![](images/delete-labels.png){width="300"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -4,7 +4,7 @@ description: Crea una mappa con Editor mappe in Experience Manager Guides. Trova
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Per aggiungere argomenti a un file di mappa dalla console Mappa, effettua le seg
 
    - **A** - \(*Barra delle schede*\): simile alla barra delle schede dell&#39;editor. Visualizza [barra delle schede](./web-editor-tab-bar.md) nell&#39;editor per ulteriori dettagli.
 
-   - **B** - \(*Barra degli strumenti*\) Questa è la barra degli strumenti che consente di utilizzare i file di mapping. Per ulteriori informazioni sulle funzionalità disponibili tramite la barra degli strumenti, visualizzare [Funzionalità disponibili nella barra degli strumenti dell&#39;Editor mappe](#features-available-in-the-map-editors-toolbar).
+   - **B** - \(*Barra degli strumenti*\) Questa è la barra degli strumenti che consente di utilizzare i file di mapping. Per ulteriori informazioni sulle funzionalità disponibili tramite la barra degli strumenti, visualizzare [Funzionalità disponibili nella barra degli strumenti dell&#39;Editor mappe](./map-editor-advanced-map-editor.md).
 
    - **C** - \(*Visualizzazioni mappa*\): consente di passare dall&#39;Editor mappa a Layout, Autore, Source e Anteprima. La visualizzazione **Layout** consente di organizzare gli argomenti in una mappa DITA. In questo modo viene visualizzata la struttura o la struttura gerarchica della mappa. La visualizzazione **Autore** consente di modificare gli argomenti nell&#39;Editor mappa. Questo offre anche la vista WYSIWYG del file di mappa. La visualizzazione **Source** consente di utilizzare l&#39;XML sottostante del file di mapping. L&#39;anteprima offre una visualizzazione consolidata di tutti gli argomenti e delle mappe secondarie all&#39;interno del file di mappa.
 

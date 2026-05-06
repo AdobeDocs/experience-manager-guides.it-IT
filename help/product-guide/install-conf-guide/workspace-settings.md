@@ -4,9 +4,9 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -81,8 +81,18 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
    - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
 
-- **Controllo ortografia**
-Sono disponibili due opzioni: **Controllo ortografico AEM** e **Controllo ortografico browser**. Per impostazione predefinita, l’editor utilizza la funzione di controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. Puoi passare al controllo ortografico di AEM per utilizzare il dizionario Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione [Personalizzare il dizionario predefinito di AEM](../install-conf-guide/customize-aem-default-dictionary.md) nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+- **Controllo ortografico**
+
+  Sono disponibili due opzioni: Controllo ortografico di AEM e Controllo ortografico del browser.
+
+   - **Controllo ortografico del browser**: per impostazione predefinita, l&#39;editor utilizza la funzionalità Controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser.
+
+   - **Controllo ortografico di AEM**: è possibile passare al controllo ortografico di AEM per utilizzare il dizionario di Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, visualizzare [Personalizzare il dizionario predefinito di AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+
+     >[!NOTE]
+     >
+     > Il controllo ortografico di AEM utilizza la lingua selezionata nella proprietà language del file. Se la lingua non è specificata per il file, il controllo ortografico viene eseguito come fallback nella lingua del server AEM.
+     >Per garantire risultati accurati del controllo ortografico, il dizionario della lingua selezionata deve essere disponibile in AEM. Se il dizionario richiesto per la lingua configurata non è disponibile, il controllo ortografico predefinito è `en_us`.
 
 
 ## Pannelli

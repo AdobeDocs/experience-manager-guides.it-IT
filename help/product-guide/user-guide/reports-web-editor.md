@@ -4,9 +4,9 @@ description: Generare rapporti di mappe DITA dalla console delle mappe in AEM Gu
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,9 @@ Per aggiornare i metadati, effettuare le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Se un file è bloccato da un altro utente, non può essere selezionato per l’aggiornamento dei metadati. Accanto al titolo di un file bloccato viene visualizzata anche un&#39;icona di blocco. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente.
+   > Se un file è bloccato da un altro utente, non può essere selezionato per l’aggiornamento dei metadati. Accanto al titolo di un file bloccato viene visualizzata anche un&#39;icona di blocco. Passa il cursore del mouse sull’icona per visualizzare il nome dell’utente. È possibile configurare il pulsante **Gestisci** per disattivarlo quando i file selezionati sono in modalità di sola lettura. Per ulteriori dettagli, visualizzare il pulsante [Gestisci nel pannello Metadati](../guides-ui-extensions/examples.md).
+   >
+   > <br>Questa limitazione si applica solo ai file DITA e Markdown. Per le risorse non DITA (come immagini e file multimediali), le proprietà dei metadati rimangono modificabili anche in modalità di sola lettura.
 
    ![](images/all-selection.png)
 
@@ -266,4 +268,4 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Selezionare **Scarica** per scaricare lo snapshot di tutti i collegamenti interrotti nella mappa DITA. Il file Excel contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

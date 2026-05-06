@@ -4,20 +4,25 @@ description: Visualizza gli argomenti in modalità di creazione, origine e antep
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # Visualizzazioni editor per argomenti {#id204GK0D0V5Z}
 
-L’interfaccia dell’editor in Adobe Experience Manager supporta la visualizzazione degli argomenti in tre diverse modalità o visualizzazioni:
+>[!INFO]
+>
+>Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
+
+L’interfaccia dell’editor in Adobe Experience Manager supporta la visualizzazione degli argomenti in quattro diverse modalità o visualizzazioni:
 
 * [Autore](#author)
 * [Origine](#source)
 * [Anteprima](#preview)
+* [Affiancato](#side-by-side)
 
 ## Autore
 
@@ -88,6 +93,17 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Trova 
   | Trova in modo ricorsivo la parola corrente \(in direzione indietro\) | **Maiusc**+**Ctrl**+**F3** |
 
 
+## Affiancato
+
+>[!NOTE]
+>
+>Questa funzione è disponibile solo nel nuovo editor.
+
+La visualizzazione affiancata consente di visualizzare e lavorare contemporaneamente nelle visualizzazioni Autore e Source sullo stesso schermo. La vista Autore WYSIWYG e la vista Source XML sottostante sono adiacenti, consentendo l&#39;utilizzo di contenuti paralleli e modifiche strutturali senza passare da una vista all&#39;altra. Entrambe le visualizzazioni rimangono sincronizzate in tempo reale, garantendo che la posizione del cursore e la selezione nella visualizzazione Autore vengano rispecchiate nella posizione corrispondente nella visualizzazione Source, fornendo maggiore precisione e controllo durante l’authoring di contenuti strutturati.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Anteprima
 
 Quando si apre un argomento in modalità Anteprima, viene illustrato come verrà visualizzato un argomento quando viene visualizzato da un utente nel browser. Nel caso di una mappa DITA, viene visualizzata un&#39;anteprima della mappa in cui viene visualizzato un singolo documento composito di tutti gli argomenti all&#39;interno della mappa.
@@ -102,9 +118,19 @@ La modalità Anteprima offre le seguenti funzionalità:
 
 Se nell&#39;argomento o nella mappa sono state utilizzate condizioni, queste vengono visualizzate nel pannello Filtri. Per impostazione predefinita, vengono selezionate tutte le condizioni e viene visualizzato l’intero contenuto. Se deselezioni una condizione, il contenuto con tale condizione viene rimosso dalla visualizzazione. Puoi anche scegliere di evidenziare il contenuto condizionale.
 
-Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Product`. Il contenuto condizionale viene evidenziato con sfondo giallo.
+Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Platfor`. Il contenuto condizionale viene evidenziato con sfondo giallo.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### Visualizzare le revisioni delle revisioni {#id2114BJ00CE8}
 
@@ -149,4 +175,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -4,14 +4,18 @@ description: Scopri il pannello a sinistra nell’editor. Scopri l’interfaccia
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '11002'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
 
 # Pannello sinistro nell’editor
+
+>[!INFO]
+>
+>Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
 
 Il pannello a sinistra consente di accedere rapidamente alle raccolte, alla vista Archivio, alla vista Mappa e ad altre funzioni. Puoi espandere il pannello selezionando l&#39;icona **Espandi** posta nell&#39;angolo inferiore sinistro dell&#39;interfaccia. Una volta espanso, utilizza l&#39;icona **Comprimi** per comprimere il pannello. Nella visualizzazione espansa vengono visualizzati i nomi delle icone visualizzate come descrizioni comandi nella visualizzazione compressa.
 
@@ -61,7 +65,7 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 >[!NOTE]
 >
-> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file in base ai nomi dei file nell’Editor. Selezionare l&#39;opzione **Nome file** della sezione **Configurazione di visualizzazione dei file dell&#39;editor** in **Preferenze utente**.
+> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file in base ai nomi dei file nell’Editor. Selezionare l&#39;opzione **Nome file** nella sezione **Configurazione di visualizzazione dei file dell&#39;editor** in **Preferenze utente**.
 
 <details>
     <summary> Crea una nuova raccolta </summary>
@@ -127,7 +131,7 @@ Quando selezioni l’icona Archivio, ottieni un elenco di file e cartelle dispon
 
 >[!NOTE]
 >
-> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file in base ai nomi dei file nell’Editor. Selezionare l&#39;opzione **Nome file** della sezione **Configurazione di visualizzazione dei file dell&#39;editor** in **Preferenze utente**.
+> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file in base ai nomi dei file nell’Editor. Selezionare l&#39;opzione **Nome file** nella sezione **Configurazione di visualizzazione dei file dell&#39;editor** in **Preferenze utente**.
 
 Vengono caricati 75 file alla volta. Ogni volta che si seleziona **Carica altri**... vengono caricati 75 file e il pulsante non viene più visualizzato quando tutti i file sono elencati. Questo caricamento batch è efficiente e consente di accedere ai file più rapidamente rispetto al caricamento di tutti i file esistenti in una cartella.
 
@@ -138,6 +142,8 @@ la visualizzazione del video. Nel menu di scelta rapida sono inoltre disponibili
 o di visualizzare immagini nell&#39;immagine.
 
 Selezionare una mappa e premere Invio o fare doppio clic per aprirla nella **vista mappa**. Per ulteriori dettagli, visualizza la descrizione della funzione **Vista mappa** nel pannello a sinistra. Selezionare un argomento e premere Invio o fare doppio clic per aprirlo nell&#39;[area di modifica dei contenuti](./web-editor-content-editing-area.md). La possibilità di navigare e aprire un file direttamente dall’editor consente di risparmiare tempo e di aumentare la produttività.
+
+
 
 ## Filtra ricerca nel repository
 
@@ -160,7 +166,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -288,7 +294,7 @@ Passaggi per creare una nuova cartella:
 
   Se l&#39;amministratore ha abilitato l&#39;opzione UUID in *XMLEditorConfig*, l&#39;UUID dell&#39;immagine caricata verrà visualizzato nella proprietà **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){  }
+  ![](images/image-properties.png)
 
   Dopo un caricamento riuscito, viene visualizzata la seguente finestra di dialogo di conferma:
 
@@ -770,7 +776,17 @@ Il pannello Condizioni visualizza gli attributi condizionali definiti dall&#39;a
 
 Puoi anche applicare più condizioni a un elemento trascinando più condizioni su di esso. Quando applicate più condizioni a un elemento, il pannello Proprietà mostra le condizioni applicate separate da una virgola.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 Tuttavia, nella vista Codice le condizioni vengono separate utilizzando un delimitatore di spazio. Quando aggiungi o modifichi una condizione nella vista Codice, accertati che più condizioni siano separate utilizzando uno spazio.
 
@@ -778,7 +794,18 @@ Tuttavia, nella vista Codice le condizioni vengono separate utilizzando un delim
 >
 > La schermata seguente è di un utente con privilegi di amministratore. In qualità di utente con privilegi di amministratore, puoi aggiungere, modificare ed eliminare condizioni. Altrimenti, in qualità di autore normale, avrai la possibilità di applicare solo le condizioni.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 Per aggiungere o definire una condizione, seleziona l’icona + accanto al pannello Condizioni per visualizzare la finestra di dialogo Definisci condizione:
 
@@ -852,7 +879,7 @@ Nell'esempio seguente viene illustrato come utilizzare lo schema soggetto in Exp
 
    ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Salva il file con estensione a.ditamap e caricalo in qualsiasi cartella in DAM.
+1. Salva il file con estensione .ditamap e caricalo in qualsiasi cartella in DAM.
 
    >[!NOTE]
    >
@@ -991,6 +1018,19 @@ Per modificare il valore, effettua le seguenti operazioni:
 
 Puoi anche applicare valori a un attributo selezionando più valori dal menu a discesa.
 
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
 **Visualizzazione Source**
 
 Puoi anche modificare i valori dal menu a discesa dell’attributo nella vista Source. La vista Source impedisce inoltre di aggiungere valori errati.
@@ -1015,7 +1055,8 @@ I frammenti sono piccoli frammenti di contenuto che possono essere riutilizzati 
 >
 > La schermata seguente è di un utente con privilegi di amministratore. In qualità di utente con privilegi di amministratore, puoi aggiungere, modificare ed eliminare snippet. Altrimenti, in qualità di autore normale, avrai accesso solo alle opzioni per visualizzare in anteprima e inserire uno snippet.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Crea un frammento**
 
@@ -1065,7 +1106,12 @@ Per impostazione predefinita, è possibile visualizzare i file in base ai titoli
 
 Per informazioni su come creare modelli personalizzati, visualizzare [Creare mappe in base a modelli personalizzati](./create-maps-customized-templates.md).
 
+
 ## Citazioni
+
+>[!NOTE]
+>
+> Le citazioni sono supportate solo nel vecchio editor e non sono attualmente disponibili nel nuovo editor. Le informazioni contenute in questo articolo sono valide solo se si utilizza il vecchio editor.
 
 In Experience Manager Guides, puoi aggiungere e importare citazioni e applicarle al contenuto. È possibile aggiungere queste citazioni da qualsiasi origine di libri, siti Web e giornali.
 
@@ -1102,7 +1148,7 @@ La funzione Trova e sostituisci può essere utilizzata in due modalità distinte
   > - **Per Cloud Services**: è necessario eseguire una distribuzione dell&#39;indice personalizzata. Per ulteriori dettagli, visualizzare [Distribuzione dell&#39;indice personalizzato](/help/product-guide/cs-install-guide/custom-indexing.md). Al termine, contatta il team di successo del cliente per abilitare questa funzione.
   > - **On-Premise**: è necessaria la reindicizzazione del contenuto esistente prima che la funzionalità possa essere utilizzata. Per ulteriori dettagli, visualizzare [Contenuto reindicizzazione](/help/product-guide/install-guide/custom-indexing-prem.md). Al termine, contatta il team di successo del cliente per abilitare questa funzione.
 
-  ![](images/map-find-replace-with-source-mode.png)
+  ![](images/find-replace-new.png)
 
 <br>
 
@@ -1323,4 +1369,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

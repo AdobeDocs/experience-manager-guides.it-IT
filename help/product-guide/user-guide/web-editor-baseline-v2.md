@@ -4,7 +4,7 @@ description: Crea e gestisci una nuova linea di base (Beta) dalla console delle 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Questo articolo si applica alla nuova linea di base , attualmente disponibile come funzionalità *Beta*, che offre prestazioni e stabilità migliorate disponibili con la versione 2026.03.0 di Experience Manager Guides. Per abilitare la nuova funzione di base nella configurazione, contatta il team Customer Success.
+> Questo articolo si applica alla nuova linea di base , attualmente disponibile come funzionalità *Beta*, che offre prestazioni e stabilità migliorate disponibili con la versione di Experience Manager Guides 2026.04.0. Per abilitare la nuova funzione di base nella configurazione, contatta il team Customer Success.
 
 La nuova funzione di base affronta i problemi critici di affidabilità e prestazioni associati a mappe grandi e complesse. Viene fornito con un’architettura di base riprogettata che offre un’esperienza di base più veloce, più stabile e più coerente. Prima di approfondire i dettagli, ecco un breve video che evidenzia le funzionalità della nuova funzione di base.
 

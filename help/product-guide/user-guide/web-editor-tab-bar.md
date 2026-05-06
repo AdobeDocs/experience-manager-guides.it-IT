@@ -4,18 +4,32 @@ description: Scopri la barra delle schede nell’editor. Scopri l’interfaccia 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # Barra delle schede nell’editor
 
-La barra delle schede si trova nella parte superiore dell’interfaccia dell’editor e consente di accedere alle seguenti funzioni:
+>[!INFO]
+>
+> Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
+
+La barra delle schede si trova nella parte superiore dell’interfaccia dell’editor e consente di accedere alle varie funzioni a livello di file.
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Editor precedente]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **Schede**
 
@@ -23,7 +37,7 @@ Visualizza gli argomenti correntemente aperti nell&#39;Editor sotto forma di sch
 
 >[!NOTE]
 >
-> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Selezionare l&#39;opzione **Nome file** della sezione **Configurazione di visualizzazione file editor** in [Preferenze utente](./intro-home-page.md#user-preferences).
+> In qualità di amministratore, puoi anche scegliere di visualizzare l’elenco dei file per nome nelle schede. Selezionare l&#39;opzione **Nome file** nella sezione **Configurazione di visualizzazione file editor** in [Preferenze utente](./intro-home-page.md#user-preferences).
 
 Selezionando la scheda file si apre un menu di scelta rapida con le opzioni Salva come nuova versione, Copia, Individua in, Aggiungi a, Proprietà, Dividi, Scarica come PDF e Chiudi.
 
@@ -57,4 +71,6 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
 >
 > Se si utilizza Adobe Experience Manager Guides in una configurazione locale, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+- **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](./config-editor-settings.md).
+
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

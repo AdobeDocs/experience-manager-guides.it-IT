@@ -4,27 +4,36 @@ description: Conoscere le funzioni dell’Editor mappa in Adobe Experience Manag
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: c882db84a263165d62dcc6fda9c22a5a643f6eff
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
 # Funzioni dell’editor mappa {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> Questo argomento si applica sia al nuovo editor che al vecchio editor. Anche se le funzionalità di base rimangono coerenti, le differenze nell’interfaccia utente, nella terminologia e nelle interazioni sono indicate all’interno del contenuto utilizzando schede e callout, se applicabile.
+
 La barra degli strumenti nell&#39;Editor mappa è simile all&#39;Editor argomenti. Le operazioni di base, come l’attivazione del pannello sinistro, il salvataggio della mappa, la creazione di una nuova versione della mappa, l’annullamento/ripristino dell’ultima operazione e l’eliminazione degli elementi selezionati, sono comuni in entrambi gli editor. Per informazioni dettagliate sul funzionamento di queste operazioni, visualizzare [Barra degli strumenti nella sezione Editor](web-editor-toolbar.md#).
 
-Le opzioni visualizzate nella barra degli strumenti dell’editor si basano sulla vista Editor mappa. Nell’Editor mappa sono disponibili quattro visualizzazioni:
+Le opzioni visualizzate nella barra degli strumenti dell’editor si basano sulla vista Editor mappa. Nell’Editor mappa sono disponibili cinque visualizzazioni:
 
 - [Layout](#layout-view)
 - [Autore](#author-view)
 - [Origine](#source-view)
 - [Anteprima](#preview)
+- [Vista affiancata](#side-by-side-view-available-in-new-editor-only)
 
 Nelle sezioni seguenti sono descritte le opzioni della barra degli strumenti disponibili nelle diverse viste dell’Editor mappa:
 
 ## Vista Layout
+
+>[!NOTE]
+>
+> Nel nuovo editor la funzionalità **Layout** non è attualmente supportata.
 
 Quando apri una mappa per la modifica, viene aperta la vista Layout dell’Editor mappa. La vista Layout visualizza la gerarchia delle mappe in una vista a struttura e consente di organizzare gli argomenti in una mappa.
 
@@ -138,15 +147,27 @@ Se hai applicato una condizione a un argomento, a destra dell’argomento viene 
 
 ## Visualizzazione Autore
 
-La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor. Mostra la vista WYSIWYG dell’Editor mappe e alcune delle icone visualizzate nella vista Author sono uguali alla vista Layout.
+La visualizzazione **Autore** consente di modificare la mappa DITA nell&#39;editor. Mostra la vista WYSIWYG dell’Editor mappa.
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Editor precedente]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+Le opzioni disponibili nel menu a discesa **Menu** sono le stesse disponibili nella barra degli strumenti dell&#39;[editor](./web-editor-toolbar.md#menu-dropdown).
 
 Inoltre, è possibile visualizzare le icone seguenti ed eseguire le attività correlate dalla vista Autore:
 
 **Inserisci prima/Inserisci dopo** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visualizza la finestra di dialogo **Inserisci elemento prima o &#x200B;** Inserisci elemento dopo. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
+Visualizza l&#39;elemento **Inserisci prima** o **Inserisci elemento dopo**. Selezionare l&#39;elemento che si desidera inserire nella mappa. A seconda dell&#39;operazione, il nuovo elemento viene inserito prima o dopo l&#39;elemento corrente nella mappa.
 
 **Elemento** - ![](images/Add_icon.svg)
 
@@ -229,9 +250,17 @@ Consente di mantenere sincronizzati l&#39;attributo `@navtitle` e l&#39;elemento
 
 Mostra o nasconde i tag XML. I tag fungono da segnali visivi che indicano il limite di un elemento. In questa modalità, se desideri inserire un riferimento ad argomento/mappa, trascina il file desiderato prima o dopo il tag. La barra orizzontale non viene visualizzata nella modalità Visualizzazione tag.
 
+>[!NOTE]
+>
+> In Nuovo editor, le opzioni per aggiungere o rimuovere **Tag** sono disponibili in Impostazioni editor. Per ulteriori dettagli, visualizzare [Impostazioni editor](./config-editor-settings.md).
+
 **Rileva modifiche** - ![](images/track-changes.svg)
 
 È possibile tenere traccia di tutti gli aggiornamenti effettuati nel file di mappa attivando la modalità Revisioni. Dopo aver abilitato le modifiche di traccia, tutti gli inserimenti e le eliminazioni vengono acquisiti nel documento. Per ulteriori dettagli, visualizza [Rileva modifiche](web-editor-features.md#track-changes) nell&#39;editor.
+
+>[!NOTE]
+>
+> Nel nuovo editor la funzionalità **Rileva modifiche** non è attualmente supportata.
 
 **Crea attività di revisione** - ![](images/create-review-task.svg)
 
@@ -276,6 +305,10 @@ Nella modalità di anteprima puoi eseguire le seguenti attività aggiuntive:
 
 **Aggiorna argomenti o mappa**
 
+>[!NOTE]
+>
+> Questa sezione è valida solo per il vecchio editor. Nel nuovo editor, le mappe e i relativi argomenti vengono aggiornati automaticamente.
+
 Quando si apre una mappa in modalità Anteprima e si torna da un&#39;altra scheda dell&#39;Editor, l&#39;anteprima non viene aggiornata automaticamente. Per ricaricare l’anteprima della mappa, è necessario un aggiornamento manuale.
 
 È possibile utilizzare la funzionalità Aggiorna, disponibile nella modalità Anteprima della mappa, in due modi:
@@ -300,13 +333,18 @@ Puoi accedere all’anteprima di una mappa da:
 
   ![](images/map-preview-icon.png){width="650"}
 
-  L&#39;anteprima della mappa viene visualizzata in una casella a comparsa.
-
-  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Mappa proprietà**
 
 Visualizza la finestra di dialogo Proprietà mappa, in cui è possibile impostare gli attributi e le informazioni sui metadati per la mappa.
+
+## Visualizzazione affiancata (disponibile solo nel nuovo editor)
+
+La visualizzazione affiancata nel nuovo editor consente di visualizzare le visualizzazioni Autore e Source l&#39;una accanto all&#39;altra. Questo consente di comprendere più facilmente come viene creata la mappa e garantisce che eventuali modifiche apportate siano allineate alla struttura prevista.
+
+Se, ad esempio, un argomento non viene visualizzato correttamente nell&#39;output, è possibile utilizzare la vista Autore per controllarne la posizione nella mappa e contemporaneamente esaminare la vista Source per esaminare il riferimento o gli attributi dell&#39;argomento.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Modifica argomenti tramite mappa DITA {#id17ACJ0F0FHS}
@@ -317,59 +355,84 @@ Experience Manager Guides consente agli autori di aprire una mappa DITA nell&#39
 
 Per modificare gli argomenti tramite una mappa DITA, effettuare le seguenti operazioni:
 
-1. Nel pannello Repository, individuate e aprite il file di mapping DITA che desiderate modificare.
+1. Passare a Esplora risorse e aprire il file di mapping che si desidera modificare.
 
    Il file mappa si apre nella vista Mappa.
 
->[!NOTE]
->
-> È inoltre possibile utilizzare l&#39;interfaccia utente di Assets per aprire un file di mappa DITA. Passare al file di mapping DITA contenente gli argomenti che si desidera modificare e selezionare **Modifica argomenti** nella barra degli strumenti principale per avviare l&#39;editor.
+   >[!NOTE]
+   >
+   > Puoi anche utilizzare l’interfaccia utente di Assets per aprire un file di mappa. Passare al file di mapping DITA contenente gli argomenti che si desidera modificare e selezionare **Modifica argomenti** nella barra degli strumenti principale per avviare l&#39;editor.
 
-1. Seleziona un collegamento argomento per aprirlo nell’editor per la modifica.
+1. Seleziona un argomento per aprirlo nell’editor per la modifica.
 
    È possibile aprire più argomenti nell&#39;editor e ogni argomento viene aperto in una nuova scheda nell&#39;editor. Anche se la mappa DITA contiene mappe secondarie, gli argomenti delle mappe secondarie vengono aperti in una nuova scheda per la modifica. Se desideri visualizzare gli argomenti sotto una mappa secondaria, puoi selezionare ed espandere la mappa secondaria.
 
-   ![](images/web-editor-multiple-topics.png)
-
    Se si seleziona un file di mappa, la mappa viene aperta in una nuova scheda dell&#39;editor.
 
-1. Dopo aver modificato gli argomenti, puoi effettuare le seguenti operazioni:
+>[!BEGINTABS]
 
-   - Puoi salvarli singolarmente. Se si chiude senza salvare gli argomenti, verrà visualizzata una finestra di dialogo in cui viene richiesto di salvare gli argomenti non salvati:
+>[!TAB Nuovo editor]
 
-     ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-     È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
+>[!TAB Editor precedente]
 
-   - È possibile sbloccare l&#39;argomento utilizzando l&#39;opzione **Salva come nuova versione**. Quando si salva una versione dell&#39;argomento, viene creata una nuova versione e viene rilasciato anche il blocco.
+![](images/web-editor-multiple-topics.png)
 
-     Si consiglia di salvare le modifiche prima di sbloccare i file.  Quando si salvano le modifiche, il file XML viene convalidato.
+>[!ENDTABS]
 
-   - È inoltre possibile visualizzare l&#39;avanzamento degli argomenti nella finestra di dialogo **Salva come nuova versione**. Quando i file vengono sbloccati, viene visualizzato un messaggio di operazione riuscita.
+Dopo aver modificato gli argomenti, puoi effettuare le seguenti operazioni:
 
-   - Se l&#39;amministratore ha attivato l&#39;opzione di sblocco dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file bloccati. Con questa opzione attivata, quando chiudi l’editor con i file modificati, viene visualizzato l’elenco dei file bloccati che devono essere salvati. I file bloccati vengono visualizzati con un&#39;icona di blocco:
+- Puoi salvarli singolarmente. Se si chiude senza salvare gli argomenti, verrà visualizzata una finestra di dialogo in cui viene richiesto di salvare gli argomenti non salvati:
 
-     ![](images/save-on-close-new.png){width="350"}
+  ![](images/save-multiple-topics-new.png){width="300"}
+
+  È possibile scegliere di salvare tutti gli argomenti selezionati o deselezionare gli argomenti che non si desidera salvare.
+
+- È possibile sbloccare l&#39;argomento utilizzando l&#39;opzione **Salva come nuova versione**. Quando si salva una versione dell&#39;argomento, viene creata una nuova versione e viene rilasciato anche il blocco.
+
+  Si consiglia di salvare le modifiche prima di sbloccare i file.  Quando si salvano le modifiche, il file XML viene convalidato.
+
+- È inoltre possibile visualizzare l&#39;avanzamento degli argomenti nella finestra di dialogo **Salva come nuova versione**. Quando i file vengono sbloccati, viene visualizzato un messaggio di operazione riuscita.
+
+- Se l&#39;amministratore ha attivato l&#39;opzione di sblocco dei file alla chiusura, verrà richiesto di salvare i file alla chiusura dei file bloccati. Con questa opzione attivata, quando chiudi l’editor con i file modificati, viene visualizzato l’elenco dei file bloccati che devono essere salvati. I file bloccati vengono visualizzati con un&#39;icona di blocco:
+
+  ![](images/save-on-close-new.png){width="350"}
 
 ## Pannello a destra nell’Editor mappa
 
-Nel pannello di destra vengono visualizzate le Proprietà contenuto e le Proprietà mappa nella vista Layout dell’Editor mappa.
+Il pannello di destra visualizza le proprietà Contenuto e Mappa nella vista Layout dell’Editor mappa.
 
 **Proprietà contenuto**
 
-Il pannello Proprietà contenuto contiene informazioni sul tipo di argomento attualmente selezionato nella mappa, il relativo URL di collegamento e i relativi attributi. Per ulteriori dettagli, visualizzare [Proprietà contenuto](web-editor-features.md#right-panel) nell&#39;editor.
+Il pannello delle proprietà Contenuto contiene informazioni sull&#39;argomento attualmente selezionato nella mappa, tra cui il tipo, il percorso del collegamento, l&#39;UUID del collegamento e gli attributi.
 
-- **Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore in **Visualizza attributi**. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti con l&#39;attributo `audience` sono definiti come `US`.
+Per ulteriori dettagli, visualizzare [Proprietà contenuto](web-editor-features.md#right-panel) nell&#39;editor.
 
-  ![visualizzazione layout](images/layout-inline-attributes.png){width="650"}
+**Altri attributi** Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Utilizzando il pannello delle proprietà del contenuto, potete scegliere questi attributi e assegnarli al contenuto pertinente nell&#39;argomento. Puoi anche assegnare gli attributi configurati dall&#39;amministratore in **Visualizza attributi**. Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura. Questo consente di esaminare rapidamente tutti gli argomenti di una mappa per cui è definito un attributo specifico. Ad esempio, tutti gli argomenti con l&#39;attributo `audience` sono definiti come `US`.
+
+![visualizzazione layout](images/layout-inline-attributes.png){width="650"}
+
+Consulta le schede seguenti per confrontare il modo in cui gli attributi vengono visualizzati nella vista Autore nel Nuovo Editor e nel Vecchio Editor.
+
+>[!BEGINTABS]
+
+>[!TAB Nuovo editor]
+
+![visualizzazione Autore](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Editor precedente]
+
+![visualizzazione Autore](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS]
 
 
-  Per ulteriori dettagli, visualizzare [Attributi di visualizzazione](../cs-install-guide/workspace-settings.md#display-attributes).
+Per ulteriori dettagli, visualizzare [Attributi di visualizzazione](../cs-install-guide/workspace-settings.md#display-attributes).
 
-- **Metadati** Utilizzando i metadati, puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
+**Metadati** Utilizzando i metadati, puoi impostare le informazioni sui metadati. Puoi definire il Titolo navigazione, il Testo collegamento, la Descrizione breve e le Parole chiave.
 
 Per ulteriori informazioni sugli attributi e i metadati standard dell&#39;argomento, vedere la documentazione [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in Specifiche del linguaggio OASIS DITA.
-
 
 
 
