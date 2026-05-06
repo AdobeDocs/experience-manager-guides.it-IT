@@ -2,7 +2,7 @@
 title: Note sulla versione | Novità della versione 2026.05.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2026.05.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b04438c1036248c40e002c1a56b6b68e654e7748
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -60,7 +60,6 @@ Un’interfaccia aggiornata migliora l’usabilità complessiva, rendendo la nav
 
   ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
 
-
 ### Funzionalità di authoring migliorate
 
 Offre strumenti migliorati e flessibilità per semplificare la creazione e la modifica dei contenuti nei flussi di lavoro.
@@ -101,12 +100,11 @@ Ora puoi utilizzare **Percorso collegamento** per visualizzare il percorso relat
 
 Per ulteriori dettagli, visualizzare [Proprietà contenuto](../user-guide/web-editor-right-panel.md#content-properties).
 
-
 ## Miglioramenti della revisione
 
 I seguenti miglioramenti alla funzione Revisione sono stati apportati come parte di questa versione:
 
-- È ora possibile abilitare **Promemoria automatici** per pianificare le notifiche di AEM e i promemoria e-mail per i revisori, sia prima della scadenza di un&#39;attività di revisione che dopo la scadenza. È possibile configurare più promemoria in ogni caso, con promemoria scaduti inviati in una sequenza definita e promemoria scaduti attivati dopo che l&#39;attività è stata contrassegnata come scaduta, in base alla pianificazione del promemoria configurata. Per informazioni dettagliate su come configurare i promemoria per le attività di revisione, visualizzare [Inviare uno o più argomenti per la revisione](../user-guide/review-manage-tasks-review-dashboard.md).
+- È ora possibile abilitare **Promemoria automatici** per pianificare le notifiche di AEM e i promemoria e-mail per i revisori, sia prima della scadenza di un&#39;attività di revisione che dopo la scadenza. È possibile configurare più promemoria in ogni caso, con promemoria scaduti inviati in una sequenza definita e promemoria scaduti attivati dopo che l&#39;attività è stata contrassegnata come scaduta, in base alla pianificazione del promemoria configurata. Per informazioni dettagliate su come configurare i promemoria per le attività di revisione, visualizzare [Inviare uno o più argomenti per la revisione](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
 
 - I revisori possono ora accedere alla cronologia delle versioni per gli argomenti in revisione, consentendo loro di visualizzare e confrontare le versioni precedentemente esaminate e aggiornate dello stesso argomento nelle attività di revisione precedenti. In questo modo i revisori possono convalidare le modifiche apportate dai cicli di revisione precedenti e mantenere la continuità esaminando commenti, etichette e altri dettagli correlati all&#39;interno del contesto di revisione corrente. Per ulteriori dettagli, visualizzare la cronologia delle versioni [per il revisore](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
