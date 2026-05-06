@@ -14,7 +14,7 @@ ht-degree: 20%
 
 Questo benchmark valuta le prestazioni delle nuove API Publishing per diversi predefiniti di output e per dimensioni di mappa crescenti in AEM Guides as a Cloud Service. L’obiettivo è comprendere il comportamento in termini di scalabilità e identificare i colli di bottiglia nelle prestazioni.
 
-Il servizio di pubblicazione utilizza un&#39;architettura [basata su microservizi](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) con scalabilità automatica che consente la gestione di carichi di lavoro di grandi dimensioni tramite pod aggiuntivi.
+Il servizio di pubblicazione utilizza un&#39;architettura [basata su microservizi](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) con scalabilità automatica che consente la gestione di carichi di lavoro di grandi dimensioni tramite pod aggiuntivi.
 
 ## Ambiente di esecuzione
 
