@@ -59,7 +59,7 @@ Se incolla un UUID valido direttamente nel campo Percorso collegamento, questo v
 
 1. Nel pannello a discesa **Attributo**, seleziona l&#39;attributo dall&#39;elenco a discesa e specifica il valore di un attributo.  Quindi seleziona **Aggiungi**.
 
-   ![pannello attributi con più attributi ](images/attributes-multiple-properties.png){width="300"}
+   ![pannello attributi con più attributi &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Per modificare l&#39;attributo, passa il puntatore su di esso e seleziona **Modifica** ![icona-modifica](images/edit_pencil_icon.svg).
 
@@ -187,4 +187,4 @@ Scopri come utilizzare i file Schematron in Experience Manager Guides. Fai rifer
 
 
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

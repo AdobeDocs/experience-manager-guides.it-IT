@@ -73,4 +73,4 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
 
 - **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](./config-editor-settings.md).
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

@@ -285,4 +285,4 @@ L&#39;icona **Cronologia versioni** dell&#39;argomento viene visualizzata dopo c
 
 ![](images/version-history-dialog.png)
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

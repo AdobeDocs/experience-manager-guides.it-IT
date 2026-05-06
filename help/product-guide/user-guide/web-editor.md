@@ -51,4 +51,4 @@ Il nuovo editor non supporta attualmente le seguenti funzionalità. Queste funzi
 Il vecchio editor di Experience Manager Guides offre un’esperienza di authoring semplice e affidabile per i contenuti strutturati, astrazione delle complessità di DITA e garanzia di conformità con gli standard supportati come DITA 1.2, 1.3, DITA leggero e DITA specializzato. Fornisce strumenti essenziali per lavorare con elementi in linea e blocchi comuni, rendendolo adatto per la creazione di contenuti coerente e controllata all’interno di un framework strutturato.
 
 
-**Argomento padre:**[ Creare contenuti con Experience Manager Guides](authoring-content-xml-doc.md)
+**Argomento padre:**&#x200B;[&#x200B; Creare contenuti con Experience Manager Guides](authoring-content-xml-doc.md)

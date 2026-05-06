@@ -79,4 +79,4 @@ Per eliminare un&#39;etichetta di versione da un argomento, utilizzare il pulsan
 ![](images/delete-labels.png){width="300"}
 
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

@@ -44,4 +44,4 @@ AEM Guides include un set predefinito di proprietà dei metadati nell’elenco d
 
 Solo le proprietà dei metadati non incluse nell&#39;elenco da ignorare vengono considerate per contrassegnare la versione di un documento come non valida.
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)

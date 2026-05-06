@@ -39,4 +39,4 @@ Per ulteriori informazioni sulle visualizzazioni dell&#39;editor disponibili per
 >
 > Se si sta lavorando su un file mappa, nell&#39;area di modifica del contenuto vengono visualizzate opzioni o viste diverse. Per ulteriori dettagli, visualizzare [le funzionalità dell&#39;editor di mappe](./map-editor-advanced-map-editor.md).
 
-**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
