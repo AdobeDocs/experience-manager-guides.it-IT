@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità della versione 2026.05.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2026.05.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Per ulteriori dettagli, visualizzare [Proprietà contenuto](../user-guide/web-ed
 
 I seguenti miglioramenti alla funzione Revisione sono stati apportati come parte di questa versione:
 
-- È ora possibile abilitare **Promemoria automatici** per pianificare le notifiche di AEM e i promemoria e-mail per i revisori, sia prima della scadenza di un&#39;attività di revisione che dopo la scadenza. È possibile configurare più promemoria in ogni caso, con promemoria scaduti inviati in una sequenza definita e promemoria scaduti attivati dopo che l&#39;attività è stata contrassegnata come scaduta, in base alla pianificazione del promemoria configurata. Per informazioni dettagliate su come configurare i promemoria per le attività di revisione, visualizzare [Inviare uno o più argomenti per la revisione](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
+- È ora possibile abilitare **Promemoria automatici** per pianificare le notifiche di AEM e i promemoria e-mail per i revisori, sia prima della scadenza di un&#39;attività di revisione che dopo la scadenza. È possibile configurare più promemoria in ogni caso, con promemoria scaduti inviati in una sequenza definita e promemoria scaduti attivati dopo che l&#39;attività è stata contrassegnata come scaduta, in base alla pianificazione del promemoria configurata. Per ulteriori dettagli, visualizzare [Invia argomenti per la revisione](../user-guide/review-send-topics-for-review.md).
 
 - I revisori possono ora accedere alla cronologia delle versioni per gli argomenti in revisione, consentendo loro di visualizzare e confrontare le versioni precedentemente esaminate e aggiornate dello stesso argomento nelle attività di revisione precedenti. In questo modo i revisori possono convalidare le modifiche apportate dai cicli di revisione precedenti e mantenere la continuità esaminando commenti, etichette e altri dettagli correlati all&#39;interno del contesto di revisione corrente. Per ulteriori dettagli, visualizzare la cronologia delle versioni [per il revisore](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
