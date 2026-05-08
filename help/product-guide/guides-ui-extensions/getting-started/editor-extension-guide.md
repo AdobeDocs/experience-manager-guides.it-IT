@@ -4,7 +4,7 @@ description: Scopri le modifiche apportate al framework dell’estensione per Ed
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -668,7 +668,7 @@ Le decorazioni sono identificate da una stringa `id` e possono quindi essere agg
   | `dropcursor` | `prosemirror-dropcursor` |
   | `markdown` | `prosemirror-markdown` |
 
-  **Esempio: creare un plugin per la decorazione dei nodi**
+  **Esempio: creare un plug-in di decorazione del nodo**
 
   ```js
   const myPluginKey = new guides.editor.prosemirror.state.PluginKey("myPlugin");
