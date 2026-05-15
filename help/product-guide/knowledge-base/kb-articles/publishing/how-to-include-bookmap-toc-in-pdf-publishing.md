@@ -110,7 +110,7 @@ Se si pubblica Ditamap, Native PDF offre la funzionalità per generare automatic
 <br>
 <br>
 
-Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per qualsiasi domanda.
+Pubblica sul [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=it) della community AEM Guides per qualsiasi domanda.
 
 
 

@@ -139,4 +139,4 @@ Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponib
 - Guida utente
 - Guida all’installazione e alla configurazione
 - Guida rapida
-- [Pagina di archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
+- [Pagina di archiviazione della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
