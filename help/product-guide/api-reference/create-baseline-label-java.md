@@ -6,9 +6,15 @@ feature: Java-Based API Baseline
 role: Developer
 level: Experienced
 TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 944
@@ -126,7 +132,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Una sessione JCR valida. |
 | `sourcePath` | Stringa | Percorso assoluto del file mappa DITA nell&#39;archivio AEM. |
 | ``baselineName`` | Stringa | Nome del nodo della linea di base a cui deve essere applicata l&#39;etichetta. Per ottenere il nome del nodo della linea di base, è possibile utilizzare il metodo [\#id185NFF0085Z](#id185NFF0085Z) o controllare il nodo delle linee di base della mappa DITA in CRXDE.<br> **Nota:** l&#39;etichetta viene applicata alla versione dei file a cui viene fatto riferimento direttamente dal file di mapping nella baseline. |
-| `label` | Stringa | Etichetta applicata ai file nella baseline. Verificare che l&#39;etichetta non contenga i seguenti caratteri: &amp;sol; &amp;virgola; &amp;colon; &amp;virgola; &amp;lbrack; &amp;virgola; &amp;rbrack; &amp;virgola; &amp;vert; &amp;virgola; &amp;ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2. |
+| `label` | Stringa | Etichetta applicata ai file nella baseline. Verificare che l&#39;etichetta non contenga i seguenti caratteri: &sol; &virgola; &colon; &virgola; &lbrack; &virgola; &rbrack; &virgola; &vert; &virgola; &ast; <br> Se si desidera impostare più etichette, separarle con una virgola, ad esempio Label1, Label2. |
 
 **Eccezione**:
 Genera `RepositoryException`.

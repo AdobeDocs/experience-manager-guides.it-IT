@@ -6,10 +6,16 @@ feature: InDesign File Conversion
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2865
@@ -21,7 +27,7 @@ ht-degree: 0%
 
 ## Preparare i file InDesign per la conversione {#id195DBF0045Z}
 
-InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1}&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
+InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1&rbrace;&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
 
 Anche se è possibile modificare il contenuto DITA in un ordine ragionevole in un editor DITA, è molto più semplice correggere il file InDesign prima di creare il file IDML. Questa operazione può essere eseguita senza modificare l&#39;aspetto del documento di origine. Ha anche il vantaggio di rendere accessibile il documento di origine definendo correttamente l&#39;ordine di lettura.
 
@@ -419,7 +425,7 @@ Elemento `mapDoctypeElemRule` obbligatorio. Gli attributi di questo elemento non
 
 **`elementRules`elemento** Elenca tutti gli elementi.
 
-**`elementRule`elemento** L&#39;elemento `elementRule` è obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1}&#39; non sia abilitata.***
+**`elementRule`elemento** L&#39;elemento `elementRule` è obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1&rbrace;&#39; non sia abilitata.***
 
 Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
@@ -458,7 +464,7 @@ Per controllare i riferimenti, esegui i seguenti passaggi utilizzando lo script 
 1. Esegui lo script di convalida \[`/bin/fmdita/validatebtree?operation=validate`\] per verificare se sono presenti nuovi riferimenti interrotti.
 1. Se lo script di convalida riporta errori, è possibile applicarvi la patch utilizzando lo script di patch.
 1. Registra i dettagli forniti di seguito e, se necessario, condividili con il team di successo del cliente:
-1. 
+1. &#x200B;
    - Registri stampati dallo script di convalida
 - Package di &quot;`/content/fmdita/references`&quot;
 - Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
@@ -472,7 +478,7 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
    ** Nota:* si consiglia di copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
-1. 
+1. &#x200B;
    - Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
 - Verifica che i riferimenti siano stati corretti
 

@@ -4,10 +4,18 @@ description: Scopri come visualizzare e utilizzare i suggerimenti avanzati basat
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
 TQID: https://experienceleague.adobe.com/p0LDFeQYUGtlz70GKMLxw87uQVv5lhr0wCEd29HwVfo
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: bf7fca06-df97-4229-884f-76afcfade5ad
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 687
@@ -30,18 +38,18 @@ Per visualizzare i suggerimenti avanzati per l’aggiunta di riferimenti di cont
 
 
 1. Seleziona il contenuto dell’argomento per visualizzare i suggerimenti correlati. Assicurati che la lunghezza del carattere del contenuto superi quella impostata dall’amministratore nel profilo della cartella per visualizzare i suggerimenti di contenuto.
-1. Dal pannello Assistente AI, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
+1. Dal pannello Assistente AI, seleziona **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Seleziona un tag per visualizzare i suggerimenti di authoring per il tag corrente.  I suggerimenti per visualizzare e aggiungere riferimenti al contenuto dai file indicizzati vengono visualizzati in base al contenuto nel tag corrente. È inoltre possibile selezionare più tag.
 
 
-1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile.
+1. Selezionare tutti i tag per visualizzare i suggerimenti in base al contenuto presente nel documento completo.  Accanto al contenuto in cui è stata trovata una corrispondenza appropriata viene visualizzata l&#39;icona ![&#128279;](./images/ai-suggest-reusable-content-icon.svg) di **Suggerisci contenuto riutilizzabile** ai suggerisci contenuto riutilizzabile.
 
 
 
    >[!NOTE]
    >
-   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg).
+   > Puoi visualizzare solo i suggerimenti per il riquadro di visualizzazione corrente (il contenuto visibile sullo schermo). Per visualizzare i suggerimenti per qualsiasi altro contenuto del documento, scorrere verso l&#39;alto o verso il basso per visualizzarlo nel riquadro di visualizzazione, quindi selezionare **Suggerisci contenuto riutilizzabile** ![ai icona Suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Puoi visualizzare i suggerimenti avanzati nel pannello dei suggerimenti.  Experience Manager Guides fornisce contenuti di suggerimento contestualmente simili o con lo stesso significato. Ad esempio, puoi cercare l’argomento che contiene il numero di versione esatto, come &quot;versione 2023.03.12 di&quot;. Puoi anche cercare &quot;Adobe ha la sede centrale a San Jose, California&quot; e trovare contenuti simili come &quot;San Jose ha la sede di molte aziende di software come Adobe&quot;.

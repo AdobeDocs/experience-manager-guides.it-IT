@@ -6,10 +6,15 @@ role: User
 hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
 TQID: https://experienceleague.adobe.com/ECHcQjwfY4veo70H3MRXO0C0F3Wx3-3X-vgVMnUC-3s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 393
@@ -36,4 +41,4 @@ Nella tabella seguente sono elencate le variabili supportate come predefinite:
 | `${system_time}` | Utilizza l’ora del server corrente per creare il percorso di destinazione. | **Nome file mappa DITA:** <br>`SampleDita.ditamap` <br> <br> **Percorso file mappa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Percorso di destinazione** configurato come: <br> `/content/output/sites/${system_time}`<br><br>**Percorso di output finale:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 È inoltre possibile utilizzare come variabili i metadati definiti per il file mappa DITA o mappa di un libro. I metadati si trovano nel nodo `/jcr:content/metadata` della mappa DITA o del file di mappa di libri. Ad esempio, una delle proprietà dei metadati definite nel nodo `/jcr:content/metadata` è `dc:title`. È possibile specificare `${dc:title}` e il valore del titolo viene utilizzato nell&#39;output finale.
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
