@@ -4,10 +4,16 @@ description: Versione di maggio di Adobe Experience Manager Guides as a Cloud Se
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CK1iVvjaK0Tvv7LPTETFoH4aQqwMVbjeNbGUxHSYT4k
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: 1895
+ht-degree: 4%
 
 ---
 
@@ -37,7 +43,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.5.0 | 2.6.9. | 2.6.9. |
+| 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
 
 
@@ -73,7 +79,7 @@ Il modello di mappa personalizzato può aiutarti a replicare molto facilmente i 
 
 ### Processo di traduzione migliorato
 
-* **Possibilità di creare un progetto di traduzione con ambito**
+* **Possibilità di creare un progetto di traduzione ambito**
 Se devi creare solo l&#39;ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione dell&#39;ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
 
 ![progetto di traduzione con ambito](assets/scoping-translation-project.png)
@@ -142,13 +148,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L’ossigeno estrae una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La linea di base non riuscita disattiva la modifica nella scheda Predefinito del dashboard delle mappe. (9403)
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
-* Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
-* L&#39;elemento Rename non funziona correttamente durante la conversione di topicref in glossref. 9380
+* Le nuove risorse DITA create vengono sempre estratte da un altro utente. (9387)
+* L&#39;elemento Rename non funziona correttamente durante la conversione di topicref in glossref. (9380)
 * L&#39;etichetta della versione non viene visualizzata come elenco a discesa nella finestra di dialogo **Salva come nuova versione**. (9379)
 * Le condizioni non vengono applicate quando si passa da una versione all&#39;altra del menu a discesa **Mostra differenze**. (9366)
 * Si verificano diversi problemi durante l’utilizzo dei filtri di anteprima. (9365)
-* Impossibile inserire risorse non DITA e DITAVAL nel riferimento argomento. 9363
-* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. 9357
+* Impossibile inserire risorse non DITA e DITAVAL nel riferimento argomento. (9363)
+* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. (9357)
 * Impossibile cercare i file utilizzando **Trova file nella cartella** dal menu **Altre opzioni** e l&#39;app non risponde. (9337)
 * La finestra di dialogo Sfoglia si blocca se è presente un numero elevato di tasti. (9332)
 * I file DITAVAL non funzionano durante la pubblicazione basata su articoli. (9330)
@@ -184,7 +190,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il ricaricamento non riesce in ossigeno quando i file esistono già in AEM nella stessa posizione. (9328)
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
 * Dopo il check-in di un documento da Oxygen ad AEM, il contenuto giapponese nel documento viene sostituito da punti interrogativi (???). (9276)
-* Il caricamento di file da Oxygen ad AEM non riesce. 9157
+* Il caricamento di file da Oxygen ad AEM non riesce. (9157)
 * La notifica e-mail non viene inviata quando un’attività di revisione viene riassegnata nella casella in entrata. (8376)
 
 ## Problemi noti

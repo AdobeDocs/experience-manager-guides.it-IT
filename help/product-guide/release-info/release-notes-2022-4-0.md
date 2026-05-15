@@ -4,10 +4,16 @@ description: Versione di aprile di Adobe Experience Manager Guides as a Cloud Se
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/v2bcZpcgnJ3lrXbl0O7fSxunkkO1OM239NhOzGp45ao
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: 810
+ht-degree: 3%
 
 ---
 
@@ -36,7 +42,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 
 | Versione di AEM Guides Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2.5.6. | 2.5.6. |
+| 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
 *Le condizioni di base e create in AEM sono supportate nelle versioni FMPS a partire dal 2020.2.
@@ -83,17 +89,17 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Impossibile modificare il titolo della baseline se una baseline viene creata in base ai criteri delle etichette. (9171)
 * Il processo di pubblicazione che utilizza una baseline si blocca in stato di &quot;attesa&quot; se lo stato della baseline diventa &quot;non riuscito&quot;. (9194)
 * La rimozione delle etichette sui riferimenti diretti comporta anche la rimozione delle etichette dai riferimenti indiretti. (9257)
-* La ricerca durante la digitazione causa richieste di ricerca indesiderate nella vista Archivio. 9307
+* La ricerca durante la digitazione causa richieste di ricerca indesiderate nella vista Archivio. (9307)
 * Si verificano dei problemi quando nel titolo della scheda viene utilizzata una parola chiave. (9318)
 * La linea di base non riesce quando si aggiunge un’etichetta con spazi. (9362)
 * L’output del sito AEM non visualizza correttamente l’elemento glossusage. (8936)
 * Si è verificato un errore di console all&#39;apertura della scheda **Output** nell&#39;editor Web. (8715)
 * Il messaggio di errore visualizzato quando si pubblica un tipo di record manuale tramite Salesforce non è intuitivo. (8952)
-* L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. 9300
+* L’impostazione Convalida con attributi condizione non viene aperta immediatamente, ma l’utente deve riaprire il file per visualizzare le convalide. (9300)
 * I metadati non possono essere rimossi dopo la pubblicazione di una mappa DITA con i metadati.  (9178)
 * Il pannello Traduzione è visibile anche all&#39;apertura della mappa DITA nell&#39;Editor mappa. (9053)
 * La DTD personalizzata definita dall&#39;utente non ha la precedenza sulla DTD DITA standard incorporata in DITA-OT. (9104)
-* Nella funzione PDF nativa, il caricamento nei modelli non riesce per i file non DITA e non di immagine. 9070
+* Nella funzione PDF nativa, il caricamento nei modelli non riesce per i file non DITA e non di immagine. (9070)
 * Il meccanismo di autorizzazione esegue due query invece di una, in alcuni scenari specializzati. (9221)
 * La pubblicazione dell&#39;output del sito AEM non riesce se si utilizza una DTD personalizzata. (9243)
 * La nota a piè di pagina &quot;usa per riferimento&quot; non scorre fino alla sezione della nota a piè di pagina nell’output del sito AEM. (9234)

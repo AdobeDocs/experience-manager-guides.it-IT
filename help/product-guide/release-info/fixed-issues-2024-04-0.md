@@ -1,11 +1,17 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2024.4.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2024.4.0
 description: Scopri le correzioni di bug nella versione 2024.04.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 35351d71-7739-4ad3-a063-67adf64906bf
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+TQID: https://experienceleague.adobe.com/cHKuFCElWbjxik0EHgoTrtlq2t3I62LQ5zUArzBoMqk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 3%
+source-wordcount: 577
+ht-degree: 8%
 
 ---
 
@@ -42,8 +48,8 @@ Scopri le [istruzioni di aggiornamento per la versione 2024.04.0](upgrade-instru
 - Nell’output JSON, i metadati della mappa o degli argomenti DITA non vengono propagati ai file di output JSON. (15713)
 - La pubblicazione nativa di PDF non riesce quando si rinomina il predefinito. (15662)
 - La proprietà **sourcePath** non è corretta nell&#39;output del sito AEM pubblicato. (15502)
-- La selezione e la personalizzazione delle variabili di lingua non funzionano correttamente nel predefinito di output di Native PDF. (15399)
-- La generazione di PDF nativi ha esito negativo quando si utilizza un modello con un foglio di stile o un layout di grandi dimensioni. (15344)
+- La selezione e la personalizzazione delle variabili di lingua non funzionano correttamente nel predefinito di output PDF nativo. (15399)
+- La generazione nativa di PDF ha esito negativo quando si utilizza un modello con un foglio di stile o un layout di grandi dimensioni. (15344)
 - Il rendering del contenuto nell&#39;output pubblicato non viene eseguito correttamente se `<conref>` viene utilizzato con un percorso assoluto.
 - La riduzione degli URL di AEM Sites non funziona a causa di conflitti tra `fmdita rewriter` e `ResourceResolver`. (14793)
 - Gli attributi **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;** e **chunk=&quot;to-content&quot;** vengono visualizzati nell&#39;output di AEM Sites in modo indipendente. (14442)
@@ -56,7 +62,7 @@ Scopri le [istruzioni di aggiornamento per la versione 2024.04.0](upgrade-instru
 - La creazione di una linea di base utilizzando l’API Java non funziona con la versione di giugno 2023 di Experience Manager Guides as a Cloud Service. (14787)
 - L&#39;API `/bin/fmdita/import` rimane bloccata nella richiesta in sospeso a tempo indefinito quando le risorse in caricamento superano i 500 MB. (14743)
 
-## Rivedi
+## Rivedere
 
 - L’eliminazione dei nodi di revisione impedisce l’apertura e la visualizzazione di commenti in Adobe Experience Manager Guides. (15366)
 - Nell&#39;editor Web, il pannello Revisione viene caricato lentamente. (14680)

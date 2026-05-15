@@ -4,10 +4,16 @@ description: Versione di agosto di Adobe Experience Manager Guides as a Cloud Se
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 0%
+source-wordcount: 1176
+ht-degree: 1%
 
 ---
 
@@ -37,7 +43,7 @@ In questa sezione è elencata la matrice di compatibilità per le applicazioni s
 
 | Versione di AEM Guides as a Cloud | Finestre del connettore dell&#39;ossigeno | Connettore di ossigeno Mac |
 | --- | --- | --- |
-| 2022.8.0 | 2.7.5. | 2.7.5. |
+| 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
 
 
@@ -97,9 +103,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il file Node.js aggiornato non viene utilizzato per la pubblicazione. (9835)
 * L&#39;argomento DITA non viene aggiornato automaticamente con le modifiche apportate nella pagina **Proprietà**. (8745)
 * L&#39;elemento Frontmatter aggiunto a una bookmap DITA non funziona correttamente. (9507)
-* PDF nativo | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando viene selezionato un elemento vuoto. (9822)
+* PDF nativo | Viene generato un PDF vuoto quando si utilizza **Generazione rapida** per più file quando si seleziona un elemento vuoto. (9822)
 * PDF nativo | L’appendice viene pubblicata come capitolo nell’output di PDF. (9829)
-* PDF nativo | Quando un’immagine SVG viene modificata, non viene visualizzata come aggiornata nel layout della pagina. 9069
+* PDF nativo | Quando si modifica un’immagine SVG, questa non viene visualizzata come aggiornata nel layout della pagina. (9069)
 * Quando si inserisce un carattere `Nonbreaking Hyphen` tramite la finestra di dialogo **Inserisci carattere speciale**, viene inserito un carattere trattino regolare. (8919)
 * XML Editor non mostra le immagini aggiornate negli argomenti se sono state modificate. (9500)
 * Durante la pubblicazione dell&#39;output tramite l&#39;editor, i predefiniti non possono essere eliminati dalla scheda **Output**. (9100)

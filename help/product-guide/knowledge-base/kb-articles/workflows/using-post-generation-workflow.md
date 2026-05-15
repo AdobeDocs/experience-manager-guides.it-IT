@@ -1,23 +1,29 @@
 ---
-title: Flusso di lavoro di generazione Post
+title: Flusso di lavoro di post-generazione
 description: Panoramica del flusso di lavoro di post-generazione con un esempio
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/GmpUvIwR5aDOIQ4RNUXoeOeQB3MrueRuxpvYBwYev4I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b455a250-64c4-4598-b015-7b6b6dc528b1id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
 
-# Pubblicazione AEM Guides - Flusso di lavoro di generazione Post
+# Pubblicazione AEM Guides - Flusso di lavoro di post-generazione
 
 AEM Guides offre la flessibilità di specificare un flusso di lavoro per la generazione post-output. Puoi eseguire alcune attività di post-elaborazione sull’output generato tramite AEM Guides.
-Ad esempio, potrebbe essere utile impostare alcune proprietà nell’output di PDF oppure inviare un messaggio e-mail a un set di utenti una volta generato l’output.
+Ad esempio, potrebbe essere utile impostare determinate proprietà nell’output di PDF oppure inviare un messaggio e-mail a un set di utenti una volta generato l’output.
 
 
-## Quali sono i passaggi necessari per utilizzare i flussi di lavoro di generazione Post
+## Quali sono i passaggi necessari per utilizzare i flussi di lavoro di post-generazione
 
 ### Creare un processo di workflow
 
@@ -33,14 +39,14 @@ Con il processo di flusso di lavoro personalizzato creato nel passaggio preceden
 
 Fai riferimento al modello di flusso di lavoro di esempio mostrato di seguito:
 
-![Modello flusso di lavoro generazione Post](../assets/workflows/pgwf-workflow-model.png)
+![Modello flusso di lavoro di post-generazione](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### Utilizza questo flusso di lavoro di post-generazione su una mappa
 
-Il flusso di lavoro di generazione Post è una proprietà che può essere configurata su qualsiasi predefinito di output nel meccanismo di pubblicazione di AEM Guides. Esempio:
+Il flusso di lavoro di post-generazione è una proprietà che può essere configurata su qualsiasi predefinito di output nel meccanismo di pubblicazione di AEM Guides. Esempio:
 
-![Flusso di lavoro di generazione Post nel predefinito di output](../assets/workflows/pgwf-preset-settings.png)
+![Flusso di lavoro di post-generazione nel predefinito di output](../assets/workflows/pgwf-preset-settings.png)
 
 
 Supponendo che il modello selezionato sia già stato creato.

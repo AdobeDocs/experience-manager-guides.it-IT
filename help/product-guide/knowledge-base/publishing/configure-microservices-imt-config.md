@@ -4,16 +4,21 @@ description: Scopri come configurare la pubblicazione basata su microservizi con
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # Configurare la pubblicazione basata su microservizi con autenticazione OAuth
 
-Il microservizio di pubblicazione consente di eseguire carichi di lavoro di pubblicazione di grandi dimensioni contemporaneamente su Experience Manager Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
+Il microservizio di pubblicazione consente di eseguire contemporaneamente carichi di lavoro di pubblicazione di grandi dimensioni su Experience Manager Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
 
 Per ogni richiesta di pubblicazione, Experience Manager Guides as a Cloud Service esegue un contenitore separato che viene ridimensionato orizzontalmente in base alle richieste dell’utente. In questo modo è possibile eseguire più richieste di pubblicazione e ottenere prestazioni migliori rispetto ai server Adobe Experience Manager on-premise di grandi dimensioni.
 
@@ -21,7 +26,7 @@ Per ogni richiesta di pubblicazione, Experience Manager Guides as a Cloud Servic
 >
 > La pubblicazione basata su microservizi in Experience Manager Guides supporta i tipi di predefiniti di output PDF (sia nativi che basati su DITA-OT), HTML5, JSON e CUSTOM.
 
-Poiché il servizio di pubblicazione cloud è protetto dall’autenticazione basata su Adobe IMS OAuth, effettua le seguenti operazioni per integrare i propri ambienti con i flussi di lavoro di autenticazione basata su token sicuri di Adobe e inizia a utilizzare la soluzione di pubblicazione scalabile basata su cloud.
+Poiché il servizio di pubblicazione cloud è protetto dall’autenticazione basata su Adobe IMS OAuth, effettua le seguenti operazioni per integrare i propri ambienti con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la soluzione di pubblicazione scalabile basata su cloud.
 
 
 ## Creare configurazioni IMS in Adobe Developer Console
@@ -40,7 +45,7 @@ Per creare configurazioni IMS in **Adobe Developer Console**, effettua le seguen
 
    <img src="assets/projects-tab.png" alt="scheda progetti" width="500">
 
-   *Selezionare la scheda **Progetti**&#x200B;in **Adobe Developer Console***
+   *Selezionare la scheda **Progetti**in **Adobe Developer Console***
 
 1. Per creare un nuovo progetto vuoto, seleziona **Progetto vuoto** dal menu a discesa **Crea nuovo progetto**.
 
@@ -86,7 +91,7 @@ Hai configurato i dettagli di autenticazione OAuth e scaricato i dettagli del se
 >
 >Se hai già creato un progetto OAuth per suggerimenti avanzati, puoi riutilizzare lo stesso progetto per i microservizi e saltare i passaggi seguenti per aggiungere la configurazione IMS all’ambiente.
 
-### Aggiorna configurazione esistente (JWT)   a OAuth shift )
+### Aggiorna configurazione esistente (JWT in spostamento OAuth )
 
 Se utilizzi già un microservizio per la pubblicazione tramite JWT (obsoleto), effettua le seguenti operazioni per aggiornare le configurazioni:
 
@@ -143,7 +148,7 @@ Al termine, puoi utilizzare la pubblicazione cloud basata su microservizi.
 ## Domande frequenti
 
 
-1. Se sono abilitate le configurazioni OSGi per l’utilizzo del microservizio, il processo di pubblicazione funzionerà sul server di Experience Manager locale con la stessa base di codice?
+1. Se sono abilitate le configurazioni OSGi per l’utilizzo del microservizio, il processo di pubblicazione funzionerà sul server Experience Manager locale con la stessa base di codice?
    * No, se il flag `dxml.use.publish.microservice` è impostato su `true`, cerca sempre le configurazioni dei microservizi. Imposta `dxml.use.publish.microservice` su `false` per consentire il funzionamento della pubblicazione sul server locale.
 1. Quanta memoria viene allocata al processo DITA quando si utilizza la pubblicazione basata su microservizi? È guidata dal profilo e dai parametri DITA?
    * Con la pubblicazione basata su microservizi, l’allocazione della memoria non viene guidata tramite il profilo e i parametri DITA. La memoria totale disponibile nel contenitore del servizio è di 8 GB, di cui 6 GB allocati al processo DITA-OT.
@@ -166,7 +171,7 @@ Al termine, puoi utilizzare la pubblicazione cloud basata su microservizi.
 
 **Contenuto**:
 * `dxml.use.publish.microservice`: passaggio per abilitare la pubblicazione basata su microservizi tramite DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: consente di abilitare la pubblicazione di PDF nativi basata su microservizi
+* `dxml.use.publish.microservice.native.pdf`: consente di abilitare la pubblicazione nativa di PDF basata su microservizi
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

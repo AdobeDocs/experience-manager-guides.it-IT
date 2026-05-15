@@ -3,9 +3,15 @@ title: Note sulla versione | Novità di Adobe Experience Manager Guides versione
 description: Scopri le funzioni nuove e migliorate della versione 2024.10.0 di Adobe Experience Manager Guides
 role: Leader
 exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -77,7 +83,7 @@ Se in un file si fa riferimento allo stesso argomento più di una volta, è poss
 
 ![Predefinito legacy di AEM Sites](assets/aem-sites-legacy.png)
 
-*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**&#x200B;del predefinito **AEM Sites**.*
+*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**del predefinito **AEM Sites**.*
 
 Ulteriori informazioni su [Predefiniti AEM Sites](../user-guide/generate-output-aem-site.md).
 

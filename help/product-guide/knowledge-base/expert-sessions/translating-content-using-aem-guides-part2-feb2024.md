@@ -2,9 +2,13 @@
 title: Tradurre il contenuto nelle guide - Parte 2
 description: Scopri come tradurre i contenuti in più lingue.
 exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/-YCZOrjFXDvZ7A3H7Eqf1nr6cC-g67CPNT0qYOGRVGA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: 217
 ht-degree: 1%
 
 ---
@@ -23,7 +27,7 @@ AEM Guides viene fornito con funzionalità potenti che consentono di tradurre i 
 - **Data** - 29 febbraio 2024
 - **Numero partecipanti** - 57
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti Adobi
+- **Pubblico** - Clienti, partner e dipendenti Adobe
 
 ## Elementi principali da ricordare
 
@@ -37,9 +41,9 @@ In questa sessione hai appreso quanto segue:
 
 ## Risorse correlate
 
-- **Documentazione** - [sull&#39;Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=it)
+- **Documentazione** - [su Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=it).
+- **Forum della community** - Per le interazioni della community specifiche della sessione su Experience League, visita [Forum di AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]

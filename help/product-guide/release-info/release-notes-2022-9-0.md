@@ -4,10 +4,16 @@ description: Versione di settembre di Adobe Experience Manager Guides as a Cloud
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 0%
+source-wordcount: 1300
+ht-degree: 3%
 
 ---
 
@@ -24,8 +30,8 @@ Aggiorna la configurazione corrente di Adobe Experience Manager Guides as a Clou
 
 Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizzare il nuovo testo Trova e sostituisci a livello di mappa:
 * Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexin`.
-(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate ||  Esempio:   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Ad esempio: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
@@ -95,34 +101,34 @@ Questi metadati sostituiscono i metadati definiti a livello di libro. Potete def
 Di seguito sono elencati i bug risolti in varie aree:
 
 * Editor web | Quando si spostano elementi all’interno di un argomento, gli ID assegnati sugli elementi vengono sovrascritti dagli ID assegnati automaticamente. (7895)
-* Rileva modifiche | Il contenuto viene perso quando viene inserito un nuovo elemento utilizzando il tasto Invio. (10246)
+* Rileva modifiche | Il contenuto viene perso quando si inserisce un nuovo elemento utilizzando il tasto Invio. (10246)
 * La mappa secondaria a cui fa riferimento la mappa principale nei modelli dita non viene creata. (10231)
-* Editor XML | La funzione di copia e incolla non funziona in modalità di creazione. (10309)
+* Editor XML | La funzione di copia e incolla non funziona in modalità di authoring. (10309)
 * Se sono selezionate più etichette di versione, queste non vengono deselezionate. (9561)
 * La navigazione automatica al percorso nella finestra di dialogo Sfoglia sito non funziona come la navigazione dei file. (9920)
 * Il pannello Struttura non visualizza il contenuto quando si passa dalla modalità **Autore** alla modalità **Source**. (10319)
 * Non è possibile confermare in un nuovo argomento creato utilizzando un contenuto nel modello di argomento. L’ID hash copiato non viene aggiornato nella copia del contenuto. (9890)
 * Web-Editor | Non esiste alcun caricatore durante la creazione di una mappa dal modello di mappa. (9891)
 * Nuovo editor mappa | Il testo in grassetto o corsivo aggiunto nel titolo della mappa non viene mantenuto se si passa dalla visualizzazione **Autore** alla visualizzazione **Layout**. (10218)
-* Nuovo editor mappa | Le condizioni applicate a qualsiasi riferimento non possono essere rimosse dalla vista Layout. (10213)
+* Nuovo editor mappa | Le condizioni applicate su qualsiasi riferimento non possono essere rimosse dalla vista Layout. (10213)
 * Nuovo editor mappa | L’applicazione di riferimenti a condizioni non funziona nella vista Layout, come nella vista Author. (10198)
 * Nuovo editor mappa | Sposta a sinistra dal menu di scelta rapida rimuove il riferimento se non può essere spostato a sinistra. (10219)
 * Nuovo editor mappa |L’icona non viene visualizzata correttamente per i riferimenti in una mappa creata con la vista Layout. (10197)
-* Pannello archivio | Se si fa clic con il pulsante destro del mouse nel pannello dell’archivio, viene generato un errore dell’applicazione. (10123)
+* Pannello archivio | Fare clic con il pulsante destro del mouse nel pannello dell’archivio per visualizzare un errore dell’applicazione. (10123)
 * Trova e sostituisci | La modalità scura non è leggibile per i risultati di ricerca nell’editor web. (9978)
 * Traduzione | I metadati e i tag non vengono propagati alle copie tradotte. (4696)
 * Quando si copia e incolla un contenuto (ctrl+c/ctrl+v) viene generato un errore in modalità di creazione. (10304)
-* Modello PDF | L&#39;aggiunta di immagini di sfondo a qualsiasi layout di pagina visualizza il Percorso immagine assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
-* PDF nativo | Il titolo e l’intestazione del capitolo non funzionano in PDF publishing. (9947)
+* Modello PDF | L&#39;aggiunta di immagini di sfondo a qualsiasi layout di pagina mostra il Percorso immagine assoluto e le immagini non vengono visualizzate nel PDF di output. (10297)
+* PDF nativo | Il titolo del capitolo e l’intestazione del capitolo non funzionano nella pubblicazione PDF. (9947)
 * PDF nativo | `xref` per un concetto non è risolto correttamente per un argomento DITA specifico. (10229)
-* PDF nativo | Impossibile visualizzare il testo della didascalia per una tabella nell’output PDF generato. (9827)
+* PDF nativo | Impossibile visualizzare il testo della didascalia per una tabella nell&#39;output PDF generato. (9827)
 * PDF nativo | I riferimenti nelle appendici non vengono visualizzati come appendici nell’output di PDF. (10182)
-* PDF nativo | L&#39;attributo di frame per una tabella non viene propagato al HTML temporaneo (come classe). (10353)
+* PDF nativo | L&#39;attributo frame di una tabella non viene propagato al HTML temporaneo (come classe). (10353)
 * PDF nativo | i file HTML temporanei aggiungono le classi colsep e rowsep a td e th anche se il loro valore è 0 nel DITA di origine. (10352)
-* PDF nativo |  I metadati per il dato aggiunto nel layout di pagina non vengono rispettati. (10377)
-* PDF nativo |  La generazione di PDF non riesce per contenuti specifici. (9927)
+* PDF nativo | I metadati per i criteri aggiunti nel layout di pagina non vengono rispettati. (10377)
+* PDF nativo | La generazione di PDF non riesce per contenuti specifici. (9927)
 * PDF nativo | Il contenuto tramite conkeyref non viene visualizzato nell’output PDF. (9836)
-* PDF nativo | I riferimenti a tasti per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
+* PDF nativo | I riferimenti chiave per i tasti con immagini o collegamenti esterni non vengono risolti. (10063)
 * Nella vista Creazione di una mappa non viene visualizzato il testo segnaposto per l&#39;elenco tabelle e l&#39;elenco figure. (10330)
 * Quando si crea una nuova baseline, il filtro già selezionato non viene applicato. (9954)
 * File video mancante dalla linea di base se il nome della cartella principale contiene uno spazio. 10031)

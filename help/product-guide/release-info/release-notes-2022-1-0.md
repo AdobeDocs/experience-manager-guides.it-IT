@@ -4,10 +4,16 @@ description: Versione di gennaio di  [!DNL Adobe Experience Manager Guides] as a
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: 2463
+ht-degree: 3%
 
 ---
 
@@ -173,9 +179,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L’aspetto predefinito di uicontrol nella menucascata non è corretto. (5483)
 * I modelli personalizzati per Argomento/Mappa non mostrano il nuovo nome nell’interfaccia utente. Il nome viene visualizzato come &quot;Topic&quot;/&quot;Map&quot; (Argomento/Mappa) invece del nome configurato. (4958)
 * Possibilità di cancellare la rootmap dalle impostazioni delle preferenze utente. (8534)
-* Una raccolta di mappe appena creata non viene elencata, anche dopo l’aggiornamento della pagina.(8603)
+* Una raccolta di mappe appena creata non viene elencata, anche dopo l&#39;aggiornamento della pagina.(8603)
 * Impossibile chiudere l&#39;argomento sbloccato. (8545)
-* Il passaggio tra la modalità di origine e la modalità di modifica contrassegna l’argomento come sporco e richiede che il contenuto venga salvato nuovamente.(8524)
+* Il passaggio tra la modalità di origine e la modalità di creazione contrassegna l’argomento come sporco e richiede che il contenuto venga salvato nuovamente.(8524)
 * Il riutilizzo del pannello del contenuto si blocca durante la ricerca di caratteri speciali `[` o `*`.(8279)
 * Il cursore non viene visualizzato nella barra di ricerca quando si apre la finestra di dialogo Inserisci elemento utilizzando la scelta rapida da tastiera Alt+Invio.(7912)
 * L’opzione di ricerca cerca solo nei nomi dei file e non nel contenuto. (7784)
@@ -195,7 +201,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Dashboard mappa
 
 * Impossibile visualizzare il contenuto di riferimento nel titolo di un argomento nella scheda degli argomenti o dei rapporti della dashboard delle mappe. (8263)
-* L&#39;output AEM Sites | jcr:title della pagina del sito generata non viene aggiornato quando viene aggiornato il titolo dell&#39;argomento DITA. (8131)
+* Output AEM Sites | jcr:title della pagina del sito generata non viene aggiornato quando viene aggiornato il titolo dell&#39;argomento DITA. (8131)
 * Il download di MAP non scarica i file video utilizzati negli argomenti. (8070)
 * I file multimediali non vengono scaricati quando il tag dell’oggetto viene utilizzato tramite l’API di scaricamento della mappa dei libri. (8057)
 * Nella scheda Rapporti viene visualizzato un rapporto errato se un argomento contiene conref to file il cui titolo inizia con conref. (4698)
@@ -210,7 +216,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * L&#39;argomento di pubblicazione con l&#39;elemento `<tm>` con valore di proprietà SM o reg non viene visualizzato correttamente nell&#39;output generato. (7239)
 * Per la pubblicazione della linea di base con l’immagine non viene selezionata la versione più recente dell’immagine nell’output pubblicato. (7231)
 * Gli argomenti di riferimento relativi vengono visualizzati nella scheda della linea di base. (5424)
-* La pubblicazione incrementale per un argomento il cui titolo contiene conkeyref non funziona come previsto. 4474
+* La pubblicazione incrementale per un argomento il cui titolo contiene conkeyref non funziona come previsto. (4474)
 * Il titolo della pagina non viene utilizzato per la generazione dell’URL di output anche se questa impostazione è selezionata. (8257)
 * Pubblicazione della linea di base con selezione della versione corrente delle immagini anziché del nodo bloccato. Questo viene visualizzato anche se il nome di un file contiene spazio o caratteri speciali. (8274, 8322)
 * La pubblicazione incrementale non riesce per la mappa DITA con lo schema del tipo soggetto con mapref. (8218)
@@ -234,9 +240,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Importazione dei contenuti
 
-* Conversione da HTML a DITA | La tabella con &#39;tr&#39; con voci &#39;td&#39; vuote causa l&#39;aggiunta di righe nell&#39;output. (8132)
-* Conversione da HTML a DITA | Una tabella con più tbody in HTML non riesce, ad eccezione di. (7940)
-* Conversione da HTML a DITA | si verifica un errore se il HTML di origine contiene commenti. (7937)
+* Conversione da HTML a DITA | La tabella con &quot;tr&quot; con voci &quot;td&quot; vuote causa l’aggiunta di righe nell’output. (8132)
+* Conversione da HTML a DITA | Un HTML con una tabella con più tbody non riesce, ad eccezione di. (7940)
+* Conversione da HTML a DITA | errori in caso di commenti nel HTML di origine. (7937)
 * L&#39;importazione di file DITA 1.3 causa la trasformazione di alcuni href in collegamenti non corretti. (8019)
 
 ## Problemi noti

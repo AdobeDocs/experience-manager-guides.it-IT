@@ -1,13 +1,19 @@
 ---
 title: Propagare i metadati di AEM Assets all’output generato dal plug-in DITA-OT
 description: Configurazione del plug-in DITA-OT e del contenuto in AEM per inviare i metadati all’output generato
-source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
+exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
+TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 971
 ht-degree: 0%
 
 ---
-
 
 # Propagare i metadati di AEM Assets all’output generato dal plug-in DITA-OT
 
@@ -19,15 +25,15 @@ Ad alto livello, di seguito sono riportati i passaggi che imparerai in questo ar
 - Implementazione nel plug-in DITA-OT per leggere questo _metadata.xml_ e utilizzare le proprietà disponibili nell&#39;output generato
 - Controllo dell’output generato per visualizzare i metadati propagati
 
-## Informazioni di base
+## Esperienza pregressa
 
 Con AEM Guides, puoi utilizzare i plug-in DITA-OT per pubblicare nei formati di output scelti utilizzando i plug-in configurati e
-è inoltre possibile passare i metadati delle risorse gestite in AEM DAM al processo DITA-OT per utilizzarli nell&#39;output generato. Vedere la documentazione in [configurazione di ditamap/topic per la trasmissione dei metadati tramite il predefinito di output](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+puoi anche passare i metadati delle risorse gestite in AEM DAM al processo DITA-OT per utilizzarli nell&#39;output generato. Consulta la documentazione su [come impostare ditamap/topic per passare i metadati attraverso il predefinito di output](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Presupposti
 
-Hai una configurazione AEM con AEM Guides versione 4.4.0/2024.6 o superiore
+Disponi di una configurazione di AEM con AEM Guides versione 4.4.0/2024.6 o superiore
 Conoscere in precedenza il funzionamento di DITA-OT e la relativa struttura di directory
 
 
@@ -35,7 +41,7 @@ Conoscere in precedenza il funzionamento di DITA-OT e la relativa struttura di d
 
 ### Impostazione dei metadati sulla risorsa
 
-Con lo schema metadati di AEM Assets puoi creare campi di proprietà personalizzati per Assets nell’AEM e gli utenti possono assegnare metadati alle risorse. Prendi un esempio di una risorsa _topic_ in cui è possibile impostare un metadati denominato _customprop_ per un esempio. Fai riferimento alla schermata seguente:
+Con lo schema metadati di AEM Assets puoi creare campi di proprietà personalizzati per Assets in AEM e gli utenti possono assegnare metadati alle risorse. Prendi un esempio di una risorsa _topic_ in cui è possibile impostare un metadati denominato _customprop_ per un esempio. Fai riferimento alla schermata seguente:
 
 ![Impostare le proprietà nell&#39;editor metadati per una risorsa](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
 
@@ -43,11 +49,11 @@ Con lo schema metadati di AEM Assets puoi creare campi di proprietà personalizz
 ### Configurazione dei metadati nel predefinito di output ditamap da passare a DITA-OT
 
 Configurate il predefinito di output desiderato sulla mappa per esportare i metadati e passare a DITA-OT
-Supponiamo di generare l&#39;output di HTML5 utilizzando un plug-in DITA-OT, ad esempio _adobe.html_.
+Supponiamo che stiamo generando output HTML5 utilizzando un plug-in DITA-OT, ad esempio _adobe.html_.
 Vedi la schermata seguente per capire come configurare il predefinito di output per una mappa per passare metadati al plug-in DITA-OT.
-1. Apri una mappa e passa alla scheda _Output_ per questa mappa, apri il predefinito di HTML5 e fai clic sulla scheda _Avanzate_, in questo set il nome della trasformazione è _adobe.html_ (questo è il plug-in che configureremo e utilizzeremo, ad esempio, puoi definire anche il plug-in personalizzato)
+1. Apri una mappa e passa alla scheda _Output_ per questa mappa e apri il predefinito HTML5, quindi fai clic sulla scheda _Avanzate_ per impostare il nome della trasformazione come _adobe.html_ (questo è il plug-in che configureremo e utilizzeremo per il nostro esempio, puoi definire anche il plug-in personalizzato)
 2. Impostare _Mantieni file temporanei_ per scaricare i file temporanei e verificare il formato del file metadata.xml. È possibile utilizzarlo per lo sviluppo
-3. Selezionare le proprietà dei metadati da passare a DITA-OT tramite metadata.xml. In questo esempio diciamo che vogliamo passare _dc:title_ e _customprop_
+3. Selezionare le proprietà dei metadati da passare a DITA-OT tramite metadata.xml. In questo esempio si può dire che si desidera passare _dc:title_ e _customprop_
 4. Salva il predefinito e genera l’output
 5. Scarica il file temporaneo utilizzando il pulsante visualizzato sul predefinito
 
@@ -166,10 +172,10 @@ Quando il comando precedente viene eseguito, è possibile controllare l&#39;outp
 
 ### Distribuzione
 
-Dopo aver sviluppato il plug-in DITA-OT, è possibile integrarlo in DITA-OT utilizzando il comando _dita —install_ nella directory DITA-OT e distribuirlo al server AEM [fare riferimento a questo articolo per ulteriori dettagli](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=it)
+Dopo aver sviluppato il plug-in DITA-OT, è possibile integrarlo in DITA-OT utilizzando il comando _dita —install_ nella directory DITA-OT e distribuirlo al server AEM [fare riferimento a questo articolo per ulteriori dettagli](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
 
 
-## Riferimenti
+## Risorse
 
 1. File temporanei di esempio scaricati da ditamap di esempio - [scarica utilizzando questo collegamento](../../assets/publishing/sample-temp-html5-adobe.html-content.zip)
 2. Plug-in DITA-OT con implementazione [download illustrata in precedenza tramite questo collegamento](../../assets/publishing/sample-custom-plugin-com.adobe.html.zip)

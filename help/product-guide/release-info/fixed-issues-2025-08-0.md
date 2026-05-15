@@ -1,10 +1,16 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 2025.08.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2025.08.0
 description: Scopri le correzioni di bug nella versione 2025.08.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5abe5c153d8cedc7b555d6ca82709557cc38d28f
+exl-id: 05fe0e2c-ec65-4aec-a543-9b9a75c82f2c
+TQID: https://experienceleague.adobe.com/7J25vfpTwwPyT3-qNF6-LLbPra8EePs5XaKqkAjEk5I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 3%
+source-wordcount: 713
+ht-degree: 6%
 
 ---
 
@@ -29,7 +35,7 @@ Scopri le [istruzioni di aggiornamento per la versione 2025.08.0](upgrade-instru
 
 ## Gestione risorse
 
-- Copiare una cartella con un numero elevato di risorse dall’interfaccia utente di Assets causa un timeout API. L’operazione continua a essere eseguita nel backend e viene completata dopo un certo periodo di tempo, ma nell’interfaccia utente non viene visualizzato alcun messaggio di esito positivo o negativo o di notifica. (GUIDES-30900)
+- Copiare una cartella con un numero elevato di risorse dall’interfaccia utente di Assets causa un timeout API. L&#39;operazione continua a essere eseguita nel backend e viene completata dopo un certo periodo di tempo, ma nell&#39;interfaccia utente non viene visualizzato alcun messaggio di esito positivo o negativo o di notifica. (GUIDES-30900)
 - L’operazione di copia e incolla eseguita su una cartella nell’interfaccia utente di Assets non riesce a causa di errori di post-elaborazione. (GUIDES-30840)
 - L’operazione di copia e incolla non riesce per le cartelle contenenti risorse composte (risorse con risorse secondarie) nell’interfaccia utente di Assets. (28107)
 - Le cartelle con un numero elevato di risorse non vengono caricate correttamente nel repository. (GUIDES-32500)
@@ -57,6 +63,3 @@ Adobe ha identificato i seguenti problemi noti per la versione 2025.08.0:
 - Quando un file aperto nell&#39;editor viene rinominato o spostato, il passaggio tra le modalità (ad esempio **Autore**, **Anteprima** e altre) aggiorna il contenuto nell&#39;area di modifica ma non evidenzia visivamente la modalità attiva nell&#39;angolo in basso a destra. (GUIDES-32719) <br> **Soluzione**: aggiorna la pagina per risolvere il problema.
 - Le immagini con spazi nei nomi dei file non vengono visualizzate nell’output quando vengono contrassegnate utilizzando gli attributi condizionali. (GUIDES-33858)
 - Nel pannello **Proprietà contenuto**, il campo Attributi si chiude automaticamente quando si tenta di aggiornare un riferimento dalla finestra di dialogo **Aggiorna collegamento**, impedendo l&#39;aggiornamento del collegamento. (GUIDES-17767)
-
-
-

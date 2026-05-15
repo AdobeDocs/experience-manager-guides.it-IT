@@ -2,9 +2,15 @@
 title: Rimuovi l’opzione Elimina dal menu di scelta rapida dei file nell’editor web per utenti specifici
 description: Scopri come personalizzare l’editor web rimuovendo l’opzione Elimina dal menu di scelta rapida dei file per utenti/gruppi specifici
 exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/dzbMsXUoEibR5QxKB-Z-h4qGnQaX2NmIYLTtxVJHE-A
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ Ora vediamo come nascondere l’opzione &quot;Elimina&quot; per questo utente.
 - Scegliere il gruppo o l&#39;utente dalla casella di ricerca.
 - Fai clic su &quot;Aggiungi ACE&quot; dall’angolo in alto a destra.
 - Scegli il percorso della cartella.
-- Includi i privilegi &quot;jcr:removeChildNodes&quot; e &quot;jcr:removeNode&quot;.
+- Includere i privilegi &quot;jcr:removeChildNodes&quot; e &quot;jcr:removeNode&quot;.
 - Scegli &quot;Tipo di autorizzazione&quot; come &quot;Nega&quot; e fai clic su &quot;Aggiungi&quot; come mostrato di seguito.
 
 ![Autorizzazione utente negata ACE](../../../assets/authoring/permission-ACE-Delete.png)
@@ -34,7 +40,7 @@ Ora vediamo come nascondere l’opzione &quot;Elimina&quot; per questo utente.
 
 ### Test
 
-- Accedi all’AEM come utente per il quale sono stati aggiunti gli ACE.
+- Accedi ad AEM come utente per il quale sono stati aggiunti gli ACE.
 - Apri l’editor web.
 - Passare alla visualizzazione del repository e scegliere la cartella per la quale sono stati aggiunti gli ACE.
 - Aprire il menu di scelta rapida dei file.

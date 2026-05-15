@@ -4,16 +4,21 @@ description: Versione di febbraio di Adobe Experience Manager Guides as a Cloud 
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
 
 # Novità della versione di febbraio 2023 di Adobe Experience Manager Guides as a Cloud Service
 
-Questo articolo descrive le funzioni nuove e migliorate nella versione di febbraio 2023 di Adobe Experience Manager Guides (in seguito denominato *AEM Guides as a Cloud Service*).
+Questo articolo descrive le funzioni nuove e migliorate della versione di febbraio 2023 di Adobe Experience Manager Guides (in seguito denominato *AEM Guides as a Cloud Service*).
 
 Per ulteriori dettagli sulle istruzioni di aggiornamento, sulla matrice di compatibilità e sui problemi risolti in questa versione, consulta l&#39;articolo [Note sulla versione](release-notes-2023-2-0.md).
 
@@ -43,7 +48,7 @@ Scheda **Rapporti** nell&#39;editor Web.
 
 ## UX rinnovata per la funzionalità di revisione
 
-Ora le guide AEM forniscono un’interfaccia utente migliorata che consente di rivedere gli argomenti condivisi per la revisione. Nell’esperienza più recente, la funzionalità di revisione presenta i seguenti miglioramenti:
+Ora le guide di AEM forniscono un’interfaccia utente migliorata che consente di rivedere gli argomenti condivisi per la revisione. Nell’esperienza più recente, la funzionalità di revisione presenta i seguenti miglioramenti:
 
 * Interfaccia utente aggiornata
 * Pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell’argomento
@@ -122,26 +127,26 @@ Ora AEM Guides ti consente di scegliere l&#39;opzione **Usa titolo nell&#39;edit
 
 ## Pubblicazione basata su microservizi per AEM Guides as a Cloud Service
 
-Il nuovo microservizio di pubblicazione consente di eseguire carichi di lavoro di pubblicazione di grandi dimensioni simultaneamente su AEM Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
+Il nuovo microservizio di pubblicazione consente di eseguire contemporaneamente carichi di lavoro di pubblicazione di grandi dimensioni su AEM Guides as a Cloud Service e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
 
 Per ogni richiesta di pubblicazione, AEM Guides as a Cloud Service esegue un contenitore separato che viene ridimensionato orizzontalmente in base alle richieste dell’utente. In questo modo è possibile eseguire più richieste di pubblicazione e ottenere prestazioni migliori.
 
-Per ulteriori dettagli, consulta [Configurare la nuova pubblicazione basata su microservizi per AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+Per ulteriori dettagli, vedere [Configurare la nuova pubblicazione basata su microservizi per AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## Native PDF | Aggiungere un segnalibro personalizzato nell’output di PDF
+## PDF nativo | Aggiungi un segnalibro personalizzato nell’output di PDF
 
-Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output PDF finale per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
+Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output finale di PDF per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
 
-## Native PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
+## PDF nativo | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 
-AEM Guides fornisce la funzione di applicare uno stile personalizzato alle voci del sommario o a un particolare argomento nell’output PDF. È ad esempio possibile modificare il colore del testo nel sommario e nel titolo dell&#39;argomento. È inoltre possibile applicare stili all&#39;intero contenuto dell&#39;argomento.
+AEM Guides fornisce la funzione di applicare uno stile personalizzato alle voci del sommario o a un particolare argomento nell’output di PDF. È ad esempio possibile modificare il colore del testo nel sommario e nel titolo dell&#39;argomento. È inoltre possibile applicare stili all&#39;intero contenuto dell&#39;argomento.
 
 
-## Native PDF | Personalizzare lo stile del marcatore pagina nel componente Nota a piè di pagina
+## PDF nativo | Personalizza lo stile del marcatore pagina nel componente Nota a piè di pagina
 
 Ora è possibile applicare uno stile al marcatore di pagina nelle note a piè di pagina. Ad esempio, è possibile aggiungere parentesi quadre o modificarne il colore. Questi stili consentono agli utenti di identificare facilmente gli indicatori di pagina nel documento.
 
-## Native PDF | Barra delle modifiche per indicare gli argomenti modificati nel sommario
+## PDF nativo | Barra delle modifiche per indicare gli argomenti modificati nel sommario
 
 AEM Guides ora consente di identificare rapidamente gli argomenti modificati nel sommario dell’output PDF.  Viene visualizzata una barra di modifica a sinistra degli argomenti modificati nel sommario. Puoi fare clic sull’argomento nel sommario e visualizzare le modifiche dettagliate.
 

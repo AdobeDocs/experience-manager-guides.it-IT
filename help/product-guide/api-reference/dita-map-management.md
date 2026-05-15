@@ -5,9 +5,14 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 1843cae11aac38053abc3c50fa2d00c050520470
+TQID: https://experienceleague.adobe.com/GT4JRw1nFV7M18tJX-0t0Gx-g0I9tA8XfXLGnnhvif0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: b7cb7f25-3b6d-4e58-beab-fe9279275fe4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: 626
 ht-degree: 4%
 
 ---
@@ -18,7 +23,7 @@ La seguente API REST consente di lavorare con le mappe DITA in AEM Guides.
 
 ## Scarica mappa DITA con dipendenti
 
-Metodo di GET che scarica una mappa DITA con tutti i relativi dipendenti, ad esempio gli argomenti di riferimento, le mappe secondarie, le immagini e le DTD utilizzate nella mappa e negli argomenti.
+Metodo GET che scarica una mappa DITA con tutti i relativi dipendenti, ad esempio gli argomenti di riferimento, le mappe secondarie, le immagini e le DTD utilizzate nella mappa e negli argomenti.
 
 **URL richiesta**:
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/exportditamap
@@ -35,7 +40,7 @@ Un file .zip il cui contenuto viene scritto nel flusso di output della risposta.
 
 ## Avvia esportazione per mappa DITA con dipendenti
 
-Metodo POST che avvia un&#39;esportazione per una mappa DITA con tutti i relativi dipendenti, ad esempio argomenti di riferimento, mappe secondarie, immagini e DTD utilizzati nella mappa e negli argomenti. Successivamente è possibile interrogare lo stato e recuperare l’URL di download al termine dell’operazione.
+Metodo POST che avvia un&#39;esportazione per una mappa DITA con tutti i relativi dipendenti, ad esempio gli argomenti di riferimento, le mappe secondarie, le immagini e le DTD utilizzate nella mappa e negli argomenti. Successivamente è possibile interrogare lo stato e recuperare l’URL di download al termine dell’operazione.
 
 **URL richiesta**:
 http:*//&lt;server-guide-aem\>: &lt;numero-porta\>/bin/dxml/async-export*

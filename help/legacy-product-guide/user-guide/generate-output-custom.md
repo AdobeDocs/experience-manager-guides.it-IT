@@ -1,24 +1,30 @@
 ---
 title: Personalizzato
-description: Learn how to create custom preset from the web editor and map dashboard. Configure a custom output preset in AEM Guides.
+description: Scopri come creare un predefinito personalizzato dall’editor web e dal dashboard delle mappe. Configura un predefinito di output personalizzato in AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: b96e6599-f8f3-491a-8b8f-fcb1e0f58aae
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/6cM2mNUBC3qwN0f0Kx9VkT4Xpy2pBfXdOeooDrhqYE4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: 995
 ht-degree: 1%
 
 ---
 
 # Personalizzato {#id205BEF00PX0}
 
-The Custom output presets are available for custom DITA-OT plug-ins. You can create a custom DITA-OT output preset to publish output using your custom DITA-OT plug-in.
+I predefiniti di output personalizzati sono disponibili per i plug-in DITA-OT personalizzati. È possibile creare un predefinito di output DITA-OT personalizzato per pubblicare l&#39;output utilizzando il plug-in DITA-OT personalizzato.
 
-You can create the Custom preset in two ways:
+Il predefinito personalizzato può essere creato in due modi:
 
-**From the Web Editor:** In the Repository panel, open the DITA map file in Map View, then in the Output tab, select the + icon to create an output preset, and then select Custom from the type drop-down in the Add preset dialog.
+**Dall&#39;editor Web:** Nel pannello Archivio aprire il file di mappa DITA in visualizzazione mappa, quindi nella scheda Output selezionare l&#39;icona + per creare un predefinito di output e selezionare Personalizzato dall&#39;elenco a discesa Tipo nella finestra di dialogo Aggiungi predefinito.
 
 Nell’editor web le configurazioni sono organizzate nelle schede Generali e Avanzate:
 
@@ -41,17 +47,17 @@ La scheda Avanzate contiene le seguenti configurazioni:
 - Mantieni file temporanei
 - Proprietà file
 
-For details, refer to [Custom configuration](#id231KJA00REJ).
+Per ulteriori informazioni, vedere [Configurazione personalizzata](#id231KJA00REJ).
 
 **Dal dashboard delle mappe**
 
 Per aprire i predefiniti di output per PDF, fate clic su un file di mappa DITA dall&#39;interfaccia utente di Assets, quindi fate clic su Predefiniti di output e infine sull&#39;opzione HTML5. Nel dashboard Mappa, fai clic su **Modifica** in alto per aggiornare le varie configurazioni, quindi fai clic su **Salva**.
 
-**Custom configuration**
+**Configurazione personalizzata**
 
-The following options are available for the Custom output preset:
+Per il predefinito di output Personalizzato sono disponibili le seguenti opzioni:
 
-| Custom output options | Descrizione |
+| Opzioni di output personalizzate | Descrizione |
 | --- | --- |
 | Tipo di output | Tipo di output che si desidera generare. Per generare l&#39;output utilizzando il plug-in DITA-OT personalizzato, scegliete l&#39;opzione Personalizzato. |
 | Nome impostazione | Assegna un nome descrittivo alle impostazioni di output che stai creando. Ad esempio, puoi specificare _Output clienti interni_ o _Output utenti finali_. |
@@ -65,4 +71,4 @@ The following options are available for the Custom output preset:
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Per ulteriori dettagli, vedere [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF). |
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: è inoltre possibile passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, vedere [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

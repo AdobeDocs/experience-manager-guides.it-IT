@@ -1,12 +1,18 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides versione 4.4.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides versione 4.4.0
 description: Scopri le correzioni di bug nella versione 4.4.0 di Adobe Experience Manager Guides
 role: Leader
 exl-id: ff3083d3-062b-4a79-875f-86991978a18e
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/0mdTs2Pg1Zos-Y-jMaYUEasFRhyF2kzl6Sz8MBisJ5Q
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: 1439
+ht-degree: 5%
 
 ---
 
@@ -27,7 +33,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 - Nell’editor web, la funzione di download mappa non attiva una notifica pop-up quando è pronto per il download. (14626)
 - Nell&#39;editor Web, la funzionalità di download mappa non consente di scaricare una mappa con linea di base. (14622)
 - Errore DTD non valido in Experience Manager Guides. (14482)
-- Il titolo nella scheda Editor Web viene troncato dopo un punto (.) aggiuntivo. (14372)
+- Il titolo nella scheda Editor Web viene troncato dopo un punto (.) carattere. (14372)
 - La messaggistica degli errori per i nomi di mappe duplicati nell’interfaccia utente di Assets non viene aggiornata. (14320)
 - Si verifica un errore nella logica di creazione della versione durante il trascinamento della selezione delle risorse. (14291)
 - Il contenuto riutilizzabile ignora gli ID degli elementi. (14213)
@@ -40,7 +46,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 - Se il titolo di un argomento contiene una barra `/`, nella scheda dell&#39;editor Web verranno visualizzate solo le lettere successive. (13455)
 - L’anteprima dell’immagine non scompare dopo averla visualizzata nell’editor web. (13454)
 - Le citazioni visualizzano collegamenti non cliccabili quando vengono create con un ID univoco con spazi. (13447)
-- Quando si chiude un argomento dopo averlo modificato, si viene reindirizzati alla home page dell&#39;AEM invece di tornare alla visualizzazione cartella. (13306)
+- Quando si chiude un argomento dopo averlo modificato, si viene reindirizzati alla home page di AEM invece di tornare alla vista cartelle. (13306)
 - La finestra a comparsa Inserisci parola chiave non viene visualizzata quando si utilizzano i tasti definiti dalla mappa principale in altri argomenti. (12950)
 - Le icone di chiusura non sono visibili quando le immagini molto alte vengono visualizzate in anteprima nel pannello **Cronologia versioni**. (12867)
 - Impossibile modificare il fuso orario della colonna **Versione creata il** per le linee di base. (12711)
@@ -64,31 +70,31 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 
 - La pubblicazione di AEM Sites non riesce e causa errori di ambito per i file con `xref` nel file DITA che iniziano con &quot;HTTP&quot;. (15154)
 - Nella pubblicazione nativa di PDF non è possibile utilizzare le proprietà dei metadati delle mappe DITA per popolare i metadati per l&#39;output di file PDF. (15159)
-- Nella pubblicazione di PDF nativi, gli attributi personalizzati nei predefiniti di condizione non funzionano per la pubblicazione di PDF nativi. (14943)
+- Nella pubblicazione nativa in PDF, gli attributi personalizzati nei predefiniti per le condizioni non funzionano per la pubblicazione nativa in PDF. (14943)
 - Impossibile aggiungere un modello personalizzato dalla scheda **Output** nell&#39;editor. (14846)
-- Il predefinito per il sito **AEM** non funziona a causa di un percorso modello vuoto. (14804)
-- La rigenerazione del sito AEM non riesce per le mappe DITA con argomenti che contengono equazioni MathML. (14790)
-- Nella pubblicazione nativa di PDF, la generazione di PDF genera errori nell&#39;ottenere dipendenze per la pubblicazione di `Node.js`. (14445)
+- Il predefinito per **Sito AEM** non funziona a causa di un percorso di modello vuoto. (14804)
+- La rigenerazione del sito AEM ha esito negativo per le mappe DITA con argomenti che contengono equazioni di MathML. (14790)
+- Nella pubblicazione nativa di PDF, la generazione di PDF genera errori nell&#39;ottenere le dipendenze per la pubblicazione di `Node.js`. (14445)
 - Il predefinito **Sito AEM** non consente la selezione di un modello esterno alla gerarchia `/content` nell&#39;editor Web. (14260)
 - La funzionalità di pubblicazione come frammento di contenuto non funziona per i file elencati nei risultati di ricerca. (14090)
 - I componenti Fmdita hanno un percorso hardcoded di `delegator.jsp`, che impedisce la sovrapposizione dei componenti AEM Sites. (13993)
-- La visualizzazione con tag del reattore PDF nell’output di pubblicazione nativa di PDF non funziona come previsto. (13622)
-- Nella pubblicazione di PDF nativi, la selezione del colore di sfondo nel layout **Modello** richiede il ricaricamento della pagina quando si torna a `None`. (13621)
-- La pubblicazione di siti AEM rileva un problema quando si esegue il commit nell’archivio dati per mappe di grandi dimensioni con collegamenti tra pari dell’ambito. (13531)
+- La visualizzazione con tag del reattore PDF nell’output di pubblicazione nativo di PDF non funziona come previsto. (13622)
+- Nella pubblicazione nativa in PDF, la selezione del colore di sfondo nel layout **Modello** richiede il ricaricamento della pagina quando si torna a `None`. (13621)
+- La pubblicazione di siti AEM rileva un problema quando si esegue il commit nell’archivio dati per mappe di grandi dimensioni con collegamenti peer di ambito. (13531)
 - Si verifica un problema durante il commit nell’archivio dati per una mappa DITA di grandi dimensioni con collegamenti peer per l’ambito nella pubblicazione di siti AEM. (13530)
-- Nella barra degli strumenti **Layout di pagina** dei modelli utilizzati nella pubblicazione di PDF nativi vengono visualizzate icone e descrizioni comandi errate per l&#39;opzione **Modifica contenuto**. (13492)
+- Nella barra degli strumenti **Layout di pagina** della funzionalità Modelli utilizzata nella pubblicazione nativa di PDF vengono visualizzate icone e descrizioni comandi errate per l&#39;opzione **Modifica contenuto**. (13492)
 - Impossibile attivare un sito con Experience Manager Guides **Bulk Publish Dashboard**. (13439)
-- Nella pubblicazione di PDF nativi, l’accessibilità è compromessa in quanto le immagini nell’intestazione e nel piè di pagina non visualizzano testo alternativo. (12829)
-- Nell&#39;output di AEM Sites, lo stile o le interruzioni di riga sono stati persi per l&#39;elemento `<lines>` con elementi secondari.(12542)
-- La duplicazione del layout di pagina in Native PDF non funziona con nessuna estensione aggiunta automaticamente. (12534)
+- Nella pubblicazione nativa in PDF, l’accessibilità è compromessa in quanto le immagini nell’intestazione e nel piè di pagina non visualizzano testo alternativo. (12829)
+- Nell&#39;output di AEM Sites, lo stile o le interruzioni di riga sono stati persi per l&#39;elemento `<lines>` con sottoelementi.(12542)
+- La duplicazione del layout di pagina in PDF nativo non funziona con nessuna estensione aggiunta automaticamente. (12534)
 - La localizzazione delle etichette degli elementi non funziona correttamente nell’output di AEM Sites. (12144)
 - I metadati personalizzati non sono disponibili nell’output finale. (12116)
 - `fmdita rewriter` è in conflitto con la configurazione del rewriter dell&#39;utente e comporta la visualizzazione di URL lunghi invece dei collegamenti. (12076)
 - Opzione **ditaval** mancante nei predefiniti di output a livello di profilo della cartella creati tramite l&#39;interfaccia utente dell&#39;editor Web. (11903)
-- Nel predefinito **Sito AEM**, l&#39;opzione per **Generare PDF separati per ogni argomento** non è funzionale. (11555)
-- La pubblicazione PDF nativa non supporta la conversione dello spazio colore CMYK. (10754)
-- Quando si esegue l’aggiornamento alla versione 4.3.1, si verificano alcune eccezioni nel nodo PDF nativo. (14492)
-- Quando si genera l’output di PDF con la pubblicazione di PDF nativi, il nome del file viene troncato dopo un punto. (13620)
+- Nel predefinito **Sito AEM**, l&#39;opzione **Genera PDF separato per ogni argomento** non funziona. (11555)
+- La pubblicazione nativa su PDF non supporta la conversione dello spazio colore CMYK. (10754)
+- Durante l’aggiornamento alla versione 4.3.1, si verificano alcune eccezioni nel nodo PDF nativo. (14492)
+- Quando si genera l’output di PDF con la pubblicazione PDF nativa, il nome del file viene troncato dopo un punto. (13620)
 
 
 ## Gestione
@@ -102,7 +108,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 - Le etichette del file `labels.json` vengono visualizzate in ordine casuale nell&#39;editor Web. (10508)
 - Le chiamate della linea di base dinamica utilizzano il nome invece del titolo, il che si traduce in un errore di esportazione dell’API mappa DITA. (14268)
 
-## Rivedi
+## Rivedere
 
 - Il menu di scelta rapida visualizzato facendo clic con il pulsante destro del mouse non funziona per **Accept** o **Reject** track changes. (14607)
 - Nella versione 4.3.1 di Adobe Experience Manager Guides, attivare o disattivare la chiusura degli argomenti DITA nella schermata di revisione. (14537)
@@ -121,6 +127,6 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 
 ## Problema noto
 
-L’Adobe ha identificato il seguente problema noto per la versione 4.4.0:
+Adobe ha identificato il seguente problema noto per la versione 4.4.0:
 
 - La versione 1.0 non viene visualizzata nell&#39;interfaccia utente del file DITA duplicato.

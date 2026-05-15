@@ -4,10 +4,16 @@ description: Versione di febbraio di Adobe Experience Manager Guides as a Cloud 
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/KtMCjANUmaT-PaKIJltf0G72WaHR0JV94HyutN9DyFY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 877
+ht-degree: 4%
 
 ---
 
@@ -29,10 +35,10 @@ Aggiorna la configurazione corrente di AEM Guides as a Cloud Service eseguendo i
 Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizzare il nuovo testo Trova e sostituisci a livello di mappa:
 
 * Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate || Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-Ad esempio: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678
+* L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Ad esempio: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
@@ -81,7 +87,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Copiare una risorsa mappa DITA (dall’interfaccia utente di Asset ) causa l’esistenza di linee di base errate nella risorsa copiata. (11218)
 * Al caricamento di un file non viene visualizzato alcun messaggio di avviso che superi il limite consentito in AEM (2 GB per impostazione predefinita). (10817)
 * Web Editor-Baseline | Il comportamento della colonna Più recente nel dashboard della nuova linea di base all&#39;interno dell&#39;editor Web è diverso. (10808)
-* Traduzione | Il processo di traduzione non viene avviato a causa di /libs/fmdita/i18n/ja.json non valido. (10543)
+* Traduzione | Il processo di traduzione non viene avviato perché /libs/fmdita/i18n/ja.json non è valido. (10543)
 * Traduzione | Si verifica un errore in un progetto di traduzione dell’ambito creato dal dashboard di traduzione (Traduzione umana). (10526)
 * Traduzione | La post-elaborazione è bloccata per l’intera cartella della lingua le cui risorse sono presenti in un progetto di traduzione attivo. (10332)
 * Se la versione viene modificata e salvata nell’editor della linea di base, per qualsiasi risorsa vengono visualizzati più pop-up. (10399)
@@ -90,11 +96,11 @@ Di seguito sono elencati i bug risolti in varie aree:
 ### Pubblicazione
 
 * La rigenerazione dell&#39;argomento non funziona per alcuni scenari. (10635)
-* Publishlistener non visualizza i dati richiesti nei registri di informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
+* Publishlistener non visualizza i dati richiesti nei registri informazioni e contiene anche alcuni registri di posta indesiderata.( 10567)
 * PDF nativo | Quando si crea un predefinito di output con l’opzione &quot;Aggiungi al profilo cartella&quot;, la generazione di PDF non riesce e viene generata un’eccezione Null Pointer. (10950)
-* PDF nativo | Si verificano dei problemi durante la rotazione dell’intestazione della tabella. (10555)
-* PDF nativo | I `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
-* PDF nativo | Il topicref nidificato nelle appendici viene trasformato in h1 nel HTML temporaneo. (10454)
+* PDF nativo | Si verificano problemi durante la rotazione dell’intestazione della tabella. (10555)
+* PDF nativo | `<indexterm>` nidificati non sono nidificati nell&#39;esportazione nativa di PDF. (10521)
+* PDF nativo | Il topicref nidificato nelle appendici viene trasformato in h1 nella HTML temporanea. (10454)
 * La pubblicazione della linea di base non riesce per PDF generato con FrameMaker Publishing Server 2020. (10551)
 * PDF nativo | L&#39;aggiunta di `xref` a un&#39;immagine non esegue il rendering dell&#39;immagine sul PDF generato. (11346)
 * PDF nativo | Il tag immagine aggiunge l’attributo display-inline a tutte le immagini. (10653)

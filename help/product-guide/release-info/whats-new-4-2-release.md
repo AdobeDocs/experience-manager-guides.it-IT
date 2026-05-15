@@ -4,9 +4,15 @@ description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager G
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: 2435
 ht-degree: 0%
 
 ---
@@ -35,7 +41,7 @@ Scheda **Rapporti** nell&#39;editor Web.
 
 ## UX rinnovata per la funzionalità di revisione
 
-Ora le guide AEM forniscono un’interfaccia utente migliorata che consente di rivedere gli argomenti condivisi per la revisione. Nell’esperienza più recente, la funzionalità di revisione presenta i seguenti miglioramenti:
+Ora le guide di AEM forniscono un’interfaccia utente migliorata che consente di rivedere gli argomenti condivisi per la revisione. Nell’esperienza più recente, la funzionalità di revisione presenta i seguenti miglioramenti:
 
 * Interfaccia utente aggiornata
 * Pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell’argomento.
@@ -102,7 +108,7 @@ AEM Guides offre la funzione di creare e gestire predefiniti di output per i pro
 <img alt="aggiungi predefinito" src="assets/add-global-output-preset.png" width="400">
 
 
-Questi predefiniti globali vengono visualizzati nella scheda **Output** di tutte le mappe correlate. Puoi utilizzarli per generare l’output per tutte le mappe correlate. Per generare l&#39;output di PDF, potete selezionare il predefinito come predefinito di default PDF. Puoi anche **Modificare**, **Rinominare**, **Duplicare** o **Eliminare** un predefinito di output esistente dal menu **Opzioni**.
+Questi predefiniti globali vengono visualizzati nella scheda **Output** di tutte le mappe correlate. Puoi utilizzarli per generare l’output per tutte le mappe correlate. Per generare l&#39;output di PDF, potete selezionare il predefinito come predefinito di default di PDF. Puoi anche **Modificare**, **Rinominare**, **Duplicare** o **Eliminare** un predefinito di output esistente dal menu **Opzioni**.
 
 >[!NOTE]
 >
@@ -190,23 +196,23 @@ Una volta completata l&#39;operazione di rimozione, è possibile controllare il 
 
 Ora AEM Guides ti consente di scegliere l&#39;opzione **Usa titolo nell&#39;editor e Gestione mappe** nelle impostazioni. Se si seleziona questa opzione, il titolo del file viene visualizzato nella scheda del file quando viene aperto nell&#39;Editor o in Gestione mappe DITA. Se non selezioni questa opzione, nella scheda del file viene visualizzato l’UUID del file.
 
-## Interfaccia utente metadati disponibile per i predefiniti di PDF
+## Interfaccia utente metadati disponibile per i predefiniti PDF
 
-È possibile impostare i metadati dal predefinito di output di una mappa DITA. È possibile impostare i metadati Titolo, Autore, Oggetto e Parole chiave. Questi metadati vengono mappati ai metadati nelle Proprietà file del PDF di output. Questi metadati sostituiscono i metadati definiti a livello di libro. Potete definire i metadati in modo specifico in ciascun predefinito di output e trasmetterli al PDF di output.
+È possibile impostare i metadati dal predefinito di output di una mappa DITA. È possibile impostare i metadati Titolo, Autore, Oggetto e Parole chiave. Questi metadati vengono mappati ai metadati in Proprietà file del PDF di output. Questi metadati sostituiscono i metadati definiti a livello di libro. Potete definire i metadati in modo specifico in ciascun predefinito di output e trasmetterli al PDF di output.
 
-## Native PDF | PDF con barra delle modifiche che mostra la differenza tra le versioni dei documenti
+## PDF nativo | PDF con barra delle modifiche che mostra la differenza tra le versioni dei documenti
 
 Ora puoi creare un PDF che mostra le differenze di contenuto tra due versioni utilizzando la barra delle modifiche. È possibile scegliere di confrontare la versione corrente con una baseline della versione precedente o confrontare le due versioni della baseline selezionate.
 
 <img src="assets/pdf-change-version.png" alt="pdf-change-version" width="600">
 
-Nel PDF viene visualizzata una barra delle modifiche che indica il contenuto modificato, inserito o eliminato. Sono inoltre disponibili le seguenti opzioni:
+In PDF viene visualizzata una barra delle modifiche che indica il contenuto modificato, inserito o eliminato. Sono inoltre disponibili le seguenti opzioni:
 * Mostra il contenuto inserito in verde e sottolineato
 * Mostra il contenuto eliminato in rosso e contrassegnato con barrato
 
-## Native PDF | Supporto variabile per percorso di output e nome file PDF
+## PDF nativo | Supporto variabile per percorso di output e nome file PDF
 
-Ora puoi anche utilizzare le seguenti variabili predefinite per definire il percorso di output e il file di PDF. Puoi utilizzare una singola variabile o una combinazione di variabili per definire queste opzioni:
+Ora puoi anche utilizzare le seguenti variabili predefinite per definire il percorso di output e il file PDF. Puoi utilizzare una singola variabile o una combinazione di variabili per definire queste opzioni:
 * `${map_filename}`
 * `${map_title}`
 * `${preset_name}`
@@ -214,14 +220,14 @@ Ora puoi anche utilizzare le seguenti variabili predefinite per definire il perc
 * `${map_parentpath}` (solo per il percorso di output)
 * `${path_after_langfolder}` (solo per il percorso di output)
 
-## Native PDF | Genera sommario per mappe DITA e riordina i layout di pagina
+## PDF nativo | Genera sommario per mappe DITA e riordina i layout di pagina
 
-È inoltre possibile generare il sommario nelle mappe DITA utilizzando un&#39;impostazione PDF avanzata del modello. Puoi scegliere di abilitare o disabilitare la visualizzazione dei vari layout di pagina e anche riordinarne la posizione.
+Ora è anche possibile generare il sommario nelle mappe DITA utilizzando un&#39;impostazione PDF avanzata del modello. Puoi scegliere di abilitare o disabilitare la visualizzazione dei vari layout di pagina e anche riordinarne la posizione.
 
-## Native PDF | Aggiungere un segnalibro personalizzato nell’output di PDF
+## PDF nativo | Aggiungi un segnalibro personalizzato nell’output di PDF
 
-Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output PDF finale per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
+Ora puoi aggiungere un segnalibro personalizzato a un particolare contenuto nell’output finale di PDF per facilitarne la navigazione. Questa opzione viene aggiunta al sommario creato dai titoli di argomento o di sezione nella mappa DITA.
 
-## Native PDF | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
+## PDF nativo | Applicare uno stile personalizzato alle voci del sommario e al contenuto dell’argomento
 
-AEM Guides fornisce la funzione di applicare uno stile personalizzato alle voci del sommario o a un particolare argomento nell’output PDF. È ad esempio possibile modificare il colore del testo nel sommario e nel titolo dell&#39;argomento. È inoltre possibile applicare stili all&#39;intero contenuto dell&#39;argomento.
+AEM Guides fornisce la funzione di applicare uno stile personalizzato alle voci del sommario o a un particolare argomento nell’output di PDF. È ad esempio possibile modificare il colore del testo nel sommario e nel titolo dell&#39;argomento. È inoltre possibile applicare stili all&#39;intero contenuto dell&#39;argomento.

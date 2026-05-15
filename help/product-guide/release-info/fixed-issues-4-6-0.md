@@ -1,14 +1,20 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides versione 4.6.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides versione 4.6.0
 description: Scopri le correzioni di bug nella versione 4.6.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
+TQID: https://experienceleague.adobe.com/zaQd6UfebgClEP7JxSWRwsGqIziDkIN3QLLP-iGufhM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: 2019
+ht-degree: 5%
 
 ---
-
 
 # Sono stati risolti i problemi nella versione 4.6.0 di (settembre 2024)
 
@@ -37,7 +43,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - L’eliminazione del contenuto si verifica a causa di GUID duplicati quando i modelli vengono installati tramite codice ma non vengono elaborati. (15858)
 - Experience Manager Guides non rispetta l&#39;attributo **Ruolo di elaborazione** in modalità **Anteprima**. (15787)
 - L&#39;editor elimina in modo intermittente il testo in eccesso oltre l&#39;area selezionata. (15708)
-- Impossibilità di copiare e incollare tabelle di grandi dimensioni da documenti di Word o HTML nell&#39;editor Web. (15369)
+- Impossibilità di copiare e incollare tabelle di grandi dimensioni da documenti di Word o da HTML nell’editor web. (15369)
 - Mancanza di API o eventi per acquisire l’aggiunta di attributi a un elemento o l’inserimento di un nuovo elemento. (15351)
 - Impossibile aggiungere il tag `<data>` nel tag `<ol>` nell&#39;editor Web. (15161)
 - Il componente segnaposto **Elemento** causa il blocco dell&#39;interfaccia utente. (14957)
@@ -50,7 +56,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - Nella vista origine, `</conbody>` viene inserito occasionalmente in posizioni non corrette. (11305)
 - Il percorso del componente `/libs/fmdita/components/versions` è hardcoded e gli utenti non possono sovrapporlo. (8779)
 - `<conref>` per un argomento a cui si fa riferimento all&#39;interno di una mappa DITA non viene riflesso nell&#39;anteprima all&#39;interno dell&#39;editor. (17794)
-- La Guida DITA di Experience Manager non attiva la funzione Salva dopo l&#39;utilizzo della funzione di rientro automatico. (16482)
+- La Guida di Experience Manager DITA non attiva la funzione Salva dopo l&#39;utilizzo della funzione di rientro automatico. (16482)
 - La caratteristica di descrizione comando non consente di aggiornare il campo Source nell&#39;editor XML. (15847)
 - La funzionalità **Condividi collegamento UUID** non funziona per le immagini in Adobe Experience Manager. (15598)
 - Nella visualizzazione **Autore** si verifica un problema di copia e incolla quando si utilizzano spazi unificatori e si verifica un overflow del testo. (15541)
@@ -62,7 +68,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - Impossibile aggiornare `<conref>` dal pannello **Attributi** quando si apportano modifiche. (15209)
 - Quando si seleziona un&#39;immagine all&#39;interno di una cella di tabella, viene selezionata l&#39;intera cella. (15188)
 - Il pannello **Attributi** non viene visualizzato nella visualizzazione Source dell&#39;editor Web. (14387)
-- `<Topicref>` aggiunto utilizzando `<keyref>` non viene visualizzato in Native PDF. (11974)
+- `<Topicref>` aggiunto utilizzando `<keyref>` non viene visualizzato in PDF nativo. (11974)
 - Gli spazi indesiderati e unificatori vengono aggiunti durante la modifica alla fine di un tag nell’editor web. (11786)
 - Il contenuto viene eliminato durante la correzione degli errori ortografici nei file DITA. (11610)
 - L&#39;apertura di un argomento o di una mappa DITA in una nuova scheda per la modifica blocca la navigazione della selezione nell&#39;interfaccia utente di Assets. (4992)
@@ -71,7 +77,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - L&#39;elemento `<title>` viene aggiunto automaticamente quando l&#39;elemento `<fig>` viene inserito come snippet. (18562)
 - Si verificano dei problemi durante il caricamento di un numero elevato di file con set di dati densi in Experience Manager Guides.(17008)
 - L&#39;editor Web non visualizza la parola chiave corretta per impostazione predefinita, soprattutto se la parola chiave è definita in modo diverso nelle mappe figlio. (14748)
-- Lo stato del documento **1&rbrace; non viene visualizzato quando si modificano le proprietà di più di 50 file in blocco dalla visualizzazione Mappa dell&#39;editor Web.** (14574)
+- Lo stato del documento **1} non viene visualizzato quando si modificano le proprietà di più di 50 file in blocco dalla visualizzazione Mappa dell&#39;editor Web.**(14574)
 - Il comportamento del pulsante Chiudi non è coerente quando si utilizza la funzionalità Salvataggio automatico. (10996)
 - Si verificano problemi di convalida negli elementi di MathML quando si inseriscono nuovi elementi o si modificano le equazioni. (10624)
 - La funzionalità Revisioni non funziona con il testo che inizia con i caratteri coreani. (14538)
@@ -79,35 +85,35 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 
 ## Pubblicazione
 
-- Il riferimento incrociato alla chiave non viene risolto nell’output di Native PDF. (18087)
+- Il riferimento incrociato alla chiave non viene risolto nell’output PDF nativo. (18087)
 - L&#39;errore **duplicate_value** si verifica in modo intermittente durante la ripubblicazione di un articolo esistente in Salesforce. (17932)
 - La convalida della connessione Salesforce non riesce con l’URL fulmine. (17797)
-- Quando si seleziona l&#39;opzione **Usa metadati aggiunti nell&#39;elemento topicmeta**, le proprietà dei metadati non vengono propagate nelle proprietà del documento dell&#39;output di PDF nativo.(17283)
-- Il filtro delle condizioni nell&#39;output di PDF nativo non funziona come previsto rispetto a DITA-OT. (17095)
-- Il sommario non rispetta i tag `<sub>` o `<sup>` nell&#39;output Native PDF. (17028)
+- Quando si seleziona l&#39;opzione **Usa metadati aggiunti nell&#39;argomento meta**, le proprietà dei metadati non vengono propagate nelle proprietà del documento dell&#39;output PDF nativo.(17283)
+- Il filtro delle condizioni nell&#39;output PDF nativo non funziona come previsto rispetto a DITA-OT. (17095)
+- Il sommario non rispetta i tag `<sub>` o `<sup>` nell&#39;output PDF nativo. (17028)
 - Il collegamento delle mappe incrociate non riesce a visualizzare tutte le mappe padre nelle impostazioni del contesto di pubblicazione per un collegamento con `scope="peer"`. (16700)
 - La generazione del sito AEM e l’API di pubblicazione incrementale non funzionano come previsto. (16666)
 - La generazione dell&#39;output del sito AEM non riesce se l&#39;opzione **Elimina sito orfano** è abilitata. (15896)
 - I vecchi attributi vengono mantenuti nei **Predefiniti condizione** quando si aggiungono o si rimuovono attributi nuovi o esistenti. (15890)
 - Nell’output JSON, i metadati della mappa o degli argomenti DITA non vengono propagati ai file di output JSON. (15713)
-- Il contenuto della lingua RTL non viene gestito correttamente nell’output di pubblicazione di PDF nativi. (15709)
+- Il contenuto della lingua RTL non viene gestito correttamente nell’output di pubblicazione PDF nativo. (15709)
 - La pubblicazione nativa di PDF ha esito negativo quando il predefinito viene rinominato. (15662)
 - La proprietà **sourcePath** non è corretta nell&#39;output del sito AEM pubblicato. (15502)
-- La selezione e la personalizzazione delle variabili di lingua non funzionano correttamente nel predefinito di output di Native PDF. (15399)
+- La selezione e la personalizzazione delle variabili di lingua non funzionano correttamente nel predefinito di output nativo di PDF. (15399)
 - La generazione nativa di PDF ha esito negativo quando si utilizza un foglio di stile o un modello di layout di grandi dimensioni. (15344)
 - Il rendering del contenuto nell&#39;output pubblicato non viene eseguito correttamente se `<conref>` viene utilizzato con un percorso assoluto. (15222)
 - La riduzione degli URL di AEM Sites non funziona a causa di conflitti tra `fmdita rewriter` e `ResourceResolver`. (14793)
-- La generazione nativa di PDF non riesce e viene restituito un errore relativo all’ottenimento delle dipendenze per Node.js. (14445)
+- La generazione nativa di PDF non riesce e viene visualizzato un errore relativo all’ottenimento delle dipendenze per Node.js. (14445)
 - Gli attributi **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;** e **chunk=&quot;to-content&quot;** vengono visualizzati nell&#39;output di AEM Sites in modo indipendente. (14442)
-- `<Conref>` non viene risolto nella modalità `Preview` dell&#39;editor Web e dell&#39;output di PDF nativo. (17827)
-- In Native PDF gli argomenti DITA nidificati non vengono visualizzati correttamente nel sommario. (16742)
+- `<Conref>` non viene risolto nella modalità `Preview` dell&#39;editor Web e dell&#39;output PDF nativo. (17827)
+- In PDF nativo, gli argomenti DITA nidificati non vengono visualizzati correttamente nel sommario. (16742)
 - Le miniature generate da **Dynamic Media** per i file video non persistono nell&#39;output pubblicato. (15656)
-- Il PDF di riferimento non è attivato dal **dashboard di Publish in blocco** durante l&#39;attivazione in blocco del contenuto pubblicato. (17793)
+- Il PDF a cui si fa riferimento non è attivato dal **dashboard di pubblicazione in blocco** durante l&#39;attivazione in blocco del contenuto pubblicato. (17793)
 - Se una cartella contenente mappe 2k è impostata nel percorso della cartella all&#39;interno di un profilo di cartella, le modifiche applicate al predefinito di output non vengono eseguite. (14852)
 - La rigenerazione dell&#39;argomento non riesce a causa di un errore OOTB Regenerate Topic (Rigenera argomento OOTB) o incrementale dell&#39;API di pubblicazione. (18452)
 - Il predefinito di condizione non recupera gli attributi aggiornati dopo l’aggiornamento di Experience Manager Guides. (18174)
-- I riferimenti al contenuto non vengono risolti correttamente per l&#39;output di PDF nativo se il file contenente le definizioni chiave non si trova nella stessa cartella della mappa DITA. (15062)
-- La dashboard di Publish in blocco è vuota per le mappe ancora in fase di traduzione. (19352)
+- I riferimenti al contenuto non vengono risolti correttamente per l&#39;output PDF nativo se il file contenente le definizioni chiave non si trova nella stessa cartella della mappa DITA. (15062)
+- La dashboard di pubblicazione in blocco è vuota per le mappe ancora in fase di traduzione. (19352)
 - L’attivazione in blocco dei contenuti pubblicati non funziona per le mappe localizzate. (17638)
 
 
@@ -127,9 +133,9 @@ Scopri le [istruzioni di aggiornamento per la versione 4.6.0](../release-info/up
 - Gli argomenti contenenti riferimenti esterni con %20 nell&#39;URL visualizzano riferimenti a file interrotti. (15347)
 - Le proprietà fmditaMaprefs e fmditakeydefrefs visualizzano percorsi relativi, nonostante l&#39;impostazione di percorsi assoluti per la mappa DITA e gli argomenti. (18353)
 - Il percorso della funzionalità di sovrapposizione è hardcoded per il file in lingua coreana e non è selezionato correttamente. (17089)
-- L&#39;ora predefinita nella creazione della baseline nell&#39;editor Web viene visualizzata come 00:00 invece dell&#39;ora corrente. (15215)
+- L&#39;ora predefinita nella creazione della linea di base nell&#39;editor Web viene visualizzata come 00:00 invece dell&#39;ora corrente. (15215)
 
-## Rivedi
+## Rivedere
 
 - Il recupero dell’elenco utenti durante la creazione di un’attività di revisione ha esito negativo se il numero di utenti supera i 25. (17329)
 - Gli argomenti della revisione non vengono visualizzati nell’ordine corretto. (16319)
@@ -163,8 +169,4 @@ Adobe ha identificato i seguenti problemi noti per la versione 4.6.0:
 - Il riferimento dell&#39;argomento risulta interrotto nell&#39;interfaccia utente quando viene inserito dalla barra degli strumenti superiore della mappa DITA.
 - La generazione di PDF nativi ha esito negativo per una mappa DITA se sono presenti riferimenti mancanti.
 - Una volta aggiornato lo stato del documento di un argomento a **Fine**, l&#39;icona **Avvia una nuova versione** è disponibile solo nella modalità **Anteprima** dell&#39;argomento.
-- Quando si seleziona un file DITA nell&#39;interfaccia utente di Asset, viene visualizzata l&#39;opzione **Apri nel FrameMaker**, anche se è disabilitata nelle impostazioni di configurazione.
-
-
-
-
+- Quando si seleziona un file DITA nell&#39;interfaccia utente di Asset, viene visualizzata l&#39;opzione **Apri in FrameMaker**, anche se è disabilitata nelle impostazioni di configurazione.

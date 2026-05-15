@@ -3,9 +3,14 @@ title: Guida intelligente basata sull’intelligenza artificiale per cercare con
 description: Scopri come visualizzare e utilizzare la Guida avanzata basata sull’intelligenza artificiale nell’editor web.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/e2edDcCx-HT3qUxlzHhVYiw0BchijMY7wfJmwtszsZY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: 439
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Experience Manager Guides fornisce la Guida avanzata basata su GenAI, una funzionalità di ricerca conversazionale che consente di trovare contenuti rilevanti dalla [documentazione di Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Puoi porre le tue domande e ottenere le risposte in modo informativo. La risposta alla query si basa sul contenuto della documentazione del prodotto. Questa ricerca è completamente conversazionale. Puoi fare domande, e poi, in base alla risposta, puoi anche fare altre domande. La risposta include anche collegamenti ai documenti di origine, a cui è possibile fare riferimento per ulteriori dettagli.
 
 Ad esempio, potrebbe essere utile creare un argomento in Experience Manager Guides per la documentazione. Puoi chiedere, *Come creare un argomento?* Ottieni una risposta e i collegamenti per gli articoli correlati. Quindi, se si desidera imparare a generare l&#39;output di PDF per il documento, è possibile porre domande su di esso. *Come pubblicare un argomento in un PDF?* o *Come generare l&#39;output di PDF per un argomento?*

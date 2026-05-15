@@ -4,10 +4,16 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/nuIWAZRdaGgE-lpjfhk2ptAOeglH8cVhxKZMVPcncYY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: 874
+ht-degree: 5%
 
 ---
 
@@ -85,7 +91,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * PDF nativo | Il tag immagine aggiunge l’attributo display-inline a tutte le immagini. (10653)
 * L&#39;inserimento di file multimediali audio e video non riesce nel formato YouTube sotto l&#39;icona **Inserisci file multimediali**. (11320)
 * Si verifica un errore di convalida quando si crea una mappa utilizzando il modello che ha un elemento titolo specializzato. (11212)
-* Editor web | Lo spazio unificatore viene aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
+* Editor web | Spazio unificatore aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
 
 ### Gestione
 
@@ -99,13 +105,13 @@ Di seguito sono elencati i bug risolti in varie aree:
 * PDF nativo | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11936)
 * Output JSON | La mappatura dei metadati con valore di proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
 * Il problema si verifica nella ricerca del sito AEM (non funziona oltre i nodi di 2-3 livelli). (11352)
-* Editor web | Il percorso e il modello di output non possono essere selezionati nel predefinito di AEM. (11530)
+* Editor web | Il percorso di output e il modello non possono essere selezionati nel predefinito di AEM. (11530)
 * Quando si esegue l’aggiornamento dalla versione 4.1.x alla versione 4.2, il motore PDF nativo non funziona e viene generata l’eccezione NullPointerException anche per il sistema operativo supportato.(11526)
 * Il processo di download di PDF non funziona in modo appropriato nell’editor web. (11496)
 * PDF nativo | I commenti bozza sono nascosti per impostazione predefinita nell&#39;output generato. (10560)
 * PDF nativo | navtitle non è onorato per topichead. (10509)
 * PDF nativo | L&#39;aggiunta di `xref` a un&#39;immagine non esegue il rendering dell&#39;immagine sul PDF generato. (11346)
-* PDF nativo | la nota a piè di pagina presente nell’intestazione della tabella porta a un testo in grassetto e allineato al centro nel piè di pagina della pagina corrispondente nell’output di PDF. (10610)
+* PDF nativo | la nota a piè di pagina presente nell’intestazione della tabella porta al testo in grassetto e allineato al centro nel piè di pagina corrispondente all’interno dell’output di PDF. (10610)
 
 ### Traduzione
 

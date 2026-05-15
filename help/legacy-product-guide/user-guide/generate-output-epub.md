@@ -1,33 +1,39 @@
 ---
-title: EPUB Preset
-description: Learn how to create an EPUB preset from the map dashboard. Configure EPUB output preset in AEM Guides.
+title: Predefinito EPUB
+description: Scopri come creare un predefinito di EPUB dal dashboard delle mappe. Configura il predefinito di output di EPUB in AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: 1d914a5f-df1f-45eb-86ac-72485fdf07fe
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/Glp7bHZJ80DoLGIwI936SS9-SRfScDcT-JzhbHSn9P0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 840
 ht-degree: 1%
 
 ---
 
 # EPUB {#id205BED020YT}
 
-You can create the EPUB preset from the map dashboard.
+Puoi creare il predefinito EPUB dal dashboard delle mappe.
 
 >[!NOTE]
 >
 > È possibile scegliere il metodo per generare HTML5 utilizzando DITA-OT o FMPS \(se è stato configurato dall&#39;amministratore di sistema\).
 
-To open output presets for EPUB, click on a DITA map file, then click on Output Presets, and then click on the EPUB option. The following options are available for the EPUB Output:
+Per aprire i predefiniti di output per EPUB, fate clic su un file di mappa DITA, quindi su Predefiniti di output e infine sull&#39;opzione EPUB. Per l’output di EPUB sono disponibili le seguenti opzioni:
 
-| EPUB options | Descrizione |
+| Opzioni EPUB | Descrizione |
 | --- | --- |
-| Tipo di output | Tipo di output che si desidera generare. To generate EPUB output, choose the EPUB option. |
-| Nome impostazione | Give a descriptive name for the EPUB output settings you are creating. Ad esempio, puoi specificare _Output clienti interni_ o _Output utenti finali_. |
+| Tipo di output | Tipo di output che si desidera generare. Per generare l’output di EPUB, scegli l’opzione EPUB. |
+| Nome impostazione | Assegna un nome descrittivo alle impostazioni di output di EPUB che stai creando. Ad esempio, puoi specificare _Output clienti interni_ o _Output utenti finali_. |
 | Argomenti riga di comando DITA-OT | Specificare gli argomenti aggiuntivi che si desidera vengano elaborati da DITA-OT durante la generazione dell&#39;output. Per informazioni dettagliate sugli argomenti della riga di comando supportati in DITA-OT, vedere [Documentazione di DITA-OT](https://www.dita-ot.org/). |
-| Generate EPUB Using | Select DITA-OT to generate the EPUB output. |
+| Genera EPUB tramite | Selezionate DITA-OT per generare l&#39;output di EPUB. |
 | Applica condizioni utilizzando | Selezionare una delle opzioni seguenti:<br><br>* **Nessuna applicazione**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>* **File DITAVal**: selezionare i file DITAVal per generare contenuto personalizzato. È possibile selezionare più file DITAVal utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVal vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVal viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal dashboard delle mappe. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio di AEM in cui è memorizzato il file. È possibile selezionare solo i file DITAVal e viene visualizzato un errore se è stato selezionato un altro tipo di file. FrameMaker Publishing Server non supporta più file DITAVAL.<br>* **Predefinito condizione**: selezionare un predefinito condizione dall&#39;elenco a discesa per applicare una condizione durante la pubblicazione dell&#39;output. L&#39;opzione è visibile se è stata aggiunta una condizione presente nella scheda Predefiniti condizione della console Mappa DITA. Per ulteriori informazioni sul predefinito di condizione, vedere [Utilizzare i predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Percorso di destinazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output di EPUB. |
 | Nome file | Specificare il nome del file con cui si desidera salvare l&#39;output di EPUB.<br><br>**Nota**: se non si specifica un nome di file, verrà utilizzato il titolo della mappa DITA per generare il nome del file di output finale di EPUB. Se la mappa non ha un titolo, viene utilizzato il nome file della mappa DITA come output finale di EPUB. Il nome del file viene bonificato utilizzando le regole configurate nel sistema per gestire qualsiasi carattere non valido. |
@@ -37,4 +43,4 @@ To open output presets for EPUB, click on a DITA map file, then click on Output 
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Per ulteriori dettagli, vedere [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF). |
 | Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà e vengono rimosse dall&#39;elenco a discesa. Una volta impostate, queste proprietà vengono copiate anche negli argomenti della mappa.<br><br>**Nota**: è inoltre possibile passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, vedere [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

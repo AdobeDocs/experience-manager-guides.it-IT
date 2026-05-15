@@ -4,9 +4,13 @@ description: Scopri l’API per avviare l’elaborazione in blocco delle risorse
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
+exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
+TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 591
 ht-degree: 9%
 
 ---
@@ -246,7 +250,7 @@ Un’API GET che restituisce le ultime &quot;N&quot; esecuzioni del post-elabora
 
 **Parametri richiesta**
 
-Nessuno. Questa richiesta GET recupera la cronologia dei processi senza richiedere parametri di input.
+Nessuna. Questa richiesta GET recupera la cronologia dei processi senza richiedere parametri di input.
 
 **Esempio di risposta**
 
@@ -283,6 +287,3 @@ Nessuno. Questa richiesta GET recupera la cronologia dei processi senza richiede
   ]
 }
 ```
-
-
-

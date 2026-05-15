@@ -3,9 +3,14 @@ title: Note sulla versione | Novità della versione di dicembre 2025 dei contenu
 description: Scopri le funzioni nuove e migliorate nella versione di dicembre 2025 dei contenuti di formazione e apprendimento del prodotto
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/SAuRCqFo8Gb8hE6zMM-e-dXjGRdX4yzW3ruWpra0i70
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: 281
 ht-degree: 0%
 
 ---
@@ -38,7 +43,7 @@ Questa nota sulla versione riguarda le funzioni nuove e migliorate introdotte ne
 
   ![](assets/question-types.png){width="650"}
 
-## Rivedere
+## Revisione
 
 - **Crea attività di revisione**: ora puoi creare un&#39;attività di revisione per il tuo corso di apprendimento e assegnarla al revisore per il loro feedback. In questo modo è possibile garantire la qualità dei contenuti, semplificare la collaborazione e semplificare il monitoraggio delle revisioni.
 

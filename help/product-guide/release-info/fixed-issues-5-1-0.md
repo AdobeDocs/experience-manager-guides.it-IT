@@ -1,10 +1,17 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi in Adobe Experience Manager Guides, versione 5.1.0
+title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 5.1.0
 description: Scopri le correzioni di bug nella versione 5.1.0 di Adobe Experience Manager Guides.
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 1%
+source-wordcount: 1790
+ht-degree: 2%
 
 ---
 
@@ -32,7 +39,7 @@ Scopri le [istruzioni di aggiornamento per la versione 5.1.0](upgrade-instructio
 - Quando si crea un nuovo argomento tramite l&#39;interfaccia utente o l&#39;editor di Assets, l&#39;argomento non si apre automaticamente nell&#39;editor se l&#39;impostazione `xmleditor.uniquefilenames` è impostata su true in `XMLEditorConfig`. (GUIDES-28171)
 - Gli spazi aggiunti all’interno di un’equazione MathML nella vista Source non vengono mantenuti quando si passa da una vista dell’editor all’altra. (GUIDES-26111)
 - Se non si chiudono le connessioni della sessione JCR durante l’aggiornamento o la creazione di argomenti, si verificano perdite di memoria e tempi di inattività del servizio. (GUIDES-26282)
-- Trascinando le colonne, la larghezza cambia da valori percentuali a pixel e vengono generate tabelle distorte o non allineate.(GUIDES-23128)
+- Se si trascinano le colonne, la larghezza cambia da valori percentuali a pixel e vengono generate tabelle distorte o non allineate.(GUIDES-23128)
 - Quando il contenuto viene incollato in un `code block` o quando vengono aggiunti spazi in `code block` e la visualizzazione viene cambiata, la spaziatura viene persa. (GUIDES-27478)
 - Quando si aggiunge una mappa a `bookmap`, questa viene archiviata in `fmditatopicrefs` anziché in `fmditamaprefs`. (GUIDES-25480)
 - La finestra di dialogo **Inserisci immagine** non viene riprodotta correttamente in schermate ad alta risoluzione o ingrandite causando la scomparsa del titolo della figura e dei campi di testo alternativi. (GUIDES-26459)
@@ -49,7 +56,7 @@ Scopri le [istruzioni di aggiornamento per la versione 5.1.0](upgrade-instructio
 
 ## Gestione risorse
 
-- Copiare una cartella con un numero elevato di risorse dall’interfaccia utente di Assets causa un timeout API. L’operazione continua a essere eseguita nel backend e viene completata dopo un certo periodo di tempo, ma nell’interfaccia utente non viene visualizzato alcun messaggio di esito positivo o negativo o di notifica. (GUIDES-30900)
+- Copiare una cartella con un numero elevato di risorse dall’interfaccia utente di Assets causa un timeout API. L&#39;operazione continua a essere eseguita nel backend e viene completata dopo un certo periodo di tempo, ma nell&#39;interfaccia utente non viene visualizzato alcun messaggio di esito positivo o negativo o di notifica. (GUIDES-30900)
 - L’operazione di copia e incolla eseguita su una cartella nell’interfaccia utente di Assets non riesce a causa di errori di post-elaborazione. (GUIDES-30840)
 - L’operazione di copia e incolla non riesce per le cartelle contenenti risorse composte (risorse con risorse secondarie) nell’interfaccia utente di Assets. (GUIDES-28107)
 - Le cartelle con un numero elevato di risorse non vengono caricate correttamente nel repository. (GUIDES-32500)
@@ -82,7 +89,7 @@ Scopri le [istruzioni di aggiornamento per la versione 5.1.0](upgrade-instructio
 - Durante la generazione di pagine del sito AEM con titoli che includono più parole separate da spazi, il titolo della mappa visualizza i trattini invece degli spazi. (GUIDES-27903)
 - Per il PDF nativo, non è stato risolto un nome di proprietà di metadati non valido. Verrà visualizzato come `unresolved property name` in **proprietà documento**. (GUIDES-25680)
 - Il testo su più righe all&#39;interno di `codeblock` causa problemi di riversamento del testo durante la generazione di PDF. (GUIDES-15541)
-- Quando si aggiungono mappe alla raccolta di mappe, vengono visualizzate risorse diverse dalle mappe (come argomenti, ecc.) e anche le lingue delle mappe tradotte non vengono ordinate correttamente.(GUIDES-25085)
+- Quando si aggiungono mappe alla raccolta di mappe, le risorse diverse dalle mappe (come argomenti, ecc.) e le lingue delle mappe tradotte non sono ordinate correttamente.(GUIDES-25085)
 - Nell’output legacy di AEM Sites, i collegamenti di sezione all’interno di argomenti nidificati di una mappa non vengono risolti correttamente se impostati manualmente in modalità Source o se il contenuto viene importato da un’origine esterna. Invece di passare alla sezione desiderata, vengono reindirizzati all’argomento principale che contiene l’argomento nidificato. (GUIDES-26103)
 - Se l&#39;attributo `scope=external` non è presente nei collegamenti esterni in un argomento DITA, la pubblicazione di HTML5 non riesce senza indicare i file in cui l&#39;attributo non è presente nei log degli errori. (GUIDES-25969)
 - Impossibile incorporare collegamenti video in PDF nativo anche quando l&#39;opzione **Incorpora file multimediali** è abilitata nel predefinito PDF. (GUIDES-9989)
@@ -100,7 +107,7 @@ Scopri le [istruzioni di aggiornamento per la versione 5.1.0](upgrade-instructio
 ## Platform
 
 - Quando si lavora con raccolte di grandi dimensioni, si verificano problemi di prestazioni quali tempi di caricamento più lunghi e timeout intermittenti. (GUIDE-29065, GUIDE-28793)
-- Le vulnerabilità associate alla libreria Guava obsoleta vengono utilizzate nei componenti AEM Guides caricati su Experience Manager Guides.(GUIDES-27402)
+- Vulnerabilità associate alla libreria Guava obsoleta utilizzata nei componenti AEM Guides caricati su Experience Manager Guides.(GUIDES-27402)
 
 ## Problemi noti
 
@@ -110,6 +117,6 @@ Adobe ha identificato i seguenti problemi noti per la versione 5.1.0:
 - Se il revisore completa l&#39;attività senza aggiungere alcun commento, nella notifica e-mail inviata all&#39;iniziatore dell&#39;attività viene visualizzato il commento più recente a livello di attività. (GUIDES-33590)
 - Nella finestra di dialogo Unisci, l’elenco a discesa mostra erroneamente il contenuto principale invece di mostrare le versioni disponibili dell’argomento selezionato. (GUIDES-30820)
 - Passando da un predefinito all&#39;altro che utilizza la stessa linea di base, il pulsante Salva viene disattivato per il predefinito corrente. (GUIDES-28025)
-- Quando si incolla nuovo contenuto in una nuova riga all’interno di un elemento codeblock, viene inserita automaticamente una riga vuota.(GUIDES-27842)
+- Quando si incolla nuovo contenuto in una nuova riga all&#39;interno di un elemento codeblock, viene automaticamente inserita una riga vuota.(GUIDES-27842)
 - Un argomento all&#39;interno di una mappa DITA non viene pubblicato nell&#39;output di AEM Sites quando viene utilizzato sia come keydef che come topicref all&#39;interno delle relative mappe secondarie. (GUIDES-22269)
 - Nel pannello Proprietà contenuto, il campo Attributi si chiude automaticamente quando si tenta di aggiornare un riferimento dalla finestra di dialogo Aggiorna collegamento, impedendo l’aggiornamento del collegamento. (GUIDES-17767)

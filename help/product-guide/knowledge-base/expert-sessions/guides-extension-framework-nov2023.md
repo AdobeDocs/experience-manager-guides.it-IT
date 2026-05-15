@@ -4,9 +4,15 @@ description: Con il framework di estensione delle Guide è possibile personalizz
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 387
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ In questa sessione, con l’aiuto di scenari pratici, imparerai a personalizzare
 - **Data** - 2 novembre 2023
 - **Numero partecipanti** - 119
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti Adobi
+- **Pubblico** - Clienti, partner e dipendenti Adobe
 
 ## Elementi principali da ricordare
 
@@ -47,9 +53,9 @@ In questa sessione hai appreso quanto segue:
 
 - **Archivio base framework estensioni** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentazione** - [sull&#39;Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentazione** - [su Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Casi d&#39;uso comuni documentati** - [sull&#39;Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Casi d&#39;uso comuni documentati** - [su Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Archivio pubblico con esempi** - [su GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Consulta la filiale sc-expert-session
 
