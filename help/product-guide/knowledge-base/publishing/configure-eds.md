@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 1%
@@ -60,12 +60,14 @@ Per installare e configurare l&#39;applicazione *AEM Code Sync*, effettuare le s
 
    >[!NOTE]
    >
-   > Durante l’installazione dell’applicazione, assicurati di utilizzare lo stesso account GitHub a cui appartiene l’archivio.
+   >Durante l’installazione dell’applicazione, assicurati di utilizzare lo stesso account GitHub a cui appartiene l’archivio.
 
    ![](assets/eds-aem-code-sync-page.png)
+
 3. Nella pagina successiva, concedi l’accesso all’archivio creato. A questo scopo, seleziona l&#39;opzione **Seleziona solo archivi**, quindi seleziona il tuo archivio dal menu a discesa.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
 4. Selezionare **Installa e autorizza**.
 
 Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della corretta registrazione dell&#39;applicazione *AEM Code Sync*. Puoi anche salvare gli URL di anteprima e live del sito web da questa pagina.
@@ -79,7 +81,9 @@ Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della
 3. Seleziona **Nuova app GitHub**.
 
    ![](assets/eds-new-github-app.png){width="650"}
+
 4. Nella pagina **Registra nuova app GitHub**, fornisci i dettagli seguenti:
+
    - **Nome app GitHub**: immetti un nome per l&#39;app. Ad esempio, `USERNAME-eds-app` dove USERNAME è il tuo nome utente GitHub.
    - **URL home page**: immettere l&#39;URL dell&#39;istanza di Experience Manager Guides.
 
@@ -89,6 +93,7 @@ Sei stato reindirizzato alla pagina di installazione di GitHub, a conferma della
    - **URL callback**: uguale all&#39;URL della home page.
    - **URL webhook**: disabilita questa opzione.
    - **Autorizzazioni archivio**: impostare **Autorizzazioni di lettura e scrittura** per *Azioni, Amministrazione e Attestazione*.
+
 5. Seleziona **Crea app GitHub**.
 
 L&#39;app è ora pronta. Sei stato reindirizzato alla pagina **Impostazioni** dell&#39;app GitHub.
@@ -237,5 +242,6 @@ In alcuni casi, potrebbe essere utile applicare uno stile solo a una parte speci
 6. Eseguire il commit delle modifiche e rigenerare l&#39;output.
 
 Il contenuto selezionato ora visualizza lo stile personalizzato definito nel blocco.
+
 
 ![](assets/eds-example-output.png){width="650"}
