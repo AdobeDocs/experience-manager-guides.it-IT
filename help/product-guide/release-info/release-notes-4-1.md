@@ -4,10 +4,32 @@ description: Ultima versione di Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 1%
+source-wordcount: 3665
+ht-degree: 3%
 
 ---
 
@@ -236,7 +258,7 @@ Puoi anche fare riferimento ad altri modelli di mappa e modelli di argomento dal
 
 Il modello di mappa personalizzato può aiutarti a replicare molto facilmente i modelli di mappa e l’intera struttura di cartelle a cui si fa riferimento. Questi modelli personalizzati sono particolarmente utili per creare e ricreare più mappe che hanno strutture e riferimenti ricorsivi.
 
-* **Supporto Schematron**
+* **Supporto schema**
 &quot;Schematron&quot; si riferisce a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. Utilizzando un file Schematron è possibile definire determinate regole e quindi convalidarle per un argomento o una mappa DITA. L’editor web supporta i file Schematron. Potete importare i file Schematron e modificarli nell&#39;Editor Web. Il supporto Schematron nell&#39;Editor Web consente di convalidare i file in base a un insieme di regole e di mantenere coerenza e correttezza negli argomenti.
 
 ![convalida schema](assets/schematron-validate.png)
@@ -249,7 +271,7 @@ In base alla configurazione, è possibile salvare le modifiche e creare una nuov
 
 ![Chiusura file](assets/file-close-save-changes-unlock.png)
 
-Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nella guida Using Adobe Experience Manager Guides.* La funzionalità **Inserisci parola chiave** è stata migliorata. È ora possibile trovare più facilmente una parola chiave da inserire poiché le parole chiave sono elencate in ordine alfabetico. È inoltre possibile cercare le parole chiave digitando una stringa di ricerca nella casella Cerca.
+Per ulteriori dettagli, vedere la sezione *Scenari di chiusura e salvataggio dei file* nella guida Utilizzo di Adobe Experience Manager Guides.* La funzionalità **Inserisci parola chiave** è stata migliorata. È ora possibile trovare più facilmente una parola chiave da inserire poiché le parole chiave sono elencate in ordine alfabetico. È inoltre possibile cercare le parole chiave digitando una stringa di ricerca nella casella Cerca.
 
 ![inserisci parola chiave](assets/insert-keyword.png)
 
@@ -287,7 +309,7 @@ Nota: la scheda Linea di base nel quadro comandi mappa è nascosta per impostazi
 
 ### Processo di traduzione migliorato
 
-* **Possibilità di creare un progetto di traduzione con ambito**
+* **Possibilità di creare un progetto di traduzione ambito**
 Se devi creare solo l&#39;ambito per un progetto da tradurre, puoi selezionare **Crea un nuovo progetto di traduzione dell&#39;ambito**. Questo non invierà le copie per la traduzione e lo stato di traduzione originale dei file viene mantenuto.
 
 ![progetto di traduzione con ambito](assets/scoping-translation-project.png)
@@ -352,9 +374,9 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il codice della lingua non viene visualizzato con la lingua nel pannello Traduzione. (9108)
 * Le schede Traduzione e Linea di base sono visibili per un certo periodo di tempo sul dashboard Mappa. (9146)
 * Al termine della traduzione, viene creata una versione aggiuntiva per la risorsa tradotta. (9310)
-* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. 9357
+* La traduzione approvata non viene integrata nella lingua di destinazione quando il codice della lingua di destinazione contiene cinque caratteri come `fr_ca`. (9357)
 * Il contenuto tradotto viene interrotto quando il codice della lingua di destinazione creato viene menzionato come `fr-fr, `, `en-us`. (9527)
-* Quando si carica una mappa DITA all&#39;esterno della cartella della lingua, viene registrata un&#39;eccezione nel backend.(9543)
+* Quando si carica una mappa DITA esterna alla cartella della lingua, viene registrata un&#39;eccezione nel backend.(9543)
 * Impossibile creare un file DITA utilizzando il modello DITA personalizzato dall&#39;editor. (7262)
 * La mappa DITA viene persa quando si pubblica una mappa DITA UUID tramite FMPS. (7278)
 * AEM Guides non copia le proprietà non univoche di una risorsa quando questa viene copiata e incollata. (8241)
@@ -371,7 +393,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * La posizione di evidenziazione non è corretta nella vista affiancata. (9305)
 * La nota a piè di pagina &quot;usa per riferimento&quot; non scorre fino alla sezione della nota a piè di pagina nell’output del sito AEM. (9061)
 * L’ordine delle note a piè di pagina non è corretto nell’output del sito AEM. (9327)
-* Le nuove risorse DITA create vengono sempre estratte da un altro utente. 9387
+* Le nuove risorse DITA create vengono sempre estratte da un altro utente. (9387)
 * L’errore viene sempre registrato durante la creazione di un nuovo contenuto. (9388)
 * Nella terza schermata del processo di creazione dell&#39;attività di revisione non viene visualizzato l&#39;elenco dei glossari. (4558)
 * Riferimenti UUID errati assegnati durante il caricamento di più file dal connettore FrameMaker/ossigeno. (8269)
@@ -383,7 +405,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Nel pannello Cronologia versioni, la sezione della versione corrente mostra una marca temporale errata e informazioni modificate da. (8765)
 * Linea di base non aggiornata sulla base dell’etichetta definita. (8799)
 * Si verifica un errore quando i file la cui cartella principale contiene caratteri speciali nel nome del file vengono aperti in ossigeno utilizzando il pulsante **Modifica in ossigeno**. (8918)
-* Il caricamento di file da Oxygen ad AEM non riesce. 9157
+* Il caricamento di file da Oxygen ad AEM non riesce. (9157)
 * Il download della mappa con linea di base non funziona se il contenuto viene spostato in un’altra cartella. (9331)
 * L’ossigeno estrae una versione errata di un argomento dopo il ripristino di una versione in AEM. (9411)
 * La ricerca nel pannello Archivio e nella finestra di dialogo Sfoglia topicref blocca lo schermo quando il contenuto è di grandi dimensioni. (9432)
@@ -398,11 +420,11 @@ Di seguito sono elencati i bug risolti in varie aree:
 * Il riutilizzo del pannello del contenuto si blocca durante la ricerca di caratteri speciali `[` o `*`.(8279)
 * Durante l&#39;authoring di Glossentry, l&#39;editor Web mostra il contenuto come una nota. (8384)
 * Editor XML rimuove la nuova riga nel blocco di codice. (8522)
-* Il passaggio tra la modalità di origine e la modalità di modifica contrassegna l’argomento come sporco e richiede che il contenuto venga salvato nuovamente.(8524)
+* Il passaggio tra la modalità di origine e la modalità di creazione contrassegna l’argomento come sporco e richiede che il contenuto venga salvato nuovamente.(8524)
 * Impossibile chiudere un argomento sbloccato. (8545)
 * Non esiste alcuna opzione per scegliere il percorso della Knowledge Base nei predefiniti di pubblicazione basati su articoli. (8636)
 * Attributi mancanti quando si aggiunge un capitolo a una mappa segnalibro mediante trascinamento dalla vista Preferiti. (8746)
-* La finestra di dialogo Inserisci parola chiave non dispone della funzionalità di ricerca e le parole chiave non sono elencate in ordine. 9094
+* La finestra di dialogo Inserisci parola chiave non dispone della funzionalità di ricerca e le parole chiave non sono elencate in ordine. (9094)
 * L&#39;esecuzione di una ricerca nell&#39;editor XML determina il blocco della pagina. (9452)
 * Siti mancanti nei predefiniti di AEM nella scheda Output. (9567)
 * Immagini di SVG che non vengono riprodotte correttamente nelle modalità di creazione di XML Editor. (9426)

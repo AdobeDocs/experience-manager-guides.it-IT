@@ -1,13 +1,21 @@
 ---
 title: Informazioni sugli utenti di Adobe Experience Manager Guides Generative AI
 description: Scopri le differenze dell’utente di IA generativa quando si utilizza l’Assistente IA in Adobe Experience Manager Guides.
-source-git-commit: d2db620265eb5b093f9a0522ed9074f61c5bb978
+exl-id: 3860edc6-a58f-48f5-a67e-8b0085d4d22d
+TQID: https://experienceleague.adobe.com/VtANhtxajfvlZe6NBGNOnmpew-NTiu9J-l9e2ZBgpjY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: 408
+ht-degree: 2%
 
 ---
-
 
 # Informazioni sugli utenti di Adobe Experience Manager Guides Generative AI
 
@@ -26,5 +34,3 @@ AI Assistant è basato su modelli di intelligenza artificiale generativi, e la t
 ## Feedback
 
 Forniamo un meccanismo di feedback direttamente all’interno dell’Assistente AI per aiutarci a migliorare la precisione. Si tratta di un processo continuo e continueremo a collaborare con i nostri clienti e la nostra community per sfruttare la potenza di questa nuova tecnologia in modo responsabile.
-
-

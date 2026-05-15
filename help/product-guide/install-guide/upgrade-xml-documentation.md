@@ -5,9 +5,26 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '9267'
+source-wordcount: 9267
 ht-degree: 1%
 
 ---
@@ -26,7 +43,7 @@ ht-degree: 1%
 - Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,7 +76,7 @@ Prima di eseguire il processo è necessario completare alcune attività. Le segu
 
 >[!NOTE]
 >
-> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [&#128279;](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+> Questo processo di aggiornamento è applicabile solo dalla versione 3.8.5 alla versione 4.0. Per il processo di aggiornamento dalla versione 3.4 o successiva alla versione 3.8.5, fare riferimento alla sezione *Aggiornamento di Experience Manager Guides* nella guida all&#39;installazione specifica del prodotto disponibile nell&#39;archivio di PDF della Guida di Adobe Experience Manager Guides [&#128279;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1299,7 +1316,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,7 +1326,7 @@ La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai 
 
 >[!IMPORTANT]
 >
-> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Prerequisiti**
 
@@ -1466,7 +1483,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
 
 >[!NOTE]
 >

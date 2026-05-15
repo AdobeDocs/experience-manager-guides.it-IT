@@ -1,21 +1,30 @@
 ---
 title: Utilizzare i metadati in AEM
-description: Learn how to create assets and add metadata using Adobe Experience Manager Assets. Manage metadata from AEM Guides.
+description: Scopri come creare risorse e aggiungere metadati utilizzando Adobe Experience Manager Assets. Gestisci i metadati da AEM Guides.
 feature: Metadata Management
 role: User
 hide: true
 exl-id: 578ea79c-cfb7-4902-b6d5-9d8a010fe26a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/CI4t9N8xfw6GWusKxXrIzRGU12UE2P0kIwpEZMLijKk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: 99
 ht-degree: 0%
 
 ---
 
 # Utilizzare i metadati in AEM {#id21BJ00QD0XA}
 
-Adobe Experience Manager Assets provides you with the feature to create assets and add metadata to them. You can keep metadata for every asset. You can manage metadata with your assets and also automatically organize and process assets based on their metadata.
+Adobe Experience Manager Assets offre la possibilità di creare risorse e aggiungervi metadati. Puoi conservare i metadati per ogni risorsa. Puoi gestire i metadati con le risorse e organizzare ed elaborare automaticamente le risorse in base ai loro metadati.
 
-For more details about metadata management in AEM, see [Manage metadata of your digital assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=it).
+Per ulteriori dettagli sulla gestione dei metadati in AEM, consulta [Gestire i metadati delle risorse digitali](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
 
 **Argomento padre:**&#x200B;[&#x200B; Gestisci metadati](manage-metadata.md)

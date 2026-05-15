@@ -1,38 +1,53 @@
 ---
 title: Knowledge Base
-description: Learn how to create Knowledge Base preset from the web editor and the map dashboard. Configure Knowledge Base output preset in AEM Guides.
+description: Scopri come creare un predefinito della Knowledge Base dall’editor web e dal dashboard delle mappe. Configura il predefinito di output della Knowledge Base in AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/HJXph-LwnRky6LmJspO7ipWaeTAAuloZb5paG6HqZJQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1166
 ht-degree: 2%
 
 ---
 
 # Knowledge Base {#knowledge-base}
 
-You can create the **Knowledge Base** preset from the Web Editor:
+È possibile creare il predefinito **Knowledge Base** dall&#39;editor Web:
 
-In the Repository panel, open the DITA map file in **Map View**, then in the **Output** tab, select the + icon to create an output preset, and then select **Knowledge Base** from the **Type** dropdown in the **New output preset** dialog. You can name the preset and choose the target to generate the output using the **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
-
-
+Nel pannello Repository, apri il file di mappa DITA in **Vista mappa**, quindi nella scheda **Output** seleziona l&#39;icona + per creare un predefinito di output, quindi seleziona **Knowledge Base** dal menu a discesa **Tipo** nella finestra di dialogo **Nuovo predefinito di output**. È possibile denominare il predefinito e scegliere la destinazione per generare l&#39;output utilizzando **Adobe Experience Manager**, **Salesforce** o **ServiceNow**.
 
 
-## Knowledge Base configuration{#knowledge-base-configuration}
 
 
-In the Web editor, the following configurations have been organized under the **General** and **Articles** tabs. You can also configure the settings for the specific **Knowledge Base** you have selected as a target, **Adobe Experience Manager**, **Salesforce**, or **ServiceNow**.
+## Configurazione della Knowledge Base{#knowledge-base-configuration}
+
+
+Nell&#39;editor Web, le seguenti configurazioni sono state organizzate nelle schede **Generale** e **Articoli**. È inoltre possibile configurare le impostazioni per la **Knowledge Base** specifica selezionata come destinazione, **Adobe Experience Manager**, **Salesforce** o **ServiceNow**.
 
 
 ### Generale
 
-| Knowledge Base  options | Descrizione |
+| Opzioni della Knowledge Base | Descrizione |
 | --- | --- |
-| Applica condizioni utilizzando | Select one of the following options:<br><br>* **None applied**: Select this option if you don&#39;t want to apply any condition on the published output.<br>* **DITAVAL file**: Select DITAVAL file(s) to generate personalized content. You can select multiple DITAVAL files using the browse dialog or by typing the file path. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVAL vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. If the DITAVAL file is moved to another location or deleted, it&#39;s not automatically deleted from the preset. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. You can hover over the file name to view the path in the Adobe Experience Manager repository where the file is stored. You can only select DITAVAL files, and an error is displayed if you select any other file type.<br>* **Condition preset**: Select a condition preset from the dropdown to apply a condition while publishing the output. L&#39;opzione è visibile se è stata aggiunta una condizione presente nella scheda Predefiniti condizione della console Mappa DITA. To know more about condition presets, view [Use condition presets](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>View [Work with Baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) for more details. |
+| Applica condizioni utilizzando | Selezionare una delle opzioni seguenti:<br><br>* **Nessuna applicazione**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>* **File DITAVAL**: selezionare i file DITAVAL per generare il contenuto personalizzato. È possibile selezionare più file DITAVAL utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVAL vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVAL viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal predefinito. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio di Adobe Experience Manager in cui è memorizzato il file. È possibile selezionare solo i file DITAVAL e viene visualizzato un errore se si seleziona un altro tipo di file.<br>* **Predefinito condizione**: selezionare un predefinito condizione dal menu a discesa per applicare una condizione durante la pubblicazione dell&#39;output. L&#39;opzione è visibile se è stata aggiunta una condizione presente nella scheda Predefiniti condizione della console Mappa DITA. Per ulteriori informazioni sui predefiniti di condizione, visualizzare [Usa predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
 | Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in Adobe Experience Manager. È necessario selezionare un flusso di lavoro da eseguire al termine della generazione dell&#39;output.<br><br>**Nota**: ulteriori informazioni su come [personalizzare il flusso di lavoro di generazione post-output](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) nella Guida all&#39;installazione e alla configurazione per Cloud Services. |
 
 ### ServiceNow
@@ -52,28 +67,28 @@ In the Web editor, the following configurations have been organized under the **
 | Campo contenuto articolo | È possibile avere campi diversi e un layout univoco per ogni modello di tipo di record. Utilizzare questi campi per immettere informazioni specifiche in base al tipo di articolo. Ad esempio, puoi visualizzare il titolo, la risposta e l’equazione di un articolo di domande frequenti. |
 | Categorie | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito Salesforce. |
 
-You can also view the following options in the Salesforce and ServiceNow presets:
+È inoltre possibile visualizzare le seguenti opzioni nei predefiniti di Salesforce e ServiceNow:
 
 | Opzioni | Descrizione |
 | --- | --- |
-| Remove the topic heading from the article body. | Select this option to remove the topic heading from the article in the published output. |
-| Upload as draft | Select this option to upload the topic to share it as a draft before making it available to the users. |
-| Upload images | Select this option if you want any images in topics to be included in the published output. |
-| Upload linked documents | Select this option to include the documents linked in topics in the published output. |
+| Rimuovi l&#39;intestazione dell&#39;argomento dal corpo dell&#39;articolo. | Selezionare questa opzione per rimuovere l&#39;intestazione dell&#39;argomento dall&#39;articolo nell&#39;output pubblicato. |
+| Carica come bozza | Seleziona questa opzione per caricare l’argomento e condividerlo come bozza prima di renderlo disponibile agli utenti. |
+| Carica immagini | Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti. |
+| Carica documenti collegati | Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti. |
 
 ### Adobe Experience Manager
 
 >[!NOTE]
 >
->You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](/help/product-guide/install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
+>È possibile utilizzare il predefinito della Knowledge Base di Adobe Experience Manager se è stato configurato dall&#39;amministratore. Per ulteriori dettagli, visualizzare [Pubblicazione basata su articolo dalla sezione Web Editor](/help/product-guide/install-guide/configure-article-based-publishing.md) nella Guida all&#39;installazione e alla configurazione.
 
-| Adobe Experience Manager options | Descrizione |
+| Opzioni Adobe Experience Manager | Descrizione |
 | --- | --- |
-| Use article path | Select this option to view the **Article path** of the folder that contains the Knowledge Base templates. |
-| Article Path | This field appears if you select the option **Use article path**. Browse to select the  Knowledge Base Site within your Adobe Experience Manager repository where the output is stored. |
-| Sito | Use this field to select the required Adobe Experience Manager Knowledge Base. You can configure knowledge bases in the Adobe Experience Manager site to store the content based on the permissions. Gli articoli di questa mappa DITA possono essere pubblicati in queste knowledge base. |
-| Categoria | Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
-| Section Template and Article Template | These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
+| Usa percorso articolo | Selezionare questa opzione per visualizzare il **percorso articolo** della cartella contenente i modelli della Knowledge Base. |
+| Percorso articolo | Questo campo viene visualizzato se si seleziona l&#39;opzione **Usa percorso articolo**. Selezionare il sito della Knowledge Base all&#39;interno dell&#39;archivio Adobe Experience Manager in cui è memorizzato l&#39;output. |
+| Sito | Utilizzare questo campo per selezionare la Knowledge Base di Adobe Experience Manager richiesta. Puoi configurare le knowledge base nel sito Adobe Experience Manager per archiviare il contenuto in base alle autorizzazioni. Gli articoli di questa mappa DITA possono essere pubblicati in queste knowledge base. |
+| Categoria | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito di Adobe Experience Manager. |
+| Modello sezione e modello articolo | Si tratta dei componenti strutturali utilizzati per organizzare il contenuto dell’output. Sono predefiniti nel modello Sito Adobe Experience Manager. |
 | Flusso di lavoro di post-generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in Adobe Experience Manager. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br>Ulteriori informazioni su come [personalizzare il flusso di lavoro di generazione post-output](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) nella Guida all&#39;installazione e alla configurazione. |
 
 >[!TIP]

@@ -1,42 +1,66 @@
 ---
-title: Manage content
-description: Manage content and identify your roles and permissions in AEM Guides. Learn the key concepts of content management and working with the global or folder-level profiles.
+title: Gestire i contenuti
+description: Gestisci i contenuti e identifica i ruoli e le autorizzazioni in AEM Guides. Scopri i concetti chiave della gestione dei contenuti e dell’utilizzo dei profili a livello globale o di cartella.
 feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/Rko9tfse1l5d-ZKeidb8hCqs1L2RcMlc9o581Xiakk4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: b88be3fe-792c-484d-8262-9f667de75c8d
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: 741
 ht-degree: 10%
 
 ---
 
-# Manage content {#id164JBG0M0T1}
+# Gestire i contenuti {#id164JBG0M0T1}
 
-Before you start with the actual content creation, you must familiarize yourself with some basic concepts of content management in AEM Guides. Then, start with creating different user groups and organizing your assets.
+Prima di iniziare a creare effettivamente i contenuti, è necessario acquisire familiarità con alcuni concetti di base del content management in AEM Guides. Quindi, inizia con la creazione di diversi gruppi di utenti e l’organizzazione delle risorse.
 
 ## Concetti fondamentali
 
-Some key concepts of content management in AEM are as follows:
+Di seguito sono riportati alcuni concetti chiave della gestione dei contenuti in AEM:
 
-**Asset management**
+**Gestione risorse**
 
-AEM Guides uses AEM&#39;s digital asset management \(DAM\) to manage your DITA files. The files that you upload or check into the DAM are stored as digital assets. You can manage and edit your assets in AEM Assets. For more information about asset management, see [Manage assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it).
+AEM Guides utilizza la funzione di gestione delle risorse digitali (DAM) di AEM per gestire i file DITA. I file caricati o archiviati in DAM vengono memorizzati come risorse digitali. Puoi gestire e modificare le risorse in AEM Assets. Per ulteriori informazioni sulla gestione delle risorse, consulta [Gestione risorse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=it).
 
-**Link management**
+**Gestione dei collegamenti**
 
-Move or rename files or change folder structure in the content repository, without worrying about broken references. All references to and from the impacted content are automatically updated. Get warnings when deleting content which is referenced from elsewhere, to prevent unintentional breakages.
+Spostare o rinominare file o modificare la struttura delle cartelle nell&#39;archivio dei contenuti, senza preoccuparsi dei riferimenti interrotti. Tutti i riferimenti a e dal contenuto interessato vengono aggiornati automaticamente. Per evitare interruzioni involontarie, genera avvisi durante l’eliminazione di contenuto a cui si fa riferimento da altre aree.
 
-**Managing versions**
+**Gestione delle versioni**
 
-AEM Guides provides version management for your digital assets. You can easily enable this functionality from a DITA authoring application of choice. Allowing your writers to perform the standard version control functions such as check-in and check-out.
+AEM Guides fornisce la gestione della versione per le risorse digitali. Questa funzionalità può essere facilmente attivata da un&#39;applicazione di authoring DITA. Consente agli autori di eseguire le funzioni standard di controllo della versione, ad esempio il check-in e il check-out.
 
-For more information about creating versions or reverting to a specific version, see [Branch, revert, and subsequent versioning](web-editor-preview-topics.md#id193PG0Y051X).
+Per ulteriori informazioni sulla creazione di versioni o sul ripristino di una versione specifica, vedere [Branch, Revert e versioni successive](web-editor-preview-topics.md#id193PG0Y051X).
 
-**Native DITA handling**
+**Gestione DITA nativa**
 
-While AEM Guides maintains the structure of your DITA files, it also enables AEM to natively handle DITA using element mapping to map the DITA elements to AEM components. The native DITA handling is used in features such as topic preview, AEM Sites publishing, and the review workflows.
+AEM Guides mantiene la struttura dei file DITA, ma consente anche ad AEM di gestire in modo nativo la DITA utilizzando la mappatura degli elementi per mappare gli elementi DITA ai componenti AEM. La gestione DITA nativa viene utilizzata in funzioni quali l&#39;anteprima degli argomenti, la pubblicazione AEM Sites e i flussi di lavoro di revisione.
 
 ## Identificare il ruolo e le autorizzazioni {#id181TF0K0MHT}
 

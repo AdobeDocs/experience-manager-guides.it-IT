@@ -4,10 +4,21 @@ description: Versione di ottobre di Adobe Experience Manager Guides as a Cloud S
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/w-fw81jYGDRDrmn98Dzn-hYIkOZzT0B3-4-y-bcxdz4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: 489
+ht-degree: 3%
 
 ---
 
@@ -63,12 +74,12 @@ Seleziona uno o più predefiniti e genera rapidamente l’output. Potete anche v
 
 Di seguito sono elencati i bug risolti in varie aree:
 
-* PDF nativo | Errore durante la rimozione degli argomenti relativi solo alle risorse dall&#39;output di PDF. (10554)
-* PDF nativo | Nell&#39;output di PDF vengono visualizzati i tasti vuoti. (10553)
+* PDF nativo | Errore durante la rimozione degli argomenti relativi alle sole risorse dall&#39;output di PDF. (10554)
+* PDF nativo | I tasti vuoti vengono visualizzati nell&#39;output di PDF. (10553)
 * PDF nativo | `navtitle` per `topichead` non è rispettato. (10509)
-* PDF nativo | Supporto necessario per le versioni JDK di amd64. (10465)
-* PDF nativo | Impossibile nascondere gli argomenti di frontmatter dal sommario. (10355)
-* PDF nativo | Se si riavvia il numero di pagina nel layout del capitolo, la numerazione inizia in modo casuale dalla fine del capitolo precedente. (10154)
-* Browser Chrome | Lo schermo si sta spegnendo quando si trascina un elemento dall’interfaccia utente. Ad esempio, quando si trascina una condizione dal pannello Condizioni. (10524)
+* PDF nativo | Supporto necessario per le versioni JDK amd64. (10465)
+* PDF nativo | Non è possibile nascondere gli argomenti relativi al frontespizio dal sommario. (10355)
+* PDF nativo | Riavviando il numero di pagina nel layout del capitolo, la numerazione inizia in modo casuale dalla fine del capitolo precedente. (10154)
+* Browser Chrome | Lo schermo si oscura quando si trascina un elemento dall’interfaccia utente. Ad esempio, quando si trascina una condizione dal pannello Condizioni. (10524)
 * Le proprietà del nodo vengono rimosse dopo l’operazione di copia e incolla di una risorsa. (10053)
 * Facendo clic su **Chiudi** gli utenti venivano reindirizzati alle risorse. L&#39;esperienza è stata corretta per portare gli utenti alla home page di AEM. (9654)

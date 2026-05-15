@@ -2,9 +2,15 @@
 title: Esempi
 description: Elenco di esempi di personalizzazione
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -42,7 +48,7 @@ In questo esempio abbiamo aggiunto la sostituzione del nome utente con le inform
 3. [Risposta commento](./examples/review_app_examples/comment_reply.ts)
 In questo esempio abbiamo aggiunto che il nome utente è stato sostituito da informazioni utente (che comprendono il nome completo e il titolo del commento) e aggiunto un’icona mailTo nell’intestazione del commento.
 
-4. [Pannello revisioni in linea](./examples/review_app_examples/inline_review_panel.ts)
+4. [Pannello di revisione in linea](./examples/review_app_examples/inline_review_panel.ts)
 In questo file, viene calcolato e assegnato l&#39;ID commento univoco, indicato negli esempi `Review Comment` e `Comment Reply`.
    - Il metodo `setCommentId` imposta l&#39;ID univoco di ogni commento in base al numero di commenti.
 
@@ -64,5 +70,5 @@ Questo è un esempio di come aggiornare una finestra di dialogo esistente. Aggiu
 
 Ecco il pannello di revisione prima e dopo la personalizzazione:
 
-![Pannello recensioni;](./imgs/review_panel.png)
+![Pannello di revisione;](./imgs/review_panel.png)
 ![Accetta con finestra di dialogo per modifica](./imgs/customised_review_panel.png)

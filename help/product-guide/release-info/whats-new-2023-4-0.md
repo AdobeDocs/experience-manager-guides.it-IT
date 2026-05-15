@@ -4,9 +4,21 @@ description: Versione di aprile 2023 di Adobe Experience Manager Guides as a Clo
 exl-id: 269e3a13-584d-4cff-a18a-d4fa89646a5a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/c1aOcwHgxAs11yAalOnlW-ghsTP1Or32TnBwLsc59-M
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -43,5 +55,5 @@ La vista Struttura offre i seguenti miglioramenti:
 
 AEM Guides as a Cloud Service fornisce la funzione di eseguire carichi di lavoro di pubblicazione di grandi dimensioni in concomitanza con la pubblicazione basata su microservizi e di sfruttare la piattaforma senza server Adobe I/O Runtime leader del settore.
 
-Nella versione di aprile è ora possibile eseguire più richieste di pubblicazione simultaneamente e generare output di PDF in blocco in modo molto efficiente utilizzando la pubblicazione di PDF nativi basata su microservizi.
-Per ulteriori dettagli, consulta [Configurare la nuova pubblicazione basata su microservizi per AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
+Nella versione di aprile è ora possibile eseguire più richieste di pubblicazione simultaneamente e generare output in blocco di PDF in modo molto efficiente utilizzando la pubblicazione nativa di PDF basata su microservizi.
+Per ulteriori dettagli, vedere [Configurare la nuova pubblicazione basata su microservizi per AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).

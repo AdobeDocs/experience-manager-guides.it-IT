@@ -1,9 +1,18 @@
 ---
 title: Migrazione di contenuti da non-uuid a UUID
 description: AEM Guides, migrazione di contenuti non uuid in uuid
-source-git-commit: b8afb4c3a8c99d16a317751b3efd91adbb03f58d
+exl-id: d5489fb4-ca3e-4057-a811-2c4ea79b5960
+TQID: https://experienceleague.adobe.com/Hn61B4sorbwERrFcNNqCIxOfQvu2ViV5rma-pZl-bII
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 288
 ht-degree: 1%
 
 ---
@@ -25,7 +34,7 @@ In questa sessione spiegheremo i passaggi per migrare il contenuto da AEM Guides
 - **Data** - 26 settembre 2024
 - **Numero di partecipanti** - 60+
 - **Durata** - 60 minuti
-- **Pubblico** - Clienti, partner e dipendenti Adobi
+- **Pubblico** - Clienti, partner e dipendenti Adobe
 
 
 ## Elementi principali da ricordare
@@ -46,9 +55,9 @@ Passaggi per passare da non-uuid a uuid
 
 ### Documentazione
 
-- [Migrazione del contenuto da non UUID a UUID](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrazione di contenuti da non UUID a UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: spostare il contenuto UUID da on-premise/AMS al cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Passaggio a AEM Cloud](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Passaggio ad AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: migrazione dei contenuti non uuid a Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum della community

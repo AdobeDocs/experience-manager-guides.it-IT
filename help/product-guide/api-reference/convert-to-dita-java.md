@@ -5,9 +5,18 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/gAntb7T-OGlwRNInxAsV8orxL3H9qL19Dsjwf5FZ14I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 324
 ht-degree: 4%
 
 ---
@@ -22,7 +31,7 @@ ht-degree: 4%
 
 
 
-Le seguenti API basate su Java consentono di convertire i documenti HTML e Word in formato DITA. Queste API sono disponibili sotto forma di bundle. Per utilizzare queste API, devi includere questo bundle nel codice.
+Le seguenti API basate su Java consentono di convertire documenti HTML e Word in formato DITA. Queste API sono disponibili sotto forma di bundle. Per utilizzare queste API, devi includere questo bundle nel codice.
 
 **Dettagli bundle**:
 
@@ -40,7 +49,7 @@ Le seguenti API basate su Java consentono di convertire i documenti HTML e Word 
   public class ConversionUtils extends Object
   ```
 
-  La classe **ConversionUtils** contiene metodi per la conversione di documenti HTML e Word in formato DITA.
+  La classe **ConversionUtils** contiene metodi per la conversione di documenti di HTML e Word in formato DITA.
 
 
 ## Conversione di documenti HTML

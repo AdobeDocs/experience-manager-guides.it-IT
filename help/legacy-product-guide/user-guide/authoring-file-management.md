@@ -1,42 +1,52 @@
 ---
 title: Gestione di file e cartelle
-description: Learn how to manage files and folders in AEM Guides. Copy and paste, drag and drop, delete, move files and folders in bulk, and search DITA content.
+description: Scopri come gestire file e cartelle in AEM Guides. Copiare e incollare, trascinare e rilasciare, eliminare, spostare file e cartelle in blocco e cercare contenuti DITA.
 feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: 3144
 ht-degree: 0%
 
 ---
 
 # Gestione di file e cartelle {#id2116G0L08XA}
 
-This section explains how AEM Guides handles the basic file operations, such as copy, paste, drag-and-drop, and delete files. The following scenarios are possible:
+Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, come copiare, incollare, trascinare e rilasciare ed eliminare i file. Sono possibili i seguenti scenari:
 
-## Copy and paste files
+## Copiare e incollare file
 
-**If the file has human readable filename**
+**Se il file ha un nome di file leggibile**
 
-- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a UUID is also assigned to it. Here, the file name is same as the original file name.
-- *If the file with the same name already exists in the destination folder*: A new copy of the file is created with a suffix \(like filename0.extension\). A UUID is also assigned to the newly created file.
-
-
-**If the filename is based on a UUID pattern**
-
-- *If the file with the same name does not exist in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Here, the file name is same as the UUID.
-- *If the file with the same name already exists in the destination folder*: A new copy of the file is created and a new UUID is also assigned to it. The file name is same as the UUID.
+- *Se il file con lo stesso nome non esiste nella cartella di destinazione*: viene creata una nuova copia del file a cui viene assegnato anche un UUID. In questo caso, il nome del file è uguale al nome del file originale.
+- *Se il file con lo stesso nome esiste già nella cartella di destinazione*: viene creata una nuova copia del file con il suffisso \(come nomefile0.extension\). Al file appena creato viene assegnato anche un UUID.
 
 
-## Copy and paste folders
+**Se il nome file è basato su un modello UUID**
 
-**Copy and paste folder at the same location**
+- *Se il file con lo stesso nome non esiste nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID nella nuova posizione. In questo caso, il nome del file è uguale a UUID.
+- *Se il file con lo stesso nome esiste già nella cartella di destinazione*: viene creata una nuova copia del file e viene assegnato un nuovo UUID. Il nome del file è uguale all’UUID.
 
-- *The folder has files with human readable filenames*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to the files within the folder. However, there is no change in the file names.
 
-- *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with a suffix \(like foldername0\). A new UUID is also assigned to all files within the new folder. The file names are also changed; the file names are same as the new UUID.
+## Copiare e incollare cartelle
+
+**Copia e incolla cartella nella stessa posizione**
+
+- *La cartella contiene file con nomi di file leggibili dall&#39;utente*: viene creata una nuova copia della cartella con il suffisso \(ad esempio nomecartella0\). Ai file all’interno della cartella viene assegnato anche un nuovo UUID. Tuttavia, i nomi dei file non vengono modificati.
+
+- *La cartella contiene file con nomi di file basati su un modello UUID*: viene creata una nuova copia della cartella con il suffisso \(ad esempio nomecartella0\). Un nuovo UUID viene inoltre assegnato a tutti i file all’interno della nuova cartella. Anche i nomi dei file vengono modificati; i nomi dei file sono gli stessi del nuovo UUID.
 
 
 **Copia e incolla cartella in un percorso diverso**
@@ -138,7 +148,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    >[!TIP]
    >
-   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
+   > Seleziona <img src="images/info-icon.svg" width="25"> vicino a qualsiasi campo per visualizzare ulteriori dettagli.
 
 
    - **Aggiungi suffisso alle cartelle duplicate**: se stai spostando cartelle con lo stesso nome, devi selezionare questa opzione. Nella schermata precedente, ad esempio, il percorso **Source** contiene il nome delle cartelle da spostare. La cartella denominata topic esiste in due posizioni diverse, test-A e test-B. Quando selezioni questa opzione, le cartelle verranno spostate correttamente. La prima cartella spostata sarà denominata topic, mentre la seconda sarà denominata topic0. L&#39;operazione di spostamento aggiunge un suffisso nelle serie sequenziali \(0, 1, 2 e così via\) alle cartelle con lo stesso nome.
@@ -147,7 +157,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
@@ -179,7 +189,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    >[!TIP]
    >
-   > Seleziona <img src="images/info-icon.svg" width="25">   vicino a qualsiasi campo per visualizzare ulteriori dettagli su di esso.
+   > Seleziona <img src="images/info-icon.svg" width="25"> vicino a qualsiasi campo per visualizzare ulteriori dettagli.
 
    - **Dimensione batch**: specificare il numero di file da spostare in un singolo batch. I valori predefiniti per 50 file.
    - **Intervallo di sospensione (secondi)**: specificare il tempo di attesa in secondi del processo prima di avviare il batch successivo. Durante questo intervallo di sospensione, il sistema corregge i riferimenti ai file spostati e da essi. L&#39;intervallo di sospensione predefinito è di 60 secondi.
@@ -196,7 +206,7 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25">    per aprire la finestra di dialogo sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
 
       - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
@@ -217,35 +227,35 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 
-## Search DITA content
+## Cerca contenuto DITA
 
-By default, AEM does not recognize DITA content, thus, it doesn&#39;t provide any mechanism to search DITA content within its repository. AEM Guides adds a layer on top of AEM, which enables AEM to understand and process DITA content. The Search DITA content feature in AEM Guides allows you to search for DITA content within AEM repository.
+Per impostazione predefinita, AEM non riconosce il contenuto DITA, pertanto non fornisce alcun meccanismo per eseguire ricerche nel contenuto DITA all&#39;interno del relativo archivio. AEM Guides aggiunge un livello sopra AEM, che consente ad AEM di comprendere ed elaborare i contenuti DITA. La funzione Ricerca contenuto DITA in AEM Guides consente di cercare contenuto DITA all&#39;interno dell&#39;archivio AEM.
 
 >[!NOTE]
 >
->Your system administrator can configure the **DITA Element** search component and then you can use the feature from the AEM Assets UI. For more details see, *Add DITA Element search component in Assets UI* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+>L&#39;amministratore di sistema può configurare il componente di ricerca **Elemento DITA** e quindi utilizzare la funzionalità dall&#39;interfaccia utente di AEM Assets. Per ulteriori dettagli, vedi la sezione *Aggiungere il componente di ricerca degli elementi DITA nell&#39;interfaccia utente di Assets* in Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-Using the search feature, you can:
+Utilizzando la funzione di ricerca, potete effettuare le seguenti operazioni:
 
-- Search for DITA content based on an element value; for example, `author`= xml
-- Search for DITA content based on an attribute value; for example, `@platform`= windows
-- Use a combination of DITA element and attribute value; for example, `author`= xml `AND` `@platform`= windows
+- Cercare contenuto DITA in base a un valore di elemento, ad esempio `author`= xml
+- Cerca contenuto DITA in base a un valore di attributo, ad esempio `@platform`= windows
+- Utilizzare una combinazione di elemento DITA e valore di attributo, ad esempio `author`= xml `AND` `@platform`= windows
 
-Perform the following steps to search for DITA content within AEM repository:
+Per cercare contenuto DITA nell&#39;archivio AEM, effettuare le seguenti operazioni:
 
-1. Open the Assets UI.
+1. Apri l’interfaccia utente di Assets.
 
-1. In the left rail, select **Filters**.
+1. Nella barra a sinistra, seleziona **Filtri**.
 
    ![](images/left-rail-filter.png){width="450" align="center"}
 
-   The content filtering options are shown in the left rail. You will also find the filtering option—DITA Element, which is used to filter DITA content.
+   Le opzioni di filtro del contenuto sono visualizzate nella barra a sinistra. È inoltre disponibile l&#39;opzione di filtro Elemento DITA, utilizzata per filtrare il contenuto DITA.
 
    ![](images/dita-element-search.png){width="450" align="center"}
 
-1. *\(Optional\)* In the **Select Search Directory** field, browse for the location that you want to search in.
+1. *\(Facoltativo\)* Nel campo **Seleziona directory di ricerca**, cercare il percorso in cui si desidera eseguire la ricerca.
 
-1. In the **DITA Element** filter, provide the **Element Name**, **Attribute**, and a value that you want to search for. For example, to search for documents that have `author` element that is of `@type` creator you need to provide the information as shown in the following screenshot:
+1. Nel filtro **Elemento DITA**, specificare **Nome elemento**, **Attributo** e un valore che si desidera cercare. Ad esempio, per cercare documenti con l&#39;elemento `author` di `@type` creatore, è necessario fornire le informazioni come mostrato nella schermata seguente:
 
    ![](images/search-params.png){width="650" align="center"}
 

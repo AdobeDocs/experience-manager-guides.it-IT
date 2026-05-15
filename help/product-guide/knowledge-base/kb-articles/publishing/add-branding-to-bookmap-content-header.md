@@ -4,9 +4,21 @@ description: Ottieni il marchio dell’azienda integrando la pagina di copertina
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+TQID: https://experienceleague.adobe.com/6CGRK2QWFZ6nIXmIAQZy3lX7t4KYP2-HeyqlVW2-7eE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
@@ -18,21 +30,21 @@ ht-degree: 0%
 Ottenere il marchio Enterprise unendo perfettamente la pagina FrontCover con la pagina del capitolo, assicurando che l&#39;identità dell&#39;azienda venga visualizzata in primo piano nel contenuto.
 
 - [Configura il contenuto](#set-up-your-content)
-- [Apporta le modifiche necessarie nel modello di PDF](#create-necessary-changes-in-pdf-template)
+- [Apporta le modifiche necessarie nel modello PDF](#create-necessary-changes-in-pdf-template)
 
 **Prima:**
 
-![Prima di correggere il branding: schermata che mostra il layout PDF predefinito](../assets/publishing/branding-image1.png)
+![Prima di correggere il branding: schermata che mostra il layout PDF pre-branded](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
 **Dopo:**
 
-![Dopo aver corretto il branding: schermata che mostra il layout dei PDF post-branding](../assets/publishing/branding-image2.png)
+![Dopo aver corretto il branding: schermata che mostra il layout del PDF post-branding](../assets/publishing/branding-image2.png)
 
 ## Configura il contenuto
 
-Per pubblicare il contenuto in formato PDF, è necessario creare un Ditamap o un Bookmap.
+Per pubblicare il contenuto in formato PDF, è necessario creare una mappa digitale o una mappa.
 
 Esempio di struttura Bookmap:
 
@@ -75,7 +87,7 @@ Esempio di struttura Ditamap:
 Il FrontCover di PDF viene generato automaticamente se Bookmap contiene `<frontmatter>`.
 
 
-## Apporta le modifiche necessarie nel modello di PDF
+## Apporta le modifiche necessarie nel modello PDF
 
 In questa sezione verrà configurato il modello. Per iniziare, puoi utilizzare o duplicare il modello Hi-tech.
 
@@ -90,12 +102,12 @@ In questa sezione verrà configurato il modello. Per iniziare, puoi utilizzare o
 
 #### Se utilizzi Ditamap per la generazione di PDF:
 
-Quando si pubblica un DITAMAP, Native PDF fornisce la funzionalità per generare automaticamente una pagina FrontCover. L&#39;opzione per abilitare o disabilitare la generazione di pagine di FrontCover può essere configurata nel modello di PDF nativo.
+Quando si pubblica un DITAMAP, il PDF nativo fornisce la funzionalità per generare automaticamente una pagina FrontCover. L&#39;opzione per abilitare o disabilitare la generazione di pagine di FrontCover può essere configurata nel modello PDF nativo.
 
 Per unire:
-- Passa alle impostazioni del modello di PDF nativo —> Ordine di layout pagina
+- Passa alle impostazioni del modello PDF nativo —> Ordine di layout pagina
 - È ora possibile unire FrontCover alla pagina successiva, ad esempio Capitolo e argomenti.
-  ![Unione di FrontCover con il capitolo: schermata che mostra le impostazioni del modello di PDF nativo](../assets/publishing/branding-image3.png)
+  ![Unione di FrontCover con il capitolo: schermata che mostra le impostazioni del modello PDF nativo](../assets/publishing/branding-image3.png)
 - Salva il modello, seleziona questo modello per il predefinito e pubblica.
 
 
@@ -127,21 +139,20 @@ window.addEventListener('DOMContentLoaded', function () {
 ```
 
 - Includi questo JavaScript nel modello del capitolo.
-  ![Includi JavaScript nel modello di capitolo: schermata che mostra la voce nel modello di PDF per il layout di pagina](../assets/publishing/branding-image4.png)
+  ![Includi JavaScript nel modello di capitolo: schermata che mostra la voce nel modello di PDF di layout pagina](../assets/publishing/branding-image4.png)
 
 - Abilita JavaScript dall’opzione predefinita
   ![Abilita impostazione predefinita JavaScript: schermata che mostra l&#39;impostazione predefinita per abilitare JavaScript](../assets/publishing/branding-image5.png)
 
-- Publish!
+- Pubblica!
 
 ## Allegati :
 
-- [Scarica il pacchetto modello di PDF di esempio per visualizzare le modifiche applicate.](../assets/publishing/NativePDF_DemoTemplate.zip)
+- [Scarica il pacchetto modello PDF di esempio per visualizzare le modifiche applicate.](../assets/publishing/NativePDF_DemoTemplate.zip)
 - [Scarica il pacchetto di esempio del predefinito PDF per visualizzare le modifiche applicate.](../assets/publishing/Preset_Package.zip)
 
 
 ## Altre risorse:
 
 - [Come includere il sommario di DITA Bookmap in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [Video di sessione esperti su Native PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-
+- [Video di sessione degli esperti sul PDF nativo](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)

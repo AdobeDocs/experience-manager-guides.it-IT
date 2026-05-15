@@ -4,9 +4,19 @@ description: Utilizzo delle variabili di contenuto contestuale (CCVAR) nelle pag
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: 497
 ht-degree: 2%
 
 ---
@@ -30,20 +40,20 @@ Considerando che AEM Guides viene utilizzato come origine di tutti i contenuti (
 
 Prima di procedere, verifica che siano soddisfatti i seguenti prerequisiti:
 
-1. **Comuni ACS AEM installati**:
-   - Assicurati che **ACS AEM Commons** sia installato nell&#39;istanza AEM. Questa opzione è necessaria per l’utilizzo di CCVAR.
+1. **AEM ACS Commons installato**:
+   - Assicurati che **ACS AEM Commons** sia installato nell&#39;istanza di AEM. Questa opzione è necessaria per l’utilizzo di CCVAR.
 
 2. **Configurazione variabili di contenuto contestuali**:
    - Completa la configurazione per **Variabili di contenuto contestuali** in AEM utilizzando la [documentazione ufficiale](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Ciò include:
       - Abilitazione dell&#39;aggregazione di proprietà **&#x200B;**.
-      - Configurazione della riscrittura di **HTML** (se si utilizza l&#39;output di HTML).
+      - Configurazione di **Riscrittura HTML** (se si utilizza l&#39;output di HTML).
       - Configurazione della riscrittura **JSON** (se si utilizza l&#39;output JSON).
 
 
 
 ## Passaggi per abilitare CCVAR in AEM Guides
 
-### 1. Definire le parole chiave nella mappa DITA
+### &#x200B;1. Definire le parole chiave nella mappa DITA
 
 - In AEM Guides, definisci le parole chiave utilizzando gli elementi `<keydef>` nella mappa DITA per corrispondere al CCVAR.
 - Ad esempio:
@@ -61,7 +71,7 @@ Prima di procedere, verifica che siano soddisfatti i seguenti prerequisiti:
 - L&#39;attributo `keys` (`product` in questo esempio) verrà utilizzato per fare riferimento a questa variabile negli argomenti DITA.
 
 
-## 2. Utilizzare le parole chiave negli argomenti DITA
+## &#x200B;2. Usa parole chiave negli argomenti DITA
 
 - Nell&#39;argomento, utilizzare la parola chiave ovunque debba essere utilizzato CCVar.
 - Ad esempio:
@@ -74,7 +84,7 @@ Prima di procedere, verifica che siano soddisfatti i seguenti prerequisiti:
 - Durante la generazione dell’output, la parola chiave verrà sostituita con il valore CCVar corrispondente.
 
 
-## 3. Genera output
+## &#x200B;3. Genera output
 
 - Quando si genera l&#39;output per AEM Sites, i riferimenti delle parole chiave vengono risolti nei valori dinamici corrispondenti.
 - Ad esempio:
@@ -116,7 +126,7 @@ Se `((inherited_page_properties.jcr:language))` viene risolto in `en`, l&#39;out
 ```
 
 
-### Riferimenti
+### Risorse
 
 Per ulteriori dettagli sulle **variabili di contenuto contestuali**, consulta la documentazione ufficiale:\
 [Variabili di contenuto contestuali in AEM Commons](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)

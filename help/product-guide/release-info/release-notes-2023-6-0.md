@@ -4,10 +4,27 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 3%
 
 ---
 
@@ -76,7 +93,7 @@ as a Cloud Service, per creare il file di configurazione.
 
 1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API restituirà un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la precedente richiesta GET risponderà con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
@@ -89,7 +106,7 @@ as a Cloud Service, per creare il file di configurazione.
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: È possibile passare percorsi specifici delle mappe per indicizzarle. Per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
@@ -126,7 +143,7 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 - Navtitle viene rimosso dal contenuto33 quando si passa dalla vista Layout a quella Author o Source. (12174)
 - A volte si verificano errori di applicazione quando si fa clic su una mappa DITA. (11842)
-- Editor web | Lo spazio unificatore viene aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
+- Editor web | Spazio unificatore aggiunto nell&#39;editor XML durante la modifica di un argomento. (11786)
 - Interfaccia utente risorse | Nella vista a elenco, le colonne disponibili sovrapposte non sono unificabili. (11528)
 - Keyref non è risolto nella vista mappa. (11490)
 - Il menu superiore non viene visualizzato quando si passa da un editor XML all&#39;altro. (10868)
@@ -146,16 +163,16 @@ Di seguito sono elencati i bug risolti in varie aree:
 - La pubblicazione sul sito AEM non riesce quando si leggono file temporanei dal pod che potrebbero essere stati aggiornati o riavviati. (12113)
 - PDF nativo | La pubblicazione di contenuti con una classe di output con parentesi() comporta un blocco della pubblicazione. (11936)
 - Output JSON | La mappatura dei metadati con valore di proprietà come `"value in spaces and double quotes"` genera un errore di pubblicazione. (11933)
-- Editor web | Il percorso e il modello di output non possono essere selezionati nel predefinito di AEM. (11530)
+- Editor web | Il percorso di output e il modello non possono essere selezionati nel predefinito di AEM. (11530)
 - PDF nativo | Gli attributi personalizzati non vengono propagati al motore HTML o PDF temporaneo. (DXML-12005)
-- PDF nativo |  Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
+- PDF nativo | Java OutOfMemoryError si verifica quando si pubblicano contenuti di grandi dimensioni. (11789)
 - Output JSON | La proprietà `fmUuid` nel nodo jcr:content di JSON è diversa dall&#39;ID all&#39;interno del JSON. (11564)
 - Output JSON | Se sono presenti la mappa e l’argomento con lo stesso nome file, viene rimosso il codice JSON della mappa. (11524)
-- PDF nativo | Xref sta stampando il contenuto del titolo dell&#39;argomento href anziché l&#39;etichetta Xref. (11322)
+- PDF nativo | Xref sta stampando il contenuto del titolo dell&#39;argomento href invece dell&#39;etichetta Xref. (11322)
 - PDF nativo | Impossibile salvare le impostazioni del modello PDF. (10751)
 - PDF nativo | Il testo si estende oltre la larghezza della colonna quando si includono più xref. (10876)
-- PDF nativo | L&#39;elemento `<note>` `</note>` non genera un titolo di estensione in eccesso del relativo tipo. (10549)
-- PDF nativo | Impossibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12296)
+- PDF nativo L&#39;elemento | `<note>` `</note>` non genera un titolo di estensione aggiuntivo per il relativo tipo. (10549)
+- PDF nativo | Non è possibile impostare i metadati del linguaggio nel PDF generato in modo che siano conformi a WCAG 2.0. (12296)
 
 
 
@@ -165,4 +182,4 @@ Di seguito sono elencati i bug risolti in varie aree:
 
 ### Rivedere
 
-- Nuova interfaccia di revisione | Le condizioni vengono evidenziate e visualizzate in modo diverso rispetto al funzionamento nell&#39;Editor Web. (11628)
+- Nuova interfaccia di revisione | Le condizioni evidenziano e mostrano il funzionamento di Nascondi in modo diverso rispetto a come funzionano nell’Editor web. (11628)

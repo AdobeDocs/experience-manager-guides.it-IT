@@ -4,9 +4,25 @@ description: Esplora le funzioni chiave di Experience Manager Guides, authoring 
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+TQID: https://experienceleague.adobe.com/qfne-WSiweRnvK-cGU8A9IJ0xh2yJ9pBHNWcRzDrBe8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1116
 ht-degree: 0%
 
 ---
@@ -38,12 +54,12 @@ Experience Manager Guides fornisce funzionalità di revisione basate su web pote
 
 Ora a ogni documento nel DAM viene assegnato lo stato. Questo stato del documento consente di identificare lo stato nel processo di documentazione del documento. L&#39;amministratore del sistema può definire gli stati del documento, gli stati di inizio e di fine predefiniti e la transizione dello stato del documento per i documenti.
 
-**Supporto di localizzazione e gestione delle traduzioni leader del settore**
+**Supporto per la localizzazione e la gestione delle traduzioni leader del settore**
 Ottieni risparmi significativi su tempi e costi di traduzione e assicurati che i contenuti pubblicati siano privi di errori di traduzione.
 
 Adobe Experience Manager viene fornito con connettori incorporati per i principali fornitori di servizi di traduzione. Sfrutta questi connettori per gestire contenuti specifici per le impostazioni internazionali. Utilizza appieno i rapporti di traduzione predefiniti per identificare i contenuti non tradotti prima della pubblicazione e adotta le azioni correttive appropriate. È possibile gestire lo stato del contenuto tradotto rispetto agli aggiornamenti della lingua master per eseguire la traduzione solo per i file DITA aggiornati. L&#39;identificazione manuale dei file da inviare per la traduzione non richiede molto tempo.
 
-**Pubblicazione multicanale all&#39;avanguardia di contenuti DITA**
+**Pubblicazione multicanale di contenuti DITA all&#39;avanguardia**
 Semplificazione della pubblicazione dei contenuti aziendali con un approccio semplice e immediato che accelera il time-to-market.
 
 Aggiungendo il supporto DITA nativo ad Experience Manager, è possibile generare output per Experience Manager Sites, PDF, HTML5, EPUBS o output personalizzato tramite DITA-OT. Puoi sfruttare l’output completamente configurabile per fornire esperienze di contenuto altamente personalizzate, rilevanti e coinvolgenti per gli utenti finali. Puoi anche eseguire facilmente la generazione batch o utilizzare la linea di base per pubblicare una versione specifica della documentazione.
@@ -51,16 +67,16 @@ Aggiungendo il supporto DITA nativo ad Experience Manager, è possibile generare
 **Dati completi sulla ricerca e sull&#39;utilizzo dei contenuti**
 Trova e seleziona più rapidamente i contenuti rilevanti, ottimizzando il ROI sui contenuti ad ogni riutilizzo. Eseguire ricerche di base e avanzate utilizzando attributi di contenuto e metadati di argomenti nell&#39;intero archivio tramite una semplice interfaccia nello strumento di creazione DITA. Ai risultati vengono assegnati dei tag con i dati sull’utilizzo del contenuto, per aiutarti a identificare e selezionare facilmente il contenuto giusto per un riutilizzo ottimale.
 
-**Rapporti approfonditi sulla preparazione alla pubblicazione**
+**Rapporti di preparazione alla pubblicazione approfonditi**
 Rendi la pubblicazione priva di errori controllando e correggendo facilmente il contenuto prima che venga pubblicata. Tenere sotto controllo l&#39;integrità del sistema accedendo facilmente a vari report a livello di mappa DITA. Puoi controllare il numero di argomenti mancanti, collegamenti interrotti o riferimenti, lo stato delle revisioni e delle traduzioni per tutti gli argomenti. Puoi inoltre utilizzare i rapporti per eseguire controlli di integrità completi nelle fasi finali prima della pubblicazione.
 
 **Supporto esteso per la gestione dei tag per output personalizzato**\
 Promuovi un coinvolgimento più profondo degli utenti finali e l’adozione dei contenuti attraverso esperienze di contenuti altamente rilevanti. Con Experience Manager Guides, puoi sfruttare l’ampio supporto per la gestione dei tag disponibile in Experience Manager per applicare tag rilevanti al contenuto DITA sorgente. Utilizza questi tag per fornire agli utenti finali esperienze di contenuto altamente personalizzate.
 
-**Guida avanzata e creazione basate su GenAI**
+**SmartHelp e authoring basati su GenAI**
 Aumenta la produttività con le funzioni di guida intelligente basata sull’intelligenza artificiale e di riutilizzo dei contenuti in Experience Manager Guides. Utilizza la guida intelligente basata su GenAI per trovare rapidamente contenuti rilevanti dalla documentazione di Experience Manager Guides. Utilizza suggerimenti avanzati per riutilizzare il contenuto dall’archivio dei contenuti esistente o migliorare la produttività con funzioni di miglioramento dei contenuti, come convertire in modo intelligente un paragrafo in un elenco, creare una breve descrizione, migliorare e tradurre il contenuto selezionato.
 
-**Sfrutta l&#39;integrazione nativa con Adobe Workfront per solide funzionalità di gestione del lavoro**
+**Integrazione nativa con Adobe Workfront per solide funzionalità di gestione del lavoro**
 Le solide funzionalità di gestione dei progetti di Experience Manager Guides consentono di pianificare, allocare e tenere traccia delle attività in modo efficiente senza dover ricorrere a più strumenti non integrati. Gestisci in modo semplice tutti i flussi di lavoro di Experience Manager Guides, inclusi authoring, revisione, pubblicazione e traduzione dei contenuti da un&#39;unica interfaccia. Gestione dei progetti semplificata e nuovi livelli di efficienza e produttività.
 
 **Integrazione nativa con Adobe FrameMaker**

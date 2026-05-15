@@ -5,9 +5,21 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
+TQID: https://experienceleague.adobe.com/i5mTM1VtBg3QFUa-sBmF2pH8BITRn9j-efw2dr8VwCU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: 225
 ht-degree: 2%
 
 ---
@@ -58,7 +70,7 @@ throws GuidesApiException
 | Nome | Tipo | Descrizione |
 |----|----|-----------|
 | `session` | javax.jcr.Session | Una sessione JCR valida. |
-| ``sourcePath`` | Stringa | Percorso \(nel repository AEM\) del file di mapping DITA per il quale deve essere generato l&#39;output. |
+| ``sourcePath`` | Stringa | Percorso \(nel repository AEM\) del file mappa DITA per il quale deve essere generato l&#39;output. |
 | ``outputName`` | Stringa | Nome del predefinito di output\(s\) da utilizzare per generare l&#39;output. È possibile specificare più predefiniti di output utilizzando un delimitatore pipe \(&quot;\|&quot;\), ad esempio `aemsite\|pdfoutput`. |
 
 **Eccezione**:

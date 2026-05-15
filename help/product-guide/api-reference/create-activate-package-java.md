@@ -5,10 +5,20 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 1%
+source-wordcount: 618
+ht-degree: 0%
 
 ---
 
@@ -43,7 +53,7 @@ Dettagli bundle:
 
 ## Creare e attivare pacchetti
 
-Il metodo `activate` crea un pacchetto CRX nell&#39;istanza di authoring e lo replica nell&#39;istanza di pubblicazione, se necessario. Si presume che i parametri di replica AEM siano già stati impostati nell’istanza di authoring. Questo metodo crea il pacchetto CRX in base a un elenco di regole fornite come parametri di input in una stringa JSON.
+Il metodo `activate` crea un pacchetto CRX nell&#39;istanza di authoring e lo replica nell&#39;istanza di pubblicazione, se necessario. Si presume che i parametri di replica di AEM siano già stati impostati nell’istanza di authoring. Questo metodo crea il pacchetto CRX in base a un elenco di regole fornite come parametri di input in una stringa JSON.
 >[!NOTE]
 >
 > Gli errori rilevati durante il processo di creazione o attivazione vengono scritti in `outputstream`.
@@ -83,14 +93,14 @@ throws GuidesApiException
 | `json` | Stringa | Stringa JSON che determina il pacchetto CRX da generare. Utilizzare il formato seguente per creare la stringa JSON: <br>- `activate`: è di tipo booleano \(`true`/`false`\). Determina se il pacchetto CRX creato nell’istanza di authoring viene replicato nell’istanza di pubblicazione. <br> - `rules`: è di tipo array JSON. Array di regole JSON, elaborate in sequenza per generare il pacchetto CRX. <br> - `rootPath`: è di tipo String. Percorso di base su cui vengono eseguite le query nodo/proprietà. Se non sono presenti query nodo/proprietà, il percorso radice e tutti i nodi presenti nel percorso radice vengono inclusi nel pacchetto CRX. <br> - `nodeQueries`: è di tipo Regex Array. Array di espressioni regolari utilizzate per includere file specifici nel percorso principale. <br> - `propertyQueries`: è di tipo array JSON. Array di oggetti JSON con ogni oggetto JSON costituito da una query XPath da eseguire sul percorso principale e dal nome di una proprietà presente in ogni nodo JCR dopo l’esecuzione della query. Il valore della proprietà in ciascun nodo JCR deve essere un percorso o un array di percorsi. I percorsi presenti in questa proprietà vengono aggiunti al pacchetto CRX. |
 | `outputstream` | java.io.OutputStream | Viene utilizzato per scrivere il risultato di varie fasi, come l’esecuzione di query, l’inclusione di file, la creazione di pacchetti CRX o l’attivazione. Qualsiasi errore riscontrato durante il processo di creazione o attivazione viene scritto in `outputstream`. Questa opzione è utile per il debug. |
 | `session` | Stringa | Una sessione JCR valida con autorizzazione di attivazione. |
-| `activationTarget` | Stringa | (*Facoltativo*) `preview` o `publish` per il Cloud Service e `publish` per il software locale <br>. Per il Cloud Service, se il parametro contiene un valore non valido, l&#39;attivazione del pacchetto non riesce. <br> - Per il software locale, se il parametro contiene un valore non valido, l&#39;errore viene registrato e la pubblicazione viene eseguita utilizzando il valore predefinito `publish`. |
+| `activationTarget` | Stringa | (*Facoltativo*) `preview` o `publish` per Cloud Service e `publish` per il software on-premise <br>. Per Cloud Service, se il parametro contiene un valore non valido, l&#39;attivazione del pacchetto non riesce. <br> - Per il software locale, se il parametro contiene un valore non valido, l&#39;errore viene registrato e la pubblicazione viene eseguita utilizzando il valore predefinito `publish`. |
 
 **Eccezione**:
 
 Genera `java.io.IOException` e `java.io.IllegalArgumentException`
 
 
-Se non si definisce il parametro opzionale `activationTarget`, verrà attivato utilizzando l&#39;agente di pubblicazione predefinito sia per il software di Cloud Service che per quello locale.
+Se non si definisce il parametro opzionale `activationTarget`, verrà attivato utilizzando l&#39;agente di pubblicazione predefinito sia per Cloud Service che per il software locale.
 
 
 **Esempio**:

@@ -4,10 +4,27 @@ description: Scopri le correzioni di bug e come effettuare l’aggiornamento all
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/4JTSMRLeqxbaz3rBMzz43V76o1HtTfTMtjpdT6wW1LM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1302
+ht-degree: 4%
 
 ---
 
@@ -102,27 +119,27 @@ Di seguito sono elencati i bug risolti in varie aree:
 - L&#39;anteprima dell&#39;immagine non scompare dopo averla visualizzata nell&#39;editor. (13454)
 - Alcune delle versioni esistenti o le relative etichette non vengono visualizzate nella Cronologia versioni dopo l’aggiornamento a 4.x. (13247)
 - Il pannello Cronologia versioni nell&#39;interfaccia utente di Assets mostra una marca temporale non corretta per il campo **Corrente**. (12624)
-- L&#39;argomento con titolo di riferimento non viene risolto nella vista archivio o nella vista mappa.(13304)
+- L&#39;argomento con il titolo conref non viene risolto nella vista archivio o nella vista mappa.(13304)
 
 
 ### Pubblicazione
 
-- PDF nativo | L&#39;ordine degli argomenti non viene corretto durante la generazione dell&#39;output di PDF. (13157)
+- PDF nativo | L’ordine degli argomenti non viene corretto durante la generazione dell’output di PDF. (13157)
 - PDF nativo| Nessun tag di stile predefinito disponibile per l&#39;elemento `<p>`. (12559)
-- PDF nativo | Gli stili in linea applicati all&#39;area del contenuto non vengono applicati agli argomenti davanti e dietro. (13510)
+- PDF nativo | Gli stili in linea applicati all&#39;area contenuto non vengono applicati agli argomenti in primo piano e dietro. (13510)
 - L&#39;attributo `DeliveryTarget` non viene propagato durante la generazione dell&#39;output del sito AEM.  (13132)
 - Il flusso di lavoro **Pubblica** si blocca durante la generazione dell&#39;output del sito AEM per il contenuto con determinati errori. (12000)
 
-- PDF nativo | L&#39;inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
-- PDF nativo | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output di PDF. (12644)
+- PDF nativo | L’inclusione di più xrefs estende il testo oltre la larghezza della colonna. (13004)
+- PDF nativo | Quando l’argomento e il titolo hanno lo stesso ID, si verifica un errore nella generazione dell’output PDF. (12644)
 - PDF nativo | Quando si aggiunge una classe di output a un elemento padre `<topicref>` in una mappa DITA e si applica uno stile personalizzato alla classe di output, lo stile viene applicato agli elementi all&#39;interno del corpo dell&#39;argomento, inclusi i titoli di sezione. (12166)
 - La pubblicazione incrementale non funziona se una mappa DITA contiene più ditavalref. (12117)
 - Sito AEM | Quando si crea una mappa con keydef che punta a un argomento come variabile e si aggiunge processing-role=resource-only, vengono create alcune pagine impreviste. (12099)
 - Se in un output diverso dal sito AEM vengono utilizzate risorse di DAM di AEM, i metadati &quot;jcr:createdBy&quot; non riflettono il nome dell&#39;editore o dell&#39;utente che ha modificato per ultimo la mappa o l&#39;argomento DITA. (12090)
-- AEM Sites | La mappa DITA con l’intestazione dell’oggetto nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
-- PDF nativo | Si verificano problemi a supporto di topichead / topicmeta / navtitle in Frontmatter e Backmatter. (11969)
+- AEM Sites La mappa DITA con intestazione di argomento nel titolo della navigazione (con caratteri non supportati) causa la presenza di URL di pagina non validi. (11978)
+- PDF nativo | Si verificano problemi a sostegno di topichead / topicmeta / navtitle in Frontmatter and Backmatter. (11969)
 - PDF nativo | La generazione di PDF per documenti di grandi dimensioni richiede molto tempo. (11955)
-- PDF nativo | La ridenominazione di un predefinito genera un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
+- PDF nativo | Se si rinomina un predefinito, viene generata un’eccezione NullPointerException durante la generazione di un output PDF. (11889)
 - Il contenuto di `<conref>` non è visualizzato nell&#39;output di PDF. (11131)
 - All&#39;interno degli elementi `<div>` viene aggiunto uno spazio aggiuntivo quando si passa dalla visualizzazione Autore a quella Source nell&#39;editor di layout di pagina. (10750)
 - Il contenuto replicato in AEM Cloud Manager non è visibile nell’istanza Publish. (9564)

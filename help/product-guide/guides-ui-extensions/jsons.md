@@ -3,9 +3,18 @@ title: JSON esposti
 description: Elenco dei JSON esposti
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -50,39 +59,39 @@ Menu di scelta rapida:
 
 Rivedi app:
 
-- [&quot;inline_review_panel&quot;](./jsons/review_app/inline_review_panel.json)
+- [`inline_review_panel`](./jsons/review_app/inline_review_panel.json)
 
   Per visualizzare i commenti, regola il pannello a destra della pagina di revisione e l’interfaccia utente delle guide.
 
-- [&quot;annotation_toolbox&quot;](./jsons/review_app/annotation_toolbox.json)
+- [`annotation_toolbox`](./jsons/review_app/annotation_toolbox.json)
 
   Configurare la casella degli strumenti contenente i pulsanti per l&#39;aggiunta di commenti nella pagina di revisione.
 
-- [&quot;review_comment&quot;](./jsons/review_app/review_comment.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
 
   Modificare l&#39;aspetto e la funzionalità della casella dei commenti nella pagina di revisione.
 
-- [&quot;comment_reply&quot;](./jsons/review_app/comment_reply.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
 
   Personalizza la sezione delle risposte dei commenti nell’interfaccia utente di revisione.
 
-- [&quot;comment_new_reply&quot;](./jsons/review_app/comment_new_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
 
   Personalizza l’area di testo per la creazione di nuove risposte ai commenti esistenti.
 
-- [&#39;review_toolbar&#39;](./jsons/review_app/review_toolbar.json)
+- [`review_toolbar`](./jsons/review_app/review_toolbar.json)
 
   Personalizza la barra degli strumenti visualizzata nella parte superiore della pagina di revisione.
 
-- [&quot;review_left_panels_container&quot;](./jsons/review_app/review_left_panels_container.json)
+- [`review_left_panels_container`](./jsons/review_app/review_left_panels_container.json)
 
   Modifica il pannello sinistro della pagina di revisione, inclusa l’aggiunta o la rimozione di pannelli specifici.
 
-- [&quot;review_left_panel_topic&quot;](./jsons/review_app/review_left_panel_topics.json)
+- [`review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
 
   Personalizza la gerarchia o l’elenco degli argomenti nella pagina di revisione e nel pannello sinistro dell’editor Guide.
 
-- [&quot;review_left_panel_item&quot;](./jsons/review_app/review_left_panel_item.json)
+- [`review_left_panel_item`](./jsons/review_app/review_left_panel_item.json)
 
   Personalizzare singoli elementi nell&#39;elenco degli argomenti per una migliore usabilità.
 
@@ -90,7 +99,7 @@ Rivedi app:
 
 Finestre di dialogo:
 
-- [&quot;save_review&quot;](./jsons/dialogs/save_revision.json)
+- [`save_revision`](./jsons/dialogs/save_revision.json)
 
   Gestisci la finestra di dialogo &quot;Salva revisione&quot;, che visualizza l’ultima versione del file e consente di aggiornarla al momento del salvataggio.
 
@@ -98,11 +107,11 @@ Finestre di dialogo:
 
 Widget:
 
-- [&quot;save_as_new_version&quot;](./jsons/widgets/save_as_new_version.json)
+- [`save_as_new_version`](./jsons/widgets/save_as_new_version.json)
 
   Personalizza il widget che mostra i dettagli della versione e fornisce l’opzione per aggiornare o aprire la finestra di dialogo &quot;Salva come nuova versione&quot;.
 
-- [&#39;file_lock&#39;](./jsons/widgets/file_lock.json)
+- [`file_lock`](./jsons/widgets/file_lock.json)
 
   Definite la funzionalità del pulsante Blocca/Sblocca per i file nella barra degli strumenti dell&#39;editor.
 
@@ -110,26 +119,26 @@ Widget:
 
 Barre degli strumenti:
 
-- [&#39;editor_toolbar&#39;](./jsons/toolbars/editor_toolbar.json)
+- [`editor_toolbar`](./jsons/toolbars/editor_toolbar.json)
 
   Personalizza la barra degli strumenti dell’editor per i file aperti nell’editor web.
 
-- [&#39;editor_tab_bar&#39;](./jsons/toolbars/editor_tab_bar.json)
+- [`editor_tab_bar`](./jsons/toolbars/editor_tab_bar.json)
 
   Modifica i pulsanti della barra delle schede sopra la barra degli strumenti dell’editor, incluse le opzioni &quot;Salva tutto&quot; e &quot;Impostazioni&quot;.
 
-- [&#39;map_console_action_bar&#39;](./jsons/toolbars/map_console_action_bar.json)
+- [`map_console_action_bar`](./jsons/toolbars/map_console_action_bar.json)
 
   Configura i pulsanti sulla barra delle azioni della console delle mappe, mostrando informazioni come nome del predefinito, nome del rapporto, numero di record e pulsanti associati.
 
-- [&#39;map_console_navigation_bar&#39;](./jsons/toolbars/map_console_navigation_bar.json)
+- [`map_console_navigation_bar`](./jsons/toolbars/map_console_navigation_bar.json)
 
   Personalizza la barra di navigazione della console delle mappe per visualizzare il nome della mappa, i menu a discesa per la modifica delle mappe e la navigazione nell’editor.
 
-- [&#39;home_navigation_bar&#39;](./jsons/toolbars/home_navigation_bar.json)
+- [`home_navigation_bar`](./jsons/toolbars/home_navigation_bar.json)
 
   Gestisci la barra di navigazione nella home page dell’interfaccia utente Guide, inclusi i pulsanti di sezione Profilo cartella e Panoramica.
 
-- [&#39;file_mode_switcher&#39;](./jsons/toolbars/file_mode_switcher.json)
+- [`file_mode_switcher`](./jsons/toolbars/file_mode_switcher.json)
 
   Personalizza il commutatore della modalità per selezionare le modalità dell’app (ad es. Autore, Source, Anteprima) nella parte inferiore di ciascun file aperto.
