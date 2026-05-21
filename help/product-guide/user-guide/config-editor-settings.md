@@ -3,9 +3,9 @@ title: Impostazioni editor
 description: Scopri come configurare le impostazioni dell’editor in AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Puoi abilitare o disabilitare le seguenti opzioni in base alle tue preferenze:
 
   È possibile cercare e aggiungere elementi ai Preferiti, rimuovere eventuali elementi aggiunti in precedenza e ridisporli con una semplice azione di trascinamento. I Preferiti includono gli elementi utilizzati più di frequente e l&#39;ordine impostato in questo punto viene visualizzato nel menu Inserimento rapido quando si accede dall&#39;editor.
 
+  Breve video su come utilizzare il menu Inserimento rapido nel nuovo editor.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 

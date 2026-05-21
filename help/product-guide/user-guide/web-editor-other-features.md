@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ L’editor fornisce una finestra di dialogo per la ricerca intelligente dei file
 
 ## Utilizzare le tabelle nel nuovo editor
 
-Il nuovo editor consente di creare, formattare e organizzare tabelle direttamente all’interno del contenuto utilizzando varie azioni contestuali.
+Il nuovo editor consente di creare, formattare e organizzare tabelle direttamente all’interno del contenuto utilizzando varie azioni contestuali. Breve video su come utilizzare le varie funzioni di modifica delle tabelle disponibili nel nuovo editor.
 
-Questa sezione descrive le varie funzioni di creazione delle tabelle disponibili nel nuovo editor.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+Nel nuovo editor sono disponibili le seguenti funzioni di modifica delle tabelle:
 
 **Modificare la tabella utilizzando il menu di scelta rapida**
 

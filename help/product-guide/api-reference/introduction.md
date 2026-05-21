@@ -19,7 +19,7 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0047d3917ffcc8b83a319be5b7c12780c0f2ef55
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 0%
@@ -134,7 +134,7 @@ Per informazioni dettagliate sull&#39;utilizzo delle API, sui parametri e sulle 
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
 
 - Guida utente
 - Guida all’installazione e alla configurazione
