@@ -55,12 +55,12 @@ In questa sessione hai appreso quanto segue:
 
 ### Documentazione
 
-- [Schemi di metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [Profili metadati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [Gestione dei metadati nelle risorse DITA](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [Estrai metadati DITA come metadati](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [Utilizzare i metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [Utilizzare i metadati nel PDF nativo](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [Schemi di metadati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [Profili metadati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [Gestione dei metadati nelle risorse DITA](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [Estrai metadati DITA come metadati](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [Utilizzare i metadati nell&#39;output DITA-OT](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [Utilizzare i metadati nel PDF nativo](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Forum della community

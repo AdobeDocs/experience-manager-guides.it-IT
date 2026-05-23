@@ -50,11 +50,11 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ### Documentazione
 
-- [Strumento Copia contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [Strumento Copia contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [Utilizzo del gestore di pacchetti per trasferire il contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
-- [Migrazione di contenuti da non UUID a UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrazione di contenuti da non UUID a UUID](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: spostare il contenuto UUID da on-premise/AMS al cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Passaggio ad AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Passaggio ad AEM Cloud](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: migrazione dei contenuti non uuid a Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum della community

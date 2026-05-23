@@ -71,7 +71,7 @@ Utilizza i profili cartella per controllare *ui_config.json* nella scheda &quot;
 }
 ```
 
-[usa questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione di ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[usa questo collegamento per ulteriori informazioni sul profilo cartella e sulla configurazione di ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=it)
 
 
 ### Gestire l’evento al clic per il nuovo pulsante

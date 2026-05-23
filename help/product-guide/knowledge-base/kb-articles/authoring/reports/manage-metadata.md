@@ -63,7 +63,7 @@ Esistono diversi modi per aggiungere tag ai contenuti DITA, ma questo articolo s
 
 ### L’elenco in Gestisci->metadati è vuoto o incompleto
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Istruzioni per l&#39;aggiornamento (indicizza il contenuto)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Istruzioni per l&#39;aggiornamento (indicizza il contenuto)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=it#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### I metadati personalizzati non vengono visualizzati nell’elenco
 
@@ -74,9 +74,9 @@ Esistono diversi modi per aggiungere tag ai contenuti DITA, ma questo articolo s
 
 ## Altre risorse utili
 
-- [Assegnazione di tag in blocco tramite Map Dashboard (interfaccia utente di Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Rapporti Ditamap nell’editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [Assegnazione di tag in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [Assegnazione di tag in blocco tramite Map Dashboard (interfaccia utente di Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=it)
+- [Rapporti Ditamap nell’editor web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=it)
+- [Assegnazione di tag in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=it)
 
 
 **Contatta il tuo CSM per qualsiasi altra domanda**
