@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 1%
 
 ---
@@ -188,7 +188,7 @@ Per informazioni dettagliate sulla configurazione di profili globali e a livello
 
 Experience Manager Guides consente di passare l’etichetta del file di origine al file di destinazione. Questo ti aiuterà a identificare facilmente la versione sorgente del file tradotto.
 
-Per aggiungere l&#39;etichetta della versione di origine nella copia di destinazione, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Propaga le etichette della versione di origine alla versione di destinazione** nella scheda **Traduzione** in **Impostazioni Workspace** (visualizzate come **Impostazioni** per **Prem**).
+Per aggiungere l&#39;etichetta della versione di origine nella copia di destinazione, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Propaga le etichette della versione di origine alla versione di destinazione** nella scheda **Traduzione** in **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**).
 
 Ad esempio, se ad alcuni file di origine è stata applicata l&#39;etichetta di versione `Release 1.0`, è possibile passare anche l&#39;etichetta di origine \(`Release 1.0`\) al file tradotto.
 

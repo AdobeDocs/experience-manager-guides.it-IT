@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3391'
 ht-degree: 7%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 7%
             - [Note sulla versione di gennaio](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versioni](./release-info/latest-release-info.md)
+         - Versione 5.2.0 {#520-release}
+            - [Novità](./release-info/whats-new-5-2-0.md)
+            - [Problemi risolti](./release-info/fixed-issues-5-2-0.md)
+            - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-5-2-0.md)
          - Versione 5.1.0 SP4 {#510-sp4-release}
             - [Problemi risolti](./release-info/fixed-issues-5-1-0-sp4.md)
             - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -616,7 +620,8 @@ ht-degree: 7%
          - [Sostituzioni di configurazione per Cloud Service](./install-conf-guide/download-install-config-override.md)
       - Locale {#on-prem}
          - [Aggiorna AEM Guides On-Premise 4.6.0 e versioni successive](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [Aggiornare AEM Guides On-Premise versioni precedenti](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Aggiornare le versioni precedenti di AEM Guides On-Premise](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [Aggiornamenti alla configurazione per le versioni di Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
    - Consigli per l’ottimizzazione delle prestazioni {#performance-optimization-aemg}
       - [Ottimizzazione delle prestazioni per Cloud Service](./install-conf-guide/perf-optimization-cs.md)
       - [Ottimizzazione delle prestazioni per on-premise](./install-conf-guide/perf-optimization-on-prem.md)
@@ -664,15 +669,16 @@ ht-degree: 7%
       - [Configurare i filtri di testo](./install-conf-guide/conf-text-filters.md)
       - [Configurare i filtri per la finestra di dialogo Sfoglia file](./install-conf-guide/conf-custom-file-filters.md)
       - [Installare pacchetti per la pubblicazione basata su articoli](./install-conf-guide/conf-article-based-publishing.md)
+      - [Configurare l’elenco da ignorare delle proprietà dei metadati](./install-conf-guide/conf-metadata-prop.md)
       - Impostazione editor per Cloud Service {#editor-cloud-settings}
          - [Configura i suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring per Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
          - [Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti in Cloud Service](./install-conf-guide/conf-smart-help.md)
          - [Configurare l’opzione da modificare in Ossigeno per Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Configura la visualizzazione delle tabelle incollate per Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurare la generazione di un singolo argomento PDF per Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Configurare la funzione di traduzione nell’editor web per Cloud Service](./install-conf-guide/conf-translation-editor.md)
-         - [Configurare l’elenco da ignorare delle proprietà dei metadati per Cloud Service](./install-conf-guide/conf-metadata-prop.md)
+         - [Configura funzionalità di traduzione nell&#39;editor Web per Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Impostazione editor per On-Premise {#editor-on-prem-settings}
+         - [Configura nuovo editor](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Configurare caratteri speciali aggiuntivi per On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurare il titolo per le icone Archivia ed Estrai per On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
          - [Configurare il numero di LimitReads per una query per On-Premise](./install-conf-guide/conf-query-limitreads.md)
@@ -714,9 +720,13 @@ ht-degree: 7%
       - [Integrazione di editor XML basati su desktop](./install-conf-guide/integrate-desktop-editors.md)
       - [Configurare Workfront per Cloud Service](./install-conf-guide/conf-workfront.md)
       - [Configurare la traduzione](./install-conf-guide/conf-translation.md)
+      - [Configurare l’inizializzazione della copia di destinazione per On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [Configura nuova linea di base per on-premise](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [Configura il salto dei collegamenti tra pari per On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - Estensione delle funzioni {#aemg-customization}
       - [Distribuire l’indice personalizzato per la funzione Trova e sostituisci per Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Reindicizza per la funzionalità Trova e sostituisci per On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Configurare la funzione Trova e sostituisci per On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Mappatura dei componenti per AEM Sites](./install-conf-guide/component-mapping.md)
    - Appendice {#appendix}
       - [Appendice](./install-conf-guide/aemg-appendix.md)

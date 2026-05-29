@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Per creare una nuova versione del file, selezionare **Salva come nuova versione*
 
   >[!NOTE]
   >
-  >Dalla versione 2025.11.0, **L&#39;archivio** è stato rinominato in **Explorer**. Per la configurazione on-premise, continua a essere disponibile come archivio fino alla versione 5.1 di Experience Manager Guides.
+  >Dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2 per On-Premise, **L&#39;archivio** è stato rinominato **Explorer**. Per la configurazione on-premise precedente alla versione 5.2, continua a essere disponibile come archivio.
 
 ***Aggiungi a***: puoi scegliere tra le seguenti opzioni:
 

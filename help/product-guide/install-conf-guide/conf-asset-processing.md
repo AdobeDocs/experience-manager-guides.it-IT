@@ -4,9 +4,10 @@ description: Scopri come configurare l’elaborazione delle risorse per Cloud Se
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ Le schede seguenti forniscono istruzioni per configurare la funzione di elaboraz
 
 1. Cerca e seleziona il bundle *com.adobe.fmdita.config.ConfigManager*.
 
-1. Configurare l&#39;impostazione `Enable Guides asset processing scheduled job` in base alle proprie esigenze. Per impostazione predefinita, l’impostazione è attivata.
+1. Configura l&#39;impostazione **Abilita l&#39;elaborazione del processo pianificato da parte delle guide** (`enable.asset.processing.scheduler`) in base alle tue esigenze. Per impostazione predefinita, l’impostazione è attivata.
 
 1. Seleziona **Salva**.
 

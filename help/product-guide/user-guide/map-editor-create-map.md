@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1606
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->Dalla versione 2025.11.0, **L&#39;archivio** è stato rinominato in **Explorer**. Per la configurazione on-premise, continua a essere disponibile come archivio fino alla versione 5.1 di Experience Manager Guides.
+>Dalla versione 2025.11.0 per Cloud Servicea e dalla versione 5.2 per On-Premise, **L&#39;archivio** è stato rinominato **Explorer**. Per la configurazione on-premise precedente alla versione 5.2, continua a essere disponibile come archivio.
 
 Adobe Experience Manager Guides fornisce due modelli di mappe preconfigurati: DITA map e Bookmap. Puoi anche creare modelli di mappa personalizzati e condividerli con gli autori per creare file di mappa.
 

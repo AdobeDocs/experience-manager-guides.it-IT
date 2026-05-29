@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ Uno strumento potente e basato sull’intelligenza artificiale progettato per mi
    - **Servizi cloud**: se utilizzi Servizi cloud, quando selezioni l&#39;opzione **Assets** vieni reindirizzato alla pagina di navigazione di AEM.
 
    - **Software on-premise**: se si utilizza Adobe Experience Manager Guides (4.2.1 e versioni successive), se si seleziona l&#39;opzione **Assets**, verrà visualizzato il percorso del file corrente nell&#39;interfaccia utente di Assets.
-- **Impostazioni Workspace**: consente di accedere alla finestra di dialogo delle impostazioni di Workspace. Per ulteriori dettagli, visualizzare [Configurazione impostazioni di Workspace](../cs-install-guide/workspace-settings.md).
+- **Impostazioni Workspace**: consente di accedere alla finestra di dialogo delle impostazioni di Workspace. Per ulteriori dettagli, visualizzare [Configurazione impostazioni di Workspace](../install-conf-guide/workspace-settings.md).
 
 >[!NOTE]
 >
-> Se si utilizza Adobe Experience Manager Guides in una configurazione locale, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
+>Se si utilizza Adobe Experience Manager Guides in una configurazione locale precedente alla versione 5.2, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
 
-- **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](./config-editor-settings.md).
+- **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](../install-conf-guide/workspace-settings.md).
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)

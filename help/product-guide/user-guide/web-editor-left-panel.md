@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 11080
+source-wordcount: 11025
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Puoi anche eseguire molte azioni utilizzando il menu Opzioni disponibile per una
 
 >[!NOTE]
 >
-> A partire dalla versione 2025.11.0, **L&#39;archivio** nell&#39;editor diventerà obsoleto e verrà sostituito da **Explorer** per l&#39;installazione di **Cloud Service**. Per la configurazione di **On-Premise**, continuerai a visualizzare e utilizzare l&#39;archivio tramite l&#39;interfaccia dell&#39;editor fino alla versione 5.1 di Experience Manager Guides.
+> A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, **Repository** è sostituito da **Explorer**. Per On-Premise precedente alla versione 5.2, continuerai a visualizzare e utilizzare l’archivio tramite l’interfaccia dell’editor.
 
 Quando selezioni l’icona Archivio, ottieni un elenco di file e cartelle disponibili in DAM. Per impostazione predefinita, è possibile visualizzare i file in base ai titoli. Passando il cursore del mouse su un file, potete visualizzare il titolo e il nome del file come descrizione comando.
 
@@ -493,7 +493,7 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 >[!NOTE]
 >
-> A partire dalla versione 2025.11.0, il termine Archivio nell&#39;Editor verrà sostituito da **Explorer** per l&#39;installazione del servizio Cloud. Durante la configurazione on-premise, continuerà a visualizzare e ad accedere all’archivio nell’editor.
+> A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, **Repository** è sostituito da **Explorer**. Per On-Premise precedente alla versione 5.2, continuerai a visualizzare e utilizzare l’archivio tramite l’interfaccia dell’editor.
 
 Explorer fornisce la maggior parte delle funzionalità precedentemente disponibili in Repository, tra cui:
 
@@ -730,7 +730,7 @@ Se un elemento blocco dispone di un proprio testo, viene visualizzato insieme a 
 
 ![](images/outline-view-block-element.png){width="550"}
 
-Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Puoi anche assegnare gli attributi di visualizzazione configurati dall&#39;amministratore nella scheda **Attributi di visualizzazione** delle **impostazioni di Workspace** (come **Impostazioni** per **Prem**). Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
+Se l&#39;amministratore ha creato un profilo per gli attributi, questi verranno ottenuti insieme ai relativi valori configurati. Puoi anche assegnare gli attributi di visualizzazione configurati dall&#39;amministratore nella scheda **Attributi di visualizzazione** delle **impostazioni di Workspace** (visualizzate come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**). Gli attributi definiti per un elemento vengono visualizzati nella vista Layout e Struttura.
 
 
 **Funzione di ricerca**
@@ -1060,7 +1060,7 @@ Puoi anche modificare i valori dal menu a discesa dell’attributo nella vista S
 
 Potete anche visualizzare e applicare lo schema soggetto dal pannello Condizioni.
 
-Per visualizzare lo schema di oggetti dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema di oggetti nel pannello Condizioni** nella scheda Generale in **Impostazioni Workspace** (come **Impostazioni** per **Prem**). Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
+Per visualizzare lo schema dei soggetti dal pannello Condizioni, l&#39;amministratore di sistema deve selezionare l&#39;opzione **Mostra schema dei soggetti nel pannello Condizioni** nella scheda Generale di **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**). Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
 
 Il pannello Condizioni visualizza la struttura verticale piatta delle definizioni dei soggetti all&#39;interno dello schema.
 
@@ -1229,7 +1229,7 @@ Per eseguire la ricerca globale e sostituirla con la modalità Source, effettuar
 
    >[!NOTE]
    >
-   >Per abilitare il pulsante **Sostituisci tutto**, l&#39;amministratore del profilo di cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**).
+   >Per abilitare il pulsante **Sostituisci tutto**, l&#39;amministratore del profilo di cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**).
 
 1. È inoltre possibile passare il cursore del mouse su un file dall&#39;elenco dei risultati della ricerca per visualizzare l&#39;icona **Sostituisci tutto nel file** sulla destra, che consente di sostituire tutte le occorrenze del termine in un unico file.
 
@@ -1303,7 +1303,7 @@ Per eseguire la ricerca globale e sostituirla senza la modalità Source, effettu
 
    >[!NOTE]
    >
-   > Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore del profilo della cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Prem**). Se si verificano errori durante l&#39;operazione di sostituzione, tali file verranno ignorati a causa di problemi di analisi XML o di errori DITA.
+   > Per abilitare l&#39;icona **Sostituisci tutto**, l&#39;amministratore del profilo della cartella o l&#39;amministratore di sistema deve selezionare l&#39;opzione **Abilita Sostituisci tutto** nella scheda **Generale** in **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**). Se si verificano errori durante l&#39;operazione di sostituzione, tali file verranno ignorati a causa di problemi di analisi XML o di errori DITA.
 
    ![](images/replace-all.png){width="350"}
 

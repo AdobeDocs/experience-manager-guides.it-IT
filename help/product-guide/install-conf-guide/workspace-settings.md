@@ -4,9 +4,9 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Nella configurazione locale, l&#39;opzione **Impostazioni** viene visualizzata nella barra delle schede dell&#39;editor. Nella configurazione di Cloud Service, questa opzione è stata rinominata in **Impostazioni Workspace**. Tutte le opzioni di configurazione esistenti disponibili in **Impostazioni editor** rimangono invariate.
-> ![Impostazione editor per On-Premise](assets/editor-settings-on-prem.png){width="650"}
+> Nella configurazione on-premise precedente alla versione 5.2, l&#39;opzione **Impostazioni** viene visualizzata nella barra delle schede dell&#39;editor. Per le configurazioni Cloud Service e On-Premise nella versione 5.2 e successive, questa opzione è stata rinominata **Impostazioni Workspace**. Tutte le opzioni di configurazione esistenti disponibili in **Impostazioni editor** rimangono invariate.
+> ![Impostazione editor per on-premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../user-guide/web-editor-tab-bar.md) dell&#39;editor è disponibile solo per gli amministratori e gli amministratori dei profili di cartella e consente di configurare le impostazioni seguenti:
