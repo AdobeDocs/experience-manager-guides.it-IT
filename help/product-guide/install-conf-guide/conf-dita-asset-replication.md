@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Le schede seguenti forniscono istruzioni per configurare la funzione di replica 
 
 1. Cerca e seleziona il bundle *com.adobe.fmdita.config.ConfigManager*.
 
-1. Configurare l&#39;impostazione `Replicate DITA assets` in base alle proprie esigenze. Per impostazione predefinita, l’impostazione è attivata.
+1. Configura l&#39;impostazione **Replica risorse DITA** (`publish.replicate`) in base alle tue esigenze. Per impostazione predefinita, l’impostazione è attivata.
 
 
    ![](assets/dita-assets-replication.png){width="350"}

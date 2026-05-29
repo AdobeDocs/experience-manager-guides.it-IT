@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +91,7 @@ Le seguenti opzioni di configurazione sono visualizzate per **ServiceNow** come 
 
 | Opzioni ServiceNow | Descrizione |
 | --- | --- |
-| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare dai profili di connessione ServiceNow configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) nella sezione [Pannello sinistro](./web-editor-features.md#id2051EA0M0HS). |
+| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare dai profili di connessione ServiceNow configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**) nella sezione [Pannello sinistro](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilizzare questo campo per selezionare la Knowledge Base ServiceNow richiesta. È possibile configurare le knowledge base nel sito ServiceNow per archiviare il contenuto in base alle autorizzazioni. Gli articoli di questa mappa DITA possono essere pubblicati in queste knowledge base. |
 | Categoria e sottocategoria | Le categorie sono simili agli alberi gerarchici utilizzati per trovare e classificare gli articoli della Knowledge Base di ServiceNow. Aggiungere una categoria e una sottocategoria per pubblicare gli argomenti e i sottoargomenti del sommario in tale categoria e sottocategoria sul sito ServiceNow. |
 
@@ -110,7 +101,7 @@ Le seguenti opzioni di configurazione vengono visualizzate per **Salesforce** co
 
 | Opzioni Salesforce | Descrizione |
 | --- | --- |
-| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare tra i profili di connessione Salesforce configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni di Workspace** (come **Impostazioni** per **Prem**) nella [Barra delle schede](./web-editor-tab-bar.md). |
+| Profilo di pubblicazione | Utilizza il menu a discesa per selezionare tra i profili di connessione Salesforce configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**) in [Barra schede](./web-editor-tab-bar.md). |
 | Tipo di record | Utilizza il menu a discesa per selezionare tra i tipi di record impostati in Salesforce in base alle impostazioni di visibilità basate sul profilo utente. I tipi di record di Salesforce consentono di raggruppare più record di un tipo per l&#39;oggetto. Definiscono la modalità di organizzazione della pubblicazione. Ad esempio, puoi selezionare FAQ Tipo di record e pubblicare in base al layout e ai campi della pagina FAQ. |
 | Campo contenuto articolo | È possibile avere campi diversi e un layout univoco per ogni modello di tipo di record. Utilizzare questi campi per immettere informazioni specifiche in base al tipo di articolo. Ad esempio, puoi visualizzare il titolo, la risposta e l’equazione di un articolo di domande frequenti. |
 | Categorie | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito Salesforce. |

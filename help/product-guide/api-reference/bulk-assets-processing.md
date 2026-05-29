@@ -6,19 +6,20 @@ role: Developer
 level: Experienced
 exl-id: feba6d8e-c363-4360-af33-92a01dcf6672
 TQID: https://experienceleague.adobe.com/rGPpMIf5X5lfZZy2ZWk9lizd2E7UyRT8BLkSBb0o320
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 9%
+source-wordcount: 639
+ht-degree: 8%
 
 ---
 
 # API per avviare l’elaborazione in blocco delle risorse
+
+>[!NOTE]
+>
+> Per le più recenti definizioni degli endpoint REST API e i relativi dettagli, consulta la documentazione Swagger all&#39;indirizzo `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (sostituisci `<aem-author-url>` con l&#39;URL del tuo server AEM). Poiché l’archiviazione di questo articolo è prevista per ottobre 2026, si consiglia di utilizzare la documentazione Swagger per ottenere le informazioni API più aggiornate.
 
 Metodo POST che avvia l&#39;elaborazione in blocco delle risorse per un percorso specificato. Questa API supporta sia l’elaborazione delle risorse basata su JCR che quella basata su database. Avvia un processo asincrono che elabora tutte le risorse sotto il percorso specificato e i relativi percorsi secondari. Al momento dell’avvio, l’API restituisce un processingID univoco che può essere utilizzato per monitorare lo stato del processo.
 
@@ -79,7 +80,7 @@ processingId per il polling e ottenere lo stato del processo asincrono.
 
 ## Verifica stato processo
 
-Metodo GET che recupera lo stato corrente di un processo di elaborazione di risorse avviato in precedenza.
+Un metodo GET che recupera lo stato corrente di un processo di elaborazione di risorse avviato in precedenza.
 
 **URL richiesta**
 
@@ -245,7 +246,7 @@ API POST che riavvia una richiesta di elaborazione in blocco di risorse preceden
 
 ## Visualizza cronologia processo
 
-Un’API GET che restituisce le ultime &quot;N&quot; esecuzioni del post-elaborazione delle risorse.
+API GET che restituisce le ultime &quot;N&quot; esecuzioni del post-elaborazione delle risorse.
 
 **URL richiesta**
 

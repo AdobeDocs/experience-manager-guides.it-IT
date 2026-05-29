@@ -4,9 +4,9 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
      >[!NOTE]
      >
-     > Nella home page, l’opzione delle impostazioni di Workspace è disponibile solo per la configurazione di Cloud Services. In una configurazione locale, l’opzione Altre azioni non è disponibile nella pagina Home. Tuttavia, è ancora possibile accedere alle impostazioni pertinenti tramite l’interfaccia dell’editor e la console Mappa, passando a Più opzioni > Impostazioni.
+     > Nella home page, l’opzione delle impostazioni di Workspace è disponibile per Cloud Services e per le configurazioni On-Premise nella versione 5.2 e successive. In una configurazione on-premise precedente alla versione 5.2, l’opzione Altre azioni non è disponibile nella home page. Tuttavia, è ancora possibile accedere alle impostazioni pertinenti tramite l’interfaccia dell’editor e la console Mappa, passando a Più opzioni > Impostazioni.
 
 - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
@@ -68,7 +68,7 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
 >[!NOTE]
 >
-> L’archivio è disponibile nel pannello a sinistra solo per la configurazione di Cloud Service a partire dalla versione 2025.11.0. Per la configurazione on-premise, l’archivio continua a essere accessibile dall’interfaccia dell’editor.
+> L’archivio è disponibile nel pannello a sinistra per la configurazione di Cloud Service a partire dalla versione 2025.11.0 e per la configurazione on-premise a partire dalla versione 5.2. Per la configurazione on-premise precedente alla versione 5.2, l’accesso all’archivio continua dall’interfaccia dell’editor.
 
 Il pannello a sinistra consente di accedere rapidamente alle funzioni Panoramica, Archivio, Mappa raccolte, Pubblicazione in blocco, Coda di pubblicazione e Preferenze utente. Puoi espandere il pannello selezionando l&#39;icona **Espandi** posta nell&#39;angolo inferiore sinistro dell&#39;interfaccia. Una volta espanso, utilizza l&#39;icona **Comprimi** per comprimere il pannello.
 
@@ -202,4 +202,4 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
   >[!NOTE]
   >
-  >A partire dalla versione 2025.11.0, l&#39;impostazione **Individua sempre i file nel repository** viene rinominata in **Individua sempre i file nel Explorer**. Per la configurazione on-premise, continua a essere disponibile come sempre individua i file nell’archivio fino alla versione 5.1 di Experience Manager Guides.
+  >A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, l&#39;impostazione **Individua sempre i file nell&#39;archivio** è rinominata **Individua sempre i file nell&#39;Explorer**. Per la configurazione on-premise prima della versione 5.2 , continua a essere disponibile come Always locate files in the repository (Individua sempre i file nell’archivio).
