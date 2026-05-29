@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 5.2.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 5.2.0 di Adobe Experience Manager Guides.
-source-git-commit: 1dc529ba8913c30fba876f101c3b52474e8a71dd
+source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -69,7 +69,7 @@ Puoi aggiornare facilmente la versione corrente di Experience Manager Guides all
 >
 > - **Per AEM 6.5 LTS**: Experience Manager Guides 5.2.0 è supportato solo con AEM 6.5 LTS Service Pack 2.
 > - **Per AEM 6.5**: Experience Manager Guides 5.2.0 è supportato solo con AEM 6.5 Service Pack 24, 23 e 22.
-> - Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.2.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.2.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Prima di procedere con l’aggiornamento alla versione 5.2.0 di Experience Manager Guides, è necessario considerare i seguenti punti:
 
@@ -79,7 +79,7 @@ Prima di procedere con l’aggiornamento alla versione 5.2.0 di Experience Manag
 - Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.1.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
-- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).
+- Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ## Processo di aggiornamento per Experience Manager Guides 5.2.0
 
