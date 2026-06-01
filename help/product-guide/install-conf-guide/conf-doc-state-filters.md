@@ -77,4 +77,4 @@ Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
 I filtri configurati vengono visualizzati nel pannello **Filtri** nell&#39;archivio nella home page.
 
-**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
