@@ -4,9 +4,10 @@ description: Scopri come configurare un connettore di origine dati utilizzando g
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
+source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Le schede seguenti forniscono istruzioni per configurare un connettore in base a
    *Visualizzare o creare un connettore origine dati.*
 1. Fai clic su **Crea**.
 1. Selezionare il database per il quale si desidera creare il connettore. Ad esempio, il connettore Elasticsearch.
+
    >[!NOTE]
    >
    >Vengono elencati tutti i database predefiniti disponibili.
@@ -55,16 +57,11 @@ Le schede seguenti forniscono istruzioni per configurare un connettore in base a
    * **Password**: immetti nome utente e password.
    * **URL**: aggiungi l&#39;URL API.
 
-
 1. Selezionare l&#39;opzione **Escludi modelli factory** per escludere i modelli factory dall&#39;utilizzo per la generazione di argomenti e frammenti. Non verranno visualizzati nel menu a discesa **Modello di mappatura dati** nella finestra di dialogo **Aggiungi generatore frammenti di contenuto** o **Aggiungi generatore argomenti**.
-
 
 1. Seleziona **Verifica connessione**. Puoi visualizzare il pulsante **Verifica connessione** abilitato solo dopo aver aggiunto i dettagli richiesti. Visualizza un messaggio di operazione riuscita se i dettagli della connessione sono corretti. In caso contrario, è possibile visualizzare un messaggio di errore.
 
-
-
 1. Seleziona **Salva** nella parte superiore per salvare il connettore.     Visualizza il pulsante **Salva** attivato dopo aver compilato tutti i dettagli e aver stabilito la connessione.
-
 
    Se il connettore viene salvato correttamente, è possibile visualizzare l&#39;origine dati collegata nella pagina.
 
@@ -78,7 +75,6 @@ Per creare una risorsa, effettua le seguenti operazioni:
 1. Configura tutti i dettagli nella finestra di dialogo **Aggiungi risorsa**.
 1. Fai clic su **Aggiungi**.
 1. Puoi modificare ![icona di modifica](assets/edit_pencil_icon.svg) o eliminare ![elimina](assets/Delete_icon.svg) la risorsa dall&#39;elenco delle risorse URL.
-
 1. È inoltre possibile utilizzare le risorse predefinite disponibili per origini dati quali Salsify, Akeneo e Microsoft ADO. Disattiva le opzioni per la risorsa da non configurare per un’origine dati.
 
 Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse per una particolare origine dati in un singolo frammento di contenuto o argomento.
@@ -88,7 +84,6 @@ Questo consente di recuperare rapidamente i dati da una qualsiasi delle risorse 
 Per pubblicare una dipendenza presente nell&#39;archivio centrale [Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) in Cloud Services, è necessario includere e incorporare la dipendenza per un connettore open-source.
 
 1. Aggiungi la dipendenza in `all/pom.xml` nel codice del progetto Git di Cloud Manager. Ad esempio, puoi aggiungere la seguente dipendenza per il connettore dell’origine dati delle schede madri Microsoft Azure DevOps.
-
 
    ```
    <dependency>
@@ -101,15 +96,15 @@ Per pubblicare una dipendenza presente nell&#39;archivio centrale [Maven](https:
 
 1. Incorpora la dipendenza aggiunta.
 
-       &quot;
-       &lt;embedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
 1. Esegui la pipeline per applicare le modifiche in Cloud Services.
 Il connettore è installato nell’ambiente.
 
@@ -126,6 +121,7 @@ Il connettore è installato nell’ambiente.
    *Visualizzare o creare un connettore origine dati.*
 1. Fai clic su **Crea**.
 1. Selezionare il database per il quale si desidera creare il connettore. Ad esempio, il connettore Elasticsearch.
+
    >[!NOTE]
    >
    >Vengono elencati tutti i database predefiniti disponibili.
@@ -146,7 +142,6 @@ Il connettore è installato nell’ambiente.
 1. Seleziona **Verifica connessione**. Puoi visualizzare il pulsante **Verifica connessione** abilitato solo dopo aver aggiunto i dettagli richiesti. Visualizza un messaggio di operazione riuscita se i dettagli della connessione sono corretti. In caso contrario, è possibile visualizzare un messaggio di errore.
 
 1. Seleziona **Salva** nella parte superiore per salvare il connettore.     Visualizza il pulsante **Salva** attivato dopo aver compilato tutti i dettagli e aver stabilito la connessione.
-
 
    Se il connettore viene salvato correttamente, è possibile visualizzare l&#39;origine dati collegata nella pagina.
 
@@ -171,7 +166,6 @@ Puoi utilizzare le seguenti funzionalità per il connettore nella pagina **Origi
 Se esiste un connettore con lo stesso nome, viene visualizzato un errore.
 
 * **Elimina**: elimina il connettore selezionato.
-
 
 Dopo aver configurato l&#39;origine dati, il connettore viene elencato nel **pannello Origini dati** nell&#39;editor Web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
 

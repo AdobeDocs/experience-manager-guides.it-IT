@@ -12,7 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
 workflow-type: tm+mt
 source-wordcount: 604
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per richiedere un riesame o chiudere un&#39;attività di revisione, effettuare l
    ![](images/task-details-selection-author-view.png)
 3. Seleziona l&#39;icona **Commenti attività** per accedere e rivedere i commenti a livello di attività aggiunti dal revisore.
 
-   ![](images/task-comments-selection-author-view.png).
+   ![](images/task-comments-selection-author-view.png)
 
    La finestra di dialogo **Commenti attività** è visualizzata a destra.
 

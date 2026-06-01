@@ -4,9 +4,10 @@ description: Scopri come preparare i documenti di InDesign per la migrazione
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -44,9 +45,9 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
 
 1. Eseguire lo script di patch `[/bin/fmdita/validatebtree?operation=patch]` per correggere i riferimenti interrotti. L’esecuzione dello script richiede alcuni minuti e stampa i registri mentre procede. Al termine dell&#39;esecuzione, verrà stampato &quot;`Done`&quot;.
 
->[!NOTE]
->
-> È consigliabile copiare e salvare i registri a scopo di riferimento.
+   >[!NOTE]
+   >
+   > È consigliabile copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
 1. &#x200B;
