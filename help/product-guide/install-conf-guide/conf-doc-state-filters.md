@@ -4,9 +4,10 @@ description: Scopri come configurare i filtri per lo stato del documento
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6dee8479-770f-48d7-9939-5035388d16d8
+source-git-commit: 4d8a6cd1e683af7ac3496464a2e0ed930eb9e8fc
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -26,40 +27,41 @@ Per configurare i filtri dello stato del documento, effettuare le seguenti opera
 1. Seleziona l&#39;icona **Scarica** per scaricare il file `ui\_config.json` nel sistema locale.
 Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
-       &quot;
-       &quot;repositoryFilters&quot;: &lbrack;
-       &lbrace;
-       &quot;title&quot;: &quot;Stato documento&quot;,
-       &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;elementi figlio&quot;: &lbrack;
-       &lbrace;
-       &quot;title&quot;: &quot;Bozza&quot;,
-       &quot;valore&quot;: &quot;Bozza&quot;
-       &rbrace;,
-       &lbrace;
-       &quot;title&quot;: &quot;Modifica&quot;,
-       &quot;valore&quot;: &quot;Modifica&quot;
-       &rbrace;,
-       &lbrace;
-       &quot;title&quot;: &quot;In-Review&quot;,
-       &quot;value&quot;: &quot;In-Review&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Approvato&quot;,
-       &quot;valore&quot;: &quot;Approvato&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Rivisto&quot;,
-       &quot;valore&quot;: &quot;Esaminato&quot;
-       ,
-       &lbrace;
-       &quot;title&quot;: &quot;Fine&quot;,
-       &quot;valore&quot;: &quot;Fine&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &rbrack;
-       &quot;
+   ```
+   "repositoryFilters": [
+       {
+       "title": "Document state",
+       "property": "jcr:content/metadata/docstate",
+       "children": [
+           {
+           "title": "Draft",
+           "value": "Draft"
+           },
+           {
+           "title": "Edit",
+           "value": "Edit"
+           },
+           {
+           "title": "In-Review",
+           "value": "In-Review"
+           },
+           {
+           "title": "Approved",
+           "value": "Approved"
+           },
+           {
+           "title": "Reviewed",
+           "value": "Reviewed"
+           },
+           {
+           "title": "Done",
+           "value": "Done"
+           }
+       ]
+       }
+   ]
+   ```
+
    Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
 
 1. Puoi personalizzare i valori del filtro in base al flusso di lavoro della tua organizzazione. Ad esempio, per aggiungere uno stato del documento personalizzato **In sospeso**, inserire la voce seguente in `children`:
@@ -75,4 +77,4 @@ Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
 I filtri configurati vengono visualizzati nel pannello **Filtri** nell&#39;archivio nella home page.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
