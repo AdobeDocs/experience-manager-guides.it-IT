@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -57,6 +57,7 @@ Quando si apre un argomento nell&#39;Editor Web, a destra viene visualizzato il 
 1. Fate clic sull&#39;icona Schematron () per aprire il pannello Schematron.
 1. Utilizzate Aggiungi file di schema (Add Schematron File) per aggiungere file di schema.
 1. Se il file Schematron non presenta errori, viene aggiunto ed elencato nel pannello Convalida. Viene visualizzato un messaggio di errore per il file Schematron contenente errori.
+
    >[!NOTE]
    >
    >Per rimuoverla, potete utilizzare l&#39;icona croce accanto al nome del file Schematron.
@@ -115,7 +116,6 @@ Ad esempio, puoi utilizzarlo per visualizzare un messaggio se il titolo contiene
 No one word titles.
 </assert>  
 ```
-
 
 ## Definire pattern astratti{#schematron-abstract-patterns}
 
