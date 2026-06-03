@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Editor supporta ISO Schematron.
-
+>Editor supporta ISO Schematron.
 
 ## Importa file Schematron
 
@@ -57,7 +56,7 @@ Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il panne
 
    >[!NOTE]
    >
-   > Quando si aggiunge un file Schematron non valido, nel pannello Convalida viene visualizzato un messaggio di errore.
+   >Quando si aggiunge un file Schematron non valido, nel pannello Convalida viene visualizzato un messaggio di errore:
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -123,8 +122,8 @@ Quando si convalidano gli argomenti DITA con Schematron, viene visualizzato un m
 ### Dichiarazione rapporto
 
 Un’istruzione di report genera un messaggio quando un’istruzione di test restituisce true. Ad esempio, se desideri che la descrizione breve sia inferiore o uguale a 150 caratteri, puoi definire un’istruzione di rapporto per verificare gli argomenti in cui la descrizione breve è superiore a 150 caratteri.
-Quando si convalidano gli argomenti DITA con Schematron, si ottiene un report completo delle regole in cui l&#39;istruzione report restituisce true. Viene visualizzato un messaggio per gli argomenti in cui la descrizione breve supera i 150 caratteri.
 
+Quando si convalidano gli argomenti DITA con Schematron, si ottiene un report completo delle regole in cui l&#39;istruzione report restituisce true. Viene visualizzato un messaggio per gli argomenti in cui la descrizione breve supera i 150 caratteri.
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +136,7 @@ Quando si convalidano gli argomenti DITA con Schematron, si ottiene un report co
 
 >[!NOTE]
 >
-> Utilizzare solo espressioni Xpath 2.0 durante la scrittura delle regole Schematron.
+>Utilizzare solo espressioni Xpath 2.0 durante la scrittura delle regole Schematron.
 
 ## Usa espressioni Regex{#schematron-regex-espressions}
 
@@ -155,9 +154,7 @@ No one word titles.
 
 Experience Manager Guides supporta anche i modelli astratti in Schematron. È possibile definire pattern astratti generici riutilizzandoli.  Potete creare parametri segnaposto che specificano il pattern effettivo.
 
-
 L’utilizzo di modelli astratti può semplificare lo schema Schematron riducendo la duplicazione delle regole e semplificando la gestione e l’aggiornamento della logica di convalida. Può inoltre semplificare la comprensione dello schema, in quanto consente di definire logiche di convalida complesse in un unico modello astratto che può essere riutilizzato in tutto lo schema.
-
 
 Ad esempio, il codice XML seguente crea un modello astratto a cui fa riferimento il modello effettivo utilizzando l&#39;ID.
 
