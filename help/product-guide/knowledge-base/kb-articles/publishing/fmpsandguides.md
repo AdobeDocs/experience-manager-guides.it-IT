@@ -47,7 +47,7 @@ L&#39;installazione e la configurazione fanno riferimento a: [4.1 installazione 
 
 ### FMPS
 
-Per l&#39;installazione di FMPS è possibile fare riferimento a [YouTube link](https://www.youtube.com/watch?v=2deelyM5VA8&t) o [FMPS installazione e configurazione](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
+Per l&#39;installazione di FMPS è possibile fare riferimento a [YouTube link](https://www.youtube.com/watch?v=2deelyM5VA8&t) o [FMPS installazione e configurazione](https://help.adobe.com/it_IT/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## Configurazioni richieste
 
