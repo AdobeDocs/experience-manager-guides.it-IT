@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
 workflow-type: tm+mt
-source-wordcount: '3391'
+source-wordcount: '3406'
 ht-degree: 7%
 
 ---
@@ -198,14 +198,14 @@ ht-degree: 7%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [Note sulla versione 4.0.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -237,6 +237,7 @@ ht-degree: 7%
          - [Creare documenti Markdown dall’Editor](./user-guide/web-editor-markdown-topic.md)
          - [Aggiungere citazioni al contenuto](./user-guide/web-editor-apply-citations.md)
          - [Utilizza i dati delle tue origini dati](./user-guide/web-editor-content-snippet.md)
+         - {hide-from-toc}[Importa contenuto tramite il connettore Git (Beta)](./user-guide/web-editor-git-connector.md)
          - [Stato documento](./user-guide/web-editor-document-states.md)
          - [Usa etichette](./user-guide/web-editor-use-label.md)
          - [Impostazioni editor](./user-guide/config-editor-settings.md)
@@ -407,7 +408,7 @@ ht-degree: 7%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-guide}
    - On-premise {#on-prem-ig}
       - {hide-from-toc}[Nozioni di base on-premise](./install-guide/introduction.md)
@@ -685,6 +686,7 @@ ht-degree: 7%
       - Connettore origine dati {#data-source}
          - [Configurare un connettore origine dati dall’interfaccia utente](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Configurare un connettore di origine dati per Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+         - {hide-from-toc}[Crea e configura il connettore Git dall&#39;interfaccia utente](./install-conf-guide/conf-git-connector.md)
    - Profili globali e a livello di cartella {#global-folder-profiles}
       - [Configurare profili globali o a livello di cartella](./install-conf-guide/conf-profiles.md)
    - Modelli per argomenti e mappe {#topic-map-template}
