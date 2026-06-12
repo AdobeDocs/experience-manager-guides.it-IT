@@ -241,7 +241,7 @@ AEM supporta l’acquisizione di contenuti in blocco tramite i provider di archi
 
 - Acquisizione pianificata: l’acquisizione dei contenuti può essere pianificata in modo che avvenga durante intervalli di tempo predefiniti, garantendo un impatto minimo o nullo sugli utenti finali e sulle operazioni in corso.
 
-Per ulteriori informazioni, visualizzare [Utilizzo dell&#39;importazione in blocco](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import).
+Per ulteriori informazioni, visualizzare [Utilizzo dell&#39;importazione in blocco](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/migration/bulk-import).
 
 ## Acquisizione in blocco tramite caricamento AEM
 
