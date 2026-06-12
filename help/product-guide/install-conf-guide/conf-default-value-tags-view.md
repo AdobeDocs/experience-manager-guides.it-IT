@@ -4,7 +4,8 @@ description: Scopri come configurare il valore predefinito per la vista Tag
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Configura il valore predefinito per la vista Tag {#id223GN0M0NDC}
 
-AEM Guides consente di configurare lo stato predefinito per la visualizzazione Tag nell’editor web, per mantenere la visualizzazione Tag attivata o disattivata per impostazione predefinita per la sessione di un nuovo utente.Per configurare il valore predefinito per la visualizzazione Tag, effettua le seguenti operazioni:
+AEM Guides consente di configurare lo stato predefinito per la visualizzazione Tag nell’editor web, che consente di mantenere la visualizzazione Tag attivata o disattivata per impostazione predefinita per la sessione di un nuovo utente.Per configurare il valore predefinito per la visualizzazione Tag, effettua le seguenti operazioni:
 
 1. Scarica il file di configurazione dell’interfaccia utente accedendo a Adobe Experience Manager come amministratore.
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.

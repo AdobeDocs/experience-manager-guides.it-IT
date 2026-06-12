@@ -4,10 +4,11 @@ description: Scopri come migrare i contenuti dal software on-premise ai Cloud Se
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 

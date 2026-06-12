@@ -4,13 +4,13 @@ description: Scopri come personalizzare la mappatura degli elementi dita con i c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
-
 
 # Personalizzare la mappatura degli elementi DITA con i componenti AEM {#id1679J600HEL}
 
@@ -166,16 +166,16 @@ Nella tabella seguente vengono descritti gli elementi dello schema di elementi D
 | `<ditaelement>` | Nodo di primo livello per ogni elemento di mappatura. |
 | `<class>` | Attributo di classe dell&#39;elemento DITA di destinazione per il quale si sta scrivendo il componente.<br> Ad esempio, l&#39;attributo di classe per l&#39;argomento DITA è: <br> `- topic/topic` |
 | `<componentpath>` | Percorso CRXDE del componente AEM mappato. |
-| `<type>` | Valori possibili:<br> -   **COMPOSITO**: Elabora anche elementi figlio <br> -   **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
+| `<type>` | Valori possibili:<br> - **COMPOSITO**: Elabora anche elementi figlio <br> - **STANDALONE**: ignora l&#39;elaborazione degli elementi figlio |
 | `<attributeprop>` | Utilizzato per la mappatura di attributi e valori DITA serializzati ai nodi AEM come proprietà. Ad esempio, se si dispone dell&#39;elemento `<note type="Caution">` e il componente mappato per questo elemento ha `<attributeprop>attr_t</ attributeprop>`, l&#39;attributo e il valore del nodo vengono serializzati nella proprietà `attr_t` del nodo AEM corrispondente \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Salva l&#39;output `getTextContent()` nella proprietà definita da `propname_t.` <br> **Nota:** questa è una proprietà ottimizzata. |
 | `<xmlprop>propname_x </xmlprop>` | Salva il codice XML serializzato di questo nodo nella proprietà definita da `propname_x.<br> `**Nota:** Si tratta di una proprietà ottimizzata. |
 | `<xpath>` | Se l&#39;elemento XPath viene fornito nel mapping di elementi, insieme al nome e alla classe dell&#39;elemento deve essere soddisfatta anche la condizione XPath affinché venga utilizzato il mapping di componenti. |
-| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nella posizione specificata.<br> Valori possibili: <br> - **head**: Sotto il nodo head <br> - **text**: Sotto il nodo paragrafo |
+| `<target>` | Posizionare l&#39;elemento DITA nell&#39;archivio crx nel percorso specificato.<br> Valori possibili: <br> - **head**: sotto il nodo head <br> - **text**: sotto il nodo paragrafo |
 | `<wrapelement>` | L’elemento HTML in cui racchiudere il contenuto. |
 | `<wrapclass>` | Il valore dell&#39;elemento alla proprietà `wrapclass.` |
 | `<attributemap>` | Nodo contenitore contenente uno o più nodi `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Associa gli attributi DITA alle proprietà di AEM: <br> -   **`from`**: nome attributo DITA <br> -   **`to`**: nome proprietà componente AEM <br> -   **`ispath`**: se l&#39;attributo è un valore di percorso \(ad esempio: *immagine*\) <br> -   **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappa gli attributi DITA alle proprietà di AEM: <br> - **`from`**: nome attributo DITA <br> - **`to`**: nome proprietà componente AEM <br> - **`ispath`**: Se l&#39;attributo è un valore percorso \(ad esempio: *image*\) <br> - **`rel`**: se il percorso è l&#39;origine o la destinazione <br> **Nota:** Se `attrname` inizia con `%`, mappare `attrname minus '%'` a prop &#39; `propname`&#39;. |
 
 **Note aggiuntive**
 
@@ -188,5 +188,3 @@ Nella tabella seguente vengono descritti gli elementi dello schema di elementi D
 - Se si prevede di ignorare alcuni \(e non tutti\) dei mapping degli elementi, non è necessario replicare l&#39;intero file `elementmapping.xml`. È necessario creare un nuovo file di mapping XML e definire solo gli elementi sovrascritti.
 
 - Dopo aver creato il file XML nel percorso personalizzato, aggiornare l&#39;impostazione `Override Element Mapping` nel bundle `com.adobe.fmdita.config.ConfigManager`.
-
-
