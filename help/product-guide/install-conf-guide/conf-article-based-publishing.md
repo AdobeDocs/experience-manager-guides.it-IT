@@ -4,9 +4,10 @@ description: Scopri come installare pacchetti per la pubblicazione basata su art
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Le schede seguenti forniscono istruzioni per creare un sito AEM per la pubblicaz
 
 >[!TAB On-Premise]
 
-Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti pacchetti dal portale di distribuzione software Adobe. Installali per creare un sito Tragopan. \(sito di Tragopan è un esempio di sito AEM della knowledge base con modelli per pagine di categorie, sezioni e articoli.\) Aggiorna il sito Tragopan per generare l’output del sito AEM utilizzando i predefiniti di output dell’editor web.
+Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti pacchetti dal portale di distribuzione software Adobe. Installali per creare un sito Tragopan. \(Sito di Tragopan è un sito di AEM della knowledge base di esempio con modelli per pagine di categorie, sezioni e articoli.\) Aggiornare il sito di Tragopan per generare l&#39;output del sito di AEM utilizzando i predefiniti di output dell&#39;editor Web.
 
 - Modello della knowledge base per la pubblicazione basata su articoli
 - Pacchetto di componenti per la pubblicazione basata su articoli
@@ -55,4 +56,4 @@ Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti
 >[!ENDTABS]
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)

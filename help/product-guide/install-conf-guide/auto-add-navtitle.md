@@ -4,9 +4,10 @@ description: Scopri come includere @navtitle attributo per impostazione predefin
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 80784efb-e897-47cc-a10a-4050236b0fad
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -90,4 +91,4 @@ Con questa configurazione, ogni file di riferimento aggiunto a una mappa conterr
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)

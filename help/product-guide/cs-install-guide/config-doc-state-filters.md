@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
 source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -28,37 +28,37 @@ Per configurare i filtri dello stato del documento, effettuare le seguenti opera
 Nel file `ui\_config.json` scaricato, fare riferimento alla sezione seguente:
 
        &quot;
-     &quot;repositoryFilters&quot;: &lbrack;
-     &lbrace;
+     &quot;repositoryFilters&quot;: [
+     {
      &quot;title&quot;: &quot;Document state&quot;,
      &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-     &quot;children&quot;: &lbrack;
-     &lbrace;
+     &quot;children&quot;: [
+     {
      &quot;title&quot;: &quot;Draft&quot;,
      &quot;value&quot;: &quot;Draft&quot;
-     &rbrace;,
-     &lbrace;&lbrace;21     &quot;title&quot;: &quot;Modifica&quot;,
+     },
+     {{21     &quot;title&quot;: &quot;Modifica&quot;,
      &quot;value&quot;: &quot;Modifica&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;title&quot;: &quot;In-Review&quot;,
      &quot;value&quot;: &quot;In-Review&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;title&quot;: &quot;Approvato&quot;,
      &quot;value&quot;: &quot;Approvato&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;titolo&quot;: &quot;Rivisto&quot;,
      &quot;valore&quot;: &quot;Rivisto&quot;
-     &rbrace;,
-     &lbrace;
+     },
+     {
      &quot;titolo&quot;: &quot;Completato&quot;,
      &quot;valore&quot;: &quot;Completato&quot;
-     &rbrace;
-     &rbrace;
-     &rbrace;
-     &rbrack;
+     }
+     }
+     }
+     ]
      &quot;
    
 Questo frammento rappresenta i filtri predefiniti per lo stato del documento disponibili in Experience Manager Guides.
@@ -76,4 +76,4 @@ Questo frammento rappresenta i filtri predefiniti per lo stato del documento dis
 
 I filtri configurati vengono visualizzati nel pannello **Filtri** nell&#39;archivio nella home page.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](conf-web-editor.md)
+**Argomento padre:**[ Personalizza editor Web](conf-web-editor.md)
