@@ -20,8 +20,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 2%
+source-wordcount: 844
+ht-degree: 0%
 
 ---
 
@@ -121,7 +121,7 @@ Per migrare i contenuti Experience Manager Guides ad Experience Manager as a Clo
    ![](./assets/migration-create-migration-set.png)
 
 1. Specifica il percorso di cui vuoi eseguire la migrazione e fai clic su **Salva**.
-Ad esempio,  `/content/sites`
+Ad esempio, `/content/sites`
 o
    `/content/dam/tech-docs`
    ![percorsi inclusi](./assets/migration-included-paths.png)
