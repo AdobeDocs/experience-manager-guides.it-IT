@@ -3,7 +3,7 @@ title: Domande frequenti sulle prestazioni di pubblicazione e la scalabilità in
 description: Scopri le domande frequenti su Prestazioni di pubblicazione e scalabilità in Adobe Experience Manager Guides.
 source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ I passaggi di elaborazione principali rimangono funzionalmente coerenti, ma veng
 
 Experience Manager Guides semplifica la configurazione del database per gli ambienti AEM Cloud. Per configurare il database per l’istanza di AEM Cloud, effettua le seguenti operazioni:
 
-1. Accedi a AEM Cloud Manager: passa a Adobe Experience Cloud Manager utilizzando l&#39;URL seguente, sostituendo i segnaposto con i dettagli dell&#39;organizzazione, del programma e dell&#39;ambiente: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}`
+1. Accedi ad AEM Cloud Manager: passa ad Adobe Experience Cloud Manager utilizzando l&#39;URL seguente, sostituendo i segnaposto con i dettagli dell&#39;organizzazione, del programma e dell&#39;ambiente: `https://experience.adobe.com/#/${orgName}/cloud-manager/environments.html/program/${programId}/environment/${envId}`
 
 1. Configurare l’ambiente: dopo aver aperto la pagina di configurazione dell’ambiente tramite Cloud Manager, potrai regolare le impostazioni specifiche dell’istanza, inclusa la configurazione delle configurazioni di database richieste.
 

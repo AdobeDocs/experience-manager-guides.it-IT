@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: 757
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Si tratta di un conflitto se si sceglie il predefinito FMPS e si forniscono anch
 ### La baseline non viene pubblicata da FMPS
 
 >FMPS2020.0.2 o versioni successive sono compatibili con la pubblicazione di base.
->Verificare che la baseline sia stata creata correttamente. Per verificare, passare a Map Dashboard (Argomenti)— Download Map (Scarica mappa) e scegliere &quot;Use Baseline&quot; (Usa baseline).
+>Verificare che la baseline sia stata creata correttamente. Per verificare, passare a Map Dashboard— Topics— Download Map e scegliere &quot;Use Baseline&quot;.
 
 ### Le attività di pubblicazione da FMPS richiedono più tempo rispetto ad altri motori
 

@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ Per applicare la struttura del sommario e i livelli di intestazione degli stili,
   >Se sei uno sviluppatore CSS, puoi definire il formato guida direttamente anche nel file CSS.
 
 * **Usa marcatore di continuazione tabella**: selezionare questa opzione per definire marcatori per tabelle lunghe distribuite su più pagine.
-Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad esempio, una tabella si interrompe a pagina 5 e si definisce `<Continued on page %page-num%>` per **Testo prima dell&#39;interruzione**.  Nella parte inferiore della pagina 5 viene visualizzato &quot;Continua a pagina 6&quot;.
+Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad esempio, una tabella si interrompe a pagina 5 e si definisce `<Continued on page %page-num%>` per **Testo prima dell&#39;interruzione**. Nella parte inferiore della pagina 5 viene visualizzato &quot;Continua a pagina 6&quot;.
 
   Utilizza le variabili di lingua per definire il testo del marcatore di continuazione prima e dopo l’interruzione. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. È ad esempio possibile pubblicare `Continued on page %page-num%` come testo in inglese e `Fortsetzung auf Seite %page-num%` in tedesco.
 
