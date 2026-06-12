@@ -5,17 +5,10 @@ feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
 TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 850
@@ -52,7 +45,7 @@ Per creare configurazioni IMS in **Adobe Developer Console**, effettua le seguen
 
    <img src="assets/projects-tab.png" alt="scheda progetti" width="500">
 
-   *Selezionare la scheda **Progetti**&#x200B;in **Adobe Developer Console***
+   *Selezionare la scheda **Progetti**in **Adobe Developer Console***
 
 1. Per creare un nuovo progetto vuoto, seleziona **Progetto vuoto** dal menu a discesa **Crea nuovo progetto**.
 
