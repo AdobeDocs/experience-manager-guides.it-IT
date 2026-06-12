@@ -34,7 +34,7 @@ Ottenere il marchio Enterprise unendo perfettamente la pagina FrontCover con la 
 
 **Prima:**
 
-![Prima di correggere il branding: schermata che mostra il layout PDF pre-branded](../assets/publishing/branding-image1.png)
+![Prima di correggere il branding: schermata che mostra il layout PDF prebranded](../assets/publishing/branding-image1.png)
 <br>
 <br>
 

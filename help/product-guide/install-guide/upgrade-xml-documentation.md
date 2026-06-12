@@ -24,7 +24,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: 9214
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ Questa API è progettata per valutare lo stato corrente del sistema e segnalare 
 
 | Punto finale | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Tipo di richiesta | **GET** Puoi utilizzare un browser Web, in cui hai effettuato l&#39;accesso all&#39;istanza AEM come amministratore. |
+| Tipo di richiesta | **GET** Puoi utilizzare un browser Web, in cui hai effettuato l&#39;accesso all&#39;istanza di AEM come amministratore. |
 | Risposta prevista | - Nel caso in cui tutti i nodi richiesti possano essere spostati, riceverai un controllo superato. <br>- Se nel percorso di destinazione è presente un nodo, verrà visualizzato un errore rilevante. Pulisci l’archivio \(elimina nodo /var/dxml\) e reinstalla il pacchetto di aggiornamento, quindi attiva di nuovo questo endpoint. <br>**Nota:** non si tratta di un errore comune in quanto il percorso di destinazione non è stato utilizzato in precedenza da Experience Manager Guides 3.x. <br> - Se questo script non riesce, non procedere e segnalalo al tuo team di successo cliente. |
 
 **API di migrazione dati di sistema**
@@ -492,7 +492,7 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 
 - È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
@@ -547,7 +547,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo di richiesta | **GET** |
+   | Tipo di richiesta | **OTTIENI** |
    | Parametro | jobId: passa il jobId ricevuto dalla richiesta post precedente. |
    | Risposta prevista | - Una volta completato il processo, la richiesta GET risponde con successo. <br> - In caso di errori, condividi i registri degli errori con il tuo team Customer Success insieme all&#39;output API.  <br>URL di esempio: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -720,7 +720,7 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 - Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: È possibile passare percorsi specifici delle mappe per indicizzarle. Per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
@@ -748,7 +748,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo di richiesta | **GET** |
+   | Tipo di richiesta | **OTTIENI** |
    | Parametro | jobId: passa il jobId ricevuto dalla richiesta post precedente. |
    | Risposta prevista | - Una volta completato il processo, la richiesta GET risponde con successo. <br> - In caso di errori, condividi i registri degli errori con il tuo team Customer Success insieme all&#39;output API.  <br>URL di esempio: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -922,7 +922,7 @@ Effettua le seguenti operazioni per indicizzare il contenuto esistente e utilizz
 
 - Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: È possibile passare percorsi specifici delle mappe per indicizzarle. Per impostazione predefinita, tutte le mappe saranno indicizzate \|\| Ad esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
@@ -949,7 +949,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
    | Punto finale | /bin/guides/reports/upgrade |
    |---|---|
-   | Tipo di richiesta | **GET** |
+   | Tipo di richiesta | **OTTIENI** |
    | Parametro | jobId: passa il jobId ricevuto dalla richiesta post precedente. |
    | Risposta prevista | - Una volta completato il processo, la richiesta GET risponde con successo. <br> - In caso di errori, condividi i registri degli errori con il tuo team Customer Success insieme all&#39;output API.  <br>URL di esempio: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -985,7 +985,7 @@ Cercare `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Comple
 >
 > Verifica se il nodo è ancora presente e lo stato del processo.
 
-**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+**OTTIENI**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
 
 
 
@@ -1137,7 +1137,7 @@ Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
 - Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
@@ -1292,7 +1292,7 @@ Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
 - Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
@@ -1459,7 +1459,7 @@ Per indicizzare il contenuto esistente, effettua le seguenti operazioni:
 
 - Eseguire una richiesta POST al server \(con autenticazione corretta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facoltativo: Puoi trasmettere percorsi specifici delle mappe per indicizzarle; per impostazione predefinita, tutte le mappe saranno indicizzate Esempio: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- L’API restituirà un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\ (ad esempio: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Una volta completato il processo, la richiesta GET di cui sopra risponderà con successo e menzionerà se eventuali mappe non sono riuscite. Le mappe indicizzate correttamente possono essere confermate dai registri del server.
 
