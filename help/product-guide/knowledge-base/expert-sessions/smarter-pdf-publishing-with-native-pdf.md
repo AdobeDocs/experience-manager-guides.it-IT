@@ -2,10 +2,11 @@
 title: Pubblicazione PDF più intelligente con PDF nativo
 description: Questa sessione di esperti illustra come utilizzare il PDF nativo per creare PDF pronti per DITA senza l’utilizzo di competenze avanzate CSS o XSLT invece di utilizzare la tecnologia low code per la generazione di PDF
 keywords: Pubblicazione PDF DITA, AEM Guides, PDF nativo, da DITA a PDF, flusso di lavoro di pubblicazione DITA, automazione PDF, pubblicazione basata su metadati, modelli DITA
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +56,7 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ### Forum della community
 
-- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=it).
+- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 
