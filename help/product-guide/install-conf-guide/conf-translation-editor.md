@@ -4,7 +4,8 @@ description: Scopri come configurare la funzione di traduzione nell’editor web
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -47,4 +48,4 @@ Per nascondere la scheda **Gestisci** nell&#39;editor Web, effettuare le seguent
 
 Il filtro **Gestisci** non è più disponibile.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)

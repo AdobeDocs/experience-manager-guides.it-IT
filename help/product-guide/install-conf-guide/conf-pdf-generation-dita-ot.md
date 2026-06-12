@@ -4,9 +4,10 @@ description: Scopri come configurare la generazione di PDF per un singolo argome
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -58,4 +59,4 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 
 Dopo aver eseguito i passaggi indicati sopra, se si sceglie lo stesso profilo di cartella da Preferenze utente nell’editor web, verrà visualizzata l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)

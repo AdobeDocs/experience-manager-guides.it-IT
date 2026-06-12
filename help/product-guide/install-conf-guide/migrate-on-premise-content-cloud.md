@@ -4,10 +4,11 @@ description: Scopri come migrare i contenuti dal software on-premise ai Cloud Se
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +42,7 @@ Puoi scaricare lo **strumento Content Transfer** come file ZIP dal portale **Sof
 
 ![scarica strumento di trasferimento contenuti](./assets/content-transfer-tool-software-portal.png)
 Quindi installa il pacchetto tramite **Gestione pacchetti** nell&#39;istanza Adobe Experience Manager di origine. Assicurati di scaricare la versione più recente.
-Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=it).
+Per ulteriori dettagli sull&#39;ultima versione, visualizzare le [Note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -129,7 +130,7 @@ o
 
 1. Fai clic su **Salva**
 1. Seleziona il **set di migrazione**, quindi seleziona **Estrai** nella parte superiore.
-   ![estrazione set di migrazione &#x200B;](./assets/migration-extract.png)
+   ![estrazione set di migrazione ](./assets/migration-extract.png)
 
 1. Verifica i dettagli nella finestra a comparsa **Estrazione set di migrazione** per i percorsi e le configurazioni selezionati e fai clic su **Estrai**. L’estrazione richiederà alcuni minuti e lo stato verrà visualizzato come aggiornato.
    ![estrazione set di migrazione](./assets/migration-set-extraction.png)

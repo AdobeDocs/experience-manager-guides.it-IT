@@ -4,7 +4,7 @@ description: Scopri come configurare la Guida avanzata per la ricerca nel conten
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
-   ![API di gestione I/O](assets/confi-ss-io-management.png)
+   ![API di gestione IO](assets/confi-ss-io-management.png)
    *Aggiungi API di gestione I/O al progetto.*
 
 1. Crea una nuova **credenziale OAuth** e salvala.
-   ![Riquadro delle credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   ![Riquadro credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configura le credenziali OAuth nell&#39;API.*
 
 1. Nella scheda **Progetti**, scegli l&#39;opzione **OAuth Server to Server**, quindi seleziona le credenziali appena create.
@@ -106,4 +106,4 @@ Al termine, dovresti poter utilizzare la funzionalità **Guida avanzata**.
 
 
 Al termine della configurazione, nel pannello destro dell&#39;editor Web viene visualizzata l&#39;icona **Guida avanzata** ![Guida avanzata](assets/smart-help-icon.svg). Selezionare l&#39;icona per visualizzare il pannello **Guida avanzata**.
-Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata su IA per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.
+Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata sull&#39;intelligenza artificiale per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.

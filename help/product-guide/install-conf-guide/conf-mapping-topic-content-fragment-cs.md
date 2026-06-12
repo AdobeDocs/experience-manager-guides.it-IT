@@ -4,9 +4,10 @@ description: Scopri come configurare la mappatura basata su JSON tra un argoment
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 764a46b0-dc3f-45bb-b64f-d45574a96875
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Experience Manager Guides consente di creare una mappatura basata su JSON 
 >[!NOTE]
 > 
 > Se utilizzi le versioni 4.6 o successive, non è necessario creare questa mappatura, puoi trascinare gli elementi dell’argomento nei campi presenti nel modello per frammenti di contenuto.
-> Scopri come [pubblicare frammenti di contenuto](../user-guide/publish-content-fragment.md).
+> Ulteriori informazioni su come [pubblicare frammenti di contenuto](../user-guide/publish-content-fragment.md).
 
 
 1. Per scaricare *contentFragmentMapping.json*, accedi a Adobe Experience Manager come amministratore.
