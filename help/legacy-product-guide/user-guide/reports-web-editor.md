@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2384
+source-wordcount: 2193
 ht-degree: 0%
 
 ---
@@ -170,7 +170,7 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Fare doppio clic su **Collegamenti interrotti** a sinistra. Viene visualizzato l&#39;elenco dei collegamenti o dei riferimenti interrotti presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco in base ai collegamenti o ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. La schermata seguente, ad esempio, mostra tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati. `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
+   - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. Nella schermata seguente, ad esempio, vengono mostrati tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati, `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
    ![](images/broken-link-report.png){width="800"}
 
    - Se ordini per colonna **Usato in**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `TestMap.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
