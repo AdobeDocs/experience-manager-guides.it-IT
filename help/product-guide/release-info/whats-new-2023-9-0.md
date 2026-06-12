@@ -25,7 +25,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1691
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Pagine
 Potete utilizzare le variabili per definire un riferimento incrociato. Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà.
 
 Ora puoi anche utilizzare {figure} e {table}.
-Utilizzare {figure} per aggiungere un riferimento incrociato al numero di figura. Il numero di figura viene selezionato dagli stili di numerazione automatica definiti per la didascalia delle figure.
+Utilizza {figure} per aggiungere un riferimento incrociato al numero di figura. Il numero di figura viene selezionato dagli stili di numerazione automatica definiti per la didascalia delle figure.
 
 Utilizzare {table} per aggiungere un riferimento incrociato al numero di tabella. Il numero di tabella viene selezionato dagli stili di numerazione automatica definiti per la didascalia.
 

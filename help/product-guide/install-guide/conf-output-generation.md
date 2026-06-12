@@ -262,7 +262,7 @@ Per configurare i caratteri speciali validi nei nomi di file e nell’output del
 
 1. Cerca e fai clic sul bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>` `@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
+1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>`&#x200B;`@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
 
    >[!NOTE]
    >
