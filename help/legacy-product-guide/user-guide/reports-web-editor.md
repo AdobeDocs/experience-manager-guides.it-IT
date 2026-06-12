@@ -6,20 +6,14 @@ role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
 TQID: https://experienceleague.adobe.com/hhpFHjRAKTqhGfNNGNREL3-9-XXzCt7vFsbmPYnuLo0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2384
+source-wordcount: 2193
 ht-degree: 0%
 
 ---
@@ -127,7 +121,7 @@ Il report **Multimedia** fornisce informazioni dettagliate sugli elementi multim
 1. Fare doppio clic su **Multimedia** a sinistra. Viene visualizzato l&#39;elenco degli elementi multimediali presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco per file multimediali o in base ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **&#x200B;**&#x200B;prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
+   - Quando si ordina per **Multimedia**, il nome del contenuto multimediale viene visualizzato **** prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il file multimediale WarmCoolForC.gif nella prima colonna e tre riferimenti in cui viene utilizzato sono visualizzati nella terza colonna sulla stessa riga.
 
      ![](images/multimedia-report-file-order.png){width="650"}
 
@@ -170,7 +164,7 @@ Per visualizzare il rapporto relativo ai collegamenti interrotti, eseguire la pr
 1. Fare doppio clic su **Collegamenti interrotti** a sinistra. Viene visualizzato l&#39;elenco dei collegamenti o dei riferimenti interrotti presenti nella mappa DITA.
 1. Dal pannello **Filtri** è possibile ordinare l&#39;elenco in base ai collegamenti o ai nomi di utilizzati nei riferimenti.
 
-   - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. La schermata seguente, ad esempio, mostra tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati. `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
+   - Quando si ordina per **Collegamento interrotto**, i percorsi dei collegamenti interrotti vengono visualizzati nella prima colonna e quindi i nomi di tutti i riferimenti in cui sono stati utilizzati vengono visualizzati in un&#39;altra colonna su righe separate. Se lo stesso collegamento interrotto viene utilizzato in più file, questi vengono visualizzati su una riga e vengono mostrati come raggruppati o sotto-righe. Nella schermata seguente, ad esempio, vengono mostrati tre collegamenti interrotti nella prima colonna e il riferimento in cui sono utilizzati, `TestMap.ditamap` viene visualizzato nella terza colonna in tre righe separate.
    ![](images/broken-link-report.png){width="800"}
 
    - Se ordini per colonna **Usato in**, verrà visualizzata la visualizzazione trasposta in cui i nomi dei riferimenti in cui sono stati utilizzati i collegamenti interrotti sono elencati nella prima colonna, mentre i collegamenti interrotti sono elencati in un&#39;altra colonna sulla stessa riga. Ad esempio, la schermata seguente mostra il riferimento (in cui viene utilizzato il collegamento interrotto) `TestMap.ditamap` nella prima colonna e i collegamenti interrotti vengono visualizzati nella terza colonna sulla stessa riga.
@@ -206,4 +200,4 @@ Fai clic su **Aggiorna** per ottenere un nuovo elenco di collegamenti interrotti
 1. Fare clic su **Scarica CSV** per scaricare lo snapshot corrente dei collegamenti interrotti nella mappa DITA. Il file CSV contiene le colonne selezionate e i collegamenti interrotti filtrati nella visualizzazione Collegamenti interrotti. Puoi quindi aprire e visualizzare questo file CSV in qualsiasi editor CSV.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Report](reports-intro.md)
+**Argomento padre:**[ Report](reports-intro.md)
