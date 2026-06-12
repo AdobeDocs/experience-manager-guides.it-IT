@@ -34,7 +34,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 18945
+source-wordcount: 18775
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ Nella schermata seguente, solo 3 su 4 elementi configurati dalla schermata prece
   Possono essere utilizzati per creare il profilo di pubblicazione Salesforce.
 
 
-   - Per creare un profilo di pubblicazione Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+   - Per creare un profilo di pubblicazione Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Server Type**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere **Chiave consumer** e **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
      ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;editor](./images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
