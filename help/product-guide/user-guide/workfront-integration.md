@@ -5,22 +5,11 @@ feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
 TQID: https://experienceleague.adobe.com/I5rB66768VPerp3v8WZAdOKmF07VjAc4aoOsHnGC9JI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2531
@@ -42,10 +31,10 @@ Con l’integrazione di Experience Manager Guides e Adobe Workfront, puoi:
 
 * Pianificare, allocare e tenere traccia dell&#39;avanzamento di singole attività e progetti senza ricorrere a più strumenti non integrati.
 * Gestisci tutti i flussi di lavoro di Experience Manager Guides, inclusi authoring, revisione, pubblicazione e traduzione dei contenuti in modo più efficiente.
-* Ricevi notifiche e-mail da Adobe Workfront ogni volta che vengono assegnate nuove attività. Per ulteriori dettagli, visualizzare [Panoramica notifiche](https://experienceleague.adobe.com/it/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Ricevi notifiche e-mail da Adobe Workfront ogni volta che vengono assegnate nuove attività. Per ulteriori dettagli, visualizzare [Panoramica notifiche](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Monitora lo stato del progetto utilizzando la dashboard intuitiva di Adobe Workfront, che offre informazioni in tempo reale sulle prestazioni del progetto.
 
-  Per informazioni sulle solide funzionalità di gestione dei progetti di Adobe Workfront abilitate per i project manager in Experience Manager Guides, visualizza [Panoramica del progetto](https://experienceleague.adobe.com/it/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Per informazioni sulle solide funzionalità di gestione dei progetti di Adobe Workfront abilitate per i project manager in Experience Manager Guides, visualizza [Panoramica del progetto](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Introduzione
 
@@ -78,7 +67,7 @@ Nella pagina Attività di Workfront sono disponibili le seguenti funzioni:
 
 La pagina Attività di Workfront include anche l&#39;icona di collegamento ![](./images/Smock_LinkOut_18_N.svg) che, se selezionata, consente di accedere alla pagina del progetto Adobe Workfront. Qui puoi visualizzare i dettagli delle attività, visualizzare i commenti, aggiungere commenti e accedere ad altre funzioni in base alle autorizzazioni mappate con il tuo account Adobe Workfront.
 
-Per ulteriori dettagli, visualizza [Panoramica delle date di Progetto, Attività e Problema in Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Per ulteriori dettagli, visualizza [Panoramica delle date di Progetto, Attività e Problema in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Creare attività di Workfront
 
@@ -139,7 +128,7 @@ Una nuova attività viene creata ed elencata nella scheda **Creato da te**.
 
 >[!NOTE]
 >
-> In qualità di project manager, puoi visualizzare questa nuova attività nel dashboard di Adobe Workfront insieme ad altri dettagli chiave sull’attività. Per ulteriori dettagli, visualizzare [Comprendere le dashboard](https://experienceleague.adobe.com/it/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> In qualità di project manager, puoi visualizzare questa nuova attività nel dashboard di Adobe Workfront insieme ad altri dettagli chiave sull’attività. Per ulteriori dettagli, visualizzare [Comprendere le dashboard](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gestione delle attività create dall&#39;utente
 
