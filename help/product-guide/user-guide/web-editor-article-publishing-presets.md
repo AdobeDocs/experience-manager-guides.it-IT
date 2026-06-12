@@ -5,19 +5,10 @@ exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 TQID: https://experienceleague.adobe.com/e5BEPmlmFDY2ipC8nNQPjrgGx3cV6AaD4PmZYw4hAYI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 368
@@ -55,7 +46,7 @@ Per creare predefiniti di output per la mappa DITA, effettuate le seguenti opera
    Viene creato il predefinito per la Knowledge Base.
 
 
-   ![Nuovo &#x200B;](images/knowledge-base-preset-dialog-box.png)
+   ![Nuovo ](images/knowledge-base-preset-dialog-box.png)
 
 Una volta creato il predefinito, è possibile generare l&#39;output per articoli specifici della knowledge base. A tale scopo, passare alla scheda **Articoli** e selezionare gli argomenti per i quali si desidera generare l&#39;output.
 1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
@@ -64,7 +55,7 @@ Una volta creato il predefinito, è possibile generare l&#39;output per articoli
 
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png)
 
 Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
@@ -80,4 +71,4 @@ Per visualizzare l&#39;output, chiudere la finestra di dialogo Output generato e
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Pubblicazione basata su articolo dall&#39;editor](web-editor-article-publishing.md)
+**Argomento padre:**[ Pubblicazione basata su articolo dall&#39;editor](web-editor-article-publishing.md)
