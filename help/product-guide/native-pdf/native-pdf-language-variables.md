@@ -6,9 +6,13 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1417
@@ -126,7 +130,7 @@ Le variabili con lo stesso ID vengono importate una volta importato il file. I v
 >[!NOTE]
 > 
 ><ul><li>Se il file non è un file XML o se il file contiene un formato non corretto che non è mappato con le variabili di lingua, viene visualizzato un errore che indica la presenza di un problema con il file XML. 
-&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
+>&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
 
 ### Opzioni per una variabile di lingua
 
@@ -134,7 +138,7 @@ Passa il puntatore del mouse sulla variabile per visualizzare il relativo menu *
 
 <img width="550" alt="menu delle opzioni per le variabili di lingua" src="./assets/language-variable-user-options.png">
 
-*Utilizza il menu **Opzioni**per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
+*Utilizza il menu **Opzioni**&#x200B;per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
 
 Puoi visualizzare in anteprima sia le variabili dell’applicazione che quelle dell’utente. Per visualizzare la modalità di visualizzazione del valore della variabile nell&#39;output, selezionare **Anteprima** dal menu **Opzioni** della variabile selezionata.
 Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si elimina una variabile da una lingua, questa viene eliminata automaticamente da tutte le lingue.
