@@ -4,9 +4,10 @@ description: Scopri come configurare i caratteri speciali consentiti
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -81,4 +82,4 @@ All’interno di una categoria è possibile definire più definizioni di caratte
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor Web](customize-overview.md)
