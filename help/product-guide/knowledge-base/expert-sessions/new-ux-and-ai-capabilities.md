@@ -55,11 +55,11 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ## Risorse correlate
 
-- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Nuova esperienza pagina iniziale](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [Funzionalità di intelligenza artificiale in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [Funzionalità di intelligenza artificiale in AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Configurare l’Assistente AI](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Configurare l’Assistente AI](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -72,7 +72,7 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ### Forum della community
 
-- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=it).
 
 
 ## Contattaci
