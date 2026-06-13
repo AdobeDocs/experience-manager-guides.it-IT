@@ -7,7 +7,7 @@ level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
 source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '796'
 ht-degree: 10%
 
 ---
@@ -103,4 +103,4 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 
 - Per assegnare a un utente i diritti per modificare lo stato di un documento, assicurarsi di aggiungere l&#39;utente nella sezione relativa alla transizione dello stato del profilo di stato del documento.
 
-[1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.[2](#fnsrc_2) a seconda dei diritti assegnati all&#39;utente nel profilo dello stato del documento.
+[1](#fnsrc_1) Se *Autori* e *Editori* sono invitati a una revisione.[2](#fnsrc_2) A seconda dei diritti assegnati all&#39;utente nel profilo dello stato del documento.

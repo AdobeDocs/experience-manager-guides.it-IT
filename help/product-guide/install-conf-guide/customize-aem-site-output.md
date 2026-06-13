@@ -210,7 +210,7 @@ Puoi anche configurare le altre proprietà, ad esempio l’utilizzo di lettere m
 
 1. Cerca e fai clic sul bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>` `@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
+1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>`&#x200B;`@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
 
    >[!NOTE]
    >
