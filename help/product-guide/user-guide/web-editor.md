@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
+source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -48,9 +48,8 @@ Il nuovo editor offre un’evoluzione significativa dell’esperienza di authori
 Il nuovo editor non supporta attualmente le seguenti funzionalità. Queste funzionalità saranno introdotte nelle prossime versioni.
 
 - Authoring con la funzione Revisioni abilitata (tutte le revisioni esistenti vengono mantenute e trattate come contenuto normale)
-- Nuove citazioni (tutte le citazioni esistenti nel contenuto vengono mantenute)
 - Ridimensionamento immagini nella vista Autore
-- Utilizzo di dati da origini dati (ad esempio JIRA, database SQL, PIM o PLM)
+
 
 >[!NOTE]
 >

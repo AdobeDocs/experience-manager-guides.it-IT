@@ -4,9 +4,9 @@ description: Crea e gestisci una nuova linea di base (Beta) dalla console delle 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,14 @@ Prima di eseguire la migrazione al nuovo modello della linea di base, esaminare 
 
 | Area | Modifica (descrizione) |
 |------|-------------|
-| **Risoluzione riferimento** | I riferimenti a mappe dirette sono classificati come **DIRETTI**. I riferimenti non validi vengono ignorati e i riferimenti da `reltable` continuano a essere esclusi. |
-| **Scegli automaticamente** | La selezione della versione viene valutata immediatamente prima della risoluzione dei riferimenti diretti, garantendo una risoluzione accurata della versione. |
+| **Risoluzione riferimento** | I riferimenti a mappe dirette sono classificati come **DIRETTI**. I riferimenti non validi vengono ignorati e i riferimenti da `reltable` continuano a essere esclusi. È supportato nelle baseline modificate e in quelle nuove, ma non nelle baseline di cui è stata eseguita solo la migrazione. |
+| **Scegli automaticamente** | La selezione della versione viene valutata immediatamente prima della risoluzione dei riferimenti diretti per garantire una risoluzione accurata della versione. È supportato nelle baseline modificate e in quelle nuove, ma non nelle baseline di cui è stata eseguita solo la migrazione. |
 | **Regole di creazione della linea di base** | Versione **1.0** obbligatoria. Le linee di base con versioni mancanti o ambigue possono risolversi in modo diverso dopo la migrazione. |
 | **Gestione della migrazione** | I riferimenti non validi vengono ignorati. **I riferimenti DIRETTI** hanno la precedenza, i riferimenti non bloccati vengono spostati alla versione più recente e metadati aggiuntivi vengono aggiunti dalla versione **5.0** in poi. |
 | **Modello dati di base** | Il nuovo modello di baseline basato su grafico rimuove i campi mutabili e non è compatibile con le versioni precedenti del modello di baseline precedente. |
 | **Utilizzo API** | Le operazioni della linea di base sono supportate tramite API REST e Java SDK. Gli oggetti della linea di base non elaborati non sono più esposti. |
 | **Eliminazione versione** | Dopo la migrazione, l’eliminazione della versione considera solo le baseline memorizzate nel nuovo archivio della baseline. |
+| **Interfaccia utente** | È possibile visualizzare le baseline dinamiche e semplificare la modifica delle versioni di riferimento. |
 
 ## Migra a nuova linea di base
 
@@ -86,7 +87,12 @@ Per migrare la baseline esistente alla nuova baseline, effettuare le seguenti op
 1. Fornisci i seguenti dettagli nella finestra di dialogo:
 
    1. **Tipo di funzionalità**: seleziona **Linea di base** dal menu a discesa.
-   1. **Selezionare cartelle e file**: spostarsi e scegliere una o più cartelle e file da elaborare.
+   1. **Selezionare cartelle e file**: spostarsi e scegliere una o più cartelle e file da elaborare. È possibile selezionare solo le cartelle per la migrazione di base.
+
+      >[!NOTE]
+      >
+      > Selezionare la cartella che contiene tutto il contenuto della guida e mappare i file. Se i file di mappa sono memorizzati separatamente, scegliere la directory in cui si trovano.
+
    1. **Selezionare le cartelle da ignorare**: è possibile selezionare sottocartelle all&#39;interno della cartella principale selezionata da escludere dalla migrazione.
 
    ![new-process-baseline](images/new-process-baseline.png)

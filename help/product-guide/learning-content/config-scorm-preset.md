@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +41,13 @@ Dopo aver creato il predefinito, configura le impostazioni del predefinito SCORM
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **Pubblicazione:** Utilizzare questa impostazione solo se si desidera pubblicare l&#39;output in SCORM Cloud per l&#39;accesso diretto.
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **Pubblica in LMS:** Utilizza questa impostazione per pubblicare i contenuti direttamente in Adobe Learning Manager (ALM). Dal menu a discesa **Server di pubblicazione**, selezionare **Adobe Learning Manager**, quindi scegliere il **Profilo di pubblicazione** richiesto precedentemente configurato nelle impostazioni di Workspace. Il profilo selezionato viene utilizzato per stabilire la connessione e caricare il contenuto generato in ALM.
+
+  >[!NOTE]
+  >
+  > Prima di pubblicare i contenuti in ALM, è necessario configurare un profilo di pubblicazione Adobe Learning Manager. Per ulteriori dettagli, visualizzare [Profili di pubblicazione](../lc-config-guide/lc-folder-profile.md).
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 Una volta configurate tutte le modifiche, salva le modifiche per il predefinito SCORM utilizzando **Salva** nell&#39;angolo destro della barra degli strumenti della pagina del predefinito SCORM.

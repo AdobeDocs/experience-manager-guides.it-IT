@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +57,17 @@ L&#39;attività è stata contrassegnata come completata e il relativo stato è o
 In base al feedback, se l&#39;autore o l&#39;iniziatore dell&#39;attività decide di [chiudere l&#39;attività di revisione](./review-close-review-task.md), lo stato dell&#39;attività nell&#39;interfaccia utente di revisione viene modificato in **Chiuso**.
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>Per impostazione predefinita, quando un revisore contrassegna un&#39;attività di revisione come **Completa**, l&#39;attività rimane nella cartella Posta in arrivo di AEM fino a quando l&#39;autore o l&#39;iniziatore dell&#39;attività non rivede il feedback e chiude l&#39;attività di revisione.
+>
+>Tuttavia, puoi scegliere di abilitare la sincronizzazione delle attività tra l’interfaccia utente di revisione e la casella in entrata di AEM. Quando questa funzione è abilitata, contrassegnando un&#39;attività di revisione come **Completa** nell&#39;interfaccia utente Revisione, l&#39;attività corrispondente viene automaticamente completata e rimossa dalla casella in entrata di AEM del revisore. Analogamente, il completamento di un’attività dalla casella in entrata di AEM la contrassegna automaticamente come completata nell’interfaccia utente di revisione.
+>
+>L’autore o l’iniziatore dell’attività può comunque rivedere il feedback e riassegnare l’attività se è necessaria un’ulteriore revisione. Quando un’attività viene riassegnata, viene generata una nuova notifica Casella in entrata AEM per il revisore, che consente di rivedere nuovamente l’attività.
+>
+>Per abilitare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
 
 ## Visualizza commenti a livello di attività
 
