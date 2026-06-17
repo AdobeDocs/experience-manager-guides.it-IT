@@ -5,10 +5,16 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
 source-wordcount: 1890
@@ -100,7 +106,7 @@ Per importare le citazioni, eseguire la procedura seguente:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importa solo le citazioni univoche e non già presenti.
-    &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
+   > &gt; <li> Experience Manager Guides può importare citazioni da un libro, un diario o un sito Web. Attualmente non supporta citazioni provenienti da altre fonti.
 
 ## Gestire le citazioni
 
@@ -190,7 +196,7 @@ Per inserire citazioni in un argomento, effettuare le seguenti operazioni:
 
 ### Dalla barra degli strumenti principale
 
-1. Selezionare l&#39;icona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nella barra degli strumenti principale.
+1. Selezionare l&#39;icona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nella barra degli strumenti principale.
 1. Nella finestra di dialogo **Citazioni**, scegli la citazione. È inoltre possibile selezionare più citazioni.
    ![finestra di dialogo citazione](images/citation-dialog-main-toolbar.png){width="300"}
 1. È possibile filtrare le citazioni digitando i primi alfabeti nel pannello di ricerca della finestra di dialogo **Citazione**.
@@ -205,7 +211,7 @@ La citazione selezionata viene aggiunta nella posizione del cursore nell&#39;arg
 > 
 >Per visualizzare l&#39;icona **Citazioni** dal pannello sinistro, l&#39;amministratore di sistema deve abilitare l&#39;opzione **Citazioni** nella scheda **Pannelli** in **Impostazioni**.
 
-1. Seleziona **Citazioni** ![icona citazioni ](images/citations-icon.svg) nel pannello a sinistra.
+1. Seleziona **Citazioni** ![icona citazioni &#x200B;](images/citations-icon.svg) nel pannello a sinistra.
 1. Trascina la citazione dal pannello **Citazioni** e rilasciala nella posizione appropriata nell&#39;argomento.
 
    È inoltre possibile selezionare **Inserisci** da ![](images/options.svg) **Opzioni** per inserire una citazione.
