@@ -5,21 +5,13 @@ exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -415,6 +407,10 @@ Utilizzando gli strumenti di equazione di MathML, crea l&#39;equazione e selezio
 
 In qualsiasi momento è possibile aggiornare un&#39;equazione facendo clic con il pulsante destro del mouse su un&#39;equazione esistente e selezionando **Modifica MathML** dal menu di scelta rapida.
 
+>[!NOTE]
+>
+> La generazione di MathML propaga l&#39;elemento `output-class` associato alle equazioni di MathML, consentendo la visualizzazione nell&#39;output generato di stili configurati quali caratteri, colori, sfondi e altra formattazione.
+
 ### Convalida delle equazioni nell’editor di MathML
 
 Experience Manager Guides convalida le equazioni di MathML quando si salva un argomento che le contiene.
@@ -549,4 +545,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

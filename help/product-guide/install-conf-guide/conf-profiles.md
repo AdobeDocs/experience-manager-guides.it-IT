@@ -5,9 +5,9 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6098'
 ht-degree: 0%
 
 ---
@@ -224,11 +224,11 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
    >
    > Il file DTD specializzato deve far parte della distribuzione del codice personalizzato. Le DTD in /apps fanno parte della distribuzione del prodotto e vengono quindi sovrascritte con l&#39;installazione di qualsiasi nuova versione. Si consiglia di aggiungere DTD specializzata in /var/dxml/dita\_resources all&#39;interno della cartella del progetto e di includere il percorso DTD/catalogo nel profilo DITA.Per ulteriori informazioni, vedere [Integrare la specializzazione DITA](dita-ot-specialization.md#id211MB0E00XA).
 
-1. Utilizza Gestione pacchetti per scaricare il file /libs/fmdita/config/condAttrList.xml:
+1. Utilizzare Gestione pacchetti per scaricare il file `/libs/fmdita/config/condAttrList.csv`. A seconda della versione in uso, anche il file `libs/fmdita/config/condAttrList.xml` potrebbe essere disponibile per il download.
 
-1. Crea una copia del file condAttrList.xml nel percorso seguente nell’archivio Git di Cloud Manager:
+1. Creare una copia del file `condAttrList.csv` nel percorso seguente nell&#39;archivio Git di Cloud Manager:
 
-   `/apps/fmdfmdita/config/condAttrList.xml`
+   `/apps/fmdfmdita/config/condAttrList.csv`
 
 1. Salva il file.
 
@@ -252,15 +252,17 @@ Se si utilizza un attributo personalizzato, deve essere un attributo DITA valido
 
    La cache di sistema verrà cancellata.
 
-1. Passare al file condAttrList.xml disponibile nel percorso seguente:
+1. Passare al file `condAttrList.csv` disponibile nel percorso seguente:
 
-   /libs/fmdita/config/condAttrList.xml
+   `/libs/fmdita/config/condAttrList.csv`
+
+   A seconda della versione in uso, il file `libs/fmdita/config/condAttrList.xml` potrebbe essere disponibile nella stessa posizione.
 
 1. Creare un nodo di sovrapposizione della cartella `config` all&#39;interno del nodo `apps`.
 
 1. Passare agli attributi personalizzati del file condAttrList.xml nel nodo `apps` e aggiungerli:
 
-   `/apps/fmdita/config/condAttrList.xml`
+   `/apps/fmdita/config/condAttrList.csv`
 
 1. Salva il file.
 
@@ -515,7 +517,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati (solo per Cloud Service)
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -601,9 +603,9 @@ Per garantire il funzionamento efficace dei suggerimenti avanzati, tieni present
 
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -660,7 +662,7 @@ Le seguenti schede forniscono informazioni in base alla configurazione di Experi
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

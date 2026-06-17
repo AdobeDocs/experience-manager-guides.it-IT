@@ -6,28 +6,14 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: b89a36a9-95de-429b-adde-f901256d8f24
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -211,6 +197,41 @@ Per creare un nuovo modello di output per il contenuto di apprendimento e formaz
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### Configurare i layout di pagina per i modelli di output SCORM
+
+I modelli di output SCORM consentono di assegnare layout di pagina diversi a tipi di argomenti diversi all&#39;interno di un corso. Questo consente di personalizzare la presentazione di lezioni, quiz, pagine di panoramica e altri tipi di contenuto nel pacchetto SCORM generato.
+
+Ad esempio, una pagina della lezione può utilizzare un layout che include un&#39;intestazione, un&#39;area di contenuto e un piè di pagina, mentre una pagina del quiz può utilizzare un layout semplificato senza piè di pagina. Puoi anche creare layout dedicati per le pagine di panoramica o per qualsiasi altro tipo di argomento e mapparli di conseguenza.
+
+Le assegnazioni di layout sono configurate al livello **Modello di output**. Qualsiasi predefinito SCORM che utilizza il modello di output configurato applicherà le mappature di layout selezionate durante la generazione dei corsi.
+Per configurare il layout di pagina per i modelli, effettua le seguenti operazioni:
+
+1. Passa a **Modelli di output** e apri il **modello di output SCORM** richiesto.
+
+2. Selezionare la scheda **Impostazioni**.
+
+3. Nella finestra **Layout di pagina**, individua i tipi di argomento disponibili.
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. Per ogni tipo di argomento, seleziona il layout di pagina da utilizzare durante la generazione del corso.
+
+   **Esempio:**
+   - **Layout di pagina predefinito**: lezione
+   - **Quiz**: Quiz
+   - **Panoramica**: lezione
+
+5. Per utilizzare un nuovo layout, crea il layout di pagina richiesto all&#39;interno del modello di output utilizzando l&#39;opzione **Nuovo layout di pagina** dal menu di scelta rapida dal pannello **Modelli di output**.
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Torna alla scheda **Impostazioni** e assegna il layout appena creato al tipo di argomento appropriato.
+
+7. Salvare il layout di pagina per il modello di output utilizzando l&#39;icona Salva nell&#39;angolo destro della barra della scheda.
+
+
+Quando viene generato un corso utilizzando un predefinito SCORM che utilizza il modello di output configurato, viene eseguito il rendering di ciascun argomento utilizzando il layout assegnato al relativo tipo di argomento. Questo consente a diversi tipi di contenuto all’interno dello stesso corso di avere strutture di pagina e presentazioni visive personalizzate.
+
 ### Rimuovere o riordinare i modelli
 
 Una volta aggiunti, è possibile rimuovere o riordinare i modelli dal pannello Impostazioni.
@@ -244,10 +265,10 @@ La scheda Predefiniti di output consente di definire i formati di output disponi
 
 ## Gestisci profili di pubblicazione
 
-Questa sezione ti consente di visualizzare, creare e gestire i profili di pubblicazione utilizzati per pubblicare i corsi su SCORM Cloud. Ogni profilo definisce le impostazioni di connessione e i dettagli di configurazione necessari per pubblicare un corso di apprendimento in un ambiente SCORM Cloud specifico.
+Questa sezione ti consente di visualizzare, creare e gestire i profili di pubblicazione utilizzati per pubblicare i corsi su SCORM Cloud o Adobe Learning Manager (ALM). Ogni profilo definisce le impostazioni di connessione e i dettagli di configurazione necessari per pubblicare un corso di apprendimento su un server di pubblicazione selezionato.
 
-Puoi creare più profili se devi pubblicare su diversi account SCORM Cloud, garantendo flessibilità e controllo sul processo di pubblicazione.
+Puoi creare più profili per pubblicare contenuti su diversi account SCORM Cloud o istanze ALM, fornendo flessibilità e controllo sul flusso di lavoro di pubblicazione.
 
-Fornisci i dettagli del server insieme all’ID client e al segreto client dell’applicazione cloud SCORM associata per configurare il profilo di pubblicazione per il cloud SCORM.
+Per configurare un profilo di pubblicazione, seleziona il server di pubblicazione desiderato (SCORM Cloud o Adobe Learning Manager) e fornisci i dettagli di connessione richiesti. Per SCORM Cloud, immettere le informazioni sul server insieme all&#39;ID client e al segreto client dell&#39;applicazione SCORM Cloud associata. Per Adobe Learning Manager, fornire i dettagli del server e dell&#39;autenticazione corrispondenti necessari per l&#39;ambiente ALM.
 
 ![](assets/configure-publish-profiles.png){width="350"}
