@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2b6a0f1a6ac03984286e9d3df40c197f28d52f8d
+source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
 workflow-type: tm+mt
 source-wordcount: 844
 ht-degree: 0%
@@ -43,7 +43,7 @@ Per informazioni dettagliate su come abilitare il motore di PDF nativo v2 nell&#
 
 ## Aggiornamenti CSS consigliati per il nuovo motore di pubblicazione
 
-Se desideri mantenere l’aspetto dell’output PDF generato dal motore PDF nativo v1 durante l’utilizzo del motore PDF nativo v2, potrebbe essere necessario aggiornare il CSS personalizzato. Le modifiche CSS consigliate descritte di seguito possono contribuire a mantenere la coerenza dell’output dopo l’abilitazione della nuova impostazione.
+Se desideri ripristinare l’aspetto dell’output PDF generato dal motore PDF nativo v1 durante l’utilizzo del motore PDF nativo v2, potrebbe essere necessario aggiornare il CSS personalizzato. Le modifiche CSS consigliate descritte di seguito possono contribuire a mantenere la coerenza dell’output dopo l’abilitazione della nuova impostazione.
 
 | Descrizione | Aggiornamento CSS consigliato |
 |-------------|------------------------------------------------|
