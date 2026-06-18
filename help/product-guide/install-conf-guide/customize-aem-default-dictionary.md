@@ -62,4 +62,4 @@ Gli autori devono riavviare la sessione dell&#39;editor per aggiornare l&#39;ele
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

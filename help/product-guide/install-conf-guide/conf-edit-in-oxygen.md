@@ -28,4 +28,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 >
 > Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor.
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

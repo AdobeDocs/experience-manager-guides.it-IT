@@ -59,4 +59,4 @@ Per abilitare la generazione precedente di PDF tramite DITA-OT dalla modalità d
 
 Dopo aver eseguito i passaggi precedenti, se scegli lo stesso profilo di cartella da Preferenze utente nell’editor, vedrai l’opzione per la generazione di PDF nella modalità di anteprima di un argomento.
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

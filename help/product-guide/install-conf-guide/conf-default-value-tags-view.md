@@ -37,4 +37,4 @@ AEM Guides consente di configurare lo stato predefinito per la visualizzazione T
 >
 > La preferenza dell’utente nell’editor di abilitare/disabilitare la visualizzazione Tag ha la precedenza su questo valore predefinito. Pertanto, se un utente abilita la Visualizzazione tag dall’editor, questa rimane abilitata anche nelle sessioni.
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)
