@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: c748a4cef0848b35c2e1bee6c5fec4e4de91ba22
+source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -522,7 +522,7 @@ ht-degree: 10%
          - [Sovrapponi tag HTML nell’output di AEM Sites per on-premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Configurare nomi di file validi per l’output del sito AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Pubblicazione PDF nativa {#config-native-pdf-publish}
-         - {hide-from-toc}[Modelli di pubblicazione PDF nativi e stili di contenuto](./install-conf-guide/template-content-styles.md)
+         - [Modelli di pubblicazione PDF nativi e stili di contenuto](./install-conf-guide/template-content-styles.md)
          - [Modello PDF](./native-pdf/pdf-template.md)
          - [Componenti di un modello PDF](./native-pdf/components-pdf-template.md)
          - [Progettare un layout di pagina](./native-pdf/design-page-layout.md)
