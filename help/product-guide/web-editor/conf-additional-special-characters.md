@@ -1,17 +1,17 @@
 ---
-title: Configurare caratteri speciali aggiuntivi nella barra degli strumenti dell'editor Web
-description: Scopri come configurare caratteri speciali aggiuntivi nell’editor web di AEM Guides.
+title: Configurare caratteri speciali aggiuntivi nella barra degli strumenti dell’editor
+description: Scopri come configurare caratteri speciali aggiuntivi nell’Editor di AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Come configurare caratteri speciali aggiuntivi nella barra degli strumenti dell’editor web per On-Premise
+# Come configurare caratteri speciali aggiuntivi nella barra degli strumenti dell’editor per On-Premise
 
 Nella barra degli strumenti dell’editor web è disponibile un’opzione di scelta rapida che consente all’autore di inserire già i caratteri speciali.
 Lo stesso può essere visto nella schermata seguente:

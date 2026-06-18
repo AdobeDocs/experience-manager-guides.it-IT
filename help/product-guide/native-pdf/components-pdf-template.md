@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 4602
+source-wordcount: 4601
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sommario (sommario), indice, pagina vuota, pagine di primo piano, pagine di seco
 >
 >Sono disponibili layout di pagina di esempio preconfigurati. Puoi personalizzarli o creare nuovi layout di pagina.
 
-1. Nell&#39;editor Web passare alla scheda **Output**.
+1. Nell&#39;editor, passare alla scheda **Output**.
 1. Espandere la barra laterale a sinistra e fare clic su **Modelli**.
 1. Aprire il modello che si desidera utilizzare.
 

@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ In questa sessione hai appreso quanto segue:
 - Scopri cosa è possibile estendere per tutte le interfacce con questo framework di estensione
 - Informazioni su ciò che è già disponibile per iniziare facilmente a creare funzionalità personalizzate
 - Scopri di più sulla personalizzazione, con alcuni esempi:
-   - Aggiunta di sezione Aiuto e supporto nell’editor web
+   - Aggiunta di una sezione di assistenza e supporto nell’editor
    - Aggiunta di un altro pannello a sinistra: per visualizzare le attività dell’utente corrente
    - Aggiunta di un altro pulsante della barra degli strumenti per argomento/mappa utilizzando questo framework
    - Estensione delle informazioni visualizzate nel pannello delle proprietà del contenuto nell’editor web - aggiunta di informazioni di post-elaborazione per indicare se la post-elaborazione viene eseguita o meno su un determinato file

@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,6 @@ Se esiste un connettore con lo stesso nome, viene visualizzato un errore.
 
 * **Elimina**: elimina il connettore selezionato.
 
-Dopo aver configurato l&#39;origine dati, il connettore viene elencato nel **pannello Origini dati** nell&#39;editor Web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
+Dopo aver configurato l&#39;origine dati, il connettore viene elencato nel pannello **Origini dati** nell&#39;editor. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
 
 Solo per la configurazione locale, puoi anche creare connettori personalizzati e utilizzarli con diverse origini dati. Scopri come [configurare i connettori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

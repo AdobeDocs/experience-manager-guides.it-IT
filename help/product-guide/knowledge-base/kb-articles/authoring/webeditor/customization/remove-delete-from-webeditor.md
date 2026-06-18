@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # Rimuovi l’opzione Elimina dal menu di scelta rapida dei file nell’editor web
 
-Questo articolo illustra come nascondere l’opzione Elimina dal menu di scelta rapida dei file in AEM Guides Web Editor per utenti o gruppi specifici. Per altre personalizzazioni sulle opzioni del menu di scelta rapida dei file, controlla il framework dell’estensione delle guide. Ulteriori dettagli sono disponibili [qui](https://github.com/adobe/guides-extension/tree/main).
+Questo articolo illustra come nascondere l’opzione Elimina dal menu di scelta rapida dei file nell’editor di AEM Guides per utenti o gruppi specifici. Per altre personalizzazioni sulle opzioni del menu di scelta rapida dei file, controlla il framework dell’estensione delle guide. Ulteriori dettagli sono disponibili [qui](https://github.com/adobe/guides-extension/tree/main).
 
 Come puoi vedere dallo snippet qui sotto, il menu di scelta rapida del file presenta l’opzione Elimina disponibile per questo utente specifico.
 
@@ -58,5 +58,5 @@ Il menu di scelta rapida del file sarà ora simile al seguente:
 ![Menu di scelta rapida file senza eliminazione](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Configura il valore predefinito per la vista Tag {#id223GN0M0NDC}
 
-AEM Guides consente di configurare lo stato predefinito per la visualizzazione Tag nell’editor web, che consente di mantenere la visualizzazione Tag attivata o disattivata per impostazione predefinita per la sessione di un nuovo utente.Per configurare il valore predefinito per la visualizzazione Tag, effettua le seguenti operazioni:
+AEM Guides consente di configurare lo stato predefinito per la visualizzazione Tag nell’editor, che consente di mantenere la visualizzazione Tag attivata o disattivata per impostazione predefinita per la sessione di un nuovo utente.Per configurare il valore predefinito per la visualizzazione Tag, effettua le seguenti operazioni:
 
 1. Scarica il file di configurazione dell’interfaccia utente accedendo a Adobe Experience Manager come amministratore.
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.
@@ -35,6 +35,6 @@ AEM Guides consente di configurare lo stato predefinito per la visualizzazione T
 
 >[!NOTE]
 >
-> La preferenza dell&#39;utente nell&#39;editor Web per attivare/disattivare la visualizzazione Tag ha la precedenza su questo valore predefinito. Pertanto, se un utente abilita la Visualizzazione tag dall’editor web, questa rimane abilitata anche nelle sessioni.
+> La preferenza dell’utente nell’editor di abilitare/disabilitare la visualizzazione Tag ha la precedenza su questo valore predefinito. Pertanto, se un utente abilita la Visualizzazione tag dall’editor, questa rimane abilitata anche nelle sessioni.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

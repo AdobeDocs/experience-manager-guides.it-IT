@@ -4,9 +4,10 @@ description: Scopri come configurare i nomi di file automatici in base all’UUI
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 2b591ddc-173b-484a-995f-1b3322babbbd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 >[!NOTE]
 >
-> Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
+> Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor.
 
 >[!TAB On-Premise]
 
@@ -53,7 +54,6 @@ Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi f
 
 >[!NOTE]
 >
-> Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
+> Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor.
 
 >[!ENDTABS]
-

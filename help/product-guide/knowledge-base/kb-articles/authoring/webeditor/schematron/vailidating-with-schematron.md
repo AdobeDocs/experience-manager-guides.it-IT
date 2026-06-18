@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Per progettazione, l&#39;editor Web sfrutta l&#39;impostazione dello schema DITA
 
 Oltre al supporto per le regole DITA, Web-editor supporta anche la convalida del contenuto in base alle regole &quot;*Schematron*&quot;.
 
-&quot;*Schematron*&quot; fa riferimento a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. Potete importare i file Schematron e modificarli nell&#39;Editor Web. Utilizzando un file &quot;Schematron&quot; è possibile definire determinate regole e quindi convalidarle per un argomento DITA o una mappa. Le regole di schema possono garantire la coerenza della struttura XML imponendo restrizioni definite come regole. Tali restrizioni sono dettate dalle PMI proprietarie della qualità e della coerenza dei contenuti.
+&quot;*Schematron*&quot; fa riferimento a un linguaggio di convalida basato su regole utilizzato per definire test per un file XML. Potete importare i file Schematron e modificarli nell&#39;Editor. Utilizzando un file &quot;Schematron&quot; è possibile definire determinate regole e quindi convalidarle per un argomento DITA o una mappa. Le regole di schema possono garantire la coerenza della struttura XML imponendo restrizioni definite come regole. Tali restrizioni sono dettate dalle PMI proprietarie della qualità e della coerenza dei contenuti.
 
-NOTA: l&#39;editor Web supporta ISO Schematron.
+NOTA: l&#39;editor supporta ISO Schematron.
 
 
 ## Conoscenza del funzionamento di &quot;Schematron&quot; nell’editor web

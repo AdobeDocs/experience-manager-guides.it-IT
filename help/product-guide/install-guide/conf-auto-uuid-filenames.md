@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Per assegnare automaticamente il nome di file basato su UUID per tutti i nuovi f
 
 >[!NOTE]
 >
-> Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor web.
+> Per impostazione predefinita, questa opzione è disattivata. Quando questa opzione è attivata, gli autori non visualizzeranno l&#39;opzione per specificare il nome del file durante la creazione di un nuovo argomento o di un nuovo file di mappa. È possibile creare un nuovo argomento o un nuovo file di mappa dall’interfaccia utente di Assets e dall’editor.
 
 **Argomento padre:**&#x200B;[&#x200B; Configura nomi file](conf-file-names.md)

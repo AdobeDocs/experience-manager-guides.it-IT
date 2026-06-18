@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Il motore di pubblicazione nativo di PDF richiede Oracle JDK per generare i modu
 10. Fai di nuovo clic su OK nella finestra di dialogo Variabili di ambiente.
 11. Fare di nuovo clic su &#39;OK&#39; nella finestra di dialogo Proprietà - Sistema.
 12. Ora, avvia il server AEM.
-13. Genera PDF nativo dai predefiniti nell’editor web.
+13. Genera PDF nativo dai predefiniti nell’editor.
 
 ## Passaggi di configurazione per il server Linux (RHEL7/centOS 7)
 
@@ -124,7 +124,7 @@ Il motore di pubblicazione nativo di PDF richiede Oracle JDK per generare i modu
 
 11. Installare il pacchetto fontconfig.
 Comando: yum install fontconfig
-12. Genera PDF nativo dai predefiniti nell’editor web.
+12. Genera PDF nativo dai predefiniti nell’editor.
 
 **NOTA**: il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
@@ -172,7 +172,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. Installare il pacchetto fontconfig.
 Comando: apt install fontconfig
 
-10. Genera PDF nativo dai predefiniti nell’editor web.
+10. Genera PDF nativo dai predefiniti nell’editor.
 
 ## Risoluzione di problemi
 

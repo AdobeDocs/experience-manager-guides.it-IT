@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: 221
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Per includere l&#39;attributo `@navtitle` per impostazione predefinita nelle pro
 
 1. Scarica il file ui\_config.json.
 
-   Puoi apportare questa modifica a livello globale o a livello di cartella. A seconda della posizione in cui desideri apportare questa modifica, devi scaricare il rispettivo file ui\_config.json. Per ulteriori informazioni sul download del file ui\_config.json, vedere [Configurare e personalizzare XML Web Editor](conf-folder-level.md#id2065G300O5Z).
+   Puoi apportare questa modifica a livello globale o a livello di cartella. A seconda della posizione in cui desideri apportare questa modifica, devi scaricare il rispettivo file ui\_config.json. Per ulteriori informazioni sul download del file ui\_config.json, vedere [Configurare e personalizzare l&#39;editor XML](conf-folder-level.md#id2065G300O5Z).
 
 1. Cercare la definizione `ditaAttributes`.
 

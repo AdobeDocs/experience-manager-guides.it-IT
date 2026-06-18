@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 0%
 
 ---
@@ -274,7 +274,7 @@ Per configurare gli attributi di profilatura e i riferimenti incrociati, effettu
 
 1. Nella scheda **Estensioni**, apporta le seguenti modifiche:
 
-   - Fai clic su **Scegli** accanto al bundle **Estensioni** e seleziona `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` nell&#39;elenco **Classe**. Fai clic su **OK**.
+   - Fai clic su **Scegli** accanto al bundle **Estensioni** e seleziona `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` nell&#39;elenco **Classe**. Fare clic su **OK**.
      ![Estensione configurata per argomenti DITA](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Fai clic su **Scegli** accanto a **Listener dello stato dell&#39;estensione dell&#39;autore** in **Estensioni individuali** e seleziona `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` nell&#39;elenco **Classe**. Fai clic su **OK**.
    - Fai clic su **Scegli** accanto a **Editor valore attributo personalizzato autore** in **Singole estensioni** e seleziona `CustomValueEditor - com.adobe.o2.framework.extn` nell&#39;elenco **Classe**. Fai clic su **OK**.
@@ -342,7 +342,7 @@ La schermata seguente mostra il pannello AEM Guides.
 Le funzioni del plug-in ossigeno per AEM Guides sono disponibili facendo clic con il pulsante destro del mouse su una cartella o un file nell’archivio di AEM. Le funzioni disponibili per le cartelle sono diverse dai file. Elenco completo delle funzioni del menu di scelta rapida di Oxygen Plugin for AEM Guides:
 
 - **Apri**: apre il file selezionato o espande la cartella selezionata.
-- **Apri in**: puoi scegliere di aprire il file selezionato nell&#39;Editor Web o nel Dashboard di AEM Guides oppure nell&#39;Editor mappe. Per ulteriori informazioni su queste opzioni, vedere [Apri file nell&#39;editor di AEM Guides](#id195GH0V30KX).
+- **Apri in**: puoi scegliere di aprire il file selezionato nell&#39;editor di AEM Guides&#39;, Map Dashboard o Map Editor. Per ulteriori informazioni su queste opzioni, vedere [Apri file nell&#39;editor di AEM Guides](#id195GH0V30KX).
 - **Estrazione**: estrae un file dal repository di AEM. Per ulteriori dettagli, vedere [File di estrazione](#id195HC020TS4).
 - **Estrai con dipendenti**: estrae un file con i relativi riferimenti diretti. Per ulteriori dettagli, vedere [File di estrazione](#id195HC020TS4).
 - **Estrai con elementi dipendenti di sola lettura**: estrae il file selezionato e i relativi elementi dipendenti. Non è possibile apportare alcuna modifica nei file dipendenti. Per ulteriori dettagli, vedere [File di estrazione](#id195HC020TS4).
@@ -391,7 +391,7 @@ Se desideri utilizzare gli editor disponibili in AEM Guides, puoi farlo selezion
 
 1. Seleziona **Apri in** dal menu di scelta rapida e scegli tra le seguenti opzioni:
 
-   - **Editor argomenti Web**: se il file che si sta aprendo è un file con estensione xml o dita, è possibile aprirlo per la modifica nell&#39;editor Web. Scegliere l&#39;opzione **Editor argomenti Web** per aprire il file selezionato per la modifica nell&#39;editor Web.
+   - **Editor argomenti Web**: se il file che si sta aprendo è un file con estensione xml o dita, è possibile aprirlo per la modifica nell&#39;editor. Scegliere l&#39;opzione **Editor argomenti Web** per aprire il file selezionato per la modifica nell&#39;editor.
 
    - **Map Dashboard**: puoi scegliere di modificare un file .ditamap nel dashboard delle mappe, in cui puoi eseguire varie operazioni sul file mappa. Queste operazioni dipendono dal ruolo/gruppo a cui appartieni.
 

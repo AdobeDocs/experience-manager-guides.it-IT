@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Le schede seguenti forniscono istruzioni per abilitare l&#39;opzione **Crea nuov
 
 ## Configura le impostazioni per consentire la modifica dei file estratti
 
-AEM Guides Web Editor consente di creare e aggiornare argomenti DITA. È possibile configurare l&#39;Editor Web in modo da consentire la modifica solo dei documenti estratti dal repository. In questo modo nessun altro autore sovrascrive accidentalmente un argomento aperto per la modifica da un altro autore. Una volta aperto un argomento per la modifica, un autore può archiviare il file al momento della chiusura.
+L&#39;Editor AEM Guides consente di creare e aggiornare argomenti DITA. È possibile configurare l&#39;editor per consentire la modifica solo dei documenti estratti dal repository. In questo modo nessun altro autore sovrascrive accidentalmente un argomento aperto per la modifica da un altro autore. Una volta aperto un argomento per la modifica, un autore può archiviare il file al momento della chiusura.
 
 Un&#39;altra regola importante consiste nel garantire che i file estratti vengano nuovamente archiviati nel sistema. In questo modo gli utenti non potranno chiudere accidentalmente i file senza archiviarli di nuovo.
 

@@ -4,18 +4,19 @@ description: Scopri come configurare un connettore di origine dati
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Configurare un connettore di origine dati per Cloud Service
 
-AEM Guides fornisce connettori predefiniti per i database JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch. È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, è possibile visualizzare le origini dati nell’Editor web.
+AEM Guides fornisce connettori predefiniti per i database JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch. È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, puoi visualizzare le origini dati nell’Editor.
 
-Per configurare un connettore di origine dati e utilizzarlo dall&#39;editor Web, eseguire la procedura seguente:
+Per configurare un connettore di origine dati e utilizzarlo dall’editor, effettua le seguenti operazioni:
 
 ## Configurare un connettore
 
@@ -282,4 +283,4 @@ Ad esempio, `/content/dam/jira.json`
 
 Puoi registrare la configurazione utilizzando l’API REST. Per ulteriori dettagli, visualizzare la sezione *API REST per registrare un connettore origine dati* nella documentazione di riferimento API per Adobe Experience Manager Guides.
 
-Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati dell’Editor web. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).
+Dopo aver configurato l’origine dati, il connettore viene elencato nel pannello Origini dati nell’Editor. È quindi possibile connettersi all&#39;origine dati e inserire uno snippet di contenuto negli argomenti. Per ulteriori dettagli, visualizzare [Inserire uno snippet di contenuto dall&#39;origine dati](../user-guide/web-editor-content-snippet.md).

@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Configurare un connettore di origine dati
 
-AEM Guides fornisce connettori predefiniti per database JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite). È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, è possibile visualizzare le origini dati nell’Editor web.
+AEM Guides fornisce connettori predefiniti per database JIRA e SQL (MySQL, PostgreSQL, SQL Server, SQLite). È inoltre possibile aggiungere altri connettori estendendo le interfacce predefinite. La seguente configurazione consente di aggiungere facilmente le varie origini dati. Una volta aggiunte, puoi visualizzare le origini dati nell’Editor.
 
-Per configurare un connettore di origine dati e utilizzarlo dall&#39;editor Web, eseguire la procedura seguente:
+Per configurare un connettore di origine dati e utilizzarlo dall’editor, effettua le seguenti operazioni:
 
 ## Configurare un connettore
 

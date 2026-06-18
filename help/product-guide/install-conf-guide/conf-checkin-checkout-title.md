@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # Configurare il titolo per le icone Archivia ed Estrai per On-Premise
 
-AEM Guides consente di configurare il titolo per le icone di Check-In e Check-Out nell&#39;editor Web. Per configurare il titolo per le icone di check-in e check-out, effettuare le seguenti operazioni:
+AEM Guides consente di configurare il titolo per le icone Archivia ed Estrai nell’editor. Per configurare il titolo per le icone di check-in e check-out, effettuare le seguenti operazioni:
 
 1. Scarica il file di configurazione dell’interfaccia utente accedendo a Adobe Experience Manager come amministratore.
 1. Fai clic sul collegamento Adobe Experience Manager in alto e scegli **Strumenti**.

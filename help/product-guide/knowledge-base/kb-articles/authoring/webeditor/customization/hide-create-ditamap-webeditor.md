@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 0%
+source-wordcount: 444
+ht-degree: 1%
 
 ---
 
 # Mostra/Nascondi &#39;Crea DitaMAP&#39; dal menu di scelta rapida delle cartelle nell&#39;editor Web
 
-In questo articolo verrà illustrato come personalizzare l&#39;Editor Web Guide per nascondere o visualizzare l&#39;opzione &quot;Crea DitaMap&quot; nel menu di scelta rapida delle cartelle in base alle autorizzazioni di utenti/gruppi.
+Questo articolo illustra come personalizzare l’Editor guide per nascondere o visualizzare l’opzione &quot;Crea DitaMap&quot; nel menu di scelta rapida delle cartelle in base alle autorizzazioni di utenti/gruppi.
 In questo caso d’uso questa opzione verrà nascosta per tutti gli utenti non autori.
 
 ## Prerequisiti

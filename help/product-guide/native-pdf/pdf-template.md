@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sono disponibili alcuni modelli di fabbrica di esempio forniti come predefiniti,
 
 Per creare un nuovo modello di PDF, effettuare le seguenti operazioni:
 
-1. Nell&#39;editor Web passare alla scheda **Output**.
+1. Nell&#39;editor, passare alla scheda **Output**.
 1. Seleziona **Modelli** <img src="./assets/template.png" alt= "icona modelli" width="25"> nel pannello a sinistra.
 
    <img src="assets/create-pdf-template.png" alt="Crea modello PDF" width="400">
@@ -64,7 +64,7 @@ Se si desidera creare un nuovo modello con gli stessi layout di pagina e la stes
 
 Per duplicare un modello PDF esistente, effettua le seguenti operazioni:
 
-1. Nell&#39;editor Web passare alla scheda **Output**.
+1. Nell&#39;editor, passare alla scheda **Output**.
 1. Seleziona **Modelli** <img src="./assets/template.svg" alt= "icona modelli" width="25"> nel pannello a sinistra. Verrà aperta la finestra **Modelli**.
 1. Passa il puntatore del mouse sul modello da duplicare e seleziona l&#39;icona **...** *Opzioni* e scegli **Duplica** dal menu di scelta rapida.
 
@@ -132,7 +132,7 @@ Per informazioni dettagliate sulla configurazione dei profili globali e a livell
 
 Per personalizzare un modello di PDF, effettuare le seguenti operazioni:
 
-1. Nell&#39;editor Web passare alla scheda **Output**.
+1. Nell&#39;editor, passare alla scheda **Output**.
 1. Espandere la barra laterale a sinistra e selezionare **Modelli**.
 
    Verrà aperto il pannello **Modelli**.

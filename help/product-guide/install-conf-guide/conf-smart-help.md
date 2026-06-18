@@ -2,16 +2,16 @@
 title: Configurare la Guida avanzata per la ricerca nel contenuto
 description: Scopri come configurare la Guida avanzata per la ricerca nel contenuto
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti in Cloud Service
 
-In qualità di amministratore, puoi configurare la funzione di Guida avanzata per gli autori. Il servizio di assistenza avanzata è protetto dall’autenticazione basata sull’autenticazione di Adobe IMS. Integra il tuo ambiente con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la nuova funzione di Guida avanzata. Le seguenti configurazioni consentono di aggiungere la scheda **Configurazione IA** a un profilo di cartella. Una volta aggiunta, è possibile utilizzare la funzionalità Guida avanzata nell&#39;editor Web.
+In qualità di amministratore, puoi configurare la funzione di Guida avanzata per gli autori. Il servizio di assistenza avanzata è protetto dall’autenticazione basata sull’autenticazione di Adobe IMS. Integra il tuo ambiente con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la nuova funzione di Guida avanzata. Le seguenti configurazioni consentono di aggiungere la scheda **Configurazione IA** a un profilo di cartella. Una volta aggiunta, è possibile utilizzare la funzione Guida rapida nell’editor.
 
 ## Creare configurazioni IMS in Adobe Developer Console
 
@@ -105,5 +105,5 @@ Al termine, dovresti poter utilizzare la funzionalità **Guida avanzata**.
 ```
 
 
-Al termine della configurazione, nel pannello destro dell&#39;editor Web viene visualizzata l&#39;icona **Guida avanzata** ![Guida avanzata](assets/smart-help-icon.svg). Selezionare l&#39;icona per visualizzare il pannello **Guida avanzata**.
+Al termine della configurazione, nel pannello destro dell&#39;editor viene visualizzata l&#39;icona **Guida avanzata** ![Guida avanzata](assets/smart-help-icon.svg). Selezionare l&#39;icona per visualizzare il pannello **Guida avanzata**.
 Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata sull&#39;intelligenza artificiale per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.

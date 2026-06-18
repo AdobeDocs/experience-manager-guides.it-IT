@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: 311
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Informazioni sulle [istruzioni di aggiornamento per la versione 4.6.0 Service Pa
 - La creazione di mappe DITA in un&#39;istanza UUID non riesce se `xmleditor.uniquefilenames` è abilitato in `XMLEditorConfig`. (21201)
 - Quando si chiude un file, i commenti e le etichette aggiunti nella finestra di dialogo **Salva modifiche e sblocca file** non vengono salvati nella cronologia delle versioni con la nuova versione. Questo è specifico per un caso d&#39;uso in cui **Chiedi archiviazione alla chiusura** o **Chiedi nuova versione alla chiusura** è abilitato in `XMLEditorConfig`. (20065)
 - Lo stato del documento contrassegnato come **Fine** viene ripristinato come **Bozza** prima di salvare una nuova versione. Lo stato **Fine** non persiste in nessuna versione del documento. (20006)
-- Impossibile aggiungere un file PDF come riferimento a un&#39;immagine in un argomento dell&#39;editor Web. (21206)
+- Impossibile aggiungere un file PDF come riferimento a un’immagine in un argomento dell’editor. (21206)
 - Se si seleziona un file DITA nell&#39;interfaccia utente di Assets, viene visualizzata l&#39;opzione **Apri in FrameMaker**, anche se disabilitata nella configurazione. (20082)
 
 

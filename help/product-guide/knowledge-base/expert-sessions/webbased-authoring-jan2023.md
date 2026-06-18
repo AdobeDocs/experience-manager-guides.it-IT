@@ -1,6 +1,6 @@
 ---
 title: Creare contenuti basati sul web
-description: Scopri come creare contenuti strutturati utilizzando l’editor web.
+description: Scopri come creare contenuti strutturati utilizzando l’Editor.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 238
 ht-degree: 1%
 
 ---
 
 # Creare contenuti basati sul web
 
-AEM Guides viene fornito con un editor web integrato per la creazione di contenuti strutturati. Puoi lavorare con un’esperienza di authoring semplificata basata sul web, ma puoi comunque scegliere di utilizzare o abilitare funzionalità avanzate come la convalida dei contenuti condizionali, il controllo ortografico, il riutilizzo dei contenuti, la convalida dei riferimenti, i nomi descrittivi e le equazioni matematiche per l’authoring.
+AEM Guides viene fornito con un editor integrato per la creazione di contenuti strutturati. Puoi lavorare con un’esperienza di authoring semplificata basata sul web, ma puoi comunque scegliere di utilizzare o abilitare funzionalità avanzate come la convalida dei contenuti condizionali, il controllo ortografico, il riutilizzo dei contenuti, la convalida dei riferimenti, i nomi descrittivi e le equazioni matematiche per l’authoring.
 
 ## Panoramica della sessione
 
-In questa sessione imparerai a creare, pubblicare e gestire i contenuti utilizzando l’editor web.
+In questa sessione imparerai a creare, pubblicare e gestire i contenuti utilizzando l’Editor.
 
 ## Registrazione sessione
 

@@ -4,16 +4,16 @@ description: Trova i video tutorial per Experience Manager Guides (precedentemen
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 9%
 
 ---
 
 # Panoramica sui test
 
-[!DNL Experience Manager Guides] (di seguito _[!DNL AEM Guides]_) è una potente soluzione di gestione dei contenuti dei componenti di livello enterprise (CCMS). Abilita il supporto DITA nativo in Experience Manager, consentendo ad AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor web integrato di facile utilizzo.
+[!DNL Experience Manager Guides] (di seguito _[!DNL AEM Guides]_) è una potente soluzione di gestione dei contenuti dei componenti di livello enterprise (CCMS). Abilita il supporto DITA nativo in Experience Manager, consentendo ad AEM di gestire la creazione e la distribuzione di contenuti basati su DITA. Consente agli autori di creare contenuti utilizzando qualsiasi strumento di authoring DITA offline, ad esempio Adobe FrameMaker o un editor integrato di facile utilizzo.
 
 La soluzione [!DNL AEM Guides] fornisce tutte le funzioni principali di CCMS, ad esempio collaborazione, revisione, traduzione, ricerca e report per contenuti DITA, consentendo agli autori di fare di più in meno tempo attraverso un riutilizzo efficiente dei contenuti e potenti flussi di lavoro. Inoltre, gli utenti possono sfruttare la funzionalità di pubblicazione con clic singolo all&#39;avanguardia per generare output basati su DITA per i formati più diffusi, ovvero Experience Manager Sites, PDF, HTML5, EPUB e output personalizzato tramite DITA-OT.
 
@@ -31,7 +31,7 @@ Con la soluzione [!DNL AEM Guides], le aziende possono offrire esperienze dirett
 
 - **[[!DNL Experience Manager Guides] Authoring nell&#39;editor predefinito](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=it){target="blank"}**
 
-  _Scopri come creare contenuti utilizzando l&#39;editor Web nativo in [!DNL Adobe Experience Manager Guides]. Acquisisci una conoscenza completa delle preferenze utente, delle impostazioni dell&#39;editor, della configurazione, delle barre degli strumenti e altro ancora._
+  _Scopri come creare contenuti utilizzando l&#39;editor nativo in [!DNL Adobe Experience Manager Guides]. Acquisisci una conoscenza completa delle preferenze utente, delle impostazioni dell&#39;editor, della configurazione, delle barre degli strumenti e altro ancora._
 
 - **[Generazione output con [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=it){target="blank"}**
 

@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1439
-ht-degree: 5%
+source-wordcount: 1421
+ht-degree: 6%
 
 ---
 
@@ -41,37 +41,37 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 
 - Il controllo ortografico nell’editor non consente la selezione di suggerimenti. (15045)
 - Il pulsante di navigazione globale non funziona e il dashboard non viene caricato. (14968)
-- Nell’editor web, la funzione di download mappa non attiva una notifica pop-up quando è pronto per il download. (14626)
-- Nell&#39;editor Web, la funzionalità di download mappa non consente di scaricare una mappa con linea di base. (14622)
+- Nell’editor, la funzione di download mappa non attiva una notifica pop-up quando è pronto per il download. (14626)
+- Nell’editor, la funzione di download della mappa non riesce a scaricare una mappa con la linea di base. (14622)
 - Errore DTD non valido in Experience Manager Guides. (14482)
-- Il titolo nella scheda Editor Web viene troncato dopo un punto (.) carattere. (14372)
+- Il titolo nella scheda Editor viene troncato dopo un punto (.) carattere. (14372)
 - La messaggistica degli errori per i nomi di mappe duplicati nell’interfaccia utente di Assets non viene aggiornata. (14320)
 - Si verifica un errore nella logica di creazione della versione durante il trascinamento della selezione delle risorse. (14291)
 - Il contenuto riutilizzabile ignora gli ID degli elementi. (14213)
 - Manca il controllo impostazione per nascondere il pannello **Variabili di lingua** nella scheda **Output**. (14194)
-- L&#39;editor Web genera errori di applicazione quando si aggiunge un nuovo riferimento o argomento utilizzando uno schema specializzato nella visualizzazione **Layout**. (14094)
+- L&#39;editor genera errori di applicazione quando si aggiunge un nuovo riferimento o argomento utilizzando uno schema specializzato nella visualizzazione **Layout**. (14094)
 - Lo spazio dopo l&#39;elemento conref `<ph>` scompare quando si salva l&#39;argomento. (13642)
 - Si verifica un errore dell&#39;applicazione quando si tenta di salvare i file DITA prima del completamento della post-elaborazione. (13571)
 - Un collegamento di ancoraggio a un elemento `<dlentry>` o `<dt>` non riesce a visualizzare il testo del collegamento. (13543)
-- Impossibile caricare la raccolta **Preferiti** nell&#39;editor Web. (13495)
-- Se il titolo di un argomento contiene una barra `/`, nella scheda dell&#39;editor Web verranno visualizzate solo le lettere successive. (13455)
-- L’anteprima dell’immagine non scompare dopo averla visualizzata nell’editor web. (13454)
+- Impossibile caricare la raccolta **Preferiti** nell&#39;editor. (13495)
+- Se il titolo di un argomento contiene una barra `/`, nella scheda dell&#39;editor verranno visualizzate solo le lettere successive. (13455)
+- L&#39;anteprima dell&#39;immagine non scompare dopo averla visualizzata nell&#39;editor. (13454)
 - Le citazioni visualizzano collegamenti non cliccabili quando vengono create con un ID univoco con spazi. (13447)
 - Quando si chiude un argomento dopo averlo modificato, si viene reindirizzati alla home page di AEM invece di tornare alla vista cartelle. (13306)
 - La finestra a comparsa Inserisci parola chiave non viene visualizzata quando si utilizzano i tasti definiti dalla mappa principale in altri argomenti. (12950)
 - Le icone di chiusura non sono visibili quando le immagini molto alte vengono visualizzate in anteprima nel pannello **Cronologia versioni**. (12867)
 - Impossibile modificare il fuso orario della colonna **Versione creata il** per le linee di base. (12711)
-- I file ZIP non vengono riconosciuti nell&#39;editor Web e non è possibile trascinarli. (12709)
+- I file ZIP non vengono riconosciuti nell&#39;editor e non è possibile trascinarli. (12709)
 - Il pannello **Cronologia versioni** nell&#39;interfaccia utente di Assets mostra una marca temporale non corretta per il campo **Corrente**. (12624)
 - Nella visualizzazione **Layout** per una mappa di Segnalibro, utilizzando **Sposta a destra** per rendere non valido un sottoelemento per un capitolo selezionato. (12567)
 - La creazione di un file DITA da un modello con un nome file che inizia con caratteri numerici genera un errore relativo allo spazio dei nomi. (12188)
-- L&#39;impostazione della rootmap viene mantenuta nell&#39;editor Web anche se l&#39;utente non l&#39;ha impostata esplicitamente dalle **preferenze utente**. (11551)
+- L&#39;impostazione della rootmap viene mantenuta nell&#39;editor anche se l&#39;utente non l&#39;ha impostata esplicitamente dalle **preferenze utente**. (11551)
 - Il contenuto con alcuni attributi applicati non viene evidenziato nella modalità **Autore** o **Anteprima**. (11063)
-- Nell&#39;editor Web viene visualizzata la finestra **Riferimenti chiave** quando si inserisce il tag `varname`. (10940)
+- Nell&#39;editor verrà visualizzata la finestra **Riferimenti chiave** quando si inserisce il tag `varname`. (10940)
 - Trascinare un argomento del glossario dal repository in una mappa del glossario crea `topicref`. (10767)
 - La finestra Anteprima dell&#39;editor XML viene troncata nei browser Google Chrome e Microsoft Edge. (10755)
-- Nell’editor web non è possibile racchiudere un elemento all’interno dei possibili elementi principali. (8791)
-- L’editor web viene disinstallato dopo la reinstallazione di Adobe Experience Manager Guides versione 4.3.1. (14519)
+- L’editor non è in grado di racchiudere un elemento all’interno dei possibili elementi principali. (8791)
+- L’editor viene disinstallato dopo la reinstallazione di Adobe Experience Manager Guides versione 4.3.1. (14519)
 - Il programma di installazione della versione 4.3.1 rileva un conflitto di filtri che provoca l&#39;override di `apps/cq/core/content/projects/properties`. (14517)
 - Nell&#39;elenco di **collegamenti interrotti** nei report viene visualizzato un collegamento di riferimento autonomo. (13539)
 - La schermata di anteprima dei frammenti è bloccata. (14840)
@@ -86,7 +86,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 - Il predefinito per **Sito AEM** non funziona a causa di un percorso di modello vuoto. (14804)
 - La rigenerazione del sito AEM ha esito negativo per le mappe DITA con argomenti che contengono equazioni di MathML. (14790)
 - Nella pubblicazione nativa di PDF, la generazione di PDF genera errori nell&#39;ottenere le dipendenze per la pubblicazione di `Node.js`. (14445)
-- Il predefinito **Sito AEM** non consente la selezione di un modello esterno alla gerarchia `/content` nell&#39;editor Web. (14260)
+- Il predefinito **Sito AEM** non consente la selezione di un modello esterno alla gerarchia `/content` nell&#39;editor. (14260)
 - La funzionalità di pubblicazione come frammento di contenuto non funziona per i file elencati nei risultati di ricerca. (14090)
 - I componenti Fmdita hanno un percorso hardcoded di `delegator.jsp`, che impedisce la sovrapposizione dei componenti AEM Sites. (13993)
 - La visualizzazione con tag del reattore PDF nell’output di pubblicazione nativo di PDF non funziona come previsto. (13622)
@@ -101,7 +101,7 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 - La localizzazione delle etichette degli elementi non funziona correttamente nell’output di AEM Sites. (12144)
 - I metadati personalizzati non sono disponibili nell’output finale. (12116)
 - `fmdita rewriter` è in conflitto con la configurazione del rewriter dell&#39;utente e comporta la visualizzazione di URL lunghi invece dei collegamenti. (12076)
-- Opzione **ditaval** mancante nei predefiniti di output a livello di profilo della cartella creati tramite l&#39;interfaccia utente dell&#39;editor Web. (11903)
+- Opzione **ditaval** mancante nei predefiniti di output a livello di profilo della cartella creati tramite l&#39;interfaccia utente dell&#39;editor. (11903)
 - Nel predefinito **Sito AEM**, l&#39;opzione **Genera PDF separato per ogni argomento** non funziona. (11555)
 - La pubblicazione nativa su PDF non supporta la conversione dello spazio colore CMYK. (10754)
 - Durante l’aggiornamento alla versione 4.3.1, si verificano alcune eccezioni nel nodo PDF nativo. (14492)
@@ -111,19 +111,19 @@ Scopri le [istruzioni di aggiornamento per la versione 4.4.0](../release-info/up
 ## Gestione
 
 - Il riferimento al contenuto viene interrotto quando si copiano e incollano i file DITA con collegamenti di riferimento automatico senza GUID. (13540)
-- **I file del filtro della linea di base** non funzionano con il nome file nell&#39;editor Web. (13486)
-- Nell&#39;editor Web, la baseline mostra il titolo della versione precedente anziché della versione selezionata del file DITA. (13444)
+- **I file del filtro della linea di base** non funzionano con il nome file nell&#39;editor. (13486)
+- Nell&#39;editor, la linea di base mostra il titolo della versione precedente invece della versione selezionata del file DITA. (13444)
 - La disattivazione dell&#39;indicizzazione della mappa DITA padre per ottenere prestazioni migliori può influire sulle funzionalità di alcune funzionalità.(12213)
 - Non vengono creati predefiniti di condizione per mappe DITA di grandi dimensioni. (10936)
 - Impossibile modificare i predefiniti per le prime mappe della raccolta durante la modifica di una raccolta di mappe. (10649)
-- Le etichette del file `labels.json` vengono visualizzate in ordine casuale nell&#39;editor Web. (10508)
+- Le etichette del file `labels.json` vengono visualizzate in ordine casuale nell&#39;editor. (10508)
 - Le chiamate della linea di base dinamica utilizzano il nome invece del titolo, il che si traduce in un errore di esportazione dell’API mappa DITA. (14268)
 
 ## Rivedere
 
 - Il menu di scelta rapida visualizzato facendo clic con il pulsante destro del mouse non funziona per **Accept** o **Reject** track changes. (14607)
 - Nella versione 4.3.1 di Adobe Experience Manager Guides, attivare o disattivare la chiusura degli argomenti DITA nella schermata di revisione. (14537)
-- I problemi di simmetria si verificano nei pannelli di revisione affiancata delle versioni precedenti e correnti nell&#39;editor Web. (14156)
+- I problemi di simmetria si verificano nei pannelli di revisione affiancata delle versioni precedenti e correnti nell’editor. (14156)
 - La personalizzazione dei modelli e-mail per il flusso di lavoro di revisione non funziona con la sovrapposizione. (13954)
 - Gli allegati coreani nella schermata Experience Manager Guides Review non sono selezionabili. (13436)
 - Il titolo della mappa viene tagliato nella schermata di revisione e collaborazione, senza opzione per visualizzare il titolo completo. (13012)

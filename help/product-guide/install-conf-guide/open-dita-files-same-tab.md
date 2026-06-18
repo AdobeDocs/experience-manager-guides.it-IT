@@ -4,7 +4,8 @@ description: Scopri come aprire un argomento DITA o mappare i file nella stessa 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 13f7eab1-2235-4537-9520-69d1df04e921
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -57,4 +58,4 @@ Questa impostazione ha effetto sui seguenti punti da cui è possibile accedere a
 
 - Scheda Rapporti nella console delle mappe DITA
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

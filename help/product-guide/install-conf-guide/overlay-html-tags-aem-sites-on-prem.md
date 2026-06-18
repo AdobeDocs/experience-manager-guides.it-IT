@@ -4,16 +4,17 @@ description: Configura le impostazioni video e immagine per l’output di AEM Si
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Sovrapponi tag HTML nell’output di AEM Sites per on-premise
 
-Puoi aggiungere e personalizzare i tag HTML nell’output di AEM Sites generato utilizzando il predefinito di AEM Sites basato sulla mappatura dei componenti core dall’editor web. Per personalizzare i tag di HTML, è possibile sovrapporre il file `config.xml`. Ad esempio, puoi configurare le mappe video e immagine nell’output di AEM Sites.
+Puoi aggiungere e personalizzare i tag HTML nell’output di AEM Sites generato utilizzando il predefinito AEM Sites basato sulla mappatura dei componenti core dall’editor. Per personalizzare i tag di HTML, è possibile sovrapporre il file `config.xml`. Ad esempio, puoi configurare le mappe video e immagine nell’output di AEM Sites.
 
 Per sovrapporre e aggiornare il file `config.xml`, effettuare le seguenti operazioni:
 
