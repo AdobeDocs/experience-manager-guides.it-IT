@@ -4,9 +4,10 @@ description: Scopri come configurare l’opzione da modificare nel plug-in del c
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -25,6 +26,6 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 >[!NOTE]
 >
-> Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor web.
+> Questa configurazione è disabilitata per impostazione predefinita e l’opzione non è disponibile nell’editor.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

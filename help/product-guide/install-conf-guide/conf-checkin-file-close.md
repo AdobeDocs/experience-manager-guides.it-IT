@@ -4,18 +4,19 @@ description: Scopri come configurare la richiesta di archiviazione di un file al
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6b1b5894-0d55-4230-83cf-6b219e969116
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
 # Configurare la richiesta di archiviazione di un file alla chiusura {#id222HC040PE8}
 
-Quando l&#39;utente cerca di chiudere un file aperto nell&#39;editor Web utilizzando il pulsante **Chiudi** nella scheda del file o l&#39;opzione **Chiudi** nel menu Opzioni, viene visualizzata una finestra di dialogo se il file contiene dati non salvati o una versione non salvata. All&#39;utente viene richiesto di sbloccare il file se è bloccato.
+Quando l&#39;utente cerca di chiudere un file aperto nell&#39;editor utilizzando il pulsante **Chiudi** nella scheda del file o l&#39;opzione **Chiudi** nel menu Opzioni, viene visualizzata una finestra di dialogo se il file contiene dati non salvati o una versione non salvata. All&#39;utente viene richiesto di sbloccare il file se è bloccato.
 
-Nelle schede seguenti vengono fornite istruzioni per configurare la richiesta di archiviazione di un file in chiusura per impostazione predefinita nell&#39;editor Web in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
+Nelle schede seguenti vengono fornite istruzioni per configurare la richiesta di archiviazione di un file in chiusura per impostazione predefinita nell’editor in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
 >[!BEGINTABS]
 
@@ -35,7 +36,7 @@ Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nell
 
 >[!NOTE]
 >
->La casella di controllo **Sblocca file** non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor web, effettua le seguenti operazioni:
+>La casella di controllo **Sblocca file** non è attivata per impostazione predefinita ed è necessario attivarla da configMgr. Per abilitare l’opzione per impostazione predefinita nell’editor, effettua le seguenti operazioni:
 
 1. Aprire la pagina Configurazione della console Web Adobe Experience Manager.
 
@@ -58,4 +59,4 @@ Per ulteriori dettagli, consulta la sezione *File close and save scenarios* nell
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

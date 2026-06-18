@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
 # Installare pacchetti per la pubblicazione basata su articoli {#id21BNL02052Z}
 
-AEM Guides fornisce una potente funzione di pubblicazione basata su articoli integrata con l’editor web. Questa funzione consente di pubblicare uno o più argomenti contemporaneamente. Dopo aver aperto una mappa nell’Editor mappa, puoi passare alla scheda Output per creare un predefinito e quindi scegliere uno o più argomenti per generare l’output. È possibile utilizzare la funzione di pubblicazione basata su articoli per generare in modo incrementale l&#39;output di uno o più argomenti o pubblicare il contenuto in una piattaforma della knowledge base in base a un singolo articolo. Per ulteriori dettagli vedi *Pubblicazione basata su articolo dalla sezione Editor Web* nella Guida utente.
+AEM Guides fornisce una potente funzione di pubblicazione basata su articoli integrata nell’editor. Questa funzione consente di pubblicare uno o più argomenti contemporaneamente. Dopo aver aperto una mappa nell’Editor mappa, puoi passare alla scheda Output per creare un predefinito e quindi scegliere uno o più argomenti per generare l’output. È possibile utilizzare la funzione di pubblicazione basata su articoli per generare in modo incrementale l&#39;output di uno o più argomenti o pubblicare il contenuto in una piattaforma della knowledge base in base a un singolo articolo. Per ulteriori dettagli vedi *Pubblicazione basata su articolo dalla sezione Editor* nella Guida utente.
 
 Le schede seguenti forniscono istruzioni per creare un sito AEM per la pubblicazione di output basati su articoli in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -44,11 +44,11 @@ Le schede seguenti forniscono istruzioni per creare un sito AEM per la pubblicaz
    > Puoi creare più siti AEM utilizzando lo stesso modello.
 
 
-È possibile utilizzare il sito AEM per pubblicare l&#39;articolo utilizzando i predefiniti di output dell&#39;editor Web.
+Puoi utilizzare il sito AEM per pubblicare l’articolo utilizzando i predefiniti di output dell’editor.
 
 >[!TAB On-Premise]
 
-Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti pacchetti dal portale di distribuzione software Adobe. Installali per creare un sito Tragopan. \(Sito di Tragopan è un sito di AEM della knowledge base di esempio con modelli per pagine di categorie, sezioni e articoli.\) Aggiornare il sito di Tragopan per generare l&#39;output del sito di AEM utilizzando i predefiniti di output dell&#39;editor Web.
+Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti pacchetti dal portale di distribuzione software Adobe. Installali per creare un sito Tragopan. \(Sito di Tragopan è un sito di AEM della knowledge base di esempio con modelli per pagine di categorie, sezioni e articoli.\) Aggiornare il sito di Tragopan per generare l&#39;output del sito di AEM utilizzando i predefiniti di output dell&#39;editor.
 
 - Modello della knowledge base per la pubblicazione basata su articoli
 - Pacchetto di componenti per la pubblicazione basata su articoli
@@ -56,4 +56,4 @@ Per abilitare la pubblicazione basata su articoli, scarica e installa i seguenti
 >[!ENDTABS]
 
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

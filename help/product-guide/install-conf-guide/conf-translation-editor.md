@@ -1,24 +1,24 @@
 ---
-title: Configurare la funzione di traduzione nell’editor web
-description: Scopri come configurare la funzione di traduzione nell’editor web
+title: Configurare la funzione di traduzione nell’editor
+description: Scopri come configurare la funzione di traduzione nell’editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Configurare la funzione di traduzione nell’editor web per Cloud Service
+# Configurare la funzione di traduzione nell’editor per Cloud Service
 
-L’editor web fornisce una potente funzione di traduzione per tradurre il contenuto in più lingue.
+L’editor fornisce una potente funzione di traduzione per tradurre il contenuto in più lingue.
 
-Puoi utilizzare la scheda **Gestisci** nell&#39;editor Web per tradurre i contenuti. Questa scheda è disponibile per impostazione predefinita.
+Puoi utilizzare la scheda **Gestisci** nell&#39;editor per tradurre i contenuti. Questa scheda è disponibile per impostazione predefinita.
 
-Per nascondere la scheda **Gestisci** nell&#39;editor Web, effettuare le seguenti operazioni:
+Per nascondere la scheda **Gestisci** nell&#39;editor, effettuare le seguenti operazioni:
 
 1. Accedi a **Adobe Experience Manager** come amministratore.
 1. Fai clic sul collegamento **Adobe Experience Manager** in alto e scegli **Strumenti**.
@@ -48,4 +48,4 @@ Per nascondere la scheda **Gestisci** nell&#39;editor Web, effettuare le seguent
 
 Il filtro **Gestisci** non è più disponibile.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

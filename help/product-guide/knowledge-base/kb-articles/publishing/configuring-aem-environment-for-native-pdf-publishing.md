@@ -5,23 +5,14 @@ exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
 TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +76,7 @@ Il motore di pubblicazione nativo di PDF richiede Oracle JDK per generare i modu
 10. Fai di nuovo clic su OK nella finestra di dialogo Variabili di ambiente.
 11. Fare di nuovo clic su &#39;OK&#39; nella finestra di dialogo Proprietà - Sistema.
 12. Ora, avvia il server AEM.
-13. Genera PDF nativo dai predefiniti nell’editor web.
+13. Genera PDF nativo dai predefiniti nell’editor.
 
 ## Passaggi di configurazione per il server Linux (RHEL7/centOS 7)
 
@@ -120,11 +111,11 @@ Il motore di pubblicazione nativo di PDF richiede Oracle JDK per generare i modu
 
 10. Se il comando unzip non viene installato o riconosciuto, è possibile installarlo utilizzando il comando seguente
 
-    **yum installazione dezip**
+   **yum installazione dezip**
 
 11. Installare il pacchetto fontconfig.
 Comando: yum install fontconfig
-12. Genera PDF nativo dai predefiniti nell’editor web.
+12. Genera PDF nativo dai predefiniti nell’editor.
 
 **NOTA**: il pacchetto node_modules.zip può essere scaricato [qui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
@@ -172,7 +163,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. Installare il pacchetto fontconfig.
 Comando: apt install fontconfig
 
-10. Genera PDF nativo dai predefiniti nell’editor web.
+10. Genera PDF nativo dai predefiniti nell’editor.
 
 ## Risoluzione di problemi
 
@@ -200,4 +191,4 @@ Convalida il valore della proprietà timeout per il nodo nodejs in /var/dxml/pro
 
 
 
-In caso di problemi durante l&#39;esecuzione di uno dei passaggi precedenti, invia una domanda al [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=it) della community AEM Guides per assistenza.
+In caso di problemi durante l&#39;esecuzione di uno dei passaggi precedenti, invia una domanda al [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) della community AEM Guides per assistenza.

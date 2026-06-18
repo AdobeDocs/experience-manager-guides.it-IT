@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # Personalizzare il dizionario predefinito di AEM {#id209SD8000WU}
 
-L’editor web può essere configurato per utilizzare il correttore ortografico di AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico di AEM, è possibile definire l&#39;elenco di parole personalizzato in modo flessibile. Queste parole personalizzate vengono quindi aggiunte al dizionario di AEM e non vengono contrassegnate come \(as correct\) nell’editor Web.
+L’editor può essere configurato per utilizzare il correttore ortografico di AEM o il correttore ortografico del browser. Se si sceglie di utilizzare il correttore ortografico di AEM, è possibile definire l&#39;elenco di parole personalizzato in modo flessibile. Queste parole personalizzate vengono quindi aggiunte al dizionario di AEM e non vengono contrassegnate come \(as correct\) nell’editor.
 
 Le schede seguenti forniscono istruzioni per creare l’elenco di parole personalizzato, che vengono aggiunte nel dizionario di AEM in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
@@ -37,7 +37,7 @@ Le schede seguenti forniscono istruzioni per creare l’elenco di parole persona
    Esegui il commit delle modifiche ed esegui la pipeline Cloud Manager \(CI/CD\) per distribuire le modifiche di configurazione.
 
 
-Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
+Gli autori devono riavviare la sessione dell&#39;editor per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM.
 
 >[!TAB On-Premise]
 
@@ -58,8 +58,8 @@ Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli 
 1. Salva e chiudi il file.
 
 
-Per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM, gli autori dovranno riavviare la sessione dell&#39;editor Web.
+Gli autori devono riavviare la sessione dell&#39;editor per aggiornare l&#39;elenco delle parole personalizzate nel dizionario AEM.
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

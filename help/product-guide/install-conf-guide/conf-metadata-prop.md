@@ -4,9 +4,9 @@ description: Scopri come configurare l’elenco da ignorare per le proprietà de
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides include un set predefinito di proprietà dei metadati nell’elenco d
 
 Solo le proprietà dei metadati non incluse nell&#39;elenco da ignorare vengono considerate per contrassegnare la versione di un documento come non valida.
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

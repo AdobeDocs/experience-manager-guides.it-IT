@@ -4,9 +4,10 @@ description: Scopri come configurare la visualizzazione dei collegamenti basati 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d2383230-ff8f-4e9b-a529-9b9d167ebf90
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -48,4 +49,4 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

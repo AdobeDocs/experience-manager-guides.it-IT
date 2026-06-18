@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Configurare i filtri di testo {#id21BPD0FK0XA}
 
-AEM Guides fornisce la funzione di ricerca del testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell&#39;editor Web, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento chiave.
+AEM Guides fornisce la funzione di ricerca del testo nei file presenti nel percorso selezionato dell’archivio AEM. È possibile utilizzare la ricerca con filtro per cercare i file dal pannello del repository o per sfogliare i file. Quando si lavora nell’editor, è necessario utilizzare la finestra di dialogo Sfoglia file per inserire elementi come immagine, riferimento o riferimento a chiave.
 
 Per impostazione predefinita, puoi utilizzare alcuni filtri migliorati per eseguire ricerche nei file nell’archivio AEM. È possibile filtrare tutti i file DITA o i file non DITA presenti nel percorso selezionato. È inoltre possibile cercare valori specifici negli attributi degli elementi DITA. È inoltre possibile cercare i file estratti dall&#39;utente specificato.
 
@@ -74,11 +74,11 @@ Le schede seguenti forniscono istruzioni per configurare i filtri di testo in ba
 
       Nel frammento di codice precedente, il primo filtro è per File DITA. La definizione del filtro accetta i seguenti parametri:
 
-      **&#x200B;**&#x200B;Titolo&#x200B;**&#x200B;**: nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
+      ****Titolo****: nome visualizzato del filtro. Questo titolo viene visualizzato come opzione di filtro nella finestra di dialogo Sfoglia file.
 
-      **&#x200B;**&#x200B;Proprietà&#x200B;**&#x200B;**: proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati dita\_class, il filtro proprietà accetta &quot;jcr:content/metadata/dita\_class&quot; come valore.
+      ****Proprietà****: proprietà da associare nei metadati del file. Ad esempio, per consentire solo i file la cui proprietà contiene i metadati dita\_class, il filtro proprietà accetta &quot;jcr:content/metadata/dita\_class&quot; come valore.
 
-      **&#x200B;**&#x200B;Operazione **:**&#x200B;Specificare &quot;exists&quot; (esiste) per l&#39;esistenza del valore specificato nel parametro della proprietà
+      ****Operazione **:**Specificare &quot;exists&quot; (esiste) per l&#39;esistenza del valore specificato nel parametro della proprietà
 
 1. Carica il file ui\_config.json aggiornato contenente i filtri aggiunti.
 
@@ -166,4 +166,4 @@ I filtri configurati sono disponibili nel pannello dei filtri.
 
 >[!ENDTABS]
 
-**Argomento padre:**&#x200B;[&#x200B; Personalizza editor Web](customize-overview.md)
+**Argomento padre:**[ Personalizza editor](customize-overview.md)

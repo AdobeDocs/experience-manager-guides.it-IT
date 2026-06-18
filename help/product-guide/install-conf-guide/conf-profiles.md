@@ -5,18 +5,18 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '6098'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
 
 # Configurare profili globali o a livello di cartella {#id181AH2003PF}
 
-In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor Web. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
+In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
 
-AEM Guides consente di configurare modelli di authoring (argomento o mappa\), modelli di output, attributi condizionali e configurazioni dell’editor web a livello aziendale (globale\) e a livello di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
+AEM Guides consente di configurare i modelli di authoring (argomento o mappa\), i modelli di output, gli attributi condizionali e le configurazioni dell’editor a livello aziendale (globale\) e di cartella. In questo modo è possibile segregare le configurazioni per diversi reparti o prodotti dell&#39;azienda.
 
 Inoltre, puoi delegare le configurazioni specifiche della cartella a un reparto o agli amministratori di prodotto per decentralizzare l’amministrazione.
 
@@ -70,7 +70,7 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare i predefiniti di pubblicazione alle mappe DITA esistenti. Per ulteriori dettagli, vedere [Applica modifiche ai predefiniti](#id18AGD0K0OHS).
 
-- **Configurazioni editor XML**: utilizzare questa scheda per personalizzare l&#39;aspetto e le varie caratteristiche dell&#39;editor Web. Per l&#39;editor Web sono disponibili le seguenti impostazioni configurabili:
+- **Configurazioni editor XML**: utilizzare questa scheda per personalizzare l&#39;aspetto e le varie caratteristiche dell&#39;editor. Per l’editor sono disponibili le seguenti impostazioni configurabili:
 
    - Configurazione interfaccia utente editor XML
    - Layout di pagina dell&#39;editor XML solo per Cloud Service
@@ -196,7 +196,7 @@ Per configurare gli attributi condizionali standard supportati da DITA a livello
 
 1. Immettere **Nome**, **Valore** e **Etichetta** per l&#39;attributo condizionale.
 
-   Puoi salvare un profilo con solo il nome dell’attributo. Tuttavia, un attributo può essere utilizzato solo quando ha un valore specificato. Se si specificano sia - value che label per un attributo, nell&#39;editor Web verrà visualizzata l&#39;etichetta dell&#39;attributo condizionale. Inoltre, l’etichetta viene mostrata all’amministratore della pubblicazione al momento della creazione di un predefinito condizionale.
+   Puoi salvare un profilo con solo il nome dell’attributo. Tuttavia, un attributo può essere utilizzato solo quando ha un valore specificato. Se si specificano sia - value che label per un attributo, l&#39;editor visualizza l&#39;etichetta dell&#39;attributo condizionale. Inoltre, l’etichetta viene mostrata all’amministratore della pubblicazione al momento della creazione di un predefinito condizionale.
 
    La schermata seguente mostra la definizione dell&#39;attributo `platform` con possibili valori ed etichette.
 
@@ -304,7 +304,7 @@ Per aggiungere i modelli di argomento, mappa o PDF a un profilo di cartella, eff
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics`, `maps` e `PDF` sottocartelle per memorizzare l&#39;argomento, la mappa e i modelli di PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
+   > Per impostazione predefinita, tutti i modelli sono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics`, `maps` e `PDF` sottocartelle per memorizzare l&#39;argomento, la mappa e i modelli di PDF. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800"}
 
@@ -366,7 +366,7 @@ Per aggiungere l’argomento o i modelli di mappa a un profilo di cartella, effe
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, tutti i modelli di creazione vengono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics` e `maps` sottocartelle per memorizzare l&#39;argomento e mappare i modelli. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor Web, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
+   > Per impostazione predefinita, tutti i modelli di creazione vengono memorizzati nella cartella /content/dam/dita-templates. La cartella `dita-templates` contiene `topics` e `maps` sottocartelle per memorizzare l&#39;argomento e mappare i modelli. È possibile aggiungere i modelli personalizzati \(.dita,.xml o .ditamapfiles\) nelle cartelle dei modelli predefinite. Una volta aggiunto il modello nella cartella predefinita, potrai aggiungerlo nel profilo globale o cartella. Per ulteriori informazioni sulla creazione di modelli personalizzati tramite l&#39;editor, vedere [Creare un modello di creazione personalizzato](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550"}
 
@@ -400,7 +400,7 @@ Se hai configurato i modelli su un profilo a livello di cartella, i modelli conf
 
 ## Creare un modello di authoring personalizzato {#id1917D0EG0HJ}
 
-AEM Guides consente di creare facilmente modelli. In qualità di amministratore di sistema, puoi utilizzare l’Editor web per creare modelli di authoring da zero. Puoi quindi aggiungere il nuovo modello nel profilo globale o assegnarlo a una cartella specifica utilizzando il profilo specifico della cartella.
+AEM Guides consente di creare facilmente modelli. In qualità di amministratore di sistema, puoi utilizzare l’Editor per creare modelli di authoring da zero. Puoi quindi aggiungere il nuovo modello nel profilo globale o assegnarlo a una cartella specifica utilizzando il profilo specifico della cartella.
 
 Per creare un modello di authoring personalizzato, effettua le seguenti operazioni:
 
@@ -434,7 +434,7 @@ Per creare un modello di authoring personalizzato, effettua le seguenti operazio
 
    Viene visualizzato il messaggio Topic Created (Creazione argomento).
 
-   È possibile scegliere di aprire il modello per la modifica nell&#39;editor Web o di salvare il file modello nel percorso dell&#39;archivio modelli. Una volta creato il modello, è possibile utilizzare l&#39;Editor Web per personalizzarlo in base alle proprie esigenze di creazione. Una volta installato un modello, accertati di associarlo a un profilo globale o a livello di cartella.
+   È possibile scegliere di aprire il modello per la modifica nell&#39;editor o di salvare il file modello nel percorso dell&#39;archivio modelli. Una volta creato il modello, puoi utilizzare l’Editor per personalizzarlo in base alle tue esigenze di authoring. Una volta installato un modello, accertati di associarlo a un profilo globale o a livello di cartella.
 
 
 ## Configurare i predefiniti di output {#id18AGD0IH0Y4}
@@ -517,7 +517,7 @@ Se avete aggiornato un predefinito di output esistente o desiderate rendere disp
 
 ## Configurare l’Assistente AI per la guida e l’authoring avanzati (solo per Cloud Service)
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 L’Assistente AI in Adobe Experience Manager Guides è uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare i contenuti tramite l’authoring intelligente e le esperienze di riutilizzo dei contenuti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare documenti e di accedere alle informazioni in modo più rapido ed efficiente.
 
@@ -568,7 +568,7 @@ Per configurare la configurazione di IA standard a livello globale o di cartella
    >
    > L’ultimo stato indicizzato del profilo di cartella viene visualizzato nella parte superiore dopo il salvataggio del file.
 
-Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati basati sull&#39;intelligenza artificiale](../user-guide/authoring-ai-based-smart-suggestions.md) per aggiungere riferimenti ai contenuti durante l&#39;authoring nell&#39;editor Web.
+Ulteriori informazioni su come visualizzare e aggiungere [suggerimenti avanzati basati sull&#39;intelligenza artificiale](../user-guide/authoring-ai-based-smart-suggestions.md) per aggiungere riferimenti ai contenuti durante l&#39;authoring nell&#39;editor.
 
 ### Restrizioni del profilo della cartella
 
@@ -603,9 +603,9 @@ Per garantire il funzionamento efficace dei suggerimenti avanzati, tieni present
 
 **Personalizzare le domande predefinite per la Guida rapida**
 
-Per Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Per Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/overview).
+Puoi configurare la **Guida** avanzata basata sull&#39;intelligenza artificiale per consentire agli autori di porre domande e trovare facilmente il contenuto richiesto nella [documentazione di Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 La scheda **Configurazione editor XML** consente di configurare le domande predefinite del pannello **Guida**.
 
@@ -662,7 +662,7 @@ Le seguenti schede forniscono informazioni in base alla configurazione di Experi
 
 Questa impostazione consente di creare estensioni JSON che riflettono le modifiche apportate nel file `ui_config.json`. Puoi caricare queste estensioni in modo indipendente a livello di profilo della cartella, offrendo maggiore flessibilità e personalizzazione. Ad esempio, quando si apportano modifiche alla **configurazione dell&#39;editor XML**, ad esempio l&#39;aggiornamento di un pulsante, il sistema identifica automaticamente le differenze. Caricando queste modifiche nella **configurazione dell&#39;interfaccia utente dell&#39;editor XML** e convertendole in estensioni JSON utilizzando il pulsante **Converti configurazione dell&#39;interfaccia utente in JSON**, il sistema genera un&#39;estensione che incorpora la nuova funzionalità.
 
-Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Ulteriori informazioni su [personalizzazione delle configurazioni JSON e conversione delle configurazioni dell&#39;interfaccia utente per il nuovo AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -682,19 +682,19 @@ Questa impostazione controlla la barra degli strumenti e gli altri elementi dell
 
 >[!TAB On-Premise]
 
-Questa impostazione consente di controllare la barra degli strumenti e gli altri elementi dell&#39;interfaccia utente dell&#39;editor Web. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json più recente sul sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. Fai clic sull&#39;icona **Scarica predefinito** per scaricare il file ui\_config.json predefinito sul sistema locale. È sempre possibile scaricare il file predefinito, apportarvi modifiche e caricarlo.A seconda della posizione in cui stai caricando il file, a livello globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando il file ui\_config.json, vedere [Personalizzare la barra degli strumenti](customize-toolbar.md#).
+Questa impostazione controlla la barra degli strumenti e gli altri elementi dell’interfaccia utente dell’editor. Fai clic sull&#39;icona **Scarica** per scaricare il file ui\_config.json più recente sul sistema locale. Puoi quindi apportare modifiche al file e al caricamento allo stesso modo. Fai clic sull&#39;icona **Scarica predefinito** per scaricare il file ui\_config.json predefinito sul sistema locale. È sempre possibile scaricare il file predefinito, apportarvi modifiche e caricarlo.A seconda della posizione in cui stai caricando il file, a livello globale o a livello di cartella, le modifiche vengono applicate di conseguenza. Per ulteriori dettagli su come personalizzare l&#39;editor XML utilizzando il file ui\_config.json, vedere [Personalizzare la barra degli strumenti](customize-toolbar.md#).
 
 >[!ENDTABS]
 
 **Layout modello CSS**
 
-Scaricare il file disponibile in questa sezione per personalizzare l&#39;aspetto del documento quando viene visualizzato in anteprima o aperto per la modifica nell&#39;editor Web. Il file CSS predefinito disponibile per il download è solo un file di test, che non deve essere utilizzato per la personalizzazione. Puoi creare un file CSS con le personalizzazioni per l’editor web e caricarlo allo stesso modo. Ad esempio, puoi creare un file .css con il seguente codice:
+Scaricare il file disponibile in questa sezione per personalizzare l&#39;aspetto del documento quando viene visualizzato in anteprima o aperto per la modifica nell&#39;editor. Il file CSS predefinito disponibile per il download è solo un file di test, che non deve essere utilizzato per la personalizzazione. Puoi creare un file CSS con le personalizzazioni per l’editor e caricarlo allo stesso modo. Ad esempio, puoi creare un file .css con il seguente codice:
 
 ```
 .title {    font-size: 9em;}
 ```
 
-Salva questo file e caricalo nella sezione Layout modello CSS. La prossima volta che scarichi il file, otterrai il file CSS più recente utilizzato nell’editor web.
+Salva questo file e caricalo nella sezione Layout modello CSS. La prossima volta che scarichi il file, otterrai il file CSS più recente utilizzato nell’editor.
 
 **Snippet editor XML**
 
@@ -745,7 +745,7 @@ Nell’esempio precedente, &quot;label1&quot; è l’identificatore della sequen
 
 >[!IMPORTANT]
 >
-> Affinché le configurazioni a livello di cartella diventino effettive, gli utenti devono selezionare il profilo in Preferenze utente nell’Editor web.
+> Affinché le configurazioni a livello di cartella diventino effettive, gli utenti devono selezionare il profilo in Preferenze utente nell’editor.
 
 **Rootmap**
 

@@ -1,24 +1,24 @@
 ---
-title: Configurare il salvataggio automatico dei file nell’editor web
-description: Scopri come configurare il salvataggio automatico dei file nell’editor web
+title: Configurare il salvataggio automatico dei file nell’editor
+description: Scopri come configurare il salvataggio automatico dei file nell’editor
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Configurare il salvataggio automatico dei file nell’editor web {#id199CC0J0M5Z}
+# Configurare il salvataggio automatico dei file nell’editor {#id199CC0J0M5Z}
 
-Una delle funzioni più comuni nell’editor basato su browser è la capacità di salvare i dati dopo un periodo di tempo specifico. AEM Guides Web Editor supporta anche il salvataggio automatico di file di argomenti e mappe nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, è necessario fare clic sull&#39;icona Salva revisione nella barra degli strumenti dell&#39;editor Web.
+Una delle funzioni più comuni nell’editor basato su browser è la capacità di salvare i dati dopo un periodo di tempo specifico. L&#39;editor di AEM Guides supporta anche il salvataggio automatico di file di argomenti e mappe nell&#39;intervallo di tempo specificato. Quando questa funzione viene attivata, viene salvata la copia di lavoro dell&#39;argomento o della mappa. Non è stata creata una nuova versione dell&#39;argomento o della mappa. Per creare una nuova versione, fai clic sull’icona Salva revisione nella barra degli strumenti dell’editor.
 
 La funzione di salvataggio automatico non è abilitata per impostazione predefinita ed è necessario abilitarla utilizzando il file di configurazione per Cloud Service e da `configMgr` per On-Premise.
 
-Le schede seguenti forniscono istruzioni per abilitare la funzione di salvataggio automatico nell’editor web in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
+Le schede seguenti forniscono istruzioni per abilitare la funzione di salvataggio automatico nell’editor in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 
 >[!BEGINTABS]
 

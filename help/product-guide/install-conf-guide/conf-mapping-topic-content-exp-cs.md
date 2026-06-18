@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ File di esempio:
 
 
 
-Durante la pubblicazione dei frammenti esperienza dall&#39;editor Web, selezionare `Template` dal menu a discesa nella finestra di dialogo **Genera frammento esperienza** per visualizzare il mapping disponibile per il modello nel campo **Mapping**. Se non è presente alcuna mappatura personalizzata per un modello, viene elencata la mappatura predefinita. Puoi utilizzare la mappatura predefinita per pubblicare l’intero argomento come frammento di esperienza.
+Durante la pubblicazione dei frammenti esperienza dall&#39;editor, seleziona `Template` dal menu a discesa nella finestra di dialogo **Genera frammento esperienza** per visualizzare il mapping disponibile per il modello nel campo **Mapping**. Se non è presente alcuna mappatura personalizzata per un modello, viene elencata la mappatura predefinita. Puoi utilizzare la mappatura predefinita per pubblicare l’intero argomento come frammento di esperienza.
 
 Per ulteriori dettagli, visualizza [Pubblica frammenti esperienza](../user-guide/publish-experience-fragment.md).
