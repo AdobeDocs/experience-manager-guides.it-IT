@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 5.2.0
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 5.2.0
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Di seguito sono riportati i miglioramenti che rendono l’authoring più semplic
 
 Un’interfaccia aggiornata migliora l’usabilità complessiva, rendendo la navigazione e l’authoring dei contenuti più intuitivi e coerenti.
 
-- **CSS più ricco per gli elementi in modalità Creazione e Anteprima**: i CSS predefiniti migliorati per gli elementi consentono una migliore formattazione e una migliore coerenza visiva sia nelle modalità di creazione che in quelle di anteprima.
+- **CSS più ricco per gli elementi in modalità Creazione e Anteprima**: CSS predefinito migliorato per gli elementi fornisce uno stile migliore e una migliore coerenza visiva sia nelle modalità di creazione che in quelle di anteprima.
 
   ![](assets/rich-css.png){width="650"}
 
@@ -345,13 +345,6 @@ Se un file è di sola lettura, è necessario estrarlo prima di apportare modific
 Ora puoi utilizzare regex per abilitare o disabilitare la post-elaborazione per le cartelle. Questo miglioramento consente agli amministratori di definire regole di post-elaborazione da applicare a più cartelle o gerarchie di cartelle intere utilizzando una singola configurazione, invece di specificare percorsi di cartelle individuali.
 
 Per ulteriori dettagli, visualizzare [Utilizzare regex per abilitare o disabilitare la post-elaborazione](../install-conf-guide/conf-folder-post-processing.md).
-
-- Eseguire l’elaborazione delle risorse a livello di cartella e di singolo file
-- Per filtrare le risorse, scegli tipi di risorse specifici, ad esempio argomenti, mappe, Markdown, HTML/CSS, DITAVAL o altri file supportati, in modo da elaborare solo i file necessari.
-- Applica filtri basati sulla data per limitare l’ambito di elaborazione per un intervallo temporale specificato.
-- Rielabora le risorse direttamente utilizzando la nuova opzione (**Rielabora risorse**) disponibile nel menu di scelta rapida dei file e delle cartelle nella vista Archivio e nel pannello Esplora risorse.
-
-Per ulteriori dettagli sull&#39;elaborazione delle risorse, visualizzare [Elabora risorse](../user-guide/asset-processor.md).
 
 ### Pulizia automatizzata dell&#39;albero B per prestazioni ottimali
 
