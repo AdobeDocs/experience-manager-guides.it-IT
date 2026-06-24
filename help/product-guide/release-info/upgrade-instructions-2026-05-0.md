@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2026.05.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2026.05.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8358a4dc8c023fe1155814f8248aab3ef724e013
+source-git-commit: 343fdd0afbab62a2764fcee0a1f8e0f3c08a0033
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Experience Manager Guides viene aggiornato automaticamente dopo l’aggiornament
 
 >[!IMPORTANT]
 >
-> Questa versione include aggiornamenti alle impostazioni del profilo della cartella (ui_config.json). Se utilizzi impostazioni personalizzate, assicurati di riprenderle prima dell&#39;aggiornamento. Dopo l’aggiornamento, rivedi e regola le impostazioni per allinearle alle modifiche introdotte nell’ultima versione.
+> La versione include aggiornamenti alle impostazioni del profilo della cartella (ui_config.json). Se utilizzi impostazioni personalizzate, assicurati di riprenderle prima dell&#39;aggiornamento. Dopo l’aggiornamento, rivedi e regola le impostazioni per allinearle alle modifiche introdotte nell’ultima versione.
 
-Esamina e convalida le configurazioni di configurazione per verificarne la corretta implementazione. Se sono state introdotte modifiche alla configurazione personalizzata, visualizzare [Configurazione aggiuntiva per l&#39;aggiornamento di Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) per le procedure aggiuntive applicabili alla versione da cui si sta eseguendo l&#39;aggiornamento.
+Esamina e convalida le configurazioni di configurazione per verificarne la corretta implementazione. Se sono state introdotte modifiche alla configurazione personalizzata, visualizzare [Configurazione aggiuntiva per l&#39;aggiornamento di Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) per le procedure aggiuntive applicabili alla versione da cui si sta eseguendo l&#39;aggiornamento.
