@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
 source-wordcount: 544
@@ -46,7 +53,7 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 > È possibile definire attributi a livello di cella, riga o colonna
 >
 > <details>
-&gt; <summary>Mostra passaggi</summary>
+>&gt; <summary>Mostra passaggi</summary>
 >
 > È inoltre possibile definire attributi su più celle, righe intere o colonne di una tabella. Ad esempio, per allineare la cella della tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Type** diventa **entry**.
 >
@@ -86,7 +93,7 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 > È possibile definire attributi a livello di cella, riga o colonna.
 >
 > <details>
-&gt; <summary>Mostra passaggi</summary>
+>&gt; <summary>Mostra passaggi</summary>
 >
 > È inoltre possibile definire attributi su più celle, un&#39;intera riga o una colonna di una tabella. Ad esempio, per allineare una cella di tabella, trascinare e selezionare la cella desiderata. Nel pannello Proprietà contenuto (a destra), la proprietà **Type** diventa **entry**.
 >
@@ -104,5 +111,5 @@ Per visualizzare la coda di generazione dell’output, effettua le seguenti oper
 
 
 
-**Argomento padre:**[ Genera output di documenti FrameMaker](fm-output-generatation.md)
+**Argomento padre:**&#x200B;[&#x200B; Genera output di documenti FrameMaker](fm-output-generatation.md)
 
