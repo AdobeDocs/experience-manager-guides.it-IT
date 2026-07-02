@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +57,7 @@ Nella visualizzazione Source viene visualizzato il codice XML sottostante che co
 
   Nella schermata precedente, viene utilizzata un’evidenziazione incrociata per puntare la riga contenente XML errato.
 
-- La funzione Trova e sostituisci consente di cercare qualsiasi testo, elemento o attributo nella vista Source.
-Per ulteriori dettagli, vedere la descrizione della funzionalità **Trova e sostituisci** nella sezione [Barra degli strumenti principale](web-editor-features.md#id#id2051EA0G05Z).
+- La funzione Trova e sostituisci consente di cercare qualsiasi testo, elemento o attributo nella vista Source.Per ulteriori dettagli, vedere la descrizione della funzionalità **Trova e sostituisci** nella sezione [Barra degli strumenti principale](web-editor-features.md#id#id2051EA0G05Z).
 
 - Nella visualizzazione Source sono disponibili numerose scelte rapide che consentono di spostarsi e lavorare rapidamente su un documento. Nella tabella seguente sono elencate le azioni supportate e i relativi tasti di scelta rapida:
 
@@ -162,6 +161,8 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
    > Assicurati di aver attivato la finestra pop-up nella configurazione del browser, altrimenti il PDF non verrà scaricato.
 
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
+
+   Per ulteriori dettagli, [Visualizza PDF](./images/best-practices-guide.pdf)
 
 
 **Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor Web](web-editor.md)
