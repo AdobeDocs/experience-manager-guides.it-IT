@@ -5,16 +5,12 @@ feature: Authoring
 role: User
 exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
 TQID: https://experienceleague.adobe.com/bSlHWEHJz3axXD3x4mPioaYiId535wHu5m9a5L0jhdc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6c69cc5da7eadbcbfe499ca7b54c2ddaa1064db7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -33,10 +29,6 @@ Per generare un output SCORM, effettuare le seguenti operazioni:
    ![](assets/scorm-success-message.png){width="350"}
 
 1. Puoi scaricare o visualizzare in anteprima l&#39;output selezionando rispettivamente **Scarica output** o **Anteprima output**.
-
-   >[!NOTE]
-   >
-   > L&#39;anteprima SCORM è disponibile quando si genera un output SCORM. Se il corso si basa su domini esterni per font, fogli di stile o contenuto incorporato, configura i domini consentiti in [Configura anteprima SCORM](../lc-config-guide/conf-scorm-preview-filters.md).
 
    ![](assets/scorm-view-output-new.png){width="650"}
 

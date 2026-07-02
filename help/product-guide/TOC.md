@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
+source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2533'
 ht-degree: 10%
 
 ---
@@ -205,14 +205,14 @@ ht-degree: 10%
                - [Note sulla versione 4.2.1](./release-info/release-notes-4-2-1.md)
                - [4.2 Note sulla versione](./release-info/release-notes-4-2.md)
          - [Note sulla versione 4.1.x](./release-info/release-notes-4-1.md)
-         - [Note sulla versione 4.0.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Note sulla versione 3.8.x](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Note sulla versione 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Note sulla versione 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guida utente (nuova interfaccia utente) {#user-guide}
    - Introduzione {#about-aemg}
       - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
          - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-         - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Home page {#home-page}
       - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
       - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -404,7 +404,6 @@ ht-degree: 10%
          - [Configurare i profili delle cartelle](./lc-config-guide/lc-folder-profile.md)
          - [Best practice per impostare la struttura delle cartelle](./lc-config-guide/best-practices-folder-structure.md)
          - [Configura altre impostazioni](./lc-config-guide/lc-other-settings.md)
-         - [Configurare i filtri di anteprima SCORM](./lc-config-guide/conf-scorm-preview-filters.md)
          - [Metriche chiave SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutorial video {#lc-video}
          - [Flusso di lavoro di creazione](./lc-video-tutorials/author-workflow.md)
@@ -418,7 +417,7 @@ ht-degree: 10%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
    - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
    - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
