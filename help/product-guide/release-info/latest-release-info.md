@@ -56,7 +56,7 @@ Le differenze chiave tra le build UUID e non UUID sono le seguenti:
 
 Durante l&#39;aggiornamento da una versione precedente a una versione più recente di [!DNL AEM Guides], potrebbe essere necessario eseguire gli script di migrazione. Per le istruzioni di aggiornamento, consulta le note sulla versione e la documentazione specifica della versione.
 
-Non tutti i percorsi di aggiornamento sono direttamente supportati. Ad esempio, l’aggiornamento diretto alla versione 4.0 è possibile solo a partire dalla versione 3.8.Se utilizzi una versione precedente alla 3.8, consulta la documentazione specifica per la versione per le istruzioni di aggiornamento [Archivio della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).Contatta il tuo Customer Success Manager per convalidare il percorso di aggiornamento.
+Non tutti i percorsi di aggiornamento sono direttamente supportati. Ad esempio, l’aggiornamento diretto alla versione 4.0 è possibile solo a partire dalla versione 3.8.Se utilizzi una versione precedente alla 3.8, consulta la documentazione specifica per la versione per le istruzioni di aggiornamento [Archivio della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).Contatta il tuo Customer Success Manager per convalidare il percorso di aggiornamento.
 
 **[!DNL AEM Guides]Build**
 
