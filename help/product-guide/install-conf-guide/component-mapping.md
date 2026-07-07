@@ -4,9 +4,10 @@ description: Scopri come eseguire la mappatura dei componenti per AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,7 @@ Utilizza un array JSON di regole (il tuo `componentmapping.json`) per convertire
 ### Eseguire il targeting dell’elemento HTML e della relativa classe
 
 - Scrivere il nome del tag HTML in `name`.
-- Includere la classe CSS applicata all&#39;elemento in `class`, se la classe esiste.
-Esempio:
+- Includere la classe CSS applicata all&#39;elemento in `class`, se la classe esiste.Esempio:
 
   ```html
   <div class ="sample-class">
@@ -48,8 +48,7 @@ Durante la definizione degli elementi di cui sopra, assicurati quanto segue:
 
 ### Utilizza attributeMap per salvare le proprietà sul nodo JCR
 
-Aggiungere voci a `attributeMap` per impostare le proprietà nel nodo di output. Ogni voce produce `attrs[to] = value`.
-Pattern comuni:
+Aggiungere voci a `attributeMap` per impostare le proprietà nel nodo di output. Ogni voce produce `attrs[to] = value`.Pattern comuni:
 
 ```json
 // copy an attribute
@@ -165,8 +164,7 @@ Scopri come creare un componente tabella personalizzato che visualizzi le immagi
 
 ### Cosa verrà creato
 
-Componente tabella personalizzato che accetta il contenuto della tabella HTML e sostituisce ogni `<img>` al suo interno con l’output del componente Immagine core di AEM. Questo consente di riutilizzare le funzioni dell’immagine core (immagini reattive, gestione delle opzioni Alt, accessibilità) mantenendo al contempo il controllo completo sul markup della tabella.
-Utilizzando questo approccio, puoi creare altri componenti personalizzati per il sito web di AEM (utilizzando la mappatura dei componenti compositi).
+Componente tabella personalizzato che accetta il contenuto della tabella HTML e sostituisce ogni `<img>` al suo interno con l’output del componente Immagine core di AEM. Questo consente di riutilizzare le funzioni dell’immagine core (immagini reattive, gestione delle opzioni Alt, accessibilità) mantenendo al contempo il controllo completo sul markup della tabella.Utilizzando questo approccio, puoi creare altri componenti personalizzati per il sito web di AEM (utilizzando la mappatura dei componenti compositi).
 
 ### Perché questo approccio
 
