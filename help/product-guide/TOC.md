@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
+source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2502'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 10%
    - Note sulla versione {#release-notes}
       - Servizi cloud {#cloud-release-notes}
          - {hide-from-toc}[Istruzioni di distribuzione](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[Versioni cloud](./release-info/latest-release-info-cs.md)
          - Versioni del 2026 {#2026-releases}
             - Versione 2026.07.0 {#2607-release}
                - [Problemi risolti](./release-info/fixed-issues-2026-07-0.md)
@@ -602,6 +603,7 @@ ht-degree: 10%
       - [Pubblicazione in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
       - [Revisione dei contenuti in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - Articoli {#kb-articles}
+      - [Panoramica](./knowledge-base/kb-articles/introduction.md)
       - Authoring {#authoring}
          - Editor {#webeditor}
             - [Riutilizzabilità dei contenuti in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
