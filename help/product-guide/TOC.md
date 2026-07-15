@@ -418,7 +418,7 @@ ht-degree: 10%
       - Risoluzione di problemi {#troubleshooting}
          - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
    - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
    - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
