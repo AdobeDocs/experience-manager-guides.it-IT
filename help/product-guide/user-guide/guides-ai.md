@@ -1,7 +1,7 @@
 ---
 title: Guide AI per la funzionalità di assegnazione tag avanzati
 description: Scopri come utilizzare le Guide AI per la funzionalità di assegnazione tag avanzati per argomenti e mappe in un’unica operazione.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -36,7 +36,7 @@ I seguenti componenti di Guides AI consentono di aggiungere file, configurare ta
 
 - **(D)** Spazio di risposta: rivedi i consigli sui tag generati dall&#39;intelligenza artificiale e scegli di accettarli, rifiutarli o modificarli prima di applicare i tag.
 - **(E)** Spazio della richiesta: immettere una richiesta di richiesta per generare suggerimenti di tag per il contenuto selezionato.
-- **(F)** Allega file o aggiungi contesto: aggiungi argomenti, mappe o file esterni dal sistema locale per fornire il contenuto che Guides AI deve analizzare per i consigli sui tag.
+- **(F)** Allega file o aggiungi contesto: aggiunge argomenti, mappe o file esterni dal sistema locale per fornire il contenuto che Guides AI deve analizzare per i consigli sui tag.
 - Modello **(G)**: visualizza il modello di IA utilizzato per analizzare il contenuto e generare i consigli sui tag. Sono disponibili diversi modelli OpenAI e Anthropic Claude. Per impostazione predefinita, è selezionata l&#39;opzione **Usa predefinito manifesto**, che utilizza il modello configurato per l&#39;assistente selezionato.
 - **(H)** Invia: invia la richiesta e il contenuto allegato per generare consigli sui tag basati su AI.
 

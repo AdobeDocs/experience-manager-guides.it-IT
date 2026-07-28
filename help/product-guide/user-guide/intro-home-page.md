@@ -4,7 +4,7 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -50,6 +50,7 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
   La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
 
 - **Guide AI**: consente di acquisire nell&#39;editor competenze intelligenti e agentiche di assegnazione tag avanzati da Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Guide AI](../user-guide/guides-ai.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuarli.
+
 
   >[!NOTE]
   >
