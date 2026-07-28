@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Perché l’esportazione dei metadati per una cartella non riesce con l’eccezione &quot;Stringa è troppo lunga&quot;?
 
-Quando si [esportano metadati](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) per una cartella dall&#39;interfaccia utente di Assets, il processo di esportazione può non riuscire con l&#39;eccezione `String is too long`. Ciò si verifica in genere quando la cartella contiene proprietà specifiche di Experience Manager Guides che memorizzano valori non stringa, ad esempio `baselineObj`.
+Quando si [esportano metadati](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/using/metadata#export-metadata) per una cartella dall&#39;interfaccia utente di Assets, il processo di esportazione può non riuscire con l&#39;eccezione `String is too long`. Ciò si verifica in genere quando la cartella contiene proprietà specifiche di Experience Manager Guides che memorizzano valori non stringa, ad esempio `baselineObj`.
 
 **Perché questo accade?**
 

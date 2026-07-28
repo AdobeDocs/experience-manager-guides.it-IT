@@ -79,7 +79,7 @@ Non si installa nulla localmente. Puntare il client all’URL del server e auten
 
 ### Claude antropico
 
-Segui la procedura dettagliata ufficiale: [Configura Claude per AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Quando aggiungi il connettore personalizzato, utilizza l’endpoint Experience Manager Guides:
+Segui la procedura dettagliata ufficiale: [Configura Claude per AEM MCP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Quando aggiungi il connettore personalizzato, utilizza l’endpoint Experience Manager Guides:
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
