@@ -42,17 +42,17 @@ Utilizza lo strumento Origini dati in Experience Manager Guides per creare e con
    >* Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino al campo per visualizzare ulteriori dettagli.
    >* I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore Elasticsearch.
 
-   - **Nome**: immettere il nome dell&#39;origine dati.
-   - **Percorso directory principale di AEM di destinazione**: immetti il percorso nell&#39;archivio AEM in cui deve essere archiviato il contenuto importato da Git.
-   - **Filtro tipo file (inclusione)**: specificare i tipi di file da includere durante l&#39;importazione.
-   - **Percorso escluso (regex)**: specificare i pattern di percorso da escludere dall&#39;importazione.
-   - **Tipo di autenticazione**: selezionare il tipo di autenticazione dall&#39;elenco a discesa. Attualmente, **Personal Access Token (PAT)** è l&#39;unico metodo di autenticazione supportato. Immetti il PAT durante la configurazione del connettore per autenticare e accedere all’archivio Git.
+   &#x200B;- **Nome**: immettere il nome dell&#39;origine dati.
+   &#x200B;- **Percorso directory principale di AEM di destinazione**: immetti il percorso nell&#39;archivio AEM in cui deve essere archiviato il contenuto importato da Git.
+   &#x200B;- **Filtro tipo file (inclusione)**: specificare i tipi di file da includere durante l&#39;importazione.
+   &#x200B;- **Percorso escluso (regex)**: specificare i pattern di percorso da escludere dall&#39;importazione.
+   &#x200B;- **Tipo di autenticazione**: selezionare il tipo di autenticazione dall&#39;elenco a discesa. Attualmente, **Personal Access Token (PAT)** è l&#39;unico metodo di autenticazione supportato. Immetti il PAT durante la configurazione del connettore per autenticare e accedere all’archivio Git.
 
      Scopri come [generare un token di accesso personale GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Durante la selezione degli ambiti durante la generazione di PAT su GitHub, assicurati di abilitare i seguenti ambiti:
-     - **repo**: seleziona la casella di controllo di primo livello. Tutti i sottoambiti vengono selezionati automaticamente, consentendo l’accesso al contenuto dell’archivio, allo stato del commit e alle distribuzioni.
-     - **admin:org**: selezionare solo **read:org**. Questo è necessario per risolvere l’appartenenza a un’organizzazione e a un team.
+     &#x200B;- **repo**: seleziona la casella di controllo di primo livello. Tutti i sottoambiti vengono selezionati automaticamente, consentendo l’accesso al contenuto dell’archivio, allo stato del commit e alle distribuzioni.
+     &#x200B;- **admin:org**: selezionare solo **read:org**. Questo è necessario per risolvere l’appartenenza a un’organizzazione e a un team.
    * **URL archivio**: immettere l&#39;URL archivio Git da cui importare il contenuto.
    * **Ramo**: immettere il ramo da utilizzare per l&#39;importazione del contenuto.
 
