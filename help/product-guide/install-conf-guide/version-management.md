@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ Le schede seguenti forniscono istruzioni per abilitare l&#39;opzione **Crea nuov
    Quando l’opzione è selezionata, si verifica un nuovo meccanismo di gestione della versione e sovrascrive il comportamento di caricamento predefinito per qualsiasi caricamento successivo. I contenuti del file caricato vengono salvati come nuova versione. Se l’opzione è deselezionata, AEM Guides utilizza il meccanismo predefinito di gestione delle versioni di AEM.
 
 1. Fai clic su **Salva**.
-
-
->[!NOTE]
->
-> Se abiliti la proprietà **Crea nuova versione per il file caricato** \(create.ver.new.content\) e utilizzi la **interfaccia utente di Assets** per caricare in blocco le risorse, puoi caricare i file in batch di 70 o meno.
 
 >[!ENDTABS]
 
@@ -314,7 +309,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
    - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
    - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.

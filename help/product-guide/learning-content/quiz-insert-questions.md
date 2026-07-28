@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
 TQID: https://experienceleague.adobe.com/2VGxq0TrCbvFXYL44fOo5xIjP6GBLi9aKfVSTfLD3jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +48,13 @@ Puoi configurare le domande utilizzando le seguenti proprietà di domanda dal pa
 - **Penale per risposta errata**: specificare i punti da detrarre per una risposta errata.
 - **Etichetta domanda**: consente di aggiungere un&#39;etichetta domanda.
 - **Feedback**: consente di fornire il feedback per una risposta corretta o non corretta.
+
+  >[!NOTE]
+  >
+  > Nell&#39;output pubblicato del corso, dopo aver tentato tutte le domande in un quiz, gli Allievi possono utilizzare l&#39;opzione **Rivedi risposte** per rivedere le risposte inviate e vedere quali risposte erano corrette o errate. Non sono necessarie configurazioni o installazioni aggiuntive.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Fissa opzione alla posizione**: quando un&#39;opzione specifica per una domanda è bloccata, rimane fissa nella posizione specificata nell&#39;elenco delle opzioni, anche se **Nella configurazione del predefinito SCORM sono abilitate scelte di risposta casuali per ogni tentativo**, che altrimenti ridistribuirebbe le opzioni disponibili. Potete passare il cursore sull&#39;opzione desiderata di una domanda nel pannello Proprietà contenuto e fissarla.
 
   ![](assets/pin-question.png){width="350"}

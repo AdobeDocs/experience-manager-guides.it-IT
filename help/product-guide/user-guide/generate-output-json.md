@@ -5,22 +5,14 @@ exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/qUqrdURCFXqbjNwZ1-CVXbCj-cbj6wTFs3MW-BRupdM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1016
 ht-degree: 0%
 
 ---
@@ -57,6 +49,10 @@ Una volta creato il predefinito, potete configurare le seguenti configurazioni d
 
 Per ulteriori informazioni, vedere [Configurazione JSON](#json-configuration).
 
+>[!NOTE]
+>
+>Se la [funzionalità di verifica stato](../install-conf-guide/conf-health-check-preset.md) è configurata per il profilo di cartella, nella scheda Generale verrà visualizzato un ulteriore **Esegui verifica stato prima della generazione output**. Utilizzalo per fare in modo che una verifica dello stato venga eseguita automaticamente ogni volta che generi un output con questo predefinito, in modo da non doverlo attivare manualmente dalla mappa. Il rapporto viene aggiunto al registro di pubblicazione ed è puramente informativo. Non blocca né ritarda l’output, anche se il controllo rileva errori o avvisi non risolti. Ulteriori informazioni sull&#39;utilizzo di [funzionalità di verifica stato in Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
+
 ![](images/json-preset-config-new.png)
 
 ## Configurazione JSON
@@ -77,4 +73,4 @@ Per il predefinito JSON sono disponibili le seguenti opzioni:
 | Proprietà da propagare nell’output | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà.<br><br>**Nota**: è inoltre possibile definire proprietà personalizzate e passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Utilizzare i metadati](metadata-dita.md#id21BJ00QD0XA). |
 | Flusso di lavoro di post generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br><br>**Nota**: per ulteriori informazioni sulla creazione di un flusso di lavoro di generazione post-output personalizzato, vedere _Personalizzare il flusso di lavoro di generazione post-output_ nella guida Installare e configurare Adobe Experience Manager Guides as a Cloud Service. |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)

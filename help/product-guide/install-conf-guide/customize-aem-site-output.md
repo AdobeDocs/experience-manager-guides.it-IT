@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Nella tabella seguente sono descritte le proprietà del modello di progettazione
 >
 > Dopo aver creato un nodo del modello di progettazione personalizzato, è necessario aggiornare l’opzione Progettazione nei predefiniti di output del sito AEM per utilizzare il nodo del modello di progettazione personalizzato.
 
-Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=it) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=it) sullo sviluppo del tuo sito Web su AEM.
+Per ulteriori informazioni, consulta [Creazione del primo sito Web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) e [Nozioni di base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) sullo sviluppo del tuo sito Web su AEM.
 
 ## Usa il titolo del documento per generare l&#39;output del sito AEM
 
@@ -122,6 +122,9 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleano \(true/false\). Se desideri generare l’output utilizzando il titolo della pagina, imposta questa proprietà su true. Per impostazione predefinita, è impostato per utilizzare il nome file.<br> **Valore predefinito**: false |
 
+>[!NOTE]
+>
+> La proprietà `aemsite.pagetitle` definisce il comportamento predefinito a livello di cartella per i titoli delle pagine del sito AEM. Se l&#39;opzione per selezionare `Topic filename` o `Topic title` è disponibile nel predefinito AEM Sites per l&#39;ambiente in uso, la selezione a livello di predefinito ha la precedenza e sostituisce la configurazione a livello di cartella `aemsite.pagetitle` per l&#39;output. Ad esempio, se `aemsite.pagetitle=true` ma l&#39;utente seleziona *Nome file argomento* nel predefinito di output, verrà utilizzato il nome file dell&#39;argomento. Se `aemsite.pagetitle=false` ma l&#39;utente seleziona *Titolo argomento*, verrà utilizzato il titolo dell&#39;argomento.
 
 >[!TAB On-Premise]
 
@@ -210,7 +213,7 @@ Puoi anche configurare le altre proprietà, ad esempio l’utilizzo di lettere m
 
 1. Cerca e fai clic sul bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl*.
 
-1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>`&#x200B;`@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
+1. Nel set di caratteri **Non consentito per la pubblicazione nella proprietà AEM Sites**, verificare che la proprietà sia impostata su `<>``@$`. È possibile aggiungere altri caratteri speciali all&#39;elenco, tuttavia è necessario che siano presenti i caratteri speciali richiesti.
 
    >[!NOTE]
    >
@@ -363,7 +366,7 @@ Per escludere l&#39;elemento `table` dall&#39;appiattimento, aggiungere la segue
 
 ## Configurare il controllo delle versioni per le pagine eliminate nell’output del sito AEM
 
-Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea **&#x200B;**&#x200B;selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
+Quando si genera l&#39;output del sito AEM con l&#39;opzione **Elimina e** Crea ****selezionata per l&#39;impostazione Pagine di output esistenti, viene creata una versione per la pagina\(s\) da eliminare. Puoi configurare il sistema in modo da interrompere la creazione di una versione prima dell’eliminazione.
 
 Le schede seguenti forniscono istruzioni per interrompere la creazione di una versione per le pagine che vengono eliminate in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 

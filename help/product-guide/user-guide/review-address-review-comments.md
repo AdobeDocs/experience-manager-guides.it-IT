@@ -5,26 +5,14 @@ exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +39,9 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 
 - **B:** Seleziona **Dettagli revisione** ![](images/active-review-info-icon.svg) nel pannello **Commenti** per visualizzare ulteriori informazioni sull&#39;attività di revisione:
 
-   - **Nome**: nome dell&#39;attività di revisione.
-   - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
-   - **Stato**: stato corrente dell&#39;attività di revisione.
+  - **Nome**: nome dell&#39;attività di revisione.
+  - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
+  - **Stato**: stato corrente dell&#39;attività di revisione.
 
   >[!NOTE]
   >
@@ -90,7 +78,8 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento. Per impostazione predefinita, nessuno dei filtri è selezionato.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Rispondi a un commento assegnando tag ad altri utenti**
+
+**Rispondi a un commento assegnando tag ad altri utenti**
 
 In qualità di autore e di iniziatore dell&#39;attività di revisione, è possibile rispondere ai commenti di revisione e assegnare tag ad altri utenti coinvolti nella stessa attività di revisione per indirizzare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
 
@@ -109,4 +98,27 @@ Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apr
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+## Visualizza tutte le attività di revisione per un argomento
+
+>[!NOTE]
+>
+> Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
+Questa funzione consente di selezionare un&#39;attività di revisione (aperta o chiusa) associata all&#39;argomento attualmente aperto dal pannello Commenti. Quando è attivato, il pannello Commenti nell’interfaccia utente Revisione include un elenco a discesa di tutte le attività di revisione di cui fa parte l’argomento, nonché dello stato di ciascuna attività (Attivo o Chiuso) e del progetto a cui appartiene. Per impostazione predefinita, l&#39;attività da cui stai lavorando è contrassegnata con un tag **Current**.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Utilizzando il menu a discesa Attività di revisione, puoi selezionare una di queste attività e passare attraverso i relativi commenti, senza passare da un progetto di revisione all’altro. È inoltre possibile selezionare l&#39;icona **(i)** accanto a un&#39;attività nel menu a discesa per visualizzare i dettagli dell&#39;attività.
+
+>[!NOTE]
+>
+> Se un’attività di revisione che prevedi di visualizzare non viene visualizzata nel menu a discesa, è possibile che sia stata creata prima che questa funzione fosse abilitata nella tua istanza. Contattare l&#39;amministratore per risolvere il problema [Eseguire l&#39;indicizzazione per includere tutte le attività di revisione per un argomento nel pannello Commenti](../install-conf-guide/index-review-tasks.md).
+
+Quando utilizzi questa funzione, tieni presente che:
+
+- Passando a un argomento diverso nell’editor, il pannello viene reimpostato sull’attività Corrente nei Commenti
+- Se si seleziona un&#39;attività diversa da Corrente, verrà aperta la versione dell&#39;argomento e i relativi commenti dell&#39;attività in modalità di sola lettura. È possibile visualizzare i commenti, ma non modificarli, accettarli o rifiutarli e l&#39;opzione **Importa** è disabilitata. Nella copia di lavoro è possibile importare solo i commenti dell&#39;attività corrente.
+- I filtri e la ricerca sono applicabili solo ai commenti dell&#39;attività selezionata, mentre i commenti di altre attività non selezionate non vengono interessati.
+
+
+**Argomento padre:**[ Introduzione alla revisione](review.md)
