@@ -5,19 +5,13 @@ exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
 TQID: https://experienceleague.adobe.com/Af2mFR-OG-QTbQU7HBQb-kfvuCcw5fd89CA4-mSroNE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -125,9 +119,9 @@ Quando esegui una verifica stato per una mappa, il rapporto viene aperto nel pan
 
 ![](./images/health-check-report-panel-editor.png)
 
-### Barra degli strumenti dei rapporti
+### Opzioni del pannello dei rapporti di verifica stato
 
-La barra degli strumenti nella parte superiore del pannello mostra quanto segue:
+Nel pannello Rapporto Verifica stato sono disponibili le seguenti opzioni:
 
 - **Nome mappa**: nome della mappa per cui è stato generato il report.
 - **Icona Info**: selezionare questa opzione per visualizzare il nome del predefinito, la versione della mappa e la linea di base (se presente) utilizzata per generare il report.
@@ -167,4 +161,4 @@ Dopo aver risolto un problema, seleziona **Rigenera** nella barra degli strument
 Seleziona **Scarica report** per scaricare il report in formato XLS, con informazioni dettagliate per ogni risultato.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)
