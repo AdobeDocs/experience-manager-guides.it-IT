@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +81,9 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
 
 1. Immetti una **Descrizione** per l&#39;attività.
 
-   Questa descrizione viene utilizzata come corpo dell’e-mail di notifica inviata ai revisori.
+   La descrizione viene utilizzata come corpo dell’e-mail di notifica inviata ai revisori. Viene inoltre visualizzato nella finestra di dialogo **Dettagli revisione**, accessibile tramite l&#39;icona *Informazioni* accanto all&#39;intestazione **Commenti** sia nell&#39;interfaccia utente Revisione che nell&#39;interfaccia dell&#39;editor.
+
+   ![](images/review-details.png)
 
 1. Seleziona **Data di scadenza** e l&#39;ora per contrassegnare la scadenza per la revisione.
 
@@ -108,6 +110,35 @@ Per creare un&#39;attività di revisione e inviare gli argomenti per la revision
    >[!NOTE]
    >
    > La mappa principale selezionata ha la precedenza più alta per risolvere i riferimenti chiave. Per ulteriori dettagli, visualizzare [Risolvi riferimenti chiave](map-editor-other-features.md#id176GD01H05Z).
+
+1. Allega file DITAVAL (disponibile solo se abilitato per il tuo ambiente)
+
+   >[!NOTE]
+   >
+   > La funzione per allegare i file DITAVAL a un&#39;attività di revisione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
+   Se l&#39;argomento che si sta inviando per la revisione utilizza le condizioni, è possibile allegare uno o più file DITAVAL all&#39;attività di revisione.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > Il selettore di file accetta solo file DITAVAL. Se si seleziona un altro tipo di file, ad esempio un argomento o una mappa, viene visualizzato un messaggio di errore in cui viene richiesto di selezionare un file DITAVAL.
+
+   Le condizioni definite nei file DITAVAL allegati vengono utilizzate per preselezionare gli interruttori nel pannello Condizioni del revisore, in modo che i revisori abbiano accesso allo stesso insieme di condizioni che l&#39;iniziatore intende sottoporre a revisione.
+
+   È inoltre disponibile la casella di controllo **Consenti modifiche condizione revisore**, che consente di stabilire se i revisori possono modificare le opzioni predefinite:
+
+   ![](./images/reviewer-conditions.png)
+
+   - Se questa opzione è selezionata, i revisori possono attivare o disattivare qualsiasi condizione durante la revisione, ignorando i valori impostati dai file DITAVAL.
+   - Se deselezionate, gli interruttori rimangono disattivati per i revisori e possono rivedere il contenuto solo come filtrato dai file DITAVAL allegati.
+
+   **Note aggiuntive**:
+
+   - È possibile allegare più file DITAVAL a una singola attività di revisione. Se due o più file allegati definiscono valori in conflitto per la stessa condizione, il primo file aggiunto (in ordine di inserimento) ha la precedenza.
+   - Le condizioni che non sono coperte da alcun file DITAVAL allegato non vengono influenzate, ma mantengono il comportamento predefinito (non filtrato) nell’interfaccia utente di revisione.
+   - Dopo aver creato l&#39;attività di revisione, è possibile aggiornare l&#39;attività di revisione dalla pagina Dettagli attività per aggiungere, rimuovere o sostituire i file DITAVAL allegati e per modificare l&#39;impostazione **Consenti modifiche condizione revisore**.
 
 1. Poiché è possibile assegnare revisori diversi ad argomenti diversi, l&#39;opzione **Consenti agli assegnatari di esaminare qualsiasi argomento** controlla se i revisori possono esaminare tutti gli argomenti di un&#39;attività di revisione o solo quelli che sono stati assegnati a esaminare.
 

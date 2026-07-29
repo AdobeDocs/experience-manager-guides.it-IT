@@ -4,9 +4,9 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 0%
 
 ---
@@ -53,17 +53,27 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
   Dal menu **Creazione di azioni rapide** puoi effettuare le seguenti operazioni:
 
-   - utilizza gli interruttori per abilitare o disabilitare opzioni specifiche a cui gli autori possono accedere quando lavorano con l’Assistente IA.
+  - utilizza gli interruttori per abilitare o disabilitare opzioni specifiche a cui gli autori possono accedere quando lavorano con l’Assistente IA.
 
-   - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
+  - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **Guide AI**
 
+  >[!NOTE]
+  >
+  > Per utilizzare la funzione di intelligenza artificiale delle guide nell’ambiente, contatta il team Customer Success. È possibile abilitare una sola esperienza di intelligenza artificiale alla volta: Guide AI o Assistente di intelligenza artificiale.
+
+  Selezionare **Guide AI** per attivare questa funzionalità in Experience Manager Guides.Deselezionare per disattivare la funzionalità.
+
+  Dopo aver abilitato questa opzione, potrai accedere alla funzione di IA per le guide dalla barra di navigazione nella pagina Home e dalla barra delle schede nell’interfaccia dell’editor. Per informazioni dettagliate su come generare tag di IA suggeriti per gli argomenti, visualizzare [Introduzione a Guide AI](../user-guide/guides-ai.md).
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Authoring**
 
-   - **Abilita Sostituisci Tutto**: selezionare questa opzione per visualizzare l&#39;icona **Sostituisci Tutto** nel pannello **Trova e sostituisci**.
+  - **Abilita Sostituisci Tutto**: selezionare questa opzione per visualizzare l&#39;icona **Sostituisci Tutto** nel pannello **Trova e sostituisci**.
 
 - **Citazioni**
 
@@ -71,28 +81,28 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
 - **Condizione**
 
-   - **Evidenzia testo condizionale nella visualizzazione Autore**: selezionare questa opzione per evidenziare il testo condizionale nella visualizzazione Autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+  - **Evidenzia testo condizionale nella visualizzazione Autore**: selezionare questa opzione per evidenziare il testo condizionale nella visualizzazione Autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
-   - **Convalida con attributi di condizione**: selezionare questa opzione per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
+  - **Convalida con attributi di condizione**: selezionare questa opzione per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
 
-   - **Mostra chiave con titolo nel pannello Schema soggetti**: selezionare questa opzione per visualizzare i tasti insieme ai titoli nello schema soggetti. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
+  - **Mostra chiave con titolo nel pannello Schema soggetti**: selezionare questa opzione per visualizzare i tasti insieme ai titoli nello schema soggetti. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
+  - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
 
 - **Controllo ortografico**
 
   Sono disponibili due opzioni: Controllo ortografico di AEM e Controllo ortografico del browser.
 
-   - **Controllo ortografico del browser**: per impostazione predefinita, l&#39;editor utilizza la funzionalità Controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser.
+  - **Controllo ortografico del browser**: per impostazione predefinita, l&#39;editor utilizza la funzionalità Controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser.
 
-   - **Controllo ortografico di AEM**: è possibile passare al controllo ortografico di AEM per utilizzare il dizionario di Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, visualizzare [Personalizzare il dizionario predefinito di AEM](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Controllo ortografico di AEM**: è possibile passare al controllo ortografico di AEM per utilizzare il dizionario di Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, visualizzare [Personalizzare il dizionario predefinito di AEM](../install-conf-guide/customize-aem-default-dictionary.md).
 
-     >[!NOTE]
-     >
-     > Il controllo ortografico di AEM utilizza la lingua selezionata nella proprietà language del file. Se la lingua non è specificata per il file, il controllo ortografico viene eseguito come fallback nella lingua del server AEM.
-     >Per garantire risultati accurati del controllo ortografico, il dizionario della lingua selezionata deve essere disponibile in AEM. Se il dizionario richiesto per la lingua configurata non è disponibile, il controllo ortografico predefinito è `en_us`.
+    >[!NOTE]
+    >
+    > Il controllo ortografico di AEM utilizza la lingua selezionata nella proprietà language del file. Se la lingua non è specificata per il file, il controllo ortografico viene eseguito come fallback nella lingua del server AEM.
+    >Per garantire risultati accurati del controllo ortografico, il dizionario della lingua selezionata deve essere disponibile in AEM. Se il dizionario richiesto per la lingua configurata non è disponibile, il controllo ortografico predefinito è `en_us`.
 
 
 ## Pannelli
@@ -152,24 +162,24 @@ Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. 
 
 - Durante la configurazione dell’app connessa, verifica quanto segue:
 
-   - Specifica il callback.
+  - Specifica il callback.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Selezionate i seguenti ambiti OAuth:
-      - Accesso completo (completo)
-      - Seleziona Gestisci dati utente tramite API (api)
+  - Selezionate i seguenti ambiti OAuth:
+    - Accesso completo (completo)
+    - Seleziona Gestisci dati utente tramite API (api)
 
-     Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
+    Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
 
 
-   - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+  - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
-     ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Creare un profilo ServiceNow**
@@ -235,24 +245,24 @@ Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etic
 
   Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
 
-   1. Seleziona **Aggiungi**.
-   1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
-   1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
+  1. Seleziona **Aggiungi**.
+  1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
+  1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
-      Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
+     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
 
-   1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+  1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
 
-      >[!TIP]
-      >
-      > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
+     >[!TIP]
+     >
+     > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
 
-   1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](../user-guide/images/edit_pencil_icon.svg) o eliminare ![elimina](../user-guide/images/Delete_icon.svg) i gruppi di lingue.
-   1. Salva le **impostazioni**.
+  1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](../user-guide/images/edit_pencil_icon.svg) o eliminare ![elimina](../user-guide/images/Delete_icon.svg) i gruppi di lingue.
+  1. Salva le **impostazioni**.
 
-      >[!NOTE]
-      >
-      >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
+     >[!NOTE]
+     >
+     >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
 
 - **Propagare le etichette della versione di origine alla versione di destinazione**: selezionare questa opzione per passare l&#39;etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
 - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione da disabilitare o eliminare automaticamente dopo la traduzione. Per impostazione predefinita, è selezionato **Nessuno**, in modo che il progetto esista dopo la traduzione.

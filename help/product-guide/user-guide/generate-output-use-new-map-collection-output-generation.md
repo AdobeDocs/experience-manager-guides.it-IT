@@ -16,35 +16,35 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# Usa nuova raccolta mappe per la generazione dell&#39;output (Beta)
+# Usa nuova raccolta mappe per la generazione dell&#39;output
 
 >[!IMPORTANT]
 >
-> La nuova raccolta di mappe è disponibile in Experience Manager Guides as a Cloud Service a partire dalla versione 2026.06.0. Contatta il team di successo del cliente per abilitare questa funzione.
+> La nuova raccolta di mappe è disponibile in Experience Manager Guides as a Cloud Service a partire dalla versione 2026.08.0. Contatta il team di successo del cliente per abilitare questa funzione.
 
 La raccolta delle mappe in Adobe Experience Manager Guides consente agli specialisti della pubblicazione di organizzare più documenti in un’unica raccolta, controllare l’output generato per ciascun documento e generare e pubblicare in modo efficiente gli output in batch da un dashboard centralizzato. Inoltre, fornisce visibilità sull’avanzamento della generazione dell’output, evidenzia le modifiche apportate alle mappe dall’ultimo output pubblicato e consente di ripubblicare il contenuto quando necessario.
 
-La nuova raccolta mappe consolida le funzionalità precedentemente distribuite nella vecchia raccolta mappe e la pubblicazione in blocco in un&#39;unica interfaccia unificata. Una volta abilitate, è possibile gestire mappe, predefiniti, cronologia di generazione, cronologia di pubblicazione, metadati e appartenenza alle raccolte da un&#39;unica posizione.
+La nuova raccolta di mappe consolida le funzionalità precedentemente distribuite nella vecchia raccolta di mappe e la pubblicazione in blocco in un&#39;unica interfaccia unificata. Una volta abilitate, è possibile gestire mappe, predefiniti, cronologia di generazione, cronologia di pubblicazione, metadati e appartenenza alle raccolte da un&#39;unica posizione.
 
 ## Creare una raccolta di mappe e aggiungere mappe DITA
 
 Per creare una raccolta di mappe e aggiungervi le mappe, effettuare le seguenti operazioni:
 
-1. Apri la home page di Experience Manager Guides e seleziona **Nuove raccolte mappe**.
+1. Apri la home page di Experience Manager Guides e seleziona **Mappa raccolte**.
 
    Viene aperta la pagina **Mappa raccolte**.
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. Nella pagina **Mappa raccolte**, seleziona **Crea** in alto a destra e fornisci **Nome** per la nuova raccolta mappe.
+1. Nella pagina **Mappa raccolte**, seleziona **Crea** in alto a destra e fornisci **Nome** per la raccolta mappe.
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +90,10 @@ Per creare una raccolta di mappe e aggiungervi le mappe, effettuare le seguenti 
 
 Ottieni un elenco di tutte le mappe desiderate con il titolo della mappa, il nome file corrispondente, la lingua in cui è disponibile e i predefiniti configurati.
 
+>[!NOTE]
+>
+> Quando si aggiunge un numero elevato di mappe a una raccolta di mappe, le schede Mappe e predefiniti visualizzano un massimo di quattro mappe alla volta, insieme ai predefiniti associati. Nella parte inferiore dello schermo è disponibile una vista impaginata che consente agli utenti di spostarsi tra le pagine e accedere a mappe e predefiniti aggiuntivi. Se selezionate una mappa o un predefinito, la selezione viene mantenuta durante la navigazione tra le mappe e i predefiniti rimanenti in pagine diverse.
+
 ![Schede mappe e predefiniti](./images/maps-presets-tab.png)
 
 La scheda **Mappe e predefiniti** presenta le informazioni in base alle mappe selezionate per una lingua specifica nelle colonne seguenti:
@@ -107,7 +111,7 @@ Nel pannello a destra della pagina Mappe e predefiniti sono disponibili le segue
 
 - **Modificato dalla generazione**: selezionare Sì, No o Non ancora generato. Se si seleziona Sì, nella scheda Mappe e predefiniti vengono visualizzate solo le mappe che sono state modificate dopo la generazione.
 - **Modificato dopo la pubblicazione**: è possibile selezionare Sì, No o Non ancora generato. Se selezioni Sì, nella scheda Mappe e predefiniti vengono visualizzate solo le mappe che sono state modificate dopo la pubblicazione.
-- **Predefiniti**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
+- **Tipi di predefiniti**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
 - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella scheda Mappe e predefiniti.
 
   ![Filtri nelle schede Mappe e predefiniti](./images/filters-maps-presets.png)
@@ -136,6 +140,9 @@ Per generare l&#39;output utilizzando una raccolta di mappe, effettuare le segue
    - **Completato (verde)**: generazione completata.
    - **Fine (rosso)**: generazione completata con errori. I dettagli dell’errore possono essere visualizzati nei registri.
    - **Esecuzione (blu)**: generazione in corso.
+   - **Errore (rosso)**: generazione non riuscita.
+   - **In attesa (blu)**: la generazione è in coda.
+
 
    ![Tipi di stato](./images/status-types.png)
 
@@ -150,6 +157,10 @@ Per generare l&#39;output utilizzando una raccolta di mappe, effettuare le segue
 
 
 ## Pubblicare l’output utilizzando una raccolta di mappe
+
+>[!NOTE]
+>
+> La pubblicazione dalla cronologia delle generazioni pubblica sempre l’output più recente di un predefinito invece della generazione selezionata.
 
 Per pubblicare (se configurato) l’output utilizzando una raccolta di mappe, effettua le seguenti operazioni:
 

@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
 workflow-type: tm+mt
-source-wordcount: 691
+source-wordcount: 854
 ht-degree: 0%
 
 ---
 
 # Completa l&#39;attività di revisione come revisore
-
->[!IMPORTANT]
->
-> Le nuove funzioni descritte in questo articolo sono abilitate per impostazione predefinita con la versione 2508 di Experience Manager Guides as a Cloud Service. Le revisioni create prima della migrazione non sono interessate e continueranno a utilizzare il flusso di lavoro precedente. Se preferisci continuare a utilizzare le funzioni esistenti senza questi aggiornamenti, contatta il team Customer Success per disabilitare le nuove funzioni.
 
 In qualità di revisore, puoi contrassegnare un’attività di revisione come completata dopo aver rivisto tutto il contenuto e aver richiesto una notifica all’autore. In questa fase è inoltre possibile lasciare eventuali commenti finali.
 
@@ -60,13 +56,12 @@ In base al feedback, se l&#39;autore o l&#39;iniziatore dell&#39;attività decid
 
 >[!NOTE]
 >
->Per impostazione predefinita, quando un revisore contrassegna un&#39;attività di revisione come **Completa**, l&#39;attività rimane nella cartella Posta in arrivo di AEM fino a quando l&#39;autore o l&#39;iniziatore dell&#39;attività non rivede il feedback e chiude l&#39;attività di revisione.
+> La sincronizzazione delle attività tra l’interfaccia utente di revisione e la casella in entrata di AEM è disponibile ed è abilitata per impostazione predefinita. Quando un revisore contrassegna un&#39;attività di revisione come **Completa** nell&#39;interfaccia utente Revisione, l&#39;attività corrispondente viene automaticamente completata e rimossa dalla casella in entrata di AEM del revisore. Analogamente, il completamento di un’attività dalla casella in entrata di AEM la contrassegna automaticamente come completata nell’interfaccia utente di revisione.
 >
->Tuttavia, puoi scegliere di abilitare la sincronizzazione delle attività tra l’interfaccia utente di revisione e la casella in entrata di AEM. Quando questa funzione è abilitata, contrassegnando un&#39;attività di revisione come **Completa** nell&#39;interfaccia utente Revisione, l&#39;attività corrispondente viene automaticamente completata e rimossa dalla casella in entrata di AEM del revisore. Analogamente, il completamento di un’attività dalla casella in entrata di AEM la contrassegna automaticamente come completata nell’interfaccia utente di revisione.
+> L’autore o l’iniziatore dell’attività può comunque rivedere il feedback e riassegnare l’attività se è necessaria un’ulteriore revisione. Quando un’attività viene riassegnata, viene generata una nuova notifica Casella in entrata AEM per il revisore, che consente di rivedere nuovamente l’attività.
 >
->L’autore o l’iniziatore dell’attività può comunque rivedere il feedback e riassegnare l’attività se è necessaria un’ulteriore revisione. Quando un’attività viene riassegnata, viene generata una nuova notifica Casella in entrata AEM per il revisore, che consente di rivedere nuovamente l’attività.
->
->Per abilitare questa funzione nel tuo ambiente, contatta il team Customer Success.
+> Se si desidera utilizzare il comportamento precedente, in cui le attività di revisione completate rimangono nella casella in entrata di AEM del revisore fino a quando l&#39;autore o l&#39;iniziatore dell&#39;attività non esamina il feedback e chiude l&#39;attività di revisione, contattare il team Customer Success per disabilitare la sincronizzazione delle attività.
+
 
 
 ## Visualizza commenti a livello di attività
@@ -86,3 +81,30 @@ I commenti all&#39;interno della finestra di dialogo vengono visualizzati in ord
 La finestra di dialogo **Commenti attività** è accessibile a tutti gli utenti coinvolti nell&#39;attività di revisione, inclusi l&#39;autore o l&#39;iniziatore dell&#39;attività di revisione e altri revisori. Di conseguenza, i commenti di altri revisori (se coinvolti) potrebbero essere visualizzati anche nella finestra di dialogo Commenti attività. Ciò consente di garantire una comunicazione chiara e tracciabile durante l’intero processo di revisione.
 
 Dopo aver esaminato il feedback a livello di attività, l’Autore può richiedere un riesame o chiudere l’attività di revisione. In entrambi i casi, tutti i commenti acquisiti durante il processo di revisione rimangono disponibili come riferimento nella finestra di dialogo **Commenti attività**.
+
+## Delegare un&#39;attività di revisione a un altro revisore
+
+>[!IMPORTANT]
+>
+> Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
+In qualità di Revisore, a volte può essere utile che un altro utente esprima il proprio giudizio su una revisione prima che torni all’Autore. Ad esempio, se parte del contenuto non rientra tra le tue competenze o desideri un secondo parere prima di contrassegnare l&#39;attività come **Completa**. Anziché eseguire il routing tramite un amministratore di progetto, è possibile consigliare un revisore direttamente dall&#39;attività di revisione utilizzando l&#39;opzione **Delega**.
+
+La selezione di **Delegato** non completa l&#39;attività di revisione per tuo conto. Invia il consiglio all&#39;autore (iniziatore dell&#39;attività), che decide se aggiungere il revisore consigliato all&#39;attività.
+
+Per delegare un&#39;attività di revisione, effettuare le operazioni riportate di seguito.
+
+1. Aprire l&#39;attività di revisione assegnata all&#39;utente.
+2. Dopo aver rivisto il contenuto, seleziona **Delega**, accanto a **Contrassegna come completato**.
+
+   ![](./images/review-delegate-option.png){width="350"}
+
+3. Viene visualizzata la finestra di dialogo **Consiglia revisore**. Seleziona un utente dall’elenco a discesa da consigliare come revisore per questa attività.
+
+   ![](./images/recommend-reviewer-dialog.png){width="350"}
+
+4. *(Facoltativo)* Aggiungi un commento per l&#39;Autore, per il contesto.
+5. Seleziona **Delega**.
+
+All&#39;autore viene inviata una notifica che indica che è stato richiesto di aggiungere un revisore all&#39;attività. Per informazioni dettagliate sulla risposta dell&#39;autore a questa richiesta, visualizzare [Richiedere un riesame o chiudere un&#39;attività di revisione come autore](./review-close-review-task.md).
+

@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 1560
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -67,6 +67,10 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 - Filtro condizionale \(Se le condizioni sono definite per una mappa\)
 - Usa baseline \(Se viene creata una baseline per una mappa\)
 - Flusso di lavoro di post generazione
+
+>[!NOTE]
+>
+>Se la [funzionalità di verifica stato](../install-conf-guide/conf-health-check-preset.md) è configurata per il profilo di cartella, nella scheda Generale verrà visualizzato un ulteriore **Esegui verifica stato prima della generazione output**. Utilizzalo per fare in modo che una verifica dello stato venga eseguita automaticamente ogni volta che generi un output con questo predefinito, in modo da non doverlo attivare manualmente dalla mappa. Il rapporto viene aggiunto al registro di pubblicazione ed è puramente informativo. Non blocca né ritarda l’output, anche se il controllo rileva errori o avvisi non risolti. Ulteriori informazioni sull&#39;utilizzo di [funzionalità di verifica stato in Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Avanzate**
 

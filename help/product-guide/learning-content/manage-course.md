@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +47,16 @@ Il contenuto selezionato viene creato e aggiunto al corso. Per una panoramica vi
 Puoi aggiungere al corso contenuto esistente dal tuo archivio dei contenuti. Per aggiungere contenuto esistente, effettua le seguenti operazioni:
 
 1. Seleziona il menu **Opzioni** > **Aggiungi esistente**.
-2. Seleziona il tipo di contenuto del corso che desideri creare.
-3. Nella finestra di dialogo **Seleziona file**, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
+1. Seleziona il tipo di contenuto del corso che desideri creare.
+1. Nella finestra di dialogo **Seleziona file**, passa alla posizione del contenuto e seleziona il contenuto di apprendimento desiderato.
 
-   ![](assets/add-existing-learning-content.png)
-4. Scegli **Seleziona**.
+>[!NOTE]
+>
+> Quando si aggiunge un argomento di HTML a una mappa del gruppo di apprendimento, l&#39;attributo `format="html"` viene aggiunto automaticamente al `topicref` corrispondente nella mappa. In questo modo l’argomento viene elaborato e pubblicato correttamente.
+
+![](assets/add-existing-learning-content.png)
+
+1. Scegli **Seleziona**.
 
 Il contenuto del corso selezionato viene aggiunto al corso dall’archivio.
 

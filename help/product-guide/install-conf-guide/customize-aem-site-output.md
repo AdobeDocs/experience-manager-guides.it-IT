@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: '3264'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,9 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleano \(true/false\). Se desideri generare l’output utilizzando il titolo della pagina, imposta questa proprietà su true. Per impostazione predefinita, è impostato per utilizzare il nome file.<br> **Valore predefinito**: false |
 
+>[!NOTE]
+>
+> La proprietà `aemsite.pagetitle` definisce il comportamento predefinito a livello di cartella per i titoli delle pagine del sito AEM. Se l&#39;opzione per selezionare `Topic filename` o `Topic title` è disponibile nel predefinito AEM Sites per l&#39;ambiente in uso, la selezione a livello di predefinito ha la precedenza e sostituisce la configurazione a livello di cartella `aemsite.pagetitle` per l&#39;output. Ad esempio, se `aemsite.pagetitle=true` ma l&#39;utente seleziona *Nome file argomento* nel predefinito di output, verrà utilizzato il nome file dell&#39;argomento. Se `aemsite.pagetitle=false` ma l&#39;utente seleziona *Titolo argomento*, verrà utilizzato il titolo dell&#39;argomento.
 
 >[!TAB On-Premise]
 

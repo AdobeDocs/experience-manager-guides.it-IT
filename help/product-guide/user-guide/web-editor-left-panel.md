@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 11025
+source-wordcount: 11073
 ht-degree: 0%
 
 ---
@@ -213,17 +213,17 @@ Puoi visualizzare le seguenti opzioni nelle schede **Generale** e **Avanzate**.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 - **Bloccato da**: visualizza un elenco di utenti. L’elenco viene impaginato e caricato in modo asincrono, mostrando un set limitato di utenti alla volta e recuperandone altri durante lo scorrimento o la navigazione. Ciò migliora la velocità di caricamento e le prestazioni complessive, soprattutto quando si lavora con un numero elevato di utenti.
 - **Modificato dopo** / **Modificato prima di**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
-   - Nelle ultime due ore
-   - Nell&#39;ultima settimana
-   - Nell&#39;ultimo mese
-   - Nell&#39;ultimo anno
+  - Nelle ultime due ore
+  - Nell&#39;ultima settimana
+  - Nell&#39;ultimo mese
+  - Nell&#39;ultimo anno
 - **Tag**: filtra il contenuto in base ai tag.
 
 **Avanzate**
 
 - **Elementi DITA**: è inoltre possibile cercare valori specifici negli attributi degli elementi DITA specificati.
-   - Selezionare **Aggiungi elemento** per aggiungere elementi, attributi e valori.
-   - Applica i filtri selezionati.
+  - Selezionare **Aggiungi elemento** per aggiungere elementi, attributi e valori.
+  - Applica i filtri selezionati.
 
 - Selezionare **Cancella tutto** per cancellare tutti i filtri applicati.
 
@@ -325,13 +325,13 @@ Passaggi per creare una nuova cartella:
 
   Se il nome file della risorsa da caricare contiene caratteri non validi (ad esempio * / : [\] | # % { } ?), possono verificarsi i seguenti scenari:
 
-   - **Caricamento parziale**: indica che una o più risorse caricate contengono caratteri non validi nei nomi dei file.
+  - **Caricamento parziale**: indica che una o più risorse caricate contengono caratteri non validi nei nomi dei file.
 
-     ![](images/partial-asset-upload.png)
+    ![](images/partial-asset-upload.png)
 
-   - **Caricamento non riuscito**: indica che tutte le risorse caricate contengono caratteri non validi nei nomi dei file.
+  - **Caricamento non riuscito**: indica che tutte le risorse caricate contengono caratteri non validi nei nomi dei file.
 
-     ![](images/upload-asset-failed.png)
+    ![](images/upload-asset-failed.png)
 
   Per risolvere questi conflitti, rimuovi eventuali caratteri non validi dai nomi dei file delle risorse, quindi ricaricali nell’archivio.
 
@@ -404,9 +404,9 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 - **Duplicato**: utilizzare questa opzione per creare un duplicato o una copia del file selezionato. Puoi anche rinominare il file duplicato nel prompt Duplica risorsa. Per impostazione predefinita, il file viene creato con il suffisso \(come nomefile\_1.extension\). Il titolo del file rimane invariato rispetto al file di origine e il nuovo file inizia con la versione 1.0. Tutti i riferimenti, i tag e i metadati vengono copiati mentre le baseline non vengono copiate nel file duplicato.
 
 - **Sposta in**: utilizzare questa opzione per spostare il file selezionato in un&#39;altra cartella.
-   - È possibile digitare il nome della cartella di destinazione oppure scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
-   - È possibile spostare un file di qualsiasi tipo in qualsiasi destinazione all&#39;interno della cartella Contenuto.
-   - Due file non possono avere lo stesso nome. Pertanto, non è possibile spostare un file in una cartella in cui esiste già un file con lo stesso nome.
+  - È possibile digitare il nome della cartella di destinazione oppure scegliere **Seleziona percorso** per selezionare la cartella di destinazione.
+  - È possibile spostare un file di qualsiasi tipo in qualsiasi destinazione all&#39;interno della cartella Contenuto.
+  - Due file non possono avere lo stesso nome. Pertanto, non è possibile spostare un file in una cartella in cui esiste già un file con lo stesso nome.
 
   Se si tenta di spostare un file in una cartella in cui esiste un file con lo stesso nome ma con un titolo diverso, viene visualizzata la finestra di dialogo Rinomina e sposta file e sarà necessario rinominare il file prima di spostarlo. Il file spostato nella cartella di destinazione ha il nuovo nome file.
 
@@ -420,9 +420,9 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
   Experience Manager Guides non consente di rinominare o spostare un file nei seguenti scenari:
 
-   - Non è possibile spostare o rinominare un file se fa parte di un flusso di lavoro di revisione o di traduzione.
+  - Non è possibile spostare o rinominare un file se fa parte di un flusso di lavoro di revisione o di traduzione.
 
-   - Se un altro utente blocca il file, non è possibile rinominarlo o spostarlo, non verrà visualizzata l&#39;opzione Rinomina o Sposta in per il file.
+  - Se un altro utente blocca il file, non è possibile rinominarlo o spostarlo, non verrà visualizzata l&#39;opzione Rinomina o Sposta in per il file.
 
   >[!NOTE]
   >
@@ -435,30 +435,30 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
   </details>
 
 - **Rinomina**: utilizzare questa opzione per rinominare il file selezionato. Immettere il nome del nuovo file nella finestra di dialogo **Rinomina risorsa**.
-   - È possibile rinominare un file di qualsiasi tipo.
-   - Impossibile modificare l&#39;estensione di un file.
-   - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
+  - È possibile rinominare un file di qualsiasi tipo.
+  - Impossibile modificare l&#39;estensione di un file.
+  - Due file non possono avere lo stesso nome. Pertanto, non è possibile rinominare un file con un nome già esistente. Viene visualizzato un errore.
 
 - **Elimina**: utilizzare questa opzione per eliminare il file selezionato. Viene visualizzata una richiesta di conferma prima di eliminare il file.
 
-   - Viene visualizzata una richiesta di conferma prima di eliminare il file.
-   - Se non viene fatto riferimento al file da alcun altro file, questo viene eliminato e viene visualizzato un messaggio di operazione riuscita.
-   - Se il file è bloccato, non è possibile eliminarlo e viene visualizzato un messaggio di errore.
+  - Viene visualizzata una richiesta di conferma prima di eliminare il file.
+  - Se non viene fatto riferimento al file da alcun altro file, questo viene eliminato e viene visualizzato un messaggio di operazione riuscita.
+  - Se il file è bloccato, non è possibile eliminarlo e viene visualizzato un messaggio di errore.
 
-     >[!NOTE]
-     >
-     > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file bloccati, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, visualizzare la sezione *Impedisci l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se l&#39;amministratore ha impedito l&#39;eliminazione dei file bloccati, viene visualizzato solo il messaggio di errore. Per ulteriori dettagli, visualizzare la sezione *Impedisci l&#39;eliminazione dei file estratti* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se il file viene aggiunto a una raccolta, viene visualizzata la finestra di dialogo **Forza eliminazione**, che è possibile eliminare forzatamente.
-   - Se il file è referenziato da un altro file, viene visualizzata la finestra di dialogo **Forza eliminazione** con il messaggio di conferma ed è possibile eliminare forzatamente il file:
+  - Se il file viene aggiunto a una raccolta, viene visualizzata la finestra di dialogo **Forza eliminazione**, che è possibile eliminare forzatamente.
+  - Se il file è referenziato da un altro file, viene visualizzata la finestra di dialogo **Forza eliminazione** con il messaggio di conferma ed è possibile eliminare forzatamente il file:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. In caso contrario, **Forza eliminazione** è disabilitato e viene visualizzato un messaggio che informa che non si dispone dell&#39;autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, visualizzare la sezione *Impedisci l&#39;eliminazione dei file a cui si fa riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Se l&#39;amministratore ha concesso l&#39;autorizzazione per l&#39;eliminazione del file, **Forza eliminazione** è abilitato. In caso contrario, **Forza eliminazione** è disabilitato e viene visualizzato un messaggio che informa che non si dispone dell&#39;autorizzazione per eliminare i file di riferimento. Per ulteriori dettagli, visualizzare la sezione *Impedisci l&#39;eliminazione dei file a cui si fa riferimento* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
-   - Se si elimina un argomento di riferimento e si è aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
+  - Se si elimina un argomento di riferimento e si è aperto il file contenente riferimenti per la modifica, verrà visualizzato il collegamento interrotto per il file di riferimento.
 
   >[!NOTE]
   >
@@ -467,15 +467,15 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 - **Genera**: utilizza l&#39;opzione per pubblicare una mappa o argomenti all&#39;interno di una mappa in una pagina Sites, in un frammento di contenuto o in un frammento di esperienza.
 
 - **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
-   - **Raccolte**: aggiunge il file selezionato alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
+  - **Raccolte**: aggiunge il file selezionato alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
 
-   - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
+  - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
 - **Copia**: puoi scegliere tra le seguenti opzioni:
 
-   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
+  - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
 
-   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
+  - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
 - **Rielabora risorsa**: attiva l&#39;elaborazione per la risorsa selezionata.
 
@@ -533,7 +533,7 @@ Per un file di mappa nella vista Mappa sono disponibili le seguenti opzioni:
 
 Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del file di mappa:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Modifica**: apri il file mappa per la modifica nell&#39;editor mappa.
 
@@ -550,21 +550,25 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
 - **Anteprima**: consente di aprire un&#39;anteprima del file di mapping. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
 
 - **Copia**: puoi scegliere tra le seguenti opzioni:
-   - **Copia UUID**: copia l&#39;UUID del file di mappa negli Appunti.
-   - **Copia percorso**: copia il percorso completo del file di mappa negli Appunti.
+  - **Copia UUID**: copia l&#39;UUID del file di mappa negli Appunti.
+  - **Copia percorso**: copia il percorso completo del file di mappa negli Appunti.
 
 - **Individua in Esplora**: mostra la posizione del file di mappa in Esplora\(o DAM\).
 
 - **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
-   - **Raccolte**: aggiunge il file di mapping alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
+  - **Raccolte**: aggiunge il file di mapping alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
 
-   - **Contenuto riutilizzabile**: aggiunge il file mappa all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
+  - **Contenuto riutilizzabile**: aggiunge il file mappa all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
 - **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file di mappa. Puoi accedere a questa pagina delle proprietà anche dall’interfaccia utente di Assets selezionando un file e facendo clic sull’icona Proprietà nella barra degli strumenti.
 
 - **Apri dashboard mappe**: apre il dashboard delle mappe.
 
 - **Visualizza nell&#39;interfaccia utente di Assets**: consente di visualizzare un&#39;anteprima del file mappa nell&#39;interfaccia utente di Assets. In questa visualizzazione, tutti i file degli argomenti della mappa vengono visualizzati in un&#39;unica visualizzazione unificata pagina per pagina.
+- **Esegui verifica stato**: abilita questa opzione per eseguire controlli di integrità sulla mappa selezionata. Per ulteriori dettagli su questa funzionalità, visualizzare [Altre funzionalità nell&#39;editor mappe](./map-editor-other-features.md#run-health-check-on-a-map).
+  >[!NOTE]
+  >
+  > Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
 - **Scarica mappa**: selezionare questa opzione per aprire la finestra di dialogo **Scarica mappa**.
 
   Nella finestra di dialogo **Scarica mappa** puoi scegliere le seguenti opzioni:
@@ -584,7 +588,6 @@ Potete eseguire le seguenti operazioni utilizzando il menu Opzioni (Options) del
   >[!NOTE]
   >
   >  Per impostazione predefinita, le mappe scaricate rimangono per cinque giorni nella casella in entrata delle notifiche Adobe Experience Manager.
-
 - **Chiudi contesto mappa**: chiude il file mappa.
 
 La schermata seguente mostra il menu Opzioni per un file nella vista mappa:
@@ -606,8 +609,8 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa:
 
 - **Anteprima**: consente di ottenere un&#39;anteprima rapida del file (.dita, .xml, audio, video o immagine) senza aprirlo. È possibile ridimensionare il riquadro di anteprima. Se il contenuto contiene `<xref>` o `<conref>`, è possibile selezionarlo per aprirlo in una nuova scheda.  Il titolo del file viene visualizzato nella finestra. Se non è presente alcun titolo, viene visualizzato il nome del file. Per chiudere il riquadro **Anteprima**, è possibile selezionare l&#39;icona di chiusura o selezionare un punto qualsiasi all&#39;esterno del riquadro.
 - **Copia**: puoi scegliere tra le seguenti opzioni:
-   - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
-   - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
+  - **Copia UUID**: copia l&#39;UUID del file selezionato negli Appunti.
+  - **Copia percorso**: copia il percorso completo del file selezionato negli Appunti.
 
 
 - **Individua in Esplora**: mostra la posizione del file selezionato in Esplora \(o DAM\).
@@ -616,9 +619,9 @@ La schermata seguente mostra il menu Opzioni per un file nella vista mappa:
 - **Comprimi tutto**: comprimi tutti gli argomenti che fanno parte del file di mapping corrente.
 
 - **Aggiungi a**: puoi scegliere tra le seguenti opzioni:
-   - **Raccolte**: aggiunge il file selezionato alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
+  - **Raccolte**: aggiunge il file selezionato alle raccolte. Puoi scegliere di aggiungerlo a una raccolta esistente o nuova.
 
-   - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
+  - **Contenuto riutilizzabile**: aggiunge il file selezionato all&#39;elenco Contenuto riutilizzabile nel pannello sinistro.
 
 - **Proprietà**: utilizzare questa proprietà per aprire la pagina delle proprietà del file selezionato. Puoi accedere a questa pagina delle proprietà anche dall’interfaccia utente di Assets selezionando un file e facendo clic sull’icona Proprietà nella barra degli strumenti.
 
@@ -773,10 +776,10 @@ Per cercare termini di testo e sostituirli con abbreviazioni del glossario, effe
 - **Azione**: è possibile scegliere di cercare manualmente le chiavi del glossario **per ogni argomento** o **Automaticamente per tutti gli argomenti**. Se si sceglie **Manualmente per ogni argomento**, verrà richiesto di confermare prima di convertire ogni termine in ogni argomento. Se si sceglie **Automaticamente per tutti gli argomenti**, tutti i termini in tutti gli argomenti verranno convertiti automaticamente.
 - **Converti**: è possibile convertire un **testo cercato in termine glossario** o un **termine glossario in testo.**
 - **Opzioni**: è possibile selezionare una delle opzioni seguenti:
-   - **Corrispondenza con distinzione tra maiuscole e minuscole**: cerca un termine per trovare la corrispondenza con lo stesso carattere. Ad esempio, &#39;USB&#39; non corrisponderà a &#39;usb&#39;.
-   - **Converti solo la prima istanza**: se in un argomento sono presenti più istanze del termine cercato, viene convertita solo la prima istanza.
-   - **Blocca il file prima della conversione**: il file cercato viene bloccato prima della conversione dei termini.
-   - **Crea una nuova versione dopo la conversione**: viene creata una nuova versione dell&#39;argomento al termine della conversione dei termini.
+  - **Corrispondenza con distinzione tra maiuscole e minuscole**: cerca un termine per trovare la corrispondenza con lo stesso carattere. Ad esempio, &#39;USB&#39; non corrisponderà a &#39;usb&#39;.
+  - **Converti solo la prima istanza**: se in un argomento sono presenti più istanze del termine cercato, viene convertita solo la prima istanza.
+  - **Blocca il file prima della conversione**: il file cercato viene bloccato prima della conversione dei termini.
+  - **Crea una nuova versione dopo la conversione**: viene creata una nuova versione dell&#39;argomento al termine della conversione dei termini.
 - Il pulsante **Avanti** viene visualizzato se si seleziona **Manualmente per ogni argomento**. Seleziona **Successivo** per convertire i termini di ogni argomento in base alle impostazioni selezionate. Richiede la conversione dei termini in ciascun argomento e passa al file successivo. Puoi scegliere di convertire un termine o saltarlo e passare al termine successivo.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1101,8 +1104,8 @@ Per inserire uno snippet, utilizzare uno dei metodi seguenti:
 
 - Selezionate uno snippet dal pannello Snippet e trascinatelo nella posizione desiderata nell&#39;argomento. Per perfezionare la vista, potete anche usare le opzioni filtro nella parte superiore del pannello Snippet:
 
-   - **Mostra tutti i frammenti**: elenca tutti i frammenti disponibili, inclusi i formati DITA e HTML.
-   - **Mostra solo snippet applicabili**: filtra l&#39;elenco in modo da visualizzare solo i frammenti rilevanti per l&#39;argomento o il contesto corrente. Ad esempio, se si sta lavorando su un argomento DITA, i frammenti di codice HTML verranno esclusi dall&#39;elenco per garantire l&#39;accuratezza contestuale.
+  - **Mostra tutti i frammenti**: elenca tutti i frammenti disponibili, inclusi i formati DITA e HTML.
+  - **Mostra solo snippet applicabili**: filtra l&#39;elenco in modo da visualizzare solo i frammenti rilevanti per l&#39;argomento o il contesto corrente. Ad esempio, se si sta lavorando su un argomento DITA, i frammenti di codice HTML verranno esclusi dall&#39;elenco per garantire l&#39;accuratezza contestuale.
 
 - Posizionare il punto di inserimento nel punto in cui si desidera inserire lo snippet. Scegliere Inserisci snippet dal menu Opzioni dello snippet desiderato.
 
@@ -1195,14 +1198,14 @@ Per eseguire la ricerca globale e sostituirla con la modalità Source, effettuar
    - **Stato documento**: è possibile selezionare uno stato del documento tra le opzioni disponibili. Le opzioni dello stato del documento visualizzate derivano dai profili delle cartelle. Essi rappresentano il set combinato di tutti i possibili stati del documento in tali profili. Gli stati predefiniti includono In-review, Fatto (Done), Bozza (Draft), Approvato (Approved), Modifica (Edit) e Rivisto (Reviewed).
    - **Ultima modifica**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
 
-      - Nelle ultime 2 ore
-      - Nell&#39;ultima settimana
-      - Nell&#39;ultimo mese
-      - Nell&#39;ultimo anno
+     - Nelle ultime 2 ore
+     - Nell&#39;ultima settimana
+     - Nell&#39;ultimo mese
+     - Nell&#39;ultimo anno
    - **Altri**: puoi configurare i seguenti elementi:
-      - **Tag**: filtra il contenuto in base ai tag.
-      - **Ricerca con distinzione tra maiuscole e minuscole**: abilita la ricerca per garantire che i risultati corrispondano esattamente alla combinazione di maiuscole e minuscole specificata.
-      - **Elenca i file bloccati da altri utenti**: visualizza i file attualmente bloccati da altri utenti, impedendo eventuali modifiche fino al rilascio del blocco.
+     - **Tag**: filtra il contenuto in base ai tag.
+     - **Ricerca con distinzione tra maiuscole e minuscole**: abilita la ricerca per garantire che i risultati corrispondano esattamente alla combinazione di maiuscole e minuscole specificata.
+     - **Elenca i file bloccati da altri utenti**: visualizza i file attualmente bloccati da altri utenti, impedendo eventuali modifiche fino al rilascio del blocco.
 
 1. Premi Invio o seleziona l&#39;icona **Cerca** per eseguire la ricerca.
 
@@ -1365,8 +1368,8 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
      La finestra di dialogo **Filtro** include anche le seguenti opzioni che possono essere attivate o disattivate utilizzando l&#39;interruttore:
 
-      - **Attività avviate da me**: se abilitata, mostra solo le attività avviate.
-      - **Mostra solo le attività attive**: se questa opzione è attivata, filtra l&#39;elenco dei progetti in modo da visualizzare solo le attività attive.
+     - **Attività avviate da me**: se abilitata, mostra solo le attività avviate.
+     - **Mostra solo le attività attive**: se questa opzione è attivata, filtra l&#39;elenco dei progetti in modo da visualizzare solo le attività attive.
 
      Per impostazione predefinita, entrambe le opzioni sono disabilitate. Inoltre, lo stato di attivazione selezionato viene mantenuto anche dopo l’aggiornamento della pagina.
 

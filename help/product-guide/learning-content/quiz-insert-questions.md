@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +53,13 @@ Puoi configurare le domande utilizzando le seguenti proprietà di domanda dal pa
 - **Penale per risposta errata**: specificare i punti da detrarre per una risposta errata.
 - **Etichetta domanda**: consente di aggiungere un&#39;etichetta domanda.
 - **Feedback**: consente di fornire il feedback per una risposta corretta o non corretta.
+
+  >[!NOTE]
+  >
+  > Nell&#39;output pubblicato del corso, dopo aver tentato tutte le domande in un quiz, gli Allievi possono utilizzare l&#39;opzione **Rivedi risposte** per rivedere le risposte inviate e vedere quali risposte erano corrette o errate. Non sono necessarie configurazioni o installazioni aggiuntive.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Fissa opzione alla posizione**: quando un&#39;opzione specifica per una domanda è bloccata, rimane fissa nella posizione specificata nell&#39;elenco delle opzioni, anche se **Nella configurazione del predefinito SCORM sono abilitate scelte di risposta casuali per ogni tentativo**, che altrimenti ridistribuirebbe le opzioni disponibili. Potete passare il cursore sull&#39;opzione desiderata di una domanda nel pannello Proprietà contenuto e fissarla.
 
   ![](assets/pin-question.png){width="350"}

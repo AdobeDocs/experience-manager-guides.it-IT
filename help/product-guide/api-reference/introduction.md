@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ Per informazioni dettagliate sull&#39;utilizzo delle API, sui parametri e sulle 
 
 >[!NOTE]
 >
-> È inoltre possibile fare riferimento alla **documentazione Swagger** per le API REST disponibili pubblicamente in `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Attualmente, nella documentazione di Swagger sono disponibili solo le API relative ad Assets, Linea di base e Generazione rapporti.
-
+> Puoi anche fare riferimento alla **documentazione Swagger** per le API REST disponibili pubblicamente in `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` oppure accedervi tramite l&#39;interfaccia AEM passando a **Strumenti** > **Guide** > **Swagger API**. Attualmente, nella documentazione di Swagger sono disponibili solo le API relative ad Assets, Linea di base, Reporting, Traduzione e Pubblicazione.
 
 ## Risorse aggiuntive
 
-Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html):
+Di seguito è riportato un elenco di altre utili risorse di AEM Guides, disponibili nella pagina [Informazioni e supporto](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Guida utente
 - Guida all’installazione e alla configurazione
 - Guida rapida
-- [Pagina di archiviazione della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)
+- [Pagina di archiviazione della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accedere alla documentazione delle versioni precedenti\)

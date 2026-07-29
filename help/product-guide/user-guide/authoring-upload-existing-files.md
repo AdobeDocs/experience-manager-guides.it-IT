@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -33,6 +33,19 @@ Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desid
 Per [aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#filename-handling?lang=it#upload-assets) tramite l&#39;interfaccia utente della console Assets, seleziona la risorsa richiesta sul desktop e trascina l&#39;interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Durante il caricamento delle risorse, accertati che i nomi dei file non includano caratteri non supportati o non consentiti.
 
 Per ulteriori dettagli, visualizzare la sezione [Gestione del nome file e caratteri non consentiti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#filename-handling) nella documentazione di Adobe Experience Manager.
+
+### Caricamento di file tramite l’interfaccia utente di Assets
+
+Quando carichi i file utilizzando **Crea** > **File** e selezioni un file dal sistema, viene visualizzato **Carica Assets**. Questa finestra di dialogo ti consente di rivedere e, facoltativamente, rinominare il file prima di avviare il caricamento. È possibile mantenere il nome file originale o fornire un nuovo nome in base alle proprie esigenze.
+
+![](images/upload-file.png){width="350"}
+
+Dopo aver avviato il caricamento, lo stato viene visualizzato nella finestra di dialogo **Carica Assets**, in cui viene visualizzato l&#39;avanzamento del caricamento per ogni file caricato. Se devi interrompere l&#39;operazione prima che venga completata, puoi annullare il caricamento in qualsiasi momento selezionando l&#39;opzione **Annulla** o l&#39;icona Annulla. L&#39;annullamento dell&#39;operazione interrompe il caricamento e il file non viene aggiunto al repository.
+
+![](images/upload-status.png){width="350"}
+
+Una volta completato correttamente il caricamento, il sistema visualizza un messaggio di conferma che indica che il file è stato caricato correttamente. Questo messaggio conferma che il file è ora disponibile nella posizione selezionata all’interno dell’archivio Assets.
+
 
 ## App desktop Adobe Experience Manager
 
@@ -57,5 +70,8 @@ In caso di errore durante il caricamento di uno o più file, al termine del proc
 Per ulteriori dettagli sul funzionamento dei vari scenari di caricamento dei file, visualizzare [Gestione file e cartelle](authoring-file-management.md#).
 
 Se utilizzi uno strumento come Adobe Experience Manager Desktop App o Asset Bulk Ingestor, l’azione da eseguire su un file duplicato è controllata da un’impostazione nel server Adobe Experience Manager. Contatta l’amministratore di sistema per informazioni su questa configurazione.
+
+
+
 
 **Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)

@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Richiedere un riesame o chiudere un&#39;attività di revisione come autore
-
->[!IMPORTANT]
->
-> Le nuove funzioni descritte in questo articolo sono abilitate per impostazione predefinita con la versione 2508 di Experience Manager Guides as a Cloud Service. Le revisioni create prima della migrazione non sono interessate e continueranno a utilizzare il flusso di lavoro precedente. Se preferisci continuare a utilizzare le funzioni esistenti senza questi aggiornamenti, contatta il team Customer Success per disabilitare le nuove funzioni.
 
 Quando un&#39;attività di revisione viene contrassegnata come completata da un revisore, viene attivata una notifica all&#39;iniziatore dell&#39;attività, che consente di accedere all&#39;attività e ai relativi commenti a livello di attività e di rivederli.
 
@@ -31,6 +27,10 @@ In qualità di iniziatore dell’attività di revisione, puoi quindi decidere co
 
 - Richiedi un riesame
 - Chiudi l&#39;attività di revisione
+
+>[!NOTE]
+>
+> Se la funzionalità Delega è abilitata per il tuo ambiente, un revisore può anche richiedere a [di aggiungere un altro revisore all&#39;attività di revisione](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Tali richieste vengono visualizzate sotto forma di notifiche nella casella in entrata di AEM. Se il revisore consigliato non fa parte del progetto associato, puoi scegliere di aggiungerlo prima al progetto. In caso contrario, si verrà indirizzati alla scheda **REVIEWERS** della pagina **Dettagli attività** per aggiungere il revisore consigliato all&#39;attività di revisione. La decisione di aggiungere il revisore consigliato spetta sempre a te come iniziatore dell’attività di revisione.
 
 ## Richiedere un riesame o chiudere un&#39;attività di revisione
 

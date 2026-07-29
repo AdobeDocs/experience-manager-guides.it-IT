@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 3064
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
 1. Apri il pannello Commenti selezionando l&#39;icona **Commenti** nell&#39;angolo superiore destro della barra degli strumenti.
 
    Fornisci i commenti di revisione selezionando un tipo di commento appropriato dalla barra degli strumenti e premendo Invio per inviare il commento.
-La casella dei commenti supporta le voci su più righe e consente agli utenti di espanderla in base alle esigenze, per fornire un feedback dettagliato. È possibile utilizzare **Maiusc** + **Invio** per passare alla riga successiva durante la scrittura del commento.
+   La casella dei commenti supporta le voci su più righe e consente agli utenti di espanderla in base alle esigenze, per fornire un feedback dettagliato. È possibile utilizzare **Maiusc** + **Invio** per passare alla riga successiva durante la scrittura del commento.
 
    >[!NOTE]
    >
@@ -107,7 +107,9 @@ La casella dei commenti supporta le voci su più righe e consente agli utenti di
 
 ## Ulteriori funzioni disponibili nella schermata di revisione
 
-**Visualizzazione documento e visualizzazione argomento** - Per impostazione predefinita, se più argomenti sono condivisi per la revisione, viene mostrata ai revisori una visualizzazione documento composita degli argomenti. In caso di revisione di mappe DITA, tutti gli argomenti della mappa vengono presentati sotto forma di un singolo documento, simile a una visualizzazione libro. Se lo si desidera, è inoltre possibile selezionare un argomento particolare e solo tale argomento verrà visualizzato nella schermata di revisione.
+### Visualizzazione documento e visualizzazione argomento
+
+Per impostazione predefinita, se più argomenti sono condivisi per la revisione, viene mostrata ai revisori una visualizzazione di documento composito degli argomenti. In caso di revisione di mappe DITA, tutti gli argomenti della mappa vengono presentati sotto forma di un singolo documento, simile a una visualizzazione libro. Se lo si desidera, è inoltre possibile selezionare un argomento particolare e solo tale argomento verrà visualizzato nella schermata di revisione.
 
 Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione aggiuntiva per tornare alla visualizzazione del documento. Nella schermata seguente, viene aperto per la revisione un particolare argomento di un file di mappa. L&#39;opzione evidenziata - **Mostra visualizzazione documento** consente all&#39;utente di tornare alla visualizzazione documento del file di mappa.
 
@@ -115,11 +117,11 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 >
 > Qualsiasi risoluzione dello schermo con una larghezza superiore a 1600 px è compatibile con le larghezze predefinite del pannello (sinistra e destra), in modo che non venga visualizzata alcuna barra di scorrimento orizzontale e che il contenuto rimanga correttamente allineato nella visualizzazione del documento. Inoltre, è sempre possibile ridimensionare la schermata per mantenere la visualizzazione del documento appropriata nell’interfaccia utente di revisione.
 
-
-
 ![](images/switch-document-view.png)
 
-**Utilizzo di diversi tipi di strumenti per la creazione di commenti** - È possibile aggiungere commenti in linea evidenziando il testo, barrando il testo, inserendo testo o aggiungendo una nota di commento. Di seguito sono descritti i diversi tipi di strumenti per la creazione di commenti disponibili nella barra degli strumenti Commenti:
+### Utilizzo di diversi tipi di strumenti per la creazione di commenti
+
+È possibile aggiungere commenti in linea evidenziando il testo, barrando il testo, inserendo testo o aggiungendo una nota di commento. Di seguito sono descritti i diversi tipi di strumenti per la creazione di commenti disponibili nella barra degli strumenti Commenti:
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -138,7 +140,7 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 - **Aggiungi commento**\(![](images/review-comment-icon.svg)\): se desideri aggiungere un commento di tipo nota, seleziona l&#39;icona Aggiungi commento e immetti il commento nel pop-up.
 
 
-**Barra degli strumenti contestuale**
+### Barra degli strumenti contestuale
 
 È inoltre possibile evidenziare o barrare rapidamente il testo con la barra degli strumenti contestuale. Per aggiungere un commento utilizzando la barra degli strumenti contestuale, effettua le seguenti operazioni:
 
@@ -149,7 +151,9 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 1. Selezionare l&#39;icona **Evidenzia** o **Barrato**.
 1. È possibile aggiungere commenti nel pannello dei commenti per l&#39;azione di evidenziazione o barratura.
 
-**Revisione tramite il pannello Commenti** - Il pannello Commenti visualizza un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Ogni commento visualizza il nome del revisore che lo ha aggiunto insieme alla marca temporale.
+### Revisione tramite il pannello Commenti
+
+Nel pannello Commenti viene visualizzato un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Ogni commento visualizza il nome del revisore che lo ha aggiunto insieme alla marca temporale.
 
 I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. Ad esempio, è presente un commento di evidenziazione sulla prima frase e un commento di testo di inserimento sulla seconda frase nel primo paragrafo, quindi il commento di testo di evidenziazione viene visualizzato prima del commento di testo inserito.
 
@@ -168,9 +172,9 @@ Di seguito sono descritte le attività che è possibile eseguire utilizzando il 
 
 - Tutti gli utenti partecipanti possono rispondere ai commenti inviati da altri utenti. In un commento, seleziona **Rispondi** e premi Invio per inviare una risposta. La casella di risposta è multiriga ed espandibile, in modo che gli utenti possano fornire risposte dettagliate ai commenti. È possibile utilizzare **Maiusc** + **Invio** per passare alla riga successiva durante la scrittura della risposta.
 
-**Modalità anteprima**
+### Modalità anteprima
 
-- L&#39;apertura di un argomento in modalità Anteprima mostra come verrà visualizzato un argomento quando viene visualizzato da un autore dopo l&#39;applicazione di tutte le modifiche. Ad esempio, tutto il testo inserito viene visualizzato come testo normale e tutto il testo cancellato \(eliminato\) viene rimosso dal contenuto.
+L&#39;apertura di un argomento in modalità Anteprima mostra come verrà visualizzato un argomento quando viene visualizzato da un autore dopo l&#39;applicazione di tutte le modifiche. Ad esempio, tutto il testo inserito viene visualizzato come testo normale e tutto il testo cancellato \(eliminato\) viene rimosso dal contenuto.
 
 - La schermata seguente mostra il contenuto in modalità *Revisione*:
 
@@ -181,7 +185,7 @@ La schermata seguente mostra il contenuto in modalità *Anteprima*:
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Assegnare tag agli utenti in un commento**
+### Assegnare tag agli utenti delle attività in un commento
 
 Quando si collabora a un&#39;attività di revisione con più revisori, è possibile migliorare la comunicazione assegnando tag a utenti specifici sia nei nuovi commenti che nelle risposte. In qualità di revisore, puoi avviare un commento o rispondere a uno esistente assegnando tag ad altri utenti coinvolti nella stessa attività di revisione per attirare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
 
@@ -191,11 +195,17 @@ Quando si collabora a un&#39;attività di revisione con più revisori, è possib
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+Per assegnare un tag a un utente, immettere `@` in un commento o in una risposta e selezionare un utente dall&#39;elenco dei revisori. Il nome visualizzato e l’indirizzo e-mail dell’utente vengono visualizzati per facilitarne l’identificazione. Se un indirizzo e-mail non è disponibile, viene visualizzato l’ID utente.
+
+![](images/tagged-users-with-email.png)
+
 Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere informati tempestivamente. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Aggiungi allegati ai commenti** - Se desideri integrare il commento fornendo informazioni aggiuntive disponibili in altri file, puoi allegarlo al commento. In qualità di revisore, puoi aggiungere facilmente uno o più file dal sistema locale al commento. È possibile aggiungere un file a tutti i tipi di commenti supportati: Evidenziazione, Barrato, Inserisci testo o Commento.
+### Aggiungere allegati ai commenti
+
+Se si desidera integrare il commento fornendo informazioni aggiuntive disponibili in altri file, è possibile allegarle al commento. In qualità di revisore, puoi aggiungere facilmente uno o più file dal sistema locale al commento. È possibile aggiungere un file a tutti i tipi di commenti supportati: Evidenziazione, Barrato, Inserisci testo o Commento.
 
 Quando inserite uno dei commenti, viene visualizzata la finestra a comparsa relativa. Dopo aver inserito ulteriori commenti o informazioni nel pop-up, premete Invio. Una volta aggiunto il commento, è possibile aggiungere un allegato.
 
@@ -241,25 +251,64 @@ Gli altri revisori o autori ottengono solo l’opzione Scarica allegato.
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Pannello Condizioni** - Se l&#39;argomento include contenuto condizionale, verrà visualizzata l&#39;icona **Condizioni** \(![](images/conditions-icon.svg)\) a destra. Selezionando l&#39;icona **Condizioni** si apre il pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell&#39;argomento.
+### Utilizzare il pannello Condizioni
 
-: per impostazione predefinita l&#39;opzione **Evidenzia tutte le condizioni** è attivata, tutte le condizioni sono selezionate, l&#39;intero contenuto viene visualizzato e il contenuto condizionale viene visualizzato come evidenziato sia in modalità di revisione che di anteprima.
+Se il tuo argomento ha contenuto condizionale, visualizzerai l&#39;icona **Condizioni** \(![](images/conditions-icon.svg)\) a destra. Selezionando l&#39;icona **Condizioni** si apre il pannello Condizioni che consente di evidenziare il contenuto in base alle condizioni disponibili nell&#39;argomento.
 
-: puoi disabilitare l&#39;opzione **Evidenzia tutte le condizioni** e visualizzare tutto il contenuto presente nell&#39;argomento come testo normale senza evidenziazioni.
+- Per impostazione predefinita, l&#39;opzione **Evidenzia tutte le condizioni** è attivata, tutte le condizioni sono selezionate, l&#39;intero contenuto viene visualizzato e il contenuto condizionale viene visualizzato come evidenziato sia in modalità di revisione che di anteprima.
 
-![](images/review-conditions-panel.png){width="350"}
+- È possibile disabilitare l&#39;opzione **Evidenzia tutte le condizioni** e visualizzare tutto il contenuto presente nell&#39;argomento come testo normale senza evidenziazioni.
+
+  ![](images/review-conditions-panel.png){width="350"}
 
 Puoi scegliere di nascondere o mostrare una condizione specifica.
 
 - Se nascondi una condizione, il contenuto che la presenta non viene evidenziato nella modalità di revisione.
 - Se mostri una condizione, il contenuto condizionale viene evidenziato nella modalità di revisione. Ad esempio, nella schermata seguente, solo il contenuto utilizza due condizioni: `win` e `mac` è evidenziato.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+  ![](images/review-condition-normal-mode.png){width="650"}
 
 In modalità anteprima vengono visualizzati il contenuto non condizionale e il contenuto condizionale che utilizza le due condizioni visualizzate: `win` e `mac`. Il contenuto condizionale rimanente per il quale le condizioni sono nascoste non viene visualizzato.
 
-**Revisione in tempo reale** - Il pannello Commenti viene aggiornato in tempo reale con i commenti e il feedback o l&#39;azione eseguita dall&#39;autore sui commenti.
+### Pannello Condizioni con condizioni basate su DITAVAL
+
+>[!NOTE]
+>
+>Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
+Se l&#39;attività di revisione viene creata con uno o più file DITAVAL allegati, il pannello Condizioni presenta condizioni diverse da quelle descritte nella sezione [Utilizzare il pannello Condizioni](#work-with-conditions-panel). Ogni condizione è controllata da un interruttore invece che da un&#39;icona a forma di occhio e gli interruttori sono preimpostati per riflettere le condizioni definite nei file DITAVAL allegati, in modo da poter rivedere il contenuto nel modo desiderato dall&#39;iniziatore della revisione.
+
+>[!BEGINTABS]
+
+>[!TAB Pannello Condizioni (senza DITAVAL)]
+
+![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Pannello Condizioni (con DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+A differenza dell’icona a forma di occhio, che aggiunge o rimuove solo un’evidenziazione sul contenuto condizionale, quando si disattiva un’opzione nel pannello Condizioni tale contenuto viene nascosto dall’interfaccia utente Revisione, pertanto non viene affatto visualizzato nel documento. Riattivando l’interruttore, il contenuto viene nuovamente visualizzato.
+
+La modalità Anteprima riflette gli stessi stati di attivazione descritti nella sezione [Operazioni con il pannello condizionale](#work-with-conditions-panel).
+
+A seconda del modo in cui l&#39;iniziatore della revisione ha configurato l&#39;attività di revisione, è possibile modificare o meno i seguenti pulsanti:
+
+- Se l&#39;iniziatore ha consentito le modifiche, è possibile attivare o disattivare qualsiasi opzione per esaminare il contenuto in condizioni diverse.
+
+  ![](./images/review-conditions-enabled.png)
+
+- Se l&#39;iniziatore non ha consentito le modifiche, gli interruttori vengono disattivati e riflettono solo le impostazioni dell&#39;iniziatore.
+
+  ![](./images/review-conditions-disabled.png)
+
+Qualsiasi modifica apportata ai pulsanti viene applicata solo alla sessione corrente. Quando si aggiorna la pagina, vengono ripristinate le opzioni dello stato definito dai file DITAVAL allegati.
+
+### Revisione in tempo reale
+
+Il pannello Commenti viene aggiornato in tempo reale con i commenti e il feedback o l’azione eseguita dall’autore sui commenti.
 
 - Più revisori potranno lasciare commenti o rispondere ai commenti contemporaneamente sullo stesso documento. Per individuare il revisore del documento, posizionare il puntatore del mouse sull&#39;icona utente nell&#39;angolo in alto a destra dello schermo.
 
@@ -275,7 +324,9 @@ In modalità anteprima vengono visualizzati il contenuto non condizionale e il c
 
 - Selezionando un commento obsoleto si apre la versione del commento nel pannello a sinistra. La versione precedente viene visualizzata nel pannello a sinistra, mentre la versione corrente nel pannello a destra. Tutti i commenti sulla versione obsoleta vengono importati sul lato sinistro. Puoi confrontare la versione precedente con la versione corrente.
 
-**Filtra commenti** - È possibile filtrare i commenti in un documento per visualizzare commenti specifici in base alle esigenze. Per filtrare i commenti, selezionare l&#39;icona **Filtro** \(![](images/filter-search-icon.svg)\) visualizzata nel menu a destra della casella di testo Cerca commenti nel pannello Commenti.
+### Filtra commenti
+
+È possibile filtrare i commenti in un documento per visualizzare commenti specifici in base alle esigenze. Per filtrare i commenti, selezionare l&#39;icona **Filtro** \(![](images/filter-search-icon.svg)\) visualizzata nel menu a destra della casella di testo Cerca commenti nel pannello Commenti.
 
 Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialogo **Tipo filtro** e selezionare **Applica**.
 
@@ -289,7 +340,6 @@ Selezionare una o più delle opzioni di filtro seguenti nella finestra di dialog
 
 
 Per rimuovere il filtro e visualizzare tutti i commenti, deselezionare tutti i filtri dalla finestra di dialogo **Tipo filtro** e selezionare **Applica**.
-
 
 ## Cronologia delle versioni per il revisore
 

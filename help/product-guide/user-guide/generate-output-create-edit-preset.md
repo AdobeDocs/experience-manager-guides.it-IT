@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Puoi gestire i predefiniti di output dalla console Mappa e dal dashboard Mappa. 
 È possibile modificare il predefinito di output selezionato modificando direttamente i campi obbligatori con le impostazioni predefinite necessarie.
 
 È inoltre possibile duplicare o eliminare un predefinito di output utilizzando il menu a discesa **Opzioni**, come illustrato di seguito.
+
+>[!NOTE]
+>
+>Non è possibile modificare, duplicare o eliminare un predefinito modello. Queste azioni sono riservate agli amministratori. Per ulteriori informazioni sui predefiniti modello, vedere [Predefiniti modello](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)

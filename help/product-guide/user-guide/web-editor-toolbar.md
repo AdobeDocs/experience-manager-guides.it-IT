@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
-source-wordcount: 6346
+source-wordcount: 6454
 ht-degree: 0%
 
 ---
@@ -297,13 +297,13 @@ La schermata seguente evidenzia il contenuto eliminato e inserito insieme alle b
 
   In un documento con tag è possibile eseguire le operazioni seguenti:
 
-   - **Seleziona un elemento**: seleziona il tag di apertura o chiusura di un elemento per selezionarne il contenuto.
+  - **Seleziona un elemento**: seleziona il tag di apertura o chiusura di un elemento per selezionarne il contenuto.
 
-   - **Espandere o comprimere i tag**: selezionare il segno + o - per espandere o comprimere un tag.
+  - **Espandere o comprimere i tag**: selezionare il segno + o - per espandere o comprimere un tag.
 
-   - **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
+  - **Utilizza il menu di scelta rapida**: il menu di scelta rapida fornisce le opzioni per tagliare, copiare o incollare l&#39;elemento selezionato. Puoi anche inserire un elemento prima o dopo l’elemento selezionato. Le altre opzioni consentono di generare ID o aprire il pannello Proprietà per l’elemento selezionato.
 
-   - **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
+  - **Trascina gli elementi**: seleziona il tag di un elemento e trascinalo facilmente sul documento. Se la posizione di rilascio è una posizione valida in cui l’elemento è consentito, l’elemento viene posizionato nella posizione di rilascio.
 
 
   >[!NOTE]
@@ -463,6 +463,18 @@ Il campo **Percorso Source** mostra il percorso relativo del riferimento selezio
 Il campo **UUID Source** mostra l&#39;UUID del riferimento selezionato. Utilizza il pulsante **Copia UUID** per copiare l&#39;UUID.
 
 Per ridimensionare un&#39;immagine, specificate Altezza (Height) o Larghezza (Width) per il file di immagine. Le proporzioni dell&#39;immagine vengono mantenute automaticamente. Se lo desideri, puoi anche scegliere di non mantenere le proporzioni del file di immagine selezionando l’icona del lucchetto \(di Mantieni proporzioni\) e fornendo i valori di Altezza e Larghezza.
+
+Nel nuovo editor, puoi anche ridimensionare un’immagine trascinandone le maniglie in modalità Creazione:
+
+- **Maniglie d&#39;angolo**: trascinando le maniglie d&#39;angolo si ridimensiona l&#39;immagine mantenendo le proporzioni.
+
+  ![](images/resize-corner-handles.png)
+
+- **Handle intermedi**: premi **Maiusc** per visualizzare altri handle intermedi. Trascinandole, l&#39;immagine viene ridimensionata senza mantenere le proporzioni, consentendo di aumentare o diminuire l&#39;altezza o la larghezza in modo indipendente.
+
+  ![](images/resize-middle-handles.png)
+
+Mentre si trascina, i valori di Altezza e Larghezza nel pannello **Proprietà contenuto** vengono aggiornati automaticamente in base alle nuove dimensioni. Questo ridimensionamento si riflette anche nella modalità **Affiancato** e nella modalità **Anteprima**, in modo da poter confermare come verrà visualizzata l&#39;immagine ridimensionata prima della pubblicazione.
 
 Potete inoltre specificare l&#39;impostazione Posizionamento (Placement) per l&#39;immagine come In linea (Inline) o Interruzione (Break). Se si sceglie di utilizzare l&#39;opzione di posizionamento Interrompi, è possibile scegliere dove allineare l&#39;immagine (a sinistra, al centro o a destra).
 

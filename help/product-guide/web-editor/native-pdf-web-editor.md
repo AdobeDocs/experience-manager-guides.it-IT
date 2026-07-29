@@ -25,10 +25,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3455
-ht-degree: 1%
+source-wordcount: 3561
+ht-degree: 0%
 
 ---
 
@@ -73,6 +73,10 @@ Una volta creato il predefinito, configura le impostazioni del predefinito PDF n
 
 Consente di specificare le impostazioni di output di base, ad esempio il percorso di output, il nome del file PDF e altro ancora.
 
+>[!NOTE]
+>
+>Se la [funzionalità di verifica stato](../install-conf-guide/conf-health-check-preset.md) è configurata per il profilo di cartella, nella scheda Generale verrà visualizzato un ulteriore **Esegui verifica stato prima della generazione output**. Utilizzalo per fare in modo che una verifica dello stato venga eseguita automaticamente ogni volta che generi un output con questo predefinito, in modo da non doverlo attivare manualmente dalla mappa. Il rapporto viene aggiunto al registro di pubblicazione ed è puramente informativo. Non blocca né ritarda l’output, anche se il controllo rileva errori o avvisi non risolti. Ulteriori informazioni sull&#39;utilizzo di [funzionalità di verifica stato in Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+
 | Impostazione | Descrizione |
 | --- | --- |
 | **Percorso di output** | Percorso all’interno dell’archivio AEM in cui è memorizzato l’output PDF. Assicurati che il percorso di output non si trovi all’interno della cartella del progetto. Il percorso di output è impostato tramite la variabile `${base_output_path}`, configurata dall&#39;amministratore. Per configurare il percorso di output, visualizzare [Configurare il percorso di output di base per i servizi cloud](../native-pdf/configure-base-location-cs.md) o [Configurare il percorso di output di base per i servizi locali](../native-pdf/configure-base-output-location.md) in base al servizio in uso. <br>Per definire il percorso di output è inoltre possibile utilizzare le seguenti variabili predefinite. Puoi utilizzare una singola variabile o una combinazione di variabili per definire questa opzione. <br> `${map_filename}`: utilizza il nome dei file di mapping DITA per creare il percorso di destinazione. <br> `${map_title}`: utilizza il titolo della mappa DITA per creare il percorso di destinazione. <br>`${preset_name}`: usa il nome del predefinito di output per creare il percorso di destinazione. <br> `${language_code}`: utilizza il codice della lingua in cui si trova il file di mappa per creare il percorso di destinazione. <br> `${map_parentpath}`: utilizza il percorso completo del file di mappa per creare il percorso di destinazione.  <br>`${path_after_langfolder}`: utilizza il percorso del file di mappa dopo la cartella della lingua per creare il percorso di destinazione. |
@@ -81,8 +85,13 @@ Consente di specificare le impostazioni di output di base, ad esempio il percors
 | **Usa Base Line** | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Visualizza [Lavora con la linea di base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) per ulteriori dettagli. |
 | **Crea PDF con barra di modifica tra le versioni pubblicate** | Utilizzare le opzioni seguenti per creare un PDF che mostri le differenze di contenuto tra due versioni utilizzando le barre di modifica: <br><ul><li> **Baseline della versione precedente** Scegliere la versione della baseline da confrontare con la versione corrente o con un&#39;altra baseline. In PDF viene visualizzata una barra delle modifiche che indica il contenuto modificato. Una barra delle modifiche è una linea verticale che identifica visivamente il contenuto nuovo o rivisto. La barra delle modifiche viene visualizzata a sinistra del contenuto inserito, modificato o eliminato. <br> **Nota**: se si seleziona **Usa baseline** e si sceglie una baseline da pubblicare, il confronto verrà eseguito tra le due versioni della baseline selezionate. Ad esempio, se si sceglie la versione 1.3 della baseline in **Usa la baseline** e la versione 1.1 in **Baseline della versione precedente**, verrà eseguito il confronto tra la versione 1.1 della baseline e la versione 1.3 della baseline. <br><li> **Mostra testo aggiunto** Seleziona questa opzione per mostrare il testo inserito in verde e sottolineato. Questa opzione è selezionata per impostazione predefinita. <br> <li> **Mostra testo eliminato** Selezionare questa opzione per visualizzare il testo eliminato in rosso e contrassegnato con un barrato. Questa opzione è selezionata per impostazione predefinita. <br>**Nota** È inoltre possibile personalizzare lo stile della barra delle modifiche, del contenuto inserito o del contenuto eliminato utilizzando il foglio di stile.<br></ul> |
 | **Lingua** | Seleziona la lingua in cui desideri tradurre l’output. <br> **Nota**: i testi dei riferimenti incrociati, ad esempio &quot;Vedere nel capitolo&quot; o &quot;Vedere a pagina&quot;, sono controllati da una variabile di linguaggio. La variabile utilizza il linguaggio definito nell&#39;argomento tramite l&#39;attributo `xml:lang`. Se non viene specificata alcuna lingua, viene utilizzata la lingua predefinita. Se mancano entrambi, il valore predefinito è Inglese (en_US). |
-| **Argomenti riga di comando DITA-OT** | Quando si abilita **Abilita preelaborazione DITA-OT**, il campo **Argomenti riga di comando DITA-OT** diventa disponibile. In questo caso, è possibile specificare gli argomenti aggiuntivi che si desidera vengano elaborati da DITA-OT durante la generazione dell&#39;output. Per informazioni dettagliate sugli argomenti della riga di comando supportati in DITA-OT, visualizzare la [documentazione DITA-OT](https://www.dita-ot.org/).<br>**NOTA:** I collegamenti correlati definiti nelle tabelle delle relazioni DITA (`<reltable>`) non sono inclusi nell&#39;output PDF nativo per impostazione predefinita. Utilizzare `-Dargs.rellinks=nofamily` argomenti DITA-OT per includere tali collegamenti correlati nell&#39;output PDF nativo. |
+| **Argomenti riga di comando DITA-OT** | Quando si abilita **Abilita preelaborazione DITA-OT**, il campo **Argomenti riga di comando DITA-OT** diventa disponibile. In questo caso, è possibile specificare gli argomenti aggiuntivi che si desidera vengano elaborati da DITA-OT durante la generazione dell&#39;output. Per informazioni dettagliate sugli argomenti della riga di comando supportati in DITA-OT, visualizzare la [documentazione DITA-OT](https://www.dita-ot.org/).<br>**NOTA:** <br> I collegamenti correlati definiti nelle tabelle delle relazioni DITA (`<reltable>`) non sono inclusi nell&#39;output PDF nativo per impostazione predefinita. Utilizzare l&#39;argomento DITA-OT `-Dargs.rellinks=nofamily` per includere tali collegamenti correlati nell&#39;output PDF nativo. <br> Per le mappe nidificate, l&#39;attributo `toc="no"` impostato su un riferimento di mappa non esclude gli argomenti figlio dal sommario per impostazione predefinita. Utilizzare l&#39;argomento DITA-OT `-Dpreprocess.move-meta-entries.skip=false` per assicurarsi che gli argomenti figlio siano esclusi dal sommario per tali mappe. |
 | **Flusso di lavoro di post-generazione** | Seleziona questa opzione per visualizzare un elenco a discesa contenente tutti i flussi di lavoro configurati in AEM. Puoi selezionare il flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione PDF. |
+
+>[!NOTE]
+>
+>&#x200B;- I collegamenti correlati definiti nelle tabelle delle relazioni DITA (`<reltable>`) non sono inclusi nell&#39;output PDF nativo per impostazione predefinita. Utilizzare questo campo per passare l&#39;argomento `-Dargs.rellinks=nofamily` DITA-OT e includere tali collegamenti correlati nell&#39;output.
+>
 
 **Metadati**
 
@@ -109,19 +118,21 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
   [Scarica](assets/SampleXMP.xmp)
 
   In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
-   1. Selezionare **File** > **Proprietà** in Acrobat.
-   1. In **Descrizione**, selezionare **Altri metadati**.
-   1. Nel pannello a sinistra, seleziona **Avanzate**.
-   1. Seleziona **Salva**.
+  1. Selezionare **File** > **Proprietà** in Acrobat.
+  1. In **Descrizione**, selezionare **Altri metadati**.
+  1. Nel pannello a sinistra, seleziona **Avanzate**.
+  1. Seleziona **Salva**.
 
   Il file XMP viene salvato sul dispositivo.
 
 * **Fornisci nomi e valori metadati**
 
-   1. Aggiungi il nome selezionando dall’elenco a discesa o aggiungi metadati personalizzati digitando direttamente nel campo del nome.
-   1. Inserisci il valore per i metadati e seleziona l’icona &quot;+&quot;.I metadati vengono aggiunti all’elenco dei metadati per PDF.
+  1. Aggiungi il nome selezionando dall’elenco a discesa o aggiungi metadati personalizzati digitando direttamente nel campo del nome.
+  1. Inserisci il valore per i metadati e seleziona l’icona &quot;+&quot;.
+     I metadati vengono aggiunti all’elenco dei metadati per PDF.
 
-Puoi anche utilizzare le variabili per definire i valori dei metadati.  È possibile utilizzare i metadati definiti per il file mappa DITA o mappa segnalibro come variabili. I metadati si trovano nel nodo `/jcr:content/metadata` della mappa DITA o del file di mappa di libri.Quando utilizzi una variabile, il relativo valore viene scelto dalle proprietà dei metadati.
+Puoi anche utilizzare le variabili per definire i valori dei metadati.  È possibile utilizzare i metadati definiti per il file mappa DITA o mappa segnalibro come variabili. I metadati si trovano nel nodo `/jcr:content/metadata` della mappa DITA o del file di mappa di libri.
+Quando utilizzi una variabile, il relativo valore viene scelto dalle proprietà dei metadati.
 
 Per utilizzare una variabile, è necessario definirla nel formato `${<variable>}`.
 
@@ -165,10 +176,10 @@ Proteggi il tuo PDF aggiungendo restrizioni per aprire e leggere il file. Utiliz
 Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, selezionare i modelli di colore e specificare le proprietà relative alla stampa dell&#39;output PDF.
 
 * **Indicatori di stampa**: quando si prepara un documento per la produzione di stampa, gli indicatori di stampa vengono aggiunti ai bordi della pagina per facilitare l&#39;allineamento, il ritaglio e la selezione dei colori durante la stampa. Selezionando un contrassegno della stampante, il limite della pagina viene esteso per contenere il contrassegno, che viene tagliato durante la stampa. È possibile scegliere di visualizzare i seguenti indicatori di stampa nell&#39;output di PDF:
-   * **Indicatori di ritaglio**: selezionare l&#39;opzione per inserire un segno in ogni angolo dell&#39;area di ritaglio per indicare dove è necessario ritagliare la carta dopo la stampa.
-   * **Indicatori di pagina al vivo**: selezionare questa opzione per inserire un segno in ogni angolo del riquadro di pagina al vivo per indicare l&#39;area di ritaglio per l&#39;immagine estesa.
-   * **Indicatori di registrazione**: selezionare questa opzione per posizionare un segno all&#39;esterno dell&#39;area di ritaglio per allineare le diverse selezioni in un documento a colori.
-   * **Barre colore**: selezionare questa opzione per aggiungere una striscia di colori al di fuori dell&#39;area di ritaglio per mantenere la coerenza dei colori e regolare la densità dell&#39;inchiostro durante la stampa.
+  * **Indicatori di ritaglio**: selezionare l&#39;opzione per inserire un segno in ogni angolo dell&#39;area di ritaglio per indicare dove è necessario ritagliare la carta dopo la stampa.
+  * **Indicatori di pagina al vivo**: selezionare questa opzione per inserire un segno in ogni angolo del riquadro di pagina al vivo per indicare l&#39;area di ritaglio per l&#39;immagine estesa.
+  * **Indicatori di registrazione**: selezionare questa opzione per posizionare un segno all&#39;esterno dell&#39;area di ritaglio per allineare le diverse selezioni in un documento a colori.
+  * **Barre colore**: selezionare questa opzione per aggiungere una striscia di colori al di fuori dell&#39;area di ritaglio per mantenere la coerenza dei colori e regolare la densità dell&#39;inchiostro durante la stampa.
 
   Impostare le dimensioni per gli indicatori di stampa selezionati utilizzando le opzioni **Larghezza linea**, **Colore linea** e **Larghezza scatola al vivo**.
 

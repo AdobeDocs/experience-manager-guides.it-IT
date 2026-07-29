@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 
 - **B:** Seleziona **Dettagli revisione** ![](images/active-review-info-icon.svg) nel pannello **Commenti** per visualizzare ulteriori informazioni sull&#39;attività di revisione:
 
-   - **Nome**: nome dell&#39;attività di revisione.
-   - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
-   - **Stato**: stato corrente dell&#39;attività di revisione.
+  - **Nome**: nome dell&#39;attività di revisione.
+  - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
+  - **Stato**: stato corrente dell&#39;attività di revisione.
 
   >[!NOTE]
   >
@@ -90,7 +90,8 @@ Nell’editor, il pannello a destra contiene le icone Revisione e Traccia modifi
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento. Per impostazione predefinita, nessuno dei filtri è selezionato.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Rispondi a un commento assegnando tag ad altri utenti**
+
+**Rispondi a un commento assegnando tag ad altri utenti**
 
 In qualità di autore e di iniziatore dell&#39;attività di revisione, è possibile rispondere ai commenti di revisione e assegnare tag ad altri utenti coinvolti nella stessa attività di revisione per indirizzare la loro attenzione o assegnare follow-up. Questa funzionalità è disponibile solo per le attività di revisione attive.
 
@@ -108,5 +109,28 @@ Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi 
 Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apri dalla console **Progetti**, l&#39;argomento verrà avviato nell&#39;interfaccia utente di revisione. Poiché questa attività non è assegnata all&#39;utente, è possibile visualizzare e rispondere ai commenti ma non eseguire alcuna azione di revisione. La barra degli strumenti Commenti rimane disabilitata per gli utenti che non sono assegnati all&#39;attività.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## Visualizza tutte le attività di revisione per un argomento
+
+>[!NOTE]
+>
+> Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
+
+Questa funzione consente di selezionare un&#39;attività di revisione (aperta o chiusa) associata all&#39;argomento attualmente aperto dal pannello Commenti. Quando è attivato, il pannello Commenti nell’interfaccia utente Revisione include un elenco a discesa di tutte le attività di revisione di cui fa parte l’argomento, nonché dello stato di ciascuna attività (Attivo o Chiuso) e del progetto a cui appartiene. Per impostazione predefinita, l&#39;attività da cui stai lavorando è contrassegnata con un tag **Current**.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Utilizzando il menu a discesa Attività di revisione, puoi selezionare una di queste attività e passare attraverso i relativi commenti, senza passare da un progetto di revisione all’altro. È inoltre possibile selezionare l&#39;icona **(i)** accanto a un&#39;attività nel menu a discesa per visualizzare i dettagli dell&#39;attività.
+
+>[!NOTE]
+>
+> Se un’attività di revisione che prevedi di visualizzare non viene visualizzata nel menu a discesa, è possibile che sia stata creata prima che questa funzione fosse abilitata nella tua istanza. Contattare l&#39;amministratore per risolvere il problema [Eseguire l&#39;indicizzazione per includere tutte le attività di revisione per un argomento nel pannello Commenti](../install-conf-guide/index-review-tasks.md).
+
+Quando utilizzi questa funzione, tieni presente che:
+
+- Passando a un argomento diverso nell’editor, il pannello viene reimpostato sull’attività Corrente nei Commenti
+- Se si seleziona un&#39;attività diversa da Corrente, verrà aperta la versione dell&#39;argomento e i relativi commenti dell&#39;attività in modalità di sola lettura. È possibile visualizzare i commenti, ma non modificarli, accettarli o rifiutarli e l&#39;opzione **Importa** è disabilitata. Nella copia di lavoro è possibile importare solo i commenti dell&#39;attività corrente.
+- I filtri e la ricerca sono applicabili solo ai commenti dell&#39;attività selezionata, mentre i commenti di altre attività non selezionate non vengono interessati.
+
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

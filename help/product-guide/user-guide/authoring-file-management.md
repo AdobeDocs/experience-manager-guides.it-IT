@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
 workflow-type: tm+mt
-source-wordcount: 3282
+source-wordcount: 3195
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Una volta completata l&#39;operazione, viene attivata una notifica di esito posi
 
 **Trascinare con nomi di file leggibili**
 
-- *Trascinare nella stessa posizione*: sono disponibili le opzioni **Sovrascrivi file esistenti\(s\)**, **Mantieni entrambi i file\(s\)** e un&#39;opzione per creare una versione della copia di lavoro esistente.
+- *Trascinare nella stessa posizione*: sono disponibili le opzioni per **Sovrascrivere i file esistenti\(s\)**, **Mantenere entrambi i file\(s\)**.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +94,16 @@ Una volta completata l&#39;operazione, viene attivata una notifica di esito posi
 
 **Trascinare i nomi di file in base a un modello UUID**
 
-*Trascinare e rilasciare il file nella stessa posizione*: sono disponibili le opzioni per **Sovrascrivere i file esistenti\** e creare una versione della copia di lavoro esistente.
+*Trascinare il file nella stessa posizione*: sono disponibili le opzioni per **Sovrascrivere i file esistenti\(s\)**.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Quando il file viene sovrascritto, il nome o l’UUID del file non vengono modificati.
 
-Se si seleziona l&#39;opzione **Crea versione per la copia di lavoro esistente**, viene creata una nuova versione della copia di lavoro del documento; il nuovo file viene caricato, viene creata anche una nuova versione del file e viene creata come copia di lavoro del documento.
-
 La funzionalità **Crea nuova versione per file caricato** deve essere abilitata dall&#39;amministratore. Se questa funzione è abilitata, viene creata una nuova versione per il file caricato. Se l’opzione è deselezionata, non viene creata una versione del file caricato. Per ulteriori dettagli, visualizzare la sezione *Crea nuova versione per il file caricato* nella sezione Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Trascina e rilascia il file in una posizione diversa*: sono disponibili le opzioni **Sovrascrivi file esistenti\(s\)**, **Sposta file\(s\) in una nuova posizione** e un&#39;opzione per creare una versione della copia di lavoro esistente.
+*Trascina e rilascia il file in una posizione diversa*: sono disponibili le opzioni per **Sovrascrivi file esistenti\(s\)**, **Sposta file\(s\) in una nuova posizione**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
@@ -164,18 +162,18 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
+     - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
-      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+     - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
-        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+       Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+     - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
-      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
+     - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
+     - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
      La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
@@ -213,20 +211,20 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
+     - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo **Seleziona percorso**. Seleziona le cartelle da spostare e scegli **Seleziona** per completare il processo. Puoi selezionare più cartelle posizionate in posizioni diverse nel browser percorsi. Il percorso delle cartelle selezionate verrà mantenuto, consentendo di esaminarle o modificarle facilmente quando si riapre la finestra di dialogo.
 
-      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+     - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
-        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+       Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+     - È inoltre possibile rimuovere qualsiasi cartella selezionando **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
-      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
+     - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e scegliere Seleziona per completare il processo.
+     - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
-        La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
+       La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
    - Seleziona **Spostamento in blocco**.
 
