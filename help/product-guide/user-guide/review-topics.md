@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +148,10 @@ Nel pannello Commenti viene visualizzato un elenco di commenti relativi all&#39;
 I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. Ad esempio, è presente un commento di evidenziazione sulla prima frase e un commento di testo di inserimento sulla seconda frase nel primo paragrafo, quindi il commento di testo di evidenziazione viene visualizzato prima del commento di testo inserito.
 
 Di seguito sono descritte le attività che è possibile eseguire utilizzando il pannello Commenti:
+
+- Utilizzare l&#39;icona info ![](./images/info-icon.svg) per visualizzare i dettagli dell&#39;attività di revisione, inclusi il nome, la versione di revisione, lo stato e la descrizione dell&#39;attività.
+
+  ![](./images/review-details-review-ui.png)
 
 - Selezionando un commento viene evidenziata e visualizzata la posizione del commento corrispondente nel documento.
 - È possibile aggiungere risposte ai commenti.
@@ -351,4 +345,4 @@ L&#39;icona **Cronologia versioni** dell&#39;argomento viene visualizzata dopo c
 
 ![](images/version-history-dialog.png)
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

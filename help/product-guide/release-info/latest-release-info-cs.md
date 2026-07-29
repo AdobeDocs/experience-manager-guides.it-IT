@@ -3,16 +3,12 @@ title: Informazioni sulla versione di Adobe Experience Manager Guides as a Cloud
 description: Scopri le ultime note sulla versione di Adobe Experience Manager Guides as a Cloud Service, gli aggiornamenti delle funzioni, i problemi risolti, i problemi noti e altro ancora.
 feature: Release Notes
 role: Leader
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4ec392d0525a89afc07e98bc7c23ed72178efca1
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 431
 ht-degree: 2%
 
 ---
@@ -25,6 +21,8 @@ Questa pagina fornisce informazioni aggiornate sulla versione di Adobe Experienc
 
 | Versione [!DNL AEM Guides] | Note sulla versione |
 |---|---|
+| **AEM Guides 2026.08.0** | [2026.08.0 Novità](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Problemi risolti](./fixed-issues-2026-08-0.md)<br><br>[Istruzioni per l&#39;aggiornamento a 2026.08.0](./upgrade-instructions-2026-08-0.md) |
+| **AEM Guides 2026.07.0** | [2026.07.0 Sono stati risolti dei problemi](./fixed-issues-2026-07-0.md)<br><br>[Istruzioni per l&#39;aggiornamento di 2026.07.0](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0 Novità](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Problemi risolti](./fixed-issues-2026-06-0.md)<br><br>[Istruzioni per l&#39;aggiornamento a 2026.06.0](./upgrade-instructions-2026-06-0.md) |
 | **AEM Guides 2026.05.0 Service Pack 1** | [2026.05.0 Service Pack 1: problemi risolti](./fixed-issues-2026-05-0-sp1.md) |
 | **AEM Guides 2026.05.0** | [2026.05.0 Novità](./whats-new-2026-05-0.md)<br><br>[2026.05.0 Problemi risolti](./fixed-issues-2026-05-0.md)<br><br>[Istruzioni per l&#39;aggiornamento a 2026.05.0](./upgrade-instructions-2026-05-0.md) |
