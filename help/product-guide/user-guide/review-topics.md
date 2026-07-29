@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ Nel pannello Commenti viene visualizzato un elenco di commenti relativi all&#39;
 I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. Ad esempio, è presente un commento di evidenziazione sulla prima frase e un commento di testo di inserimento sulla seconda frase nel primo paragrafo, quindi il commento di testo di evidenziazione viene visualizzato prima del commento di testo inserito.
 
 Di seguito sono descritte le attività che è possibile eseguire utilizzando il pannello Commenti:
+
+- Utilizzare l&#39;icona info ![](./images/info-icon.svg) per visualizzare i dettagli dell&#39;attività di revisione, inclusi il nome, la versione di revisione, lo stato e la descrizione dell&#39;attività.
+
+  ![](./images/review-details-review-ui.png)
 
 - Selezionando un commento viene evidenziata e visualizzata la posizione del commento corrispondente nel documento.
 - È possibile aggiungere risposte ai commenti.
