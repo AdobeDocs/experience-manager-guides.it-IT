@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 10%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 10%
       - [Configurare i profili delle cartelle](./lc-config-guide/lc-folder-profile.md)
       - [Best practice per impostare la struttura delle cartelle](./lc-config-guide/best-practices-folder-structure.md)
       - [Configura altre impostazioni](./lc-config-guide/lc-other-settings.md)
+      - [Configurare CSP per l’anteprima SCORM](./lc-config-guide/guides-scorm-preview-config.md)
       - [Metriche chiave SCORM](./lc-config-guide/learning-course-parameters.md)
     - Tutorial video {#lc-video}
       - [Flusso di lavoro di creazione](./lc-video-tutorials/author-workflow.md)
@@ -591,7 +592,7 @@ ht-degree: 10%
   - [API per avviare l’elaborazione in blocco delle risorse](./api-reference/bulk-assets-processing.md)
   - [Gestore eventi di completamento attivazione in blocco](./api-reference/bulk-activation-complete-event.md)
   - [Gestore di eventi del processo di conversione](./api-reference/conversion-complete-event.md)
-  - [Creare progetto di traduzione](./api-reference/translation-project.md)
+  - [Crea progetto di traduzione](./api-reference/create-translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Sessione con esperti {#expert-session}
     - [Panoramica della sessione con esperti](./knowledge-base/expert-sessions/expert-session.md)

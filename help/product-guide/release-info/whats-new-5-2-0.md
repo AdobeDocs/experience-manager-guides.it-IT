@@ -2,7 +2,7 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 5.2.0
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 5.2.0
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Un’interfaccia aggiornata migliora l’usabilità complessiva, rendendo la nav
 
 - **Impostazioni dell&#39;editor a livello utente consolidate**: nuovo pannello delle impostazioni centralizzato che offre agli autori un migliore controllo sul comportamento dell&#39;editor, consentendo agli utenti di gestire le preferenze più facilmente da un&#39;unica posizione. Le opzioni di configurazione includono, possibilità di abilitare/disabilitare:
 
-   - Spazi unificatori in modalità Creazione
-   - Impostazioni di visibilità dei tag con attributi o senza attributi
-   - Commenti XML in modalità Creazione
-   - Menu di inserimento rapido per l&#39;inserimento di elementi nell&#39;editor
+  - Spazi unificatori in modalità Creazione
+  - Impostazioni di visibilità dei tag con attributi o senza attributi
+  - Commenti XML in modalità Creazione
+  - Menu di inserimento rapido per l&#39;inserimento di elementi nell&#39;editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Offre strumenti migliorati e flessibilità per semplificare la creazione e la mo
 
 - **Miglioramento dell&#39;authoring delle tabelle**: migliora l&#39;esperienza complessiva di authoring delle tabelle con interazioni più intuitive ed efficienti per la creazione e la gestione delle tabelle.
 
-   - Interazioni fluide e intuitive: inserimento semplificato di righe e colonne, con supporto della funzione di trascinamento della selezione per riordinare righe e colonne.
-   - Barra degli strumenti contestuale: consente di accedere ad azioni specifiche della tabella, ad esempio formattazione, allineamento, unione e altre azioni aggiuntive direttamente all’interno della tabella.
-   - Configurazione delle tabelle: puoi aggiungere più righe o colonne in un’unica azione, riducendo i passaggi ripetitivi e migliorando l’efficienza.
+  - Interazioni fluide e intuitive: inserimento semplificato di righe e colonne, con supporto della funzione di trascinamento della selezione per riordinare righe e colonne.
+  - Barra degli strumenti contestuale: consente di accedere ad azioni specifiche della tabella, ad esempio formattazione, allineamento, unione e altre azioni aggiuntive direttamente all’interno della tabella.
+  - Configurazione delle tabelle: puoi aggiungere più righe o colonne in un’unica azione, riducendo i passaggi ripetitivi e migliorando l’efficienza.
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Per informazioni dettagliate, visualizzare [Nuova esperienza linea di base (Beta
 
 Con questa versione sono stati apportati i seguenti miglioramenti API:
 
-- Vengono introdotte nuove API per creare un nuovo progetto di traduzione e tracciarne lo stato. Queste API consentono di automatizzare il processo di traduzione, riducendo lo sforzo manuale e migliorando l’efficienza. Per informazioni dettagliate, visualizza [Crea progetto di traduzione](../api-reference/translation-project.md)
+- Vengono introdotte nuove API per creare un nuovo progetto di traduzione e tracciarne lo stato. Queste API consentono di automatizzare il processo di traduzione, riducendo lo sforzo manuale e migliorando l’efficienza. Per ulteriori dettagli, visualizzare [Crea progetto di traduzione](../api-reference/create-translation-project.md).
 - API di elaborazione delle risorse migliorate con una migliore funzionalità di filtro per file e cartelle. Per ulteriori dettagli, visualizzare [Elabora risorse](../api-reference/bulk-assets-processing.md).
 - È disponibile una nuova API per monitorare lo stato di post-elaborazione di singole risorse e cartelle. Questa funzione è particolarmente utile per i team che utilizzano flussi di lavoro automatizzati, in cui la pubblicazione deve avvenire solo dopo che il contenuto è stato completamente elaborato. L’API offre un modo affidabile per confermare la preparazione, riducendo il rischio di errori di pubblicazione causati da un’elaborazione incompleta. Inoltre, con l’introduzione di questa API, gli eventi di post-elaborazione delle risorse non verranno attivati automaticamente. Gli amministratori possono ora abilitare questo evento tramite un&#39;impostazione in `fmdita config manager`.
 Per informazioni dettagliate, visualizza [API per tenere traccia dello stato di post-elaborazione di singole risorse e cartelle](../api-reference/track-post-processing-status.md) e [Impostazioni del gestore eventi di post-elaborazione in Gestione configurazione fmdita](../api-reference/post-process-event.md)

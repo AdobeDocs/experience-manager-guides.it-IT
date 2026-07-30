@@ -4,14 +4,19 @@ description: Scopri come creare un progetto di traduzione API
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 41dd3dee5f9d64fb5c58b5b302cc9759e48e3631
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 17%
+source-wordcount: '247'
+ht-degree: 14%
 
 ---
 
+
 # Creare progetto di traduzione
+
+>[!NOTE]
+>
+> Per le più recenti definizioni degli endpoint REST API e i relativi dettagli, consulta la documentazione Swagger all&#39;indirizzo `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (sostituisci `<aem-author-url>` con l&#39;URL del tuo server AEM). Poiché l’archiviazione di questo articolo è prevista per ottobre 2026, si consiglia di utilizzare la documentazione Swagger per ottenere le informazioni API più aggiornate.
 
 Un metodo POST che consente di creare un progetto di traduzione accettando i dettagli di progetto richiesti.
 
@@ -165,6 +170,3 @@ GET
   }
 }
 ```
-
-
-
