@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2570'
 ht-degree: 10%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 10%
     - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
       - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-      - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
     - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -426,7 +426,7 @@ ht-degree: 10%
       - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
       - [La stringa è un&#39;eccezione troppo lunga nell&#39;esportazione dei metadati](./user-guide/metadata-export-failure.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
   - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
   - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
@@ -590,8 +590,7 @@ ht-degree: 10%
   - [API per tenere traccia dello stato di post-elaborazione di una cartella o di una risorsa](./api-reference/track-post-processing-status.md)
   - [API per avviare l’elaborazione in blocco delle risorse](./api-reference/bulk-assets-processing.md)
   - [Gestore eventi di completamento attivazione in blocco](./api-reference/bulk-activation-complete-event.md)
-  - [Gestore di eventi del processo di conversione](./api-reference/conversion-complete-event.md)
-  - [Creare progetto di traduzione](./api-reference/translation-project.md)
+  - [Gestore eventi processo di conversione](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
   - Sessione con esperti {#expert-session}
     - [Panoramica della sessione con esperti](./knowledge-base/expert-sessions/expert-session.md)

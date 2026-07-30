@@ -3,7 +3,7 @@ title: Note sulla versione | Novità della versione 2026.01.0 di Adobe Experienc
 description: Scopri le funzioni nuove e migliorate della versione 2026.01.0 di Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -184,5 +184,5 @@ Per ulteriori dettagli sull&#39;elaborazione delle risorse, visualizzare [Elabor
 
 Con questa versione sono stati apportati i seguenti miglioramenti API:
 
-- Vengono introdotte nuove API per creare un nuovo progetto di traduzione e tracciarne lo stato. Queste API consentono di automatizzare il processo di traduzione, riducendo lo sforzo manuale e migliorando l’efficienza. Per informazioni dettagliate, visualizza [Crea progetto di traduzione](../api-reference/translation-project.md)
+- Vengono introdotte nuove API per creare un nuovo progetto di traduzione e tracciarne lo stato. Queste API consentono di automatizzare il processo di traduzione, riducendo lo sforzo manuale e migliorando l’efficienza. Per ulteriori dettagli, visualizzare [Crea progetto di traduzione](../api-reference/api-update-swagger.md).
 - API di elaborazione delle risorse migliorate con una migliore funzionalità di filtro per file e cartelle. Per ulteriori dettagli, visualizzare [Elabora risorse](../api-reference/bulk-assets-processing.md).
