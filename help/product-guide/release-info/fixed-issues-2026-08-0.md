@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2026.08.0
 description: Scopri le correzioni di bug nella versione 2026.08.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ I seguenti problemi sono stati risolti con la funzionalità [Nuova raccolta mapp
 - Impossibile visualizzare o pubblicare l’output generato direttamente dalle interfacce Map Collection (Raccolta mappe) o Bulk Activation Dashboard (Dashboard di attivazione in blocco). (GUIDES-18712)
 - Impossibile utilizzare una singola raccolta per generare e attivare le mappe, poiché le raccolte delle mappe e il dashboard di attivazione in blocco gestiscono set separati di raccolte. (GUIDES-12730)
 
-## Revisione
+## Rivedere
 
 - Nell’interfaccia utente Revisione, l’elenco dei tag mostra tutti gli utenti nell’attività di revisione, rendendo difficile selezionare l’utente corretto in un commento o in una risposta. (GUIDES-33420)
 - Quando si apre la visualizzazione **affiancata** nel pannello Commenti, la copia di lavoro viene visualizzata accanto alla versione con commenti, ma i riquadri non scorrono sincronizzati orizzontalmente e quando si fa clic su un commento il cursore non viene spostato nel testo corrispondente. (GUIDES-44083)
@@ -95,6 +95,7 @@ Adobe ha identificato i seguenti problemi noti per la versione 2026.08.0:
 - Un&#39;equazione MathML racchiusa in un blocco `foreign` e `equation` genera una spaziatura indesiderata e la digitazione all&#39;interno dell&#39;equazione causa problemi anche dopo aver regolato il rientro. (GUIDES-46606)
 - Impossibile posizionare un cursore all&#39;interno di un `topicref` all&#39;interno di un `reltable` se l&#39;opzione **Mostra tag** è abilitata e l&#39;opzione **Visualizza attributi** è disabilitata nelle impostazioni dell&#39;editor. (GUIDES-46565)
 - Se si trascina un riferimento in un `keydef` vuoto, viene aggiunto un elemento `topicref` invece di aggiornare il riferimento. (GUIDES-45068)
+- Spazio vuoto immesso immediatamente prima dell&#39;eliminazione di un tag in linea nella cella di una tabella `<entry>`. (GUIDES-49144)
 
 ## Pubblicazione
 
@@ -115,7 +116,7 @@ Adobe ha identificato i seguenti problemi noti per la versione 2026.08.0:
 
 - L&#39;avvio di una traduzione con l&#39;opzione **Crea solo struttura** restituisce un errore. (GUIDES-51261)
 
-## Revisione
+## Rivedere
 
 - Anche l’esecuzione di una barratura utilizzando una scelta rapida da tastiera su un testo che include contenuto condizionale nascosto interferisce con il contenuto nascosto. (GUIDES-49837)
 
