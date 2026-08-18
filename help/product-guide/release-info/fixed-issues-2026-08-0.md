@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2026.08.0
 description: Scopri le correzioni di bug nella versione 2026.08.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
+source-git-commit: 6872e4298df8e51a3c46845793d4dad23f92eddb
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 0%
+source-wordcount: '1200'
+ht-degree: 1%
 
 ---
 
@@ -85,16 +85,16 @@ Adobe ha identificato i seguenti problemi noti per la versione 2026.08.0:
 ## Authoring
 
 - La chiusura di un file DITAVAL che è stato spostato in una posizione diversa genera un messaggio di errore `ERROR IN FETCHING VERSION DETAILS`. (GUIDES-51420)
+- L’API in conflitto non riesce e genera un errore di applicazione quando il percorso della cartella dell’archivio termina con una barra. (GUIDES-51006)
 
 ## Editor 2.0
 
 
-- L’API in conflitto non riesce e genera un errore di applicazione quando il percorso della cartella dell’archivio termina con una barra. (GUIDES-51006)
 - Quando si seleziona un elemento di istruzione di elaborazione nella vista Struttura, viene evidenziato l&#39;intero tag padre anziché l&#39;elemento selezionato. (GUIDES-48318)
 - La modifica di una parola chiave all&#39;interno di un `keyref` nella visualizzazione di origine interrompe la parola chiave quando si passa a un&#39;altra visualizzazione. (GUIDES-49998)
 - Un&#39;equazione MathML racchiusa in un blocco `foreign` e `equation` genera una spaziatura indesiderata e la digitazione all&#39;interno dell&#39;equazione causa problemi anche dopo aver regolato il rientro. (GUIDES-46606)
 - Impossibile posizionare un cursore all&#39;interno di un `topicref` all&#39;interno di un `reltable` se l&#39;opzione **Mostra tag** è abilitata e l&#39;opzione **Visualizza attributi** è disabilitata nelle impostazioni dell&#39;editor. (GUIDES-46565)
-- Se si trascina un riferimento in un `keydef` vuoto, viene aggiunto un elemento `topicref` invece di aggiornare il riferimento. (GUIDES-45068)
+
 - Spazio vuoto immesso immediatamente prima dell&#39;eliminazione di un tag in linea nella cella di una tabella `<entry>`. (GUIDES-49144)
 
 ## Pubblicazione
