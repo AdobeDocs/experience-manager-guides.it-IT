@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +115,9 @@ Per importare il contenuto da un archivio Git, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Puoi abilitare **Sincronizzazione automatica** per sincronizzare e importare automaticamente il contenuto dall&#39;archivio Git in Experience Manager Guides. Se vengono rilevati errori, la sincronizzazione automatica non viene attivata e l&#39;autore deve importare manualmente il contenuto selezionando **Importa tutto**. Una volta abilitata, la sincronizzazione automatica non può essere disabilitata per l’importazione.
+   > Se utilizzi la versione del connettore Git precedente alla 1.0.1, l’importazione di un archivio che contiene i sottomoduli Git potrebbe non riuscire durante l’operazione di recupero. Esegui l’aggiornamento alla versione 1.0.1 o successiva del connettore Git per evitare questo problema. A partire dalla versione 1.0.1, i sottomoduli Git vengono ignorati durante la clonazione e l’importazione e viene importato solo il contenuto dell’archivio principale.
+
+1. *(Facoltativo)* Puoi abilitare **Auto Sync** per sincronizzare e importare automaticamente il contenuto dall&#39;archivio Git in Experience Manager Guides. Se vengono rilevati errori, la sincronizzazione automatica non viene attivata e l&#39;autore deve importare manualmente il contenuto selezionando **Importa tutto**. Una volta abilitata, la sincronizzazione automatica non può essere disabilitata per l’importazione.
 
 Una volta importato, il contenuto viene archiviato nel percorso radice **Target AEM** configurato durante la configurazione del connettore Git.
 

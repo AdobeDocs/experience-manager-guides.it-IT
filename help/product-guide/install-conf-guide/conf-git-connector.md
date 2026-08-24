@@ -4,9 +4,9 @@ description: Scopri come configurare un Git in Experience Manager Guides.
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Utilizza lo strumento Origini dati in Experience Manager Guides per creare e con
    >[!TIP]
    >
    >* Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino al campo per visualizzare ulteriori dettagli.
-   >* I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore Elasticsearch.
+   >* I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore Git.
 
    &#x200B;- **Nome**: immettere il nome dell&#39;origine dati.
    &#x200B;- **Percorso directory principale di AEM di destinazione**: immetti il percorso nell&#39;archivio AEM in cui deve essere archiviato il contenuto importato da Git.
@@ -70,13 +70,17 @@ Utilizza lo strumento Origini dati in Experience Manager Guides per creare e con
 
 Prima che il connettore Git sia disponibile per la configurazione dalla pagina **Origini dati**, deve essere incorporato come una dipendenza nel progetto AEM. Per aggiungere la dipendenza, effettua le seguenti operazioni:
 
+>[!NOTE]
+>
+> Per visualizzare le versioni disponibili del connettore Git, visualizza [l&#39;archivio centrale Maven](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github).
+
 1. In `all/pom.xml` del progetto AEM, aggiungi il connettore Git come dipendenza in `<dependencies>`:
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
