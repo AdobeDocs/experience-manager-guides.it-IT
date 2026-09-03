@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 029e68ca746583f2e3d30918f6785333beb3d01c
+source-git-commit: adb7c873e590d1886288bf23847b7740b502913f
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: 931
 ht-degree: 37%
 
 ---
@@ -76,7 +76,7 @@ Di seguito sono riportati gli aggiornamenti di prodotto in termini di nuove funz
 
 | Versione | Evento | Pianificazione | Novità | Istruzioni per l’aggiornamento | Stato |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | 1 settembre 2026 | - | - | Target |
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | ~ 3° settimana di settembre 2026 | - | - | Target |
 | Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | 17 novembre 2026 | - | - | Target |
 | Adobe Experience Manager Guides 5.3.0 | Versione | 20 gennaio 2027 | - | - | Target |
 
