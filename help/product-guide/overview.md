@@ -62,6 +62,6 @@ Con la soluzione [!DNL Experience Manager Guides], le aziende possono offrire es
 ## Risorse aggiuntive
 
 * [Guida utente di [!DNL Experience Manager Guides] (precedente interfaccia utente)](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [Informazioni e supporto per [!DNL AEM Guides]](https://helpx.adobe.com/it/support/xml-documentation-for-experience-manager.html)
+* [Informazioni e supporto per [!DNL AEM Guides]](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Esplora AEM](https://business.adobe.com/it/products/experience-manager/adobe-experience-manager.html)
 
