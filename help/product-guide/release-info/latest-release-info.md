@@ -7,18 +7,20 @@ role: Leader
 TQID: https://experienceleague.adobe.com/RROF3KWnqtnbbHGyW1McC9uvdA7x27fI-Rp4nCZOTHo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1a08469a4bd12f8b6dd9d83196463432b331f239
+    internal-label: Customer experience
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: '2473'
 ht-degree: 0%
-
 ---
-
 # [!DNL AEM Guides] versioni
 
 [!DNL Adobe Experience Manager Guides] è un&#39;applicazione distribuita in AEM. Si tratta di una potente soluzione di gestione dei contenuti per componenti di livello enterprise (CCMS) che consente il supporto DITA nativo in Adobe Experience Manager, consentendo ad AEM di gestire la creazione e la distribuzione di contenuti basati su DITA.
@@ -37,8 +39,8 @@ Le differenze chiave tra le build UUID e non UUID sono le seguenti:
 ### Vantaggi della build UUID
 
 * L&#39;installazione di UUID è più efficiente:
-   * I riferimenti sono indipendenti dal percorso: il sistema di gestione dei riferimenti è a conoscenza dei collegamenti in quanto i riferimenti vengono creati in base agli UUID e non ai percorsi.
-   * Le operazioni di spostamento/aggiornamento sono efficienti: gli UUID rimangono invariati anche se le risorse si spostano in un altro percorso nell’archivio. Pertanto, non è necessaria alcuna elaborazione per applicare la patch ai riferimenti tra le risorse durante le operazioni di spostamento o aggiornamento.
+  * I riferimenti sono indipendenti dal percorso: il sistema di gestione dei riferimenti è a conoscenza dei collegamenti in quanto i riferimenti vengono creati in base agli UUID e non ai percorsi.
+  * Le operazioni di spostamento/aggiornamento sono efficienti: gli UUID rimangono invariati anche se le risorse si spostano in un altro percorso nell’archivio. Pertanto, non è necessaria alcuna elaborazione per applicare la patch ai riferimenti tra le risorse durante le operazioni di spostamento o aggiornamento.
 * La build UUID è lungimirante, in quanto utilizziamo questo framework anche per la configurazione cloud di AEM Guides.
 
 
@@ -56,7 +58,9 @@ Le differenze chiave tra le build UUID e non UUID sono le seguenti:
 
 Durante l&#39;aggiornamento da una versione precedente a una versione più recente di [!DNL AEM Guides], potrebbe essere necessario eseguire gli script di migrazione. Per le istruzioni di aggiornamento, consulta le note sulla versione e la documentazione specifica della versione.
 
-Non tutti i percorsi di aggiornamento sono direttamente supportati. Ad esempio, l’aggiornamento diretto alla versione 4.0 è possibile solo a partire dalla versione 3.8.Se utilizzi una versione precedente alla 3.8, consulta la documentazione specifica per la versione per le istruzioni di aggiornamento [Archivio della Guida](https://helpx.adobe.com/it/xml-documentation-for-experience-manager/archive.html).Contatta il tuo Customer Success Manager per convalidare il percorso di aggiornamento.
+Non tutti i percorsi di aggiornamento sono direttamente supportati. Ad esempio, l’aggiornamento diretto alla versione 4.0 è possibile solo a partire dalla versione 3.8.
+Se utilizzi una versione precedente alla 3.8, consulta la documentazione specifica per la versione per le istruzioni di aggiornamento [Archivio della Guida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Contatta il tuo Customer Success Manager per convalidare il percorso di aggiornamento.
 
 **[!DNL AEM Guides]Build**
 
@@ -64,7 +68,7 @@ Non tutti i percorsi di aggiornamento sono direttamente supportati. Ad esempio, 
 >
 >Rivolgiti al tuo Customer Success Manager per accedere alle build [!DNL AEM Guides] per AEM as a Cloud Service.
 
-L&#39;elenco seguente contiene gli ultimi [!DNL AEM Guides] pacchetti disponibili per l&#39;installazione in AMS o On-Prem, collegamenti di download di pacchetti e altre informazioni utili. Prima di installare Experience Manager Guides, assicurati che il tuo sistema soddisfi i [requisiti tecnici](../install-guide/download-install-technical-requirements.md). Inoltre, si consiglia di utilizzare solo la build più recente di [!DNL AEM Guides]. Se per qualche motivo hai bisogno di accedere a build precedenti, connettiti con il Customer Success Manager del tuo account.
+L&#39;elenco seguente contiene gli ultimi [!DNL AEM Guides] pacchetti disponibili per l&#39;installazione in AMS o On-Prem, collegamenti di download di pacchetti e altre informazioni utili. Prima di installare Experience Manager Guides, assicurati che il tuo sistema soddisfi i [requisiti tecnici](../install-conf-guide/aemg-technical-requirements.md). Inoltre, si consiglia di utilizzare solo la build più recente di [!DNL AEM Guides]. Se per qualche motivo hai bisogno di accedere a build precedenti, connettiti con il Customer Success Manager del tuo account.
 
 >[!NOTE]
 >
