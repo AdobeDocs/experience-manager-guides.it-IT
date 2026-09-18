@@ -1,20 +1,19 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2026.01.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2026.01.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 3%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # Istruzioni per l’aggiornamento alla versione 2026.01.0
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 2026.01.0 di Adobe Experience Manager Guides as a Cloud Service.
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 2026.01.0](whats-new-2026-01-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizza [Novità della versione 2026.01.0](whats-new-2026-01-0.md).
 
-Per un elenco dei problemi risolti in questa versione, consulta [Problemi risolti nella versione 2026.01.0](fixed-issues-2026-01-0.md).
+Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 2026.01.0](fixed-issues-2026-01-0.md).
 
 ## Matrice di compatibilità
 
@@ -24,7 +23,7 @@ Questa sezione descrive la matrice di compatibilità per le applicazioni softwar
 
 | Versione di Experience Manager Guides as a Cloud | FMPS | FrameMaker | Autore ossigeno |
 | --- | --- | --- | --- |
-| 2026.01.0 | Non compatibile | 2022 o versione successiva | 26,1 |
+| 2026.01.0 | Non compatibile | 2022 o versione successiva | 26.1 |
 
 
 ### Connettore ossigeno
@@ -114,7 +113,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.
@@ -127,7 +126,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 Effettua i seguenti passaggi per indicizzare il contenuto esistente e utilizza il nuovo testo Trova e sostituisci a livello di mappa e l’elenco degli argomenti nella scheda Rapporti:
 
-1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: Puoi passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita tutte le mappe sono indicizzate|| Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server:port>/bin/guides/map-find/indexing`. (Facoltativo: è possibile passare percorsi specifici delle mappe per indicizzarle; per impostazione predefinita tutte le mappe sono indicizzate|| Esempio: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. È inoltre possibile passare una cartella principale per indicizzare le mappe DITA di una cartella specifica (e delle relative sottocartelle). Ad esempio, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Si noti che se vengono passati sia il parametro paths che il parametro root, viene considerato solo il parametro paths.
 
@@ -172,7 +171,7 @@ Attendere il completamento del processo prima di procedere ai passaggi successiv
 >
 >Verifica se il nodo è ancora presente e lo stato del processo.
 
-GET:
+OTTIENI:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json

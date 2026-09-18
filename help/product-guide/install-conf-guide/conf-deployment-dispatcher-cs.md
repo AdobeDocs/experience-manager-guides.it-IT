@@ -4,13 +4,12 @@ description: Scopri la configurazione di distribuzione e dispatcher in Experienc
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 657a42be-36e7-4657-83d5-e866f8e55f09
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 3%
-
+source-wordcount: '347'
+ht-degree: 6%
 ---
-
 # Implementazione e configurazione del dispatcher
 
 Questo articolo fornisce informazioni su come distribuire Experience Manager Guides as a Cloud Service e configurare Dispatcher.
@@ -46,9 +45,9 @@ Il programma per il provisioning automatico della soluzione Experience Manager G
 
 ## Configurare Dispatcher
 
-Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli, consulta [Dispatcher nel cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=it).
+Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager. Per ulteriori dettagli, consulta [Dispatcher nel cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 
-1. Per la migrazione della configurazione del dispatcher da AMS a Cloud Service, consulta [Migrazione della configurazione di Dispatcher da AMS ad AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=it).
+1. Per la migrazione della configurazione del dispatcher da AMS a Cloud Service, consulta [Migrazione della configurazione di Dispatcher da AMS ad AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
 1. Per informazioni dettagliate su come configurare Dispatcher, vedere [Configurazione di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=it).
 
 >[!NOTE]

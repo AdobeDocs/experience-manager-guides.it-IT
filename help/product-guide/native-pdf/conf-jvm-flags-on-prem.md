@@ -1,16 +1,15 @@
 ---
-title: PDF nativo | Configura i flag JVM per la pubblicazione PDF nativa
+title: PDF nativo | Configurare i flag JVM per la pubblicazione nativa di PDF
 description: Configurare i flag JVM per la pubblicazione nativa di PDF
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # Configurare i flag JVM per la pubblicazione nativa di PDF per on-premise
 
 La pubblicazione nativa di PDF avvia un processo JVM separato per generare un PDF. Potrebbe essere necessario modificare le configurazioni di questa JVM per supportare scenari diversi. Ad esempio, per eseguire carichi di lavoro più grandi, è necessario aumentare la dimensione heap massima disponibile per il processo JVM generato.

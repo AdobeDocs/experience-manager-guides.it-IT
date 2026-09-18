@@ -4,13 +4,12 @@ description: Scopri come configurare e personalizzare i flussi di lavoro
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # Configurare e personalizzare i flussi di lavoro {#id181AI0OJ0RO}
 
 I flussi di lavoro consentono di automatizzare le attività di Adobe Experience Manager \(AEM\). Un flusso di lavoro è costituito da una serie di passaggi eseguiti in un ordine specifico. Puoi definire un’attività distinta da eseguire in ogni passaggio. Ad esempio, è possibile inviare una notifica e-mail a tutti i revisori di un gruppo quando viene creata una revisione dell&#39;argomento. In alternativa, invia una notifica all’editore al termine di un’attività di generazione dell’output.
@@ -19,13 +18,13 @@ Per ulteriori informazioni sui flussi di lavoro in AEM, vedi
 
 | Cloud Service | Locale |
 |-------------|------------|
-| <ul><li>[Amministrazione istanze flusso di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=it)</li><li>Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro dei progetti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=it)</li></ul> | <ul><li>[Amministrazione dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Creazione di modelli di workflow ed estensione delle funzionalità del workflow: [Sviluppo ed estensione dei workflow](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[Amministrazione istanze flusso di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)</li><li>Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro dei progetti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[Amministrazione dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Applicazione e partecipazione ai flussi di lavoro: [Utilizzo dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Creazione di modelli di workflow ed estensione delle funzionalità del workflow: [Sviluppo ed estensione dei workflow](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Miglioramento delle prestazioni dei flussi di lavoro che utilizzano risorse server significative: [Elaborazione simultanea dei flussi di lavoro](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 Le sezioni in questo argomento descrivono le varie personalizzazioni che è possibile effettuare nei flussi di lavoro predefiniti forniti in AEM Guides.
 
 ## Personalizza flusso di lavoro di revisione {#id176NE0C00HS}
 
-Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=it) nella documentazione di AEM.
+Il team di authoring dei contenuti di ogni organizzazione lavora in modo specifico per soddisfare i requisiti aziendali. In alcune organizzazioni è presente un editor dedicato, mentre in altre potrebbe essere presente un sistema di revisione editoriale automatizzato. Ad esempio, in un’organizzazione, un flusso di lavoro tipico per l’authoring e la pubblicazione può includere attività come: ogni volta che un autore esegue l’authoring di contenuti, questo passa automaticamente ai revisori e, al termine della revisione, passa all’editore per generare l’output finale. In AEM, le attività che esegui sui contenuti e sulle risorse possono essere combinate sotto forma di un processo e mappate a un flusso di lavoro AEM. Per ulteriori informazioni sui flussi di lavoro in AEM, consulta [Amministrazione dei flussi di lavoro](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) nella documentazione di AEM.
 
 AEM Guides consente di personalizzare il flusso di lavoro di revisione predefinito. Con gli altri flussi di lavoro di authoring o pubblicazione, puoi utilizzare i quattro processi personalizzati seguenti relativi alla revisione.
 
@@ -95,7 +94,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | Stringa | ID utente dell&#39;utente che avvia l&#39;attività di revisione. |
 | `operation` | Stringa | Un valore statico impostato come `AEM_REVIEW`. |
 | `orgTopics` | Stringa | Percorso degli argomenti condivisi per la revisione. Specifica più argomenti separati da virgole. |
-| `payloadJson` | Oggetto JSON | Specifica i seguenti valori: -   `base`: percorso della cartella padre contenente l&#39;argomento inviato per la revisione. <br> -   `asset`: percorso dell&#39;argomento inviato per la revisione. <br> -   `referrer`: lasciare vuoto il campo. |
+| `payloadJson` | Oggetto JSON | Specificare i valori seguenti: - `base`: percorso della cartella principale contenente l&#39;argomento inviato per la revisione. <br> - `asset`: percorso dell&#39;argomento inviato per la revisione. <br> - `referrer`: lasciare vuoto il campo. |
 | `deadline` | Stringa | Specificare l&#39;ora nel formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Stringa | Immettere un titolo per l&#39;attività di revisione. |
 | `description` | Stringa | Immettere una descrizione per il task di revisione. |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | Stringa | Specifica il percorso della mappa dei tag dell&#39;attività di revisione |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
-| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è impostato su `3.0`.<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
+| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è `3.0` .<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
 
 
 Dopo aver creato lo script, chiamalo prima del processo Crea revisione nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro di revisione.
@@ -132,7 +131,7 @@ Per ulteriori dettagli sulla configurazione della **configurazione di Adobe Gran
 
 ### Personalizzare le notifiche e-mail e AEM
 
-Alcuni flussi di lavoro di AEM Guides utilizzano le notifiche e-mail. Ad esempio, se avvii un’attività di revisione, viene inviata una notifica e-mail ai revisori. Tuttavia, per garantire l’invio della notifica e-mail, devi abilitare questa funzionalità in AEM. Per abilitare le notifiche e-mail in AEM, consulta l&#39;articolo [Invio di e-mail](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=it#sending-email) nella documentazione di AEM.
+Alcuni flussi di lavoro di AEM Guides utilizzano le notifiche e-mail. Ad esempio, se avvii un’attività di revisione, viene inviata una notifica e-mail ai revisori. Tuttavia, per garantire l’invio della notifica e-mail, devi abilitare questa funzionalità in AEM. Per abilitare le notifiche e-mail in AEM, consulta l&#39;articolo [Invio di e-mail](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) nella documentazione di AEM.
 
 AEM Guides contiene un set di notifiche e-mail e AEM utilizzate nel flusso di lavoro di revisione che puoi personalizzare. Per personalizzare queste notifiche, effettua le seguenti operazioni:
 

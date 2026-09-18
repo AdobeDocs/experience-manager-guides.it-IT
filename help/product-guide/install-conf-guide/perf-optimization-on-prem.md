@@ -4,19 +4,18 @@ description: Scopri i consigli per l’ottimizzazione delle prestazioni
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Consigli per l’ottimizzazione delle prestazioni per on-premise {#id213BD0JG0XA}
 
 ## Configura archivio dati \(Obbligatorio\)
 
 **Qual è la modifica?**
-Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio date del file e sull&#39;archivio dati S3, vedere l&#39;articolo [Configurazione degli archivi nodi e degli archivi dati in AEM 6](https://helpx.adobe.com/it/experience-manager/6-5/sites/deploying/using/data-store-config.html).
+Impostare la proprietà `minRecordLength` su un valore di `100` nella configurazione `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Per ulteriori informazioni sull&#39;archivio dati di tipo file date e S3, vedere l&#39;articolo [Configurazione degli archivi nodi e dei dati in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html).
 
 >[!NOTE]
 >
@@ -50,7 +49,7 @@ I parametri di avvio della JVM devono essere accuratamente regolati in base all&
 
 : imposta la dimensione heap JVM su un minimo di 1/4 della memoria totale disponibile. Utilizzare il parametro `-Xmx<size>` per impostare la dimensione della memoria heap. Impostare il valore per -`Xms` uguale a `-Xmx`.
 
-- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Abilitare `-XX:+HeapDumpOnOutOfMemoryError` e impostare il percorso per `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Abilita registro Java GC come:
 
@@ -112,4 +111,3 @@ Questa operazione può essere eseguita in fase di esecuzione tramite la console 
 
 **Risultato di questa modifica**
 Un numero maggiore di **pagine del sito AEM limitate nella proprietà Heap** ottimizza il processo di generazione dell&#39;output del sito AEM.
-

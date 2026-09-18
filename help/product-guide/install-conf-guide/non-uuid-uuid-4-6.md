@@ -4,13 +4,12 @@ description: Scopri come migrare contenuti non UUID a UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 4.6.0 Service Pack 4 da non UUID a 4.6.1 Migrazione dei contenuti UUID
 
 Per migrare il contenuto dalla versione 4.6.0 del Service Pack 4 non UUID alla versione 4.6.1 UUID, effettua le seguenti operazioni.
@@ -219,4 +218,4 @@ Per ulteriori dettagli, visualizzare [Rimuovi versioni precedenti](../install-co
    > Se prima della migrazione la proprietà **Utilizza il titolo per i nomi delle pagine del sito AEM** in `com.adobe.fmdita.config.ConfigManager` è impostata su *False*, dopo la migrazione sarà necessario aggiornare la proprietà.
 
 
-1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it`).
+1. Al termine della convalida, è possibile recuperare la maggior parte dello spazio su disco eseguendo la compattazione (fare riferimento a `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
