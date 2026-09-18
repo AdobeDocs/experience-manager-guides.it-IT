@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '288'
 ht-degree: 5%
 ---
 # Documentazione di Experience Manager Guides
 
 Experience Manager Guides è un CCMS di livello enterprise con supporto DITA nativo per l&#39;authoring strutturato, la pubblicazione multicanale e la gestione del ciclo di vita dei contenuti.
 
-[!BADGE Cloud Service]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Servizi gestiti]{type=Informative}
+**Distribuzione:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Servizi gestiti]{type=Informative}
 
 ## Inizia in base al ruolo
 
@@ -57,7 +57,7 @@ Experience Manager Guides è un CCMS di livello enterprise con supporto DITA nat
 ::::landing-cards-container
 
 :::card
-![Icona Autori](./user-guide/images/author.svg)
+![Icona Autori](./user-guide/images/author.png)
 
 Autori
 
@@ -67,7 +67,7 @@ Creazione e gestione di argomenti DITA, mappe, riutilizzo dei contenuti e flussi
 :::
 
 :::card
-![Icona Amministratori](./user-guide/images/admin.svg)
+![Icona Amministratori](./user-guide/images/admin.png)
 
 Amministratori
 
@@ -77,7 +77,7 @@ Configura profili di cartelle, autorizzazioni, impostazioni del flusso di lavoro
 :::
 
 :::card
-![Icona Editori](./user-guide/images/publish.svg)
+![Icona Editori](./user-guide/images/publish.png)
 
 Editori
 
@@ -86,16 +86,17 @@ Imposta i predefiniti di output, gestisci le linee di base e genera l&#39;output
 [Gestione delle mappe e pubblicazione](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
-![Icona Architetti](./user-guide/images/architect.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
-Architetti
+Architects
 
-Progettare specializzazioni, schemi e architetture di contenuto DITA per l&#39;implementazione.
+Design DITA specializations, schemas, and content architecture for your implementation.
 
-[Specializzazione DITA](./install-conf-guide/dita-ot-specialization.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## Esplora per area delle caratteristiche
@@ -175,17 +176,17 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 <tr>
 <td>
 
-[!BADGE Funzionalità]{type=Informative} <br> [**Importa contenuto tramite il connettore Git**](./user-guide/web-editor-git-connector.md)<br> Importa contenuto nelle guide direttamente dagli archivi Git.
+[!BADGE Funzionalità]{type=Neutral} <br> [**Importa contenuto tramite il connettore Git**](./user-guide/web-editor-git-connector.md)<br> Importa contenuto nelle guide direttamente dagli archivi Git.
 
 </td>
 <td>
 
-[!BADGE Funzionalità]{type=Informative} <br> [**Nuova raccolta mappe**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interfaccia unificata per la gestione delle mappe e la pubblicazione degli output
+[!BADGE Funzionalità]{type=Neutral} <br> [**Nuova raccolta mappe**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interfaccia unificata per la gestione delle mappe e la pubblicazione degli output
 
 </td>
 <td>
 
-[!BADGE Miglioramento]{type=Informative} <br> [**Delegare un&#39;attività di revisione**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> I revisori possono delegare un&#39;attività di revisione a un altro revisore
+[!BADGE Miglioramento]{type=Neutral} <br> [**Delegare un&#39;attività di revisione**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> I revisori possono delegare un&#39;attività di revisione a un altro revisore
 
 </td>
 </tr>
@@ -195,7 +196,7 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 
 * [Note sulla versione di Cloud Service](./release-info/latest-release-info-cs.md)
 * [Note sulla versione per On-Premise](./release-info/latest-release-info.md)
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it){target="_blank"}
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
