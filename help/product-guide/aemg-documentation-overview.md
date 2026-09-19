@@ -39,22 +39,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 5%
 ---
 # Documentazione di Experience Manager Guides
 
 Experience Manager Guides è un CCMS di livello enterprise con supporto DITA nativo per l&#39;authoring strutturato, la pubblicazione multicanale e la gestione del ciclo di vita dei contenuti.
 
-**Distribuzione:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Servizi gestiti]{type=Informative}
+**Distribuzione:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
 ## Inizia in base al ruolo
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
+:::card
+![Icona Amministratori](./user-guide/images/admin.png)
+
+Amministratori
+
+Configura profili di cartelle, autorizzazioni, impostazioni del flusso di lavoro e modelli di output.
+
+[Guida all’amministrazione](./install-conf-guide/introduction.md)
+:::
 
 :::card
 ![Icona Autori](./user-guide/images/author.png)
@@ -67,16 +74,6 @@ Creazione e gestione di argomenti DITA, mappe, riutilizzo dei contenuti e flussi
 :::
 
 :::card
-![Icona Amministratori](./user-guide/images/admin.png)
-
-Amministratori
-
-Configura profili di cartelle, autorizzazioni, impostazioni del flusso di lavoro e modelli di output.
-
-[Guida all’amministrazione](./install-conf-guide/introduction.md)
-:::
-
-:::card
 ![Icona Editori](./user-guide/images/publish.png)
 
 Editori
@@ -85,6 +82,9 @@ Imposta i predefiniti di output, gestisci le linee di base e genera l&#39;output
 
 [Gestione delle mappe e pubblicazione](./user-guide/map-console-overview.md)
 :::
+
+::::
+
 
 <!--
 :::card
@@ -96,8 +96,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## Esplora per area delle caratteristiche
 
@@ -170,33 +171,68 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 ## Novità
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![Icona amministratore](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Connettore Git
+
+Importa il contenuto nelle guide direttamente dagli archivi Git.
+
+[Importare contenuti con il connettore Git](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Icona Risoluzione dei problemi](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+Nuova raccolta mappe
+
+Interfaccia unificata per la gestione delle mappe e la pubblicazione degli output.
+
+[Nuova raccolta mappe](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Icona libro](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Delega attività di revisione
+
+I revisori possono delegare un&#39;attività di revisione a un altro revisore.
+
+[Delegare un’attività di revisione](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
 
-[!BADGE Funzionalità]{type=Neutral} <br> [**Importa contenuto tramite il connettore Git**](./user-guide/web-editor-git-connector.md)<br> Importa contenuto nelle guide direttamente dagli archivi Git.
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE Funzionalità]{type=Neutral} <br> [**Nuova raccolta mappe**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interfaccia unificata per la gestione delle mappe e la pubblicazione degli output
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE Miglioramento]{type=Neutral} <br> [**Delegare un&#39;attività di revisione**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> I revisori possono delegare un&#39;attività di revisione a un altro revisore
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
+-->
+
 
 ## Risorse aggiuntive
 
 * [Note sulla versione di Cloud Service](./release-info/latest-release-info-cs.md)
 * [Note sulla versione per On-Premise](./release-info/latest-release-info.md)
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it){target="_blank"}
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
