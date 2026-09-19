@@ -4,13 +4,12 @@ description: Scopri come verificare l’installazione di AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Verificare l’installazione di AEM Guides {#id213BD030FBE}
 
 Dopo aver installato AEM Guides, è necessario verificare se l’installazione è stata eseguita correttamente o meno.
@@ -25,11 +24,11 @@ Per verificare l’installazione, effettua le seguenti operazioni:
 
 1. Accedi al Developer Console del Cloud Service.
 
-   Per informazioni dettagliate sull&#39;accesso a Developer Console, consulta [Accesso a Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=it) nella documentazione di AEM.
+   Per informazioni dettagliate sull&#39;accesso a Developer Console, consulta [Accesso a Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) nella documentazione di AEM.
 
 1. Accedi all’elenco dei bundle OSGi in AEM.
 
-   Per informazioni dettagliate sull&#39;accesso ai bundle, vedi [Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=it#bundles) nella documentazione di AEM.
+   Per informazioni dettagliate sull&#39;accesso ai bundle, vedi [Bundle](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) nella documentazione di AEM.
 
 1. Cerca fmdita nell’elenco dei bundle e controllane lo stato.
 
@@ -59,5 +58,3 @@ Per verificare l’installazione, effettua le seguenti operazioni:
 > È possibile prendere in considerazione una serie di raccomandazioni sull&#39;ottimizzazione delle prestazioni per migliorare le prestazioni del sistema. Per ulteriori informazioni, vedere [Consigli per l&#39;ottimizzazione delle prestazioni](perf-optimization-on-prem.md#).
 
 >[!ENDTABS]
-
-

@@ -1,13 +1,12 @@
 ---
 title: Revisione dei contenuti in AEM Guides
 description: 'Sessione con esperti: all’interno del flusso di lavoro di revisione di AEM Guides. Caratteristiche e casi d’uso reali'
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 1%
-
 ---
-
 # Revisione dei contenuti in AEM Guides
 
 Il flusso di lavoro AEM Guides Review consente agli autori, alle PMI e ai revisori di collaborare su argomenti e mappe DITA senza uscire da AEM. Supporta le annotazioni, il controllo delle versioni, la gestione delle attività e le approvazioni in più fasi.
@@ -38,11 +37,11 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ## Risorse correlate
 
-- [Rivedi documentazione flusso di lavoro](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/review/review)
+- [Revisione della documentazione del flusso di lavoro](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/review/review)
 
-- Integrazione di [AEM Guides con Workfront](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Integrazione di AEM Guides con Workfront](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Personalizzazione dell&#39;interfaccia utente di revisione](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Personalizzazione dell’interfaccia utente di revisione](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 

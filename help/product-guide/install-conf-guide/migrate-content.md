@@ -4,13 +4,12 @@ description: Scopri come eseguire la migrazione dei contenuti esistenti
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: d3d24119-8a3c-40f2-994f-3c0e5ee37f59
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '155'
 ht-degree: 2%
-
 ---
-
 # Migrare i contenuti esistenti {#id181AGB000Y4}
 
 AEM Guides consente di convertire in formato DITA diversi documenti strutturati e non strutturati. In questo argomento vengono fornite informazioni sul caricamento del contenuto DITA nell&#39;archivio AEM e sulla conversione del contenuto non DITA in formato DITA.
@@ -24,5 +23,3 @@ La tabella seguente illustra i diversi metodi di migrazione disponibili per il c
 | Cloud Service | Locale |
 |-------------|------------|
 | <ul><li>[Usa il comando Curl per caricare il contenuto DITA](./use-curl-command.md)</li><li>[Configura modello file UUID](./conf-uuid-filename-pattern.md)</li><li>[Migrare contenuto non DITA](./non-dita-content.md)</li><li>[Migra contenuto da locale a Cloud Service](./migrate-on-premise-content-cloud.md)</li></ul> | <ul><li>[Carica contenuto DITA esistente tramite Framemaker e lo strumento WebDav (On-Prem)](upload-dita-content.md)</li><li>[Usa il comando Curl per caricare il contenuto DITA](./use-curl-command.md)</li><li>[Configura modello file UUID](./conf-uuid-filename-pattern.md)</li><li>[Migrare contenuto non DITA](./non-dita-content.md)</li></ul> |
-
-

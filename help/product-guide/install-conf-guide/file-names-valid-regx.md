@@ -4,13 +4,12 @@ description: Scopri come configurare Regx per caratteri validi per i nomi di fil
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Configura Regx per caratteri validi per i nomi di file {#id214BD0550E8}
 
 A partire da AEM Guides versione 3.8, in qualità di amministratore, puoi definire un elenco di caratteri speciali validi consentiti nei nomi dei file. Nelle versioni precedenti, gli utenti potevano definire nomi di file contenenti caratteri speciali come `@`, `$`, `>` e altri. Questi caratteri speciali causavano problemi durante l’apertura degli argomenti dal dashboard delle mappe DITA o durante la selezione del collegamento dell’argomento nel sommario, che spesso impediva l’apertura della pagina a causa di caratteri speciali nell’URL.

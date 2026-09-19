@@ -4,13 +4,12 @@ description: Scopri come configurare e personalizzare i flussi di lavoro
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2280'
 ht-degree: 2%
-
 ---
-
 # Configurare e personalizzare i flussi di lavoro {#id181AI0OJ0RO}
 
 I flussi di lavoro consentono di automatizzare le attività di Adobe Experience Manager \(AEM\). Un flusso di lavoro è costituito da una serie di passaggi eseguiti in un ordine specifico. Puoi definire un’attività distinta da eseguire in ogni passaggio. Ad esempio, è possibile inviare una notifica e-mail a tutti i revisori di un gruppo quando viene creata una revisione dell&#39;argomento. In alternativa, invia una notifica all’editore al termine di un’attività di generazione dell’output.
@@ -95,7 +94,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `initiator` | Stringa | ID utente dell&#39;utente che avvia l&#39;attività di revisione. |
 | `operation` | Stringa | Un valore statico impostato come `AEM_REVIEW`. |
 | `orgTopics` | Stringa | Percorso degli argomenti condivisi per la revisione. Specifica più argomenti separati da virgole. |
-| `payloadJson` | Oggetto JSON | Specifica i seguenti valori: -   `base`: percorso della cartella padre contenente l&#39;argomento inviato per la revisione. <br> -   `asset`: percorso dell&#39;argomento inviato per la revisione. <br> -   `referrer`: lasciare vuoto il campo. |
+| `payloadJson` | Oggetto JSON | Specificare i valori seguenti: - `base`: percorso della cartella principale contenente l&#39;argomento inviato per la revisione. <br> - `asset`: percorso dell&#39;argomento inviato per la revisione. <br> - `referrer`: lasciare vuoto il campo. |
 | `deadline` | Stringa | Specificare l&#39;ora nel formato `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Stringa | Immettere un titolo per l&#39;attività di revisione. |
 | `description` | Stringa | Immettere una descrizione per il task di revisione. |
@@ -110,7 +109,7 @@ workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 | `ditamap` | Stringa | Specifica il percorso della mappa dei tag dell&#39;attività di revisione |
 | `allowAllReviewers` | Booleano | false/true |
 | `notifyViaEmail` | Booleano | false/true |
-| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è impostato su `3.0`.<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
+| `reviewVersion` | Stringa | Specifica la versione corrente del flusso di lavoro Revisione. Il valore predefinito è `3.0` .<br> Per abilitare le nuove funzionalità del flusso di lavoro di revisione per [Autori](../user-guide/review-close-review-task.md) e [Revisori](../user-guide/review-complete-review-tasks.md), assicurati che `reviewVersion` sia impostato su `3.0`. |
 
 
 Dopo aver creato lo script, chiamalo prima del processo Crea revisione nel flusso di lavoro. Quindi, a seconda delle tue esigenze, puoi chiamare gli altri processi del flusso di lavoro di revisione.

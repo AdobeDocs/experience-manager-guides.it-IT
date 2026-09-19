@@ -4,13 +4,12 @@ description: Scopri come configurare un modello di argomento DITA personalizzato
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # Configura modello di argomento DITA personalizzato {#id16A7G0O02TD}
 
 AEM Guides viene fornito con i seguenti modelli di argomenti DITA:
@@ -68,7 +67,7 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specifica un percorso in cui memorizzare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mapping e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Specificare un percorso in cui archiviare i modelli personalizzati.<br> Se il percorso specificato esiste in DAM, tutti i modelli di mappa e argomenti predefiniti vengono copiati in tale cartella. Se il percorso non esiste, la cartella viene creata con tutti i modelli predefiniti per mappe e argomenti. |
 
 >[!TAB On-Premise]
 

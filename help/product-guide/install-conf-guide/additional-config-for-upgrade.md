@@ -1,13 +1,12 @@
 ---
 title: Configurazione aggiuntiva per l’aggiornamento di Cloud Service
 description: Scopri la configurazione aggiuntiva per l’aggiornamento di Cloud Service
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 92230263-776f-4019-8654-f35895785398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
-
+source-wordcount: '863'
+ht-degree: 1%
 ---
-
 # Configurazione aggiuntiva per l’aggiornamento di AEM Guides as Cloud Service
 
 >[!INFO]
@@ -60,7 +59,7 @@ Attendere il completamento del processo prima di procedere ai passaggi successiv
 >
 >Verifica se il nodo è ancora presente e lo stato del processo.
 
-GET:
+OTTIENI:
 
 ```
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
@@ -106,7 +105,7 @@ Effettua le seguenti operazioni per la post-elaborazione del contenuto esistente
 
 1. Eseguire una richiesta POST al server (con autenticazione corretta) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API restituisce un jobId. Per verificare lo stato del processo, è possibile inviare una richiesta GET con ID processo allo stesso endpoint - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API restituisce un jobId. Per verificare lo stato del processo, puoi inviare una richiesta GET con ID processo allo stesso endpoint: `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (ad esempio: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Una volta completato il processo, la precedente richiesta GET risponde con successo. Se il processo non riesce per qualche motivo, l’errore può essere visualizzato dai registri del server.

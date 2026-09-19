@@ -1,20 +1,19 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento e problemi risolti in Adobe Experience Manager Guides, versione 2026.04.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 2026.04.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 897d70d4-7f35-41e3-95ff-6cabeeacb1ac
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 11%
-
+source-wordcount: '325'
+ht-degree: 1%
 ---
-
 # Istruzioni per l’aggiornamento alla versione 2026.04.0
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 2026.04.0 di Adobe Experience Manager Guides as a Cloud Service.
 
-Per ulteriori informazioni sulle nuove funzioni e sui miglioramenti, consulta [Novità della versione 2026.04.0](whats-new-2026-04-0.md).
+Per ulteriori informazioni sulle nuove funzionalità e sui miglioramenti, visualizza [Novità della versione 2026.04.0](whats-new-2026-04-0.md).
 
-Per un elenco dei problemi risolti in questa versione, consulta [Problemi risolti nella versione 2026.04.0](fixed-issues-2026-04-0.md).
+Per l&#39;elenco dei problemi risolti in questa versione, visualizzare [Problemi risolti nella versione 2026.04.0](fixed-issues-2026-04-0.md).
 
 ## Matrice di compatibilità
 
@@ -24,7 +23,7 @@ Questa sezione descrive la matrice di compatibilità per le applicazioni softwar
 
 | Versione di Experience Manager Guides as a Cloud | FMPS | FrameMaker | Autore ossigeno |
 | --- | --- | --- | --- |
-| 2026.04.0 | Non compatibile | 2022 o versione successiva | 26,1 |
+| 2026.04.0 | Non compatibile | 2022 o versione successiva | 26.1 |
 
 
 ### Connettore ossigeno
