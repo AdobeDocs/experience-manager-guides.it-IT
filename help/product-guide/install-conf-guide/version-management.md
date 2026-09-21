@@ -5,13 +5,11 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
+source-git-commit: 3574ed5fe856a1ceb6f8c933ba084b092589b544
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 0%
-
+source-wordcount: '2299'
+ht-degree: 1%
 ---
-
 # Gestione delle versioni {#id181GB000XY4}
 
 Il controllo delle versioni è un aspetto importante di qualsiasi sistema di gestione dei contenuti. Consente di creare un’istantanea della risorsa digitale in un momento specifico. Con una versione di una risorsa digitale installata, puoi ripristinare la versione richiesta della risorsa e aggiornarla. In genere, per creare una versione di una risorsa, si estrae e si archivia la risorsa richiesta.
@@ -287,15 +285,15 @@ A seconda degli utenti a cui si desidera concedere l&#39;accesso per l&#39;elimi
 
 >[!ENDTABS]
 
-## Rimuovi versioni precedenti di file DITA
+## Eliminare le versioni precedenti dei file
 
-Quando si aggiorna il contenuto e si creano nuove versioni, le versioni precedenti dei file DITA vengono mantenute nell&#39;archivio. Molte versioni potrebbero essere create per i file DITA in un periodo di tempo e, collettivamente, occupano una grande quantità di spazio nell&#39;archivio. AEM Guides consente di configurare le versioni precedenti da eliminare dall’archivio.
+Quando si aggiorna il contenuto e si creano nuove versioni, le versioni precedenti dei file vengono mantenute nell’archivio. Molte versioni potrebbero essere create per i file in un periodo di tempo e collettivamente occupano una grande quantità di spazio nell’archivio. AEM Guides consente di configurare le versioni precedenti da eliminare dall’archivio.
 
-Puoi accedere a questa utility utilizzando l’URL specificato se disponi di diritti di amministratore:
+>[!NOTE]
+>
+> È possibile eliminare file DITA e non DITA.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-La versione di un file DITA che soddisfa uno qualsiasi dei criteri specificati viene mantenuta e non eliminata:
+La versione di un file che soddisfa uno qualsiasi dei criteri specificati viene mantenuta e non eliminata:
 
 - È la prima versione di un file
 - È incluso in una baseline
@@ -305,20 +303,21 @@ La versione di un file DITA che soddisfa uno qualsiasi dei criteri specificati v
 
 Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
+1. Seleziona il logo Adobe Experience Manager nella parte superiore e scegli **Strumenti**.
+1. Selezionare **Guide** dal pannello Strumenti.
+1. Selezionare il riquadro **Rimozione versione**.
+
+   ![](assets/version-purge.png)
+
 1. Immetti i seguenti dettagli sui file da eliminare:
 
-   ![](assets/preview-purge-report.png)
-
-1. &#x200B;
    - **Numero di versioni da mantenere dall&#39;ultima versione**: immettere il numero di versioni da conservare e non eliminare. Ad esempio, se si immette 5, le ultime 5 versioni vengono mantenute e le versioni precedenti vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
    - **Mantieni versioni create entro l&#39;intervallo di tempo \(In giorni\)**: immettere l&#39;età massima di una versione in giorni. Le versioni precedenti al numero di giorni specificato possono essere eliminate nel caso in cui siano soddisfatte altre condizioni di eliminazione. Ad esempio, se si immette 100, tutte le versioni create prima di 100 giorni vengono qualificate per l&#39;eliminazione nel caso in cui vengano soddisfatte altre condizioni di rimozione.
    - **Percorso**: selezionare il percorso del file o della cartella di cui si desidera eliminare i file.
 
-     >[!NOTE]
-     >
-     > È possibile eliminare solo i file DITA.
+     ![](assets/preview-purge-report.png)
 
-1. Fare clic su **Anteprima report di rimozione**.
+1. Selezionare **Anteprima report di rimozione**.
 
    >[!NOTE]
    >
@@ -333,7 +332,7 @@ Per eliminare le versioni precedenti, effettua le seguenti operazioni:
 
    Viene visualizzato lo stato di rimozione.
 
-   Fare clic su **Scarica rapporto di eliminazione versione** per visualizzare le versioni eliminate. Questo rapporto fornisce lo stato di rimozione su tutte le versioni insieme ai motivi per cui una particolare versione è stata mantenuta o eliminata.
+   Selezionare **Scarica rapporto di eliminazione versione** per visualizzare le versioni eliminate. Questo rapporto fornisce lo stato di rimozione su tutte le versioni insieme ai motivi per cui una particolare versione è stata mantenuta o eliminata.
 
 
 >[!NOTE]
