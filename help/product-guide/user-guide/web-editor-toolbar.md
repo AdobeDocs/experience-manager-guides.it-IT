@@ -7,26 +7,34 @@ exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
 TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
+    internal-label: Metadata
+source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
 workflow-type: tm+mt
-source-wordcount: 6454
+source-wordcount: '6603'
 ht-degree: 0%
-
 ---
-
 # Barra degli strumenti nell’editor
 
 >[!INFO]
@@ -555,7 +563,8 @@ Se l&#39;amministratore ha abilitato l&#39;opzione UUIDs in *XMLEditorConfig*, l
 
 >[!IMPORTANT]
 >
-> In base al comportamento DITA standard, l&#39;attributo scope=`external` non deve essere applicato ai collegamenti interni, in quanto è destinato solo a riferimenti a risorse esterne. L’applicazione di questo attributo ai collegamenti interni potrebbe interrompere i flussi di lavoro. Per il contenuto gestito in Experience Manager Guides, utilizzare invece l&#39;ambito predefinito=`local` o i riferimenti basati su chiave.
+> - In base al comportamento DITA standard, l&#39;attributo scope=`external` non deve essere applicato ai collegamenti interni, in quanto è destinato solo a riferimenti a risorse esterne. L’applicazione di questo attributo ai collegamenti interni potrebbe interrompere i flussi di lavoro. Per il contenuto gestito in Experience Manager Guides, utilizzare invece l&#39;ambito predefinito=`local` o i riferimenti basati su chiave.
+> - Il tipo di riferimento Collegamento Web inserisce sempre l&#39;ambito=`external` per impostazione predefinita e aggiunge l&#39;URL così com&#39;è, senza alcuna modifica. Questo comportamento si applica in modo coerente ai percorsi relativi e assoluti, in tutti i tipi di URL supportati, inclusi HTTP/S e FTP/S.
 
 >[!BEGINTABS]
 

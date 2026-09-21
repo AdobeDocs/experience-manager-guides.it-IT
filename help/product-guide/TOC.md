@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 10%
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 10%
         - [Note sulla versione di gennaio](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versioni](./release-info/latest-release-info.md)
+      - Versione 5.2.0 SP1 {#520-sp1-release}
+        - [Novità](./release-info/whats-new-5-2-1.md)
+        - [Problemi risolti](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - Versione 5.2.0 {#520-release}
         - [Novità](./release-info/whats-new-5-2-0.md)
         - [Problemi risolti](./release-info/fixed-issues-5-2-0.md)
@@ -566,7 +570,10 @@ ht-degree: 10%
     - [Configura nuova linea di base per on-premise](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [Configura il salto dei collegamenti tra pari per On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[Configura nuove raccolte mappe per la generazione dell&#39;output](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Utilizzo del server Experience Manager Guides MCP](./install-conf-guide/conf-aem-guides-mcp.md)
+    - Integrazione con AEM Guides MCP {#mcp}
+      - [Utilizzo del server AEM Guides MCP](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [Configurare il server AEM Guides MCP](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [Configurazione delle impostazioni di connessione MCP per AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - Estensione delle funzioni {#aemg-customization}
     - [Distribuire l’indice personalizzato per la funzione Trova e sostituisci per Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Reindicizza per la funzionalità Trova e sostituisci per On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
