@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -41,7 +41,7 @@ L&#39;**Assistente AI** in Adobe Experience Manager Guides è uno strumento pote
 
 >[!NOTE]
 >
->Per abilitare l’assistente AI in modalità Agentic per il tuo ambiente, contatta il Customer Success Team.
+>Per abilitare l’Assistente AI in modalità Agentic per il tuo ambiente, contatta il Customer Success Team.
 
 L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. Gli amministratori possono scegliere tra le due modalità dalla sezione **Assistente AI** della scheda **Generale** in **Impostazioni Workspace**. Il pannello Assistente AI rimane lo stesso in entrambe le modalità nell’editor, ma le funzionalità disponibili al suo interno differiscono:
 
@@ -79,14 +79,14 @@ Per ulteriori dettagli, visualizzare la [Guida](./ai-based-smart-help.md).
 
 ## Introduzione all’Assistente IA in modalità Standard
 
-Quando utilizzi **IA Asistant** in modalità Standard per la prima volta, ti viene richiesto di inviare il consenso prima di utilizzare le funzionalità di Experience Manager Guides Generative AI.
+Quando si utilizza **Assistente IA** in modalità Standard per la prima volta, viene richiesto di inviare il consenso prima di utilizzare le funzionalità di IA generativa di Experience Manager Guides.
 
 Per avviare l’Assistente IA, effettua le seguenti operazioni:
 
 1. Accedi a Experience Manager Guides.
 1. Nella home page, selezionare **Assistente AI** dall&#39;alto. Assicurati che l’amministratore abbia abilitato la funzione Assistente AI nella modalità desiderata.
 
-L&#39;Assistente AI visualizza le caratteristiche chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
+L&#39;Assistente AI visualizza le funzionalità chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
 
 ![Pannello Guida avanzato](images/get-started-ai.png)
 

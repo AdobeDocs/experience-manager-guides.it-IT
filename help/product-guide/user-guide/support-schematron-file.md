@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Quando aprite un argomento nell&#39;editor, a destra viene visualizzato il panne
 
    >[!NOTE]
    >
-   > I risultati della convalida vengono visualizzati in base all&#39;attributo del ruolo definito nel file Schematron. Per ulteriori dettagli, visualizzare [Informazioni sui risultati della convalida e sui livelli di gravità](#understanding-validation-results-and-serverity-levels).
+   > I risultati della convalida vengono visualizzati in base all&#39;attributo del ruolo definito nel file Schematron. Per ulteriori dettagli, visualizzare [Informazioni sui risultati della convalida e sui livelli di gravità](#understanding-validation-results-and-severity-levels).
 
 1. Seleziona il messaggio di errore per evidenziare l’elemento contenente l’errore nell’argomento/mappa aperto.
 
@@ -89,7 +89,7 @@ I risultati della convalida vengono visualizzati in base all&#39;attributo del r
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-Per determinare la gravità di un problema, viene valutato il valore _case-senstive_ dell&#39;attributo di ruolo definito nel file Schematron corrispondente.
+Per determinare la gravità di un problema, viene valutato il valore _con distinzione tra maiuscole e minuscole_ dell&#39;attributo di ruolo definito nel file Schematron corrispondente.
 
 Lo snippet seguente mostra i valori degli attributi di ruolo supportati definiti in una regola Schematron:
 
