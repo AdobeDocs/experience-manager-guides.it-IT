@@ -155,4 +155,4 @@ Quando utilizzi questa funzione, tieni presente che:
 - I filtri e la ricerca sono applicabili solo ai commenti dell&#39;attività selezionata, mentre i commenti di altre attività non selezionate non vengono interessati.
 
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
