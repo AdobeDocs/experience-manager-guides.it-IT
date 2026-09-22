@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 10%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 10%
       - {hide-from-toc}[Istruzioni di distribuzione](./release-info/deploy-xml-on-aemaacs.md)
       - [Versioni cloud](./release-info/latest-release-info-cs.md)
       - Versioni del 2026 {#2026-releases}
+        - Versione 2026.09.0 {#2609-release}
+          - [Novità](./release-info/whats-new-2026-09-0.md)
+          - [Problemi risolti](./release-info/fixed-issues-2026-09-0.md)
+          - [Istruzioni per l’aggiornamento](./release-info/upgrade-instructions-2026-09-0.md)
         - Versione 2026.08.0 {#2608-release}
           - [Novità](./release-info/whats-new-2026-08-0.md)
           - [Problemi risolti](./release-info/fixed-issues-2026-08-0.md)
@@ -220,7 +224,7 @@ ht-degree: 10%
     - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
       - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-      - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
     - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -364,12 +368,13 @@ ht-degree: 10%
   - Assistente AI in AEM Guides {#ai-assistant-aem}
     - [Informazioni sugli utenti di Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
     - [Panoramica dell’Assistente AI](./user-guide/ai-assistant.md)
-    - [Guida intelligente basata sull’intelligenza artificiale per cercare contenuti](./user-guide/ai-based-smart-help.md)
-    - [Creazione guidata Assistente AI per l&#39;authoring intelligente dei documenti](./user-guide/ai-assistant-right-panel.md)
-    - [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [Domande frequenti](./user-guide/ai-assistant-faq.md)
-  - Guide di IA in AEM Guides {#guides-ai-aem}
-    - [Introduzione alle guide AI](./user-guide/guides-ai.md)
+    - Assistente AI in modalità Agentic {#ai-assistant-agentic}
+      - [Utilizzare l’Assistente IA in modalità Agentic](./user-guide/ai-assistant-agentic.md)
+    - Assistente AI in modalità Standard {#ai-assistant-standard}
+      - [Guida intelligente basata sull’intelligenza artificiale per cercare contenuti](./user-guide/ai-based-smart-help.md)
+      - [Creazione guidata Assistente AI per l&#39;authoring intelligente dei documenti](./user-guide/ai-assistant-right-panel.md)
+      - [Suggerimenti avanzati basati sull’intelligenza artificiale per l’authoring dei contenuti](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [Domande frequenti](./user-guide/ai-assistant-faq.md)
   - Gestisci contenuti di apprendimento {#learning-training-content}
     - Guida introduttiva {#get-started}
       - Introduzione {#intro-lc}
@@ -429,8 +434,10 @@ ht-degree: 10%
     - Risoluzione di problemi {#troubleshooting}
       - [Timeout della sessione](./user-guide/session-timeout-prompt.md)
       - [La stringa è un&#39;eccezione troppo lunga nell&#39;esportazione dei metadati](./user-guide/metadata-export-failure.md)
+    - Gestione delle prestazioni {#performance-management}
+      - [Caricamento impaginato di file e cartelle](./user-guide/paginated-loading-assets.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
   - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
   - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
@@ -500,6 +507,7 @@ ht-degree: 10%
     - [Installare pacchetti per la pubblicazione basata su articoli](./install-conf-guide/conf-article-based-publishing.md)
     - [Configurare l’elenco da ignorare delle proprietà dei metadati](./install-conf-guide/conf-metadata-prop.md)
     - Impostazione editor per Cloud Service {#editor-cloud-settings}
+      - [Configurare l’Assistente AI in modalità Agentic per Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Configura i suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring per Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti in Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Configurare l’opzione da modificare in Ossigeno per Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -556,10 +564,11 @@ ht-degree: 10%
         - [Configura il nuovo motore di pubblicazione per PDF nativo](./native-pdf/conf-new-pdf-engine.md)
       - [Utilizzare il motore PDF nativo v2](./native-pdf/new-pdf-engine.md)
       - [Configura processo nodo per pubblicazione PDF nativa per Cloud Service](./native-pdf/conf-node-options-cs.md)
-      - [Configurare i flag JVM per la pubblicazione nativa di PDF per on-premise](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [Configurazione dei flag JVM per la pubblicazione nativa di PDF per on-premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configurare frammenti di contenuto ed esperienza per Cloud Service {#conf-content-exp-fragment}
       - [Creare una mappatura tra un argomento e un frammento di contenuto](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Creare una mappatura tra un argomento e un frammento di esperienza](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [Configura limite dimensioni entità parser XML](./install-conf-guide/conf-xml-parsing.md)
   - Personalizzazione del flusso di lavoro {#workflow}
     - [Configurare e personalizzare i flussi di lavoro](./install-conf-guide/conf-customize-workflows.md)
   - Integrazioni {#aemg-integrations}
