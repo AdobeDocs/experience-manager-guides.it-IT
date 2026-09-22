@@ -4,19 +4,17 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2373'
 ht-degree: 0%
-
 ---
-
 # Impostazioni Workspace
 
 >[!NOTE]
 >
 > Nella configurazione on-premise precedente alla versione 5.2, l&#39;opzione **Impostazioni** viene visualizzata nella barra delle schede dell&#39;editor. Per le configurazioni Cloud Service e On-Premise nella versione 5.2 e successive, questa opzione è stata rinominata **Impostazioni Workspace**. Tutte le opzioni di configurazione esistenti disponibili in **Impostazioni editor** rimangono invariate.
-> ![Impostazione editor per on-premise](assets/editor-settings-on-prem.png){width="650"}
+> ![Impostazione editor per On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../user-guide/web-editor-tab-bar.md) dell&#39;editor è disponibile solo per gli amministratori e gli amministratori dei profili di cartella e consente di configurare le impostazioni seguenti:
@@ -42,14 +40,27 @@ L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../
 
 Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene cinque sezioni: **Assistente IA**, **Authoring**, **Citazioni**, **Condizione** e **Controllo ortografico**.
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
 - **Assistente IA**
-Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../user-guide/ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
 
-  Dopo aver attivato l&#39;Assistente di **IA**, è possibile configurare le opzioni visualizzate nella **scheda Authoring** per gli autori utilizzando il menu **Azioni rapide di authoring** come illustrato di seguito.\
-  Queste modifiche si applicano al profilo di cartella specifico con cui stai lavorando. Se crei un nuovo profilo di cartella, questo erediterà le impostazioni di Workspace definite nel profilo di cartella **Global** per impostazione predefinita. Puoi modificare queste impostazioni in base alle esigenze utilizzando le **impostazioni Workspace** e salvare la configurazione aggiornata.\
-  Per una panoramica dettagliata delle opzioni disponibili per l&#39;authoring mediante l&#39;Assistente all&#39;intelligenza artificiale, visualizzare [i documenti creati in modo intelligente con l&#39;Assistente all&#39;intelligenza artificiale](../user-guide/ai-assistant-right-panel.md).
+  >[!NOTE]
+  >
+  > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success.
+
+  Selezionare questa opzione per abilitare la funzionalità [Assistente IA](../user-guide/ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
+
+  L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. È possibile scegliere tra le due modalità attivando le rispettive opzioni.
+
+  - **Agente**: dopo aver abilitato questa opzione, potrai accedere alla funzionalità dell&#39;Assistente di IA per l&#39;agente dalla barra di spostamento nella home page e dalla barra delle schede nell&#39;interfaccia dell&#39;editor. Per informazioni dettagliate su come generare tag di IA suggeriti per gli argomenti, visualizzare [Utilizzare l&#39;Assistente di IA in modalità Agentic](../user-guide/ai-assistant-agentic.md).
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **Standard**: dopo aver abilitato l&#39;interruttore **Standard**, puoi configurare le opzioni visualizzate nella **scheda Authoring** per gli autori utilizzando il menu **Azioni rapide authoring** come mostrato di seguito.
+
+    Queste modifiche si applicano al profilo di cartella specifico con cui stai lavorando. Se crei un nuovo profilo di cartella, questo erediterà le impostazioni di Workspace definite nel profilo di cartella **Global** per impostazione predefinita. Puoi modificare queste impostazioni in base alle esigenze utilizzando le **impostazioni Workspace** e salvare la configurazione aggiornata.
+
+    Per una panoramica dettagliata delle opzioni disponibili per l&#39;authoring mediante l&#39;Assistente all&#39;intelligenza artificiale, visualizzare [i documenti creati in modo intelligente con l&#39;Assistente all&#39;intelligenza artificiale](../user-guide/ai-assistant-right-panel.md).
 
   Dal menu **Creazione di azioni rapide** puoi effettuare le seguenti operazioni:
 
@@ -57,19 +68,7 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
   - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **Guide AI**
-
-  >[!NOTE]
-  >
-  > Per utilizzare la funzione di intelligenza artificiale delle guide nell’ambiente, contatta il team Customer Success. È possibile abilitare una sola esperienza di intelligenza artificiale alla volta: Guide AI o Assistente di intelligenza artificiale.
-
-  Selezionare **Guide AI** per attivare questa funzionalità in Experience Manager Guides.Deselezionare per disattivare la funzionalità.
-
-  Dopo aver abilitato questa opzione, potrai accedere alla funzione di IA per le guide dalla barra di navigazione nella pagina Home e dalla barra delle schede nell’interfaccia dell’editor. Per informazioni dettagliate su come generare tag di IA suggeriti per gli argomenti, visualizzare [Introduzione a Guide AI](../user-guide/guides-ai.md).
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **Authoring**
 

@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Altre opzioni del menu Inserisci
 
 Le altre opzioni disponibili nel menu Inserisci della barra degli strumenti dell&#39;editor includono:
@@ -52,11 +55,17 @@ Le altre opzioni disponibili nel menu Inserisci della barra degli strumenti dell
 
   ![](assets/upload-assets-option.png)
 
-  Al termine, rivedi il contenuto H5P in modalità Anteprima e l’output pubblicato.
+  Al termine, rivedi il contenuto H5P in modalità Anteprima e l’output pubblicato. Il contenuto H5P supporta anche un&#39;opzione di visualizzazione a schermo intero. Puoi abilitare o disabilitare la modalità a tutto schermo per ogni elemento H5P incorporato tramite un interruttore dedicato nel pannello Proprietà contenuto. Quando questa opzione è attivata, gli Allievi possono espandere il contenuto a schermo intero; se è disattivata, il contenuto rimane in linea all’interno della visualizzazione standard. Questa impostazione viene applicata in modo coerente in modalità Anteprima e nell’output pubblicato.
 
   >[!NOTE]
   >
   > La modifica o la creazione di contenuti H5P non è supportata in Adobe Experience Manager Guides. Preparare il pacchetto H5P esternamente prima di caricarlo.
+
+  ![](assets/h5p-fullscreen.png)
+
+  **Modalità anteprima**
+
+  ![](assets/h5p-preview.png)
 
 
 - **Equazione MathML:** inserisce equazioni MathML nel contenuto. Puoi creare un&#39;equazione di MathML e selezionare **Inserisci** per aggiungerla al documento.

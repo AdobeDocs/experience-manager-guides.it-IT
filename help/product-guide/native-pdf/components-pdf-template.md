@@ -8,19 +8,22 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
 workflow-type: tm+mt
-source-wordcount: 4601
+source-wordcount: '5053'
 ht-degree: 0%
-
 ---
-
 # Componenti di un modello PDF {#components-pdf-template}
 
 Un modello PDF include quattro componenti: Layout di pagina, Fogli di stile, Risorse e Impostazioni. Puoi creare un modello personalizzando questi singoli componenti e associando il modello a un predefinito di output durante la generazione di un output di PDF. Le sezioni seguenti descrivono in dettaglio questi componenti e il loro processo di personalizzazione.
@@ -202,6 +205,28 @@ Per aggiungere un file di risorse alla cartella Risorse, effettua le seguenti op
 1. Fai clic su **Carica**.
 Il file selezionato viene importato ed elencato nella cartella Risorse.
 
+## Mostrare o nascondere i commenti bozza nell&#39;output PDF nativo
+
+Per impostazione predefinita, i commenti bozza aggiunti in un argomento DITA sono esclusi dall&#39;output PDF nativo. Questa proprietà è controllata dallo stile `draft-comment` nel foglio di stile del contenuto del modello di output, dove la proprietà `display` è impostata su `none`.
+
+In qualità di amministratore, puoi aggiornare questo stile in modo che i commenti bozza siano visibili nell’output:
+
+1. Nel pannello **Modelli di output**, apri il modello utilizzato dalla mappa per la pubblicazione in PDF.
+2. Espandere **Fogli di stile** e fare doppio clic su **contenuto** per aprire il foglio di stile contenuto.
+3. Nel pannello **Stili**, individua e seleziona **bozza-commento**.
+
+   Utilizza il campo di ricerca per trovare rapidamente se l’elenco è lungo.
+
+4. Nel pannello **Proprietà**, modifica il valore della proprietà **visualizzazione** da `none` a un valore visibile (ad esempio `block`, `inline-block`, `grid` e altro).
+
+   ![Configurare la proprietà bozza-commento nel foglio di stile del contenuto](./assets/draft-comment-setting.png)
+
+5. Salvare il foglio di stile.
+
+>[!NOTE]
+>
+>Questo stile controlla se i commenti bozza sono visibili nel contenuto formattato in generale. Per includere commenti bozza in modo specifico nell&#39;output **PDF nativo**, è necessario abilitare anche l&#39;opzione **Includi commenti bozza** nel predefinito di output PDF nativo. Per ulteriori dettagli, visualizzare [Predefinito di output PDF nativo](../web-editor/native-pdf-web-editor.md). Entrambe le impostazioni sono necessarie insieme affinché i commenti bozza vengano visualizzati nel PDF generato esattamente come appaiono nell’editor.
+
 ## Impostazioni PDF avanzate {#advanced-pdf-settings}
 
 Utilizza la sezione Impostazioni per configurare le impostazioni avanzate per il layout di pagina di PDF, avviando PDF da una pagina pari o dispari, i formati per i riferimenti incrociati e abilitando i segni di stampa nel PDF finale generato
@@ -223,8 +248,8 @@ Impostate le impostazioni di configurazione di base per l&#39;avvio di un capito
 
 * **Struttura sommario**: consente di personalizzare la gerarchia del sommario. Vengono utilizzate le seguenti impostazioni aggiuntive:
 
-   * **Utilizza titoli fino al livello**: ti consente di regolare il numero di livelli di intestazione da visualizzare nella struttura del sommario del PDF.
-   * **Non mostrare il numero di pagina per il primo livello nel sommario**: selezionare questa opzione per nascondere i numeri di pagina corrispondenti per tutti i capitoli che contengono argomenti nidificati o secondari. Considera l’esempio seguente in cui viene creato un output senza selezionare questa opzione.
+  * **Utilizza titoli fino al livello**: ti consente di regolare il numero di livelli di intestazione da visualizzare nella struttura del sommario del PDF.
+  * **Non mostrare il numero di pagina per il primo livello nel sommario**: selezionare questa opzione per nascondere i numeri di pagina corrispondenti per tutti i capitoli che contengono argomenti nidificati o secondari. Considera l’esempio seguente in cui viene creato un output senza selezionare questa opzione.
 
   <img src="assets/page-number-in-toc.png" alt="Caricare le risorse" width="250">
 
@@ -245,16 +270,20 @@ Per applicare la struttura del sommario e i livelli di intestazione degli stili,
   >Se sei uno sviluppatore CSS, puoi definire il formato guida direttamente anche nel file CSS.
 
 * **Usa marcatore di continuazione tabella**: selezionare questa opzione per definire marcatori per tabelle lunghe distribuite su più pagine.
-Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad esempio, una tabella si interrompe a pagina 5 e si definisce `<Continued on page %page-num%>` per **Testo prima dell&#39;interruzione**. Nella parte inferiore della pagina 5 viene visualizzato &quot;Continua a pagina 6&quot;.
+Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad esempio, una tabella si interrompe a pagina 5 e si definisce `<Continued on page %page-num%>` per **Testo prima dell&#39;interruzione**.  Nella parte inferiore della pagina 5 viene visualizzato &quot;Continua a pagina 6&quot;.
 
   Utilizza le variabili di lingua per definire il testo del marcatore di continuazione prima e dopo l’interruzione. A seconda della lingua scelta, il valore localizzato viene selezionato automaticamente nell’output di PDF. È ad esempio possibile pubblicare `Continued on page %page-num%` come testo in inglese e `Fortsetzung auf Seite %page-num%` in tedesco.
 
   Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino all&#39;opzione per visualizzare ulteriori dettagli su di essa.
+
+  >[!NOTE]
+  >
+  > Quando si utilizza una variabile di lingua nel campo **Testo prima della pausa** o **Testo dopo la pausa**, assicurarsi che l&#39;intero testo sia definito in una singola variabile di lingua. Non viene eseguito il rendering di testo o variabili aggiunti al di fuori della variabile di lingua in questi campi. Ad esempio, invece di utilizzare una combinazione di variabili come `${lng:Continued-from-page} %page-num%` nel campo **Testo dopo interruzione**, utilizzare solo `${lng:Continued-from-page}` nel campo e impostare separatamente il valore della variabile di lingua `Continued-from-page` su `Continued-from-page %page-num%`.
 * **Collegare i termini del glossario alla pagina del glossario**: selezionare questa opzione per visualizzare i termini del glossario come collegamenti ipertestuali nel contenuto e collegarli ai termini nella pagina del glossario. Ciò consente ai lettori di visualizzare rapidamente la definizione di un termine definito nel glossario.
 
   Per convertire i termini del glossario in collegamenti ipertestuali, è necessario:
-   * Abilitare **Glossario** nella scheda **Ordine di layout pagina** per una mappa DITA.
-   * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
+  * Abilitare **Glossario** nella scheda **Ordine di layout pagina** per una mappa DITA.
+  * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
 
   Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output di PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
@@ -394,11 +423,11 @@ Selezionare un ordine di pagina che determini la sequenza delle pagine nel docum
 * **Opuscolo**: tutte le pagine sono ordinate come in un opuscolo.
 * **Opuscolo da destra a sinistra**: tutte le pagine sono in ordine da destra a sinistra.
 * **Personalizzato**: definisci un ordine di pagine personalizzato anziché predefinito.
-   * &quot;a..b&quot; — Tutte le pagine consecutive da a a b.
-   * &quot;a,b,c&quot; — Ordine delle nuove pagine a, b, c.
-   * &quot;a*b&quot; — La pagina a viene ripetuta b volte.
-   * &quot;-a&quot; — I numeri di pagina negativi vengono conteggiati a ritroso a partire dall’ultima pagina e possono essere combinati con altri ordini personalizzati.
-   * &quot;X&quot; — Tutte le pagine del documento. Stesso risultato di &quot;1..-1&quot;.
+  * &quot;a..b&quot; — Tutte le pagine consecutive da a a b.
+  * &quot;a,b,c&quot; — Ordine delle nuove pagine a, b, c.
+  * &quot;a*b&quot; — La pagina a viene ripetuta b volte.
+  * &quot;-a&quot; — I numeri di pagina negativi vengono conteggiati a ritroso a partire dall’ultima pagina e possono essere combinati con altri ordini personalizzati.
+  * &quot;X&quot; — Tutte le pagine del documento. Stesso risultato di &quot;1..-1&quot;.
 
 Ad esempio, puoi assegnare un ordine personalizzato come &quot;2,3,5*2,7..10,-1,-2.
 L&#39;ordine di pagina specificato determina un PDF con i seguenti numeri di pagina dal documento originale, supponendo che contenga 25 pagine in totale: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.

@@ -7,26 +7,34 @@ role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Administration
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3753'
 ht-degree: 0%
-
 ---
-
 # Rivedi argomenti {#id2056B0W0FBI}
 
 Se sei un revisore, riceverai un’e-mail di richiesta di revisione con il collegamento agli argomenti di revisione. Utilizzando questo collegamento è possibile accedere alla pagina di revisione in cui è possibile aggiungere il proprio feedback sugli argomenti condivisi.
@@ -68,7 +76,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
      Selezionare ![](images/view-options.svg) vicino alla barra di ricerca per scegliere di visualizzare tutti gli argomenti o visualizzare gli argomenti con commenti. Per impostazione predefinita, è possibile visualizzare tutti gli argomenti presenti nell&#39;attività di revisione.
 
 
-   - **D**: i numeri evidenziati da ***F*** possono essere filtrati scegliendo l&#39;opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascuno degli argomenti della sezione Revisione, selezionare l&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
+   - **D**: i numeri evidenziati da ***E*** possono essere filtrati scegliendo l&#39;opzione di filtro desiderata da qui. È possibile filtrare i commenti in base al tipo, allo stato, al revisore o alla versione. Ad esempio, per visualizzare il numero di commenti barrati in ciascuno degli argomenti della sezione Revisione, selezionare l&#39;icona del filtro e quindi scegliere **Tipo di revisione** \> **Eliminazione**.
 
      >[!NOTE]
      >
@@ -80,7 +88,7 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    - **G**: numero di commenti ricevuti su un argomento. Questo numero cambia in base al filtro applicato.
 
 
-   Tutti gli argomenti della mappa vengono visualizzati come un unico documento composito. Gli argomenti che il revisore può esaminare vengono visualizzati normalmente. Gli argomenti che non possono essere esaminati dalla revisione non vengono visualizzati.
+   Tutti gli argomenti della mappa vengono visualizzati come un unico documento composito. Gli argomenti che il revisore può esaminare vengono visualizzati normalmente. Gli argomenti che il revisore non può esaminare vengono visualizzati come disabilitati.
 
    ![](images/review-read-only.png)
 
@@ -104,6 +112,76 @@ Per rivedere un argomento, effettua le seguenti operazioni:
    > Il pannello Commenti mostra i commenti forniti solo sugli argomenti correnti. Quando si sposta lo stato attivo su un altro argomento, vengono visualizzati i commenti relativi all&#39;altro argomento.
 
 1. Seleziona il pulsante **Chiudi** una volta completata la revisione dell&#39;argomento. Quando selezioni il pulsante **Chiudi**, verrai reindirizzato alla pagina da cui hai effettuato l&#39;accesso all&#39;argomento della revisione.
+
+## Contrassegna singoli argomenti come completati in un&#39;attività di revisione
+
+>[!NOTE]
+>
+> Questa funzione è abilitata per impostazione predefinita a partire dalla versione 2026.09.0 di Experience Manager Guides as a Cloud Service. Se preferisci passare al comportamento precedente, contatta il team Customer Success per disabilitare questa funzione per il tuo ambiente.
+
+Se un&#39;attività di revisione contiene un numero elevato di argomenti, potrebbe non essere possibile esaminarli tutti in una singola sessione. Ad esempio, se vi è stata assegnata un&#39;attività di revisione con circa 50 argomenti, quando tornate all&#39;attività può risultare difficile tenere traccia degli argomenti già esaminati e di quelli che richiedono ancora la vostra attenzione.
+
+La funzionalità **Contrassegna argomento come completato** consente di contrassegnare singoli argomenti come completati durante la revisione. In questo modo è più facile identificare gli argomenti già trattati e concentrarsi sugli argomenti ancora in sospeso.
+
+Per contrassegnare singoli argomenti come completati in un&#39;attività di revisione, effettuare le operazioni riportate di seguito.
+
+1. Aprire l&#39;attività di revisione assegnata all&#39;utente.
+
+1. Nell&#39;interfaccia utente Revisione aprire gli argomenti assegnati dal pannello **Argomenti** oppure passare alla **visualizzazione documento** per visualizzare tutti gli argomenti insieme come documento composito.
+
+1. Ogni argomento viene visualizzato in un pannello a soffietto con una casella di controllo **Contrassegna argomento come completato**, come illustrato di seguito.
+
+   >[!NOTE]
+   >
+   >Gli argomenti inclusi nell&#39;attività di revisione ma non assegnati all&#39;utente sono disabilitati e non possono essere contrassegnati come completati.
+
+   **Visualizzazione pannello Argomenti:**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Visualizzazione documento:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Rivedi un argomento e aggiungi commenti o feedback come richiesto.
+
+1. Al termine della revisione dell&#39;argomento, selezionare la casella di controllo **Contrassegna argomento come completato**.
+
+   Il pannello a soffietto dell&#39;argomento viene compresso automaticamente. È possibile riaprire il pannello a soffietto in qualsiasi momento prima di completare l&#39;attività di revisione. Per aggiungere altri commenti, espandi il pannello a soffietto dell’argomento e aggiungi i tuoi commenti.
+
+   >[!NOTE]
+   >
+   >Se la casella di controllo **Contrassegna argomento come completato** è selezionata o deselezionata dipende da chi sta esaminando l&#39;argomento e dalla versione in corso di revisione:
+   >
+   > - **Quando vengono assegnati più revisori:** la selezione della casella di controllo è valida solo per te. Se si seleziona **Contrassegna argomento come completato**, la casella di controllo rimane invariata per gli altri revisori assegnati allo stesso argomento.
+   > - **Quando cambia la versione dell&#39;argomento:** la selezione della casella di controllo è valida solo per la versione esaminata. Se si seleziona **Contrassegna argomento come completato** per la versione 1.0 e l&#39;autore modifica l&#39;argomento alla versione 1.1, la casella di controllo viene reimpostata automaticamente. Se l’Autore torna alla versione 1.0, la casella di controllo rimane deselezionata.
+
+1. Ripetere i passaggi precedenti per gli altri argomenti esaminati.
+
+   >[!NOTE]
+   >
+   > Contrassegnare singoli argomenti come completati consente di tenere traccia dello stato di avanzamento della revisione e non è necessario per completare l&#39;attività di revisione. È possibile completare l&#39;attività di revisione anche se alcuni argomenti non sono contrassegnati come completati.
+
+   ![](images/mark-topics-done-all.png)
+
+   I seguenti indicatori visivi nell’interfaccia utente Revisione consentono di tenere traccia dell’avanzamento:
+
+   - Accanto a un argomento del pannello **Argomenti** viene visualizzato un **punto verde** dopo averlo contrassegnato come completato.
+
+     ![](images/topics-done-green-dot-topics-panel.png)
+
+   - L&#39;indicatore **Argomenti esaminati** mostra il numero di argomenti contrassegnati come completati rispetto al numero totale di argomenti assegnati.
+
+     ![](images/topics-reviewed-count-review-ui.png)
+
+   >[!NOTE]
+   >
+   > La casella di controllo **Contrassegna argomento come completato**, l&#39;indicatore del punto verde e l&#39;indicatore **Argomenti esaminati** sono visibili solo agli utenti che possono contrassegnare argomenti o rivedere attività come completate. Gli autori e gli amministratori con accesso in sola visualizzazione all&#39;attività di revisione non visualizzano queste opzioni o indicatori.
+
+1. Dopo aver esaminato gli argomenti che si desidera inviare all&#39;autore o all&#39;iniziatore dell&#39;attività, selezionare **Completa attività di revisione**.
+
+1. Nella finestra di dialogo **Completa attività di revisione**, aggiungi un commento e seleziona **Completa** per confermare l&#39;azione.
+
 
 ## Ulteriori funzioni disponibili nella schermata di revisione
 
@@ -199,9 +277,17 @@ Quando si collabora a un&#39;attività di revisione con più revisori, è possib
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Per assegnare un tag a un utente, immettere `@` in un commento o in una risposta e selezionare un utente dall&#39;elenco dei revisori. Il nome visualizzato e l’indirizzo e-mail dell’utente vengono visualizzati per facilitarne l’identificazione. Se un indirizzo e-mail non è disponibile, viene visualizzato l’ID utente.
+Per assegnare un tag a un utente, immettere `@` in un commento o in una risposta e selezionare un utente dall&#39;elenco di utenti associati al progetto. L’elenco mostra il nome dell’utente e ulteriori dettagli per identificare l’utente corretto.
 
-![](images/tagged-users-with-email.png)
+I dettagli utente vengono visualizzati nell&#39;ordine seguente:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Se l’indirizzo e-mail non è disponibile, vengono visualizzati solo il ruolo e il nome dell’utente.
+
+Puoi anche passare il cursore su un utente nell’elenco per visualizzarne il nome utente, la mansione e l’indirizzo e-mail in una descrizione comando.
+
+![](images/tagged-users-in-review-ui.png)
 
 Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi di essere informati tempestivamente. Per ulteriori dettagli su come attivare le notifiche di revisione, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
 

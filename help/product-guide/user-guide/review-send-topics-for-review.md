@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # Invia argomenti per la revisione {#id199RD0S035Z}
 
 Il flusso di lavoro di revisione crea un ambiente con più revisori in cui l&#39;iniziatore specifica un elenco di argomenti per la revisione, aggiunge più revisori e assegna una sequenza temporale all&#39;attività di revisione. Adobe Experience Manager Guides consente agli utenti appartenenti ai gruppi Author e Publishers di avviare una revisione.
@@ -275,6 +279,10 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > Il modo in cui il contenuto viene organizzato in questa pagina dipende dal fatto che la funzione di gerarchia delle mappe sia abilitata o meno per il tuo ambiente. Quando questa opzione è attivata, la mappa e i relativi sottotitoli vengono visualizzati in una vista gerarchica anziché in un elenco semplice di argomenti. Per ulteriori dettagli, visualizzare [Visualizzare la gerarchia delle mappe durante la selezione degli argomenti per la revisione](#view-the-map-hierarchy-while-selecting-topics-for-review).
+
 1. Nella pagina Contenuto selezionare una versione dell&#39;argomento che si desidera condividere per la revisione.
 
    Per selezionare una versione è possibile utilizzare uno dei metodi seguenti:
@@ -327,6 +335,33 @@ Per inviare uno o più argomenti insieme al file mappa per la revisione, effettu
 
 
 A tutti i revisori viene inviata un’e-mail con la notifica dell’assegnazione degli argomenti da rivedere. L’e-mail contiene un collegamento diretto che possono utilizzare per accedere all’argomento in una finestra del browser. Gli argomenti insieme alla mappa DITA vengono aperti in modalità di revisione.
+
+### Visualizza la gerarchia delle mappe durante la selezione degli argomenti da esaminare
+
+>[!NOTE]
+>
+> Questa funzione è disabilitata per impostazione predefinita. Per abilitarlo nel tuo ambiente, contatta il team Customer Success.
+
+Con questa funzione, la struttura o la gerarchia esistente del contenuto della mappa viene visualizzata nella pagina **Contenuto**. Anziché visualizzare tutti gli argomenti di una mappa come elenco semplice, la mappa e le relative sottopaschere vengono visualizzate nella gerarchia effettiva per un riferimento migliore durante la selezione del contenuto da rivedere.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - Se una mappa contiene solo argomenti e non sottopagine, viene normalmente visualizzato un elenco semplice di argomenti.
+> - Nella gerarchia vengono visualizzati solo i tipi di contenuto che possono essere inclusi in una revisione. che includono argomenti relativi a concetti, attività, riferimenti e argomenti generici, oltre a mapping DITA, mapping dei libri e mapping dei contenuti di apprendimento. Gli elementi non revisionabili, come i riferimenti del glossario, le definizioni di chiave e gli elenchi del glossario, non vengono visualizzati nella gerarchia delle mappe.
+
+Per impostazione predefinita, vengono selezionati tutte le mappe, le mappe secondarie e gli argomenti della gerarchia. In qualità di Autore o iniziatore dell&#39;attività di revisione, è possibile selezionare o deselezionare singoli argomenti o completare le sottomaschere in base al contenuto che si desidera inviare per la revisione. Deselezionando una mappa secondaria vengono deselezionati anche tutti gli argomenti al suo interno.
+
+Quando vengono selezionati solo alcuni argomenti all&#39;interno di una mappa secondaria, la casella di controllo della mappa secondaria diventa indeterminata per indicare la selezione parziale. Questo stato di selezione si riflette nelle pagine **Contenuto** e **Revisori**, garantendo che il contenuto selezionato rimanga coerente nel flusso di lavoro di revisione.
+
+![](./images/review-partial-selection-submap.png)
+
+Quando tutti gli argomenti di una mappa secondaria sono selezionati o deselezionati, lo stato di selezione della mappa secondaria viene regolato automaticamente di conseguenza.
+
+Se lo stesso argomento viene citato più volte nella gerarchia delle mappe, ogni occorrenza dopo la prima viene contrassegnata con un&#39;etichetta **Duplicate** per facilitarne l&#39;identificazione. L&#39;opzione per selezionare, deselezionare o modificare la versione di questi argomenti duplicati è disabilitata. Qualsiasi selezione o modifica della versione deve essere effettuata dalla prima occorrenza dell&#39;argomento.
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## Aggiungere o rimuovere argomenti da un&#39;attività di revisione in corso
 

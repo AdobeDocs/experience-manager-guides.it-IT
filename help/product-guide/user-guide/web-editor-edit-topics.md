@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # Modifica argomenti nell&#39;editor {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Applica il grassetto, il corsivo e la sottolineatura al contenuto selezionato. I
 
 - Racchiudi il contenuto in un elemento valido: per racchiuderlo in un elemento valido, effettua le seguenti operazioni:
 
-   - Seleziona il contenuto all’interno di un elemento.
-   - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti nella parte superiore per visualizzare la finestra di dialogo **Inserisci elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
+  - Seleziona il contenuto all’interno di un elemento.
+  - Seleziona l&#39;icona ![aggiungi](images/Add_icon.svg) dalla barra degli strumenti nella parte superiore per visualizzare la finestra di dialogo **Inserisci elemento**. Nella finestra di dialogo sono elencati gli elementi validi per il contenuto selezionato.
 
-     >[!NOTE]
-     >
-     > È inoltre possibile visualizzare la finestra di dialogo Inserisci elemento selezionando il menu di scelta rapida del contenuto selezionato.
+    >[!NOTE]
+    >
+    > È inoltre possibile visualizzare la finestra di dialogo Inserisci elemento selezionando il menu di scelta rapida del contenuto selezionato.
 
-   - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Se ad esempio si seleziona il contenuto di un paragrafo e quindi si sceglie l&#39;elemento `<note>` dalla finestra di dialogo **Inserisci elemento**, il contenuto selezionato verrà visualizzato in una nota.
+  - Selezionate un elemento dalla finestra di dialogo. Il contenuto selezionato viene racchiuso sotto tale elemento. Se ad esempio si seleziona il contenuto di un paragrafo e quindi si sceglie l&#39;elemento `<note>` dalla finestra di dialogo **Inserisci elemento**, il contenuto selezionato verrà visualizzato in una nota.
 
-     ![Finestra di dialogo Inserisci elemento](./images/insert-element-editor.png) {width="300"}
+    ![Finestra di dialogo Inserisci elemento](./images/insert-element-editor.png) {width="300"}
 
 ## Aggiorna il browser durante la modifica dei file
 
@@ -180,6 +184,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
  -->
+
+## Impedisci sovrascrittura del contenuto durante la modifica simultanea
+
+>[!NOTE]
+>
+> Abilitare **Disabilita modifica senza bloccare l&#39;impostazione del file** da ConfigMgr per questa funzionalità.
+
+Quando due autori lavorano contemporaneamente sullo stesso argomento DITA, le modifiche apportate su una copia obsoleta possono inconsapevolmente sovrascrivere le modifiche di un altro autore. Per evitare che ciò si verifichi, selezionando **Blocca** in un argomento, l&#39;editor viene aggiornato automaticamente in modo da caricare il contenuto più recente dal server prima di iniziare la modifica, assicurandosi che le modifiche siano sempre basate sulla versione più recente anziché su una copia non aggiornata.
 
 ## Individuare un file aperto in Esplora risorse
 

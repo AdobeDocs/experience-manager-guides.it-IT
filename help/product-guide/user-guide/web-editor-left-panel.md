@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # Pannello sinistro nell’editor
 
 >[!INFO]
@@ -77,6 +88,10 @@ Per ulteriori dettagli, visualizzare [Integrazione Workfront](./workfront-integr
 La spiegazione dettagliata delle funzioni del pannello sinistro è la seguente:
 
 ## Raccolte
+
+>[!NOTE]
+>
+> A partire dalla versione 2026.09.0, Experience Manager Guides offre un’esperienza di navigazione migliorata attraverso il caricamento impaginato. Questa funzione è attivata per impostazione predefinita. Per disattivarlo, contatta il team di successo del cliente. Per ulteriori informazioni, vedere [Caricamento impaginato di file e cartelle](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Se si lavora su un insieme di file o cartelle, è possibile aggiungerli all&#39;elenco dei preferiti per accedervi rapidamente. **Le raccolte** mostrano l&#39;elenco dei documenti aggiunti e altri elenchi di documenti accessibili al pubblico degli altri utenti.
 
@@ -493,7 +508,8 @@ Di seguito sono illustrate le varie opzioni del menu Opzioni:
 
 >[!NOTE]
 >
-> A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, **Repository** è sostituito da **Explorer**. Per On-Premise precedente alla versione 5.2, continuerai a visualizzare e utilizzare l’archivio tramite l’interfaccia dell’editor.
+>- A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, **Repository** è sostituito da **Explorer**. Per On-Premise precedente alla versione 5.2, continuerai a visualizzare e utilizzare l’archivio tramite l’interfaccia dell’editor.
+>- A partire dalla versione 2026.09.0, Experience Manager Guides offre un’esperienza di navigazione migliorata attraverso il caricamento impaginato. Questa funzione è attivata per impostazione predefinita. Per disattivarlo, contatta il team di successo del cliente. Per ulteriori informazioni, vedere [Caricamento impaginato di file e cartelle](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Explorer fornisce la maggior parte delle funzionalità precedentemente disponibili in Repository, tra cui:
 
@@ -1115,6 +1131,10 @@ Per inserire uno snippet, utilizzare uno dei metodi seguenti:
 > Dal menu di scelta rapida di una voce di frammento, è inoltre possibile scegliere di modificare, eliminare, ottenere un&#39;anteprima o inserire uno snippet.
 
 ## Modelli
+
+>[!NOTE]
+>
+> A partire dalla versione 2026.09.0, Experience Manager Guides offre un’esperienza di navigazione migliorata attraverso il caricamento impaginato. Questa funzione è attivata per impostazione predefinita. Per disattivarlo, contatta il team di successo del cliente. Per ulteriori informazioni, vedere [Caricamento impaginato di file e cartelle](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Il pannello Modelli è disponibile solo per gli amministratori. Utilizzando questo pannello, l’amministratore può creare e gestire facilmente modelli che possono quindi essere utilizzati dagli autori. Per impostazione predefinita, i modelli sono classificati nei modelli di tipo *map* e *topic*.
 
