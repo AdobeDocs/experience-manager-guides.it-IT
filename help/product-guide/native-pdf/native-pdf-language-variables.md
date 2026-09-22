@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # Supporto per le variabili di lingua
 
 Adobe Experience Manager Guides fornisce la funzione per utilizzare le variabili di lingua. È possibile utilizzare le variabili di lingua per definire stringhe localizzate nell’output di PDF o per localizzare qualsiasi testo statico nei modelli di output. È possibile utilizzare gli stili CSS per localizzare le stringhe provenienti da un CSS.
@@ -130,7 +132,7 @@ Le variabili con lo stesso ID vengono importate una volta importato il file. I v
 >[!NOTE]
 > 
 ><ul><li>Se il file non è un file XML o se il file contiene un formato non corretto che non è mappato con le variabili di lingua, viene visualizzato un errore che indica la presenza di un problema con il file XML. 
->&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
+&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
 
 ### Opzioni per una variabile di lingua
 
@@ -138,7 +140,7 @@ Passa il puntatore del mouse sulla variabile per visualizzare il relativo menu *
 
 <img width="550" alt="menu delle opzioni per le variabili di lingua" src="./assets/language-variable-user-options.png">
 
-*Utilizza il menu **Opzioni**&#x200B;per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
+*Utilizza il menu **Opzioni**per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
 
 Puoi visualizzare in anteprima sia le variabili dell’applicazione che quelle dell’utente. Per visualizzare la modalità di visualizzazione del valore della variabile nell&#39;output, selezionare **Anteprima** dal menu **Opzioni** della variabile selezionata.
 Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si elimina una variabile da una lingua, questa viene eliminata automaticamente da tutte le lingue.
@@ -150,8 +152,6 @@ Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si
 ## Utilizzare le variabili di lingua nei modelli di output
 
 È necessario aggiungere variabili di lingua nei documenti localizzati. È possibile inserire queste variabili di lingua all&#39;interno del layout di pagina visualizzato in pagine diverse nei documenti localizzati. È ad esempio possibile aggiungere la variabile di lingua per `author-name` visualizzata nell&#39;area di intestazione del layout di pagina o in qualsiasi altra parte, ad esempio il piè di pagina o il corpo.
-
-
 
 <img alt="layout di pagina di un pdf" src="./assets/language-variable-page-layout.png" width="550">
 
@@ -180,6 +180,21 @@ Per inserire una variabile di lingua come `copyright-label` nell&#39;area dell&#
 <img alt="inserisci variabile nell’area dell’intestazione" src="./assets/language-variable-header.png" width="550">
 
 *Elemento `copyright-label` aggiunto nell&#39;area dell&#39;intestazione.*
+
+Una volta inserito, il valore di una variabile di lingua nell’output generato dipende dalla lingua configurata nel predefinito di output. Se per la mappa è già stata definita una lingua con l&#39;attributo `xml:lang` e si desidera che il modello utilizzi la stessa lingua, assicurarsi che l&#39;opzione **Usa lingua mappa** sia selezionata nel predefinito di output anziché selezionare esplicitamente una lingua. Visualizzare [Risoluzione della lingua per il contenuto DITA rispetto alle variabili del modello di output](#language-resolution-for-dita-content-vs-output-template-variables) per scoprire come una lingua viene risolta in base al tipo di contenuto.
+
+### Risoluzione lingua per contenuti DITA e variabili di modelli di output
+
+Il documento può contenere due tipi di contenuto da tradurre: il contenuto DITA, ad esempio i riferimenti incrociati e i marcatori di continuazione delle tabelle, e il contenuto del modello di output, ad esempio gli elementi anteriori, gli elementi posteriori, le intestazioni e i piè di pagina inseriti mediante variabili di lingua.
+
+Utilizza la tabella seguente per comprendere in che modo ogni tipo di contenuto risolve il proprio linguaggio.
+
+| Tipo di contenuto | Esempi | Ordine di risoluzione lingua |
+|---|---|---|
+| Contenuto DITA | Riferimenti incrociati (ad esempio, &quot;Vedere capitolo&quot; o &quot;Vedere pagina&quot;), marcatori di continuazione tabella | &#x200B;1. Attributo `xml:lang` sull&#39;argomento o sulla mappa più vicina <br> 2. Lingua del predefinito di output, se non è impostato alcun `xml:lang` |
+| Variabili del linguaggio del modello di output | Materiale anteriore, materiale posteriore, intestazioni, piè di pagina, teste di scorrimento ed etichette generate (nota, attenzione, avvertenza) | &#x200B;1. Lingua selezionata nel predefinito di output <br> 2. `xml:lang` della mappa principale, se **Usa linguaggio mappa** è selezionato <br> 3. Inglese (en_US), se non disponibile |
+
+Se si desidera che il contenuto DITA segua una lingua specifica, impostare l&#39;attributo `xml:lang` sull&#39;argomento o sulla mappa più vicina a tale contenuto. Le variabili di lingua funzionano in modo diverso; poiché non fanno parte dell&#39;origine DITA, non hanno `xml:lang` da ereditare, quindi è possibile controllarne la lingua tramite il predefinito di output.
 
 ### Applicare lo stile del contenuto alle variabili di lingua
 

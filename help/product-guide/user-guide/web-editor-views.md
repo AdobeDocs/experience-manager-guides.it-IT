@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Visualizzazioni editor per argomenti {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Quando si apre un argomento in modalità Anteprima, viene illustrato come verrà
 
 La modalità Anteprima offre le seguenti funzionalità:
 
+* [Anteprima contenuto tramite linea di base](#preview-content-using-baseline)
 * [Visualizzare il contenuto in base ai filtri condizionali](#id2114BI00VXA)
 * [Visualizzare le revisioni delle revisioni](#id2114BJ00CE8)
 * [Esportare un argomento come PDF](#id2114BL00B5U)
+
+
+### Anteprima del contenuto utilizzando la linea di base (applicabile solo per mappa DITA)
+
+>[!NOTE]
+>
+>Contatta il team di successo del cliente per abilitare questa funzione nel tuo ambiente.
+
+Per impostazione predefinita, in modalità Anteprima viene visualizzata la copia di lavoro corrente di un argomento o di una mappa. Se una mappa dispone di una o più linee di base statiche, è possibile utilizzare l&#39;opzione **Anteprima utilizzando linee di base** per visualizzare in anteprima la mappa invece di visualizzarla in una versione di base specifica. Questa funzione supporta solo le linee di base statiche; le linee di base dinamiche non sono disponibili per l’anteprima.
+
+![](images/preview-baseline.png){width="650"}
+
+Quando selezionate una baseline dall&#39;elenco a discesa, l&#39;anteprima risolve tutti gli argomenti, le risorse, le immagini e i riferimenti associati in base alla baseline selezionata anziché alla copia di lavoro corrente. Ciò fornisce una rappresentazione accurata del contenuto della mappa al momento della creazione della linea di base.
+
+Ad esempio, se un&#39;immagine è stata sostituita dopo la creazione di una baseline, l&#39;anteprima di tale baseline mostra la versione dell&#39;immagine associata alla baseline anziché l&#39;immagine della copia di lavoro corrente.
+
+In modalità Anteprima viene visualizzato un indicatore di anteprima durante il rendering del set iniziale di argomenti. Non viene aggiornato automaticamente dopo la modifica di un argomento o la modifica delle versioni. Per visualizzare il contenuto più recente, aggiorna l’anteprima manualmente oppure chiudi e riapri l’argomento o la mappa. Inoltre, le opzioni di tracciamento (Nessun markup, Originale e Mostra markup) non sono disponibili quando si visualizza l&#39;anteprima di una mappa per una baseline.
 
 ### Visualizzare il contenuto in base ai filtri condizionali {#id2114BI00VXA}
 
 Se nell&#39;argomento o nella mappa sono state utilizzate condizioni, queste vengono visualizzate nel pannello Filtri. Per impostazione predefinita, vengono selezionate tutte le condizioni e viene visualizzato l’intero contenuto. Se deselezioni una condizione, il contenuto con tale condizione viene rimosso dalla visualizzazione. Puoi anche scegliere di evidenziare il contenuto condizionale.
 
-Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Platfor`. Il contenuto condizionale viene evidenziato con sfondo giallo.
+Nell&#39;immagine seguente viene illustrato un argomento che utilizza due condizioni: `Audience` e `Platform`. Il contenuto condizionale viene evidenziato con sfondo giallo.
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Se un documento contiene marcature di revisione \(o indicazioni visive\), è pos
 È possibile scegliere tra tre opzioni di **tracciamento**:
 
 * **Nessun markup**: in questa visualizzazione vengono accettati tutti gli inserimenti e le eliminazioni e viene presentata una semplice visualizzazione del documento. In questa visualizzazione non vengono visualizzate le revisioni.
-* **Originale**: in questa visualizzazione, tutti gli inserimenti vengono rifiutati e tutte le eliminazioni ripristinate, quindi viene visualizzata un&#39;anteprima. È sufficiente ottenere il modulo originale del documento prima di attivare la modalità di rilevamento delle modifiche.
+* **Originale**: in questa visualizzazione, tutti gli inserimenti vengono rifiutati e tutte le eliminazioni ripristinate, quindi viene visualizzata un&#39;anteprima. Si ottiene il modulo originale del documento prima di attivare la modalità di rilevamento delle modifiche.
 * **Mostra markup**: in questa visualizzazione vengono visualizzati tutti i markup per il contenuto inserito ed eliminato.
 
   L&#39;immagine seguente mostra l&#39;anteprima di un file di mappa con le marcature:
@@ -176,7 +199,7 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
 
 1. Aprire l&#39;argomento in modalità Anteprima. Verificare che l&#39;argomento sia incluso in un file di mapping.
 
-1. Selezionare l&#39;opzione **Scarica come PDF** nella parte superiore.
+1. Selezionare l&#39;opzione **Scarica come PDF** dall&#39;inizio.
 
    Icona ![](images/download-as-pdf-preview.png).
 
@@ -186,5 +209,4 @@ Per esportare un argomento come PDF, eseguire la procedura seguente:
 
    Il PDF viene generato e aperto in una nuova scheda oppure viene visualizzata una finestra di dialogo per salvare il PDF nel sistema locale.
 
-
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

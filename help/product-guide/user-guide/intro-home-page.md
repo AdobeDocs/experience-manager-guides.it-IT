@@ -4,13 +4,11 @@ description: Scopri la home page di Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Esperienza della pagina Home di Experience Manager Guides
 
 La home page è la prima schermata visualizzata al momento dell&#39;accesso a Experience Manager Guides. Offre un’esperienza di schermata di benvenuto unificata e intuitiva, con una visualizzazione rapida dei file a cui hai effettuato l’accesso di recente, delle raccolte e altro ancora.
@@ -45,16 +43,17 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
   - **Home**: pagina predefinita visualizzata all&#39;accesso a Experience Manager Guides.
   - **Editor**: un editor basato su Web di facile utilizzo che consente di creare e gestire documenti strutturati in Experience Manager Guides. [Scopri l&#39;interfaccia dell&#39;editor](./web-editor.md).
   - **Console mappe**: fornisce un&#39;area di lavoro dedicata per gestire tutti gli aspetti della gestione delle mappe e della pubblicazione. [Scopri l&#39;interfaccia della console Mappa](./map-console-overview.md).
-- **Assistente AI**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
-
-  La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
-
-- **Guide AI**: consente di acquisire nell&#39;editor competenze intelligenti e agentiche di assegnazione tag avanzati da Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Guide AI](../user-guide/guides-ai.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuarli.
-
+- **Assistente AI**: l&#39;Assistente AI è disponibile in due modalità: **Agente** e **Standard**.
 
   >[!NOTE]
   >
-  > Per utilizzare la funzione di intelligenza artificiale delle guide nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola esperienza di intelligenza artificiale alla volta: Guide AI o Assistente di intelligenza artificiale.
+  > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola modalità di Assistente IA alla volta, ovvero Agente o Standard.
+
+  - **Agnettico**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
+
+  - **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
+
+  La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
 
 - **Personalizza sezione panoramica**: consente di nascondere o visualizzare i widget nella sezione Widget.
 - **Profilo cartella in uso**: visualizza il profilo cartella attualmente in uso.
@@ -208,6 +207,7 @@ Le Preferenze utente sono disponibili per tutti gli autori. Utilizzando le prefe
 
   - **Individua sempre i file nell&#39;elenco delle cartelle**: selezionare questa opzione per visualizzare la posizione di un file nell&#39;archivio durante la modifica nell&#39;editor.
 
-  >[!NOTE]
-  >
-  >A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, l&#39;impostazione **Individua sempre i file nell&#39;archivio** è rinominata **Individua sempre i file nell&#39;Explorer**. Per la configurazione on-premise prima della versione 5.2 , continua a essere disponibile come Always locate files in the repository (Individua sempre i file nell’archivio).
+    >[!NOTE]
+    >
+    >- A partire dalla versione 2025.11.0 per Cloud Service e dalla versione 5.2.0 per On-Premise, l&#39;impostazione **Individua sempre i file nell&#39;archivio** è rinominata **Individua sempre i file nell&#39;Explorer**. Per la configurazione on-premise prima della versione 5.2 , continua a essere disponibile come Always locate files in the repository (Individua sempre i file nell’archivio).
+    >- A partire dalla versione 2026.09.0, il **caricamento impaginato di file e cartelle** è abilitato per impostazione predefinita. Quando questa funzione è abilitata, **Individua sempre i file nell&#39;elenco delle cartelle** non è disponibile nelle Preferenze utente. Per rendere disponibile l’opzione Individua sempre i file nella preferenza dell’Explorer, contatta il team Customer Success per disabilitare il caricamento impaginato di file e cartelle. Per ulteriori informazioni, vedere [Caricamento impaginato di file e cartelle](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

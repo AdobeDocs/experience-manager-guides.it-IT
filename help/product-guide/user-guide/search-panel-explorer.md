@@ -7,20 +7,23 @@ exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 TQID: https://experienceleague.adobe.com/bz8MQVs9yKIVkdD4iyjZWj-w70f1fukQ1I-bwx6LF80
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 53f073a6c37a9b6e9bff27349cc065e9a2d75345
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # Pannello di ricerca
 
 >[!INFO]
@@ -49,7 +52,7 @@ Il pannello Ricerca è accessibile dalle seguenti aree:
 
 Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set di file per visualizzare un sottoinsieme di file rilevanti necessari. Per cercare i file da Esplora risorse, effettua le seguenti operazioni:
 
-1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto **&#x200B;**. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
+1. Seleziona l&#39;icona **Cerca** dall&#39;angolo superiore destro del **pannello Esplora risorse** o l&#39;icona **Cerca** presente nell&#39;area di modifica del contenuto ****. Verrà aperta la finestra di dialogo **Archivio ricerche**, che offre la stessa esperienza di ricerca e filtro dell&#39;interfaccia Archivio nella home page.
 
    >[!NOTE]
    >
@@ -60,6 +63,10 @@ Quando si lavora nell’interfaccia dell’editor, è possibile filtrare il set 
 2. Esegui la ricerca e applica i filtri necessari. Per istruzioni dettagliate sulle opzioni di ricerca e filtro, visualizza [Esperienza di ricerca e filtro](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Una volta completata la ricerca, seleziona **Mostra nel pannello di ricerca**. Le ricerche recenti verranno quindi visualizzate nel pannello Ricerca nella parte inferiore dell’Editor.
+
+   >[!NOTE]
+   >
+   > A partire dalla versione 2026.09.0, Experience Manager Guides offre un’esperienza di navigazione migliorata attraverso il caricamento impaginato. Questa funzione è attivata per impostazione predefinita. Per disattivarlo, contatta il team di successo del cliente. Per ulteriori informazioni, vedere [Caricamento impaginato di file e cartelle](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
    ![](images/show-search-explorer.png)
 

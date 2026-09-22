@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 47ad7c824c35735c82b51390acd1404ba6274c9a
 workflow-type: tm+mt
-source-wordcount: 2918
+source-wordcount: '2987'
 ht-degree: 0%
-
 ---
-
 # Funzioni dell’editor mappa {#id1942D0S0IHS}
 
 >[!INFO]
@@ -54,7 +61,7 @@ Quando apri una mappa per la modifica, viene aperta la vista Layout dell’Edito
 
 >[!NOTE]
 >
-> Nella vista Layout vengono visualizzati solo i riferimenti presenti in una mappa. Se alcuni riferimenti sono interrotti, a sinistra del riferimento viene visualizzato un piccolo simbolo di croce
+> Nella vista Layout vengono visualizzati solo i riferimenti presenti in una mappa. Se alcuni riferimenti sono interrotti, a sinistra del riferimento viene visualizzato un piccolo simbolo di croce.
 
 Nella barra degli strumenti della visualizzazione Layout sono disponibili le seguenti opzioni:
 
@@ -97,7 +104,7 @@ Selezionare le icone della freccia su o giù per spostare l&#39;argomento verso 
 
 >[!NOTE]
 >
-> Potete anche trascinare i riferimenti per spostarli in una mappa.
+>Potete anche trascinare i riferimenti per spostarli in una mappa. La modalità di gestione dei riferimenti dopo il trascinamento dipende dall’editor in uso. Nell&#39;Editor 2.0, quando si trascina un riferimento (ad esempio un argomento, una sottomappa o una definizione di chiave) su un riferimento esistente in una mappa, questo viene aggiunto come elemento figlio anziché sostituire il riferimento esistente. Nell’editor precedente, la stessa azione aggiorna l’URL del riferimento invece di aggiungerlo come elemento figlio.
 
 **Blocca/Sblocca**
 
@@ -138,8 +145,8 @@ Oltre ad organizzare gli argomenti nel file mappa, è possibile eseguire le azio
 ![](images/map-editor-options-menu.png){width="650"}
 
 - **Aggiungi**: puoi scegliere di aggiungere un nuovo argomento o un riferimento vuoto dall&#39;Editor mappe:
-   - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento.
-   - **Nuovo argomento**: quando si sceglie di creare un nuovo argomento dal menu, viene visualizzata la finestra di dialogo **Nuovo argomento**. Nella finestra di dialogo **Nuovo argomento**, fornisci i dettagli richiesti e seleziona **Crea**.
+  - **Riferimento vuoto**: questa opzione consente di aggiungere un riferimento vuoto nella mappa DITA. In seguito è possibile fare doppio clic sul riferimento vuoto inserito e aggiungere i dettagli dell&#39;argomento.
+  - **Nuovo argomento**: quando si sceglie di creare un nuovo argomento dal menu, viene visualizzata la finestra di dialogo **Nuovo argomento**. Nella finestra di dialogo **Nuovo argomento**, fornisci i dettagli richiesti e seleziona **Crea**.
 - **Sposta**: puoi scegliere di spostare un argomento verso l&#39;alto/il basso/a destra/a sinistra nella gerarchia. Puoi anche trascinare un argomento o una mappa dal pannello dell’archivio alla mappa aperta nell’Editor mappe.
 - **Annulla**: annulla l&#39;ultima operazione nella visualizzazione Layout.
 - **Ripeti**: ripeti l&#39;ultima operazione nella visualizzazione Layout.

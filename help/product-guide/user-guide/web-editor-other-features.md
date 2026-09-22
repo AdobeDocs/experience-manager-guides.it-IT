@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # Funzioni aggiuntive nell’editor {#id2056B0B0YPF}
 
 Nell’editor sono disponibili alcune altre funzioni utili che puoi utilizzare:
@@ -220,26 +226,26 @@ La barra degli strumenti contestuale viene visualizzata quando si selezionano il
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
-   - Allineamento verticale del testo (non disponibile per tabelle semplici)
-   - Inserisci riga sopra
-   - Inserisci riga sotto
-   - Rimuovi riga
-   - Unisci celle (non disponibile per tabelle semplici)
+  - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
+  - Allineamento verticale del testo (non disponibile per tabelle semplici)
+  - Inserisci riga sopra
+  - Inserisci riga sotto
+  - Rimuovi riga
+  - Unisci celle (non disponibile per tabelle semplici)
 
   Opzioni disponibili per la selezione di una o più colonne:
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
-   - Allineamento verticale del testo (non disponibile per tabelle semplici)
-   - Inserisci riga sopra
-   - Inserisci riga sotto
-   - Rimuovi riga
-   - Inserisci colonna sopra
-   - Inserisci colonna sotto
-   - Rimuovi colonna
-   - Unisci celle (non disponibile per tabelle semplici)
+  - Allineamento orizzontale del testo (non disponibile per tabelle semplici)
+  - Allineamento verticale del testo (non disponibile per tabelle semplici)
+  - Inserisci riga sopra
+  - Inserisci riga sotto
+  - Rimuovi riga
+  - Inserisci colonna sopra
+  - Inserisci colonna sotto
+  - Rimuovi colonna
+  - Unisci celle (non disponibile per tabelle semplici)
 
 - Selezionare la tabella per applicare la formattazione del testo e l&#39;allineamento all&#39;intera tabella.
 
@@ -349,17 +355,17 @@ Per filtrare i file e restringere la ricerca, sono disponibili le seguenti opzio
 
   Ciò significa che:
 
-   - Se utilizzi il Profilo globale, vengono applicati i valori dei filtri configurati nel Profilo globale.
-   - Se selezioni un profilo di cartella specifico, vengono recuperati i valori dei filtri definiti in tale profilo.
+  - Se utilizzi il Profilo globale, vengono applicati i valori dei filtri configurati nel Profilo globale.
+  - Se selezioni un profilo di cartella specifico, vengono recuperati i valori dei filtri definiti in tale profilo.
 
   I valori di filtro predefiniti disponibili per lo stato del documento sono: Bozza, Modifica, In revisione, Approvato, Rivisto e Fine. Per informazioni dettagliate sulla personalizzazione dei valori di filtro per gli stati dei documenti, visualizzare [Configurare i filtri per lo stato dei documenti](../cs-install-guide/config-doc-state-filters.md).
 
 - **Bloccato da**: visualizza un elenco di utenti. L’elenco viene impaginato e caricato in modo asincrono, mostrando un set limitato di utenti alla volta e recuperandone altri durante lo scorrimento o la navigazione. Ciò migliora la velocità di caricamento e le prestazioni complessive, soprattutto quando si lavora con un numero elevato di utenti.
 
 - **Ultima modifica**: filtra il contenuto in base alla data di modifica. Seleziona un intervallo di date dal calendario o scegli una delle seguenti opzioni per l’intervallo di tempo:
-   - Nell&#39;ultima settimana
-   - Nell&#39;ultimo mese
-   - Nell&#39;ultimo anno
+  - Nell&#39;ultima settimana
+  - Nell&#39;ultimo mese
+  - Nell&#39;ultimo anno
 
 - **Tag**: filtra il contenuto in base ai tag.
 
@@ -552,5 +558,4 @@ Di seguito sono indicate le principali caratteristiche volte a migliorare la ges
 
 - Il messaggio di avviso è disponibile solo per i file DITA ed è visibile in tutte le visualizzazioni: Autore, Source e Layout.
 
-
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

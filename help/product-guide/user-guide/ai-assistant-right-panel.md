@@ -5,21 +5,28 @@ exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 TQID: https://experienceleague.adobe.com/R61ig9pzRNSHnZrlnZRRPMwNXjJhvcKoJ5SCUQb3nzI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # Creare i documenti in modo intelligente con l&#39;Assistente IA (Beta)
+
+>[!NOTE]
+>
+>Questa funzione è disponibile per l’Assistente IA in modalità Standard.
 
 Adobe Experience Manager Guides fornisce uno strumento di assistenza AI che consente di rendere l’authoring più intelligente e veloce. Utilizzando questo strumento, puoi visualizzare i suggerimenti avanzati per riutilizzare il contenuto dell’archivio dei contenuti esistente. Utilizza la funzione di prompt di testo per inviare un prompt e modificare il contenuto in base alle tue esigenze. Utilizza l’Assistente AI per convertire in modo intelligente un paragrafo in un elenco. È possibile creare una breve descrizione per l&#39;argomento corrente in base al contenuto selezionato. Questa funzione consente inoltre di migliorare e tradurre facilmente il contenuto selezionato.
 
@@ -34,7 +41,7 @@ Dopo aver selezionato il testo in un argomento, puoi scegliere di eseguire una d
 ## Suggerisci contenuti riutilizzabili
 
 
-Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile &#x200B;](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
+Utilizza la funzionalità **Suggerisci contenuto riutilizzabile** ![ai suggerisci contenuto riutilizzabile ](./images/ai-suggest-reusable-content-icon.svg) per creare contenuti in modo coerente e preciso. È possibile selezionare il contenuto e Experience Manager Guides fornisce suggerimenti su come riutilizzare il contenuto esistente nell’archivio.
 Ulteriori informazioni sull&#39;utilizzo di [suggerimenti avanzati basati sull&#39;intelligenza artificiale per l&#39;authoring dei contenuti](authoring-ai-based-smart-suggestions.md).
 
 

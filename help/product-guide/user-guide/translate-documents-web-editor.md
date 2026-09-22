@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
-ht-degree: 1%
-
+source-wordcount: '2794'
+ht-degree: 0%
 ---
-
 # Traduci documenti dalla console Mappa {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
    >[!IMPORTANT]
    >
-   > Puoi selezionare e tradurre solo nelle lingue per le quali hai creato la cartella di destinazione parallelamente alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
+   > * Puoi selezionare e tradurre solo nelle lingue per le quali hai creato la cartella di destinazione parallelamente alla lingua di origine. Non viene visualizzata neanche una cartella della lingua creata a qualsiasi altro livello, ad esempio a un livello inferiore rispetto alla cartella della lingua di origine. Assicurati di creare tutte le cartelle della lingua di destinazione allo stesso livello della cartella della lingua di origine.
+   > * Se crei la cartella di destinazione per una lingua dopo aver creato il gruppo di lingue, aggiorna il browser per abilitare la lingua nei gruppi di lingue.
 
 
 
@@ -80,7 +91,9 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
    >[!NOTE]
    >
-   > Se crei la cartella di destinazione per una lingua dopo aver creato il gruppo di lingue, aggiorna il browser per abilitare la lingua nei gruppi di lingue.
+   > Se una singola copia della lingua di origine o di destinazione (file) viene spostata dalla cartella della lingua originale in una cartella diversa, il pannello Traduzione riflette questa modifica come segue:
+   > - Copie per lingua di destinazione: se una copia per lingua di destinazione viene spostata dalla cartella della lingua di destinazione originale a una cartella diversa, la risorsa corrispondente viene visualizzata come disabilitata nel pannello Traduzione.
+   > - Copie per lingua di Source: se una copia per lingua di origine viene spostata dalla cartella della lingua di origine a una cartella in una lingua diversa, la risorsa corrispondente viene visualizzata come abilitata nel pannello Traduzione, in modo che la traduzione possa continuare come previsto.
 
 1. Se si sceglie una determinata lingua, questa verrà visualizzata come selezionata in tutti i gruppi di lingue selezionati. Quindi, quando traducete in qualsiasi lingua, viene tradotto in una sola volta per tutti i gruppi linguistici. Ad esempio, se il tedesco è presente in entrambi i gruppi linguistici G1 e G2, viene selezionato per entrambi.
 
@@ -144,6 +157,10 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    - È possibile selezionare **Crea un nuovo progetto di traduzione multilingue** che includerà i processi di traduzione per tutte le lingue selezionate per la traduzione. Ad esempio, se hai selezionato francese, tedesco e spagnolo, verrà creato un progetto che contiene processi di traduzione per tutte e tre le lingue.
    - Se disponi già di un progetto di traduzione, puoi aggiungere argomenti a tale progetto. Selezionare **Aggiungi al progetto di traduzione esistente** dall&#39;elenco Progetto e scegliere un progetto dall&#39;elenco Progetto di traduzione esistente. Puoi ordinare questi progetti in base all’ordine più recente, crescente o decrescente.
 
+     >[!NOTE]
+     >
+     > Quando si utilizza **Aggiungi al progetto di traduzione esistente** per inviare risorse aggiuntive per la traduzione, l&#39;operazione non riesce se è ancora in corso una richiesta precedente (creazione del progetto o Aggiungi al progetto esistente) per lo stesso progetto. Viene visualizzato il seguente messaggio: *È ancora in corso una richiesta precedente per questo progetto. Attendere alcuni minuti prima di riprovare*.
+
    - Se si seleziona **Aggiungi al progetto di traduzione esistente**, questa operazione aggiorna la voce della risorsa esistente nel progetto se la risorsa è già stata aggiunta e lo stato del processo di traduzione correlato è *Bozza*.
      - Se la lingua di destinazione non è presente nel progetto, viene creato un nuovo progetto per il progetto di traduzione in una sola lingua e un nuovo processo per il progetto di traduzione in più lingue.
 
@@ -163,6 +180,7 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
    - Se stai aggiungendo elementi a un progetto di traduzione esistente, seleziona il percorso in cui il progetto esiste già. Quindi, dall&#39;elenco **Progetto di traduzione esistente**, selezionare il progetto a cui si desidera aggiungere l&#39;attività di traduzione corrente. Puoi anche utilizzare i **filtri** disponibili per restringere l&#39;elenco.
 
      ![Immettere il percorso del progetto esistente](images/existing-project-path.png){width="650"}
+
 
 1. Nel campo **Titolo progetto**, inserisci un titolo.
 1. Seleziona **Invia** per creare un nuovo progetto di traduzione.
@@ -266,4 +284,4 @@ Per la gestione dei documenti, Experience Manager Guides consente di eliminare i
 Puoi anche disabilitare i progetti di traduzione se desideri utilizzarli in un secondo momento. Se si elimina un progetto, vengono eliminati anche tutti i file e le cartelle presenti nel progetto. La disattivazione di un progetto non ne comporta l’eliminazione ma ne mantiene la gestione nell’archivio. Ma non puoi aggiornare o modificare un progetto disabilitato.  L’eliminazione o la disabilitazione di un progetto non influisce sullo stato di traduzione di alcun riferimento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
