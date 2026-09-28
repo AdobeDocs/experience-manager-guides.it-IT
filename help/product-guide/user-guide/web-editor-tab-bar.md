@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Barra delle schede nell’editor
 
 >[!INFO]
@@ -61,21 +66,17 @@ Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor s
 >
 > L&#39;operazione **Salva tutto** non crea una nuova versione degli argomenti. Per creare una nuova versione, utilizzare l&#39;opzione **Salva come nuova versione**.
 
-**Assistente IA**
-
-Uno strumento potente e basato sull’intelligenza artificiale progettato per migliorare la produttività tramite funzioni di assistenza e authoring intelligenti. Riunisce due solide funzionalità di intelligenza artificiale, **Authoring** e **Guida**, nell&#39;interfaccia di Experience Manager Guides, consentendo di creare contenuti e accedere alle informazioni dalla documentazione di Experience Manager Guides in modo più rapido ed efficiente.
+**Assistente AI**: l&#39;Assistente AI è disponibile in due modalità: **Agente** e **Standard**.
 
 >[!NOTE]
 >
-> La funzione Assistente IA è attualmente disponibile per Adobe Experience Manager Guides as a Cloud Service.
+> Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola modalità di Assistente IA alla volta, ovvero Agente o Standard.
 
-**Guide AI**
+- **Agnettico**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
 
-Apporta nell&#39;editor competenze intelligenti ed efficaci di assegnazione tag avanzati da Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. È possibile rivedere i tag suggeriti e scegliere di applicarli o rifiutarli prima di confermare la selezione, migliorando l’organizzazione dei contenuti e la reperibilità.
+- **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
 
->[!NOTE]
->
-> Per utilizzare la funzione di intelligenza artificiale delle guide nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola esperienza di intelligenza artificiale alla volta: Guide AI o Assistente di intelligenza artificiale.
+La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
 
 **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell&#39;intestazione contenente il logo Adobe Experience Manager è nascosta. In questo modo si ottimizza lo spazio del contenuto per la modifica. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
@@ -91,6 +92,6 @@ Apporta nell&#39;editor competenze intelligenti ed efficaci di assegnazione tag 
 >
 >Se si utilizza Adobe Experience Manager Guides in una configurazione locale precedente alla versione 5.2, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
 
-- **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](../install-conf-guide/workspace-settings.md).
+- **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](../user-guide/config-editor-settings.md).
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
