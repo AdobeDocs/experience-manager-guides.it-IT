@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ Puoi anche creare nuove variabili di lingua. È ad esempio possibile creare una 
 
 1. Seleziona **Aggiungi variabile di lingua** <img src="./assets/add-language-variable.svg" width="25"> per aggiungere una nuova variabile di lingua alla lingua selezionata. L’aggiunta di una variabile a una lingua la aggiunge automaticamente a tutte le lingue. Non è possibile creare una variabile con lo stesso nome di una variabile esistente. Viene visualizzato un errore.
 
->[!NOTE]
->
-> Se non si seleziona **Aggiungi variabile di lingua**, la variabile non verrà creata e aggiunta all&#39;elenco
+   >[!NOTE]
+   >
+   > Se non si seleziona **Aggiungi variabile di lingua**, la variabile non verrà creata e aggiunta all&#39;elenco
 
 ## Esportare e importare variabili di lingua
 
@@ -132,7 +132,7 @@ Le variabili con lo stesso ID vengono importate una volta importato il file. I v
 >[!NOTE]
 > 
 ><ul><li>Se il file non è un file XML o se il file contiene un formato non corretto che non è mappato con le variabili di lingua, viene visualizzato un errore che indica la presenza di un problema con il file XML. 
->&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
+&gt;<li>Se il file non contiene variabili con lo stesso ID, viene visualizzato un avviso che informa che nel file importato non è stata trovata alcuna variabile di lingua corrispondente.
 
 ### Opzioni per una variabile di lingua
 
@@ -140,7 +140,7 @@ Passa il puntatore del mouse sulla variabile per visualizzare il relativo menu *
 
 <img width="550" alt="menu delle opzioni per le variabili di lingua" src="./assets/language-variable-user-options.png">
 
-*Utilizza il menu **Opzioni**&#x200B;per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
+*Utilizza il menu **Opzioni**per eliminare, visualizzare in anteprima o duplicare una variabile di lingua.*
 
 Puoi visualizzare in anteprima sia le variabili dell’applicazione che quelle dell’utente. Per visualizzare la modalità di visualizzazione del valore della variabile nell&#39;output, selezionare **Anteprima** dal menu **Opzioni** della variabile selezionata.
 Puoi anche scegliere di **eliminare** o **duplicare** le variabili utente. Se si elimina una variabile da una lingua, questa viene eliminata automaticamente da tutte le lingue.

@@ -6,27 +6,36 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3089'
+ht-degree: 17%
 ---
-
 # Novità della versione 4.6.0 (settembre 2024)
 
 Questo articolo descrive le nuove funzioni introdotte con la versione 4.6.0 di Adobe Experience Manager Guides.
@@ -48,7 +57,7 @@ Un frammento di esperienza è un’unità di contenuto modulare all’interno di
 
 ![scheda opzioni proprietà file](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Pubblica e visualizza i frammenti di esperienza di un argomento dalla sezione **Output**&#x200B;nelle **Proprietà file**.*
+*Pubblica e visualizza i frammenti di esperienza di un argomento dalla sezione **Output**nelle **Proprietà file**.*
 
 Experience Manager Guides ora consente di pubblicare un argomento o i relativi elementi in un frammento di esperienza. Puoi creare una mappatura basata su JSON tra un argomento o i relativi elementi e un modello di Frammento di esperienza. Puoi anche creare varianti di Frammento esperienza utilizzando i filtri di condizione.
 
@@ -99,7 +108,7 @@ Se in un file si fa riferimento allo stesso argomento più di una volta, è poss
 
 ![Predefinito legacy di AEM Sites](assets/aem-sites-legacy.png)
 
-*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**&#x200B;del predefinito **AEM Sites**.*
+*Specificare il contesto di pubblicazione per gli argomenti collegati dalla scheda **Riferimenti tra mappe incrociate**del predefinito **AEM Sites**.*
 
 
 
@@ -154,6 +163,7 @@ Se un file DITA o Markdown è bloccato o estratto da un altro utente, non è pos
 In modalità di sola lettura, è possibile visualizzare il contenuto insieme ai tag e agli attributi nella modalità **Autore** o **Source** e modificare le proprietà del file.
 
 È inoltre possibile accedere alla visualizzazione **Layout** per le mappe DITA di sola lettura.
+
 >[!NOTE]
 >
 > Gli amministratori del profilo di cartella devono aggiornare *ui_config.json* in modo da poter accedere in modo armonioso ai file di sola lettura nelle modalità Autore, Source e Layout.
@@ -205,7 +215,7 @@ Ora disponi di un’esperienza avanzata per filtrare i file. La funzionalità ri
 
 Sfrutta vantaggi quali un accesso più rapido ai file rilevanti e un’interfaccia utente più intuitiva, che rende l’esperienza di ricerca più fluida ed efficiente.
 
-![filtro di ricerca rapida &#x200B;](assets/repository-filter-search-quick.png) {width="300"}
+![filtro di ricerca rapida ](assets/repository-filter-search-quick.png) {width="300"}
 
 *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 

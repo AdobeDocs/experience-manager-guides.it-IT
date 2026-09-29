@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # Componenti di un modello PDF {#components-pdf-template}
@@ -61,6 +61,7 @@ Sommario (sommario), indice, pagina vuota, pagine di primo piano, pagine di seco
      <img src="assets/add-layout-2.png" alt="Finestra di dialogo Aggiungi layout" width="250">
 
 1. Specificare un nome per il nuovo layout di pagina.
+
    >[!NOTE]
    >
    >Evita di usare caratteri speciali per la denominazione del layout di una pagina. Uno spazio nel nome è sostituito da un carattere di sottolineatura &quot;_&quot;.
@@ -196,6 +197,7 @@ Per aggiungere un file di risorse alla cartella Risorse, effettua le seguenti op
    <img src="assets/resources-import-assets.png" alt="Caricare le risorse" width="300">
 
    Il percorso in cui verrà caricato il file di risorse è indicato nel campo **Seleziona cartella risorse**.
+
    >[!NOTE]
    >
    >Non puoi modificare il percorso per caricare le risorse. Per impostazione predefinita, tutte le risorse sono archiviate nella cartella `/content/dam/dita-templates/pdf/<PDF-template-name>`.
@@ -339,8 +341,6 @@ Per ulteriori informazioni sui layout di pagina, vedere [Progettare un layout di
 
 Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche organizzare l’ordine in cui devono essere visualizzate nell’output finale di PDF:
 
-
-
 * Sommario
 * Capitoli e argomenti
 * Elenco delle figure
@@ -349,18 +349,16 @@ Puoi mostrare o nascondere le seguenti sezioni nel PDF e anche organizzare l’o
 * Glossario
 * Citazione
 
-  <img src="assets/page-order-advance-settings.png" alt="Ordine di layout pagina" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Ordine di layout pagina" width="550">
 
-  Se non si desidera visualizzare una sezione specifica nell&#39;output di PDF, è possibile nasconderla disattivando l&#39;interruttore di attivazione.
+Se non si desidera visualizzare una sezione specifica nell&#39;output di PDF, è possibile nasconderla disattivando l&#39;interruttore di attivazione.
 
-  Puoi anche definire l’ordine in cui queste diverse sezioni vengono generate nel PDF. Per modificare l&#39;ordine predefinito di queste sezioni, selezionare le barre punteggiate per trascinare le sezioni nella posizione desiderata.
+Puoi anche definire l’ordine in cui queste diverse sezioni vengono generate nel PDF. Per modificare l&#39;ordine predefinito di queste sezioni, selezionare le barre punteggiate per trascinare le sezioni nella posizione desiderata.
 
-  >[!NOTE]
-  >
-  > Le impostazioni relative all&#39;ordine e all&#39;inclusione si applicano solo a una mappa DITA. Per una mappa segnalibro, queste impostazioni non sono applicabili. Le pagine di una mappa di un libro vengono visualizzate in base all&#39;ordine delle sezioni nella mappa di un libro.
+>[!NOTE]
+>
+> Le impostazioni relative all&#39;ordine e all&#39;inclusione si applicano solo a una mappa DITA. Per una mappa segnalibro, queste impostazioni non sono applicabili. Le pagine di una mappa di un libro vengono visualizzate in base all&#39;ordine delle sezioni nella mappa di un libro.
 
-
-.
 Il layout **Capitolo e argomenti** è sempre abilitato per impostazione predefinita. Non è possibile attivare/disattivare.
 
 **Unisci pagine**
@@ -479,6 +477,7 @@ Se si lascia vuoto il campo di testo e non è stato definito il testo di collega
 * **Tabella**: `{captionText}`
 
 L&#39;ordine di precedenza per i riferimenti incrociati è il seguente:
+
 * Testo di collegamento aggiunto nei rimandi
 * Formato riferimento incrociato definito nel modello PDF nativo
 * Formato riferimento incrociato predefinito
@@ -497,12 +496,11 @@ Ad esempio, puoi aggiungere una variabile di lingua &quot;reference-label&quot; 
 Quando si aggiunge `${lng:<variable name>}` alla sezione Paragrafo, i rimandi nei paragrafi dell&#39;output contengono il testo localizzato e il numero di pagina.\
 Ad esempio, le schermate seguenti mostrano i riferimenti incrociati &quot;Visualizza a pagina 1&quot; in inglese e &quot;Einzelheiten finden Sie auf der Seite 1&quot; in tedesco.
 
-<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Output inglese di un riferimento incrociato in un pragrah" width ="800" border="2px">
 
 *Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua inglese.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah&quot; width =&quot;800" border="2px">
-
+<img src="./assets/german-output-corss-reference.png" alt="Output tedesco di un riferimento incrociato in un pragrah" width ="800" border="2px">
 
 *Riferimento incrociato all&#39;interno di un paragrafo quando pubblicato in lingua tedesca.*
 

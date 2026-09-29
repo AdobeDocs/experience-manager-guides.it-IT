@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -94,4 +94,4 @@ La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile s
 
 - **Impostazioni editor**: consente di accedere alla finestra di dialogo Impostazioni editor in cui è possibile personalizzare il comportamento dell&#39;editor a livello di autore. Consente di controllare la visibilità e il comportamento di tag, commenti e altre impostazioni a livello di editor durante l’authoring. Per ulteriori dettagli, visualizzare [Impostazioni editor](../user-guide/config-editor-settings.md).
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)
