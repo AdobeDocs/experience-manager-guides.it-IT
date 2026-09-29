@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: afb7cb895a2861dfa49070ef10bd69becf5d686b
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 5%
@@ -211,20 +211,16 @@ I revisori possono delegare un&#39;attività di revisione a un altro revisore.
 
 Versione [!BADGE 2026.09.0]{type=Informative}
 
->[!BEGINSHADEBOX]
-
 La versione 2026.09.0 di Adobe Experience Manager Guides introduce l’assegnazione tag avanzati basati sull’intelligenza artificiale nell’Assistente all’intelligenza artificiale, oltre a miglioramenti in termini di authoring, gestione dei contenuti, pubblicazione e esperienza utente complessiva.
 
 [Scopri le novità](./release-info/whats-new-2026-09-0.md)
-
->[!ENDSHADEBOX]
 
 
 ## Risorse aggiuntive
 
 * [Note sulla versione di Cloud Service](./release-info/latest-release-info-cs.md)
 * [Note sulla versione per On-Premise](./release-info/latest-release-info.md)
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it){target="_blank"}
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
