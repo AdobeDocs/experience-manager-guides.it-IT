@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ Puoi anche creare nuove variabili di lingua. È ad esempio possibile creare una 
 
 1. Seleziona **Aggiungi variabile di lingua** <img src="./assets/add-language-variable.svg" width="25"> per aggiungere una nuova variabile di lingua alla lingua selezionata. L’aggiunta di una variabile a una lingua la aggiunge automaticamente a tutte le lingue. Non è possibile creare una variabile con lo stesso nome di una variabile esistente. Viene visualizzato un errore.
 
->[!NOTE]
->
-> Se non si seleziona **Aggiungi variabile di lingua**, la variabile non verrà creata e aggiunta all&#39;elenco
+   >[!NOTE]
+   >
+   > Se non si seleziona **Aggiungi variabile di lingua**, la variabile non verrà creata e aggiunta all&#39;elenco
 
 ## Esportare e importare variabili di lingua
 

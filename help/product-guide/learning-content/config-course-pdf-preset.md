@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 1%
-
 ---
-
 # Configura predefinito di output PDF
 
 Una volta creato il predefinito, configura le impostazioni del predefinito PDF. Le opzioni di configurazione predefinite sono organizzate nelle schede Generale, Metadati, Layout, Sicurezza, Stampa e Avanzate.
@@ -64,18 +70,18 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
   [Scarica](assets/SampleXMP.xmp)
 
   In alternativa, puoi generare un file XMP utilizzando Adobe Acrobat.
-   1. Selezionare **File** > **Proprietà** in Acrobat.
-   1. In **Descrizione**, selezionare **Altri metadati**.
-   1. Nel pannello a sinistra, seleziona **Avanzate**.
-   1. Seleziona **Salva**.
+  1. Selezionare **File** > **Proprietà** in Acrobat.
+  1. In **Descrizione**, selezionare **Altri metadati**.
+  1. Nel pannello a sinistra, seleziona **Avanzate**.
+  1. Seleziona **Salva**.
 
   Il file XMP viene salvato sul dispositivo.
 
 * **Fornisci nomi e valori metadati**
 
-   1. Aggiungi il nome selezionando dall’elenco a discesa o aggiungi metadati personalizzati digitando direttamente nel campo del nome.
-   1. Inserisci il valore per i metadati e seleziona l’icona &quot;+&quot;.
-I metadati vengono aggiunti all’elenco dei metadati per PDF.
+  1. Aggiungi il nome selezionando dall’elenco a discesa o aggiungi metadati personalizzati digitando direttamente nel campo del nome.
+  1. Inserisci il valore per i metadati e seleziona l’icona &quot;+&quot;.
+     I metadati vengono aggiunti all’elenco dei metadati per PDF.
 
 Puoi anche utilizzare le variabili per definire i valori dei metadati.  È possibile utilizzare i metadati definiti per il file mappa DITA o mappa segnalibro come variabili. I metadati si trovano nel nodo `/jcr:content/metadata` della mappa DITA o del file di mappa di libri.
 Quando utilizzi una variabile, il relativo valore viene scelto dalle proprietà dei metadati.
@@ -115,10 +121,10 @@ Proteggi il tuo PDF aggiungendo restrizioni per aprire e leggere il file. Utiliz
 Configurare le impostazioni di stampa per assegnare gli indicatori di stampa, selezionare i modelli di colore e specificare le proprietà relative alla stampa dell&#39;output PDF.
 
 * **Indicatori di stampa**: quando si prepara un documento per la produzione di stampa, gli indicatori di stampa vengono aggiunti ai bordi della pagina per facilitare l&#39;allineamento, il ritaglio e la selezione dei colori durante la stampa. Selezionando un contrassegno della stampante, il limite della pagina viene esteso per contenere il contrassegno, che viene tagliato durante la stampa. È possibile scegliere di visualizzare i seguenti indicatori di stampa nell&#39;output di PDF:
-   * **Indicatori di ritaglio**: selezionare l&#39;opzione per inserire un segno in ogni angolo dell&#39;area di ritaglio per indicare dove è necessario ritagliare la carta dopo la stampa.
-   * **Indicatori di pagina al vivo**: selezionare questa opzione per inserire un segno in ogni angolo del riquadro di pagina al vivo per indicare l&#39;area di ritaglio per l&#39;immagine estesa.
-   * **Indicatori di registrazione**: selezionare questa opzione per posizionare un segno all&#39;esterno dell&#39;area di ritaglio per allineare le diverse selezioni in un documento a colori.
-   * **Barre colore**: selezionare questa opzione per aggiungere una striscia di colori al di fuori dell&#39;area di ritaglio per mantenere la coerenza dei colori e regolare la densità dell&#39;inchiostro durante la stampa.
+  * **Indicatori di ritaglio**: selezionare l&#39;opzione per inserire un segno in ogni angolo dell&#39;area di ritaglio per indicare dove è necessario ritagliare la carta dopo la stampa.
+  * **Indicatori di pagina al vivo**: selezionare questa opzione per inserire un segno in ogni angolo del riquadro di pagina al vivo per indicare l&#39;area di ritaglio per l&#39;immagine estesa.
+  * **Indicatori di registrazione**: selezionare questa opzione per posizionare un segno all&#39;esterno dell&#39;area di ritaglio per allineare le diverse selezioni in un documento a colori.
+  * **Barre colore**: selezionare questa opzione per aggiungere una striscia di colori al di fuori dell&#39;area di ritaglio per mantenere la coerenza dei colori e regolare la densità dell&#39;inchiostro durante la stampa.
 
   Impostare le dimensioni per gli indicatori di stampa selezionati utilizzando le opzioni **Larghezza linea**, **Colore linea** e **Larghezza scatola al vivo**.
 

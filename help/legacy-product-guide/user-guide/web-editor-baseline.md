@@ -8,24 +8,31 @@ exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
 TQID: https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1707'
 ht-degree: 0%
-
 ---
-
 # Creare e gestire le baseline dall&#39;editor Web {#id223MB0ZF043}
 
 >[!TIP]
@@ -52,22 +59,23 @@ AEM Guides fornisce la funzione Baseline integrata nell’Editor web che consent
    - In **Selezionare la versione basata su,** selezionare una delle opzioni seguenti:
 
 
-      1. **Data** &lt;timestamp\>: seleziona la versione degli argomenti in base alla data e all&#39;ora specificate.
-      1. **Etichetta**: selezionare questa opzione per scegliere gli argomenti in base all&#39;etichetta ad essi applicata. Se per gli argomenti sono specificate etichette, queste sono elencate nel menu a discesa. È possibile scegliere un&#39;etichetta dall&#39;elenco. È inoltre possibile aggiungere un&#39;etichetta nella casella di testo.
+     1. **Data** &lt;timestamp\>: seleziona la versione degli argomenti in base alla data e all&#39;ora specificate.
+     1. **Etichetta**: selezionare questa opzione per scegliere gli argomenti in base all&#39;etichetta ad essi applicata. Se per gli argomenti sono specificate etichette, queste sono elencate nel menu a discesa. È possibile scegliere un&#39;etichetta dall&#39;elenco. È inoltre possibile aggiungere un&#39;etichetta nella casella di testo.
 
-         Per i riferimenti diretti nelle linee di base statiche, le etichette vengono estratte dall’ultima versione salvata della mappa. Ad esempio, se sono state create le etichette `Label Release 1.0` e `Label Release 1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e quindi si aggiunge l&#39;Argomento A alla mappa salvata come versione 1.0. In questo caso, è possibile visualizzare le etichette `Label Release 1.0` e `Label Release 1.1` nel menu a discesa per le etichette della linea di base statica.
+        Per i riferimenti diretti nelle linee di base statiche, le etichette vengono estratte dall’ultima versione salvata della mappa. Ad esempio, se sono state create le etichette `Label Release 1.0` e `Label Release 1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e quindi si aggiunge l&#39;Argomento A alla mappa salvata come versione 1.0. In questo caso, è possibile visualizzare le etichette `Label Release 1.0` e `Label Release 1.1` nel menu a discesa per le etichette della linea di base statica.
 
 
-         Quando selezioni **Etichetta,** puoi scegliere i riferimenti diretti e indiretti.
-         - Per i riferimenti diretti all&#39;interno della mappa DITA, è possibile utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata.
+        Quando selezioni **Etichetta,** puoi scegliere i riferimenti diretti e indiretti.
 
-           >[!NOTE]
-           >
-           > Se si immette un&#39;etichetta che non esiste e si seleziona l&#39;opzione **Non creare una baseline**, la creazione della baseline non riesce e viene visualizzato un messaggio di errore accanto al nome della baseline nel pannello Baseline.
+        - Per i riferimenti diretti all&#39;interno della mappa DITA, è possibile utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata.
 
-         - Per i riferimenti indiretti all&#39;interno della mappa DITA, è disponibile un&#39;opzione aggiuntiva che consente di utilizzare la versione più recente degli argomenti a cui non è applicata l&#39;etichetta specificata. Puoi anche scegliere di **selezionare automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
+          >[!NOTE]
+          >
+          > Se si immette un&#39;etichetta che non esiste e si seleziona l&#39;opzione **Non creare una baseline**, la creazione della baseline non riesce e viene visualizzato un messaggio di errore accanto al nome della baseline nel pannello Baseline.
 
-         Dopo aver selezionato un&#39;etichetta o una versione come alla data, tutti gli argomenti e i file multimediali a cui si fa riferimento nella mappa vengono selezionati di conseguenza. Questa selezione di argomenti non viene visualizzata nell&#39;interfaccia utente, ma viene salvata nel back-end.
+        - Per i riferimenti indiretti all&#39;interno della mappa DITA, è disponibile un&#39;opzione aggiuntiva che consente di utilizzare la versione più recente degli argomenti a cui non è applicata l&#39;etichetta specificata. Puoi anche scegliere di **selezionare automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
+
+        Dopo aver selezionato un&#39;etichetta o una versione come alla data, tutti gli argomenti e i file multimediali a cui si fa riferimento nella mappa vengono selezionati di conseguenza. Questa selezione di argomenti non viene visualizzata nell&#39;interfaccia utente, ma viene salvata nel back-end.
 
    **Aggiornamento automatico**: selezionare questa opzione per la creazione della baseline per scegliere automaticamente gli argomenti in base all&#39;etichetta ad essi applicata.
 
@@ -76,7 +84,7 @@ AEM Guides fornisce la funzione Baseline integrata nell’Editor web che consent
    ![Creare una previsione](images/dynamic-baseline.png){width="300"}
 
    - **Etichette**: se per gli argomenti sono state specificate etichette, utilizzare il menu a discesa **Etichette** per scegliere tra le [etichette elencate](#labels-list).
-Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
+     Alle etichette selezionate per prime viene assegnata una priorità maggiore rispetto a quelle successive.
 
      >[!NOTE]
      >
@@ -110,33 +118,34 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 
   ![opzioni di una previsione](images/baseline-options.png){width="800"}
 
-
-
   È inoltre possibile eseguire le operazioni riportate di seguito sulla baseline dal menu Opzioni.
 
 ### Duplicare una baseline
 
 È possibile duplicare una baseline e modificarla in base alle proprie esigenze.
+
 ![duplicare una baseline](images/baseline-duplicate.png){width="300"}
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 
 1. Selezionare **Duplica** dal menu Opzioni di una baseline. Viene visualizzata la finestra di dialogo **Duplica baseline**.
->[!NOTE]
->
->Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
+
+   >[!NOTE]
+   > 
+   >Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
 
    In **Seleziona la versione basata su**, puoi scegliere l&#39;opzione **Copia esatta** o l&#39;opzione **Etichetta**:
 
    - **Copia esatta**: Experience Manager Guides seleziona la stessa versione di tutti gli argomenti e crea una copia esatta della baseline duplicata.
    - **Etichetta**: utilizzando il menu a discesa, puoi scegliere una delle [etichette elencate](#labels-list). Experience Manager Guides seleziona le versioni degli argomenti con l’etichetta selezionata definita per esse, mentre per gli argomenti rimanenti seleziona la versione dalla linea di base duplicata. Se ad esempio si seleziona l&#39;etichetta `Release 1.0` dal menu a discesa, verranno selezionate le versioni degli argomenti per cui è stata definita l&#39;etichetta. Per tutti gli altri argomenti, seleziona la versione dalla baseline duplicata.
+
 1. Fai clic su **Duplica**.
 
-- **Rinomina** o **Elimina** una baseline esistente.
-- Aggiungi, rimuovi o apporta modifiche alle etichette esistenti dall&#39;opzione **Gestisci etichette** per le baseline statiche. Se l’amministratore ha configurato delle etichette predefinite, queste vengono visualizzate nell’elenco a discesa Aggiungi etichetta. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Utilizzare etichette](web-editor-use-label.md#).
+   - **Rinomina** o **Elimina** una baseline esistente.
+   - Aggiungi, rimuovi o apporta modifiche alle etichette esistenti dall&#39;opzione **Gestisci etichette** per le baseline statiche. Se l’amministratore ha configurato delle etichette predefinite, queste vengono visualizzate nell’elenco a discesa Aggiungi etichetta. Per ulteriori informazioni sull&#39;aggiunta di etichette, vedere [Utilizzare etichette](web-editor-use-label.md#).
 
-  >[!NOTE]
-  >
-  > Il processo di aggiunta o rimozione delle etichette viene eseguito in modo asincrono, pertanto è possibile continuare a lavorare su altri file nell&#39;editor Web. Una volta aggiunta o rimossa l’etichetta, viene visualizzato un messaggio a comparsa che conferma che l’etichetta è stata aggiunta o rimossa e che si riceve anche una notifica nella casella in entrata per la stessa etichetta.
+   >[!NOTE]
+   >
+   > Il processo di aggiunta o rimozione delle etichette viene eseguito in modo asincrono, pertanto è possibile continuare a lavorare su altri file nell&#39;editor Web. Una volta aggiunta o rimossa l’etichetta, viene visualizzato un messaggio a comparsa che conferma che l’etichetta è stata aggiunta o rimossa e che si riceve anche una notifica nella casella in entrata per la stessa etichetta.
 
 - **Modificare le proprietà** di una baseline statica esistente impostata durante la creazione della baseline.
 - Esporta lo snapshot di una baseline in un file di Microsoft Excel con l&#39;opzione **Esporta baseline**.
@@ -145,6 +154,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 ### Elenco delle etichette {#labels-list}
 
 Le etichette elencate nel menu a discesa si basano sui seguenti criteri:
+
 - Le etichette devono essere aggiunte a una delle versioni degli argomenti nella mappa DITA (in cui viene creata la linea di base).
 - Per la selezione delle etichette vengono considerati solo i riferimenti di primo livello (argomenti o mappe secondarie) della mappa DITA.
 

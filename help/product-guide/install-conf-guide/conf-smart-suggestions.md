@@ -2,13 +2,11 @@
 title: Configurare l’Assistente AI per la guida e l’authoring avanzati
 description: Scopri come configurare l’Assistente IA in Experience Manager Guides
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # Configurare l’Assistente IA per Cloud Service
 
 In qualità di amministratore, puoi configurare la funzione Assistente IA in Experience Manager Guides. L’Assistente AI è protetto dall’autenticazione basata sull’autenticazione di Adobe IMS. Integra il tuo ambiente con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la funzione di assistenza AI. La configurazione seguente consente di aggiungere la scheda **Configurazione IA** al profilo della cartella. Una volta aggiunto, puoi utilizzare la funzione Assistente IA in Experience Manager Guides.
@@ -40,7 +38,7 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
-   ![API di gestione IO](assets/confi-ss-io-management.png)
+   ![API di gestione I/O](assets/confi-ss-io-management.png)
    *Aggiungi API di gestione I/O al progetto.*
 
 1. Crea una nuova **credenziale OAuth** e salvala.

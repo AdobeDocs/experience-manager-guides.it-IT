@@ -1,5 +1,5 @@
 ---
-title: Roadmap delle versioni di Adobe Experience Manager Guides per il 2024
+title: Roadmap delle versioni di Adobe Experience Manager Guides
 description: Ottieni informazioni sulle versioni live e future di Adobe Experience Manager Guides on-prem e Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '938'
 ht-degree: 39%
 ---
 # Informazioni sulle versioni di [!DNL Experience Manager Guides] {#aem-guides-releases-roadmap}

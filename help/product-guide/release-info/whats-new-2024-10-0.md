@@ -6,24 +6,30 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # Novità della versione 2024.10.0 (ottobre 2024)
 
 Questo articolo descrive le funzioni nuove e migliorate introdotte con la versione 2024.10.0 di Adobe Experience Manager Guides as a Cloud Service.
@@ -114,6 +120,7 @@ Se un file DITA o Markdown è bloccato o estratto da un altro utente, non è pos
 In modalità di sola lettura, è possibile visualizzare il contenuto insieme ai tag e agli attributi nella modalità **Autore** o **Source** e modificare le proprietà del file.
 
 È inoltre possibile accedere alla visualizzazione **Layout** per le mappe DITA di sola lettura.
+
 >[!NOTE]
 >
 > Gli amministratori del profilo di cartella devono aggiornare *ui_config.json* in modo da poter accedere in modo armonioso ai file di sola lettura nelle modalità Autore, Source e Layout.

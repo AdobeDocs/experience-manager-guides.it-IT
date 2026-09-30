@@ -8,16 +8,17 @@ exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
 TQID: https://experienceleague.adobe.com/Y6sobecXfXdQn-BpVO-z3H2uLbSCLpbcPtYUv7pFPYo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: '1476'
 ht-degree: 0%
-
 ---
-
 # Variabili nell’output PDF
 
 Una variabile è una coppia nome-valore di dati che funge da informazione riutilizzabile. In questo modo i contenuti sono facilmente trasportabili e aggiornabili. Quando modifichi una variabile o il relativo valore, viene aggiornata ogni occorrenza di tale variabile o valore.
@@ -171,7 +172,7 @@ Ad esempio, per il set di variabili *Adobe-Set1*, il valore della variabile Prod
 ### Reimpostare il valore di una variabile
 
 Se hai modificato il valore, puoi anche reimpostare una variabile sul valore predefinito.
-Reimposta <img alt= "icona di ripristino" src="./assets/application-variable-revert.svg" width="25"> viene visualizzato per una variabile con un valore modificato.
+Ripristina <img alt= "icona di ripristino" src="./assets/application-variable-revert.svg" width="25"> viene visualizzato per una variabile con un valore modificato.
 Ad esempio, è possibile reimpostare il valore della variabile ProductName sul valore predefinito Experience Manager Guides.
 
 ## Utilizzare le variabili nei modelli PDF nativi

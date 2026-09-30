@@ -8,21 +8,25 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
 workflow-type: tm+mt
-source-wordcount: 2866
+source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Appendice {#id195AD0L60Y4}
 
 ## Risoluzione dei problemi di AEM Guides
@@ -45,10 +49,10 @@ Per controllare i riferimenti, esegui i seguenti passaggi utilizzando lo script 
 1. Esegui lo script di convalida \[`/bin/fmdita/validatebtree?operation=validate`\] per verificare se sono presenti nuovi riferimenti interrotti.
 1. Se lo script di convalida riporta errori, è possibile applicarvi la patch utilizzando lo script di patch.
 1. Registra i dettagli forniti di seguito e, se necessario, condividili con il team di successo del cliente:
-1. &#x200B;
+
    - Registri stampati dallo script di convalida
-- Package di &quot;`/content/fmdita/references`&quot;
-- Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
+   - Package di &quot;`/content/fmdita/references`&quot;
+   - Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
 
 **Script patch**
 
@@ -56,13 +60,13 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
 
 1. Eseguire lo script di patch `[/bin/fmdita/validatebtree?operation=patch]` per correggere i riferimenti interrotti. L’esecuzione dello script richiede alcuni minuti e stampa i registri mentre procede. Al termine dell&#39;esecuzione, verrà stampato &quot;`Done`&quot;.
 
->[!NOTE]
->
-> È consigliabile copiare e salvare i registri a scopo di riferimento.
+   >[!NOTE]
+   >
+   > È consigliabile copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
-1. &#x200B;
-   - Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
+
+- Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
 - Verifica che i riferimenti siano stati corretti
 
 **Logger**
@@ -370,8 +374,9 @@ Gli attributi utilizzati in `paraRule` sono illustrati di seguito:
 - `@mapTo`: nome di un elemento destinazione DITA.
 
 - `@context`: questo attributo viene utilizzato per il collegamento a una regola **wrap** specifica quando è disponibile più di una scelta wrapper. Esempio: l&#39;elemento `li` può essere racchiuso in un elemento `ol` o `ul`. Per identificare i diversi tipi di elenco, è possibile utilizzare un nome di stile specifico o l&#39;attributo `@local` che può mostrare quanto segue:
-   - `local="p[-|-|-|-|-|b|-|-]"` Dove &#39;`b`&#39; nel campo 6 indica una voce di elenco puntato. In questo caso, impostare `@context` su &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Dove &#39;`n`&#39; nel campo 6 indica una voce di elenco numerata. In questo caso, impostare `@context` su &#39;`number`&#39;.
+
+  - `local="p[-|-|-|-|-|b|-|-]"` Dove &#39;`b`&#39; nel campo 6 indica una voce di elenco puntato. In questo caso, impostare `@context` su &#39;`bullet`&#39;.
+  - `local="p[-|-|-|-|-|n|-|-]"` Dove &#39;`n`&#39; nel campo 6 indica una voce di elenco numerata. In questo caso, impostare `@context` su &#39;`number`&#39;.
 
 - `@commentOut`: questo attributo consente il wrapping dell&#39;elemento di destinazione nei commenti XML in modo che le informazioni non vadano perse ma possano essere gestite manualmente dall&#39;utente. Ciò è utile se il contenuto sorgente non può essere forzato a conformarsi alle regole della struttura DITA.
 
@@ -402,9 +407,8 @@ Gli attributi utilizzati in `charRule` sono illustrati di seguito:
 - `@local`: Vedere [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: nome di un elemento destinazione DITA.
 - `@refactor`: questo attributo facoltativo può scegliere tra due valori:
-   - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
-
-   - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
+  - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
+  - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
 
 
 **Regole attributo**
@@ -434,11 +438,11 @@ Gli attributi utilizzati in `attributeRules` sono illustrati di seguito:
 > Questo elemento può contenere più elementi figlio.
 
 - `addNew`: aggiunge un nuovo attributo all&#39;elemento corrispondente. Disponibile per tutti i contesti. Ha due attributi:
-   - `@name`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
-   - `@value`: può essere un testo letterale o una semplice espressione XPath.
+  - `@name`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
+  - `@value`: può essere un testo letterale o una semplice espressione XPath.
 - `copyAtt`: copia un singolo attributo nella destinazione mentre è possibile rinominarlo nel processo. Il valore non viene modificato. Disponibile per i contesti `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` e `elementRule`. Quando questo elemento è presente, il valore `@copyAllAtts` è considerato `false`. Ha due attributi:
-   - `@name`: deve essere il nome di un attributo presente nell&#39;elemento XML di origine.
-   - `@mapTo`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
+  - `@name`: deve essere il nome di un attributo presente nell&#39;elemento XML di origine.
+  - `@mapTo`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
 
 **Codici di formattazione locali**
 
@@ -492,9 +496,9 @@ Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
 - `@refactor`: questo attributo facoltativo può scegliere tra due valori:
 
-   - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
+  - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
 
-   - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
+  - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
 
 - `@context`: questo attributo viene utilizzato per il collegamento a una regola di wrapper specifica quando sono disponibili più opzioni di wrapper. Esempio: l&#39;elemento `li` può essere racchiuso in un elemento `ol` o `ul`.
 

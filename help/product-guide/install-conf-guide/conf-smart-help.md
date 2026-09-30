@@ -2,13 +2,11 @@
 title: Configurare la Guida avanzata per la ricerca nel contenuto
 description: Scopri come configurare la Guida avanzata per la ricerca nel contenuto
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti in Cloud Service
 
 In qualità di amministratore, puoi configurare la funzione di Guida avanzata per gli autori. Il servizio di assistenza avanzata è protetto dall’autenticazione basata sull’autenticazione di Adobe IMS. Integra il tuo ambiente con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la nuova funzione di Guida avanzata. Le seguenti configurazioni consentono di aggiungere la scheda **Configurazione IA** a un profilo di cartella. Una volta aggiunta, è possibile utilizzare la funzione Guida rapida nell’editor.
@@ -30,11 +28,11 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
-   ![API di gestione IO](assets/confi-ss-io-management.png)
+   ![API di gestione I/O](assets/confi-ss-io-management.png)
    *Aggiungi API di gestione I/O al progetto.*
 
 1. Crea una nuova **credenziale OAuth** e salvala.
-   ![Riquadro credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   ![Riquadro delle credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configura le credenziali OAuth nell&#39;API.*
 
 1. Nella scheda **Progetti**, scegli l&#39;opzione **OAuth Server to Server**, quindi seleziona le credenziali appena create.
@@ -106,4 +104,4 @@ Al termine, dovresti poter utilizzare la funzionalità **Guida avanzata**.
 
 
 Al termine della configurazione, nel pannello destro dell&#39;editor viene visualizzata l&#39;icona **Guida avanzata** ![Guida avanzata](assets/smart-help-icon.svg). Selezionare l&#39;icona per visualizzare il pannello **Guida avanzata**.
-Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata sull&#39;intelligenza artificiale per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.
+Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata su IA per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.

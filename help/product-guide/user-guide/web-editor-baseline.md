@@ -7,25 +7,33 @@ role: User
 TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: '1929'
 ht-degree: 0%
-
 ---
-
 # Creare e gestire le linee di base dalla console Mappa {#id223MB0ZF043}
 
 >[!NOTE]
@@ -41,7 +49,7 @@ Allo stesso modo, la selezione di una linea di base per tradurre il contenuto è
 
 >[!TIP]
 >
-> Si consiglia di utilizzare questa funzione della linea di base dalla console Mappa. Tuttavia, puoi anche [utilizzare il dashboard delle mappe per creare e gestire le linee di base](./generate-output-use-baseline-for-publishing.md).
+>Si consiglia di utilizzare questa funzione della linea di base dalla console Mappa. Tuttavia, puoi anche [utilizzare il dashboard delle mappe per creare e gestire le linee di base](./generate-output-use-baseline-for-publishing.md).
 
 Nella scheda **Previsione** è possibile eseguire le azioni seguenti:
 
@@ -81,13 +89,13 @@ In **Selezionare la versione basata su,** selezionare una delle opzioni seguenti
   Per i riferimenti diretti nelle linee di base statiche, le etichette vengono estratte dall’ultima versione salvata della mappa. Ad esempio, se sono state create le etichette `Label Release 1.0` e `Label Release 1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e quindi si aggiunge l&#39;Argomento A alla mappa salvata come versione 1.0. In questo caso, è possibile visualizzare le etichette `Label Release 1.0` e `Label Release 1.1` nel menu a discesa per le etichette della linea di base statica.
 
   Quando selezioni **Etichetta,** puoi scegliere i riferimenti diretti e indiretti.
-   - Per i riferimenti diretti all&#39;interno della mappa DITA, è possibile utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata.
+  - Per i riferimenti diretti all&#39;interno della mappa DITA, è possibile utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata.
 
-     >[!NOTE]
-     >
-     > Se si immette un&#39;etichetta che non esiste e si seleziona l&#39;opzione **Non creare una baseline**, la creazione della baseline non riesce e viene visualizzato un messaggio di errore accanto al nome della baseline nel pannello Baseline.
+    >[!NOTE]
+    >
+    > Se si immette un&#39;etichetta che non esiste e si seleziona l&#39;opzione **Non creare una baseline**, la creazione della baseline non riesce e viene visualizzato un messaggio di errore accanto al nome della baseline nel pannello Baseline.
 
-   - Per i riferimenti indiretti all&#39;interno della mappa DITA, è disponibile un&#39;opzione aggiuntiva che consente di utilizzare la versione più recente degli argomenti a cui non è applicata l&#39;etichetta specificata. Puoi anche scegliere di **selezionare automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
+  - Per i riferimenti indiretti all&#39;interno della mappa DITA, è disponibile un&#39;opzione aggiuntiva che consente di utilizzare la versione più recente degli argomenti a cui non è applicata l&#39;etichetta specificata. Puoi anche scegliere di **selezionare automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
 
 Dopo aver selezionato un&#39;etichetta o una versione come alla data, tutti gli argomenti e i file multimediali a cui si fa riferimento nella mappa vengono selezionati di conseguenza. Questa selezione di argomenti non viene visualizzata nell&#39;interfaccia utente, ma viene salvata nel back-end.
 
@@ -108,11 +116,12 @@ Le baseline create mediante la configurazione di aggiornamento automatico vengon
   >Quando le etichette vengono estratte, viene visualizzato un caricatore e il menu a discesa è disattivato.
 
   Per le baseline dinamiche, le etichette vengono estratte dall&#39;ultima versione salvata e dalla copia di lavoro corrente della mappa. Ad esempio, se sono state create le etichette `Label Release A.1.0 ` e `Label Release A.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento A e le etichette `Label Release B.1.0` e `Label Release B.1.1` per le versioni 1.0 e 1.1 dell&#39;Argomento B. È quindi possibile aggiungere l&#39;argomento A alla mappa A nella versione 1.0 e l&#39;argomento B alla mappa A nella versione 1.0* (copia di lavoro). In questo caso, è possibile visualizzare `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` e `Label Release B.1.1` nel menu a discesa delle etichette della linea di base dinamica.
+
 - **Riferimenti indiretti**: per i riferimenti indiretti all&#39;interno della mappa DITA, sono disponibili le seguenti opzioni:
 
-   - **Scegli automaticamente**: puoi scegliere di **Scegli automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
-   - **Usa etichetta selezionata**: è possibile creare una baseline con l&#39;etichetta selezionata definita per una versione degli argomenti.
-   - **Utilizzare la versione più recente o la copia di lavoro**: utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata oppure, se non è stata creata alcuna versione, utilizzare la copia di lavoro degli argomenti per creare la baseline.
+  - **Scegli automaticamente**: puoi scegliere di **Scegli automaticamente** per il contenuto a cui si fa riferimento e il sistema seleziona automaticamente la versione del contenuto a cui si fa riferimento corrispondente alla versione del contenuto a cui si fa riferimento.
+  - **Usa etichetta selezionata**: è possibile creare una baseline con l&#39;etichetta selezionata definita per una versione degli argomenti.
+  - **Utilizzare la versione più recente o la copia di lavoro**: utilizzare la versione più recente degli argomenti a cui non è stata applicata l&#39;etichetta specificata oppure, se non è stata creata alcuna versione, utilizzare la copia di lavoro degli argomenti per creare la baseline.
 
 ## Gestisci linee di base
 
@@ -122,13 +131,13 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 - Utilizzare l&#39;icona **Aggiorna** nel pannello Baseline per verificare nuovamente tutte le baseline e visualizzare un nuovo elenco di baseline per la mappa DITA aperta nella vista Mappa.
 - Selezionare la baseline per visualizzare o modificare il contenuto di una baseline statica esistente nel pannello **Baseline**. Nella finestra di modifica della baseline vengono visualizzati il file di mappa DITA, il contenuto o gli argomenti della mappa e il contenuto di riferimento.
 
-  >[!NOTE]
-  >
-  >L&#39;operazione di modifica per le baseline statiche è consigliata solo per un numero limitato di modifiche di riferimento. L&#39;operazione di modifica non è consigliata per modificare la versione della mappa DITA principale in quanto deve ricalcolare tutti i riferimenti. Ciò potrebbe causare un errore di aggiornamento della linea di base per le mappe DITA di grandi dimensioni. Per le mappe DITA più grandi, potete creare una nuova linea di base o modificarne le proprietà.
-  >
-  >L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
+>[!NOTE]
+>
+>L&#39;operazione di modifica per le baseline statiche è consigliata solo per un numero limitato di modifiche di riferimento. L&#39;operazione di modifica non è consigliata per modificare la versione della mappa DITA principale in quanto deve ricalcolare tutti i riferimenti. Ciò potrebbe causare un errore di aggiornamento della linea di base per le mappe DITA di grandi dimensioni. Per le mappe DITA più grandi, potete creare una nuova linea di base o modificarne le proprietà.
+>
+>L&#39;operazione di modifica in caso di baseline dinamica consente di modificare le proprietà della baseline in quanto i riferimenti per le baseline dinamiche vengono generati in fase di esecuzione utilizzando le etichette.
 
-  ![opzioni di una previsione](images/baseline-options.png)
+![opzioni di una previsione](images/baseline-options.png)
 
 ### Azioni disponibili per una baseline esistente
 
@@ -142,14 +151,16 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 *Duplicare una baseline in base a un&#39;etichetta o creare una copia esatta.*
 
 1. Selezionare **Duplica** dal menu Opzioni di una baseline. Viene visualizzata la finestra di dialogo **Duplica baseline**.
->[!NOTE]
->
->Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
+
+   >[!NOTE]
+   > 
+   >Il nome predefinito della baseline è `<selected baseline name>`_suffix (come sample-baseline_1). Puoi modificare il nome in base alle tue esigenze.
 
    In **Seleziona la versione basata su**, puoi scegliere l&#39;opzione **Copia esatta** o l&#39;opzione **Etichetta**:
 
    - **Copia esatta**: Experience Manager Guides seleziona la stessa versione di tutti gli argomenti e crea una copia esatta della baseline duplicata.
    - **Etichetta**: utilizzando il menu a discesa, puoi scegliere una delle [etichette elencate](#labels-list). Experience Manager Guides seleziona le versioni degli argomenti con l’etichetta selezionata definita per esse, mentre per gli argomenti rimanenti seleziona la versione dalla linea di base duplicata. Se ad esempio si seleziona l&#39;etichetta `Release 1.0` dal menu a discesa, verranno selezionate le versioni degli argomenti per cui è stata definita l&#39;etichetta. Per tutti gli altri argomenti, seleziona la versione dalla baseline duplicata.
+
 1. Seleziona **Duplica**.
 
 - **Rinomina** o **Elimina** una baseline esistente**.
@@ -166,6 +177,7 @@ Potete gestire le baseline esistenti utilizzando le varie funzioni del dashboard
 ### Elenco delle etichette {#labels-list}
 
 Le etichette elencate nel menu a discesa si basano sui seguenti criteri:
+
 - Le etichette devono essere aggiunte a una delle versioni degli argomenti nella mappa DITA (in cui viene creata la linea di base).
 - Per la selezione delle etichette vengono considerati solo i riferimenti di primo livello (argomenti o mappe secondarie) della mappa DITA.
 

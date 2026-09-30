@@ -5,24 +5,31 @@ exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
 TQID: https://experienceleague.adobe.com/CVY-v5lrpyLwIjmcxA6-p-4E0OuKZM14cvJomBqADz4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 591
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # Configurare la Guida avanzata basata sull’intelligenza artificiale per cercare contenuti
 
 In qualità di amministratore, puoi configurare la funzione di Guida avanzata per gli autori. Il servizio di assistenza avanzata è protetto dall’autenticazione basata sull’autenticazione di Adobe IMS. Integra il tuo ambiente con i flussi di lavoro di autenticazione sicuri basati su token di Adobe e inizia a utilizzare la nuova funzione di Guida avanzata. Le seguenti configurazioni consentono di aggiungere la scheda **Configurazione IA** a un profilo di cartella. Una volta aggiunta, è possibile utilizzare la funzionalità Guida avanzata nell&#39;editor Web.
@@ -44,11 +51,11 @@ Per creare configurazioni IMS in Adobe Developer Console, effettua le seguenti o
 1. Selezionare **Aggiungi API** dalla schermata **Progetti**.  Viene visualizzata la schermata **Aggiungi API**. Questa schermata mostra tutte le API, gli eventi e i servizi disponibili per i prodotti e le tecnologie Adobe con cui puoi sviluppare applicazioni.
 
 1. Seleziona l&#39;**API di gestione I/O** per aggiungerla al progetto.
-   ![API di gestione IO](assets/confi-ss-io-management.png)
+   ![API di gestione I/O](assets/confi-ss-io-management.png)
    *Aggiungi API di gestione I/O al progetto.*
 
 1. Crea una nuova **credenziale OAuth** e salvala.
-   ![Riquadro credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   ![Riquadro delle credenziali OAuth nella configurazione API](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configura le credenziali OAuth nell&#39;API.*
 
 1. Nella scheda **Progetti**, scegli l&#39;opzione **OAuth Server to Server**, quindi seleziona le credenziali appena create.
@@ -120,4 +127,4 @@ Al termine, dovresti poter utilizzare la funzionalità **Guida avanzata**.
 
 
 Al termine della configurazione, nel pannello destro dell&#39;editor Web viene visualizzata l&#39;icona **Guida avanzata** ![Guida avanzata](assets/smart-help-icon.svg). Selezionare l&#39;icona per visualizzare il pannello **Guida avanzata**.
-Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata sull&#39;intelligenza artificiale per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.
+Per ulteriori dettagli, visualizzare la sezione [Guida avanzata basata su IA per eseguire ricerche nel contenuto](../user-guide/ai-based-smart-help.md) nella Guida utente di Experience Manager.
