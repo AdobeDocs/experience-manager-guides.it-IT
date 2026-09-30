@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Documentazione di Experience Manager Guides
@@ -227,9 +227,13 @@ La versione 2026.09.0 di Adobe Experience Manager Guides introduce l’assegnazi
 
 **Novità di AEM Guides**
 
-Scopri le novità dell’ultima versione di Experience Manager Guides.
+Esplora le nuove funzionalità introdotte nell’ultima versione di Experience Manager Guides.
 
-[Ulteriori informazioni](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- Applicazione di tag avanzati basati sull’intelligenza artificiale nell’Assistente di intelligenza artificiale
+- Contrassegna l&#39;argomento come completato in un&#39;attività di revisione
+- Miglioramenti dei contenuti di apprendimento
+
+[Esplora tutto](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -240,8 +244,8 @@ Scopri le novità dell’ultima versione di Experience Manager Guides.
 
 Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le distribuzioni Cloud e On-Premise.
 
-- Versioni di AEM Guides Cloud | [Visualizza note sulla versione](./release-info/latest-release-info-cs.md)
-- Versioni on-premise di AEM Guides | [Visualizza note sulla versione](./release-info/latest-release-info.md)
+- Versioni cloud | [Visualizza note sulla versione](./release-info/latest-release-info-cs.md)
+- Versioni on-premise | [Visualizza note sulla versione](./release-info/latest-release-info.md)
 
 [Visualizza roadmap delle versioni](./release-info/aem-guides-releases-roadmap.md)
 
@@ -254,11 +258,11 @@ Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le dis
 
 Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla piattaforma.
 
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interagisci su community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it)
+[Interagisci su community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -273,7 +277,7 @@ Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla 
 
 * [Note sulla versione di Cloud Service](./release-info/latest-release-info-cs.md)
 * [Note sulla versione per On-Premise](./release-info/latest-release-info.md)
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it){target="_blank"}
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
