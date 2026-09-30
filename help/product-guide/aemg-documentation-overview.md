@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 5%
+source-wordcount: '459'
+ht-degree: 6%
 ---
 # Documentazione di Experience Manager Guides
 
@@ -214,6 +214,63 @@ Versione [!BADGE 2026.09.0]{type=Informative}
 La versione 2026.09.0 di Adobe Experience Manager Guides introduce l’assegnazione tag avanzati basati sull’intelligenza artificiale nell’Assistente all’intelligenza artificiale, oltre a miglioramenti in termini di authoring, gestione dei contenuti, pubblicazione e esperienza utente complessiva.
 
 [Scopri le novità](./release-info/whats-new-2026-09-0.md)
+
+## Collegamenti rapidi
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Novità](../assets/whats-new-git-connector.svg)
+
+**Novità di AEM Guides**
+
+Esplora le nuove funzionalità introdotte nell’ultima versione di Experience Manager Guides.
+
+- Applicazione di tag avanzati basati sull’intelligenza artificiale nell’Assistente di intelligenza artificiale
+- Contrassegna l&#39;argomento come completato in un&#39;attività di revisione
+- Miglioramenti dei contenuti di apprendimento
+
+[Esplora tutto](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Note sulla versione](../assets/whats-new-map-collection.svg)
+
+**Note sulla versione**
+
+Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le distribuzioni Cloud e On-Premise.
+
+- Versioni cloud | [Visualizza note sulla versione](./release-info/latest-release-info-cs.md)
+- Versioni on-premise | [Visualizza note sulla versione](./release-info/latest-release-info.md)
+
+[Visualizza roadmap delle versioni](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Informazioni e supporto](../assets/whats-new-delegate-review.svg)
+
+**Informazioni e supporto**
+
+Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla piattaforma.
+
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interagisci su community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## Risorse aggiuntive

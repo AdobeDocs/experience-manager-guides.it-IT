@@ -1,13 +1,11 @@
 ---
 title: Note sulla versione | Istruzioni per l’aggiornamento a Adobe Experience Manager Guides versione 5.2.0
 description: Scopri la matrice di compatibilità e come effettuare l’aggiornamento alla versione 5.2.0 di Adobe Experience Manager Guides.
-source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
-
+source-wordcount: '872'
+ht-degree: 3%
 ---
-
 # Istruzioni per l’aggiornamento alla versione 5.2.0 (maggio 2026)
 
 Questo articolo descrive le istruzioni per l’aggiornamento e la matrice di compatibilità per la versione 5.2.0 di Adobe Experience Manager Guides.
@@ -64,7 +62,7 @@ For more details, view [Configure and use the API JAR from Maven Central reposit
 
 | AEM Guides | Versione AEM | Versione componenti | Versione sito |
 |---|---|---| ---|
-| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | ND |
+| 5.2.0 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 UUID | 6,5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## Prerequisiti
