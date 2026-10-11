@@ -188,4 +188,4 @@ Per creare un predefinito di condizione, effettua le seguenti operazioni:
 1. Selezionare il pulsante **Rimuovi**.
 1. Seleziona **Rimuovi** per confermare l&#39;azione.
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

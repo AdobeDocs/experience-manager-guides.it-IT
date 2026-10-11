@@ -36,4 +36,4 @@ Il diagramma seguente illustra il funzionamento di Experience Manager Guides con
 Durante l’esecuzione di un flusso di lavoro, se la sessione rimane inattiva per un lungo periodo di tempo, viene attivato un prompt di timeout della sessione per evitare la perdita di contenuto. Per ulteriori dettagli, visualizzare [Timeout sessione](./session-timeout-prompt.md).
 
 
-**Argomento padre:**[ Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Argomento padre:**&#x200B;[&#x200B; Informazioni su Adobe Experience Manager Guides as a Cloud Service](intro.md)

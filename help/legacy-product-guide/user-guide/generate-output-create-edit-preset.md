@@ -96,4 +96,4 @@ Per eliminare un predefinito di output esistente, effettua le seguenti operazion
    Il predefinito viene rimosso dall&#39;elenco Predefiniti di output.
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

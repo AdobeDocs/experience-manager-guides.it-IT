@@ -79,4 +79,4 @@ Se utilizzi uno strumento come Adobe Experience Manager Desktop App o Asset Bulk
 
 
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)

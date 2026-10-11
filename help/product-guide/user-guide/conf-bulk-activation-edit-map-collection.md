@@ -66,4 +66,4 @@ ht-degree: 11%
 1. Seleziona **Fine**.
 
 
-**Argomento padre:**[ Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)
+**Argomento padre:**&#x200B;[&#x200B; Attivazione in blocco del contenuto pubblicato](conf-bulk-activation.md)

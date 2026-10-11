@@ -97,4 +97,4 @@ All’interno di una categoria è possibile definire più definizioni di caratte
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)

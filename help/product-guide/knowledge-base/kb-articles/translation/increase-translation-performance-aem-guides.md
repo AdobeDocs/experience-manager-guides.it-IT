@@ -36,11 +36,11 @@ Ogni progetto di traduzione genera più gruppi di utenti per l’accesso, con co
 
 - Contrassegna tutti i progetti come &quot;Inattivi&quot; una volta completata e approvata la traduzione.Il progetto rimane disponibile per la revisione ed è semplicemente contrassegnato come inattivo.
   - Segui questi passaggi per mantenere le prestazioni complessive di traduzione in buona salute.
-    ![Progetto di traduzione inattivo ](./assets/translation-project-image1.png)
+    ![Progetto di traduzione inattivo &#x200B;](./assets/translation-project-image1.png)
 
 - Per i progetti meno recenti, elimina la cartella contrassegnata come inattiva, approvata e rivista
   - Segui questi passaggi per mantenere buone le prestazioni complessive di traduzione pulendo i file di traduzione temporanei e i gruppi di utenti associati a questa cartella di progetto.
-    ![Elimina progetto di traduzione e cartella ](./assets/translation-project-image2.png)
+    ![Elimina progetto di traduzione e cartella &#x200B;](./assets/translation-project-image2.png)
 
 
 ## Se utilizzi, build 4.6 o 2404 o successiva:
@@ -49,4 +49,4 @@ Puoi continuare a seguire gli stessi passaggi indicati sopra. A partire dalla ve
 
 Riferito: [Elimina o disabilita automaticamente un progetto di traduzione completato](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Impostazioni automatizzate per eliminare e disabilitare il progetto di traduzione in AEM Guides ](./assets/translation-project-image3.png)
+![Impostazioni automatizzate per eliminare e disabilitare il progetto di traduzione in AEM Guides &#x200B;](./assets/translation-project-image3.png)

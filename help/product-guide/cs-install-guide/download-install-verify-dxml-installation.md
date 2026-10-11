@@ -45,4 +45,4 @@ Dopo aver installato AEM Guides, è necessario verificare se l’installazione �
    Lo stato deve mostrare *Attivo* per i bundle distribuiti correttamente. Se uno dei bundle non ha uno stato Attivo, controlla i registri di AEM per risolvere il problema di installazione.
 
 
-**Argomento padre:**[ Scarica e installa](download-install.md)
+**Argomento padre:**&#x200B;[&#x200B; Scarica e installa](download-install.md)

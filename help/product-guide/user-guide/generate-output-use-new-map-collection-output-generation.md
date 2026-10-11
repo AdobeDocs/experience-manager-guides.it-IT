@@ -212,4 +212,4 @@ Le proprietà dei metadati vengono aggiornate in blocco per le mappe DITA selezi
 Le proprietà dei metadati sono sincronizzate con le proprietà del file. Dopo averli aggiornati, puoi visualizzarli dal pannello **Proprietà file** nell&#39;editor.
 
 
-**Argomento padre:**[ Generazione output](generate-output.md)
+**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)

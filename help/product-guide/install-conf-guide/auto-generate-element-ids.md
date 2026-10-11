@@ -79,4 +79,4 @@ Per configurare un pattern per l’ID generato automaticamente, crea un file di 
 
 >[!ENDTABS]
 
-**Argomento padre:**[ Personalizza editor](customize-overview.md)
+**Argomento padre:**&#x200B;[&#x200B; Personalizza editor](customize-overview.md)
