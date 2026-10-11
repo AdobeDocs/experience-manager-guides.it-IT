@@ -1332,7 +1332,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.0.0.
 
 >[!NOTE]
 >
@@ -1342,7 +1342,7 @@ La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai 
 
 >[!IMPORTANT]
 >
-> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se al momento utilizzi AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, assicurati di completare l’aggiornamento ad AEM prima di procedere con l’aggiornamento a Experience Manager Guides 5.1.0. Per informazioni dettagliate, visualizzare [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Prerequisiti**
 
@@ -1499,7 +1499,7 @@ Durante l&#39;aggiornamento, poiché il valore `'order'` viene modificato da 100
 
 ## Passaggi per reindicizzare damAssetLucene
 
-La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
+La definizione dell’indice viene aggiornata per damAssetLucene con Guide. Fai riferimento a [questo articolo](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-16460) per reindicizzare damAssetLucene dopo l&#39;aggiornamento alla versione 5.1.0.
 
 >[!NOTE]
 >
