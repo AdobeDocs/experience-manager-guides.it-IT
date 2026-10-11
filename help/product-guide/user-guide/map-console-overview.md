@@ -4,29 +4,41 @@ description: Scopri la console Mappa e le varie funzioni disponibili che consent
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-TQID: https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk
+TQID: 'https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # Panoramica della console delle mappe
 
 Adobe Experience Manager Guides offre una console dedicata, nota come **console Mappe**, per semplificare tutte le attività di gestione delle mappe e pubblicazione. Questa interfaccia centralizzata migliora la produttività e l&#39;accuratezza delle attività correlate alle mappe, fornendo opzioni per generare output, tradurre contenuti, accedere ai report e altro ancora, il tutto in un&#39;unica posizione.
@@ -35,21 +47,21 @@ Adobe Experience Manager Guides offre una console dedicata, nota come **console 
 
 L&#39;interfaccia della console Mappa è principalmente divisa in due sezioni: **Barra di navigazione** e **Pannello sinistro**.
 
-![Nuovo](images/map-console-sections.png)
+![Nuova](images/map-console-sections.png)
 
 - (**A**) **Barra di spostamento**: la barra di spostamento visualizza gli strumenti per passare da una visualizzazione all&#39;altra, modificare la visualizzazione della pagina e visualizzare il nome del file di mappa selezionato.
 
   Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
-   - **Commutatore navigazione**: consente la navigazione diretta ad altre pagine - Editor o Home page:
-   - **File mappa selezionato**: visualizza il nome del file mappa attualmente selezionato. Puoi aprirlo nell’editor o scegliere un file di mappa diverso per la console Mappa.
-   - **Altre azioni**: fornisce opzioni per passare alla **interfaccia utente di Assets** e alle **impostazioni Workspace**. Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
+  - **Commutatore navigazione**: consente la navigazione diretta ad altre pagine - Editor o Home page:
+  - **File mappa selezionato**: visualizza il nome del file mappa attualmente selezionato. Puoi aprirlo nell’editor o scegliere un file di mappa diverso per la console Mappa.
+  - **Altre azioni**: fornisce opzioni per passare alla **interfaccia utente di Assets** e alle **impostazioni Workspace**. Per ulteriori dettagli, visualizzare la [barra delle schede](./web-editor-tab-bar.md).
 
   >[!NOTE]
   >
   > Se si utilizza Adobe Experience Manager Guides in una configurazione locale precedente alla versione 5.2, l&#39;opzione Impostazioni Workspace continua a essere visualizzata come **Impostazioni** nel menu Altre azioni.
 
-   - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
+  - **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell’intestazione è nascosta e lo spazio disponibile risulta quindi notevolmente ridotto. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 
   >[!NOTE]
   >

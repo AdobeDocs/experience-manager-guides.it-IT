@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-TQID: https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8
+TQID: 'https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1211'
 ht-degree: 1%
-
 ---
-
 # Usa raccolta mappe per la generazione dell&#39;output {#id1723F20G0HS}
 
 In qualsiasi organizzazione, un prodotto può avere più tipi di documentazione. In qualità di specialista della pubblicazione, desideri controllare l’output che desideri generare per ciascun documento. Inoltre, dovrebbe essere possibile pubblicare in batch più documenti con un solo clic.
@@ -68,17 +77,17 @@ Per creare una raccolta di mappe e aggiungere mappe DITA alla raccolta, effettua
 Nella pagina della raccolta sono visualizzate le seguenti opzioni di filtro e i seguenti dettagli della mappa:
 
 - **Filtro:** La barra più recente mostra i filtri seguenti:
-   - **Modificato**: è possibile selezionare Sì o No. Se si seleziona sì, nella tabella Mappe e predefiniti verranno visualizzate solo le mappe DITA modificate.
-   - **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
-   - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
+  - **Modificato**: è possibile selezionare Sì o No. Se si seleziona sì, nella tabella Mappe e predefiniti verranno visualizzate solo le mappe DITA modificate.
+  - **Predefinito**: selezionare un predefinito per il quale si desidera filtrare i file di mappa. Se ad esempio si sceglie il predefinito *Sito AEM*, verranno visualizzate solo le mappe con il predefinito di output *Sito AEM* configurato.
+  - **Lingua**: è possibile selezionare qualsiasi codice lingua disponibile e visualizzare solo la lingua selezionata nella tabella Mappe e predefiniti.
 - Tabella **Mappe e predefiniti**: la tabella Mappe e predefiniti presenta le informazioni nelle colonne seguenti:
-   - **Mappa**: mostra il titolo del file di mappa DITA.
-   - **Nome file**: mostra il nome del file della mappa DITA.
-   - **Lingua**: mostra la lingua della mappa DITA.
-   - **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
-   - **Linea di base**: mostra la linea di base utilizzata dal predefinito di output.  Se non viene utilizzata alcuna linea di base, viene visualizzato un trattino &quot;-&quot;
-   - **Modificato**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
-   - **Ultima generazione**: mostra la data e l&#39;ora dell&#39;ultimo output generato.
+  - **Mappa**: mostra il titolo del file di mappa DITA.
+  - **Nome file**: mostra il nome del file della mappa DITA.
+  - **Lingua**: mostra la lingua della mappa DITA.
+  - **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
+  - **Linea di base**: mostra la linea di base utilizzata dal predefinito di output.  Se non viene utilizzata alcuna linea di base, viene visualizzato un trattino &quot;-&quot;
+  - **Modificato**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
+  - **Ultima generazione**: mostra la data e l&#39;ora dell&#39;ultimo output generato.
 
 ## Configurare e generare l’output utilizzando una raccolta di mappe
 

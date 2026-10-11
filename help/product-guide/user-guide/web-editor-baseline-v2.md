@@ -4,13 +4,29 @@ description: Crea e gestisci una nuova linea di base (Beta) dalla console delle 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Nuova linea di base (Beta) in Experience Manager Guides
 
 >[!NOTE]
@@ -136,10 +152,10 @@ I seguenti aggiornamenti si applicano quando si lavora con le linee di base crea
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   È inoltre possibile utilizzare le nuove opzioni introdotte per le baseline dinamiche create utilizzando il nuovo modello di baseline:
-   - **Modifica proprietà**: consente di modificare le proprietà di una baseline esistente.
-   - **Rigenera**: consente di rigenerare una baseline dinamica ogni volta che si verificano modifiche.
+  - **Modifica proprietà**: consente di modificare le proprietà di una baseline esistente.
+  - **Rigenera**: consente di rigenerare una baseline dinamica ogni volta che si verificano modifiche.
 
-     ![rigenera-baseline](images/rebuild-baseline.png)
+    ![rigenera-baseline](images/rebuild-baseline.png)
 
 - L&#39;azione **Download** supporta i download impaginati. Tutto il contenuto della linea di base che corrisponde ai filtri applicati viene incluso nel download, non solo il contenuto visibile nella pagina corrente.
 - Filtra i file in base al GUID, oltre ai nomi dei file o alla posizione dei file. È inoltre disponibile un&#39;opzione aggiuntiva per **Filtrare i file senza etichette**.
@@ -151,28 +167,28 @@ I seguenti aggiornamenti si applicano quando si lavora con le linee di base crea
 
   Per apportare modifiche a una baseline, effettuare le seguenti operazioni:
 
-   - Aprire la baseline dal pannello **Baseline**.
+  - Aprire la baseline dal pannello **Baseline**.
 
-     Viene visualizzata la vista tabulare dei riferimenti delle linee di base.
+    Viene visualizzata la vista tabulare dei riferimenti delle linee di base.
 
-   - Passa il puntatore del mouse sul file da modificare.
-   - Seleziona l&#39;icona **Modifica**.
+  - Passa il puntatore del mouse sul file da modificare.
+  - Seleziona l&#39;icona **Modifica**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     Viene visualizzata la finestra di dialogo **Modifica versione**.
-   - Seleziona la versione richiesta dal menu a discesa **Versione** (ad esempio, passa dalla versione 1.0 alla versione 1.1).
+    Viene visualizzata la finestra di dialogo **Modifica versione**.
+  - Seleziona la versione richiesta dal menu a discesa **Versione** (ad esempio, passa dalla versione 1.0 alla versione 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     Le dipendenze aggiunte e rimosse vengono valutate e visualizzate in anteprima. Rivedi le modifiche prima di applicarle.
+    Le dipendenze aggiunte e rimosse vengono valutate e visualizzate in anteprima. Rivedi le modifiche prima di applicarle.
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     Se non viene rilevata alcuna modifica della dipendenza, viene visualizzato un messaggio di stato vuoto.
+    Se non viene rilevata alcuna modifica della dipendenza, viene visualizzato un messaggio di stato vuoto.
 
-   - Seleziona **Aggiorna** per applicare le modifiche.
+  - Seleziona **Aggiorna** per applicare le modifiche.
 
   La linea di base viene aggiornata con la versione selezionata.
   +++

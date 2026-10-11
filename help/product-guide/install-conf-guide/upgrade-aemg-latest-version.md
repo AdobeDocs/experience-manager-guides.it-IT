@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # Aggiornare Adobe Experience Manager Guides per versione 4.6.0 e successive
 
 Questo articolo fornisce istruzioni per aggiornare le versioni di Experience Manager Guides per 4.6.0 e successive.
@@ -193,15 +208,15 @@ Dopo aver installato Experience Manager Guides, è possibile unire le varie conf
 
      **Scheda comune:**
 
-      - **Titolo:** iniziatore post-elaborazione DXML
+     - **Titolo:** iniziatore post-elaborazione DXML
 
-      - **Descrizione**: passaggio iniziatore post-elaborazione DXML che attiverà un processo sling per la post-elaborazione DXML della risorsa modificata/creata
+     - **Descrizione**: passaggio iniziatore post-elaborazione DXML che attiverà un processo sling per la post-elaborazione DXML della risorsa modificata/creata
 
      **Scheda Elabora**
 
-      - Selezionare **DXML Post Process Initiator** dal menu a discesa **Process**
-      - Seleziona **Avanzamento gestore**
-      - Seleziona **Fine**
+     - Selezionare **DXML Post Process Initiator** dal menu a discesa **Process**
+     - Seleziona **Avanzamento gestore**
+     - Seleziona **Fine**
 
 1. Seleziona **Sincronizza** in alto a destra dopo aver completato le modifiche. Riceverai una notifica di esito positivo.
 

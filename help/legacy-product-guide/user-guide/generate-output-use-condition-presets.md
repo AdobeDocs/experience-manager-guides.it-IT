@@ -5,24 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+TQID: 'https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1119
+source-wordcount: '1214'
 ht-degree: 2%
-
 ---
-
 # Utilizzare i predefiniti per le condizioni {#id1825FL004PN}
 
 È possibile definire gli attributi negli argomenti DITA e utilizzare il predefinito di condizione per specificare cosa accade con l&#39;attributo nell&#39;output finale. Ad esempio, puoi aggiungere nel contenuto attributi come versione 1.0 e versione 2.0 e utilizzare un predefinito di condizione per includere la versione 1.0 per la versione 1.0 ed escludere la versione 2.0. Allo stesso modo, è possibile aggiungere al contenuto attributi come OS Windows e OS Linux e quindi includere o escludere il contenuto rilevante per l&#39;output finale in base al sistema operativo.
@@ -66,17 +74,17 @@ Il pannello **Attributi** mostra tutti gli attributi aggiunti a qualsiasi riferi
    * Seleziona uno o più valori di attributo per aggiungerli al predefinito di condizione. Ad esempio, puoi selezionare i valori `Unix` e `Win` dell&#39;attributo platform
    * Selezionate una coppia di attributi e valori e trascinatela nel pannello centrale. Ad esempio, è possibile selezionare il valore `Unix` dell&#39;attributo platform e trascinarlo.
    * **Seleziona tutto** per aggiungere tutti gli attributi e i relativi valori al predefinito di condizione.
-Per impostazione predefinita, l&#39;azione per un attributo è `Include`.
+     Per impostazione predefinita, l&#39;azione per un attributo è `Include`.
 
 1. Seleziona **Aggiungi**. Puoi ripetere questo passaggio per aggiungere altri attributi. Gli attributi aggiunti vengono spostati dal pannello centrale a quello di destra.
 1. Seleziona Rimuovi nella barra delle azioni in alto per rimuovere gli attributi selezionati nel pannello di destra.
 1. (Facoltativo) Se necessario, puoi sovrascrivere l’azione applicata agli attributi.
-Effettuare una delle seguenti operazioni:
+Effettua una delle seguenti operazioni:
    * Per qualsiasi attributo, seleziona una delle azioni seguenti dal menu a discesa Azione.
-      * Includi
-      * Escludi
-      * Passthrough
-      * Flag
+     * Includi
+     * Escludi
+     * Passthrough
+     * Flag
    * Seleziona più righe di attributi dal pannello di destra e scegli un’azione dalla barra delle azioni in alto. Ad esempio, puoi selezionare Escludi azione per gli attributi selezionati.
 1. Seleziona **Salva** per salvare il predefinito di condizione.
 
@@ -133,7 +141,7 @@ Per creare un predefinito di condizione, effettua le seguenti operazioni:
    * Escludi
    * Passthrough
    * Flag
-L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere dal fatto che vengano aggiunti o meno al predefinito della condizione.
+     L’azione è impostata come azione predefinita per tutti gli attributi, a prescindere dal fatto che vengano aggiunti o meno al predefinito della condizione.
 
    Ad esempio, nel documento sono presenti 15 attributi di condizione, quattro dei quali sono stati inclusi nel predefinito di condizione. Se selezioni **escludi** come azione predefinita, viene applicato a tutti e 15 gli attributi.
 

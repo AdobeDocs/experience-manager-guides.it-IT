@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # Mappatura dei componenti per AEM Sites
 
 L’articolo tratta i vari aspetti della mappatura dei componenti per i siti AEM (utilizzando la mappatura dei componenti compositi).
@@ -23,7 +38,8 @@ Utilizza un array JSON di regole (il tuo `componentmapping.json`) per convertire
 ### Eseguire il targeting dell’elemento HTML e della relativa classe
 
 - Scrivere il nome del tag HTML in `name`.
-- Includere la classe CSS applicata all&#39;elemento in `class`, se la classe esiste.Esempio:
+- Includere la classe CSS applicata all&#39;elemento in `class`, se la classe esiste.
+Esempio:
 
   ```html
   <div class ="sample-class">
@@ -48,7 +64,8 @@ Durante la definizione degli elementi di cui sopra, assicurati quanto segue:
 
 ### Utilizza attributeMap per salvare le proprietà sul nodo JCR
 
-Aggiungere voci a `attributeMap` per impostare le proprietà nel nodo di output. Ogni voce produce `attrs[to] = value`.Pattern comuni:
+Aggiungere voci a `attributeMap` per impostare le proprietà nel nodo di output. Ogni voce produce `attrs[to] = value`.
+Pattern comuni:
 
 ```json
 // copy an attribute
@@ -164,7 +181,8 @@ Scopri come creare un componente tabella personalizzato che visualizzi le immagi
 
 ### Cosa verrà creato
 
-Componente tabella personalizzato che accetta il contenuto della tabella HTML e sostituisce ogni `<img>` al suo interno con l’output del componente Immagine core di AEM. Questo consente di riutilizzare le funzioni dell’immagine core (immagini reattive, gestione delle opzioni Alt, accessibilità) mantenendo al contempo il controllo completo sul markup della tabella.Utilizzando questo approccio, puoi creare altri componenti personalizzati per il sito web di AEM (utilizzando la mappatura dei componenti compositi).
+Componente tabella personalizzato che accetta il contenuto della tabella HTML e sostituisce ogni `<img>` al suo interno con l’output del componente Immagine core di AEM. Questo consente di riutilizzare le funzioni dell’immagine core (immagini reattive, gestione delle opzioni Alt, accessibilità) mantenendo al contempo il controllo completo sul markup della tabella.
+Utilizzando questo approccio, puoi creare altri componenti personalizzati per il sito web di AEM (utilizzando la mappatura dei componenti compositi).
 
 ### Perché questo approccio
 
@@ -189,9 +207,9 @@ La tabella viene generata una sola volta e contiene già il markup Immagine core
 ### Struttura delle cartelle e file chiave (in questo archivio)
 
 - Componente HTL e clientlibs: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` (renderer HTL)
-   - `_cq_editConfig.xml` (aggiorna listener)
-   - `clientlibs/` con `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html` (renderer HTL)
+  - `_cq_editConfig.xml` (aggiorna listener)
+  - `clientlibs/` con `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Modello Sling: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - Servizio di rendering immagini: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 

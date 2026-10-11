@@ -5,19 +5,23 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-TQID: https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A
+TQID: 'https://experienceleague.adobe.com/jF4wtAFnt2rEs4Vn-INbBYn5Juv-RXdQHhsjXKLH65A'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # Riassegna attività di revisione tramite notifica {#id21BNH03M0KS}
 
 È possibile riassegnare un&#39;attività di revisione assegnata a un altro utente aggiunto allo stesso progetto di revisione. La riassegnazione dell&#39;attività di revisione può essere eseguita facilmente dalla notifica di revisione consegnata nella casella in entrata. Tuttavia, in qualità di revisore, è possibile riassegnare un&#39;attività di revisione solo a singoli utenti e non a gruppi di utenti utilizzando la notifica.

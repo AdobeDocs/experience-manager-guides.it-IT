@@ -2,13 +2,19 @@
 title: Note sulla versione | Novità della versione 2026.05.0 di Adobe Experience Manager Guides
 description: Scopri le funzioni nuove e migliorate della versione 2026.05.0 di Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # Novità della versione 2026.05.0 (maggio 2026)
 
 Questo articolo descrive le funzioni nuove e migliorate introdotte con la versione 2026.05.0 di Adobe Experience Manager Guides as a Cloud Service.
@@ -46,10 +52,10 @@ Un’interfaccia aggiornata migliora l’usabilità complessiva, rendendo la nav
 
 - **Impostazioni dell&#39;editor a livello utente consolidate**: nuovo pannello delle impostazioni centralizzato che offre agli autori un migliore controllo sul comportamento dell&#39;editor, consentendo agli utenti di gestire le preferenze più facilmente da un&#39;unica posizione. Le opzioni di configurazione includono, possibilità di abilitare/disabilitare:
 
-   - Spazi unificatori in modalità Creazione
-   - Impostazioni di visibilità dei tag con attributi o senza attributi
-   - Commenti XML in modalità Creazione
-   - Menu di inserimento rapido per l&#39;inserimento di elementi nell&#39;editor
+  - Spazi unificatori in modalità Creazione
+  - Impostazioni di visibilità dei tag con attributi o senza attributi
+  - Commenti XML in modalità Creazione
+  - Menu di inserimento rapido per l&#39;inserimento di elementi nell&#39;editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Offre strumenti migliorati e flessibilità per semplificare la creazione e la mo
 
 - **Miglioramento dell&#39;authoring delle tabelle**: migliora l&#39;esperienza complessiva di authoring delle tabelle con interazioni più intuitive ed efficienti per la creazione e la gestione delle tabelle.
 
-   - Interazioni fluide e intuitive: inserimento semplificato di righe e colonne, con supporto della funzione di trascinamento della selezione per riordinare righe e colonne.
-   - Barra degli strumenti contestuale: consente di accedere ad azioni specifiche della tabella, ad esempio formattazione, allineamento, unione e altre azioni aggiuntive direttamente all’interno della tabella.
-   - Configurazione delle tabelle: puoi aggiungere più righe o colonne in un’unica azione, riducendo i passaggi ripetitivi e migliorando l’efficienza.
+  - Interazioni fluide e intuitive: inserimento semplificato di righe e colonne, con supporto della funzione di trascinamento della selezione per riordinare righe e colonne.
+  - Barra degli strumenti contestuale: consente di accedere ad azioni specifiche della tabella, ad esempio formattazione, allineamento, unione e altre azioni aggiuntive direttamente all’interno della tabella.
+  - Configurazione delle tabelle: puoi aggiungere più righe o colonne in un’unica azione, riducendo i passaggi ripetitivi e migliorando l’efficienza.
 
   ![](assets/config-table.png){width="650"}
 

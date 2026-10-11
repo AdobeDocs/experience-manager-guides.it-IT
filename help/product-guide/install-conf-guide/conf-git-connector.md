@@ -4,13 +4,28 @@ description: Scopri come configurare un Git in Experience Manager Guides.
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
-
 ---
-
 # Creare e configurare il connettore Git dall’interfaccia utente
 
 >[!NOTE]
@@ -42,17 +57,17 @@ Utilizza lo strumento Origini dati in Experience Manager Guides per creare e con
    >* Passa il cursore sopra <img src="./assets/info-details.svg" alt= "icona info" width="25"> vicino al campo per visualizzare ulteriori dettagli.
    >* I campi con * sono obbligatori. Ad esempio, puoi immettere i seguenti dettagli per il connettore Git.
 
-   &#x200B;- **Nome**: immettere il nome dell&#39;origine dati.
-   &#x200B;- **Percorso directory principale di AEM di destinazione**: immetti il percorso nell&#39;archivio AEM in cui deve essere archiviato il contenuto importato da Git.
-   &#x200B;- **Filtro tipo file (inclusione)**: specificare i tipi di file da includere durante l&#39;importazione.
-   &#x200B;- **Percorso escluso (regex)**: specificare i pattern di percorso da escludere dall&#39;importazione.
-   &#x200B;- **Tipo di autenticazione**: selezionare il tipo di autenticazione dall&#39;elenco a discesa. Attualmente, **Personal Access Token (PAT)** è l&#39;unico metodo di autenticazione supportato. Immetti il PAT durante la configurazione del connettore per autenticare e accedere all’archivio Git.
+   - **Nome**: immettere il nome dell&#39;origine dati.
+   - **Percorso directory principale di AEM di destinazione**: immetti il percorso nell&#39;archivio AEM in cui deve essere archiviato il contenuto importato da Git.
+   - **Filtro tipo file (inclusione)**: specificare i tipi di file da includere durante l&#39;importazione.
+   - **Percorso escluso (regex)**: specificare i pattern di percorso da escludere dall&#39;importazione.
+   - **Tipo di autenticazione**: selezionare il tipo di autenticazione dall&#39;elenco a discesa. Attualmente, **Personal Access Token (PAT)** è l&#39;unico metodo di autenticazione supportato. Immetti il PAT durante la configurazione del connettore per autenticare e accedere all’archivio Git.
 
      Scopri come [generare un token di accesso personale GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Durante la selezione degli ambiti durante la generazione di PAT su GitHub, assicurati di abilitare i seguenti ambiti:
-     &#x200B;- **repo**: seleziona la casella di controllo di primo livello. Tutti i sottoambiti vengono selezionati automaticamente, consentendo l’accesso al contenuto dell’archivio, allo stato del commit e alle distribuzioni.
-     &#x200B;- **admin:org**: selezionare solo **read:org**. Questo è necessario per risolvere l’appartenenza a un’organizzazione e a un team.
+     - **repo**: seleziona la casella di controllo di primo livello. Tutti i sottoambiti vengono selezionati automaticamente, consentendo l’accesso al contenuto dell’archivio, allo stato del commit e alle distribuzioni.
+     - **admin:org**: selezionare solo **read:org**. Questo è necessario per risolvere l’appartenenza a un’organizzazione e a un team.
    * **URL archivio**: immettere l&#39;URL archivio Git da cui importare il contenuto.
    * **Ramo**: immettere il ramo da utilizzare per l&#39;importazione del contenuto.
 

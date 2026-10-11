@@ -4,36 +4,53 @@ description: Scopri le varie impostazioni disponibili nell’interfaccia dell’
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-TQID: https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY
+TQID: 'https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2431
+source-wordcount: '2470'
 ht-degree: 0%
-
 ---
-
 # Impostazioni Workspace
 
 L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../user-guide/web-editor-tab-bar.md) dell&#39;editor è disponibile solo per gli amministratori e gli amministratori dei profili di cartella e consente di configurare le impostazioni seguenti:
@@ -70,9 +87,9 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
   Dal menu **Creazione di azioni rapide** puoi effettuare le seguenti operazioni:
 
-   - utilizza gli interruttori per abilitare o disabilitare opzioni specifiche a cui gli autori possono accedere quando lavorano con l’Assistente IA.
+  - utilizza gli interruttori per abilitare o disabilitare opzioni specifiche a cui gli autori possono accedere quando lavorano con l’Assistente IA.
 
-   - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
+  - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
@@ -80,7 +97,7 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
 - **Authoring**
 
-   - **Abilita Sostituisci Tutto**: selezionare questa opzione per visualizzare l&#39;icona **Sostituisci Tutto** nel pannello **Trova e sostituisci**.
+  - **Abilita Sostituisci Tutto**: selezionare questa opzione per visualizzare l&#39;icona **Sostituisci Tutto** nel pannello **Trova e sostituisci**.
 
 - **Citazioni**
 
@@ -88,15 +105,15 @@ Selezionare questa opzione per abilitare la funzionalità [Assistente AI](../use
 
 - **Condizione**
 
-   - **Evidenzia testo condizionale nella visualizzazione Autore**: selezionare questa opzione per evidenziare il testo condizionale nella visualizzazione Autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
+  - **Evidenzia testo condizionale nella visualizzazione Autore**: selezionare questa opzione per evidenziare il testo condizionale nella visualizzazione Autore. Il contenuto condizionale viene evidenziato utilizzando il colore definito per la condizione.
 
-   - **Convalida con attributi di condizione**: selezionare questa opzione per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
+  - **Convalida con attributi di condizione**: selezionare questa opzione per consentire la convalida dei valori definiti per gli attributi. Questo impedisce l’aggiunta di valori errati.
 
-   - **Mostra chiave con titolo nel pannello Schema soggetti**: selezionare questa opzione per visualizzare i tasti insieme ai titoli nello schema soggetti. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
+  - **Mostra chiave con titolo nel pannello Schema soggetti**: selezionare questa opzione per visualizzare i tasti insieme ai titoli nello schema soggetti. Se non si seleziona questa opzione, vengono visualizzati solo i titoli. Ad esempio, in questo caso, insieme ai titoli vengono visualizzati anche i tasti &quot;os&quot;, &quot;audience&quot; e &quot;other&quot;.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
+  - **Mostra schema soggetto nel pannello Condizioni**: selezionare questa opzione per visualizzare uno schema soggetto nel pannello Condizioni. Se deselezionate questa opzione, le condizioni definite vengono visualizzate nel pannello condizioni.
 
 - **Controllo ortografia**
 Sono disponibili due opzioni: **Controllo ortografico AEM** e **Controllo ortografico browser**. Per impostazione predefinita, l’editor utilizza la funzione di controllo ortografico del browser, in cui il controllo ortografico viene eseguito utilizzando il dizionario integrato del browser. Puoi passare al controllo ortografico di AEM per utilizzare il dizionario Adobe Experience Manager, che può anche essere personalizzato per aggiungere un elenco di parole personalizzato. Per ulteriori informazioni sulla personalizzazione del dizionario AEM, vedere la sezione [Personalizzare il dizionario predefinito di AEM](../cs-install-guide/customize-aem-custom-dictionary.md) nell&#39;area Installare e configurare Adobe Experience Manager Guides as a Cloud Service.
@@ -107,9 +124,9 @@ Sono disponibili due opzioni: **Controllo ortografico AEM** e **Controllo ortogr
 
   Le seguenti funzioni/opzioni sono disponibili solo quando l’impostazione del contenuto di apprendimento è abilitata:
 
-   - **Authoring dei corsi**: abilita le opzioni per creare e gestire i corsi sia dall&#39;editor che dalla home page.
-   - **Modelli SCORM**: abilita l&#39;opzione per creare modelli SCORM in *Modelli di output* nell&#39;editor.
-   - **Modelli di contenuto e predefiniti di output**: abilita le opzioni di configurazione Modelli di contenuto e Predefiniti di output nella finestra di dialogo delle impostazioni di Workspace.
+  - **Authoring dei corsi**: abilita le opzioni per creare e gestire i corsi sia dall&#39;editor che dalla home page.
+  - **Modelli SCORM**: abilita l&#39;opzione per creare modelli SCORM in *Modelli di output* nell&#39;editor.
+  - **Modelli di contenuto e predefiniti di output**: abilita le opzioni di configurazione Modelli di contenuto e Predefiniti di output nella finestra di dialogo delle impostazioni di Workspace.
 
 Quando il contenuto di apprendimento è disattivato, tutte le opzioni precedenti non sono più disponibili nell’interfaccia di Experience Manager Guides.
 
@@ -117,8 +134,8 @@ Per ulteriori dettagli, visualizzare [Configura profili cartella](../lc-config-g
 
 - **Editor HTML**: per i contenuti di apprendimento, questa impostazione consente di configurare l&#39;editor per l&#39;authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
 
-   - **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
-   - **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
+  - **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
+  - **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
 
   Per ulteriori dettagli, visualizzare [creazione e personalizzazione dei contenuti di apprendimento](../learning-content/lc-overview.md).
 
@@ -179,24 +196,24 @@ Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. 
 
 - Durante la configurazione dell’app connessa, verifica quanto segue:
 
-   - Specifica il callback.
+  - Specifica il callback.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Selezionate i seguenti ambiti OAuth:
-      - Accesso completo (completo)
-      - Seleziona Gestisci dati utente tramite API (api)
+  - Selezionate i seguenti ambiti OAuth:
+    - Accesso completo (completo)
+    - Seleziona Gestisci dati utente tramite API (api)
 
-     Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
+    Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
 
 
-   - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
+  - Per creare un profilo Salesforce, selezionare la Knowledge Base **Salesforce** dal menu a discesa **Tipo di server**. Immettere un nome di profilo. Nell&#39;**URL sito**, immettere il sito consumer da utilizzare per pubblicare l&#39;output, quindi aggiungere la **Chiave consumer** e il **Segreto consumer** forniti dal sito consumer di Salesforce. Quindi **Convalida** e **Salva** il nuovo profilo creato.
 
-     ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![profilo di pubblicazione salesforce nelle impostazioni dell&#39;area di lavoro](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Per configurare un proxy per Salesforce in Experience Manager Guides, utilizza la configurazione proxy dei componenti HTTP Apache in AEM. Scopri come [configurare il proxy per AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Creare un profilo ServiceNow**
@@ -262,24 +279,24 @@ Questa scheda contiene le opzioni per creare gruppi di lingue, propagare le etic
 
   Per creare un nuovo gruppo di lingue, effettuare le operazioni riportate di seguito.
 
-   1. Seleziona **Aggiungi**.
-   1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
-   1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
+  1. Seleziona **Aggiungi**.
+  1. Immettere il nome del gruppo di lingue. Ogni lingua deve avere un nome univoco. È possibile visualizzare un errore se il campo del nome è vuoto o se il nome non è univoco.
+  1. Seleziona le lingue dal menu a discesa. È possibile selezionare più lingue.
 
-      Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
+     Digita i primi caratteri della lingua o il codice della lingua per filtrare le lingue desiderate. Digitare ad esempio &#39;en&#39; per filtrare tutte le lingue che contengono &#39;en&#39; all&#39;inizio del nome o del codice.
 
-   1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
+  1. Selezionate l&#39;icona Fine (Done) per aggiungere le lingue selezionate al gruppo. Vengono visualizzate le lingue. Quando si aggiungono tre o più lingue, viene visualizzata l&#39;opzione **Mostra altro**. È possibile selezionare **Mostra altro** per visualizzare tutte le lingue presenti nel gruppo.
 
-      >[!TIP]
-      >
-      > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
+     >[!TIP]
+     >
+     > Attiva **Mostra altro** in **Mostra meno** e visualizza solo alcune lingue.
 
-   1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](../user-guide/images/edit_pencil_icon.svg) o eliminare ![elimina](../user-guide/images/Delete_icon.svg) i gruppi di lingue.
-   1. Salva le **impostazioni**.
+  1. Passa il puntatore del mouse sulle lingue di un gruppo per modificare ![icona di modifica](../user-guide/images/edit_pencil_icon.svg) o eliminare ![elimina](../user-guide/images/Delete_icon.svg) i gruppi di lingue.
+  1. Salva le **impostazioni**.
 
-      >[!NOTE]
-      >
-      >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
+     >[!NOTE]
+     >
+     >In qualità di utente, puoi visualizzare i gruppi di lingue configurati nel tuo profilo di cartella.
 
 - **Propagare le etichette della versione di origine alla versione di destinazione**: selezionare questa opzione per passare l&#39;etichetta della versione del file di origine al file tradotto. Per impostazione predefinita, questa opzione è disabilitata.
 - **Pulizia del progetto di traduzione dopo il completamento**: seleziona questa opzione per configurare i progetti di traduzione da disabilitare o eliminare automaticamente dopo la traduzione. Per impostazione predefinita, è selezionato **Nessuno**, in modo che il progetto esista dopo la traduzione.

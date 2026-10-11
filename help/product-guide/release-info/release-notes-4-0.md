@@ -1,13 +1,19 @@
 ---
 title: Note sulla versione per Adobe Experience Manager Guides 4.0.x
 description: Scopri le correzioni di bug, le nuove funzioni e i miglioramenti introdotti nelle versioni 4.0, 4.0.1, 4.0.2 e 4.0.3 di Adobe Experience Manager Guides.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # Note sulla versione | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Nell’editor web sono stati introdotti numerosi miglioramenti e nuove funzioni:
 
 - Il framework di base è stato modificato da Interfaccia utente basata su Coral a Interfaccia utente basata su Spectrum. Ciò offre un’interfaccia utente molto standardizzata e intuitiva.
 - La nuova funzione Proprietà file è stata introdotta nel pannello di destra. È possibile controllare le proprietà di un documento attivo. Le informazioni sono suddivise in due sezioni:
-   - *Generale*: contiene i dettagli generali del file quali nome file, UUID, tag metadati, lingua, data di creazione, stato estratto e stato del documento.
-   - *Riferimento*: contiene riferimenti in ingresso e in uscita.
+  - *Generale*: contiene i dettagli generali del file quali nome file, UUID, tag metadati, lingua, data di creazione, stato estratto e stato del documento.
+  - *Riferimento*: contiene riferimenti in ingresso e in uscita.
 
-     ![Pannello proprietà file](assets/file-properties.avif)
+    ![Pannello proprietà file](assets/file-properties.avif)
 
 - Il supporto per lo schema soggetto è stato aggiunto anche nell’editor web. È ora possibile creare e utilizzare lo schema soggetto utilizzando il pannello Schema soggetto. Con l&#39;aggiunta dello schema argomento, è ora possibile utilizzare metadati e tassonomia aziendali propri.
 

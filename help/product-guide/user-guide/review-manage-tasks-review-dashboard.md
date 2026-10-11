@@ -4,19 +4,23 @@ description: Gestisci le attività di revisione dal dashboard di revisione in AE
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # Gestire le attività di revisione mediante il dashboard Revisione {#id2056B0Y70X4}
 
 Il flusso di lavoro di gestione delle revisioni può includere diverse attività. Ad esempio, è possibile aggiungere revisori per un particolare argomento o estendere la scadenza per una revisione. È inoltre possibile contrassegnare l&#39;attività di revisione come completata se si ritiene che tutte le parti interessate abbiano fornito il proprio feedback. Queste attività possono essere gestite utilizzando il dashboard Revisione.
@@ -139,9 +143,9 @@ La relazione sullo stato dell&#39;attività di revisione contiene i dettagli rip
 
 - Nome\(s\) del revisore a cui è assegnata l&#39;attività di revisione.
 - La colonna Stato indica lo stato della revisione. Lo stato potrebbe essere uno dei seguenti:
-   - **Non avviato**: il revisore non ha ancora aperto l&#39;attività di revisione.
-   - **In corso**: il revisore ha aperto l&#39;attività di revisione e sta esaminando l&#39;argomento.
-   - **Completo**: il revisore ha completato la revisione e ha contrassegnato l&#39;attività come completata nell&#39;interfaccia utente Revisione. L’attività di revisione si trova nella casella in entrata delle notifiche di AEM per ogni Revisore.
+  - **Non avviato**: il revisore non ha ancora aperto l&#39;attività di revisione.
+  - **In corso**: il revisore ha aperto l&#39;attività di revisione e sta esaminando l&#39;argomento.
+  - **Completo**: il revisore ha completato la revisione e ha contrassegnato l&#39;attività come completata nell&#39;interfaccia utente Revisione. L’attività di revisione si trova nella casella in entrata delle notifiche di AEM per ogni Revisore.
 - Quando un revisore apre un collegamento di revisione e passa a un particolare argomento, tale argomento viene aggiunto all&#39;elenco Argomenti esaminati. In questo modo gli autori possono determinare se i revisori hanno aperto le rispettive sezioni o meno. Eventuali commenti sono riportati tra parentesi.
 - Numero totale di commenti su tutti gli argomenti. In caso di più argomenti in revisione, il numero di commenti per ciascun argomento è indicato \(tra parentesi\) rispetto al nome dell’argomento.
 - Data dell&#39;ultimo accesso a un argomento da parte del revisore.

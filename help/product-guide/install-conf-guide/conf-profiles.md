@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Configurare profili globali o a livello di cartella {#id181AH2003PF}
 
 In un&#39;azienda, gruppi o prodotti diversi possono utilizzare diversi modelli di authoring, modelli di output, profili di attributi condizionali \(o schemi argomento\) e configurazioni dell&#39;editor. Configurarli solo a livello aziendale (o globale) può rendere difficile l’esperienza degli autori, in quanto vedranno modelli o profili che non sono rilevanti per loro.
@@ -30,21 +45,21 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
 - **Modelli**: utilizzare questa scheda per configurare i modelli che verranno utilizzati dagli autori per creare o pubblicare contenuti DITA. Sono disponibili i seguenti modelli di argomento predefiniti:
 
-   - Glossario
+  - Glossario
 
-   - Riferimento
+  - Riferimento
 
-   - Argomento
+  - Argomento
 
-   - Concetto
+  - Concetto
 
-   - Attività
+  - Attività
 
-   - Risoluzione di problemi
+  - Risoluzione di problemi
 
-   - Vuoto
+  - Vuoto
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Utilizzando il riquadro Profili cartella nelle impostazioni delle Guide, è poss
 
   Oltre ai modelli di argomento, puoi anche definire i modelli di mappa che verranno resi disponibili agli autori. Sono disponibili i seguenti modelli di mappa predefiniti:
 
-   - Mappa
+  - Mappa
 
-   - Bookmap
+  - Bookmap
 
 - **Predefinito di output**: simile ai modelli, esistono cinque predefiniti di output preconfigurati:
 
-   - Sito AEM
+  - Sito AEM
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Personalizzato
+  - Personalizzato
 
   Gli editori possono utilizzare questi predefiniti di output predefiniti per pubblicare i contenuti. Questi predefiniti possono essere configurati da un amministratore del profilo globale o a livello di cartella. Una volta configurati, i predefiniti di pubblicazione diventano disponibili per gli editori per le mappe DITA appena create. È inoltre possibile applicare i predefiniti di pubblicazione alle mappe DITA esistenti. Per ulteriori dettagli, vedere [Applica modifiche ai predefiniti](#id18AGD0K0OHS).
 
 - **Configurazioni editor XML**: utilizzare questa scheda per personalizzare l&#39;aspetto e le varie caratteristiche dell&#39;editor. Per l’editor sono disponibili le seguenti impostazioni configurabili:
 
-   - Configurazione interfaccia utente editor XML
-   - Layout di pagina dell&#39;editor XML solo per Cloud Service
-   - Configurazione dell&#39;editor XML solo per Cloud Service
-   - Layout modello CSS
-   - Snippet editor XML
-   - Etichette di versione del contenuto XML
-   - Rootmap \(solo a livello di cartella\)
+  - Configurazione interfaccia utente editor XML
+  - Layout di pagina dell&#39;editor XML solo per Cloud Service
+  - Configurazione dell&#39;editor XML solo per Cloud Service
+  - Layout modello CSS
+  - Snippet editor XML
+  - Etichette di versione del contenuto XML
+  - Rootmap \(solo a livello di cartella\)
 
 Puoi configurare entrambi: profilo globale e profilo a livello di cartella. In un profilo a livello di cartella, puoi definire le cartelle in cui applicare le impostazioni. Queste impostazioni includono gli attributi condizionali, i modelli, i predefiniti di output e le impostazioni dell&#39;editor XML. I predefiniti condizionali, i modelli e le configurazioni dell&#39;editor XML vengono quindi resi disponibili agli autori che lavorano nelle cartelle configurate. Analogamente, gli editori avranno accesso ai predefiniti di output configurati definiti nelle cartelle configurate.
 
