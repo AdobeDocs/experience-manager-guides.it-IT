@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Appendice {#id195AD0L60Y4}
 
 ## Risoluzione dei problemi di AEM Guides
@@ -34,7 +53,7 @@ Per controllare i riferimenti, esegui i seguenti passaggi utilizzando lo script 
 1. Esegui lo script di convalida \[`/bin/fmdita/validatebtree?operation=validate`\] per verificare se sono presenti nuovi riferimenti interrotti.
 1. Se lo script di convalida riporta errori, è possibile applicarvi la patch utilizzando lo script di patch.
 1. Registra i dettagli forniti di seguito e, se necessario, condividili con il team di successo del cliente:
-1. &#x200B;
+1. 
    - Registri stampati dallo script di convalida
 - Package di &quot;`/content/fmdita/references`&quot;
 - Qualsiasi altro dettaglio richiesto a seconda dello scenario segnalato
@@ -50,7 +69,7 @@ Per applicare la patch ai riferimenti interrotti, esegui i passaggi seguenti uti
    > È consigliabile copiare e salvare i registri a scopo di riferimento.
 
 1. Una volta eseguito correttamente lo script di patch, è possibile eseguire i seguenti controlli:
-1. &#x200B;
+1. 
    - Verificare che sia stato creato un nuovo nodo &quot;`references_backup_<timestamp>"` in `/content/fmdita`
 - Verifica che i riferimenti siano stati corretti
 
@@ -65,7 +84,7 @@ Il file di registro creato registra tutte le informazioni relative all’esecuzi
 
 ## Preparare i file InDesign per la conversione {#id195DBF0045Z}
 
-InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1&rbrace;&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
+InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1}&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
 
 Anche se è possibile modificare il contenuto DITA in un ordine ragionevole in un editor DITA, è molto più semplice correggere il file InDesign prima di creare il file IDML. Questa operazione può essere eseguita senza modificare l&#39;aspetto del documento di origine. Ha anche il vantaggio di rendere accessibile il documento di origine definendo correttamente l&#39;ordine di lettura.
 
@@ -344,7 +363,7 @@ Nell&#39;esempio seguente viene illustrato come spostare `title` in `table`:
 
 Gli elementi `paragraphStyleRule` sono descritti di seguito:
 
-**&#x200B; elemento `paraRule`**
+** elemento `paraRule`**
 
 Elemento `paraRule` obbligatorio. Specifica le regole di mapping per tutti gli stili di paragrafo. In un documento di InDesign tutto il testo è contenuto all&#39;interno di una sottostruttura di Stili di paragrafo, anche i paragrafi senza alcuno stile sono denominati `\[No paragraph style\]`. Le parentesi quadre indicano un nome di stile InDesign incorporato.
 
@@ -359,8 +378,8 @@ Gli attributi utilizzati in `paraRule` sono illustrati di seguito:
 - `@mapTo`: nome di un elemento destinazione DITA.
 
 - `@context`: questo attributo viene utilizzato per il collegamento a una regola **wrap** specifica quando è disponibile più di una scelta wrapper. Esempio: l&#39;elemento `li` può essere racchiuso in un elemento `ol` o `ul`. Per identificare i diversi tipi di elenco, è possibile utilizzare un nome di stile specifico o l&#39;attributo `@local` che può mostrare quanto segue:
-   - `local="p[-|-|-|-|-|b|-|-]"` Dove &#39;`b`&#39; nel campo 6 indica una voce di elenco puntato. In questo caso, impostare `@context` su &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Dove &#39;`n`&#39; nel campo 6 indica una voce di elenco numerata. In questo caso, impostare `@context` su &#39;`number`&#39;.
+  - `local="p[-|-|-|-|-|b|-|-]"` Dove &#39;`b`&#39; nel campo 6 indica una voce di elenco puntato. In questo caso, impostare `@context` su &#39;`bullet`&#39;.
+  - `local="p[-|-|-|-|-|n|-|-]"` Dove &#39;`n`&#39; nel campo 6 indica una voce di elenco numerata. In questo caso, impostare `@context` su &#39;`number`&#39;.
 
 - `@commentOut`: questo attributo consente il wrapping dell&#39;elemento di destinazione nei commenti XML in modo che le informazioni non vadano perse ma possano essere gestite manualmente dall&#39;utente. Ciò è utile se il contenuto sorgente non può essere forzato a conformarsi alle regole della struttura DITA.
 
@@ -391,9 +410,9 @@ Gli attributi utilizzati in `charRule` sono illustrati di seguito:
 - `@local`: Vedere [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: nome di un elemento destinazione DITA.
 - `@refactor`: questo attributo facoltativo può scegliere tra due valori:
-   - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
+  - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
 
-   - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
+  - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
 
 
 **Regole attributo**
@@ -423,11 +442,11 @@ Gli attributi utilizzati in `attributeRules` sono illustrati di seguito:
 > Questo elemento può contenere più elementi figlio.
 
 - `addNew`: aggiunge un nuovo attributo all&#39;elemento corrispondente. Disponibile per tutti i contesti. Ha due attributi:
-   - `@name`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
-   - `@value`: può essere un testo letterale o una semplice espressione XPath.
+  - `@name`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
+  - `@value`: può essere un testo letterale o una semplice espressione XPath.
 - `copyAtt`: copia un singolo attributo nella destinazione mentre è possibile rinominarlo nel processo. Il valore non viene modificato. Disponibile per i contesti `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` e `elementRule`. Quando questo elemento è presente, il valore `@copyAllAtts` è considerato `false`. Ha due attributi:
-   - `@name`: deve essere il nome di un attributo presente nell&#39;elemento XML di origine.
-   - `@mapTo`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
+  - `@name`: deve essere il nome di un attributo presente nell&#39;elemento XML di origine.
+  - `@mapTo`: deve essere un nome XML valido, preferibilmente valido per il contesto DITA.
 
 **Codici di formattazione locali**
 
@@ -469,7 +488,7 @@ Elenca tutti gli elementi [\#id194CGC00SHS](#id194CGC00SHS).
 
 **`elementRule`elemento**
 
-Elemento `elementRule` obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1&rbrace;&#39; non sia abilitata.***
+Elemento `elementRule` obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1}&#39; non sia abilitata.***
 
 Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
@@ -481,9 +500,9 @@ Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
 - `@refactor`: questo attributo facoltativo può scegliere tra due valori:
 
-   - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
+  - `unwrap`: l&#39;elemento corrispondente viene rimosso mantenendo il relativo contenuto.
 
-   - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
+  - `drop`: l&#39;elemento corrispondente e tutto il relativo contenuto vengono rimossi.
 
 - `@context`: questo attributo viene utilizzato per il collegamento a una regola di wrapper specifica quando sono disponibili più opzioni di wrapper. Esempio: l&#39;elemento `li` può essere racchiuso in un elemento `ol` o `ul`.
 

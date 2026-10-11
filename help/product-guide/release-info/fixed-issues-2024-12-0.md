@@ -1,14 +1,20 @@
 ---
-title: Note sulla versione | Sono stati risolti i problemi nella versione 2024.12.0 di Adobe Experience Manager Guides
+title: Note sulla versione | Problemi risolti nella versione 2024.12.0 di Adobe Experience Manager Guides
 description: Scopri le correzioni di bug nella versione 2024.12.0 di Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
-source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 3%
 ---
-
 # Sono stati risolti i problemi nella versione 2024.12.0 di
 
 Questo articolo descrive i bug corretti in varie aree della versione 2024.12.0 di Adobe Experience Manager Guides as a Cloud Service.
@@ -21,11 +27,11 @@ Scopri le [istruzioni di aggiornamento per la versione 2024.12.0](./upgrade-inst
 - Quando si chiude un file, i commenti e le etichette aggiunti nella finestra di dialogo **Salva modifiche e sblocca file** non vengono salvati nella cronologia delle versioni con la nuova versione. Questo è specifico per un caso d&#39;uso in cui **Chiedi archiviazione alla chiusura** o **Chiedi nuova versione alla chiusura** è abilitato in `XMLEditorConfig`. (20065)
 - Lo stato del documento contrassegnato come **Fine** torna a **Bozza** prima di salvare una nuova versione, con conseguente stato **Fine** non persistente in nessuna versione del documento. (20006)
 - Impossibile aggiungere un file PDF come riferimento a un&#39;immagine in un argomento dell&#39;editor Web. (21206)
-- Se si seleziona un file DITA nell&#39;interfaccia utente di Assets, viene visualizzata l&#39;opzione **Apri nel FrameMaker**, anche se disabilitata nella configurazione. (20082)
+- Se si seleziona un file DITA nell&#39;interfaccia utente di Assets, viene visualizzata l&#39;opzione **Apri in FrameMaker**, anche se disabilitata nella configurazione. (20082)
 
 ## Pubblicazione
 
-- Nell’output di Native PDF, i titoli dei capitoli non sono presenti nel sommario, generando una gerarchia errata. (21840)
+- Nell’output del PDF nativo, i titoli dei capitoli non sono presenti nel sommario, generando una gerarchia errata. (21840)
 
 
 ## Gestione
@@ -59,7 +65,7 @@ Causato da: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess000
 
 **Soluzione**: per risolvere il problema, effettuare le seguenti operazioni:
 
-1. Aggiungi un file repoinit. Nel caso in cui il file non esista, crealo eseguendo i [passaggi di creazione della configurazione di repoinit di esempio](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=it).
+1. Aggiungi un file repoinit. Nel caso in cui il file non esista, crealo eseguendo i [passaggi di creazione della configurazione di repoinit di esempio](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
 2. Aggiungi la seguente riga nel file e distribuisci il codice:
 
    ```

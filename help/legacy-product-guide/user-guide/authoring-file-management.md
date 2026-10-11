@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # Gestione di file e cartelle {#id2116G0L08XA}
 
 Questa sezione spiega come AEM Guides gestisce le operazioni di base sui file, come copiare, incollare, trascinare e rilasciare ed eliminare i file. Sono possibili i seguenti scenari:
@@ -157,18 +163,18 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+     - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
 
-      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+     - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
-        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+       Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+     - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
-      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
+     - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+     - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
      La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
@@ -206,20 +212,20 @@ Per spostare i file in blocco, effettuare le seguenti operazioni:
 
    - **Percorso/i Source\**: specificare il percorso delle cartelle da spostare.
 
-      - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
+     - Seleziona **Sfoglia cartella**  <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare le cartelle da spostare e fare clic su **Seleziona** per completare il processo.
 
-      - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
+     - È inoltre possibile digitare o copiare e incollare il percorso di origine. Premi Invio per aggiungere la cartella all’elenco.
 
-        Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
-      - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
+       Le cartelle selezionate vengono elencate insieme al relativo percorso. Passa il puntatore del mouse sul tag della cartella per visualizzare il percorso completo.
+     - È inoltre possibile rimuovere qualsiasi cartella facendo clic su **Rimuovi** <img src="images/remove-folder.svg" width="25"> vicino alla cartella.
 
 
    - **Percorso di destinazione**: specificare il percorso in cui spostare le cartelle di origine.
 
-      - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
-      - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
+     - Seleziona **Sfoglia cartella** <img src="images/browse-folder-icon.svg" width="25"> per aprire la finestra di dialogo Sfoglia file. Selezionare il percorso in cui si desidera spostare le cartelle di origine. e fare clic su Seleziona per completare il processo.
+     - È inoltre possibile digitare o copiare e incollare il percorso di destinazione.
 
-        La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
+       La cartella selezionata viene visualizzata insieme al relativo percorso nella casella di testo.
 
    - Fare clic su **Spostamento in blocco**.
 
@@ -328,4 +334,4 @@ Se il file multimediale è stato modificato, è possibile trovare e visualizzare
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

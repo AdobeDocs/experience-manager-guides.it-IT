@@ -1,13 +1,19 @@
 ---
 title: Note sulla versione per Adobe Experience Manager Guides 3.8 e 3.8.5
 description: Nuove funzioni e miglioramenti principali nelle versioni 3.8 e 3.8.5 di Adobe Experience Manager Guides (precedentemente nota come soluzione XML Documentation).
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # Note sulla versione | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ Sono state introdotte diverse nuove funzioni e miglioramenti nelle seguenti aree
   ![Cue versione](assets/old-version-icon.avif)
 
 - In questa versione è stata introdotta una nuova funzione Cronologia versioni. Utilizzare la funzione Cronologia versioni per:
-   - Visualizza un elenco di tutte le versioni dell&#39;argomento attualmente attivo con le etichette aggiunte per ogni versione.
-   - Ripristinare una versione precedente dell&#39;argomento.
+  - Visualizza un elenco di tutte le versioni dell&#39;argomento attualmente attivo con le etichette aggiunte per ogni versione.
+  - Ripristinare una versione precedente dell&#39;argomento.
 
   ![Cronologia versioni](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ Sono state introdotte diverse nuove funzioni e miglioramenti nelle seguenti aree
 #### Pubblicazione
 
 - **Consenti la configurazione delle regole di pulizia per le pagine del sito generate**: in qualità di amministratore, puoi definire le regole di pulizia per i nomi dei file del sito AEM o dell&#39;output DITA-OT generato. Ogni volta che si genera un output o un output di AEM Site utilizzando DITA-OT, è possibile configurare le regole seguenti per bonificare gli URL o i nomi di file generati dall&#39;output:
-   - Converti tutti i caratteri in minuscolo.
-   - Sostituisci i caratteri speciali con un separatore.
-   - Limitare un nome di file lungo a un numero predefinito di caratteri.
+  - Converti tutti i caratteri in minuscolo.
+  - Sostituisci i caratteri speciali con un separatore.
+  - Limitare un nome di file lungo a un numero predefinito di caratteri.
 
 - Invia facilmente l’output dall’istanza di authoring all’istanza di pubblicazione utilizzando la dashboard di attivazione in blocco. È possibile utilizzare una singola mappa o una raccolta di mappe e scegliere il predefinito di output da utilizzare per la pubblicazione.
 

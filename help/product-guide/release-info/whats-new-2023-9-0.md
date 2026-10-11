@@ -4,32 +4,47 @@ description: Scopri le funzioni nuove e migliorate nella versione di settembre 2
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0
+TQID: 'https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Novità della versione di settembre 2023 di Adobe Experience Manager Guides as a Cloud Service
 
 Questo articolo descrive le funzioni nuove e migliorate della versione di settembre 2023 di Adobe Experience Manager Guides (in seguito denominate *AEM Guides as a Cloud Service*).
@@ -151,7 +166,7 @@ Per ulteriori dettagli, visualizzare la descrizione della funzionalità **Pagine
 Potete utilizzare le variabili per definire un riferimento incrociato. Quando utilizzi una variabile, il relativo valore viene selezionato dalle proprietà.
 
 Ora puoi anche utilizzare {figure} e {table}.
-Utilizza {figure} per aggiungere un riferimento incrociato al numero di figura. Il numero di figura viene selezionato dagli stili di numerazione automatica definiti per la didascalia delle figure.
+Utilizzare {figure} per aggiungere un riferimento incrociato al numero di figura. Il numero di figura viene selezionato dagli stili di numerazione automatica definiti per la didascalia delle figure.
 
 Utilizzare {table} per aggiungere un riferimento incrociato al numero di tabella. Il numero di tabella viene selezionato dagli stili di numerazione automatica definiti per la didascalia.
 
@@ -215,7 +230,7 @@ Per ulteriori dettagli, visualizzare [Sposta i file in blocco](../user-guide/aut
 
 Utilizza il menu di scelta rapida per visualizzare rapidamente in anteprima il file (.dita, .xml, audio, video o immagine) senza aprirlo. Ora è possibile ridimensionare il riquadro di anteprima e, se il contenuto contiene un collegamento di riferimento, è possibile selezionarlo per aprirlo in una nuova scheda.
 
-![Riquadro di anteprima &#x200B;](assets/quick-preview_cs.png){width="800"}
+![Riquadro di anteprima ](assets/quick-preview_cs.png){width="800"}
 
 *Anteprima del file nel riquadro.*
 

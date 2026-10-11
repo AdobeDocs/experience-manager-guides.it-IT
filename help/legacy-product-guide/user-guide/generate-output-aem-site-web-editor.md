@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # Predefiniti di AEM Sites nell’editor web
 
 
@@ -49,7 +61,7 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 1. Selezionare **AEM Sites** dal menu a discesa **Tipo** nella finestra di dialogo **Nuovo predefinito di output**.
 1. Deseleziona l&#39;opzione **Usa mapping di componenti legacy** nella finestra di dialogo **Nuovo predefinito di output**.
 
-![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png)
+![Nuovo ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -58,8 +70,8 @@ Per creare i predefiniti di AEM Sites dall’editor web, effettua le seguenti op
 >[!NOTE]
 >
 >Prima di configurare i predefiniti di AEM Sites per Experience Manager Guides, l’amministratore deve creare una struttura AEM Sites utilizzando i modelli.
->- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
->- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
+- **Software on-premise**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) per software on-premise.
+- **Cloud Service**: ulteriori informazioni su come [scaricare e installare modelli AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) per Cloud Service.
 
 
 
@@ -91,11 +103,11 @@ La scheda **Generale** contiene le seguenti configurazioni relative alla generaz
 - Percorso di pubblicazione
 - Modello pagina argomento
 - Genera nomi di pagina in base a
-   - Nome file argomento
-   - Titolo argomento
+  - Nome file argomento
+  - Titolo argomento
 - Pulizia delle pagine generate in precedenza
-   - Elimina le pagine generate in precedenza per gli argomenti rimossi dalla mappa
-   - Elimina tutte le pagine create da altre origini nel percorso seguente:
+  - Elimina le pagine generate in precedenza per gli argomenti rimossi dalla mappa
+  - Elimina tutte le pagine create da altre origini nel percorso seguente:
 - Flusso di lavoro di post generazione
 
 
@@ -108,8 +120,8 @@ La scheda **Contenuto** contiene le seguenti configurazioni:
 - Filtro condizione
 - Argomenti aggiuntivi della riga di comando DITA-OT
 - Metadati
-   - Proprietà file (Assets)
-   - Utilizzare le proprietà della mappa come fallback
+  - Proprietà file (Assets)
+  - Utilizzare le proprietà della mappa come fallback
 
 
 Per ulteriori informazioni, vedere [Configurazione AEM Sites](#aem_sites_config).
@@ -208,7 +220,7 @@ Per specificare il contesto di pubblicazione per i file con collegamento incroci
    - Per i predefiniti creati dal dashboard delle mappe. Viene visualizzata la descrizione comando Mappa dashboard.
    - Per i predefiniti preconfigurati, viene visualizzata la descrizione comando Mappa dashboard.
    - Per i predefiniti globali, create una copia locale di questo predefinito globale per impostare i riferimenti delle mappe incrociate.
-Se desiderate utilizzare i predefiniti di AEM Sites dall&#39;editor Web, create un nuovo predefinito o duplicate quello esistente.
+     Se desiderate utilizzare i predefiniti di AEM Sites dall&#39;editor Web, create un nuovo predefinito o duplicate quello esistente.
 
 1. Apri la scheda **Riferimenti cross map**.
 

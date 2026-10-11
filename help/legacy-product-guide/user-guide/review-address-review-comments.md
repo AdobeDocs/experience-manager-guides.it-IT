@@ -5,24 +5,30 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-TQID: https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ
+TQID: 'https://experienceleague.adobe.com/CyM9kTBYOhhD-dO1WE--B1vrT-LYhl4WEhjoHC-CUSQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1036
+source-wordcount: '1036'
 ht-degree: 0%
-
 ---
-
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
 
 
@@ -46,9 +52,9 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 
 - **B:** Seleziona **Dettagli revisione** ![](images/active-review-info-icon.svg) nel pannello **Commenti** per visualizzare ulteriori informazioni sull&#39;attività di revisione:
 
-   - **Nome**: nome dell&#39;attività di revisione.
-   - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
-   - **Stato**: stato corrente dell&#39;attività di revisione.
+  - **Nome**: nome dell&#39;attività di revisione.
+  - **Versione revisione**: visualizza la versione associata all&#39;attività di revisione selezionata. Questo ti aiuta a tenere traccia della versione che hai condiviso per la revisione
+  - **Stato**: stato corrente dell&#39;attività di revisione.
 
   >[!NOTE]
   >
@@ -85,4 +91,4 @@ Nella modalità Editor Web, il pannello di destra contiene le icone Revisione e 
 - **I**: applica un filtro ai commenti. È possibile filtrare per visualizzare i commenti in base a Tipo di revisione \(tutti, evidenziati, eliminati, inseriti o note di Sticky Notes\), Stato revisione \(tutti, accettati, rifiutati o nessuno\), Revisori \(tutti o specifici revisori\(s\)\) o Versioni dell&#39;argomento.
 
 
-**Argomento padre:**&#x200B;[&#x200B; Rivedi argomenti o mappe](review.md)
+**Argomento padre:**[ Rivedi argomenti o mappe](review.md)

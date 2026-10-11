@@ -3,13 +3,19 @@ title: Pubblicazione PDF più intelligente con PDF nativo
 description: Questa sessione di esperti illustra come utilizzare il PDF nativo per creare PDF pronti per DITA senza l’utilizzo di competenze avanzate CSS o XSLT invece di utilizzare la tecnologia low code per la generazione di PDF
 keywords: Pubblicazione PDF DITA, AEM Guides, PDF nativo, da DITA a PDF, flusso di lavoro di pubblicazione DITA, automazione PDF, pubblicazione basata su metadati, modelli DITA
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 2%
-
 ---
-
 # Pubblicazione PDF più intelligente con PDF nativo
 
 In questa sessione abbiamo scoperto come migliorare il flusso di lavoro di pubblicazione da DITA a PDF utilizzando le funzionalità avanzate di PDF nativo in AEM Guides. Questa sessione illustra come automatizzare la personalizzazione di PDF con metadati, branding e localizzazione, riducendo la necessità di più modelli di pubblicazione DITA. Scopri in che modo queste potenti funzioni aiutano i team DITA a pubblicare in modo più intelligente, rapido e su larga scala.
@@ -56,7 +62,7 @@ In questa sessione abbiamo trattato i seguenti argomenti:
 
 ### Forum della community
 
-- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=it).
+- Per le interazioni della community specifiche della sessione su Experience League, visita il [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 

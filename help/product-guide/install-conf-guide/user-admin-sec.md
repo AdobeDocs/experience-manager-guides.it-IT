@@ -5,13 +5,28 @@ feature: User Management
 role: Admin
 level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+    internal-label: User management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 10%
-
 ---
-
 # Amministrazione degli utenti e sicurezza {#id181AED00G5Z}
 
 Per accedere e configurare le funzioni di AEM Guides, devi creare degli utenti. A questi utenti possono quindi essere assegnate le autorizzazioni per accedere a tutte o a funzioni specifiche di AEM Guides. Scopri come configurare e mantenere l’autorizzazione utente e anche come funziona l’autenticazione e l’autorizzazione in AEM.
@@ -20,7 +35,7 @@ I seguenti argomenti nella documentazione di Adobe Experience Manager sono utili
 
 | Servizi cloud | On-Premises |
 |---|---|
-| [Utenti, gruppi e autorizzazioni di AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=it)<br>[Amministrazione utenti e sicurezza](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=it) | [Utenti e gruppi in AEM](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Autorizzazioni in AEM](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Gestione di utenti e gruppi](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Gestione delle autorizzazioni](https://helpx.adobe.com/it/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [Utenti, gruppi e autorizzazioni di AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Amministrazione utenti e sicurezza](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=it) | [Utenti e gruppi in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Autorizzazioni in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Gestione di utenti e gruppi](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Gestione delle autorizzazioni](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Gruppi di utenti creati da AEM Guides {#id181TF0K0MHT}
@@ -85,11 +100,11 @@ Il seguente elenco contiene alcuni consigli e punti relativi ai gruppi di utenti
 
 - Per impostazione predefinita, a *Publishers* sono concessi l&#39;accesso e le autorizzazioni per le seguenti cartelle in DAM:
 
-   - `/content/fmdita` -\> Lettura e scrittura (applicabile a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Lettura e scrittura (applicabile a: ![](./assets/Smock_Building_18_N.svg))
+  - `/content/fmdita` -\> Lettura e scrittura (applicabile a: ![](./assets/Smock_Cloud_18_N.svg))<br>``/var/dxml``-\> Lettura e scrittura (applicabile a: ![](./assets/Smock_Building_18_N.svg))
 
-   - `/content/dam/fmdita-outputs` -\> Lettura e scrittura
+  - `/content/dam/fmdita-outputs` -\> Lettura e scrittura
 
-   - `/content/output/sites` -\> Lettura e scrittura
+  - `/content/output/sites` -\> Lettura e scrittura
 
   Se utilizzi una posizione diversa da quelle di pubblicazione predefinite sopra indicate, devi assegnare all’editore autorizzazioni di lettura e scrittura esplicite.
 

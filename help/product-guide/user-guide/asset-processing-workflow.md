@@ -1,13 +1,19 @@
 ---
 title: Domande frequenti sulle prestazioni di pubblicazione e la scalabilità in Adobe Experience Manager Guides
 description: Scopri le domande frequenti su Prestazioni di pubblicazione e scalabilità in Adobe Experience Manager Guides.
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1666'
 ht-degree: 1%
-
 ---
-
 
 # Elaborazione risorse
 
@@ -39,47 +45,47 @@ I passaggi di elaborazione principali rimangono funzionalmente coerenti, ma veng
 ### Miglioramenti architetturali
 
 - **Integrazione del database grafico**:
-   - Transizione da JCR gerarchico a database grafico nativo
-   - Gestione efficiente di relazioni e dipendenze
-   - Eliminazione della complessità di simulazione delle operazioni grafiche sullo storage gerarchico
+  - Transizione da JCR gerarchico a database grafico nativo
+  - Gestione efficiente di relazioni e dipendenze
+  - Eliminazione della complessità di simulazione delle operazioni grafiche sullo storage gerarchico
 - **Elaborazione distribuita multi-thread**:
-   - L’elaborazione viene eseguita su più pod in un ambiente cloud
-   - Rimuove la dipendenza da un singolo nodo principale
-   - Scalabilità orizzontale ed esecuzione parallela
+  - L’elaborazione viene eseguita su più pod in un ambiente cloud
+  - Rimuove la dipendenza da un singolo nodo principale
+  - Scalabilità orizzontale ed esecuzione parallela
 - **Eliminazione della dipendenza della mappa padre:**
-   - Elimina la necessità di attraversamento esplicito dei grafici
-   - Riduzione delle operazioni di I/O e della latenza di elaborazione
-   - Semplifica la pipeline di elaborazione
+  - Elimina la necessità di attraversamento esplicito dei grafici
+  - Riduzione delle operazioni di I/O e della latenza di elaborazione
+  - Semplifica la pipeline di elaborazione
 - **Allocazione ID univoco sincronizzata**
-   - Il coordinamento centralizzato garantisce:
-   - Nessuna duplicazione degli ID documento
-   - Coerenza tra nodi distribuiti
-   - Mantiene l&#39;integrità referenziale in un ambiente simultaneo
+  - Il coordinamento centralizzato garantisce:
+  - Nessuna duplicazione degli ID documento
+  - Coerenza tra nodi distribuiti
+  - Mantiene l&#39;integrità referenziale in un ambiente simultaneo
 - **Database scalabile nativo per il cloud (ospitato da AWS)**
-   - Livello di database ad alta disponibilità e resilienza
-   - Supporta il ridimensionamento elastico in base al carico di lavoro
-   - Migliora l&#39;affidabilità e le prestazioni complessive del sistema
+  - Livello di database ad alta disponibilità e resilienza
+  - Supporta il ridimensionamento elastico in base al carico di lavoro
+  - Migliora l&#39;affidabilità e le prestazioni complessive del sistema
 
 ![](images/workflow.png)
 
 ## Vantaggi della nuova architettura
 
 - Miglioramenti delle prestazioni:
-   - L’esecuzione parallela riduce notevolmente i tempi di elaborazione
-   - L&#39;eliminazione delle operazioni di traversal-heavy riduce la latenza
-   - La gestione ottimizzata dei grafici migliora la velocità di risoluzione delle dipendenze
+  - L’esecuzione parallela riduce notevolmente i tempi di elaborazione
+  - L&#39;eliminazione delle operazioni di traversal-heavy riduce la latenza
+  - La gestione ottimizzata dei grafici migliora la velocità di risoluzione delle dipendenze
 - Scalabilità:
-   - Il ridimensionamento orizzontale tra i pod consente la gestione di grandi volumi di acquisizione
-   - L&#39;infrastruttura nativa per il cloud si adatta dinamicamente alle esigenze del carico di lavoro
+  - Il ridimensionamento orizzontale tra i pod consente la gestione di grandi volumi di acquisizione
+  - L&#39;infrastruttura nativa per il cloud si adatta dinamicamente alle esigenze del carico di lavoro
 - Affidabilità e disponibilità
-   - L’elaborazione distribuita rimuove un singolo punto di errore
-   - Il database ospitato da AWS garantisce elevata disponibilità e tolleranza di errore
+  - L’elaborazione distribuita rimuove un singolo punto di errore
+  - Il database ospitato da AWS garantisce elevata disponibilità e tolleranza di errore
 - Maggiore efficienza:
-   - Riduzione del sovraccarico di I/O a causa della rimozione del traversal della mappa padre
-   - Migliore utilizzo delle risorse tra i nodi di elaborazione
+  - Riduzione del sovraccarico di I/O a causa della rimozione del traversal della mappa padre
+  - Migliore utilizzo delle risorse tra i nodi di elaborazione
 - Integrità dei dati:
-   - L&#39;allocazione sincronizzata degli ID garantisce la coerenza tra i sistemi distribuiti
-   - Mantiene la solidità e consente la concorrenza
+  - L&#39;allocazione sincronizzata degli ID garantisce la coerenza tra i sistemi distribuiti
+  - Mantiene la solidità e consente la concorrenza
 
 ## Configurare il database
 
@@ -241,7 +247,7 @@ AEM supporta l’acquisizione di contenuti in blocco tramite i provider di archi
 
 - Acquisizione pianificata: l’acquisizione dei contenuti può essere pianificata in modo che avvenga durante intervalli di tempo predefiniti, garantendo un impatto minimo o nullo sugli utenti finali e sulle operazioni in corso.
 
-Per ulteriori informazioni, visualizzare [Utilizzo dell&#39;importazione in blocco](https://experienceleague.adobe.com/it/docs/experience-manager-learn/cloud-service/migration/bulk-import).
+Per ulteriori informazioni, visualizzare [Utilizzo dell&#39;importazione in blocco](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/bulk-import).
 
 ## Acquisizione in blocco tramite caricamento AEM
 

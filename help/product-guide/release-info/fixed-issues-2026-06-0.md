@@ -1,13 +1,19 @@
 ---
 title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2026.06.0
 description: Scopri le correzioni di bug nella versione 2026.06.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # Sono stati risolti i problemi nella versione 2026.06.0 di
 
 Questo articolo descrive i bug corretti in varie aree della versione 2026.06.0 di Adobe Experience Manager Guides as a Cloud Service.
@@ -63,10 +69,10 @@ Scopri le [istruzioni di aggiornamento per la versione 2026.06.0](upgrade-instru
 - Quando si pubblica una mappa DITA con `processing-role=resource-only` elementi in AEM Sites (con mappatura dei componenti legacy), vengono generate pagine del sito orfane per tali elementi in scenari aggiuntivi, ad esempio elementi `topicgroup` e configurazioni di contenuto specifiche. (GUIDES-37650)
 - Quando si aggiunge una mappa con un nome lungo a una raccolta mappe, l’interfaccia utente della raccolta mappe viene riprodotta in un layout distorto. Questo problema è stato risolto con l&#39;insieme New Maps. (GUIDES-42062)
 - Pubblicazione con il motore PDF nativo v1:
-   - Quando si genera l’output del PDF nativo per determinati contenuti, in PDF viene riprodotto solo il rendering della prima pagina, nonostante il HTML intermedio contenente il contenuto completo per più pagine. (GUIDES-28270)
-   - L’ordine di lettura dei contenuti nell’output PDF nativo con le impostazioni di accessibilità abilitate non è corretto. I numeri di pagina dei piè di pagina vengono letti prima del contenuto principale anziché alla fine. (GUIDES-27790)
-   - La barra dei colori nell&#39;output del PDF nativo non si estende per l&#39;intera larghezza della pagina e si sovrappone quando la dimensione della pagina viene personalizzata, causando la visualizzazione di alcune caselle di colore nascoste. (GUIDES-15505)
-   - Il selettore di pseudo-classe CSS `:is()` non viene rispettato nell&#39;output PDF nativo, con conseguenti differenze di stile rispetto al rendering del browser. (GUIDES-11328)
+  - Quando si genera l’output del PDF nativo per determinati contenuti, in PDF viene riprodotto solo il rendering della prima pagina, nonostante il HTML intermedio contenente il contenuto completo per più pagine. (GUIDES-28270)
+  - L’ordine di lettura dei contenuti nell’output PDF nativo con le impostazioni di accessibilità abilitate non è corretto. I numeri di pagina dei piè di pagina vengono letti prima del contenuto principale anziché alla fine. (GUIDES-27790)
+  - La barra dei colori nell&#39;output del PDF nativo non si estende per l&#39;intera larghezza della pagina e si sovrappone quando la dimensione della pagina viene personalizzata, causando la visualizzazione di alcune caselle di colore nascoste. (GUIDES-15505)
+  - Il selettore di pseudo-classe CSS `:is()` non viene rispettato nell&#39;output PDF nativo, con conseguenti differenze di stile rispetto al rendering del browser. (GUIDES-11328)
 
   >[!NOTE]
   >
@@ -77,7 +83,7 @@ Scopri le [istruzioni di aggiornamento per la versione 2026.06.0](upgrade-instru
 - L’applicazione di una linea di base a una mappa con molte risorse ritarda il caricamento del rapporto di traduzione per la lingua selezionata, talvolta causando un timeout della richiesta prima del rendering del rapporto. (GUIDES-45508)
 - I gruppi di lingue nella scheda Traduzione in Impostazioni Workspace non vengono mantenuti quando la cartella della lingua selezionata utilizza un codice locale sillabato (ad esempio, `da-DK`) invece di un formato di sottolineatura (`da_dk`). (GUIDES-37843)
 
-## Revisione
+## Rivedere
 
 - Descrizione comando per l&#39;icona **Cronologia versioni** mancante nel pannello sinistro dell&#39;interfaccia utente di revisione accanto al nome dell&#39;argomento. (GUIDES-45511)
 - Quando si modifica un&#39;attività di revisione attiva, se un argomento che fa già parte della revisione viene rimosso e quindi aggiunto di nuovo senza selezionare **Aggiorna**, le informazioni del revisore per tale argomento vengono perse. (GUIDES-38774)
@@ -125,7 +131,7 @@ Adobe ha identificato i seguenti problemi noti per la versione 2026.06.0:
 
 - Quando un&#39;equazione MathML viene inserita come `conref`, il rendering non viene eseguito correttamente. (GUIDES-46601) <br> **Soluzione**: racchiudere l&#39;equazione di MathML in un elemento `<p>` e utilizzare tale elemento `<p>` come origine conref.
 
-## Revisione
+## Rivedere
 
 - Quando un’attività di revisione viene riassegnata a un utente che non fa parte del team di progetto, l’utente può eseguire azioni di revisione nonostante la mancata iscrizione al progetto, mentre la visibilità del revisore, il tracciamento dello stato di revisione e le notifiche di delega non funzionano correttamente. (GUIDES-46602)
 

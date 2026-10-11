@@ -2,13 +2,19 @@
 title: Note sulla versione | Novità di Adobe Experience Manager Guides versione 5.2.0
 description: Scopri le funzioni nuove e migliorate di Adobe Experience Manager Guides versione 5.2.0
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # Novità della versione 5.2.0 (maggio 2026)
 
 Questo articolo descrive le funzioni nuove e migliorate introdotte con la versione 5.2.0 di Adobe Experience Manager Guides as a Cloud Service.

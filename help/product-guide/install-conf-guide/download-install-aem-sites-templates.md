@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 53a36126-2075-40c8-8882-f77ad6435715
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 0%
-
 ---
-
 # Scaricare e installare modelli AEM Sites
 
 Questa guida fornisce istruzioni dettagliate per impostare e configurare il modello AEM Guides più recente per la generazione di pagine AEM Sites in un ambiente cloud. Segui questi passaggi per installare i pacchetti richiesti, creare e configurare i predefiniti e generare AEM Sites.
@@ -28,14 +43,14 @@ Le schede seguenti forniscono i prerequisiti necessari in base alla configurazio
 
 - **Autorizzazioni richieste**: è necessario disporre delle seguenti autorizzazioni:
 
-   - Accedi a **Cloud Manager** per distribuire i pacchetti.
-   - Accesso a **Archivio Git** associato al tuo ambiente.
-   - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
+  - Accedi a **Cloud Manager** per distribuire i pacchetti.
+  - Accesso a **Archivio Git** associato al tuo ambiente.
+  - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
 
 - **Scarica pacchetti**: scarica i seguenti pacchetti dal portale di distribuzione software:
 
-   - Pacchetto componenti: guides-components.all-1.x.0.zip
-   - Modello siti: aemg-docs-1.x.0.zip
+  - Pacchetto componenti: guides-components.all-1.x.0.zip
+  - Modello siti: aemg-docs-1.x.0.zip
 
 >[!TAB On-Premise]
 
@@ -43,14 +58,14 @@ Le schede seguenti forniscono i prerequisiti necessari in base alla configurazio
 
 - **Autorizzazioni richieste**: assicurati di disporre delle seguenti autorizzazioni:
 
-   - Accedi a **Portale di distribuzione software** per scaricare i pacchetti richiesti
-   - Accedi a **Gestione pacchetti CRX** per installare i pacchetti in AEM.
-   - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
+  - Accedi a **Portale di distribuzione software** per scaricare i pacchetti richiesti
+  - Accedi a **Gestione pacchetti CRX** per installare i pacchetti in AEM.
+  - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
 
 - **Scarica pacchetti**: scarica i seguenti pacchetti da **Portale di distribuzione software**:
 
-   - Pacchetto componenti: on-prem-guides-components.all-1.x.0.zip
-   - Pacchetto Sites: aemg-docs.all-1.x.0.zip
+  - Pacchetto componenti: on-prem-guides-components.all-1.x.0.zip
+  - Pacchetto Sites: aemg-docs.all-1.x.0.zip
 
 >[!ENDTABS]
 
@@ -99,7 +114,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
 >[!TAB On-Premise]
 
 1. **Installare il pacchetto componenti:**
-   1. Passare a [**Gestione pacchetti CRX**](http://&lt;tua-istanza-aem>/crx/packmgr).
+   1. Passare a [**Gestione pacchetti CRX**](http://<tua-istanza-aem>/crx/packmgr).
    2. Carica e installa il pacchetto on-prem-guides-components.all-1.x.0.zip.
 
 2. **Installare il pacchetto Sites:** Caricare e installare il pacchetto aemg-docs.all-1.x.0.zip utilizzando Gestione pacchetti di CRX.
@@ -137,7 +152,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
    **Opzione 1: utilizzare il menu a discesa Sito**
 
    1. Seleziona **Sito** come creato in precedenza (ad esempio, Sito documenti AEMG).
-   2. Verificare che il percorso di pubblicazione **1&rbrace; e il modello di pagina** Argomento **siano impostati automaticamente su:**
+   2. Verificare che il percorso di pubblicazione **1} e il modello di pagina** Argomento **siano impostati automaticamente su:**
       - Percorso di pubblicazione: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` e On-Premise: `aemg-docs/en/docs/product1`
       - Modello pagina argomento: pagina argomento
 
@@ -179,4 +194,4 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
 
 >[!NOTE]
 >
-> Per la configurazione di Cloud Service, assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Per la configurazione di Cloud Service, assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).

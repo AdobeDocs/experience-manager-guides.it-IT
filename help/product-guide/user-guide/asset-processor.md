@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # Elaborare risorse
 
 Nei flussi di lavoro a uso intensivo di dati, come la pubblicazione, una gestione efficiente delle risorse è fondamentale per mantenere prestazioni e affidabilità. Il flusso di lavoro di elaborazione delle risorse è progettato per gestire le risorse specifiche dell’utente che richiedono operazioni intensive sui dati. Vengono trattati principalmente due casi: quando l’elaborazione iniziale non riesce a causa di errori o quando i file non vengono elaborati perché non è stato avviato alcun trigger di elaborazione delle risorse. Grazie all’elaborazione mirata a livello di cartella, gli utenti possono isolare ed elaborare solo le risorse necessarie, evitando in tal modo il sovraccarico di calcoli non necessari. Questo approccio selettivo migliora in modo significativo le prestazioni, riducendo il tempo necessario per operazioni critiche come la pubblicazione e la generazione di report. In generale, contribuisce a una maggiore efficienza e velocità nella gestione di attività di dati complesse.
@@ -74,7 +83,7 @@ Per elaborare le risorse, segui i passaggi indicati di seguito:
    1. **Selezionare cartelle e file**: spostarsi e scegliere una o più cartelle e file da elaborare.
    1. **Selezionare le cartelle da ignorare**: è possibile selezionare sottocartelle all&#39;interno della cartella principale selezionata da escludere dall&#39;elaborazione.
    1. **Tipo risorsa**: dal menu a discesa, seleziona il tipo di risorsa specifico da elaborare (ad esempio Argomento DITA, Mappa DITA, Markdown, HTML/CSS, DITAVAL o altri file). Solo il tipo di risorsa selezionato viene elaborato dalle cartelle specificate in precedenza.
-Esempio: la selezione di Argomento DITA elabora solo gli argomenti DITA all&#39;interno della cartella selezionata, abilitando il filtro mirato.
+      Esempio: la selezione di Argomento DITA elabora solo gli argomenti DITA all&#39;interno della cartella selezionata, abilitando il filtro mirato.
    1. **Creato dopo/Creato prima**: applica filtri di data per elaborare le risorse create entro l&#39;intervallo di tempo specificato.
 
    >[!NOTE]

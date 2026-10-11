@@ -5,22 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
+TQID: 'https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 1%
-
 ---
-
 # Scaricare e installare modelli di AEM Sites (servizi cloud)
 
 Questa guida fornisce istruzioni dettagliate per impostare e configurare il modello AEM Guides più recente per la generazione di pagine AEM Sites in un ambiente cloud. Segui questi passaggi per installare i pacchetti richiesti, creare e configurare i predefiniti e generare AEM Sites.
@@ -33,14 +44,14 @@ Prima di procedere con la configurazione, verifica che siano soddisfatti i segue
 
 - **Autorizzazioni richieste**: è necessario disporre delle seguenti autorizzazioni:
 
-   - Accedi a **Cloud Manager** per distribuire i pacchetti.
-   - Accesso a **Archivio Git** associato al tuo ambiente.
-   - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
+  - Accedi a **Cloud Manager** per distribuire i pacchetti.
+  - Accesso a **Archivio Git** associato al tuo ambiente.
+  - Autorizzazioni per creare e modificare i predefiniti in AEM Guides.
 
 - **Scarica pacchetti**: scarica i seguenti pacchetti dal portale di distribuzione software:
 
-   - Pacchetto componenti: guides-components.all-1.x.0.zip
-   - Modello siti: aemg-docs-1.x.0.zip
+  - Pacchetto componenti: guides-components.all-1.x.0.zip
+  - Modello siti: aemg-docs-1.x.0.zip
 
 ## Installazione del pacchetto tramite distribuzione cloud
 
@@ -106,7 +117,7 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
    **Opzione 1: utilizzare il menu a discesa Sito**
 
    1. Seleziona **Sito** come creato in precedenza (ad esempio, Sito documenti AEMG).
-   2. Verificare che il percorso di pubblicazione **1&rbrace; e il modello di pagina** Argomento **siano impostati automaticamente su:**
+   2. Verificare che il percorso di pubblicazione **1} e il modello di pagina** Argomento **siano impostati automaticamente su:**
       - Percorso di pubblicazione: `/content/AEMG-Docs-Site/en/docs/product`
       - Modello pagina argomento: pagina argomento
 
@@ -142,4 +153,4 @@ Installa il pacchetto **Components (guides-components.all-1.x.x.zip)** ed esegui
 
 >[!NOTE]
 >
-> Assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Assicurati che tutte le configurazioni siano testate in un ambiente non di produzione prima di implementarle in produzione. <br><br> Per ulteriori informazioni, consulta la [documentazione ufficiale sulla distribuzione in AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).

@@ -4,35 +4,40 @@ description: Scopri come caricare i file nell’archivio AEM e gestire gli error
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
+TQID: 'https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # Carica file {#id176FF000JUI}
 
 Probabilmente si dispone di un archivio di contenuti DITA esistenti che si desidera utilizzare con Adobe Experience Manager Guides. Per tali contenuti esistenti, puoi utilizzare uno dei seguenti approcci per caricare in blocco i contenuti nell’archivio Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
-> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
+> Visualizza [Aggiungi risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) per informazioni dettagliate sui metodi di caricamento dei contenuti supportati in Adobe Experience Manager.
 
 ## Interfaccia utente della console Assets
 
-Per [aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#filename-handling?lang=it#upload-assets) tramite l&#39;interfaccia utente della console Assets, seleziona la risorsa richiesta sul desktop e trascina l&#39;interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Durante il caricamento delle risorse, accertati che i nomi dei file non includano caratteri non supportati o non consentiti.
+Per [aggiungere risorse digitali ad Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling#upload-assets) tramite l&#39;interfaccia utente della console Assets, seleziona la risorsa richiesta sul desktop e trascina l&#39;interfaccia utente di Adobe Experience Manager \(browser Web\) nella cartella di destinazione. Durante il caricamento delle risorse, accertati che i nomi dei file non includano caratteri non supportati o non consentiti.
 
-Per ulteriori dettagli, visualizzare la sezione [Gestione del nome file e caratteri non consentiti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#filename-handling) nella documentazione di Adobe Experience Manager.
+Per ulteriori dettagli, visualizzare la sezione [Gestione del nome file e caratteri non consentiti](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) nella documentazione di Adobe Experience Manager.
 
 ### Caricamento di file tramite l’interfaccia utente di Assets
 
@@ -49,11 +54,11 @@ Una volta completato correttamente il caricamento, il sistema visualizza un mess
 
 ## App desktop Adobe Experience Manager
 
-Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=it).
+Se sei un professionista creativo e desideri gestire le risorse sul desktop locale, utilizza l’app desktop Adobe Experience Manager. Puoi aprire e modificare queste risorse con le tue applicazioni desktop. Puoi anche gestire le versioni e condividere i file con altri utenti. Per ulteriori dettagli, visualizzare [app desktop Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Acquisizione in blocco delle risorse
 
-In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuti in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=it#asset-bulk-ingestor).
+In caso di migrazioni su larga scala e acquisizioni in blocco occasionali, utilizza l’acquisizione in blocco delle risorse per caricare i contenuti. Utilizzando questo strumento, puoi caricare contenuti in blocco da archivi di dati supportati come Azure o S3. Per ulteriori dettagli, visualizza [Asset Bulk Ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Utilizza FrameMaker per il caricamento in blocco
 
@@ -74,4 +79,4 @@ Se utilizzi uno strumento come Adobe Experience Manager Desktop App o Asset Bulk
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

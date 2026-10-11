@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-TQID: https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg
+TQID: 'https://experienceleague.adobe.com/o2K7oBKJLUkB43dMNcQ1iS1rpNKjFu6dvgO-HY37Vvg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ed9d83c9-e55d-4a67-9667-8e31871715a7
+    internal-label: Content migration
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1059'
 ht-degree: 1%
-
 ---
-
 # Pubblicare frammenti di contenuto
 
 I frammenti di contenuto sono parti discrete di contenuto in Adobe Experience Manager. Sono contenuti strutturati basati su un modello di contenuto. I frammenti di contenuto sono contenuti puri senza informazioni di progettazione o layout. Possono essere creati e gestiti indipendentemente dai canali supportati da Adobe Experience Manager. I frammenti di contenuto sono modulari, dove il contenuto viene suddiviso in componenti più piccoli.
@@ -70,9 +82,9 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
      > 
      > Le condizioni sono abilitate solo se gli attributi della condizione sono definiti nell&#39;argomento.
 
-      * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
-      * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per includere o escludere contenuto specifico nell&#39;output generato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
-      * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
+     * **Nessuno**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.
+     * **Utilizzo di DITAVAL**: selezionare il file DITAVAL per includere o escludere contenuto specifico nell&#39;output generato. Potete selezionare il file DITAVAL utilizzando la finestra di dialogo Sfoglia (Browse) o digitando il percorso del file.
+     * **Utilizzo di attributi**: è possibile definire attributi di condizione negli argomenti DITA. Quindi, seleziona l’attributo della condizione per pubblicare il contenuto pertinente.
 
 
 
@@ -87,7 +99,7 @@ Aggiungere ad esempio `/conf/we-retail` nella configurazione cloud. Questa confi
 
    * **Modello**: seleziona il modello per frammenti di contenuto da utilizzare per creare il frammento di contenuto. I modelli vengono selezionati dalla cartella, che hai configurato sul server Experience Manager Guides.
    * **Mappatura**: puoi visualizzare gli elementi dell&#39;argomento a cui è applicato un attributo id. Trascina gli elementi argomento nei campi presenti nel modello per frammenti di contenuto.
-Se è presente un frammento di contenuto, a destra vengono inseriti i contenuti del frammento di contenuto pubblicato. Se necessario, questi possono essere sovrascritti con il contenuto dell’argomento. Puoi anche selezionare **Annulla** per ripristinare le modifiche di mappatura.
+     Se è presente un frammento di contenuto, a destra vengono inseriti i contenuti del frammento di contenuto pubblicato. Se necessario, questi possono essere sovrascritti con il contenuto dell’argomento. Puoi anche selezionare **Annulla** per ripristinare le modifiche di mappatura.
 
 
      >[!NOTE]

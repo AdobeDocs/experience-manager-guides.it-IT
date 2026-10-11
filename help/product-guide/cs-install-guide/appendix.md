@@ -5,7 +5,7 @@ exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
+TQID: 'https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -14,15 +14,27 @@ product_v2:
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
@@ -80,7 +92,7 @@ Il file di registro creato registra tutte le informazioni relative all’esecuzi
 
 ## Preparare i file InDesign per la conversione {#id195DBF0045Z}
 
-InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1&rbrace;&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
+InDesign offre agli autori un set completo di funzioni per la creazione di documenti attraenti e complessi. Spesso ciò significa che le varie parti di un documento vengono posizionate sulla pagina visivamente, ma senza alcun tentativo di fornire un flusso tra tali cornici di testo. Se l&#39;ordine di lettura &#39;*1}&#39; delle cornici di testo non è definito, il file IDML conterrà brani che potrebbero non seguire alcun ordine significativo.* Il risultato finale sarà uno o più argomenti DITA con paragrafi, tabelle e immagini in ordine casuale.
 
 Anche se è possibile modificare il contenuto DITA in un ordine ragionevole in un editor DITA, è molto più semplice correggere il file InDesign prima di creare il file IDML. Questa operazione può essere eseguita senza modificare l&#39;aspetto del documento di origine. Ha anche il vantaggio di rendere accessibile il documento di origine definendo correttamente l&#39;ordine di lettura.
 
@@ -359,7 +371,7 @@ Nell&#39;esempio seguente viene illustrato come spostare `title` in `table`:
 
 Gli elementi `paragraphStyleRule` sono descritti di seguito:
 
-**&#x200B; elemento `paraRule`**
+** elemento `paraRule`**
 
 Elemento `paraRule` obbligatorio. Specifica le regole di mapping per tutti gli stili di paragrafo. In un documento di InDesign tutto il testo è contenuto all&#39;interno di una sottostruttura di Stili di paragrafo, anche i paragrafi senza alcuno stile sono denominati `\[No paragraph style\]`. Le parentesi quadre indicano un nome di stile InDesign incorporato.
 
@@ -484,7 +496,7 @@ Elenca tutti gli elementi [\#id194CGC00SHS](#id194CGC00SHS).
 
 **`elementRule`elemento**
 
-Elemento `elementRule` obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1&rbrace;&#39; non sia abilitata.***
+Elemento `elementRule` obbligatorio. Si tratta delle regole di mappatura per tutti gli elementi sorgente. Anche se un documento InDesign contiene elementi di stile non strutturati, questi vengono ignorati per i contenuti strutturati a meno che l&#39;elaborazione in modalità ibrida &#39;***1}&#39; non sia abilitata.***
 
 Gli attributi utilizzati in `elementRule` sono illustrati di seguito:
 
