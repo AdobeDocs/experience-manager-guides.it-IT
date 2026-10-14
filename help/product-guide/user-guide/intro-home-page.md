@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2405'
 ht-degree: 0%
 ---
 # Esperienza della pagina Home di Experience Manager Guides
@@ -179,6 +179,10 @@ I widget seguenti sono presenti nella sezione Widget:
 L’archivio funge da hub centralizzato per individuare facilmente cartelle e file. Fornisce una visualizzazione completa dell’elenco di tutti i file e le cartelle, insieme ai relativi dettagli contestuali. Grazie a questa interfaccia unificata, è possibile sfogliare facilmente i file ed eseguire ricerche con solide opzioni di filtro, garantendo efficienza e un’esperienza migliore. Ulteriori informazioni su [Archivio](./home-page-repository-view.md).
 
 ### Mappare le raccolte
+
+>[!NOTE]
+>
+>Puoi utilizzare la nuova funzione Mappa raccolte in Adobe Experience Manager Guides as a Cloud Service a partire dalla versione 2026.08.0, che combina la gestione delle mappe e la pubblicazione in blocco in un’interfaccia unificata. Contatta il team di successo del cliente per abilitare questa funzione.Ulteriori informazioni su [utilizzo della nuova raccolta mappe.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides consente di organizzare i contenuti per la pubblicazione utilizzando un dashboard denominato **Mappare le raccolte**. Per utilizzare questa funzione, seleziona **Mappa raccolte** dal pannello a sinistra. Viene visualizzata la pagina Mappa raccolte nell&#39;**interfaccia utente di Assets** in cui è possibile [utilizzare la raccolta mappe per la generazione dell&#39;output.](./generate-output-use-map-collection-output-generation.md)
 

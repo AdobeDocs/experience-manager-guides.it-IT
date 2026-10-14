@@ -21,19 +21,37 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f89becea89888f7dec81e18c9220dcabda8f4e7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '161'
+ht-degree: 4%
 ---
 
 # Configurare il motore PDF nativo v2
 
 Il nuovo motore di pubblicazione per PDF nativo, ovvero _motore PDF nativo v2_, fornisce funzionalità di rendering PDF aggiornate e correzioni per _problemi del motore PDF nativo v1_.
 
+>[!BEGINTABS]
+>[!TAB Cloud Service]
+
 Utilizza le istruzioni fornite in [Sostituzioni configurazione](../install-conf-guide/download-install-config-override.md) per creare il file di configurazione. Nel file di configurazione, fornisci i seguenti dettagli (proprietà):
 
 | PID | Chiave proprietà | Valore proprietà |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Valore predefinito: `v1` |
+
+>[!TAB On-Premise]
+
+
+Per le distribuzioni on-premise, la disponibilità dipende dalle versioni di AEM e Java.
+
+Il _motore PDF nativo v2_ richiede **Java 17 o versione successiva**.
+
+- **AEM 6.5:** Il motore di pubblicazione nativo di PDF v2 non è supportato perché AEM 6.5 viene eseguito su Java 8.
+- **AEM 6.5 LTS:** Il motore di pubblicazione nativo di PDF v2 è abilitato per impostazione predefinita. Non è richiesta alcuna configurazione aggiuntiva.
+
+Se si preferisce tornare al _motore nativo di PDF v2_ con AEM 6.5 LTS, disinstallare il pacchetto di pubblicazione di PDF:
+`/crx/packmgr/index.jsp#/etc/packages/com.adobe.guides/pdf-publisher-package-3.0.0.zip` da Gestione pacchetti CRX.
+
+>[!ENDTABS]
 
