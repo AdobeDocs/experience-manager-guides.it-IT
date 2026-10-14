@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07928af0e6f028d01ff9e879d7ff79093a661a5d
+source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2331'
 ht-degree: 0%
 ---
 # Esperienza della pagina Home di Experience Manager Guides
@@ -180,11 +180,7 @@ L’archivio funge da hub centralizzato per individuare facilmente cartelle e fi
 
 ### Mappare le raccolte
 
->[!NOTE]
->
-> La nuova raccolta di mappe è disponibile in Experience Manager Guides as a Cloud Service a partire dalla versione 2026.08.0. Contatta il team di successo del cliente per abilitare questa funzione.
-
-La raccolta delle mappe in Adobe Experience Manager Guides consente agli specialisti della pubblicazione di organizzare più documenti in un’unica raccolta, controllare l’output generato per ciascun documento e generare e pubblicare in modo efficiente gli output in batch da un dashboard centralizzato. Ulteriori informazioni sull&#39;utilizzo di [nuova raccolta mappe per la generazione dell&#39;output.](./generate-output-use-new-map-collection-output-generation.md)
+Experience Manager Guides consente di organizzare i contenuti per la pubblicazione utilizzando un dashboard denominato **Mappare le raccolte**. Per utilizzare questa funzione, seleziona **Mappa raccolte** dal pannello a sinistra. Viene visualizzata la pagina Mappa raccolte nell&#39;**interfaccia utente di Assets** in cui è possibile [utilizzare la raccolta mappe per la generazione dell&#39;output.](./generate-output-use-map-collection-output-generation.md)
 
 ### Pubblicazione in blocco
 
