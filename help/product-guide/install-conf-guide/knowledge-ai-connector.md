@@ -4,9 +4,9 @@ description: Scopri come collegare AEM Guides con la Knowledge AI di Guides
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 1%
 ---
 
@@ -44,7 +44,7 @@ Prima di iniziare, assicurati di disporre dei seguenti diritti di accesso e auto
 
 Knowledge AI utilizza un account di servizio per l’autenticazione sicura e l’accesso ai contenuti.
 
-1. Segui le istruzioni riportate in [Configurazione IMT dei microservizi](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Segui le istruzioni riportate in [Configurazione IMT di Microsoft Services](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Crea un nuovo account di servizio e scarica il file di credenziali JSON generato.
 
@@ -86,8 +86,8 @@ L’account di servizio è ora autorizzato a eseguire le operazioni di amministr
 
 Per pubblicare i contenuti in Knowledge AI, configura Experience Manager Guides dopo aver impostato le autorizzazioni.
 
-1. Apri **Map console** in Experience Manager Guides.
-1. Passa alla scheda **Predefiniti di output**.
+1. Apri la **console Mappa** in Experience Manager Guides.
+1. Passare alla scheda **Predefiniti di output**.
 1. Seleziona l’icona + per creare un predefinito di output.
 1. Seleziona **Knowledge AI** dal menu a discesa **Type** nella finestra di dialogo **New output preset**. Immetti un **Nome** e seleziona **Aggiungi al profilo della cartella corrente** per creare un predefinito di output nel profilo della cartella corrente.
 
