@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
+source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2654'
 ht-degree: 10%
 ---
 
@@ -224,7 +224,7 @@ ht-degree: 10%
     - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
       - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-      - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
     - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -437,7 +437,7 @@ ht-degree: 10%
     - Gestione delle prestazioni {#performance-management}
       - [Caricamento impaginato di file e cartelle](./user-guide/paginated-loading-assets.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
   - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
   - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
@@ -590,6 +590,7 @@ ht-degree: 10%
     - [Indicizzare gli argomenti in un&#39;attività di revisione](./install-conf-guide/index-review-tasks.md)
     - [Mappatura dei componenti per AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configurare i predefiniti per modelli per la generazione di output](./install-conf-guide/template-presets-output-generation.md)
+    - [Connettere AEM Guides con la Knowledge AI di Guides](./install-conf-guide/knowledge-ai-connector.md)
   - Appendice {#appendix}
     - [Appendice](./install-conf-guide/aemg-appendix.md)
 
