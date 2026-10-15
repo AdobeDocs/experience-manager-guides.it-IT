@@ -44,7 +44,7 @@ Prima di iniziare, assicurati di disporre dei seguenti diritti di accesso e auto
 
 Knowledge AI utilizza un account di servizio per l’autenticazione sicura e l’accesso ai contenuti.
 
-1. Segui le istruzioni riportate in [Configurazione IMT di Microsoft Services](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
+1. Segui le istruzioni riportate in [Configurazione IMT di Microsoft Services](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Crea un nuovo account di servizio e scarica il file di credenziali JSON generato.
 
