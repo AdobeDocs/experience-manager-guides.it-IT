@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # Creare e gestire le linee di base dalla console Mappa {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Con la versione 2026.03.0 di Experience Manager Guides è disponibile una nuova linea di base (Beta) che offre prestazioni e stabilità migliorate. Per utilizzare questa linea di base, contatta il team di successo del cliente per far sì che la funzione sia abilitata. Ulteriori informazioni sulla [nuova linea di base (Beta)](./web-editor-baseline-v2.md).
+> Con la versione 2026.03.0 di Experience Manager Guides è disponibile una nuova linea di base che offre prestazioni e stabilità migliorate. Per utilizzare questa linea di base, contatta il team di successo del cliente per far sì che la funzione sia abilitata. Ulteriori informazioni sulla [nuova baseline](./web-editor-baseline-v2.md).
 
 La funzione Baseline consente di creare una versione degli argomenti e delle risorse che può essere utilizzata per la pubblicazione o la traduzione. Se ad esempio la mappa DITA contiene `topicA` e `imageA`, è possibile creare una baseline per utilizzare la terza versione di `topicA`, ma la quarta versione di `ImageA`. Dopo aver impostato una baseline, è possibile pubblicare o tradurre argomenti di versioni diverse in un unico passaggio.
 
