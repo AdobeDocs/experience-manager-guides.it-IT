@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Informazioni sugli utenti di Adobe Experience Manager Guides Generative AI
 
-Le linee guida per l&#39;utente che disciplinano l&#39;accesso e l&#39;utilizzo dell&#39;Assistente di Experience Manager Guides AI sono disponibili [qui](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+Le linee guida per l&#39;utente che disciplinano l&#39;accesso e l&#39;utilizzo dell&#39;Assistente di Experience Manager Guides AI sono disponibili [qui](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Utilizzando l&#39;Assistente AI &quot;beta&quot; (&quot;Beta&quot;), l&#39;utente riconosce che l&#39;utilizzo di Beta viene fornito &quot;così com&#39;è&quot; senza alcuna garanzia. Adobe non ha alcun obbligo di mantenere, correggere, aggiornare, modificare, modificare o supportare in altro modo Beta. Si consiglia di usare cautela e di non fare affidamento in alcun modo sul corretto funzionamento o sulle prestazioni di tale Beta e/o dei materiali di accompagnamento. Beta è considerata un&#39;informazione riservata di Adobe. Adobe può utilizzare prompt, contenuti, dati e altro materiale inserito o importato nel Beta e le risposte fornite all&#39;utente per il miglioramento e lo sviluppo del prodotto. Qualsiasi &quot;Feedback&quot; (informazioni relative a Beta, compresi, a titolo esemplificativo e non esaustivo, problemi o difetti riscontrati durante l’utilizzo di Beta, suggerimenti, miglioramenti e raccomandazioni) fornito dall’Utente a Adobe viene assegnato ad Adobe, inclusi tutti i diritti, i titoli e gli interessi relativi a tale Feedback. 
 
