@@ -31,7 +31,7 @@ L’Assistente AI in Adobe Experience Manager Guides è stato creato per garanti
 
 ## Il contenuto fornito a IA Assistant è condiviso con altri utenti?
 
-No, il contenuto e le richieste che fornisci all’Assistente all’intelligenza artificiale non sono condivisi con altri clienti. Ai Assistant elabora i tuoi input solo per generare risposte all’interno dell’area di lavoro e non li utilizza per addestrare modelli per altri utenti. Per ulteriori dettagli, vedi [Linee guida per l&#39;utente di Adobe Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+No, il contenuto e le richieste che fornisci all’Assistente all’intelligenza artificiale non sono condivisi con altri clienti. Ai Assistant elabora i tuoi input solo per generare risposte all’interno dell’area di lavoro e non li utilizza per addestrare modelli per altri utenti. Per ulteriori dettagli, vedi [Linee guida per l&#39;utente di Adobe Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 ## Posso fornire un feedback sulle risposte dell’assistente di intelligenza artificiale?
 
