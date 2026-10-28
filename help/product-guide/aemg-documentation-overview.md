@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Documentazione di Experience Manager Guides
@@ -171,53 +171,6 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 
 ::::
 
-## Novità
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Connettore Git](../assets/whats-new-git-connector.svg)
-
-**[Importa contenuto con il connettore Git](./user-guide/web-editor-git-connector.md)**
-
-Importa il contenuto nelle guide direttamente dagli archivi Git.
-
-</td>
-<td>
-
-![Raccolta mappe](../assets/whats-new-map-collection.svg)
-
-**[Nuova raccolta mappe](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-Interfaccia unificata per la gestione delle mappe e la pubblicazione degli output.
-
-</td>
-<td>
-
-![Delega revisione](../assets/whats-new-delegate-review.svg)
-
-**[Delega un&#39;attività di revisione](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-I revisori possono delegare un&#39;attività di revisione a un altro revisore.
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## Novità
-
-Versione [!BADGE 2026.09.0]{type=Informative}
-
-La versione 2026.09.0 di Adobe Experience Manager Guides introduce l’assegnazione tag avanzati basati sull’intelligenza artificiale nell’Assistente all’intelligenza artificiale, oltre a miglioramenti in termini di authoring, gestione dei contenuti, pubblicazione e esperienza utente complessiva.
-
-[Scopri le novità](./release-info/whats-new-2026-09-0.md)
 
 ## Collegamenti rapidi
 
@@ -266,7 +219,7 @@ Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla 
 * [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
 * [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interagisci su community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it&lang=it)
+[Interagisci su community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=it)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla 
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## Risorse aggiuntive
 
 * [Note sulla versione di Cloud Service](./release-info/latest-release-info-cs.md)
 * [Note sulla versione per On-Premise](./release-info/latest-release-info.md)
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=it&lang=it){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=it){target="_blank"}
 * [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
 * [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
 * [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
