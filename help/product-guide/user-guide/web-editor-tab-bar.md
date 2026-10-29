@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor s
 >
 > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola modalità di Assistente IA alla volta, ovvero Agente o Standard.
 
-- **Agnettico**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
+- **Agentic**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
 
 - **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
 
