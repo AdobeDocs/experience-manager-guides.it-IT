@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Impostazioni Workspace
@@ -55,15 +55,11 @@ Le impostazioni generali consentono di configurare le impostazioni per l&#39;uti
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Funzioni IA**
+- **Funzionalità AI**: utilizzare questa opzione per abilitare la funzionalità Assistente AI in Experience Manager Guides. L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. È possibile scegliere tra le due modalità attivando i rispettivi pulsanti di scelta.
 
   >[!NOTE]
   >
   > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success.
-
-  Seleziona per abilitare la funzione Assistente IA in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
-
-  L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. È possibile scegliere tra le due modalità attivando i rispettivi pulsanti di scelta.
 
   - **Agente**: dopo aver abilitato questa opzione, puoi accedere all&#39;Assistente di IA per l&#39;agente dalla barra di navigazione dell&#39;applicazione Experience Manager Guides. Puoi anche configurare gli spazi dei nomi della tassonomia utilizzati dall’abilità di assegnazione tag avanzati per generare i consigli sui tag. L’Assistente IA considera solo i tag degli spazi dei nomi selezionati, in base ai tag definiti in AEM. Per i dettagli, visualizzare [Modalità agente nell&#39;Assistente IA](../user-guide/ai-assistant.md#ai-assistant-modes).
 

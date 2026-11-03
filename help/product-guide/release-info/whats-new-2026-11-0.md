@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità della versione 2026.11.0 di Adobe Experience Manager Guides
 description: Scopri le nuove funzioni della versione 2026.11.0 di Adobe Experience Manager Guides, tra cui la ramificazione a livello di mappa e la creazione di contenuti con Assistente AI.
 role: Leader
-source-git-commit: ef5e433214f15b12102af7c9e38031536183ca72
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1508'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Scopri le [istruzioni di aggiornamento per la versione 2026.11.0](../release-inf
 
 ## Introduzione alla diramazione e all&#39;unione a livello di mappa
 
-Adobe Experience Manager Guides introduce la funzionalità di diramazione e unione a livello di mappa, che consente agli autori di lavorare su più versioni della documentazione, aggiornamenti delle funzioni e correzioni critiche in parallelo senza influire sul contenuto principale. Gli autori possono creare rami isolati di una mappa DITA e delle relative dipendenze, garantendo che le modifiche, i blocchi e le anteprime rimangano specifici per ogni ramo.
+Experience Manager Guides introduce la funzionalità di diramazione e unione a livello di mappa, che consente agli autori di lavorare su più versioni della documentazione, aggiornamenti delle funzioni e correzioni critiche in parallelo senza influire sul contenuto principale. Gli autori possono creare rami isolati di una mappa DITA e delle relative dipendenze, garantendo che le modifiche, i blocchi e le anteprime rimangano specifici per ogni ramo.
 
 Questa funzionalità consente ai team di documentazione di gestire flussi di lavoro paralleli, collaborare in modo efficiente e mantenere la stabilità della versione principale della documentazione. Operazioni disponibili:
 
@@ -40,11 +40,11 @@ Ulteriori informazioni su [Diramazione e unione](../user-guide/branching-overvie
 >
 >Per utilizzare l’Assistente AI in modalità Agentic, la tua organizzazione deve aver effettuato l’onboarding in Adobe CX Enterprise Coworker e disporre dei crediti richiesti.
 
-È ora possibile utilizzare **Assistente AI** per creare e importare contenuti DITA utilizzando prompt in linguaggio naturale. Basate su **Adobe CX Enterprise Coworker**, le nuove competenze **Create** e **Import** semplificano la creazione di contenuti strutturati e aiutano gli autori a lavorare con i contenuti DITA senza richiedere competenze DITA approfondite.
+È ora possibile utilizzare **Assistente AI** per creare e importare contenuto DITA utilizzando prompt in linguaggio naturale. Basate su **Adobe CX Enterprise Coworker**, le nuove competenze **Create** e **Import** semplificano la creazione di contenuti strutturati e aiutano gli autori a lavorare con i contenuti DITA senza richiedere competenze DITA approfondite.
 
 - **Crea:** genera argomenti e mappe DITA da prompt in linguaggio naturale, documenti di riferimento o contenuto esistente utilizzando i modelli del repository. Puoi rivedere il contenuto generato prima di salvarlo e perfezionare iterativamente il contenuto nuovo o esistente per soddisfare le tue esigenze.
-- **Importa:** Converti i file PDF, DOCX o Markdown esistenti in mappe e argomenti DITA strutturati. Puoi visualizzare in anteprima e rivedere il contenuto convertito prima di salvarlo nell’archivio.
-- **Applicazione di tag avanzati:** Ottieni consigli sui tag pertinenti per il contenuto in base alla tassonomia della tua organizzazione. L’esperienza migliorata consente agli amministratori dei profili di cartelle di configurare gli spazi dei nomi della tassonomia nelle impostazioni di Workspace, garantendo coerenza e regole nei consigli sui tag.
+- **Importa:** Converti i file PDF, DOCX o Markdown esistenti in mappe e argomenti DITA strutturati. Puoi rivedere il contenuto convertito prima di salvarlo nell’archivio.
+- **Applicazione di tag avanzati:** Ottieni consigli sui tag pertinenti per il contenuto in base alla tassonomia della tua organizzazione. L’esperienza migliorata consente agli amministratori di configurare gli spazi dei nomi della tassonomia nelle impostazioni di Workspace, garantendo coerenza e regole nei consigli sui tag.
 
 Il pannello **Assistente AI** introduce anche una modalità a schermo intero e una sezione **Conversazioni attive** per un&#39;esperienza di conversazione migliorata.
 
@@ -55,7 +55,7 @@ Per ulteriori dettagli, visualizzare [Utilizzare l&#39;Assistente di intelligenz
 
 ## Nuovo pannello dell’Assistente in Experience Manager Guides
 
-La funzionalità **Smart Help** basata sull&#39;intelligenza artificiale è disponibile tramite il pannello dedicato **Assistente Guida**, accessibile dalle interfacce Homepage, Editor e Map Console. Il pannello offre un’esperienza di ricerca conversazionale, consentendoti di porre domande in linguaggio naturale e di trovare rapidamente informazioni rilevanti dalla documentazione di Experience Manager Guides. In questo modo puoi accedere alle indicazioni contestuali e risolvere le query senza uscire dall’Editor, semplificando il flusso di lavoro di authoring.
+La funzionalità **Smart Help** basata sull&#39;intelligenza artificiale è disponibile tramite il pannello dedicato **Assistente Guida**, accessibile dalla home page, dall&#39;editor e dalle interfacce della console Mappa. Il pannello offre un’esperienza di ricerca conversazionale, consentendoti di porre domande in linguaggio naturale e di trovare rapidamente informazioni rilevanti dalla documentazione di Experience Manager Guides. In questo modo puoi accedere alle indicazioni contestuali e risolvere le query senza uscire dall’Editor, semplificando il flusso di lavoro di authoring.
 
 Gli amministratori possono gestire la disponibilità del pannello Aiuto tramite le impostazioni di Workspace. La sezione **Assistente risorse AI** include un interruttore per attivare o disattivare il pannello per gli utenti.
 
@@ -143,7 +143,7 @@ Per ulteriori informazioni, visualizzare [Aggiungere un&#39;immagine dai metadat
 
 ### Convalidare la qualità del contenuto con il controllo dello stato del contenuto nel vecchio editor
 
-Il controllo dello stato dei contenuti è disponibile nel vecchio editor (già supportato dal nuovo editor) e consente di convalidare la qualità dei contenuti nelle mappe DITA prima della pubblicazione. Gli amministratori possono creare predefiniti di verifica stato riutilizzabili combinando controlli per collegamenti interrotti, ID duplicati e convalida Schematron.
+Il controllo dello stato dei contenuti è disponibile nel vecchio editor (già supportato nel nuovo editor) e consente di convalidare la qualità dei contenuti nelle mappe DITA prima della pubblicazione. Gli amministratori possono creare predefiniti di verifica stato riutilizzabili combinando controlli per collegamenti interrotti, ID duplicati e convalida Schematron.
 
 Gli autori possono eseguire una verifica dello stato su una mappa DITA o una linea di base selezionata nel vecchio editor per generare un rapporto consolidato dei problemi tra gli argomenti e le mappe associati. Per ulteriori dettagli, visualizzare [Esegui verifica stato su una mappa](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
