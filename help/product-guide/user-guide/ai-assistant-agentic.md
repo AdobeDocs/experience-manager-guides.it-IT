@@ -9,49 +9,25 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
-# Utilizzare l’Assistente IA in modalità Agentic
+# Applicazione di tag avanzati con l’Assistente AI
 
->[!NOTE]
->
-> L’Assistente IA in modalità Agentic è disponibile in Experience Manager Guides as a Cloud Service a partire dalla versione 2026.09.0. Richiede l’onboarding della tua organizzazione in CX Enterprise Coworker; una volta effettuato l’onboarding, contatta il team di successo del cliente per abilitare la funzione. Per informazioni dettagliate sulla configurazione, visualizzare [Configurare l&#39;Assistente di IA in modalità agente](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+L’abilità di assegnazione tag avanzati, disponibile nella modalità Agentic dell’Assistente di intelligenza artificiale tramite Adobe CX Enterprise Coworker, rende l’assegnazione tag del contenuto più veloce, semplice e coerente. Analizza i contenuti e consiglia i tag pertinenti in base alla tassonomia dell’organizzazione, eliminando la necessità di rivedere manualmente i contenuti e identificare i tag applicabili. L&#39;amministratore può configurare le tassonomie utilizzate per generare i consigli sui tag tramite [impostazioni Workspace](../install-conf-guide/workspace-settings.md#general) selezionando gli spazi dei nomi pertinenti per l&#39;area di lavoro.
 
-L’Assistente AI in modalità Agentic rende l’assegnazione tag ai contenuti più veloce, semplice e coerente. Utilizzando l’abilità di assegnazione tag avanzati di Adobe CX Enterprise Coworker, l’Assistente AI analizza il contenuto e consiglia i tag rilevanti in base alla tassonomia della tua organizzazione, anziché leggere manualmente il contenuto per decidere quali tag applicare. Puoi mantenere il controllo rivedendo i tag suggeriti e scegliendo di applicarli o rifiutarli prima di confermare la selezione, riducendo lo sforzo manuale, migliorando la precisione dei tag e garantendo metadati coerenti all’interno della documentazione.
+Per mantenere il controllo, rivedi i tag suggeriti e scegli di applicarli o rifiutarli prima di confermare la selezione. In questo modo è possibile semplificare le operazioni manuali, migliorare l’accuratezza dei tag e mantenere metadati coerenti all’interno della documentazione.
 
-## Pannello Assistente AI
-
-Il pannello Assistente AI offre tutti gli strumenti necessari per generare, rivedere e applicare i tag suggeriti da AI.
-
-![Pannello dell&#39;Assistente di IA per l&#39;agente](images/guides-ai-panel.png){width="650"}
-
-I seguenti componenti di IA Assistant in modalità Agentic consentono di aggiungere file, configurare tag recommendations e gestire il flusso di lavoro di assegnazione tag avanzati:
-
-- **(A)** Cronologia conversazioni: consente di visualizzare e riaprire le conversazioni precedenti per esaminare i suggerimenti e le azioni dei tag precedenti.
-
-  ![Cronologia delle conversioni del pannello Agentic AI Assistant](images/chat-history.png){width="350"}
-
-- **(B)** Nuova chat: avvia una nuova sessione di assegnazione tag per un argomento, una mappa o un set di file diverso.
-- **(C)** Spazio dei nomi dei tag: seleziona gli spazi dei nomi della tassonomia da cui l&#39;Assistente AI genera i consigli sui tag. Vengono considerati solo i tag degli spazi dei nomi selezionati.
-
-  ![Tassonomia del pannello Agentic AI Assistant](images/taxononmy.png){width="350"}
-
-- **(D)** Spazio di risposta: rivedi i consigli sui tag generati dall&#39;intelligenza artificiale e scegli di accettarli, rifiutarli o modificarli prima di applicare i tag.
-- **(E)** Spazio della richiesta: immettere una richiesta di richiesta per generare suggerimenti di tag per il contenuto selezionato.
-- **(F)** Allega file o aggiungi contesto: aggiunge argomenti, mappe o file esterni dal sistema locale per fornire il contenuto analizzato dall&#39;Assistente IA per i consigli sui tag.
-- Modello **(G)**: visualizza il modello di IA utilizzato per analizzare il contenuto e generare i consigli sui tag. Sono disponibili diversi modelli OpenAI e Anthropic Claude. Per impostazione predefinita, è selezionata l&#39;opzione **Usa predefinito manifesto**, che utilizza il modello configurato per l&#39;assistente selezionato.
-- **(H)** Invia: invia la richiesta e il contenuto allegato per generare consigli sui tag basati su AI.
 
 ## Applicare tag a uno o più argomenti con l&#39;abilità di assegnazione tag avanzati
 
 Per applicare tag a uno o più argomenti con abilità di assegnazione tag avanzati, effettua le seguenti operazioni per utilizzare l’Assistente IA:
 
 1. Accedi a Experience Manager Guides.
-1. Nella home page, selezionare **Assistente AI** dalla barra di spostamento. Assicurati che l’Assistente AI in modalità Agentic sia abilitato dall’amministratore.
+1. Nella home page, selezionare **Assistente AI** dalla barra di spostamento. Verificare che l&#39;Assistente di [IA in modalità agente](../install-conf-guide/workspace-settings.md) sia abilitato dall&#39;amministratore.
 1. Aggiungi l’argomento per il quale desideri generare consigli sui tag utilizzando uno dei seguenti metodi:
 
    - **Utilizzo di prompt suggeriti**: per la prima chat nell&#39;area Risposta, selezionare **Suggerisci tag per un prompt di file**. Il prompt viene aggiunto automaticamente allo spazio del prompt. Selezionare `[file]`, quindi scegliere l&#39;argomento dal repository o da una raccolta nella finestra di dialogo **Seleziona file**. È possibile selezionare un argomento dalla finestra di dialogo **Seleziona file**.
@@ -136,8 +112,8 @@ Un messaggio indica che la mappa selezionata contiene più argomenti. Seleziona 
 1. Seleziona **Conferma**. L’Assistente AI analizza gli argomenti selezionati e visualizza il numero di consigli sui tag generati per ogni argomento.
 1. Seleziona **Anteprima** per rivedere i consigli sui tag generati da IA.
 1. Rivedi i tag suggeriti per ogni argomento, quindi scegli una delle azioni seguenti:
-   - **Accetta tutti** per applicare tutti i tag suggeriti per tutti gli argomenti.
-   - **Rifiuta tutti** per ignorare tutti i tag suggeriti per tutti gli argomenti.
+   - **Accetta** per applicare tutti i tag suggeriti per tutti gli argomenti.
+   - **Rifiuta** per ignorare tutti i tag suggeriti per tutti gli argomenti.
    - **Cancella tutti i suggerimenti** per rimuovere tutti i tag suggeriti per un argomento specifico.
    - Seleziona l&#39;icona **X** accanto a un tag per rimuovere un singolo suggerimento di tag.
 

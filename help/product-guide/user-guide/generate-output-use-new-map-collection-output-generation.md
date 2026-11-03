@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1589'
 ht-degree: 0%
 ---
 # Usa nuova raccolta mappe per la generazione dell&#39;output
@@ -101,7 +101,8 @@ Ottieni un elenco di tutte le mappe desiderate con il titolo della mappa, il nom
 
 >[!NOTE]
 >
-> Quando si aggiunge un numero elevato di mappe a una raccolta di mappe, le schede Mappe e predefiniti visualizzano un massimo di quattro mappe alla volta, insieme ai predefiniti associati. Nella parte inferiore dello schermo è disponibile una vista impaginata che consente agli utenti di spostarsi tra le pagine e accedere a mappe e predefiniti aggiuntivi. Se selezionate una mappa o un predefinito, la selezione viene mantenuta durante la navigazione tra le mappe e i predefiniti rimanenti in pagine diverse.
+>- Quando una raccolta contiene molte mappe, la scheda Mappe e predefiniti visualizza un massimo di quattro mappe alla volta, insieme ai relativi predefiniti. Le copie tradotte di una mappa sono elencate come voci separate e sono incluse in questo conteggio, pertanto le mappe e le loro traduzioni possono essere distribuite su più pagine. Utilizza i controlli di impaginazione nella parte inferiore dello schermo per spostarti tra le pagine. Le selezioni vengono mantenute durante la navigazione.
+>- L&#39;ordinamento viene applicato solo ai risultati visualizzati nella pagina corrente. Non riordina l’intera raccolta su più pagine. Per trovare mappe specifiche per l’intera raccolta, utilizza i filtri descritti in Opzioni di filtro.
 
 ![Schede mappe e predefiniti](./images/maps-presets-tab.png)
 
@@ -109,8 +110,8 @@ La scheda **Mappe e predefiniti** presenta le informazioni in base alle mappe se
 
 - **Predefinito**: mostra il tipo di predefinito di output configurato nel file di mappa.
 - **Linea di base**: mostra la linea di base utilizzata dal predefinito di output.  Se non viene utilizzata alcuna linea di base, verrà visualizzato un trattino `-`.
-- **Modificato dalla generazione**: indica se la mappa DITA viene aggiornata dopo la generazione. In base a queste informazioni, è possibile decidere se pubblicare o meno l&#39;output per questa mappa DITA.
-- **Modificato dalla pubblicazione**: indica se la mappa DITA è stata aggiornata dopo l&#39;ultima pubblicazione. In base a queste informazioni, è possibile decidere se ripubblicare o meno l&#39;output per questa mappa DITA.
+- **Modificato dalla generazione**: indica che la mappa potrebbe essere stata modificata dall&#39;ultima generazione dell&#39;output per questo predefinito. Potete utilizzarlo per decidere se rigenerare l&#39;output.
+- **Modificato da pubblicato**: indica che la mappa è stata aggiornata dall&#39;ultima pubblicazione dell&#39;output. Puoi utilizzarlo per decidere se ripubblicare l’output.
 - **Ultima generazione**: mostra la data e l&#39;ora dell&#39;ultimo output generato.
 - **Ultima pubblicazione**: mostra la data e l&#39;ora dell&#39;ultimo output pubblicato.
 

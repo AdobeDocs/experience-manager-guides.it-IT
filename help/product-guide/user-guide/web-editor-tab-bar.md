@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: 772cc098cfa0abfafed142062a1c191ef266bbcd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '775'
 ht-degree: 0%
 ---
 # Barra delle schede nell’editor
@@ -74,11 +74,13 @@ Salva le modifiche apportate in tutti gli argomenti aperti. Se nell&#39;editor s
 >
 > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola modalità di Assistente IA alla volta, ovvero Agente o Standard.
 
-- **Agentic**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
+- **Agente**: la modalità Agente nell&#39;Assistente di intelligenza artificiale consente di eseguire attività relative al contenuto tramite interazioni in linguaggio naturale. Puoi descrivere i tuoi requisiti nel pannello chat e AI Assistant pianifica ed esegue attività fornendo visibilità sul suo avanzamento. Supporta competenze quali l’importazione, che converte i file PDF, Word o Markdown dal dispositivo o dall’archivio dei contenuti in argomenti strutturati; la creazione, che genera nuovi argomenti in base alle tue esigenze e può fare riferimento a contenuti esistenti per il tono e lo stile; e l’assegnazione di tag avanzati, che consiglia tag pertinenti in base alla tassonomia della tua organizzazione per migliorare la coerenza dei metadati.
 
 - **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
 
 La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
+
+**Assistente Guida**: **Assistente Guida** in Experience Manager Guides è una funzionalità di ricerca conversazionale generativa basata sull&#39;intelligenza artificiale che consente di trovare informazioni sulle caratteristiche del prodotto, sui flussi di lavoro e sulla risoluzione dei problemi. Fornisce risposte pertinenti basate sulla documentazione di Experience Manager Guides, supporta le domande di follow-up e include collegamenti agli articoli sorgente per ulteriori riferimenti. Per ulteriori dettagli, visualizzare [Migliorare l&#39;efficienza con l&#39;Assistente](./ai-based-smart-help.md).
 
 **Espandi visualizzazione**: consente di espandere la visualizzazione della pagina utilizzando l&#39;icona **Espandi**. In questa visualizzazione, la barra dell&#39;intestazione contenente il logo Adobe Experience Manager è nascosta. In questo modo si ottimizza lo spazio del contenuto per la modifica. Per tornare alla visualizzazione standard, utilizzare l&#39;icona **Esci dalla visualizzazione espansa**.
 

@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # Componenti di un modello PDF {#components-pdf-template}
@@ -287,14 +287,17 @@ Potete definire il testo da visualizzare prima e dopo l&#39;interruzione. Ad ese
   >[!NOTE]
   >
   > Quando si utilizza una variabile di lingua nel campo **Testo prima della pausa** o **Testo dopo la pausa**, assicurarsi che l&#39;intero testo sia definito in una singola variabile di lingua. Non viene eseguito il rendering di testo o variabili aggiunti al di fuori della variabile di lingua in questi campi. Ad esempio, invece di utilizzare una combinazione di variabili come `${lng:Continued-from-page} %page-num%` nel campo **Testo dopo interruzione**, utilizzare solo `${lng:Continued-from-page}` nel campo e impostare separatamente il valore della variabile di lingua `Continued-from-page` su `Continued-from-page %page-num%`.
-* **Collegare i termini del glossario alla pagina del glossario**: selezionare questa opzione per visualizzare i termini del glossario come collegamenti ipertestuali nel contenuto e collegarli ai termini nella pagina del glossario. Ciò consente ai lettori di visualizzare rapidamente la definizione di un termine definito nel glossario.
+* **Collegare i termini del glossario alla pagina del glossario**: Abilitare questa opzione per visualizzare i termini del glossario come collegamenti ipertestuali nel contenuto e collegarli ai termini nella pagina del glossario. Ciò consente ai lettori di visualizzare rapidamente la definizione di un termine definito nel glossario.
 
   Per convertire i termini del glossario in collegamenti ipertestuali, è necessario:
   * Abilitare **Glossario** nella scheda **Ordine di layout pagina** per una mappa DITA.
   * Aggiungere il glossario nelle pagine del retro di una mappa del libro.
 
   Se non si abilita la pagina Glossario, i termini Glossario nel contenuto non vengono convertiti in collegamenti ipertestuali nell’output di PDF.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **Mostra tutte le voci del glossario**: Abilita questa opzione per includere tutte le voci del glossario definite nella mappa, indipendentemente dal fatto che nel contenuto venga fatto riferimento al termine corrispondente. Per impostazione predefinita, questa opzione è disabilitata e solo i termini del glossario effettivamente utilizzati nel contenuto vengono inclusi nella pagina del glossario.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layout di pagina {#page-layouts}
 

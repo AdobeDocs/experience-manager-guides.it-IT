@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # Configurare le impostazioni di generazione dell’output {#id181AI0B0E30}
@@ -423,7 +423,12 @@ Quando generi un output, questo viene creato insieme ai registri di output. Per 
 
 `/var/dxml/metadata/outputHistory`
 
-In un certo periodo di tempo, le dimensioni collettive di tutti i file di registro potevano raggiungere i GB. AEM Guides consente di configurare un periodo di tempo per mantenere questi file di registro nell’archivio. Dopo il periodo di tempo specificato, i registri e la cronologia di generazione dell’output vengono eliminati dall’archivio.
+In un certo periodo di tempo, le dimensioni collettive di tutti i file di registro potevano raggiungere i GB. AEM Guides consente di controllare per quanto tempo i registri e la cronologia di generazione dell’output vengono conservati nell’archivio. È possibile conservare la cronologia di output in uno dei seguenti modi:
+
+- **Per età (impostazione predefinita):** le voci più vecchie del numero di giorni specificato vengono eliminate.
+- **Per conteggio:** per ogni mappa e predefinito viene mantenuto solo il numero di voci più recente specificato. Le voci meno recenti vengono eliminate indipendentemente dall&#39;età.
+
+È inoltre possibile scegliere se la rimozione rimuove l&#39;intera voce della cronologia di output insieme al relativo log o solo il log. Mantenere la voce senza il relativo registro consente di conservare un record degli output generati a scopo di audit, riducendo al contempo le dimensioni dell’archivio.
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ In un certo periodo di tempo, le dimensioni collettive di tutti i file di regist
 
 La configurazione della funzione di rimozione della cronologia influisce sulla generazione dell&#39;output per tutte le mappe DITA nel repository. Nella scheda Output di una mappa DITA, la cronologia viene eliminata dopo il numero di giorni e all&#39;ora specificati nell&#39;impostazione.
 
+
+
 >[!NOTE]
 >
 > La rimozione dei file di registro e della cronologia di generazione dell’output non ha alcun impatto sull’output generato.
 
-Le schede seguenti forniscono istruzioni per impostare un giorno e un’ora per eliminare la cronologia e i registri di output in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
+Le schede seguenti forniscono istruzioni per configurare il modo in cui la cronologia e i registri di output vengono eliminati in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 | PID | Chiave proprietà | Valore proprietà |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Specifica il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Se si desidera disattivare questa funzione, impostare questa proprietà su 0.Everyday alla data specificata per l&#39;esecuzione del processo di rimozione sugli output generati prima del numero di giorni specificato in questa proprietà. | **Valore predefinito**: 5 |
-| `output.history.purgetime` | Specificare l&#39;ora in cui viene avviato il processo di rimozione. | **Valore predefinito**: 0:00 \(o 12:00 mezzanotte\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Specifica il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Per disattivare questa funzione, impostare questa proprietà su 0. Ogni giorno alla data e all&#39;ora specificate il processo di rimozione viene eseguito sugli output generati prima del numero di giorni specificato in questa proprietà. Questa proprietà viene utilizzata solo quando `output.history.retention.mode` è `AGE`. **Valore predefinito**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | Specificare l&#39;ora in cui viene avviato il processo di rimozione. Formato: `HH:MM` (ad esempio, `15:30`). **Valore predefinito**: `0:00` (o mezzanotte) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | Specificare la strategia di conservazione per la cronologia di output. I valori possibili sono `AGE` e `COUNT`. **Valore predefinito**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | Specifica il numero di voci della cronologia di output più recenti da mantenere per ogni mappa e predefinito. Inserisci un numero intero positivo. Questa proprietà viene utilizzata solo quando `output.history.retention.mode` è `COUNT`. **Valore predefinito**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | Specificare cosa accade alle voci della cronologia di output che vengono rimosse da un criterio di conservazione, in entrambe le modalità. I valori possibili sono `DELETE_ENTRY` e `LOGS_ONLY`. **Valore predefinito**: `DELETE_ENTRY` |
 
 >[!TAB On-Premise]
 
@@ -460,13 +472,19 @@ Utilizza le istruzioni fornite in [Sostituzioni configurazione](download-install
 
 1. Cerca e fai clic sul bundle **com.adobe.fmdita.config.ConfigManager**.
 
-1. Nella proprietà **Periodo rimozione cronologia output** specificare il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Per impostazione predefinita è impostato su 5 giorni. Per disattivare questa funzione, impostare questa proprietà su 0.
+1. Nella proprietà **Periodo rimozione cronologia output** specificare il numero di giorni dopo i quali la cronologia di output e i registri di output vengono eliminati. Per impostazione predefinita è impostato su 5 giorni. Per disattivare questa funzione, impostare questa proprietà su 0. Questa proprietà viene utilizzata solo quando **Modalità di conservazione cronologia output** è impostata su **AGE**.
 
-1. Nella proprietà **Tempo rimozione cronologia output** specificare l&#39;ora in cui viene avviato il processo di rimozione. Per impostazione predefinita, è impostato su 0:00 \(o 12:00 mezzanotte\). Ogni giorno in questo momento, il processo di rimozione viene eseguito sugli output generati prima del numero di giorni specificato nella proprietà **Periodo di rimozione cronologia output**.
+1. Nella proprietà **Tempo rimozione cronologia output** specificare l&#39;ora in cui viene avviato il processo di rimozione. Per impostazione predefinita è impostato su 0:00 (o 12:00 mezzanotte). Ogni giorno in questo momento, il processo di rimozione viene eseguito sugli output generati prima del numero di giorni specificato nella proprietà **Periodo di rimozione cronologia output**.
 
    >[!NOTE]
    >
-   > Per impostazione predefinita, la funzione di eliminazione viene eseguita ogni mezzanotte sugli output più vecchi di 5 giorni.
+   >Per impostazione predefinita, la funzione di eliminazione viene eseguita ogni mezzanotte sugli output più vecchi di 5 giorni.
+
+1. Selezionare la strategia di conservazione dall&#39;elenco a discesa **Modalità conservazione cronologia output**. Per impostazione predefinita è impostato su **AGE**. Le due modalità si escludono a vicenda.
+
+1. Nella proprietà **Conteggio conservazione cronologia output (per predefinito)**, specifica il numero di voci della cronologia di output più recenti da mantenere per ogni mappa e predefinito. Per impostazione predefinita, è impostato su 25. Questa proprietà viene utilizzata solo quando **Modalità di conservazione cronologia output** è impostata su **COUNT**.
+
+1. Dall&#39;elenco a discesa **Azione di conservazione cronologia output**, selezionare l&#39;operazione da eseguire sulle voci rimosse dalla conservazione. Per impostazione predefinita, è impostato su **DELETE_ENTRY**.
 
 1. Fai clic su **Salva**.
 

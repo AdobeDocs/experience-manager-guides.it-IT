@@ -18,13 +18,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: dbb138a7804d102d1b9aa9cfbc3564e827ef199e
+source-git-commit: 6b1f5e5a0264c340240a52e59c1d0e5c093fed50
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '1066'
 ht-degree: 0%
-
 ---
-
 # Configura predefinito di output SCORM
 
 Dopo aver creato il predefinito, configura le impostazioni del predefinito SCORM. Le opzioni di configurazione predefinite sono organizzate nelle schede Generale, Contenuto, Esperienza Allievo e Pubblica.
@@ -74,6 +72,41 @@ Dopo aver creato il predefinito, configura le impostazioni del predefinito SCORM
 
     - **Ordine delle domande casuale per ogni tentativo**: visualizza le domande del quiz in un ordine diverso per ogni tentativo, riducendo la prevedibilità.
     - **Scelte casuali delle risposte per ogni tentativo**: riproduce in modo casuale le opzioni di risposta per ogni domanda a ogni tentativo, riducendo la possibilità di indovinare.
+
+  - **Generazione rapporti**: utilizzare queste impostazioni per controllare quando vengono pubblicati in Adobe Learning Manager (ALM) lo stato di completamento e di esito positivo/negativo del corso.
+
+    ![Impostazioni report](assets/reporting-scorm.png)
+
+    - **Completamento corso**: definisce quando il corso viene contrassegnato come completato e pubblicato in ALM.
+
+      - **Contrassegna il corso come completato al lancio**: contrassegna il corso come completato per l&#39;Allievo non appena viene avviato. Non è necessario che l’Allievo interagisca con alcun contenuto. Questa opzione è raramente necessaria, ma è disponibile se il flusso di lavoro lo richiede.
+      - **In base agli argomenti completati**: contrassegna il corso come completato quando l&#39;Allievo raggiunge una **percentuale** o un **numero** specificato di argomenti completati. Scegliere l&#39;unità di misura, la percentuale o il numero, in base al modo in cui si desidera definire la soglia di completamento.
+      - **In base al quiz con punteggio**: contrassegna il corso come completato in base allo stato del quiz dell&#39;Allievo, selezionato dal menu a discesa:
+
+        - **Tentativo di quiz con valutazione**
+        - **Quiz con punteggio superato**
+        - **Quiz con punteggio superato o limite di tentativi raggiunto**
+
+      Quando sono abilitati sia **In base agli argomenti completati** che **In base al quiz con punteggio**, utilizza il selettore **AND**/**OR** per definire la modalità di combinazione delle due condizioni:
+
+      - **AND**: entrambe le condizioni devono essere vere.
+      - **OR**: una delle due condizioni è sufficiente.
+
+    - **Passaggio o errore corso**: definisce quando viene pubblicato in ALM uno stato di superamento o errore. La segnalazione dello stato di superamento o di errore è facoltativa.
+
+      - **Segnala uno stato di esito positivo o negativo a LMS**: disattivalo se non desideri pubblicare lo stato di esito positivo o negativo in ALM. Se l&#39;opzione è disattivata, le altre opzioni di questo gruppo sono nascoste.
+      - **Contrassegna il corso passato al lancio**: contrassegna il corso passato per l&#39;Allievo non appena viene avviato.
+      - **In base agli argomenti completati**: contrassegna il corso come completato quando l&#39;Allievo raggiunge una **percentuale** o un **numero** specificato di argomenti completati. Scegliere l&#39;unità di misura, la percentuale o il numero, in base al modo in cui si desidera definire la soglia di completamento.
+      - **In base al quiz con punteggio**: contrassegna il completamento o il fallimento del corso in base allo stato del quiz dell&#39;Allievo, selezionato dal menu a discesa
+
+        - Tentativo di quiz con valutazione
+        - Quiz con punteggio superato
+
+      Quando sono abilitati sia **In base agli argomenti completati** che **In base al quiz con valutazione**, utilizzare il selettore **AND**/**OR** per combinarli, come descritto in precedenza.
+
+    >[!NOTE]
+    >
+    >Per impostazione predefinita, queste impostazioni corrispondono al comportamento precedente: completamento al 100% degli argomenti completati e superamento in base sia al quiz con punteggio superato che agli argomenti completati al 100%. Questo vale sia per i predefiniti SCORM nuovi che per quelli esistenti, quindi nulla cambia per i corsi esistenti a meno che non si riconfigurino queste impostazioni.
 
 - **Pubblica in LMS:** Utilizza questa impostazione per pubblicare i contenuti direttamente in Adobe Learning Manager (ALM). Dal menu a discesa **Server di pubblicazione**, selezionare **Adobe Learning Manager**, quindi scegliere il **Profilo di pubblicazione** richiesto precedentemente configurato nelle impostazioni di Workspace. Il profilo selezionato viene utilizzato per stabilire la connessione e caricare il contenuto generato in ALM.
 

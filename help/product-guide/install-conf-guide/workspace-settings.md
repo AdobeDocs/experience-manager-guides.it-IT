@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Impostazioni Workspace
@@ -51,25 +51,25 @@ L&#39;opzione **Impostazioni Workspace** presente nella [Barra delle schede](../
 
 ## Generale
 
-Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene cinque sezioni: **Assistente IA**, **Authoring**, **Citazioni**, **Condizione** e **Controllo ortografico**.
+Le impostazioni generali consentono di configurare le impostazioni per l&#39;utilizzo dell&#39;editor. Questa scheda contiene: **Funzionalità AI**, **Assistente alla Guida AI**, **Authoring**, **Citazioni**, **Condizione**,**Editor HTML**, **Contenuto apprendimento** e **Controllo ortografico**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Assistente IA**
+- **Funzioni IA**
 
   >[!NOTE]
   >
   > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success.
 
-  Selezionare questa opzione per abilitare la funzionalità [Assistente IA](../user-guide/ai-assistant.md) in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
+  Seleziona per abilitare la funzione Assistente IA in Experience Manager Guides. Deselezionate questa opzione per disattivare la feature.
 
-  L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. È possibile scegliere tra le due modalità attivando le rispettive opzioni.
+  L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. È possibile scegliere tra le due modalità attivando i rispettivi pulsanti di scelta.
 
-  - **Agente**: dopo aver abilitato questa opzione, potrai accedere alla funzionalità dell&#39;Assistente di IA per l&#39;agente dalla barra di spostamento nella home page e dalla barra delle schede nell&#39;interfaccia dell&#39;editor. Per informazioni dettagliate su come generare tag di IA suggeriti per gli argomenti, visualizzare [Utilizzare l&#39;Assistente di IA in modalità Agentic](../user-guide/ai-assistant-agentic.md).
+  - **Agente**: dopo aver abilitato questa opzione, puoi accedere all&#39;Assistente di IA per l&#39;agente dalla barra di navigazione dell&#39;applicazione Experience Manager Guides. Puoi anche configurare gli spazi dei nomi della tassonomia utilizzati dall’abilità di assegnazione tag avanzati per generare i consigli sui tag. L’Assistente IA considera solo i tag degli spazi dei nomi selezionati, in base ai tag definiti in AEM. Per i dettagli, visualizzare [Modalità agente nell&#39;Assistente IA](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-  ![](assets/agentic-ai-workspace.png){width="350"}
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Standard**: dopo aver abilitato l&#39;interruttore **Standard**, puoi configurare le opzioni visualizzate nella **scheda Authoring** per gli autori utilizzando il menu **Azioni rapide authoring** come mostrato di seguito.
+  - **Standard**: dopo aver abilitato l&#39;opzione **Standard**, puoi configurare le opzioni visualizzate nel menu **Azioni rapide per la creazione**, come illustrato di seguito.
 
     Queste modifiche si applicano al profilo di cartella specifico con cui stai lavorando. Se crei un nuovo profilo di cartella, questo erediterà le impostazioni di Workspace definite nel profilo di cartella **Global** per impostazione predefinita. Puoi modificare queste impostazioni in base alle esigenze utilizzando le **impostazioni Workspace** e salvare la configurazione aggiornata.
 
@@ -82,6 +82,8 @@ Le impostazioni generali consentono di configurare le impostazioni per l&#39;uti
   - modifica l’ordine di visualizzazione delle opzioni, trascinale e rilasciale in base alle esigenze.
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **Assistente risorse IA**: questa funzionalità è disabilitata per impostazione predefinita. Attivate questa funzione per accedere al pannello Help Assistant dalle interfacce Homepage, Editor e Map Console. Help Assistant consente di porre domande sulle funzioni di Experience Manager Guides, sui flussi di lavoro e sulla risoluzione dei problemi e fornisce risposte pertinenti in base alla documentazione del prodotto. Per ulteriori dettagli, visualizzare [Guida avanzata](../user-guide/ai-based-smart-help.md).
 
 - **Authoring**
 
@@ -115,7 +117,26 @@ Le impostazioni generali consentono di configurare le impostazioni per l&#39;uti
     >
     > Il controllo ortografico di AEM utilizza la lingua selezionata nella proprietà language del file. Se la lingua non è specificata per il file, il controllo ortografico viene eseguito come fallback nella lingua del server AEM.
     >Per garantire risultati accurati del controllo ortografico, il dizionario della lingua selezionata deve essere disponibile in AEM. Se il dizionario richiesto per la lingua configurata non è disponibile, il controllo ortografico predefinito è `en_us`.
+- **Contenuto di apprendimento**: questa impostazione consente di abilitare o disabilitare la funzione Contenuto di apprendimento e formazione del prodotto per l&#39;istanza di Experience Manager Guides. Utilizza l&#39;interruttore **Abilita contenuto di apprendimento** per abilitare o disabilitare la funzione a livello di profilo di cartella. Per impostazione predefinita, questa funzione rimane disabilitata per tutte le istanze.
 
+  Ulteriori informazioni sulla funzionalità [Contenuti di formazione e apprendimento del prodotto](../learning-content/intro.md).
+
+  Le seguenti funzioni/opzioni sono disponibili solo quando l’impostazione del contenuto di apprendimento è abilitata:
+
+  - **Authoring dei corsi**: abilita le opzioni per creare e gestire i corsi sia dall&#39;editor che dalla home page.
+  - **Modelli SCORM**: abilita l&#39;opzione per creare modelli SCORM in *Modelli di output* nell&#39;editor.
+  - **Modelli di contenuto e predefiniti di output**: abilita le opzioni di configurazione Modelli di contenuto e Predefiniti di output nella finestra di dialogo delle impostazioni di Workspace.
+
+Quando il contenuto di apprendimento è disattivato, tutte le opzioni precedenti non sono più disponibili nell’interfaccia di Experience Manager Guides.
+
+Per ulteriori dettagli, visualizzare [Configura profili cartella](../lc-config-guide/lc-folder-profile.md).
+
+- **Editor HTML**: per i contenuti di apprendimento, questa impostazione consente di configurare l&#39;editor per l&#39;authoring basato su HTML. Le opzioni di configurazione principali presenti in questa impostazione sono le seguenti:
+
+  - **Nascondi stile in linea**: abilita questa opzione per impedire agli autori di applicare formattazione in linea al contenuto del corso. Quando questa opzione è attivata, tutte le opzioni di stile in linea come Font, Bordo, Layout, Sfondo e Colonne presenti nel pannello di destra dell’Editor rimangono nascoste per gli autori. Tuttavia, gli autori possono comunque utilizzare le opzioni di stile globali basate su classi disponibili nel pannello **Stili**. Questo consente di mantenere la coerenza con le linee guida di stile della tua organizzazione.
+  - **Nascondi visualizzazione Source per autori**: abilitare questa opzione per limitare l&#39;accesso al codice sorgente HTML. Questa funzione ti consente di semplificare l’esperienza di modifica o di evitare modifiche accidentali al codice sottostante.
+
+  Per ulteriori dettagli, visualizzare [creazione e personalizzazione dei contenuti di apprendimento](../learning-content/lc-overview.md).
 
 ## Pannelli
 
@@ -181,6 +202,12 @@ Contiene i profili utilizzabili per pubblicare l&#39;output **Knowledge Base**. 
   - Selezionate i seguenti ambiti OAuth:
     - Accesso completo (completo)
     - Seleziona Gestisci dati utente tramite API (api)
+    - Eseguire richieste in qualsiasi momento (refresh_token, offline_access)
+
+    >[!NOTE]
+    >
+    >- Per utilizzare Proof Key for Code Exchange (PKCE), aggiungere `Perform requests at any time` agli ambiti. Contatta anche il team Customer Success per abilitare questa funzione.
+    >- Abilita l&#39;impostazione **Richiedi chiave di verifica per l&#39;estensione Scambio codice (PKCE) per i flussi di autorizzazione supportati** nell&#39;app connessa a Salesforce. PKCE impedisce lo scambio di un codice di autorizzazione intercettato con un token di accesso, rendendo più sicura la connessione tra Experience Manager Guides e Salesforce.
 
     Una volta configurata l&#39;app, Salesforce fornisce **Chiave consumer** e **Segreto consumer**. Possono essere utilizzati per creare il profilo Salesforce.
 
@@ -234,7 +261,7 @@ Questa scheda contiene le opzioni per configurare le convalide Schematron nell�
 
   In questo modo si impedisce agli utenti di salvare qualsiasi file che non rispetti una regola definita nei file Schematron selezionati. Se questa opzione non è selezionata, il file non verrà convalidato prima di salvare le modifiche.
 
-- **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, l&#39;opzione per aggiungere il file schematron **Aggiungi file schematron** non è disponibile per gli utenti nel **pannello di convalida** dell&#39;editor.
+- **Consenti a tutti gli utenti di aggiungere file schematron nel pannello di convalida**: selezionare questa opzione per consentire agli utenti di aggiungere qualsiasi file Schematron nel pannello di convalida dell&#39;editor. Questo consente agli utenti di aggiungere file Schematron e quindi convalidare gli argomenti rispetto al file Schematron. Se questa opzione non è selezionata, il pulsante **Aggiungi file schematron** non sarà disponibile per gli utenti nel **pannello di convalida** dell&#39;editor.
 
   ![Convalida nelle impostazioni dell&#39;area di lavoro](../user-guide/images/editor-setting-validation.png){width="550"}
 

@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # Introduzione all’editor {#id181OD0QE05Z}
 
 Experience Manager Guides offre un editor di facile utilizzo per la creazione e la modifica di documenti strutturati. L&#39;editor nasconde tutte le complessità della struttura DITA allo scrittore. L&#39;editor fornisce un elenco di elementi DITA che un utente dovrebbe utilizzare all&#39;interno di un documento.
@@ -49,17 +47,9 @@ Il nuovo editor offre un’evoluzione significativa dell’esperienza di authori
 - Perfezionamenti di interfaccia utente e interfaccia utente: migliora la leggibilità e il comfort visivo tramite un tema scuro e CSS predefinito più ricco nelle modalità Creazione e Anteprima, offrendo un’interfaccia di modifica più moderna.
 - Impostazioni editor centralizzato: offre un pannello di impostazioni unificato per personalizzare l’esperienza di authoring, che include il controllo su tag, attributi, commenti XML, spazi unificatori e menu di inserimento rapido nell’editor.
 
-### Limitazioni del nuovo editor
-
-Il nuovo editor non supporta attualmente le seguenti funzionalità. Queste funzionalità saranno introdotte nelle prossime versioni.
-
-- Authoring con la funzione Revisioni abilitata (tutte le revisioni esistenti vengono mantenute e trattate come contenuto normale)
-
-
 >[!NOTE]
 >
 >La vista Layout per le mappe DITA non sarà supportata con il nuovo editor.
-
 
 ## Editor precedente
 

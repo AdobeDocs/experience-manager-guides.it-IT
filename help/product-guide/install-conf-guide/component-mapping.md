@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # Mappatura dei componenti per AEM Sites
@@ -171,9 +171,30 @@ Esempi:
 ]
 ```
 
-Definisci l&#39;elemento e la classe di destinazione, utilizza `attributeMap` per impostare le proprietà del nodo, aggiungi una voce `path-attributes` per normalizzare i percorsi e scegli il `from` destro per i valori che desideri estrarre. `heroimage` utilizzato in precedenza è un componente in un sito `we-retail`.
+Definisci l&#39;elemento e la classe di destinazione, utilizza `attributeMap` per impostare le proprietà del nodo, aggiungi una voce `path-attributes` per normalizzare i percorsi e scegli il `from` destro per i valori che desideri estrarre. `heroimage` utilizzato in precedenza è un componente in un sito `we-retail`.  È importante discutere il testo RTF predefinito e identificare gli elementi per i quali viene utilizzato.
 
-**Nota**: è importante discutere il testo RTF predefinito e identificare gli elementi per i quali viene utilizzato.
+
+## Propagare i metadati del prologo all’intestazione della pagina
+
+Quando si genera l’output di AEM Sites con la mappatura dei componenti, i metadati del prologo, quali autore, parole chiave e ID risorsa, vengono aggiunti al corpo della pagina AEM Sites generata invece che all’intestazione della pagina.
+
+Per propagare i metadati prolog all&#39;inizio delle pagine di output, aggiungi la seguente mappatura al file di mappatura del componente:
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+Dopo aver aggiunto questa mappatura, i metadati prolog sono disponibili nella parte superiore delle pagine generate. Questo supporta casi d’uso come l’indicizzazione delle ricerche.
 
 ## Creare un componente personalizzato
 

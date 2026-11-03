@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # Commenti sulla revisione degli indirizzi {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ Gli utenti taggati ricevono sia un’e-mail che una notifica AEM, assicurandosi 
 
 **Accedere ai commenti di revisione utilizzando l&#39;interfaccia utente Revisione**
 
-Se sei l&#39;iniziatore o l&#39;autore di un&#39;attività di revisione e la apri dalla console **Progetti**, l&#39;argomento verrà avviato nell&#39;interfaccia utente di revisione. Poiché questa attività non è assegnata all&#39;utente, è possibile visualizzare e rispondere ai commenti ma non eseguire alcuna azione di revisione. La barra degli strumenti Commenti rimane disabilitata per gli utenti che non sono assegnati all&#39;attività.
+In qualità di iniziatore di un&#39;attività di revisione, puoi aprire l&#39;attività di revisione nella **interfaccia utente di revisione** per visualizzare e rispondere ai commenti dei revisori. È inoltre possibile aggiungere commenti agli argomenti dell&#39;attività di revisione per fornire ulteriore contesto o attirare l&#39;attenzione dei revisori su contenuti specifici.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+Per ulteriori dettagli, visualizzare [Aggiungi commenti per i revisori](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 ## Visualizza tutte le attività di revisione per un argomento
 

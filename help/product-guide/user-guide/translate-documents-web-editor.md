@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # Traduci documenti dalla console Mappa {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Prima di eseguire i passaggi descritti in questa procedura, verificare di aver c
 
      ![Immettere il percorso del progetto](images/project-path.png){width="650"}
 
-   - Se stai aggiungendo elementi a un progetto di traduzione esistente, seleziona il percorso in cui il progetto esiste già. Quindi, dall&#39;elenco **Progetto di traduzione esistente**, selezionare il progetto a cui si desidera aggiungere l&#39;attività di traduzione corrente. Puoi anche utilizzare i **filtri** disponibili per restringere l&#39;elenco.
+   - Se stai aggiungendo elementi a un progetto di traduzione esistente, seleziona il percorso in cui il progetto esiste già. Quindi, dall&#39;elenco **Progetto di traduzione esistente**, selezionare il progetto a cui si desidera aggiungere l&#39;attività di traduzione corrente. Se più progetti hanno lo stesso titolo, utilizza il percorso mostrato insieme a ciascun titolo del progetto per identificare quello corretto. Puoi anche utilizzare i **filtri** disponibili per restringere l&#39;elenco e **ordinare** i progetti in base alle tue esigenze
 
      ![Immettere il percorso del progetto esistente](images/existing-project-path.png){width="650"}
 

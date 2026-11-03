@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # Invia argomenti per la revisione {#id199RD0S035Z}
@@ -400,6 +400,32 @@ Una volta aggiornata l’attività di revisione, i revisori ricevono le notifich
 - **Completato**: i revisori che hanno terminato la revisione ricevono una notifica che richiede una revisione.
 
 Per ulteriori dettagli, visualizzare [Informazioni sulle notifiche di revisione](./review-understanding-review-notifications.md).
+
+## Aggiungi commenti per revisori
+
+In qualità di iniziatore di un&#39;attività di revisione, è possibile aggiungere commenti in linea agli argomenti inviati per la revisione. Dopo aver creato un&#39;attività di revisione, apri l&#39;attività nella **interfaccia utente di revisione** per fornire ulteriore contesto o attirare l&#39;attenzione dei revisori su contenuto specifico.
+
+Per aggiungere commenti agli argomenti di un&#39;attività di revisione, effettuare le operazioni riportate di seguito.
+
+1. Crea un&#39;attività di revisione e aggiungi gli argomenti e i revisori richiesti.
+
+2. Apri l&#39;attività di revisione creata nell&#39;**interfaccia utente di revisione**.
+
+   In qualità di iniziatore di revisione, puoi accedere al pannello **Commenti** e all&#39;elenco di argomenti a sinistra, in modo analogo a quanto avviene per i revisori.
+
+   ![](./images/add-comments-as-author.png)
+
+3. Dall&#39;elenco degli argomenti, selezionare l&#39;argomento in cui si desidera aggiungere un commento.
+
+4. Seleziona il contenuto rilevante e utilizza le opzioni disponibili nel pannello **Commenti** per aggiungere il tuo feedback o attirare l&#39;attenzione dei revisori su contenuti specifici.
+
+5. Ripetere questi passaggi per aggiungere commenti ad altri argomenti nell&#39;attività di revisione, in base alle esigenze.
+
+I commenti aggiunti sono visibili ai revisori quando accedono all&#39;attività di revisione. I revisori ricevono anche una notifica AEM quando aggiungi un commento.
+
+
+
+
 
 
 **Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

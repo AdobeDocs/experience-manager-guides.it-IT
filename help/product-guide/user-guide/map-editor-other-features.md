@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # Funzioni aggiuntive nell’Editor mappa {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ Nella posizione specificata viene aggiunto un riferimento di navigazione del fil
 
 ## Esegui verifica stato su una mappa
 
-L&#39;opzione Esegui verifica stato nel menu di scelta rapida consente di eseguire una verifica stato sulla mappa selezionata per rilevare problemi quali collegamenti interrotti, ID duplicati e errori di convalida di Schematron prima della pubblicazione.
+L&#39;opzione **Esegui verifica stato** nel menu di scelta rapida consente di eseguire una verifica stato sulla mappa selezionata per rilevare problemi quali collegamenti interrotti, ID duplicati e errori di convalida di Schematron prima della pubblicazione. Questa funzionalità è disponibile sia nel nuovo editor che nel vecchio editor.
 
 >[!NOTE]
 >

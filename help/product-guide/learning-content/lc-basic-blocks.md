@@ -16,13 +16,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ffb697b53a663370621af1a3a484de9c3218881f
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Aggiungere blocchi predefiniti di base all&#39;argomento
 
 Per comprendere meglio come creare un argomento di apprendimento e aggiungervi elementi di base, il video seguente offre una breve panoramica delle funzioni disponibili.
@@ -59,6 +57,10 @@ Per comprendere meglio come creare un argomento di apprendimento e aggiungervi e
 
 - **Immagine**: inserire immagini nel contenuto insieme a testo alternativo e descrizione. Le immagini possono essere aggiunte dal repository o tramite un URL esterno. Inoltre, le proprietà dell&#39;immagine possono essere modificate utilizzando il pannello **Proprietà contenuto**.
 
+  >[!NOTE]
+  >
+  > È supportato anche il formato di immagine AVIF. Puoi caricare un file in questo formato nel repository o selezionarlo quando inserisci un’immagine nel contenuto. Questa opzione funziona solo per l&#39;output SCORM.
+
   ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: aggiunge video e audio al contenuto. Puoi personalizzarne le proprietà utilizzando il pannello **Proprietà contenuto**.
@@ -67,14 +69,14 @@ Per comprendere meglio come creare un argomento di apprendimento e aggiungervi e
 
 - **Contenuto riutilizzabile**: consente di incorporare il contenuto esistente dalle risorse o dall&#39;archivio per facilitarne la riutilizzo. Per inserire un contenuto riutilizzabile, effettua le seguenti operazioni:
 
-   1. Selezionare **Contenuto riutilizzabile** dalla barra degli strumenti.
-Viene visualizzata la finestra di dialogo **Riutilizza contenuto**.
-   2. Individua e seleziona l’argomento desiderato per includerne il contenuto nel corso corrente.
-   3. Seleziona l’ID del contenuto da aggiungere; accanto a per riferimento viene visualizzata un’anteprima.
+  1. Selezionare **Contenuto riutilizzabile** dalla barra degli strumenti.
+     Viene visualizzata la finestra di dialogo **Riutilizza contenuto**.
+  2. Individua e seleziona l’argomento desiderato per includerne il contenuto nel corso corrente.
+  3. Seleziona l’ID del contenuto da aggiungere; accanto a per riferimento viene visualizzata un’anteprima.
 
-      ![](assets/reuse-content-dialog.png){width="650"}
+     ![](assets/reuse-content-dialog.png){width="650"}
 
-   4. Scegli **Seleziona**.
+  4. Scegli **Seleziona**.
 
   Il contenuto viene inserito. Ad esempio, la sezione sulla struttura del veicolo è un contenuto che viene riutilizzato e aggiunto all’argomento del corso. Il tipo viene visualizzato come **Riferimento** e il relativo **ID** si riflette nel pannello **Proprietà contenuto**.
 

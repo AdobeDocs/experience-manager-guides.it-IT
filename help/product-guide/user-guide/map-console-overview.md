@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # Panoramica della console delle mappe
@@ -67,7 +67,7 @@ L&#39;interfaccia della console Mappa è principalmente divisa in due sezioni: *
   >
   > Se utilizzi Adobe Experience Manager Guides as a Cloud Service, nella barra di navigazione verrà visualizzata una funzionalità aggiuntiva [Assistente IA](./ai-assistant.md).
 
-- (**B**) **Pannello sinistro**: il pannello sinistro consente di accedere rapidamente alle funzioni Generazione output, Creazione e gestione report, Baseline, Predefiniti condizione, Traduzione contenuto e Workfront (solo se configurata).
+- (**B**) **Pannello sinistro**: il pannello sinistro consente di accedere rapidamente alle funzioni Generazione output, Cronologia output, Creazione e gestione report, Baseline, Predefiniti condizione, Traduzione contenuto e Workfront (solo se configurata).
 
   Per ulteriori dettagli, consulta la sezione [Funzioni della console mappa](#map-console-features) di seguito.
 
@@ -81,6 +81,14 @@ Con la console Map, puoi generare in modo efficiente output in vari formati, tra
 
 Per ulteriori dettagli, visualizzare [Generazione output](./generate-output.md).
 
+**Cronologia output**
+
+Consente di visualizzare e gestire le attività di generazione output per la mappa DITA selezionata direttamente dall&#39;editor. Puoi monitorare lo stato delle attività in corso e completate, visualizzare i dettagli di generazione dell’output, accedere ai registri di pubblicazione e gestire la cronologia di generazione dell’output.
+
+Puoi anche cercare e filtrare le attività di generazione dell’output in base al tipo di predefinito, allo stato dell’attività e all’intervallo di date e ore, e scaricare la cronologia di generazione dell’output in formato CSV.
+
+Per ulteriori dettagli, visualizzare [Gestisci processo di generazione output](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
 **Creazione e gestione dei report**
 
 In una configurazione organizzativa, desideri verificare la completezza complessiva della documentazione tecnica prima di iniziare a lavorarci o a inviare i documenti in diretta. Tale esigenza diventa ancora più essenziale in ambienti multiutente e su larga scala. Con la console Map puoi accedere ai rapporti di Experience Manager Guides che forniscono un utile insight sullo stato complessivo del contenuto nell’archivio e sul modo in cui il contenuto viene utilizzato nel processo di documentazione.
@@ -88,6 +96,10 @@ In una configurazione organizzativa, desideri verificare la completezza compless
 Per ulteriori dettagli, visualizzare [i report in Experience Manager Guides](./reports-intro.md).
 
 **Previsione**
+
+>[!NOTE]
+>
+> La console Mappa mostra la scheda **Previsione** o **Rami**, a seconda che il ramo sia abilitato per il tuo ambiente. La ramificazione è disponibile in Experience Manager Guides as a Cloud Service a partire dalla versione 2026.11.0 ed è disabilitata per impostazione predefinita. Per abilitarlo, contatta il team Customer Success di Adobe. Quando la diramazione è abilitata, le linee di base non sono più disponibili. Per informazioni dettagliate, visualizzare [Branching in Experience Manager Guides](./branching-overview.md) e [Creare e gestire rami di una mappa DITA](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides offre la funzione Baseline che consente di creare una versione degli argomenti e delle risorse da utilizzare per la pubblicazione o la traduzione. È inoltre possibile pubblicare più predefiniti di output della stessa mappa DITA in parallelo.
 
