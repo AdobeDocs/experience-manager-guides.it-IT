@@ -173,4 +173,4 @@ Dopo aver risolto un problema, seleziona **Rigenera** nella barra degli strument
 Seleziona **Scarica report** per scaricare il report in formato XLS, con informazioni dettagliate per ogni risultato.
 
 
-**Argomento padre:**[ Introduzione all&#39;editor mappe](map-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor mappe](map-editor.md)

@@ -428,4 +428,4 @@ I commenti aggiunti sono visibili ai revisori quando accedono all&#39;attività 
 
 
 
-**Argomento padre:**[ Introduzione alla revisione](review.md)
+**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)

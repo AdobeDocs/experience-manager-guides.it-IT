@@ -390,4 +390,4 @@ Per visualizzare la cronologia delle versioni di un file non DITA, effettuare le
 
 
 
-**Argomento padre:**[ Gestisci contenuto](authoring.md)
+**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)

@@ -55,7 +55,7 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
 1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Nuovo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
@@ -113,4 +113,4 @@ Per utilizzare questa funzionalità, accertati che **Esegui richieste in qualsia
 L’abilitazione del supporto dei token di aggiornamento in Experience Manager Guides abilita automaticamente il supporto PKCE. Tuttavia, per il corretto funzionamento dell’autenticazione è necessario abilitare anche l’impostazione corrispondente in Salesforce.
 
 
-**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)
+**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)
