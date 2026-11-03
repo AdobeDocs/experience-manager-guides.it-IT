@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # EXPERIENCE MANAGER GUIDES e EDGE DELIVERY SERVICES
@@ -137,7 +137,7 @@ Per configurare l&#39;URL del punto di attivazione nel file `fstab.yaml`:
 
 Adobe Experience Manager utilizza un&#39;applicazione GitHub denominata **AEM Code Sync** per inviare contenuti da Experience Manager Guides a GitHub.
 
-Per installare e configurare l&#39;applicazione *AEM Code Sync*, effettuare le seguenti operazioni:
+Per installare e configurare l&#39;applicazione *AEM Code Sync*, eseguire la procedura seguente:
 
 1. Passare alla pagina [Sincronizzazione codice AEM](https://github.com/apps/aem-code-sync) e selezionare **Installa**.
 
@@ -169,7 +169,7 @@ Per installare e configurare l&#39;applicazione *AEM Code Sync*, effettuare le s
 
    Assicurarsi che sia selezionato **Usa un&#39;origine di contenuto diversa**.
 
-6. Nella pagina **Utenti**, aggiungi gli utenti se necessario, quindi seleziona **Successivo**.
+6. Nella pagina **Utenti**, aggiungi gli utenti se necessario e seleziona **Avanti**.
 
 7. Rivedi il riepilogo della configurazione e seleziona **Salva**.
 

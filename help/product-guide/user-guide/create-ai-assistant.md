@@ -1,9 +1,9 @@
 ---
 title: Creare argomenti e mappe con l’Assistente IA
 description: Scopri come creare nuovi argomenti e mappe DITA dalle note, dalle specifiche o dai contenuti incollati con l’Assistente AI, quindi rivederli prima di salvarli.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -24,13 +24,13 @@ L&#39;abilità **Crea** nella modalità Agentic dell&#39;Assistente di intellige
 
    - **Utilizzo del collegamento**: digitare `/` nel campo Prompt, quindi scegliere **Aggiungi riferimento archivio** per scegliere il file dal repository (oppure **Aggiungi file dal dispositivo** per caricare il file dal computer).
 
-   - **Utilizzo dell&#39;icona Allega file o aggiungi contesto (+)**: aggiunge file dal sistema locale.
+   - **Utilizzo dell&#39;icona Allega file o aggiungi contesto (+)**: aggiungere file dal sistema locale.
 
    - **Trascina e rilascia**: trascina il file che desideri creare dal sistema direttamente nello spazio dei prompt.
 
 1. *(Facoltativo)* Nel prompt iniziale, selezionare `[file]`. Selezionate l&#39;argomento esistente di cui desiderate che il tono corrisponda alla bozza. È possibile scegliere l&#39;argomento dal repository o da una raccolta. Il nome dell&#39;argomento sostituisce `[file]` nel prompt.
 
-   ![Selezionare il segnaposto del file per scegliere l&#39;argomento](images/sample-create.png){width="350"}
+   ![Selezionare il segnaposto del file per scegliere l&#39;argomento](images/sample-create.png){width="650"}
 
 1. Seleziona **Invia**.
 
@@ -38,7 +38,7 @@ L&#39;abilità **Crea** nella modalità Agentic dell&#39;Assistente di intellige
 
 1. Rispondi a eventuali domande successive dell’Assistente AI per fornire i dettagli necessari per generare il contenuto.
 
-   ![Selezionare il segnaposto del file per scegliere l&#39;argomento](images/folder-create.png){width="350"}
+   ![Selezionare il segnaposto del file per scegliere l&#39;argomento](images/folder-create.png){width="650"}
 
 1. Seleziona **Anteprima** per rivedere l&#39;argomento generato.
 

@@ -1,7 +1,7 @@
 ---
 title: Importare documenti come argomenti con l'Assistente IA
 description: Scopri come convertire i file PDF, Word e Markdown in argomenti DITA e una mappa con l’Assistente AI e rivedere il risultato prima di salvarlo.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -25,7 +25,7 @@ L&#39;abilità **Importa** nella modalità Agentic dell&#39;Assistente di intell
 
    - **Utilizzo del collegamento**: digitare `/` nel campo Prompt, quindi scegliere **Aggiungi riferimento archivio** per scegliere il file dal repository (oppure **Aggiungi file dal dispositivo** per caricare il file dal computer).
 
-   - **Utilizzo dell&#39;icona Allega file o aggiungi contesto (+)**: aggiunge file dal sistema locale per fornire il contenuto da importare.
+   - **Utilizzo dell&#39;icona Allega file o aggiungi contesto (+)**: aggiungere file dal sistema locale per fornire il contenuto da importare.
 
    - **Trascina e rilascia**: trascina il file che desideri importare dal sistema direttamente nello spazio del prompt.
 
@@ -39,7 +39,7 @@ L&#39;abilità **Importa** nella modalità Agentic dell&#39;Assistente di intell
 
    ![](images/folder-import.png)
 
-1. Scegli il livello di intestazione che diventa un argomento. Ad esempio H2 come mostrato nella schermata.
+1. Scegli il livello di intestazione che diventa un argomento. Ad esempio, H2, come mostrato nella schermata.
 
    Rispondere a qualsiasi altra domanda di follow-up che sembri fornire i dettagli necessari per il processo di importazione.
 
