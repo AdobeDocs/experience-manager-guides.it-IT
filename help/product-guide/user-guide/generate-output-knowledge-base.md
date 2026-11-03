@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # Knowledge Base {#knowledge-base}
@@ -78,6 +78,17 @@ Nella scheda **Generale** sono disponibili le seguenti opzioni di configurazione
 
 Questa scheda visualizza la struttura o la vista gerarchica della mappa. Scegliere gli argomenti da pubblicare in una knowledge base. Espandere un nodo del sommario e scegliere gli argomenti da pubblicare.
 
+![](./images/articles-tab-kb.png)
+
+Quando si pubblica in Salesforce, accanto alla scheda **Articoli** viene visualizzata un&#39;icona di avviso se non è selezionato alcun argomento da pubblicare. L&#39;icona di avviso scompare quando si selezionano uno o più argomenti.
+
+>[!NOTE]
+>
+> Questa funzionalità è stata introdotta nella versione 2026.11.0 di Adobe Experience Manager Guides as Cloud Service. La funzione è disabilitata per impostazione predefinita. Per abilitarlo, contatta il team Customer Success. Per ulteriori informazioni sui miglioramenti apportati alla pubblicazione di Salesforce nella versione 2026.11.0, visualizza [Pubblicazione avanzata di Salesforce tramite elaborazione back-end](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 Le opzioni di configurazione cambiano in base alla destinazione selezionata.
@@ -114,6 +125,9 @@ Le seguenti opzioni di configurazione sono visualizzate per **ServiceNow** come 
 | Profilo di pubblicazione | Utilizza il menu a discesa per selezionare dai profili di connessione ServiceNow configurati dall’amministratore. Per ulteriori informazioni su come l&#39;amministratore può creare un profilo di pubblicazione, visualizzare la descrizione della funzionalità **Impostazioni Workspace** (come **Impostazioni** per **Configurazione locale precedente alla versione 5.2**) nella sezione [Pannello sinistro](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilizzare questo campo per selezionare la Knowledge Base ServiceNow richiesta. È possibile configurare le knowledge base nel sito ServiceNow per archiviare il contenuto in base alle autorizzazioni. Gli articoli di questa mappa DITA possono essere pubblicati in queste knowledge base. |
 | Categoria e sottocategoria | Le categorie sono simili agli alberi gerarchici utilizzati per trovare e classificare gli articoli della Knowledge Base di ServiceNow. Aggiungere una categoria e una sottocategoria per pubblicare gli argomenti e i sottoargomenti del sommario in tale categoria e sottocategoria sul sito ServiceNow. |
+| Carica immagini | Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti. |
+| Carica documenti collegati | Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti. |
+| Rimuovi elementi dal corpo dell&#39;articolo | Digitare il nome di un elemento, ad esempio `prolog` o `shortdesc`, e premere **Invio** per aggiungerlo all&#39;elenco. Qualsiasi elemento aggiunto viene escluso dal corpo dell’articolo nell’output pubblicato. Per impostazione predefinita, l&#39;elenco include **titolo**, pertanto l&#39;intestazione dell&#39;argomento è nascosta dal corpo dell&#39;articolo. Selezionare l&#39;icona `x` accanto a **titolo** per rimuoverlo dall&#39;elenco se si desidera includere l&#39;intestazione dell&#39;argomento o aggiungere altri elementi da escludere. <br><br>**Nota**: immettere il nome esatto della classe dell&#39;elemento DITA così come viene visualizzato nel HTML trasformato nella visualizzazione del codice sorgente dell&#39;articolo ServiceNow. Affinché l’esclusione diventi effettiva, il nome della classe deve corrispondere a un elemento riconosciuto. Se il nome immesso non corrisponde a un elemento riconosciuto, verrà ignorato e l&#39;elemento rimarrà nell&#39;articolo pubblicato. |
 
 **Salesforce**
 
@@ -125,17 +139,11 @@ Le seguenti opzioni di configurazione vengono visualizzate per **Salesforce** co
 | Tipo di record | Utilizza il menu a discesa per selezionare tra i tipi di record impostati in Salesforce in base alle impostazioni di visibilità basate sul profilo utente. I tipi di record di Salesforce consentono di raggruppare più record di un tipo per l&#39;oggetto. Definiscono la modalità di organizzazione della pubblicazione. Ad esempio, puoi selezionare FAQ Tipo di record e pubblicare in base al layout e ai campi della pagina FAQ. |
 | Campo contenuto articolo | È possibile avere campi diversi e un layout univoco per ogni modello di tipo di record. Utilizzare questi campi per immettere informazioni specifiche in base al tipo di articolo. Ad esempio, puoi visualizzare il titolo, la risposta e l’equazione di un articolo di domande frequenti. |
 | Categorie | Seleziona una categoria dal menu a discesa per pubblicare gli argomenti del sommario in quella categoria sul sito Salesforce. |
-
-**Altre opzioni**
-
-È inoltre possibile visualizzare le seguenti opzioni nei predefiniti di Salesforce e ServiceNow:
-
-| Opzioni | Descrizione |
-| --- | --- |
 | Rimuovi l&#39;intestazione dell&#39;argomento dal corpo dell&#39;articolo. | Selezionare questa opzione per rimuovere l&#39;intestazione dell&#39;argomento dall&#39;articolo nell&#39;output pubblicato. |
 | Carica come bozza | Seleziona questa opzione per caricare l’argomento e condividerlo come bozza prima di renderlo disponibile agli utenti. |
 | Carica immagini | Selezionare questa opzione se si desidera includere nell&#39;output pubblicato tutte le immagini contenute negli argomenti. |
 | Carica documenti collegati | Selezionare questa opzione per includere nell&#39;output pubblicato i documenti collegati agli argomenti. |
+
 
 
 

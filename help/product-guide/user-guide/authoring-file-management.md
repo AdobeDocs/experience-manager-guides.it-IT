@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3598'
 ht-degree: 0%
 ---
 # Gestione di file e cartelle {#id2116G0L08XA}
@@ -321,22 +321,73 @@ Se le autorizzazioni di eliminazione sono assegnate a un gruppo di utenti specif
 
 In questo scenario, agli utenti non sarà consentito eliminare i file finché non saranno stati rimossi tutti i riferimenti in entrata e in uscita.
 
-## Utilizzare i file multimediali
+## Utilizzare file multimediali e altri file non DITA
 
-I file multimediali come immagini e video sono parte integrante del contenuto. Durante il caricamento e la gestione dei contenuti, è possibile utilizzare anche i file multimediali.
+I file non DITA, ad esempio immagini, file multimediali, file ZIP, PDF e DOCX, sono parte integrante del contenuto. Durante il caricamento e la gestione dei contenuti, potrebbe essere necessario fare riferimento anche alle versioni precedenti di questi file.
 
-Se il file multimediale è stato modificato, è possibile trovare e visualizzare in anteprima i file nella **Cronologia versioni**.Per visualizzare le modifiche apportate alle diverse versioni di un file multimediale:
+Adobe Experience Manager Guides consente di visualizzare in anteprima i file non DITA, visualizzarne la cronologia delle versioni e gestire le etichette di versione. Puoi utilizzare le etichette di versione per identificare versioni specifiche dei file per le versioni di contenuto e la gestione delle linee di base.
+
+È possibile gestire le versioni dei file non DITA tramite l&#39;interfaccia utente di Assets o direttamente dall&#39;editor.
+
+### Utilizzo dell’editor
+
+Puoi aprire i file non DITA direttamente nell’editor per visualizzarne l’anteprima del contenuto e gestirne le versioni senza passare all’interfaccia utente di Assets.
+
+>[!NOTE]
+>
+> I file non DITA come immagini, file multimediali, file ZIP, PDF e DOCX vengono aperti in modalità non modificabile nell&#39;editor. Puoi visualizzarne le versioni e gestirne le etichette di versione, ma non puoi modificarne il contenuto direttamente dall’editor.
+
+
+Per visualizzare e gestire la cronologia delle versioni e le etichette di un file non DITA, effettuare le operazioni riportate di seguito.
+
+1. Aprire **Editor** e passare al file non DITA richiesto in Esplora risorse.
+2. Fare doppio clic sul file per aprirlo nell&#39;editor.
+
+   Il file viene aperto in una nuova scheda e ne viene visualizzata l&#39;anteprima.
+
+   >[!NOTE]
+   >
+   > Per i file che non possono essere sottoposti a rendering, nell&#39;editor viene visualizzata una miniatura o una rappresentazione disponibile. Se un’anteprima non è disponibile, viene visualizzato un messaggio segnaposto appropriato.
+
+   Le informazioni sulla versione corrente del file selezionato vengono visualizzate nella [Barra degli strumenti](./web-editor-toolbar.md).
+
+   ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
+
+3. Seleziona il menu a discesa **Menu** dalla barra degli strumenti e scegli una delle seguenti opzioni:
+
+   - **Cronologia versioni**: apre la finestra di dialogo Cronologia versioni, in cui è possibile visualizzare le versioni disponibili del file, insieme alle etichette e ai commenti associati. Puoi confrontare le versioni e ripristinare una versione precedente.
+
+   - **Etichetta versione**: apre la finestra di dialogo Etichetta versione, in cui è possibile selezionare una versione dal menu a discesa e visualizzarne le etichette associate. Puoi aggiungere o aggiornare le etichette di versione utilizzando le opzioni disponibili. La finestra di dialogo visualizza anche un’anteprima della versione del file selezionata, se disponibile.
+
+   Per ulteriori informazioni, vedere le sezioni Cronologia versioni ed Etichette versioni nella [Barra degli strumenti nell&#39;Editor](./web-editor-toolbar.md#menu-dropdown).
+
+4. Apporta le modifiche necessarie alle etichette di versione o controlla le informazioni sulla versione.
+
+### Utilizzo dell’interfaccia utente di Assets
+
+Per visualizzare la cronologia delle versioni di un file non DITA, effettuare le seguenti operazioni:
 
 1. Accedi al file nell&#39;**interfaccia utente di Assets**.
 1. Selezionare il file per il quale si desidera visualizzare la cronologia delle versioni.
 1. Nella barra a sinistra, seleziona **Cronologia versioni** e quindi una versione.
 1. In Cronologia versioni è inoltre possibile visualizzare le miniature delle diverse versioni.
 
+   Ad esempio, l’opzione di gestione delle versioni disponibile per un file di immagine viene visualizzata come segue:
+
    ![](images/media-version-history-icon.png){align="center"}
+
+   Analogamente, l’opzione di gestione delle versioni per un file PDF viene visualizzata come segue:
+
+   ![](images/pdf-version-management.png){align="center"}
 
 1. Tra le versioni elencate, selezionare quella che si desidera utilizzare come versione di base e selezionare **Anteprima versione**. L&#39;anteprima della versione selezionata viene visualizzata nella finestra Anteprima versione.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
+È inoltre possibile gestire le etichette di versione del file dal pannello Cronologia versioni.
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+
+
+
+
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

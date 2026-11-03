@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -74,4 +74,4 @@ Per aggiungere la configurazione IMS all’ambiente, effettua le seguenti operaz
 
 Una volta completata la configurazione per l’ambiente, contatta il team Customer Success per abilitare la modalità Agentic.
 
-Con la modalità Agentic abilitata per il tuo ambiente, passa a **Impostazioni Workspace** e abilita l&#39;opzione **Agentic** nella scheda **General** della sezione **Assistente AI**.
+Con la modalità Agentic abilitata per il tuo ambiente, passa a **Impostazioni Workspace** e abilita l&#39;opzione **Agentic** nella scheda **General** della sezione **Funzioni AI**. Per ulteriori dettagli, visualizzare [Impostazioni Workspace](../install-conf-guide/workspace-settings.md).

@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ Le sezioni seguenti descrivono in che modo ciascuna di queste impostazioni si ap
 - **Aggiungi o duplica**: il nuovo file viene visualizzato nella parte superiore della cartella.
 - **Sposta**: lo spostamento tra cartelle non correlate aggiorna la cartella di origine al primo batch di risorse e aggiunge l&#39;elemento nella parte superiore della destinazione (caricando il primo batch di risorse della destinazione se non era già aperto).
 - **Aggiorna**: un nuovo pulsante di aggiornamento nell&#39;intestazione del pannello Esplora risorse ricarica il livello principale, mostrando il primo batch di risorse.
+- **Ordinamento**: utilizzare il pulsante Ordina nella parte superiore del pannello Esplora risorse per cambiare l&#39;ordine dei file e delle cartelle tra crescente (impostazione predefinita) e decrescente. I file e le cartelle nel pannello Esplora risorse sono ordinati in base al nome visualizzato, che dipende dalla **configurazione di visualizzazione dei file dell&#39;editor** in [Preferenze utente](./intro-home-page.md#user-preferences). Se è impostato su Titolo, i file e le cartelle vengono ordinati in base al titolo. Se è impostato su Nome file, vengono ordinati in base al nome file.
+
+  ![ordinamento di explorer](images/explorer-sorting.png){width="350"}
 
 ### Pannello di ricerca
 

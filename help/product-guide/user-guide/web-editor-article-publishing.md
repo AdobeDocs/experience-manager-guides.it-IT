@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '754'
 ht-degree: 0%
 ---
 # Genera output Knowledge Base {#id218CL05J0M1}
@@ -46,13 +46,16 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
 
 1. [Creare il predefinito della Knowledge Base](./generate-output-knowledge-base.md) per l&#39;output basato su articoli.
 1. Passa alla scheda **Articoli** e seleziona gli argomenti per i quali desideri generare l&#39;output.
-1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 
    ![](images/add-preset-articles-tab_cs.png)
 
+   >[!NOTE]
+   >
+   > Quando si pubblica in Salesforce, accanto alla scheda **Articoli** viene visualizzata un&#39;icona di avviso se non è selezionato alcun argomento da pubblicare. L&#39;icona di avviso scompare quando si selezionano uno o più argomenti.
+1. Seleziona **Genera output** nella parte superiore per generare l&#39;output.
 1. Nel prompt **Conferma file per la pubblicazione**, selezionare i file da pubblicare e confermare selezionando **Pubblica**.
 
-   ![Nuovo &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Nuovo ](images/knowledge-base-confirm-files-for-publishing.png)
 
    Viene visualizzato lo stato del processo di generazione dell&#39;output. Nella colonna **Argomenti** sono elencati gli argomenti per i quali viene generato l&#39;output mentre nella colonna **Stato** è visualizzato lo stato di pubblicazione di ciascun argomento.
 
@@ -66,5 +69,48 @@ Per generare un output basato su articoli, effettua le seguenti operazioni:
    >
    > È inoltre possibile rinominare, duplicare o eliminare un predefinito di output esistente dal menu Opzioni.
 
+## Pubblicazione avanzata di Salesforce tramite elaborazione back-end
 
-**Argomento padre:**&#x200B;[&#x200B; Utilizzare l&#39;editor](web-editor.md)
+A partire dalla versione 2026.11.0 di Experience Manager Guides as Cloud Service, è disponibile un’esperienza di pubblicazione su Salesforce migliorata. Utilizza l’elaborazione back-end per supportare processi di pubblicazione più ampi, migliorare la sicurezza e risolvere i problemi con il processo di pubblicazione esistente.
+
+>[!NOTE]
+>
+> L’esperienza di pubblicazione avanzata di Salesforce è disabilitata per impostazione predefinita. Per abilitarlo, contatta il team Customer Success di Adobe.
+
+Quando pubblichi articoli in Salesforce utilizzando l’esperienza avanzata, sono disponibili le seguenti funzionalità aggiuntive:
+
+- **Avviso per argomenti non selezionati**: nella scheda **Articoli** del predefinito di output della Knowledge Base di Salesforce viene visualizzato un indicatore di avviso quando non è selezionato alcun argomento da pubblicare. L&#39;avviso scompare quando si selezionano uno o più argomenti.
+
+  ![](./images/articles-tab-salesforce-kb.png)
+- **Stato pubblicazione a livello di articolo**: dopo la generazione dell&#39;output, lo stato di pubblicazione di ciascun articolo, ad esempio Completato o Non riuscito, insieme al relativo argomento o nome di file viene visualizzato nella finestra di dialogo **Risultati pubblicazione Saleforce**.
+
+  ![](./images/salesforce-publish-results-dialog.png)
+
+- **Registri di pubblicazione**: utilizzare l&#39;opzione **Visualizza registro** nel predefinito di output della Knowledge Base di Salesforce per esaminare i registri di pubblicazione e risolvere eventuali errori o avvisi.
+
+  ![](./images/salesforce-kb-view-log-option.png)
+
+  I registri forniscono anche un riepilogo dei risultati di pubblicazione.
+
+  ![](./images/download-log-sf.png)
+- **Cronologia output**: visualizza la cronologia di output delle attività di pubblicazione dalla **console mappa** o dalla **interfaccia utente di Assets**.
+
+  Per ulteriori informazioni sulla gestione delle attività di pubblicazione, visualizzare [Gestisci processo di generazione output](./generate-output-manage-process.md).
+
+  ![](./images/salesforce-publishing-output-history-panel.png)
+- **Pubblicazione ottimizzata delle risorse:** Quando si pubblicano argomenti in Salesforce, Experience Manager Guides controlla se le risorse a cui si fa riferimento, ad esempio file multimediali e altri file non DITA, sono state modificate dopo l&#39;ultima pubblicazione. Solo le risorse modificate vengono pubblicate nuovamente, mentre le risorse non modificate vengono ignorate. Questo riduce gli aggiornamenti ridondanti delle risorse e migliora l’efficienza di pubblicazione.
+
+### PKCE e aggiornamento dell’autenticazione basata su token
+
+L’esperienza di pubblicazione avanzata di Salesforce supporta anche l’autenticazione basata su token di aggiornamento, riducendo la necessità di accedere ripetutamente a Salesforce da Experience Manager Guides alla scadenza dei token di accesso.
+
+>[!NOTE]
+>
+> Il supporto per i token di aggiornamento è disabilitato per impostazione predefinita. Per abilitarlo, contatta il team Customer Success di Adobe.
+
+Per utilizzare questa funzionalità, accertati che **Esegui richieste in qualsiasi momento (refresh_token, offline_access)** sia incluso negli ambiti OAuth selezionati e che **L&#39;estensione Require Proof Key for Code Exchange (PKCE) for Supported Authorization Flows** sia abilitata nell&#39;app connessa a Salesforce.
+
+L’abilitazione del supporto dei token di aggiornamento in Experience Manager Guides abilita automaticamente il supporto PKCE. Tuttavia, per il corretto funzionamento dell’autenticazione è necessario abilitare anche l’impostazione corrispondente in Salesforce.
+
+
+**Argomento padre:**[ Utilizzare l&#39;editor](web-editor.md)

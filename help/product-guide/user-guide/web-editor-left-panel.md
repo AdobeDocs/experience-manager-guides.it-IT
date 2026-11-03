@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Pannello sinistro nell’editor
@@ -202,7 +202,7 @@ Per filtrare i file e limitare la ricerca nell’archivio Adobe Experience Manag
 - **File DITA**: è possibile cercare tutti i **argomenti DITA** e le **mappe DITA** presenti nel percorso selezionato. Questi sono selezionati per impostazione predefinita.
 - **File non DITA**: è possibile cercare **File Ditaval**, **File immagine**, **File multimediali**, **Documenti** e **JSON** nel percorso selezionato.
 
-  ![filtro di ricerca rapida &#x200B;](images/repository-filter-search-quick.png) {width="300"}
+  ![filtro di ricerca rapida ](images/repository-filter-search-quick.png) {width="300"}
 
   *Utilizza i filtri rapidi per cercare file DITA e non DITA.*
 
@@ -859,7 +859,8 @@ Ad esempio, puoi creare gruppi di condizioni di prodotti come *Acrobat* e *AEM G
 
 >[!NOTE]
 >
-> Digitare per creare un nuovo gruppo o selezionare un gruppo esistente per un determinato attributo.
+> - Digitare per creare un nuovo gruppo o selezionare un gruppo esistente per un determinato attributo.
+> - Le condizioni nel pannello Condizioni sono ordinate alfabeticamente in base alla rispettiva etichetta anziché al relativo valore. L’ordine è determinato dalle etichette assegnate alle condizioni, indipendentemente dai loro valori corrispondenti.
 
 È possibile utilizzare `/` e definire sottogruppi come `AEM Guides/Cloud Service`.
 
@@ -1413,4 +1414,4 @@ Per visualizzare i commenti di revisione nelle attività di revisione attive pre
 
 </details>
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

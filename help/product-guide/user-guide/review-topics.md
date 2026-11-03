@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # Rivedi argomenti {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ Quando si visualizza un singolo argomento, viene visualizzata un&#39;opzione agg
 
 Nel pannello Commenti viene visualizzato un elenco di commenti relativi all&#39;argomento corrente. In questo pannello sono elencati anche i commenti di altri revisori, se l&#39;argomento viene inviato a più revisori. Ogni commento nel pannello dei commenti è collegato al testo corrispondente nell&#39;argomento corrente. Consente di identificare il testo commentato. Ogni commento visualizza il nome del revisore che lo ha aggiunto insieme alla marca temporale.
 
-I commenti vengono visualizzati nell&#39;ordine del testo commentato nel documento. Ad esempio, è presente un commento di evidenziazione sulla prima frase e un commento di testo di inserimento sulla seconda frase nel primo paragrafo, quindi il commento di testo di evidenziazione viene visualizzato prima del commento di testo inserito.
+>[!NOTE]
+>
+> L&#39;iniziatore della revisione può anche aggiungere commenti a un argomento per fornire ulteriore contesto o attirare l&#39;attenzione dei revisori su contenuti specifici. Questi commenti vengono visualizzati nel pannello **Commenti** insieme ai commenti di altri revisori. Per ulteriori dettagli, visualizzare [Aggiungi commenti per i revisori](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 Di seguito sono descritte le attività che è possibile eseguire utilizzando il pannello Commenti:
 
@@ -443,4 +446,4 @@ L&#39;icona **Cronologia versioni** dell&#39;argomento viene visualizzata dopo c
 
 ![](images/version-history-dialog.png)
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione alla revisione](review.md)
+**Argomento padre:**[ Introduzione alla revisione](review.md)

@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ In uno scenario reale, gli autori avrebbero accesso all’istanza di authoring d
 
 >[!NOTE]
 >
-> Per ulteriori dettagli su come impostare l&#39;istanza di authoring e pubblicazione in AEM, vedi [Panoramica sull&#39;architettura di authoring e pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=it#prerequisites).
+> Per ulteriori dettagli su come impostare l&#39;istanza di authoring e pubblicazione in AEM, vedi [Panoramica sull&#39;architettura di authoring e pubblicazione](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Con la funzione Bulk Activation di AEM Guides, puoi attivare in modo rapido e semplice il contenuto dall’istanza di authoring a quella di pubblicazione. La funzione di attivazione in blocco offre la flessibilità di:
 
@@ -63,4 +63,5 @@ Predefiniti di output JSON.
 - **[Eliminare una raccolta di mappe di attivazione in blocco](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)
+

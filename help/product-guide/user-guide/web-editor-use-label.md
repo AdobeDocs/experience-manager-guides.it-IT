@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Usa etichette {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides consente di aggiungere etichette a diverse versioni di un file. È possibile utilizzare queste etichette per specificare la versione da includere in una baseline per la pubblicazione. Per ulteriori informazioni sull&#39;utilizzo delle etichette per creare una previsione, vedere [Utilizzare la previsione](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides consente di aggiungere etichette a diverse versioni di un file. È possibile utilizzare le etichette di versione per specificare la versione di un argomento che si desidera includere in una [linea di base](./generate-output-use-baseline-for-publishing.md) per la pubblicazione e per [gestire le versioni di file non DITA](./authoring-file-management.md#work-with-media-and-other-non-dita-files), ad esempio immagini, file multimediali, PDF e file ZIP.
 
 Ad esempio, se si desidera utilizzare la *versione 1.0* di un argomento in *versione 1.0* e la *versione 1.1* dello stesso argomento in *versione 2.0*, è possibile aggiungere l&#39;etichetta *versione 1.0* alla *versione 1.0* e l&#39;etichetta *versione 2.0* alla *versione 1.1*.
 
@@ -104,4 +104,4 @@ Per eliminare un&#39;etichetta di versione da un argomento, utilizzare il pulsan
 ![](images/delete-labels.png){width="300"}
 
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione all&#39;editor](web-editor.md)
+**Argomento padre:**[ Introduzione all&#39;editor](web-editor.md)

@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # Utilizzare il motore PDF nativo v2
@@ -102,3 +102,4 @@ I seguenti problemi nell&#39;output di PDF generato con _Native PDF Engine v1_ s
 - L’ordine di lettura dei contenuti nell’output PDF nativo con le impostazioni di accessibilità abilitate non è corretto. I numeri di pagina dei piè di pagina vengono letti prima del contenuto principale anziché alla fine. (GUIDES-27790)
 - La barra dei colori nell&#39;output del PDF nativo non si estende per l&#39;intera larghezza della pagina e si sovrappone quando la dimensione della pagina viene personalizzata, causando la visualizzazione di alcune caselle di colore nascoste. (GUIDES-15505)
 - Il selettore `CSS:is()pseudo-class` non viene rispettato nell&#39;output PDF nativo, con conseguenti differenze di stile rispetto al rendering del browser. (GUIDES-11328)
+- Alcuni caratteri cinesi (semplificati) vengono riprodotti utilizzando un font giapponese nell’output PDF nativo, anche quando la lingua di output è impostata sul cinese (zh-CN). (GUIDES-48094)

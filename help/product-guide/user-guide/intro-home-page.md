@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Esperienza della pagina Home di Experience Manager Guides
@@ -46,7 +46,7 @@ La barra di navigazione mette in primo piano gli strumenti per passare da una na
 >
 > Se utilizzi Adobe Experience Manager Guides as a Cloud Service, nella barra di navigazione viene visualizzata una funzione aggiuntiva denominata **Assistente IA**.
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
 
@@ -60,12 +60,13 @@ Le funzioni disponibili nella barra di navigazione sono illustrate come segue:
   >
   > Per utilizzare la modalità Agentic della funzione di Assistente AI nell’ambiente, contatta il team Customer Success. Dopo l&#39;attivazione, gli amministratori possono attivarla o disattivarla dalle impostazioni di Workspace. È possibile abilitare una sola modalità di Assistente IA alla volta, ovvero Agente o Standard.
 
-  - **Agentic**: aggiunge all&#39;editor abilità di assegnazione tag avanzati intelligenti e dinamiche di Adobe CX Enterprise Coworker, consentendo l&#39;assegnazione di tag naturali e conversazionali ai contenuti. Analizza i contenuti, consiglia i tag rilevanti e ti aiuta ad applicare metadati coerenti e precisi con il minimo sforzo. Prima di confermare la selezione, puoi rivedere i tag suggeriti e scegliere di applicarli o rifiutarli. [Utilizzare l&#39;Assistente IA in modalità Agentic](../user-guide/ai-assistant-agentic.md) semplifica il processo di assegnazione dei tag, migliorando l&#39;organizzazione dei contenuti e la possibilità di individuazione.
+  - **Agente**: la modalità Agente nell&#39;Assistente di intelligenza artificiale consente di eseguire attività relative al contenuto tramite interazioni in linguaggio naturale. Puoi descrivere i tuoi requisiti nel pannello chat e AI Assistant pianifica ed esegue attività fornendo visibilità sul suo avanzamento. Supporta competenze quali l’importazione, che converte i file PDF, Word o Markdown dal dispositivo o dall’archivio dei contenuti in argomenti strutturati; la creazione, che genera nuovi argomenti in base alle tue esigenze e può fare riferimento a contenuti esistenti per il tono e lo stile; e l’assegnazione di tag avanzati, che consiglia tag pertinenti in base alla tassonomia della tua organizzazione per migliorare la coerenza dei metadati.
 
-  - **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzionalità di assistenza avanzata. Inoltre, quando lavori nell’interfaccia dell’editor, puoi sfruttare le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l’ottimizzazione dei contenuti.
+  - **Standard**: uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività attraverso le funzionalità di authoring intelligente di AI Assistant che rende il processo di authoring più intelligente e veloce attraverso suggerimenti intelligenti per il riutilizzo e l&#39;ottimizzazione dei contenuti.
 
   La funzionalità [Assistente AI](./ai-assistant.md) è attualmente disponibile solo per Adobe Experience Manager as a Cloud Service.
 
+- **Assistente Guida**: **Assistente Guida** in Experience Manager Guides è una funzionalità di ricerca conversazionale generativa basata sull&#39;intelligenza artificiale che consente di trovare informazioni sulle caratteristiche del prodotto, sui flussi di lavoro e sulla risoluzione dei problemi. Fornisce risposte pertinenti basate sulla documentazione di Experience Manager Guides, supporta le domande di follow-up e include collegamenti agli articoli sorgente per ulteriori riferimenti. Per ulteriori dettagli, visualizzare [Migliorare l&#39;efficienza con l&#39;Assistente](./ai-based-smart-help.md).
 - **Personalizza sezione panoramica**: consente di nascondere o visualizzare i widget nella sezione Widget.
 - **Profilo cartella in uso**: visualizza il profilo cartella attualmente in uso.
 - **Altre azioni**: consente di accedere a opzioni aggiuntive. Selezionando questo pulsante si apre un menu con le seguenti opzioni:
@@ -182,7 +183,7 @@ L’archivio funge da hub centralizzato per individuare facilmente cartelle e fi
 
 >[!NOTE]
 >
->Puoi utilizzare la nuova funzione Mappa raccolte in Adobe Experience Manager Guides as a Cloud Service a partire dalla versione 2026.08.0, che combina la gestione delle mappe e la pubblicazione in blocco in un’interfaccia unificata. Contatta il team di successo del cliente per abilitare questa funzione.Ulteriori informazioni su [utilizzo della nuova raccolta mappe.](./generate-output-use-new-map-collection-output-generation.md)
+>Puoi utilizzare la nuova funzione Mappa raccolte in Adobe Experience Manager Guides as a Cloud Service a partire dalla versione 2026.08.0, che combina la gestione delle mappe e la pubblicazione in blocco in un’interfaccia unificata. Contatta il team di successo del cliente per abilitare questa funzione. Ulteriori informazioni su [utilizzo della nuova raccolta mappe.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides consente di organizzare i contenuti per la pubblicazione utilizzando un dashboard denominato **Mappare le raccolte**. Per utilizzare questa funzione, seleziona **Mappa raccolte** dal pannello a sinistra. Viene visualizzata la pagina Mappa raccolte nell&#39;**interfaccia utente di Assets** in cui è possibile [utilizzare la raccolta mappe per la generazione dell&#39;output.](./generate-output-use-map-collection-output-generation.md)
 

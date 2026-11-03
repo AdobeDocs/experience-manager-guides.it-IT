@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # Introduzione alla revisione {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Alcune delle funzionalità principali offerte da Adobe Experience Manager Guides
 - Condividere una versione aggiornata dell&#39;argomento per la revisione dal dashboard di revisione.
 
 - Accedere ai commenti condivisi su diverse versioni dell&#39;argomento.
+- Aggiungere commenti ad argomenti per fornire contesto o attirare l&#39;attenzione dei revisori su contenuti specifici.
+
 - Assegna facilmente tag agli utenti di specifiche attività di revisione nei commenti o nelle risposte per azioni rapide e follow-up. Gli utenti taggati ricevono immediatamente una notifica sia tramite AEM che tramite la notifica e-mail.
 - Raggruppa e filtra i commenti in base alla versione dell&#39;argomento.
 

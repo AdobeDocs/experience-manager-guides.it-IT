@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # Genera output
@@ -76,6 +76,9 @@ Per visualizzare il log degli errori, selezionare **Ignora**, passare il puntato
 >
 > Se la mappa utilizza un file DITAVAL, tutte le immagini contrassegnate a cui si fa riferimento nel file DITAVAL vengono copiate in una posizione correlata alla mappa pubblicata nell&#39;output.  Inoltre, se si utilizzano più file DITAVAL per filtrare all&#39;interno della stessa mappa, assicurarsi di utilizzare nomi di file univoci `.ditaval` per evitare problemi di nomi di file duplicati durante la pubblicazione.
 
+È possibile visualizzare lo stato corrente della richiesta di generazione output nella scheda **Cronologia output**. Per ulteriori informazioni, visualizzare [Visualizzare lo stato dell&#39;attività di generazione output](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Genera output per una mappa DITA dal dashboard Mappa
 
 Per generare l&#39;output per una mappa DITA mediante il dashboard Mappa, effettuare le operazioni riportate di seguito.
@@ -91,7 +94,7 @@ Per generare l&#39;output per una mappa DITA mediante il dashboard Mappa, effett
 1. Seleziona l&#39;icona **Genera** per avviare il processo di generazione dell&#39;output.
 
 
-Puoi visualizzare lo stato corrente della richiesta di generazione output nella scheda **Output**. Per ulteriori informazioni, visualizzare [Visualizzare lo stato dell&#39;attività di generazione output](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+Puoi visualizzare lo stato corrente della richiesta di generazione output nella scheda **Output**. Per ulteriori informazioni, visualizzare [Visualizzare lo stato dell&#39;attività di generazione output](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 >[!IMPORTANT]
 >
@@ -110,4 +113,4 @@ Per informazioni dettagliate sull&#39;utilizzo dell&#39;ID pubblico e dell&#39;I
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

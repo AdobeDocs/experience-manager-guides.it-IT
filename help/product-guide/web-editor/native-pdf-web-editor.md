@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 1%
 ---
 # Predefinito di uscita PDF nativa
@@ -132,7 +132,7 @@ Dai predefiniti di output, seleziona **PDF** > **Native-PDF** > **Metadati** per
 
 * **Fornisci file XMP**
 
-  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/it/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
+  Puoi anche compilare direttamente i campi di metadati importando il file [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Puoi scaricare un file XMP di esempio da qui.
 
   [Scarica](assets/SampleXMP.xmp)
 
@@ -262,8 +262,23 @@ Utilizza le seguenti opzioni per specificare impostazioni avanzate per l’union
 | **Includi modifiche traccia** | Seleziona questa opzione se desideri includere le revisioni nel PDF generato per una facile revisione e confronto. |
 | **Includi commenti bozza** | Selezionare questa opzione se si desidera includere i commenti bozza aggiunti negli argomenti DITA della mappa selezionata nel PDF generato. <br> **Nota**: se si abilita questa opzione, i commenti delle bozze non verranno visualizzati nell&#39;output. Un amministratore deve inoltre impostare la proprietà di visualizzazione dello stile di commento bozza su un valore visibile (ad esempio `block`, `inline-block`, `grid` e altro) nel modello di output utilizzato per la mappa. Per ulteriori dettagli, visualizzare [Visualizzare o nascondere i commenti alle bozze nell&#39;output PDF nativo](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Mantieni file temporanei** | Selezionare questa opzione se si desidera conservare i file HTML provvisori creati durante la generazione dell&#39;output PDF nativo. Successivamente puoi scaricare i file temporanei dopo aver generato l’output. I file scaricati includerebbero anche `system_config.xml` file che fornisce informazioni sull&#39;URL dell&#39;autore, sull&#39;URL locale e sull&#39;URL di pubblicazione. Questi URL sono configurati nelle impostazioni di esternalizzazione di AEM e si riflettono nel file `system_config.xml`. |
-| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/it/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformità PDF** | Si tratta dello standard al quale si intende salvare il PDF per garantirne la conformità. Seleziona dall’elenco a discesa per scegliere dall’elenco degli standard PDF disponibili. Per ulteriori dettagli sugli standard supportati, visualizzare [Informazioni sugli standard PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Proprietà file** | Seleziona i metadati da passare alla pubblicazione nativa di PDF. Nel menu a discesa sono elencate sia le proprietà personalizzate che quelle predefinite. Ad esempio, `dc:description`, `dc:language`, `dc:title` e `docstate` sono le proprietà predefinite, mentre è possibile avere `author` come proprietà personalizzata. Le proprietà dei metadati selezionate vengono passate al file PDF generato con PDF nativo. <br> Queste proprietà vengono selezionate dal file `metadataList` disponibile in:`/libs/fmdita/config/metadataList`. <br>Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`. |
+
+## Mappature di elementi DITA in HTML intermedio
+
+Durante la generazione di PDF nativi, il contenuto DITA viene trasformato in HTML intermedio prima che venga generato l&#39;output PDF. È possibile accedere a questi file intermedi abilitando l&#39;opzione **Mantieni file temporanei** nel predefinito di output PDF nativo.
+
+Come parte di questa trasformazione, alcuni elementi DITA possono essere mappati su diversi elementi HTML nel file intermedio `merged.html`. Queste mappature consentono di preservare il rendering in linea previsto nel PDF generato.
+
+Se utilizzi personalizzazioni o automazione che si basano sulla struttura dell’elemento HTML nei file intermedi, considera queste mappature durante l’elaborazione del HTML generato.
+
+Attualmente, la seguente mappatura di elementi DITA è applicabile nel file intermedio `merged.html`:
+
+| Elemento DITA | Elemento HTML | Descrizione |
+|----|----|-----|
+| `<option>` | `<span>` | Esegue il mapping dell&#39;elemento DITA `<option>` a un elemento HTML `<span>` per mantenere gli spazi circostanti nel PDF generato. |
+
 
 
 

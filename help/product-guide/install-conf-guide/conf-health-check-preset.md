@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # Creare e gestire i predefiniti di verifica stato
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 > Questa funzione è attivata per impostazione predefinita. Se preferisci non utilizzare questa funzione nel tuo ambiente, contatta il team Customer Success.
 
-In qualità di amministratore, è possibile configurare la funzione di verifica stato a livello di profilo di cartella in Experience Manager, che consente agli autori e ai publisher di eseguire controlli di integrità su una mappa DITA. Questo include il rilevamento precoce di problemi come collegamenti interrotti, ID duplicati e errori di convalida Schematron in una mappa prima della pubblicazione, invece di controllare ogni file singolarmente. I controlli eseguiti sono definiti da un predefinito di controllo di integrità, un insieme di regole che possono essere selezionate ed eseguite dagli autori e dagli editori.
+In qualità di amministratore, è possibile configurare la funzione di verifica stato a livello di profilo di cartella in Experience Manager, che consente agli autori e agli editori di eseguire controlli di integrità su una mappa DITA. Questo include il rilevamento precoce di problemi come collegamenti interrotti, ID duplicati e errori di convalida Schematron in una mappa prima della pubblicazione, invece di controllare ogni file singolarmente. I controlli eseguiti sono definiti da un predefinito di controllo di integrità, un insieme di regole che possono essere selezionate ed eseguite dagli autori e dagli editori.
 
-Questo articolo fornisce informazioni sulla creazione e la gestione dei predefiniti di verifica stato.
+La funzione di controllo dello stato è disponibile sia nel nuovo editor che nel vecchio editor.
 
 ## Creare un predefinito di verifica stato
 

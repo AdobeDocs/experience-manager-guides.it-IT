@@ -24,18 +24,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+source-git-commit: 082688d62ed871fa52947e5152df35575b622164
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '773'
 ht-degree: 0%
 ---
-# Assistente IA (Beta)
-
-L&#39;**Assistente AI** in Adobe Experience Manager Guides è uno strumento potente e basato sull&#39;intelligenza artificiale progettato per migliorare la produttività tramite le funzioni di smart help, authoring e assegnazione tag. In modalità **Standard**, riunisce due solide funzionalità di intelligenza artificiale: **Authoring** e **Guida** nell&#39;interfaccia di Experience Manager Guides, consentendo di creare contenuti e accedere alle informazioni dalla documentazione di Experience Manager Guides in modo più rapido ed efficiente. In modalità **Agente**, l&#39;Assistente AI offre invece **Applicazione di tag avanzati**, che consente di richiedere, tramite una finestra di messaggio di richiesta, i consigli sui tag per il contenuto e di applicarli in uno o più argomenti.
+# Assistente IA
 
 >[!NOTE]
 >
 > La funzione Assistente IA è attualmente disponibile per Adobe Experience Manager Guides as a Cloud Service.
+
+L’Assistente per l’intelligenza artificiale in Adobe Experience Manager Guides è uno strumento basato sull’intelligenza artificiale progettato per migliorare la produttività semplificando la creazione, la gestione e i flussi di lavoro di authoring dei contenuti. Offre due modalità: Agentic e Standard. In modalità **Agentic**, l&#39;Assistente AI consente di eseguire attività relative ai contenuti tramite interazioni in linguaggio naturale, con competenze quali importazione, creazione e assegnazione di tag avanzati per semplificare la creazione di contenuti, l&#39;organizzazione e la gestione dei metadati. In **modalità standard**, l&#39;Assistente AI fornisce assistenza per l&#39;authoring che consente di creare, perfezionare e gestire i contenuti in modo più efficiente.
 
 ## Modalità Assistente AI
 
@@ -43,43 +43,48 @@ L&#39;**Assistente AI** in Adobe Experience Manager Guides è uno strumento pote
 >
 >Per abilitare l’Assistente AI in modalità Agentic per il tuo ambiente, contatta il Customer Success Team.
 
-L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. Gli amministratori possono scegliere tra le due modalità dalla sezione **Assistente AI** della scheda **Generale** in **Impostazioni Workspace**. Il pannello Assistente AI rimane lo stesso in entrambe le modalità nell’editor, ma le funzionalità disponibili al suo interno differiscono:
+L&#39;Assistente IA è disponibile in due modalità: **Agentic** e **Standard**. Gli amministratori possono selezionare la modalità dalla sezione **Funzioni IA** della scheda **Generale** in **Impostazioni Workspace**. Il pannello Assistente IA nell’editor rimane lo stesso in entrambe le modalità, ma le funzionalità disponibili sono diverse:
 
-* La modalità **Agentic** utilizza l&#39;abilità **Tag avanzati** di Adobe CX Enterprise Coworker per analizzare il contenuto e consigliare tag rilevanti in base alla tassonomia della tua organizzazione.
-* La modalità **Standard** fornisce l&#39;esperienza dell&#39;Assistente di intelligenza artificiale esistente, con le schede **Help** e **Authoring** nel pannello dell&#39;Assistente di intelligenza artificiale.
+- **Modalità agente:** utilizza le abilità **Importa**, **Crea** e **Tag avanzati** per convertire i file in argomenti strutturati, creare la prima bozza di contenuto e consigliare tag rilevanti in base alla tassonomia della tua organizzazione.
+- **Modalità standard:** fornisce assistenza per l&#39;authoring basato sull&#39;intelligenza artificiale tramite azioni contestuali, quali il riutilizzo, la traduzione e i miglioramenti della qualità dei contenuti, per semplificare i flussi di lavoro di authoring.
 
 ## Modalità agente
 
-### Applicazione di tag avanzati
+>[!NOTE]
+>
+> Per utilizzare l’Assistente AI in modalità Agentic, l’organizzazione deve effettuare l’onboarding in Adobe CX Enterprise Coworker e disporre dei crediti disponibili. Una volta effettuato l’onboarding, contatta il team di successo del cliente per abilitare la funzione. Per informazioni dettagliate sulla configurazione, visualizzare [Configurare l&#39;Assistente di IA in modalità agente](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
-L’Assistente IA in modalità Agentic rende più semplice e veloce l’assegnazione di tag al contenuto tramite una finestra di prompt conversazionale. Utilizzando l’abilità di assegnazione tag avanzata per gli agenti di Adobe CX Enterprise Coworker, l’Assistente AI consiglia tag rilevanti per il contenuto quando glielo chiedi. Per mantenere il controllo, rivedi i tag suggeriti e scegli di applicarli a uno o più argomenti, inclusi più argomenti all’interno di una mappa.
+La modalità Agentic nell’Assistente AI consente di eseguire un’ampia gamma di attività relative ai contenuti attraverso interazioni in linguaggio naturale, come la creazione e l’importazione di contenuti, il riepilogo degli argomenti, l’aggiunta di argomenti alle mappe e la gestione dei metadati. Puoi descrivere i tuoi requisiti nel pannello chat e AI Assistant pianifica ed esegue le attività fornendo visibilità sul loro avanzamento. La modalità Agentic consente di accedere rapidamente alle seguenti competenze:
 
-Per ulteriori dettagli, visualizzare [Introduzione all&#39;Assistente di IA per l&#39;analisi dei dati](./ai-assistant-agentic.md).
+- **Importa**: converte i file PDF, Word o Markdown dal dispositivo o dall&#39;archivio dei contenuti in argomenti strutturati. Per ulteriori dettagli, visualizza [Importa contenuto con l&#39;Assistente di IA](./import-ai-assistant.md).
 
-![assegnazione tag avanzati assistente ai](./images/suggested-prompts.png)
+- **Crea**: genera argomenti e mappe bozza da materiali di input quali specifiche, immagini di lavagna, schermate e altro contenuto di riferimento, con la possibilità di utilizzare il contenuto esistente per il tono e lo stile. Per ulteriori dettagli, visualizzare [Crea contenuto con Assistente IA](./create-ai-assistant.md).
+
+- **Applicazione di tag avanzati**: consiglia tag rilevanti per gli argomenti in base alla tassonomia dell&#39;organizzazione per migliorare la coerenza dei metadati. Per ulteriori dettagli, visualizza [Applicazione di tag avanzati con l&#39;Assistente AI](./ai-assistant-agentic.md).
+
+I seguenti componenti del pannello Assistente IA consentono di aggiungere contenuto, immettere prompt e avviare attività:
+
+![assegnazione tag avanzati assistente ai](./images/panel-new-agentic.png)
+
+- **(A)** Cronologia conversazioni: visualizza e riapre le conversazioni precedenti per esaminare le richieste e le risposte precedenti.
+- **(B)** Schermo intero: espande il pannello dell&#39;Assistente AI a schermo intero.
+- **(C)** Spazio del prompt: immettere una richiesta di prompt oppure digitare `/` per aggiungere file e generare tag.
+- **(D)** Allega file o aggiungi contesto: aggiunge argomenti, mappe o file dal sistema locale per fornire il contenuto con cui funziona l&#39;Assistente IA.
+- **(E)** Invia: invia la richiesta e il contenuto allegato all&#39;Assistente IA.
+- **(F)** Azioni rapide: Avvia un&#39;attività direttamente da uno dei seguenti collegamenti: **Importa**, **Crea** o **Tag**.
 
 ## Modalità standard
 
-### Authoring
+La modalità standard rende il processo di authoring più intelligente e veloce. Quando selezioni il testo nell’Editor, l’Assistente AI offre azioni rapide, ad esempio la generazione di suggerimenti intelligenti per il riutilizzo dei contenuti, la traduzione dei contenuti, il miglioramento della qualità dei contenuti e altro ancora, tutto in base al contenuto selezionato. Questo migliora l’esperienza complessiva di authoring e la produttività degli autori.
 
-Quando l&#39;Assistente IA è configurato in modalità **Standard**, la funzionalità **Authoring** dell&#39;Assistente AI rende il processo di authoring più intelligente e veloce. Offre funzionalità quali la generazione di suggerimenti intelligenti per il riutilizzo dei contenuti, la traduzione dei contenuti, il miglioramento della qualità dei contenuti e altro ancora, tutto in base al contenuto selezionato. Questa funzione migliora l’esperienza complessiva di authoring e la produttività degli autori.
-
-Per ulteriori dettagli, visualizzare [Authoring](./ai-assistant-right-panel.md).
+Per ulteriori dettagli, visualizzare [Documenti di authoring con Assistente AI](./ai-assistant-right-panel.md).
 
 ![assistente ai](./images/ai-assistant-panel.png)
 
-### Aiuto
 
-Quando l&#39;Assistente IA è configurato in modalità **Standard**, la funzionalità **Guida** offre un&#39;esperienza intuitiva basata su chat che consente di comprendere Experience Manager Guides, risolvere i problemi e trovare informazioni nella documentazione di Adobe Experience Manager Guides. Anziché eseguire ricerche nelle guide utente e nei documenti di riferimento, è possibile utilizzare la funzionalità **Guida** per trovare rapidamente risposte pertinenti alle query. Ciò consente di risparmiare tempo e di concentrarsi sulla creazione dei contenuti, con conseguente aumento della produttività e dell&#39;efficienza.
+## Introduzione all’Assistente IA
 
-Per ulteriori dettagli, visualizzare la [Guida](./ai-based-smart-help.md).
-
-
-![Pannello Guida avanzato](images/smart-help-panel.png)
-
-## Introduzione all’Assistente IA in modalità Standard
-
-Quando si utilizza **Assistente IA** in modalità Standard per la prima volta, viene richiesto di inviare il consenso prima di utilizzare le funzionalità di IA generativa di Experience Manager Guides.
+Quando si utilizza **Assistente IA** per la prima volta, viene richiesto di inviare il consenso prima di utilizzare le funzionalità di IA generativa di Experience Manager Guides.
 
 Per avviare l’Assistente IA, effettua le seguenti operazioni:
 
@@ -87,10 +92,11 @@ Per avviare l’Assistente IA, effettua le seguenti operazioni:
 1. Nella home page, selezionare **Assistente AI** dall&#39;alto. Assicurati che l’amministratore abbia abilitato la funzione Assistente AI nella modalità desiderata.
 
 L&#39;Assistente AI visualizza le funzionalità chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
-
-![Pannello Guida avanzato](images/get-started-ai.png)
-
 Leggere attentamente le linee guida per l&#39;utente, quindi selezionare **Inizia** per avviare l&#39;Assistente IA.
+
+>[!NOTE]
+>
+>Se si è già acconsentito alle linee guida per l&#39;utilizzo della funzione Assistente risorse, non verrà richiesto nuovamente il consenso e sarà possibile continuare a utilizzare la funzione Assistente risorse di intelligenza artificiale.
 
 **Argomenti correlati**
 

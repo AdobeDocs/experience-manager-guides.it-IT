@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Progettare un layout di pagina {#design-page-layout}
@@ -481,6 +481,60 @@ Se desideri lavorare direttamente con il codice CSS e HTML, puoi ottenere questo
 </p>
 …
 ```
+
+### Aggiungere un’immagine dai metadati della mappa
+
+Se utilizzi lo stesso modello per pubblicare più mappe, puoi visualizzare un’immagine diversa per ogni mappa anziché un’immagine statica dalle risorse del modello. Ad esempio, se i prodotti condividono un modello e differiscono solo nell&#39;immagine di copertina, potete aggiungere un segnaposto immagine al layout della pagina di copertina. Quando si pubblica una mappa, il segnaposto viene sostituito con l&#39;immagine definita nei metadati della mappa. La mappa di pubblicazione 1 mostra l’immagine definita nella mappa 1 e la mappa di pubblicazione 2 mostra l’immagine definita nella mappa 2. Se non è possibile risolvere un&#39;immagine, viene visualizzato il testo segnaposto specificato.
+
+È possibile definire l&#39;immagine nell&#39;elemento `<bookmeta>` di una bookmap o nell&#39;elemento `<topicmeta>` di una mappa DITA. È supportato solo l&#39;elemento `<image>`. È possibile utilizzare tutti i formati di immagine supportati da Experience Manager Guides, inclusi GIF, JPG, BMP, PNG, SVG e TIFF.
+
+Per visualizzare un&#39;immagine da una mappa:
+
+1. Definite l&#39;immagine nella mappa, come mostrato negli esempi seguenti.
+
+   In un bookmap, aggiungere l&#39;immagine nell&#39;elemento `<bookmeta>`:
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   In una mappa DITA, aggiungere l&#39;immagine nell&#39;elemento `<topicmeta>`:
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >L&#39;elemento `<image>` deve avere un attributo `id`. `id` è obbligatorio e deve essere univoco per ogni immagine nella mappa.
+
+1. In **Modelli di output**, aprire il layout di pagina in cui si desidera aggiungere il segnaposto dell&#39;immagine, ad esempio il layout del frontespizio.
+
+1. Seleziona **Campi** dalle **Altre opzioni**.
+
+1. Nella scheda **Metadati**, selezionare **Aggiungi formato**.
+
+1. Specifica i dettagli seguenti:
+
+   1. In **Usa metadati da**, selezionare **Mappa contenuto**.
+   1. Immettere l&#39;XPath dell&#39;immagine o l&#39;XPath del relativo attributo `href`.
+   1. Immetti il formato desiderato.
+   1. Immettere il testo segnaposto da visualizzare se l&#39;immagine non è stata risolta.
+   1. Selezionare **OK**.
+
+1. (*Facoltativo*) Utilizza i **Fogli di stile** per applicare lo stile alle immagini. Gli stili CSS sono supportati per l’elemento immagine.
+
+1. Genera l’output PDF.
+
+>[!NOTE]
+>
+>Se aggiorni l’immagine nell’interfaccia utente di Assets, l’immagine aggiornata viene utilizzata la volta successiva che generi l’output PDF.
 
 ## Utilizzare l’area dei contenuti {#content-area}
 
