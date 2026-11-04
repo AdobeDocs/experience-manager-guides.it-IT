@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 5%
 ---
 # Documentazione di Experience Manager Guides
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 Authoring
 
-Editor web, integrazione di FrameMaker, contenuti riutilizzabili e cicli di revisione.
+Creare e modificare contenuti strutturati utilizzando le funzionalità di creazione Editor e DITA.
 
 [Creare i contenuti](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Editor web, integrazione di FrameMaker, contenuti riutilizzabili e cicli di revi
 
 Rivedere
 
-Rivedi gli argomenti, gestisci le attività di revisione e controlla le notifiche.
+Crea e gestisci attività di revisione, collabora ai feedback e invia commenti di revisione.
 
 [Introduzione alla revisione](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Rivedi gli argomenti, gestisci le attività di revisione e controlla le notifich
 
 Pubblicazione
 
-Tipi di output PDF, AEM Sites, HTML5, EPUB e JSON.
+Configura e genera l’output in AEM Sites, PDF, HTML5, EPUB, JSON e altri formati.
 
 [Pubblicare i contenuti](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ Tipi di output PDF, AEM Sites, HTML5, EPUB e JSON.
 
 Traduzione
 
-Flussi di lavoro di traduzione umana e automatica per contenuti multilingue.
+Traduci il contenuto utilizzando flussi di lavoro di traduzione umana o automatica e tieni traccia dello stato della traduzione.
 
 [Tradurre il contenuto](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ Flussi di lavoro di traduzione umana e automatica per contenuti multilingue.
 
 Rapporti
 
-Report con elenco argomenti, elementi multimediali, collegamenti interrotti e metadati.
+Valutare lo stato dei contenuti, gestire i metadati, identificare i collegamenti interrotti e analizzare il riutilizzo dei contenuti.
 
 [Generare rapporti](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ Report con elenco argomenti, elementi multimediali, collegamenti interrotti e me
 
 Configurazione
 
-Profili cartella, personalizzazione DITA-OT e modelli di output.
+Configura profili, modelli, attributi condizionali, predefiniti di output e impostazioni dell’editor.
 
 [Configurare i profili delle cartelle](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 ::::
 
 
-## Collegamenti rapidi
+## Risorse e aggiornamenti
 
 >[!BEGINSHADEBOX]
 
@@ -215,10 +215,10 @@ Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le dis
 
 Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla piattaforma.
 
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=it){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
