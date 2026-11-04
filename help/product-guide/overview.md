@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 6%
 ---
 # Documentazione di Experience Manager Guides
@@ -186,11 +186,11 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 
 Esplora le nuove funzionalità introdotte nell’ultima versione di Experience Manager Guides.
 
-- Applicazione di tag avanzati basati sull’intelligenza artificiale nell’Assistente di intelligenza artificiale
-- Contrassegna l&#39;argomento come completato in un&#39;attività di revisione
-- Miglioramenti dei contenuti di apprendimento
+- Diramazione e unione a livello di mappa
+- Creazione e importazione di contenuti in AI Assistant
+- Nuovo pannello dell’assistente della Guida
 
-[Esplora tutto](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[Esplora tutto](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -215,10 +215,10 @@ Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le dis
 
 Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla piattaforma.
 
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=it){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>

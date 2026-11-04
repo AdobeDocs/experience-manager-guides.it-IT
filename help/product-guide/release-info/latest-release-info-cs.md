@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 1669028ab8ab2319e0f59626ed810f0979d014a9
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 2%
 ---
 # Informazioni sulla versione di Adobe Experience Manager Guides as a Cloud Service
@@ -33,6 +33,7 @@ Questo articolo fornisce informazioni aggiornate sulla versione di Adobe Experie
 
 | Versione [!DNL AEM Guides] | Note sulla versione |
 |---|---|
+| **AEM Guides 2026.11.0** | [2026.11.0 Novità](./whats-new-2026-11-0.md)<br><br>[2026.11.0 Problemi risolti](./fixed-issues-2026-11-0.md)<br><br>[Istruzioni per l&#39;aggiornamento a 2026.11.0](./upgrade-instructions-2026-11-0.md) |
 | **AEM Guides 2026.09.0** | [2026.09.0 Novità](./whats-new-2026-09-0.md)<br><br>[2026.09.0 Problemi risolti](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 Istruzioni per l&#39;aggiornamento](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0 Novità](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Problemi risolti](./fixed-issues-2026-08-0.md)<br><br>[Istruzioni per l&#39;aggiornamento a 2026.08.0](./upgrade-instructions-2026-08-0.md) |
 | **AEM Guides 2026.07.0** | [2026.07.0 Sono stati risolti dei problemi](./fixed-issues-2026-07-0.md)<br><br>[Istruzioni per l&#39;aggiornamento di 2026.07.0](./upgrade-instructions-2026-07-0.md) |
