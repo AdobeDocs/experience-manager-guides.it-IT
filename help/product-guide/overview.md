@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 5%
 ---
 # Documentazione di Experience Manager Guides
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 Authoring
 
-Editor web, integrazione di FrameMaker, contenuti riutilizzabili e cicli di revisione.
+Creare e modificare contenuti strutturati utilizzando le funzionalità di creazione Editor e DITA.
 
 [Creare i contenuti](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Editor web, integrazione di FrameMaker, contenuti riutilizzabili e cicli di revi
 
 Rivedere
 
-Rivedi gli argomenti, gestisci le attività di revisione e controlla le notifiche.
+Crea e gestisci attività di revisione, collabora ai feedback e invia commenti di revisione.
 
 [Introduzione alla revisione](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Rivedi gli argomenti, gestisci le attività di revisione e controlla le notifich
 
 Pubblicazione
 
-Tipi di output PDF, AEM Sites, HTML5, EPUB e JSON.
+Configura e genera l’output in AEM Sites, PDF, HTML5, EPUB, JSON e altri formati.
 
 [Pubblicare i contenuti](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ Tipi di output PDF, AEM Sites, HTML5, EPUB e JSON.
 
 Traduzione
 
-Flussi di lavoro di traduzione umana e automatica per contenuti multilingue.
+Traduci il contenuto utilizzando flussi di lavoro di traduzione umana o automatica e tieni traccia dello stato della traduzione.
 
 [Tradurre il contenuto](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ Flussi di lavoro di traduzione umana e automatica per contenuti multilingue.
 
 Rapporti
 
-Report con elenco argomenti, elementi multimediali, collegamenti interrotti e metadati.
+Valutare lo stato dei contenuti, gestire i metadati, identificare i collegamenti interrotti e analizzare il riutilizzo dei contenuti.
 
 [Generare rapporti](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ Report con elenco argomenti, elementi multimediali, collegamenti interrotti e me
 
 Configurazione
 
-Profili cartella, personalizzazione DITA-OT e modelli di output.
+Configura profili, modelli, attributi condizionali, predefiniti di output e impostazioni dell’editor.
 
 [Configurare i profili delle cartelle](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 ::::
 
 
-## Collegamenti rapidi
+## Risorse e aggiornamenti
 
 >[!BEGINSHADEBOX]
 
@@ -184,7 +184,7 @@ Profili cartella, personalizzazione DITA-OT e modelli di output.
 
 **Novità di AEM Guides**
 
-Esplora le nuove funzionalità introdotte nell’ultima versione di Experience Manager Guides.
+Esplora le nuove funzioni migliorate introdotte nell’ultima versione di Experience Manager Guides, 2026.11.0.
 
 - Diramazione e unione a livello di mappa
 - Creazione e importazione di contenuti in AI Assistant
