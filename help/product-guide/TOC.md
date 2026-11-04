@@ -2,16 +2,15 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Leggi la documentazione sul prodotto Experience Manager Guides di Adobe.
 breadcrumb-title: Documentazione di AEM Guides
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b4ab0b62f5e4a863a7ae061fbd5f21330921b27d
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2701'
 ht-degree: 10%
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [Panoramica di [!DNL AEM Guides]](overview.md)
-- {hide-from-toc}[Pagina di destinazione di AEM Guides](aemg-documentation-overview.md)
 - [Dichiarazione di non responsabilità](./user-guide/rebranding-disclaimer.md)
 - Informazioni sulla versione {#release-info}
   - [Roadmap delle versioni di AEM Guides](./release-info/aem-guides-releases-roadmap.md)
@@ -228,7 +227,7 @@ ht-degree: 10%
     - [Informazioni su [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Funzionamento di [!DNL AEM Guides] e funzionalità chiave {#aemg-works-features}
       - [Come [!DNL AEM Guides]  funziona](./user-guide/intro-how-dxml-works.md)
-      - [Caratteristiche principali [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Caratteristiche principali [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Home page {#home-page}
     - [[!DNL AEM Guides] esperienza pagina iniziale](./user-guide/intro-home-page.md)
     - [Interfaccia archivio](./user-guide/home-page-repository-view.md)
@@ -448,7 +447,7 @@ ht-degree: 10%
     - Gestione delle prestazioni {#performance-management}
       - [Caricamento impaginato di file e cartelle](./user-guide/paginated-loading-assets.md)
 - Guida utente (vecchia interfaccia utente) {#user-guide-old-ui}
-  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Panoramica di AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installazione e configurazione {#install-conf-guide}
   - [Download, installazione e aggiornamento](./install-conf-guide/introduction.md)
   - Processo di installazione per Cloud Service {#deploy-conf-aemg-cs}
