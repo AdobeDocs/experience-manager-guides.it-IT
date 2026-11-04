@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Crea i token di accesso necessari per:
 
-- **Cloud Manager**, per convalidare e accedere all&#39;archivio. Ulteriori informazioni in [Aggiungere archivi esterni in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Cloud Manager**, per convalidare e accedere all&#39;archivio. Ulteriori informazioni in [Aggiungere archivi esterni in Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Profilo pubblicazione Experience Manager Guides**, per eseguire il commit dell&#39;output pubblicato. Crea un token di accesso al progetto GitLab con il ruolo **Sviluppatore** e l&#39;ambito `api`. Ulteriori informazioni sono disponibili nella [documentazione GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Rinnovare i token prima della scadenza. La pubblicazione non riesce se il token nel profilo di pubblicazione è scaduto. Per aggiornare un token utilizzato da Cloud Manager, visualizzare [Gestisci token di accesso per archivi esterni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Rinnovare i token prima della scadenza. La pubblicazione non riesce se il token nel profilo di pubblicazione è scaduto. Per aggiornare un token utilizzato da Cloud Manager, visualizzare [Gestisci token di accesso per archivi esterni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Aggiungere l’archivio GitLab a Cloud Manager
 
 In Cloud Manager, vai a **Archivi** > **Aggiungi archivio**, seleziona **Archivio privato** e convalida la proprietà utilizzando il token di accesso. Attendere che lo stato dell&#39;archivio sia **Pronto**. L’opzione BYOG è disponibile solo dopo che almeno un archivio esterno è pronto.
 
-Per i passaggi, visualizza [Aggiungi archivi esterni in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Per i passaggi, visualizza [Aggiungi archivi esterni in Cloud Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Generare una chiave API Cloud Manager
 
