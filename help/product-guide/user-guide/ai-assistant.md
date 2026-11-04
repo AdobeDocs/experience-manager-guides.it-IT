@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,13 +86,12 @@ Per avviare l’Assistente IA, effettua le seguenti operazioni:
 
 1. Accedi a Experience Manager Guides.
 1. Nella home page, selezionare **Assistente AI** dall&#39;alto. Assicurati che l’amministratore abbia abilitato la funzione Assistente AI nella modalità desiderata.
-
 L&#39;Assistente AI visualizza le funzionalità chiave, il collegamento alle linee guida utente e un pulsante **Inizia**.
-Leggere attentamente le linee guida per l&#39;utente, quindi selezionare **Inizia** per avviare l&#39;Assistente IA.
+1. Leggere attentamente le linee guida per l&#39;utente, quindi selezionare **Inizia** per avviare l&#39;Assistente IA.
 
 >[!NOTE]
 >
->Se si è già acconsentito alle linee guida per l&#39;utilizzo della funzione Assistente risorse, non verrà richiesto nuovamente il consenso e sarà possibile continuare a utilizzare la funzione Assistente risorse di intelligenza artificiale.
+>Se si è già acconsentito alle linee guida per l&#39;utilizzo della funzione Assistente di Guida, non verrà richiesto nuovamente il consenso e sarà possibile continuare a utilizzare la funzione Assistente di intelligenza artificiale.
 
 **Argomenti correlati**
 
