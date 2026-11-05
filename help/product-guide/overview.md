@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '353'
+ht-degree: 6%
 ---
 # Documentazione di Experience Manager Guides
 
@@ -120,6 +120,16 @@ Creare e modificare contenuti strutturati utilizzando le funzionalità di creazi
 :::
 
 :::card
+![Icona Assistente IA](../assets/ai-author.png)
+
+Assistente IA
+
+Accelera la creazione di contenuti, trova risposte e applica tag intelligenti con assistenza basata sull’intelligenza artificiale.
+
+[Assistente IA](./user-guide/ai-assistant.md)
+:::
+
+:::card
 ![Icona Revisione](../assets/review.png)
 
 Rivedere
@@ -157,16 +167,6 @@ Rapporti
 Valutare lo stato dei contenuti, gestire i metadati, identificare i collegamenti interrotti e analizzare il riutilizzo dei contenuti.
 
 [Generare rapporti](./user-guide/reports-intro.md)
-:::
-
-:::card
-![Icona configurazione](../assets/configure.png)
-
-Configurazione
-
-Configura profili, modelli, attributi condizionali, predefiniti di output e impostazioni dell’editor.
-
-[Configurare i profili delle cartelle](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
