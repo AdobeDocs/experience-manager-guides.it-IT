@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # Istruzioni per l’aggiornamento alla versione 5.1.0 Service Pack 4 (aprile 2026)
@@ -30,7 +30,7 @@ In questa sezione viene elencata la matrice di compatibilità per le applicazion
 | 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
 | 5.1.0 Service Pack 4 (UUID) | 6,5 | 23, 22, 21 |
 
-Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-guide/download-install-technical-requirements.md) nella Guida all&#39;installazione e alla configurazione on-premise.
+Per ulteriori dettagli, consulta la sezione [Requisiti tecnici](../install-conf-guide/aemg-technical-requirements.md) nella Guida all&#39;installazione e alla configurazione on-premise.
 
 ### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
@@ -68,14 +68,14 @@ Puoi aggiornare facilmente la versione corrente di Experience Manager Guides all
 
 >[!NOTE]
 >
-> Se sei attualmente in AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, visualizza [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/it/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Se sei attualmente in AEM 6.5 e prevedi di passare ad AEM 6.5 LTS, visualizza [Aggiornamento a Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Prima di procedere con l&#39;aggiornamento alla versione 5.1.0 Service Pack 4 di Experience Manager Guides, è necessario considerare i seguenti punti:
 
 - Se utilizzi la versione 5.1.0 o 5.1.x, puoi eseguire direttamente l’aggiornamento alla versione 5.1.0 Service Pack 4.
 - Se utilizzi le versioni 4.6.0, 4.6.x, 5.0.0 o 5.0.x, devi effettuare l’aggiornamento alla versione 5.1.0.
 - Se utilizzi le versioni 4.6.3, 4.6.1, 4.6 o 4.4 di, devi effettuare l’aggiornamento alla versione 5.0.0.
-- Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi effettuare l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
+- Se utilizzi le versioni 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 o 4.1.x, devi eseguire l’aggiornamento alla versione 4.4 prima di eseguire l’aggiornamento alla versione 5.0.0.
 - Se utilizzi la versione 4.0, devi effettuare l’aggiornamento alla versione 4.2 prima di passare alla versione 4.3.x.
 - Se utilizzi la versione 3.8.5, devi effettuare l’aggiornamento alla versione 4.0 prima di passare alla versione 4.2.
 - Se utilizzi una versione precedente alla 3.8.5, consulta la sezione Aggiornamento di Experience Manager Guides nella guida all&#39;installazione specifica per il prodotto, disponibile in [Adobe Experience Manager Guides help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).

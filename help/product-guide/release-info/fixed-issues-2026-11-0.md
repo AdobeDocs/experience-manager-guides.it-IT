@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione | Problemi risolti in Adobe Experience Manager Guides, versione 2026.11.0
 description: Scopri le correzioni di bug nella versione 2026.11.0 di Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f33da832def2bf2cc8caf46f3b6f8102bcfafb19
+source-git-commit: 0ebd3941a6ea5160c86e68a9ca6bdda50900a78d
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -102,12 +102,12 @@ Quando **Rileva modifiche** è attivato:
 
 - Nell&#39;output PDF nativo, la formattazione apice e pedice non viene mantenuta nelle voci indice. (GUIDES-58349)
 - Quando si utilizza lo stesso predefinito globale per generare output per mappe diverse, la selezione dell&#39;argomento della mappa precedente può influire sull&#39;output della nuova mappa. (GUIDES-58346)
-- Quando una mappa libro contiene un capitolo con un `href` valido e un riferimento ad argomento nidificato, la pubblicazione della mappa in AEM Sites genera una pagina vuota. (GUIDES-58266)
+- La pubblicazione di una mappa di libri a volte genera una pagina vuota quando, in uno scenario specifico, un `<chapter>` definisce contemporaneamente una destinazione diretta di `href` e tale capitolo contiene `<topicref>` elementi secondari nidificati. (GUIDES-58266)
 - Quando passi alla scheda **Cronologia output** da un predefinito con modifiche non salvate, i pulsanti **Salva** e **Genera output** rimangono visibili. (GUIDES-57989)
 - Quando un flusso di lavoro di post-pubblicazione è configurato per un predefinito, la durata di pubblicazione mostrata in **Cronologia output** non include il tempo impiegato dal flusso di lavoro. (GUIDES-57856)
 - Impossibile annullare la generazione dell&#39;output PDF nativo dalla pagina **Cronologia output**. (GUIDES-57821)
 
 ### Rivedere
 
-- L’apertura di un’attività di revisione creata nella versione 2026.08.0 o 2026.09.0 può causare errori dell’applicazione. (GUIDES-56583) <br>**Soluzione alternativa:** prima di eseguire l&#39;aggiornamento alla versione 2026.11.0, completa o chiude tutte le attività di revisione create in queste versioni.
+- L&#39;apertura di un&#39;attività di revisione creata nella versione 2026.08.0 o 2026.09.0 può talvolta causare un errore dell&#39;applicazione se il contenuto revisionato contiene *qualsiasi annotazione di revisione* insieme a spazi non di interruzione (`&nbsp;`). (GUIDES-56583) <br>**Soluzione alternativa:** Completare o chiudere tutte le attività di revisione create in queste versioni.
 
