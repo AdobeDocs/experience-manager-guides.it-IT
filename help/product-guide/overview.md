@@ -219,10 +219,10 @@ Scopri le ultime note sulla versione e gli aggiornamenti dei prodotti per le dis
 
 Accedi a risorse utili, documentazione e supporto per ottenere il massimo dalla piattaforma.
 
-* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Supporto](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutorial video](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Archivio GitHub](https://github.com/AdobeDocs/experience-manager-guides.it-IT){target="_blank"}
+* [Supporto](https://experienceleague.adobe.com/support/v2/en/?lang=it){target="_blank"}
+* [Tutorial video](https://experienceleague.adobe.com/it/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Community di AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=it){target="_blank"}
 
 </td>
 </tr>
