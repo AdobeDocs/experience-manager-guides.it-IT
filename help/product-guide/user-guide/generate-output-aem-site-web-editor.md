@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 7ff10bcfe560a12e048d9b21aa60ad2c7cb7d02b
 workflow-type: tm+mt
-source-wordcount: '3873'
+source-wordcount: '3971'
 ht-degree: 0%
 ---
 # Predefinito AEM Sites nella console Mappa
@@ -75,7 +75,7 @@ Per creare il predefinito AEM Sites utilizzando la mappatura di componenti compo
    Viene creato il predefinito per AEM Sites.
 
 
-   ![Nuovo &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nuovo ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -114,7 +114,7 @@ Nella console Mappa (Map), le opzioni di configurazione predefinite per la mappa
 - Elenco argomenti
 - Riferimenti a mappe incrociate
 
-![Nuovo &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Nuovo ](images/aem-sites-new-config.png){width="650"}
 
 **Generale**
 
@@ -123,8 +123,8 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
 | Usa percorso del sito | Utilizza questa opzione per pubblicare i contenuti in un sito Experience Manager. |
-| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato.<br><br>È inoltre possibile utilizzare le variabili durante l&#39;impostazione del percorso del sito. Per ulteriori dettagli, visualizzare [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./generate-output-use-variables.md) |
-| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito **&#x200B;**. Selezionare il modello da applicare alle home page delle mappe. |
+| Percorso sito | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Sfoglia il percorso predefinito del sito Experience Manager o specifica un percorso personalizzato in cui desideri pubblicare l’output. L&#39;opzione **Usa siti** consente di specificare l&#39;intero percorso di pubblicazione anche se il percorso specificato non è stato creato in precedenza all&#39;interno della struttura AEM Sites. In questi casi, il sistema crea la struttura necessaria durante il processo di pubblicazione utilizzando il modello di home page della mappa selezionato.<br><br>È inoltre possibile utilizzare le variabili durante l&#39;impostazione del percorso del sito. Per ulteriori dettagli, visualizzare [Utilizzare le variabili per impostare le opzioni Percorso di destinazione, Nome sito o Nome file](./generate-output-use-variables.md) |
+| Mappa modello pagina | **Questa opzione viene visualizzata se si seleziona** Usa opzione percorso sito ****. Selezionare il modello da applicare alle home page delle mappe. |
 | Sito | Nome del Experience Manager Sites in cui desideri pubblicare il contenuto. Le opzioni nel menu a discesa vengono compilate in base all’elenco dei siti disponibili in AEM Sites. <br>Seleziona **Aggiorna** ![Aggiorna icona](images/navtitle-refresh-icon.svg) per recuperare un nuovo elenco di opzioni e riflettere i dati aggiornati. |
 | Percorso di pubblicazione | Il percorso all’interno dell’archivio AEM in cui è memorizzato l’output. Il Percorso di pubblicazione viene compilato con tutti i percorsi che contengono pagine create in base al modello della home page. L&#39;output AEM Sites della mappa DITA viene generato in questo percorso.  Se ad esempio si specifica il sito come `AEMG-Docs` e il percorso di pubblicazione come `aemg-docs-en/docs/product-abc.`, l&#39;output di AEM Sites verrà generato nel nodo `aemg-docs-en/docs/product-abc/` in `crx/de`. |
 | Modello pagina argomento | Selezionare il modello da applicare a tutti gli argomenti di output. |
@@ -142,7 +142,7 @@ La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 
 | Opzioni AEM Sites | Descrizione |
 | --- | --- |
-| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
+| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Visualizza [Utilizza baseline](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli.<br>**Nota**: se si elimina una baseline utilizzata nel predefinito di output, il predefinito non viene aggiornato automaticamente. Prima di generare l&#39;output, effettuate le seguenti operazioni: <ul><li>**Se si elimina l&#39;unica previsione**: l&#39;opzione **Usa previsione** rimane attivata e l&#39;elenco a discesa appare vuoto. La generazione dell&#39;output in questo stato non riesce. Disattiva l’interruttore Usa linea di base e aggiorna la pagina, quindi genera l’output.</li><li>**Se sono presenti più baseline ed è stato eliminato quello selezionato**: l&#39;elenco a discesa **Usa baseline** continua a mostrare la baseline eliminata come selezionata. Seleziona una Baseline valida dal menu a discesa, quindi genera l’output.</li></ul> |
 | Filtro condizionale | Selezionare una delle opzioni seguenti:<br><br>**Nessuna**: selezionare questa opzione se non si desidera applicare alcuna condizione all&#39;output pubblicato.<br>**Utilizzo di DITAVAL**: selezionare i file DITAVal per generare contenuto condizionale. È possibile selezionare più file DITAVal utilizzando la finestra di dialogo Sfoglia o digitando il percorso del file. Utilizza l’icona a forma di croce accanto al nome del file per rimuoverlo. I file DITAVal vengono valutati nell&#39;ordine specificato, pertanto le condizioni specificate nel primo file hanno la precedenza rispetto a quelle specificate nei file successivi. È possibile mantenere l&#39;ordine dei file aggiungendo o eliminando file. Se il file DITAVal viene spostato in un&#39;altra posizione o eliminato, non viene eliminato automaticamente dal dashboard delle mappe. È necessario aggiornare il percorso nel caso in cui i file vengano spostati o eliminati. Passa il cursore del mouse sul nome del file per visualizzare il percorso nell’archivio AEM in cui è memorizzato il file. È possibile selezionare solo i file DITAVal e viene visualizzato un errore se si seleziona un altro tipo di file.<br>**Predefinito condizione**: seleziona un predefinito condizione dall&#39;elenco a discesa per applicare una condizione durante la pubblicazione dell&#39;output. Questa opzione è visibile se è stata aggiunta una condizione per il file di mapping DITA. Le impostazioni condizionali sono disponibili nella scheda Predefiniti condizione della console delle mappe DITA. Per ulteriori informazioni sul predefinito di condizione, visualizzare [Usa predefiniti di condizione](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Argomenti aggiuntivi della riga di comando DITA-OT | Specificare gli argomenti aggiuntivi che si desidera vengano elaborati da DITA-OT durante la generazione dell&#39;output. Per informazioni dettagliate sugli argomenti della riga di comando supportati in DITA-OT, visualizzare la [documentazione DITA-OT](https://www.dita-ot.org/). |
 | Metadati <br> <br>Proprietà file (Assets) | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: le proprietà dei metadati fanno distinzione tra maiuscole e minuscole.<br><br>*Se è stata selezionata una baseline, i valori delle proprietà si basano sulla versione della baseline selezionata.<br>* Se non è stata selezionata una baseline, i valori delle proprietà si basano sulla versione più recente.<br><br>È inoltre possibile trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Nota**: se non hai definito `cq:tags` nell&#39;opzione Proprietà, i valori per `cq:tags` vengono prelevati dalla copia di lavoro corrente anche se hai selezionato una linea di base per la pubblicazione. |
@@ -183,7 +183,7 @@ Nella console Mappa, le opzioni di configurazione predefinite per la mappatura d
 - Contenuto
 - Riferimenti a mappe incrociate
 
-![Nuovo &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nuovo ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Generale**
 
@@ -206,7 +206,7 @@ La scheda **Generale** contiene le seguenti opzioni di configurazione:
 
 **Contenuto**
 
-![Nuovo &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Nuovo ](images/aem-sites-content-tab.png){width="650"}
 
 La scheda **Contenuto** contiene le seguenti opzioni di configurazione:
 

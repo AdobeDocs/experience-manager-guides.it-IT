@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Rapporto mappa DITA dal dashboard delle mappe {#id205BB800EEN}
+
+>[!NOTE]
+>
+>A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
 
 Adobe Experience Manager Guides fornisce agli amministratori le funzionalità di reporting per verificare l’integrità complessiva della documentazione prima che venga trasmessa in diretta o resa disponibile agli utenti finali. Il report mappa DITA dal dashboard delle mappe in Experience Manager Guides fornisce informazioni preziose come gli argomenti mancanti, gli argomenti con elementi mancanti, l&#39;UUID degli argomenti e dei file multimediali di riferimento e lo stato di revisione di ciascun argomento. Un report dettagliato a livello di singolo argomento fornisce inoltre informazioni relative al contenuto DITA, ad esempio riferimenti al contenuto e immagini mancanti o rimandi.
 
@@ -67,23 +69,23 @@ Per visualizzare il rapporto Mappa DITA, effettuare le seguenti operazioni:
 
      Gli elementi evidenziati in **A**, **B**, **C** e **D** sono descritti di seguito:
 
-      - **Argomento**: titolo dell&#39;argomento specificato nella mappa DITA. Passando il puntatore del mouse sul titolo dell&#39;argomento viene visualizzato il percorso completo dell&#39;argomento. In caso di problemi nell&#39;argomento, come riferimenti o immagini mancanti, viene visualizzato un punto rosso prima del titolo dell&#39;argomento.
+     - **Argomento**: titolo dell&#39;argomento specificato nella mappa DITA. Passando il puntatore del mouse sul titolo dell&#39;argomento viene visualizzato il percorso completo dell&#39;argomento. In caso di problemi nell&#39;argomento, come riferimenti o immagini mancanti, viene visualizzato un punto rosso prima del titolo dell&#39;argomento.
 
-      - **Nome file**: nome del file.
+     - **Nome file**: nome del file.
 
-      - **UUID**: identificatore univoco universale \(UUID\) del file.
+     - **UUID**: identificatore univoco universale \(UUID\) del file.
 
-      - **Autore**: utente che ha lavorato per ultimo su questo argomento.
+     - **Autore**: utente che ha lavorato per ultimo su questo argomento.
 
-      - **Stato documento**: lo stato corrente del documento: Bozza, In revisione o Rivisto.
+     - **Stato documento**: lo stato corrente del documento: Bozza, In revisione o Rivisto.
 
-      - **Elementi mancanti**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
+     - **Elementi mancanti**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
 
-      - **Argomenti mancanti \(B\)**: se sono presenti argomenti con riferimenti interrotti, questi verranno elencati nell&#39;elenco Argomenti mancanti.
+     - **Argomenti mancanti \(B\)**: se sono presenti argomenti con riferimenti interrotti, questi verranno elencati nell&#39;elenco Argomenti mancanti.
 
-      - **Apri in Framemaker \(C\)**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
+     - **Apri in Framemaker \(C\)**: elenca il numero di immagini mancanti o di riferimenti incrociati interrotti, se presenti.
 
-      - **Apri nell&#39;editor \(D\)**: se si seleziona questa icona, l&#39;argomento verrà aperto nell&#39;editor.
+     - **Apri nell&#39;editor \(D\)**: se si seleziona questa icona, l&#39;argomento verrà aperto nell&#39;editor.
 
 
    Gli elementi evidenziati in **E** sono descritti di seguito:
@@ -123,4 +125,4 @@ Per generare il file CSV di un rapporto mappa DITA, effettuare le seguenti opera
 
 Una volta scaricato il rapporto nella casella in entrata, puoi anche selezionarlo e utilizzare l’icona Apri nella parte superiore per aprire il rapporto selezionato.
 
-**Argomento padre:**&#x200B;[&#x200B; Introduzione ai report](reports-intro.md)
+**Argomento padre:**[ Introduzione ai report](reports-intro.md)

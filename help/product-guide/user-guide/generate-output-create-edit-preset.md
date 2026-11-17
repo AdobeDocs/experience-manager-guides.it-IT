@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Modificare, duplicare o eliminare un predefinito di output {#id205BEH0K09Z}
@@ -50,10 +50,14 @@ Puoi gestire i predefiniti di output dalla console Mappa e dal dashboard Mappa. 
 
 ## Utilizzo del dashboard delle mappe
 
+>[!NOTE]
+>
+>A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+
 Potete modificare, duplicare ed eliminare un predefinito di output utilizzando il quadro comandi Mappa (Map) selezionando la scheda desiderata dalla barra superiore, come mostrato di seguito.
 
 ![](images/create-new-preset-map-dashboard-new.png)
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

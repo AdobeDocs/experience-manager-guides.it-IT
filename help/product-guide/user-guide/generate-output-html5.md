@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1821'
 ht-degree: 0%
 ---
 # HTML5 {#id205BE700XO1}
@@ -97,6 +97,10 @@ Per informazioni dettagliate sulle opzioni di configurazione del predefinito, co
 
 ## Creare un predefinito di output HTML5 dal dashboard Mappa
 
+>[!NOTE]
+>
+>A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+
 Per creare il predefinito HTML5 dal dashboard Mappa, effettua le seguenti operazioni:
 
 1. Nell&#39;interfaccia utente di Assets, accedi alla mappa DITA e selezionala per aprirla nel dashboard Mappa.
@@ -130,7 +134,7 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 | Flusso di lavoro di post generazione | Quando scegli questa opzione, viene visualizzato un nuovo elenco a discesa Flusso di lavoro di post-generazione contenente tutti i flussi di lavoro configurati in AEM. È necessario selezionare un flusso di lavoro da eseguire dopo il completamento del flusso di lavoro di generazione dell&#39;output.<br><br>**Nota**:For ulteriori informazioni sulla creazione di un flusso di lavoro di generazione post-output personalizzato, visualizza _Personalizza flusso di lavoro di generazione post-output_ in Installare e configurare Adobe Experience Manager Guides as a Cloud Service. |
 | Nome della trasformazione | Specifica il tipo di output da generare. Questa opzione è necessaria se si desidera generare l&#39;output utilizzando un plug-in personalizzato, integrato nel plug-in DITA-OT. Se ad esempio si desidera generare l&#39;output XHTML, specificare `xhtml`. Per un elenco delle trasformazioni disponibili in DITA-OT, visualizzare [Trasformazioni DITA-OT (formati di output)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) nella Guida utente OASIS DITA-OT. |
 | Mantieni file temporanei | Selezionare questa opzione per mantenere i file temporanei generati da DITA-OT. Se si verificano errori durante la generazione dell&#39;output tramite DITA-OT, selezionare questa opzione per mantenere i file temporanei. È quindi possibile utilizzare tali file per risolvere eventuali errori di generazione dell&#39;output.<br> <br> Dopo aver generato l&#39;output, selezionare l&#39;icona **Scarica file temporanei** ![Scarica file temporanei](images/download-temp-files-icon.svg) per scaricare la cartella ZIP contenente i file temporanei. I file scaricati includerebbero anche `system_config.xml` file che fornisce informazioni sull&#39;URL dell&#39;autore, sull&#39;URL locale e sull&#39;URL di pubblicazione. Questi URL sono configurati nelle impostazioni di esternalizzazione di AEM e si riflettono nel file `system_config.xml`. <br><br> **Nota**: se le proprietà del file vengono aggiunte durante la generazione, i file temporanei di output includono anche un file *metadata.xml* contenente tali proprietà. |
-| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare.<br><br>Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. |
+| Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli.<br>**Nota**: se elimini una previsione utilizzata nel predefinito di output, il predefinito non viene aggiornato automaticamente. Prima di generare l&#39;output, effettuate le seguenti operazioni: <ul><li>**Se si elimina l&#39;unica previsione**: l&#39;opzione **Usa previsione** rimane abilitata e l&#39;elenco a discesa appare vuoto. La generazione dell&#39;output in questo stato non riesce. Disattiva l’interruttore Usa linea di base e aggiorna la pagina, quindi genera l’output.</li><li>**Se sono presenti più baseline ed è stato eliminato quello selezionato**: l&#39;elenco a discesa **Usa baseline** continua a mostrare la baseline eliminata come selezionata. Seleziona una Baseline valida dal menu a discesa, quindi genera l’output.</li></ul> |
 | Appiattisci gerarchia file | Selezionare l&#39;opzione per generare l&#39;output di HTML5 in una gerarchia di cartelle piatta. L’intero contenuto viene pubblicato in formato di output HTML5 in una gerarchia di file flat e salvato in un’unica cartella. <br> Se deselezioni questa opzione, l’output viene generato in una gerarchia di cartelle nidificate e l’intera struttura di cartelle viene replicata. |
 | Proprietà file | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa vengono visualizzate nel campo **Proprietà file**. Seleziona l’icona a forma di croce accanto alla proprietà per rimuoverla. <br><br>**Nota**: è inoltre possibile passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
@@ -140,4 +144,4 @@ Ad esempio, **Percorso di output/Percorso di destinazione** - In questo caso, **
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
