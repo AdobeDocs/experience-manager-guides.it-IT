@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # Informazioni sui predefiniti di output {#understanding_output_settings}
+
+>[!NOTE]
+>
+>A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
 
 Experience Manager Guides supporta la creazione di output nei formati più popolari come AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. In questo caso, un predefinito di output rappresenta un formato di output personalizzato in cui desideri pubblicare il contenuto.
 

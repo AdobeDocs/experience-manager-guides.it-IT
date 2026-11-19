@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # Trasmettere i metadati all&#39;output utilizzando DITA-OT {#id21BJ00QD0XA}
@@ -82,6 +82,10 @@ Le proprietà dei metadati selezionate verranno passate all&#39;output generato 
 > A partire dalla versione 2502 di Experience Manager Guides, la funzionalità di trasmissione degli argomenti dei metadati delle mappe radice tramite la riga di comando DITA-OT è stata dichiarata obsoleta. Tuttavia, per evitare interruzioni, è stata aggiunta una nuova proprietà in `Config.Manager` per abilitare o disabilitare la funzionalità.  Per ulteriori dettagli, visualizzare [Configurare le impostazioni di generazione output](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
 ## Utilizzo del dashboard delle mappe
+
+>[!NOTE]
+>
+>A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
 
 Se si lavora nell&#39;**interfaccia utente di Assets**, eseguire la procedura seguente per passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT:
 

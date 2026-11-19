@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ Se pubblichi una mappa di grandi dimensioni in locale, potrebbe essere necessari
 
 Parte di ogni richiesta di pubblicazione deve essere eseguita sull’istanza di AEM per recuperare il contenuto di pubblicazione corretto da inviare al microservizio. La nuova architettura cloud utilizza i processi di AEM al posto dei flussi di lavoro di AEM, come avveniva nella vecchia architettura. Questa modifica consente agli amministratori di AEM Guides di configurare singolarmente le impostazioni della coda di pubblicazione cloud senza influire su altri processi o configurazioni del flusso di lavoro di AEM.
 
-I dettagli sulla configurazione del nuovo microservizio di pubblicazione sono disponibili qui: [Configura microservizio](configure-microservices.md)
+I dettagli sulla configurazione del nuovo microservizio di pubblicazione sono disponibili qui: [Configura microservizio](./configure-microservices-imt-config.md)
