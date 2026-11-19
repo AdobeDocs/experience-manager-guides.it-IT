@@ -1,5 +1,5 @@
 ---
-title: Diramazione in AEM Guides | Adobe Experience Manager Guides`
+title: Diramazione in AEM Guides | ADOBE EXPERIENCE MANAGER GUIDES
 description: Scopri come creare e gestire i rami di una mappa DITA in AEM Guides per supportare l’authoring parallelo, la pubblicazione indipendente e l’unione delle modifiche alla documentazione.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # Panoramica
@@ -54,8 +54,6 @@ Entrambi i team possono lavorare in modo indipendente sui rispettivi rami della 
 >Viene creato un ramo in base a una mappa DITA. Puoi anche aggiungere e modificare argomenti a cui la mappa non fa riferimento nel ramo selezionato. Per ulteriori informazioni, visualizzare [Apri o modifica argomenti esterni alla mappa corrente](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 Quando si crea un ramo di una mappa DITA, Experience Manager Guides non copia automaticamente gli argomenti di riferimento della mappa nel nuovo ramo. Gli argomenti non modificati vengono letti dal ramo di origine o dal ramo predefinito (principale). Un argomento viene copiato nel nuovo ramo solo quando lo si modifica e lo si salva in tale ramo.
-
-Ad esempio, una mappa DITA fa riferimento a 100 argomenti e il repository contiene 50 argomenti aggiuntivi ai quali la mappa non fa riferimento. Quando crei un nuovo ramo (versione 1.0), tutti i 100 argomenti a cui si fa riferimento diventano automaticamente parte della versione 1.0, anche se nessuno di essi viene modificato. I 50 argomenti senza riferimenti non diventano automaticamente parte del nuovo ramo. Se ne modifichi 10, solo queste 10 diventano parte della release-1.0. I rimanenti 40 argomenti non modificati continuano a essere utilizzati dal ramo predefinito (principale).
 
 >[!NOTE]
 >
