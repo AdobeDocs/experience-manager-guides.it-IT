@@ -23,18 +23,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 92654f51cb5f9ad4b0d625460e8b16908e01b2a5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1041'
 ht-degree: 0%
 ---
 # Unire un ramo in principale
 
 In Experience Manager Guides è possibile unire le modifiche da un ramo di una mappa DITA al ramo `main`. L&#39;unione consente di incorporare gli aggiornamenti della documentazione completati in `main` senza copiare manualmente le modifiche in `main`.
 
-Si consideri ad esempio una mappa DITA denominata `install-the-lift.ditamap` con un ramo denominato `Release 2`. Gli autori possono aggiornare le istruzioni di installazione in questo ramo mentre la documentazione esistente rimane invariata in `main`.
+Si consideri ad esempio una mappa DITA denominata `install-the-lift.ditamap` con un ramo denominato `Release 2.0`. Gli autori possono aggiornare le istruzioni di installazione (descritte in uno degli argomenti della mappa) in questo ramo, mentre la documentazione esistente rimane invariata in `main`.
 
-Quando gli aggiornamenti sono pronti, gli autori possono unire le modifiche da `Release 2` a `main`.
+Quando gli aggiornamenti sono pronti, gli autori possono unire le modifiche da `Release 2.0` a `main`.
 
 ## Comprendere l’unione di rami
 
@@ -64,14 +64,12 @@ Per unire un ramo, effettuate le seguenti operazioni:
 
 5. Seleziona la richiesta di unione.
 
-   La richiesta di unione si apre nella visualizzazione **Unisci ramo**. Rivedi le modifiche e risolvi eventuali conflitti, se necessario.
-6. Completate l&#39;unione.
+   La richiesta di unione si apre nella visualizzazione **Unisci ramo**, in cui sono elencati i file con conflitti e i file che è possibile unire senza conflitti.
+6. Se la richiesta di unione contiene conflitti, risolvili. Per ulteriori informazioni, visualizzare [Risolvi conflitti di unione](#resolve-merge-conflicts).
 
-   Rivedi le modifiche e risolvi eventuali conflitti, se necessario. Per ulteriori informazioni, visualizzare [Risolvi conflitti di unione](#resolve-merge-conflicts).
+7. Seleziona **Unisci tutti**.
 
-   Una volta risolti tutti i conflitti, selezionare **Unisci tutti** per unire le modifiche in `main`.
-
-   Le modifiche vengono unite al ramo `main`.
+   Le modifiche dal ramo vengono unite a `main`.
 
 ## Risolvi conflitti di unione
 
@@ -143,20 +141,17 @@ Per risolvere i conflitti di unione, effettuare le seguenti operazioni:
 
    In alternativa, è possibile rivedere o modificare il contenuto direttamente nel riquadro **Unito** e selezionare **Contrassegna come risolto** per mantenere il contenuto unito.
 
-4. Rivedi il contenuto finale nel riquadro **Unito** e seleziona **Contrassegna come risolto** per contrassegnare il file come risolto.
-
-5. Ripeti i passaggi per tutti i file elencati in **Conflitti**.
+4. Ripeti i passaggi per tutti i file elencati in **Conflitti**.
 
    Una volta risolti tutti i conflitti, diventa disponibile l&#39;opzione **Unisci tutti**.
 
-6. Selezionare **Unisci tutti** per unire i file risolti e gli aggiornamenti puliti in `main`.
+5. Selezionare **Unisci tutti** per unire i file risolti e gli aggiornamenti puliti in `main`.
 
    >[!NOTE]
    > 
    > L&#39;opzione **Unisci tutti** rimane disabilitata fino alla risoluzione di tutti i conflitti.
 
    Le modifiche risolte vengono unite in `main`. Impossibile annullare un&#39;unione completata. Tuttavia, puoi creare una nuova richiesta di unione per unire le modifiche successive in main.
-
 
 
 ## Gestire una richiesta di unione
