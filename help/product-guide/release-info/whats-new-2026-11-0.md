@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità della versione 2026.11.0 di Adobe Experience Manager Guides
 description: Scopri le nuove funzioni della versione 2026.11.0 di Adobe Experience Manager Guides, tra cui la ramificazione a livello di mappa e la creazione di contenuti con Assistente AI.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ Per l&#39;elenco dei problemi risolti in questa versione, visualizza [Problemi r
 Scopri le [istruzioni di aggiornamento per la versione 2026.11.0](../release-info/upgrade-instructions-2026-11-0.md).
 
 ## Introduzione alla diramazione e all&#39;unione a livello di mappa
+
+>[!NOTE]
+>
+> La funzionalità **Branching and merge** è attualmente supportata solo in ambienti Cloud Service che utilizzano una configurazione del database ed è disabilitata per impostazione predefinita. Per abilitare la ramificazione e l’unione nell’ambiente, contatta il team Customer Success.
 
 Experience Manager Guides introduce la funzionalità di diramazione e unione a livello di mappa, che consente agli autori di lavorare su più versioni della documentazione, aggiornamenti delle funzioni e correzioni critiche in parallelo senza influire sul contenuto principale. Gli autori possono creare rami isolati di una mappa DITA e delle relative dipendenze, garantendo che le modifiche, i blocchi e le anteprime rimangano specifici per ogni ramo.
 

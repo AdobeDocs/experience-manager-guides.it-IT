@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Per creare un ramo, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > Se nell’editor è già aperta un’altra mappa, viene visualizzata una finestra di dialogo di conferma. Seleziona **Apri** per aprire la mappa selezionata nel ramo corrente. Per ulteriori informazioni, visualizzare [Aprire il contenuto al di fuori del contesto della mappa corrente](#open-content-outside-the-current-map-context).
+   > Se nell’editor è già aperta un’altra mappa, viene visualizzata una finestra di dialogo di conferma. Seleziona **Apri** per aprire la mappa selezionata nel ramo corrente. Per ulteriori informazioni, visualizzare [Aprire una mappa al di fuori del contesto corrente](#open-a-map-outside-the-current-map-context).
 
 1. Seleziona il menu a discesa del ramo **main** e verifica che sia selezionata la mappa DITA richiesta.
 
@@ -53,7 +53,7 @@ Per creare un ramo, effettua le seguenti operazioni:
 
 1. Seleziona **Nuovo ramo** per creare un ramo della mappa selezionata.
 
-1. Nella finestra di dialogo **Nuovo ramo**, immetti un nome per il nuovo ramo e seleziona il ramo principale da cui desideri crearlo.
+1. Nella finestra di dialogo **Nuovo ramo**, immettere un nome per il nuovo ramo e selezionare il **ramo Source** (che funge da ramo principale) da cui si desidera crearlo.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Per cambiare ramo, effettua le seguenti operazioni:
 
 Ora puoi lavorare sulla mappa e sul relativo contenuto associato all’interno del ramo selezionato.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >Se in un argomento sono presenti modifiche non salvate quando si cambia ramo, viene visualizzata una finestra di dialogo in cui viene richiesto di salvare le modifiche prima di passare al ramo selezionato.
-
-Ora puoi lavorare sulla mappa e sul relativo contenuto associato all’interno del ramo selezionato.
 
 ## Modifica isolata in un ramo
 
@@ -199,7 +195,7 @@ Per archiviare un ramo, effettua le seguenti operazioni:
 
 È possibile ripristinare un ramo archiviato di una mappa DITA quando è necessario riprendere a lavorare sul relativo contenuto.
 
-Per ripristinare un ramo archiviato, effettuare le seguenti operazioni:
+Per ripristinare un ramo archiviato, effettua le seguenti operazioni:
 
 1. Nel pannello **Rami**, seleziona l&#39;icona **Gestisci**.
 2. Nella finestra di dialogo **Gestisci rami**, seleziona la scheda **Archiviato**.
