@@ -2,9 +2,9 @@
 title: Note sulla versione | Novità della versione 2026.11.0 di Adobe Experience Manager Guides
 description: Scopri le nuove funzioni della versione 2026.11.0 di Adobe Experience Manager Guides, tra cui la ramificazione a livello di mappa e la creazione di contenuti con Assistente AI.
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Per informazioni dettagliate, visualizzare [Gestisci processo di generazione out
 
 È possibile eliminare la cronologia di output **Per età** (rimuovendo le voci più vecchie di un numero specificato di giorni) o **Per conteggio** (mantenendo solo un numero specificato di voci recenti).
 
-È inoltre possibile scegliere di eliminare solo i registri di output conservando le voci della cronologia a scopo di controllo oppure di rimuovere sia i registri che le voci associate. Queste opzioni consentono di ottimizzare l’archiviazione dell’archivio e al tempo stesso di fornire un maggiore controllo sulla rimozione della cronologia di output.
+È possibile scegliere di eliminare solo i registri di output conservando le voci della cronologia a scopo di controllo oppure di rimuovere sia i registri che le voci associate. Queste opzioni consentono di ottimizzare l’archiviazione dell’archivio e al tempo stesso di fornire un maggiore controllo sulla rimozione della cronologia di output.
 
 Per ulteriori informazioni, visualizzare [Configurare il periodo di rimozione automatica per la cronologia di output](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
