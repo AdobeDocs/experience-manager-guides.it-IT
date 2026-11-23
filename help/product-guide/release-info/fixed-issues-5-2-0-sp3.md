@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 0%
 ---
 # Sono stati risolti i problemi nella versione 5.2.0 Service Pack 3 (novembre 2026)
@@ -74,4 +74,4 @@ Informazioni sulle [istruzioni di aggiornamento per la versione 5.2.0 Service Pa
 
 Adobe ha identificato i seguenti problemi noti per la versione 5.2.0 Service Pack 3:
 
-- Dopo aver installato il service pack, la convalida Schematron potrebbe non riuscire con un&#39;eccezione `NoClassDefFoundError` e non è possibile salvare gli argomenti nell&#39;editor. <br>**Soluzione alternativa:** aggiornare il bundle `com.adobe.fmdita.schematron-wrapper` dalla console Web di AEM (`/system/console/bundles`).
+- Dopo aver installato il service pack, la convalida Schematron potrebbe non riuscire con un&#39;eccezione `NoClassDefFoundError` e non è possibile salvare gli argomenti nell&#39;editor. (GUIDES-60062)<br>**Soluzione alternativa:** Aggiornare il bundle `com.adobe.fmdita.schematron-wrapper` dalla console Web di AEM (`/system/console/bundles`).
