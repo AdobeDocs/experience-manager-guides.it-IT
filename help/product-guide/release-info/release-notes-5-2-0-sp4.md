@@ -31,7 +31,7 @@ Utilizza le seguenti risorse per sviluppare plug-in Java personalizzati o integr
 |---|---|---|----|
 | 5.2.0 Service Pack 4 (UUID) | 5.2.2 | [API SDK AEM Guides 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Per ulteriori dettagli, visualizza [Configura e utilizza l&#39;API JAR dall&#39;archivio centrale Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Per ulteriori dettagli, visualizza [Configura e utilizza l&#39;API JAR dall&#39;archivio centrale Maven](https://experienceleague.adobe.com/it/docs/experience-manager-guides/using/api-reference/introduction).
 
 ## Aggiornamento alla versione 5.2.0 Service Pack 4 di Experience Manager Guides
 
