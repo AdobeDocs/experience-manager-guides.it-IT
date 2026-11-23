@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 1%
 ---
 # Note sulla versione 5.2.0 Service Pack 4 (novembre 2026)
@@ -45,7 +45,7 @@ Scopri come installare Experience Manager Guides 5.2.0 Service Pack 4.
 
 Prima di avviare il processo di aggiornamento di Experience Manager Guides 5.2.0 Service Pack 4, verificare di utilizzare la versione 5.2.0 di Service Pack 1.
 
-### Processo di aggiornamento versione 5.2.0 Service Pack 4
+### Processo di aggiornamento per la versione 5.2.0 Service Pack 4
 
 1. Scarica il pacchetto Experience Manager Guides versione 5.2.0 Service Pack 4.
 1. Caricare il pacchetto nell&#39;istanza utilizzando Gestione pacchetti (`/crx/packmgr`).
