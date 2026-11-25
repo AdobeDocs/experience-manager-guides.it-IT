@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '940'
 ht-degree: 0%
 ---
 # Scarica file {#id216MC0H0BE8}
 
-È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=it) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
+È possibile scaricare risorse, inclusi file DITA e non DITA. Esistono diversi modi per scaricare le risorse, alcuni metodi sono nativi per Adobe Experience Manager e altri sono supportati da Adobe Experience Manager Guides. Per informazioni sul download di risorse Adobe Experience Manager native, visualizza [Scarica risorse da Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) nella documentazione di Adobe Experience Manager. La sezione seguente spiega il meccanismo di download dei file in Experience Manager Guides.
 
 ## Scaricare un file di mappa DITA dall&#39;editor
 
@@ -92,7 +92,7 @@ Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nell
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Dopo aver inserito il file mappa DITA nell&#39;archivio di Adobe Experience Manager, è possibile scaricare il file mappa insieme ai relativi dipendenti. Questo offre la flessibilità di condividere l&#39;intero file di mappa per la modifica, la convalida, la revisione o semplicemente la creazione di un backup.
 
@@ -137,4 +137,4 @@ Per scaricare un file mappa DITA insieme ai relativi file dipendenti, effettuare
 
 Una volta scaricata la mappa, puoi selezionarla e utilizzare l’icona Apri nella parte superiore per aprire il contenuto scaricato.
 
-**Argomento padre:**&#x200B;[&#x200B; Gestisci contenuto](authoring.md)
+**Argomento padre:**[ Gestisci contenuto](authoring.md)

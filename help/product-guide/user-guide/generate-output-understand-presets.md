@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '299'
 ht-degree: 1%
 ---
 # Informazioni sui predefiniti di output {#understanding_output_settings}
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Experience Manager Guides supporta la creazione di output nei formati più popolari come AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON e output personalizzato tramite DITA-OT, Native PDF e FMPS. Utilizzando questi formati di output, puoi configurare vari predefiniti di output. In questo caso, un predefinito di output rappresenta un formato di output personalizzato in cui desideri pubblicare il contenuto.
 
@@ -67,4 +67,4 @@ Per i formati di output supportati sono disponibili le seguenti opzioni predefin
 
 In qualità di amministratore, Experience Manager Guides ti consente di creare e gestire i predefiniti di output per i profili globali e delle cartelle. Per ulteriori dettagli, visualizzare [Gestione predefiniti di output globali e Profilo cartella](./web-editor-manage-output-presets.md).
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

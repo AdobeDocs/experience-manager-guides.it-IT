@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # Trasmettere i metadati all&#39;output utilizzando DITA-OT {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ Per trasferire i metadati all&#39;output utilizzando la pubblicazione DITA-OT, e
 
    Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`.
 
-   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=it).
+   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Le proprietà selezionate sono elencate sotto il menu a discesa.
 
@@ -85,7 +85,7 @@ Le proprietà dei metadati selezionate verranno passate all&#39;output generato 
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Se si lavora nell&#39;**interfaccia utente di Assets**, eseguire la procedura seguente per passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT:
 
@@ -105,7 +105,7 @@ Se si lavora nell&#39;**interfaccia utente di Assets**, eseguire la procedura se
 
    Il file può essere sovrapposto in: `/apps/fmdita/config/metadataList`.
 
-   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=it).
+   Per passare una proprietà personalizzata per la quale sono già stati definiti i valori, visualizzare [Utilizzare i metadati di AEM nell&#39;output di PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Dal menu a discesa **Proprietà**, seleziona le proprietà personalizzate e predefinite richieste. Selezionare ad esempio `author`, `dc:title` e `dc:description`. Questi sono i `metadata/properties` standard che vengono creati dopo la creazione di un file. Le proprietà selezionate sono elencate sotto la dropbox.
 
@@ -118,4 +118,4 @@ Le proprietà dei metadati selezionate verranno passate all&#39;output generato 
 
 
 
-**Argomento padre:**&#x200B;[&#x200B; Generazione output](generate-output.md)
+**Argomento padre:**[ Generazione output](generate-output.md)

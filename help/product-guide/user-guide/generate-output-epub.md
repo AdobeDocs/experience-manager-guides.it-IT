@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # EPUB {#id205BED020YT}
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Pertanto, la creazione di predefiniti di EPUB non è disponibile.  Tuttavia, la funzione Mappa dashboard rimarrà abilitata per i clienti esistenti che la stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. Pertanto, la creazione di predefiniti di EPUB non è disponibile. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Puoi creare il predefinito EPUB dal dashboard delle mappe.
 
@@ -81,4 +81,4 @@ Per il predefinito EPUB sono disponibili le seguenti opzioni di configurazione:
 | Usa linea di base | Se è stata creata una baseline per la mappa DITA selezionata, selezionare questa opzione per specificare la versione da pubblicare. Visualizza [Utilizza la previsione](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) per ulteriori dettagli. <br>**Nota**: se si elimina una baseline utilizzata nel predefinito di output, il predefinito non viene aggiornato automaticamente. Prima di generare l&#39;output, effettuate le seguenti operazioni: <ul><li>**Se si elimina l&#39;unica previsione**: l&#39;opzione **Usa previsione** rimane abilitata e l&#39;elenco a discesa appare vuoto. La generazione dell&#39;output in questo stato non riesce. Disattiva l’interruttore Usa linea di base e aggiorna la pagina, quindi genera l’output.</li><li>**Se sono presenti più baseline ed è stato eliminato quello selezionato**: l&#39;elenco a discesa **Usa baseline** continua a mostrare la baseline eliminata come selezionata. Seleziona una Baseline valida dal menu a discesa, quindi genera l’output.</li></ul> |
 | Proprietà | Seleziona le proprietà da elaborare come metadati. Queste proprietà vengono impostate dalla pagina Proprietà del file mappa DITA o del file mappa segnalibro. Le proprietà selezionate dall&#39;elenco a discesa sono elencate sotto il campo Proprietà e vengono rimosse dall&#39;elenco a discesa. Una volta impostate, queste proprietà vengono copiate anche negli argomenti della mappa.<br><br>**Nota**: è inoltre possibile passare i metadati all&#39;output utilizzando la pubblicazione DITA-OT. Per ulteriori dettagli, [Trasmettere i metadati all&#39;output utilizzando DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Argomento padre:**&#x200B;[&#x200B; Informazioni sui predefiniti di output](generate-output-understand-presets.md)
+**Argomento padre:**[ Informazioni sui predefiniti di output](generate-output-understand-presets.md)
