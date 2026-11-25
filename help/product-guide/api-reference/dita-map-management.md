@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f3225fd7090ddfdcba5ec80908d9e300520ae995
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 4%
 ---
 # API REST per lavorare con le mappe DITA {#id175UB30E05Z}
@@ -36,7 +36,7 @@ La seguente API REST consente di lavorare con le mappe DITA in AEM Guides.
 
 ## Scarica mappa DITA con dipendenti
 
-Un metodo GET che scarica una mappa DITA con tutti i relativi dipendenti, ad esempio gli argomenti di riferimento, le mappe secondarie, le immagini e le DTD utilizzate nella mappa e negli argomenti.
+Un metodo GET che scarica una mappa DITA con tutti i relativi dipendenti, ad esempio gli argomenti di riferimento, le mappe secondarie, le immagini e le DTD utilizzate nelle mappe e negli argomenti.
 
 **URL richiesta**:
 http://*&lt;server-guide-aem\>*: *&lt;numero-porta\>*/bin/fmdita/exportditamap

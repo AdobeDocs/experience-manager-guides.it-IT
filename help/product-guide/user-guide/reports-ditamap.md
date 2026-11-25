@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # Rapporto mappa DITA dal dashboard delle mappe {#id205BB800EEN}
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Adobe Experience Manager Guides fornisce agli amministratori le funzionalità di reporting per verificare l’integrità complessiva della documentazione prima che venga trasmessa in diretta o resa disponibile agli utenti finali. Il report mappa DITA dal dashboard delle mappe in Experience Manager Guides fornisce informazioni preziose come gli argomenti mancanti, gli argomenti con elementi mancanti, l&#39;UUID degli argomenti e dei file multimediali di riferimento e lo stato di revisione di ciascun argomento. Un report dettagliato a livello di singolo argomento fornisce inoltre informazioni relative al contenuto DITA, ad esempio riferimenti al contenuto e immagini mancanti o rimandi.
 

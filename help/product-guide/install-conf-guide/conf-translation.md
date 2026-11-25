@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1649'
 ht-degree: 5%
 ---
 # Tradurre il contenuto {#id181GB0400UI}
@@ -78,7 +78,7 @@ Se il fornitore di servizi di traduzione non fornisce un connettore per l’inte
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Tuttavia, rimarrà abilitato per i clienti esistenti che lo stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Le schede seguenti forniscono istruzioni per nascondere la scheda Traduzione nel dashboard delle mappe DITA in base alla configurazione di Experience Manager Guides: Cloud Service o On-Premise.
 

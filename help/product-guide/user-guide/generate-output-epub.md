@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # EPUB {#id205BED020YT}
 
 >[!NOTE]
 >
->A partire dalla versione 2027.01.0 per Cloud Service e dalla versione 5.4 per On-Premise of Experience Manager Guides , la funzione Map dashboard (Mappa dashboard) diventerà obsoleta per i nuovi clienti. Pertanto, la creazione di predefiniti di EPUB non è disponibile.  Tuttavia, la funzione Mappa dashboard rimarrà abilitata per i clienti esistenti che la stanno già utilizzando. Se desideri disabilitare la dashboard Mappa, contatta il team Customer Success. In futuro, è consigliabile utilizzare la console Mappa per la gestione delle mappe e la pubblicazione.
+>A partire dalla versione 2027.01.0 di Experience Manager Guides Cloud Service e dalla versione 5.3 On-Premise, la dashboard Mappa diventerà obsoleta per i nuovi clienti. Pertanto, la creazione di predefiniti di EPUB non è disponibile. I nuovi clienti utilizzeranno la console Mappa per impostazione predefinita. Con la versione 2027.03.0, la dashboard Mappa verrà disabilitata per impostazione predefinita. In futuro, consigliamo di utilizzare la console Mappa per la gestione e la pubblicazione delle mappe. Se hai ancora bisogno di accedere alla dashboard della mappa, contatta il team Customer Success per assistenza.
 
 Puoi creare il predefinito EPUB dal dashboard delle mappe.
 
